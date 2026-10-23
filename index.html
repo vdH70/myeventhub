@@ -1219,7 +1219,7 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
   function renderFavs(){
     const list = upcoming.filter(e => favs.has(e.id)).sort((a,b)=>(isRanged(a)?todayIso:a.date).localeCompare(isRanged(b)?todayIso:b.date)||(a.startTime||"99").localeCompare(b.startTime||"99"));
     document.getElementById("favlist").innerHTML = list.length
-      ? waAllHtml(list)+'<div class="events" style="padding-block:18px">'+list.map(e => '<div class="favitem">'+evHtml(e,true)+waOneHtml(e)+'</div>').join("")+'</div>'
+      ? waAllHtml(list)+'<div class="events" style="padding-block:18px">'+list.map(e => evHtml(e,true)).join("") /* v309 Thomas: nur die ganze Merkliste teilen */+'</div>'
       : '<div class="empty">Noch nichts gemerkt. Tippe bei einem Termin auf das Herz.<br><small>Die Merkliste wird nur in diesem Browser gespeichert.</small></div>';
   }
   function updateFavCount(){ document.getElementById("favcount").textContent = "(" + upcoming.filter(e => favs.has(e.id)).length + ")"; }
