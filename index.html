@@ -743,7 +743,7 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
   const SPIELPARKS = C.venues.filter(v => v.kind === "indoorspielpark");
   const catEl = document.getElementById("cats");
   catEl.innerHTML = '<button class="chip" data-cat="" aria-pressed="true">Alles</button>' +
-    CATS.filter(([k]) => upcoming.some(e => catMatch(e, k)) || (k === "Flughafen" && C.venues.some(v => v.kind === "flughafen")) || (k === "Freizeitpark" && C.venues.some(v => v.kind === "freizeitpark")) || (k === "Hofladen" && C.venues.some(v => v.kind === "hofladen")) || (k === "Science" && C.venues.some(v => v.sciencecenter))).slice().sort((a,b) => (b[1]==="Musik") - (a[1]==="Musik") || a[1].localeCompare(b[1],"de")).map(([k,l]) => '<button class="chip" data-cat="'+esc(k)+'" aria-pressed="false">'+esc(l)+'</button>').join("") +
+    CATS.filter(([k]) => upcoming.some(e => catMatch(e, k)) || (k === "Flughafen" && C.venues.some(v => v.kind === "flughafen")) || (k === "Freizeitpark" && C.venues.some(v => v.kind === "freizeitpark")) || (k === "Hofladen" && C.venues.some(v => v.kind === "hofladen")) || (k === "Science" && C.venues.some(v => v.sciencecenter))).slice().sort((a,b) => a[1].localeCompare(b[1],"de")) /* v305 Thomas: Musik alphabetisch einordnen */.map(([k,l]) => '<button class="chip" data-cat="'+esc(k)+'" aria-pressed="false">'+esc(l)+'</button>').join("") +
     /* v239 Thomas: Catering wieder gelöscht */
     (SPIELPARKS.length ? '<button class="chip" data-cat="Spielpark" aria-pressed="false">Indoor-Spielparks</button>' : '') +
     '<span class="agebr" aria-hidden="true"></span>' + AGES.filter(a => upcoming.some(e => agesOf(e).has(a))).map(a => '<button class="chip" data-age="'+a+'" aria-pressed="false">Ü'+a+'</button>').join("") +
