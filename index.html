@@ -262,6 +262,10 @@ select{flex:1 1 200px;max-width:100%;width:100%}
 #cityfilter .chip.stcity{border:1.5px solid var(--red)}
 #ranges .chip[data-range="heute"]{border-color:var(--red);color:var(--red);font-weight:700;animation:hz-puls 1.6s ease-in-out infinite}
 #ranges .chip[data-range="heute"][aria-pressed="true"]{background:var(--red);color:#fff}
+/* v308 Thomas: „Musik“ unter „Was?“ pulsiert orange wie „Heute“ */
+#cats .chip[data-cat="Musik"]{border-color:var(--red);color:var(--red);font-weight:700;animation:hz-puls 1.6s ease-in-out infinite}
+#cats .chip[data-cat="Musik"][aria-pressed="true"]{background:var(--red);color:#fff}
+@media (prefers-reduced-motion:reduce){#cats .chip[data-cat="Musik"]{animation:none}}
 .rel.today{animation:hz-puls 1.6s ease-in-out infinite}
 @keyframes hz-puls{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(237,99,27,.65)}50%{transform:scale(1.1);box-shadow:0 0 0 7px rgba(237,99,27,0)}}
 @media (prefers-reduced-motion:reduce){#ranges .chip[data-range="heute"],.rel.today{animation:none}}
