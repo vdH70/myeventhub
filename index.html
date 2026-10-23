@@ -749,6 +749,7 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
     '<span class="agebr" aria-hidden="true"></span>' + AGES.filter(a => upcoming.some(e => agesOf(e).has(a))).map(a => '<button class="chip" data-age="'+a+'" aria-pressed="false">Ü'+a+'</button>').join("") +
     (upcoming.some(isA16) ? '<button class="chip" data-flag="a16" aria-pressed="false" title="Nur Termine, bei denen der Veranstalter ausdrücklich ab 16 Jahren angibt">ab 16</button>' : '') +
     (upcoming.some(isFree) ? '<button class="chip" data-flag="free" aria-pressed="false" title="Nur Termine, bei denen der Veranstalter ausdrücklich freien Eintritt angibt">kostenlos</button>' : '');
+  { const sp = catEl.querySelector('[data-cat="Spielpark"]'); if (sp) { const nx = [...catEl.querySelectorAll("[data-cat]")].find(x => x !== sp && x.dataset.cat && x.textContent.trim().localeCompare(sp.textContent.trim(),"de") > 0); if (nx) nx.before(sp); } } // v306 Thomas: Indoor-Spielparks alphabetisch
   { const fb = catEl.querySelector('[data-flag="free"]'), kb = [...catEl.querySelectorAll("[data-cat]")].find(x => x.textContent.trim() === "Konzerte"); if (fb && kb) kb.after(fb); } // v235 kostenlos hinter Konzerte
   catEl.addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
