@@ -172,6 +172,7 @@ footer a,.legal-foot a{margin-inline:10px}footer a{display:inline-block;margin-t
 @media (max-width:560px){#ranges.chips>.chip[data-range="uebermorgen"]{order:1}}
 /* v302 Thomas: „Kino“ in „Kino an diesem Tag“ 50 % größer */
 .kino-tag .kino-big{font-size:150%;font-weight:700}
+.laufend-tag .kino-big{font-size:150%;font-weight:700} /* v304 Thomas: „Außerdem“ so groß wie „Kino“ */
 /* v303 Thomas: WhatsApp-Teilen in der Merkliste */
 .wa-btn{display:inline-flex;align-items:center;gap:6px;color:#fff!important;background:#1f8f4e;border-radius:999px;padding:6px 14px;font-weight:700;font-size:15px;text-decoration:none}
 .wa-btn:hover{background:#16733e}
@@ -1138,7 +1139,7 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
     const spLazy = new Map(); let spRows = 0;
     const spHtml = d => { const a = spOn.get(d); if (!a) return ''; const open = spDays.length <= 3 || d === spDays[0] || (a.length <= 60 && spRows + a.length <= 2500); if (open) spRows += a.length;
       if (!open) spLazy.set(d, a);
-      return '<details class="ongoing laufend-tag" data-day="'+d+'"'+(open?' open':'')+'><summary>'+(byDay.get(d).length ? 'Außerdem laufend' : 'Laufend')+' an diesem Tag: '+tsd(a.length)+' (Ausstellungen und mehrtägige Veranstaltungen)</summary><div class="events">'+(open ? a.map(e => evHtml(e,false)).join("") : '')+'</div></details>'; };
+      return '<details class="ongoing laufend-tag" data-day="'+d+'"'+(open?' open':'')+'><summary>'+(byDay.get(d).length ? '<span class="kino-big">Außerdem</span> laufend' : '<span class="kino-big">Laufend</span>')+' an diesem Tag: '+tsd(a.length)+' (Ausstellungen und mehrtägige Veranstaltungen)</summary><div class="events">'+(open ? a.map(e => evHtml(e,false)).join("") : '')+'</div></details>'; };
     /* v291 Thomas: Kinovorstellungen eines Tages als eigener aufklappbarer Punkt */
     const kinoGroup = state.cat !== "Kino" && !(state.q||"").trim(); const kinoLazy = new Map();
     const isKinoEv = e => e.category === "Kino";
