@@ -1214,8 +1214,8 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
     const txt = "Meine Merkliste von my Event Hub:\n\n"+part.map(waLine).join("\n\n")+(list.length > MAX ? "\n\n… und "+(list.length-MAX)+" weitere" : "")+"\n\n"+SITE_URL;
     const MMAX = 12, mpart = list.slice(0, MMAX); /* mailto-Links dürfen nicht zu lang werden */
     const mtxt = "Meine Merkliste von my Event Hub:\n\n"+mpart.map(e => waLine(e,true)).join("\n\n")+(list.length > MMAX ? "\n\n… und "+(list.length-MMAX)+" weitere auf "+SITE_URL : "\n\n"+SITE_URL);
-    return '<div class="wa-all-row share-row"><a class="wa-btn wa-all" target="_blank" rel="noopener" href="'+esc(waHref(txt))+'">'+WA_ICON+'<span>Ganze Merkliste per WhatsApp teilen</span></a>'+
-      '<a class="wa-btn mail-btn" href="'+esc(mailHref("Meine Merkliste von my Event Hub", mtxt))+'">'+MAIL_ICON+'<span>Ganze Merkliste per E-Mail teilen</span></a></div>';
+    return '<div class="wa-all-row share-row"><a class="wa-btn wa-all" target="_blank" rel="noopener" href="'+esc(waHref(txt))+'">'+WA_ICON+'<span>Merkliste per WhatsApp teilen</span></a>'+
+      '<a class="wa-btn mail-btn" href="'+esc(mailHref("Meine Merkliste von my Event Hub", mtxt))+'">'+MAIL_ICON+'<span>Merkliste per E-Mail teilen</span></a></div>';
   }
   function renderFavs(){
     const list = upcoming.filter(e => favs.has(e.id)).sort((a,b)=>(isRanged(a)?todayIso:a.date).localeCompare(isRanged(b)?todayIso:b.date)||(a.startTime||"99").localeCompare(b.startTime||"99"));
