@@ -170,6 +170,8 @@ footer a,.legal-foot a{margin-inline:10px}footer a{display:inline-block;margin-t
 @media (max-width:560px){#ranges.chips>.chip[data-range="morgen"]{order:1}}
 /* v301 Thomas: „Übermorgen“ direkt nach „Morgen“ */
 @media (max-width:560px){#ranges.chips>.chip[data-range="uebermorgen"]{order:1}}
+/* v302 Thomas: „Kino“ in „Kino an diesem Tag“ 50 % größer */
+.kino-tag .kino-big{font-size:150%;font-weight:700}
 </style>
 <title>** my Event Hub **</title>
 <meta name="description" content="Konzerte, Ausstellungen, Messen, Jobbörsen, Führungen, Kinderveranstaltungen und Tage der offenen Tür in Berlin, Bremen, Hamburg, Hannover, Kiel, Magdeburg, Rostock, Schwerin, Osnabrück, Oldenburg, Leer, Papenburg, Charlotte (North Carolina, USA) und New York (USA), jeder Termin mit Quellenangabe.">
@@ -1143,7 +1145,7 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
     const kinoOf = evs => kinoGroup ? evs.filter(isKinoEv) : [];
     const evsMain = evs => { const k = kinoOf(evs); return k.length >= 2 ? evs.filter(e => !isKinoEv(e)) : evs; };
     const kinoHtml = (d, evs) => { const k = kinoOf(evs); if (k.length < 2) return ''; kinoLazy.set(d, k);
-      return '<details class="ongoing kino-tag" data-day="'+d+'"><summary>Kino an diesem Tag: '+tsd(k.length)+' Vorstellungen</summary><div class="events"></div></details>'; };
+      return '<details class="ongoing kino-tag" data-day="'+d+'"><summary><span class="kino-big">Kino</span> an diesem Tag: '+tsd(k.length)+' Vorstellungen</summary><div class="events"></div></details>'; };
     const tomorrow = iso(addDays(TODAY,1));
     const plzMode = state.st && !state.city && !ABROAD_GROUPS.some(x => x[0] === state.st);
     if (plzMode) { const pk = e => { const v = V[e.venueId] || {}; return (String(v.postalCode||"").match(/^\d{5}$/) ? v.postalCode : "99999~") + "|" + (v.city||""); };
