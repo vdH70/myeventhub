@@ -389,6 +389,7 @@ apply();setInterval(apply,300000);})();</script>
 
   <section id="p-termine">
     <div class="filters">
+      <form class="kis" id="kis" autocomplete="off" role="search"><label class="kisf" for="kisq"><span>KI-Suche</span></label><div class="kisrow"><input type="search" id="kisq" placeholder="z.&nbsp;B. Samstag Jazz in Bremen" aria-label="KI-Suche: wann, was und wo in einem Satz" autocomplete="off" enterkeyhint="search"><button type="submit" class="ftgo" id="kisgo">Suchen</button></div><p class="ftmsg" id="kismsg" hidden></p></form>
       <form class="fts" id="fts" autocomplete="off"><div class="ftrow">
         <label class="ftf"><span>Wann?</span><input type="search" id="ftwann" placeholder="z.&nbsp;B. heute, Wochenende, 24.12." aria-label="Freie Suche: Wann" autocomplete="off"></label>
         <label class="ftf"><span>Was?</span><input type="search" id="ftwas" placeholder="z.&nbsp;B. Techno, Schlager, Museum …" aria-label="Freie Suche: Was" autocomplete="off"></label>
@@ -813,6 +814,39 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
       : (w ? "Wann: "+(w[0].getTime() === w[1].getTime() ? fmtD(w[0]) : fmtD(w[0])+" bis "+fmtD(w[1])) : "");
     ftMsg.textContent = msg; ftMsg.hidden = !msg; render();
   }
+
+  /* v322 Thomas: KI-Suche = ein Freitextfeld für Wann, Was und Wo. Zerlegt den Satz im Browser und sucht NUR im eigenen Katalog (keine Internet-Ergebnisse, keine erfundenen Termine). */
+  const kisIn = document.getElementById("kisq"), kisMsg = document.getElementById("kismsg");
+  const KIS_NEAR = /\b(in meiner naehe|in der naehe|naehe|umgebung|umkreis|hier)\b/;
+  let _kisA = null; const kisAlias = () => _kisA || (_kisA = (() => { const n = {}; upcoming.forEach(e => { const v = V[e.venueId]; if (v) n[v.city] = (n[v.city]||0) + 1; });
+    const m = new Map(); const put = (a, c) => { a = a.trim(); if (a.length < 3) return; const o = m.get(a); if (!o || (n[c]||0) > (n[o]||0)) m.set(a, c); };
+    CITIES.forEach(c => { if (!(n[c] > 0)) return; const z = nz(c); put(z, c); put(z.replace(/\s*\(.*\)\s*/g," ").replace(/\s+(am|an der|an|im|in der|ob der|vor der)\s.*$/,""), c); });
+    [...new Set(Object.values(STATE))].forEach(st => put(nz(st), st)); return [...m.entries()].sort((a,b) => b[0].length - a[0].length); })());
+  const KIS_WHEN = [
+    /\b\d{1,2}\.\d{1,2}\.?(?:\d{2,4})?\s*(?:-|–|bis)\s*\d{1,2}\.\d{1,2}\.?(?:\d{2,4})?/, /\b\d{1,2}\.\d{1,2}\.(?:\d{4}|\d{2}\b)?/,
+    /\b(?:am\s+)?(?:diese[ns]?\s+|naechste[ns]?\s+|kommende[ns]?\s+)?(?:wochenende|woche|monat)\b/,
+    /\b(?:heute|morgen|uebermorgen)(?:\s+(?:abend|nachmittag|vormittag|frueh|mittag|nacht))?\b/, /\b(?:heute abend|jetzt|gleich|tonight|today)\b/,
+    /\b(?:am\s+)?(?:naechste[ns]?\s+|kommende[ns]?\s+)?(?:montag|dienstag|mittwoch|donnerstag|freitag|samstag|sonntag)(?:abend|nachmittag)?\b/,
+    /\b(?:in\s+den\s+)?(?:naechsten\s+)?\d{1,3}\s*(?:tagen|tage|tag|wochen|woche)\b/,
+    /\b(?:im\s+)?(?:januar|februar|maerz|april|mai|juni|juli|august|september|oktober|november|dezember)(?:\s+20\d\d)?\b/,
+    /\b(?:an\s+)?(?:silvester|heiligabend|weihnachten)\b/ ];
+  function kisRun(){
+    const raw = kisIn.value.trim(); if (!raw) { kisMsg.hidden = true; return; }
+    let t = " " + nz(raw).replace(/[,;!?]/g," ").replace(/\s+/g," ") + " ";
+    let near = false; if (KIS_NEAR.test(t)) { near = true; t = t.replace(KIS_NEAR, " "); }
+    let wo = "", plz = t.match(/\bplz\s*(\d{2,5})\b|\b(\d{5})\b/);
+    if (plz) { wo = plz[1] || plz[2]; t = t.replace(plz[0], " "); }
+    else for (const [a, c] of kisAlias()) { const rx = new RegExp("(^|[^a-z0-9])" + a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(?=$|[^a-z0-9])"); if (rx.test(t)) { wo = c; t = t.replace(rx, "$1 "); break; } }
+    const wann = []; KIS_WHEN.forEach(rx => { const m = t.match(rx); if (m) { wann.push(m[0].trim()); t = t.replace(m[0], " "); } });
+    const was = t.replace(/\b(in|im|am|um|ab|bis|fuer|mit|und|oder|was|wo|wann|ich|suche|gibt|es|welche|veranstaltungen|events?|termine)\b/g," ").replace(/\s+/g," ").trim();
+    ftIn[0].value = wann.join(" "); ftIn[1].value = was; ftIn[2].value = near ? "" : wo;
+    ftApply();
+    if (near) { const g = document.getElementById("geonear"); if (g) g.click(); }
+    const parts = []; if (wann.length) parts.push("Wann: " + ftIn[0].value); if (was) parts.push("Was: " + was); if (near) parts.push("Wo: in meiner Nähe"); else if (wo) parts.push("Wo: " + wo);
+    kisMsg.textContent = parts.length ? "Gesucht wird in unseren geprüften Terminen nach " + parts.join(" · ") + "." : "Bitte geben Sie ein, wann, was oder wo Sie suchen, z. B. „Samstag Jazz in Bremen“.";
+    kisMsg.hidden = false;
+  }
+  document.getElementById("kis").addEventListener("submit", e => { e.preventDefault(); kisRun(); document.activeElement && document.activeElement.blur && document.activeElement.blur(); const r = document.querySelector("#p-termine .resultline"); if (r) r.scrollIntoView({behavior:"smooth", block:"start"}); });
   document.getElementById("fts").addEventListener("submit", e => { e.preventDefault(); ftApply(); document.activeElement && document.activeElement.blur && document.activeElement.blur(); const r = document.querySelector("#p-termine .resultline"); if (r) r.scrollIntoView({behavior:"smooth", block:"start"}); });
   venueSel.addEventListener("change", e => { state.venue = e.target.value; render(); });
   // PLZ-Bereiche: erste zwei Ziffern (nur deutsche Orte); US-Orte gesammelt unter "USA"
@@ -1329,7 +1363,11 @@ function step(){bs.forEach(function(b){b.classList.remove("on")});var b=bs[order
 step();setInterval(step,3000)}catch(e){}})();</script>
 <script>(function(){try{document.fonts.ready.then(function(){var ok=false;document.fonts.forEach(function(f){if(/Big Shoulders/.test(f.family)&&f.status==='loaded')ok=true});if(!ok)document.documentElement.classList.add("nofont")})}catch(e){}})();</script>
 <script>/* v250 Thomas: Beispielbegriffe in den drei Suchfeldern kursiv und als Welle */(function(){try{["ftwann","ftwas","ftwo"].forEach(function(id){var inp=document.getElementById(id);if(!inp||!inp.placeholder)return;var cs=getComputedStyle(inp),pc;try{pc=getComputedStyle(inp,"::placeholder").color}catch(e){}var box=document.createElement("div");box.className="ftbox";inp.parentNode.insertBefore(box,inp);box.appendChild(inp);var ph=document.createElement("div");ph.className="ftph";ph.setAttribute("aria-hidden","true");ph.style.left=(parseFloat(cs.paddingLeft)+parseFloat(cs.borderLeftWidth))+"px";ph.style.right=(parseFloat(cs.paddingRight)+parseFloat(cs.borderRightWidth))+"px";ph.style.fontFamily=cs.fontFamily;ph.style.color=pc&&pc!=="rgba(0, 0, 0, 0)"?pc:"#757575";Array.from(inp.placeholder).forEach(function(ch,i){var s=document.createElement("i");s.textContent=ch===" "?"\u00a0":ch;s.style.animationDelay=(i*0.06).toFixed(2)+"s";ph.appendChild(s)});box.appendChild(ph);inp.classList.add("ftwv");var upd=function(){ph.style.display=inp.value?"none":""};inp.addEventListener("input",upd);setInterval(upd,400);upd()})}catch(e){}})();</script>
-<style id="mobile-lesbar">/* v317, v321 Thomas: Schrift auf dem Smartphone deutlich größer */
+<style id="kis-css">.kis{margin:4px 0 14px}.kisf span{display:block;color:#000;font-size:23px;font-family:"Montserrat",var(--body);font-weight:700;padding-left:16px;margin-bottom:4px}
+.kisrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.kisrow input{flex:1 1 280px;min-width:0;max-width:640px;font:inherit;font-size:17px;padding:11px 16px;border:2px solid var(--red,#ED631B);border-radius:999px;background:#fff}
+.kis .ftmsg{margin-left:4px}
+form#kis .ftgo{border:0;border-radius:999px;padding:11px 20px;font:inherit;font-weight:700;font-size:17px;background:#ED631B;color:#fff;cursor:pointer}form#kis .ftgo:hover{background:#D4560F}
+</style><style id="mobile-lesbar">/* v317, v321 Thomas: Schrift auf dem Smartphone deutlich größer */
 .chip.geonear{font-weight:600}.georad{align-items:center;margin-top:8px}.georad-l{font-weight:700;margin-right:2px}.geomsg .geobig{font-weight:700;text-decoration:underline;padding:4px 2px}
 @media (max-width:560px){
  body #list .ttl{font-size:22px;line-height:1.28}
