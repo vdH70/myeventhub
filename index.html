@@ -1051,7 +1051,8 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
                     "Prag": { tz:"Europe/Prague", tzLabel:"Ortszeit Prag, wie Deutschland", country:"Tschechien" },
                     "Warschau": { tz:"Europe/Warsaw", tzLabel:"Ortszeit Warschau, wie Deutschland", country:"Polen" } };
   const tzOf = v => (v && FOREIGN[v.city]) ? FOREIGN[v.city].tz : "Europe/Berlin";
-  const addr = v => !FOREIGN[v.city] ? v.street+", "+v.postalCode+" "+v.city : (FOREIGN[v.city].region ? v.street+", "+v.city+", "+FOREIGN[v.city].region+" "+v.postalCode+", "+FOREIGN[v.city].country : v.street+", "+v.postalCode+" "+v.city+", "+FOREIGN[v.city].country);
+  const addr = v => { const j = (...a) => a.filter(Boolean).join(", "), sp = (...a) => a.filter(Boolean).join(" "), F = FOREIGN[v.city]; /* v321: fehlende Straße/PLZ nicht als "null" zeigen */
+    return !F ? j(v.street, sp(v.postalCode, v.city)) : (F.region ? j(v.street, v.city, sp(F.region, v.postalCode), F.country) : j(v.street, sp(v.postalCode, v.city), F.country)); };
   function mapUrl(v){
     return (v.latitude != null)
       ? "https://www.openstreetmap.org/?mlat="+v.latitude+"&mlon="+v.longitude+"#map=17/"+v.latitude+"/"+v.longitude
@@ -1328,18 +1329,22 @@ function step(){bs.forEach(function(b){b.classList.remove("on")});var b=bs[order
 step();setInterval(step,3000)}catch(e){}})();</script>
 <script>(function(){try{document.fonts.ready.then(function(){var ok=false;document.fonts.forEach(function(f){if(/Big Shoulders/.test(f.family)&&f.status==='loaded')ok=true});if(!ok)document.documentElement.classList.add("nofont")})}catch(e){}})();</script>
 <script>/* v250 Thomas: Beispielbegriffe in den drei Suchfeldern kursiv und als Welle */(function(){try{["ftwann","ftwas","ftwo"].forEach(function(id){var inp=document.getElementById(id);if(!inp||!inp.placeholder)return;var cs=getComputedStyle(inp),pc;try{pc=getComputedStyle(inp,"::placeholder").color}catch(e){}var box=document.createElement("div");box.className="ftbox";inp.parentNode.insertBefore(box,inp);box.appendChild(inp);var ph=document.createElement("div");ph.className="ftph";ph.setAttribute("aria-hidden","true");ph.style.left=(parseFloat(cs.paddingLeft)+parseFloat(cs.borderLeftWidth))+"px";ph.style.right=(parseFloat(cs.paddingRight)+parseFloat(cs.borderRightWidth))+"px";ph.style.fontFamily=cs.fontFamily;ph.style.color=pc&&pc!=="rgba(0, 0, 0, 0)"?pc:"#757575";Array.from(inp.placeholder).forEach(function(ch,i){var s=document.createElement("i");s.textContent=ch===" "?"\u00a0":ch;s.style.animationDelay=(i*0.06).toFixed(2)+"s";ph.appendChild(s)});box.appendChild(ph);inp.classList.add("ftwv");var upd=function(){ph.style.display=inp.value?"none":""};inp.addEventListener("input",upd);setInterval(upd,400);upd()})}catch(e){}})();</script>
-<style id="mobile-lesbar">/* v317 Thomas: Schrift auf dem Smartphone besser lesbar */
+<style id="mobile-lesbar">/* v317, v321 Thomas: Schrift auf dem Smartphone deutlich größer */
 .chip.geonear{font-weight:600}.georad{align-items:center;margin-top:8px}.georad-l{font-weight:700;margin-right:2px}.geomsg .geobig{font-weight:700;text-decoration:underline;padding:4px 2px}
 @media (max-width:560px){
- body .ttl{font-size:20px;line-height:1.3}
- body .meta,body .meta .v,body .time,body dl dt,body dl dd{font-size:17px;line-height:1.5}
- body .src{font-size:15px;line-height:1.45}
- body .btn{font-size:15px;padding:11px 16px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
- body .catbadge,body .badge,body .rel{font-size:15px}
- body .chip{font-size:16px;padding:9px 15px;min-height:42px}
- body details summary{font-size:18px}
- body footer{font-size:15px;line-height:1.55}
- body .by2,body .count,body .rel{font-size:15px!important}
+ body #list .ttl{font-size:22px;line-height:1.28}
+ body #list .meta,body #list .meta .v,body #list .time,body #list dl dt,body #list dl dd,body #list .ev .body>div{font-size:18px;line-height:1.5}
+ body #list .ev .body>div.src,body #list .src{font-size:16px;line-height:1.45}
+ body .btn{font-size:16px;padding:12px 16px;min-height:46px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+ body .catbadge,body .badge{font-size:16px!important}
+ body .rel,body .by2,body .count{font-size:16px!important}
+ body .chip{font-size:17px;padding:9px 15px;min-height:44px}
+ body details summary{font-size:19px}
+ body .wd,body .mo{font-size:17px!important}
+ body footer{font-size:16px;line-height:1.55}
+ body .tablink,body .linkbtn,body .resultline,body #resultcount,body .ftmsg,body .kimsg,body #stand strong{font-size:17px!important}
+ body input[type=search],body select,body .ftgo,body #kigo{font-size:17px!important}
+ body .legal{font-size:17px;line-height:1.6}
 }
 </style>
 </body></html>
