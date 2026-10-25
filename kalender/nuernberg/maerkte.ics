@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:n-hirsch-20261122-metalborse@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:Metalbörse
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:11:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:n-hauptmarkt-christkindlesmarkt-20261127-nuernberger-christkindlesmarkt
  -2026-beginn@myeventhub.de
