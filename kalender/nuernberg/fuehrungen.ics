@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Nürnberg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:n-planetarium-20261025-abenteuer-planeten@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T163000
+DTEND;TZID=Europe/Berlin:20261025T183000
+SUMMARY:Abenteuer Planeten
+LOCATION:Nicolaus-Copernicus-Planetarium\, Am Plärrer 41\, 90429 Nürnberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium.nuernberg.de/spielplan-tickets
+URL:https://planetarium.nuernberg.de/spielplan-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-planetarium-20261025-aurora-geheimnisvolle-lichter-des-nordens@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Aurora – Geheimnisvolle Lichter des Nordens
+LOCATION:Nicolaus-Copernicus-Planetarium\, Am Plärrer 41\, 90429 Nürnberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium.nuernberg.de/spielplan-tickets
+URL:https://planetarium.nuernberg.de/spielplan-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

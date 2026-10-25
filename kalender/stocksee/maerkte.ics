@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Stocksee · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:se-hof-gut-stockseehof-20261128-weihnachtsmarkt-auf-gut-stockseehof-beg
+ inn@myeventhub.de
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Beginn: Weihnachtsmarkt auf Gut Stockseehof
+LOCATION:Gut Stockseehof\, Stockseehof 2\, 24326 Stocksee
+DESCRIPTION:Rund 120 Aussteller in Scheune\, Zelt und Gutshof\; Weihnachtsb
+ äume aus eigenem Forst.\nLaufzeit: 28.11.2026 bis 13.12.2026\nTermine lau
+ t Veranstalter: täglich 11–18 Uhr\nPreis: Mo–Fr 5 €\, Sa und So 10 
+ €\nQuelle (bitte vor dem Besuch prüfen): https://stockseehof.de/weihnac
+ htsmarkt/
+URL:https://stockseehof.de/weihnachtsmarkt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:se-hof-gut-stockseehof-20261128-weihnachtsmarkt-auf-gut-stockseehof-end
+ e@myeventhub.de
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Weihnachtsmarkt auf Gut Stockseehof
+LOCATION:Gut Stockseehof\, Stockseehof 2\, 24326 Stocksee
+DESCRIPTION:Rund 120 Aussteller in Scheune\, Zelt und Gutshof\; Weihnachtsb
+ äume aus eigenem Forst.\nLaufzeit: 28.11.2026 bis 13.12.2026\nTermine lau
+ t Veranstalter: täglich 11–18 Uhr\nPreis: Mo–Fr 5 €\, Sa und So 10 
+ €\nQuelle (bitte vor dem Besuch prüfen): https://stockseehof.de/weihnac
+ htsmarkt/
+URL:https://stockseehof.de/weihnachtsmarkt/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

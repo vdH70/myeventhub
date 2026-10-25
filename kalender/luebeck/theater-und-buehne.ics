@@ -1,0 +1,612 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Lübeck · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hl-theater-20261025-hier-suend-se-richtig-la-bonne-adresse@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:Hier sünd se richtig (La Bonne Adresse)
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Gastspiel (Kammerspiele).\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.theaterluebeck.de/spielp
+ lan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-theater-20261025-the-black-rider-the-casting-of-the-magic-bullets@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:The Black Rider The Casting of the Magic Bullets
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Schauspiel (Großes Haus).\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.theaterluebeck.de/spiel
+ plan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-theater-20261025-name-sophie-scholl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T183000
+DTEND;TZID=Europe/Berlin:20261025T203000
+SUMMARY:Name: Sophie Scholl (ausverkauft)
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Jung plus X (Studio).\nEnde: laut Quelle nicht angegeben\nAusve
+ rkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.theaterluebeck.
+ de/spielplan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-theater-20261026-monday-shorts@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T183000
+DTEND;TZID=Europe/Berlin:20261026T203000
+SUMMARY:Monday Shorts
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Schauspiel (Kammerspiele).\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.theaterluebeck.de/spiel
+ plan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-theater-20261029-schwanensee@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Schwanensee
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Musiktheater (Großes Haus).\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.theaterluebeck.de/spi
+ elplan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261029-atze-schroeder-lovemachine@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Atze Schröder Lovemachine
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=2
+URL:https://www.muk.de/veranstaltungen?page_e89=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-theater-20261029-name-sophie-scholl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Name: Sophie Scholl (ausverkauft)
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Jung plus X (Studio).\nEnde: laut Quelle nicht angegeben\nAusve
+ rkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.theaterluebeck.
+ de/spielplan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-theater-20261030-schwanensee@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Schwanensee
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Musiktheater (Großes Haus).\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.theaterluebeck.de/spi
+ elplan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261030-marlene-jaschke-hier-bin-ich-mensch@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Marlene Jaschke "Hier bin ich Mensch"
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=2
+URL:https://www.muk.de/veranstaltungen?page_e89=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-theater-20261030-stolz-und-vorurteil-oder-so@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Stolz und Vorurteil* (*oder so) (ausverkauft)
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Schauspiel (Kammerspiele)\, Premiere.\nEnde: laut Quelle nicht 
+ angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .theaterluebeck.de/spielplan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolk17-20261030-linie-1@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Linie 1
+LOCATION:KOLK 17 Figurentheater & Museum\, Kolk 14\, 23552 Lübeck
+DESCRIPTION:Figurentheater im Großen Saal.\nQuelle (bitte vor dem Besuch p
+ rüfen): https://kolk17.de/programm/month:10/year:2026/time_range:week/wee
+ k:41
+URL:https://kolk17.de/programm/month:10/year:2026/time_range:week/week:41
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-theater-20261031-biedermann-und-die-brandstifter@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Biedermann und die Brandstifter
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Schauspiel (Großes Haus).\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.theaterluebeck.de/spiel
+ plan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-theater-20261031-hand-in-hand@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Hand in Hand (ausverkauft)
+LOCATION:Theater Lübeck\, Beckergrube 16\, 23552 Lübeck
+DESCRIPTION:Schauspiel (Studio).\nEnde: laut Quelle nicht angegeben\nAusver
+ kauft\nQuelle (bitte vor dem Besuch prüfen): https://www.theaterluebeck.d
+ e/spielplan/kalender.html
+URL:https://www.theaterluebeck.de/spielplan/kalender.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261103-queen-of-luebeck-musical-gala-show@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T193000
+DTEND;TZID=Europe/Berlin:20261103T213000
+SUMMARY:Queen of Lübeck – Musical Gala Show
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261104-just-leo-frausein-ist-ein-wilder-ritt@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Just Leo – Frausein ist ein wilder Ritt
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261105-caroline-wahl-1999-meter-ueber-dem-meer@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Caroline Wahl – 1999 Meter über dem Meer
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261106-jan-van-weyde-immer-weyder@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Jan van Weyde – IMMER WEYDER…
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261106-oezcan-cosar-vip@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Özcan Cosar VIP (ausverkauft)
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.muk.de/veranstaltungen?page_e89=3
+URL:https://www.muk.de/veranstaltungen?page_e89=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261107-die-luebecker-comedy-nacht-xxl-volume-6@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Die Lübecker Comedy Nacht XXL – Volume #6
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261112-masih-samin@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:ABGESAGT: Masih Samin
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kulturwerft-gollan-20261112-doerte-hansen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Dörte Hansen
+LOCATION:Kulturwerft Gollan\, Einsiedelstraße 6\, 23554 Lübeck
+DESCRIPTION:Tickets: https://tickets.kulturwerft-gollan.de/doerte-hansen-ti
+ ckets.html\nQuelle (bitte vor dem Besuch prüfen): https://tickets.kulturw
+ erft-gollan.de/
+URL:https://tickets.kulturwerft-gollan.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261114-caveman@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Caveman
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261114-mirella-precek@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Mirella Precek
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=3
+URL:https://www.muk.de/veranstaltungen?page_e89=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261115-dieter-nuhr@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:Dieter Nuhr (ausverkauft)
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.muk.de/veranstaltungen?page_e89=3
+URL:https://www.muk.de/veranstaltungen?page_e89=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261116-art-of-andalucia-flamenco-tanz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T193000
+DTEND;TZID=Europe/Berlin:20261116T213000
+SUMMARY:Art of Andalucia – Flamenco Tanz
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kulturwerft-gollan-20261117-lesung-freiheit@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Lesung: Freiheit
+LOCATION:Kulturwerft Gollan\, Einsiedelstraße 6\, 23554 Lübeck
+DESCRIPTION:Tickets: https://tickets.kulturwerft-gollan.de/freiheit-tickets
+ .html\nQuelle (bitte vor dem Besuch prüfen): https://tickets.kulturwerft-
+ gollan.de/
+URL:https://tickets.kulturwerft-gollan.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261118-nightwash-live@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:NightWash – LIVE
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261119-nightwash-live@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:NightWash – LIVE
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261120-thorsten-havener-alles-kopfsache@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Thorsten Havener – Alles Kopfsache?
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261121-marc-weide-magier-des-monats@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Marc Weide – Magier des Monats
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261123-rolf-miller-neues-programm@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T193000
+DTEND;TZID=Europe/Berlin:20261123T213000
+SUMMARY:Rolf Miller – Neues Programm
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261126-breakin-circus-urban-dance-artistic-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Breakin´ Circus Urban Dance & Artistic Show
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=4
+URL:https://www.muk.de/veranstaltungen?page_e89=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261126-abdelkarim-plan-z-jetzt-will-er-s-wissen@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Abdelkarim – Plan Z - Jetzt will er's wissen!
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261127-wolfgang-trepper-trepper-kommt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Wolfgang Trepper – Trepper kommt!
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261127-gamechanger-by-bastian-bielendorfer@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Gamechanger by Bastian Bielendorfer
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=4
+URL:https://www.muk.de/veranstaltungen?page_e89=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261128-dominic-jozwiak-wunden@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Dominic Jozwiak – Wunden
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261128-martin-ruetter-schluss-aus@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Martin Rütter SCHLUSS! AUS! (ausverkauft)
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.muk.de/veranstaltungen?page_e89=4
+URL:https://www.muk.de/veranstaltungen?page_e89=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261130-spanische-taschenoper-renaissance-voller-witz-glan@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T190000
+DTEND;TZID=Europe/Berlin:20261130T210000
+SUMMARY:Spanische Taschenoper Renaissance voller Witz & Glanz
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=4
+URL:https://www.muk.de/veranstaltungen?page_e89=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261201-wladimir-kaminer-muettertage@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T190000
+DTEND;TZID=Europe/Berlin:20261201T210000
+SUMMARY:Wladimir Kaminer – Müttertage
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261203-serdar-somuncu-hassias-er-ist-wieder-da-und-er-has@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Serdar Somuncu HASSIAS - Er ist wieder da. Und er hasst euch noch i
+ mmer
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=5
+URL:https://www.muk.de/veranstaltungen?page_e89=5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261204-ingo-appelt-maenner-nerven-stark@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Ingo Appelt – Männer nerven stark
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261207-nussknacker-international-festival-ballet-orchestr@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T190000
+DTEND;TZID=Europe/Berlin:20261207T210000
+SUMMARY:Nussknacker International Festival Ballet & Orchestra
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=5
+URL:https://www.muk.de/veranstaltungen?page_e89=5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261208-osan-yaran-wollen-wir-beginnen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T200000
+DTEND;TZID=Europe/Berlin:20261208T220000
+SUMMARY:Osan Yaran Wollen wir beginnen?
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=5
+URL:https://www.muk.de/veranstaltungen?page_e89=5
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

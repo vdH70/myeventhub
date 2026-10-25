@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Kevelaer · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kle-irrland-20261101-saisonende-2026-letzter-oeffnungstag@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Saisonende 2026 (letzter Öffnungstag)
+LOCATION:Irrland\, Am Scheidweg 1\, 47624 Kevelaer
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.irrland.de/
+URL:https://www.irrland.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

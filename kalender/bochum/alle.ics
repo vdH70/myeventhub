@@ -1,0 +1,829 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Bochum · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261025-human-nature@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T160000
+DTEND;TZID=Europe/Berlin:20261025T180000
+SUMMARY:Human\, Nature
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Mit Regisseurin zu Gast\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://endstation-kino.de/monatsprogr
+ amm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261025-vaterland@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T191500
+DTEND;TZID=Europe/Berlin:20261025T211500
+SUMMARY:Vaterland
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261027-just-leo@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:Just Leo
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261027-trendz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:Trendz
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://zeche.net/
+URL:https://zeche.net/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261028-ronnie-romero-gus-g-convergence-fest-2026@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Ronnie Romero & Gus G – Convergence Fest 2026
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261029-pohlmann@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Pohlmann
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261029-marko-hietala@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Marko Hietala
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261030-vaterland@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T181500
+DTEND;TZID=Europe/Berlin:20261030T201500
+SUMMARY:Vaterland
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261030-dust-n-bones-tribute-to-guns-n-roses@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Dust 'n Bones – Tribute to Guns N' Roses
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bergbau-museum-20261031-grubenhorror@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Grubenhorror
+LOCATION:Deutsches Bergbau-Museum Bochum\, Am Bergbaumuseum 28\, 44791 Boch
+ um
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bergbaumuseum.de/besuch/veranstaltungskalender
+URL:https://www.bergbaumuseum.de/besuch/veranstaltungskalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261031-vaterland@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T181500
+DTEND;TZID=Europe/Berlin:20261031T201500
+SUMMARY:Vaterland
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261031-jim-queen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Jim Queen
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261103-artspace-street-art@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:artSPACE - Street Art
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/specials
+URL:https://planetarium-bochum.de/de_DE/specials
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261105-ben-schafmeister@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Ben Schafmeister
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-christuskirche-20261106-herbert-pixner-projekt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Herbert Pixner Projekt (ausverkauft)
+LOCATION:Christuskirche Bochum – Kirche der Kulturen\, Platz des Europäi
+ schen Versprechens\, 44787 Bochum
+DESCRIPTION:Laut Veranstalter ausverkauft.\nEnde: laut Quelle nicht angegeb
+ en\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://christuski
+ rche-bochum.de/events/
+URL:https://christuskirche-bochum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-rouge-20261106-schlager-xxl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Schlager XXL
+LOCATION:Rouge Showpalast\, Freudenbergstraße 40\, 44809 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.rouge.de/eve
+ nts/
+URL:https://www.rouge.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261106-melones-bad-decision-tribute-to-ramones-bad-religi@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Melones & Bad Decision – Tribute to Ramones & Bad Religion
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261107-zweiraumsilke@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:#zweiraumsilke
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-christuskirche-20261107-long-distance-calling@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Long Distance Calling
+LOCATION:Christuskirche Bochum – Kirche der Kulturen\, Platz des Europäi
+ schen Versprechens\, 44787 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://christuskirche-bochum.de/events/
+URL:https://christuskirche-bochum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-gleis-9-20261107-clan-of-xymox@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Clan of Xymox
+LOCATION:Gleis 9\, Bochum
+DESCRIPTION:Konzert der Band Clan of Xymox.\nQuelle (bitte vor dem Besuch p
+ rüfen): https://clanofxymox.com/quick-tour-list-overview
+URL:https://clanofxymox.com/quick-tour-list-overview
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261108-pam-pengco@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Pam Pengco (ausverkauft)
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261109-chaos-comedy-club@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Chaos Comedy Club
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261110-noah-derksen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:Noah Derksen
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261112-heinz-erhardt-und-freunde@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Heinz Erhardt und Freunde
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-christuskirche-20261112-poppy-ackroyd-liminal@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Poppy Ackroyd – Liminal
+LOCATION:Christuskirche Bochum – Kirche der Kulturen\, Platz des Europäi
+ schen Versprechens\, 44787 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://christuskirche-bochum.de/events/
+URL:https://christuskirche-bochum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261112-the-high-kings@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:The High Kings
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261113-boris@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:BORIS
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-christuskirche-20261113-ultimate-eagles@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Ultimate Eagles
+LOCATION:Christuskirche Bochum – Kirche der Kulturen\, Platz des Europäi
+ schen Versprechens\, 44787 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://christuskirche-bochum.de/events/
+URL:https://christuskirche-bochum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261113-bounce-tribute-to-bon-jovi@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Bounce – Tribute to Bon Jovi
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261115-rene-steinberg@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:René Steinberg
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261115-heaven-17@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Heaven 17
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261116-nie-und-nimmer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Nie und Nimmer
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261116-soen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Soen
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261118-tatort-jazz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Tatort Jazz
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261119-helene-bockhorst@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Helene Bockhorst
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261120-rox-tribute-to-roxette@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:ROX! – Tribute to Roxette
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261122-florian-paul-die-kapelle@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T193000
+DTEND;TZID=Europe/Berlin:20261122T213000
+SUMMARY:Florian Paul & die Kapelle
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261125-geburt-des-weltalls-aus-dem-nichts-kosmologisch
+ e-m@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:Geburt des Weltalls aus dem Nichts? Kosmologische Modelle auf dem P
+ rüfstand
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Vortrag im Planetarium.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://planetarium-bochum.de/de_DE/le
+ ctures
+URL:https://planetarium-bochum.de/de_DE/lectures
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261126-hi-spencer@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Hi! Spencer
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-christuskirche-20261126-bugge-wesseltoft@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Bugge Wesseltoft
+LOCATION:Christuskirche Bochum – Kirche der Kulturen\, Platz des Europäi
+ schen Versprechens\, 44787 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://christuskirche-bochum.de/events/
+URL:https://christuskirche-bochum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261126-skipinnish@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Skipinnish
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261127-kwam-e@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Kwam.E
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-christuskirche-20261127-the-dublin-legends@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:The Dublin Legends
+LOCATION:Christuskirche Bochum – Kirche der Kulturen\, Platz des Europäi
+ schen Versprechens\, 44787 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://christuskirche-bochum.de/events/
+URL:https://christuskirche-bochum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261127-elton-and-the-joels-tribute-to-elton-john-billy-jo@my
+ eventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Elton and the Joels – Tribute to Elton John & Billy Joel
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-tierheim-bochum-20261128-weihnachtsmarkt-im-tierheim-bochum-mit-adve
+ ntskran@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T110000
+DTEND;TZID=Europe/Berlin:20261128T130000
+SUMMARY:Weihnachtsmarkt im Tierheim Bochum mit Adventskranzverkauf
+LOCATION:Tierheim Bochum\, Kleinherbeder Str. 23\, 44892 Bochum
+DESCRIPTION:Überdachter Weihnachtsmarkt im Tierheim\, Erlöse kommen den T
+ ierheimtieren zugute.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.tierheim-bochum.de/events.html
+URL:https://www.tierheim-bochum.de/events.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261128-wer-rettet-den-weihnachtsmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T141500
+DTEND;TZID=Europe/Berlin:20261128T161500
+SUMMARY:Wer rettet den Weihnachtsmann?
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-wei
+ hnachtsmann.593039
+URL:https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-weihnachtsm
+ ann.593039
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261129-wer-rettet-den-weihnachtsmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T121500
+DTEND;TZID=Europe/Berlin:20261129T141500
+SUMMARY:Wer rettet den Weihnachtsmann?
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-wei
+ hnachtsmann.593039
+URL:https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-weihnachtsm
+ ann.593039
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-christuskirche-20261129-guildo-horn-die-orthopaedischen-struempfe@my
+ eventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Guildo Horn & Die Orthopädischen Strümpfe
+LOCATION:Christuskirche Bochum – Kirche der Kulturen\, Platz des Europäi
+ schen Versprechens\, 44787 Bochum
+DESCRIPTION:Laut Veranstalter ausverkauft.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://christuskirche-bochum.d
+ e/events/
+URL:https://christuskirche-bochum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-bahnhof-langendreer-20261202-die-pubertaets-docs@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Die Pubertäts-Docs (ausverkauft)
+LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://bahnhof-langendreer.de/events
+URL:https://bahnhof-langendreer.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-christuskirche-20261204-erdmoebel@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Erdmöbel
+LOCATION:Christuskirche Bochum – Kirche der Kulturen\, Platz des Europäi
+ schen Versprechens\, 44787 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://christuskirche-bochum.de/events/
+URL:https://christuskirche-bochum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-rouge-20261204-rouge-presents-crazy-xmas-party@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T210000
+DTEND;TZID=Europe/Berlin:20261204T230000
+SUMMARY:Rouge presents Crazy Xmas Party
+LOCATION:Rouge Showpalast\, Freudenbergstraße 40\, 44809 Bochum
+DESCRIPTION:Einlass 19:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.rouge.de/events/
+URL:https://www.rouge.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261205-wer-rettet-den-weihnachtsmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T130000
+DTEND;TZID=Europe/Berlin:20261205T150000
+SUMMARY:Wer rettet den Weihnachtsmann?
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-wei
+ hnachtsmann.593039
+URL:https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-weihnachtsm
+ ann.593039
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261206-wer-rettet-den-weihnachtsmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T133000
+DTEND;TZID=Europe/Berlin:20261206T153000
+SUMMARY:Wer rettet den Weihnachtsmann?
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-wei
+ hnachtsmann.593039
+URL:https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-weihnachtsm
+ ann.593039
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261212-wer-rettet-den-weihnachtsmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T113000
+DTEND;TZID=Europe/Berlin:20261212T133000
+SUMMARY:Wer rettet den Weihnachtsmann?
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-wei
+ hnachtsmann.593039
+URL:https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-weihnachtsm
+ ann.593039
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261213-wer-rettet-den-weihnachtsmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Wer rettet den Weihnachtsmann?
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-wei
+ hnachtsmann.593039
+URL:https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-weihnachtsm
+ ann.593039
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261216-reise-zum-innersten-planeten-die-esa-mission-be
+ pic@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:Reise zum innersten Planeten – Die ESA-Mission BepiColombo zum Me
+ rkur
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Vortrag im Planetarium.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://planetarium-bochum.de/de_DE/le
+ ctures
+URL:https://planetarium-bochum.de/de_DE/lectures
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261219-wer-rettet-den-weihnachtsmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T121500
+DTEND;TZID=Europe/Berlin:20261219T141500
+SUMMARY:Wer rettet den Weihnachtsmann?
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-wei
+ hnachtsmann.593039
+URL:https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-weihnachtsm
+ ann.593039
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20261220-wer-rettet-den-weihnachtsmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T121500
+DTEND;TZID=Europe/Berlin:20261220T141500
+SUMMARY:Wer rettet den Weihnachtsmann?
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-wei
+ hnachtsmann.593039
+URL:https://planetarium-bochum.de/de_DE/calendar/wer-rettet-den-weihnachtsm
+ ann.593039
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20270105-kinetarium-galactic-gaming@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T170000
+DTEND;TZID=Europe/Berlin:20270105T190000
+SUMMARY:Kinetarium - Galactic Gaming
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/specials
+URL:https://planetarium-bochum.de/de_DE/specials
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20270105-was-bringt-2027@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T193000
+DTEND;TZID=Europe/Berlin:20270105T213000
+SUMMARY:Was bringt 2027?
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/planetarium-live
+URL:https://planetarium-bochum.de/de_DE/planetarium-live
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-planetarium-20270109-kosmische-konstruktionen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T223000
+DTEND;TZID=Europe/Berlin:20270110T003000
+SUMMARY:Kosmische Konstruktionen
+LOCATION:Planetarium Bochum\, Castroper Str. 67\, 44791 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://planetarium-bochum.de/de_DE/specials
+URL:https://planetarium-bochum.de/de_DE/specials
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-suite-magic-theater-20270129-manuel-muerte-illusionen@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T190000
+DTEND;TZID=Europe/Berlin:20270129T210000
+SUMMARY:Manuel Muerte – Illusionen
+LOCATION:Suite Magic Theater by Amila\, Wattenscheider Hellweg 145\, 44867 
+ Bochum
+DESCRIPTION:Gastspiel im Zaubertheater.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.suite-magic.de/
+URL:https://www.suite-magic.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-suite-magic-theater-20270402-marc-gettmann-einfach-verblueffend@myev
+ enthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270402T190000
+DTEND;TZID=Europe/Berlin:20270402T210000
+SUMMARY:Marc Gettmann – Einfach verblüffend!
+LOCATION:Suite Magic Theater by Amila\, Wattenscheider Hellweg 145\, 44867 
+ Bochum
+DESCRIPTION:Gastspiel im Zaubertheater.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.suite-magic.de/
+URL:https://www.suite-magic.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

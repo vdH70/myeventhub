@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Kirchlinteln · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ver-ff-otersen-20261030-laternenumzug-der-feuerwehr-otersen@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Laternenumzug der Feuerwehr Otersen
+LOCATION:Freiwillige Feuerwehr Otersen\, 27308 Kirchlinteln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.otersen.de/l
+ aternenumzug-2026/
+URL:https://www.otersen.de/laternenumzug-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Schwäbisch Hall · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sha-haller-feuerwehrmuseum-20261114-vorleseaktion-im-haller-feuerwehrmu
+ seum@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Vorleseaktion im Haller Feuerwehrmuseum
+LOCATION:Haller Feuerwehrmuseum\, Ripperg 3\, 74523 Schwäbisch Hall
+DESCRIPTION:Vorleseaktion im Museum\, dazu Kaffee und Kuchen\; Uhrzeit nich
+ t angegeben.\nPreis: Es gelten die Eintrittspreise.\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.hallerfeuerwehrmuseum.de/
+URL:https://www.hallerfeuerwehrmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

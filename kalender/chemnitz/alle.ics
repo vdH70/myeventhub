@@ -1,0 +1,288 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Chemnitz · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c-galerie-roter-turm-20261019-magische-zauberwelt-in-der-galerie-roter-
+ turm-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Beginn: Magische Zauberwelt in der Galerie Roter Turm
+LOCATION:Galerie Roter Turm\, Chemnitz
+DESCRIPTION:Laufzeit: 19.10.2026 bis 30.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.galerie-roter-turm.de/aktuelles/events/78
+URL:https://www.galerie-roter-turm.de/aktuelles/events/78
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-galerie-roter-turm-20261019-magische-zauberwelt-in-der-galerie-roter-
+ turm-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Letzter Tag: Magische Zauberwelt in der Galerie Roter Turm
+LOCATION:Galerie Roter Turm\, Chemnitz
+DESCRIPTION:Laufzeit: 19.10.2026 bis 30.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.galerie-roter-turm.de/aktuelles/events/78
+URL:https://www.galerie-roter-turm.de/aktuelles/events/78
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-opernhaus-20261025-der-vogelhaendler@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T160000
+DTEND;TZID=Europe/Berlin:20261025T180000
+SUMMARY:Der Vogelhändler (ausverkauft)
+LOCATION:Opernhaus Chemnitz\, Chemnitz
+DESCRIPTION:Operette\nEnde: laut Quelle nicht angegeben\nAusverkauft\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.theater-chemnitz.de/spielpla
+ n/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-spinnbau-20261025-reineke-fuchs@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Reineke Fuchs
+LOCATION:Spinnbau (Schauspiel Chemnitz)\, Chemnitz
+DESCRIPTION:Schauspiel\, Große Bühne\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.theater-chemnitz.de/spi
+ elplan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261025-bad-apples@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T190000
+DTEND;TZID=Europe/Berlin:20261025T210000
+SUMMARY:Bad Apples
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-opernhaus-20261025-1-kammermusikabend@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T193000
+DTEND;TZID=Europe/Berlin:20261025T213000
+SUMMARY:1. Kammermusikabend
+LOCATION:Opernhaus Chemnitz\, Chemnitz
+DESCRIPTION:Opernhaus Foyer\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.theater-chemnitz.de/spielplan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-opernhaus-20261029-hans-christian-a@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T190000
+DTEND;TZID=Europe/Berlin:20261029T210000
+SUMMARY:Hans Christian A.
+LOCATION:Opernhaus Chemnitz\, Chemnitz
+DESCRIPTION:Ballett\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.theater-chemnitz.de/spielplan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261029-jim-queen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T190000
+DTEND;TZID=Europe/Berlin:20261029T210000
+SUMMARY:Jim Queen
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-opernhaus-20261030-der-fliegende-hollaender@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T190000
+DTEND;TZID=Europe/Berlin:20261030T210000
+SUMMARY:Der fliegende Holländer
+LOCATION:Opernhaus Chemnitz\, Chemnitz
+DESCRIPTION:Oper von Richard Wagner\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.theater-chemnitz.de/spielp
+ lan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261030-jim-queen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T190000
+DTEND;TZID=Europe/Berlin:20261030T210000
+SUMMARY:Jim Queen
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-spinnbau-20261030-die-katze-auf-dem-heissen-blechdach@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Die Katze auf dem heissen Blechdach
+LOCATION:Spinnbau (Schauspiel Chemnitz)\, Chemnitz
+DESCRIPTION:Schauspiel\, Große Bühne\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.theater-chemnitz.de/spi
+ elplan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-spinnbau-20261030-tyll@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Tyll (ausverkauft)
+LOCATION:Spinnbau (Schauspiel Chemnitz)\, Chemnitz
+DESCRIPTION:Schauspiel\, Ostflügel\nEnde: laut Quelle nicht angegeben\nAus
+ verkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-chemn
+ itz.de/spielplan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261031-die-drei-toteninsel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Die drei ??? – Toteninsel
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Familienkino zu Halloween\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261031-das-schweigen-der-laemmer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Das Schweigen der Lämmer
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Halloween Special\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-opernhaus-20261031-titanic@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Titanic (ausverkauft)
+LOCATION:Opernhaus Chemnitz\, Chemnitz
+DESCRIPTION:Musiktheater\nEnde: laut Quelle nicht angegeben\nAusverkauft\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.theater-chemnitz.de/spie
+ lplan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261101-jim-queen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T190000
+DTEND;TZID=Europe/Berlin:20261101T210000
+SUMMARY:Jim Queen
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261105-primetime@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:Primetime
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:OmdU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261106-primetime@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Primetime
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-rathaus-weihnachtsmarkt-20261127-chemnitzer-weihnachtsmarkt-2026-begi
+ nn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Chemnitzer Weihnachtsmarkt 2026
+LOCATION:Markt am Rathaus Chemnitz\, Markt\, Chemnitz
+DESCRIPTION:Weihnachtsmarkt rund um das Rathaus.\nLaufzeit: 27.11.2026 bis 
+ 23.12.2026\nTermine laut Veranstalter: Mo–Do 11–20 Uhr\, Fr/Sa 10–21
+  Uhr\, So 10–20 Uhr\; 27.11. 16–21 Uhr\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.chemnitz.de/en/culture/highlights/christmas_market/ch
+ ristmas_market_chemnitz
+URL:https://www.chemnitz.de/en/culture/highlights/christmas_market/christma
+ s_market_chemnitz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-rathaus-weihnachtsmarkt-20261127-chemnitzer-weihnachtsmarkt-2026-ende
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Chemnitzer Weihnachtsmarkt 2026
+LOCATION:Markt am Rathaus Chemnitz\, Markt\, Chemnitz
+DESCRIPTION:Weihnachtsmarkt rund um das Rathaus.\nLaufzeit: 27.11.2026 bis 
+ 23.12.2026\nTermine laut Veranstalter: Mo–Do 11–20 Uhr\, Fr/Sa 10–21
+  Uhr\, So 10–20 Uhr\; 27.11. 16–21 Uhr\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.chemnitz.de/en/culture/highlights/christmas_market/ch
+ ristmas_market_chemnitz
+URL:https://www.chemnitz.de/en/culture/highlights/christmas_market/christma
+ s_market_chemnitz
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

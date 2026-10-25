@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Coesfeld · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:coe-stadtmuseum-das-tor-20261024-kein-geld-kein-problem-notgeld-aus-wes
+ tfalen-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Kein Geld? Kein Problem – Notgeld aus Westfalen
+LOCATION:Stadtmuseum DAS TOR\, Mühlenplatz 3\, 48653 Coesfeld
+DESCRIPTION:Wechselausstellung zum Notgeld in Westfalen.\nLaufzeit: 24.10.2
+ 026 bis 15.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://stadtmu
+ seum.coesfeld.de/programm/fuehrungen-und-veranstaltungen
+URL:https://stadtmuseum.coesfeld.de/programm/fuehrungen-und-veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:coe-stadtmuseum-das-tor-20261024-kein-geld-kein-problem-notgeld-aus-wes
+ tfalen-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Kein Geld? Kein Problem – Notgeld aus Westfalen
+LOCATION:Stadtmuseum DAS TOR\, Mühlenplatz 3\, 48653 Coesfeld
+DESCRIPTION:Wechselausstellung zum Notgeld in Westfalen.\nLaufzeit: 24.10.2
+ 026 bis 15.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://stadtmu
+ seum.coesfeld.de/programm/fuehrungen-und-veranstaltungen
+URL:https://stadtmuseum.coesfeld.de/programm/fuehrungen-und-veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:coe-kommunales-kino-20261025-frau-winkler-verlaesst-das-haus@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T120000
+DTEND;TZID=Europe/Berlin:20261025T140000
+SUMMARY:Frau Winkler verlässt das Haus
+LOCATION:Kommunales Kino Coesfeld (im Cinema Coesfeld)\, Holtwicker Straße
+  2\, Coesfeld
+DESCRIPTION:Sonntagsmatinee im Kommunalen Kino.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.coesfeld.de/fr
+ eizeit/kultur/kommunales-kino/uebersicht
+URL:https://www.coesfeld.de/freizeit/kultur/kommunales-kino/uebersicht
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

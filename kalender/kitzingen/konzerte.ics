@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Kitzingen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kt-alte-synagoge-20261114-kitzinger-klezmer-tage@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T100000
+DTEND;TZID=Europe/Berlin:20261114T120000
+SUMMARY:Kitzinger Klezmer Tage
+LOCATION:Kulturhaus Alte Synagoge Kitzingen\, Landwehrstraße 1\, 97318 Kit
+ zingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadt-kitzingen.de/stadt-kitzingen/startseite/leben
+ -in-kitzingen/staedtische-einrichtungen/kulturhaus-alte-synagoge/
+URL:https://www.stadt-kitzingen.de/stadt-kitzingen/startseite/leben-in-kitz
+ ingen/staedtische-einrichtungen/kulturhaus-alte-synagoge/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kt-alte-synagoge-20261120-jazz-and-more-happy-100th-birthday-miles-davi
+ s-fea@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Jazz and More: Happy 100th Birthday Miles Davis! feat. Hubert Winte
+ r & Martin Auer
+LOCATION:Kulturhaus Alte Synagoge Kitzingen\, Landwehrstraße 1\, 97318 Kit
+ zingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadt-kitzingen.de/stadt-kitzingen/startseite/leben
+ -in-kitzingen/staedtische-einrichtungen/kulturhaus-alte-synagoge/
+URL:https://www.stadt-kitzingen.de/stadt-kitzingen/startseite/leben-in-kitz
+ ingen/staedtische-einrichtungen/kulturhaus-alte-synagoge/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kt-alte-synagoge-20261121-carolin-no-ne-on-20-years-live@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Carolin No – NE//ON – 20 Years Live
+LOCATION:Kulturhaus Alte Synagoge Kitzingen\, Landwehrstraße 1\, 97318 Kit
+ zingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadt-kitzingen.de/stadt-kitzingen/startseite/leben
+ -in-kitzingen/staedtische-einrichtungen/kulturhaus-alte-synagoge/
+URL:https://www.stadt-kitzingen.de/stadt-kitzingen/startseite/leben-in-kitz
+ ingen/staedtische-einrichtungen/kulturhaus-alte-synagoge/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

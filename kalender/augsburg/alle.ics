@@ -1,0 +1,498 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Augsburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a-tim-20260320-loveparade-fotografien-von-daniel-biskup-ende@myeventhub
+ .de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Letzter Tag: LOVEPARADE – Fotografien von Daniel Biskup
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:Foyerausstellung.\nLaufzeit: 20.3.2026 bis 19.11.2026\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.timbayern.de/
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-tim-20260417-celebrating-fashion-talbot-runhof-in-paris-ende@myeventh
+ ub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Letzter Tag: CELEBRATING FASHION – Talbot Runhof in Paris
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:Laufzeit: 17.4.2026 bis 25.10.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.timbayern.de/
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-tim-20260626-between-earth-and-sky-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Letzter Tag: Between Earth and Sky
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:Foyerausstellung.\nLaufzeit: 26.6.2026 bis 6.12.2026\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.timbayern.de/
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-grafisches-kabinett-20260925-philipp-roeth-18411921-malerische-landsc
+ haften-zwi-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Letzter Tag: Philipp Röth (1841–1921). Malerische Landschaften z
+ wischen Spätromantik und Impressionismus
+LOCATION:Grafisches Kabinett\, Maximilianstraße 48\, 86150 Augsburg
+DESCRIPTION:Laufzeit: 25.9.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/
+URL:https://kunstsammlungen-museen.augsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-schaezlerpalais-20261025-familienfuehrung-flohfallen-fuer-die-barocke
+ -prach@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T103000
+DTEND;TZID=Europe/Berlin:20261025T123000
+SUMMARY:Familienführung: Flohfallen für die barocke Pracht
+LOCATION:Schaezlerpalais\, Maximilianstraße 46\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-maximilianmuseum-20261025-familienfuehrung-kaiser-koenige-und-fuerste
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Familienführung: Kaiser\, Könige und Fürsten
+LOCATION:Maximilianmuseum\, Fuggerplatz 1\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-schaezlerpalais-20261025-workshop-zeichnen-im-museum@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T130000
+DTEND;TZID=Europe/Berlin:20261025T150000
+SUMMARY:Workshop: Zeichnen im Museum
+LOCATION:Schaezlerpalais\, Maximilianstraße 46\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-schaezlerpalais-20261025-turnusfuehrung-durch-die-dauerausstellung@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:Turnusführung durch die Dauerausstellung
+LOCATION:Schaezlerpalais\, Maximilianstraße 46\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-maximilianmuseum-20261025-turnusfuehrung-durch-die-dauerausstellung@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:Turnusführung durch die Dauerausstellung
+LOCATION:Maximilianmuseum\, Fuggerplatz 1\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-grafisches-kabinett-20261025-turnusfuehrung-philipp-roeth-18411921@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T160000
+DTEND;TZID=Europe/Berlin:20261025T180000
+SUMMARY:Turnusführung: Philipp Röth (1841–1921)
+LOCATION:Grafisches Kabinett\, Maximilianstraße 48\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261025-frontm3n@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T193000
+DTEND;TZID=Europe/Berlin:20261025T213000
+SUMMARY:FRONTM3N
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/frontm3n-2026-10-25/
+URL:https://parktheater.de/spielplan/frontm3n-2026-10-25/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261027-irish-folk-festival-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T193000
+DTEND;TZID=Europe/Berlin:20261027T213000
+SUMMARY:Irish Folk Festival 2026
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/irish-folk-festival-2026-2026-
+ 10-27/
+URL:https://parktheater.de/spielplan/irish-folk-festival-2026-2026-10-27/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261028-swa-herzenswunsch-slam@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:swa Herzenswunsch-Slam
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://parktheater.de/
+URL:https://parktheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261029-ohne-rolf@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Ohne Rolf
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/ohne-rolf-2026-10-29/
+URL:https://parktheater.de/spielplan/ohne-rolf-2026-10-29/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-maximilianmuseum-20261031-fuehrung-reformation-in-augsburg@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T103000
+DTEND;TZID=Europe/Berlin:20261031T123000
+SUMMARY:Führung: Reformation in Augsburg
+LOCATION:Maximilianmuseum\, Fuggerplatz 1\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-schaezlerpalais-20261031-die-welt-neu-im-blick-weibsbilder-wunderbare
+ s-spie@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T153000
+DTEND;TZID=Europe/Berlin:20261031T173000
+SUMMARY:Die Welt neu im Blick: Weibsbilder – wunderbares Spiegelbild unse
+ rer Gesellschaft
+LOCATION:Schaezlerpalais\, Maximilianstraße 46\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-schaezlerpalais-20261101-familienfuehrung-flohfallen-fuer-die-barocke
+ -prach@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T103000
+DTEND;TZID=Europe/Berlin:20261101T123000
+SUMMARY:Familienführung: Flohfallen für die barocke Pracht
+LOCATION:Schaezlerpalais\, Maximilianstraße 46\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-tim-20261101-allerheiligenkonzert-im-tim-mit-mas-que-tango@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Allerheiligenkonzert im tim mit MÀS QUE TANGO
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:18–20 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.timbayern.de/
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261107-art-of-andalucia@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Art of Andalucia
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/art-of-andalucia-2026-11-07/
+URL:https://parktheater.de/spielplan/art-of-andalucia-2026-11-07/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261108-willy-astor@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T193000
+DTEND;TZID=Europe/Berlin:20261108T213000
+SUMMARY:Willy Astor (ausverkauft)
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://parktheater.de/spielplan/willy-astor-2026-
+ 11-08/
+URL:https://parktheater.de/spielplan/willy-astor-2026-11-08/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261112-hans-well-und-die-wellbappn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Hans Well und die Wellbappn
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/hans-well-und-die-wellbappn-20
+ 26-11-12/
+URL:https://parktheater.de/spielplan/hans-well-und-die-wellbappn-2026-11-12
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261116-nils-wuelker-quartet@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Nils Wülker Quartet
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/nils-wuelker-quartet-2026-11-1
+ 6/
+URL:https://parktheater.de/spielplan/nils-wuelker-quartet-2026-11-16/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261118-claudia-pichler@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T193000
+DTEND;TZID=Europe/Berlin:20261118T213000
+SUMMARY:Claudia Pichler
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/claudia-pichler-2026-11-18/
+URL:https://parktheater.de/spielplan/claudia-pichler-2026-11-18/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-tim-20261121-textilmarkt-im-tim-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Beginn: Textilmarkt im tim
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:Laufzeit: 21.11.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.timbayern.de/
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-tim-20261121-textilmarkt-im-tim-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Textilmarkt im tim
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:Laufzeit: 21.11.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.timbayern.de/
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261122-augsburg-nuernberger-kammerkonzerte-2@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Augsburg Nürnberger Kammerkonzerte # 2
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/augsburg-nuernberger-kammerkon
+ zerte-2-2026-11-22/
+URL:https://parktheater.de/spielplan/augsburg-nuernberger-kammerkonzerte-2-
+ 2026-11-22/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christkindlesmarkt-rathausplatz-20261123-augsburger-christkindlesmark
+ t-2026-beginn@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Augsburger Christkindlesmarkt 2026
+LOCATION:Rathausplatz und Maximilianstraße (Christkindlesmarkt)\, Augsburg
+DESCRIPTION:Weihnachtsmarkt rund um Rathausplatz und Maximilianstraße.\nLa
+ ufzeit: 23.11.2026 bis 24.12.2026\nTermine laut Veranstalter: 23.11. 18–
+ 21.30 Uhr\; So–Do 10–20 Uhr\; Fr–Sa 10–21.30 Uhr\; 24.12. 10–14 
+ Uhr\nQuelle (bitte vor dem Besuch prüfen): https://augsburgerchristkindle
+ smarkt.com/
+URL:https://augsburgerchristkindlesmarkt.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christkindlesmarkt-rathausplatz-20261123-augsburger-christkindlesmark
+ t-2026-ende@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Letzter Tag: Augsburger Christkindlesmarkt 2026
+LOCATION:Rathausplatz und Maximilianstraße (Christkindlesmarkt)\, Augsburg
+DESCRIPTION:Weihnachtsmarkt rund um Rathausplatz und Maximilianstraße.\nLa
+ ufzeit: 23.11.2026 bis 24.12.2026\nTermine laut Veranstalter: 23.11. 18–
+ 21.30 Uhr\; So–Do 10–20 Uhr\; Fr–Sa 10–21.30 Uhr\; 24.12. 10–14 
+ Uhr\nQuelle (bitte vor dem Besuch prüfen): https://augsburgerchristkindle
+ smarkt.com/
+URL:https://augsburgerchristkindlesmarkt.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261123-max-goldt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T190000
+DTEND;TZID=Europe/Berlin:20261123T210000
+SUMMARY:Max Goldt
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/max-goldt-2026-11-23/
+URL:https://parktheater.de/spielplan/max-goldt-2026-11-23/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261123-max-goldt-lesung@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Max Goldt – Lesung
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://parktheater.de/
+URL:https://parktheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261125-der-literarische-salon@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Der Literarische Salon
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://parktheater.de/
+URL:https://parktheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-tim-20261129-punch-needle-auf-jutebeutel@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Punch Needle auf Jutebeutel
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.timbayern.de
+ /
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261201-ganes@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T193000
+DTEND;TZID=Europe/Berlin:20261201T213000
+SUMMARY:Ganes
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/ganes-2026-12-01/
+URL:https://parktheater.de/spielplan/ganes-2026-12-01/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261204-goegginger-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T170000
+DTEND;TZID=Europe/Berlin:20261204T190000
+SUMMARY:Gögginger Weihnachtsmarkt
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/goegginger-weihnachtsmarkt-202
+ 6-12-04/
+URL:https://parktheater.de/spielplan/goegginger-weihnachtsmarkt-2026-12-04/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261204-steinbach-big-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Steinbach Big Band
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/steinbach-big-band-2026-12-04/
+URL:https://parktheater.de/spielplan/steinbach-big-band-2026-12-04/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261205-hofkapelle-muenchen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:Hofkapelle München
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://parktheater.de/spielplan/hofkapelle-muenchen-2026-12-05
+ /
+URL:https://parktheater.de/spielplan/hofkapelle-muenchen-2026-12-05/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

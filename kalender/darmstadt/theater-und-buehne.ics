@@ -1,0 +1,302 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Darmstadt · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:da-staatstheater-20261025-andrea-chenier@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Andrea Chénier
+LOCATION:Staatstheater Darmstadt\, Darmstadt
+DESCRIPTION:Oper\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.staatstheater-darmstadt.de/spi
+ elplan/
+URL:https://www.staatstheater-darmstadt.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-centralstation-20261027-gazelle-comedy-perle@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:Gazelle: Comedy Perle
+LOCATION:Centralstation Darmstadt\, Im Carree\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://centralstation-darmstadt.de/programm/
+URL:https://centralstation-darmstadt.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261029-die-parkbank-am-highway-441-lesung@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Die Parkbank am Highway 441 – Lesung
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-staatstheater-20261031-a-chorus-line@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:A Chorus Line (ausverkauft)
+LOCATION:Staatstheater Darmstadt\, Darmstadt
+DESCRIPTION:Musical\, Großes Haus\nEnde: laut Quelle nicht angegeben\nAusv
+ erkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.staatstheater-
+ darmstadt.de/spielplan/
+URL:https://www.staatstheater-darmstadt.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-staatstheater-20261106-cavalleria-rusticana-pagliacci@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Cavalleria rusticana / Pagliacci
+LOCATION:Staatstheater Darmstadt\, Darmstadt
+DESCRIPTION:Oper\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.staatstheater-darmstadt.de/spi
+ elplan/
+URL:https://www.staatstheater-darmstadt.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-staatstheater-20261114-rain-maiden@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Rain Maiden
+LOCATION:Staatstheater Darmstadt\, Darmstadt
+DESCRIPTION:Tanz\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.staatstheater-darmstadt.de/spi
+ elplan/
+URL:https://www.staatstheater-darmstadt.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261119-tino-eisbrenner-deutschland-ein-winterm
+ aerchen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Tino Eisbrenner – Deutschland ein Wintermärchen
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261126-lesung-mit-ella-theiss-das-darmstaedter
+ -moerderlie@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Lesung mit Ella Theiss: Das Darmstädter Mörderliebchen
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261128-hirn-flatulenz-comedy-mit-christoph-vis
+ one@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Hirn-Flatulenz – Comedy mit Christoph Visone
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261204-die-grosse-schlacht-um-laurel-hardy@mye
+ venthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Die große Schlacht um Laurel & Hardy
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261212-die-grosse-schlacht-um-laurel-hardy@mye
+ venthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Die große Schlacht um Laurel & Hardy
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20261229-das-phantom-der-oper@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T200000
+DTEND;TZID=Europe/Berlin:20261229T220000
+SUMMARY:Das Phantom der Oper
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270102-der-nussknacker@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270102T193000
+DTEND;TZID=Europe/Berlin:20270102T213000
+SUMMARY:Der Nussknacker
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ballett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltu
+ ngskalender/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270103-schneekoenigin-das-musical@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T150000
+DTEND;TZID=Europe/Berlin:20270103T170000
+SUMMARY:Schneekönigin – das Musical
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270110-schwanensee@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T200000
+DTEND;TZID=Europe/Berlin:20270110T220000
+SUMMARY:Schwanensee
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ballett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltu
+ ngskalender/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270206-emmvee-ich-bitte-um-verzeihung@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T193000
+DTEND;TZID=Europe/Berlin:20270206T213000
+SUMMARY:EMMVEE – Ich bitte um Verzeihung
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270319-old-shatterhand-unter-kojoten@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T200000
+DTEND;TZID=Europe/Berlin:20270319T220000
+SUMMARY:Old Shatterhand unter Kojoten
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270320-loriot-die-ente-bleibt-draussen@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T150000
+DTEND;TZID=Europe/Berlin:20270320T170000
+SUMMARY:Loriot: Die Ente bleibt draußen
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270321-sixx-paxx@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T200000
+DTEND;TZID=Europe/Berlin:20270321T220000
+SUMMARY:Sixx Paxx
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270324-schwanensee@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270324T190000
+DTEND;TZID=Europe/Berlin:20270324T210000
+SUMMARY:Schwanensee
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ballett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltu
+ ngskalender/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270416-bodo-wartke-wunderpunkt@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T200000
+DTEND;TZID=Europe/Berlin:20270416T220000
+SUMMARY:Bodo Wartke: Wunderpunkt
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Schwetzingen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hd-schloss-schwetzingen-20261025-sonderfuehrung-vorhang-auf@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Sonderführung: Vorhang auf!
+LOCATION:Schloss und Schlossgarten Schwetzingen\, Schloss Mittelbau\, 68723
+  Schwetzingen
+DESCRIPTION:Führung im historischen Hoftheater des Schlosses.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .schloss-schwetzingen.de/besuchsinformation/fuehrungen-veranstaltungen/wei
+ tere-informationen-zum-ausgewaehlten-angebot/vorhang-auf-1/9948/841032
+URL:https://www.schloss-schwetzingen.de/besuchsinformation/fuehrungen-veran
+ staltungen/weitere-informationen-zum-ausgewaehlten-angebot/vorhang-auf-1/9
+ 948/841032
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-schloss-schwetzingen-20261025-kostuemfuehrung-ritter-und-moepse@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:Kostümführung: Ritter und Möpse
+LOCATION:Schloss und Schlossgarten Schwetzingen\, Schloss Mittelbau\, 68723
+  Schwetzingen
+DESCRIPTION:Kostümführung über Geheimgesellschaften und Orden zur Zeit C
+ arl Theodors.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.schloss-schwetzingen.de/besuchsinformation/fueh
+ rungen-veranstaltungen/weitere-informationen-zum-ausgewaehlten-angebot/rit
+ ter-und-moepse/9204/761730
+URL:https://www.schloss-schwetzingen.de/besuchsinformation/fuehrungen-veran
+ staltungen/weitere-informationen-zum-ausgewaehlten-angebot/ritter-und-moep
+ se/9204/761730
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

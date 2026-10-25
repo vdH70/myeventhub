@@ -1,0 +1,377 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Osterholz-Scharmbeck · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ohz-gut-sandbeck-20261005-preistraegerinnen-des-kulturpreises-2025-der-
+ volks-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Preisträgerinnen des Kulturpreises 2025 der Volksbank
+  eG
+LOCATION:Gut Sandbeck\, Sandbeckstraße 13\, 27711 Osterholz-Scharmbeck
+DESCRIPTION:Ausstellung des Kunstvereins Osterholz\, Eintritt frei.\nLaufze
+ it: 5.10.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.kunstverein-osterholz.de/ausstellungen/
+URL:https://www.kunstverein-osterholz.de/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-kuz-kleinbahnhof-20261025-offene-buehne@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:Offene Bühne
+LOCATION:Kulturzentrum Kleinbahnhof (KUZ)\, Am Kleinbahnhof 1\, 27711 Oster
+ holz-Scharmbeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kuz-ohz.de/
+URL:https://kuz-ohz.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-klosterkirche-st-marien-20261030-benefizkonzert-zum-mozartjahr@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T180000
+DTEND;TZID=Europe/Berlin:20261030T200000
+SUMMARY:Benefizkonzert zum Mozartjahr
+LOCATION:Klosterkirche St. Marien Osterholz\, Klosterplatz 6\, 27711 Osterh
+ olz-Scharmbeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spend
+ en erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.kircheander
+ hamme.de/regionale_termine
+URL:https://www.kircheanderhamme.de/regionale_termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-kuz-kleinbahnhof-20261031-kuz-live-pietze-band@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:KuZ Live: Pietze Band
+LOCATION:Kulturzentrum Kleinbahnhof (KUZ)\, Am Kleinbahnhof 1\, 27711 Oster
+ holz-Scharmbeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kuz-ohz.de/
+URL:https://kuz-ohz.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20261031-die-faeaschtbaenkler@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Die Fäaschtbänkler
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/die-faeaschtbaenkler
+URL:https://stadthalle-ohz.de/programm/die-faeaschtbaenkler
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20261107-voelkerball-a-tribute-to-rammstein@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Völkerball – A Tribute to Rammstein
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/voelkerball-a-tribute-to-rammstein
+URL:https://stadthalle-ohz.de/programm/voelkerball-a-tribute-to-rammstein
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20261110-take-it-to-the-limit-germany-tour-2026@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Take It To The Limit – Germany Tour 2026
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/take-it-to-the-limit-2
+URL:https://stadthalle-ohz.de/programm/take-it-to-the-limit-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20261120-3-rudelsingen-in-ohz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:3. Rudelsingen in OHZ
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/3-rudelsingen-in-ohz
+URL:https://stadthalle-ohz.de/programm/3-rudelsingen-in-ohz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-gut-sandbeck-20261121-kunsthandwerk-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Beginn: KunstHandWerk
+LOCATION:Gut Sandbeck\, Sandbeckstraße 13\, 27711 Osterholz-Scharmbeck
+DESCRIPTION:Weihnachtliche Ausstellung des Kunstvereins\, Eröffnung am 21.
+ 11. um 15 Uhr.\nLaufzeit: 21.11.2026 bis 13.12.2026\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.kunstverein-osterholz.de/ausstellungen/
+URL:https://www.kunstverein-osterholz.de/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-gut-sandbeck-20261121-kunsthandwerk-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: KunstHandWerk
+LOCATION:Gut Sandbeck\, Sandbeckstraße 13\, 27711 Osterholz-Scharmbeck
+DESCRIPTION:Weihnachtliche Ausstellung des Kunstvereins\, Eröffnung am 21.
+ 11. um 15 Uhr.\nLaufzeit: 21.11.2026 bis 13.12.2026\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.kunstverein-osterholz.de/ausstellungen/
+URL:https://www.kunstverein-osterholz.de/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20261127-martin-ruetter-schluss-aus-warm-up-show@myevent
+ hub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Martin Rütter – SCHLUSS! AUS! – Warm-Up Show
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: ab 52\,40 €\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /stadthalle-ohz.de/programm/martin-ruetter-3
+URL:https://stadthalle-ohz.de/programm/martin-ruetter-3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-museumsanlage-osterholz-20261128-osterholzer-winterlichter@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T130000
+DTEND;TZID=Europe/Berlin:20261128T150000
+SUMMARY:Osterholzer Winterlichter
+LOCATION:Museumsanlage Osterholz mit Norddeutschem Vogelmuseum\, Bördestra
+ ße 42\, 27711 Osterholz-Scharmbeck
+DESCRIPTION:Weihnachtsmarkt im Stadtteil Osterholz\, 13–20 Uhr\; Lichteru
+ mzug 17 Uhr\, Rudelsingen 18.30 Uhr.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://osterholzer-winterlichter.de
+ /
+URL:https://osterholzer-winterlichter.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20261204-sven-bensmann-svenomenal@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Sven Bensmann – Svenomenal
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/sven-bensmann
+URL:https://stadthalle-ohz.de/programm/sven-bensmann
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20261206-regensburger-domspatzen-das-grosse-weihnachtsko
+ nze@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T170000
+DTEND;TZID=Europe/Berlin:20261206T190000
+SUMMARY:Regensburger Domspatzen – Das große Weihnachtskonzert
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Einlass 16:00\, Beginn 17:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: ab 49\,90 €\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /stadthalle-ohz.de/programm/regensburger-domspatzen
+URL:https://stadthalle-ohz.de/programm/regensburger-domspatzen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20261219-30-jahre-afterburner@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:30 Jahre Afterburner
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/30-jahre-afterburner
+URL:https://stadthalle-ohz.de/programm/30-jahre-afterburner
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270110-heavysaurus-metal-tour-2026-27@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T150000
+DTEND;TZID=Europe/Berlin:20270110T170000
+SUMMARY:Heavysaurus – METAL Tour 2026/27
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Metal-Konzert für Kinder von 3 bis 11 Jahren und Familien.\nEi
+ nlass 14:00\, Beginn 15:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 
+ ab 11\,00 € (Erwachsene 38\,45 €\, Kinder 3–11 Jahre 34\,05 €)\nQu
+ elle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.de/programm/he
+ avysaurus
+URL:https://stadthalle-ohz.de/programm/heavysaurus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270116-ohnsorg-theater-fisch-foer-veer-ein-letztes-mah
+ l@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T160000
+DTEND;TZID=Europe/Berlin:20270116T180000
+SUMMARY:Ohnsorg-Theater: Fisch för Veer – Ein letztes Mahl
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Einlass 15:00\, Beginn 16:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: ab 34\,00 €\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /stadthalle-ohz.de/programm/ohnsorg-theater
+URL:https://stadthalle-ohz.de/programm/ohnsorg-theater
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270121-atze-schroeder-lovemachine@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T200000
+DTEND;TZID=Europe/Berlin:20270121T220000
+SUMMARY:Atze Schröder – Lovemachine
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: ab 44\,90 €\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /stadthalle-ohz.de/programm/atze-schroeder-3
+URL:https://stadthalle-ohz.de/programm/atze-schroeder-3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270203-dittsche-live-solo-2027@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270203T200000
+DTEND;TZID=Europe/Berlin:20270203T220000
+SUMMARY:Dittsche – live & solo 2027
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Tickets ab 49\,90 €\nQuelle (bitte vor dem Besuch prüfen):
+  https://stadthalle-ohz.de/programm/dittsche-2
+URL:https://stadthalle-ohz.de/programm/dittsche-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270217-super-abba-a-tribute-to-abba@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Super ABBA – A Tribute to ABBA
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/super-abba-2
+URL:https://stadthalle-ohz.de/programm/super-abba-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270307-uwe-der-kreisligatrainer-balla-balla@myeventhub
+ .de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:UWE! – Der Kreisligatrainer: Balla Balla
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/uwe-der-kreisligatrainer
+URL:https://stadthalle-ohz.de/programm/uwe-der-kreisligatrainer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270321-australian-bee-gees-show@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Australian Bee Gees Show
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/australian-bee-gees
+URL:https://stadthalle-ohz.de/programm/australian-bee-gees
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270403-aladin-das-musical@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Aladin – Das Musical
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/aladin-das-musical-2
+URL:https://stadthalle-ohz.de/programm/aladin-das-musical-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270404-bernd-stelter-sonne-im-herzen-bloedsinn-im-kopp
+ @myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Bernd Stelter – Sonne im Herzen\, Blödsinn im Kopp!
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/bernd-stelter-4
+URL:https://stadthalle-ohz.de/programm/bernd-stelter-4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-stadthalle-20270410-bastian-bielendorfer-gamechanger@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Bastian Bielendorfer – GameChanger
+LOCATION:Stadthalle Osterholz-Scharmbeck\, Jacob-Frerichs-Str. 1\, 27711 Os
+ terholz-Scharmbeck
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-ohz.d
+ e/programm/bastian-bielendorfer
+URL:https://stadthalle-ohz.de/programm/bastian-bielendorfer
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

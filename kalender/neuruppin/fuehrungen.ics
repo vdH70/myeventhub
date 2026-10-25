@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Neuruppin · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:opr-museum-neuruppin-20261108-marionettenfuehrung-unterwegs-mit-theodor
+ -fontane@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Marionettenführung: Unterwegs mit Theodor Fontane durch das Museum
+  Neuruppin
+LOCATION:Museum Neuruppin\, August-Bebel-Straße 14/15\, 16816 Neuruppin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.museum-neuru
+ ppin.de/veranstaltungen/index.php
+URL:https://www.museum-neuruppin.de/veranstaltungen/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:opr-museum-neuruppin-20261129-sonntagsvergnuegen-fuehrung-durch-die-wec
+ hselausst@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Sonntagsvergnügen: Führung durch die Wechselausstellung „Kunst\
+ , echte Kunst überall“
+LOCATION:Museum Neuruppin\, August-Bebel-Straße 14/15\, 16816 Neuruppin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.museum-neuru
+ ppin.de/veranstaltungen/index.php
+URL:https://www.museum-neuruppin.de/veranstaltungen/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Aschaffenburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ab-colos-saal-20261030-van-canto@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Van Canto
+LOCATION:Colos-Saal\, Aschaffenburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://colos-saal.de/ko
+ mplettes-programm.html
+URL:https://colos-saal.de/komplettes-programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-stadttheater-20261030-jazzchor-freiburg-feat-joo-kraus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Jazzchor Freiburg feat. Joo Kraus
+LOCATION:Stadttheater Aschaffenburg\, Aschaffenburg
+DESCRIPTION:Gastspiel des Colos-Saal im Stadttheater.\nQuelle (bitte vor de
+ m Besuch prüfen): https://colos-saal.de/komplettes-programm/programm-nach
+ -genres/jazz-fusion/jazzchor-freiburg-im-stadttheater.html
+URL:https://colos-saal.de/komplettes-programm/programm-nach-genres/jazz-fus
+ ion/jazzchor-freiburg-im-stadttheater.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

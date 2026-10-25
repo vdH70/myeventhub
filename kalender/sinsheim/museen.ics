@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Sinsheim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hd-technik-museum-sinsheim-20261031-nippon-community-day@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Nippon Community Day
+LOCATION:Technik Museum Sinsheim\, Museumsplatz\, 74889 Sinsheim
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.technik-muse
+ um.de/de/events/jahreskalender/nippon-community-day/
+URL:https://www.technik-museum.de/de/events/jahreskalender/nippon-community
+ -day/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

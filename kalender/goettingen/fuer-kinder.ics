@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Göttingen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:goe-forum-wissen-20261030-halloween-im-forum-wissen-beginn@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Halloween im Forum Wissen
+LOCATION:Forum Wissen – Wissensmuseum der Universität Göttingen\, Berli
+ ner Straße 28\, 37073 Göttingen
+DESCRIPTION:Angebot für Kinder zu Halloween\, bis 01.11. 18 Uhr.\nLaufzeit
+ : 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.forum-wissen.de/kalender/
+URL:https://www.forum-wissen.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-forum-wissen-20261030-halloween-im-forum-wissen-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Halloween im Forum Wissen
+LOCATION:Forum Wissen – Wissensmuseum der Universität Göttingen\, Berli
+ ner Straße 28\, 37073 Göttingen
+DESCRIPTION:Angebot für Kinder zu Halloween\, bis 01.11. 18 Uhr.\nLaufzeit
+ : 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.forum-wissen.de/kalender/
+URL:https://www.forum-wissen.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

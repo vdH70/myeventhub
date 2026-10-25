@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Augsburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a-tim-20260320-loveparade-fotografien-von-daniel-biskup-ende@myeventhub
+ .de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Letzter Tag: LOVEPARADE – Fotografien von Daniel Biskup
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:Foyerausstellung.\nLaufzeit: 20.3.2026 bis 19.11.2026\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.timbayern.de/
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-tim-20260417-celebrating-fashion-talbot-runhof-in-paris-ende@myeventh
+ ub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Letzter Tag: CELEBRATING FASHION – Talbot Runhof in Paris
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:Laufzeit: 17.4.2026 bis 25.10.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.timbayern.de/
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-tim-20260626-between-earth-and-sky-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Letzter Tag: Between Earth and Sky
+LOCATION:tim | Staatliches Textil- und Industriemuseum Augsburg\, Provinost
+ raße 46\, 86153 Augsburg
+DESCRIPTION:Foyerausstellung.\nLaufzeit: 26.6.2026 bis 6.12.2026\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.timbayern.de/
+URL:https://www.timbayern.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-grafisches-kabinett-20260925-philipp-roeth-18411921-malerische-landsc
+ haften-zwi-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Letzter Tag: Philipp Röth (1841–1921). Malerische Landschaften z
+ wischen Spätromantik und Impressionismus
+LOCATION:Grafisches Kabinett\, Maximilianstraße 48\, 86150 Augsburg
+DESCRIPTION:Laufzeit: 25.9.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/
+URL:https://kunstsammlungen-museen.augsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-schaezlerpalais-20261025-familienfuehrung-flohfallen-fuer-die-barocke
+ -prach@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T103000
+DTEND;TZID=Europe/Berlin:20261025T123000
+SUMMARY:Familienführung: Flohfallen für die barocke Pracht
+LOCATION:Schaezlerpalais\, Maximilianstraße 46\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-maximilianmuseum-20261025-familienfuehrung-kaiser-koenige-und-fuerste
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Familienführung: Kaiser\, Könige und Fürsten
+LOCATION:Maximilianmuseum\, Fuggerplatz 1\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-schaezlerpalais-20261025-turnusfuehrung-durch-die-dauerausstellung@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:Turnusführung durch die Dauerausstellung
+LOCATION:Schaezlerpalais\, Maximilianstraße 46\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-maximilianmuseum-20261025-turnusfuehrung-durch-die-dauerausstellung@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:Turnusführung durch die Dauerausstellung
+LOCATION:Maximilianmuseum\, Fuggerplatz 1\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-grafisches-kabinett-20261025-turnusfuehrung-philipp-roeth-18411921@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T160000
+DTEND;TZID=Europe/Berlin:20261025T180000
+SUMMARY:Turnusführung: Philipp Röth (1841–1921)
+LOCATION:Grafisches Kabinett\, Maximilianstraße 48\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-maximilianmuseum-20261031-fuehrung-reformation-in-augsburg@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T103000
+DTEND;TZID=Europe/Berlin:20261031T123000
+SUMMARY:Führung: Reformation in Augsburg
+LOCATION:Maximilianmuseum\, Fuggerplatz 1\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-schaezlerpalais-20261031-die-welt-neu-im-blick-weibsbilder-wunderbare
+ s-spie@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T153000
+DTEND;TZID=Europe/Berlin:20261031T173000
+SUMMARY:Die Welt neu im Blick: Weibsbilder – wunderbares Spiegelbild unse
+ rer Gesellschaft
+LOCATION:Schaezlerpalais\, Maximilianstraße 46\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-schaezlerpalais-20261101-familienfuehrung-flohfallen-fuer-die-barocke
+ -prach@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T103000
+DTEND;TZID=Europe/Berlin:20261101T123000
+SUMMARY:Familienführung: Flohfallen für die barocke Pracht
+LOCATION:Schaezlerpalais\, Maximilianstraße 46\, 86150 Augsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstsammlungen-museen.augsburg.de/termine
+URL:https://kunstsammlungen-museen.augsburg.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

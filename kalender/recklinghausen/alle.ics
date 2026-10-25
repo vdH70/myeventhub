@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Recklinghausen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:re-kunsthalle-20261012-what-lies-below-is-another-above-beginn@myeventh
+ ub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Beginn: What Lies Below Is Another Above
+LOCATION:Kunsthalle Recklinghausen\, Große-Perdekamp-Straße 25–27\, 456
+ 57 Recklinghausen
+DESCRIPTION:Ausstellung\, laut Kunsthalle seit 12.09.2026.\nLaufzeit: 12.10
+ .2026 bis 22.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://kunst
+ halle-recklinghausen.de/ausstellungen-1
+URL:https://kunsthalle-recklinghausen.de/ausstellungen-1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-kunsthalle-20261012-what-lies-below-is-another-above-ende@myeventhub
+ .de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: What Lies Below Is Another Above
+LOCATION:Kunsthalle Recklinghausen\, Große-Perdekamp-Straße 25–27\, 456
+ 57 Recklinghausen
+DESCRIPTION:Ausstellung\, laut Kunsthalle seit 12.09.2026.\nLaufzeit: 12.10
+ .2026 bis 22.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://kunst
+ halle-recklinghausen.de/ausstellungen-1
+URL:https://kunsthalle-recklinghausen.de/ausstellungen-1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-altstadtschmiede-20261025-die-lieder-meiner-nachbar-innen@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T173000
+DTEND;TZID=Europe/Berlin:20261025T193000
+SUMMARY:Die Lieder meiner Nachbar*innen
+LOCATION:Altstadtschmiede\, Kellerstr. 10\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.altstadtschmiede.de/aktuelle-
+ veranstaltungen
+URL:https://www.altstadtschmiede.de/aktuelle-veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261026-fossilien-und-dinosaurier@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T171500
+DTEND;TZID=Europe/Berlin:20261026T191500
+SUMMARY:Fossilien und Dinosaurier
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261026-physik-in-science-fiction-filmen-und
+ -in-phantastis@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T193000
+DTEND;TZID=Europe/Berlin:20261026T213000
+SUMMARY:Physik in Science Fiction-Filmen und in phantastischer Literatur
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261027-das-bilderbuch-des-sternenhimmels-ab
+ -5@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T110000
+DTEND;TZID=Europe/Berlin:20261027T130000
+SUMMARY:Das Bilderbuch des Sternenhimmels (ab 5)
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261028-gibt-es-fremdes-leben-im-all-ab-8@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T170000
+DTEND;TZID=Europe/Berlin:20261028T190000
+SUMMARY:Gibt es fremdes Leben im All? (ab 8)
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261028-experimente-fuer-kinder@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T171500
+DTEND;TZID=Europe/Berlin:20261028T191500
+SUMMARY:Experimente für Kinder
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261028-hybrid-workshop-tore-ins-universum@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T193000
+DTEND;TZID=Europe/Berlin:20261028T213000
+SUMMARY:Hybrid-Workshop: Tore ins Universum
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261029-reise-durch-unser-sonnensystem-ab-5@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T110000
+DTEND;TZID=Europe/Berlin:20261029T130000
+SUMMARY:Reise durch unser Sonnensystem (ab 5)
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261030-geisterstunde-im-planetarium-ab-8@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T160000
+DTEND;TZID=Europe/Berlin:20261030T180000
+SUMMARY:Geisterstunde im Planetarium (ab 8)
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261030-mit-den-sternbildern-durch-die-nacht
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Mit den Sternbildern durch die Nacht
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261102-online-vortrag-zwischen-maria-himmel
+ fahrt-und-st-m@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T193000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:Online-Vortrag: Zwischen Maria Himmelfahrt und St. Martin – Brauc
+ htum\, Himmel und Jahreslauf
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261104-auftaktveranstaltung-zum-workshop-as
+ tronomie-astro@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T180000
+DTEND;TZID=Europe/Berlin:20261104T200000
+SUMMARY:Auftaktveranstaltung zum Workshop Astronomie & Astrofotografie
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261104-hybrid-workshop-tore-ins-universum@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Hybrid-Workshop: Tore ins Universum
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261106-sonne-mond-und-sterne-ab-5@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T160000
+DTEND;TZID=Europe/Berlin:20261106T180000
+SUMMARY:Sonne\, Mond und Sterne (ab 5)
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261109-online-vortragsreihe-kulturastronomi
+ e-und-archaeoa@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T193000
+DTEND;TZID=Europe/Berlin:20261109T213000
+SUMMARY:Online-Vortragsreihe: Kulturastronomie und Archäoastronomie in Wes
+ tfalen
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-altstadtschmiede-20261110-lesung-mit-arne-semsrott@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T190000
+DTEND;TZID=Europe/Berlin:20261110T210000
+SUMMARY:Lesung mit Arne Semsrott
+LOCATION:Altstadtschmiede\, Kellerstr. 10\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.altstadtschmiede.de/aktuelle-veranstaltungen
+URL:https://www.altstadtschmiede.de/aktuelle-veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-sternwarte-planetarium-20261111-reise-durch-unser-sonnensystem-ab-5@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T170000
+DTEND;TZID=Europe/Berlin:20261111T190000
+SUMMARY:Reise durch unser Sonnensystem (ab 5)
+LOCATION:Westfälische Volkssternwarte und Planetarium Recklinghausen\, Sta
+ dtgarten 6\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-recklinghausen.de/programm/veranstaltungskal
+ ender/
+URL:https://sternwarte-recklinghausen.de/programm/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-altstadtschmiede-20261113-die-kleine-altstadtparty@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Die kleine Altstadtparty
+LOCATION:Altstadtschmiede\, Kellerstr. 10\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: VVK zzgl. Gebühren 6
+ €\nQuelle (bitte vor dem Besuch prüfen): https://www.altstadtschmiede.d
+ e/aktuelle-veranstaltungen
+URL:https://www.altstadtschmiede.de/aktuelle-veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-altstadtschmiede-20261114-39-literaturnacht-der-autorinnen-und-autor
+ en@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:39. Literaturnacht der Autorinnen und Autoren
+LOCATION:Altstadtschmiede\, Kellerstr. 10\, 45657 Recklinghausen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 10€\nQuelle (bitte vor dem Besuch prüfen): https://www.alt
+ stadtschmiede.de/aktuelle-veranstaltungen
+URL:https://www.altstadtschmiede.de/aktuelle-veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

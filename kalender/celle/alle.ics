@@ -1,0 +1,364 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Celle · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ce-kunstmuseum-20260425-fett-farbe-dieter-krieg-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Fett Farbe. Dieter Krieg
+LOCATION:Kunstmuseum Celle mit Sammlung Robert Simon\, Schlossplatz 7\, 292
+ 21 Celle
+DESCRIPTION:Laufzeit: 25.4.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunst.celle.de/
+URL:https://kunst.celle.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-bomann-museum-20260628-strahlende-zeiten-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Letzter Tag: Strahlende Zeiten!
+LOCATION:Bomann-Museum Celle\, Schloßplatz 7\, 29221 Celle
+DESCRIPTION:Laufzeit: 28.6.2026 bis 29.3.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bomann-museum.de/
+URL:https://www.bomann-museum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-bomann-museum-20260628-strahlende-zeiten-die-geschichte-des-atomzeit
+ alter-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Letzter Tag: Strahlende Zeiten! Die Geschichte des Atomzeitalters v
+ on Röntgen bis Reagan
+LOCATION:Bomann-Museum Celle\, Schloßplatz 7\, 29221 Celle
+DESCRIPTION:Laufzeit: 28.6.2026 bis 29.3.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bomann-museum.de/
+URL:https://www.bomann-museum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-kunstmuseum-20260920-tim-berresheim-bilder-und-voraussetzungen-ende@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:Letzter Tag: Tim Berresheim. Bilder und Voraussetzungen
+LOCATION:Kunstmuseum Celle mit Sammlung Robert Simon\, Schlossplatz 7\, 292
+ 21 Celle
+DESCRIPTION:Laufzeit: 20.9.2026 bis 29.8.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunst.celle.de/
+URL:https://kunst.celle.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-residenzmuseum-20261004-klassische-schlossfuehrung-sommer-ende@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: Klassische Schlossführung
+LOCATION:Residenzmuseum im Celler Schloss\, Schloßplatz 1\, 29221 Celle
+DESCRIPTION:Laufzeit: 4.10.2026 bis 31.10.2026\nTermine laut Veranstalter: 
+ Mai–Oktober (und 1.–3. Adventswochenende): Dienstag–Freitag\, Sonnta
+ g 11.00\, 13.00\, 15.00 Uhr\; Samstag stündlich von 11.00–15.00 Uhr\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.residenzmuseum.de/fuehrun
+ gen.html
+URL:https://www.residenzmuseum.de/fuehrungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-residenzmuseum-20261004-timeride-go-oeffentliche-virtuelle-fuehrung-
+ ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: TimeRide Go! Öffentliche Virtuelle Führung
+LOCATION:Residenzmuseum im Celler Schloss\, Schloßplatz 1\, 29221 Celle
+DESCRIPTION:Öffentliche virtuelle Führung (Virtual Reality) durch das Sch
+ loss.\nLaufzeit: 4.10.2026 bis 31.3.2027\nTermine laut Veranstalter: ganzj
+ ährig Freitag–Sonntag 13.30 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.residenzmuseum.de/fuehrungen.html
+URL:https://www.residenzmuseum.de/fuehrungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-stadtkirche-20261007-fuehrung-durch-die-stadtkirche-ende@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Führung durch die Stadtkirche
+LOCATION:Stadtkirche St. Marien\, An der Stadtkirche 8\, 29221 Celle
+DESCRIPTION:Führung von etwa 30–45 Minuten.\nLaufzeit: 7.10.2026 bis 31.
+ 12.2026\nTermine laut Veranstalter: jeden Mittwoch um 12.30 Uhr (laufendes
+  Angebot\, die Quelle nennt kein Enddatum)\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.stadtkirche-celle.de/Alles_zur_Kirche/fuehrungen
+URL:https://www.stadtkirche-celle.de/Alles_zur_Kirche/fuehrungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-stadtkirche-20261007-fuehrung-durch-die-fuerstengruft-ende@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Führung durch die Fürstengruft
+LOCATION:Stadtkirche St. Marien\, An der Stadtkirche 8\, 29221 Celle
+DESCRIPTION:Führung von etwa 30–45 Minuten.\nLaufzeit: 7.10.2026 bis 31.
+ 12.2026\nTermine laut Veranstalter: mittwochs und donnerstags jeweils um 1
+ 6 Uhr (laufendes Angebot\, die Quelle nennt kein Enddatum)\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.stadtkirche-celle.de/Alles_zur_Kirche
+ /fuehrungen
+URL:https://www.stadtkirche-celle.de/Alles_zur_Kirche/fuehrungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-residenzmuseum-20261025-kinder-und-familienfuehrung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T143000
+DTEND;TZID=Europe/Berlin:20261025T163000
+SUMMARY:Kinder- und Familienführung
+LOCATION:Residenzmuseum im Celler Schloss\, Schloßplatz 1\, 29221 Celle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.residenzmuseum.de/veranstaltungen.html
+URL:https://www.residenzmuseum.de/veranstaltungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261025-thorsten-havener@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Thorsten Havener
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261029-internationale-nacht-der-gitarren@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Internationale Nacht der Gitarren
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-residenzmuseum-20261101-klassische-schlossfuehrung-winter-beginn@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Beginn: Klassische Schlossführung
+LOCATION:Residenzmuseum im Celler Schloss\, Schloßplatz 1\, 29221 Celle
+DESCRIPTION:Laufzeit: 1.11.2026 bis 31.3.2027\nTermine laut Veranstalter: N
+ ovember–März: Dienstag–Freitag 12.00 und 14.00 Uhr\; Samstag\, Sonnta
+ g 12.00\, 13.00\, 14.00 Uhr (1.–3. Adventswochenende nach Sommerzeiten)\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.residenzmuseum.de/fueh
+ rungen.html
+URL:https://www.residenzmuseum.de/fuehrungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-residenzmuseum-20261101-klassische-schlossfuehrung-winter-ende@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Klassische Schlossführung
+LOCATION:Residenzmuseum im Celler Schloss\, Schloßplatz 1\, 29221 Celle
+DESCRIPTION:Laufzeit: 1.11.2026 bis 31.3.2027\nTermine laut Veranstalter: N
+ ovember–März: Dienstag–Freitag 12.00 und 14.00 Uhr\; Samstag\, Sonnta
+ g 12.00\, 13.00\, 14.00 Uhr (1.–3. Adventswochenende nach Sommerzeiten)\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.residenzmuseum.de/fueh
+ rungen.html
+URL:https://www.residenzmuseum.de/fuehrungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261101-sybille-bullatschek@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Sybille Bullatschek
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-synagoge-celle-20261102-die-abschottung-der-welt-als-juden-vor-versc
+ hlosse@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:Die Abschottung der Welt: Als Juden vor verschlossenen Grenzen stan
+ den. 1933-1945
+LOCATION:Synagoge Celle\, Im Kreise 23–24\, 29221 Celle
+DESCRIPTION:Lesung in der Synagoge Celle\, bis 21:00 Uhr.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cell
+ e.de/Kultur/Museen-Sammlungen/Synagoge/
+URL:https://www.celle.de/Kultur/Museen-Sammlungen/Synagoge/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261105-alice-hoffmann@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Alice Hoffmann
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261106-herdensingen-jubilaeumsshow@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Herdensingen Jubiläumsshow
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261107-hans-gerzlich@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Hans Gerzlich
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261108-reinhold-beckmann-trio@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Reinhold Beckmann Trio
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261109-der-physiopath@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Der Physiopath
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-residenzmuseum-20261113-codes-of-love-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Beginn: Codes of Love
+LOCATION:Residenzmuseum im Celler Schloss\, Schloßplatz 1\, 29221 Celle
+DESCRIPTION:Sonderausstellung zu den Briefen der Sophie Dorothea.\nLaufzeit
+ : 13.11.2026 bis 12.9.2027\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.residenzmuseum.de/
+URL:https://www.residenzmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-residenzmuseum-20261113-codes-of-love-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:Letzter Tag: Codes of Love
+LOCATION:Residenzmuseum im Celler Schloss\, Schloßplatz 1\, 29221 Celle
+DESCRIPTION:Sonderausstellung zu den Briefen der Sophie Dorothea.\nLaufzeit
+ : 13.11.2026 bis 12.9.2027\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.residenzmuseum.de/
+URL:https://www.residenzmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-congress-union-20261114-suberg-s-ue30-party@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Suberg's ü30 Party
+LOCATION:Congress Union Celle\, Thaerplatz 1\, 29221 Celle
+DESCRIPTION:Ü30-Party mit Charts\, Clubsounds und Discofox\, Einlass ab 27
+  Jahren.\nPreis: VVK ab 16 €\, AK 20 €\nTickets: https://mrevent.ditix
+ .shop/event/7s4h0tcvc6tcstfw?t=true&tid=\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.ue30party.de/ue30-party-in-celle-congress-union/
+URL:https://www.ue30party.de/ue30-party-in-celle-congress-union/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261202-ross-antony@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Ross Antony
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261212-herdensingen-weihnachtsspezial@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Herdensingen Weihnachtsspezial
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
+ or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

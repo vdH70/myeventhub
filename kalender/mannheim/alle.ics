@@ -1,0 +1,848 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Mannheim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ma-technoseum-20260625-crime-die-technik-des-verbrechens-ende@myeventhu
+ b.de
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:Letzter Tag: CRIME – Die Technik des Verbrechens
+LOCATION:TECHNOSEUM – Landesmuseum für Technik und Arbeit\, Museumsstr. 
+ 1\, 68165 Mannheim
+DESCRIPTION:Sonderausstellung über Technik rund um Verbrechen und Ermittlu
+ ng.\nLaufzeit: 25.6.2026 bis 27.6.2027\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.technoseum.de/crime/
+URL:https://www.technoseum.de/crime/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-barockschloss-20261025-faszinierendes-barockschloss@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T143000
+DTEND;TZID=Europe/Berlin:20261025T163000
+SUMMARY:Faszinierendes Barockschloss
+LOCATION:Barockschloss Mannheim\, Bismarckstraße\, Schloss Mittelbau\, 681
+ 61 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-v
+ eranstaltungen
+URL:https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-veranstal
+ tungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261025-reise-zum-mond@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:Reise zum Mond
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mon
+ d-ua/4636/
+URL:https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mond-ua/463
+ 6/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261025-hamlet@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Hamlet
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/hamlet/4800/
+URL:https://www.nationaltheater-mannheim.de/spielplan/hamlet/4800/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-alte-feuerwache-20261025-hundeheimat-haymatministerium-meets-lesen-h
+ oeren-m@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T190000
+DTEND;TZID=Europe/Berlin:20261025T210000
+SUMMARY:»Hundeheimat« – Haymatministerium meets lesen.hören mit Don Pa
+ blo Mulemba
+LOCATION:Alte Feuerwache Mannheim\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwache.com/programm/literatur-poetry-slam/
+URL:https://altefeuerwache.com/programm/literatur-poetry-slam/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261028-dreamer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T193000
+DTEND;TZID=Europe/Berlin:20261028T213000
+SUMMARY:Dreamer
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/dreamer/4765/
+URL:https://www.nationaltheater-mannheim.de/spielplan/dreamer/4765/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261028-simon-boccanegra@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T193000
+DTEND;TZID=Europe/Berlin:20261028T213000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261031-faust@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Faust
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/faust/4779/
+URL:https://www.nationaltheater-mannheim.de/spielplan/faust/4779/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20261031-disney-in-concert@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Disney in Concert
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.saparena.de/
+URL:https://www.saparena.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261101-simon-boccanegra@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261101-dreamer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Dreamer
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/dreamer/4765/
+URL:https://www.nationaltheater-mannheim.de/spielplan/dreamer/4765/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261106-dreamer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Dreamer
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/dreamer/4765/
+URL:https://www.nationaltheater-mannheim.de/spielplan/dreamer/4765/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261106-simon-boccanegra@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261108-faust@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Faust
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/faust/4779/
+URL:https://www.nationaltheater-mannheim.de/spielplan/faust/4779/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261108-die-zauberfloete@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261112-simon-boccanegra@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-alte-feuerwache-20261112-word-up-poetry-slam-deluxe-wettstreit@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:WORD UP! Poetry Slam Deluxe Wettstreit
+LOCATION:Alte Feuerwache Mannheim\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwache.com/programm/literatur-poetry-slam/
+URL:https://altefeuerwache.com/programm/literatur-poetry-slam/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261114-reise-zum-mond@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Reise zum Mond
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mon
+ d-ua/4636/
+URL:https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mond-ua/463
+ 6/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261115-die-zauberfloete@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261119-vortrag-seti-co-auf-der-suche-nach-ausserirdisc
+ hem@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Vortrag: SETI & Co. – Auf der Suche nach außerirdischem Leben
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-barockschloss-20261121-prickelnder-genuss-im-glanz-der-kronleuchter@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T170000
+DTEND;TZID=Europe/Berlin:20261121T190000
+SUMMARY:Prickelnder Genuss im Glanz der Kronleuchter
+LOCATION:Barockschloss Mannheim\, Bismarckstraße\, Schloss Mittelbau\, 681
+ 61 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-v
+ eranstaltungen
+URL:https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-veranstal
+ tungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261122-hamlet@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Hamlet
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/hamlet/4800/
+URL:https://www.nationaltheater-mannheim.de/spielplan/hamlet/4800/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261122-simon-boccanegra@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261124-vortrag-quanten-und-kosmos-wie-das-kleinste-das
+ -gr@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T193000
+DTEND;TZID=Europe/Berlin:20261124T213000
+SUMMARY:Vortrag: Quanten und Kosmos – Wie das Kleinste das Größte erkl
+ ärt
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261126-simon-boccanegra@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20261127-night-of-the-proms@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Night of the Proms
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.saparena.de/
+URL:https://www.saparena.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-barockschloss-20261128-prickelnder-genuss-im-glanz-der-kronleuchter@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T170000
+DTEND;TZID=Europe/Berlin:20261128T190000
+SUMMARY:Prickelnder Genuss im Glanz der Kronleuchter
+LOCATION:Barockschloss Mannheim\, Bismarckstraße\, Schloss Mittelbau\, 681
+ 61 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-v
+ eranstaltungen
+URL:https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-veranstal
+ tungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261204-vortrag-60-jahre-star-trek-zusatzveranstaltung@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T173000
+DTEND;TZID=Europe/Berlin:20261204T193000
+SUMMARY:Vortrag: 60 Jahre Star Trek (Zusatzveranstaltung)
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261204-vortrag-60-jahre-star-trek@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Vortrag: 60 Jahre Star Trek
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261206-reise-zum-mond@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Reise zum Mond
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mon
+ d-ua/4636/
+URL:https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mond-ua/463
+ 6/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261210-vortrag-space-lessons@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T193000
+DTEND;TZID=Europe/Berlin:20261210T213000
+SUMMARY:Vortrag: Space Lessons
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261211-reise-zum-mond@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T190000
+DTEND;TZID=Europe/Berlin:20261211T210000
+SUMMARY:Reise zum Mond
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mon
+ d-ua/4636/
+URL:https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mond-ua/463
+ 6/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20261212-bap@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:BAP
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.saparena.de/
+URL:https://www.saparena.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261213-die-zauberfloete@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T180000
+DTEND;TZID=Europe/Berlin:20261213T200000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261217-vortrag-der-stern-von-bethlehem-aus-astronomisc
+ her@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:Vortrag: Der Stern von Bethlehem aus astronomischer Sicht
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-alte-feuerwache-20261217-word-up-poetry-slam-deluxe-wettstreit@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:WORD UP! Poetry Slam Deluxe Wettstreit
+LOCATION:Alte Feuerwache Mannheim\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwache.com/programm/literatur-poetry-slam/
+URL:https://altefeuerwache.com/programm/literatur-poetry-slam/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261219-simon-boccanegra@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20261220-pur@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T190000
+DTEND;TZID=Europe/Berlin:20261220T210000
+SUMMARY:PUR
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=2
+URL:https://saparena.de/events/?page=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261226-die-zauberfloete@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T190000
+DTEND;TZID=Europe/Berlin:20261226T210000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261231-die-zauberfloete@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T190000
+DTEND;TZID=Europe/Berlin:20261231T210000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270109-ina-mueller@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Ina Müller
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=2
+URL:https://saparena.de/events/?page=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270116-andre-rieu@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T193000
+DTEND;TZID=Europe/Berlin:20270116T213000
+SUMMARY:André Rieu
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=2
+URL:https://saparena.de/events/?page=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270121-die-fantastischen-vier@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T200000
+DTEND;TZID=Europe/Berlin:20270121T220000
+SUMMARY:Die Fantastischen Vier
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=2
+URL:https://saparena.de/events/?page=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270131-chormusical-judith-und-das-wunder-der-schoepfung@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T180000
+DTEND;TZID=Europe/Berlin:20270131T200000
+SUMMARY:Chormusical „Judith und das Wunder der Schöpfung“
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=3
+URL:https://saparena.de/events/?page=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270213-manowar@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:Manowar
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=3
+URL:https://saparena.de/events/?page=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270218-unheilig@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T191500
+DTEND;TZID=Europe/Berlin:20270218T211500
+SUMMARY:Unheilig
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=3
+URL:https://saparena.de/events/?page=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270220-electric-callboy@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T190000
+DTEND;TZID=Europe/Berlin:20270220T210000
+SUMMARY:Electric Callboy
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=3
+URL:https://saparena.de/events/?page=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270227-90s-super-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T180000
+DTEND;TZID=Europe/Berlin:20270227T200000
+SUMMARY:90s Super Show
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=3
+URL:https://saparena.de/events/?page=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270313-die-schlagernacht-des-jahres@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T180000
+DTEND;TZID=Europe/Berlin:20270313T200000
+SUMMARY:Die Schlagernacht des Jahres
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=3
+URL:https://saparena.de/events/?page=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270320-wahnsinn-die-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T193000
+DTEND;TZID=Europe/Berlin:20270320T213000
+SUMMARY:Wahnsinn! – Die Show
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=3
+URL:https://saparena.de/events/?page=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270324-james-blunt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270324T200000
+DTEND;TZID=Europe/Berlin:20270324T220000
+SUMMARY:James Blunt
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=3
+URL:https://saparena.de/events/?page=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270426-sabaton@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270426T190000
+DTEND;TZID=Europe/Berlin:20270426T210000
+SUMMARY:Sabaton
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270429-roland-kaiser@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270429T193000
+DTEND;TZID=Europe/Berlin:20270429T213000
+SUMMARY:Roland Kaiser
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270616-6k-united@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270616T190000
+DTEND;TZID=Europe/Berlin:20270616T210000
+SUMMARY:6K UNITED!
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270617-6k-united@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270617T190000
+DTEND;TZID=Europe/Berlin:20270617T210000
+SUMMARY:6K UNITED!
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270618-6k-united@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270618T190000
+DTEND;TZID=Europe/Berlin:20270618T210000
+SUMMARY:6K UNITED!
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270619-6k-united@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270619T190000
+DTEND;TZID=Europe/Berlin:20270619T210000
+SUMMARY:6K UNITED!
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20270620-6k-united@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270620T190000
+DTEND;TZID=Europe/Berlin:20270620T210000
+SUMMARY:6K UNITED!
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20271023-andrea-berg@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271023T193000
+DTEND;TZID=Europe/Berlin:20271023T213000
+SUMMARY:Andrea Berg
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20271114-die-prinzen@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271114T180000
+DTEND;TZID=Europe/Berlin:20271114T200000
+SUMMARY:Die Prinzen
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20271118-wincent-weiss@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271118T200000
+DTEND;TZID=Europe/Berlin:20271118T220000
+SUMMARY:Wincent Weiss
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20271217-nights-on-broadway@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271217T200000
+DTEND;TZID=Europe/Berlin:20271217T220000
+SUMMARY:Nights on Broadway
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-sap-arena-20280411-eros-ramazzotti@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20280411T200000
+DTEND;TZID=Europe/Berlin:20280411T220000
+SUMMARY:Eros Ramazzotti
+LOCATION:SAP Arena\, An der Arena 1\, 68163 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://saparena.de/events/?page=4
+URL:https://saparena.de/events/?page=4
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

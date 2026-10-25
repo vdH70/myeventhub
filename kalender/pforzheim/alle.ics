@@ -1,0 +1,430 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Pforzheim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pf-ccp-20261025-badische-philharmonie-pforzheim-aufbegehren-und-ho@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Badische Philharmonie Pforzheim „Aufbegehren und Hoffnung“
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.congresscentrum-pforzheim.de/fuer-besucher/veransta
+ ltungen-und-kalender/
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20261028-leonce-und-lena@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T200000
+DTEND;TZID=Europe/Berlin:20261028T220000
+SUMMARY:Leonce und Lena
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Lustspiel von Georg Büchner.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-pforzheim.de
+ /veranstaltungen/ansicht-veranstaltungen/event/eventDetail/2026-10-23_1930
+ /leonce-und-lena.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-23_1930/leonce-und-lena.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261029-rammstein-symphonic-tribute-herzfeuer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Rammstein Symphonic Tribute – Herzfeuer
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.congresscentrum-pforzheim.de/fuer-besucher/veransta
+ ltungen-und-kalender/
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-schloessle-galerie-20261031-meet-greet-k-pop-demon-hunters@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T140000
+DTEND;TZID=Europe/Berlin:20261031T160000
+SUMMARY:Meet & Greet – K-Pop Demon Hunters
+LOCATION:Schlössle-Galerie\, Westliche Karl-Friedrich-Straße 80\, 75172 P
+ forzheim
+DESCRIPTION:Treffen mit kostümierten Figuren\, 14 bis 17 Uhr.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://sch
+ loessle-galerie.de/meet-greet-k-pop-demon-hunters-zu-gast-in-der-schloessl
+ e-galerie/
+URL:https://schloessle-galerie.de/meet-greet-k-pop-demon-hunters-zu-gast-in
+ -der-schloessle-galerie/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20261031-la-boheme@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:La bohème
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Oper von Giacomo Puccini.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.theater-pforzheim.de/ver
+ anstaltungen/ansicht-veranstaltungen/event/eventDetail/2026-10-15_2000/la-
+ boheme.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-15_2000/la-boheme.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261031-one-night-of-mj-the-tribute-to-the-king-of-pop@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:One Night Of MJ – The Tribute To The King Of Pop
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.congresscentrum-pforzheim.de/fuer-besucher/veransta
+ ltungen-und-kalender/
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261107-ski-basar-des-skiclub-pforzheim-e-v-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T090000
+DTEND;TZID=Europe/Berlin:20261107T110000
+SUMMARY:Ski Basar des Skiclub Pforzheim e. V. 2026
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.congresscentrum-pforzheim.de/fuer-besucher/veransta
+ ltungen-und-kalender/
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20261107-leonce-und-lena@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Leonce und Lena
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Lustspiel von Georg Büchner.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-pforzheim.de
+ /veranstaltungen/ansicht-veranstaltungen/event/eventDetail/2026-10-23_1930
+ /leonce-und-lena.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-23_1930/leonce-und-lena.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261108-swr1-pop-poesie-in-concert@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T200000
+DTEND;TZID=Europe/Berlin:20261108T220000
+SUMMARY:SWR1 Pop & Poesie in Concert
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.congresscentrum-pforzheim.de/fuer-besucher/veransta
+ ltungen-und-kalender/
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20261108-la-boheme@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:La bohème
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Oper von Giacomo Puccini.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-15_2000/la-boheme.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-15_2000/la-boheme.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261112-martina-schwarzmann-macht-was-sie-will@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Martina Schwarzmann – Macht was sie will
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.congresscentrum-pforzheim.de/fuer-besuch
+ er/veranstaltungen-und-kalender/page-2
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/page-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261114-cover-up-30-jaehriges-jubilaeum@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Cover up (30-jähriges Jubiläum)
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.congresscentrum-pforzheim.de/fuer-besucher/veransta
+ ltungen-und-kalender/page-2
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/page-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261115-suedwestdeutsches-kammerorchester-pforzheim-sous-l@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Südwestdeutsches Kammerorchester Pforzheim – Sous le Ciel
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:2. Abonnementkonzert.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.congresscentrum-pforzheim.de
+ /fuer-besucher/veranstaltungen-und-kalender/page-2
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/page-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261116-svitlana-loboda@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Svitlana Loboda
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.congresscentrum-pforzheim.de/fuer-besucher/veransta
+ ltungen-und-kalender/page-2
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/page-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261121-die-nacht-der-magie-familiengala@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T143000
+DTEND;TZID=Europe/Berlin:20261121T163000
+SUMMARY:Die Nacht der Magie (Familiengala)
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.congresscentrum-pforzheim.de/fuer-besucher/veransta
+ ltungen-und-kalender/page-2
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/page-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261121-die-nacht-der-magie-abend-gala@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Die Nacht der Magie (Abend-Gala)
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.congresscentrum-pforzheim.de/fuer-besucher/veransta
+ ltungen-und-kalender/page-2
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/page-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20261122-la-boheme@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:La bohème
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Oper von Giacomo Puccini.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-15_2000/la-boheme.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-15_2000/la-boheme.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-ccp-20261129-badische-philharmonie-pforzheim-zaubervoegel@myeventhub
+ .de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T180000
+DTEND;TZID=Europe/Berlin:20261129T200000
+SUMMARY:Badische Philharmonie Pforzheim „Zaubervögel“
+LOCATION:CongressCentrum Pforzheim (CCP)\, Bertha-Benz-Platz 1\, 75172 Pfor
+ zheim
+DESCRIPTION:2. Sinfoniekonzert.\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.congresscentrum-pforzheim.de/f
+ uer-besucher/veranstaltungen-und-kalender/page-2
+URL:https://www.congresscentrum-pforzheim.de/fuer-besucher/veranstaltungen-
+ und-kalender/page-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20261129-leonce-und-lena@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T190000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Leonce und Lena
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Lustspiel von Georg Büchner.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-pforzheim.de
+ /veranstaltungen/ansicht-veranstaltungen/event/eventDetail/2026-10-23_1930
+ /leonce-und-lena.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-23_1930/leonce-und-lena.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20261206-la-boheme@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:La bohème
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Oper von Giacomo Puccini.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-15_2000/la-boheme.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-15_2000/la-boheme.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-schmuckmuseum-20261213-fuehrung-silver-lining-21-silbertriennale-int
+ ernat@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Führung: Silver Lining – 21. Silbertriennale International | Kü
+ hle Brillanz | Afghanistan\, Oman oder Schwarzwald?
+LOCATION:Schmuckmuseum Pforzheim\, Jahnstraße 42\, 75173 Pforzheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 14 €\, ermäßigt 1
+ 2\,50 €\nQuelle (bitte vor dem Besuch prüfen): https://www.schmuckmuseu
+ m.de/veranstaltungen/ansicht-veranstaltungen/event/eventDetail/2026-10-18_
+ 1500/silver-lining-21-silbertriennale-international-kuehle-brillanz-afghan
+ istan-oman-oder-schwarzwald.html
+URL:https://www.schmuckmuseum.de/veranstaltungen/ansicht-veranstaltungen/ev
+ ent/eventDetail/2026-10-18_1500/silver-lining-21-silbertriennale-internati
+ onal-kuehle-brillanz-afghanistan-oman-oder-schwarzwald.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20261219-leonce-und-lena@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T193000
+DTEND;TZID=Europe/Berlin:20261219T213000
+SUMMARY:Leonce und Lena
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Lustspiel von Georg Büchner.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-pforzheim.de
+ /veranstaltungen/ansicht-veranstaltungen/event/eventDetail/2026-10-23_1930
+ /leonce-und-lena.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-23_1930/leonce-und-lena.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-schmuckmuseum-20270106-fuehrung-silver-lining-21-silbertriennale-int
+ ernat@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T150000
+DTEND;TZID=Europe/Berlin:20270106T170000
+SUMMARY:Führung: Silver Lining – 21. Silbertriennale International | Kü
+ hle Brillanz | Afghanistan\, Oman oder Schwarzwald?
+LOCATION:Schmuckmuseum Pforzheim\, Jahnstraße 42\, 75173 Pforzheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 14 €\, ermäßigt 1
+ 2\,50 €\nQuelle (bitte vor dem Besuch prüfen): https://www.schmuckmuseu
+ m.de/veranstaltungen/ansicht-veranstaltungen/event/eventDetail/2026-10-18_
+ 1500/silver-lining-21-silbertriennale-international-kuehle-brillanz-afghan
+ istan-oman-oder-schwarzwald.html
+URL:https://www.schmuckmuseum.de/veranstaltungen/ansicht-veranstaltungen/ev
+ ent/eventDetail/2026-10-18_1500/silver-lining-21-silbertriennale-internati
+ onal-kuehle-brillanz-afghanistan-oman-oder-schwarzwald.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20270114-la-boheme@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:La bohème
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Oper von Giacomo Puccini.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-15_2000/la-boheme.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-15_2000/la-boheme.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20270117-leonce-und-lena@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T150000
+DTEND;TZID=Europe/Berlin:20270117T170000
+SUMMARY:Leonce und Lena
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Lustspiel von Georg Büchner.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-pforzheim.de
+ /veranstaltungen/ansicht-veranstaltungen/event/eventDetail/2026-10-23_1930
+ /leonce-und-lena.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-23_1930/leonce-und-lena.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-theater-pforzheim-20270224-leonce-und-lena@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T200000
+DTEND;TZID=Europe/Berlin:20270224T220000
+SUMMARY:Leonce und Lena
+LOCATION:Theater Pforzheim\, Am Waisenhausplatz 5\, 75172 Pforzheim
+DESCRIPTION:Lustspiel von Georg Büchner.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-pforzheim.de
+ /veranstaltungen/ansicht-veranstaltungen/event/eventDetail/2026-10-23_1930
+ /leonce-und-lena.html
+URL:https://www.theater-pforzheim.de/veranstaltungen/ansicht-veranstaltunge
+ n/event/eventDetail/2026-10-23_1930/leonce-und-lena.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

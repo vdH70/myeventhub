@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Arnsberg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hsk-sauerland-museum-20260619-macherland-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Letzter Tag: MACHERLAND
+LOCATION:Sauerland-Museum\, Alter Markt 24-30\, 59821 Arnsberg
+DESCRIPTION:Sonderausstellung zur Industrie- und Gewerbegeschichte der Regi
+ on.\nLaufzeit: 19.6.2026 bis 4.4.2027\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.sauerland-museum.de/
+URL:https://www.sauerland-museum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

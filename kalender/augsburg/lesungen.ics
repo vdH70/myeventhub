@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Augsburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:a-parktheater-20261028-swa-herzenswunsch-slam@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:swa Herzenswunsch-Slam
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://parktheater.de/
+URL:https://parktheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261123-max-goldt-lesung@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Max Goldt – Lesung
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://parktheater.de/
+URL:https://parktheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-parktheater-20261125-der-literarische-salon@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Der Literarische Salon
+LOCATION:Parktheater im Kurhaus Göggingen\, Augsburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://parktheater.de/
+URL:https://parktheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

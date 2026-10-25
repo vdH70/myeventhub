@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Gifhorn · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:gf-muehlenmuseum-20261025-kuerbis-kartoffelfest@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Kürbis- & Kartoffelfest
+LOCATION:Internationales Mühlenmuseum Gifhorn\, Bromer Straße 2\, 38518 G
+ ifhorn
+DESCRIPTION:Herbstfest im Mühlenmuseum (auch am 24.10.).\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.muehlen-museum-gifhorn.de/
+URL:https://www.muehlen-museum-gifhorn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20261030-peter-orloff-schwarzmeer-kosaken-chor-die-abschi
+ ed@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T190000
+DTEND;TZID=Europe/Berlin:20261030T210000
+SUMMARY:Peter Orloff & Schwarzmeer Kosaken Chor – Die Abschiedstournee
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-gifhorn.de/veranstaltungs-details/defaul
+ t-67aeab25e0da5734192bdb29f04bfe54
+URL:https://www.stadthalle-gifhorn.de/veranstaltungs-details/default-67aeab
+ 25e0da5734192bdb29f04bfe54
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20261101-nils-holgerssons-reise-durch-europa-kinderoper@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Nils Holgerssons Reise durch Europa – Kinderoper
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Zwei Vorstellungen am Nachmittag.\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-gifhorn.de/programm
+URL:https://www.stadthalle-gifhorn.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Bad Soden am Taunus · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mtk-stadtgalerie-bad-soden-20261024-connections-for-friendship-beginn@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Connections for Friendship
+LOCATION:Stadtgalerie Bad Soden am Taunus (Badehaus im Alten Kurpark)\, Kö
+ nigsteiner Straße 86\, 65812 Bad Soden am Taunus
+DESCRIPTION:Laufzeit: 24.10.2026 bis 25.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://bad-soden.de/zum-entdecken-erleben/kunst/stadtgalerie
+URL:https://bad-soden.de/zum-entdecken-erleben/kunst/stadtgalerie
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mtk-stadtgalerie-bad-soden-20261024-connections-for-friendship-ende@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Letzter Tag: Connections for Friendship
+LOCATION:Stadtgalerie Bad Soden am Taunus (Badehaus im Alten Kurpark)\, Kö
+ nigsteiner Straße 86\, 65812 Bad Soden am Taunus
+DESCRIPTION:Laufzeit: 24.10.2026 bis 25.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://bad-soden.de/zum-entdecken-erleben/kunst/stadtgalerie
+URL:https://bad-soden.de/zum-entdecken-erleben/kunst/stadtgalerie
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mtk-stadtgalerie-bad-soden-20261030-vernissage-mit-licht-geschrieben-bi
+ lder-von-donata@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T180000
+DTEND;TZID=Europe/Berlin:20261030T200000
+SUMMARY:Vernissage: Mit Licht geschrieben – Bilder von Donata & Wim Wende
+ rs
+LOCATION:Stadtgalerie Bad Soden am Taunus (Badehaus im Alten Kurpark)\, Kö
+ nigsteiner Straße 86\, 65812 Bad Soden am Taunus
+DESCRIPTION:Eröffnung der Ausstellung (laut Quelle bis 29.11.2026).\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.bad-soden.de/freizeit/kunst-kultur/ausstellungen/stadtgalerie/donat
+ a-wim-wenders/
+URL:https://www.bad-soden.de/freizeit/kunst-kultur/ausstellungen/stadtgaler
+ ie/donata-wim-wenders/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mtk-stadtgalerie-bad-soden-20261106-kuenstlerempfang-mit-licht-geschrie
+ ben-donata-wim@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T180000
+DTEND;TZID=Europe/Berlin:20261106T200000
+SUMMARY:Künstlerempfang: Mit Licht geschrieben – Donata & Wim Wenders
+LOCATION:Stadtgalerie Bad Soden am Taunus (Badehaus im Alten Kurpark)\, Kö
+ nigsteiner Straße 86\, 65812 Bad Soden am Taunus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bad-soden.de/freizeit/kunst-kultur/ausstellungen/st
+ adtgalerie/donata-wim-wenders/
+URL:https://www.bad-soden.de/freizeit/kunst-kultur/ausstellungen/stadtgaler
+ ie/donata-wim-wenders/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Ulm · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ul-stadthaus-20261028-sepp-maier-live-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T193000
+DTEND;TZID=Europe/Berlin:20261028T213000
+SUMMARY:Sepp Maier Live Tour 2026
+LOCATION:Stadthaus Ulm\, Münsterplatz 50\, 89073 Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 31\,76 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.stadthaus.ulm.de/kalender/p2
+URL:https://www.stadthaus.ulm.de/kalender/p2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-theater-ulm-20261113-ball-im-savoy-premiere@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Ball im Savoy (Premiere)
+LOCATION:Theater Ulm – Großes Haus\, Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy
+URL:https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-theater-ulm-podium-20261114-die-schoenste-version-premiere@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Die schönste Version (Premiere) (ausverkauft)
+LOCATION:Theater Ulm – Podium\, Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.theater-ulm.de/spielplan/stuecke/die-s
+ choenste-version
+URL:https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

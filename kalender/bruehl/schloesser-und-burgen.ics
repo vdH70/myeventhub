@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlösser & Burgen in Brühl · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bm-schloesser-bruehl-20261024-rokoko-under-construction-the-making-of-s
+ chloss-au-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Rokoko under Construction – The Making of Schloss Augustu
+ sburg
+LOCATION:Schlösser Augustusburg und Falkenlust\, Schlossstraße 6\, 50321 
+ Brühl
+DESCRIPTION:Laufzeit: 24.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.schlossbruehl.de/ausstellung/
+URL:https://www.schlossbruehl.de/ausstellung/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bm-schloesser-bruehl-20261024-rokoko-under-construction-the-making-of-s
+ chloss-au-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Rokoko under Construction – The Making of Schloss Au
+ gustusburg
+LOCATION:Schlösser Augustusburg und Falkenlust\, Schlossstraße 6\, 50321 
+ Brühl
+DESCRIPTION:Laufzeit: 24.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.schlossbruehl.de/ausstellung/
+URL:https://www.schlossbruehl.de/ausstellung/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

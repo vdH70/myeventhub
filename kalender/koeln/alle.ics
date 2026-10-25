@@ -1,0 +1,721 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Köln · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:k-theater-am-dom-20260911-kalter-weisser-mann-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Kalter weißer Mann
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 11.9.2026 bis 15.11.2026\nTermine laut Veranstalter: 
+ Laufzeit laut Spielplan\, Einzeltermine auf der Website\nQuelle (bitte vor
+  dem Besuch prüfen): https://theateramdom.de/
+URL:https://theateramdom.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261025-rigoletto@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Rigoletto
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadtgarten-20261025-shalosh@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Shalosh
+LOCATION:Stadtgarten Köln\, Venloer Straße 40\, 50672 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtgarten.de/programm
+URL:https://www.stadtgarten.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261025-konstantinos-argiros@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T200000
+DTEND;TZID=Europe/Berlin:20261025T220000
+SUMMARY:Konstantinos Argiros
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261026-stevie-wonder@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T200000
+DTEND;TZID=Europe/Berlin:20261026T220000
+SUMMARY:Stevie Wonder
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadtgarten-20261027-myles-sanko@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:Myles Sanko (ausverkauft)
+LOCATION:Stadtgarten Köln\, Venloer Straße 40\, 50672 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.stadtgarten.de/programm
+URL:https://www.stadtgarten.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadtgarten-20261027-uche-yara@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:UCHE YARA
+LOCATION:Stadtgarten Köln\, Venloer Straße 40\, 50672 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtgarten.de/programm
+URL:https://www.stadtgarten.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadtgarten-20261028-kira-linns-her-wings@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T200000
+DTEND;TZID=Europe/Berlin:20261028T220000
+SUMMARY:Kira Linns „Her Wings“
+LOCATION:Stadtgarten Köln\, Venloer Straße 40\, 50672 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtgarten.de/programm
+URL:https://www.stadtgarten.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261029-rigoletto@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Rigoletto
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261029-disney-in-concert-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Disney in Concert 2026
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadtgarten-20261029-bill-stewart-ft-walter-smith-iii-and-larry-grena
+ di@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Bill Stewart ft. Walter Smith III and Larry Grenadier
+LOCATION:Stadtgarten Köln\, Venloer Straße 40\, 50672 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtgarten.de/programm
+URL:https://www.stadtgarten.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadtgarten-20261029-greg-mendez@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Greg Mendez
+LOCATION:Stadtgarten Köln\, Venloer Straße 40\, 50672 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtgarten.de/programm
+URL:https://www.stadtgarten.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadtgarten-20261030-christina-lux-oliver-george@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Christina Lux & Oliver George
+LOCATION:Stadtgarten Köln\, Venloer Straße 40\, 50672 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtgarten.de/programm
+URL:https://www.stadtgarten.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261030-alexander-marcus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Alexander Marcus
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261031-der-rosenkavalier@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Der Rosenkavalier
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261031-nico-santos@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Nico Santos
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261101-kain-und-abel-premiere@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Kain und Abel (Premiere)
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261102-placebo@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Placebo
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261105-kain-und-abel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Kain und Abel
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261106-rigoletto@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Rigoletto
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261108-the-world-of-hans-zimmer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T193000
+DTEND;TZID=Europe/Berlin:20261108T213000
+SUMMARY:The World of Hans Zimmer
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261113-andre-rieu-die-grosse-deutschlandtour-2026@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:André Rieu – Die große Deutschlandtour 2026
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-neumarkt-20261116-markt-der-engel-2026-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Beginn: Markt der Engel 2026
+LOCATION:Neumarkt Köln\, Neumarkt\, 50667 Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Neumarkt.\nLaufzeit: 16.11.2026 bis 23.
+ 12.2026\nTermine laut Veranstalter: So–Do 11–21 Uhr\, Fr/Sa 11–22 Uh
+ r (Glühweinstände 1 Stunde länger)\; 22.11. (Totensonntag) geschlossen\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.markt-der-engel.de/
+URL:https://www.markt-der-engel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-neumarkt-20261116-markt-der-engel-2026-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Markt der Engel 2026
+LOCATION:Neumarkt Köln\, Neumarkt\, 50667 Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Neumarkt.\nLaufzeit: 16.11.2026 bis 23.
+ 12.2026\nTermine laut Veranstalter: So–Do 11–21 Uhr\, Fr/Sa 11–22 Uh
+ r (Glühweinstände 1 Stunde länger)\; 22.11. (Totensonntag) geschlossen\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.markt-der-engel.de/
+URL:https://www.markt-der-engel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-roncalliplatz-20261116-weihnachtsmarkt-am-koelner-dom-beginn@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Beginn: Weihnachtsmarkt am Kölner Dom
+LOCATION:Roncalliplatz\, Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Roncalliplatz vor dem Kölner Dom.\nLau
+ fzeit: 16.11.2026 bis 23.12.2026\nTermine laut Veranstalter: So–Mi 11–
+ 21 Uhr\, Do/Fr 11–22 Uhr\, Sa 10–22 Uhr\; am 22.11. (Totensonntag) ges
+ chlossen\nQuelle (bitte vor dem Besuch prüfen): https://www.koelnerweihna
+ chtsmarkt.com/
+URL:https://www.koelnerweihnachtsmarkt.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-roncalliplatz-20261116-weihnachtsmarkt-am-koelner-dom-ende@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Weihnachtsmarkt am Kölner Dom
+LOCATION:Roncalliplatz\, Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Roncalliplatz vor dem Kölner Dom.\nLau
+ fzeit: 16.11.2026 bis 23.12.2026\nTermine laut Veranstalter: So–Mi 11–
+ 21 Uhr\, Do/Fr 11–22 Uhr\, Sa 10–22 Uhr\; am 22.11. (Totensonntag) ges
+ chlossen\nQuelle (bitte vor dem Besuch prüfen): https://www.koelnerweihna
+ chtsmarkt.com/
+URL:https://www.koelnerweihnachtsmarkt.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-haenneschen-20261119-e-leech-zom-chressfess@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T173000
+DTEND;TZID=Europe/Berlin:20261119T193000
+SUMMARY:E Leech zom Chressfess
+LOCATION:Hänneschen-Theater – Puppenspiele der Stadt Köln\, Eisenmarkt 
+ 2-4\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.haenneschen.de/spillplan/programmuebersicht/
+URL:https://www.haenneschen.de/spillplan/programmuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-haenneschen-20261121-e-leech-zom-chressfess@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T150000
+DTEND;TZID=Europe/Berlin:20261121T170000
+SUMMARY:E Leech zom Chressfess
+LOCATION:Hänneschen-Theater – Puppenspiele der Stadt Köln\, Eisenmarkt 
+ 2-4\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.haenneschen.de/spillplan/programmuebersicht/
+URL:https://www.haenneschen.de/spillplan/programmuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20261121-joerg-knoer-simply-my-best@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Jörg Knör: Simply My Best!
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/
+URL:https://theateramdom.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-heumarkt-alter-markt-20261123-heinzels-wintermaerchen-beginn@myeventh
+ ub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Heinzels Wintermärchen
+LOCATION:Heumarkt und Alter Markt\, Köln
+DESCRIPTION:Weihnachtsmarkt auf Heumarkt und Alter Markt in der Kölner Alt
+ stadt.\nLaufzeit: 23.11.2026 bis 10.1.2027\nTermine laut Veranstalter: tä
+ glich 11–22 Uhr\, ab 31.12. bis 21 Uhr\; 24. und 25.12. geschlossen\; Al
+ ter Markt nur bis 23.12.\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.heinzels-wintermaerchen.de/
+URL:https://www.heinzels-wintermaerchen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-heumarkt-alter-markt-20261123-heinzels-wintermaerchen-ende@myeventhub
+ .de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Heinzels Wintermärchen
+LOCATION:Heumarkt und Alter Markt\, Köln
+DESCRIPTION:Weihnachtsmarkt auf Heumarkt und Alter Markt in der Kölner Alt
+ stadt.\nLaufzeit: 23.11.2026 bis 10.1.2027\nTermine laut Veranstalter: tä
+ glich 11–22 Uhr\, ab 31.12. bis 21 Uhr\; 24. und 25.12. geschlossen\; Al
+ ter Markt nur bis 23.12.\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.heinzels-wintermaerchen.de/
+URL:https://www.heinzels-wintermaerchen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20261127-schlaflos-in-hamm-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Schlaflos in Hamm
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 27.11.2026 bis 6.2.2027\nTermine laut Veranstalter: L
+ aufzeit laut Spielplan\, Einzeltermine auf der Website\nQuelle (bitte vor 
+ dem Besuch prüfen): https://theateramdom.de/
+URL:https://theateramdom.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20261127-schlaflos-in-hamm-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Letzter Tag: Schlaflos in Hamm
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 27.11.2026 bis 6.2.2027\nTermine laut Veranstalter: L
+ aufzeit laut Spielplan\, Einzeltermine auf der Website\nQuelle (bitte vor 
+ dem Besuch prüfen): https://theateramdom.de/
+URL:https://theateramdom.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-haenneschen-20261129-e-leech-zom-chressfess@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:E Leech zom Chressfess
+LOCATION:Hänneschen-Theater – Puppenspiele der Stadt Köln\, Eisenmarkt 
+ 2-4\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.haenneschen.de/spillplan/programmuebersicht/
+URL:https://www.haenneschen.de/spillplan/programmuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261204-night-of-the-proms-klassik-trifft-pop@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Night of the Proms – Klassik trifft Pop
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/night-of-the-proms-2026
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/night-of-the-proms-202
+ 6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-haenneschen-20261205-e-leech-zom-chressfess@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:E Leech zom Chressfess
+LOCATION:Hänneschen-Theater – Puppenspiele der Stadt Köln\, Eisenmarkt 
+ 2-4\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.haenneschen.de/spillplan/programmuebersicht/
+URL:https://www.haenneschen.de/spillplan/programmuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261205-night-of-the-proms-klassik-trifft-pop@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Night of the Proms – Klassik trifft Pop
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/night-of-the-proms-2026
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/night-of-the-proms-202
+ 6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-haenneschen-20261206-e-leech-zom-chressfess@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:E Leech zom Chressfess
+LOCATION:Hänneschen-Theater – Puppenspiele der Stadt Köln\, Eisenmarkt 
+ 2-4\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.haenneschen.de/spillplan/programmuebersicht/
+URL:https://www.haenneschen.de/spillplan/programmuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-haenneschen-20261212-e-leech-zom-chressfess@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T150000
+DTEND;TZID=Europe/Berlin:20261212T170000
+SUMMARY:E Leech zom Chressfess
+LOCATION:Hänneschen-Theater – Puppenspiele der Stadt Köln\, Eisenmarkt 
+ 2-4\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.haenneschen.de/spillplan/programmuebersicht/
+URL:https://www.haenneschen.de/spillplan/programmuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270111-die-fantastischen-vier-der-letzte-bus@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270111T200000
+DTEND;TZID=Europe/Berlin:20270111T220000
+SUMMARY:Die Fantastischen Vier – Der letzte Bus
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/die-fantastischen-vier
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/die-fantastischen-vier
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270112-die-fantastischen-vier-der-letzte-bus@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T200000
+DTEND;TZID=Europe/Berlin:20270112T220000
+SUMMARY:Die Fantastischen Vier – Der letzte Bus
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/die-fantastischen-vier
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/die-fantastischen-vier
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270313-teddy-swims-the-ugly-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T200000
+DTEND;TZID=Europe/Berlin:20270313T220000
+SUMMARY:Teddy Swims – The UGLY Tour
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270314-teddy-swims-the-ugly-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T200000
+DTEND;TZID=Europe/Berlin:20270314T220000
+SUMMARY:Teddy Swims – The UGLY Tour
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270429-die-aerzte-eine-gaensehaut-nach-dem-andern-t
+ our-20@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270429T200000
+DTEND;TZID=Europe/Berlin:20270429T220000
+SUMMARY:die ärzte – Eine Gänsehaut nach dem andern! – Tour 2027
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/die-aerzte
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/die-aerzte
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270430-die-aerzte-eine-gaensehaut-nach-dem-andern-t
+ our-20@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T190000
+DTEND;TZID=Europe/Berlin:20270430T210000
+SUMMARY:die ärzte – Eine Gänsehaut nach dem andern! – Tour 2027
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 17:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/die-aerzte
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/die-aerzte
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270501-die-aerzte-eine-gaensehaut-nach-dem-andern-t
+ our-20@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270501T190000
+DTEND;TZID=Europe/Berlin:20270501T210000
+SUMMARY:die ärzte – Eine Gänsehaut nach dem andern! – Tour 2027
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 17:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/die-aerzte
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/die-aerzte
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270523-sombr-you-are-the-reason-tour@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270523T193000
+DTEND;TZID=Europe/Berlin:20270523T213000
+SUMMARY:sombr – You Are The Reason Tour
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/sombr
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/sombr
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270524-sombr-you-are-the-reason-tour@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270524T193000
+DTEND;TZID=Europe/Berlin:20270524T213000
+SUMMARY:sombr – You Are The Reason Tour
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/sombr
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/sombr
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270605-herbert-groenemeyer-arena-tour-2027@myeventh
+ ub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270605T200000
+DTEND;TZID=Europe/Berlin:20270605T220000
+SUMMARY:Herbert Grönemeyer – Arena Tour 2027
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groene
+ meyer
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groenemeyer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270617-tame-impala@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270617T191500
+DTEND;TZID=Europe/Berlin:20270617T211500
+SUMMARY:Tame Impala
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 19:15 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/tame-impala
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/tame-impala
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270618-tame-impala@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270618T191500
+DTEND;TZID=Europe/Berlin:20270618T211500
+SUMMARY:Tame Impala
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 19:15 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/tame-impala
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/tame-impala
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270621-herbert-groenemeyer-arena-tour-2027@myeventh
+ ub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270621T200000
+DTEND;TZID=Europe/Berlin:20270621T220000
+SUMMARY:Herbert Grönemeyer – Arena Tour 2027
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groene
+ meyer
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groenemeyer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270622-herbert-groenemeyer-arena-tour-2027@myeventh
+ ub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270622T200000
+DTEND;TZID=Europe/Berlin:20270622T220000
+SUMMARY:Herbert Grönemeyer – Arena Tour 2027
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groene
+ meyer
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groenemeyer
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

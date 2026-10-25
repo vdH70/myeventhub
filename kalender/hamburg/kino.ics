@@ -1,0 +1,534 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Hamburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261025-charade@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Charade
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261025-wir-waren-das-dunkle-herz-der-stadt-der-unterga
+ ng@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Wir waren das dunkle Herz der Stadt - der Untergang der Hamburger G
+ ängeviertel
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261025-london@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T113000
+DTEND;TZID=Europe/Berlin:20261025T133000
+SUMMARY:London
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261025-emil-und-die-detektive@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T133000
+DTEND;TZID=Europe/Berlin:20261025T153000
+SUMMARY:Emil und die Detektive
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261025-bibi-blocksberg-die-total-verhexte-zeitreise@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:Bibi Blocksberg - Die total verhexte Zeitreise
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261025-moscas-fliegen-und-andere-gaeste@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T160000
+DTEND;TZID=Europe/Berlin:20261025T180000
+SUMMARY:Moscas - Fliegen und andere Gäste
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261025-las-mejores-familias@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Las mejores familias
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:OmeU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261025-primetime@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T194500
+DTEND;TZID=Europe/Berlin:20261025T214500
+SUMMARY:Primetime
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261025-hope@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T200000
+DTEND;TZID=Europe/Berlin:20261025T220000
+SUMMARY:Hope
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261026-adams-acht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T123000
+DTEND;TZID=Europe/Berlin:20261026T143000
+SUMMARY:Adams Acht
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261026-bibi-blocksberg-die-total-verhexte-zeitreise@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T151500
+DTEND;TZID=Europe/Berlin:20261026T171500
+SUMMARY:Bibi Blocksberg - Die total verhexte Zeitreise
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261026-sternbruecke-forever@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T163000
+DTEND;TZID=Europe/Berlin:20261026T183000
+SUMMARY:Sternbrücke Forever
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:Deutsche Fassung mit englischen Untertiteln\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.3001-k
+ ino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261026-biermann@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T171500
+DTEND;TZID=Europe/Berlin:20261026T191500
+SUMMARY:Biermann
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261026-materia-prima-new-energy-old-powers@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T183000
+DTEND;TZID=Europe/Berlin:20261026T203000
+SUMMARY:Materia Prima - New Energy - Old Powers
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261026-segeljungs-mit-null-ahnung-um-die-welt@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T200000
+DTEND;TZID=Europe/Berlin:20261026T220000
+SUMMARY:Segeljungs – Mit Null Ahnung um die Welt
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261026-moscas-fliegen-und-andere-gaeste@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T203000
+DTEND;TZID=Europe/Berlin:20261026T223000
+SUMMARY:Moscas - Fliegen und andere Gäste
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261027-moscas-fliegen-und-andere-gaeste@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T170000
+DTEND;TZID=Europe/Berlin:20261027T190000
+SUMMARY:Moscas - Fliegen und andere Gäste
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261027-liebhaberinnen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T180000
+DTEND;TZID=Europe/Berlin:20261027T200000
+SUMMARY:Liebhaberinnen
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261027-la-graciosa-kanarische-traeume@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T190000
+DTEND;TZID=Europe/Berlin:20261027T210000
+SUMMARY:La Graciosa - Kanarische Träume
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261027-grosses-kino-der-pate-teil-ii@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:Grosses Kino: Der Pate - Teil II
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261027-staatsschutz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T213000
+DTEND;TZID=Europe/Berlin:20261027T233000
+SUMMARY:Staatsschutz
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261028-der-spaziergang-nach-syrakus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T150000
+DTEND;TZID=Europe/Berlin:20261028T170000
+SUMMARY:Der Spaziergang nach Syrakus
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261028-materia-prima-new-energy-old-powers@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T163000
+DTEND;TZID=Europe/Berlin:20261028T183000
+SUMMARY:Materia Prima - New Energy - Old Powers
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261028-meeting-the-buddha@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T163000
+DTEND;TZID=Europe/Berlin:20261028T183000
+SUMMARY:Meeting The Buddha
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261028-sternbruecke-forever@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T183000
+DTEND;TZID=Europe/Berlin:20261028T203000
+SUMMARY:Sternbrücke Forever
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:Deutsche Fassung mit englischen Untertiteln\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.3001-k
+ ino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261028-barbara-buser-pionierin-der-nachhaltigkeit@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T200000
+DTEND;TZID=Europe/Berlin:20261028T220000
+SUMMARY:Barbara Buser - Pionierin der Nachhaltigkeit
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261028-moscas-fliegen-und-andere-gaeste@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T203000
+DTEND;TZID=Europe/Berlin:20261028T223000
+SUMMARY:Moscas - Fliegen und andere Gäste
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261029-ich-sterbe-kommst-du@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T173000
+DTEND;TZID=Europe/Berlin:20261029T193000
+SUMMARY:Ich sterbe. Kommst Du?
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261029-lieblingsfilm-herr-der-ringe-die-gefaehrten@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T190000
+DTEND;TZID=Europe/Berlin:20261029T210000
+SUMMARY:Lieblingsfilm: Herr der Ringe - Die Gefährten
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Extended Version\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261030-das-furz-film-programm@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T153000
+DTEND;TZID=Europe/Berlin:20261030T173000
+SUMMARY:Das „Furz-Film-Programm“
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-3001-kino-20261030-tierisch-gruselig@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T163000
+DTEND;TZID=Europe/Berlin:20261030T183000
+SUMMARY:Tierisch gruselig
+LOCATION:3001 Kino\, Schanzenstraße 75\, 20357 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.3001-kino.de/spielplan/
+URL:https://www.3001-kino.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261031-was-haben-wir-gelacht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T110000
+DTEND;TZID=Europe/Berlin:20261031T130000
+SUMMARY:Was haben wir gelacht
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261031-nofx-40-years-of-fuckin-up@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T223000
+DTEND;TZID=Europe/Berlin:20261101T003000
+SUMMARY:NOFX: 40 Years of Fuckin' Up
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261101-do-you-love-me@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Do You Love Me
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261102-under-pressure-ein-tiefer-riss-durch-die-usa@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:Under Pressure - Ein tiefer Riss durch die USA
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261103-mittagsstunde@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T100000
+DTEND;TZID=Europe/Berlin:20261103T120000
+SUMMARY:Mittagsstunde
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261103-best-of-cinema-rocky@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Best Of Cinema: Rocky
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261104-same-sun-mit-dem-fahrrad-durch-afrika@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T203000
+DTEND;TZID=Europe/Berlin:20261104T223000
+SUMMARY:Same Sun - Mit dem Fahrrad durch Afrika
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261105-geister@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T180000
+DTEND;TZID=Europe/Berlin:20261105T200000
+SUMMARY:Geister
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261106-wildes-argentinien-die-kraft-des-wassers@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T180000
+DTEND;TZID=Europe/Berlin:20261106T200000
+SUMMARY:Wildes Argentinien - Die Kraft des Wassers
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zeise-kinos-20261106-geister@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Geister
+LOCATION:Zeise Kinos\, Friedensallee 7-9\, 22765 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zeise.de/spielplan
+URL:https://www.zeise.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

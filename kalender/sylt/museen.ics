@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Sylt · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:nf-sylt-museum-20260926-creatures-david-batchelder-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Letzter Tag: Creatures. David Batchelder
+LOCATION:Sylt Museum\, Am Kliff 19\, 25980 Sylt
+DESCRIPTION:Laufzeit: 26.9.2026 bis 25.4.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://soelring-museen.de/
+URL:https://soelring-museen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

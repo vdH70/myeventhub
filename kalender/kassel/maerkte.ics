@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Kassel · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ks-messe-kassel-20261024-flohmarkt-in-der-messe-kassel-beginn@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Flohmarkt in der Messe Kassel
+LOCATION:Messe Kassel\, Damaschkestraße 55\, 34121 Kassel
+DESCRIPTION:Hallenflohmarkt\, Veranstalter Hansen Märkte.\nLaufzeit: 24.10
+ .2026 bis 25.10.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ esse-kassel.de/besucher/veranstaltungsuebersicht/
+URL:https://www.messe-kassel.de/besucher/veranstaltungsuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-messe-kassel-20261024-flohmarkt-in-der-messe-kassel-ende@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Letzter Tag: Flohmarkt in der Messe Kassel
+LOCATION:Messe Kassel\, Damaschkestraße 55\, 34121 Kassel
+DESCRIPTION:Hallenflohmarkt\, Veranstalter Hansen Märkte.\nLaufzeit: 24.10
+ .2026 bis 25.10.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ esse-kassel.de/besucher/veranstaltungsuebersicht/
+URL:https://www.messe-kassel.de/besucher/veranstaltungsuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-messe-kassel-20261114-kinderbasar@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T090000
+DTEND;TZID=Europe/Berlin:20261114T110000
+SUMMARY:Kinderbasar
+LOCATION:Messe Kassel\, Damaschkestraße 55\, 34121 Kassel
+DESCRIPTION:Basar für Kindersachen in Halle 1-2.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.messe-kassel
+ .de/besucher/veranstaltungsuebersicht/
+URL:https://www.messe-kassel.de/besucher/veranstaltungsuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-messe-kassel-20261114-maedels-flohmarkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T090000
+DTEND;TZID=Europe/Berlin:20261114T110000
+SUMMARY:Mädels-Flohmarkt
+LOCATION:Messe Kassel\, Damaschkestraße 55\, 34121 Kassel
+DESCRIPTION:Flohmarkt für Frauenmode in Halle 1-2.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.messe-kass
+ el.de/besucher/veranstaltungsuebersicht/
+URL:https://www.messe-kassel.de/besucher/veranstaltungsuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-messe-kassel-20261212-flohmarkt-in-der-messe-kassel-beginn@myeventhu
+ b.de
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Beginn: Flohmarkt in der Messe Kassel
+LOCATION:Messe Kassel\, Damaschkestraße 55\, 34121 Kassel
+DESCRIPTION:Hallenflohmarkt\, Veranstalter Hansen Märkte.\nLaufzeit: 12.12
+ .2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ esse-kassel.de/besucher/veranstaltungsuebersicht/
+URL:https://www.messe-kassel.de/besucher/veranstaltungsuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-messe-kassel-20261212-flohmarkt-in-der-messe-kassel-ende@myeventhub.
+ de
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Flohmarkt in der Messe Kassel
+LOCATION:Messe Kassel\, Damaschkestraße 55\, 34121 Kassel
+DESCRIPTION:Hallenflohmarkt\, Veranstalter Hansen Märkte.\nLaufzeit: 12.12
+ .2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ esse-kassel.de/besucher/veranstaltungsuebersicht/
+URL:https://www.messe-kassel.de/besucher/veranstaltungsuebersicht/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

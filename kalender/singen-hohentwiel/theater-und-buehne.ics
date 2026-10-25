@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Singen (Hohentwiel) · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kn-stadthalle-singen-20261027-martin-ruetter@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:Martin Rütter
+LOCATION:Stadthalle Singen\, Hohgarten 4\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Comedy\; laut Veranstalter ausverkauft.\nEnde: laut Quelle nich
+ t angegeben\nPreis: ab 64\,90 €\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.stadthalle-singen.de/veranstaltungen
+URL:https://www.stadthalle-singen.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261029-zweisam-einsam-gemeinsam-premiere@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Zweisam. Einsam. Gemeinsam. (Premiere)
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261030-zweisam-einsam-gemeinsam@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Zweisam. Einsam. Gemeinsam.
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261104-lalelu-urlaub-vom-hirn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:LaLeLu – Urlaub vom Hirn
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:A-cappella-Comedy\; laut Veranstalter ausverkauft.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261107-die-kistenhocker-hoorspalterei@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Die Kistenhocker – Hoorspalterei
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Mundart-Musik-Kabarett.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261108-kathi-wolf-psycho-royal@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T193000
+DTEND;TZID=Europe/Berlin:20261108T213000
+SUMMARY:Kathi Wolf – Psycho Royal
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261109-sisters-of-comedy-nachgelacht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T193000
+DTEND;TZID=Europe/Berlin:20261109T213000
+SUMMARY:Sisters of Comedy – Nachgelacht
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-stadthalle-singen-20261112-blind@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Blind
+LOCATION:Stadthalle Singen\, Hohgarten 4\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 21\,00 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.stadthalle-singen.de/veransta
+ ltungen
+URL:https://www.stadthalle-singen.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261114-martina-schwarzmann-macht-was-sie-will@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Martina Schwarzmann – macht was sie will
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261115-drei-zwei-eins@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T190000
+DTEND;TZID=Europe/Berlin:20261115T210000
+SUMMARY:Drei Zwei Eins
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261128-django-asuel-rueckspiegel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Django Asül – Rückspiegel
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-gems-singen-20261209-bodo-wartke-wunderpunkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Bodo Wartke – Wunderpunkt
+LOCATION:GEMS Kulturzentrum\, Mühlenstraße 13\, 78224 Singen (Hohentwiel)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diegems.de/programm.html
+URL:https://www.diegems.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

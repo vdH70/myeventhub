@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shoppingcenter in Regensburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:r-donau-einkaufszentrum-20261026-ausstellung-fotoclub-regenstauf-beginn
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Beginn: Ausstellung Fotoclub Regenstauf
+LOCATION:Donau-Einkaufszentrum\, Weichser Weg 5\, 93059 Regensburg
+DESCRIPTION:Laufzeit: 26.10.2026 bis 7.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.donaueinkaufszentrum.de/events
+URL:https://www.donaueinkaufszentrum.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-donau-einkaufszentrum-20261026-ausstellung-fotoclub-regenstauf-ende@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Letzter Tag: Ausstellung Fotoclub Regenstauf
+LOCATION:Donau-Einkaufszentrum\, Weichser Weg 5\, 93059 Regensburg
+DESCRIPTION:Laufzeit: 26.10.2026 bis 7.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.donaueinkaufszentrum.de/events
+URL:https://www.donaueinkaufszentrum.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

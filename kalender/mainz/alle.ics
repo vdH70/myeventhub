@@ -1,0 +1,557 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Mainz · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261025-der-besuch-der-alten-dame@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:Der Besuch der alten Dame
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-
+ 26-27/der-besuch-der-alten-dame
+URL:https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-26-27/de
+ r-besuch-der-alten-dame
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261025-mar-musa@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T173000
+DTEND;TZID=Europe/Berlin:20261025T193000
+SUMMARY:Mar Musa
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:OmU\, ausverkauft\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261025-future-science@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T200000
+DTEND;TZID=Europe/Berlin:20261025T220000
+SUMMARY:Future Science
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261026-future-science@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T200000
+DTEND;TZID=Europe/Berlin:20261026T220000
+SUMMARY:Future Science
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261027-future-science@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:Future Science
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261028-fall-seven-times-ua@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T193000
+DTEND;TZID=Europe/Berlin:20261028T213000
+SUMMARY:Fall Seven Times (UA)
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/
+ fall-seven-times-ua
+URL:https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/fall-sev
+ en-times-ua
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261028-karla@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T200000
+DTEND;TZID=Europe/Berlin:20261028T220000
+SUMMARY:Karla
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261029-der-besuch-der-alten-dame@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Der Besuch der alten Dame
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-
+ 26-27/der-besuch-der-alten-dame
+URL:https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-26-27/de
+ r-besuch-der-alten-dame
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261029-die-moewe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Die Möwe
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-
+ 26-27/die-mowe
+URL:https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-26-27/di
+ e-mowe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261029-watching-people-watching-birds@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Watching People Watching Birds
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261030-die-zauberfloete@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Die Zauberflöte
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/
+ die-zauberflote
+URL:https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/die-zaub
+ erflote
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261030-watching-people-watching-birds@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Watching People Watching Birds
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261031-watching-people-watching-birds@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Watching People Watching Birds
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261101-lohengrin@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Lohengrin
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/
+ lohengrin
+URL:https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/lohengri
+ n
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261101-watching-people-watching-birds@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T200000
+DTEND;TZID=Europe/Berlin:20261101T220000
+SUMMARY:Watching People Watching Birds
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261102-watching-people-watching-birds@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Watching People Watching Birds
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-cinemayence-20261103-watching-people-watching-birds@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Watching People Watching Birds
+LOCATION:CinéMayence\, Schillerstraße 11\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cinemayence.de/programm.html
+URL:https://www.cinemayence.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261106-lohengrin@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T180000
+DTEND;TZID=Europe/Berlin:20261106T200000
+SUMMARY:Lohengrin
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/
+ lohengrin
+URL:https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/lohengri
+ n
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-krempelmarkt-rheinufer-20261107-mainzer-krempelmarkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T070000
+DTEND;TZID=Europe/Berlin:20261107T090000
+SUMMARY:Mainzer Krempelmarkt
+LOCATION:Mainzer Krempelmarkt am Rheinufer\, Rheinufer\, Mainz
+DESCRIPTION:Städtischer Flohmarkt am Rheinufer.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://api.ztix-technik.
+ de/public/organizers/355/calendars/53/
+URL:https://api.ztix-technik.de/public/organizers/355/calendars/53/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261107-die-moewe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Die Möwe
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-
+ 26-27/die-mowe
+URL:https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-26-27/di
+ e-mowe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261108-die-piraten-von-penzance@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Die Piraten von Penzance
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/
+ die-piraten-von-penzance
+URL:https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/die-pira
+ ten-von-penzance
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261113-fall-seven-times-ua@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Fall Seven Times (UA)
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/
+ fall-seven-times-ua
+URL:https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/fall-sev
+ en-times-ua
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261114-fall-seven-times-ua@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Fall Seven Times (UA)
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/
+ fall-seven-times-ua
+URL:https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/fall-sev
+ en-times-ua
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261115-die-zauberfloete@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Die Zauberflöte
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/
+ die-zauberflote
+URL:https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/die-zaub
+ erflote
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261120-die-zauberfloete@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Die Zauberflöte
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/
+ die-zauberflote
+URL:https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/die-zaub
+ erflote
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261121-lohengrin@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T180000
+DTEND;TZID=Europe/Berlin:20261121T200000
+SUMMARY:Lohengrin
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/
+ lohengrin
+URL:https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/lohengri
+ n
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261123-fall-seven-times-ua@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T193000
+DTEND;TZID=Europe/Berlin:20261123T213000
+SUMMARY:Fall Seven Times (UA)
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/
+ fall-seven-times-ua
+URL:https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/fall-sev
+ en-times-ua
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261124-fall-seven-times-ua@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T103000
+DTEND;TZID=Europe/Berlin:20261124T123000
+SUMMARY:Fall Seven Times (UA)
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/
+ fall-seven-times-ua
+URL:https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/fall-sev
+ en-times-ua
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261124-die-moewe@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T193000
+DTEND;TZID=Europe/Berlin:20261124T213000
+SUMMARY:Die Möwe
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-
+ 26-27/die-mowe
+URL:https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-26-27/di
+ e-mowe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-domplatz-weihnachtsmarkt-20261126-mainzer-weihnachtsmarkt-2026-begin
+ n@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Beginn: Mainzer Weihnachtsmarkt 2026
+LOCATION:Marktplatz am Mainzer Dom\, Markt\, Mainz
+DESCRIPTION:Historischer Weihnachtsmarkt am Dom.\nLaufzeit: 26.11.2026 bis 
+ 23.12.2026\nTermine laut Veranstalter: So–Do 11–20.30 Uhr\, Fr/Sa 11
+ –21 Uhr\; 23.12. bis 19 Uhr\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.mainz.de/en/angebote-entdecken/freizeit/feste-und-veranstaltungen/
+ weihnachtsmarkt
+URL:https://www.mainz.de/en/angebote-entdecken/freizeit/feste-und-veranstal
+ tungen/weihnachtsmarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-domplatz-weihnachtsmarkt-20261126-mainzer-weihnachtsmarkt-2026-ende@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Mainzer Weihnachtsmarkt 2026
+LOCATION:Marktplatz am Mainzer Dom\, Markt\, Mainz
+DESCRIPTION:Historischer Weihnachtsmarkt am Dom.\nLaufzeit: 26.11.2026 bis 
+ 23.12.2026\nTermine laut Veranstalter: So–Do 11–20.30 Uhr\, Fr/Sa 11
+ –21 Uhr\; 23.12. bis 19 Uhr\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.mainz.de/en/angebote-entdecken/freizeit/feste-und-veranstaltungen/
+ weihnachtsmarkt
+URL:https://www.mainz.de/en/angebote-entdecken/freizeit/feste-und-veranstal
+ tungen/weihnachtsmarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261128-der-besuch-der-alten-dame@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Der Besuch der alten Dame
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-
+ 26-27/der-besuch-der-alten-dame
+URL:https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-26-27/de
+ r-besuch-der-alten-dame
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261128-die-moewe@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Die Möwe
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-
+ 26-27/die-mowe
+URL:https://www.staatstheater-mainz.com/veranstaltungen/schauspiel-26-27/di
+ e-mowe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261207-fall-seven-times-ua@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T193000
+DTEND;TZID=Europe/Berlin:20261207T213000
+SUMMARY:Fall Seven Times (UA)
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/
+ fall-seven-times-ua
+URL:https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/fall-sev
+ en-times-ua
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261213-fall-seven-times-ua@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T180000
+DTEND;TZID=Europe/Berlin:20261213T200000
+SUMMARY:Fall Seven Times (UA)
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/
+ fall-seven-times-ua
+URL:https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/fall-sev
+ en-times-ua
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-kleines-haus-20261219-fall-seven-times-ua@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T193000
+DTEND;TZID=Europe/Berlin:20261219T213000
+SUMMARY:Fall Seven Times (UA)
+LOCATION:Staatstheater Mainz – Kleines Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/
+ fall-seven-times-ua
+URL:https://www.staatstheater-mainz.com/veranstaltungen/tanz-26-27/fall-sev
+ en-times-ua
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261220-lohengrin@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Lohengrin
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/
+ lohengrin
+URL:https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/lohengri
+ n
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-staatstheater-grosses-haus-20261227-lohengrin@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T180000
+DTEND;TZID=Europe/Berlin:20261227T200000
+SUMMARY:Lohengrin
+LOCATION:Staatstheater Mainz – Großes Haus\, Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/
+ lohengrin
+URL:https://www.staatstheater-mainz.com/veranstaltungen/oper-26-27/lohengri
+ n
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

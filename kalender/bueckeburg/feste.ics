@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Bückeburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:shg-schloss-bueckeburg-20261126-weihnachtszauber-2026-beginn@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Beginn: Weihnachtszauber 2026
+LOCATION:Schloss Bückeburg\, Bückeburg
+DESCRIPTION:Weihnachtsmarkt auf dem Schlossgelände\, Öffnungszeiten je Ta
+ g laut Veranstalter.\nLaufzeit: 26.11.2026 bis 6.12.2026\nQuelle (bitte vo
+ r dem Besuch prüfen): https://schloss-bueckeburg.de/der-weihnachtszauber/
+URL:https://schloss-bueckeburg.de/der-weihnachtszauber/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shg-schloss-bueckeburg-20261126-weihnachtszauber-2026-ende@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Letzter Tag: Weihnachtszauber 2026
+LOCATION:Schloss Bückeburg\, Bückeburg
+DESCRIPTION:Weihnachtsmarkt auf dem Schlossgelände\, Öffnungszeiten je Ta
+ g laut Veranstalter.\nLaufzeit: 26.11.2026 bis 6.12.2026\nQuelle (bitte vo
+ r dem Besuch prüfen): https://schloss-bueckeburg.de/der-weihnachtszauber/
+URL:https://schloss-bueckeburg.de/der-weihnachtszauber/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

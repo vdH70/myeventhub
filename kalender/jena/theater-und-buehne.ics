@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Jena · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:j-rosenkeller-20261031-5-jahre-provinz-comedy-die-grosse-geburtstagssho
+ w@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:5 Jahre Provinz-Comedy – Die große Geburtstagsshow
+LOCATION:Rosenkeller\, Johannisstraße 13\, 07743 Jena
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.rosenkeller.
+ org/
+URL:https://www.rosenkeller.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:j-kassablanca-20261126-teresa-reichl-grober-unfug@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Teresa Reichl: Grober Unfug
+LOCATION:Kassablanca\, Jena
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.kassablanca.
+ de/
+URL:https://www.kassablanca.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

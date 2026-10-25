@@ -1,0 +1,341 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Limburg an der Lahn · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261026-miss-daisy-und-ihr-chauffeur@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T193000
+DTEND;TZID=Europe/Berlin:20261026T213000
+SUMMARY:Miss Daisy und ihr Chauffeur
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/miss-d
+ aisy-und-ihr-chauffeur
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/miss-daisy-und
+ -ihr-chauffeur
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261031-mundstuhl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Mundstuhl
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/mundst
+ uhl
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/mundstuhl
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261105-dr-harry-keaton-the-brain@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Dr. Harry Keaton: The Brain
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/the-br
+ ain-die-magische-show-1
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/the-brain-die-
+ magische-show-1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261106-mathias-richling@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Mathias Richling
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/mathia
+ s-richling
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/mathias-richli
+ ng
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261108-daniel-helfrich@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Daniel Helfrich
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/daniel
+ -helfrich
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/daniel-helfric
+ h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261108-rock-the-circus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Rock the Circus
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/rock-t
+ he-circus
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/rock-the-circu
+ s
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261111-tutty-tran@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Tutty Tran
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/tutty-
+ tran-1
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/tutty-tran-1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261119-eure-muetter@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Eure Mütter
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/eure-m
+ tter
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/eure-mtter
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261202-martin-ruetter@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Martin Rütter
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/martin
+ -ruetter-schluss-aus-warm-up
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/martin-ruetter
+ -schluss-aus-warm-up
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261203-peter-kunz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Peter Kunz
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/peter-
+ kunz
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/peter-kunz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261205-a-musical-christmas@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:A Musical Christmas
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/a-musi
+ cal-christmas
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/a-musical-chri
+ stmas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261205-meta-hueper@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Meta Hüper
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/meta-h
+ ueper
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/meta-hueper
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261211-tina-teubner@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Tina Teubner
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/tina-t
+ eubner
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/tina-teubner
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261213-bodo-wartke@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T190000
+DTEND;TZID=Europe/Berlin:20261213T210000
+SUMMARY:Bodo Wartke
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/bodo-w
+ artke-1
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/bodo-wartke-1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261218-ramon-chormann@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T193000
+DTEND;TZID=Europe/Berlin:20261218T213000
+SUMMARY:Ramon Chormann
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/ramon-
+ chormann-2026-12
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/ramon-chormann
+ -2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261219-drei-haselnuesse-fuer-aschenbroedel@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:Drei Haselnüsse für Aschenbrödel
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/drei-h
+ aselnuesse-fuer-aschenbroedel
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/drei-haselnues
+ se-fuer-aschenbroedel
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261222-der-nussknacker@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T190000
+DTEND;TZID=Europe/Berlin:20261222T210000
+SUMMARY:Der Nussknacker
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/der-nu
+ ssknacker
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/der-nussknacke
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20270213-william-wahl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:William Wahl
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Musikkabarett\; Veranstalter: Kulturvereinigung Limburg.\nTicke
+ ts: https://stadthallelimburg.reservix.de/tickets-william-wahl-nachts-sind
+ -alle-tasten-grau-in-limburg-an-der-lahn-stadthalle-josef-kohlmaier-halle-
+ am-13-2-2027/e2527169\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kulturvereinigung-limburg.de/
+URL:https://www.kulturvereinigung-limburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20270305-heissmann-und-rassau@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Heissmann und Rassau
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Kabarett\; Veranstalter: Kulturvereinigung Limburg.\nTickets: h
+ ttps://stadthallelimburg.reservix.de/tickets-heissmann--rassau-heissmann--
+ rassau-live-2027-in-limburg-an-der-lahn-stadthalle-josef-kohlmaier-halle-a
+ m-5-3-2027/e2529616\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturvereinigung-limburg.de/
+URL:https://www.kulturvereinigung-limburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20270324-das-lehrerzimmer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:Das Lehrerzimmer
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Theater\; Veranstalter: Kulturvereinigung Limburg.\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.kulturvereinigung-limburg.de/
+URL:https://www.kulturvereinigung-limburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20270410-hagen-rether@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Hagen Rether
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Kabarett\; Veranstalter: Kulturvereinigung Limburg.\nTickets: h
+ ttps://stadthallelimburg.reservix.de/tickets-hagen-rether-liebe-in-limburg
+ -an-der-lahn-stadthalle-josef-kohlmaier-halle-am-10-4-2027/e2584653\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.kulturvereinigung-limburg.de
+ /
+URL:https://www.kulturvereinigung-limburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

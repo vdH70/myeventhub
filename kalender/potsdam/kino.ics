@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Potsdam · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261025-superkraefte-mit-koepfchen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:Superkräfte mit Köpfchen
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261025-looping@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T170000
+DTEND;TZID=Europe/Berlin:20261025T190000
+SUMMARY:Looping
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261025-das-fahrrad@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T193000
+DTEND;TZID=Europe/Berlin:20261025T213000
+SUMMARY:Das Fahrrad
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261027-lotte-und-totte@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T100000
+DTEND;TZID=Europe/Berlin:20261027T120000
+SUMMARY:Lotte und Totte
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261027-melodie-des-herzens@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T170000
+DTEND;TZID=Europe/Berlin:20261027T190000
+SUMMARY:Melodie des Herzens
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261027-hiddensee@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T190000
+DTEND;TZID=Europe/Berlin:20261027T210000
+SUMMARY:Hiddensee
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Filmgespräch mit der Regisseurin\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.filmmuseum-potsd
+ am.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261028-olle-hexe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T100000
+DTEND;TZID=Europe/Berlin:20261028T120000
+SUMMARY:Olle Hexe
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261028-buergermeister-anna@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T180000
+DTEND;TZID=Europe/Berlin:20261028T200000
+SUMMARY:Bürgermeister Anna
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261028-ein-unsichtbarer-geht-durch-die-stadt@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T200000
+DTEND;TZID=Europe/Berlin:20261028T220000
+SUMMARY:Ein Unsichtbarer geht durch die Stadt
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261029-geschichten-aus-zwoelf-und-einem-jahr@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T180000
+DTEND;TZID=Europe/Berlin:20261029T200000
+SUMMARY:Geschichten aus zwölf und einem Jahr
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261029-experimente@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Experimente
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261030-insel-der-schwaene@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T170000
+DTEND;TZID=Europe/Berlin:20261030T190000
+SUMMARY:Insel der Schwäne
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261030-die-gebrueder-skladanowsky@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Die Gebrüder Skladanowsky
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261031-olle-hexe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T100000
+DTEND;TZID=Europe/Berlin:20261031T120000
+SUMMARY:Olle Hexe
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261031-teenage-sex-and-death-at-camp-miasma@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Teenage Sex and Death at Camp Miasma
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-filmmuseum-potsdam-20261031-freitag-der-13@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T213000
+DTEND;TZID=Europe/Berlin:20261031T233000
+SUMMARY:Freitag\, der 13.
+LOCATION:Filmmuseum Potsdam (Kino)\, Breite Straße 1a / Marstall\, 14467 P
+ otsdam
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.filmmuseum-potsdam.de/Spielplan-index.html
+URL:https://www.filmmuseum-potsdam.de/Spielplan-index.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

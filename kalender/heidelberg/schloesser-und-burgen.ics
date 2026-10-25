@@ -1,0 +1,135 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlösser & Burgen in Heidelberg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hd-schloss-heidelberg-20261025-mit-dem-kurfuerstlichen-nachtwaechter-du
+ rchs-schlo@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T170000
+DTEND;TZID=Europe/Berlin:20261025T190000
+SUMMARY:Mit dem kurfürstlichen Nachtwächter durchs Schloss
+LOCATION:Schloss Heidelberg\, Schlosshof 1\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen
+ -veranstaltungen
+URL:https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen-veranst
+ altungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-schloss-heidelberg-20261027-heute-geht-s-ins-schloss@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T110000
+DTEND;TZID=Europe/Berlin:20261027T130000
+SUMMARY:Heute geht's ins Schloss!
+LOCATION:Schloss Heidelberg\, Schlosshof 1\, 69117 Heidelberg
+DESCRIPTION:Schlossabenteuer mit Basteln für Kinder.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.schloss-
+ heidelberg.de/besuchsinformation/fuehrungen-veranstaltungen
+URL:https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen-veranst
+ altungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-schloss-heidelberg-20261101-das-leben-bei-hofe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T143000
+DTEND;TZID=Europe/Berlin:20261101T163000
+SUMMARY:Das Leben bei Hofe
+LOCATION:Schloss Heidelberg\, Schlosshof 1\, 69117 Heidelberg
+DESCRIPTION:Sonderführung mit Kostüm.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.schloss-heidelberg.de/
+ besuchsinformation/fuehrungen-veranstaltungen?tx_ssgmonument_eventfilterli
+ st%5BcurrentPage%5D=2
+URL:https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen-veranst
+ altungen?tx_ssgmonument_eventfilterlist%5BcurrentPage%5D=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-schloss-heidelberg-20261114-das-leben-bei-hofe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T143000
+DTEND;TZID=Europe/Berlin:20261114T163000
+SUMMARY:Das Leben bei Hofe
+LOCATION:Schloss Heidelberg\, Schlosshof 1\, 69117 Heidelberg
+DESCRIPTION:Sonderführung mit Kostüm.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.schloss-heidelberg.de/
+ besuchsinformation/fuehrungen-veranstaltungen?tx_ssgmonument_eventfilterli
+ st%5BcurrentPage%5D=2
+URL:https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen-veranst
+ altungen?tx_ssgmonument_eventfilterlist%5BcurrentPage%5D=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-schloss-heidelberg-20261122-reise-in-die-zeit-der-ritter-und-hofdame
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T143000
+DTEND;TZID=Europe/Berlin:20261122T163000
+SUMMARY:Reise in die Zeit der Ritter und Hofdamen
+LOCATION:Schloss Heidelberg\, Schlosshof 1\, 69117 Heidelberg
+DESCRIPTION:Familienführung.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.schloss-heidelberg.de/besuchsinf
+ ormation/fuehrungen-veranstaltungen?tx_ssgmonument_eventfilterlist%5Bcurre
+ ntPage%5D=2
+URL:https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen-veranst
+ altungen?tx_ssgmonument_eventfilterlist%5BcurrentPage%5D=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-schloss-heidelberg-20261128-das-leben-bei-hofe@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T143000
+DTEND;TZID=Europe/Berlin:20261128T163000
+SUMMARY:Das Leben bei Hofe
+LOCATION:Schloss Heidelberg\, Schlosshof 1\, 69117 Heidelberg
+DESCRIPTION:Sonderführung mit Kostüm.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.schloss-heidelberg.de/
+ besuchsinformation/fuehrungen-veranstaltungen?tx_ssgmonument_eventfilterli
+ st%5BcurrentPage%5D=2
+URL:https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen-veranst
+ altungen?tx_ssgmonument_eventfilterlist%5BcurrentPage%5D=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-schloss-heidelberg-20261205-mit-dem-kurfuerstlichen-nachtwaechter-du
+ rchs-schlo@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T170000
+DTEND;TZID=Europe/Berlin:20261205T190000
+SUMMARY:Mit dem kurfürstlichen Nachtwächter durchs Schloss
+LOCATION:Schloss Heidelberg\, Schlosshof 1\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen
+ -veranstaltungen?tx_ssgmonument_eventfilterlist%5BcurrentPage%5D=2
+URL:https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen-veranst
+ altungen?tx_ssgmonument_eventfilterlist%5BcurrentPage%5D=2
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

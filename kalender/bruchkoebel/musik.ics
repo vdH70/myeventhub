@@ -1,0 +1,147 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Bruchköbel · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mkk-lokal-bruchkoebel-20261106-lokal-band-bommi-m-praesentiert-ursula-h
+ oerr-und-s@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:LOKAL.BAND: BOMMI M präsentiert Ursula Hörr und Sentimental Journ
+ ey
+LOCATION:LOKAL. Bruchköbel\, Innerer Ring 1a\, 63486 Bruchköbel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lokal-bruchkoebel.de/events/lokalband-bommi-m-und-f
+ reunde-whsag-2pzf2
+URL:https://www.lokal-bruchkoebel.de/events/lokalband-bommi-m-und-freunde-w
+ hsag-2pzf2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mkk-lokal-bruchkoebel-20261108-lokal-band-wohnzimmerkonzert-mit-dem-tri
+ o-dreiklan@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:LOKAL.BAND: Wohnzimmerkonzert mit dem Trio Dreiklang
+LOCATION:LOKAL. Bruchköbel\, Innerer Ring 1a\, 63486 Bruchköbel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lokal-bruchkoebel.de/events/lokalband-wohnzimmerkon
+ zert-mit-klaus-diel
+URL:https://www.lokal-bruchkoebel.de/events/lokalband-wohnzimmerkonzert-mit
+ -klaus-diel
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mkk-lokal-bruchkoebel-20261113-lokal-band-bommi-m-praesentiert-bommi-al
+ te-deutsch@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:LOKAL.BAND: BOMMI M präsentiert Bommi alte deutsche Welle und Beat
+ niks DUO
+LOCATION:LOKAL. Bruchköbel\, Innerer Ring 1a\, 63486 Bruchköbel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lokal-bruchkoebel.de/events/lokalband-bommi-m-und-f
+ reunde-whsag-2pzf2-l2bth
+URL:https://www.lokal-bruchkoebel.de/events/lokalband-bommi-m-und-freunde-w
+ hsag-2pzf2-l2bth
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mkk-lokal-bruchkoebel-20261114-musikalischer-abend-der-goldenen-20er-ja
+ hre-mit-ak@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Musikalischer Abend der goldenen 20er Jahre mit Akkordeon
+LOCATION:LOKAL. Bruchköbel\, Innerer Ring 1a\, 63486 Bruchköbel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\, Spende er
+ beten\nQuelle (bitte vor dem Besuch prüfen): https://www.lokal-bruchkoebe
+ l.de/events/musikalischer-abend-der-goldenen-20er-jahre-mit-akkordeon
+URL:https://www.lokal-bruchkoebel.de/events/musikalischer-abend-der-goldene
+ n-20er-jahre-mit-akkordeon
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mkk-lokal-bruchkoebel-20261120-lokal-band-wartezimmer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:LOKAL.BAND: Wartezimmer
+LOCATION:LOKAL. Bruchköbel\, Innerer Ring 1a\, 63486 Bruchköbel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lokal-bruchkoebel.de/events/lokal-band-wartezimmer
+URL:https://www.lokal-bruchkoebel.de/events/lokal-band-wartezimmer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mkk-lokal-bruchkoebel-20261129-salonkonzert-immer-wieder-sonntags-mit-d
+ em-dazz-tr@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Salonkonzert „Immer wieder sonntags…“ mit dem Dazz Trio
+LOCATION:LOKAL. Bruchköbel\, Innerer Ring 1a\, 63486 Bruchköbel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lokal-bruchkoebel.de/events/salonkonzert-dazz-trio
+URL:https://www.lokal-bruchkoebel.de/events/salonkonzert-dazz-trio
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mkk-lokal-bruchkoebel-20261211-besinnlicher-abend-mit-akkordeon@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T180000
+DTEND;TZID=Europe/Berlin:20261211T200000
+SUMMARY:Besinnlicher Abend mit Akkordeon
+LOCATION:LOKAL. Bruchköbel\, Innerer Ring 1a\, 63486 Bruchköbel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lokal-bruchkoebel.de/events/g6ws00u4bgu5p8tcnijayrt
+ pkchq0c
+URL:https://www.lokal-bruchkoebel.de/events/g6ws00u4bgu5p8tcnijayrtpkchq0c
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mkk-lokal-bruchkoebel-20261218-kurdischer-abend-kultur-verbindet-herzen
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T180000
+DTEND;TZID=Europe/Berlin:20261218T200000
+SUMMARY:Kurdischer Abend – Kultur verbindet Herzen
+LOCATION:LOKAL. Bruchköbel\, Innerer Ring 1a\, 63486 Bruchköbel
+DESCRIPTION:Abend mit Geschichten\, Musik und Begegnungen.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.lok
+ al-bruchkoebel.de/events/kurdischer-abend-kultur-verbindet-herzen-ein-aben
+ d-voller-geschichten-musik-und-begegnungen
+URL:https://www.lokal-bruchkoebel.de/events/kurdischer-abend-kultur-verbind
+ et-herzen-ein-abend-voller-geschichten-musik-und-begegnungen
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

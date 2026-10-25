@@ -1,0 +1,407 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Paderborn · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pb-deelenhaus-20261030-contrabrass@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:ContraBrass
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Ensembles ContraBrass.\nEnde: laut Quelle nicht ang
+ egeben\nPreis: ab € 12\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.deelenhaus.de/events/
+URL:https://www.deelenhaus.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261031-angelusmatinee@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T120000
+DTEND;TZID=Europe/Berlin:20261031T140000
+SUMMARY:Angelusmatinée
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Orgelmusik zur Mittagszeit mit Angelusgebet.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://paderborn
+ erdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20261106-bernd-reiter-quintett@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Bernd Reiter Quintett
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Jazzclubs Paderborn im Deelenhaus.\n19:30 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-paderbor
+ n.de/concert
+URL:https://www.jazzclub-paderborn.de/concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261107-angelusmatinee@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T120000
+DTEND;TZID=Europe/Berlin:20261107T140000
+SUMMARY:Angelusmatinée
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Orgelmusik zur Mittagszeit mit Angelusgebet.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://paderborn
+ erdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20261107-milou-flint-zwischen-gold-gruen-pink@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:milou & flint – zwischen gold\, grün & pink
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Duos milou & flint.\nEnde: laut Quelle nicht angege
+ ben\nPreis: ab € 18\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ deelenhaus.de/events/liste/seite/2/
+URL:https://www.deelenhaus.de/events/liste/seite/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-paderhalle-20261111-2-sinfoniekonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T193000
+DTEND;TZID=Europe/Berlin:20261111T213000
+SUMMARY:2. Sinfoniekonzert
+LOCATION:PaderHalle\, Heiersmauer 45-51\, 33098 Paderborn
+DESCRIPTION:Sinfoniekonzert der städtischen Konzertreihe.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.pad
+ erhalle.de/veranstaltungen/1-sinfoniekonzert-28464/
+URL:https://www.paderhalle.de/veranstaltungen/1-sinfoniekonzert-28464/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20261112-guitarissimo-no-10-sophie-chassee@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Guitarissimo No. 10: Sophie Chasseé
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Gitarrenkonzert der Reihe Guitarissimo.\nEnde: laut Quelle nich
+ t angegeben\nPreis: ab € 18\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.deelenhaus.de/events/liste/seite/2/
+URL:https://www.deelenhaus.de/events/liste/seite/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261114-angelusmatinee@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T120000
+DTEND;TZID=Europe/Berlin:20261114T140000
+SUMMARY:Angelusmatinée
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Orgelmusik zur Mittagszeit mit Angelusgebet.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://paderborn
+ erdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-paderhalle-20261114-lichtpunkt-chorkonzert@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:Lichtpunkt - Chorkonzert
+LOCATION:PaderHalle\, Heiersmauer 45-51\, 33098 Paderborn
+DESCRIPTION:Chorkonzert mit christlicher Popmusik und Live-Band.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.paderhalle.de/veranstaltungen/lichtpunkt-chorkonzert-28468/
+URL:https://www.paderhalle.de/veranstaltungen/lichtpunkt-chorkonzert-28468/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20261121-kai-strauss-the-electric-blues-allstars-2026@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Kai Strauss & The Electric Blues Allstars 2026
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Jazzclubs Paderborn im Deelenhaus.\n19:30 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-paderbor
+ n.de/concert
+URL:https://www.jazzclub-paderborn.de/concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261128-angelusmatinee@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T120000
+DTEND;TZID=Europe/Berlin:20261128T140000
+SUMMARY:Angelusmatinée
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Orgelmusik zur Mittagszeit mit Angelusgebet.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://paderborn
+ erdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20261204-big-daddy-wilson-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Big Daddy Wilson & Band
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Jazzclubs Paderborn im Deelenhaus.\n19:30 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-paderbor
+ n.de/concert
+URL:https://www.jazzclub-paderborn.de/concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261205-angelusmatinee@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T120000
+DTEND;TZID=Europe/Berlin:20261205T140000
+SUMMARY:Angelusmatinée
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Orgelmusik zur Mittagszeit mit Angelusgebet.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://paderborn
+ erdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261206-sonntagsmusik-adventsliedersingen-mit-der-maedchen@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T153000
+DTEND;TZID=Europe/Berlin:20261206T173000
+SUMMARY:Sonntagsmusik – Adventsliedersingen mit der Mädchenkantorei
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Adventliches Singen mit der Mädchenkantorei am Paderborner Dom
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://paderbornerdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20261211-weihnachten-mit-batomae-band-zusatzkonzert@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Weihnachten mit Batomae & Band – Zusatzkonzert –
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Weihnachtliches Zusatzkonzert von Batomae mit Band.\nEnde: laut
+  Quelle nicht angegeben\nPreis: ab € 20\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.deelenhaus.de/events/liste/seite/2/
+URL:https://www.deelenhaus.de/events/liste/seite/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261212-angelusmatinee@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T120000
+DTEND;TZID=Europe/Berlin:20261212T140000
+SUMMARY:Angelusmatinée
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Orgelmusik zur Mittagszeit mit Angelusgebet.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://paderborn
+ erdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20261212-weihnachten-mit-batomae-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Weihnachten mit Batomae & Band (ausverkauft)
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Weihnachtskonzert von Batomae mit Band.\nEnde: laut Quelle nich
+ t angegeben\nAusverkauft\nPreis: ab €20\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.deelenhaus.de/events/liste/seite/2/
+URL:https://www.deelenhaus.de/events/liste/seite/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261218-weihnachtskonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T193000
+DTEND;TZID=Europe/Berlin:20261218T213000
+SUMMARY:Weihnachtskonzert
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Weihnachtskonzert mit Händels „Messiah“ in der Bearbeitung
+  von Mozart.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Bes
+ uch prüfen): https://paderbornerdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261219-angelusmatinee@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T120000
+DTEND;TZID=Europe/Berlin:20261219T140000
+SUMMARY:Angelusmatinée
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Orgelmusik zur Mittagszeit mit Angelusgebet.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://paderborn
+ erdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20261219-das-jcpb-weihnachts-special@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T193000
+DTEND;TZID=Europe/Berlin:20261219T213000
+SUMMARY:Das JCPB Weihnachts - Special
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Jazzclubs Paderborn im Deelenhaus.\n19:30 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-paderbor
+ n.de/concert
+URL:https://www.jazzclub-paderborn.de/concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-amalthea-theater-20261223-carsten-mentzel-solokonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T200000
+DTEND;TZID=Europe/Berlin:20261223T220000
+SUMMARY:Carsten Mentzel – Solokonzert
+LOCATION:Amalthea Theater Paderborn\, Jühengasse 10\, 33098 Paderborn
+DESCRIPTION:Solokonzert.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass ode
+ r Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.amalthea-theater.de/category/termine/
+URL:https://www.amalthea-theater.de/category/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-dom-20261231-silvesterkonzert@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T223000
+DTEND;TZID=Europe/Berlin:20270101T003000
+SUMMARY:ABGESAGT: Silvesterkonzert
+LOCATION:Paderborner Dom (Paderborner Dommusik)\, Domplatz 3\, 33098 Paderb
+ orn
+DESCRIPTION:Silvesterkonzert\; laut Dommusik muss es entfallen.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://pa
+ derbornerdommusik.de/programm/
+URL:https://paderbornerdommusik.de/programm/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20270115-henk-kraaijeveld-quintett@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T193000
+DTEND;TZID=Europe/Berlin:20270115T213000
+SUMMARY:Henk Kraaijeveld Quintett
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Jazzclubs Paderborn im Deelenhaus.\n19:30 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-paderbor
+ n.de/concert
+URL:https://www.jazzclub-paderborn.de/concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20270213-ola-oanabule-uk-hazelrigg-brothers-usa@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T193000
+DTEND;TZID=Europe/Berlin:20270213T213000
+SUMMARY:Ola Oanabulé (UK) & Hazelrigg Brothers (USA)
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Jazzclubs Paderborn im Deelenhaus.\n19:30 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-paderbor
+ n.de/concert
+URL:https://www.jazzclub-paderborn.de/concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20270227-lisa-bassenge-trio-feat-jacob-karlzon@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T193000
+DTEND;TZID=Europe/Berlin:20270227T213000
+SUMMARY:Lisa Bassenge Trio feat. Jacob Karlzon
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Jazzclubs Paderborn im Deelenhaus.\n19:30 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-paderbor
+ n.de/concert
+URL:https://www.jazzclub-paderborn.de/concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20270306-charlie-wood-quartett@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T193000
+DTEND;TZID=Europe/Berlin:20270306T213000
+SUMMARY:Charlie Wood Quartett
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Jazzclubs Paderborn im Deelenhaus.\n19:30 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-paderbor
+ n.de/concert
+URL:https://www.jazzclub-paderborn.de/concert
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-deelenhaus-20270319-kaemmerling-quartett@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T193000
+DTEND;TZID=Europe/Berlin:20270319T213000
+SUMMARY:Kämmerling Quartett
+LOCATION:Deelenhaus Paderborn\, Krämerstraße 8-10\, 33098 Paderborn
+DESCRIPTION:Konzert des Jazzclubs Paderborn im Deelenhaus.\n19:30 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-paderbor
+ n.de/concert
+URL:https://www.jazzclub-paderborn.de/concert
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

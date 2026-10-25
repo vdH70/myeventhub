@@ -1,0 +1,337 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Stuttgart · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:s-schauspiel-20261026-zwischen-zwei-menschen-entsteht-manchmal-wie-selt
+ e@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T180000
+DTEND;TZID=Europe/Berlin:20261026T200000
+SUMMARY:Zwischen zwei Menschen entsteht manchmal\, wie selten\, eine Welt
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261028-juras-letzter-winter@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T193000
+DTEND;TZID=Europe/Berlin:20261028T213000
+SUMMARY:Juras letzter Winter
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-altes-schauspielhaus-20261030-nathan-der-weise@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Nathan der Weise
+LOCATION:Altes Schauspielhaus\, Kleine Königstraße 9\, 70178 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nath
+ an-der-weise/
+URL:https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nathan-der-w
+ eise/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261030-die-welt-im-ruecken@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Die Welt im Rücken
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-altes-schauspielhaus-20261031-nathan-der-weise@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Nathan der Weise
+LOCATION:Altes Schauspielhaus\, Kleine Königstraße 9\, 70178 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nath
+ an-der-weise/
+URL:https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nathan-der-w
+ eise/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261101-tatort-mittelmeer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T200000
+DTEND;TZID=Europe/Berlin:20261101T220000
+SUMMARY:Tatort Mittelmeer
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261103-tanzende-idioten@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T193000
+DTEND;TZID=Europe/Berlin:20261103T213000
+SUMMARY:Tanzende Idioten
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-altes-schauspielhaus-20261104-nathan-der-weise@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Nathan der Weise
+LOCATION:Altes Schauspielhaus\, Kleine Königstraße 9\, 70178 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nath
+ an-der-weise/
+URL:https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nathan-der-w
+ eise/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261104-die-politiker@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Die Politiker
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Im Kammertheater.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.schauspiel-stuttgart.de/spielpla
+ n/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261108-lady-macbeth-von-mzensk@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Lady Macbeth von Mzensk
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatsoper-stuttgart.de/spielplan/kalender/lady-mac
+ beth-von-mzensk/9655/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/lady-macbeth-von
+ -mzensk/9655/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261113-aus-der-mitte-entspringt-ein-hit@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Aus der Mitte entspringt ein Hit
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261114-don-quijote-von-der-mancha@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T160000
+DTEND;TZID=Europe/Berlin:20261114T180000
+SUMMARY:Don Quijote von der Mancha
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261114-lady-macbeth-von-mzensk@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:Lady Macbeth von Mzensk
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatsoper-stuttgart.de/spielplan/kalender/lady-mac
+ beth-von-mzensk/9656/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/lady-macbeth-von
+ -mzensk/9656/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261116-heimkehr@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T193000
+DTEND;TZID=Europe/Berlin:20261116T213000
+SUMMARY:Heimkehr
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Im Kammertheater.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.schauspiel-stuttgart.de/spielpla
+ n/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261117-vier-schwestern-fernes-wien-fremde-welt@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Vier Schwestern\; fernes Wien\, fremde Welt.
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Im Kammertheater.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.schauspiel-stuttgart.de/spielpla
+ n/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261120-haensel-und-gretel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T180000
+DTEND;TZID=Europe/Berlin:20261120T200000
+SUMMARY:Hänsel und Gretel
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatsoper-stuttgart.de/spielplan/kalender/haensel-
+ und-gretel/9611/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/haensel-und-gret
+ el/9611/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-komoedie-im-marquardt-20261127-ziemlich-beste-freunde-beginn@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Ziemlich beste Freunde
+LOCATION:Komödie im Marquardt\, Bolzstraße 4–6\, 70173 Stuttgart
+DESCRIPTION:Laufzeit: 27.11.2026 bis 17.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Bes
+ uch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-komoedie-im-marquardt-20261127-ziemlich-beste-freunde-ende@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Ziemlich beste Freunde
+LOCATION:Komödie im Marquardt\, Bolzstraße 4–6\, 70173 Stuttgart
+DESCRIPTION:Laufzeit: 27.11.2026 bis 17.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Bes
+ uch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261129-station-paradiso@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T180000
+DTEND;TZID=Europe/Berlin:20261129T200000
+SUMMARY:Station Paradiso
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatsoper-stuttgart.de/spielplan/kalender/station-
+ paradiso/9739/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/station-paradiso
+ /9739/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-komoedie-im-marquardt-20261203-meister-eder-und-sein-pumuckl-beginn@m
+ yeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Beginn: Meister Eder und sein Pumuckl
+LOCATION:Komödie im Marquardt\, Bolzstraße 4–6\, 70173 Stuttgart
+DESCRIPTION:Laufzeit: 3.12.2026 bis 10.1.2027\nTermine laut Veranstalter: A
+ ufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Besu
+ ch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-komoedie-im-marquardt-20261203-meister-eder-und-sein-pumuckl-ende@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Meister Eder und sein Pumuckl
+LOCATION:Komödie im Marquardt\, Bolzstraße 4–6\, 70173 Stuttgart
+DESCRIPTION:Laufzeit: 3.12.2026 bis 10.1.2027\nTermine laut Veranstalter: A
+ ufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Besu
+ ch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-altes-schauspielhaus-20261211-die-drei-von-der-tankstelle-beginn@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Beginn: Die Drei von der Tankstelle
+LOCATION:Altes Schauspielhaus\, Kleine Königstraße 9\, 70178 Stuttgart
+DESCRIPTION:Laufzeit: 11.12.2026 bis 30.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Bes
+ uch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-altes-schauspielhaus-20261211-die-drei-von-der-tankstelle-ende@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Letzter Tag: Die Drei von der Tankstelle
+LOCATION:Altes Schauspielhaus\, Kleine Königstraße 9\, 70178 Stuttgart
+DESCRIPTION:Laufzeit: 11.12.2026 bis 30.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Bes
+ uch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

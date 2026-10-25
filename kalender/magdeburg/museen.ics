@@ -1,0 +1,182 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Magdeburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:md-kulturhistorisches-museum-20260424-im-zeichen-von-zirkel-und-winkelm
+ ass-freimaurerei-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Letzter Tag: Im Zeichen von Zirkel und Winkelmaß – Freimaurerei 
+ in Magdeburg
+LOCATION:Kulturhistorisches Museum Magdeburg\, Otto-von-Guericke-Straße 68
+ -73\, 39104 Magdeburg
+DESCRIPTION:Laufzeit: 24.4.2026 bis 25.10.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.khm-magdeburg.de/sonderausstellung/im-zeichen-von-
+ zirkel-und-winkelmass-freimaurerei-in-magdeburg/
+URL:https://www.khm-magdeburg.de/sonderausstellung/im-zeichen-von-zirkel-un
+ d-winkelmass-freimaurerei-in-magdeburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-museum-fuer-naturkunde-20260703-bis-ans-ende-der-welt-patagonien-und
+ -feuerland-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Bis ans Ende der Welt – Patagonien und Feuerland
+LOCATION:Museum für Naturkunde Magdeburg\, Otto-von-Guericke-Straße 68-73
+ \, 39104 Magdeburg
+DESCRIPTION:Laufzeit: 3.7.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.naturkundemuseum-magdeburg.de/sonderausstellung/pata
+ gonien-und-feuerland/
+URL:https://www.naturkundemuseum-magdeburg.de/sonderausstellung/patagonien-
+ und-feuerland/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-jahrtausendturm-20261016-gigantische-dinosaurier-welten-magdeburg-ur
+ zeitabe-beginn@myeventhub.de
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Beginn: Gigantische Dinosaurier Welten Magdeburg – Urzeitabenteue
+ r im Elbauenpark und Jahrtausendturm
+LOCATION:Jahrtausendturm im Elbauenpark\, Tessenowstraße 5a\, 39114 Magdeb
+ urg
+DESCRIPTION:Laufzeit: 16.10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.elbauenpark.de/de/events/jahrtausendturm/
+URL:https://www.elbauenpark.de/de/events/jahrtausendturm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-jahrtausendturm-20261016-gigantische-dinosaurier-welten-magdeburg-ur
+ zeitabe-ende@myeventhub.de
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: Gigantische Dinosaurier Welten Magdeburg – Urzeitabe
+ nteuer im Elbauenpark und Jahrtausendturm
+LOCATION:Jahrtausendturm im Elbauenpark\, Tessenowstraße 5a\, 39114 Magdeb
+ urg
+DESCRIPTION:Laufzeit: 16.10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.elbauenpark.de/de/events/jahrtausendturm/
+URL:https://www.elbauenpark.de/de/events/jahrtausendturm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-kulturhistorisches-museum-20261027-fuehrung-und-workshop-historische
+ -schulstunde@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T100000
+DTEND;TZID=Europe/Berlin:20261027T120000
+SUMMARY:Führung und Workshop „Historische Schulstunde“
+LOCATION:Kulturhistorisches Museum Magdeburg\, Otto-von-Guericke-Straße 68
+ -73\, 39104 Magdeburg
+DESCRIPTION:Herbstferienprogramm ab 6 Jahren\, Anmeldung beim Museumsservic
+ e.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.khm-magdeburg.de/
+URL:https://www.khm-magdeburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-technikmuseum-20261027-auf-den-spuren-von-hermann-gruson@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T100000
+DTEND;TZID=Europe/Berlin:20261027T120000
+SUMMARY:Auf den Spuren von Hermann Gruson
+LOCATION:Technikmuseum Magdeburg\, Dodendorfer Straße 65\, 39112 Magdeburg
+DESCRIPTION:Öffentliche Führung im Herbstferienprogramm\, bis 11 Uhr.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.magdeburg.de/technikmuseum
+URL:https://www.magdeburg.de/technikmuseum
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-jahrtausendturm-20261028-ferienspass-elberexis-dinoexpedition@myeven
+ thub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T150000
+DTEND;TZID=Europe/Berlin:20261028T170000
+SUMMARY:Ferienspaß Elberexis-Dinoexpedition
+LOCATION:Jahrtausendturm im Elbauenpark\, Tessenowstraße 5a\, 39114 Magdeb
+ urg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.elbauenpark.de/de/events/
+URL:https://www.elbauenpark.de/de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-technikmuseum-20261029-historische-druckwerkstatt-in-den-herbstferie
+ n@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T100000
+DTEND;TZID=Europe/Berlin:20261029T120000
+SUMMARY:Historische Druckwerkstatt in den Herbstferien
+LOCATION:Technikmuseum Magdeburg\, Dodendorfer Straße 65\, 39112 Magdeburg
+DESCRIPTION:Familienführung im Herbstferienprogramm\, bis 12 Uhr.\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.magdeburg.de/technikmuseum
+URL:https://www.magdeburg.de/technikmuseum
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-kulturhistorisches-museum-20261112-mythos-luise-eine-praesentation-a
+ nlaesslich-des-25-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Beginn: Mythos Luise – Eine Präsentation anlässlich des 250. Ge
+ burtstages der Königin
+LOCATION:Kulturhistorisches Museum Magdeburg\, Otto-von-Guericke-Straße 68
+ -73\, 39104 Magdeburg
+DESCRIPTION:Laufzeit: 12.11.2026 bis 10.1.2027\nPreis: Erwachsene 6 €\, e
+ rmäßigt 3 €\nQuelle (bitte vor dem Besuch prüfen): https://www.khm-ma
+ gdeburg.de/sonderausstellung/mythos-luise/
+URL:https://www.khm-magdeburg.de/sonderausstellung/mythos-luise/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-kulturhistorisches-museum-20261112-mythos-luise-eine-praesentation-a
+ nlaesslich-des-25-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Mythos Luise – Eine Präsentation anlässlich des 25
+ 0. Geburtstages der Königin
+LOCATION:Kulturhistorisches Museum Magdeburg\, Otto-von-Guericke-Straße 68
+ -73\, 39104 Magdeburg
+DESCRIPTION:Laufzeit: 12.11.2026 bis 10.1.2027\nPreis: Erwachsene 6 €\, e
+ rmäßigt 3 €\nQuelle (bitte vor dem Besuch prüfen): https://www.khm-ma
+ gdeburg.de/sonderausstellung/mythos-luise/
+URL:https://www.khm-magdeburg.de/sonderausstellung/mythos-luise/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

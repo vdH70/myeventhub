@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Frankfurt am Main · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f-schauspiel-20261028-paradiesvoegel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T200000
+DTEND;TZID=Europe/Berlin:20261028T220000
+SUMMARY:Paradiesvögel (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Kammerspiele\nEnde: laut Quelle nicht angegeben\nAusverkauft\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.schauspielfrankfurt.de/s
+ pielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261030-kleiner-mann-was-nun@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Kleiner Mann – was nun? (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261031-sven-regener-frankie-und-freddie@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Sven Regener: Frankie und Freddie (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261108-robert-habeck-arctic-meltdown@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Robert Habeck: Arctic Meltdown (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-die-komoedie-20261113-alle-unter-eine-tanne-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Beginn: Alle unter eine Tanne
+LOCATION:Die Komödie Frankfurt\, Frankfurt am Main
+DESCRIPTION:Laufzeit: 13.11.2026 bis 10.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\nQuelle (bitte vor dem Besuch prüfen): https://diekomoe
+ die.de/
+URL:https://diekomoedie.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-die-komoedie-20261113-alle-unter-eine-tanne-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Alle unter eine Tanne
+LOCATION:Die Komödie Frankfurt\, Frankfurt am Main
+DESCRIPTION:Laufzeit: 13.11.2026 bis 10.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\nQuelle (bitte vor dem Besuch prüfen): https://diekomoe
+ die.de/
+URL:https://diekomoedie.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

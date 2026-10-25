@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Günzburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gz-legoland-deutschland-20261128-winterwonder-legoland-beginn@myeventhu
+ b.de
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Beginn: WinterWonder LEGOLAND
+LOCATION:LEGOLAND Deutschland\, LEGOLAND Allee 1\, 89312 Günzburg
+DESCRIPTION:Winteröffnung an ausgewählten Tagen mit weihnachtlichem Progr
+ amm.\nLaufzeit: 28.11.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.legoland.de/legoland-entdecken/der-park/winterwonder-l
+ egoland/
+URL:https://www.legoland.de/legoland-entdecken/der-park/winterwonder-legola
+ nd/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gz-legoland-deutschland-20261128-winterwonder-legoland-ende@myeventhub.
+ de
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: WinterWonder LEGOLAND
+LOCATION:LEGOLAND Deutschland\, LEGOLAND Allee 1\, 89312 Günzburg
+DESCRIPTION:Winteröffnung an ausgewählten Tagen mit weihnachtlichem Progr
+ amm.\nLaufzeit: 28.11.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.legoland.de/legoland-entdecken/der-park/winterwonder-l
+ egoland/
+URL:https://www.legoland.de/legoland-entdecken/der-park/winterwonder-legola
+ nd/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

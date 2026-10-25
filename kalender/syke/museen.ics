@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Syke · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:syke-syker-vorwerk-20251130-collection-ii-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Collection II
+LOCATION:Syker Vorwerk – Zentrum für zeitgenössische Kunst\, Waldstraß
+ e 76\, 28857 Syke
+DESCRIPTION:Sammlungsbestände und Werke aus dem Nachlass von Louis Niebuhr
+ .\nLaufzeit: 30.11.2025 bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.syker-vorwerk.de/
+URL:https://www.syker-vorwerk.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:syke-syker-vorwerk-20261004-die-kids-sind-nicht-alright-ende@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Die Kids sind nicht alright!
+LOCATION:Syker Vorwerk – Zentrum für zeitgenössische Kunst\, Waldstraß
+ e 76\, 28857 Syke
+DESCRIPTION:Gruppenausstellung mit elf Künstlerinnen und Künstlern.\nLauf
+ zeit: 4.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.syker-vorwerk.de/
+URL:https://www.syker-vorwerk.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:syke-kreismuseum-20261007-ring-of-glass-ii-sabine-wewer-ende@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Letzter Tag: Ring of Glass II. Sabine Wewer
+LOCATION:Kreismuseum Syke\, Herrlichkeit 65\, 28857 Syke
+DESCRIPTION:Laufzeit: 7.10.2026 bis 25.10.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kreismuseum-syke.de/
+URL:https://www.kreismuseum-syke.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:syke-kreismuseum-20261101-kunsthandwerkermarkt-mit-backtag@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Kunsthandwerkermarkt mit Backtag
+LOCATION:Kreismuseum Syke\, Herrlichkeit 65\, 28857 Syke
+DESCRIPTION:Kunsthandwerksmarkt auf dem Museumsgelände mit Brot aus dem St
+ einofen\, bis 18 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.kreismuseum-syke.de/veranstaltungen/kun
+ sthandwerkermarkt-mit-backtag-2/
+URL:https://www.kreismuseum-syke.de/veranstaltungen/kunsthandwerkermarkt-mi
+ t-backtag-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

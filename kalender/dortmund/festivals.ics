@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festivals in Dortmund · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:do-dortmunder-u-20261022-yu-festival-2026-beginn@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Beginn: YU Festival 2026
+LOCATION:Dortmunder U\, Leonie-Reygers-Terrasse\, 44137 Dortmund
+DESCRIPTION:Festival für digitale Kunst mit Workshops\, Performances und T
+ alks.\nLaufzeit: 22.10.2026 bis 25.10.2026\nQuelle (bitte vor dem Besuch p
+ rüfen): https://dortmunder-u.de/programm/
+URL:https://dortmunder-u.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-dortmunder-u-20261022-yu-festival-2026-ende@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Letzter Tag: YU Festival 2026
+LOCATION:Dortmunder U\, Leonie-Reygers-Terrasse\, 44137 Dortmund
+DESCRIPTION:Festival für digitale Kunst mit Workshops\, Performances und T
+ alks.\nLaufzeit: 22.10.2026 bis 25.10.2026\nQuelle (bitte vor dem Besuch p
+ rüfen): https://dortmunder-u.de/programm/
+URL:https://dortmunder-u.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,358 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Hamburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-nochtspeicher-20261027-hamburg-ist-slamburg@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:Hamburg ist Slamburg!
+LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
+DESCRIPTION:Offener Poetry Slam.\nEinlass 19:30\, Beginn 20:00 Uhr\nEnde: l
+ aut Quelle nicht angegeben\nPreis: AK 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://nochtspeicher.de/
+URL:https://nochtspeicher.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-polizeimuseum-20261029-krimisalon-bressau@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T190000
+DTEND;TZID=Europe/Berlin:20261029T210000
+SUMMARY:KrimiSalon: Thomas Bressau liest aus seinen Weßling-Krimis
+LOCATION:Polizeimuseum Hamburg\, Carl-Cohn-Straße 39\, 22297 Hamburg
+DESCRIPTION:Lesung im KrimiSalon des Polizeimuseums: Weßling-Krimis mit no
+ rddeutschem Humor und bayerischem Lokalkolorit. Laut Museum grundsätzlich
+  nicht für Kinder und Jugendliche unter 14 Jahren geeignet. Karten nur on
+ line im Vorverkauf.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.polizeimuseum.hamburg/thomas-bressau-vorv
+ erkauf-gestartet--1203480
+URL:https://www.polizeimuseum.hamburg/thomas-bressau-vorverkauf-gestartet--
+ 1203480
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261110-hamburger-krimifestival-kriminelle-eroeffnung-ver
+ r@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Hamburger Krimifestival: Kriminelle Eröffnung – Verriss oder Beg
+ eisterung? (mit Till Raether)
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261111-hamburger-krimifestival-hamburger-newcomerin-vane
+ s@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Hamburger Krimifestival: Hamburger Newcomerin Vanessa Boldt
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261111-hamburger-krimifestival-norddeutscher-abend-mit-a
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Hamburger Krimifestival: Norddeutscher Abend mit Anette Hinrichs\, 
+ Romy Fölck und Nora Luttmer
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261111-hamburger-krimifestival-tim-sohr@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Hamburger Krimifestival: Tim Sohr
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261112-hamburger-krimifestival-emily-rudolf@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Hamburger Krimifestival: Emily Rudolf
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261112-hamburger-krimifestival-hamburger-newcomerin-sand
+ r@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Hamburger Krimifestival: Hamburger Newcomerin Sandra Beckedahl
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261112-hamburger-krimifestival-marc-elsberg@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Hamburger Krimifestival: Marc Elsberg
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261113-hamburger-krimifestival-frank-goehre@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Hamburger Krimifestival: Frank Göhre
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261113-hamburger-krimifestival-hamburger-newcomerin-caro
+ l@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Hamburger Krimifestival: Hamburger Newcomerin Carola Christiansen
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261113-hamburger-krimifestival-josi-wismar-und-linda-sch
+ i@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Hamburger Krimifestival: Josi Wismar und Linda Schipp
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261113-hamburger-krimifestival-sven-stricker-und-bjarne-
+ m@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Hamburger Krimifestival: Sven Stricker und Bjarne Mädel
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261114-hamburger-krimifestival-franzoesischer-abend-mit-
+ s@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T173000
+DTEND;TZID=Europe/Berlin:20261114T193000
+SUMMARY:Hamburger Krimifestival: Französischer Abend mit Sophie Bonnet\, A
+ lexander Oetker und Cay Rademacher
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kampnagel.de/reihen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261114-hamburger-krimifestival-italienischer-abend-mit-m
+ a@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Hamburger Krimifestival: Italienischer Abend mit Marcello Simoni
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261114-hamburger-krimifestival-robert-harris@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Hamburger Krimifestival: Robert Harris
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtspeicher-20261124-hamburg-ist-slamburg@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Hamburg ist Slamburg!
+LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
+DESCRIPTION:Offener Poetry Slam.\nEinlass 19:30\, Beginn 20:00 Uhr\nEnde: l
+ aut Quelle nicht angegeben\nPreis: AK 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://nochtspeicher.de/?start=20
+URL:https://nochtspeicher.de/?start=20
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-polizeimuseum-20261126-krimisalon-opalka@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:KrimiSalon mit Melanie Amélie Opalka
+LOCATION:Polizeimuseum Hamburg\, Carl-Cohn-Straße 39\, 22297 Hamburg
+DESCRIPTION:Lesung im KrimiSalon des Polizeimuseums Hamburg. Laut Museum gr
+ undsätzlich nicht für Kinder und Jugendliche unter 14 Jahren geeignet. K
+ arten nur online im Vorverkauf.\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.polizeimuseum.hamburg/bevorstehende-krimisalon-lesungen-795406
+URL:https://www.polizeimuseum.hamburg/bevorstehende-krimisalon-lesungen-795
+ 406
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cap-san-diego-20261203-ringelnatz-zur-weihnacht@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Ringelnatz zur Weihnacht
+LOCATION:Museumsschiff Cap San Diego\, Überseebrücke\, 20459 Hamburg
+DESCRIPTION:Tickets: https://www.capsandiego.de/termine/ringelnatz-zur-weih
+ nacht-6\nQuelle (bitte vor dem Besuch prüfen): https://www.capsandiego.de
+ /das-schiff/termine
+URL:https://www.capsandiego.de/das-schiff/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cap-san-diego-20261210-ringelnatz-zur-weihnacht@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T190000
+DTEND;TZID=Europe/Berlin:20261210T210000
+SUMMARY:Ringelnatz zur Weihnacht
+LOCATION:Museumsschiff Cap San Diego\, Überseebrücke\, 20459 Hamburg
+DESCRIPTION:Gedichte von Joachim Ringelnatz mit Kabarett und Akkordeonmusik
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.capsandiego.de/termine/ringelnatz-zur-weihnacht-7
+URL:https://www.capsandiego.de/termine/ringelnatz-zur-weihnacht-7
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-polizeimuseum-20270128-krimisalon-elbern@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:KrimiSalon mit Christoph Elbern: „Elite-Code“
+LOCATION:Polizeimuseum Hamburg\, Carl-Cohn-Straße 39\, 22297 Hamburg
+DESCRIPTION:Der Autor stellt im Polizeimuseum seinen ersten Technothriller 
+ „Elite-Code“ vor. Laut Museum grundsätzlich nicht für Kinder und Jug
+ endliche unter 14 Jahren geeignet. Karten nur online im Vorverkauf.\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.polizeimuseum.hamburg/bevors
+ tehende-krimisalon-lesungen-795406
+URL:https://www.polizeimuseum.hamburg/bevorstehende-krimisalon-lesungen-795
+ 406
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cap-san-diego-20270225-die-neuen-schaetze-vom-ringelnatz@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Die „neuen Schätze“ vom Ringelnatz
+LOCATION:Museumsschiff Cap San Diego\, Überseebrücke\, 20459 Hamburg
+DESCRIPTION:Tickets: https://www.capsandiego.de/termine/die-neuen-schatze-v
+ om-ringelnatz-14\nQuelle (bitte vor dem Besuch prüfen): https://www.capsa
+ ndiego.de/das-schiff/termine
+URL:https://www.capsandiego.de/das-schiff/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-polizeimuseum-20270225-krimisalon-kaestner@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:KrimiSalon mit Kästner & Kästner
+LOCATION:Polizeimuseum Hamburg\, Carl-Cohn-Straße 39\, 22297 Hamburg
+DESCRIPTION:Lesung im KrimiSalon des Polizeimuseums Hamburg. Laut Museum gr
+ undsätzlich nicht für Kinder und Jugendliche unter 14 Jahren geeignet. K
+ arten nur online im Vorverkauf.\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.polizeimuseum.hamburg/bevorstehende-krimisalon-lesungen-795406
+URL:https://www.polizeimuseum.hamburg/bevorstehende-krimisalon-lesungen-795
+ 406
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-polizeimuseum-20270318-krimisalon-meckelmann@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:KrimiSalon mit Heike Meckelmann
+LOCATION:Polizeimuseum Hamburg\, Carl-Cohn-Straße 39\, 22297 Hamburg
+DESCRIPTION:Lesung im KrimiSalon des Polizeimuseums Hamburg. Laut Museum gr
+ undsätzlich nicht für Kinder und Jugendliche unter 14 Jahren geeignet. K
+ arten nur online im Vorverkauf.\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.polizeimuseum.hamburg/bevorstehende-krimisalon-lesungen-795406
+URL:https://www.polizeimuseum.hamburg/bevorstehende-krimisalon-lesungen-795
+ 406
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

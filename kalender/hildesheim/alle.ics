@@ -1,0 +1,775 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Hildesheim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261004-oeffentliche-fuehrung-durch-die-aegypten-ausstellu
+ ng-ende@myeventhub.de
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Öffentliche Führung durch die Ägypten-Ausstellung
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Öffentliche Sonntagsführung durch die Ägypten-Dauerausstellu
+ ng (laufendes Angebot\, die Quelle nennt kein Enddatum).\nLaufzeit: 4.10.2
+ 026 bis 31.3.2027\nTermine laut Veranstalter: an Sonntagen\, an denen kein
+ e Ägypten-Spezial- oder Es ist angerichtet-Spezial-Führungen stattfinden
+ \, um 14:30 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://rpmuseum.d
+ e/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261009-quartett-plus-1-happy-sorrow-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Letzter Tag: Quartett PLUS 1: happy sorrow
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Performance und Installation\; Vernissage am 9.10. um 17:30 Uhr
+ \, Finissage am 6.11. um 17:30 Uhr.\nLaufzeit: 9.10.2026 bis 6.11.2026\nQu
+ elle (bitte vor dem Besuch prüfen): https://rpmuseum.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261025-geheimnisse-der-mumienwerkstatt-ein-blick-unter@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Geheimnisse der Mumienwerkstatt – ein Blick unter die Leinenbinde
+ n (ausverkauft)
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Familienprogramm der Reihe „Familienzeit“.\nEnde: laut Quel
+ le nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://rpmuseum.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-tfn-stadttheater-20261025-wilhelm-tell-guillaume-tell@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T160000
+DTEND;TZID=Europe/Berlin:20261025T180000
+SUMMARY:Wilhelm Tell (Guillaume Tell)
+LOCATION:Theater für Niedersachsen (TfN) – Stadttheater Hildesheim\, The
+ aterstraße 6\, 31141 Hildesheim
+DESCRIPTION:Musiktheater (Großes Haus).\nEnde: laut Quelle nicht angegeben
+ \nTickets: https://tfn.reservix.de/p/reservix/event/2555191\nQuelle (bitte
+  vor dem Besuch prüfen): https://tfn-online.de/spielplan
+URL:https://tfn-online.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-literaturhaus-st-jakobi-20261025-poetry-jam-hildeshome-dreams@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T170000
+DTEND;TZID=Europe/Berlin:20261025T190000
+SUMMARY:Poetry Jam: Hildeshome Dreams
+LOCATION:Literaturhaus St. Jakobi\, Jakobikirchgasse\, 31134 Hildesheim
+DESCRIPTION:Poetry-Veranstaltung.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.stjakobi.de/veranstaltungen
+URL:https://www.stjakobi.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-obi-ochtersum-20261025-flohmarkt-am-obi-ochtersum@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:ABGESAGT: Flohmarkt am OBI Ochtersum
+LOCATION:OBI Baumarkt Ochtersum (Parkplatz)\, Mitelfeld 3\, 31139 Hildeshei
+ m
+DESCRIPTION:Flohmarkt von Bassi Flohmärkte\; Platzvergabe für Verkäufer 
+ ab 6 Uhr.\nQuelle (bitte vor dem Besuch prüfen): https://www.bassi-flohma
+ erkte.de/termine/
+URL:https://www.bassi-flohmaerkte.de/termine/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-tfn-stadttheater-20261027-rex-osterwald@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T193000
+DTEND;TZID=Europe/Berlin:20261027T213000
+SUMMARY:Rex Osterwald (ausverkauft)
+LOCATION:Theater für Niedersachsen (TfN) – Stadttheater Hildesheim\, The
+ aterstraße 6\, 31141 Hildesheim
+DESCRIPTION:Schauspiel (thim).\nEnde: laut Quelle nicht angegeben\nAusverka
+ uft\nQuelle (bitte vor dem Besuch prüfen): https://tfn-online.de/spielpla
+ n
+URL:https://tfn-online.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261029-fuehrung-trash-talk-muell-geht-uns@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T153000
+DTEND;TZID=Europe/Berlin:20261029T173000
+SUMMARY:Führung: Trash Talk – Müll geht uns alle an!
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Kostenlose Themenführung (ab 15 Jahren).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://rpmuseum.de/
+ termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-literaturhaus-st-jakobi-20261029-gespraeche-ueber-maennlichkeit-mit-
+ sophia-fritz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Gespräche über Männlichkeit mit Sophia Fritz und Toni Tholen
+LOCATION:Literaturhaus St. Jakobi\, Jakobikirchgasse\, 31134 Hildesheim
+DESCRIPTION:Lesung und Gespräch.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.stjakobi.de/veranstaltungen
+URL:https://www.stjakobi.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-tfn-stadttheater-20261029-rex-osterwald@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Rex Osterwald
+LOCATION:Theater für Niedersachsen (TfN) – Stadttheater Hildesheim\, The
+ aterstraße 6\, 31141 Hildesheim
+DESCRIPTION:Schauspiel (thim).\nEnde: laut Quelle nicht angegeben\nTickets:
+  https://tfn.reservix.de/p/reservix/event/2554988\nQuelle (bitte vor dem B
+ esuch prüfen): https://tfn-online.de/spielplan
+URL:https://tfn-online.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-theaterhaus-20261030-trug-und-schein-eine-liebesgeschichte-in@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T170000
+DTEND;TZID=Europe/Berlin:20261030T190000
+SUMMARY:Trug und Schein – eine Liebesgeschichte in Briefen
+LOCATION:Theaterhaus Hildesheim\, Langer Garten 23c\, 31137 Hildesheim
+DESCRIPTION:Theater.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://theaterhaus-hildesheim.de/spielplan-tickets/
+URL:https://theaterhaus-hildesheim.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261030-grusel-wusel-es-ist-angerichtet-greif-1730@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T173000
+DTEND;TZID=Europe/Berlin:20261030T193000
+SUMMARY:Grusel Wusel: Es ist angerichtet – Greif in den Sack des Grauens 
+ (ausverkauft)
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Halloween-Programm für Familien.\nEnde: laut Quelle nicht ange
+ geben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://rpmuseu
+ m.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261030-grusel-wusel-das-grab-des-sennefer-1830@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T183000
+DTEND;TZID=Europe/Berlin:20261030T203000
+SUMMARY:Grusel Wusel: Das Grab des Sennefer – Eine Reise ins ägyptische 
+ Totenreich (ausverkauft)
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Halloween-Programm für Familien.\nEnde: laut Quelle nicht ange
+ geben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://rpmuseu
+ m.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261030-grusel-wusel-es-ist-angerichtet-greif-1930@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Grusel Wusel: Es ist angerichtet – Greif in den Sack des Grauens
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Halloween-Programm für Familien.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://rpmuseum.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-tfn-stadttheater-20261030-der-barbier-von-sevilla-kurz-geschoren@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Der Barbier von Sevilla – kurz geschoren
+LOCATION:Theater für Niedersachsen (TfN) – Stadttheater Hildesheim\, The
+ aterstraße 6\, 31141 Hildesheim
+DESCRIPTION:Musiktheater (Großes Haus).\nEnde: laut Quelle nicht angegeben
+ \nTickets: https://tfn.reservix.de/p/reservix/event/2555733\nQuelle (bitte
+  vor dem Besuch prüfen): https://tfn-online.de/spielplan
+URL:https://tfn-online.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-theaterhaus-20261030-sanft@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:sanft_
+LOCATION:Theaterhaus Hildesheim\, Langer Garten 23c\, 31137 Hildesheim
+DESCRIPTION:Tanz\, Premiere.\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://theaterhaus-hildesheim.de/spielplan-t
+ ickets/
+URL:https://theaterhaus-hildesheim.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261030-grusel-wusel-das-grab-des-sennefer-2030@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T203000
+DTEND;TZID=Europe/Berlin:20261030T223000
+SUMMARY:Grusel Wusel: Das Grab des Sennefer – Eine Reise ins ägyptische 
+ Totenreich (ausverkauft)
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Halloween-Programm für Familien.\nEnde: laut Quelle nicht ange
+ geben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://rpmuseu
+ m.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261030-vincent-meissner-trio@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Vincent Meissner Trio
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Jazzkonzert. Nur Abendkasse.\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-tfn-stadttheater-20261031-kulturring-konzert-ein-fest-der-wiener@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T170000
+DTEND;TZID=Europe/Berlin:20261031T190000
+SUMMARY:Kulturring-Konzert »Ein Fest der Wiener Klassik«
+LOCATION:Theater für Niedersachsen (TfN) – Stadttheater Hildesheim\, The
+ aterstraße 6\, 31141 Hildesheim
+DESCRIPTION:Gastkonzert (Großes Haus und St.-Andreas-Kirche).\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tfn
+ -online.de/spielplan
+URL:https://tfn-online.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-tfn-stadttheater-20261031-vermisst-was-geschah-mit-agatha-christie@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Vermisst! Was geschah mit Agatha Christie?
+LOCATION:Theater für Niedersachsen (TfN) – Stadttheater Hildesheim\, The
+ aterstraße 6\, 31141 Hildesheim
+DESCRIPTION:Musical (thim).\nEnde: laut Quelle nicht angegeben\nTickets: ht
+ tps://tfn.reservix.de/p/reservix/event/2605923\nQuelle (bitte vor dem Besu
+ ch prüfen): https://tfn-online.de/spielplan
+URL:https://tfn-online.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-theaterhaus-20261031-sanft@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:sanft_
+LOCATION:Theaterhaus Hildesheim\, Langer Garten 23c\, 31137 Hildesheim
+DESCRIPTION:Tanz.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://theaterhaus-hildesheim.de/spielplan-tickets/
+URL:https://theaterhaus-hildesheim.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261103-james-carter-organ-trio@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:James Carter Organ Trio
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Jazzkonzert mit Hommage an John Coltrane. Nur Abendkasse.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.bischofsmuehle.de/navigatio
+ n/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261106-teget@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:teget
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Deutschsprachiger Pop einer Hildesheimer Band. Nur Abendkasse.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.bischofsmuehle.de/navi
+ gation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261108-was-bleibt-zeit-leben-tod-konzert@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:„Was bleibt. Zeit – Leben – Tod“: Konzert mit Lesung und Ku
+ rzführung
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Konzert mit Lesung und Kurzführung im Rahmen der Themenzeit.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://rpmuseum.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-halle39-20261108-werner-momsen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:WERNER MOMSEN
+LOCATION:Halle 39\, Schinkelstraße 7\, 31137 Hildesheim
+DESCRIPTION:Comedy.\nEinlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halle39.de/e
+ vents
+URL:https://halle39.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-kaufland-roemerring-20261108-flohmarkt-am-kaufland-roemerring@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Flohmarkt am Kaufland Römerring
+LOCATION:Kaufland-Parkplatz Römerring\, Römerring 8-10\, 31121 Hildesheim
+DESCRIPTION:Flohmarkt von Bassi Flohmärkte\; Platzvergabe für Verkäufer 
+ ab 6 Uhr.\nQuelle (bitte vor dem Besuch prüfen): https://www.bassi-flohma
+ erkte.de/termine/
+URL:https://www.bassi-flohmaerkte.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-literaturhaus-st-jakobi-20261112-poetikvorlesung-von-lina-atfah@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Poetikvorlesung von Lina Atfah
+LOCATION:Literaturhaus St. Jakobi\, Jakobikirchgasse\, 31134 Hildesheim
+DESCRIPTION:Poetikvorlesung.\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.stjakobi.de/veranstaltungen
+URL:https://www.stjakobi.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261114-janssen-grimm-zu-tisch@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Janssen & Grimm: Zu Tisch
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Satire-Programm. Nur Abendkasse.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261115-bambussprossen-reis-und-tofu-essen-in@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T143000
+DTEND;TZID=Europe/Berlin:20261115T163000
+SUMMARY:Bambussprossen\, Reis und Tofu-Essen in China
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Spezialführung in der Ausstellung „Es ist angerichtet“.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://rpmuseum.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-halle39-20261117-pink-floyds-the-wall@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T180000
+DTEND;TZID=Europe/Berlin:20261117T200000
+SUMMARY:PINK FLOYD’S The Wall
+LOCATION:Halle 39\, Schinkelstraße 7\, 31137 Hildesheim
+DESCRIPTION:Tribute-Konzert mit Musik von Pink Floyd.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halle39.de/e
+ vents
+URL:https://halle39.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-halle39-20261117-pink-floyd-s-dark-side-of@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T210000
+DTEND;TZID=Europe/Berlin:20261117T230000
+SUMMARY:Pink Floyd`s Dark Side of the Moon
+LOCATION:Halle 39\, Schinkelstraße 7\, 31137 Hildesheim
+DESCRIPTION:Tribute-Konzert mit Musik von Pink Floyd.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halle39.de/e
+ vents
+URL:https://halle39.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-literaturhaus-st-jakobi-20261119-bella-triste-release@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:BELLA triste Release
+LOCATION:Literaturhaus St. Jakobi\, Jakobikirchgasse\, 31134 Hildesheim
+DESCRIPTION:Release-Abend.\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.stjakobi.de/veranstaltungen
+URL:https://www.stjakobi.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-halle39-20261120-ralf-schmitz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Ralf Schmitz
+LOCATION:Halle 39\, Schinkelstraße 7\, 31137 Hildesheim
+DESCRIPTION:Comedy.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halle39.de/e
+ vents
+URL:https://halle39.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261122-der-umgang-mit-dem-tod-im@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:Der Umgang mit dem Tod im Alten Ägypten
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Spezialführung in der Ägypten-Dauerausstellung.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://rpmu
+ seum.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-literaturhaus-st-jakobi-20261127-traeume-erzaehlen-traeume-verstehen
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Träume erzählen\, Träume verstehen
+LOCATION:Literaturhaus St. Jakobi\, Jakobikirchgasse\, 31134 Hildesheim
+DESCRIPTION:Gesprächsabend.\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.stjakobi.de/veranstaltungen
+URL:https://www.stjakobi.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261127-chris-corcoran-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Chris Corcoran & Band
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Instrumentaler Blues aus Großbritannien. Nur Abendkasse.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.bischofsmuehle.de/navigatio
+ n/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261129-hueter-der-traeume-und-wuensche-engel@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Hüter der Träume und Wünsche – Engel
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Familienprogramm der Reihe „Familienzeit“.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://rpmuseu
+ m.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-obi-ochtersum-20261129-flohmarkt-am-obi-ochtersum@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Flohmarkt am OBI Ochtersum
+LOCATION:OBI Baumarkt Ochtersum (Parkplatz)\, Mitelfeld 3\, 31139 Hildeshei
+ m
+DESCRIPTION:Flohmarkt von Bassi Flohmärkte\; Platzvergabe für Verkäufer 
+ ab 6 Uhr.\nQuelle (bitte vor dem Besuch prüfen): https://www.bassi-flohma
+ erkte.de/termine/
+URL:https://www.bassi-flohmaerkte.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-literaturhaus-st-jakobi-20261201-landpartie-release@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T183000
+DTEND;TZID=Europe/Berlin:20261201T203000
+SUMMARY:Landpartie Release
+LOCATION:Literaturhaus St. Jakobi\, Jakobikirchgasse\, 31134 Hildesheim
+DESCRIPTION:Release-Abend.\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.stjakobi.de/veranstaltungen
+URL:https://www.stjakobi.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261202-andreas-schaerer-anoa@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Andreas Schaerer & ANOA
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Jazzkonzert. Nur Abendkasse.\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261204-aegypten-xxl@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T160000
+DTEND;TZID=Europe/Berlin:20261204T180000
+SUMMARY:Ägypten XXL
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Ausführliche Führung durch die Ägypten-Ausstellung.\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /rpmuseum.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261205-till-seidels-big-rhythm-riot@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Till Seidels Big Rhythm Riot
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Bluesabend. Nur Abendkasse.\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-sparkassen-arena-20261205-suberg-s-ue30-party@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Suberg's ü30 Party
+LOCATION:Sparkassen-Arena Hildesheim\, Pappelallee 1\, 31137 Hildesheim
+DESCRIPTION:Ü30-Party mit Charts\, Clubsounds und Discofox\, Einlass ab 27
+  Jahren.\nPreis: ab 18 € zzgl. Gebühr\nTickets: https://mrevent.ditix.s
+ hop/event/gikapiaidc2mgnai?t=true&tid=\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.ue30party.de/ue30-party-in-hildesheim-volksbankarena/
+URL:https://www.ue30party.de/ue30-party-in-hildesheim-volksbankarena/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-literaturhaus-st-jakobi-20261208-nora-gomringer@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T193000
+DTEND;TZID=Europe/Berlin:20261208T213000
+SUMMARY:Nora Gomringer
+LOCATION:Literaturhaus St. Jakobi\, Jakobikirchgasse\, 31134 Hildesheim
+DESCRIPTION:Lesung aus ihrem Prosadebüt.\nEnde: laut Quelle nicht angegebe
+ n\nPreis: Eintritt: 15 / 5 €\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.stjakobi.de/veranstaltungen/nora-gomringer
+URL:https://www.stjakobi.de/veranstaltungen/nora-gomringer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-halle39-20261211-die-feisten-familienfest@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Die Feisten – Familienfest
+LOCATION:Halle 39\, Schinkelstraße 7\, 31137 Hildesheim
+DESCRIPTION:Musik-Comedy.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halle3
+ 9.de/events
+URL:https://halle39.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261211-pink-baxter-the-glen-larsen-jr@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Pink Baxter & The Glen Larsen jr. Orchestra – Too Much Is Not Eno
+ ugh #1
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Soul und Jazz. Nur Abendkasse.\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261212-pink-baxter-the-glen-larsen-jr@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Pink Baxter & The Glen Larsen jr. Orchestra – Too Much Is Not Eno
+ ugh #2
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Soul und Jazz. Nur Abendkasse.\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-kaufland-roemerring-20261213-flohmarkt-am-kaufland-roemerring@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Flohmarkt am Kaufland Römerring
+LOCATION:Kaufland-Parkplatz Römerring\, Römerring 8-10\, 31121 Hildesheim
+DESCRIPTION:Flohmarkt von Bassi Flohmärkte\; Platzvergabe für Verkäufer 
+ ab 6 Uhr.\nQuelle (bitte vor dem Besuch prüfen): https://www.bassi-flohma
+ erkte.de/termine/
+URL:https://www.bassi-flohmaerkte.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261218-black-patti@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Black Patti
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Duo mit Delta Blues und Ragtime. Nur Abendkasse.\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.bischofsmuehle.de/navigation/program
+ m.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261220-advent-advent-geheimnisse-die-nicht-jeder@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T143000
+DTEND;TZID=Europe/Berlin:20261220T163000
+SUMMARY:Advent\, Advent – Geheimnisse\, die nicht jeder kennt!
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Spezialführung in der Ausstellung „Es ist angerichtet“.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://rpmuseum.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261224-b-b-the-blues-shacks-heiligabend@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:B.B. & The Blues Shacks – Heiligabend in der Mühle
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Konzert an Heiligabend. Nur Abendkasse.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261227-schornsteinfeger-kleeblatt-und-was-noch-gluecksbri
+ nger@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T110000
+DTEND;TZID=Europe/Berlin:20261227T130000
+SUMMARY:Schornsteinfeger\, Kleeblatt und was noch? Glücksbringer aus aller
+  Welt
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Familienprogramm der Reihe „Familienzeit“.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://rpmuseu
+ m.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261227-ein-besonderes-kind-nicht-nur-in@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T143000
+DTEND;TZID=Europe/Berlin:20261227T163000
+SUMMARY:Ein besonderes Kind – nicht nur in Bethlehem
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Spezialführung in der Ägypten-Dauerausstellung.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://rpmu
+ seum.de/termine/
+URL:https://rpmuseum.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-obi-ochtersum-20261227-flohmarkt-am-obi-ochtersum@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Flohmarkt am OBI Ochtersum
+LOCATION:OBI Baumarkt Ochtersum (Parkplatz)\, Mitelfeld 3\, 31139 Hildeshei
+ m
+DESCRIPTION:Flohmarkt von Bassi Flohmärkte\; Platzvergabe für Verkäufer 
+ ab 6 Uhr.\nQuelle (bitte vor dem Besuch prüfen): https://www.bassi-flohma
+ erkte.de/termine/
+URL:https://www.bassi-flohmaerkte.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

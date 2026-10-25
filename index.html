@@ -174,6 +174,15 @@ footer a,.legal-foot a{margin-inline:10px}footer a{display:inline-block;margin-t
 /* v302 Thomas: „Kino“ in „Kino an diesem Tag“ 50 % größer */
 .kino-tag .kino-big{font-size:150%;font-weight:700}
 .laufend-tag .kino-big{font-size:150%;font-weight:700} /* v304 Thomas: „Außerdem“ so groß wie „Kino“ */
+/* Thomas 25.10.2026: Reiter „Erinnert werden“ (Kalender-Abo) */
+.erin .erform{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:flex-end}
+.erin .erform label{display:grid;gap:4px}
+.erin select{font:inherit;font-size:16px;padding:8px 10px;border:1.5px solid #000;border-radius:8px;background:#fff;color:#000;max-width:100%}
+.erin .erbtns{display:flex;flex-wrap:wrap;gap:10px}
+.erin .erbtn{display:inline-flex;align-items:center;min-height:44px;border:0;border-radius:999px;padding:8px 18px;font:inherit;font-weight:700;font-size:16px;background:#ED631B;color:#fff!important;text-decoration:none;cursor:pointer}
+.erin .erbtn:hover{background:#D4560F}
+.erin .ersel{margin:6px 0 0}
+.erin .erhint{color:var(--muted);font-size:15px}
 /* v303 Thomas: WhatsApp-Teilen in der Merkliste */
 .wa-btn{display:inline-flex;align-items:center;gap:6px;color:#fff!important;background:#1f8f4e;border-radius:999px;padding:6px 14px;font-weight:700;font-size:15px;text-decoration:none}
 .wa-btn:hover{background:#16733e}
@@ -482,6 +491,7 @@ apply();setInterval(apply,300000);})();</script>
   <nav class="tabs" aria-label="Bereiche"> <!-- v447 Lighthouse: keine tablist, weil Links dazwischen stehen; aktiver Reiter per aria-current -->
     <button id="tab-termine" aria-current="true" data-tab="termine">Termine</button>
     <button id="tab-merkliste" aria-current="false" data-tab="merkliste">Merkliste <span class="count" id="favcount">(0)</span></button>
+    <button id="tab-erinnern" aria-current="false" data-tab="erinnern">Erinnert werden</button> <!-- Thomas 25.10.2026: Kalender-Abo ohne Anmeldung -->
     <button id="tab-locations" aria-current="false" data-tab="locations">Locations</button>
     <a class="tablink" href="#checkliste">Checklisten</a> <!-- v330 Thomas: Checklisten hinter Locations -->
     <span class="tabbr" aria-hidden="true"></span> <!-- v364 Thomas: nach Checklisten neue Zeile -->
@@ -521,6 +531,7 @@ apply();setInterval(apply,300000);})();</script>
   </section>
   <section id="p-locations" hidden><div class="venues" id="venuelist"></div></section>
   <section id="p-merkliste" hidden><div id="favlist"></div></section>
+  <section id="p-erinnern" hidden><div class="prose erin" id="erinnern"></div></section>
   <section id="p-quellen" hidden><div class="prose" id="about"></div></section>
   </main>
 
@@ -578,6 +589,8 @@ E-Mail: <a href="mailto:hello@myEventHub.de">hello@myEventHub.de</a>
 <p>Wenn Sie Termine auf die Merkliste setzen oder einen Filter wählen, speichert Ihr Browser diese Auswahl im lokalen Speicher (localStorage) Ihres Geräts. Diese Daten verlassen Ihr Gerät nicht und werden nicht an mich oder Dritte übertragen. Die Speicherung ist für die von Ihnen gewünschte Funktion unbedingt erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG). Sie können die Daten jederzeit löschen, indem Sie die Websitedaten in Ihrem Browser löschen.</p>
 <p><strong>Teilen per WhatsApp:</strong> Bei jedem Termin (WhatsApp-Symbol neben „Karte“) und in der Merkliste können Sie Termine über WhatsApp teilen. Erst wenn Sie auf das WhatsApp-Symbol bzw. „Merkliste per WhatsApp teilen“ tippen, öffnet sich WhatsApp (WhatsApp Ireland Ltd., ein Unternehmen der Meta-Gruppe) mit einem vorbereiteten Text aus Titel, Datum, Ort und Quell-Link. Was Sie dann senden, entscheiden Sie selbst in WhatsApp; dort gelten die Datenschutzbestimmungen von WhatsApp. Ohne diesen Klick wird nichts an WhatsApp übertragen.</p>
 <p><strong>Teilen per E-Mail:</strong> „Per E-Mail teilen“ öffnet Ihr eigenes E-Mail-Programm mit einem vorbereiteten Text. Die Seite selbst verschickt nichts und erhält keine Adressen.</p><p><strong>Stadt in Ihrer Nähe (Standort):</strong> Erst wenn Sie auf „📍 In meiner Nähe“ tippen und Ihr Browser Sie um Erlaubnis fragt und Sie zustimmen, gibt der Browser Ihren ungefähren Standort an diese Seite weiter. Welche Orte im gewählten Umkreis (10, 20, 50 oder 100 km) liegen, wird nur auf Ihrem Gerät berechnet; der Standort wird weder gespeichert noch an uns oder Dritte übertragen. Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 a DSGVO, § 25 Abs. 1 TDDDG); Sie können sie in den Einstellungen Ihres Browsers jederzeit widerrufen. Wie der Browser bzw. das Betriebssystem den Standort ermittelt, liegt bei deren Anbietern.</p>
+
+<p><strong>Kalender-Abo (Reiter „Erinnert werden“):</strong> Für das Abo ist keine Anmeldung nötig, und ich erhalte keine Namen, E-Mail-Adressen oder Telefonnummern. Sie wählen Ort und Rubrik nur auf Ihrem Gerät; die Auswahl wird wie die Merkliste im lokalen Speicher Ihres Browsers abgelegt. Wenn Sie ein Abo anlegen, ruft Ihre Kalender-App bzw. Ihr Kalenderdienst die Kalenderdatei regelmäßig von www.myeventhub.de ab; dabei verarbeitet GitHub wie bei jedem Seitenaufruf die technisch notwendigen Daten (siehe Abschnitt 3). Tippen Sie auf „Google Kalender“ oder „Outlook“, öffnet sich die Seite von Google bzw. Microsoft mit dem Link zur Kalenderdatei; ab dann gelten deren Datenschutzbestimmungen. Abbestellen können Sie jederzeit, indem Sie den Kalender in Ihrer Kalender-App löschen.</p>
 
 <p class="h2x">KI-Suche</p>
 <p>Wer die KI-Suche unter „Wann?“ nutzt, schickt den eingegebenen Suchtext zusammen mit der Liste der Städte, Rubriken und Genres an Claude (Anthropic). Das geschieht nur auf Klick auf „Fragen“, nur wenn die Seite in Claude geöffnet ist, und erst nach Ihrer Zustimmung im Claude-Fenster, über Ihr eigenes Claude-Konto. Ohne Claude wird der Text nur als normale Suche auf der Seite verwendet und nicht übertragen.</p>
@@ -1052,12 +1065,72 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
       kiMsg(err && err.code === "cancelled" ? "" : (KI_ERR[err && err.code] || "Die KI-Suche hat gerade nicht geklappt, bitte noch einmal versuchen."));
     } finally { kiGo.disabled = false; kiStop.hidden = true; }
   });
+  // --- Erinnert werden (Thomas 25.10.2026: Kalender-Abo ohne Anmeldung). Die .ics-Dateien und kalender/index.json
+  // erzeugt build_ics.js bei jedem Veröffentlichen mit denselben Rubriken (catMatch/CATS) wie diese Seite.
+  const ER_SITE = "https://www.myeventhub.de";
+  let erIdx = null, erLoading = false;
+  function renderErinnern(){
+    const box = document.getElementById("erinnern");
+    const intro = '<p class="h2x">Erinnert werden</p><p>Neue Termine automatisch im eigenen Kalender: Wählen Sie Ort und Rubrik und abonnieren Sie den Kalender. Neue Veranstaltungen erscheinen dann von selbst in Ihrem Kalender auf Handy, Tablet oder PC. <strong>Ohne Anmeldung, ohne E-Mail-Adresse.</strong></p>';
+    if (!erIdx) {
+      box.innerHTML = intro + '<p id="ermsg">Abos werden geladen …</p>';
+      if (erLoading) return; erLoading = true;
+      const url = /(^|\.)myeventhub\.de$/.test(location.hostname) ? "/kalender/index.json" : ER_SITE + "/kalender/index.json";
+      fetch(url, {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(j => { erIdx = j; renderErinnern(); })
+        .catch(() => { erLoading = false; const m = document.getElementById("ermsg"); if (m) m.innerHTML = 'Die Abos konnten hier nicht geladen werden. Sie finden sie auf <a href="'+ER_SITE+'/#erinnern" target="_blank" rel="noopener">www.myeventhub.de</a> im Reiter „Erinnert werden“.'; });
+      return;
+    }
+    const cities = Object.keys(erIdx.staedte);
+    const grp = c => AUSLAND.has(c) ? "Ausland" : (stOf(c) === "Stadtstaaten" ? "Berlin, Bremen, Hamburg" : stOf(c));
+    const groups = {}; cities.forEach(c => (groups[grp(c)] = groups[grp(c)] || []).push(c));
+    const order = Object.keys(groups).sort((a,b) => (b==="Berlin, Bremen, Hamburg") - (a==="Berlin, Bremen, Hamburg") || (a==="Ausland") - (b==="Ausland") || a.localeCompare(b,"de"));
+    let city = store.get("mb-erin-city", "");
+    if (!erIdx.staedte[city]) city = erIdx.staedte[state.city] ? state.city : (erIdx.staedte["Bremen"] ? "Bremen" : cities[0]);
+    box.innerHTML = intro +
+      '<div class="erform"><label><span class="fhead"><strong>Wo?</strong></span><select id="ercity" aria-label="Ort für das Kalender-Abo">' +
+      order.map(g => '<optgroup label="'+esc(ST_LABEL[g] || g)+'">'+groups[g].sort((a,b)=>a.localeCompare(b,"de")).map(c => '<option value="'+esc(c)+'"'+(c===city?" selected":"")+'>'+esc(c)+'</option>').join("")+'</optgroup>').join("") +
+      '</select></label><label><span class="fhead"><strong>Was?</strong></span><select id="ercat" aria-label="Rubrik für das Kalender-Abo"></select></label></div>' +
+      '<div id="erout"></div>' +
+      '<p class="erhint"><strong>So funktioniert es:</strong> Ihr Kalender holt neue und geänderte Termine selbst ab, je nach Kalender-App alle paar Stunden bis einmal am Tag. Abgesagte Termine sind mit „ABGESAGT“ gekennzeichnet. Laufende Ausstellungen und mehrtägige Angebote stehen am ersten und am letzten Tag im Kalender. Abbestellen: den abonnierten Kalender in Ihrer Kalender-App löschen.</p>' +
+      '<p class="erhint"><strong>Android:</strong> Tippen Sie auf „Google Kalender“. Falls das Handy das Abo dort nicht anlegt, fügen Sie es einmal am PC im Google Kalender hinzu; es erscheint dann auch auf dem Handy.</p>' +
+      '<p class="erhint">Angaben ohne Gewähr. Jeder Termin enthält den Link zur Quelle beim Veranstalter, bitte vor dem Besuch prüfen.</p>';
+    const cityEl2 = document.getElementById("ercity"), catEl = document.getElementById("ercat");
+    function fillCats(keep){
+      const n = erIdx.staedte[cityEl2.value].n;
+      const opts = [["alle","Alle Rubriken"]].concat(erIdx.rubriken.filter(r => n[r[0]]).map(r => [r[0], r[1]+" ("+n[r[0]]+")"]).sort((a,b)=>a[1].localeCompare(b[1],"de")));
+      catEl.innerHTML = opts.map(([k,l]) => '<option value="'+esc(k)+'">'+esc(l)+'</option>').join("");
+      catEl.value = opts.some(o => o[0] === keep) ? keep : "alle";
+    }
+    function out(){
+      const c = cityEl2.value, k = catEl.value, cs = erIdx.staedte[c].s;
+      const r = erIdx.rubriken.find(x => x[0] === k), file = k === "alle" ? "alle" : r[2], label = k === "alle" ? "Alle Termine" : r[1];
+      const https = ER_SITE + "/kalender/" + cs + "/" + file + ".ics", webcal = https.replace(/^https:/, "webcal:"), name = label + " in " + c + " · my Event Hub";
+      store.set("mb-erin-city", c); store.set("mb-erin-cat", k);
+      document.getElementById("erout").innerHTML = '<p class="ersel">Abo: <strong>'+esc(label)+' in '+esc(c)+'</strong></p><div class="erbtns">' +
+        '<a class="erbtn" href="'+esc(webcal)+'">iPhone, iPad, Mac</a>' +
+        '<a class="erbtn" href="'+esc("https://calendar.google.com/calendar/render?cid="+encodeURIComponent(webcal))+'" target="_blank" rel="noopener">Google Kalender</a>' +
+        '<a class="erbtn" href="'+esc("https://outlook.live.com/calendar/0/addfromweb?url="+encodeURIComponent(https)+"&name="+encodeURIComponent(name))+'" target="_blank" rel="noopener">Outlook</a>' +
+        '<button type="button" class="erbtn ercopy" data-url="'+esc(https)+'">Link kopieren</button></div>' +
+        '<p class="erhint">Andere Kalender-Programme: Link kopieren und dort als „Kalender abonnieren“ bzw. „Kalender aus dem Internet“ einfügen.</p>';
+    }
+    cityEl2.addEventListener("change", () => { fillCats(catEl.value); out(); });
+    catEl.addEventListener("change", out);
+    fillCats(store.get("mb-erin-cat", "") || state.cat || "alle"); out();
+    if (!box.dataset.cl) box.dataset.cl = "1", box.addEventListener("click", ev => { const b = ev.target.closest(".ercopy"); if (!b) return;
+      const ok = () => { b.textContent = "Kopiert ✓"; setTimeout(() => b.textContent = "Link kopieren", 2000); };
+      const fb = () => { const t = document.createElement("textarea"); t.value = b.dataset.url; document.body.appendChild(t); t.select(); try { document.execCommand("copy"); ok(); } catch(e){ window.prompt("Link zum Abonnieren:", b.dataset.url); } t.remove(); };
+      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(b.dataset.url).then(ok, fb); else fb(); });
+  }
+  if (location.hash === "#erinnern") setTimeout(() => showTab("erinnern"), 0);
+
   // --- Tabs
   const tabs = [...document.querySelectorAll("nav.tabs [data-tab]")];
   function showTab(name){
     tabs.forEach(t => t.setAttribute("aria-current", String(t.dataset.tab === name)));
-    ["termine","locations","merkliste","quellen"].forEach(p => document.getElementById("p-"+p).hidden = p !== name);
+    ["termine","locations","merkliste","erinnern","quellen"].forEach(p => document.getElementById("p-"+p).hidden = p !== name);
     if (name === "merkliste") renderFavs();
+    if (name === "erinnern") renderErinnern();
     store.set("mb-tab", name);
   }
   tabs.forEach(t => t.addEventListener("click", () => showTab(t.dataset.tab)));
@@ -1554,7 +1627,7 @@ function agesOf(e){ const out = new Set(); const t = [e.title, e.description, (e
   updateFavCount();
   render();
   const t = store.get("mb-tab", "termine");
-  if (["termine","locations","merkliste","quellen"].includes(t)) showTab(t);
+  if (["termine","locations","merkliste","erinnern","quellen"].includes(t)) showTab(t);
 })();
 </script><script>/* v425: Termindaten erst bei Bedarf laden */(function(){var SRC="daten/katalog.js?v=3cdccba3fd",st=0,q=[];window.__ezReady=false;function fail(){var l=document.getElementById("list");if(l)l.innerHTML="<p style=\"padding:16px;font-weight:700\">Die Termine konnten nicht geladen werden. Bitte die Seite neu laden.</p>";}function go(){if(st)return;st=1;if(window.__ezZ){try{window.__ezZ.remove();}catch(e){}}var k=document.createElement("script");k.src=SRC;k.onerror=fail;k.onload=function(){if(!window.__EZC){fail();return;}var x=document.createElement("script");x.text=document.getElementById("ezmain").text;document.body.appendChild(x);window.__ezReady=true;try{document.dispatchEvent(new Event("ez-main-done"));}catch(e){}q.forEach(function(it){try{var t=it.t;if(!t.isConnected&&it.k)t=document.querySelector(it.k);if(!t)return;if(t.tagName==="FORM"){if(t.requestSubmit)t.requestSubmit();else t.dispatchEvent(new Event("submit",{bubbles:true,cancelable:true}));}else t.click();}catch(e){}});q=[];};document.head.appendChild(k);}function key(t){try{if(t.id)return "#"+CSS.escape(t.id);for(var i=0;i<t.attributes.length;i++){var a=t.attributes[i];if(a.name.indexOf("data-")===0)return t.tagName.toLowerCase()+"["+a.name+"=\""+CSS.escape(a.value)+"\"]";}}catch(e){}return null;}function add(t){if(!q.some(function(x){return x.t===t;}))q.push({t:t,k:key(t)});}window.__ezLoad=go;if(!window.__ezpreShown||window.__ezForce){go();return;}var SEL="button,[data-city],[data-range],[data-cat],[data-genre],[data-km],[data-age],[data-flag],[role=tab],[role=link],.chip,.go-home,[data-showvenue],[data-fav]";document.addEventListener("click",function(e){if(window.__ezReady)return;var t=e.target.closest&&e.target.closest(SEL);if(!t||t.closest(".fsbar,.sharebar"))return;e.preventDefault();e.stopPropagation();add(t);go();},true);document.addEventListener("submit",function(e){if(window.__ezReady)return;e.preventDefault();e.stopPropagation();add(e.target);go();},true);document.addEventListener("focusin",function(e){var t=e.target;if(t&&t.matches&&t.matches("input,select,textarea"))go();},true);document.addEventListener("keydown",function(){go();},true);var L=document.getElementById("list");if(L&&L.querySelector(".ezhint")){/* v447: Start ohne Termine, laden erst bei Auswahl */}else if(L&&"IntersectionObserver" in window){var o=new IntersectionObserver(function(es){if(es.some(function(x){return x.isIntersecting;})){o.disconnect();go();}},{rootMargin:"0px 0px 100% 0px"});var z=document.createElement("div");z.style.height="1px";L.after(z);window.__ezZ=z;o.observe(z);}else go();})();</script>
 

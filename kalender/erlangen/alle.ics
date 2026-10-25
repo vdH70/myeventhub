@@ -1,0 +1,348 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Erlangen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:er-kunstpalais-20261012-herbstsalon-beginn@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Beginn: Herbstsalon
+LOCATION:Kunstpalais Erlangen\, Marktplatz 1\, 91054 Erlangen
+DESCRIPTION:Gastausstellung des Kunstvereins Erlangen e.V.\nLaufzeit: 12.10
+ .2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ nstpalais.de/de/103/Programm.html
+URL:https://www.kunstpalais.de/de/103/Programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-kunstpalais-20261012-herbstsalon-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Herbstsalon
+LOCATION:Kunstpalais Erlangen\, Marktplatz 1\, 91054 Erlangen
+DESCRIPTION:Gastausstellung des Kunstvereins Erlangen e.V.\nLaufzeit: 12.10
+ .2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ nstpalais.de/de/103/Programm.html
+URL:https://www.kunstpalais.de/de/103/Programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261025-der-perfekte-urlaub@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T153000
+DTEND;TZID=Europe/Berlin:20261025T173000
+SUMMARY:Der perfekte Urlaub
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261025-alte-liebe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T154000
+DTEND;TZID=Europe/Berlin:20261025T174000
+SUMMARY:Alte Liebe
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261025-die-andere-seite@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Die andere Seite
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261025-heimsuchung@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T180000
+DTEND;TZID=Europe/Berlin:20261025T200000
+SUMMARY:Heimsuchung
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261025-der-perfekte-urlaub-2015@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T201500
+DTEND;TZID=Europe/Berlin:20261025T221500
+SUMMARY:Der perfekte Urlaub
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261025-naza@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T203000
+DTEND;TZID=Europe/Berlin:20261025T223000
+SUMMARY:Naza
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-stadtmuseum-20261025-neu-gesehen-adolf-schinnerer@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:NEU GESEHEN – Adolf Schinnerer
+LOCATION:Stadtmuseum Erlangen\, Martin-Luther-Platz 9\, 91054 Erlangen
+DESCRIPTION:Sonderausstellung\, Laufzeit ab 25. Oktober 2026.\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.stadtmuseum-erlangen.de/
+URL:https://www.stadtmuseum-erlangen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261026-frau-winkler-verlaesst-das-haus@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T154000
+DTEND;TZID=Europe/Berlin:20261026T174000
+SUMMARY:Frau Winkler verlässt das Haus
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261026-die-andere-seite@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T180000
+DTEND;TZID=Europe/Berlin:20261026T200000
+SUMMARY:Die andere Seite
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261026-heimsuchung@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T180000
+DTEND;TZID=Europe/Berlin:20261026T200000
+SUMMARY:Heimsuchung
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261026-der-perfekte-urlaub@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T201500
+DTEND;TZID=Europe/Berlin:20261026T221500
+SUMMARY:Der perfekte Urlaub
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261026-naza@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T203000
+DTEND;TZID=Europe/Berlin:20261026T223000
+SUMMARY:Naza
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261027-frau-winkler-verlaesst-das-haus@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T154000
+DTEND;TZID=Europe/Berlin:20261027T174000
+SUMMARY:Frau Winkler verlässt das Haus
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261027-heimsuchung@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T180000
+DTEND;TZID=Europe/Berlin:20261027T200000
+SUMMARY:Heimsuchung
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261027-der-perfekte-urlaub@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T201500
+DTEND;TZID=Europe/Berlin:20261027T221500
+SUMMARY:Der perfekte Urlaub
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261027-naza@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T203000
+DTEND;TZID=Europe/Berlin:20261027T223000
+SUMMARY:Naza
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261028-heimsuchung@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T151000
+DTEND;TZID=Europe/Berlin:20261028T171000
+SUMMARY:Heimsuchung
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261028-der-perfekte-urlaub@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T153000
+DTEND;TZID=Europe/Berlin:20261028T173000
+SUMMARY:Der perfekte Urlaub
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261028-alte-liebe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T174000
+DTEND;TZID=Europe/Berlin:20261028T194000
+SUMMARY:Alte Liebe
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261028-die-andere-seite@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T180000
+DTEND;TZID=Europe/Berlin:20261028T200000
+SUMMARY:Die andere Seite
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261028-heimsuchung-2000@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T200000
+DTEND;TZID=Europe/Berlin:20261028T220000
+SUMMARY:Heimsuchung
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261028-der-perfekte-urlaub-2015@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T201500
+DTEND;TZID=Europe/Berlin:20261028T221500
+SUMMARY:Der perfekte Urlaub
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-lamm-lichtspiele-20261030-biermann@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Biermann
+LOCATION:Lamm-Lichtspiele\, Hauptstraße 86\, 91054 Erlangen
+DESCRIPTION:mit Regisseur Jens Meurer\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.lamm-lichtspiele.de/
+URL:https://www.lamm-lichtspiele.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-kunstpalais-20261127-eroeffnung-circus-lion-bischof-felix-burger-ota
+ kar@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Eröffnung: CIRCUS. Lion Bischof\, Felix Burger\, Otakar Skala / Fi
+ schers Fang. Die große Buchkunst-Schenkung
+LOCATION:Kunstpalais Erlangen\, Marktplatz 1\, 91054 Erlangen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunstpalais.de/de/103/Programm.html
+URL:https://www.kunstpalais.de/de/103/Programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Breslau · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wro-hala-stulecia-20261031-prometeusz-spektakl-akrobatyczno-taneczny@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART:20261031T193000
+DTEND:20261031T213000
+SUMMARY:Prometeusz | Spektakl Akrobatyczno-Taneczny
+LOCATION:Hala Stulecia\, Breslau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://halastulecia.pl/kalendarz-imprez/
+URL:https://halastulecia.pl/kalendarz-imprez/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

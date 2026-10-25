@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in San Diego · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sd-observatory-north-park-20261029-epik-high-3-0-north-american-tour@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:EPIK HIGH 3.0 NORTH AMERICAN TOUR
+LOCATION:The Observatory North Park\, 2891 University Ave\, 92104 San Diego
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.observatorys
+ d.com/
+URL:https://www.observatorysd.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sd-observatory-north-park-20261031-pigeons-playing-ping-pong@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Pigeons Playing Ping Pong
+LOCATION:The Observatory North Park\, 2891 University Ave\, 92104 San Diego
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.observatorys
+ d.com/
+URL:https://www.observatorysd.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sd-observatory-north-park-20261101-casbah-belly-up-desert-daze-present-
+ the-black-ange@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Casbah/Belly Up/Desert Daze Present: The Black Angels
+LOCATION:The Observatory North Park\, 2891 University Ave\, 92104 San Diego
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.observatorys
+ d.com/
+URL:https://www.observatorysd.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

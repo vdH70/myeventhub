@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Troisdorf · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:su-stadthalle-troisdorf-20261031-livingospel-best-of-gospel-soul@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:LivinGospel: Best of Gospel & Soul
+LOCATION:Stadthalle Troisdorf\, Kölner Straße 167\, 53840 Troisdorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.troisdorf.de/stadthalle
+URL:https://www.troisdorf.de/stadthalle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-stadthalle-troisdorf-20261115-akkordeon-orchester-1960-muellekoven@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Akkordeon-Orchester 1960 Müllekoven
+LOCATION:Stadthalle Troisdorf\, Kölner Straße 167\, 53840 Troisdorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.troisdorf.de/stadthalle
+URL:https://www.troisdorf.de/stadthalle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-stadthalle-troisdorf-20261127-tom-gaebel-his-orchestra-a-swinging-ch
+ ristmas@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Tom Gaebel & His Orchestra: A Swinging Christmas
+LOCATION:Stadthalle Troisdorf\, Kölner Straße 167\, 53840 Troisdorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.troisdorf.de/de/natur-kultur/stadthalle/veranstaltu
+ ngen/das-programm/
+URL:https://www.troisdorf.de/de/natur-kultur/stadthalle/veranstaltungen/das
+ -programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

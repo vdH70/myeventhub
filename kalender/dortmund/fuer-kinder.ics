@@ -1,0 +1,146 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Dortmund · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:do-zeche-zollern-20261025-zollern-in-aktion-und-familiensonntag@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Zollern in Aktion und Familiensonntag
+LOCATION:LWL-Museum Zeche Zollern\, Grubenweg 5\, 44388 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://zeche-zollern.lwl.org/de/veranstaltungen/
+URL:https://zeche-zollern.lwl.org/de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-dortmunder-u-20261030-licht-an-taschenlampenzauber-erweckt-die-geist
+ erga@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T140000
+DTEND;TZID=Europe/Berlin:20261030T160000
+SUMMARY:Licht an! – Taschenlampenzauber erweckt die Geistergalerie (ausve
+ rkauft)
+LOCATION:Dortmunder U\, Leonie-Reygers-Terrasse\, 44137 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://dortmunder-u.de/programm/
+URL:https://dortmunder-u.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-dortmunder-u-20261101-familiensonntag-november-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T120000
+DTEND;TZID=Europe/Berlin:20261101T140000
+SUMMARY:Familiensonntag November 2026
+LOCATION:Dortmunder U\, Leonie-Reygers-Terrasse\, 44137 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dortmunder-u.de/programm/
+URL:https://dortmunder-u.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-kjt-20261101-kaepten-knitterbart-und-seine-bande@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Käpten Knitterbart und seine Bande (ausverkauft)
+LOCATION:Kinder- und Jugendtheater Dortmund (Sckellstraße)\, Dortmund
+DESCRIPTION:Spielstätte: Sckelly (KJT in der Sckellstraße).\nEnde: laut Q
+ uelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.theaterdo.de/kalender/?tx_solr%5Bpage%5D=4
+URL:https://www.theaterdo.de/kalender/?tx_solr%5Bpage%5D=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-isp-monkey-town-20261101-halloween-finale-bei-monkey-town@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Halloween-Finale bei Monkey Town
+LOCATION:Monkey Town Dortmund\, Schlägelstrasse 58\, 44145 Dortmund
+DESCRIPTION:Abschlusstag der Halloweenwoche mit Kostümwettbewerb\, Hallowe
+ en-Tattoos\, Zauberschule und Monster-Mission.\nPreis: Tageseintritt: Kind
+ er 1–2 J. 10\,00 €\, ab 3 J. 16\,90 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://monkeytown.eu/de/events
+URL:https://monkeytown.eu/de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-zeche-zollern-20261122-familiensonntag@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:Familiensonntag
+LOCATION:LWL-Museum Zeche Zollern\, Grubenweg 5\, 44388 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://zeche-zollern.lwl.org/de/veranstaltungen/
+URL:https://zeche-zollern.lwl.org/de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-zeche-zollern-20261213-familiensonntag@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Familiensonntag
+LOCATION:LWL-Museum Zeche Zollern\, Grubenweg 5\, 44388 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://zeche-zollern.lwl.org/de/veranstaltungen/
+URL:https://zeche-zollern.lwl.org/de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20261219-dennis-jesko-band@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T140000
+DTEND;TZID=Europe/Berlin:20261219T160000
+SUMMARY:Dennis & Jesko Band
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20270222-peter-und-der-wolf@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270222T150000
+DTEND;TZID=Europe/Berlin:20270222T170000
+SUMMARY:Peter und der Wolf
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

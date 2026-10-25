@@ -1,0 +1,622 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Disco in Bremen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:aladin-music-hall-20261030-house-of-horror@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T210000
+DTEND;TZID=Europe/Berlin:20261030T230000
+SUMMARY:House of Horror
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/hoh2026/
+URL:https://www.aladin-bremen.de/veranstaltungen/hoh2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-shagall-20261030-bremens-russian-halloween-event@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T230000
+DTEND;TZID=Europe/Berlin:20261031T010000
+SUMMARY:BREMENS RUSSIAN HALLOWEEN EVENT
+LOCATION:Shagall\, Rembertiring 4\, 28195 Bremen
+DESCRIPTION:Clubnacht im Shagall\, Einlass laut Club ab 18.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sh
+ agall-klub.com/shows
+URL:https://www.shagall-klub.com/shows
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261030-halloween-i@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T220000
+DTEND;TZID=Europe/Berlin:20261031T000000
+SUMMARY:Halloween I
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Halloween-Party.\nEinlass 22:00 Uhr\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/pr
+ ogramm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-tivoli-20261031-wielka-polska-impreza-halloween-edition@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T210000
+DTEND;TZID=Europe/Berlin:20261031T230000
+SUMMARY:WIELKA POLSKA IMPREZA – Halloween Edition
+LOCATION:Tivoli\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Polnische Partynacht mit Disco Polo und Clubsounds.\nEnde: laut
+  Quelle nicht angegeben\nPreis: VVK ab 10\,00 €\, AK 15\,00 €\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.aladin-bremen.de/veranstaltung
+ en/wielka-polska-impreza-311026/
+URL:https://www.aladin-bremen.de/veranstaltungen/wielka-polska-impreza-3110
+ 26/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261031-ibiza-festival-halloween-edition@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T220000
+DTEND;TZID=Europe/Berlin:20261101T000000
+SUMMARY:IBIZA Festival – Halloween Edition
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/ibiza-festival-hal
+ loween-edition/
+URL:https://www.aladin-bremen.de/veranstaltungen/ibiza-festival-halloween-e
+ dition/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-shagall-20261031-turkish-night@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T230000
+DTEND;TZID=Europe/Berlin:20261101T010000
+SUMMARY:TURKISH NIGHT
+LOCATION:Shagall\, Rembertiring 4\, 28195 Bremen
+DESCRIPTION:Clubnacht im Shagall\, Einlass laut Club ab 18.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sh
+ agall-klub.com/shows
+URL:https://www.shagall-klub.com/shows
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261031-elternabend@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Elternabend – Früh hin. Viel gruselich.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Frühe Party.\nEinlass 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 26-10-31/elternabend/
+URL:https://modernes.de/events/2026-10-31/elternabend/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261031-halloween-ii@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T230000
+DTEND;TZID=Europe/Berlin:20261101T010000
+SUMMARY:Halloween II
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Halloween-Party.\nEinlass 23:00 Uhr\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/pr
+ ogramm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261106-2010er@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T230000
+DTEND;TZID=Europe/Berlin:20261107T010000
+SUMMARY:2010er – shake it off.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Party mit Hits der 2010er.\nEinlass 23:00 Uhr\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://modernes
+ .de/events/2026-11-06/2010er/
+URL:https://modernes.de/events/2026-11-06/2010er/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261107-1-bremer-clubnacht-u30@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T220000
+DTEND;TZID=Europe/Berlin:20261108T000000
+SUMMARY:1. Bremer Clubnacht – Ü30
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/1-bremer-clubnacht
+ -ue30/
+URL:https://www.aladin-bremen.de/veranstaltungen/1-bremer-clubnacht-ue30/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261107-40-jahre-modernes@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T230000
+DTEND;TZID=Europe/Berlin:20261108T010000
+SUMMARY:40 Jahre Modernes – die große jubiläumsfeier!
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Jubiläumsparty.\nEinlass 23:00 Uhr\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events
+ /2026-11-07/40-jahre-modernes/
+URL:https://modernes.de/events/2026-11-07/40-jahre-modernes/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerhaus-mahndorf-20261111-kinderhalloweendisco@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T160000
+DTEND;TZID=Europe/Berlin:20261111T180000
+SUMMARY:KinderHALLOWEENdisco
+LOCATION:Bürgerhaus Mahndorf\, Mahndorfer Bahnhof 10\, 28307 Bremen
+DESCRIPTION:Disco für Kinder ab sechs Jahren mit Tanzen\, Spielen und Kara
+ oke.\nEnde: laut Quelle nicht angegeben\nPreis: 3 €\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.buergerhaus-mahndorf.de/programm
+URL:https://www.buergerhaus-mahndorf.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-staendige-vertretung-20261111-karneval-auftakt-11-11@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T171100
+DTEND;TZID=Europe/Berlin:20261111T191100
+SUMMARY:Karneval-Auftakt 11.11
+LOCATION:Ständige Vertretung Bremen\, Böttcherstraße 3-5\, 28195 Bremen
+DESCRIPTION:Karnevalsparty zum Sessionsauftakt.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.staevbremen.de
+ /events/termine/event_id/149711?fromOverview=1
+URL:https://www.staevbremen.de/events/termine/event_id/149711?fromOverview=
+ 1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261113-drohn-classix-mit-dj-patta@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T210000
+DTEND;TZID=Europe/Berlin:20261113T230000
+SUMMARY:Dröhn Classix mit DJ Patta
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/classix_1311/
+URL:https://www.aladin-bremen.de/veranstaltungen/classix_1311/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261113-pink-noise@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T230000
+DTEND;TZID=Europe/Berlin:20261114T010000
+SUMMARY:PINK NOISE – gloss up. get loud.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Party.\nEinlass 23:00 Uhr\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://modernes.de/events/2026-11-1
+ 3/pink-noise/
+URL:https://modernes.de/events/2026-11-13/pink-noise/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261114-2000er@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T230000
+DTEND;TZID=Europe/Berlin:20261115T010000
+SUMMARY:2000er – yeah!
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Party mit Hits der 2000er.\nEinlass 23:00 Uhr\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://modernes
+ .de/events/2026-11-14/2000er/
+URL:https://modernes.de/events/2026-11-14/2000er/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261114-elternabend@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Elternabend – Früh hin. Früh feddich.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Frühe Party.\nEinlass 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 26-11-14/elternabend/
+URL:https://modernes.de/events/2026-11-14/elternabend/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20261115-die-my-little-underground-familien-disko@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Die My Little Underground Familien Disko
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturzentrum-lagerhaus.de/kultur/3646/die-my-littl
+ e-underground-familien-disko
+URL:https://www.kulturzentrum-lagerhaus.de/kultur/3646/die-my-little-underg
+ round-familien-disko
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261120-80-s-90-s-2000-s-party@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T210000
+DTEND;TZID=Europe/Berlin:20261120T230000
+SUMMARY:80's – 90's – 2000's Party
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/80s-90s-2000s-part
+ y-201126/
+URL:https://www.aladin-bremen.de/veranstaltungen/80s-90s-2000s-party-201126
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261120-black-friday@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T230000
+DTEND;TZID=Europe/Berlin:20261121T010000
+SUMMARY:BLACK FRIDAY – best in town.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Party.\nEinlass 23:00 Uhr\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://modernes.de/events/2026-11-2
+ 0/black-friday/
+URL:https://modernes.de/events/2026-11-20/black-friday/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261120-oldschool-hip-hop-und-r-n-b-classics@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Oldschool – hip hop und r'n'b classics
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Party mit Hip-Hop- und R'n'B-Klassikern.\nEinlass 19:00 Uhr\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.modernes.de/programm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-tivoli-20261121-depeche-mode-the-cure-the-smiths-party@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T210000
+DTEND;TZID=Europe/Berlin:20261121T230000
+SUMMARY:Depeche Mode – The Cure – The Smiths – Party
+LOCATION:Tivoli\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Einlass 20:45\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK 13\,00 €\, AK 15\,00 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.aladin-bremen.de/veranstaltungen/34495/
+URL:https://www.aladin-bremen.de/veranstaltungen/34495/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261121-tanznacht@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T230000
+DTEND;TZID=Europe/Berlin:20261122T010000
+SUMMARY:Tanznacht – die party für alle.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Party.\nEinlass 23:00 Uhr\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://modernes.de/events/2026-11-2
+ 1/tanznacht/
+URL:https://modernes.de/events/2026-11-21/tanznacht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20261128-quotenfete-2026@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T203000
+DTEND;TZID=Europe/Berlin:20261128T223000
+SUMMARY:Quotenfete 2026
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/quotenfete-2026/
+URL:https://oevb-arena.de/event/quotenfete-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261128-tanznacht@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T230000
+DTEND;TZID=Europe/Berlin:20261129T010000
+SUMMARY:Tanznacht – die party für alle.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Party.\nEinlass 23:00 Uhr\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://modernes.de/events/2026-11-2
+ 8/tanznacht/
+URL:https://modernes.de/events/2026-11-28/tanznacht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261206-dayshift-st-nikolaus-edition@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T123000
+DTEND;TZID=Europe/Berlin:20261206T143000
+SUMMARY:DAYSHIFT – St. Nikolaus Edition
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/dayshift-st-nikola
+ us-edition/
+URL:https://www.aladin-bremen.de/veranstaltungen/dayshift-st-nikolaus-editi
+ on/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261211-2000er@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T230000
+DTEND;TZID=Europe/Berlin:20261212T010000
+SUMMARY:2000er – yeah!
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Party mit Hits der 2000er.\nEinlass 23:00 Uhr\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://modernes
+ .de/events/2026-12-11/2000er/
+URL:https://modernes.de/events/2026-12-11/2000er/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261213-t-dance@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:T-Dance – EST 1993
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Seit 1993: legendäre House- und Techno-Party im Modernes\, mit
+  Thomas Schumacher und Oliver Huntemann.\nEinlass 15:00 Uhr\nEnde: laut Qu
+ elle nicht angegeben\nPreis: 25 € an der Abendkasse\nQuelle (bitte vor d
+ em Besuch prüfen): https://modernes.de/events/2026-12-13/t-dance/
+URL:https://modernes.de/events/2026-12-13/t-dance/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261219-elternabend@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:Elternabend – Früh hin. Früh feddich.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Frühe Party.\nEinlass 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 26-12-19/elternabend/
+URL:https://modernes.de/events/2026-12-19/elternabend/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261226-elternabend@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T180000
+DTEND;TZID=Europe/Berlin:20261226T200000
+SUMMARY:Elternabend – Früh hin. Früh feddich.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Frühe Party.\nEinlass 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 26-12-26/elternabend/
+URL:https://modernes.de/events/2026-12-26/elternabend/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-shagall-20261231-gaykiss-big-silvester-party-26-27-beginn@myeventhub
+ .de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Beginn: GAYKISS – BIG SILVESTER PARTY 26/27
+LOCATION:Shagall\, Rembertiring 4\, 28195 Bremen
+DESCRIPTION:Silvesterparty im Shagall bis 3 Uhr\, Einlass laut Club ab 18.\
+ nLaufzeit: 31.12.2026 bis 1.1.2027\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.shagall-klub.com/shows
+URL:https://www.shagall-klub.com/shows
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-shagall-20261231-gaykiss-big-silvester-party-26-27-ende@myeventhub.d
+ e
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Letzter Tag: GAYKISS – BIG SILVESTER PARTY 26/27
+LOCATION:Shagall\, Rembertiring 4\, 28195 Bremen
+DESCRIPTION:Silvesterparty im Shagall bis 3 Uhr\, Einlass laut Club ab 18.\
+ nLaufzeit: 31.12.2026 bis 1.1.2027\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.shagall-klub.com/shows
+URL:https://www.shagall-klub.com/shows
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20261231-silvester-party-80-s-til-2020s-sure-shots@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T233000
+DTEND;TZID=Europe/Berlin:20270101T013000
+SUMMARY:Silvester Party – 80's 'til 2020s sure shots
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lilaeule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270109-titty-twister@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T220000
+DTEND;TZID=Europe/Berlin:20270110T000000
+SUMMARY:Titty Twister
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/tittytwister-2027/
+URL:https://www.aladin-bremen.de/veranstaltungen/tittytwister-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270109-elternabend@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T180000
+DTEND;TZID=Europe/Berlin:20270109T200000
+SUMMARY:Elternabend – Früh hin. Früh feddich.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Frühe Party.\nEinlass 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-01-09/elternabend/
+URL:https://modernes.de/events/2027-01-09/elternabend/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270123-elternabend@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T180000
+DTEND;TZID=Europe/Berlin:20270123T200000
+SUMMARY:Elternabend – Früh hin. Früh feddich.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Frühe Party.\nEinlass 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-01-23/elternabend/
+URL:https://modernes.de/events/2027-01-23/elternabend/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-staendige-vertretung-20270204-weiberfastnacht-2027@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T171000
+DTEND;TZID=Europe/Berlin:20270204T191000
+SUMMARY:Weiberfastnacht 2027
+LOCATION:Ständige Vertretung Bremen\, Böttcherstraße 3-5\, 28195 Bremen
+DESCRIPTION:Karnevalsparty an Weiberfastnacht.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.staevbremen.de/
+ events/termine/event_id/150971?fromOverview=1
+URL:https://www.staevbremen.de/events/termine/event_id/150971?fromOverview=
+ 1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20270206-dizzy-disco@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T150000
+DTEND;TZID=Europe/Berlin:20270206T170000
+SUMMARY:Dizzy Disco
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Kinderkonzert im Saal.\nEinlass 14:00\, Beginn 15:00 Uhr\nEnde:
+  laut Quelle nicht angegeben\nPreis: 20 € (Erwachsene)\, 15 € (Kinder 
+ 3–12) zzgl. Gebühren\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.kulturzentrum-lagerhaus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270207-familiegehttanzen-karnevalsedition@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T170000
+DTEND;TZID=Europe/Berlin:20270207T190000
+SUMMARY:FAMILIEGEHTTANZEN – Karnevalsedition
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/familiegehttanzen-
+ karnevalsedition/
+URL:https://www.aladin-bremen.de/veranstaltungen/familiegehttanzen-karneval
+ sedition/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-staendige-vertretung-20270208-rosenmontag-2027@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270208T171000
+DTEND;TZID=Europe/Berlin:20270208T191000
+SUMMARY:Rosenmontag 2027
+LOCATION:Ständige Vertretung Bremen\, Böttcherstraße 3-5\, 28195 Bremen
+DESCRIPTION:Karnevalsparty am Rosenmontag.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://www.staevbremen.de/even
+ ts/termine/event_id/150978?fromOverview=1
+URL:https://www.staevbremen.de/events/termine/event_id/150978?fromOverview=
+ 1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-staendige-vertretung-20270220-kohlparty@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T180000
+DTEND;TZID=Europe/Berlin:20270220T200000
+SUMMARY:Kohlparty
+LOCATION:Ständige Vertretung Bremen\, Böttcherstraße 3-5\, 28195 Bremen
+DESCRIPTION:Kohl-und-Pinkel-Essen ab 19 Uhr\, danach DJ und Party bis Mitte
+ rnacht.\nEinlass 18:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.staevbremen.de/events/termine/even
+ t_id/147058?fromOverview=1
+URL:https://www.staevbremen.de/events/termine/event_id/147058?fromOverview=
+ 1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-staendige-vertretung-20270227-kohlparty@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T180000
+DTEND;TZID=Europe/Berlin:20270227T200000
+SUMMARY:Kohlparty
+LOCATION:Ständige Vertretung Bremen\, Böttcherstraße 3-5\, 28195 Bremen
+DESCRIPTION:Kohl-und-Pinkel-Essen ab 19 Uhr\, danach DJ und Party bis Mitte
+ rnacht.\nEinlass 18:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.staevbremen.de/events/termine/even
+ t_id/147058?fromOverview=1
+URL:https://www.staevbremen.de/events/termine/event_id/147058?fromOverview=
+ 1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-staendige-vertretung-20270313-kohlparty@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T180000
+DTEND;TZID=Europe/Berlin:20270313T200000
+SUMMARY:Kohlparty
+LOCATION:Ständige Vertretung Bremen\, Böttcherstraße 3-5\, 28195 Bremen
+DESCRIPTION:Kohl-und-Pinkel-Essen ab 19 Uhr\, danach DJ und Party bis Mitte
+ rnacht.\nEinlass 18:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.staevbremen.de/events/termine/even
+ t_id/147058?fromOverview=1
+URL:https://www.staevbremen.de/events/termine/event_id/147058?fromOverview=
+ 1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270320-huttengaudi-2027-die-apres-ski-party-des-nor
+ dens@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T200000
+DTEND;TZID=Europe/Berlin:20270320T220000
+SUMMARY:HÜTTENGAUDI 2027 – Die Après-Ski-Party des Nordens
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/huettengaudi-2027/
+URL:https://www.aladin-bremen.de/veranstaltungen/huettengaudi-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

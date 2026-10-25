@@ -1,0 +1,267 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Warendorf · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20261107-voila-da-bin-isch-maladee@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Voilà\, da bin isch! – Maladée
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Chanson-Comedy\, Paul-Schallück-Saal\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwal
+ l.de/programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20261113-offene-buehne@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T203000
+DTEND;TZID=Europe/Berlin:20261113T223000
+SUMMARY:Offene Bühne
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Jour-Fixe im Dachtheater\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20261127-goetz-frittrang-goetzendienst@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Götz Frittrang: Götzendienst
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Kabarett\, Paul-Schallück-Saal\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/p
+ rogramm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20261211-offene-buehne@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T203000
+DTEND;TZID=Europe/Berlin:20261211T223000
+SUMMARY:Offene Bühne
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Jour-Fixe im Dachtheater\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20261212-der-kleine-lord-live-hoerspiel@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Der kleine Lord – Live-Hörspiel
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Theater ex libris Münster\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/progra
+ mm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20261216-onkel-fisch-blickt-zurueck@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:Onkel Fisch blickt zurück
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Paul-Schallück-Saal\nEnde: laut Quelle nicht angegeben\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.theateramwall.de/programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270110-florian-schroeder-schluss-jetzt@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T190000
+DTEND;TZID=Europe/Berlin:20270110T210000
+SUMMARY:Florian Schroeder: Schluss jetzt!
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Kabarett\, Paul-Schallück-Saal\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/p
+ rogramm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270114-bandscheibenvorfall@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T200000
+DTEND;TZID=Europe/Berlin:20270114T220000
+SUMMARY:Bandscheibenvorfall
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Südsehen Schauspielensemble München\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwal
+ l.de/programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270212-offene-buehne@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T203000
+DTEND;TZID=Europe/Berlin:20270212T223000
+SUMMARY:Offene Bühne
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Jour-Fixe im Dachtheater\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270214-carmela-de-feo-gross-blond-erfolgreich@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T190000
+DTEND;TZID=Europe/Berlin:20270214T210000
+SUMMARY:Carmela de Feo: groß! blond! erfolgreich!
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Kabarett\, Paul-Schallück-Saal\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/p
+ rogramm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270227-man-kann-auch-in-die-hoehe-fallen@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:Man kann auch in die Höhe fallen
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Westfälisches Landestheater Castrop-Rauxel\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theate
+ ramwall.de/programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270307-fabian-lampert-einer-dieser-abende@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T190000
+DTEND;TZID=Europe/Berlin:20270307T210000
+SUMMARY:Fabian Lampert: Einer dieser Abende
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Reihe Tuchfühlung im Dachtheater\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwall.de
+ /programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270309-zoom@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270309T200000
+DTEND;TZID=Europe/Berlin:20270309T220000
+SUMMARY:Zoom!
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Say Cheese Agentur Düsseldorf\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/pr
+ ogramm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270313-offene-buehne@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T203000
+DTEND;TZID=Europe/Berlin:20270313T223000
+SUMMARY:Offene Bühne
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Jour-Fixe im Dachtheater\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270407-philip-simon-und-tobias-mann-grundlos-gute
+ -laune@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270407T200000
+DTEND;TZID=Europe/Berlin:20270407T220000
+SUMMARY:Philip Simon und Tobias Mann: Grundlos gute Laune
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Kabarett\, Paul-Schallück-Saal\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/p
+ rogramm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270409-offene-buehne@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T203000
+DTEND;TZID=Europe/Berlin:20270409T223000
+SUMMARY:Offene Bühne
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Jour-Fixe im Dachtheater\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270410-stefan-danziger-mittel-und-wege@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T190000
+DTEND;TZID=Europe/Berlin:20270410T210000
+SUMMARY:Stefan Danziger: Mittel und Wege
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Reihe Tuchfühlung im Dachtheater\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwall.de
+ /programm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waf-theater-am-wall-20270417-der-aufhaltsame-aufstieg-des-arturo-ui@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T200000
+DTEND;TZID=Europe/Berlin:20270417T220000
+SUMMARY:Der aufhaltsame Aufstieg des Arturo Ui
+LOCATION:Theater am Wall\, Wilhelmsplatz 9\, 48231 Warendorf
+DESCRIPTION:Rheinisches Landestheater Neuss\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.theateramwall.de/p
+ rogramm
+URL:https://www.theateramwall.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

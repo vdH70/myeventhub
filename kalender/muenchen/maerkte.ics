@@ -1,0 +1,155 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in München · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261025-krims-krams-flohmarkt@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T130000
+DTEND;TZID=Europe/Berlin:20261025T150000
+SUMMARY:Krims & Krams Flohmarkt
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Sonntagsflohmarkt auf dem Gelände des Bahnwärter Thiel.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-pineapple-park-20261030-thrifty-friday-nachtflohmarkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T170000
+DTEND;TZID=Europe/Berlin:20261030T190000
+SUMMARY:Thrifty Friday – Nachtflohmarkt
+LOCATION:Pineapple Park (Paketposthalle)\, 80634 München
+DESCRIPTION:Nachtflohmarkt mit Streetfood und Livemusik.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://midnightb
+ azar.de/termine
+URL:https://midnightbazar.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-pineapple-park-20261031-kinderflohmarkt-mit-grusel-spass@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T090000
+DTEND;TZID=Europe/Berlin:20261031T110000
+SUMMARY:Kinderflohmarkt mit Grusel-Spaß
+LOCATION:Pineapple Park (Paketposthalle)\, 80634 München
+DESCRIPTION:Kinderflohmarkt mit Kinderprogramm.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://midnightbazar.de/t
+ ermine
+URL:https://midnightbazar.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-pineapple-park-20261031-nachtflohmarkt-streetfood-midnight-blues-mit-
+ sheep@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T170000
+DTEND;TZID=Europe/Berlin:20261031T190000
+SUMMARY:Nachtflohmarkt\, Streetfood + Midnight Blues mit Sheep Lost
+LOCATION:Pineapple Park (Paketposthalle)\, 80634 München
+DESCRIPTION:Nachtflohmarkt mit Streetfood und Livemusik.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://midnightb
+ azar.de/termine
+URL:https://midnightbazar.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-pineapple-park-20261106-thrifty-friday-jazz-covers-nachtflohmarkt-mit
+ -fran@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T170000
+DTEND;TZID=Europe/Berlin:20261106T190000
+SUMMARY:Thrifty Friday – Jazz & Covers – Nachtflohmarkt mit Franzi Koko
+  Trio
+LOCATION:Pineapple Park (Paketposthalle)\, 80634 München
+DESCRIPTION:Nachtflohmarkt mit Streetfood und Livemusik.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://midnightb
+ azar.de/termine
+URL:https://midnightbazar.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-pineapple-park-20261107-nachtflohmarkt-streetfood-diwali@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T140000
+DTEND;TZID=Europe/Berlin:20261107T160000
+SUMMARY:Nachtflohmarkt\, Streetfood & Diwali
+LOCATION:Pineapple Park (Paketposthalle)\, 80634 München
+DESCRIPTION:Nachtflohmarkt mit Streetfood und Livemusik.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://midnightb
+ azar.de/termine
+URL:https://midnightbazar.de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-pineapple-park-20261113-thrifty-friday-nachtflohmarkt-mit-peace-rebel
+ -radi@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T170000
+DTEND;TZID=Europe/Berlin:20261113T190000
+SUMMARY:Thrifty Friday – Nachtflohmarkt mit Peace Rebel Radio
+LOCATION:Pineapple Park (Paketposthalle)\, 80634 München
+DESCRIPTION:Nachtflohmarkt mit Streetfood und Livemusik.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://midnightb
+ azar.de/termine?page=2
+URL:https://midnightbazar.de/termine?page=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-pineapple-park-20261114-herbst-kinderflohmarkt-mit-quatsch-und-spass@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T090000
+DTEND;TZID=Europe/Berlin:20261114T110000
+SUMMARY:Herbst-Kinderflohmarkt mit Quatsch und Spass
+LOCATION:Pineapple Park (Paketposthalle)\, 80634 München
+DESCRIPTION:Kinderflohmarkt mit Kinderprogramm.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://midnightbazar.de/t
+ ermine?page=2
+URL:https://midnightbazar.de/termine?page=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-pineapple-park-20261114-nachtflohmarkt-streetfood-live-musik-von-7-11
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T170000
+DTEND;TZID=Europe/Berlin:20261114T190000
+SUMMARY:Nachtflohmarkt\, Streetfood & Live Musik von 7/11
+LOCATION:Pineapple Park (Paketposthalle)\, 80634 München
+DESCRIPTION:Nachtflohmarkt mit Streetfood und Livemusik.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://midnightb
+ azar.de/termine?page=2
+URL:https://midnightbazar.de/termine?page=2
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

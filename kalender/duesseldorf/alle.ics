@@ -1,0 +1,704 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Düsseldorf · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d-metropol-20261025-kuzma@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T134500
+DTEND;TZID=Europe/Berlin:20261025T154500
+SUMMARY:Kuzma
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Zusatzvorstellung\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261025-bibi-blocksberg-2-die-total-verhexte-zeitreise@myevent
+ hub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:Bibi Blocksberg 2 - Die total verhexte Zeitreise
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261025-emil-und-die-detektive@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:Emil und die Detektive
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-cinema-20261025-niki-de-saint-phalle@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T141500
+DTEND;TZID=Europe/Berlin:20261025T161500
+SUMMARY:Niki de Saint Phalle
+LOCATION:Cinema Düsseldorf\, Schneider-Wibbel-Gasse 5\, 40213 Düsseldorf
+DESCRIPTION:Kunst im Kino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/cinema/
+URL:https://filmkunstkinos.de/kinos/cinema/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261025-shaun-das-schaf-spuk-im-kuerbisfeld@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T143000
+DTEND;TZID=Europe/Berlin:20261025T163000
+SUMMARY:Shaun das Schaf: Spuk im Kürbisfeld
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261025-a-new-dawn@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:A New Dawn
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Animes im Kino\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261026-heimsuchung@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T183000
+DTEND;TZID=Europe/Berlin:20261026T203000
+SUMMARY:Heimsuchung
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Leinwandlesen: Literatur im Kino\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://filmkunstkinos.de/kin
+ os/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261027-rascal-does-not-dream-of-a-dear-friend@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T210000
+DTEND;TZID=Europe/Berlin:20261027T230000
+SUMMARY:Rascal Does Not Dream of a Dear Friend
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Animes im Kino\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-atelier-20261028-ozzy-black-sabbath-back-to-the-beginning@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T210000
+DTEND;TZID=Europe/Berlin:20261028T230000
+SUMMARY:Ozzy & Black Sabbath: Back To The Beginning
+LOCATION:Atelier Düsseldorf\, Graf-Adolf-Str. 47\, 40210 Düsseldorf
+DESCRIPTION:Konzertfilm\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://filmkunstkinos.de/kinos/atelier/
+URL:https://filmkunstkinos.de/kinos/atelier/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261029-elefanten-im-nebel@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T190000
+DTEND;TZID=Europe/Berlin:20261029T210000
+SUMMARY:Elefanten im Nebel
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Eine Welt Filmtage\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261029-red-hot-chilli-pipers@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Red Hot Chilli Pipers
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-atelier-20261029-ozzy-black-sabbath-back-to-the-beginning@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T210000
+DTEND;TZID=Europe/Berlin:20261029T230000
+SUMMARY:Ozzy & Black Sabbath: Back To The Beginning
+LOCATION:Atelier Düsseldorf\, Graf-Adolf-Str. 47\, 40210 Düsseldorf
+DESCRIPTION:Konzertfilm\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://filmkunstkinos.de/kinos/atelier/
+URL:https://filmkunstkinos.de/kinos/atelier/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261030-near-dark@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T213000
+DTEND;TZID=Europe/Berlin:20261030T233000
+SUMMARY:Near Dark
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Reihe Der phantastische Film\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/m
+ etropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261031-shaun-das-schaf-spuk-im-kuerbisfeld@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T120000
+DTEND;TZID=Europe/Berlin:20261031T140000
+SUMMARY:Shaun das Schaf: Spuk im Kürbisfeld
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-atelier-20261031-ozzy-black-sabbath-back-to-the-beginning@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T133000
+DTEND;TZID=Europe/Berlin:20261031T153000
+SUMMARY:Ozzy & Black Sabbath: Back To The Beginning
+LOCATION:Atelier Düsseldorf\, Graf-Adolf-Str. 47\, 40210 Düsseldorf
+DESCRIPTION:Konzertfilm\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://filmkunstkinos.de/kinos/atelier/
+URL:https://filmkunstkinos.de/kinos/atelier/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-cinema-20261031-niki-de-saint-phalle@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T141500
+DTEND;TZID=Europe/Berlin:20261031T161500
+SUMMARY:Niki de Saint Phalle
+LOCATION:Cinema Düsseldorf\, Schneider-Wibbel-Gasse 5\, 40213 Düsseldorf
+DESCRIPTION:Kunst im Kino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/cinema/
+URL:https://filmkunstkinos.de/kinos/cinema/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261031-biermann@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Biermann
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Zu Gast in unseren Kinos\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/metro
+ pol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261031-queens-of-the-dead@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T213000
+DTEND;TZID=Europe/Berlin:20261031T233000
+SUMMARY:Queens of the Dead
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Halloween 2026\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261031-dog-of-god@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T213000
+DTEND;TZID=Europe/Berlin:20261031T233000
+SUMMARY:Dog of God
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Halloween Preview\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261101-shaun-das-schaf-spuk-im-kuerbisfeld@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T120000
+DTEND;TZID=Europe/Berlin:20261101T140000
+SUMMARY:Shaun das Schaf: Spuk im Kürbisfeld
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261101-bibi-blocksberg-2-die-total-verhexte-zeitreise@myevent
+ hub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Bibi Blocksberg 2 - Die total verhexte Zeitreise
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-cinema-20261101-rbo-manon-ballett@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:RBO: Manon (Ballett)
+LOCATION:Cinema Düsseldorf\, Schneider-Wibbel-Gasse 5\, 40213 Düsseldorf
+DESCRIPTION:Royal Ballet and Opera\, Ballett-Übertragung\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://filmkuns
+ tkinos.de/kinos/cinema/
+URL:https://filmkunstkinos.de/kinos/cinema/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261102-sneak-preview@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:Sneak Preview
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Sneak Preview\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261102-the-killer@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:The Killer
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:John Woo Klassiker restauriert\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://filmkunstkinos.de/kinos
+ /bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-heine-haus-20261102-esther-kinsky-heim-statt-gedichte@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T193000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:Esther Kinsky: Heim.Statt. Gedichte.
+LOCATION:Heine Haus – Literaturhaus Düsseldorf\, Bolkerstraße 53\, 4021
+ 3 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.heinehaus.de/
+URL:https://www.heinehaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261102-die-sterne@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Die Sterne
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261102-free-at-heart@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T210000
+DTEND;TZID=Europe/Berlin:20261102T230000
+SUMMARY:Free at Heart
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Queer Monday\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261103-the-notwist@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:The Notwist (ausverkauft)
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-heine-haus-20261104-martina-hefter-nach-der-sonne-schauen@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Martina Hefter: Nach der Sonne schauen.
+LOCATION:Heine Haus – Literaturhaus Düsseldorf\, Bolkerstraße 53\, 4021
+ 3 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.heinehaus.de/
+URL:https://www.heinehaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261104-victor-patrascan-comedy@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Victor Patrascan – Comedy
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261106-fuffifufzich@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Fuffifufzich
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261107-liedfett@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Liedfett
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-blumengrossmarkt-20261108-duesseldorfer-flohmarkt-am-blumengrossmarkt
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Düsseldorfer Flohmarkt am Blumengroßmarkt
+LOCATION:Blumengroßmarkt Düsseldorf\, Ulmenstraße 275\, 40468 Düsseldor
+ f
+DESCRIPTION:Flohmarkt auf dem Blumengroßmarkt\, veranstaltet von der Höfg
+ es Event Group.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://buchung.hoefges.com/duesseldorfer-flohmarkt
+URL:https://buchung.hoefges.com/duesseldorfer-flohmarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261108-rogers@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T183000
+DTEND;TZID=Europe/Berlin:20261108T203000
+SUMMARY:Rogers
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261109-fil-endlich-wieder-jung@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:FIL: Endlich wieder jung
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261111-fritz-eckenga@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Fritz Eckenga
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261112-quichotte-guter-dinge@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Quichotte: Guter Dinge
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261114-moneybrother@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Moneybrother
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261117-true-loves@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:True Loves
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261118-bosse@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Bosse (ausverkauft)
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261118-songslam-duesseldorf@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Songslam Düsseldorf
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-altstadt-weihnachtsmarkt-20261119-duesseldorfer-weihnachtsmarkt-2026-
+ beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Beginn: Düsseldorfer Weihnachtsmarkt 2026
+LOCATION:Düsseldorfer Innenstadt (Weihnachtsmarkt)\, Düsseldorf
+DESCRIPTION:Weihnachtsmarkt in der Innenstadt.\nLaufzeit: 19.11.2026 bis 30
+ .12.2026\nTermine laut Veranstalter: 22.11. und 25.12. geschlossen\; 24.12
+ . 11–15 Uhr\, 26.12. 14–21 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.visitduesseldorf.de/en/calendar-of-events/duesseldorf-christm
+ as-market-c73f17196c
+URL:https://www.visitduesseldorf.de/en/calendar-of-events/duesseldorf-chris
+ tmas-market-c73f17196c
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-altstadt-weihnachtsmarkt-20261119-duesseldorfer-weihnachtsmarkt-2026-
+ ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Letzter Tag: Düsseldorfer Weihnachtsmarkt 2026
+LOCATION:Düsseldorfer Innenstadt (Weihnachtsmarkt)\, Düsseldorf
+DESCRIPTION:Weihnachtsmarkt in der Innenstadt.\nLaufzeit: 19.11.2026 bis 30
+ .12.2026\nTermine laut Veranstalter: 22.11. und 25.12. geschlossen\; 24.12
+ . 11–15 Uhr\, 26.12. 14–21 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.visitduesseldorf.de/en/calendar-of-events/duesseldorf-christm
+ as-market-c73f17196c
+URL:https://www.visitduesseldorf.de/en/calendar-of-events/duesseldorf-chris
+ tmas-market-c73f17196c
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261124-mighty-oaks@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Mighty Oaks
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261126-alex-stoldt-quasi-nichts@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Alex Stoldt – QUASI NICHTS! (ausverkauft)
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-schloss-benrath-20261127-wandelkonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Wandelkonzert
+LOCATION:Schloss Benrath\, Düsseldorf
+DESCRIPTION:Termine laut Veranstalter: Fr 27.11. 20:00\, Sa 28.11. 20:00\, 
+ So 29.11. 11:00\nQuelle (bitte vor dem Besuch prüfen): https://www.schlos
+ s-benrath.de/
+URL:https://www.schloss-benrath.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261128-selig@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Selig (ausverkauft)
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261202-triggerfinger@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Triggerfinger
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261204-steiner-madlaina@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Steiner & Madlaina
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-blumengrossmarkt-20261206-duesseldorfer-flohmarkt-am-blumengrossmarkt
+ @myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Düsseldorfer Flohmarkt am Blumengroßmarkt
+LOCATION:Blumengroßmarkt Düsseldorf\, Ulmenstraße 275\, 40468 Düsseldor
+ f
+DESCRIPTION:Flohmarkt auf dem Blumengroßmarkt\, veranstaltet von der Höfg
+ es Event Group.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://buchung.hoefges.com/duesseldorfer-flohmarkt
+URL:https://buchung.hoefges.com/duesseldorfer-flohmarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-schloss-benrath-20261206-adventssingen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Adventssingen
+LOCATION:Schloss Benrath\, Düsseldorf
+DESCRIPTION:Termine laut Veranstalter: 11:00 und 13:00 Uhr\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schloss-benrath.de/
+URL:https://www.schloss-benrath.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-heine-haus-20261208-flurina-badel-nebelfluechtige@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T193000
+DTEND;TZID=Europe/Berlin:20261208T213000
+SUMMARY:Flurina Badel: Nebelflüchtige.
+LOCATION:Heine Haus – Literaturhaus Düsseldorf\, Bolkerstraße 53\, 4021
+ 3 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.heinehaus.de/
+URL:https://www.heinehaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,138 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Bonn · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bn-neue-filmbuehne-20261025-possible-love@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Possible Love
+LOCATION:Neue Filmbühne\, Friedrich-Breuer-Str. 68-70\, 53225 Bonn
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261025-junkies-of-dreaming-mahler-3-currentzis@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Junkies of Dreaming (Mahler 3 Currentzis)
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:Mit anschließendem Gespräch\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-neue-filmbuehne-20261025-naza@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T183000
+DTEND;TZID=Europe/Berlin:20261025T203000
+SUMMARY:Naza
+LOCATION:Neue Filmbühne\, Friedrich-Breuer-Str. 68-70\, 53225 Bonn
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261028-naza@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T183000
+DTEND;TZID=Europe/Berlin:20261028T203000
+SUMMARY:NAZA
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:Zusatzvorstellung\, OmU\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-neue-filmbuehne-20261028-possible-love@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T200000
+DTEND;TZID=Europe/Berlin:20261028T220000
+SUMMARY:Possible Love
+LOCATION:Neue Filmbühne\, Friedrich-Breuer-Str. 68-70\, 53225 Bonn
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261028-hope@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T201500
+DTEND;TZID=Europe/Berlin:20261028T221500
+SUMMARY:Hope
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261031-the-killer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T221500
+DTEND;TZID=Europe/Berlin:20261101T001500
+SUMMARY:The Killer
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261101-the-royal-ballet-manon@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T104500
+DTEND;TZID=Europe/Berlin:20261101T124500
+SUMMARY:The Royal Ballet: Manon
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:Ballettübertragung\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-neue-filmbuehne-20261101-possible-love@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Possible Love
+LOCATION:Neue Filmbühne\, Friedrich-Breuer-Str. 68-70\, 53225 Bonn
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

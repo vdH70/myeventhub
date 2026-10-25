@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Berlin · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b-lcb-20261025-ayse-klinge-der-zahn-kinderlesung-mit-live-zeichne@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:ABGESAGT: Ayşe Klinge: Der Zahn – Kinderlesung mit Live-Zeichnen
+LOCATION:Literarisches Colloquium Berlin (LCB)\, Am Sandwerder 5\, 14109 Be
+ rlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://lcb.de/programm/
+URL:https://lcb.de/programm/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-lcb-20261029-nacht-der-unerschossenen-gedichte-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T193000
+DTEND;TZID=Europe/Berlin:20261029T213000
+SUMMARY:Nacht der unerschossenen Gedichte 2026
+LOCATION:Literarisches Colloquium Berlin (LCB)\, Am Sandwerder 5\, 14109 Be
+ rlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://lcb.de/programm/
+URL:https://lcb.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-lcb-20261030-jonas-eika-offener-himmel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Jonas Eika: Offener Himmel
+LOCATION:Literarisches Colloquium Berlin (LCB)\, Am Sandwerder 5\, 14109 Be
+ rlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://lcb.de/programm/
+URL:https://lcb.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-schokofabrik-20261103-storytelling-workshop@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T180000
+DTEND;TZID=Europe/Berlin:20261103T200000
+SUMMARY:Storytelling-Workshop
+LOCATION:Frauenzentrum Schokofabrik\, Mariannenstraße 6\, 10997 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.schokofabrik.de/
+URL:https://www.schokofabrik.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-lcb-20261109-emmanuel-carrere-kolchose@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T193000
+DTEND;TZID=Europe/Berlin:20261109T213000
+SUMMARY:Emmanuel Carrère: Kolchose
+LOCATION:Literarisches Colloquium Berlin (LCB)\, Am Sandwerder 5\, 14109 Be
+ rlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://lcb.de/programm/
+URL:https://lcb.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-begine-20261115-40-jahre-begine-geschichte-n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:40 Jahre BEGiNE – Geschichte(n)!
+LOCATION:BEGiNE – Treffpunkt und Kultur für Frauen\, Potsdamer Str. 139\
+ , 10783 Berlin
+DESCRIPTION:Vortrag mit Bildern zur Geschichte des Frauencafés.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.begine.de/
+URL:https://www.begine.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-lcb-20261120-scham-casino-der-unverschaemtheiten@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Scham? Casino der Unverschämtheiten
+LOCATION:Literarisches Colloquium Berlin (LCB)\, Am Sandwerder 5\, 14109 Be
+ rlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://lcb.de/programm/
+URL:https://lcb.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-lcb-20261123-julya-rabinowich-mo-moritz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T190000
+DTEND;TZID=Europe/Berlin:20261123T210000
+SUMMARY:Julya Rabinowich: Mo & Moritz
+LOCATION:Literarisches Colloquium Berlin (LCB)\, Am Sandwerder 5\, 14109 Be
+ rlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://lcb.de/programm/
+URL:https://lcb.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-lcb-20261124-food-for-thoughts-das-hausgaeste-bankett-viii@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T193000
+DTEND;TZID=Europe/Berlin:20261124T213000
+SUMMARY:Food for Thoughts: das Hausgäste-Bankett VIII
+LOCATION:Literarisches Colloquium Berlin (LCB)\, Am Sandwerder 5\, 14109 Be
+ rlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://lcb.de/programm/
+URL:https://lcb.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-lcb-20261130-die-zukunft-der-freiheit-radka-denemarkova-und-tom@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T193000
+DTEND;TZID=Europe/Berlin:20261130T213000
+SUMMARY:Die Zukunft der Freiheit – Radka Denemarková und Tomasz Różyck
+ i
+LOCATION:Literarisches Colloquium Berlin (LCB)\, Am Sandwerder 5\, 14109 Be
+ rlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://lcb.de/programm/
+URL:https://lcb.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-knoblauchhaus-20261219-200-jahre-weihnacht@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T150000
+DTEND;TZID=Europe/Berlin:20261219T170000
+SUMMARY:200 Jahre Weihnacht
+LOCATION:Knoblauchhaus\, Poststraße 23\, 10178 Berlin
+DESCRIPTION:Lesung mit Musik.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.berlin.museum/museum/knoblauchha
+ us
+URL:https://www.berlin.museum/museum/knoblauchhaus
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

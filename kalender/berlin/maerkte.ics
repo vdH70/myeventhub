@@ -1,0 +1,238 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Berlin · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b-begine-20261101-kleidertauschboerse@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Kleidertauschbörse
+LOCATION:BEGiNE – Treffpunkt und Kultur für Frauen\, Potsdamer Str. 139\
+ , 10783 Berlin
+DESCRIPTION:Kleidertausch im Frauencafé BEGiNE.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.begine.de/
+URL:https://www.begine.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-nowkoelln-flowmarkt-20261101-nowkoelln-flowmarkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Nowkoelln Flowmarkt
+LOCATION:Nowkoelln Flowmarkt am Maybachufer\, Maybachufer 32-33\, 12047 Ber
+ lin
+DESCRIPTION:Flohmarkt am Maybachufer\, Termine im Zweiwochenrhythmus sonnta
+ gs.\nQuelle (bitte vor dem Besuch prüfen): https://nowkoelln.de/
+URL:https://nowkoelln.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-breitscheidplatz-20261113-43-weihnachtsmarkt-city-an-der-gedaechtnisk
+ irche-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Beginn: 43. Weihnachtsmarkt City an der Gedächtniskirche
+LOCATION:Breitscheidplatz (Gedächtniskirche)\, Berlin
+DESCRIPTION:Weihnachtsmarkt des Schaustellerverbands Berlin am Breitscheidp
+ latz.\nLaufzeit: 13.11.2026 bis 1.1.2027\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.schaustellerverband-berlin.de/
+URL:https://www.schaustellerverband-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-breitscheidplatz-20261113-43-weihnachtsmarkt-city-an-der-gedaechtnisk
+ irche-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Letzter Tag: 43. Weihnachtsmarkt City an der Gedächtniskirche
+LOCATION:Breitscheidplatz (Gedächtniskirche)\, Berlin
+DESCRIPTION:Weihnachtsmarkt des Schaustellerverbands Berlin am Breitscheidp
+ latz.\nLaufzeit: 13.11.2026 bis 1.1.2027\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.schaustellerverband-berlin.de/
+URL:https://www.schaustellerverband-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-schloss-charlottenburg-weihnachtsmarkt-20261123-weihnachtsmarkt-am-sc
+ hloss-charlottenburg-2026-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Weihnachtsmarkt am Schloss Charlottenburg 2026
+LOCATION:Weihnachtsmarkt am Schloss Charlottenburg\, Spandauer Damm 20-24\,
+  14059 Berlin
+DESCRIPTION:Mo–Do 13–22 Uhr\, Fr–So 12–22 Uhr\, 24.12. geschlossen.
+ \nLaufzeit: 23.11.2026 bis 27.12.2026\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.schloss-weihnachtsmarkt.de/
+URL:https://www.schloss-weihnachtsmarkt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-schloss-charlottenburg-weihnachtsmarkt-20261123-weihnachtsmarkt-am-sc
+ hloss-charlottenburg-2026-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Letzter Tag: Weihnachtsmarkt am Schloss Charlottenburg 2026
+LOCATION:Weihnachtsmarkt am Schloss Charlottenburg\, Spandauer Damm 20-24\,
+  14059 Berlin
+DESCRIPTION:Mo–Do 13–22 Uhr\, Fr–So 12–22 Uhr\, 24.12. geschlossen.
+ \nLaufzeit: 23.11.2026 bis 27.12.2026\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.schloss-weihnachtsmarkt.de/
+URL:https://www.schloss-weihnachtsmarkt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-kulturbrauerei-20261123-lucia-weihnachtsmarkt-2026-beginn@myeventhub.
+ de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Lucia Weihnachtsmarkt 2026
+LOCATION:Kulturbrauerei\, Berlin
+DESCRIPTION:Skandinavisch geprägter Weihnachtsmarkt in den Höfen der Kult
+ urbrauerei.\nLaufzeit: 23.11.2026 bis 22.12.2026\nTermine laut Veranstalte
+ r: Mo–Fr 15–22 Uhr\, Sa/So 13–22 Uhr\nPreis: Eintritt frei\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.lucia-weihnachtsmarkt.de/
+URL:https://www.lucia-weihnachtsmarkt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-kulturbrauerei-20261123-lucia-weihnachtsmarkt-2026-ende@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Letzter Tag: Lucia Weihnachtsmarkt 2026
+LOCATION:Kulturbrauerei\, Berlin
+DESCRIPTION:Skandinavisch geprägter Weihnachtsmarkt in den Höfen der Kult
+ urbrauerei.\nLaufzeit: 23.11.2026 bis 22.12.2026\nTermine laut Veranstalte
+ r: Mo–Fr 15–22 Uhr\, Sa/So 13–22 Uhr\nPreis: Eintritt frei\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.lucia-weihnachtsmarkt.de/
+URL:https://www.lucia-weihnachtsmarkt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-hof-domaene-dahlem-20261128-adventsmarkt-2026-auf-der-domaene-dahle
+ m@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Adventsmarkt 2026 auf der Domäne Dahlem
+LOCATION:Domäne Dahlem\, Königin-Luise-Straße 49\, 14195 Berlin
+DESCRIPTION:Adventsmarkt auf dem Gutshof\; laut Veranstalter an den Advents
+ wochenenden.\nQuelle (bitte vor dem Besuch prüfen): https://www.domaene-d
+ ahlem.de/
+URL:https://www.domaene-dahlem.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-nowkoelln-flowmarkt-20261129-nowkoelln-flowmarkt@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Nowkoelln Flowmarkt
+LOCATION:Nowkoelln Flowmarkt am Maybachufer\, Maybachufer 32-33\, 12047 Ber
+ lin
+DESCRIPTION:Flohmarkt am Maybachufer\, Termine im Zweiwochenrhythmus sonnta
+ gs.\nQuelle (bitte vor dem Besuch prüfen): https://nowkoelln.de/
+URL:https://nowkoelln.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20261204-winter-am-thf-wintermarkt-beginn@myevent
+ hub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Beginn: Winter am THF: Wintermarkt
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Wintermarkt in der Alten Feuerwache im THF Tower.\nLaufzeit: 4.
+ 12.2026 bis 6.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/winter-am-thf-winter
+ markt
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/winte
+ r-am-thf-wintermarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20261204-winter-am-thf-wintermarkt-ende@myeventhu
+ b.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Letzter Tag: Winter am THF: Wintermarkt
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Wintermarkt in der Alten Feuerwache im THF Tower.\nLaufzeit: 4.
+ 12.2026 bis 6.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/winter-am-thf-winter
+ markt
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/winte
+ r-am-thf-wintermarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20261211-winter-am-thf-wintermarkt-beginn@myevent
+ hub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Beginn: Winter am THF: Wintermarkt
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Wintermarkt in der Alten Feuerwache im THF Tower.\nLaufzeit: 11
+ .12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/winter-am-thf-wint
+ ermarkt-1
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/winte
+ r-am-thf-wintermarkt-1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20261211-winter-am-thf-wintermarkt-ende@myeventhu
+ b.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Winter am THF: Wintermarkt
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Wintermarkt in der Alten Feuerwache im THF Tower.\nLaufzeit: 11
+ .12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/winter-am-thf-wint
+ ermarkt-1
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/winte
+ r-am-thf-wintermarkt-1
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

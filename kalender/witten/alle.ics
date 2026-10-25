@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Witten · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261025-mami-mini-kinderflohmarkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T110000
+DTEND;TZID=Europe/Berlin:20261025T130000
+SUMMARY:Mami & Mini – Kinderflohmarkt
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Kinderflohmarkt bis 16 Uhr.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kulturforum-witten.de/
+ de/saalbauhauswitten/veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/saalbauhauswitten/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-zeche-nachtigall-20261025-unter-dampf@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:Vorführung der Dampffördermaschine
+LOCATION:LWL-Museum Zeche Nachtigall\, Nachtigallstraße 35\, 58452 Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://zeche-nachtigall.lwl.org/de/
+URL:https://zeche-nachtigall.lwl.org/de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261029-heute-letzter-tag-eine-expedition-durch-den-
+ buehne@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:HEUTE LETZTER TAG – Eine Expedition durch den Bühnenraum
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/saalbauhauswitten/veransta
+ ltungen/
+URL:https://www.kulturforum-witten.de/de/saalbauhauswitten/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-zeche-nachtigall-20261101-familiensonntag@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T113000
+DTEND;TZID=Europe/Berlin:20261101T133000
+SUMMARY:Familiensonntag
+LOCATION:LWL-Museum Zeche Nachtigall\, Nachtigallstraße 35\, 58452 Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://zeche-nachtigall.lwl.org/de/
+URL:https://zeche-nachtigall.lwl.org/de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-zeche-nachtigall-20261103-besucherbergwerk@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T120000
+DTEND;TZID=Europe/Berlin:20261103T140000
+SUMMARY:Besucherbergwerk
+LOCATION:LWL-Museum Zeche Nachtigall\, Nachtigallstraße 35\, 58452 Witten
+DESCRIPTION:Termine laut Veranstalter: weitere Führung um 15:30 Uhr\nQuell
+ e (bitte vor dem Besuch prüfen): https://zeche-nachtigall.lwl.org/de/
+URL:https://zeche-nachtigall.lwl.org/de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261106-mirja-boes-carpfe-diem@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Mirja Boes – carpfe diem!
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/saalbauhauswitten/veransta
+ ltungen/
+URL:https://www.kulturforum-witten.de/de/saalbauhauswitten/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261119-2-22-eine-geistergeschichte@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:2:22 Eine Geistergeschichte
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/saalbauhauswitten/veransta
+ ltungen/
+URL:https://www.kulturforum-witten.de/de/saalbauhauswitten/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261120-3-x-elvis-die-grosse-elvis-zeitreise@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:3 x Elvis! – Die große Elvis-Zeitreise
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/saalbauhauswitten/veransta
+ ltungen/
+URL:https://www.kulturforum-witten.de/de/saalbauhauswitten/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261124-pettersson-und-findus@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T153000
+DTEND;TZID=Europe/Berlin:20261124T173000
+SUMMARY:Pettersson und Findus
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/saalbauhauswitten/veransta
+ ltungen/
+URL:https://www.kulturforum-witten.de/de/saalbauhauswitten/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261127-hennes-bender-alter-falter@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Hennes Bender – Alter Falter!
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/saalbauhauswitten/veransta
+ ltungen/
+URL:https://www.kulturforum-witten.de/de/saalbauhauswitten/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

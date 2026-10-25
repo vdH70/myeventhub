@@ -1,0 +1,235 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Siegburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:su-stadtmuseum-siegburg-20261024-100-jahre-gedok-jubilaeumsausstellung-
+ beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: 100 Jahre GEDOK – Jubiläumsausstellung
+LOCATION:Stadtmuseum Siegburg\, Markt 46\, 53721 Siegburg
+DESCRIPTION:Laufzeit: 24.10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.stadtmuseum-siegburg.de/
+URL:https://www.stadtmuseum-siegburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-stadtmuseum-siegburg-20261024-100-jahre-gedok-jubilaeumsausstellung-
+ ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: 100 Jahre GEDOK – Jubiläumsausstellung
+LOCATION:Stadtmuseum Siegburg\, Markt 46\, 53721 Siegburg
+DESCRIPTION:Laufzeit: 24.10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.stadtmuseum-siegburg.de/
+URL:https://www.stadtmuseum-siegburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-stadtmuseum-siegburg-20261025-poesie-trifft-auf-kunst@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T113000
+DTEND;TZID=Europe/Berlin:20261025T133000
+SUMMARY:Poesie trifft auf Kunst
+LOCATION:Stadtmuseum Siegburg\, Markt 46\, 53721 Siegburg
+DESCRIPTION:Veranstaltung zur GEDOK-Ausstellung.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.stadtmuseum-s
+ iegburg.de/
+URL:https://www.stadtmuseum-siegburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-stadtmuseum-siegburg-20261031-rundgang-durch-die-ausstellung-100-jah
+ re-gedok@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Rundgang durch die Ausstellung 100 Jahre GEDOK
+LOCATION:Stadtmuseum Siegburg\, Markt 46\, 53721 Siegburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtmuseum-siegburg.de/
+URL:https://www.stadtmuseum-siegburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261104-bridgerton-konzert-bei-kerzenschein@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Bridgerton – Konzert bei Kerzenschein
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261108-yakari-freunde-fuers-leben@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Yakari – Freunde fürs Leben
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261109-schwanensee-ballet-classique-solenne@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Schwanensee – Ballet Classique Solenne
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261121-engagement-weltweit-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Engagement Weltweit 2026
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261126-reinhold-messner-weltberge-die-4-dimension
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Reinhold Messner: Weltberge – Die 4. Dimension
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261205-annika-preil-annis-wilde-tierabenteuer@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Annika Preil: Annis wilde Tierabenteuer
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261206-mo-torres-alle-jahre-wieder-unplugged-2026
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Mo-Torres: Alle Jahre wieder – Unplugged 2026
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261211-platz-prost-winteredition-beginn@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Beginn: Platz & Prost Winteredition
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Laufzeit: 11.12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://rhein-sieg-forum.de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261211-platz-prost-winteredition-ende@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Platz & Prost Winteredition
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Laufzeit: 11.12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://rhein-sieg-forum.de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261219-baroque-in-blue-xmas-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Baroque in Blue XMAS 2026
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261220-der-nussknacker-classico-ballett-napoli@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Der Nussknacker – Classico Ballett Napoli
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-rhein-sieg-forum-20261230-poetry-slam-jahresfinale-2026@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Poetry Slam Jahresfinale 2026
+LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
+ .de/de/programm
+URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

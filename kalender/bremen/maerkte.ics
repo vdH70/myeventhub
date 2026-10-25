@@ -1,0 +1,980 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Bremen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hb-innenstadt-maerkte-20261016-historischer-markt-zu-bremen-beginn@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Beginn: Historischer Markt zu Bremen
+LOCATION:Bremer Innenstadt (Marktplatz\, Liebfrauenkirchhof)\, Bremen
+DESCRIPTION:Mittelaltermarkt am Schoppensteel\, täglich 11–20 Uhr.\nLauf
+ zeit: 16.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.marktwelt-bremen.de/markt/historischer-markt-zu-bremen/
+URL:https://www.marktwelt-bremen.de/markt/historischer-markt-zu-bremen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-innenstadt-maerkte-20261016-historischer-markt-zu-bremen-ende@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Historischer Markt zu Bremen
+LOCATION:Bremer Innenstadt (Marktplatz\, Liebfrauenkirchhof)\, Bremen
+DESCRIPTION:Mittelaltermarkt am Schoppensteel\, täglich 11–20 Uhr.\nLauf
+ zeit: 16.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.marktwelt-bremen.de/markt/historischer-markt-zu-bremen/
+URL:https://www.marktwelt-bremen.de/markt/historischer-markt-zu-bremen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-wochenmarkt-bogenstrasse-20261026-wochenmarkt-bogenstrasse@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T070000
+DTEND;TZID=Europe/Berlin:20261028T090000
+RRULE:FREQ=WEEKLY;BYDAY=WE,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T070000,20261226T070000
+SUMMARY:Wochenmarkt Bogenstraße
+LOCATION:Wochenmarkt Bogenstraße\, Bogenstraße 1\, 27568 Bremerhaven
+DESCRIPTION:Termine laut Veranstalter: mittwochs\, samstags 7–13 Uhr\; an
+  Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://mei
+ ne-wochenmaerkte.de/bogenstrasse/
+URL:https://meine-wochenmaerkte.de/bogenstrasse/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-wochenmarkt-geestemuende-20261026-wochenmarkt-geestemuende@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T070000
+DTEND;TZID=Europe/Berlin:20261028T090000
+RRULE:FREQ=WEEKLY;BYDAY=WE,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T070000,20261226T070000
+SUMMARY:Wochenmarkt Geestemünde
+LOCATION:Wochenmarkt Geestemünde\, Konrad-Adenauer-Platz\, 27570 Bremerhav
+ en
+DESCRIPTION:Termine laut Veranstalter: mittwochs\, samstags 7–13 Uhr\; an
+  Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://mei
+ ne-wochenmaerkte.de/geestemuende/
+URL:https://meine-wochenmaerkte.de/geestemuende/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-wochenmarkt-lehe-20261026-wochenmarkt-lehe@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T070000
+DTEND;TZID=Europe/Berlin:20261028T090000
+RRULE:FREQ=WEEKLY;BYDAY=WE,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T070000,20261226T070000
+SUMMARY:Wochenmarkt Lehe
+LOCATION:Wochenmarkt Lehe\, Ernst-Reuter-Platz\, Hafenstraße\, 27576 Breme
+ rhaven
+DESCRIPTION:Termine laut Veranstalter: mittwochs\, samstags 7–13 Uhr\; an
+  Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://mei
+ ne-wochenmaerkte.de/lehe/
+URL:https://meine-wochenmaerkte.de/lehe/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-wochenmarkt-leherheide-20261026-wochenmarkt-leherheide@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T070000
+DTEND;TZID=Europe/Berlin:20261028T090000
+RRULE:FREQ=WEEKLY;BYDAY=WE,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T070000,20261226T070000
+SUMMARY:Wochenmarkt Leherheide
+LOCATION:Wochenmarkt Leherheide\, Julius-Leber-Platz\, Hans-Böckler-Straß
+ e\, 27578 Bremerhaven
+DESCRIPTION:Termine laut Veranstalter: mittwochs\, samstags 7–13 Uhr\; an
+  Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://mei
+ ne-wochenmaerkte.de/leherheide/
+URL:https://meine-wochenmaerkte.de/leherheide/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-huchting-20261026-wochenmarkt-huchting@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T070000
+DTEND;TZID=Europe/Berlin:20261028T090000
+RRULE:FREQ=WEEKLY;BYDAY=WE,FR,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T070000,20261225T070000,20261226T070000,2
+ 0270101T070000,20270326T070000
+SUMMARY:Wochenmarkt Huchting
+LOCATION:Wochenmarkt Huchting\, Ecke Am Sodenmatt/Heinrich-Plett-Allee\, 28
+ 259 Bremen
+DESCRIPTION:Termine laut Veranstalter: mittwochs\, samstags 8–13 Uhr\; fr
+ eitags 7–13.30 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Bes
+ uch prüfen): https://meine-wochenmaerkte.de/huchting/
+URL:https://meine-wochenmaerkte.de/huchting/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-benqueplatz-20261026-wochenmarkt-schwachhausen-benquepla
+ tz@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T073000
+DTEND;TZID=Europe/Berlin:20261028T093000
+RRULE:FREQ=WEEKLY;BYDAY=WE,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T073000,20261226T073000
+SUMMARY:Wochenmarkt Schwachhausen (Benqueplatz)
+LOCATION:Wochenmarkt Schwachhausen (Benqueplatz)\, Benqueplatz\, 28209 Brem
+ en
+DESCRIPTION:Termine laut Veranstalter: mittwochs 7.30–13 Uhr\; samstags 7
+ .30–13.30 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Besuch p
+ rüfen): https://meine-wochenmaerkte.de/benqueplatz/
+URL:https://meine-wochenmaerkte.de/benqueplatz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-wochenmarkt-wulsdorf-20261026-wochenmarkt-wulsdorf@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Wulsdorf
+LOCATION:Wochenmarkt Wulsdorf\, Heinrich-Kappelmann-Straße 13\, 27572 Brem
+ erhaven
+DESCRIPTION:Termine laut Veranstalter: freitags 8–14 Uhr\; an Feiertagen 
+ kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-wochenmae
+ rkte.de/wulsdorf/
+URL:https://meine-wochenmaerkte.de/wulsdorf/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-arbergen-20261026-wochenmarkt-arbergen@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Arbergen
+LOCATION:Wochenmarkt Arbergen\, Dorfplatz\, Colshornstraße 36\, 28307 Brem
+ en
+DESCRIPTION:Termine laut Veranstalter: freitags 8–13 Uhr\; an Feiertagen 
+ kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-wochenmae
+ rkte.de/arbergen/
+URL:https://meine-wochenmaerkte.de/arbergen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-blockdiek-20261026-wochenmarkt-blockdiek@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Blockdiek
+LOCATION:Wochenmarkt Blockdiek\, Einkaufszentrum Blockdiek\, Max-Säume-Str
+ aße\, 28327 Bremen
+DESCRIPTION:Termine laut Veranstalter: freitags 8–13 Uhr\; an Feiertagen 
+ kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-wochenmae
+ rkte.de/blockdiek/
+URL:https://meine-wochenmaerkte.de/blockdiek/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-borgfeld-20261026-wochenmarkt-borgfeld@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T080000
+DTEND;TZID=Europe/Berlin:20261028T100000
+RRULE:FREQ=WEEKLY;BYDAY=WE,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261226T080000
+SUMMARY:Wochenmarkt Borgfeld
+LOCATION:Wochenmarkt Borgfeld\, Platz zur Linde\, 28357 Bremen
+DESCRIPTION:Termine laut Veranstalter: mittwochs\, samstags 8–13 Uhr\; an
+  Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://mei
+ ne-wochenmaerkte.de/borgfeld/
+URL:https://meine-wochenmaerkte.de/borgfeld/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-delmestrasse-20261026-wochenmarkt-neustadt-delmestrasse@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T080000
+DTEND;TZID=Europe/Berlin:20261026T100000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261225T080000,20261226T080000,2
+ 0270101T080000,20270326T080000,20270329T080000
+SUMMARY:Wochenmarkt Neustadt (Delmestraße)
+LOCATION:Wochenmarkt Neustadt (Delmestraße)\, Ecke Delmestraße/Pappelstra
+ ße\, 28199 Bremen
+DESCRIPTION:Termine laut Veranstalter: montags bis freitags 8–13 Uhr\; sa
+ mstags 8–14 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Besuch
+  prüfen): https://meine-wochenmaerkte.de/delmestrasse/
+URL:https://meine-wochenmaerkte.de/delmestrasse/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-domshof-20261026-wochenmarkt-domshof@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T080000
+DTEND;TZID=Europe/Berlin:20261026T100000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261225T080000,20261226T080000,2
+ 0270101T080000,20270326T080000,20270329T080000
+SUMMARY:Wochenmarkt Domshof
+LOCATION:Wochenmarkt Domshof\, Domshof\, 28195 Bremen
+DESCRIPTION:Termine laut Veranstalter: montags bis freitags 8–14 Uhr\; sa
+ mstags 8–15 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Besuch
+  prüfen): https://meine-wochenmaerkte.de/domshof/
+URL:https://meine-wochenmaerkte.de/domshof/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-findorff-20261026-wochenmarkt-findorff@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T080000
+DTEND;TZID=Europe/Berlin:20261027T100000
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261226T080000
+SUMMARY:Wochenmarkt Findorff
+LOCATION:Wochenmarkt Findorff\, Neukirchstraße 45\, 28215 Bremen
+DESCRIPTION:Termine laut Veranstalter: dienstags\, donnerstags 8–13 Uhr\;
+  samstags 8–14 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Bes
+ uch prüfen): https://meine-wochenmaerkte.de/findorff/
+URL:https://meine-wochenmaerkte.de/findorff/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-gottfried-menken-strasse-20261026-wochenmarkt-neustadt-g
+ ottfried-menken-strasse@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261225T080000,20261226T080000,2
+ 0270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Neustadt (Gottfried-Menken-Straße)
+LOCATION:Wochenmarkt Neustadt (Gottfried-Menken-Straße)\, Gottfried-Menken
+ -Straße\, 28201 Bremen
+DESCRIPTION:Termine laut Veranstalter: freitags\, samstags 8–13 Uhr\; an 
+ Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://mein
+ e-wochenmaerkte.de/gottfried-menken-strasse/
+URL:https://meine-wochenmaerkte.de/gottfried-menken-strasse/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-groepelingen-20261026-wochenmarkt-groepelingen@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T080000
+DTEND;TZID=Europe/Berlin:20261027T100000
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261226T080000
+SUMMARY:Wochenmarkt Gröpelingen
+LOCATION:Wochenmarkt Gröpelingen\, Bürgermeister-Ehlers-Platz\, Pastorenw
+ eg\, 28237 Bremen
+DESCRIPTION:Termine laut Veranstalter: dienstags\, donnerstags\, samstags 8
+ –13 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen
+ ): https://meine-wochenmaerkte.de/groepelingen/
+URL:https://meine-wochenmaerkte.de/groepelingen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-grosser-kurfuerst-20261026-wochenmarkt-grosser-kurfuerst
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Großer Kurfürst
+LOCATION:Wochenmarkt Großer Kurfürst\, Eislebener Straße 68\, 28329 Brem
+ en
+DESCRIPTION:Termine laut Veranstalter: freitags 8–13 Uhr\; an Feiertagen 
+ kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-wochenmae
+ rkte.de/grosser-kurfuerst/
+URL:https://meine-wochenmaerkte.de/grosser-kurfuerst/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-hastedt-20261026-wochenmarkt-hastedt-bei-den-drei-pfaehl
+ en@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Hastedt (Bei den drei Pfählen)
+LOCATION:Wochenmarkt Hastedt (Bei den drei Pfählen)\, Ecke Bei den drei Pf
+ ählen/Hermine-Berthold-Straße\, 28205 Bremen
+DESCRIPTION:Termine laut Veranstalter: freitags 8–13 Uhr\; an Feiertagen 
+ kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-wochenmae
+ rkte.de/hastedt/
+URL:https://meine-wochenmaerkte.de/hastedt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-horn-lehe-20261026-wochenmarkt-horn-lehe@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T080000
+DTEND;TZID=Europe/Berlin:20261029T100000
+RRULE:FREQ=WEEKLY;BYDAY=TH,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261226T080000
+SUMMARY:Wochenmarkt Horn-Lehe
+LOCATION:Wochenmarkt Horn-Lehe\, Ecke Robert-Bunsen-Straße/Wilhelm-Röntge
+ n-Straße\, 28357 Bremen
+DESCRIPTION:Termine laut Veranstalter: donnerstags\, samstags 8–13 Uhr\; 
+ an Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://m
+ eine-wochenmaerkte.de/horn-lehe/
+URL:https://meine-wochenmaerkte.de/horn-lehe/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-lesum-20261026-wochenmarkt-lesum@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Lesum
+LOCATION:Wochenmarkt Lesum\, Hindenburgstraße 30\, 28717 Bremen
+DESCRIPTION:Termine laut Veranstalter: freitags 8–13 Uhr\; an Feiertagen 
+ kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-wochenmae
+ rkte.de/lesum/
+URL:https://meine-wochenmaerkte.de/lesum/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-liebfrauenkirchhof-20261026-blumenmarkt-unser-lieben-fra
+ uen-kirchhof@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T080000
+DTEND;TZID=Europe/Berlin:20261026T100000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261225T080000,20261226T080000,2
+ 0270101T080000,20270326T080000,20270329T080000
+SUMMARY:Blumenmarkt Unser-Lieben-Frauen-Kirchhof
+LOCATION:Blumenmarkt Unser-Lieben-Frauen-Kirchhof\, Unser Lieben Frauen Kir
+ chhof\, 28195 Bremen
+DESCRIPTION:Termine laut Veranstalter: montags bis freitags 8–14 Uhr\; sa
+ mstags 8–15 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Besuch
+  prüfen): https://meine-wochenmaerkte.de/liebfrauenkirchhof/
+URL:https://meine-wochenmaerkte.de/liebfrauenkirchhof/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-marssel-20261026-wochenmarkt-marssel@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Marßel
+LOCATION:Wochenmarkt Marßel\, Stockholmer Straße\, 28719 Bremen
+DESCRIPTION:Termine laut Veranstalter: freitags 8–13 Uhr\; an Feiertagen 
+ kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-wochenmae
+ rkte.de/marssel/
+URL:https://meine-wochenmaerkte.de/marssel/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-meier-allee-20261026-wochenmarkt-schwachhausen-h-h-meier
+ -allee@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Schwachhausen (H.-H.-Meier-Allee)
+LOCATION:Wochenmarkt Schwachhausen (H.-H.-Meier-Allee)\, Ecke Hermann-Henri
+ ch-Meier-Allee/Baumschulenweg\, 28213 Bremen
+DESCRIPTION:Termine laut Veranstalter: freitags 8–13 Uhr\; an Feiertagen 
+ kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-wochenmae
+ rkte.de/meier-allee/
+URL:https://meine-wochenmaerkte.de/meier-allee/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-obervieland-20261026-wochenmarkt-obervieland-kattenturm@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T080000
+DTEND;TZID=Europe/Berlin:20261028T100000
+RRULE:FREQ=WEEKLY;BYDAY=WE,FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Obervieland (Kattenturm)
+LOCATION:Wochenmarkt Obervieland (Kattenturm)\, Kattenturmer Marktplatz\, A
+ nna-Stiegler-Straße\, 28277 Bremen
+DESCRIPTION:Termine laut Veranstalter: mittwochs\, freitags 8–13 Uhr\; an
+  Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://mei
+ ne-wochenmaerkte.de/obervieland/
+URL:https://meine-wochenmaerkte.de/obervieland/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-oslebshausen-20261026-wochenmarkt-oslebshausen@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T080000
+DTEND;TZID=Europe/Berlin:20261028T100000
+RRULE:FREQ=WEEKLY;BYDAY=WE,FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Oslebshausen
+LOCATION:Wochenmarkt Oslebshausen\, Regine-Hildebrandt-Platz\, 28239 Bremen
+DESCRIPTION:Termine laut Veranstalter: mittwochs\, freitags 8–13 Uhr\; an
+  Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://mei
+ ne-wochenmaerkte.de/oslebshausen/
+URL:https://meine-wochenmaerkte.de/oslebshausen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-osterholz-20261026-wochenmarkt-osterholz@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T080000
+DTEND;TZID=Europe/Berlin:20261027T100000
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261226T080000
+SUMMARY:Wochenmarkt Osterholz
+LOCATION:Wochenmarkt Osterholz\, Schweizer Eck (Walliser Straße)\, 28325 B
+ remen
+DESCRIPTION:Termine laut Veranstalter: dienstags\, donnerstags\, samstags 8
+ –13 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen
+ ): https://meine-wochenmaerkte.de/osterholz/
+URL:https://meine-wochenmaerkte.de/osterholz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-vahr-20261026-wochenmarkt-vahr@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T080000
+DTEND;TZID=Europe/Berlin:20261027T100000
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261226T080000
+SUMMARY:Wochenmarkt Vahr
+LOCATION:Wochenmarkt Vahr\, Berliner Freiheit\, 28327 Bremen
+DESCRIPTION:Termine laut Veranstalter: dienstags\, donnerstags\, samstags 8
+ –13.30 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prü
+ fen): https://meine-wochenmaerkte.de/vahr/
+URL:https://meine-wochenmaerkte.de/vahr/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-vegesack-20261026-wochenmarkt-vegesack@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T080000
+DTEND;TZID=Europe/Berlin:20261027T100000
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261226T080000
+SUMMARY:Wochenmarkt Vegesack
+LOCATION:Wochenmarkt Vegesack\, Am Sedanplatz\, 28757 Bremen
+DESCRIPTION:Termine laut Veranstalter: dienstags\, donnerstags 8–13 Uhr\;
+  samstags 8–13.30 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem 
+ Besuch prüfen): https://meine-wochenmaerkte.de/vegesack/
+URL:https://meine-wochenmaerkte.de/vegesack/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-walle-20261026-wochenmarkt-walle@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T080000
+DTEND;TZID=Europe/Berlin:20261027T100000
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261226T080000
+SUMMARY:Wochenmarkt Walle
+LOCATION:Wochenmarkt Walle\, Wartburgplatz 1\, 28217 Bremen
+DESCRIPTION:Termine laut Veranstalter: dienstags\, donnerstags\, samstags 8
+ –13 Uhr\; an Feiertagen kein Markt\nQuelle (bitte vor dem Besuch prüfen
+ ): https://meine-wochenmaerkte.de/walle/
+URL:https://meine-wochenmaerkte.de/walle/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-woltmershausen-20261026-wochenmarkt-woltmershausen@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261225T080000,20270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Woltmershausen
+LOCATION:Wochenmarkt Woltmershausen\, Pusdorfer Marktplatz\, Dötlinger Str
+ aße\, 28197 Bremen
+DESCRIPTION:Termine laut Veranstalter: freitags 8–13 Uhr\; an Feiertagen 
+ kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-wochenmae
+ rkte.de/woltmershausen/
+URL:https://meine-wochenmaerkte.de/woltmershausen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-ziegenmarkt-20261026-wochenmarkt-steintor-ziegenmarkt@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T080000
+DTEND;TZID=Europe/Berlin:20261028T100000
+RRULE:FREQ=WEEKLY;BYDAY=WE,TH,FR,SA;UNTIL=20270331T235959Z
+EXDATE;TZID=Europe/Berlin:20261031T080000,20261225T080000,20261226T080000,2
+ 0270101T080000,20270326T080000
+SUMMARY:Wochenmarkt Steintor (Ziegenmarkt)
+LOCATION:Wochenmarkt Steintor (Ziegenmarkt)\, Vor dem Steintor 60–62\, 28
+ 203 Bremen
+DESCRIPTION:Termine laut Veranstalter: mittwochs\, donnerstags\, freitags 8
+ –18 Uhr\; samstags 8–14 Uhr\; an Feiertagen kein Markt\nQuelle (bitte 
+ vor dem Besuch prüfen): https://meine-wochenmaerkte.de/ziegenmarkt/
+URL:https://meine-wochenmaerkte.de/ziegenmarkt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-slevogtstrasse-20261026-bauernmarkt-slevogtstrasse@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T100000
+DTEND;TZID=Europe/Berlin:20261029T120000
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20270331T235959Z
+SUMMARY:Bauernmarkt Slevogtstraße
+LOCATION:Bauernmarkt Slevogtstraße\, Slevogtstraße 58\, 28209 Bremen
+DESCRIPTION:Termine laut Veranstalter: donnerstags 10–16 Uhr\; an Feierta
+ gen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-woche
+ nmaerkte.de/slevogtstrasse/
+URL:https://meine-wochenmaerkte.de/slevogtstrasse/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-habenhausen-20261026-wochenmarkt-habenhausen@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T150000
+DTEND;TZID=Europe/Berlin:20261029T170000
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20270331T235959Z
+SUMMARY:Wochenmarkt Habenhausen
+LOCATION:Wochenmarkt Habenhausen\, Anna-Seghers-Straße\, 28279 Bremen
+DESCRIPTION:Termine laut Veranstalter: donnerstags 15–18 Uhr\; an Feierta
+ gen kein Markt\nQuelle (bitte vor dem Besuch prüfen): https://meine-woche
+ nmaerkte.de/habenhausen/
+URL:https://meine-wochenmaerkte.de/habenhausen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-wochenmarkt-geestemuende-20261030-wochenmarkt-geestemuende-vorgezog
+ en-vom-31-10@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T070000
+DTEND;TZID=Europe/Berlin:20261030T090000
+SUMMARY:Wochenmarkt Geestemünde (vorgezogen vom 31.10.)
+LOCATION:Wochenmarkt Geestemünde\, Konrad-Adenauer-Platz\, 27570 Bremerhav
+ en
+DESCRIPTION:Samstagsmarkt wegen des Feiertags am Freitag\, 7–13 Uhr.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://meine-wochenmaerkte.de/oeffnungszeiten-der-wochenmaerkte-rund-um-den-
+ reformationstag/
+URL:https://meine-wochenmaerkte.de/oeffnungszeiten-der-wochenmaerkte-rund-u
+ m-den-reformationstag/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-findorff-20261030-wochenmarkt-findorff-vorgezogen-vom-31
+ -10@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+SUMMARY:Wochenmarkt Findorff (vorgezogen vom 31.10.)
+LOCATION:Wochenmarkt Findorff\, Neukirchstraße 45\, 28215 Bremen
+DESCRIPTION:Samstagsmarkt wegen des Feiertags am Freitag\, 8–14 Uhr.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://meine-wochenmaerkte.de/oeffnungszeiten-der-wochenmaerkte-rund-um-den-
+ reformationstag/
+URL:https://meine-wochenmaerkte.de/oeffnungszeiten-der-wochenmaerkte-rund-u
+ m-den-reformationstag/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wochenmarkt-vegesack-20261030-wochenmarkt-vegesack-vorgezogen-vom-31
+ -10@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T080000
+DTEND;TZID=Europe/Berlin:20261030T100000
+SUMMARY:Wochenmarkt Vegesack (vorgezogen vom 31.10.)
+LOCATION:Wochenmarkt Vegesack\, Am Sedanplatz\, 28757 Bremen
+DESCRIPTION:Samstagsmarkt wegen des Feiertags am Freitag\, 8–13.30 Uhr.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://meine-wochenmaerkte.de/oeffnungszeiten-der-wochenmaerkte-rund-um-d
+ en-reformationstag/
+URL:https://meine-wochenmaerkte.de/oeffnungszeiten-der-wochenmaerkte-rund-u
+ m-den-reformationstag/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-fischbahnhof-20261031-winterlicher-kunsthandwerkermarkt-im-fischbah
+ nhof-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Beginn: Winterlicher Kunsthandwerkermarkt im Fischbahnhof
+LOCATION:Fischbahnhof Bremerhaven (Forum am Fischbahnhof\, Theater im Fisch
+ ereihafen TiF)\, Am Schaufenster 6\, 27572 Bremerhaven
+DESCRIPTION:Markt mit über 40 Kunsthandwerkern\, 10 bis 18 Uhr.\nLaufzeit:
+  31.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.fbg-bremerhaven.de/erlebnis/en/attractions/fischbahnhof/
+URL:https://www.fbg-bremerhaven.de/erlebnis/en/attractions/fischbahnhof/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-fischbahnhof-20261031-winterlicher-kunsthandwerkermarkt-im-fischbah
+ nhof-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Winterlicher Kunsthandwerkermarkt im Fischbahnhof
+LOCATION:Fischbahnhof Bremerhaven (Forum am Fischbahnhof\, Theater im Fisch
+ ereihafen TiF)\, Am Schaufenster 6\, 27572 Bremerhaven
+DESCRIPTION:Markt mit über 40 Kunsthandwerkern\, 10 bis 18 Uhr.\nLaufzeit:
+  31.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.fbg-bremerhaven.de/erlebnis/en/attractions/fischbahnhof/
+URL:https://www.fbg-bremerhaven.de/erlebnis/en/attractions/fischbahnhof/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-findorffer-winterdorf-20261106-findorffer-winterdorf-saisonstart@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T170000
+DTEND;TZID=Europe/Berlin:20261106T190000
+SUMMARY:Findorffer Winterdorf: Saisonstart
+LOCATION:Findorffer Winterdorf (Jan-Reiners-Park)\, Fürther Straße 45\, 2
+ 8215 Bremen
+DESCRIPTION:Start der Winterdorf-Saison\; danach Mo–Do 17–21\, Fr 17–
+ 22\, Sa 16–22\, So 16–21 Uhr (Ende noch offen).\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://findorfferwin
+ terdorf.de/
+URL:https://findorfferwinterdorf.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-messe-bremen-20261114-stoffmarkt-holland@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T100000
+DTEND;TZID=Europe/Berlin:20261114T120000
+SUMMARY:Stoffmarkt Holland
+LOCATION:Messe Bremen\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Stoffmarkt auf dem Messegelände.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://messe-bremen.de/even
+ ts/
+URL:https://messe-bremen.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-schuppen-eins-20261122-teile-und-zubehoerflohmarkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T090000
+DTEND;TZID=Europe/Berlin:20261122T110000
+SUMMARY:Teile- und Zubehörflohmarkt
+LOCATION:Schuppen Eins\, Konsul-Smidt-Straße 20-26\, 28217 Bremen
+DESCRIPTION:Flohmarkt für Auto- und Motorradteile\, Zubehör und Werkzeug.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte v
+ or dem Besuch prüfen): https://schuppeneins.de/termine/teile-und-zubehoer
+ flohmarkt-2/
+URL:https://schuppeneins.de/termine/teile-und-zubehoerflohmarkt-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-innenstadt-maerkte-20261123-bremer-weihnachtsmarkt-2026-beginn@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Bremer Weihnachtsmarkt 2026
+LOCATION:Bremer Innenstadt (Marktplatz\, Liebfrauenkirchhof)\, Bremen
+DESCRIPTION:So–Do 11–20:30 Uhr\, Fr/Sa 11–21:30 Uhr.\nLaufzeit: 23.11
+ .2026 bis 23.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.b
+ remer-weihnachtsmarkt.de/oeffnungszeiten/
+URL:https://www.bremer-weihnachtsmarkt.de/oeffnungszeiten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-innenstadt-maerkte-20261123-bremer-weihnachtsmarkt-2026-ende@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Bremer Weihnachtsmarkt 2026
+LOCATION:Bremer Innenstadt (Marktplatz\, Liebfrauenkirchhof)\, Bremen
+DESCRIPTION:So–Do 11–20:30 Uhr\, Fr/Sa 11–21:30 Uhr.\nLaufzeit: 23.11
+ .2026 bis 23.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.b
+ remer-weihnachtsmarkt.de/oeffnungszeiten/
+URL:https://www.bremer-weihnachtsmarkt.de/oeffnungszeiten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-schlachte-20261123-schlachte-zauber-2026-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Schlachte-Zauber 2026
+LOCATION:Schlachte (zwischen Am Brill und Erster Schlachtpforte)\, Bremen
+DESCRIPTION:Maritimer Weihnachtsmarkt an der Weser\; Eröffnungsfeuerwerk a
+ m 23.11. gegen 18:30 Uhr.\nLaufzeit: 23.11.2026 bis 23.12.2026\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.marktwelt-bremen.de/markt/schlach
+ te-zauber/
+URL:https://www.marktwelt-bremen.de/markt/schlachte-zauber/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-schlachte-20261123-schlachte-zauber-2026-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Schlachte-Zauber 2026
+LOCATION:Schlachte (zwischen Am Brill und Erster Schlachtpforte)\, Bremen
+DESCRIPTION:Maritimer Weihnachtsmarkt an der Weser\; Eröffnungsfeuerwerk a
+ m 23.11. gegen 18:30 Uhr.\nLaufzeit: 23.11.2026 bis 23.12.2026\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.marktwelt-bremen.de/markt/schlach
+ te-zauber/
+URL:https://www.marktwelt-bremen.de/markt/schlachte-zauber/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-vegesack-innenstadt-20261123-vegesacker-winterdorf-2026-beginn@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Vegesacker Winterdorf 2026
+LOCATION:Vegesacker Innenstadt\, Bremen
+DESCRIPTION:Weihnachtsmarkt in der Vegesacker Innenstadt mit Vegesack Marke
+ ting e.V.\nLaufzeit: 23.11.2026 bis 20.12.2026\nTermine laut Veranstalter:
+  Mo–Sa 12–20 Uhr (Eisstock-Abende bis 21.45 Uhr)\, Adventssonntage 14
+ –19 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://vegesack.de/vege
+ sacker-winterdorf/
+URL:https://vegesack.de/vegesacker-winterdorf/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-vegesack-innenstadt-20261123-vegesacker-winterdorf-2026-ende@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Letzter Tag: Vegesacker Winterdorf 2026
+LOCATION:Vegesacker Innenstadt\, Bremen
+DESCRIPTION:Weihnachtsmarkt in der Vegesacker Innenstadt mit Vegesack Marke
+ ting e.V.\nLaufzeit: 23.11.2026 bis 20.12.2026\nTermine laut Veranstalter:
+  Mo–Sa 12–20 Uhr (Eisstock-Abende bis 21.45 Uhr)\, Adventssonntage 14
+ –19 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://vegesack.de/vege
+ sacker-winterdorf/
+URL:https://vegesack.de/vegesacker-winterdorf/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-weihnachtsmarkt-20261123-weihnachtsmarkt-bremerhaven-2026-beginn@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Weihnachtsmarkt Bremerhaven 2026
+LOCATION:Weihnachtsmarkt Bremerhaven (Innenstadt)\, Bremerhaven
+DESCRIPTION:Weihnachtsmarkt von Erlebnis Bremerhaven.\nLaufzeit: 23.11.2026
+  bis 30.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.bremer
+ haven-erleben.de/weihnachtsmarkt
+URL:https://www.bremerhaven-erleben.de/weihnachtsmarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-weihnachtsmarkt-20261123-weihnachtsmarkt-bremerhaven-2026-ende@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Letzter Tag: Weihnachtsmarkt Bremerhaven 2026
+LOCATION:Weihnachtsmarkt Bremerhaven (Innenstadt)\, Bremerhaven
+DESCRIPTION:Weihnachtsmarkt von Erlebnis Bremerhaven.\nLaufzeit: 23.11.2026
+  bis 30.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.bremer
+ haven-erleben.de/weihnachtsmarkt
+URL:https://www.bremerhaven-erleben.de/weihnachtsmarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-tierheim-hemmstrasse-20261129-weihnachtsbescherung-und-tierischer-we
+ ihnachtsmark@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T120000
+DTEND;TZID=Europe/Berlin:20261129T140000
+SUMMARY:Weihnachtsbescherung und tierischer Weihnachtsmarkt
+LOCATION:Tierheim Bremen (Bremer Tierschutzverein)\, Hemmstr. 491\, 28357 B
+ remen
+DESCRIPTION:Weihnachtsmarkt und Bescherung für die Tiere im Bremer Tierhei
+ m.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.bremer-tierschutzverein.de/news/termin/termin/weihnachtsbe
+ scherung-und-tierischer-weihnachtsmarkt.html
+URL:https://www.bremer-tierschutzverein.de/news/termin/termin/weihnachtsbes
+ cherung-und-tierischer-weihnachtsmarkt.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-schuppen-eins-20261206-modellauto-und-modelleisenbahnboerse-4@myeven
+ thub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Modellauto- und Modelleisenbahnbörse #4
+LOCATION:Schuppen Eins\, Konsul-Smidt-Straße 20-26\, 28217 Bremen
+DESCRIPTION:Tauschbörse für Modellautos\, Modelleisenbahnen und Spielzeug
+ .\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte 
+ vor dem Besuch prüfen): https://schuppeneins.de/termine/modellauto-und-mo
+ delleisenbahnboerse-4-2/
+URL:https://schuppeneins.de/termine/modellauto-und-modelleisenbahnboerse-4-
+ 2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-grossmarkt-markthallen-20270314-tausendschoen-kunst-kurioses-und-meh
+ r@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T110000
+DTEND;TZID=Europe/Berlin:20270314T130000
+SUMMARY:Tausendschön – Kunst\, Kurioses und mehr
+LOCATION:Großmarkt Bremen – Markthallen\, Bremen
+DESCRIPTION:Markt mit Kunst\, Design und Kuriosem in den Großmarkthallen\,
+  11–17 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: 3 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.marktwelt-bremen.de/markt/tausend
+ schoen-kunst-kurioses-und-mehr/
+URL:https://www.marktwelt-bremen.de/markt/tausendschoen-kunst-kurioses-und-
+ mehr/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-weserflohmarkt-20270403-weserflohmarkt@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20270403T090000
+DTEND;TZID=Europe/Berlin:20270403T110000
+SUMMARY:Weserflohmarkt
+LOCATION:Weseruferpromenade (zwischen Martinianleger und Radio Bremen)\, Br
+ emen
+DESCRIPTION:Flohmarkt an der Weseruferpromenade.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.marktwelt-bre
+ men.de/markt/weserflohmarkt/
+URL:https://www.marktwelt-bremen.de/markt/weserflohmarkt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-weserflohmarkt-20270410-weserflohmarkt@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T090000
+DTEND;TZID=Europe/Berlin:20270410T110000
+SUMMARY:Weserflohmarkt
+LOCATION:Weseruferpromenade (zwischen Martinianleger und Radio Bremen)\, Br
+ emen
+DESCRIPTION:Flohmarkt an der Weseruferpromenade.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.marktwelt-bre
+ men.de/markt/weserflohmarkt/
+URL:https://www.marktwelt-bremen.de/markt/weserflohmarkt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-weserflohmarkt-20270417-weserflohmarkt@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T090000
+DTEND;TZID=Europe/Berlin:20270417T110000
+SUMMARY:Weserflohmarkt
+LOCATION:Weseruferpromenade (zwischen Martinianleger und Radio Bremen)\, Br
+ emen
+DESCRIPTION:Flohmarkt an der Weseruferpromenade.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.marktwelt-bre
+ men.de/markt/weserflohmarkt/
+URL:https://www.marktwelt-bremen.de/markt/weserflohmarkt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-weserflohmarkt-20270424-weserflohmarkt@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T090000
+DTEND;TZID=Europe/Berlin:20270424T110000
+SUMMARY:Weserflohmarkt
+LOCATION:Weseruferpromenade (zwischen Martinianleger und Radio Bremen)\, Br
+ emen
+DESCRIPTION:Flohmarkt an der Weseruferpromenade.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.marktwelt-bre
+ men.de/markt/weserflohmarkt/
+URL:https://www.marktwelt-bremen.de/markt/weserflohmarkt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-speicher-xi-platz-20270509-lenzmarkt@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270509T110000
+DTEND;TZID=Europe/Berlin:20270509T130000
+SUMMARY:Lenzmarkt
+LOCATION:Am Speicher XI (Überseestadt)\, Am Speicher XI\, Bremen
+DESCRIPTION:Frühlingsmarkt am Speicher XI\, 11–17 Uhr.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.marktwelt-bremen.de/markt/lenzmarkt/
+URL:https://www.marktwelt-bremen.de/markt/lenzmarkt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-speicher-xi-platz-20270704-speichermarkt@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270704T110000
+DTEND;TZID=Europe/Berlin:20270704T130000
+SUMMARY:Speichermarkt
+LOCATION:Am Speicher XI (Überseestadt)\, Am Speicher XI\, Bremen
+DESCRIPTION:Markt mit Kunst\, Kultur und Lebensart am Speicher XI\, 11–17
+  Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.marktwelt-bremen.de/markt/speiche
+ rmarkt-kunst-kultur-lebensart/
+URL:https://www.marktwelt-bremen.de/markt/speichermarkt-kunst-kultur-lebens
+ art/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-speicher-xi-platz-20271003-herbstmarkt@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271003T110000
+DTEND;TZID=Europe/Berlin:20271003T130000
+SUMMARY:Herbstmarkt
+LOCATION:Am Speicher XI (Überseestadt)\, Am Speicher XI\, Bremen
+DESCRIPTION:Herbstlicher Markt am Speicher XI\, 11–17 Uhr.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ arktwelt-bremen.de/markt/herbstmarkt-herbstlich-bunte-atmosphaere-2/
+URL:https://www.marktwelt-bremen.de/markt/herbstmarkt-herbstlich-bunte-atmo
+ sphaere-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-grossmarkt-markthallen-20271010-tausendschoen-kunst-kurioses-und-meh
+ r@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271010T110000
+DTEND;TZID=Europe/Berlin:20271010T130000
+SUMMARY:Tausendschön – Kunst\, Kurioses und mehr
+LOCATION:Großmarkt Bremen – Markthallen\, Bremen
+DESCRIPTION:Markt mit Kunst\, Design und Kuriosem in den Großmarkthallen\,
+  11–17 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: 3 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.marktwelt-bremen.de/markt/tausend
+ schoen-kunst-kurioses-und-mehr/
+URL:https://www.marktwelt-bremen.de/markt/tausendschoen-kunst-kurioses-und-
+ mehr/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

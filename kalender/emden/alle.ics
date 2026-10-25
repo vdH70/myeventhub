@@ -1,0 +1,354 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Emden · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:emd-jalb-20260315-500-jahre-das-oldersumer-religionsgespra-ende@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: 500 Jahre Das Oldersumer Religionsgespräch
+LOCATION:Johannes a Lasco Bibliothek\, Kirchstraße 22\, 26721 Emden
+DESCRIPTION:Laufzeit: 15.3.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.jalb.de/Kulturkalender-31205-469-0-85.html
+URL:https://www.jalb.de/Kulturkalender-31205-469-0-85.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20260426-bilder-die-wir-lieben-40-jahre-kunsthall-ende@m
+ yeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Letzter Tag: Bilder\, die wir lieben – 40 Jahre Kunsthalle Emden
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Laufzeit: 26.4.2026 bis 2.5.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kunsthalle-emden.de/
+URL:https://www.kunsthalle-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-landesmuseum-20260509-die-weimarer-republik-deutschlands-erste-ende
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Die Weimarer Republik – Deutschlands erste Demokrati
+ e
+LOCATION:Ostfriesisches Landesmuseum Emden\, Brückstraße 1\, 26725 Emden
+DESCRIPTION:Laufzeit: 9.5.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.landesmuseum-emden.de/
+URL:https://www.landesmuseum-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-landesmuseum-20260509-die-weimarer-republik-deutschlands-erste-demo
+ krati-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Die Weimarer Republik. Deutschlands erste Demokratie
+LOCATION:Ostfriesisches Landesmuseum Emden\, Brückstraße 1\, 26725 Emden
+DESCRIPTION:Laufzeit: 9.5.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.landesmuseum-emden.de/
+URL:https://www.landesmuseum-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-landesmuseum-20260509-zickzack-emder-backsteinexpressionismus-ende@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: ZICKZACK – Emder Backsteinexpressionismus vor 100 Ja
+ hren
+LOCATION:Ostfriesisches Landesmuseum Emden\, Brückstraße 1\, 26725 Emden
+DESCRIPTION:Laufzeit: 9.5.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.landesmuseum-emden.de/
+URL:https://www.landesmuseum-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-landesmuseum-20260509-zickzack-emder-backsteinexpressionismus-vor-1
+ 00-ja-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: ZICKZACK. Emder Backsteinexpressionismus vor 100 Jahre
+ n
+LOCATION:Ostfriesisches Landesmuseum Emden\, Brückstraße 1\, 26725 Emden
+DESCRIPTION:Laufzeit: 9.5.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.landesmuseum-emden.de/
+URL:https://www.landesmuseum-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20260816-grosse-buchstaben-grelle-farben-schrift-ende@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Große Buchstaben\, grelle Farben – Schrift als Kuns
+ t\, Kunst als Schrift
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Laufzeit: 16.8.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunsthalle-emden.de/
+URL:https://www.kunsthalle-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20260816-grosse-buchstaben-grelle-farben-schrift-als-kun
+ st-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: GROSSE BUCHSTABEN\, GRELLE FARBEN. Schrift als Kunst 
+ – Kunst als Schrift
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Laufzeit: 16.8.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunsthalle-emden.de/
+URL:https://www.kunsthalle-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-landesmuseum-20260906-marsha-pels-site-reclaimed-altes-land-ne-ende
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Marsha Pels – Site Reclaimed. Altes Land\, Neu
+LOCATION:Ostfriesisches Landesmuseum Emden\, Brückstraße 1\, 26725 Emden
+DESCRIPTION:Laufzeit: 6.9.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.landesmuseum-emden.de/
+URL:https://www.landesmuseum-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261003-rebellinnen-leben-werke-strategien-ende@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Rebellinnen – Leben\, Werke\, Strategien
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Laufzeit: 3.10.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunsthalle-emden.de/
+URL:https://www.kunsthalle-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261004-sonntags-atelier-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Letzter Tag: Sonntags-Atelier
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Laufzeit: 4.10.2026 bis 25.10.2026\nTermine laut Veranstalter: 
+ sonntags 11:00–12:30 Uhr\, für Kinder von 6 bis 12 Jahren\nQuelle (bitt
+ e vor dem Besuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/kalende
+ r
+URL:https://kunsthalle-emden.de/kunst-aktiv/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261004-oeffentliche-fuehrung-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Laufzeit: 4.10.2026 bis 31.3.2027\nTermine laut Veranstalter: s
+ onntags 11:30 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.kuns
+ thalle-emden.de/
+URL:https://www.kunsthalle-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kulturkirche-20261031-klangvielfalt-konzert-des-emder-kammeror@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T170000
+DTEND;TZID=Europe/Berlin:20261031T190000
+SUMMARY:„Klangvielfalt“ – Konzert des Emder Kammerorchesters
+LOCATION:Kulturkirche Martin-Luther\, Bollwerkstraße 9\, 26725 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spend
+ e erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.martin-luthe
+ r-gemeinde-emden.de/aktuelles/termine
+URL:https://www.martin-luther-gemeinde-emden.de/aktuelles/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-nordseehalle-20261101-emder-flohmarkt-in-der-nordseehalle@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Emder Flohmarkt in der Nordseehalle
+LOCATION:Nordseehalle Emden\, Früchteburger Weg 17-19\, 26721 Emden
+DESCRIPTION:Hallenflohmarkt\, 11–17 Uhr.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://emder-flohmarkt.de/
+URL:https://emder-flohmarkt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kulturkirche-20261114-johannes-brahms-ein-deutsches-requiem@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T170000
+DTEND;TZID=Europe/Berlin:20261114T190000
+SUMMARY:Johannes Brahms – Ein deutsches Requiem
+LOCATION:Kulturkirche Martin-Luther\, Bollwerkstraße 9\, 26725 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.adticke
+ t.de/tickets-johannes-brahms-ein-deutsches-requiem-in-der-orchesterfassung
+ -in-emden-martin-luther-kirche-am-14-11-2026/e2618365\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.martin-luther-gemeinde-emden.de/aktuelles/
+ termine
+URL:https://www.martin-luther-gemeinde-emden.de/aktuelles/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261125-misery@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:Misery
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Schauspiel nach dem Roman von Stephen King in der Fassung von W
+ illiam Goldman.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://landesbuehne-nord.de/event-location/festspielhaus
+ -emden/
+URL:https://landesbuehne-nord.de/event-location/festspielhaus-emden/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kulturkirche-20261129-festkonzert-zum-1-advent-unsere-beckerat@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T170000
+DTEND;TZID=Europe/Berlin:20261129T190000
+SUMMARY:Festkonzert zum 1. Advent – Unsere Beckerath-Orgel feiert Geburts
+ tag
+LOCATION:Kulturkirche Martin-Luther\, Bollwerkstraße 9\, 26725 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 10\,00 €\; Schüler
+  und Studierende frei\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ martin-luther-gemeinde-emden.de/aktuelles/termine
+URL:https://www.martin-luther-gemeinde-emden.de/aktuelles/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-nordseehalle-20261206-emder-flohmarkt-in-der-nordseehalle@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Emder Flohmarkt in der Nordseehalle
+LOCATION:Nordseehalle Emden\, Früchteburger Weg 17-19\, 26721 Emden
+DESCRIPTION:Hallenflohmarkt\, 11–17 Uhr.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://emder-flohmarkt.de/
+URL:https://emder-flohmarkt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270209-heimsuchung@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270209T193000
+DTEND;TZID=Europe/Berlin:20270209T213000
+SUMMARY:Heimsuchung
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Schauspiel nach dem Roman von Jenny Erpenbeck.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://landesb
+ uehne-nord.de/event-location/festspielhaus-emden/
+URL:https://landesbuehne-nord.de/event-location/festspielhaus-emden/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270303-wer-hat-angst-vor-virginia-woolf@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T193000
+DTEND;TZID=Europe/Berlin:20270303T213000
+SUMMARY:Wer hat Angst vor Virginia Woolf?
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Schauspiel von Edward Albee.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://landesbuehne-nord.de/nord
+ seehalle/
+URL:https://landesbuehne-nord.de/nordseehalle/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-landesmuseum-20270320-radbod-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:Beginn: Radbod
+LOCATION:Ostfriesisches Landesmuseum Emden\, Brückstraße 1\, 26725 Emden
+DESCRIPTION:Laufzeit: 20.3.2027 bis 29.8.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.landesmuseum-emden.de/
+URL:https://www.landesmuseum-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-landesmuseum-20270320-radbod-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:Letzter Tag: Radbod
+LOCATION:Ostfriesisches Landesmuseum Emden\, Brückstraße 1\, 26725 Emden
+DESCRIPTION:Laufzeit: 20.3.2027 bis 29.8.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.landesmuseum-emden.de/
+URL:https://www.landesmuseum-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-landesmuseum-20270320-radbod-der-legendaere-koenig-beginn@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:Beginn: Radbod. Der legendäre König
+LOCATION:Ostfriesisches Landesmuseum Emden\, Brückstraße 1\, 26725 Emden
+DESCRIPTION:Laufzeit: 20.3.2027 bis 29.8.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.landesmuseum-emden.de/
+URL:https://www.landesmuseum-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-landesmuseum-20270320-radbod-der-legendaere-koenig-ende@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:Letzter Tag: Radbod. Der legendäre König
+LOCATION:Ostfriesisches Landesmuseum Emden\, Brückstraße 1\, 26725 Emden
+DESCRIPTION:Laufzeit: 20.3.2027 bis 29.8.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.landesmuseum-emden.de/
+URL:https://www.landesmuseum-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

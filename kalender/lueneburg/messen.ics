@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Messen in Lüneburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lg-ostpreussisches-landesmuseum-20261107-museumsmarkt-tradition-trifft-
+ modernes-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Beginn: Museumsmarkt: Tradition trifft Modernes
+LOCATION:Ostpreußisches Landesmuseum\, Heiligengeiststraße 38\, 21335 Lü
+ neburg
+DESCRIPTION:Laufzeit: 7.11.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+URL:https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-ostpreussisches-landesmuseum-20261107-museumsmarkt-tradition-trifft-
+ modernes-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Museumsmarkt: Tradition trifft Modernes
+LOCATION:Ostpreußisches Landesmuseum\, Heiligengeiststraße 38\, 21335 Lü
+ neburg
+DESCRIPTION:Laufzeit: 7.11.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+URL:https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

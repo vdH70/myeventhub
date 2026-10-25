@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlösser & Burgen in Jever · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fri-schloss-jever-20260329-versammelt-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: VERsammelt. Museumsstücke treffen auf Privatschätze
+LOCATION:Schloss Jever (Schlossmuseum)\, Schlossplatz 1\, 26441 Jever
+DESCRIPTION:Sonderausstellung.\nLaufzeit: 29.3.2026 bis 10.1.2027\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.schlossmuseum.de/ausstellungen/
+ sonderausstellungen/
+URL:https://www.schlossmuseum.de/ausstellungen/sonderausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fri-schloss-jever-20261213-tag-der-offenen-tuer@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Tag der offenen Tür
+LOCATION:Schloss Jever (Schlossmuseum)\, Schlossplatz 1\, 26441 Jever
+DESCRIPTION:Preis: freier Eintritt\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.schlossmuseum.de/
+URL:https://www.schlossmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

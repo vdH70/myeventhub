@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Northeim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:nom-theater-der-nacht-20261123-die-drei-schweinchen-der-wolf@myeventhub
+ .de
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Die drei Schweinchen & der Wolf
+LOCATION:Theater der Nacht\, Obere Str. 1\, 37154 Northeim
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.theater-der-
+ nacht.de/
+URL:https://www.theater-der-nacht.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

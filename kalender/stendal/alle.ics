@@ -1,0 +1,567 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Stendal · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sdl-winckelmann-museum-20260927-salomon-gessner-17301788-dichter-kuenst
+ ler-verlege-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Salomon Gessner (1730–1788) Dichter\, Künstler\, Ve
+ rleger – ein Multitalent und Freund Winckelmanns
+LOCATION:Winckelmann-Museum\, Winckelmannstraße 36-38\, 39576 Stendal
+DESCRIPTION:Laufzeit: 27.9.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.winckelmann-gesellschaft.com/sonderausstellung/
+URL:https://www.winckelmann-gesellschaft.com/sonderausstellung/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-winckelmann-museum-20261008-xago-apoll-erfindet-sich-ende@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: XAGO: Apoll erfindet sich
+LOCATION:Winckelmann-Museum\, Winckelmannstraße 36-38\, 39576 Stendal
+DESCRIPTION:Laufzeit: 8.10.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.winckelmann-gesellschaft.com/sonderausstellung/
+URL:https://www.winckelmann-gesellschaft.com/sonderausstellung/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261030-da-rennt-der-schmaeh@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Da rennt der Schmäh ...
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kaisersaal.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/sp
+ ielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261031-an-der-arche-um-acht-premiere@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:An der Arche um Acht (Premiere)
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261101-hans-im-glueck@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Hans im Glück
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Rangfoyer.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/spi
+ elplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261105-sinfoniekonzert-amerikanisches-tagebuc
+ h@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Sinfoniekonzert: Amerikanisches Tagebuch
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261107-an-der-arche-um-acht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:An der Arche um Acht
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261108-maerchenfest@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:Märchenfest
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Ganzes Haus.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/s
+ pielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261113-das-ai-s-kalte-herz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Das AI.S kalte Herz
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Rangfoyer.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/spi
+ elplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261114-aschenbroedel-nuss-mit-lustig-premiere
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Aschenbrödel – Nuss mit lustig (Premiere)
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261118-da-rennt-der-schmaeh@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T193000
+DTEND;TZID=Europe/Berlin:20261118T213000
+SUMMARY:Da rennt der Schmäh ...
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kaisersaal.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/sp
+ ielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261119-mephisto-roman-einer-karriere@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Mephisto – Roman einer Karriere
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261120-aschenbroedel-nuss-mit-lustig@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Aschenbrödel – Nuss mit lustig
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261121-zu-gast-180-jaehriges-jubilaeum-tanzsc
+ hule-roesel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T150000
+DTEND;TZID=Europe/Berlin:20261121T170000
+SUMMARY:Zu Gast: 180-jähriges Jubiläum Tanzschule Rösel
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261122-hans-im-glueck@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Hans im Glück
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Rangfoyer.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/spi
+ elplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261127-der-nackte-wahnsinn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Der nackte Wahnsinn
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261128-aschenbroedel-nuss-mit-lustig@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Aschenbrödel – Nuss mit lustig
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261129-gastspiel-harztheater-das-wirtshaus-im
+ -spessart@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Gastspiel Harztheater: Das Wirtshaus im Spessart
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261203-sinfoniekonzert-italien-im-advent@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T193000
+DTEND;TZID=Europe/Berlin:20261203T213000
+SUMMARY:Sinfoniekonzert: Italien im Advent
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261204-frank-schoebel-zur-weihnachtszeit-2026
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T160000
+DTEND;TZID=Europe/Berlin:20261204T180000
+SUMMARY:Frank Schöbel zur Weihnachtszeit 2026
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261205-aschenbroedel-nuss-mit-lustig@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:Aschenbrödel – Nuss mit lustig
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261206-maerchencafe-ab-3-jahren@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T140000
+DTEND;TZID=Europe/Berlin:20261206T160000
+SUMMARY:Märchencafé (ab 3 Jahren)
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kaisersaal.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/sp
+ ielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261210-aschenbroedel-nuss-mit-lustig@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T193000
+DTEND;TZID=Europe/Berlin:20261210T213000
+SUMMARY:Aschenbrödel – Nuss mit lustig
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261213-an-der-arche-um-acht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:An der Arche um Acht
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261217-aschenbroedel-nuss-mit-lustig@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:Aschenbrödel – Nuss mit lustig
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261219-hans-im-glueck@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T150000
+DTEND;TZID=Europe/Berlin:20261219T170000
+SUMMARY:Hans im Glück
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Rangfoyer.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/spi
+ elplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261220-an-der-arche-um-acht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T160000
+DTEND;TZID=Europe/Berlin:20261220T180000
+SUMMARY:An der Arche um Acht
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261223-aschenbroedel-nuss-mit-lustig@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T193000
+DTEND;TZID=Europe/Berlin:20261223T213000
+SUMMARY:Aschenbrödel – Nuss mit lustig
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261226-aschenbroedel-nuss-mit-lustig@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T193000
+DTEND;TZID=Europe/Berlin:20261226T213000
+SUMMARY:Aschenbrödel – Nuss mit lustig
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261231-da-rennt-der-schmaeh@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T150000
+DTEND;TZID=Europe/Berlin:20261231T170000
+SUMMARY:Da rennt der Schmäh ...
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20261231-der-nackte-wahnsinn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T183000
+DTEND;TZID=Europe/Berlin:20261231T203000
+SUMMARY:Der nackte Wahnsinn
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20270109-das-ai-s-kalte-herz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T193000
+DTEND;TZID=Europe/Berlin:20270109T213000
+SUMMARY:Das AI.S kalte Herz
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Rangfoyer.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/spi
+ elplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20270116-maria-stuart-premiere@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T193000
+DTEND;TZID=Europe/Berlin:20270116T213000
+SUMMARY:Maria Stuart (Premiere)
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus\, Kammerbühne.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ tda-stendal.de/spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20270117-hans-im-glueck@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T150000
+DTEND;TZID=Europe/Berlin:20270117T170000
+SUMMARY:Hans im Glück
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Rangfoyer.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/spi
+ elplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20270121-sinfoniekonzert-ein-maskenball-am-hofe
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T193000
+DTEND;TZID=Europe/Berlin:20270121T213000
+SUMMARY:Sinfoniekonzert: Ein Maskenball am Hofe
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20270124-maria-stuart@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T160000
+DTEND;TZID=Europe/Berlin:20270124T180000
+SUMMARY:Maria Stuart
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus\, Kammerbühne.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ tda-stendal.de/spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20270128-let-s-talk-about-jetzt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T193000
+DTEND;TZID=Europe/Berlin:20270128T213000
+SUMMARY:Let´s talk about Jetzt!
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kleines Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20270130-muttersprache-mameloschn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T193000
+DTEND;TZID=Europe/Berlin:20270130T213000
+SUMMARY:Muttersprache Mameloschn
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Rangfoyer.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/spi
+ elplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20270131-maerchencafe-ab-3-jahren@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T140000
+DTEND;TZID=Europe/Berlin:20270131T160000
+SUMMARY:Märchencafé (ab 3 Jahren)
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Kaisersaal.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/sp
+ ielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-theater-der-altmark-20270131-der-nackte-wahnsinn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T180000
+DTEND;TZID=Europe/Berlin:20270131T200000
+SUMMARY:Der nackte Wahnsinn
+LOCATION:Theater der Altmark\, Karlstraße 6\, 39576 Stendal
+DESCRIPTION:Spielort im Theater: Großes Haus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.tda-stendal.de/
+ spielplan
+URL:https://www.tda-stendal.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

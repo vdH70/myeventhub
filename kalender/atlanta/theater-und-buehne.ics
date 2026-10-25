@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Atlanta · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:atl-fox-theatre-20261029-lucy-darling-halloween-spooktacular@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Lucy Darling: Halloween Spooktacular
+LOCATION:Fox Theatre\, Atlanta
+DESCRIPTION:Zauber- und Comedyshow.\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.foxtheatre.org/events
+URL:https://www.foxtheatre.org/events
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

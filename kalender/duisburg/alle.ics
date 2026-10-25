@@ -1,0 +1,460 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Duisburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:du-lehmbruck-museum-20261012-dejan-saric-in-between-beginn@myeventhub.d
+ e
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Beginn: Dejan Sarić. In Between
+LOCATION:Lehmbruck Museum\, Friedrich-Wilhelm-Straße 40\, 47051 Duisburg
+DESCRIPTION:Ausstellung\, laut Museum seit 3. Juli 2026.\nLaufzeit: 12.10.2
+ 026 bis 13.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.leh
+ mbruckmuseum.de/
+URL:https://www.lehmbruckmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-lehmbruck-museum-20261012-dejan-saric-in-between-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Dejan Sarić. In Between
+LOCATION:Lehmbruck Museum\, Friedrich-Wilhelm-Straße 40\, 47051 Duisburg
+DESCRIPTION:Ausstellung\, laut Museum seit 3. Juli 2026.\nLaufzeit: 12.10.2
+ 026 bis 13.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.leh
+ mbruckmuseum.de/
+URL:https://www.lehmbruckmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mkm-kueppersmuehle-20261012-jaume-plensa-invisible-beginn@myeventhub
+ .de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Beginn: Jaume Plensa – Invisible
+LOCATION:MKM Museum Küppersmühle für Moderne Kunst\, Philosophenweg 55\,
+  47051 Duisburg
+DESCRIPTION:Ausstellung\, laut Museum seit 26. Juni\, verlängert bis 17. J
+ anuar 2027.\nLaufzeit: 12.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.museum-kueppersmuehle.de/
+URL:https://www.museum-kueppersmuehle.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mkm-kueppersmuehle-20261012-jaume-plensa-invisible-ende@myeventhub.d
+ e
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Jaume Plensa – Invisible
+LOCATION:MKM Museum Küppersmühle für Moderne Kunst\, Philosophenweg 55\,
+  47051 Duisburg
+DESCRIPTION:Ausstellung\, laut Museum seit 26. Juni\, verlängert bis 17. J
+ anuar 2027.\nLaufzeit: 12.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.museum-kueppersmuehle.de/
+URL:https://www.museum-kueppersmuehle.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261025-heimsuchung-eine-jahrhundertgeschichte@myeventhub
+ .de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T151500
+DTEND;TZID=Europe/Berlin:20261025T171500
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261025-chopin-eine-sonate-in-paris@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T174500
+DTEND;TZID=Europe/Berlin:20261025T194500
+SUMMARY:Chopin - Eine Sonate in Paris
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261025-meeting-the-buddha@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T200000
+DTEND;TZID=Europe/Berlin:20261025T220000
+SUMMARY:Meeting the Buddha
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261026-chopin-eine-sonate-in-paris@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T174500
+DTEND;TZID=Europe/Berlin:20261026T194500
+SUMMARY:Chopin - Eine Sonate in Paris
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261026-heimsuchung-eine-jahrhundertgeschichte@myeventhub
+ .de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T203000
+DTEND;TZID=Europe/Berlin:20261026T223000
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261027-chopin-eine-sonate-in-paris@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T180000
+DTEND;TZID=Europe/Berlin:20261027T200000
+SUMMARY:Chopin - Eine Sonate in Paris
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261027-meeting-the-buddha@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T200000
+DTEND;TZID=Europe/Berlin:20261027T220000
+SUMMARY:Meeting the Buddha
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261028-heimsuchung-eine-jahrhundertgeschichte@myeventhub
+ .de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T180000
+DTEND;TZID=Europe/Berlin:20261028T200000
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261028-chopin-eine-sonate-in-paris@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T203000
+DTEND;TZID=Europe/Berlin:20261028T223000
+SUMMARY:Chopin - Eine Sonate in Paris
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261029-biermann@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T180000
+DTEND;TZID=Europe/Berlin:20261029T200000
+SUMMARY:Biermann
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261029-glaube@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Glaube
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261030-heimsuchung-eine-jahrhundertgeschichte@myeventhub
+ .de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T173000
+DTEND;TZID=Europe/Berlin:20261030T193000
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261030-glaube@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T203000
+DTEND;TZID=Europe/Berlin:20261030T223000
+SUMMARY:Glaube
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261031-albrecht-weinberg-es-ist-immer-in-meinem-kopf@mye
+ venthub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T153000
+DTEND;TZID=Europe/Berlin:20261031T173000
+SUMMARY:Albrecht Weinberg - Es ist immer in meinem Kopf
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261031-biermann@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Biermann
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261101-glaube@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T174500
+DTEND;TZID=Europe/Berlin:20261101T194500
+SUMMARY:Glaube
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261101-biermann@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Biermann
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-isp-monkey-town-20261101-halloween-finale-bei-monkey-town@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Halloween-Finale bei Monkey Town
+LOCATION:Monkey Town Duisburg\, Max-Peter-Straße 21\, 47059 Duisburg
+DESCRIPTION:Abschlusstag der Halloweenwoche mit Kostümwettbewerb\, Hallowe
+ en-Tattoos\, Zauberschule und Monster-Mission.\nPreis: Tageseintritt: Kind
+ er 1–2 J. 10\,00 €\, ab 3 J. 16\,90 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://monkeytown.eu/de/events
+URL:https://monkeytown.eu/de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261103-hinterlegte-nummern@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T100000
+DTEND;TZID=Europe/Berlin:20261103T120000
+SUMMARY:Hinterlegte Nummern
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261103-das-monument-bewegt-sich@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T142000
+DTEND;TZID=Europe/Berlin:20261103T162000
+SUMMARY:Das Monument bewegt sich
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261103-estahbes@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T160000
+DTEND;TZID=Europe/Berlin:20261103T180000
+SUMMARY:Estahbes
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261104-die-schoepfer-der-einkaufswelten@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T100000
+DTEND;TZID=Europe/Berlin:20261104T120000
+SUMMARY:Die Schöpfer der Einkaufswelten
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261104-beni-s-noise@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T120000
+DTEND;TZID=Europe/Berlin:20261104T140000
+SUMMARY:Béni`s Noise
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261104-afterlives@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T140000
+DTEND;TZID=Europe/Berlin:20261104T160000
+SUMMARY:Afterlives
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261104-i-love-you-i-leave-you@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T203000
+DTEND;TZID=Europe/Berlin:20261104T223000
+SUMMARY:I love you\, I leave you
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-theater-20261106-my-fair-lady@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:My Fair Lady
+LOCATION:Theater Duisburg\, Neckarstraße 1\, 47051 Duisburg
+DESCRIPTION:Musical\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.theater-duisburg.de/spielpl
+ an/
+URL:https://www.theater-duisburg.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-theater-20261108-on-the-town@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T183000
+DTEND;TZID=Europe/Berlin:20261108T203000
+SUMMARY:On the Town
+LOCATION:Theater Duisburg\, Neckarstraße 1\, 47051 Duisburg
+DESCRIPTION:Musical\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.theater-duisburg.de/spielpl
+ an/
+URL:https://www.theater-duisburg.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-theater-20261112-my-fair-lady@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:My Fair Lady
+LOCATION:Theater Duisburg\, Neckarstraße 1\, 47051 Duisburg
+DESCRIPTION:Musical\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.theater-duisburg.de/spielpl
+ an/
+URL:https://www.theater-duisburg.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-theater-20261114-on-the-town@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:On the Town
+LOCATION:Theater Duisburg\, Neckarstraße 1\, 47051 Duisburg
+DESCRIPTION:Musical\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.theater-duisburg.de/spielpl
+ an/
+URL:https://www.theater-duisburg.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-theater-20261115-klasse-klassik-junior-meisterwerke-maurice-ravel@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:klasse.klassik junior: Meisterwerke – Maurice Ravel
+LOCATION:Theater Duisburg\, Neckarstraße 1\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-duisburg.de/spielplan/
+URL:https://www.theater-duisburg.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

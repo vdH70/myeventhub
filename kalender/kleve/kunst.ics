@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Kleve · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kle-museum-kurhaus-20261017-enya-burger-a-matter-of-record-beginn@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Beginn: Enya Burger: A Matter of Record
+LOCATION:Museum Kurhaus Kleve – Ewald Mataré-Sammlung\, Tiergartenstraß
+ e 41\, 47533 Kleve
+DESCRIPTION:Laufzeit: 17.10.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.mkk.art/programm/14209-aktuell
+URL:https://www.mkk.art/programm/14209-aktuell
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kle-museum-kurhaus-20261017-enya-burger-a-matter-of-record-ende@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Enya Burger: A Matter of Record
+LOCATION:Museum Kurhaus Kleve – Ewald Mataré-Sammlung\, Tiergartenstraß
+ e 41\, 47533 Kleve
+DESCRIPTION:Laufzeit: 17.10.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.mkk.art/programm/14209-aktuell
+URL:https://www.mkk.art/programm/14209-aktuell
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

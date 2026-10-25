@@ -1,0 +1,302 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Bremen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bhv-eisarena-20261025-fischtown-pinguins-erc-ingolstadt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T190000
+DTEND;TZID=Europe/Berlin:20261025T210000
+SUMMARY:Fischtown Pinguins – ERC Ingolstadt
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20261030-3-bremen-darts-gala@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T190000
+DTEND;TZID=Europe/Berlin:20261030T210000
+SUMMARY:3. Bremen Darts Gala
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Darts-Gala mit Profispielern\, angekündigt sind vier Weltmeist
+ er.\nEnde: laut Quelle nicht angegeben\nPreis: ab 42\,00 €\nTickets: htt
+ ps://www.eventim.de/noapp/event/bremen-darts-gala-oevb-arena-20963447/\nQu
+ elle (bitte vor dem Besuch prüfen): https://oevb-arena.de/event/3-bremen-
+ darts-gala/
+URL:https://oevb-arena.de/event/3-bremen-darts-gala/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20261101-fischtown-pinguins-straubing-tigers@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Fischtown Pinguins – Straubing Tigers
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20261115-fischtown-pinguins-augsburger-panther@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Fischtown Pinguins – Augsburger Panther
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20261120-fischtown-pinguins-adler-mannheim@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Fischtown Pinguins – Adler Mannheim
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20261127-fischtown-pinguins-schwenninger-wild-wings@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Fischtown Pinguins – Schwenninger Wild Wings
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20261204-fischtown-pinguins-krefeld-pinguine@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Fischtown Pinguins – Krefeld Pinguine
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20261208-fischtown-pinguins-grizzlys-wolfsburg@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T193000
+DTEND;TZID=Europe/Berlin:20261208T213000
+SUMMARY:Fischtown Pinguins – Grizzlys Wolfsburg
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20261213-fischtown-pinguins-koelner-haie@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T140000
+DTEND;TZID=Europe/Berlin:20261213T160000
+SUMMARY:Fischtown Pinguins – Kölner Haie
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20261219-wdsf-weltmeisterschaft-der-formationen-latein@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T143000
+DTEND;TZID=Europe/Berlin:20261219T163000
+SUMMARY:WDSF Weltmeisterschaft der Formationen Latein
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/wdsf-weltmeisterschaft-der-formatio
+ nen-latein/
+URL:https://oevb-arena.de/event/wdsf-weltmeisterschaft-der-formationen-late
+ in/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20261223-fischtown-pinguins-erc-ingolstadt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T193000
+DTEND;TZID=Europe/Berlin:20261223T213000
+SUMMARY:Fischtown Pinguins – ERC Ingolstadt
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20261227-fischtown-pinguins-iserlohn-roosters@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T163000
+DTEND;TZID=Europe/Berlin:20261227T183000
+SUMMARY:Fischtown Pinguins – Iserlohn Roosters
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20270105-fischtown-pinguins-nuernberg-ice-tigers@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T193000
+DTEND;TZID=Europe/Berlin:20270105T213000
+SUMMARY:Fischtown Pinguins – Nürnberg Ice Tigers
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-eisarena-20270108-fischtown-pinguins-grizzlys-wolfsburg@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T193000
+DTEND;TZID=Europe/Berlin:20270108T213000
+SUMMARY:Fischtown Pinguins – Grizzlys Wolfsburg
+LOCATION:Eisarena Bremerhaven\, Bremerhaven
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fischtown-pinguins.de/spielplan-4/
+URL:https://fischtown-pinguins.de/spielplan-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270115-60-sixdays-bremen-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Beginn: 60. SIXDAYS BREMEN
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Laufzeit: 15.1.2027 bis 18.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/60-sixdays-bremen/
+URL:https://oevb-arena.de/event/60-sixdays-bremen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270115-60-sixdays-bremen-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Letzter Tag: 60. SIXDAYS BREMEN
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Laufzeit: 15.1.2027 bis 18.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/60-sixdays-bremen/
+URL:https://oevb-arena.de/event/60-sixdays-bremen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270130-eisbaren-bremerhaven-vs-ps-karlsruhe-lions@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T160000
+DTEND;TZID=Europe/Berlin:20270130T180000
+SUMMARY:Eisbären Bremerhaven vs. PS Karlsruhe LIONS
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/eisbaeren-bremerhaven-vs-ps-karlsru
+ he-lions/
+URL:https://oevb-arena.de/event/eisbaeren-bremerhaven-vs-ps-karlsruhe-lions
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270214-super-bowl-watch-night@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Super Bowl Watch Night
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.aladin-breme
+ n.de/veranstaltungen/super-bowl-watch-night-2027/
+URL:https://www.aladin-bremen.de/veranstaltungen/super-bowl-watch-night-202
+ 7/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270321-eisbaren-bremerhaven-vs-sbb-baskets@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T150000
+DTEND;TZID=Europe/Berlin:20270321T170000
+SUMMARY:Eisbären Bremerhaven vs. SBB Baskets
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/eisbaeren-bremerhaven-vs-sbb-basket
+ s/
+URL:https://oevb-arena.de/event/eisbaeren-bremerhaven-vs-sbb-baskets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270404-eisbaren-bremerhaven-vs-bozic-estriche-knights-kirc
+ hhei@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T180000
+DTEND;TZID=Europe/Berlin:20270404T200000
+SUMMARY:Eisbären Bremerhaven vs. Bozic Estriche Knights Kirchheim
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/eisbaeren-bremerhaven-vs-bozic-estr
+ iche-knights-kirchheim/
+URL:https://oevb-arena.de/event/eisbaeren-bremerhaven-vs-bozic-estriche-kni
+ ghts-kirchheim/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20271204-4-bremen-darts-gala@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271204T190000
+DTEND;TZID=Europe/Berlin:20271204T210000
+SUMMARY:4. Bremen Darts Gala
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/4-bremen-darts-gala/
+URL:https://oevb-arena.de/event/4-bremen-darts-gala/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

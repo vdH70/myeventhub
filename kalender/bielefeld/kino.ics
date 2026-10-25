@@ -1,0 +1,486 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Bielefeld · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bi-kamera-20261025-alte-liebe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T130000
+DTEND;TZID=Europe/Berlin:20261025T150000
+SUMMARY:Alte Liebe
+LOCATION:Kamera Filmkunsttheater\, Feilenstraße 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/
+URL:https://www.arthousekinos-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kamera-20261025-die-andere-seite@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:Die Andere Seite
+LOCATION:Kamera Filmkunsttheater\, Feilenstraße 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/
+URL:https://www.arthousekinos-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kamera-20261025-heimsuchung-eine-jahrhundertgeschichte@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:Kamera Filmkunsttheater\, Feilenstraße 4\, 33602 Bielefeld
+DESCRIPTION:Saal Salon\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.arthousekinos-bielefeld.de/
+URL:https://www.arthousekinos-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kamera-20261025-meeting-the-buddha@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T154500
+DTEND;TZID=Europe/Berlin:20261025T174500
+SUMMARY:Meeting the Buddha
+LOCATION:Kamera Filmkunsttheater\, Feilenstraße 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/
+URL:https://www.arthousekinos-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kamera-20261025-alte-liebe-1645@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T164500
+DTEND;TZID=Europe/Berlin:20261025T184500
+SUMMARY:Alte Liebe
+LOCATION:Kamera Filmkunsttheater\, Feilenstraße 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/
+URL:https://www.arthousekinos-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kamera-20261025-whistleblower@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T164500
+DTEND;TZID=Europe/Berlin:20261025T184500
+SUMMARY:Whistleblower
+LOCATION:Kamera Filmkunsttheater\, Feilenstraße 4\, 33602 Bielefeld
+DESCRIPTION:Saal Salon\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.arthousekinos-bielefeld.de/
+URL:https://www.arthousekinos-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kamera-20261025-heimsuchung-eine-jahrhundertgeschichte-1900@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T190000
+DTEND;TZID=Europe/Berlin:20261025T210000
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:Kamera Filmkunsttheater\, Feilenstraße 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/
+URL:https://www.arthousekinos-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kamera-20261025-liebhaberinnen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T193000
+DTEND;TZID=Europe/Berlin:20261025T213000
+SUMMARY:Liebhaberinnen
+LOCATION:Kamera Filmkunsttheater\, Feilenstraße 4\, 33602 Bielefeld
+DESCRIPTION:Saal Salon\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.arthousekinos-bielefeld.de/
+URL:https://www.arthousekinos-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kamera-20261025-sinn-und-sinnlichkeit@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T193000
+DTEND;TZID=Europe/Berlin:20261025T213000
+SUMMARY:Sinn und Sinnlichkeit
+LOCATION:Kamera Filmkunsttheater\, Feilenstraße 4\, 33602 Bielefeld
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.arthousekinos-bielefeld.de/
+URL:https://www.arthousekinos-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261026-heimsuchung-eine-jahrhundertgeschichte@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T140000
+DTEND;TZID=Europe/Berlin:20261026T160000
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261026-alte-liebe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T144500
+DTEND;TZID=Europe/Berlin:20261026T164500
+SUMMARY:Alte Liebe
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261026-adams-acht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T161500
+DTEND;TZID=Europe/Berlin:20261026T181500
+SUMMARY:Adams Acht
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261026-alte-liebe-1645@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T164500
+DTEND;TZID=Europe/Berlin:20261026T184500
+SUMMARY:Alte Liebe
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261026-die-andere-seite@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T190000
+DTEND;TZID=Europe/Berlin:20261026T210000
+SUMMARY:Die Andere Seite
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261026-heimsuchung-eine-jahrhundertgeschichte-1930@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T193000
+DTEND;TZID=Europe/Berlin:20261026T213000
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261026-frau-winkler-verlaesst-das-haus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T200000
+DTEND;TZID=Europe/Berlin:20261026T220000
+SUMMARY:Frau Winkler verlässt das Haus
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261027-alte-liebe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T134500
+DTEND;TZID=Europe/Berlin:20261027T154500
+SUMMARY:Alte Liebe
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261027-corpus-delicti@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T141500
+DTEND;TZID=Europe/Berlin:20261027T161500
+SUMMARY:Corpus Delicti
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261027-heimsuchung-eine-jahrhundertgeschichte@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T144500
+DTEND;TZID=Europe/Berlin:20261027T164500
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261027-frost-ohne-schnee-und-eis@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T161500
+DTEND;TZID=Europe/Berlin:20261027T181500
+SUMMARY:Frost ohne Schnee und Eis
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261027-die-andere-seite@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T164500
+DTEND;TZID=Europe/Berlin:20261027T184500
+SUMMARY:Die Andere Seite
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261027-alte-liebe-1900@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T190000
+DTEND;TZID=Europe/Berlin:20261027T210000
+SUMMARY:Alte Liebe
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261027-heimsuchung-eine-jahrhundertgeschichte-1930@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T193000
+DTEND;TZID=Europe/Berlin:20261027T213000
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261028-alte-liebe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T134500
+DTEND;TZID=Europe/Berlin:20261028T154500
+SUMMARY:Alte Liebe
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261028-heimsuchung-eine-jahrhundertgeschichte@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T141500
+DTEND;TZID=Europe/Berlin:20261028T161500
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261028-alte-liebe-1615@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T161500
+DTEND;TZID=Europe/Berlin:20261028T181500
+SUMMARY:Alte Liebe
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261028-adams-acht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T170000
+DTEND;TZID=Europe/Berlin:20261028T190000
+SUMMARY:Adams Acht
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261028-die-andere-seite@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T190000
+DTEND;TZID=Europe/Berlin:20261028T210000
+SUMMARY:Die Andere Seite
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261028-heimsuchung-eine-jahrhundertgeschichte-1930@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T193000
+DTEND;TZID=Europe/Berlin:20261028T213000
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261028-corpus-delicti@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T200000
+DTEND;TZID=Europe/Berlin:20261028T220000
+SUMMARY:Corpus Delicti
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261029-greta-garbo-the-temptress@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T200000
+DTEND;TZID=Europe/Berlin:20261029T220000
+SUMMARY:Greta Garbo: The Temptress
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Film+Musikfest\, Stummfilm\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.arthousekinos-bielefeld
+ .de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261031-coco-lebendiger-als-das-leben@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T140000
+DTEND;TZID=Europe/Berlin:20261031T160000
+SUMMARY:Coco - Lebendiger als das Leben!
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Reihe die_letzte_klappe\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.arthousekinos-bielefeld.de
+ /programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261031-tod-browning-the-unknown@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Tod Browning: The Unknown
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Film+Musikfest\, Halloween Special\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.arthousekinos-b
+ ielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261102-la-graciosa-kanarische-traeume@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T183000
+DTEND;TZID=Europe/Berlin:20261102T203000
+SUMMARY:La Graciosa - Kanarische Träume
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:mit Gästen\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261105-jak-zyc-zeby-nie-zwariowac@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T180000
+DTEND;TZID=Europe/Berlin:20261105T200000
+SUMMARY:Jak zyc\, zeby nie zwariowac
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261105-arthur-robison-the-informer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Arthur Robison: The Informer
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Film+Musikfest\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.arthousekinos-bielefeld.de/programm
+ /
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lichtwerk-20261106-50-jahre-rosa-winkel-das-ist-doch-schon-lange-vor
+ b@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T180000
+DTEND;TZID=Europe/Berlin:20261106T200000
+SUMMARY:50 Jahre Rosa Winkel? Das ist doch schon lange vorbei...
+LOCATION:Lichtwerk\, Ravensberger Park 7\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthousekinos-bielefeld.de/programm/
+URL:https://www.arthousekinos-bielefeld.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

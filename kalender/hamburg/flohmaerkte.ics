@@ -1,0 +1,279 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Flohmärkte in Hamburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-haw-bergedorf-20261025-hallenflohmarkt-haw-bergedorf@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T083000
+DTEND;TZID=Europe/Berlin:20261025T103000
+SUMMARY:Hallenflohmarkt HAW Bergedorf
+LOCATION:HAW Hamburg Campus Bergedorf\, Lohbrügger Kirchstraße 65\, 21033
+  Hamburg
+DESCRIPTION:Hallenflohmarkt im Innenbereich der HAW\, veranstaltet von C. H
+ ochberg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.hochberg-flohmarkt.de/termin.php?id_termin=2885
+URL:https://www.hochberg-flohmarkt.de/termin.php?id_termin=2885
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-flohschanze-20261031-flohmarkt-flohschanze@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T080000
+DTEND;TZID=Europe/Berlin:20261031T100000
+SUMMARY:Flohmarkt Flohschanze
+LOCATION:Flohschanze (Alte Rinderschlachthalle)\, Neuer Kamp 30\, 20357 Ham
+ burg
+DESCRIPTION:Flohmarkt an der Alten Rinderschlachthalle\, 8–16 Uhr.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://marktkultur-hamburg.de/?var=0&gtp=termine
+URL:https://marktkultur-hamburg.de/?var=0&gtp=termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-mercado-20261031-altonale-herbstflohmarkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T090000
+DTEND;TZID=Europe/Berlin:20261031T110000
+SUMMARY:altonale Herbstflohmarkt
+LOCATION:Mercado Einkaufszentrum\, Ottenser Hauptstraße 10\, 22765 Hamburg
+DESCRIPTION:Flohmarkt ohne Neuware am Mercado.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://marktkultur-hamburg
+ .de/?p=6557&var=1
+URL:https://marktkultur-hamburg.de/?p=6557&var=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-rewe-center-winterhude-20261101-flohmarkt-rewe-center-winterhude@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T083000
+DTEND;TZID=Europe/Berlin:20261101T103000
+SUMMARY:Flohmarkt REWE Center Winterhude
+LOCATION:REWE Center Winterhude Stanislawski u. Laas (Parkhaus)\, Krohnskam
+ p 31\, 22301 Hamburg
+DESCRIPTION:Privatflohmarkt im und vor dem Parkhaus\, keine Neuware.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.hochberg-flohmarkt.de/termin.php?id_termin=2815
+URL:https://www.hochberg-flohmarkt.de/termin.php?id_termin=2815
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-rindermarkthalle-20261101-flohmarkt-rindermarkthalle-st-pauli@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T090000
+DTEND;TZID=Europe/Berlin:20261101T110000
+SUMMARY:Flohmarkt Rindermarkthalle St. Pauli
+LOCATION:Rindermarkthalle St. Pauli\, Neuer Kamp 31\, 20357 Hamburg
+DESCRIPTION:Flohmarkt ohne Neuware.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://marktkultur-hamburg.de/?p=34&v
+ ar=1
+URL:https://marktkultur-hamburg.de/?p=34&var=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-flohschanze-20261107-flohmarkt-flohschanze@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T080000
+DTEND;TZID=Europe/Berlin:20261107T100000
+SUMMARY:Flohmarkt Flohschanze
+LOCATION:Flohschanze (Alte Rinderschlachthalle)\, Neuer Kamp 30\, 20357 Ham
+ burg
+DESCRIPTION:Flohmarkt an der Alten Rinderschlachthalle\, 8–16 Uhr.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://marktkultur-hamburg.de/?var=0&gtp=termine
+URL:https://marktkultur-hamburg.de/?var=0&gtp=termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-flohschanze-20261114-flohmarkt-flohschanze@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T080000
+DTEND;TZID=Europe/Berlin:20261114T100000
+SUMMARY:Flohmarkt Flohschanze
+LOCATION:Flohschanze (Alte Rinderschlachthalle)\, Neuer Kamp 30\, 20357 Ham
+ burg
+DESCRIPTION:Flohmarkt an der Alten Rinderschlachthalle\, 8–16 Uhr.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://marktkultur-hamburg.de/?var=0&gtp=termine
+URL:https://marktkultur-hamburg.de/?var=0&gtp=termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-flohschanze-20261121-flohmarkt-flohschanze@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T080000
+DTEND;TZID=Europe/Berlin:20261121T100000
+SUMMARY:Flohmarkt Flohschanze
+LOCATION:Flohschanze (Alte Rinderschlachthalle)\, Neuer Kamp 30\, 20357 Ham
+ burg
+DESCRIPTION:Flohmarkt an der Alten Rinderschlachthalle\, 8–16 Uhr.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://marktkultur-hamburg.de/?var=0&gtp=termine
+URL:https://marktkultur-hamburg.de/?var=0&gtp=termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-flohschanze-20261128-flohmarkt-flohschanze@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T080000
+DTEND;TZID=Europe/Berlin:20261128T100000
+SUMMARY:Flohmarkt Flohschanze
+LOCATION:Flohschanze (Alte Rinderschlachthalle)\, Neuer Kamp 30\, 20357 Ham
+ burg
+DESCRIPTION:Flohmarkt an der Alten Rinderschlachthalle\, 8–16 Uhr.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://marktkultur-hamburg.de/?var=0&gtp=termine
+URL:https://marktkultur-hamburg.de/?var=0&gtp=termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-lola-kulturzentrum-20261129-lola-frauenflohmarkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T130000
+DTEND;TZID=Europe/Berlin:20261129T150000
+SUMMARY:LOLA Frauenflohmarkt
+LOCATION:LOLA Kulturzentrum\, Lohbrügger Landstraße 8\, 21031 Hamburg
+DESCRIPTION:Flohmarkt für Mode und Accessoires\, nur private Anbieterinnen
+ \; 13–16 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://lola-hh.de/programm/
+URL:https://lola-hh.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-flohschanze-20261205-flohmarkt-flohschanze@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T080000
+DTEND;TZID=Europe/Berlin:20261205T100000
+SUMMARY:Flohmarkt Flohschanze
+LOCATION:Flohschanze (Alte Rinderschlachthalle)\, Neuer Kamp 30\, 20357 Ham
+ burg
+DESCRIPTION:Flohmarkt an der Alten Rinderschlachthalle\, 8–16 Uhr.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://marktkultur-hamburg.de/?var=0&gtp=termine
+URL:https://marktkultur-hamburg.de/?var=0&gtp=termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-haw-bergedorf-20261206-hallenflohmarkt-haw-bergedorf@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T083000
+DTEND;TZID=Europe/Berlin:20261206T103000
+SUMMARY:Hallenflohmarkt HAW Bergedorf
+LOCATION:HAW Hamburg Campus Bergedorf\, Lohbrügger Kirchstraße 65\, 21033
+  Hamburg
+DESCRIPTION:Hallenflohmarkt im Innenbereich der HAW\, veranstaltet von C. H
+ ochberg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.hochberg-flohmarkt.de/termin.php?id_termin=2886
+URL:https://www.hochberg-flohmarkt.de/termin.php?id_termin=2886
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-flohschanze-20261212-flohmarkt-flohschanze@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T080000
+DTEND;TZID=Europe/Berlin:20261212T100000
+SUMMARY:Flohmarkt Flohschanze
+LOCATION:Flohschanze (Alte Rinderschlachthalle)\, Neuer Kamp 30\, 20357 Ham
+ burg
+DESCRIPTION:Flohmarkt an der Alten Rinderschlachthalle\, 8–16 Uhr.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://marktkultur-hamburg.de/?var=0&gtp=termine
+URL:https://marktkultur-hamburg.de/?var=0&gtp=termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-flohschanze-20261219-flohmarkt-flohschanze@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T080000
+DTEND;TZID=Europe/Berlin:20261219T100000
+SUMMARY:Flohmarkt Flohschanze
+LOCATION:Flohschanze (Alte Rinderschlachthalle)\, Neuer Kamp 30\, 20357 Ham
+ burg
+DESCRIPTION:Flohmarkt an der Alten Rinderschlachthalle\, 8–16 Uhr.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://marktkultur-hamburg.de/?var=0&gtp=termine
+URL:https://marktkultur-hamburg.de/?var=0&gtp=termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-alstertal-einkaufszentrum-20270221-antikmarkt-alstertal@myeventhub.d
+ e
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T090000
+DTEND;TZID=Europe/Berlin:20270221T110000
+SUMMARY:Antikmarkt Alstertal
+LOCATION:Alstertal-Einkaufszentrum (AEZ)\, Heegbarg 31\, 22391 Hamburg
+DESCRIPTION:Antik- und Vintagemarkt ohne Neuware.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://marktkultur-hamb
+ urg.de/?p=6598&var=1
+URL:https://marktkultur-hamburg.de/?p=6598&var=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-grossneumarkt-20270404-flohmarkt-grossneumarkt@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T090000
+DTEND;TZID=Europe/Berlin:20270404T110000
+SUMMARY:Flohmarkt Großneumarkt
+LOCATION:Wochenmarktplatz am Großneumarkt\, Großneumarkt\, 20459 Hamburg
+DESCRIPTION:Flohmarkt ohne Neuware.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://marktkultur-hamburg.de/?p=50&v
+ ar=1
+URL:https://marktkultur-hamburg.de/?p=50&var=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-michelwiese-20270411-flohmarkt-michelwiese@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20270411T090000
+DTEND;TZID=Europe/Berlin:20270411T110000
+SUMMARY:Flohmarkt Michelwiese
+LOCATION:Michelwiese (Neustädter Neuer Weg)\, Neustädter Neuer Weg\, 2045
+ 9 Hamburg
+DESCRIPTION:Flohmarkt ohne Neuware.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://marktkultur-hamburg.de/?p=1701
+ &var=1
+URL:https://marktkultur-hamburg.de/?p=1701&var=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-waitzstrasse-20270425-antik-und-flohmarkt-waitzstrasse@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART;TZID=Europe/Berlin:20270425T090000
+DTEND;TZID=Europe/Berlin:20270425T110000
+SUMMARY:Antik- und Flohmarkt Waitzstraße
+LOCATION:Waitzstraße (Othmarschen)\, Waitzstraße 21\, 22607 Hamburg
+DESCRIPTION:Antik- und Flohmarkt ohne Neuware.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://marktkultur-hamburg
+ .de/?p=5640&var=1
+URL:https://marktkultur-hamburg.de/?p=5640&var=1
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

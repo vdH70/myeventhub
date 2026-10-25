@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Emden · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261004-sonntags-atelier-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Letzter Tag: Sonntags-Atelier
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Laufzeit: 4.10.2026 bis 25.10.2026\nTermine laut Veranstalter: 
+ sonntags 11:00–12:30 Uhr\, für Kinder von 6 bis 12 Jahren\nQuelle (bitt
+ e vor dem Besuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/kalende
+ r
+URL:https://kunsthalle-emden.de/kunst-aktiv/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

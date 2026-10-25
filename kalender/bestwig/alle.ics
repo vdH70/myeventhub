@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Bestwig · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hsk-sauerlaender-besucherbergwerk-20261030-workshop-fossilien-in-ramsbe
+ ck@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T130000
+DTEND;TZID=Europe/Berlin:20261030T150000
+SUMMARY:Workshop Fossilien in Ramsbeck
+LOCATION:Sauerländer Besucherbergwerk Ramsbeck\, Glück-Auf-Straße 3\, 59
+ 909 Bestwig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.sauerlaender-besucherbergwerk.de/veranstaltungen/
+URL:https://www.sauerlaender-besucherbergwerk.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hsk-fort-fun-20261030-hallow-eve-special-ab-18-jahren@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T150000
+DTEND;TZID=Europe/Berlin:20261030T170000
+SUMMARY:Hallow Eve SPECIAL (ab 18 Jahren)
+LOCATION:FORT FUN Abenteuerland\, Aurorastraße 50\, 59909 Bestwig
+DESCRIPTION:Halloween-Abend für Erwachsene von 15 bis 23 Uhr.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: 84\,99 €\nQuelle (bitte vor dem Besuch pr
+ üfen): https://fortfun.de/fortfear/hallow-eve-special
+URL:https://fortfun.de/fortfear/hallow-eve-special
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hsk-fort-fun-20261031-fort-fear-horrorland@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:FORT FEAR Horrorland
+LOCATION:FORT FUN Abenteuerland\, Aurorastraße 50\, 59909 Bestwig
+DESCRIPTION:Halloween-Event mit Horror-Mazes\; Eintritt ab 10 bzw. 14 Uhr.\
+ nQuelle (bitte vor dem Besuch prüfen): https://fortfun.de/fortfear
+URL:https://fortfun.de/fortfear
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hsk-fort-fun-20261101-saisonende-2026-letzter-oeffnungstag@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Saisonende 2026 (letzter Öffnungstag)
+LOCATION:FORT FUN Abenteuerland\, Aurorastraße 50\, 59909 Bestwig
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://fortfun.de/
+URL:https://fortfun.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hsk-sauerlaender-besucherbergwerk-20261107-knappenschicht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T110000
+DTEND;TZID=Europe/Berlin:20261107T130000
+SUMMARY:KnappenSchicht (ausverkauft)
+LOCATION:Sauerländer Besucherbergwerk Ramsbeck\, Glück-Auf-Straße 3\, 59
+ 909 Bestwig
+DESCRIPTION:Laut Veranstalter ausgebucht.\nEnde: laut Quelle nicht angegebe
+ n\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.sauerla
+ ender-besucherbergwerk.de/veranstaltungen/
+URL:https://www.sauerlaender-besucherbergwerk.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hsk-sauerlaender-besucherbergwerk-20261108-laternen-basteln@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T100000
+DTEND;TZID=Europe/Berlin:20261108T120000
+SUMMARY:Laternen basteln
+LOCATION:Sauerländer Besucherbergwerk Ramsbeck\, Glück-Auf-Straße 3\, 59
+ 909 Bestwig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.sauerlaender-besucherbergwerk.de/veranstaltungen/
+URL:https://www.sauerlaender-besucherbergwerk.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hsk-sauerlaender-besucherbergwerk-20261204-barbara-messe-unter-tage@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T160000
+DTEND;TZID=Europe/Berlin:20261204T180000
+SUMMARY:Barbara-Messe unter Tage
+LOCATION:Sauerländer Besucherbergwerk Ramsbeck\, Glück-Auf-Straße 3\, 59
+ 909 Bestwig
+DESCRIPTION:Einlass ab ca. 15 Uhr\, Messe um 16 Uhr.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sauerlaen
+ der-besucherbergwerk.de/veranstaltungen/
+URL:https://www.sauerlaender-besucherbergwerk.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

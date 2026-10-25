@@ -1,0 +1,1110 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Bielefeld · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bi-stadttheater-20261025-die-zauberfloete@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T150000
+DTEND;TZID=Europe/Berlin:20261025T170000
+SUMMARY:Die Zauberflöte (ausverkauft)
+LOCATION:Stadttheater Bielefeld\, Niederwall 27\, 33602 Bielefeld
+DESCRIPTION:Oper von Wolfgang Amadeus Mozart\, mit Einführung und Audiodes
+ kription.\nEnde: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.buo-bielefeld.de/philharmoniker/kalend
+ er
+URL:https://www.buo-bielefeld.de/philharmoniker/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-rudolf-oetker-halle-20261025-frank-urson-chicago@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T170000
+DTEND;TZID=Europe/Berlin:20261025T190000
+SUMMARY:Frank Urson: Chicago
+LOCATION:Rudolf-Oetker-Halle\, Lampingstraße 16\, 33615 Bielefeld
+DESCRIPTION:Stummfilm mit dem Cinematografischen Orchester beim 36. Film+Mu
+ sikFest.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.buo-bielefeld.de/rudolf-oetker-halle/kalender
+URL:https://www.buo-bielefeld.de/rudolf-oetker-halle/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20261027-helmut-lotti-goes-classic-30th-anniversary-editi
+ on@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:HELMUT LOTTI GOES CLASSIC – 30th ANNIVERSARY EDITION
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261028-halloween-week-opening@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T230000
+DTEND;TZID=Europe/Berlin:20261029T010000
+SUMMARY:Halloween Week Opening
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261030-afrob-ferris-mc@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Afrob & Ferris MC (ausverkauft)
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://forum-bi
+ elefeld.com/afrob-ferris-mc-2/
+URL:https://forum-bielefeld.com/afrob-ferris-mc-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-rudolf-oetker-halle-20261030-le-laudi-di-san-francesco-d-assisi@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Le Laudi di San Francesco d`Assisi
+LOCATION:Rudolf-Oetker-Halle\, Lampingstraße 16\, 33615 Bielefeld
+DESCRIPTION:Chorkonzert im Großen Saal.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.buo-bielefeld.de/rudo
+ lf-oetker-halle/kalender
+URL:https://www.buo-bielefeld.de/rudolf-oetker-halle/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261030-halloween-friday@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T230000
+DTEND;TZID=Europe/Berlin:20261031T010000
+SUMMARY:Halloween Friday
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-prime-20261030-halloween-circus-festival-2026-part-1@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Halloween Circus Festival 2026 (Part 1)
+LOCATION:PRIME Bielefeld\, Duisburger Str. 25\, 33647 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.prime-night.
+ de/
+URL:https://www.prime-night.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-seidensticker-halle-20261030-27-bielefelder-oktoberfest@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:27. Bielefelder Oktoberfest
+LOCATION:Seidensticker Halle\, Werner-Bock-Straße 35\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadttheater-20261031-der-troubadour-il-trovatore@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Der Troubadour (Il trovatore)
+LOCATION:Stadttheater Bielefeld\, Niederwall 27\, 33602 Bielefeld
+DESCRIPTION:Wiederaufnahme von Verdis Oper.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.buo-bielefeld.de/p
+ hilharmoniker/kalender
+URL:https://www.buo-bielefeld.de/philharmoniker/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-prime-20261031-halloween-circus-festival-2026-das-grosse-finale@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween Circus Festival 2026 – Das große Finale
+LOCATION:PRIME Bielefeld\, Duisburger Str. 25\, 33647 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.prime-night.
+ de/
+URL:https://www.prime-night.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-seidensticker-halle-20261031-27-bielefelder-oktoberfest@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:27. Bielefelder Oktoberfest
+LOCATION:Seidensticker Halle\, Werner-Bock-Straße 35\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20261101-danger-dan-keine-angst-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Danger Dan - Keine Angst Tour 2026
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261103-she-past-away-vioflesh@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:She Past Away / Vioflesh
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Darkwave- und Post-Punk-Abend.\nEinlass 19:00\, Beginn 20:00 Uh
+ r\nEnde: laut Quelle nicht angegeben\nPreis: VVK: 32\,- zzgl. Geb.\nQuelle
+  (bitte vor dem Besuch prüfen): https://forum-bielefeld.com/she-past-away
+ -4/
+URL:https://forum-bielefeld.com/she-past-away-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-tor6-theaterlabor-20261103-downpilot-seattle-usa@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Downpilot (Seattle/USA)
+LOCATION:Theaterlabor im TOR 6 Theaterhaus\, Hermann-Kleinewächter-Str. 4\
+ , 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterlabor.eu/veranstaltungskalender
+URL:https://theaterlabor.eu/veranstaltungskalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lokschuppen-20261103-gentleman@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:GENTLEMAN
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Reggae-Konzert.\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.lokschuppen-bielefeld.de/
+URL:https://www.lokschuppen-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261104-bergfest@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T230000
+DTEND;TZID=Europe/Berlin:20261105T010000
+SUMMARY:Bergfest
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-rudolf-oetker-halle-20261106-tartueff@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Tartüff
+LOCATION:Rudolf-Oetker-Halle\, Lampingstraße 16\, 33615 Bielefeld
+DESCRIPTION:Stummfilmkonzert beim 36. Film+MusikFest im Großen Saal.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.buo-bielefeld.de/philharmoniker/kalender
+URL:https://www.buo-bielefeld.de/philharmoniker/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261106-back-to-2000@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T230000
+DTEND;TZID=Europe/Berlin:20261107T010000
+SUMMARY:Back to 2000
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261106-ansa-sauermann-solo@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ANSA SAUERMANN SOLO.
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://bunker-ulmenwall
+ .org/category/kalender/page/2/
+URL:https://bunker-ulmenwall.org/category/kalender/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadttheater-20261107-der-troubadour-il-trovatore@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Der Troubadour (Il trovatore)
+LOCATION:Stadttheater Bielefeld\, Niederwall 27\, 33602 Bielefeld
+DESCRIPTION:Oper von Giuseppe Verdi.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.buo-bielefeld.de/philharm
+ oniker/kalender
+URL:https://www.buo-bielefeld.de/philharmoniker/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261107-love-saturdays-x-tequila-night@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T230000
+DTEND;TZID=Europe/Berlin:20261108T010000
+SUMMARY:Love Saturdays x Tequila Night
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadttheater-20261108-the-birds-of-alfred-hitchcock@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T193000
+DTEND;TZID=Europe/Berlin:20261108T213000
+SUMMARY:The Birds of Alfred Hitchcock (ausverkauft)
+LOCATION:Stadttheater Bielefeld\, Niederwall 27\, 33602 Bielefeld
+DESCRIPTION:Oper von William Ward Murta auf der Hauptbühne.\nEnde: laut Qu
+ elle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.buo-bielefeld.de/philharmoniker/kalender
+URL:https://www.buo-bielefeld.de/philharmoniker/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261111-wyld-wednesday@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T230000
+DTEND;TZID=Europe/Berlin:20261112T010000
+SUMMARY:Wyld Wednesday
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261111-chess-n-jazz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Chess`n`Jazz
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Schach und Jazz.\nQuelle (bitte vor dem Besuch prüfen): https:
+ //bunker-ulmenwall.org/category/kalender/page/2/
+URL:https://bunker-ulmenwall.org/category/kalender/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261112-jazz-session@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Jazz Session
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://bunker-ulmenwall
+ .org/category/kalender/page/2/
+URL:https://bunker-ulmenwall.org/category/kalender/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cantine-20261113-durch-die-nacht-songs-for-whatever@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T220000
+DTEND;TZID=Europe/Berlin:20261114T000000
+SUMMARY:Durch die Nacht – Songs for whatever
+LOCATION:Cantine Bielefeld\, Bleichstr. 77a\, 33607 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cantine-bielefeld.de/projects-6
+URL:https://www.cantine-bielefeld.de/projects-6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261113-unter-den-daechern-lemonsun-sunny-flimma@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:UNTER DEN DÄCHERN: LEMONSUN\, Sunny & flimma
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://bunker-ulmenwall
+ .org/category/kalender/page/3/
+URL:https://bunker-ulmenwall.org/category/kalender/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lokschuppen-20261113-old-but-gold@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Old but Gold
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.lokschuppen-
+ bielefeld.de/
+URL:https://www.lokschuppen-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261114-thomas-schwebel-band-spielen-fehlfarben-33-tage-in@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Thomas Schwebel & Band spielen Fehlfarben '33 Tage in Ketten'
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Das Fehlfarben-Album „33 Tage in Ketten“ komplett live.\nEi
+ nlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 
+ VVK: 25\,- zzgl. Geb. AK: 30\,-\nTickets: https://www.eventim.de/event/tho
+ mas-schwebel-spielt-fehlfarben-33-tage-in-ketten-forum-bielefeld-21887169/
+ \nQuelle (bitte vor dem Besuch prüfen): https://forum-bielefeld.com/thoma
+ s-schwebel-band/
+URL:https://forum-bielefeld.com/thomas-schwebel-band/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261114-love-saturdays@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T230000
+DTEND;TZID=Europe/Berlin:20261115T010000
+SUMMARY:Love Saturdays
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261114-elsa@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ELSA
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Experimental Folk und Soul.\nQuelle (bitte vor dem Besuch prüf
+ en): https://bunker-ulmenwall.org/category/kalender/page/3/
+URL:https://bunker-ulmenwall.org/category/kalender/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lokschuppen-20261114-subito-reloaded-22@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Subito Reloaded #22
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.lokschuppen-
+ bielefeld.de/
+URL:https://www.lokschuppen-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261115-poppy-ackroyd-support-freya-arde@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Poppy Ackroyd – Support: Freya Arde
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Neo-Klassik.\nQuelle (bitte vor dem Besuch prüfen): https://bu
+ nker-ulmenwall.org/category/kalender/page/3/
+URL:https://bunker-ulmenwall.org/category/kalender/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261118-bier-bachelor@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T230000
+DTEND;TZID=Europe/Berlin:20261119T010000
+SUMMARY:Bier Bachelor
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261120-daily-thompson-constance-tomb@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Daily Thompson / Constance Tomb
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK: 20\,- zzgl. Geb.\nTickets: https://www.eventim.de/event/
+ daily-thompson-glue-tour-forum-bielefeld-21334630/\nQuelle (bitte vor dem 
+ Besuch prüfen): https://forum-bielefeld.com/daily-thompson-5/
+URL:https://forum-bielefeld.com/daily-thompson-5/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261120-throwback-club-no-trends-just-classics@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T230000
+DTEND;TZID=Europe/Berlin:20261121T010000
+SUMMARY:Throwback Club – No Trends. Just Classics.
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261120-salomea@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Salomea
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Alternative R&B.\nQuelle (bitte vor dem Besuch prüfen): https:
+ //bunker-ulmenwall.org/category/kalender/page/3/
+URL:https://bunker-ulmenwall.org/category/kalender/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cantine-20261121-better-call-soul@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T210000
+DTEND;TZID=Europe/Berlin:20261121T230000
+SUMMARY:Better Call Soul
+LOCATION:Cantine Bielefeld\, Bleichstr. 77a\, 33607 Bielefeld
+DESCRIPTION:Soul\, 60s Beat und Popcorn.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.cantine-bielefeld.de/
+ projects-6
+URL:https://www.cantine-bielefeld.de/projects-6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261121-players-night-x-love-saturdays@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T230000
+DTEND;TZID=Europe/Berlin:20261122T010000
+SUMMARY:Players Night x Love Saturdays
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261121-tex-singt-leonard-cohen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:TEX singt LEONARD COHEN
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://bunker-ulmenwall
+ .org/category/kalender/page/3/
+URL:https://bunker-ulmenwall.org/category/kalender/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stereo-20261121-diary-of-dreams@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Diary of Dreams
+LOCATION:Stereo Live Club\, Bielefeld
+DESCRIPTION:Konzert der Band Diary of Dreams.\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diaryofdreams.de/termine/?dod_lang=de
+URL:https://www.diaryofdreams.de/termine/?dod_lang=de
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261124-uk-subs-katastrophen-kommando@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:UK SUBS / Katastrophen-Kommando
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK: 28\,- zzgl. Geb.\nQuelle (bitte vor dem Besuch prüfen):
+  https://forum-bielefeld.com/uk-subs-4/
+URL:https://forum-bielefeld.com/uk-subs-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261125-glueh-dich-gluecklich@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T230000
+DTEND;TZID=Europe/Berlin:20261126T010000
+SUMMARY:Glüh dich glücklich
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261126-groove-session@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Groove Session
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://bunker-ulmenwall
+ .org/category/kalender/page/3/
+URL:https://bunker-ulmenwall.org/category/kalender/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261127-fire-and-ice-winter-opening@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T230000
+DTEND;TZID=Europe/Berlin:20261128T010000
+SUMMARY:Fire and Ice – Winter Opening
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261127-jubilaeumskonzert-mit-omer-klein-the-poeti
+ cs-und-n@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Jubiläumskonzert mit Omer Klein & The Poetics und NE-K Trio
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://bunker-ulmenwall
+ .org/category/kalender/page/3/
+URL:https://bunker-ulmenwall.org/category/kalender/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261128-back-to-the-roots-pres-afro-bros@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T230000
+DTEND;TZID=Europe/Berlin:20261129T010000
+SUMMARY:Back to the Roots pres. Afro Bros
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20261129-david-bowie-symphony-the-celebration-concert@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:David Bowie Symphony - The Celebration Concert
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261202-glueh-dich-gluecklich@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T230000
+DTEND;TZID=Europe/Berlin:20261203T010000
+SUMMARY:Glüh dich glücklich
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261203-monet-192@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Monet 192 (ausverkauft)
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://forum-bi
+ elefeld.com/monet-192/
+URL:https://forum-bielefeld.com/monet-192/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261204-frique-like-me-pres-juizzed@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T230000
+DTEND;TZID=Europe/Berlin:20261205T010000
+SUMMARY:Frique Like Me pres. Juizzed
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20261205-ina-mueller-und-band-die-6-0-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Ina Müller und Band - Die 6.0 Tour
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lokschuppen-20261206-xmas-happens@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:XMAS HAPPENS!
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.lokschuppen-
+ bielefeld.de/
+URL:https://www.lokschuppen-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20261206-ina-mueller-und-band-die-6-0-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Ina Müller und Band - Die 6.0 Tour
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261209-glueh-dich-gluecklich@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T230000
+DTEND;TZID=Europe/Berlin:20261210T010000
+SUMMARY:Glüh dich glücklich
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-bunker-ulmenwall-20261209-chess-n-jazz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Chess`n`Jazz
+LOCATION:Bunker Ulmenwall\, Am Ulmenwall 1\, 33602 Bielefeld
+DESCRIPTION:Schach und Jazz.\nQuelle (bitte vor dem Besuch prüfen): https:
+ //bunker-ulmenwall.org/category/kalender/page/3/
+URL:https://bunker-ulmenwall.org/category/kalender/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lokschuppen-20261209-sondaschule@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:SONDASCHULE
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.lokschuppen-
+ bielefeld.de/
+URL:https://www.lokschuppen-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261212-love-saturdays-x-after-weihnachtsmarkt-clubbing
+ @myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T230000
+DTEND;TZID=Europe/Berlin:20261213T010000
+SUMMARY:Love Saturdays x After Weihnachtsmarkt Clubbing
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261216-glueh-dich-gluecklich@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T230000
+DTEND;TZID=Europe/Berlin:20261217T010000
+SUMMARY:Glüh dich glücklich
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261217-picturebooks@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:Picturebooks
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Jahresabschlusskonzert mit Gästen.\nEinlass 19:00\, Beginn 20:
+ 00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK: 24\,- zzgl. Geb.\nQ
+ uelle (bitte vor dem Besuch prüfen): https://forum-bielefeld.com/pictureb
+ ooks/
+URL:https://forum-bielefeld.com/picturebooks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261218-greenleaf-kant@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Greenleaf / Kant
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK: 23\,-\nTickets: https://www.eventim.de/event/greenleaf-b
+ ait-tackle-tour-2026-forum-bielefeld-21755558/\nQuelle (bitte vor dem Besu
+ ch prüfen): https://forum-bielefeld.com/greenleaf/
+URL:https://forum-bielefeld.com/greenleaf/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261218-throwback-club-no-trends-just-classics@myeventh
+ ub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T230000
+DTEND;TZID=Europe/Berlin:20261219T010000
+SUMMARY:Throwback Club – No Trends. Just Classics.
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261219-love-saturdays-christmas-edition@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T230000
+DTEND;TZID=Europe/Berlin:20261220T010000
+SUMMARY:Love Saturdays Christmas Edition
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20261221-tom-gaebel-his-orchestra-a-swinging-christmas-20
+ 26@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Tom Gaebel & His Orchestra - A Swinging Christmas 2026
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261223-the-homecoming@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T230000
+DTEND;TZID=Europe/Berlin:20261224T010000
+SUMMARY:The Homecoming
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261225-cafe-europa-pres-tujamo@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T230000
+DTEND;TZID=Europe/Berlin:20261226T010000
+SUMMARY:Cafe Europa pres. Tujamo
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261229-the-busters@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T200000
+DTEND;TZID=Europe/Berlin:20261229T220000
+SUMMARY:The Busters
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Ska-Konzert der „Fette Fierzich“-Tour.\nEinlass 19:00\, Beg
+ inn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK: 35\,- zzgl. 
+ Geb.\nTickets: https://www.eventim.de/event/the-busters-fette-fierzich-for
+ um-bielefeld-21886621/?affiliate=TUG\nQuelle (bitte vor dem Besuch prüfen
+ ): https://forum-bielefeld.com/the-busters-11/
+URL:https://forum-bielefeld.com/the-busters-11/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270107-alte-bekannte-das-beste-von-frueher-bis-heute@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Alte Bekannte - Das Beste! Von Früher bis Heute
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cantine-20270108-fliegende-stuerme@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Fliegende Stürme
+LOCATION:Cantine Bielefeld\, Bleichstr. 77a\, 33607 Bielefeld
+DESCRIPTION:Einlass 19:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.cantine-bielefeld
+ .de/projects-6
+URL:https://www.cantine-bielefeld.de/projects-6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270119-falco-meets-amadeus@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:FALCO MEETS AMADEUS
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270125-the-magic-of-hans-zimmer-the-concert@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:The Magic of Hans Zimmer - The Concert
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270128-abba-diamonds-the-abba-tribute-show@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:ABBA Diamonds - The ABBA Tribute Show
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270130-max-raabe-palast-orchester-komm-mal-her@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Max Raabe & Palast Orchester - Komm mal her
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20270211-fjrt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T194500
+DTEND;TZID=Europe/Berlin:20270211T214500
+SUMMARY:FJØRT
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Einlass 19:00\, Beginn 19:45 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK: 34\,- zzgl. Geb.\nTickets: https://www.eventim.de/event/
+ fjoert-forum-bielefeld-22049810/\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://forum-bielefeld.com/fjort-4/
+URL:https://forum-bielefeld.com/fjort-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lokschuppen-20270220-mamagehttanzen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Mamagehttanzen
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.lokschuppen-
+ bielefeld.de/
+URL:https://www.lokschuppen-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-seidensticker-halle-20270220-manowar-kings-of-metal-fighting-the-wor
+ ld-tour-202@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Manowar - Kings Of Metal Fighting The World Tour 2027
+LOCATION:Seidensticker Halle\, Werner-Bock-Straße 35\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cantine-20270224-darkways@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T200000
+DTEND;TZID=Europe/Berlin:20270224T220000
+SUMMARY:Darkways
+LOCATION:Cantine Bielefeld\, Bleichstr. 77a\, 33607 Bielefeld
+DESCRIPTION:Einlass 19:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.cantine-bielefeld
+ .de/projects-6
+URL:https://www.cantine-bielefeld.de/projects-6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lokschuppen-20270225-forced-to-mode@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T200000
+DTEND;TZID=Europe/Berlin:20270225T220000
+SUMMARY:FORCED TO MODE
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Depeche-Mode-Tribute mit dem Album „Ultra“.\nEinlass 19:00\
+ , Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 47\,25 E
+ UR inkl. Gebühren\nTickets: https://www.eventim.de/noapp/event/forced-to-
+ mode-ultra-the-missing-piece-tour-2027-lokschuppen-bielefeld-21716674/?aff
+ iliate=LOK\nQuelle (bitte vor dem Besuch prüfen): https://www.lokschuppen
+ -bielefeld.de/event/forced-to-mode/
+URL:https://www.lokschuppen-bielefeld.de/event/forced-to-mode/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cantine-20270227-body-electric-festival-vol-2@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:Body Electric Festival Vol. 2
+LOCATION:Cantine Bielefeld\, Bleichstr. 77a\, 33607 Bielefeld
+DESCRIPTION:Einlass 19:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.cantine-bielefeld
+ .de/projects-6
+URL:https://www.cantine-bielefeld.de/projects-6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lokschuppen-20270301-feine-sahne-fischfilet@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Feine Sahne Fischfilet
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.lokschuppen-
+ bielefeld.de/
+URL:https://www.lokschuppen-bielefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20270306-mad-caddies@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T200000
+DTEND;TZID=Europe/Berlin:20270306T220000
+SUMMARY:Mad Caddies
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Ska-Punk-Konzert.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://fo
+ rum-bielefeld.com/mad-caddies/
+URL:https://forum-bielefeld.com/mad-caddies/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270307-jethro-tull-the-curiosity-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Jethro Tull - The Curiosity Tour
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cantine-20270313-25-jahre-kernkrach-records-kk-festival@myeventhub.d
+ e
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T180000
+DTEND;TZID=Europe/Berlin:20270313T200000
+SUMMARY:25 Jahre Kernkrach Records – KK Festival
+LOCATION:Cantine Bielefeld\, Bleichstr. 77a\, 33607 Bielefeld
+DESCRIPTION:Einlass 17:00\, Beginn 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.cantine-bielefeld
+ .de/projects-6
+URL:https://www.cantine-bielefeld.de/projects-6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270314-the-australian-pink-floyd-show-2027-greatest-hit
+ s@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:The Australian Pink Floyd Show - 2027 Greatest Hits World Tour
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

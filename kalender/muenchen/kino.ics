@@ -1,0 +1,465 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in München · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-filmmuseum-20261025-faust-eine-deutsche-volkssage@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T170000
+DTEND;TZID=Europe/Berlin:20261025T190000
+SUMMARY:Faust. Eine deutsche Volkssage
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktu
+ eller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261025-a-soul-hunted-by-painting@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T170000
+DTEND;TZID=Europe/Berlin:20261025T190000
+SUMMARY:A Soul Hunted by Painting
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmeU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261025-until-we-talk@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261025T201500
+DTEND;TZID=Europe/Berlin:20261025T221500
+SUMMARY:Until We Talk
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261026-whistleblower@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T181500
+DTEND;TZID=Europe/Berlin:20261026T201500
+SUMMARY:Whistleblower
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261026-call-me-queen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T201500
+DTEND;TZID=Europe/Berlin:20261026T221500
+SUMMARY:Call Me Queen
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-filmmuseum-20261027-jang-hwa-hong-ryun-a-tale-of-two-sisters@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T183000
+DTEND;TZID=Europe/Berlin:20261027T203000
+SUMMARY:Jang-hwa\, Hong-ryun (A Tale of Two Sisters)
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktu
+ eller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261027-materia-prima@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T201500
+DTEND;TZID=Europe/Berlin:20261027T221500
+SUMMARY:Materia Prima
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-filmmuseum-20261027-agenzia-matrimoniale-le-tentazioni-del-dottor-ant
+ o@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T210000
+DTEND;TZID=Europe/Berlin:20261027T230000
+SUMMARY:Agenzia matrimoniale / Le tentazioni del Dottor Antonio / Toby Damm
+ it
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Kurzfilmprogramm\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.muenchner-stadtmuseum.de/sammlung
+ en/filmmuseum/aktueller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-filmmuseum-20261028-simon-and-laura-simon-und-laura@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T183000
+DTEND;TZID=Europe/Berlin:20261028T203000
+SUMMARY:Simon and Laura (Simon und Laura)
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktu
+ eller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261028-camouflage@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T201500
+DTEND;TZID=Europe/Berlin:20261028T221500
+SUMMARY:Camouflage
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-filmmuseum-20261028-giulietta-degli-spiriti-julia-und-die-geister@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T210000
+DTEND;TZID=Europe/Berlin:20261028T230000
+SUMMARY:Giulietta degli spiriti (Julia und die Geister)
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktu
+ eller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-filmmuseum-20261029-fasia-von-trutzigen-frauen-und-einer-troubadora@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T190000
+DTEND;TZID=Europe/Berlin:20261029T210000
+SUMMARY:Fasia\, von trutzigen Frauen und einer Troubadora
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktu
+ eller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261029-the-killer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261029T201500
+DTEND;TZID=Europe/Berlin:20261029T221500
+SUMMARY:The Killer
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-filmmuseum-20261030-fellini-a-director-s-notebook-prova-d-orchestra-o
+ r@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T180000
+DTEND;TZID=Europe/Berlin:20261030T200000
+SUMMARY:Fellini: A Director's Notebook / Prova d'orchestra (Orchesterprobe)
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Doppelprogramm\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.muenchner-stadtmuseum.de/sammlungen
+ /filmmuseum/aktueller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261030-materia-prima@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Materia Prima
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-filmmuseum-20261030-key-largo-gangster-in-key-largo@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T210000
+DTEND;TZID=Europe/Berlin:20261030T230000
+SUMMARY:Key Largo (Gangster in Key Largo)
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktu
+ eller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261030-the-killer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T220000
+DTEND;TZID=Europe/Berlin:20261031T000000
+SUMMARY:The Killer
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-filmmuseum-20261031-satyricon-fellinis-satyricon@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Satyricon (Fellinis Satyricon)
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktu
+ eller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261031-technicolor-dreams-william-castle@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T201500
+DTEND;TZID=Europe/Berlin:20261031T221500
+SUMMARY:Technicolor Dreams: William Castle
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-filmmuseum-20261031-in-a-lonely-place-ein-einsamer-ort@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T210000
+DTEND;TZID=Europe/Berlin:20261031T230000
+SUMMARY:In a Lonely Place (Ein einsamer Ort)
+LOCATION:Filmmuseum München (Münchner Stadtmuseum)\, St.-Jakobs-Platz 1\,
+  80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktu
+ eller-spielplan
+URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/aktueller-sp
+ ielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261031-fading-treasures-william-castle@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T221500
+DTEND;TZID=Europe/Berlin:20261101T001500
+SUMMARY:Fading Treasures: William Castle
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261101-the-killer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T201500
+DTEND;TZID=Europe/Berlin:20261101T221500
+SUMMARY:The Killer
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261102-barbara-forever@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T201500
+DTEND;TZID=Europe/Berlin:20261102T221500
+SUMMARY:Barbara Forever
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261103-barbara-forever@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T201500
+DTEND;TZID=Europe/Berlin:20261103T221500
+SUMMARY:Barbara Forever
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261104-barbara-forever@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T201500
+DTEND;TZID=Europe/Berlin:20261104T221500
+SUMMARY:Barbara Forever
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-werkstattkino-20261105-blue-velvet-revisited@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Blue Velvet Revisited
+LOCATION:Werkstattkino\, Fraunhoferstraße 9\, 80469 München
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://werkstattkino.de/
+URL:https://werkstattkino.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-gasteig-hp8-20261105-14-chinesisches-filmfest-munchen-beginn@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Beginn: 14. Chinesisches Filmfest München
+LOCATION:Projektor
+DESCRIPTION:Laufzeit: 5.11.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.gasteig.de/festivals/14-chinesisches-filmfest-muen
+ chen/
+URL:https://www.gasteig.de/festivals/14-chinesisches-filmfest-muenchen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-gasteig-hp8-20261105-14-chinesisches-filmfest-munchen-ende@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: 14. Chinesisches Filmfest München
+LOCATION:Projektor
+DESCRIPTION:Laufzeit: 5.11.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.gasteig.de/festivals/14-chinesisches-filmfest-muen
+ chen/
+URL:https://www.gasteig.de/festivals/14-chinesisches-filmfest-muenchen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261109-es-geht-durch-die-welt-ein-gefluster-doku
+ mentarfilm-uli@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Es geht durch die Welt ein Geflüster (Dokumentarfilm\, Uli Bez)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/9e38234d-5d4
+ 7-4b05-a5c7-869ac0e27f0a
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/9e38234d-5d47-4b05-a
+ 5c7-869ac0e27f0a
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261112-es-geht-durch-die-welt-ein-gefluster-doku
+ mentarfilm@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T103000
+DTEND;TZID=Europe/Berlin:20261112T123000
+SUMMARY:Es geht durch die Welt ein Geflüster (Dokumentarfilm)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/b905b0f3-01c
+ a-48ca-b61b-08ea4482e20b
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/b905b0f3-01ca-48ca-b
+ 61b-08ea4482e20b
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-gasteig-hp8-20261114-40-griechische-filmwoche-munchen-beginn@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Beginn: 40. Griechische Filmwoche München
+LOCATION:Projektor
+DESCRIPTION:Laufzeit: 14.11.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.gasteig.de/festivals/40-griechische-filmwoche/
+URL:https://www.gasteig.de/festivals/40-griechische-filmwoche/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-gasteig-hp8-20261114-40-griechische-filmwoche-munchen-ende@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: 40. Griechische Filmwoche München
+LOCATION:Projektor
+DESCRIPTION:Laufzeit: 14.11.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.gasteig.de/festivals/40-griechische-filmwoche/
+URL:https://www.gasteig.de/festivals/40-griechische-filmwoche/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
