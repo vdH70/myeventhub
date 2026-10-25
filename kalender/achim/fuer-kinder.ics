@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Achim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:achim-stadtbibliothek-20261028-gamingzeit-und-makerzeit@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T160000
+DTEND;TZID=Europe/Berlin:20261028T180000
+SUMMARY:Gamingzeit und Makerzeit
+LOCATION:Stadtbibliothek Achim\, Obernstraße 38\, 28832 Achim
+DESCRIPTION:Offenes Gaming- und Maker-Angebot der Stadtbibliothek.\nTermine
+  laut Veranstalter: wöchentlich mittwochs 16:00–17:30\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.achim.de/freizeit-kultur/veranstaltunge
+ n-feste-maerkte/veranstaltungskalender/
+URL:https://www.achim.de/freizeit-kultur/veranstaltungen-feste-maerkte/vera
+ nstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:achim-stadtbibliothek-20261030-achimer-lesebaeren-krabbelgruppe@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T103000
+DTEND;TZID=Europe/Berlin:20261030T123000
+SUMMARY:Achimer Lesebären – Krabbelgruppe
+LOCATION:Stadtbibliothek Achim\, Obernstraße 38\, 28832 Achim
+DESCRIPTION:Termine laut Veranstalter: wöchentlich freitags 10:30–12:00\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.achim.de/freizeit-kult
+ ur/veranstaltungen-feste-maerkte/veranstaltungskalender/
+URL:https://www.achim.de/freizeit-kultur/veranstaltungen-feste-maerkte/vera
+ nstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

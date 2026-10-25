@@ -10,6 +10,55 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dh-wassermuehle-sudweyhe-20261024-ausstellung-kapier-papier-beginn@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Ausstellung „Kapier Papier“
+LOCATION:Wassermühle Sudweyhe\, Im Mühlengrunde 15\, 28844 Weyhe
+DESCRIPTION:Laufzeit: 24.10.2026 bis 28.2.2027\nTermine laut Veranstalter: 
+ sonntags 12–18 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.w
+ eyhe.de/regional/veranstaltungen/ausstellung-kapier-papier-in-der-wassermu
+ ehle-sudweyhe-909008643-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/ausstellung-kapier-papier
+ -in-der-wassermuehle-sudweyhe-909008643-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-wassermuehle-sudweyhe-20261024-ausstellung-kapier-papier-ende@myeven
+ thub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Ausstellung „Kapier Papier“
+LOCATION:Wassermühle Sudweyhe\, Im Mühlengrunde 15\, 28844 Weyhe
+DESCRIPTION:Laufzeit: 24.10.2026 bis 28.2.2027\nTermine laut Veranstalter: 
+ sonntags 12–18 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.w
+ eyhe.de/regional/veranstaltungen/ausstellung-kapier-papier-in-der-wassermu
+ ehle-sudweyhe-909008643-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/ausstellung-kapier-papier
+ -in-der-wassermuehle-sudweyhe-909008643-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:dh-weyher-theater-20261029-misery-boulevardtheater-bremen@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -24,6 +73,54 @@ URL:https://www.weyhertheater.de/spielplan
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261030-puppentheater-in-der-bibliothek@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T153000
+DTEND;TZID=Europe/Berlin:20261030T173000
+SUMMARY:Puppentheater in der Bibliothek
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/puppentheater-in-
+ der-bibliothek-909008577-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/puppentheater-in-der-bibl
+ iothek-909008577-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261102-leselust-cafe-in-der-kulturscheune@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T160000
+DTEND;TZID=Europe/Berlin:20261102T180000
+SUMMARY:Leselust-Café in der Kulturscheune
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/leselust-caf-in-d
+ er-kulturscheune-909008580-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/leselust-caf-in-der-kultu
+ rscheune-909008580-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261105-bastelspass-in-der-bibliothek@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T153000
+DTEND;TZID=Europe/Berlin:20261105T173000
+SUMMARY:Bastelspaß in der Bibliothek
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/bastelspass-in-de
+ r-bibliothek-weyhe-909008574-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/bastelspass-in-der-biblio
+ thek-weyhe-909008574-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:dh-weyher-theater-20261106-alles-fuer-mama-premiere@myeventhub.de
 DTSTAMP:20261024T000000Z
 DTSTART;VALUE=DATE:20261106
@@ -33,6 +130,38 @@ LOCATION:Weyher Theater\, Am Marktplatz 15\, 28844 Weyhe
 DESCRIPTION:Komödie.\nQuelle (bitte vor dem Besuch prüfen): https://www.w
  eyhertheater.de/spielplan
 URL:https://www.weyhertheater.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261110-bilderbuchkino-in-der-bibliothek@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T153000
+DTEND;TZID=Europe/Berlin:20261110T173000
+SUMMARY:Bilderbuchkino in der Bibliothek
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/bilderbuchkino-in
+ -der-bibliothek-weyhe-909008567-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/bilderbuchkino-in-der-bib
+ liothek-weyhe-909008567-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261110-bilderbuchkino-in-der-bibliothek-1600@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T160000
+DTEND;TZID=Europe/Berlin:20261110T180000
+SUMMARY:Bilderbuchkino in der Bibliothek
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/bilderbuchkino-in
+ -der-bibliothek-weyhe-909008571-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/bilderbuchkino-in-der-bib
+ liothek-weyhe-909008571-21850.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -62,6 +191,55 @@ URL:https://www.weyhertheater.de/spielplan
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261120-vorlesetag-2026-fuer-familien-und-kinder@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T150000
+DTEND;TZID=Europe/Berlin:20261120T170000
+SUMMARY:Vorlesetag 2026 für Familien und Kinder
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/vorlesetag-2026-f
+ uer-familien-und-kinder-909008539-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/vorlesetag-2026-fuer-fami
+ lien-und-kinder-909008539-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261125-desinformation-und-geopolitik-vortrag-von-
+ alice-ec@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T190000
+DTEND;TZID=Europe/Berlin:20261125T210000
+SUMMARY:Desinformation und Geopolitik – Vortrag von Alice Echtermann
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/desinformation-un
+ d-geopolitik-vortrag-von-alice-echtermann-909008540-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/desinformation-und-geopol
+ itik-vortrag-von-alice-echtermann-909008540-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261126-zwischen-ewigem-sommer-und-tiefster-nacht-
+ multimed@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T190000
+DTEND;TZID=Europe/Berlin:20261126T210000
+SUMMARY:Zwischen ewigem Sommer und tiefster Nacht – Multimedia-Reisevortr
+ ag
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/zwischen-ewigem-s
+ ommer-und-tiefster-nacht-ein-multimedia-reisevortrag-909008541-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/zwischen-ewigem-sommer-un
+ d-tiefster-nacht-ein-multimedia-reisevortrag-909008541-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:dh-weyher-theater-20261126-die-biene-maja-premiere@myeventhub.de
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261126
@@ -74,6 +252,86 @@ URL:https://www.weyhertheater.de/spielplan
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261127-puppentheater-in-der-bibliothek@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T153000
+DTEND;TZID=Europe/Berlin:20261127T173000
+SUMMARY:Puppentheater in der Bibliothek
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/puppentheater-in-
+ der-bibliothek-909008578-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/puppentheater-in-der-bibl
+ iothek-909008578-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261203-bastelspass-in-der-bibliothek@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T153000
+DTEND;TZID=Europe/Berlin:20261203T173000
+SUMMARY:Bastelspaß in der Bibliothek
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/bastelspass-in-de
+ r-bibliothek-weyhe-909008575-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/bastelspass-in-der-biblio
+ thek-weyhe-909008575-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261207-leselust-cafe-in-der-kulturscheune@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T160000
+DTEND;TZID=Europe/Berlin:20261207T180000
+SUMMARY:Leselust-Café in der Kulturscheune
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/leselust-caf-in-d
+ er-kulturscheune-909008581-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/leselust-caf-in-der-kultu
+ rscheune-909008581-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261208-bilderbuchkino-in-der-bibliothek@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T153000
+DTEND;TZID=Europe/Berlin:20261208T173000
+SUMMARY:Bilderbuchkino in der Bibliothek
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/bilderbuchkino-in
+ -der-bibliothek-weyhe-909008568-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/bilderbuchkino-in-der-bib
+ liothek-weyhe-909008568-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261208-bilderbuchkino-in-der-bibliothek-1600@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T160000
+DTEND;TZID=Europe/Berlin:20261208T180000
+SUMMARY:Bilderbuchkino in der Bibliothek
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/bilderbuchkino-in
+ -der-bibliothek-weyhe-909008572-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/bilderbuchkino-in-der-bib
+ liothek-weyhe-909008572-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:dh-weyher-theater-20261209-verliebt-verlobt-und-dann@myeventhub.de
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261209
@@ -83,6 +341,39 @@ LOCATION:Weyher Theater\, Am Marktplatz 15\, 28844 Weyhe
 DESCRIPTION:Musikalische Komödie.\nQuelle (bitte vor dem Besuch prüfen): 
  https://www.weyhertheater.de/spielplan
 URL:https://www.weyhertheater.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261215-der-elefant-im-raum-zaubershow-mit-tjark-s
+ chloesse@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T190000
+DTEND;TZID=Europe/Berlin:20261215T210000
+SUMMARY:Der Elefant im Raum – Zaubershow mit Tjark Schlösser
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Laut Gemeindeseite ausverkauft.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.weyhe.de/regional/
+ veranstaltungen/der-elefant-im-raum-zaubershow-mit-tjark-schloesser-ausver
+ kauft--909008542-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/der-elefant-im-raum-zaube
+ rshow-mit-tjark-schloesser-ausverkauft--909008542-21850.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dh-bibliothek-weyhe-20261217-escape-room-in-der-bibliothek-fuer-kinder@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T153000
+DTEND;TZID=Europe/Berlin:20261217T173000
+SUMMARY:Escape-Room in der Bibliothek für Kinder
+LOCATION:Bibliothek Weyhe (Kulturscheune)\, Henry-Wetjen-Platz 4a\, 28844 W
+ eyhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weyhe.de/regional/veranstaltungen/escape-room-in-de
+ r-bibliothek-fuer-kinder-909008565-21850.html
+URL:https://www.weyhe.de/regional/veranstaltungen/escape-room-in-der-biblio
+ thek-fuer-kinder-909008565-21850.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
