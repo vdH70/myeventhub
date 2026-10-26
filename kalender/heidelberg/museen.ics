@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Heidelberg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hd-textilsammlung-max-berk-20261018-lotte-hofmann-preis-fuer-textilkuns
+ t-2026-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Beginn: Lotte Hofmann Preis für Textilkunst 2026
+LOCATION:Textilsammlung Max Berk (Kurpfälzisches Museum)\, Heidelberg
+DESCRIPTION:Laufzeit: 18.10.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.museum-heidelberg.de/
+URL:https://www.museum-heidelberg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-textilsammlung-max-berk-20261018-lotte-hofmann-preis-fuer-textilkuns
+ t-2026-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Lotte Hofmann Preis für Textilkunst 2026
+LOCATION:Textilsammlung Max Berk (Kurpfälzisches Museum)\, Heidelberg
+DESCRIPTION:Laufzeit: 18.10.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.museum-heidelberg.de/
+URL:https://www.museum-heidelberg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
