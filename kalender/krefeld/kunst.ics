@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:kr-kaiser-wilhelm-museum-20250703-sammlung-in-bewegung-ende@myeventhub.
  de
@@ -77,6 +94,21 @@ LOCATION:Museen Haus Lange und Haus Esters\, Wilhelmshofallee 91–97\, 478
 DESCRIPTION:Ausstellung in Haus Esters.\nLaufzeit: 4.10.2026 bis 7.3.2027\n
  Quelle (bitte vor dem Besuch prüfen): https://kunstmuseenkrefeld.de/
 URL:https://kunstmuseenkrefeld.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-haus-der-seidenkultur-20261113-workshop-einfuehrung-in-die-meditativ
+ e-kunst-des-s@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T163000
+DTEND;TZID=Europe/Berlin:20261113T183000
+SUMMARY:Workshop: Einführung in die meditative Kunst des Stickens – Male
+ n mit dem Faden
+LOCATION:Haus der Seidenkultur\, Luisenstraße 15\, 47799 Krefeld
+DESCRIPTION:Stick-Workshop in der Alten Stickerei bis 20 Uhr\; Jahr aus der
+  Monatsüberschrift der Seite.\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://seidenkultur.de/veranstaltungen/
+URL:https://seidenkultur.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
