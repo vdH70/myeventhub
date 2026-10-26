@@ -10,6 +10,51 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-monacensia-20241027-maria-theresia-23-biografie-einer-muenchner-villa
+ -ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20300930
+DTEND;VALUE=DATE:20301001
+SUMMARY:Letzter Tag: Maria Theresia 23. Biografie einer Münchner Villa
+LOCATION:Monacensia im Hildebrandhaus (Münchner Stadtbibliothek)\, Münche
+ n
+DESCRIPTION:Laufzeit: 27.10.2024 bis 30.9.2030\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.muenchner-stadtbibliothek.de/veranstaltungen
+URL:https://www.muenchner-stadtbibliothek.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-lenbachhaus-20260310-ueber-die-welt-hinaus-der-blaue-reiter-ende@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:Letzter Tag: Über die Welt hinaus. Der Blaue Reiter
+LOCATION:Städtische Galerie im Lenbachhaus und Kunstbau\, Luisenstraße 33
+ \, 80333 München
+DESCRIPTION:Laufzeit: 10.3.2026 bis 5.9.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.lenbachhaus.de/
+URL:https://www.lenbachhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:m-haus-der-kunst-20260612-steina-playback-ende@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -61,6 +106,66 @@ URL:https://www.hausderkunst.de/eintauchen/tomas-saraceno
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:m-monacensia-20261015-der-comic-glaub-mir-von-jutta-pilgram-pop-up-auss
+ t-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Beginn: Der Comic »Glaub mir« von Jutta Pilgram (Pop-up-Ausstellu
+ ng)
+LOCATION:Monacensia im Hildebrandhaus (Münchner Stadtbibliothek)\, Münche
+ n
+DESCRIPTION:Laufzeit: 15.10.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.muenchner-stadtbibliothek.de/veranstaltungen
+URL:https://www.muenchner-stadtbibliothek.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-monacensia-20261015-der-comic-glaub-mir-von-jutta-pilgram-pop-up-auss
+ t-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Der Comic »Glaub mir« von Jutta Pilgram (Pop-up-Auss
+ tellung)
+LOCATION:Monacensia im Hildebrandhaus (Münchner Stadtbibliothek)\, Münche
+ n
+DESCRIPTION:Laufzeit: 15.10.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.muenchner-stadtbibliothek.de/veranstaltungen
+URL:https://www.muenchner-stadtbibliothek.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-gasteig-hp8-20261023-auf-den-spuren-der-familie-diek-beginn@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Beginn: Auf den Spuren der Familie Diek
+LOCATION:Gasteig HP8 (Isarphilharmonie\, Halle E\, Saal X)\, Hans-Preißing
+ er-Straße 8\, 81379 München
+DESCRIPTION:Ausstellung in der Stadtbibliothek im HP8.\nLaufzeit: 23.10.202
+ 6 bis 29.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.muenc
+ hner-stadtbibliothek.de/veranstaltungen
+URL:https://www.muenchner-stadtbibliothek.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-gasteig-hp8-20261023-auf-den-spuren-der-familie-diek-ende@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Auf den Spuren der Familie Diek
+LOCATION:Gasteig HP8 (Isarphilharmonie\, Halle E\, Saal X)\, Hans-Preißing
+ er-Straße 8\, 81379 München
+DESCRIPTION:Ausstellung in der Stadtbibliothek im HP8.\nLaufzeit: 23.10.202
+ 6 bis 29.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.muenc
+ hner-stadtbibliothek.de/veranstaltungen
+URL:https://www.muenchner-stadtbibliothek.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:m-gasteig-hp8-20261025-aurum-interaktive-videokunst-installation-beginn
  @myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -86,6 +191,139 @@ DESCRIPTION:Laufzeit: 25.10.2026 bis 31.12.2026\nQuelle (bitte vor dem Besu
  ch prüfen): https://www.gasteig.de/veranstaltungen/we-are-video-spark-b00
  94/
 URL:https://www.gasteig.de/veranstaltungen/we-are-video-spark-b0094/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-lenbachhaus-20261026-shifting-the-silence-die-stille-verschieben-begi
+ nn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Beginn: Shifting the Silence. Die Stille verschieben
+LOCATION:Städtische Galerie im Lenbachhaus und Kunstbau\, Luisenstraße 33
+ \, 80333 München
+DESCRIPTION:Laufzeit: 26.10.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.lenbachhaus.de/
+URL:https://www.lenbachhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-lenbachhaus-20261026-shifting-the-silence-die-stille-verschieben-ende
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Shifting the Silence. Die Stille verschieben
+LOCATION:Städtische Galerie im Lenbachhaus und Kunstbau\, Luisenstraße 33
+ \, 80333 München
+DESCRIPTION:Laufzeit: 26.10.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.lenbachhaus.de/
+URL:https://www.lenbachhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-lenbachhaus-20261026-was-zu-verschwinden-droht-wird-bild-mensch-natur
+ -k-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Beginn: Was zu verschwinden droht\, wird Bild. Mensch – Natur –
+  Kunst
+LOCATION:Städtische Galerie im Lenbachhaus und Kunstbau\, Luisenstraße 33
+ \, 80333 München
+DESCRIPTION:Laufzeit: 26.10.2026 bis 31.1.2028\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.lenbachhaus.de/
+URL:https://www.lenbachhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-lenbachhaus-20261026-was-zu-verschwinden-droht-wird-bild-mensch-natur
+ -k-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:Letzter Tag: Was zu verschwinden droht\, wird Bild. Mensch – Natu
+ r – Kunst
+LOCATION:Städtische Galerie im Lenbachhaus und Kunstbau\, Luisenstraße 33
+ \, 80333 München
+DESCRIPTION:Laufzeit: 26.10.2026 bis 31.1.2028\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.lenbachhaus.de/
+URL:https://www.lenbachhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-stadtmuseum-20261026-what-the-city-perspektiven-unserer-stadt-beginn@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Beginn: What the City. Perspektiven unserer Stadt
+LOCATION:Münchner Stadtmuseum (Zeughaus\, Interimsausstellung)\, St.-Jakob
+ s-Platz\, München
+DESCRIPTION:Interimsausstellung im historischen Zeughaus\, Di–So 11–19 
+ Uhr.\nLaufzeit: 26.10.2026 bis 18.4.2027\nPreis: Eintritt frei\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.muenchner-stadtmuseum.de/programm
+URL:https://www.muenchner-stadtmuseum.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-stadtmuseum-20261026-what-the-city-perspektiven-unserer-stadt-ende@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Letzter Tag: What the City. Perspektiven unserer Stadt
+LOCATION:Münchner Stadtmuseum (Zeughaus\, Interimsausstellung)\, St.-Jakob
+ s-Platz\, München
+DESCRIPTION:Interimsausstellung im historischen Zeughaus\, Di–So 11–19 
+ Uhr.\nLaufzeit: 26.10.2026 bis 18.4.2027\nPreis: Eintritt frei\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.muenchner-stadtmuseum.de/programm
+URL:https://www.muenchner-stadtmuseum.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-lenbachhaus-20261027-maria-jarema-revolutionaere-kommissarin-der-abst
+ ra-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Beginn: Maria Jarema. Revolutionäre Kommissarin der Abstraktion
+LOCATION:Städtische Galerie im Lenbachhaus und Kunstbau\, Luisenstraße 33
+ \, 80333 München
+DESCRIPTION:Laufzeit: 27.10.2026 bis 25.4.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.lenbachhaus.de/programm/ausstellungen/detail/maria
+ -jarema
+URL:https://www.lenbachhaus.de/programm/ausstellungen/detail/maria-jarema
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-lenbachhaus-20261027-maria-jarema-revolutionaere-kommissarin-der-abst
+ ra-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Letzter Tag: Maria Jarema. Revolutionäre Kommissarin der Abstrakti
+ on
+LOCATION:Städtische Galerie im Lenbachhaus und Kunstbau\, Luisenstraße 33
+ \, 80333 München
+DESCRIPTION:Laufzeit: 27.10.2026 bis 25.4.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.lenbachhaus.de/programm/ausstellungen/detail/maria
+ -jarema
+URL:https://www.lenbachhaus.de/programm/ausstellungen/detail/maria-jarema
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261130-eroeffnung-der-ausstellung-das-klassenfoto@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T190000
+DTEND;TZID=Europe/Berlin:20261130T210000
+SUMMARY:Eröffnung der Ausstellung „Das Klassenfoto“
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
