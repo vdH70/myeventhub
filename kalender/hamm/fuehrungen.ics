@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:hamm-maximilianpark-20261101-kunst-im-park-kunstfuehrung-fuer-alle-bne@
  myeventhub.de
@@ -21,6 +38,21 @@ LOCATION:Maximilianpark Hamm\, Alter Grenzweg 2\, 59071 Hamm
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://maximilianpark.d
  e/veranstaltungen
 URL:https://maximilianpark.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ham-heinrich-von-kleist-forum-20261106-literarischer-herbst-8-literaris
+ cher-stadtrundgang@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T150000
+DTEND;TZID=Europe/Berlin:20261106T170000
+SUMMARY:Literarischer Herbst: 8. Literarischer Stadtrundgang
+LOCATION:Zentralbibliothek Hamm im Heinrich-von-Kleist-Forum\, Platz der De
+ utschen Einheit 1\, 59065 Hamm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 10 € / erm. 8 €\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.hamm.de/literarischer-h
+ erbst
+URL:https://www.hamm.de/literarischer-herbst
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
