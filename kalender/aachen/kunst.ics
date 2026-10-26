@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ac-ludwig-forum-20231209-double-wall-project-ulrike-mueller-ende@myeven
  thub.de
@@ -76,6 +93,20 @@ LOCATION:Suermondt-Ludwig-Museum\, Wilhelmstraße 18\, 52070 Aachen
 DESCRIPTION:Laufzeit: 12.10.2026 bis 13.12.2026\nQuelle (bitte vor dem Besu
  ch prüfen): https://www.suermondt-ludwig-museum.de/
 URL:https://www.suermondt-ludwig-museum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ac-kunsthaus-nrw-20261114-eroeffnung-jos-ne-in-absence-of-a-map@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Eröffnung: Još ne. – In Absence of a Map
+LOCATION:Kunsthaus NRW Kornelimünster\, Abteigarten 6\, 52076 Aachen
+DESCRIPTION:Ausstellungseröffnung.\nEnde: laut Quelle nicht angegeben\nPre
+ is: Der Eintritt ist frei!\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.kunsthaus.nrw/
+URL:https://www.kunsthaus.nrw/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
