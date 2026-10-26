@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:gerhard-marcks-haus-20250101-marcks-meets-buergerschaft-ende@myeventhub
  .de
@@ -481,6 +498,36 @@ URL:https://www.uebersee-museum.de/ausstellung/tibati-bremen-und-zurueck-ka
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hb-spedition-20261030-ausstellung-90-jahre-spanien-36-eroffnung-mit-dok
+ umenta-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Ausstellung 90 Jahre Spanien '36 – Eröffnung mit Dokumen
+ tarfilm
+LOCATION:Spedition\, Beim Handelsmuseum 9\, 28195 Bremen
+DESCRIPTION:Laufzeit: 30.10.2026 bis 15.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://spedition-bremen.com/ausstellung-programm-90-jahre-sp
+ anien-36/
+URL:https://spedition-bremen.com/ausstellung-programm-90-jahre-spanien-36/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-spedition-20261030-ausstellung-90-jahre-spanien-36-eroffnung-mit-dok
+ umenta-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Ausstellung 90 Jahre Spanien '36 – Eröffnung mit Do
+ kumentarfilm
+LOCATION:Spedition\, Beim Handelsmuseum 9\, 28195 Bremen
+DESCRIPTION:Laufzeit: 30.10.2026 bis 15.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://spedition-bremen.com/ausstellung-programm-90-jahre-sp
+ anien-36/
+URL:https://spedition-bremen.com/ausstellung-programm-90-jahre-spanien-36/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:kunsthalle-bremen-20261031-der-dackel-eine-ikone-geht-gassi-beginn@myev
  enthub.de
 DTSTAMP:20261025T000000Z
@@ -510,6 +557,19 @@ DESCRIPTION:Erste umfassende Ausstellung zum Dackel in der Kunst mit rund 1
  ckets: https://shop.kunsthalle-bremen.de\nQuelle (bitte vor dem Besuch pr
  üfen): https://www.kunsthalle-bremen.de/de/ausstellungen/der-dackel
 URL:https://www.kunsthalle-bremen.de/de/ausstellungen/der-dackel
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:overbeck-museum-20261101-material-girls-v-kunstlerinnengesprach@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T113000
+DTEND;TZID=Europe/Berlin:20261101T133000
+SUMMARY:Material Girls V – Künstlerinnengespräch
+LOCATION:Overbeck-Museum\, Alte Hafenstraße 30\, 28757 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbuerobremennord.de/programm/november-2026/
+URL:https://www.kulturbuerobremennord.de/programm/november-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -683,6 +743,19 @@ DESCRIPTION:Das Werk des dänischen Künstlerpaars erstmals als gemeinsame
   dem Besuch prüfen): https://weserburg.de/ausstellung/better-together-pou
  l-und-aase-gernes/
 URL:https://weserburg.de/ausstellung/better-together-poul-und-aase-gernes/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:overbeck-museum-20261115-material-girls-v-kunstlerinnengesprach@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T113000
+DTEND;TZID=Europe/Berlin:20261115T133000
+SUMMARY:Material Girls V – Künstlerinnengespräch
+LOCATION:Overbeck-Museum\, Alte Hafenstraße 30\, 28757 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbuerobremennord.de/programm/november-2026/
+URL:https://www.kulturbuerobremennord.de/programm/november-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
