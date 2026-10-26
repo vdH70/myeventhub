@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festivals in Nürnberg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:n-kulturwerkstatt-auf-aeg-20261106-10-jahre-10-tage-kulturwerkstatt-auf
+ -aeg-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Beginn: 10 Jahre / 10 Tage Kulturwerkstatt Auf AEG
+LOCATION:Kulturwerkstatt Auf AEG\, Fürther Straße 244d\, 90429 Nürnberg
+DESCRIPTION:Laufzeit: 6.11.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.nuernberg.de/internet/kuf_kultur/kulturwerkstatt_1
+ 0_jahre_10_tage.html
+URL:https://www.nuernberg.de/internet/kuf_kultur/kulturwerkstatt_10_jahre_1
+ 0_tage.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-kulturwerkstatt-auf-aeg-20261106-10-jahre-10-tage-kulturwerkstatt-auf
+ -aeg-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: 10 Jahre / 10 Tage Kulturwerkstatt Auf AEG
+LOCATION:Kulturwerkstatt Auf AEG\, Fürther Straße 244d\, 90429 Nürnberg
+DESCRIPTION:Laufzeit: 6.11.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.nuernberg.de/internet/kuf_kultur/kulturwerkstatt_1
+ 0_jahre_10_tage.html
+URL:https://www.nuernberg.de/internet/kuf_kultur/kulturwerkstatt_10_jahre_1
+ 0_tage.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
