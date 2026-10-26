@@ -10,6 +10,84 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bn-arithmeum-20240608-um-drei-ecken-gedacht-rechenschieber-und-vermessu
+ n-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Um drei Ecken gedacht - Rechenschieber und Vermessung
+LOCATION:Arithmeum\, Lennéstraße 2\, 53113 Bonn
+DESCRIPTION:Laufzeit: 8.6.2024 bis 31.12.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausste
+ llungen-auf-einen-blick.html
+URL:https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausstellungen-
+ auf-einen-blick.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20240918-nach-hitler-die-deutsche-auseinanderset
+ zung-mit-de-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Nach Hitler. Die deutsche Auseinandersetzung mit dem N
+ ationalsozialismus
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Laufzeit: 18.9.2024 bis 10.1.2027\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.hdg.de/haus-der-geschichte
+URL:https://www.hdg.de/haus-der-geschichte
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-arithmeum-20251011-eine-goldmedaille-fuer-die-multiplikation-leon-bo
+ l-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Eine Goldmedaille für die Multiplikation - Léon Boll
+ ée (1870-1913) und seine Erfindungen
+LOCATION:Arithmeum\, Lennéstraße 2\, 53113 Bonn
+DESCRIPTION:Laufzeit: 11.10.2025 bis 28.2.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausst
+ ellungen-auf-einen-blick.html
+URL:https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausstellungen-
+ auf-einen-blick.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-arithmeum-20251011-hans-joerg-glattfelder-im-arithmeum-aufbruch-zu-n
+ e-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Hans Jörg Glattfelder im Arithmeum - Aufbruch zu neue
+ n Dimensionen
+LOCATION:Arithmeum\, Lennéstraße 2\, 53113 Bonn
+DESCRIPTION:Laufzeit: 11.10.2025 bis 31.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausst
+ ellungen-auf-einen-blick.html
+URL:https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausstellungen-
+ auf-einen-blick.html
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:bn-bundeskunsthalle-20260402-sex-work-eine-kulturgeschichte-der-sexarbe
  it-ende@myeventhub.de
@@ -36,6 +114,36 @@ URL:https://www.bundeskunsthalle.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:bn-arithmeum-20260613-die-kunstkammer-pohl-goldschmidt-wertvolle-mathem
+ a-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Letzter Tag: Die Kunstkammer Pohl-Goldschmidt - Wertvolle mathemati
+ sche und wissenschaftliche Instrumente und Schätze der Renaissance im Ari
+ thmeum
+LOCATION:Arithmeum\, Lennéstraße 2\, 53113 Bonn
+DESCRIPTION:Laufzeit: 13.6.2026 bis 20.6.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausste
+ llungen-auf-einen-blick.html
+URL:https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausstellungen-
+ auf-einen-blick.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-august-macke-haus-20260910-chunqing-huang-reflections-ende@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Chunqing Huang: Reflections
+LOCATION:Museum August Macke Haus\, Hochstadenring 36\, 53119 Bonn
+DESCRIPTION:Laufzeit: 10.9.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.august-macke-haus.de/
+URL:https://www.august-macke-haus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bn-bundeskunsthalle-20260916-touch-ing-transformation-ende@myeventhub.d
  e
 DTSTAMP:20261011T000000Z
@@ -59,6 +167,233 @@ LOCATION:Bundeskunsthalle\, Helmut-Kohl-Allee 4\, 53113 Bonn
 DESCRIPTION:Laufzeit: 10.10.2026 bis 2.5.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.bundeskunsthalle.de/
 URL:https://www.bundeskunsthalle.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-lvr-landesmuseum-20261015-fluchtpunkt-paris-gisele-freund-rogi-andre
+ -madame-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Beginn: Fluchtpunkt Paris. Gisèle Freund\, Rogi André\, Madame d
+ ʼOra
+LOCATION:LVR-LandesMuseum Bonn\, Colmantstraße 14–16\, 53115 Bonn
+DESCRIPTION:Fotografie-Ausstellung mit Werken dreier Fotografinnen.\nLaufze
+ it: 15.10.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.lvr.de/landesmuseum-bonn/ausstellungen/fluchtpunkt-paris/
+URL:https://www.lvr.de/landesmuseum-bonn/ausstellungen/fluchtpunkt-paris/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-lvr-landesmuseum-20261015-fluchtpunkt-paris-gisele-freund-rogi-andre
+ -madame-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Fluchtpunkt Paris. Gisèle Freund\, Rogi André\, Mada
+ me dʼOra
+LOCATION:LVR-LandesMuseum Bonn\, Colmantstraße 14–16\, 53115 Bonn
+DESCRIPTION:Fotografie-Ausstellung mit Werken dreier Fotografinnen.\nLaufze
+ it: 15.10.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.lvr.de/landesmuseum-bonn/ausstellungen/fluchtpunkt-paris/
+URL:https://www.lvr.de/landesmuseum-bonn/ausstellungen/fluchtpunkt-paris/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261015-glanzlichter-der-naturfotografie-beginn@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Beginn: Glanzlichter der Naturfotografie
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Sonderausstellung mit Naturfotografien.\nLaufzeit: 15.10.2026 b
+ is 17.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://bonn.leibniz-
+ lib.de/de/ausstellungen/sonderausstellungen.html
+URL:https://bonn.leibniz-lib.de/de/ausstellungen/sonderausstellungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261015-glanzlichter-der-naturfotografie-ende@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Glanzlichter der Naturfotografie
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Sonderausstellung mit Naturfotografien.\nLaufzeit: 15.10.2026 b
+ is 17.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://bonn.leibniz-
+ lib.de/de/ausstellungen/sonderausstellungen.html
+URL:https://bonn.leibniz-lib.de/de/ausstellungen/sonderausstellungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261018-family-affairs-welche-familie-hat-keine-geheim
+ niss-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Beginn: FAMILY AFFAIRS – Welche Familie hat keine Geheimnisse?
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Laufzeit: 18.10.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://frauenmuseum.de/aktuelle-ausstellungen/
+URL:https://frauenmuseum.de/aktuelle-ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261018-family-affairs-welche-familie-hat-keine-geheim
+ niss-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: FAMILY AFFAIRS – Welche Familie hat keine Geheimniss
+ e?
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Laufzeit: 18.10.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://frauenmuseum.de/aktuelle-ausstellungen/
+URL:https://frauenmuseum.de/aktuelle-ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20261101-offenes-atelier-du-bist-geschickt-webe-
+ dein-eigene@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T123000
+DTEND;TZID=Europe/Berlin:20261101T143000
+SUMMARY:Offenes Atelier "Du bist geschickt! - Webe dein eigenes Wollkunstwe
+ rk"
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Kreativangebot für Kinder und Familien.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hdg.de/haus-der-geschichte/veranstaltungen
+URL:https://www.hdg.de/haus-der-geschichte/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261101-oeffentliche-familienfuehrung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Öffentliche Familienführung
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenfrei\nQuelle (b
+ itte vor dem Besuch prüfen): https://bonn.leibniz-lib.de/de/veranstaltung
+ en.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261101-offene-sonntagsfuehrung-simultan-in-deutscher-
+ geba@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Offene Sonntagsführung simultan in Deutscher Gebärdensprache
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://frauenmuseum.de/events/
+URL:https://frauenmuseum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261107-nachts-im-museum-taschenlampenfuehrungen@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T183000
+DTEND;TZID=Europe/Berlin:20261107T203000
+SUMMARY:Nachts im Museum: Taschenlampenführungen
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Abendführung mit Taschenlampe\, zweiter Durchgang um 20:00 Uhr
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://bonn.leibniz-lib.de/de/veranstaltungen.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261113-fuehrung-family-affairs-kuenstlerinnengespraec
+ h@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T160000
+DTEND;TZID=Europe/Berlin:20261113T180000
+SUMMARY:Führung Family Affairs & Künstlerinnengespräch
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://frauenmuseum.de/events/
+URL:https://frauenmuseum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261114-kuratorinnenfuehrung-damals-heute-morgen-mit-j
+ ulia@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Kuratorinnenführung: Damals\, Heute\, Morgen. mit Julia Heintz
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3–5 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://frauenmuseum.de/events/
+URL:https://frauenmuseum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261119-zutritt-erlaubt-fuehrung-hinter-die-kulissen-
+ eines@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T163000
+DTEND;TZID=Europe/Berlin:20261119T183000
+SUMMARY:Zutritt erlaubt! Führung hinter die Kulissen eines Forschungsmuseu
+ ms
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bonn.leibniz-lib.de/de/veranstaltungen.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261121-fuehrung-hinter-die-kulissen-blick-in-die-orn
+ ithol@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T150000
+DTEND;TZID=Europe/Berlin:20261121T170000
+SUMMARY:Führung hinter die Kulissen – Blick in die Ornithologische Samml
+ ung
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Familienexkursion in die Ornithologische Sammlung.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://bon
+ n.leibniz-lib.de/de/veranstaltungen.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20261206-offenes-atelier-du-bist-festlich-gestal
+ te-dein-wei@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T123000
+DTEND;TZID=Europe/Berlin:20261206T143000
+SUMMARY:Offenes Atelier "Du bist festlich - Gestalte dein Weihnachtslicht"
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Kreativangebot für Kinder und Familien.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hdg.de/haus-der-geschichte/veranstaltungen
+URL:https://www.hdg.de/haus-der-geschichte/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261206-offene-sonntagsfuehrung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Offene Sonntagsführung
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://frauenmuseum.de/events/
+URL:https://frauenmuseum.de/events/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
