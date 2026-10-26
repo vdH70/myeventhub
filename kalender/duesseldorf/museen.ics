@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:d-sammlung-philara-20260627-house-of-balagan-10-jahre-sammlung-philara-
  ende@myeventhub.de
@@ -91,20 +74,6 @@ LOCATION:Kunsthalle Düsseldorf\, Grabbeplatz 4\, 40213 Düsseldorf
 DESCRIPTION:Laufzeit: 17.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuc
  h prüfen): https://www.kunsthalle-duesseldorf.de/
 URL:https://www.kunsthalle-duesseldorf.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d-kunsthalle-20261025-oeffentliche-kurzfuehrung@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261025T133000
-DTEND;TZID=Europe/Berlin:20261025T153000
-SUMMARY:Öffentliche Kurzführung
-LOCATION:Kunsthalle Düsseldorf\, Grabbeplatz 4\, 40213 Düsseldorf
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: im Eintrittspreis inb
- egriffen\nQuelle (bitte vor dem Besuch prüfen): https://www.kunsthalle-du
- esseldorf.de/kalender/2026-10-25-oeffentliche-kurzfuehrung/
-URL:https://www.kunsthalle-duesseldorf.de/kalender/2026-10-25-oeffentliche-
- kurzfuehrung/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

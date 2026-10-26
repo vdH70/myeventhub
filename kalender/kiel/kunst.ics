@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:ki-kunsthalle-20260916-zwischen-sammlung-und-sanierung-die-kunsthalle-z
  u-ende@myeventhub.de
@@ -40,21 +23,6 @@ DESCRIPTION:Ausstellung im Kieler Landeshaus\, die Kunsthalle selbst ist we
  gen Sanierung geschlossen.\nLaufzeit: 16.9.2026 bis 29.11.2026\nQuelle (bi
  tte vor dem Besuch prüfen): https://www.kunsthalle-kiel.de/
 URL:https://www.kunsthalle-kiel.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ki-flandernbunker-20261025-ausstellungseroeffnung-was-bleibt-wenn-ein-t
- eil-de@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261025T150000
-DTEND;TZID=Europe/Berlin:20261025T170000
-SUMMARY:Ausstellungseröffnung: Was bleibt\, wenn ein Teil der Landschaft v
- erschwindet?
-LOCATION:Flandernbunker (Mahnmal Kilian)\, Kiellinie 249\, 24106 Kiel
-DESCRIPTION:Eröffnung einer Kunstausstellung zum U-Boot-Bunker Kilian im F
- landernbunker.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQ
- uelle (bitte vor dem Besuch prüfen): https://www.mahnmalkilian.de/
-URL:https://www.mahnmalkilian.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

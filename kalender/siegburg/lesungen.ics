@@ -10,36 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:su-stadtmuseum-siegburg-20261025-poesie-trifft-auf-kunst@myeventhub.de
-DTSTAMP:20261024T000000Z
-DTSTART;TZID=Europe/Berlin:20261025T113000
-DTEND;TZID=Europe/Berlin:20261025T133000
-SUMMARY:Poesie trifft auf Kunst
-LOCATION:Stadtmuseum Siegburg\, Markt 46\, 53721 Siegburg
-DESCRIPTION:Veranstaltung zur GEDOK-Ausstellung.\nEnde: laut Quelle nicht a
- ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.stadtmuseum-s
- iegburg.de/
-URL:https://www.stadtmuseum-siegburg.de/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:su-rhein-sieg-forum-20261126-reinhold-messner-weltberge-die-4-dimension
  @myeventhub.de
