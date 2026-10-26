@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ef-schloss-molsdorf-20260524-katharina-sieg-schnabelnasen-himbeergruen-
+ ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Letzter Tag: Katharina Sieg. Schnabelnasen Himbeergrün
+LOCATION:Schloss Molsdorf\, Schlossplatz 6\, 99094 Erfurt
+DESCRIPTION:Laufzeit: 24.5.2026 bis 18.4.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstmuseen.erfurt.de/
+URL:https://kunstmuseen.erfurt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:ef-kunsthalle-20260614-colours-values-12-positionen-des-malerinnennetzw
  er-ende@myeventhub.de
@@ -34,6 +64,18 @@ SUMMARY:Letzter Tag: Nur Mut! Eva Bruszis. Wege und Welten einer Künstleri
  n
 LOCATION:Angermuseum Erfurt\, Erfurt
 DESCRIPTION:Laufzeit: 23.8.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstmuseen.erfurt.de/
+URL:https://kunstmuseen.erfurt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-galerie-waidspeicher-20260830-why-so-serious-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Letzter Tag: Why so serious?
+LOCATION:Galerie Waidspeicher\, Erfurt
+DESCRIPTION:Laufzeit: 30.8.2026 bis 14.3.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://kunstmuseen.erfurt.de/
 URL:https://kunstmuseen.erfurt.de/
 TRANSP:TRANSPARENT
@@ -76,6 +118,59 @@ URL:https://www.theater-erfurt.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ef-kunsthalle-20261028-kostenlose-kunstpause-in-der-kunsthalle-erfurt@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T110000
+DTEND;TZID=Europe/Berlin:20261028T130000
+SUMMARY:Kostenlose Kunstpause in der Kunsthalle Erfurt
+LOCATION:Kunsthalle Erfurt\, Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://kunstmuseen.erfurt.de/
+URL:https://kunstmuseen.erfurt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-angermuseum-20261028-kostenlose-kunstpause-am-mittag-im-angermuseum-
+ erf@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T120000
+DTEND;TZID=Europe/Berlin:20261028T140000
+SUMMARY:Kostenlose Kunstpause am Mittag im Angermuseum Erfurt
+LOCATION:Angermuseum Erfurt\, Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://kunstmuseen.erfurt.de/
+URL:https://kunstmuseen.erfurt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-kunsthalle-20261030-konzertreihe-conect-mit-dem-ensemble-via-nova@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T190000
+DTEND;TZID=Europe/Berlin:20261030T210000
+SUMMARY:Konzertreihe „Conect“ mit dem Ensemble Via Nova
+LOCATION:Kunsthalle Erfurt\, Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstmuseen.erfurt.de/
+URL:https://kunstmuseen.erfurt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-galerie-waidspeicher-20261107-game-of-tiles-tischtennisturnier-am-fl
+ iesentisch-m@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T140000
+DTEND;TZID=Europe/Berlin:20261107T160000
+SUMMARY:Game of Tiles: Tischtennisturnier am Fliesentisch mit der Künstler
+ in Josephine Schulz
+LOCATION:Galerie Waidspeicher\, Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstmuseen.erfurt.de/
+URL:https://kunstmuseen.erfurt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ef-theater-20261108-die-fledermaus-matinee@myeventhub.de
 DTSTAMP:20261024T000000Z
 DTSTART;VALUE=DATE:20261108
@@ -85,6 +180,20 @@ LOCATION:Theater Erfurt\, Erfurt
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.theater-erfu
  rt.de/
 URL:https://www.theater-erfurt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-galerie-waidspeicher-20261128-galeriathlon-tischtennis-und-scheibens
+ chiessen-mit@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:Galeriathlon: Tischtennis und Scheibenschießen mit dem Kurator der
+  Ausstellung „Why so serious?“
+LOCATION:Galerie Waidspeicher\, Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstmuseen.erfurt.de/
+URL:https://kunstmuseen.erfurt.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

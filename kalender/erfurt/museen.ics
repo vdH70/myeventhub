@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ef-kunsthalle-20260614-colours-values-12-positionen-des-malerinnennetzw
  er-ende@myeventhub.de
@@ -48,6 +65,32 @@ SUMMARY:Letzter Tag: Stefan Schwarzer. Kaleidoskopia
 LOCATION:Kunsthalle Erfurt\, Erfurt
 DESCRIPTION:Laufzeit: 4.9.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch 
  prüfen): https://kunstmuseen.erfurt.de/
+URL:https://kunstmuseen.erfurt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-kunsthalle-20261028-kostenlose-kunstpause-in-der-kunsthalle-erfurt@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T110000
+DTEND;TZID=Europe/Berlin:20261028T130000
+SUMMARY:Kostenlose Kunstpause in der Kunsthalle Erfurt
+LOCATION:Kunsthalle Erfurt\, Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://kunstmuseen.erfurt.de/
+URL:https://kunstmuseen.erfurt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-angermuseum-20261028-kostenlose-kunstpause-am-mittag-im-angermuseum-
+ erf@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261028T120000
+DTEND;TZID=Europe/Berlin:20261028T140000
+SUMMARY:Kostenlose Kunstpause am Mittag im Angermuseum Erfurt
+LOCATION:Angermuseum Erfurt\, Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://kunstmuseen.erfurt.de/
 URL:https://kunstmuseen.erfurt.de/
 TRANSP:TRANSPARENT
 END:VEVENT
