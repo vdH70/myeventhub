@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:goe-forum-wissen-20261030-halloween-im-forum-wissen-beginn@myeventhub.d
  e
@@ -37,6 +54,22 @@ DESCRIPTION:Angebot für Kinder zu Halloween\, bis 01.11. 18 Uhr.\nLaufzeit
  : 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https:/
  /www.forum-wissen.de/kalender/
 URL:https://www.forum-wissen.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-staedtisches-museum-20261031-halloween-programm-fuer-kinder@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Halloween-Programm für Kinder
+LOCATION:Städtisches Museum Göttingen\, Ritterplan 7/8\, 37073 Göttingen
+DESCRIPTION:Halloween-Nachmittag des Städtischen Museums Göttingen ab 15 
+ Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://museum.goettingen.de/portal/seiten/veranstaltungen-900001124
+ -25480.html
+URL:https://museum.goettingen.de/portal/seiten/veranstaltungen-900001124-25
+ 480.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
