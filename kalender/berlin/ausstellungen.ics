@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ber-neue-nationalgalerie-20231118-zerreissprobe-kunst-zwischen-politik-
  und-gesellschaft-ende@myeventhub.de
@@ -1614,6 +1631,40 @@ URL:https://www.villa-oppenheim-berlin.de/ausstellungen/vorschau-ausstellun
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:b-st-matthaeus-kirche-20261105-ekboart-eroeffnung-der-werkschau-und-mus
+ @myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T180000
+DTEND;TZID=Europe/Berlin:20261105T200000
+SUMMARY:EKBOart: Eröffnung der Werkschau und musikalische Lesung „Flucht
+ \, die mich bewegt“
+LOCATION:St. Matthäus-Kirche (Kulturforum)\, Matthäikirchplatz\, 10785 Be
+ rlin
+DESCRIPTION:Eröffnung der Werkschau zur 31. Kunstauktion EKBOart mit musik
+ alischer Lesung.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://stiftung-stmatthaeus.de/veranstaltungen/ekboart-
+ eroeffnung-der-werkschau-und-musikalische-lesung-flucht-die-mich-bewegt/
+URL:https://stiftung-stmatthaeus.de/veranstaltungen/ekboart-eroeffnung-der-
+ werkschau-und-musikalische-lesung-flucht-die-mich-bewegt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-st-matthaeus-kirche-20261114-kunstauktion-ekboart-2026@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Kunstauktion EKBOart 2026
+LOCATION:St. Matthäus-Kirche (Kulturforum)\, Matthäikirchplatz\, 10785 Be
+ rlin
+DESCRIPTION:31. Kunstauktion der Evangelischen Kirche Berlin-Brandenburg-sc
+ hlesische Oberlausitz.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://stiftung-stmatthaeus.de/veranstaltungen/ku
+ nstauktion-ekboart-2026/
+URL:https://stiftung-stmatthaeus.de/veranstaltungen/kunstauktion-ekboart-20
+ 26/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b-industriesalon-schoeneweide-20261114-schwatzen-neue-portraets-von-sch
  oeneweider-senior-beginn@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -1673,6 +1724,23 @@ URL:https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/galerie-pan
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:b-st-matthaeus-kirche-20261120-ausstellungseroeffnung-fiat-lux-von-stef
+ @myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T123000
+DTEND;TZID=Europe/Berlin:20261120T143000
+SUMMARY:Ausstellungseröffnung „Fiat Lux“ von Stefan Heyne
+LOCATION:St. Matthäus-Kirche (Kulturforum)\, Matthäikirchplatz\, 10785 Be
+ rlin
+DESCRIPTION:Eröffnung der Fotoausstellung von Stefan Heyne mit Bischof Chr
+ istian Stäblein.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://stiftung-stmatthaeus.de/veranstaltungen/ausstel
+ lungseroeffnung-fiat-lux-von-stefan-heyne/
+URL:https://stiftung-stmatthaeus.de/veranstaltungen/ausstellungseroeffnung-
+ fiat-lux-von-stefan-heyne/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b-zitadelle-spandau-20261120-besetzt-haeuserkampf-und-waldprotest-in-sp
  andau-beginn@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -1698,6 +1766,24 @@ DESCRIPTION:Zeughaus / Arsenal.\nLaufzeit: 20.11.2026 bis 6.2.2028\nQuelle
  (bitte vor dem Besuch prüfen): https://www.zitadelle-berlin.de/ausstellun
  gen/
 URL:https://www.zitadelle-berlin.de/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-st-matthaeus-kirche-20261123-kuenstlerinnengespraech-mit-a-k-dolven@m
+ yeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T190000
+DTEND;TZID=Europe/Berlin:20261123T210000
+SUMMARY:Künstlerinnengespräch mit A K Dolven
+LOCATION:St. Matthäus-Kirche (Kulturforum)\, Matthäikirchplatz\, 10785 Be
+ rlin
+DESCRIPTION:Gespräch zur Installation „four hundred million years of sun
+ rise from the dark“.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://stiftung-stmatthaeus.de/veranstaltungen/au
+ sstellungsgespraech-a-k-dolven-four-hundred-million-years-of-sunrise-from-
+ the-dark/
+URL:https://stiftung-stmatthaeus.de/veranstaltungen/ausstellungsgespraech-a
+ -k-dolven-four-hundred-million-years-of-sunrise-from-the-dark/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
