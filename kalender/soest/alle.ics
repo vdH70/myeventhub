@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:so-altstadt-kirmes-20261104-soester-allerheiligenkirmes-2026-beginn@mye
  venthub.de
@@ -42,6 +59,46 @@ DESCRIPTION:Große Innenstadtkirmes in der historischen Soester Altstadt.\n
  ltungen/herbst/allerheiligenkirmes.php
 URL:https://www.so-ist-soest.de/de/veranstaltungen/herbst/allerheiligenkirm
  es.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-museum-wilhelm-morgner-20261114-tagung-zu-gefaess-koerper-archiv@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T140000
+DTEND;TZID=Europe/Berlin:20261114T160000
+SUMMARY:Tagung zu Gefäß\, Körper\, Archiv
+LOCATION:Museum Wilhelm Morgner\, Thomästraße 1\, 59494 Soest
+DESCRIPTION:14–20 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.soest.de/bildung-kultur/kultur/soeste
+ r-museen
+URL:https://www.soest.de/bildung-kultur/kultur/soester-museen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-museum-wilhelm-morgner-20261121-benefizauktion-des-foerdervereins@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T140000
+DTEND;TZID=Europe/Berlin:20261121T160000
+SUMMARY:Benefizauktion des Fördervereins
+LOCATION:Museum Wilhelm Morgner\, Thomästraße 1\, 59494 Soest
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.soest.de/bildung-kultur/kultur/soester-museen
+URL:https://www.soest.de/bildung-kultur/kultur/soester-museen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-museum-wilhelm-morgner-20261129-eroeffnung-jugendfotopreis@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Eröffnung Jugendfotopreis
+LOCATION:Museum Wilhelm Morgner\, Thomästraße 1\, 59494 Soest
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.soest.de/bildung-kultur/kultur/soester-museen
+URL:https://www.soest.de/bildung-kultur/kultur/soester-museen
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Glauburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fb-keltenwelt-glauberg-20261107-workshop-museumszeichnen-in-der-keltenw
+ elt-am-glau@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Workshop: Museumszeichnen in der Keltenwelt am Glauberg
+LOCATION:Keltenwelt am Glauberg\, Am Glauberg 1\, 63695 Glauburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.keltenwelt-g
+ lauberg.de/veranstaltungen/
+URL:https://www.keltenwelt-glauberg.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
