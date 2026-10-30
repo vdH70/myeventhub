@@ -10,38 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:h-heinz-von-heiden-arena-20270130-jobmesse-hannover@myeventhub.de
-DTSTAMP:20261011T000000Z
-DTSTART;TZID=Europe/Berlin:20270130T100000
-DTEND;TZID=Europe/Berlin:20270130T120000
-SUMMARY:Jobmesse Hannover
-LOCATION:Heinz von Heiden Arena\, Robert-Enke-Straße 1\, 30169 Hannover
-DESCRIPTION:Job- und Karrieremesse (Veranstalter HR Business GmbH) für Job
- suchende\, Ausbildungsinteressierte und Weiterbildungsinteressierte aus de
- r Region Hannover. 10–16 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis:
-  kostenlose Besuchertickets\, Registrierung erforderlich\nQuelle (bitte vo
- r dem Besuch prüfen): https://jobmesse-hannover.de/
-URL:https://jobmesse-hannover.de/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:h-hcc-kuppelsaal-20270212-beruf-bildung-hannover-beginn@myeventhub.de
 DTSTAMP:20261011T000000Z
