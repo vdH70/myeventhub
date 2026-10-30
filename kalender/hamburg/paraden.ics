@@ -10,39 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:hh-heiligengeistfeld-schlagermove-20270703-29-schlagermove@myeventhub.d
- e
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20270703T150000
-DTEND;TZID=Europe/Berlin:20270703T170000
-SUMMARY:29. Schlagermove
-LOCATION:Heiligengeistfeld (Schlagermove)\, Heiligengeistfeld\, 20359 Hambu
- rg
-DESCRIPTION:Schlager-Parade mit Musik-Trucks durch St. Pauli\, Start und Zi
- el Heiligengeistfeld.\nEnde: laut Quelle nicht angegeben\nPreis: kostenlos
- \nQuelle (bitte vor dem Besuch prüfen): https://schlagermove.de/der-move/
- rueckblicke/
-URL:https://schlagermove.de/der-move/rueckblicke/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:hh-csd-demo-treffpunkt-offen-20270807-csd-demo-hamburg-2027@myeventhub.
  de

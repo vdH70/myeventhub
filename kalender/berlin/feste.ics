@@ -10,37 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:b-museumsdorf-dueppel-20261107-martinsfest-mit-ross-reiter-und-musik@my
- eventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261107T163000
-DTEND;TZID=Europe/Berlin:20261107T183000
-SUMMARY:Martinsfest – Mit Ross\, Reiter und Musik
-LOCATION:Museumsdorf Düppel\, Clauertstraße 11\, 14163 Berlin
-DESCRIPTION:Laternenfest im Museumsdorf\; Sonderöffnung 15–20 Uhr.\nEnde
- : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
- s://www.berlin.museum/museum/museumsdorf-dueppel
-URL:https://www.berlin.museum/museum/museumsdorf-dueppel
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:b-breitscheidplatz-20261113-43-weihnachtsmarkt-city-an-der-gedaechtnisk
  irche-beginn@myeventhub.de
@@ -100,36 +69,6 @@ URL:https://www.christmas-garden.de/berlin
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b-schloss-charlottenburg-weihnachtsmarkt-20261123-weihnachtsmarkt-am-sc
- hloss-charlottenburg-2026-beginn@myeventhub.de
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Beginn: Weihnachtsmarkt am Schloss Charlottenburg 2026
-LOCATION:Weihnachtsmarkt am Schloss Charlottenburg\, Spandauer Damm 20-24\,
-  14059 Berlin
-DESCRIPTION:Mo–Do 13–22 Uhr\, Fr–So 12–22 Uhr\, 24.12. geschlossen.
- \nLaufzeit: 23.11.2026 bis 27.12.2026\nQuelle (bitte vor dem Besuch prüfe
- n): https://www.schloss-weihnachtsmarkt.de/
-URL:https://www.schloss-weihnachtsmarkt.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b-schloss-charlottenburg-weihnachtsmarkt-20261123-weihnachtsmarkt-am-sc
- hloss-charlottenburg-2026-ende@myeventhub.de
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261227
-DTEND;VALUE=DATE:20261228
-SUMMARY:Letzter Tag: Weihnachtsmarkt am Schloss Charlottenburg 2026
-LOCATION:Weihnachtsmarkt am Schloss Charlottenburg\, Spandauer Damm 20-24\,
-  14059 Berlin
-DESCRIPTION:Mo–Do 13–22 Uhr\, Fr–So 12–22 Uhr\, 24.12. geschlossen.
- \nLaufzeit: 23.11.2026 bis 27.12.2026\nQuelle (bitte vor dem Besuch prüfe
- n): https://www.schloss-weihnachtsmarkt.de/
-URL:https://www.schloss-weihnachtsmarkt.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:b-kulturbrauerei-20261123-lucia-weihnachtsmarkt-2026-beginn@myeventhub.
  de
 DTSTAMP:20261018T000000Z
@@ -156,34 +95,6 @@ DESCRIPTION:Skandinavisch geprägter Weihnachtsmarkt in den Höfen der Kult
  r: Mo–Fr 15–22 Uhr\, Sa/So 13–22 Uhr\nPreis: Eintritt frei\nQuelle (
  bitte vor dem Besuch prüfen): https://www.lucia-weihnachtsmarkt.de/
 URL:https://www.lucia-weihnachtsmarkt.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b-rotes-rathaus-platz-20261123-berliner-weihnachtszeit-am-roten-rathaus
- -2026-beginn@myeventhub.de
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Beginn: Berliner Weihnachtszeit am Roten Rathaus 2026
-LOCATION:Platz am Roten Rathaus\, Berlin
-DESCRIPTION:Weihnachtsmarkt zwischen Rotem Rathaus und Fernsehturm.\nLaufze
- it: 23.11.2026 bis 3.1.2027\nQuelle (bitte vor dem Besuch prüfen): https:
- //www.berlinerweihnachtszeit.de/
-URL:https://www.berlinerweihnachtszeit.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b-rotes-rathaus-platz-20261123-berliner-weihnachtszeit-am-roten-rathaus
- -2026-ende@myeventhub.de
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20270103
-DTEND;VALUE=DATE:20270104
-SUMMARY:Letzter Tag: Berliner Weihnachtszeit am Roten Rathaus 2026
-LOCATION:Platz am Roten Rathaus\, Berlin
-DESCRIPTION:Weihnachtsmarkt zwischen Rotem Rathaus und Fernsehturm.\nLaufze
- it: 23.11.2026 bis 3.1.2027\nQuelle (bitte vor dem Besuch prüfen): https:
- //www.berlinerweihnachtszeit.de/
-URL:https://www.berlinerweihnachtszeit.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

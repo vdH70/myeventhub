@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:ma-technoseum-20260625-crime-die-technik-des-verbrechens-ende@myeventhu
  b.de
@@ -40,44 +23,6 @@ DESCRIPTION:Sonderausstellung über Technik rund um Verbrechen und Ermittlu
  ng.\nLaufzeit: 25.6.2026 bis 27.6.2027\nQuelle (bitte vor dem Besuch prüf
  en): https://www.technoseum.de/crime/
 URL:https://www.technoseum.de/crime/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ma-marchivum-20261002-mannheim-im-gepaeck-ende@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20270307
-DTEND;VALUE=DATE:20270308
-SUMMARY:Letzter Tag: Mannheim im Gepäck
-LOCATION:MARCHIVUM\, Archivplatz 1\, 68169 Mannheim
-DESCRIPTION:Laufzeit: 2.10.2026 bis 7.3.2027\nQuelle (bitte vor dem Besuch 
- prüfen): https://www.marchivum.de/de/kalender-z
-URL:https://www.marchivum.de/de/kalender-z
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ma-marchivum-20261111-blick-hinter-die-kulissen-fuehrung-durch-das-marc
- h@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261111T160000
-DTEND;TZID=Europe/Berlin:20261111T180000
-SUMMARY:Blick hinter die Kulissen: Führung durch das MARCHIVUM
-LOCATION:MARCHIVUM\, Archivplatz 1\, 68169 Mannheim
-DESCRIPTION:Treffpunkt Foyer im EG.\nEnde: laut Quelle nicht angegeben\nQue
- lle (bitte vor dem Besuch prüfen): https://www.marchivum.de/de/kalender-z
-URL:https://www.marchivum.de/de/kalender-z
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ma-marchivum-20261209-blick-hinter-die-kulissen-fuehrung-durch-das-marc
- h@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261209T160000
-DTEND;TZID=Europe/Berlin:20261209T180000
-SUMMARY:Blick hinter die Kulissen: Führung durch das MARCHIVUM
-LOCATION:MARCHIVUM\, Archivplatz 1\, 68169 Mannheim
-DESCRIPTION:Treffpunkt Foyer im EG.\nEnde: laut Quelle nicht angegeben\nQue
- lle (bitte vor dem Besuch prüfen): https://www.marchivum.de/de/kalender-z
-URL:https://www.marchivum.de/de/kalender-z
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:bo-kunstmuseum-20260425-das-oeffentliche-gruen-ende@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -67,56 +50,6 @@ URL:https://www.kunstmuseumbochum.de/ausstellungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bo-bergbau-museum-20261031-glueck-auf-oder-saures@myeventhub.de
-DTSTAMP:20261030T000000Z
-DTSTART;TZID=Europe/Berlin:20261031T130000
-DTEND;TZID=Europe/Berlin:20261031T150000
-SUMMARY:Glück Auf oder Saures
-LOCATION:Deutsches Bergbau-Museum Bochum\, Am Bergbaumuseum 28\, 44791 Boch
- um
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.bergbaumuseum.de/besuch/veranstaltungskalender
-URL:https://www.bergbaumuseum.de/besuch/veranstaltungskalender
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bo-eisenbahnmuseum-20261115-dampftag-saisonabschluss@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Dampftag & Saisonabschluss
-LOCATION:Eisenbahnmuseum Bochum\, Dr.-C.-Otto-Straße 191\, 44879 Bochum
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://eisenbahnmuseum-
- bochum.de/besuch/
-URL:https://eisenbahnmuseum-bochum.de/besuch/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bo-eisenbahnmuseum-20261128-sonderfahrt-zum-weihnachtsmarkt@myeventhub.
- de
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Sonderfahrt zum Weihnachtsmarkt
-LOCATION:Eisenbahnmuseum Bochum\, Dr.-C.-Otto-Straße 191\, 44879 Bochum
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://eisenbahnmuseum-
- bochum.de/besuch/
-URL:https://eisenbahnmuseum-bochum.de/besuch/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bo-eisenbahnmuseum-20261205-nikolausfahrten@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Nikolausfahrten
-LOCATION:Eisenbahnmuseum Bochum\, Dr.-C.-Otto-Straße 191\, 44879 Bochum
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://eisenbahnmuseum-
- bochum.de/besuch/
-URL:https://eisenbahnmuseum-bochum.de/besuch/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:bo-kunstmuseum-20261205-grentzelos-eine-hommage-an-vlassis-caniaris-beg
  inn@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -140,18 +73,6 @@ LOCATION:Kunstmuseum Bochum\, Kortumstraße 147\, 44787 Bochum
 DESCRIPTION:Laufzeit: 5.12.2026 bis 6.6.2027\nQuelle (bitte vor dem Besuch 
  prüfen): https://www.kunstmuseumbochum.de/ausstellungen/
 URL:https://www.kunstmuseumbochum.de/ausstellungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bo-eisenbahnmuseum-20261206-nikolausfahrten@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:Nikolausfahrten
-LOCATION:Eisenbahnmuseum Bochum\, Dr.-C.-Otto-Straße 191\, 44879 Bochum
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://eisenbahnmuseum-
- bochum.de/besuch/
-URL:https://eisenbahnmuseum-bochum.de/besuch/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

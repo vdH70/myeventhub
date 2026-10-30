@@ -10,38 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:k-rosenmontagszug-20270208-koelner-rosenmontagszug-2027@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20270208T100000
-DTEND;TZID=Europe/Berlin:20270208T120000
-SUMMARY:Kölner Rosenmontagszug 2027
-LOCATION:Kölner Rosenmontagszug (Zugweg Innenstadt)\, Köln
-DESCRIPTION:Rosenmontagszug des Festkomitees Kölner Karneval\, Motto „Mo
- rje es\, wat do drus mähs!“\nEnde: laut Quelle nicht angegeben\nQuelle 
- (bitte vor dem Besuch prüfen): https://koelnerkarneval.de/session/veranst
- altungen/veranstaltung/koelner-rosenmontagszug-2026
-URL:https://koelnerkarneval.de/session/veranstaltungen/veranstaltung/koelne
- r-rosenmontagszug-2026
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:k-csd-demo-20270704-csd-demonstration-koeln-2027@myeventhub.de
 DTSTAMP:20261025T000000Z

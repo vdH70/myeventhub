@@ -10,36 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:opr-kulturhaus-stadtgarten-20261031-der-traumzauberbaum-das-geburtstags
- fest@myeventhub.de
-DTSTAMP:20261030T000000Z
-DTSTART;TZID=Europe/Berlin:20261031T150000
-DTEND;TZID=Europe/Berlin:20261031T170000
-SUMMARY:Der Traumzauberbaum – Das Geburtstagsfest
-LOCATION:Kulturhaus Stadtgarten\, Karl-Marx-Straße 103\, 16816 Neuruppin
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.kulturhaus-neuruppin.de/veranstaltungen/
-URL:https://www.kulturhaus-neuruppin.de/veranstaltungen/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:opr-museum-neuruppin-20261114-schaudrucken-in-der-lithografiewerkstatt-
  winterlic@myeventhub.de
@@ -80,30 +50,6 @@ DESCRIPTION:Papiertheater nach den Brüdern Grimm\, ab 5 Jahren.\nPreis: Er
  le (bitte vor dem Besuch prüfen): https://www.museum-neuruppin.de/veranst
  altungen/index.php
 URL:https://www.museum-neuruppin.de/veranstaltungen/index.php
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:opr-kulturhaus-stadtgarten-20270123-tarzan-das-musical@myeventhub.de
-DTSTAMP:20261024T000000Z
-DTSTART;TZID=Europe/Berlin:20270123T150000
-DTEND;TZID=Europe/Berlin:20270123T170000
-SUMMARY:Tarzan – das Musical
-LOCATION:Kulturhaus Stadtgarten\, Karl-Marx-Straße 103\, 16816 Neuruppin
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.kulturhaus-neuruppin.de/veranstaltungen/
-URL:https://www.kulturhaus-neuruppin.de/veranstaltungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:opr-kulturhaus-stadtgarten-20270220-conni-das-musical@myeventhub.de
-DTSTAMP:20261024T000000Z
-DTSTART;TZID=Europe/Berlin:20270220T150000
-DTEND;TZID=Europe/Berlin:20270220T170000
-SUMMARY:Conni – Das Musical
-LOCATION:Kulturhaus Stadtgarten\, Karl-Marx-Straße 103\, 16816 Neuruppin
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.kulturhaus-neuruppin.de/veranstaltungen/
-URL:https://www.kulturhaus-neuruppin.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

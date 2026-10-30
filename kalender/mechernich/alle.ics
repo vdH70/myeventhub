@@ -10,64 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:eu-lvr-freilichtmuseum-kommern-20240505-graessliche-glueckseligkeit-fas
- zination-kitsch-ende@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20270404
-DTEND;VALUE=DATE:20270405
-SUMMARY:Letzter Tag: Grässliche Glückseligkeit. Faszination Kitsch
-LOCATION:LVR-Freilichtmuseum Kommern\, Eickser Straße\, 53894 Mechernich
-DESCRIPTION:Sonderausstellung zum Thema Kitsch.\nLaufzeit: 5.5.2024 bis 4.4
- .2027\nQuelle (bitte vor dem Besuch prüfen): https://www.lvr.de/freilicht
- museum-kommern/museum-entdecken/ausstellungen/sonderausstellungen/
-URL:https://www.lvr.de/freilichtmuseum-kommern/museum-entdecken/ausstellung
- en/sonderausstellungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:eu-burg-satzvey-20261107-martinsmarkt-2026@myeventhub.de
-DTSTAMP:20261024T000000Z
-DTSTART;TZID=Europe/Berlin:20261107T140000
-DTEND;TZID=Europe/Berlin:20261107T160000
-SUMMARY:Martinsmarkt 2026
-LOCATION:Burg Satzvey\, Mechernich
-DESCRIPTION:Martinsmarkt auf dem Gelände von Burg Satzvey\, 14–19 Uhr.\n
- Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
- https://www.burgsatzvey.de/
-URL:https://www.burgsatzvey.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:eu-lvr-freilichtmuseum-kommern-20261108-martinszug-im-lvr-freilichtmuse
- um-kommern@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261108T170000
-DTEND;TZID=Europe/Berlin:20261108T190000
-SUMMARY:Martinszug im LVR-Freilichtmuseum Kommern
-LOCATION:LVR-Freilichtmuseum Kommern\, Eickser Straße\, 53894 Mechernich
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.lvr.de/freilichtmuseum-kommern/
-URL:https://www.lvr.de/freilichtmuseum-kommern/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:eu-hof-krewelshof-eifel-20261121-winterhof-beginn@myeventhub.de
 DTSTAMP:20261024T000000Z

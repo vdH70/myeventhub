@@ -10,49 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:cb-kammerbuehne-20261031-da-vinci@myeventhub.de
-DTSTAMP:20261030T000000Z
-DTSTART;TZID=Europe/Berlin:20261031T190000
-DTEND;TZID=Europe/Berlin:20261031T210000
-SUMMARY:Da Vinci
-LOCATION:Kammerbühne des Staatstheaters Cottbus\, Cottbus
-DESCRIPTION:Spielstätte: Kammerbühne.\nEnde: laut Quelle nicht angegeben\
- nQuelle (bitte vor dem Besuch prüfen): https://www.staatstheater-cottbus.
- de/de/programm/spielplan.html
-URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cb-staatstheater-20261031-immer-wieder-waechst-das-gras@myeventhub.de
-DTSTAMP:20261030T000000Z
-DTSTART;TZID=Europe/Berlin:20261031T190000
-DTEND;TZID=Europe/Berlin:20261031T210000
-SUMMARY:Immer wieder wächst das Gras
-LOCATION:Staatstheater Cottbus\, Cottbus
-DESCRIPTION:Spielstätte: Großes Haus.\nEnde: laut Quelle nicht angegeben\
- nQuelle (bitte vor dem Besuch prüfen): https://www.staatstheater-cottbus.
- de/de/programm/spielplan.html
-URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:cb-stadthalle-20261120-dieter-nuhr@myeventhub.de
 DTSTAMP:20261030T000000Z
