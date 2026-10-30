@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Messen in Zwickau · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:z-sparkassen-arena-20270115-rabatt-reisemesse-zwickau-beginn@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Beginn: Rabatt Reisemesse Zwickau
+LOCATION:Sparkassen-Arena Zwickau (ehem. Stadthalle Zwickau)\, Bergmannsstr
+ aße 1\, 08056 Zwickau
+DESCRIPTION:Mit Sonderschau „Gesund & Aktiv“\; 15.–17.01.2027.\nLaufz
+ eit: 15.1.2027 bis 17.1.2027\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.kultourz.de/veranstaltungskalender.php
+URL:https://www.kultourz.de/veranstaltungskalender.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:z-sparkassen-arena-20270115-rabatt-reisemesse-zwickau-ende@myeventhub.d
+ e
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Rabatt Reisemesse Zwickau
+LOCATION:Sparkassen-Arena Zwickau (ehem. Stadthalle Zwickau)\, Bergmannsstr
+ aße 1\, 08056 Zwickau
+DESCRIPTION:Mit Sonderschau „Gesund & Aktiv“\; 15.–17.01.2027.\nLaufz
+ eit: 15.1.2027 bis 17.1.2027\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.kultourz.de/veranstaltungskalender.php
+URL:https://www.kultourz.de/veranstaltungskalender.php
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
