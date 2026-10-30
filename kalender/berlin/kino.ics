@@ -1,0 +1,308 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Berlin · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261030-right-now-wrong-then-1700@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T170000
+DTEND;TZID=Europe/Berlin:20261030T190000
+SUMMARY:Right Now\, Wrong Then
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Süd-Korea\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-arsenal-20261030-golden-eighties-1730@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T173000
+DTEND;TZID=Europe/Berlin:20261030T193000
+SUMMARY:Golden Eighties
+LOCATION:Arsenal – Institut für Film und Videokunst\, Plantagenstr. 30\,
+  13347 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arsenal-berlin.de/
+URL:https://www.arsenal-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261030-paths-of-glory-1815@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T181500
+DTEND;TZID=Europe/Berlin:20261030T201500
+SUMMARY:Paths of Glory
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Clockwork Kubrick\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-arsenal-20261030-karami-ai-2000@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Karami-ai
+LOCATION:Arsenal – Institut für Film und Videokunst\, Plantagenstr. 30\,
+  13347 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arsenal-berlin.de/
+URL:https://www.arsenal-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261030-barking-dogs-never-bite-2000@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Barking Dogs Never Bite
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Süd-Korea\, OmeU\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261030-dr-strangelove-or-how-i-learned-to-stop-worryi
+ ng-a-2000@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bom
+ b
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Clockwork Kubrick\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261030-the-rocky-horror-picture-show-live-shadow-cast
+ -2100@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T210000
+DTEND;TZID=Europe/Berlin:20261030T230000
+SUMMARY:The Rocky Horror Picture Show: Live Shadow Cast
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261030-the-wailing-die-besessenen-2145@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T214500
+DTEND;TZID=Europe/Berlin:20261030T234500
+SUMMARY:The Wailing - Die Besessenen
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Süd-Korea\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261030-the-killing-2200@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T220000
+DTEND;TZID=Europe/Berlin:20261031T000000
+SUMMARY:The Killing
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Clockwork Kubrick\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261030-night-of-the-living-dead-2359@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T235900
+DTEND;TZID=Europe/Berlin:20261031T015900
+SUMMARY:Night of the Living Dead
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Free Friday\, OmU\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-arsenal-20261031-mary-poppins-1400@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T140000
+DTEND;TZID=Europe/Berlin:20261031T160000
+SUMMARY:Mary Poppins
+LOCATION:Arsenal – Institut für Film und Videokunst\, Plantagenstr. 30\,
+  13347 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arsenal-berlin.de/
+URL:https://www.arsenal-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-arsenal-20261031-die-bitteren-traenen-der-petra-von-kant-1700@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T170000
+DTEND;TZID=Europe/Berlin:20261031T190000
+SUMMARY:Die bitteren Tränen der Petra von Kant
+LOCATION:Arsenal – Institut für Film und Videokunst\, Plantagenstr. 30\,
+  13347 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arsenal-berlin.de/
+URL:https://www.arsenal-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261031-burning-1715@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T171500
+DTEND;TZID=Europe/Berlin:20261031T191500
+SUMMARY:Burning
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Süd-Korea\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-arsenal-20261031-kaidan-2000@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Kaidan
+LOCATION:Arsenal – Institut für Film und Videokunst\, Plantagenstr. 30\,
+  13347 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arsenal-berlin.de/
+URL:https://www.arsenal-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261031-halloween-2000@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Halloween
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:OV\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261031-halloween-ii-2145@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T214500
+DTEND;TZID=Europe/Berlin:20261031T234500
+SUMMARY:Halloween II
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:OV\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261031-so-this-is-paris-2359@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T235900
+DTEND;TZID=Europe/Berlin:20261101T015900
+SUMMARY:So This Is Paris
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Stummfilm um Mitternacht\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261101-fruehling-sommer-herbst-winter-und-fruehling-1
+ 400@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Frühling\, Sommer\, Herbst\, Winter ... und Frühling
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Süd-Korea\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-arsenal-20261101-der-kleine-nick-erzaehlt-vom-glueck-1430@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T143000
+DTEND;TZID=Europe/Berlin:20261101T163000
+SUMMARY:Der kleine Nick erzählt vom Glück
+LOCATION:Arsenal – Institut für Film und Videokunst\, Plantagenstr. 30\,
+  13347 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arsenal-berlin.de/
+URL:https://www.arsenal-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261101-lazzaro-felice-1600@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T160000
+DTEND;TZID=Europe/Berlin:20261101T180000
+SUMMARY:Lazzaro felice
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:CinemAperitivo\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-arsenal-20261101-de-cierta-manera-1700@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T170000
+DTEND;TZID=Europe/Berlin:20261101T190000
+SUMMARY:De cierta manera
+LOCATION:Arsenal – Institut für Film und Videokunst\, Plantagenstr. 30\,
+  13347 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arsenal-berlin.de/
+URL:https://www.arsenal-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-babylon-mitte-20261101-nosferatu-live-mit-babylon-orchester-berlin-18
+ 00@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Nosferatu Live mit Babylon Orchester Berlin
+LOCATION:Babylon (Berlin-Mitte)\, Rosa-Luxemburg-Str. 30\, 10178 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.babylonberlin.eu/
+URL:https://www.babylonberlin.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
