@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Borgholzhausen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:gt-weberei-bahnhof-20261120-we-love-the-80s@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T210000
+DTEND;TZID=Europe/Berlin:20261120T230000
+SUMMARY:We love the 80s
+LOCATION:Die Weberei im Weberei-Bahnhof\, Versmolder Straße 9\, 33829 Borg
+ holzhausen
+DESCRIPTION:Party mit Musik der 80er.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.die-weberei.de/event/80s
+ -november/
+URL:https://www.die-weberei.de/event/80s-november/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gt-weberei-bahnhof-20261206-stadionsingen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T160000
+DTEND;TZID=Europe/Berlin:20261206T180000
+SUMMARY:Stadionsingen
+LOCATION:Die Weberei im Weberei-Bahnhof\, Versmolder Straße 9\, 33829 Borg
+ holzhausen
+DESCRIPTION:Gemeinsames Singen.\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.die-weberei.de/event/stadionsi
+ ngen-2026/
+URL:https://www.die-weberei.de/event/stadionsingen-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gt-weberei-bahnhof-20270130-rock-oldie-night-revival-party@myeventhub.d
+ e
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T210000
+DTEND;TZID=Europe/Berlin:20270130T230000
+SUMMARY:Rock Oldie Night – Revival Party
+LOCATION:Die Weberei im Weberei-Bahnhof\, Versmolder Straße 9\, 33829 Borg
+ holzhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.die-weberei.de/event/ron-jan-2027/
+URL:https://www.die-weberei.de/event/ron-jan-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
