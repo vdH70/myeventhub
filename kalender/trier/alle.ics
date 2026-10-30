@@ -1,0 +1,226 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Trier · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tr-stadtmuseum-simeonstift-20260705-die-zwanziger-jahre-in-trier-golden
+ e-zeiten-dunkle-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Letzter Tag: Die Zwanziger Jahre in Trier. Goldene Zeiten\, dunkle 
+ Jahre
+LOCATION:Stadtmuseum Simeonstift Trier\, Simeonstraße 60\, 54290 Trier
+DESCRIPTION:Laufzeit: 5.7.2026 bis 24.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://museum-trier.de/ausstellungen/sonderausstellungen/2026-d
+ ie-zwanzigerjahre-in-trier/
+URL:https://museum-trier.de/ausstellungen/sonderausstellungen/2026-die-zwan
+ zigerjahre-in-trier/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-stadtmuseum-simeonstift-20261011-juedisches-leben-im-mittelalter-end
+ e@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Letzter Tag: Jüdisches Leben im Mittelalter
+LOCATION:Stadtmuseum Simeonstift Trier\, Simeonstraße 60\, 54290 Trier
+DESCRIPTION:Laufzeit: 11.10.2026 bis 4.4.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum-trier.de/ausstellungen/sonderausstellungen/2026-
+ juedisches-leben-im-mittelalter/
+URL:https://museum-trier.de/ausstellungen/sonderausstellungen/2026-juedisch
+ es-leben-im-mittelalter/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20261030-beatrice-egli-tanzen-lachen-leben-tour-2026@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beatrice Egli – Tanzen - Lachen - Leben – Tour 2026
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://swtarena-trier.d
+ e/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20261106-scottish-music-parade-live@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Scottish Music Parade live
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://swtarena-trier.d
+ e/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20261113-feeling-grooovy-live-konzert-im-front-of-house@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Feeling Grooovy – Live-Konzert im Front of House
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Im Front of House der SWT Arena.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://swtarena-trier.de/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20261127-juergen-trunczik-singt-reinhard-mey-live-konzert-
+ i@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Jürgen Trunczik singt Reinhard Mey – Live-Konzert im Front of Ho
+ use
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Im Front of House der SWT Arena.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://swtarena-trier.de/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20261129-bap-fuenfzig-jahre-die-zielgerade@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:BAP – Fünfzig Jahre – Die Zielgerade
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://swtarena-trier.d
+ e/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20261223-christmas-moments-das-fest-vor-dem-fest-mit-thoma
+ s@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Christmas Moments – Das Fest vor dem Fest mit Thomas Schwab & Ban
+ d
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://swtarena-trier.d
+ e/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20270116-ina-mueller-und-band-die-6-0-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Ina Müller und Band – Die 6.0 Tour
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://swtarena-trier.d
+ e/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20270219-unheilig-arena-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:Unheilig – Arena-Tour
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://swtarena-trier.d
+ e/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20270226-musikparade-europas-groesste-tournee-der-militaer
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:Musikparade – Europas größte Tournee der Militär- und Blasmusi
+ k
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://swtarena-trier.d
+ e/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20270313-pop-divas-das-tribute-konzert-der-superstars@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T190000
+DTEND;TZID=Europe/Berlin:20270313T210000
+SUMMARY:Pop Divas – Das Tribute-Konzert der Superstars
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://swtarena-trier.de/eventdetail/?event-name=pop-divas
+URL:https://swtarena-trier.de/eventdetail/?event-name=pop-divas
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20270414-chris-de-burgh-it-s-never-too-late@myeventhub.de
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:Chris de Burgh – It's never too late
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://swtarena-trier.d
+ e/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20270509-max-raabe-palast-orchester@myeventhub.de
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Max Raabe & Palast Orchester
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://swtarena-trier.d
+ e/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-swt-arena-20270523-the-dark-tenor-symphonica@myeventhub.de
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:The Dark Tenor – Symphonica
+LOCATION:SWT Arena Trier\, Trier
+DESCRIPTION:Ersatztermin für den 18.10.2026.\nQuelle (bitte vor dem Besuch
+  prüfen): https://swtarena-trier.de/
+URL:https://swtarena-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

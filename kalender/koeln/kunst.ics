@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:k-museum-ludwig-20260207-hier-und-jetzt-im-museum-ludwig-de-collecting-
  memo-ende@myeventhub.de
@@ -24,6 +41,91 @@ DESCRIPTION:Laufzeit: 7.2.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
  museum-ludwig-de/collecting-memories-from-turtle-island
 URL:https://www.museum-ludwig.de/de/ausstellungen/hier-und-jetzt-im-museum-
  ludwig-de/collecting-memories-from-turtle-island
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-kollwitz-museum-20260708-kollwitz-ausgewaehlt-die-persoenlichen-best-
+ of-der-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: KOLLWITZ Ausgewählt. Die persönlichen »Best of« de
+ r Künstlerin
+LOCATION:Käthe Kollwitz Museum Köln\, Neumarkt 18-24\, 50667 Köln
+DESCRIPTION:Laufzeit: 8.7.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kollwitz.de/default.aspx?s=5595
+URL:https://www.kollwitz.de/default.aspx?s=5595
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-koelnischer-kunstverein-20260904-anatomical-theatre-ende@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Anatomical Theatre
+LOCATION:Kölnischer Kunstverein\, Hahnenstraße 6\, 50667 Köln
+DESCRIPTION:Im Riphahnsaal\; Startjahr folgt aus der Datumsspanne auf der S
+ eite.\nLaufzeit: 4.9.2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch pr
+ üfen): https://koelnischerkunstverein.de/
+URL:https://koelnischerkunstverein.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-koelnischer-kunstverein-20260904-ser-serpas-sonderbare-tage-ende@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Ser Serpas – sonderbare Tage
+LOCATION:Kölnischer Kunstverein\, Hahnenstraße 6\, 50667 Köln
+DESCRIPTION:Startjahr folgt aus der Datumsspanne auf der Seite.\nLaufzeit: 
+ 4.9.2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://ko
+ elnischerkunstverein.de/
+URL:https://koelnischerkunstverein.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-koelnischer-kunstverein-20260904-the-leatherman-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: The Leatherman
+LOCATION:Kölnischer Kunstverein\, Hahnenstraße 6\, 50667 Köln
+DESCRIPTION:Startjahr folgt aus der Datumsspanne auf der Seite.\nLaufzeit: 
+ 4.9.2026 bis 29.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://ko
+ elnischerkunstverein.de/
+URL:https://koelnischerkunstverein.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-kolumba-20260919-have-you-ever-fallen-in-love-with-a-clock-ueber-no-e
+ nde@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:Letzter Tag: »Have you ever fallen in love with a clock?« Über N
+ orm und Abweichung
+LOCATION:Kolumba – Kunstmuseum des Erzbistums Köln\, Kolumbastraße 4\, 
+ 50667 Köln
+DESCRIPTION:Jahresausstellung.\nLaufzeit: 19.9.2026 bis 1.8.2027\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.kolumba.de/index.php?language=de
+ &cat=47&art=1028
+URL:https://www.kolumba.de/index.php?language=de&cat=47&art=1028
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-kollwitz-museum-20260929-re-kollwitz-bildstoerung-2-klasse-fuer-fotog
+ rafie-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: RE: Kollwitz Bildstörung #2 – Klasse für Fotografi
+ e\, Prof. Heidi Specker\, HGB Leipzig
+LOCATION:Käthe Kollwitz Museum Köln\, Neumarkt 18-24\, 50667 Köln
+DESCRIPTION:Laufzeit: 29.9.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kollwitz.de/default.aspx?s=7129
+URL:https://www.kollwitz.de/default.aspx?s=7129
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -100,6 +202,72 @@ DESCRIPTION:Laufzeit: 7.11.2026 bis 4.4.2027\nQuelle (bitte vor dem Besuch
  hahn-preis-2026
 URL:https://www.museum-ludwig.de/de/ausstellungen/lee-ufan-wolfgang-hahn-pr
  eis-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-kollwitz-museum-20261127-hanna-nagel-wiederentdeckung-einer-pionierin
+ -femin-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: HANNA NAGEL – Wiederentdeckung einer Pionierin feministis
+ cher Kunst
+LOCATION:Käthe Kollwitz Museum Köln\, Neumarkt 18-24\, 50667 Köln
+DESCRIPTION:Laufzeit: 27.11.2026 bis 20.2.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kollwitz.de/default.aspx?s=3129
+URL:https://www.kollwitz.de/default.aspx?s=3129
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-kollwitz-museum-20261127-hanna-nagel-wiederentdeckung-einer-pionierin
+ -femin-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Letzter Tag: HANNA NAGEL – Wiederentdeckung einer Pionierin femin
+ istischer Kunst
+LOCATION:Käthe Kollwitz Museum Köln\, Neumarkt 18-24\, 50667 Köln
+DESCRIPTION:Laufzeit: 27.11.2026 bis 20.2.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kollwitz.de/default.aspx?s=3129
+URL:https://www.kollwitz.de/default.aspx?s=3129
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-koelnischer-kunstverein-20261209-eroeffnung-jahresgaben-2026@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T170000
+DTEND;TZID=Europe/Berlin:20261209T190000
+SUMMARY:Eröffnung Jahresgaben 2026
+LOCATION:Kölnischer Kunstverein\, Hahnenstraße 6\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://koelnischerkunstverein.de/
+URL:https://koelnischerkunstverein.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-koelnischer-kunstverein-20261210-jahresgaben-2026-beginn@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Beginn: Jahresgaben 2026
+LOCATION:Kölnischer Kunstverein\, Hahnenstraße 6\, 50667 Köln
+DESCRIPTION:Laufzeit: 10.12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://koelnischerkunstverein.de/
+URL:https://koelnischerkunstverein.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-koelnischer-kunstverein-20261210-jahresgaben-2026-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Jahresgaben 2026
+LOCATION:Kölnischer Kunstverein\, Hahnenstraße 6\, 50667 Köln
+DESCRIPTION:Laufzeit: 10.12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://koelnischerkunstverein.de/
+URL:https://koelnischerkunstverein.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

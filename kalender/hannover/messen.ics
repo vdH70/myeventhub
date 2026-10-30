@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:h-alte-druckerei-20261107-traudich-beginn@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -38,6 +55,19 @@ DESCRIPTION:Hochzeitsmesse\, Sa und So 11–17 Uhr\; Jugendliche bis 16 fre
  online 15 €\nQuelle (bitte vor dem Besuch prüfen): https://traudich.de/
  hochzeitsmesse-hannover/
 URL:https://traudich.de/hochzeitsmesse-hannover/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-hangar-no-5-20261107-famfair@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T110000
+DTEND;TZID=Europe/Berlin:20261107T130000
+SUMMARY:famFAIR Hannover
+LOCATION:Hangar No. 5\, Völgerstr. 5\, 30519 Hannover
+DESCRIPTION:Messe für die ganze Familie\, 11–17 Uhr.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.famfai
+ r.de/standorte
+URL:https://www.famfair.de/standorte
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -102,6 +132,66 @@ DESCRIPTION:Internationale Fachmesse für dezentrale Energieversorgung\, pa
  rallel zur EuroTier.\nLaufzeit: 10.11.2026 bis 13.11.2026\nQuelle (bitte v
  or dem Besuch prüfen): https://www.energy-decentral.com/de/
 URL:https://www.energy-decentral.com/de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-hcc-kuppelsaal-20270109-hochzeitstage-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Beginn: HOCHZEITSTAGE Hannover
+LOCATION:Eilenriedehalle\, HCC Hannover Congress Centrum
+DESCRIPTION:Hochzeitsmesse mit Brautmode\, Locations\, Ringen und Dienstlei
+ stern\, beide Tage 11–17 Uhr.\nLaufzeit: 9.1.2027 bis 10.1.2027\nTickets
+ : https://hochzeitstage.de/ticket-shop/\nQuelle (bitte vor dem Besuch prü
+ fen): https://hcc.de/programm/hochzeitstage-hannover/
+URL:https://hcc.de/programm/hochzeitstage-hannover/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-hcc-kuppelsaal-20270109-hochzeitstage-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: HOCHZEITSTAGE Hannover
+LOCATION:Eilenriedehalle\, HCC Hannover Congress Centrum
+DESCRIPTION:Hochzeitsmesse mit Brautmode\, Locations\, Ringen und Dienstlei
+ stern\, beide Tage 11–17 Uhr.\nLaufzeit: 9.1.2027 bis 10.1.2027\nTickets
+ : https://hochzeitstage.de/ticket-shop/\nQuelle (bitte vor dem Besuch prü
+ fen): https://hcc.de/programm/hochzeitstage-hannover/
+URL:https://hcc.de/programm/hochzeitstage-hannover/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-hcc-kuppelsaal-20270306-edelsteintage-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:Beginn: Edelsteintage Hannover
+LOCATION:Kuppelsaal / Hannover Congress Centrum\, Theodor-Heuss-Platz 1-3\,
+  30175 Hannover
+DESCRIPTION:Ausstellung und Verkauf von Mineralien\, Edelsteinen\, Fossilie
+ n und Schmuck\; Sa 11–18 Uhr\, So 11–17 Uhr\; Kinder bis 14 in Begleit
+ ung frei.\nLaufzeit: 6.3.2027 bis 7.3.2027\nPreis: 1-Tag 7\,50 € (ermä
+ ßigt 6\,50 €)\, 2 Tage 10 €\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://edelsteintage-hannover.de/besucher-2/
+URL:https://edelsteintage-hannover.de/besucher-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-hcc-kuppelsaal-20270306-edelsteintage-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Letzter Tag: Edelsteintage Hannover
+LOCATION:Kuppelsaal / Hannover Congress Centrum\, Theodor-Heuss-Platz 1-3\,
+  30175 Hannover
+DESCRIPTION:Ausstellung und Verkauf von Mineralien\, Edelsteinen\, Fossilie
+ n und Schmuck\; Sa 11–18 Uhr\, So 11–17 Uhr\; Kinder bis 14 in Begleit
+ ung frei.\nLaufzeit: 6.3.2027 bis 7.3.2027\nPreis: 1-Tag 7\,50 € (ermä
+ ßigt 6\,50 €)\, 2 Tage 10 €\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://edelsteintage-hannover.de/besucher-2/
+URL:https://edelsteintage-hannover.de/besucher-2/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

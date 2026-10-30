@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Waldshut-Tiengen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wt-stadtbibliothek-waldshut-20261129-marko-simsa-die-moldau@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Marko Simsa: Die Moldau
+LOCATION:Stadtbibliothek Waldshut\, Bismarckstraße 12\, 79761 Waldshut-Tie
+ ngen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.waldshut-tiengen.de/fileadmin/Dateien/Neue_Dateien/
+ Freizeit/Kultur/Kulturbroschuere/Ku_Bro_2026_2027-1_Endversion.pdf
+URL:https://www.waldshut-tiengen.de/fileadmin/Dateien/Neue_Dateien/Freizeit
+ /Kultur/Kulturbroschuere/Ku_Bro_2026_2027-1_Endversion.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wt-stadtbibliothek-waldshut-20261205-kinderfilm-die-kleine-zauberfloete
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T110000
+DTEND;TZID=Europe/Berlin:20261205T130000
+SUMMARY:Kinderfilm: Die kleine Zauberflöte
+LOCATION:Stadtbibliothek Waldshut\, Bismarckstraße 12\, 79761 Waldshut-Tie
+ ngen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.waldshut-tiengen.de/fileadmin/Dateien/Neue_Dateien/
+ Freizeit/Kultur/Kulturbroschuere/Ku_Bro_2026_2027-1_Endversion.pdf
+URL:https://www.waldshut-tiengen.de/fileadmin/Dateien/Neue_Dateien/Freizeit
+ /Kultur/Kulturbroschuere/Ku_Bro_2026_2027-1_Endversion.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wt-stadtbibliothek-waldshut-20270306-spieltreff-fuer-klein-und-gross@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T100000
+DTEND;TZID=Europe/Berlin:20270306T120000
+SUMMARY:Spieltreff für Klein und Groß
+LOCATION:Stadtbibliothek Waldshut\, Bismarckstraße 12\, 79761 Waldshut-Tie
+ ngen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.waldshut-tiengen.de/fileadmin/Dateien/Neue_Dateien/
+ Freizeit/Kultur/Kulturbroschuere/Ku_Bro_2026_2027-1_Endversion.pdf
+URL:https://www.waldshut-tiengen.de/fileadmin/Dateien/Neue_Dateien/Freizeit
+ /Kultur/Kulturbroschuere/Ku_Bro_2026_2027-1_Endversion.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wt-stadtbibliothek-waldshut-20270403-luka-lese-eule-erzaehlt-geschichte
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270403T100000
+DTEND;TZID=Europe/Berlin:20270403T120000
+SUMMARY:Luka Lese-Eule erzählt Geschichten
+LOCATION:Stadtbibliothek Waldshut\, Bismarckstraße 12\, 79761 Waldshut-Tie
+ ngen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.waldshut-tiengen.de/fileadmin/Dateien/Neue_Dateien/
+ Freizeit/Kultur/Kulturbroschuere/Ku_Bro_2026_2027-1_Endversion.pdf
+URL:https://www.waldshut-tiengen.de/fileadmin/Dateien/Neue_Dateien/Freizeit
+ /Kultur/Kulturbroschuere/Ku_Bro_2026_2027-1_Endversion.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

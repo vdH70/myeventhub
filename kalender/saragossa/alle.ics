@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Saragossa · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:zaz-auditorio-20261101-orquesta-sinfonica-nacional-juvenil-de-venezuela
+ @myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART:20261101T193000
+DTEND:20261101T213000
+SUMMARY:Orquesta Sinfónica Nacional Juvenil de Venezuela
+LOCATION:Auditorio de Zaragoza\, C/ Eduardo Ibarra\, 3\, 50009 Saragossa
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.auditoriozaragoza.com/programacion/joven-orquesta-s
+ infonica-de-venezuela/
+URL:https://www.auditoriozaragoza.com/programacion/joven-orquesta-sinfonica
+ -de-venezuela/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

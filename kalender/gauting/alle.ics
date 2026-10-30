@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Gauting · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20261030-ohne-rolf-unter-druck@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Ohne Rolf: UNTER DRUCK
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 30 / 15 EUR\nQuelle (
+ bitte vor dem Besuch prüfen): https://bosco-gauting.de/veranstaltungen
+URL:https://bosco-gauting.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20261110-film-babel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T193000
+DTEND;TZID=Europe/Berlin:20261110T213000
+SUMMARY:Film: Babel
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Filmabend mit dem Film von Alejandro González Iñárritu.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 12 / 11 EUR\nQuelle (bitte vor dem 
+ Besuch prüfen): https://bosco-gauting.de/veranstaltungen
+URL:https://bosco-gauting.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20261111-bridgerton-musik-bei-kerzenschein@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T190000
+DTEND;TZID=Europe/Berlin:20261111T210000
+SUMMARY:Bridgerton Musik bei Kerzenschein
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 49\,90 / 44\,90 / 39\
+ ,90 EUR\nQuelle (bitte vor dem Besuch prüfen): https://bosco-gauting.de/v
+ eranstaltungen
+URL:https://bosco-gauting.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20261114-matthias-deutschmann-propaganda-a-la-carte-o
+ der-by@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Matthias Deutschmann: Propaganda à la carte oder Bye\, bye democra
+ zy
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 30 / 15 EUR\nQuelle (
+ bitte vor dem Besuch prüfen): https://bosco-gauting.de/veranstaltungen
+URL:https://bosco-gauting.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20261115-sonntagsmatinee-julia-fischer-praesentiert-s
+ tudier@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Sonntagsmatinée: Julia Fischer präsentiert Studierende der HMTM M
+ ünchen
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 33 / 15 EUR\nQuelle (
+ bitte vor dem Besuch prüfen): https://bosco-gauting.de/veranstaltungen
+URL:https://bosco-gauting.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20261119-kuenstlergespraech-zur-ausstellung-olaf-unve
+ rzart@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Künstlergespräch zur Ausstellung Olaf Unverzart & Gerd Holzheimer
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bosco-gauting.de/veranstaltungen
+URL:https://bosco-gauting.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20261120-boox-grenzgaenge-sabine-zaplin-und-tanja-web
+ er-im@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:boox Grenzgänge: Sabine Zaplin und Tanja Weber im Gespräch mit Pi
+ erre Jarawan
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25 / 15 EUR\nQuelle (
+ bitte vor dem Besuch prüfen): https://bosco-gauting.de/veranstaltungen
+URL:https://bosco-gauting.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20261204-11-gautinger-bluesnacht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:11. Gautinger Bluesnacht
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bosco-gauting.de/
+URL:https://www.bosco-gauting.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20261209-voodoo-juergens-die-ansa-panier-gschnas-neue
+ r-term@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Voodoo Jürgens & die Ansa Panier: Gschnas (neuer Termin)
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Nachholtermin des verschobenen Konzerts.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bosco-gau
+ ting.de/
+URL:https://www.bosco-gauting.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20270116-jamaram-welcome-to-arunga@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:Jamaram: Welcome To Arunga
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bosco-gauting.de/
+URL:https://www.bosco-gauting.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20270220-sarah-hakenberg-ich-war-s-nicht@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T200000
+DTEND;TZID=Europe/Berlin:20270220T220000
+SUMMARY:Sarah Hakenberg: Ich war's nicht
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bosco-gauting.de/
+URL:https://www.bosco-gauting.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20270221-open-stage-deine-musik-deine-buehne@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T160000
+DTEND;TZID=Europe/Berlin:20270221T180000
+SUMMARY:Open Stage: Deine Musik. Deine Bühne
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Offene Bühne\, kuratiert von Julia Fischer.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bosco
+ -gauting.de/
+URL:https://www.bosco-gauting.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20270225-vincent-peirani-jokers@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T200000
+DTEND;TZID=Europe/Berlin:20270225T220000
+SUMMARY:Vincent Peirani: Jokers
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bosco-gauting.de/
+URL:https://www.bosco-gauting.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20270318-delian-quartett-julia-huelsmann-parallels@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270318T200000
+DTEND;TZID=Europe/Berlin:20270318T220000
+SUMMARY:Delian Quartett & Julia Hülsmann: Parallels
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bosco-gauting.de/
+URL:https://www.bosco-gauting.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sta-bosco-gauting-20270417-frida-viva-la-vida-von-leopold-huber@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T200000
+DTEND;TZID=Europe/Berlin:20270417T220000
+SUMMARY:Frida – Viva la Vida von Leopold Huber
+LOCATION:bosco – Bürger- und Kulturhaus Gauting\, Oberer Kirchenweg 1\, 
+ 82131 Gauting
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bosco-gauting.de/
+URL:https://www.bosco-gauting.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

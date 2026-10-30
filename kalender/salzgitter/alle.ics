@@ -1,0 +1,311 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Salzgitter · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261024-ankunft-im-ungewissen-beginn@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Ankunft im Ungewissen
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Laufzeit: 24.10.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261024-ankunft-im-ungewissen-ende@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Ankunft im Ungewissen
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Laufzeit: 24.10.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261024-salon-salder-konfusion-beginn@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Salon Salder: Konfusion
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Laufzeit: 24.10.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261024-salon-salder-konfusion-ende@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Salon Salder: Konfusion
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Laufzeit: 24.10.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-stadtbibliothek-salzgitter-bad-20261026-alina-hirschfeld-ausstellung
+ -beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Beginn: Alina Hirschfeld – Ausstellung
+LOCATION:Stadtbibliothek Salzgitter-Bad\, Salzgitter
+DESCRIPTION:Laufzeit: 26.10.2026 bis 8.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.salzgitter.de/service/uebersicht.php
+URL:https://www.salzgitter.de/service/uebersicht.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-stadtbibliothek-salzgitter-bad-20261026-alina-hirschfeld-ausstellung
+ -ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Letzter Tag: Alina Hirschfeld – Ausstellung
+LOCATION:Stadtbibliothek Salzgitter-Bad\, Salzgitter
+DESCRIPTION:Laufzeit: 26.10.2026 bis 8.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.salzgitter.de/service/uebersicht.php
+URL:https://www.salzgitter.de/service/uebersicht.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261031-taschenlampenrallye@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T170000
+DTEND;TZID=Europe/Berlin:20261031T190000
+SUMMARY:Taschenlampenrallye
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Halloween-Rallye mit Taschenlampe durchs Schloss\, bis 20 Uhr.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261101-geschichten-aus-der-nacht-schlosskonz
+ ert-mit-duo-a@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T170000
+DTEND;TZID=Europe/Berlin:20261101T190000
+SUMMARY:Geschichten aus der Nacht – Schlosskonzert mit Duo Alkyone
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-stadtbibliothek-lebenstedt-20261112-vorlesenachmittag@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T153000
+DTEND;TZID=Europe/Berlin:20261112T173000
+SUMMARY:Vorlesenachmittag
+LOCATION:Stadtbibliothek Salzgitter (Lebenstedt)\, Salzgitter
+DESCRIPTION:Vorlesenachmittag in der Stadtbibliothek Lebenstedt\, 15:30–1
+ 6:30 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.salzgitter.de/service/uebersicht.php
+URL:https://www.salzgitter.de/service/uebersicht.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-stadtbibliothek-lebenstedt-20261120-bundesweiter-vorlesetag-in-der-s
+ tadtbibliothek-leb@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T153000
+DTEND;TZID=Europe/Berlin:20261120T173000
+SUMMARY:Bundesweiter Vorlesetag in der Stadtbibliothek Lebenstedt
+LOCATION:Stadtbibliothek Salzgitter (Lebenstedt)\, Salzgitter
+DESCRIPTION:Vorlesen für Kinder\, 15:30–16:30 Uhr\; Veranstalter Stadtbi
+ bliothek Salzgitter.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.salzgitter.de/veranstaltungskalender/bun
+ desweiter-vorlesetag.php
+URL:https://www.salzgitter.de/veranstaltungskalender/bundesweiter-vorleseta
+ g.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-stadtbibliothek-salzgitter-bad-20261120-bundesweiter-vorlesetag@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T153000
+DTEND;TZID=Europe/Berlin:20261120T173000
+SUMMARY:Bundesweiter Vorlesetag
+LOCATION:Stadtbibliothek Salzgitter-Bad\, Salzgitter
+DESCRIPTION:Vorlesen in der Stadtbibliothek Salzgitter-Bad\, 15:30–16:30 
+ Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.salzgitter.de/service/uebersicht.php
+URL:https://www.salzgitter.de/service/uebersicht.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261129-doch-lebenszeichen-aus-der-welt-der-k
+ unst-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Beginn: DOCH! Lebenszeichen aus der Welt der Kunst
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Ausstellung der salzgitter-gruppe\, Eröffnung 11 Uhr.\nLaufzei
+ t: 29.11.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261129-doch-lebenszeichen-aus-der-welt-der-k
+ unst-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: DOCH! Lebenszeichen aus der Welt der Kunst
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Ausstellung der salzgitter-gruppe\, Eröffnung 11 Uhr.\nLaufzei
+ t: 29.11.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261206-50-jahre-spektrum-beginn@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Beginn: 50 Jahre Spektrum
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Jubiläumsausstellung\, Eröffnung 11 Uhr.\nLaufzeit: 6.12.2026
+  bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.salzgit
+ ter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261206-50-jahre-spektrum-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: 50 Jahre Spektrum
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Jubiläumsausstellung\, Eröffnung 11 Uhr.\nLaufzeit: 6.12.2026
+  bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.salzgit
+ ter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-stadtbibliothek-salzgitter-bad-20261208-vorlesenachmittag@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T153000
+DTEND;TZID=Europe/Berlin:20261208T173000
+SUMMARY:Vorlesenachmittag
+LOCATION:Stadtbibliothek Salzgitter-Bad\, Salzgitter
+DESCRIPTION:Vorlesenachmittag in der Stadtbibliothek Salzgitter-Bad\, 15:30
+ –16:30 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.salzgitter.de/service/uebersicht.php
+URL:https://www.salzgitter.de/service/uebersicht.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-stadtbibliothek-lebenstedt-20261210-vorlesenachmittag@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T153000
+DTEND;TZID=Europe/Berlin:20261210T173000
+SUMMARY:Vorlesenachmittag
+LOCATION:Stadtbibliothek Salzgitter (Lebenstedt)\, Salzgitter
+DESCRIPTION:Vorlesenachmittag in der Stadtbibliothek Lebenstedt\, 15:30–1
+ 6:30 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.salzgitter.de/service/uebersicht.php
+URL:https://www.salzgitter.de/service/uebersicht.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261212-adventstreff-weihnachtsmarkt-beginn@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Beginn: Adventstreff – Weihnachtsmarkt
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Laufzeit: 12.12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20261212-adventstreff-weihnachtsmarkt-ende@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Adventstreff – Weihnachtsmarkt
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Laufzeit: 12.12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sz-museum-schloss-salder-20270124-goldene-zwanziger-liederabend@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T170000
+DTEND;TZID=Europe/Berlin:20270124T190000
+SUMMARY:Goldene Zwanziger? – Liederabend
+LOCATION:Städtisches Museum Schloss Salder\, Museumstr. 34\, 38229 Salzgit
+ ter
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.salzgitter.de/kultur/museum/index.php
+URL:https://www.salzgitter.de/kultur/museum/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,199 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Regensburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261030-erobique@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Erobique (ausverkauft)
+LOCATION:Leerer Beutel\, Bertoldstraße\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261104-wladimir-kaminer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Wladimir Kaminer
+LOCATION:Alte Mälzerei\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261106-poetry-slam@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Poetry Slam
+LOCATION:Alte Mälzerei\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261107-fastfood-theater@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Fastfood-Theater
+LOCATION:Alte Mälzerei\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261112-nichtseattle@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Nichtseattle
+LOCATION:Alte Mälzerei\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261114-cocoondance-company-chora@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Cocoondance Company: Chora
+LOCATION:Theater an der Uni\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261117-holy-mother@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Holy Mother
+LOCATION:Alte Mälzerei\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261119-fliegende-haie@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Fliegende Haie
+LOCATION:Alte Mälzerei\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261121-solotanznacht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Solotanznacht
+LOCATION:Theater an der Uni\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261125-oskar-haag@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:Oskar Haag
+LOCATION:Alte Mälzerei\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261203-jan-philipp-zymny@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Jan Philipp Zymny
+LOCATION:Alte Mälzerei\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-alte-maelzerei-20261204-poetry-slam@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Poetry Slam
+LOCATION:Alte Mälzerei\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-ostentor-kino-20261209-thorsten-nagelschmidt-nur-fuer-mitglieder@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Thorsten Nagelschmidt: Nur für Mitglieder
+LOCATION:Ostentor Kino\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:r-ostentor-kino-20261216-peterlicht-lesung-lieder@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:PeterLicht – Lesung & Lieder
+LOCATION:Ostentor Kino\, Regensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alte-maelzerei.de/de/prog.php
+URL:https://www.alte-maelzerei.de/de/prog.php
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,714 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Flensburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fl-schifffahrtsmuseum-20261023-von-kueste-zu-kueste-beginn@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Beginn: Von Küste zu Küste
+LOCATION:Flensburger Schifffahrtsmuseum\, Schiffbrücke 39\, 24939 Flensbur
+ g
+DESCRIPTION:Sonderausstellung mit Malerei der Norddeutschen Realisten.\nLau
+ fzeit: 23.10.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://schifffahrtsmuseum-flensburg.de/ausstellungen
+URL:https://schifffahrtsmuseum-flensburg.de/ausstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-schifffahrtsmuseum-20261023-von-kueste-zu-kueste-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Von Küste zu Küste
+LOCATION:Flensburger Schifffahrtsmuseum\, Schiffbrücke 39\, 24939 Flensbur
+ g
+DESCRIPTION:Sonderausstellung mit Malerei der Norddeutschen Realisten.\nLau
+ fzeit: 23.10.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://schifffahrtsmuseum-flensburg.de/ausstellungen
+URL:https://schifffahrtsmuseum-flensburg.de/ausstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-stadtbibliothek-flensburg-20261030-3-flensburger-mangacon@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T120000
+DTEND;TZID=Europe/Berlin:20261030T140000
+SUMMARY:3. Flensburger Mangacon
+LOCATION:StadtBibliothek Flensburg\, Süderhofenden 40\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstal
+ tungen/
+URL:https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261030-voelkerball-engel-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Völkerball – Engel Tour 2026
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Rammstein-Tributeband.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.events-flensburg.de/event-infos.php?event=3399
+URL:https://www.events-flensburg.de/event-infos.php?event=3399
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261031-watching-people-watching-birds@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T130000
+DTEND;TZID=Europe/Berlin:20261031T150000
+SUMMARY:WATCHING PEOPLE WATCHING BIRDS
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261031-emil-und-die-detektive@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T154500
+DTEND;TZID=Europe/Berlin:20261031T174500
+SUMMARY:EMIL UND DIE DETEKTIVE
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261031-chopin-eine-sonate-in-paris@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:CHOPIN - EINE SONATE IN PARIS
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261031-thomas-borchert-der-vampir-am-klavier@myeven
+ thub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Thomas Borchert – Der Vampir am Klavier
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3358
+URL:https://www.events-flensburg.de/event-infos.php?event=3358
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261031-luegen-ueber-meine-mutter@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T203000
+DTEND;TZID=Europe/Berlin:20261031T223000
+SUMMARY:LÜGEN ÜBER MEINE MUTTER
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-schifffahrtsmuseum-20261101-oeffentliche-fuehrung-mit-den-augen-der-
+ norddeutsc@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Öffentliche Führung: Mit den Augen der Norddeutschen Realisten
+LOCATION:Flensburger Schifffahrtsmuseum\, Schiffbrücke 39\, 24939 Flensbur
+ g
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://schifffahrtsmuseum-flensburg.de/
+URL:https://schifffahrtsmuseum-flensburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-schifffahrtsmuseum-20261101-techniksonntag@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T120000
+DTEND;TZID=Europe/Berlin:20261101T140000
+SUMMARY:Techniksonntag
+LOCATION:Flensburger Schifffahrtsmuseum\, Schiffbrücke 39\, 24939 Flensbur
+ g
+DESCRIPTION:Aktionstag zur Schiffstechnik im Museum.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://schifffahrtsm
+ useum-flensburg.de/
+URL:https://schifffahrtsmuseum-flensburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261101-watching-people-watching-birds@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T130000
+DTEND;TZID=Europe/Berlin:20261101T150000
+SUMMARY:WATCHING PEOPLE WATCHING BIRDS
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261101-emil-und-die-detektive@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T154500
+DTEND;TZID=Europe/Berlin:20261101T174500
+SUMMARY:EMIL UND DIE DETEKTIVE
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261101-chopin-eine-sonate-in-paris@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:CHOPIN - EINE SONATE IN PARIS
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261101-drei-haselnuesse-fuer-aschenbroedel-das-musi
+ cal@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T190000
+DTEND;TZID=Europe/Berlin:20261101T210000
+SUMMARY:Drei Haselnüsse für Aschenbrödel – Das Musical (ausverkauft)
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nPreis: ausverkauft\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.events-flensburg.de/event-infos.php?event=3468
+URL:https://www.events-flensburg.de/event-infos.php?event=3468
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261101-luegen-ueber-meine-mutter@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T203000
+DTEND;TZID=Europe/Berlin:20261101T223000
+SUMMARY:LÜGEN ÜBER MEINE MUTTER
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261102-drei-haselnuesse-fuer-aschenbroedel-das-musi
+ cal@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:Drei Haselnüsse für Aschenbrödel – Das Musical
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3515
+URL:https://www.events-flensburg.de/event-infos.php?event=3515
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261102-luegen-ueber-meine-mutter@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T203000
+DTEND;TZID=Europe/Berlin:20261102T223000
+SUMMARY:LÜGEN ÜBER MEINE MUTTER
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-stadtbibliothek-flensburg-20261103-wir-lesen-vor-ab-4-jahren@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T160000
+DTEND;TZID=Europe/Berlin:20261103T180000
+SUMMARY:Wir lesen vor (ab 4 Jahren)
+LOCATION:StadtBibliothek Flensburg\, Süderhofenden 40\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstal
+ tungen/
+URL:https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261103-luegen-ueber-meine-mutter@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T203000
+DTEND;TZID=Europe/Berlin:20261103T223000
+SUMMARY:LÜGEN ÜBER MEINE MUTTER
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-stadtbibliothek-flensburg-20261104-buch-club-der-kinder-im-november@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T150000
+DTEND;TZID=Europe/Berlin:20261104T170000
+SUMMARY:Buch-Club der Kinder im November
+LOCATION:StadtBibliothek Flensburg\, Süderhofenden 40\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstal
+ tungen/
+URL:https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261104-chopin-eine-sonate-in-paris@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T180000
+DTEND;TZID=Europe/Berlin:20261104T200000
+SUMMARY:CHOPIN - EINE SONATE IN PARIS
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261104-voxxclub-lederhos-n-inferno-tour@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:voXXclub – Lederhos´n Inferno Tour
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3230
+URL:https://www.events-flensburg.de/event-infos.php?event=3230
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261104-luegen-ueber-meine-mutter@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T203000
+DTEND;TZID=Europe/Berlin:20261104T223000
+SUMMARY:LÜGEN ÜBER MEINE MUTTER
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261105-bad-apples@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T180000
+DTEND;TZID=Europe/Berlin:20261105T200000
+SUMMARY:BAD APPLES
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261105-primetime@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T203000
+DTEND;TZID=Europe/Berlin:20261105T223000
+SUMMARY:PRIMETIME
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-stadtbibliothek-flensburg-20261106-buecherbasar@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T140000
+DTEND;TZID=Europe/Berlin:20261106T160000
+SUMMARY:Bücherbasar
+LOCATION:StadtBibliothek Flensburg\, Süderhofenden 40\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstal
+ tungen/
+URL:https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261106-emil-und-die-detektive@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T154500
+DTEND;TZID=Europe/Berlin:20261106T174500
+SUMMARY:EMIL UND DIE DETEKTIVE
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261106-lichterkinder-millionen-sterne-tour-2026@mye
+ venthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T163000
+DTEND;TZID=Europe/Berlin:20261106T183000
+SUMMARY:Lichterkinder – Millionen Sterne Tour 2026
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 15:00\, Beginn 16:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3393
+URL:https://www.events-flensburg.de/event-infos.php?event=3393
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261106-bad-apples@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T180000
+DTEND;TZID=Europe/Berlin:20261106T200000
+SUMMARY:BAD APPLES
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261106-primetime@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T203000
+DTEND;TZID=Europe/Berlin:20261106T223000
+SUMMARY:PRIMETIME
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-stadtbibliothek-flensburg-20261107-buecherbasar@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T100000
+DTEND;TZID=Europe/Berlin:20261107T120000
+SUMMARY:Bücherbasar
+LOCATION:StadtBibliothek Flensburg\, Süderhofenden 40\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstal
+ tungen/
+URL:https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261107-vaterland-1300@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T130000
+DTEND;TZID=Europe/Berlin:20261107T150000
+SUMMARY:Vaterland
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261107-emil-und-die-detektive-1545@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T154500
+DTEND;TZID=Europe/Berlin:20261107T174500
+SUMMARY:Emil und die Detektive
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261107-bad-apples-1800@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T180000
+DTEND;TZID=Europe/Berlin:20261107T200000
+SUMMARY:Bad Apples
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261107-folk-night-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Folk Night 2026
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3572
+URL:https://www.events-flensburg.de/event-infos.php?event=3572
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261107-primetime-2030@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T203000
+DTEND;TZID=Europe/Berlin:20261107T223000
+SUMMARY:Primetime
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-schifffahrtsmuseum-20261108-maritimer-flohmarkt@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T100000
+DTEND;TZID=Europe/Berlin:20261108T120000
+SUMMARY:Maritimer Flohmarkt
+LOCATION:Flensburger Schifffahrtsmuseum\, Schiffbrücke 39\, 24939 Flensbur
+ g
+DESCRIPTION:Flohmarkt mit maritimen Dingen\, 10–16 Uhr.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://schifffa
+ hrtsmuseum-flensburg.de/
+URL:https://schifffahrtsmuseum-flensburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261108-bad-apples-1800@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Bad Apples
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261108-primetime-2030@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T203000
+DTEND;TZID=Europe/Berlin:20261108T223000
+SUMMARY:Primetime
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-stadtbibliothek-flensburg-20261109-baby-vormittag-03-jahre-mit-elter
+ n@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T100000
+DTEND;TZID=Europe/Berlin:20261109T120000
+SUMMARY:Baby-Vormittag (0–3 Jahre mit Eltern)
+LOCATION:StadtBibliothek Flensburg\, Süderhofenden 40\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstal
+ tungen/
+URL:https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261109-bad-apples-1800@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T180000
+DTEND;TZID=Europe/Berlin:20261109T200000
+SUMMARY:Bad Apples
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-51-stufen-20261109-primetime-2030@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T203000
+DTEND;TZID=Europe/Berlin:20261109T223000
+SUMMARY:Primetime
+LOCATION:Kino 51 Stufen\, Friedrich-Ebert-Str. 7\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.51stufen.de/programm
+URL:https://www.51stufen.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-stadtbibliothek-flensburg-20261110-wir-lesen-vor-ab-4-jahren@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T160000
+DTEND;TZID=Europe/Berlin:20261110T180000
+SUMMARY:Wir lesen vor (ab 4 Jahren)
+LOCATION:StadtBibliothek Flensburg\, Süderhofenden 40\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstal
+ tungen/
+URL:https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-stadtbibliothek-flensburg-20261112-herbstlese@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T183000
+DTEND;TZID=Europe/Berlin:20261112T203000
+SUMMARY:Herbstlese
+LOCATION:StadtBibliothek Flensburg\, Süderhofenden 40\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstal
+ tungen/
+URL:https://stadtbibliothek.flensburg.de/Service-Angebote/Veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261112-herr-schroeder-der-rest-ist-hausaufgabe@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Herr Schröder – Der Rest ist Hausaufgabe!
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3313
+URL:https://www.events-flensburg.de/event-infos.php?event=3313
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261113-tahnee-ein-touch-too-much@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Tahnee – Ein Touch too much
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3390
+URL:https://www.events-flensburg.de/event-infos.php?event=3390
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261118-mighty-oaks-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Mighty Oaks – Tour 2026
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3378
+URL:https://www.events-flensburg.de/event-infos.php?event=3378
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261120-nightwash-live-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Nightwash – Live 2026
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3341
+URL:https://www.events-flensburg.de/event-infos.php?event=3341
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261122-michael-schulte-sanfte-toene-besondere-orte@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T200000
+DTEND;TZID=Europe/Berlin:20261122T220000
+SUMMARY:Michael Schulte – Sanfte Töne\, Besondere Orte
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3353
+URL:https://www.events-flensburg.de/event-infos.php?event=3353
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261128-hagen-rether-liebe@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Hagen Rether – Liebe
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3324
+URL:https://www.events-flensburg.de/event-infos.php?event=3324
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261130-semino-rossi-feliz-navidad-tour-2026@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T193000
+DTEND;TZID=Europe/Berlin:20261130T213000
+SUMMARY:Semino Rossi – Feliz Navidad Tour 2026
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3462
+URL:https://www.events-flensburg.de/event-infos.php?event=3462
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-deutsches-haus-20261202-3-sinfoniekonzert-jul-landestheater-schleswi
+ g-hols@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T193000
+DTEND;TZID=Europe/Berlin:20261202T213000
+SUMMARY:3. Sinfoniekonzert – Jul (Landestheater Schleswig-Holstein)
+LOCATION:Deutsches Haus Flensburg\, Berliner Platz 1\, 24937 Flensburg
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.events-flensburg.
+ de/event-infos.php?event=3554
+URL:https://www.events-flensburg.de/event-infos.php?event=3554
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

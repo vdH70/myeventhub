@@ -1,0 +1,127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Monheim am Rhein · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:me-kulturraffinerie-k714-20261102-a-simple-space@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:A Simple Space
+LOCATION:Kulturraffinerie K714\, Rheinuferplatz 1\, 40789 Monheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturraffinerie-k714.de/de/kalender
+URL:https://www.kulturraffinerie-k714.de/de/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-kulturraffinerie-k714-20261104-eure-muetter@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Eure Mütter
+LOCATION:Kulturraffinerie K714\, Rheinuferplatz 1\, 40789 Monheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturraffinerie-k714.de/de/kalender
+URL:https://www.kulturraffinerie-k714.de/de/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-kulturraffinerie-k714-20261128-berta-das-ei-ist-hart-ein-loriot-aben
+ d@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Berta\, das Ei ist hart – Ein Loriot-Abend
+LOCATION:Kulturraffinerie K714\, Rheinuferplatz 1\, 40789 Monheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturraffinerie-k714.de/de/kalender
+URL:https://www.kulturraffinerie-k714.de/de/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-kulturraffinerie-k714-20261203-florian-schroeder@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Florian Schroeder
+LOCATION:Kulturraffinerie K714\, Rheinuferplatz 1\, 40789 Monheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturraffinerie-k714.de/de/kalender
+URL:https://www.kulturraffinerie-k714.de/de/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-kulturraffinerie-k714-20261210-beats-on-pointe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Beats on Pointe
+LOCATION:Kulturraffinerie K714\, Rheinuferplatz 1\, 40789 Monheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturraffinerie-k714.de/de/kalender
+URL:https://www.kulturraffinerie-k714.de/de/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-kulturraffinerie-k714-20270129-atze-schroeder@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:Atze Schröder
+LOCATION:Kulturraffinerie K714\, Rheinuferplatz 1\, 40789 Monheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturraffinerie-k714.de/de/kalender
+URL:https://www.kulturraffinerie-k714.de/de/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-kulturraffinerie-k714-20270213-herr-teufel-faust@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T193000
+DTEND;TZID=Europe/Berlin:20270213T213000
+SUMMARY:Herr Teufel Faust
+LOCATION:Kulturraffinerie K714\, Rheinuferplatz 1\, 40789 Monheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturraffinerie-k714.de/de/kalender
+URL:https://www.kulturraffinerie-k714.de/de/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-kulturraffinerie-k714-20270220-olli-dittrich@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T200000
+DTEND;TZID=Europe/Berlin:20270220T220000
+SUMMARY:Olli Dittrich
+LOCATION:Kulturraffinerie K714\, Rheinuferplatz 1\, 40789 Monheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturraffinerie-k714.de/de/kalender
+URL:https://www.kulturraffinerie-k714.de/de/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

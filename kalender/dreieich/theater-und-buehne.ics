@@ -1,0 +1,240 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Dreieich · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20261031-the-mind-reading-revolution-anca-lucca
+ @myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:The Mind-Reading Revolution – Anca & Lucca
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /the-mind-reading-revolution
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/the-min
+ d-reading-revolution
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20261104-annes-kampf-anne-frank-vs-adolf-hitler
+ @myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Annes Kampf – Anne Frank vs. Adolf Hitler
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /annes-kampf
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/annes-k
+ ampf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20261110-horst-evers-so-gesehen-natuerlich-lust
+ ig@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:Horst Evers – So gesehen natürlich lustig
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /horst-evers-2026
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/horst-e
+ vers-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20261127-tina-teubner-protokolle-der-sehnsucht@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Tina Teubner – Protokolle der Sehnsucht
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /tina-teubner-2026
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/tina-te
+ ubner-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20261203-eine-weihnachtsgeschichte@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Eine Weihnachtsgeschichte
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /eine-weihnachtsgeschichte
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/eine-we
+ ihnachtsgeschichte
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20261210-mathias-richling-ki-keine-identitaet@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Mathias Richling – KI – Keine Identität
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /mathias-richling-2026
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/mathias
+ -richling-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20261218-ass-dur-suesser-die-brueder-nie-klinge
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Ass-Dur – Süßer die Brüder nie klingen
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /ass-dur-weihnachtsshow-2026
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/ass-dur
+ -weihnachtsshow-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270113-der-wal-euro-studio-landgraf@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T200000
+DTEND;TZID=Europe/Berlin:20270113T220000
+SUMMARY:Der Wal – EURO-Studio Landgraf
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /der-wal
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/der-wal
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270114-uli-boettcher-ue60-das-leben-raecht-si
+ ch@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T200000
+DTEND;TZID=Europe/Berlin:20270114T220000
+SUMMARY:Uli Boettcher – Ü60 - Das Leben rächt sich
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /uli-boettcher-2027
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/uli-boe
+ ttcher-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270212-textbomben-kirsten-fuchs-susanne-m-rie
+ del-ella-car@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:Textbomben – Kirsten Fuchs\, Susanne M. Riedel\, Ella Carina Wern
+ er
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /textbomben-2027
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/textbom
+ ben-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270216-zum-sterben-schoen-gilla-cremer@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T200000
+DTEND;TZID=Europe/Berlin:20270216T220000
+SUMMARY:Zum Sterben schön – Gilla Cremer
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /zum-sterben-schoen
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/zum-ste
+ rben-schoen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270219-andy-ost-zwischen-wahnsinn-und-wahrhei
+ t@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Andy Ost – Zwischen Wahnsinn und Wahrheit
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /andy-ost-2027
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/andy-os
+ t-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270223-bodo-wartke-was-wenn-doch-zum-letzten-
+ mal@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270223T200000
+DTEND;TZID=Europe/Berlin:20270223T220000
+SUMMARY:Bodo Wartke – Was\, wenn doch? Zum letzten Mal!
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /bodo-wartke-was-wenn-doch-2027
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/bodo-wa
+ rtke-was-wenn-doch-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270306-florian-schroeder-endlich-gluecklich@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T200000
+DTEND;TZID=Europe/Berlin:20270306T220000
+SUMMARY:Florian Schroeder – Endlich glücklich
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /florian-schroeder-2027
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/florian
+ -schroeder-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

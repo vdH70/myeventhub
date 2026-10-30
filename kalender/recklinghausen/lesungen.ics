@@ -1,0 +1,212 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Recklinghausen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:re-stadtbibliothek-20261030-kopfkino-ein-hoerspiel-gemeinsam-geniessen@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T180000
+DTEND;TZID=Europe/Berlin:20261030T200000
+SUMMARY:Kopfkino: Ein Hörspiel gemeinsam genießen
+LOCATION:Stadtbibliothek Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildun
+ g/Stadtbibliothek/Veranstaltungen/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildung/Stadtb
+ ibliothek/Veranstaltungen/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-stadtbibliothek-20261106-lesebuehne-theater-ex-libris-frankenstein@m
+ yeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Lesebühne: Theater Ex Libris: Frankenstein
+LOCATION:Stadtbibliothek Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildun
+ g/Stadtbibliothek/Veranstaltungen/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildung/Stadtb
+ ibliothek/Veranstaltungen/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-altstadtschmiede-20261110-lesung-mit-arne-semsrott@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T190000
+DTEND;TZID=Europe/Berlin:20261110T210000
+SUMMARY:Lesung mit Arne Semsrott
+LOCATION:Altstadtschmiede\, Kellerstr. 10\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.altstadtschmiede.de/aktuelle-veranstaltungen
+URL:https://www.altstadtschmiede.de/aktuelle-veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-stadtbibliothek-20261112-silent-reading-party-in-ruhe-und-gemeinscha
+ ft-lese@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T190000
+DTEND;TZID=Europe/Berlin:20261112T210000
+SUMMARY:Silent Reading Party – In Ruhe und Gemeinschaft lesen
+LOCATION:Stadtbibliothek Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: frei\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.recklinghausen.de/Inhalte/Startseite/F
+ amilie_Bildung/Stadtbibliothek/Veranstaltungen/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildung/Stadtb
+ ibliothek/Veranstaltungen/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-altstadtschmiede-20261114-39-literaturnacht-der-autorinnen-und-autor
+ en@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:39. Literaturnacht der Autorinnen und Autoren
+LOCATION:Altstadtschmiede\, Kellerstr. 10\, 45657 Recklinghausen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 10€\nQuelle (bitte vor dem Besuch prüfen): https://www.alt
+ stadtschmiede.de/aktuelle-veranstaltungen
+URL:https://www.altstadtschmiede.de/aktuelle-veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-stadtbibliothek-20261119-live-hoerspiel-mit-den-vorlesern-nrw-james-
+ bond-im@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T190000
+DTEND;TZID=Europe/Berlin:20261119T210000
+SUMMARY:Live-Hörspiel mit den Vorlesern NRW: „James Bond – Im Angesich
+ t des Todes“
+LOCATION:Stadtbibliothek Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildun
+ g/Stadtbibliothek/Veranstaltungen/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildung/Stadtb
+ ibliothek/Veranstaltungen/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-stadtbibliothek-20261126-lesung-mit-alexandra-fischer-hunold-falsche
+ s-spiel@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T190000
+DTEND;TZID=Europe/Berlin:20261126T210000
+SUMMARY:Lesung mit Alexandra Fischer-Hunold: „Falsches Spiel im Herrenhau
+ s – Ein Weihnachtskrimi“
+LOCATION:Stadtbibliothek Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildun
+ g/Stadtbibliothek/Veranstaltungen/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildung/Stadtb
+ ibliothek/Veranstaltungen/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-stadtbibliothek-20261201-lesung-und-diskussion-mit-miriam-davoudvand
+ i-das-k@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T190000
+DTEND;TZID=Europe/Berlin:20261201T210000
+SUMMARY:Lesung und Diskussion mit Miriam Davoudvandi: „Das können wir un
+ s nicht leisten“
+LOCATION:Stadtbibliothek Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildun
+ g/Stadtbibliothek/Veranstaltungen/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildung/Stadtb
+ ibliothek/Veranstaltungen/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-stadtbibliothek-20261210-lesung-mit-lena-schaette-das-schwarz-an-den
+ -haende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T190000
+DTEND;TZID=Europe/Berlin:20261210T210000
+SUMMARY:Lesung mit Lena Schätte: „Das Schwarz an den Händen meines Vate
+ rs“
+LOCATION:Stadtbibliothek Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildun
+ g/Stadtbibliothek/Veranstaltungen/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildung/Stadtb
+ ibliothek/Veranstaltungen/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-stadtbibliothek-20261217-rauhnaechte-ein-abend-zur-einstimmung-mit-k
+ rimi-le@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T190000
+DTEND;TZID=Europe/Berlin:20261217T210000
+SUMMARY:Rauhnächte – Ein Abend zur Einstimmung mit Krimi-Lesung und Räu
+ cher-Ritual
+LOCATION:Stadtbibliothek Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildun
+ g/Stadtbibliothek/Veranstaltungen/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildung/Stadtb
+ ibliothek/Veranstaltungen/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270212-lesebuehne-martin-brambach-und-christine-
+ sommer@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T190000
+DTEND;TZID=Europe/Berlin:20270212T210000
+SUMMARY:Lesebühne: Martin Brambach und Christine Sommer
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-stadtbibliothek-20270218-lesung-mit-shida-bazyar-die-luecken@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T190000
+DTEND;TZID=Europe/Berlin:20270218T210000
+SUMMARY:Lesung mit Shida Bazyar: „Die Lücken“
+LOCATION:Stadtbibliothek Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildun
+ g/Stadtbibliothek/Veranstaltungen/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Familie_Bildung/Stadtb
+ ibliothek/Veranstaltungen/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

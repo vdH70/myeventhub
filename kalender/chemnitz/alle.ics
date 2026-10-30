@@ -10,6 +10,163 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c-industriemuseum-20260320-made-in-germany-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Letzter Tag: Made in Germany
+LOCATION:Industriemuseum Chemnitz\, Zwickauer Straße 119\, 09112 Chemnitz
+DESCRIPTION:Laufzeit: 20.3.2026 bis 11.4.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.industriemuseum-chemnitz.de/
+URL:https://www.industriemuseum-chemnitz.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-industriemuseum-20260605-erfolgsspuren-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270823
+SUMMARY:Letzter Tag: Erfolgsspuren.
+LOCATION:Industriemuseum Chemnitz\, Zwickauer Straße 119\, 09112 Chemnitz
+DESCRIPTION:Laufzeit: 5.6.2026 bis 22.8.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.industriemuseum-chemnitz.de/
+URL:https://www.industriemuseum-chemnitz.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-industriemuseum-20260821-der-saechsische-staatspreis-fuer-design-road
+ show-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Der Sächsische Staatspreis für Design (Roadshow)
+LOCATION:Industriemuseum Chemnitz\, Zwickauer Straße 119\, 09112 Chemnitz
+DESCRIPTION:Laufzeit: 21.8.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.industriemuseum-chemnitz.de/
+URL:https://www.industriemuseum-chemnitz.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-galerie-roter-turm-20261019-magische-zauberwelt-in-der-galerie-roter-
+ turm-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Beginn: Magische Zauberwelt in der Galerie Roter Turm
+LOCATION:Galerie Roter Turm\, Chemnitz
+DESCRIPTION:Laufzeit: 19.10.2026 bis 30.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.galerie-roter-turm.de/aktuelles/events/78
+URL:https://www.galerie-roter-turm.de/aktuelles/events/78
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-galerie-roter-turm-20261019-magische-zauberwelt-in-der-galerie-roter-
+ turm-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Letzter Tag: Magische Zauberwelt in der Galerie Roter Turm
+LOCATION:Galerie Roter Turm\, Chemnitz
+DESCRIPTION:Laufzeit: 19.10.2026 bis 30.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.galerie-roter-turm.de/aktuelles/events/78
+URL:https://www.galerie-roter-turm.de/aktuelles/events/78
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-opernhaus-20261030-der-fliegende-hollaender@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T190000
+DTEND;TZID=Europe/Berlin:20261030T210000
+SUMMARY:Der fliegende Holländer
+LOCATION:Opernhaus Chemnitz\, Chemnitz
+DESCRIPTION:Oper von Richard Wagner\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.theater-chemnitz.de/spielp
+ lan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261030-jim-queen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T190000
+DTEND;TZID=Europe/Berlin:20261030T210000
+SUMMARY:Jim Queen
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-spinnbau-20261030-die-katze-auf-dem-heissen-blechdach@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Die Katze auf dem heissen Blechdach
+LOCATION:Spinnbau (Schauspiel Chemnitz)\, Chemnitz
+DESCRIPTION:Schauspiel\, Große Bühne\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.theater-chemnitz.de/spi
+ elplan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-spinnbau-20261030-tyll@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T200000
+DTEND;TZID=Europe/Berlin:20261030T220000
+SUMMARY:Tyll (ausverkauft)
+LOCATION:Spinnbau (Schauspiel Chemnitz)\, Chemnitz
+DESCRIPTION:Schauspiel\, Ostflügel\nEnde: laut Quelle nicht angegeben\nAus
+ verkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-chemn
+ itz.de/spielplan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-smac-20261030-die-etrusker-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Die Etrusker
+LOCATION:smac – Staatliches Museum für Archäologie Chemnitz\, Stefan-He
+ ym-Platz 1\, 09111 Chemnitz
+DESCRIPTION:Sonderausstellung im smac.\nLaufzeit: 30.10.2026 bis 29.3.2027\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.smac.sachsen.de/
+URL:https://www.smac.sachsen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-smac-20261030-die-etrusker-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Letzter Tag: Die Etrusker
+LOCATION:smac – Staatliches Museum für Archäologie Chemnitz\, Stefan-He
+ ym-Platz 1\, 09111 Chemnitz
+DESCRIPTION:Sonderausstellung im smac.\nLaufzeit: 30.10.2026 bis 29.3.2027\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.smac.sachsen.de/
+URL:https://www.smac.sachsen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:c-saechsisches-eisenbahnmuseum-20261031-feldbahn-nutzfahrzeugetage-begi
  nn@myeventhub.de
@@ -38,6 +195,237 @@ DESCRIPTION:Aktionstage auf dem Museumsgelände\, laut Seite bis 1.11. 17 U
  hr.\nLaufzeit: 31.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prü
  fen): https://www.sem-chemnitz.de/
 URL:https://www.sem-chemnitz.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261031-die-drei-toteninsel@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Die drei ??? – Toteninsel
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Familienkino zu Halloween\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261031-das-schweigen-der-laemmer@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Das Schweigen der Lämmer
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Halloween Special\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-opernhaus-20261031-titanic@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Titanic (ausverkauft)
+LOCATION:Opernhaus Chemnitz\, Chemnitz
+DESCRIPTION:Musiktheater\nEnde: laut Quelle nicht angegeben\nAusverkauft\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.theater-chemnitz.de/spie
+ lplan/
+URL:https://www.theater-chemnitz.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261101-jim-queen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T190000
+DTEND;TZID=Europe/Berlin:20261101T210000
+SUMMARY:Jim Queen
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261105-primetime@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:Primetime
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:OmdU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261106-primetime@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Primetime
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261107-emil-und-die-detektive-1500@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T150000
+DTEND;TZID=Europe/Berlin:20261107T170000
+SUMMARY:Emil und die Detektive
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Familienkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261107-primetime-1900@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Primetime
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261108-primetime-1900@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Primetime
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261110-neshoma-1830@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T183000
+DTEND;TZID=Europe/Berlin:20261110T203000
+SUMMARY:Neshoma
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:threads – Verflechtungen\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261112-digger-1900@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T190000
+DTEND;TZID=Europe/Berlin:20261112T210000
+SUMMARY:Digger
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-weltecho-20261113-digger-1900@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T190000
+DTEND;TZID=Europe/Berlin:20261113T210000
+SUMMARY:Digger
+LOCATION:Weltecho (Kino)\, Annaberger Strasse 24\, 09111 Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.weltecho.eu/
+URL:https://www.weltecho.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-rathaus-weihnachtsmarkt-20261127-chemnitzer-weihnachtsmarkt-2026-begi
+ nn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Chemnitzer Weihnachtsmarkt 2026
+LOCATION:Markt am Rathaus Chemnitz\, Markt\, Chemnitz
+DESCRIPTION:Weihnachtsmarkt rund um das Rathaus.\nLaufzeit: 27.11.2026 bis 
+ 23.12.2026\nTermine laut Veranstalter: Mo–Do 11–20 Uhr\, Fr/Sa 10–21
+  Uhr\, So 10–20 Uhr\; 27.11. 16–21 Uhr\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.chemnitz.de/en/culture/highlights/christmas_market/ch
+ ristmas_market_chemnitz
+URL:https://www.chemnitz.de/en/culture/highlights/christmas_market/christma
+ s_market_chemnitz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-rathaus-weihnachtsmarkt-20261127-chemnitzer-weihnachtsmarkt-2026-ende
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Chemnitzer Weihnachtsmarkt 2026
+LOCATION:Markt am Rathaus Chemnitz\, Markt\, Chemnitz
+DESCRIPTION:Weihnachtsmarkt rund um das Rathaus.\nLaufzeit: 27.11.2026 bis 
+ 23.12.2026\nTermine laut Veranstalter: Mo–Do 11–20 Uhr\, Fr/Sa 10–21
+  Uhr\, So 10–20 Uhr\; 27.11. 16–21 Uhr\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.chemnitz.de/en/culture/highlights/christmas_market/ch
+ ristmas_market_chemnitz
+URL:https://www.chemnitz.de/en/culture/highlights/christmas_market/christma
+ s_market_chemnitz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-industriemuseum-20261127-beyers-tinten-sind-die-besten-beginn@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Beyers Tinten sind die Besten
+LOCATION:Industriemuseum Chemnitz\, Zwickauer Straße 119\, 09112 Chemnitz
+DESCRIPTION:Laufzeit: 27.11.2026 bis 30.5.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.industriemuseum-chemnitz.de/
+URL:https://www.industriemuseum-chemnitz.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-industriemuseum-20261127-beyers-tinten-sind-die-besten-ende@myeventhu
+ b.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Letzter Tag: Beyers Tinten sind die Besten
+LOCATION:Industriemuseum Chemnitz\, Zwickauer Straße 119\, 09112 Chemnitz
+DESCRIPTION:Laufzeit: 27.11.2026 bis 30.5.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.industriemuseum-chemnitz.de/
+URL:https://www.industriemuseum-chemnitz.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-industriemuseum-20261212-mitropa-zwischen-bahnsteig-und-besteck-begin
+ n@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Beginn: MITROPA – Zwischen Bahnsteig und Besteck
+LOCATION:Industriemuseum Chemnitz\, Zwickauer Straße 119\, 09112 Chemnitz
+DESCRIPTION:Laufzeit: 12.12.2026 bis 25.4.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.industriemuseum-chemnitz.de/
+URL:https://www.industriemuseum-chemnitz.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-industriemuseum-20261212-mitropa-zwischen-bahnsteig-und-besteck-ende@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Letzter Tag: MITROPA – Zwischen Bahnsteig und Besteck
+LOCATION:Industriemuseum Chemnitz\, Zwickauer Straße 119\, 09112 Chemnitz
+DESCRIPTION:Laufzeit: 12.12.2026 bis 25.4.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.industriemuseum-chemnitz.de/
+URL:https://www.industriemuseum-chemnitz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

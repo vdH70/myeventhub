@@ -1,0 +1,393 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Oberhausen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20261031-amon-amarth@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T183000
+DTEND;TZID=Europe/Berlin:20261031T203000
+SUMMARY:Amon Amarth
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/
+URL:https://www.rudolf-weber-arena.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20261101-disney-in-concert-die-jubilaeumstournee@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T193000
+DTEND;TZID=Europe/Berlin:20261101T213000
+SUMMARY:Disney in Concert – Die Jubiläumstournee
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/
+URL:https://www.rudolf-weber-arena.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20261102-nico-santos-pov-arena-tour-2026@myeventh
+ ub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T193000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:Nico Santos – POV: Arena Tour 2026
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/
+URL:https://www.rudolf-weber-arena.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261104-veljanov@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Veljanov
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert zwischen Avantgarde und Dark Wave.\nEinlass 19:30\, Beg
+ inn 19:30 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.kulttempel.com/kkt-kalender/veljanov-2
+URL:https://www.kulttempel.com/kkt-kalender/veljanov-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261106-aesthetic-perfection-suckers-for-punishment-tour
+ -2@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Aesthetic Perfection – Suckers For Punishment Tour 2026 (ausverka
+ uft)
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert mit Industrial\, Pop\, Goth und Dark Electro\; laut Ver
+ anstalter ausverkauft.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quell
+ e nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulttempel.com/kkt-kalender/aesthetic-perfection-suckers-for-puni
+ shment-tour-2026
+URL:https://www.kulttempel.com/kkt-kalender/aesthetic-perfection-suckers-fo
+ r-punishment-tour-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20261107-die-schlagernacht-des-jahres-2026@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T180000
+DTEND;TZID=Europe/Berlin:20261107T200000
+SUMMARY:Die Schlagernacht des Jahres 2026
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261114-project-pitchfork-35-years-in-the-heart-of-darkn
+ es@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Project Pitchfork – 35 Years in the Heart of Darkness
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Jubiläumskonzert der Elektronik-Band Project Pitchfork.\nEinla
+ ss 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.kulttempel.com/kkt-kalender/35-ye
+ ars-in-the-heart-of-darkness-project-pitchfork-jubilaeumstour-herbst-2026
+URL:https://www.kulttempel.com/kkt-kalender/35-years-in-the-heart-of-darkne
+ ss-project-pitchfork-jubilaeumstour-herbst-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261121-sitd-30th-anniversary-show@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:[:SITD:] – 30th Anniversary Show
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert mit Dark Electro\, Synthpop\, Futurepop\, Darkwave\, In
+ dustrial und EBM.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulttempe
+ l.com/kkt-kalender/sitd-30th-anniversary-show
+URL:https://www.kulttempel.com/kkt-kalender/sitd-30th-anniversary-show
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261122-diary-of-dreams-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T210000
+SUMMARY:Diary of Dreams – Tour 2026
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert zwischen Post-Punk und Darkwave.\nEinlass 18:00\, Begin
+ n 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.kulttempel.com/kkt-kalender/diary-of-dreams-tour-
+ 2026
+URL:https://www.kulttempel.com/kkt-kalender/diary-of-dreams-tour-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261204-nachtmahr-imperivm-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T203000
+DTEND;TZID=Europe/Berlin:20261204T223000
+SUMMARY:Nachtmahr – Imperivm Tour
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert mit Industrial und EBM 2.0.\nEinlass 19:30\, Beginn 20:
+ 30 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.kulttempel.com/kkt-kalender/nachtmahr-imperivm-tour
+URL:https://www.kulttempel.com/kkt-kalender/nachtmahr-imperivm-tour
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261204-party-schwarz-aftershowparty-nach-nachtmahr@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T230000
+DTEND;TZID=Europe/Berlin:20261205T010000
+SUMMARY:Party Schwarz – Aftershowparty nach Nachtmahr
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Schwarze Aftershowparty nach dem Nachtmahr-Konzert.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.kulttempel.com/
+URL:https://www.kulttempel.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261212-suicide-commando-40-jahre-jubilaeumsshow@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Suicide Commando – 40 Jahre Jubiläumsshow
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Jubiläumskonzert aus dem härteren Electro-Genre.\nEinlass 19:
+ 00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.kulttempel.com/kkt-kalender/suicide-com
+ mando-40-jahre-jubilaeumsshow
+URL:https://www.kulttempel.com/kkt-kalender/suicide-commando-40-jahre-jubil
+ aeumsshow
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261218-rotersand-heimspiel-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T203000
+DTEND;TZID=Europe/Berlin:20261218T223000
+SUMMARY:Rotersand – Heimspiel 2026
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert von Rotersand mit Morphose und Shosta.\nEinlass 19:30\,
+  Beginn 20:30 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.kulttempel.com/kkt-kalender/rotersand-morph
+ ose-shosta-heimspiel-2026
+URL:https://www.kulttempel.com/kkt-kalender/rotersand-morphose-shosta-heims
+ piel-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261219-neuroticfish-heimspiel-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T203000
+DTEND;TZID=Europe/Berlin:20261219T223000
+SUMMARY:Neuroticfish – Heimspiel 2026
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert mit Dark Electro und EBM.\nEinlass 19:00\, Beginn 20:30
+  Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.kulttempel.com/kkt-kalender/neuroticfish-haujobb-siie-he
+ imspiel-2026
+URL:https://www.kulttempel.com/kkt-kalender/neuroticfish-haujobb-siie-heims
+ piel-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20270109-die-fantastischen-vier-der-letzte-bus@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Die Fantastischen Vier – Der letzte Bus
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20270227-manowar-kings-of-metal-fighting-the-worl
+ d-tour-202@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:Manowar – Kings of Metal Fighting the World Tour 2027
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20270319-samra-capital-bra-berlin-lebt-tour-2027@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T200000
+DTEND;TZID=Europe/Berlin:20270319T220000
+SUMMARY:Samra & Capital Bra – Berlin lebt Tour 2027
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20270320-the-australian-pink-floyd-show-2027-grea
+ test-hits@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T200000
+DTEND;TZID=Europe/Berlin:20270320T220000
+SUMMARY:The Australian Pink Floyd Show – 2027 Greatest Hits World Tour
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20270430-the-world-of-hans-zimmer-a-new-dimension
+ @myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T193000
+DTEND;TZID=Europe/Berlin:20270430T213000
+SUMMARY:The World of Hans Zimmer – A New Dimension
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20270522-dieter-bohlen-cheri-cheri-lady-tour-2027
+ @myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270522T200000
+DTEND;TZID=Europe/Berlin:20270522T220000
+SUMMARY:Dieter Bohlen – Cheri Cheri Lady Tour 2027
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20270925-joerg-bausch-live-in-concert-xxl@myevent
+ hub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270925T200000
+DTEND;TZID=Europe/Berlin:20270925T220000
+SUMMARY:Jörg Bausch – Live in Concert XXL
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20270926-sido-frieden-tour-2027@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270926T200000
+DTEND;TZID=Europe/Berlin:20270926T220000
+SUMMARY:Sido – Frieden Tour 2027
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20270930-ronan-keating-just-getting-started-world
+ -tour@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270930T200000
+DTEND;TZID=Europe/Berlin:20270930T220000
+SUMMARY:Ronan Keating – Just Getting Started World Tour
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20271019-kontra-k-aus-der-asche-tour-2027@myevent
+ hub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271019T200000
+DTEND;TZID=Europe/Berlin:20271019T220000
+SUMMARY:Kontra K – Aus der Asche Tour 2027
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20271107-andrea-berg-live-2027@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271107T183000
+DTEND;TZID=Europe/Berlin:20271107T203000
+SUMMARY:Andrea Berg – Live 2027
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-rudolf-weber-arena-20271112-die-prinzen-tschuessi-macht-s-gut-die-ab
+ schiedstou@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271112T193000
+DTEND;TZID=Europe/Berlin:20271112T213000
+SUMMARY:Die Prinzen – Tschüssi\, macht's gut! Die Abschiedstournee 2027
+LOCATION:Rudolf Weber-ARENA\, Arenastraße 1\, 46047 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rudolf-weber-arena.de/events-tickets/events/
+URL:https://www.rudolf-weber-arena.de/events-tickets/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

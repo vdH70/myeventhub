@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Kiel · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261030-die-ermittlung@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T090000
+DTEND;TZID=Europe/Berlin:20261030T110000
+SUMMARY:Die Ermittlung
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261031-ghostbusters-die-geisterjaeger@myeventhu
+ b.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Ghostbusters - Die Geisterjäger
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Reihe Lichtperlen\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261031-halloween-die-nacht-des-grauens@myeventh
+ ub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T203000
+DTEND;TZID=Europe/Berlin:20261031T223000
+SUMMARY:Halloween - Die Nacht des Grauens
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261031-der-abseitige-ueberraschungsfilm-2245@my
+ eventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T224500
+DTEND;TZID=Europe/Berlin:20261101T004500
+SUMMARY:Der abseitige Überraschungsfilm
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Mondo Grindhouse\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261101-superstar-seegras@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T103000
+DTEND;TZID=Europe/Berlin:20261101T123000
+SUMMARY:Superstar Seegras
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261103-rocky@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Rocky
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Best of Cinema\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261104-wohin-mit-mir@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T180000
+DTEND;TZID=Europe/Berlin:20261104T200000
+SUMMARY:Wohin mit mir?
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261104-sneak-preview-2030@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T203000
+DTEND;TZID=Europe/Berlin:20261104T223000
+SUMMARY:Sneak-Preview
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Preview\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261105-der-mit-dem-wolf-tanzt@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T180000
+DTEND;TZID=Europe/Berlin:20261105T200000
+SUMMARY:Der mit dem Wolf tanzt
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:35-jähriges Jubiläum\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261107-alpen-film-festival-2026-2000@myeventhub
+ .de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Alpen Film Festival 2026
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-studio-filmtheater-20261108-rocky-2000@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T200000
+DTEND;TZID=Europe/Berlin:20261108T220000
+SUMMARY:Rocky
+LOCATION:STUDIO Filmtheater Kiel\, Wilhelminenstr. 10\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.studio-filmtheater.de/
+URL:https://www.studio-filmtheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

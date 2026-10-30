@@ -1,0 +1,127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Werl · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20261106-marc-weide-magier-des-monats@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Marc Weide – Magier des Monats
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20261114-werl-meets-comedy-by-anil-kaya@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Werl meets COMEDY by Anil Kaya
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20261128-frieda-braun-sprechpause@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Frieda Braun – Sprechpause
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20261209-theater-a-swell-party@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T193000
+DTEND;TZID=Europe/Berlin:20261209T213000
+SUMMARY:Theater – A Swell Party
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20261217-die-pubertaets-docs@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:Die Pubertäts-Docs
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20270201-theater-und-das-ist-gut-so@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270201T193000
+DTEND;TZID=Europe/Berlin:20270201T213000
+SUMMARY:Theater – und das ist gut so!
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20270228-theater-das-traumpaar@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T193000
+DTEND;TZID=Europe/Berlin:20270228T213000
+SUMMARY:Theater – Das Traumpaar
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20270418-theater-yes-we-camp@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270418T193000
+DTEND;TZID=Europe/Berlin:20270418T213000
+SUMMARY:Theater – Yes we camp
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

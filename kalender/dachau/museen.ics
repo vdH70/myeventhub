@@ -1,0 +1,485 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Dachau · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20260424-sinne-zur-kulturgeschichte-unserer-wahrnehmu
+ ng-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: SINNE – Zur Kulturgeschichte unserer Wahrnehmung
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Laufzeit: 24.4.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/category/bezirksmuseum/aktu
+ elle-ausstellung-bezirksmuseum/
+URL:https://dachauer-galerien-museen.de/category/bezirksmuseum/aktuelle-aus
+ stellung-bezirksmuseum/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20260916-kunst-braucht-luft-die-kuenstlergruppe-sch
+ olle-zwi-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Letzter Tag: Kunst braucht Luft! Die Künstlergruppe SCHOLLE zwisch
+ en See und Moor
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Laufzeit: 16.9.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/category/gemaeldegalerie/de
+ mnaechst-gemaeldegalerie/
+URL:https://dachauer-galerien-museen.de/category/gemaeldegalerie/demnaechst
+ -gemaeldegalerie/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20261023-ansichten-und-aussichten-zeitgenoessische-
+ reaktion-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Beginn: Ansichten und Aussichten – Zeitgenössische Reaktionen au
+ f die Werke der Künstlerkolonie Dachau
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Laufzeit: 23.10.2026 bis 4.4.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/category/gemaeldegalerie/au
+ sstellungsvorschau-gemaeldegalerie/
+URL:https://dachauer-galerien-museen.de/category/gemaeldegalerie/ausstellun
+ gsvorschau-gemaeldegalerie/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20261023-ansichten-und-aussichten-zeitgenoessische-
+ reaktion-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Letzter Tag: Ansichten und Aussichten – Zeitgenössische Reaktion
+ en auf die Werke der Künstlerkolonie Dachau
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Laufzeit: 23.10.2026 bis 4.4.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/category/gemaeldegalerie/au
+ sstellungsvorschau-gemaeldegalerie/
+URL:https://dachauer-galerien-museen.de/category/gemaeldegalerie/ausstellun
+ gsvorschau-gemaeldegalerie/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20261108-ausstellungsfuehrung-kunst-braucht-luft@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:Ausstellungsführung: „Kunst braucht Luft!“
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/ausstellungsfuehrung
+ -kunst-braucht-luft-2/
+URL:https://dachauer-galerien-museen.de/events/ausstellungsfuehrung-kunst-b
+ raucht-luft-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20261112-mit-oma-und-opa-ins-museum-vom-geschichten
+ -erzaehl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T160000
+DTEND;TZID=Europe/Berlin:20261112T180000
+SUMMARY:Mit Oma und Opa ins Museum: Vom Geschichten erzählen und Bilder ge
+ stalten
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/mit-oma-opa-ins-muse
+ um-die-scholle-entdecken/
+URL:https://dachauer-galerien-museen.de/events/mit-oma-opa-ins-museum-die-s
+ cholle-entdecken/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20261114-museum-und-apotheke@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T140000
+DTEND;TZID=Europe/Berlin:20261114T160000
+SUMMARY:Museum und … Apotheke
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/museum-und-apotheke/
+URL:https://dachauer-galerien-museen.de/events/museum-und-apotheke/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20261115-ausstellungsfuehrung-ansichten-aussichten@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Ausstellungsführung: Ansichten & Aussichten
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/ausstellungsfuehrung
+ -ansichten-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenst
+ lerkolonie-dachau/
+URL:https://dachauer-galerien-museen.de/events/ausstellungsfuehrung-ansicht
+ en-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenstlerkolon
+ ie-dachau/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20261119-abendfuehrung-mit-kuratorin-sinne-zur-kultur
+ geschi@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T190000
+DTEND;TZID=Europe/Berlin:20261119T210000
+SUMMARY:Abendführung mit Kuratorin „Sinne – Zur Kulturgeschichte unser
+ er Wahrnehmung“
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 14 € inkl. Eintritt
+ \, Führung und Drink\nQuelle (bitte vor dem Besuch prüfen): https://dach
+ auer-galerien-museen.de/events/abendfuehrung-mit-kuratorin-sinne-zur-kultu
+ rgeschichte-unserer-wahrnehmung-2/
+URL:https://dachauer-galerien-museen.de/events/abendfuehrung-mit-kuratorin-
+ sinne-zur-kulturgeschichte-unserer-wahrnehmung-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20261129-sonntagsfuehrung-sinne-zur-kulturgeschichte-
+ unsere@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T140000
+DTEND;TZID=Europe/Berlin:20261129T160000
+SUMMARY:Sonntagsführung „Sinne – Zur Kulturgeschichte unserer Wahrnehm
+ ung“
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/sonntagsfuehrung-sin
+ ne-zur-kulturgeschichte-unserer-wahrnehmung-5/
+URL:https://dachauer-galerien-museen.de/events/sonntagsfuehrung-sinne-zur-k
+ ulturgeschichte-unserer-wahrnehmung-5/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20261203-abendfuehrung-mit-der-kuratorin-dr-jutta-m
+ annes-ku@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T190000
+DTEND;TZID=Europe/Berlin:20261203T210000
+SUMMARY:Abendführung mit der Kuratorin Dr. Jutta Mannes: „Kunst braucht 
+ Luft!“
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/abendfuehrung-mit-de
+ r-kuratorin-dr-jutta-mannes-kunst-braucht-luft/
+URL:https://dachauer-galerien-museen.de/events/abendfuehrung-mit-der-kurato
+ rin-dr-jutta-mannes-kunst-braucht-luft/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20261210-mit-oma-und-opa-ins-museum-weihnachtswerksta
+ tt-pss@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T160000
+DTEND;TZID=Europe/Berlin:20261210T180000
+SUMMARY:Mit Oma und Opa ins Museum: Weihnachtswerkstatt – Pssst! Streng g
+ eheim
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-
+ museum-weihnachtswerkstatt/
+URL:https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-museum-w
+ eihnachtswerkstatt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20261213-ausstellungsfuehrung-ansichten-aussichten@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T140000
+DTEND;TZID=Europe/Berlin:20261213T160000
+SUMMARY:Ausstellungsführung: Ansichten & Aussichten
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/ausstellungsfuehrung
+ -ansichten-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenst
+ lerkolonie-dachau-2/
+URL:https://dachauer-galerien-museen.de/events/ausstellungsfuehrung-ansicht
+ en-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenstlerkolon
+ ie-dachau-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20261226-feiertagsfuehrung-sinne-zur-kulturgeschichte
+ -unser@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T140000
+DTEND;TZID=Europe/Berlin:20261226T160000
+SUMMARY:Feiertagsführung „Sinne – Zur Kulturgeschichte unserer Wahrneh
+ mung“
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/feiertagsfuehrung-si
+ nne-zur-kulturgeschichte-unserer-wahrnehmung/
+URL:https://dachauer-galerien-museen.de/events/feiertagsfuehrung-sinne-zur-
+ kulturgeschichte-unserer-wahrnehmung/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20261226-ausstellungsfuehrung-kunst-braucht-luft@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T140000
+DTEND;TZID=Europe/Berlin:20261226T160000
+SUMMARY:Ausstellungsführung: „Kunst braucht Luft!“
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/ausstellungsfuehrung
+ -kunst-braucht-luft-3/
+URL:https://dachauer-galerien-museen.de/events/ausstellungsfuehrung-kunst-b
+ raucht-luft-3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20261229-familienfuehrung-zu-den-raunaechten-mit-absc
+ hliess@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T160000
+DTEND;TZID=Europe/Berlin:20261229T180000
+SUMMARY:Familienführung zu den Raunächten mit abschließendem Räuchern
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/familienfuehrung-zu-
+ den-raunaechten-mit-abschliessendem-raeuchern/
+URL:https://dachauer-galerien-museen.de/events/familienfuehrung-zu-den-raun
+ aechten-mit-abschliessendem-raeuchern/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20270106-feiertagsfuehrung-sinne-zur-kulturgeschichte
+ -unser@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T140000
+DTEND;TZID=Europe/Berlin:20270106T160000
+SUMMARY:Feiertagsführung „Sinne – Zur Kulturgeschichte unserer Wahrneh
+ mung“
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/feiertagsfuehrung-si
+ nne-zur-kulturgeschichte-unserer-wahrnehmung-3/
+URL:https://dachauer-galerien-museen.de/events/feiertagsfuehrung-sinne-zur-
+ kulturgeschichte-unserer-wahrnehmung-3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20270106-ausstellungsfuehrung-kunst-braucht-luft@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T140000
+DTEND;TZID=Europe/Berlin:20270106T160000
+SUMMARY:Ausstellungsführung: „Kunst braucht Luft!“
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/ausstellungsfuehrung
+ -kunst-braucht-luft-4/
+URL:https://dachauer-galerien-museen.de/events/ausstellungsfuehrung-kunst-b
+ raucht-luft-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20270114-mit-oma-und-opa-ins-museum-komm-mit-ins-reic
+ h-der@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T160000
+DTEND;TZID=Europe/Berlin:20270114T180000
+SUMMARY:Mit Oma und Opa ins Museum: Komm mit ins Reich der Sinne
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-
+ museum-komm-mit-ins-reich-der-sinne/
+URL:https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-museum-k
+ omm-mit-ins-reich-der-sinne/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20270114-abendfuehrung-mit-der-kuratorin-ansichten-
+ aussicht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T190000
+DTEND;TZID=Europe/Berlin:20270114T210000
+SUMMARY:Abendführung mit der Kuratorin: Ansichten & Aussichten
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/abendfuehrung-mit-de
+ r-kuratorin-ansichten-aussichten-zeitgenoessische-reaktionen-auf-die-werke
+ -der-kuenstlerkolonie-dachau/
+URL:https://dachauer-galerien-museen.de/events/abendfuehrung-mit-der-kurato
+ rin-ansichten-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kue
+ nstlerkolonie-dachau/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20270130-mindful-art-connections-achtsame-fotografie-
+ reflex@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T160000
+DTEND;TZID=Europe/Berlin:20270130T180000
+SUMMARY:Mindful Art Connections: Achtsame Fotografie – Reflexionsreise zu
+ m Sehen
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/mindful-art-connecti
+ ons-achtsame-fotografie-reflexionsreise-zum-sehen/
+URL:https://dachauer-galerien-museen.de/events/mindful-art-connections-acht
+ same-fotografie-reflexionsreise-zum-sehen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20270131-ausstellungsfuehrung-ansichten-aussichten@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T140000
+DTEND;TZID=Europe/Berlin:20270131T160000
+SUMMARY:Ausstellungsführung: Ansichten & Aussichten
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/ausstellungsfuehrung
+ -ansichten-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenst
+ lerkolonie-dachau-3/
+URL:https://dachauer-galerien-museen.de/events/ausstellungsfuehrung-ansicht
+ en-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenstlerkolon
+ ie-dachau-3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20270218-mit-oma-und-opa-ins-museum-komm-mit-auf-ei
+ ne-zeitr@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T160000
+DTEND;TZID=Europe/Berlin:20270218T180000
+SUMMARY:Mit Oma und Opa ins Museum: Komm mit auf eine Zeitreise
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-
+ museum-zeitreise/
+URL:https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-museum-z
+ eitreise/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20270220-museum-und-candisserie@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T140000
+DTEND;TZID=Europe/Berlin:20270220T160000
+SUMMARY:Museum und … Candisserie
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/museum-und/
+URL:https://dachauer-galerien-museen.de/events/museum-und/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20270228-fuehrung-am-letzten-ausstellungstag-sinne-zu
+ r-kult@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T140000
+DTEND;TZID=Europe/Berlin:20270228T160000
+SUMMARY:Führung am letzten Ausstellungstag „Sinne – Zur Kulturgeschich
+ te unserer Wahrnehmung“
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/feiertagsfuehrung-si
+ nne-zur-kulturgeschichte-unserer-wahrnehmung-2/
+URL:https://dachauer-galerien-museen.de/events/feiertagsfuehrung-sinne-zur-
+ kulturgeschichte-unserer-wahrnehmung-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20270307-ausstellungsfuehrung-ansichten-aussichten@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T140000
+DTEND;TZID=Europe/Berlin:20270307T160000
+SUMMARY:Ausstellungsführung: Ansichten & Aussichten
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/ausstellungsfuehrung
+ -ansichten-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenst
+ lerkolonie-dachau-4/
+URL:https://dachauer-galerien-museen.de/events/ausstellungsfuehrung-ansicht
+ en-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenstlerkolon
+ ie-dachau-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-bezirksmuseum-20270311-mit-oma-und-opa-ins-museum-auf-den-spuren-un
+ serer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T160000
+DTEND;TZID=Europe/Berlin:20270311T180000
+SUMMARY:Mit Oma und Opa ins Museum: Auf den Spuren unserer Kleidung. Tracht
+  früher und heute
+LOCATION:Bezirksmuseum Dachau\, Augsburger Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-
+ museum-tracht/
+URL:https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-museum-t
+ racht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20270404-ausstellungsfuehrung-ansichten-aussichten@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T140000
+DTEND;TZID=Europe/Berlin:20270404T160000
+SUMMARY:Ausstellungsführung: Ansichten & Aussichten
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/ausstellungsfuehrung
+ -ansichten-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenst
+ lerkolonie-dachau-5/
+URL:https://dachauer-galerien-museen.de/events/ausstellungsfuehrung-ansicht
+ en-aussichten-zeitgenoessische-reaktionen-auf-die-werke-der-kuenstlerkolon
+ ie-dachau-5/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dah-gemaeldegalerie-20270408-mit-oma-und-opa-ins-museum-zeit-fuer-maerc
+ hen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270408T160000
+DTEND;TZID=Europe/Berlin:20270408T180000
+SUMMARY:Mit Oma und Opa ins Museum: Zeit für Märchen …
+LOCATION:Gemäldegalerie Dachau\, Konrad-Adenauer-Str. 3\, 85221 Dachau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-
+ museum-geschichten/
+URL:https://dachauer-galerien-museen.de/events/mit-oma-und-opa-ins-museum-g
+ eschichten/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

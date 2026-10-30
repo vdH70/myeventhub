@@ -10,6 +10,232 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rs-deutsches-roentgen-museum-20261026-ferienkurs-durchleuchtet-und-entd
+ eckt-roentgenstra-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Beginn: Ferienkurs: Durchleuchtet und entdeckt! Röntgenstrahlen im
+  Rampenlicht
+LOCATION:Deutsches Röntgen-Museum\, Schwelmer Str. 41\, 42897 Remscheid
+DESCRIPTION:Laufzeit: 26.10.2026 bis 30.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://roentgenmuseum.de/drm-events/
+URL:https://roentgenmuseum.de/drm-events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-deutsches-roentgen-museum-20261026-ferienkurs-durchleuchtet-und-entd
+ eckt-roentgenstra-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Letzter Tag: Ferienkurs: Durchleuchtet und entdeckt! Röntgenstrahl
+ en im Rampenlicht
+LOCATION:Deutsches Röntgen-Museum\, Schwelmer Str. 41\, 42897 Remscheid
+DESCRIPTION:Laufzeit: 26.10.2026 bis 30.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://roentgenmuseum.de/drm-events/
+URL:https://roentgenmuseum.de/drm-events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-deutsches-roentgen-museum-20261101-offenes-geburtshaus-w-c-roentgen@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T100000
+DTEND;TZID=Europe/Berlin:20261101T120000
+SUMMARY:Offenes Geburtshaus W.C. Röntgen
+LOCATION:Deutsches Röntgen-Museum\, Schwelmer Str. 41\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://roentgenmuseum.de/drm-events/
+URL:https://roentgenmuseum.de/drm-events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-deutsches-roentgen-museum-20261101-x-club-rundgang-von-kindern-fuer-
+ kinder@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:X-Club-Rundgang: Von Kindern für Kinder
+LOCATION:Deutsches Röntgen-Museum\, Schwelmer Str. 41\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://roentgenmuseum.de/drm-events/
+URL:https://roentgenmuseum.de/drm-events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-deutsches-roentgen-museum-20261101-sonntagstour-im-museum@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Sonntagstour im Museum
+LOCATION:Deutsches Röntgen-Museum\, Schwelmer Str. 41\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://roentgenmuseum.de/drm-events/
+URL:https://roentgenmuseum.de/drm-events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-teo-otto-theater-20261101-miss-daisy-und-ihr-chauffeur@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Miss Daisy und ihr Chauffeur
+LOCATION:Teo Otto Theater\, Konrad-Adenauer-Straße 31-33\, 42853 Remscheid
+DESCRIPTION:Gastspiel des Tournee-Theaters Thespiskarren.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.teo-
+ otto-theater.de/programm/
+URL:https://www.teo-otto-theater.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-teo-otto-theater-20261104-3-philharmonisches-konzert@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:3. Philharmonisches Konzert
+LOCATION:Teo Otto Theater\, Konrad-Adenauer-Straße 31-33\, 42853 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.teo-otto-theater.de/programm/
+URL:https://www.teo-otto-theater.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-teo-otto-theater-20261105-klangkosmos-nrw-duo-lavoa-lapo-frankreich@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Klangkosmos NRW · Duò Lavoà Lapò (Frankreich)
+LOCATION:Teo Otto Theater\, Konrad-Adenauer-Straße 31-33\, 42853 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.teo-otto-theater.de/programm/
+URL:https://www.teo-otto-theater.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261106-die-kulturtechniker-der-fall-de
+ s-hauses-ascher@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Die Kulturtechniker: Der Fall des Hauses Ascher
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261108-rene-steinberg-rebellion-und-tr
+ allafitti@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:René Steinberg: Rebellion und Trallafitti
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261112-ray-wilson-band-genesis-classic
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Ray Wilson & Band: Genesis Classic
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261114-comedyflash-die-stand-up-comedy
+ -show@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Comedyflash – Die Stand Up Comedy Show
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261115-weltklassik-am-klavier-istvan-l
+ ajko@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Weltklassik am Klavier! István Lajkó
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261119-lioba-albus-ende-offen@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Lioba Albus: Ende offen
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261122-nadia-singer-george-gershwin-th
+ e-wonderboy@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Nadia Singer: George Gershwin – The Wonderboy
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261126-andercovertones-live-in-concert
+ @myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:AnderCoverTones – Live in Concert
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:rs-deutsches-werkzeugmuseum-20261129-weihnachtsbasar-2026@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -21,6 +247,175 @@ LOCATION:Deutsches Werkzeugmuseum und Haus Cleff (Historisches Zentrum Rems
 DESCRIPTION:Aktionstag im Haus Cleff.\nQuelle (bitte vor dem Besuch prüfen
  ): https://historisches-zentrum-remscheid.de/angebote-vor-ort/
 URL:https://historisches-zentrum-remscheid.de/angebote-vor-ort/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261202-robert-griess-die-schlachtplatt
+ e-die-jahresendabre@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Robert Griess: Die Schlachtplatte – Die Jahresendabrechnung 2026
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261203-olaf-bossi-generation-xy@myeven
+ thub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Olaf Bossi: Generation XY
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261206-wodo-puppenspiel-conni-kommt-we
+ ihnachtlich@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T153000
+DTEND;TZID=Europe/Berlin:20261206T173000
+SUMMARY:WoDo Puppenspiel: Conni kommt weihnachtlich
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261210-das-mitsingding-alle-singen-hit
+ s-weihnachts-specia@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Das MitSingDing: Alle singen Hits – Weihnachts-Special
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261212-comedyflash-die-stand-up-comedy
+ -show@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Comedyflash – Die Stand Up Comedy Show
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261213-springmaus-improvisationstheate
+ r-merry-christmaus@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T180000
+DTEND;TZID=Europe/Berlin:20261213T200000
+SUMMARY:Springmaus Improvisationstheater: Merry Christmaus
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261217-thomas-freitag-rueckzug-ueber-d
+ ie-minen-der-ebene@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:Thomas Freitag: Rückzug über die Minen der Ebene
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261219-heiter-rieselt-der-tod-weihnach
+ tskrimidinner@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:Heiter rieselt der Tod – Weihnachtskrimidinner
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261220-weltklassik-am-klavier-ruben-ru
+ sso@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T170000
+DTEND;TZID=Europe/Berlin:20261220T190000
+SUMMARY:Weltklassik am Klavier! Rubén Russo
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261222-jim-rockford-band-soul-shake-pa
+ rty-christmas-speci@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T200000
+DTEND;TZID=Europe/Berlin:20261222T220000
+SUMMARY:Jim Rockford Band: Soul Shake Party Christmas Special 2026
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20261223-jim-rockford-band-soul-shake-pa
+ rty-christmas-speci@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T200000
+DTEND;TZID=Europe/Berlin:20261223T220000
+SUMMARY:Jim Rockford Band: Soul Shake Party Christmas Special 2026
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20270108-doc-esser-band-ein-doc-fuer-all
+ e-faelle@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Doc Esser & Band: Ein Doc für alle Fälle
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rs-kulturzentrum-klosterkirche-20270115-5-kleine-jaegermeister@myeventh
+ ub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:5 kleine Jägermeister
+LOCATION:Kulturzentrum Klosterkirche\, Klostergasse 8\, 42897 Remscheid
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.klosterkirche-lennep.de/spielplan-tickets/
+URL:https://www.klosterkirche-lennep.de/spielplan-tickets/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
