@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:pi-ernst-barlach-museum-wedel-20261025-janosch-die-erfindung-der-freund
  schaft-beginn@myeventhub.de
@@ -36,6 +53,59 @@ DESCRIPTION:Laufzeit: 25.10.2026 bis 4.4.2027\nPreis: 12 €\, erm. 10 €\
  , Kinder unter 1 m frei\, Kinder ab 1 m 5 €\, Familie 30 €\nQuelle (bi
  tte vor dem Besuch prüfen): https://www.ernst-barlach.de/
 URL:https://www.ernst-barlach.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadtbuecherei-wedel-20261030-vorlesestunde@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T160000
+DTEND;TZID=Europe/Berlin:20261030T180000
+SUMMARY:Vorlesestunde
+LOCATION:Stadtbücherei Wedel\, 22880 Wedel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-
+ bildung
+URL:https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-bildung
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadtbuecherei-wedel-20261030-taschenlampen-fuehrung-durch-die-buech
+ erei@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T183000
+DTEND;TZID=Europe/Berlin:20261030T203000
+SUMMARY:Taschenlampen-Führung durch die Bücherei
+LOCATION:Stadtbücherei Wedel\, 22880 Wedel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-
+ bildung
+URL:https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-bildung
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadtbuecherei-wedel-20261103-vorlesestunde@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T160000
+DTEND;TZID=Europe/Berlin:20261103T180000
+SUMMARY:Vorlesestunde
+LOCATION:Stadtbücherei Wedel\, 22880 Wedel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-
+ bildung
+URL:https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-bildung
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadtbuecherei-wedel-20261106-vorlesestunde@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T160000
+DTEND;TZID=Europe/Berlin:20261106T180000
+SUMMARY:Vorlesestunde
+LOCATION:Stadtbücherei Wedel\, 22880 Wedel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-
+ bildung
+URL:https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-bildung
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

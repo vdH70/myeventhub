@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:bb-galerie-sindelfingen-20250629-denke-frei-schaffe-neu-die-sammlung-im
  -blick-ende@myeventhub.de
@@ -21,6 +38,110 @@ LOCATION:Galerie Stadt Sindelfingen\, Marktplatz 1\, 71063 Sindelfingen
 DESCRIPTION:Laufzeit: 29.6.2025 bis 25.4.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.galerie-sindelfingen.de/
 URL:https://www.galerie-sindelfingen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadthalle-sindelfingen-20261107-le-sacre-du-printemps@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Le Sacre du Printemps
+LOCATION:Stadthalle Sindelfingen\, Schillerstraße 23\, 71065 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cc-bs.com/start/events_tickets.html
+URL:https://www.cc-bs.com/start/events_tickets.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadthalle-sindelfingen-20261113-15-jahre-markus-krebs-das-beste-aus
+ -6-live-program@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:15 Jahre Markus Krebs – Das Beste aus 6 Live-Programmen
+LOCATION:Stadthalle Sindelfingen\, Schillerstraße 23\, 71065 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cc-bs.com/start/events_tickets.html
+URL:https://www.cc-bs.com/start/events_tickets.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadthalle-sindelfingen-20261212-addnfahrer-lausbuam-gschicht-n@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Addnfahrer – Lausbuam Gschicht'n
+LOCATION:Stadthalle Sindelfingen\, Schillerstraße 23\, 71065 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cc-bs.com/start/events_tickets.html
+URL:https://www.cc-bs.com/start/events_tickets.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadthalle-sindelfingen-20261220-38-weihnachtskonzert-der-stadtkapel
+ le-sindelfingen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T180000
+DTEND;TZID=Europe/Berlin:20261220T200000
+SUMMARY:38. Weihnachtskonzert der Stadtkapelle Sindelfingen – mit MVS Big
+  Band
+LOCATION:Stadthalle Sindelfingen\, Schillerstraße 23\, 71065 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cc-bs.com/start/events_tickets.html
+URL:https://www.cc-bs.com/start/events_tickets.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadthalle-sindelfingen-20261229-der-nussknacker-ballett-in-2-akten@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T190000
+DTEND;TZID=Europe/Berlin:20261229T210000
+SUMMARY:Der Nussknacker – Ballett in 2 Akten
+LOCATION:Stadthalle Sindelfingen\, Schillerstraße 23\, 71065 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cc-bs.com/start/events_tickets.html
+URL:https://www.cc-bs.com/start/events_tickets.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadthalle-sindelfingen-20270108-festival-der-illusionen-2027-die-gr
+ osse-zaubergala@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Festival der Illusionen 2027 – Die große Zaubergala
+LOCATION:Stadthalle Sindelfingen\, Schillerstraße 23\, 71065 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cc-bs.com/start/events_tickets.html
+URL:https://www.cc-bs.com/start/events_tickets.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadthalle-sindelfingen-20270109-festival-der-illusionen-2027-die-gr
+ osse-zaubergala@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Festival der Illusionen 2027 – Die große Zaubergala
+LOCATION:Stadthalle Sindelfingen\, Schillerstraße 23\, 71065 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cc-bs.com/start/events_tickets.html
+URL:https://www.cc-bs.com/start/events_tickets.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadthalle-sindelfingen-20270110-festival-der-illusionen-2027-die-gr
+ osse-zaubergala@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T150000
+DTEND;TZID=Europe/Berlin:20270110T170000
+SUMMARY:Festival der Illusionen 2027 – Die große Zaubergala
+LOCATION:Stadthalle Sindelfingen\, Schillerstraße 23\, 71065 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.cc-bs.com/start/events_tickets.html
+URL:https://www.cc-bs.com/start/events_tickets.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
