@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:gf-stadthalle-20261101-nils-holgerssons-reise-durch-europa-kinderoper@m
  yeventhub.de
@@ -21,6 +38,119 @@ LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
 DESCRIPTION:Zwei Vorstellungen am Nachmittag.\nQuelle (bitte vor dem Besuch
   prüfen): https://www.stadthalle-gifhorn.de/programm
 URL:https://www.stadthalle-gifhorn.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20261108-die-drei-kleinen-schweinchen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T143000
+DTEND;TZID=Europe/Berlin:20261108T163000
+SUMMARY:Die drei kleinen Schweinchen
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Familienstück mit Musik ab 4 Jahren\, Studiobühne.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.stadthalle-gifhorn.de/veranstaltungs-details/die-drei-kleinen-schweinch
+ en
+URL:https://www.stadthalle-gifhorn.de/veranstaltungs-details/die-drei-klein
+ en-schweinchen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20261213-pinocchio@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T143000
+DTEND;TZID=Europe/Berlin:20261213T163000
+SUMMARY:Pinocchio
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Familienstück\, Theatersaal.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.stadthalle-gifhorn.d
+ e/veranstaltungs-details/pinocchio
+URL:https://www.stadthalle-gifhorn.de/veranstaltungs-details/pinocchio
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20270117-ein-schaf-fuers-leben@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Ein Schaf fürs Leben
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Kindertheater\, Studiobühne.\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.stadthalle-gifhorn.de/veranstaltungs-details/ein-schaf
+ -fuers-leben
+URL:https://www.stadthalle-gifhorn.de/veranstaltungs-details/ein-schaf-fuer
+ s-leben
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20270207-pippi-auf-den-sieben-meeren@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T163000
+DTEND;TZID=Europe/Berlin:20270207T183000
+SUMMARY:Pippi auf den sieben Meeren
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Studiobühne\; Vorstellung 14:30 Uhr ausverkauft.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ stadthalle-gifhorn.de/veranstaltungs-details/pippi-auf-den-sieben-meeren-1
+ 630
+URL:https://www.stadthalle-gifhorn.de/veranstaltungs-details/pippi-auf-den-
+ sieben-meeren-1630
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20270221-frau-holle@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Frau Holle
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Puppentheater\, Studiobühne.\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.stadthalle-gifhorn.de/veranstaltungs-details/frau-holl
+ e
+URL:https://www.stadthalle-gifhorn.de/veranstaltungs-details/frau-holle
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20270224-die-schluempfe-das-musical@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:Die Schlümpfe – Das Musical
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Theatersaal.\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.stadthalle-gifhorn.de/veranstaltungs-details/die-schluempfe-das-musical-
+ 1
+URL:https://www.stadthalle-gifhorn.de/veranstaltungs-details/die-schluempfe
+ -das-musical-1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20270314-paula-und-die-leichtigkeit-des-seins@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T143000
+DTEND;TZID=Europe/Berlin:20270314T163000
+SUMMARY:Paula und die Leichtigkeit des Seins
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Studiobühne\; weitere Vorstellung 16:30 Uhr.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.stad
+ thalle-gifhorn.de/veranstaltungs-details/paula-und-die-leichtigkeit-des-se
+ ins-1430
+URL:https://www.stadthalle-gifhorn.de/veranstaltungs-details/paula-und-die-
+ leichtigkeit-des-seins-1430
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gf-stadthalle-20270502-die-drei-kids-zirkus-der-raetsel@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Die drei ??? Kids – „Zirkus der Rätsel“
+LOCATION:Stadthalle Gifhorn\, Schützenplatz 2\, 38518 Gifhorn
+DESCRIPTION:Theatersaal.\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.stadthalle-gifhorn.de/veranstaltungs-details/die-drei-fragezeichen-kids
+URL:https://www.stadthalle-gifhorn.de/veranstaltungs-details/die-drei-frage
+ zeichen-kids
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
