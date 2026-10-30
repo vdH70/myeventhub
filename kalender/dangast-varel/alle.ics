@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:fri-franz-radziwill-haus-20260329-himmel-und-meer-radziwills-seestuecke
  -ende@myeventhub.de
@@ -21,6 +38,74 @@ LOCATION:Franz Radziwill Haus\, Sielstr. 3\, 26316 Dangast (Varel)
 DESCRIPTION:Laufzeit: 29.3.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://franz.radziwill.de/
 URL:https://franz.radziwill.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fri-weltnaturerbeportal-dangast-20261031-bilderausstellung-ueber-den-we
+ llen-unter-dem-himme@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T100000
+DTEND;TZID=Europe/Berlin:20261031T120000
+SUMMARY:Bilderausstellung „Über den Wellen\, unter dem Himmel“
+LOCATION:Weltnaturerbeportal Dangast\, Edo-Wiemken-Str. 61\, 26316 Dangast 
+ (Varel)
+DESCRIPTION:Maritime Bilder von Sergej Kirik\; Veranstalter Stadt Varel.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.varel.de/regional/veranstaltungen/bilderausstellung-ueber-den-w
+ ellen-unter-dem-himmel-909391654-20860.html
+URL:https://www.varel.de/regional/veranstaltungen/bilderausstellung-ueber-d
+ en-wellen-unter-dem-himmel-909391654-20860.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fri-weltnaturerbeportal-dangast-20261103-bilderausstellung-ueber-den-we
+ llen-unter-dem-himme@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T100000
+DTEND;TZID=Europe/Berlin:20261103T120000
+SUMMARY:Bilderausstellung „Über den Wellen\, unter dem Himmel“
+LOCATION:Weltnaturerbeportal Dangast\, Edo-Wiemken-Str. 61\, 26316 Dangast 
+ (Varel)
+DESCRIPTION:Maritime Bilder von Sergej Kirik\; Veranstalter Stadt Varel.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.varel.de/regional/veranstaltungen/bilderausstellung-ueber-den-w
+ ellen-unter-dem-himmel-909391655-20860.html
+URL:https://www.varel.de/regional/veranstaltungen/bilderausstellung-ueber-d
+ en-wellen-unter-dem-himmel-909391655-20860.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fri-weltnaturerbeportal-dangast-20261105-bilderausstellung-ueber-den-we
+ llen-unter-dem-himme@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T100000
+DTEND;TZID=Europe/Berlin:20261105T120000
+SUMMARY:Bilderausstellung „Über den Wellen\, unter dem Himmel“
+LOCATION:Weltnaturerbeportal Dangast\, Edo-Wiemken-Str. 61\, 26316 Dangast 
+ (Varel)
+DESCRIPTION:Maritime Bilder von Sergej Kirik\; Veranstalter Stadt Varel.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.varel.de/regional/veranstaltungen/bilderausstellung-ueber-den-w
+ ellen-unter-dem-himmel-909391656-20860.html
+URL:https://www.varel.de/regional/veranstaltungen/bilderausstellung-ueber-d
+ en-wellen-unter-dem-himmel-909391656-20860.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fri-weltnaturerbeportal-dangast-20261107-bilderausstellung-ueber-den-we
+ llen-unter-dem-himme@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T100000
+DTEND;TZID=Europe/Berlin:20261107T120000
+SUMMARY:Bilderausstellung „Über den Wellen\, unter dem Himmel“
+LOCATION:Weltnaturerbeportal Dangast\, Edo-Wiemken-Str. 61\, 26316 Dangast 
+ (Varel)
+DESCRIPTION:Maritime Bilder von Sergej Kirik\; Veranstalter Stadt Varel.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.varel.de/regional/veranstaltungen/bilderausstellung-ueber-den-w
+ ellen-unter-dem-himmel-909391657-20860.html
+URL:https://www.varel.de/regional/veranstaltungen/bilderausstellung-ueber-d
+ en-wellen-unter-dem-himmel-909391657-20860.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
