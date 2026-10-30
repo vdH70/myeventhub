@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:nf-sylt-museum-20260926-creatures-david-batchelder-ende@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -37,34 +20,6 @@ LOCATION:Sylt Museum\, Am Kliff 19\, 25980 Sylt
 DESCRIPTION:Laufzeit: 26.9.2026 bis 25.4.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://soelring-museen.de/
 URL:https://soelring-museen.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:nf-altfriesisches-haus-keitum-20261028-museumsgefluester-maerchen-zu-hi
- storischen-objekte@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261028T190000
-DTEND;TZID=Europe/Berlin:20261028T210000
-SUMMARY:Museumsgeflüster: Märchen zu historischen Objekten
-LOCATION:Altfriesisches Haus\, Am Kliff 13\, 25980 Sylt
-DESCRIPTION:Märchenabend zu historischen Objekten\, Benefiz für die Resta
- urierung.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://soelring-museen.de/termine
-URL:https://soelring-museen.de/termine
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:nf-altfriesisches-haus-keitum-20261029-museumsgefluester-maerchen-zu-hi
- storischen-objekte@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261029T190000
-DTEND;TZID=Europe/Berlin:20261029T210000
-SUMMARY:Museumsgeflüster: Märchen zu historischen Objekten
-LOCATION:Altfriesisches Haus\, Am Kliff 13\, 25980 Sylt
-DESCRIPTION:Märchenabend zu historischen Objekten\, Benefiz für die Resta
- urierung.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://soelring-museen.de/termine
-URL:https://soelring-museen.de/termine
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

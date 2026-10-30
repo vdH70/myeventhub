@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:m-lenbachhaus-20260310-ueber-die-welt-hinaus-der-blaue-reiter-ende@myev
  enthub.de
@@ -67,18 +50,6 @@ URL:https://www.hausderkunst.de/eintauchen/maria-vmier
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:m-haus-der-kunst-20260717-museo-aero-solar-ende@myeventhub.de
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:Letzter Tag: Museo Aero Solar
-LOCATION:Haus der Kunst\, München
-DESCRIPTION:Laufzeit: 17.7.2026 bis 26.10.2026\nQuelle (bitte vor dem Besuc
- h prüfen): https://www.hausderkunst.de/eintauchen/museo-aero-solar
-URL:https://www.hausderkunst.de/eintauchen/museo-aero-solar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:m-haus-der-kunst-20260717-tomas-saraceno-in-collaboration-verwobene-wel
  ten-ende@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -89,19 +60,6 @@ LOCATION:Haus der Kunst\, München
 DESCRIPTION:Laufzeit: 17.7.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch 
  prüfen): https://www.hausderkunst.de/eintauchen/tomas-saraceno
 URL:https://www.hausderkunst.de/eintauchen/tomas-saraceno
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:m-lenbachhaus-20261026-eroeffnung-maria-jarema@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261026T190000
-DTEND;TZID=Europe/Berlin:20261026T210000
-SUMMARY:Eröffnung: Maria Jarema
-LOCATION:Städtische Galerie im Lenbachhaus und Kunstbau\, Luisenstraße 33
- \, 80333 München
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.lenbachhaus.de/besuchen/kalender
-URL:https://www.lenbachhaus.de/besuchen/kalender
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

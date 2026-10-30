@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:lev-museum-morsbroich-20260820-desire-path-wunschpfade-ende@myeventhub.
  de
@@ -78,20 +61,6 @@ LOCATION:Industriemuseum Freudenthaler Sensenhammer\, Freudenthal 68\, 5137
 DESCRIPTION:Sonderausstellung mit Arbeiten von Wolfgang Wieneritsch.\nLaufz
  eit: 2.10.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch prüfen): https
  ://www.sensenhammer.de/
-URL:https://www.sensenhammer.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:lev-sensenhammer-20261028-workshop-selber-metall-giessen-fuer-jugendlic
- he@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261028T100000
-DTEND;TZID=Europe/Berlin:20261028T120000
-SUMMARY:Workshop: Selber Metall gießen! für Jugendliche
-LOCATION:Industriemuseum Freudenthaler Sensenhammer\, Freudenthal 68\, 5137
- 5 Leverkusen
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.sensenhammer.de/
 URL:https://www.sensenhammer.de/
 TRANSP:TRANSPARENT
 END:VEVENT

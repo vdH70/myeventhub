@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:sb-moderne-galerie-20260509-anouk-kruithof-universal-tongue-ende@myeven
  thub.de
@@ -65,21 +48,6 @@ LOCATION:Saarlandmuseum – Moderne Galerie\, Saarbrücken
 DESCRIPTION:Laufzeit: 15.8.2026 bis 9.5.2027\nQuelle (bitte vor dem Besuch 
  prüfen): https://www.kulturbesitz.de/de/ausstellungen
 URL:https://www.kulturbesitz.de/de/ausstellungen
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:sb-historisches-museum-saar-20261029-salvatore-pisani-staedtebau-als-fo
- rtsetzung-der-po@myeventhub.de
-DTSTAMP:20261024T000000Z
-DTSTART;TZID=Europe/Berlin:20261029T180000
-DTEND;TZID=Europe/Berlin:20261029T200000
-SUMMARY:Salvatore Pisani: Städtebau als Fortsetzung der Politik mit andere
- n Mitteln
-LOCATION:Saarbrücker Schloss – Historisches Museum Saar\, Schlossplatz 1
- 5\, 66119 Saarbrücken
-DESCRIPTION:Vortrag.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
- dem Besuch prüfen): https://www.historisches-museum.org/Kalender
-URL:https://www.historisches-museum.org/Kalender
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

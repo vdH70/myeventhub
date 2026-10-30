@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:ma-technoseum-20260625-crime-die-technik-des-verbrechens-ende@myeventhu
  b.de
@@ -40,23 +23,6 @@ DESCRIPTION:Sonderausstellung über Technik rund um Verbrechen und Ermittlu
  ng.\nLaufzeit: 25.6.2026 bis 27.6.2027\nQuelle (bitte vor dem Besuch prüf
  en): https://www.technoseum.de/crime/
 URL:https://www.technoseum.de/crime/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ma-stadtbibliothek-dalberghaus-20261029-onilo-boardstories@myeventhub.d
- e
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261029T160000
-DTEND;TZID=Europe/Berlin:20261029T180000
-SUMMARY:Onilo Boardstories
-LOCATION:Stadtbibliothek Mannheim – Kinder- und Jugendbibliothek im Dalbe
- rghaus\, N 3\, 4\, 68161 Mannheim
-DESCRIPTION:Bilderbuchkino-Angebot für Kinder von 5 bis 8 Jahren.\nEnde: l
- aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
- /www.mannheim.de/de/bildung-staerken/stadtbibliothek/veranstaltungen/kinde
- r-und-familien
-URL:https://www.mannheim.de/de/bildung-staerken/stadtbibliothek/veranstaltu
- ngen/kinder-und-familien
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

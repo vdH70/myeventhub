@@ -10,38 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:wob-phaeno-20261029-science-talk-baeume-mit-wasserstress@myeventhub.de
-DTSTAMP:20261024T000000Z
-DTSTART;TZID=Europe/Berlin:20261029T183000
-DTEND;TZID=Europe/Berlin:20261029T203000
-SUMMARY:SCIENCE TALK Bäume mit Wasserstress?
-LOCATION:phaeno\, Willy-Brandt-Platz 1\, 38440 Wolfsburg
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenfrei\nQuelle (b
- itte vor dem Besuch prüfen): https://www.phaeno.de/veranstaltungskalender
- ?tx_ofevent_eventdetail%5Bevent%5D=345&type=1693556748&cHash=3c2033d9f78a6
- 03f0bf4c13de646b71d
-URL:https://www.phaeno.de/veranstaltungskalender?tx_ofevent_eventdetail%5Be
- vent%5D=345&type=1693556748&cHash=3c2033d9f78a603f0bf4c13de646b71d
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:wob-phaeno-20261225-weihnachtsferienprogramm-beginn@myeventhub.de
 DTSTAMP:20261011T000000Z

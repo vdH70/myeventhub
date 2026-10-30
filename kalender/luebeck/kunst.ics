@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:hl-behnhaus-draegerhaus-20261004-alfred-mahlau-festzug-1926-ende@myeven
  thub.de
@@ -81,21 +64,6 @@ LOCATION:Museum Behnhaus Drägerhaus\, Königstraße 9-11\, 23552 Lübeck
 DESCRIPTION:Laufzeit: 6.10.2026 bis 22.11.2026\nQuelle (bitte vor dem Besuc
  h prüfen): https://luebecker-museen.de/
 URL:https://luebecker-museen.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hl-museumsquartier-st-annen-20261029-family-affairs-125-jahre-buddenbro
- oks-vernissage@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261029T200000
-DTEND;TZID=Europe/Berlin:20261029T220000
-SUMMARY:Family Affairs. 125 Jahre „Buddenbrooks“ – Vernissage
-LOCATION:Museumsquartier St. Annen (St. Annen-Museum und Kunsthalle St. Ann
- en)\, St. Annen-Straße 15\, 23552 Lübeck
-DESCRIPTION:Ausstellungseröffnung des Buddenbrookhauses im St. Annen-Museu
- m.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
- n): https://buddenbrookhaus.de/programm
-URL:https://buddenbrookhaus.de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

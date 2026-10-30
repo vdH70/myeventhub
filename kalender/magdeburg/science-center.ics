@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:md-jahrtausendturm-20261016-gigantische-dinosaurier-welten-magdeburg-ur
  zeitabe-beginn@myeventhub.de
@@ -55,20 +38,6 @@ LOCATION:Jahrtausendturm im Elbauenpark\, Tessenowstraße 5a\, 39114 Magdeb
 DESCRIPTION:Laufzeit: 16.10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besu
  ch prüfen): https://www.elbauenpark.de/de/events/jahrtausendturm/
 URL:https://www.elbauenpark.de/de/events/jahrtausendturm/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:md-jahrtausendturm-20261028-ferienspass-elberexis-dinoexpedition@myeven
- thub.de
-DTSTAMP:20261021T000000Z
-DTSTART;TZID=Europe/Berlin:20261028T150000
-DTEND;TZID=Europe/Berlin:20261028T170000
-SUMMARY:Ferienspaß Elberexis-Dinoexpedition
-LOCATION:Jahrtausendturm im Elbauenpark\, Tessenowstraße 5a\, 39114 Magdeb
- urg
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.elbauenpark.de/de/events/
-URL:https://www.elbauenpark.de/de/events/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -10,37 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:li-theater-20261029-der-gute-mensch-von-sezuan@myeventhub.de
-DTSTAMP:20261024T000000Z
-DTSTART;TZID=Europe/Berlin:20261029T193000
-DTEND;TZID=Europe/Berlin:20261029T213000
-SUMMARY:Der gute Mensch von Sezuan
-LOCATION:Theater Lindau\, Fischergasse 37\, 88131 Lindau (Bodensee)
-DESCRIPTION:Inklusive Produktion der Freien Bühne München nach Brecht.\nE
- nde: laut Quelle nicht angegeben\nPreis: 16–35 €\nQuelle (bitte vor de
- m Besuch prüfen): https://kultur.lindau.de/events/der-gute-mensch-von-sez
- uan/1793302200
-URL:https://kultur.lindau.de/events/der-gute-mensch-von-sezuan/1793302200
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:li-theater-20261105-heim-spiel@myeventhub.de
 DTSTAMP:20261024T000000Z
