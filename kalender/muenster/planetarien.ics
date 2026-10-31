@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:ms-lwl-planetarium-20260710-ueberleben-zwischen-dinos-und-schuppenbaeum
  en-ende@myeventhub.de
@@ -39,20 +22,6 @@ LOCATION:LWL-Museum für Naturkunde mit Planetarium\, Sentruper Str. 285\,
 DESCRIPTION:Paläontologische Landesausstellung.\nLaufzeit: 10.7.2026 bis 5
  .9.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.lwl-naturkunde
  museum-muenster.de/de/
-URL:https://www.lwl-naturkundemuseum-muenster.de/de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ms-lwl-planetarium-20261030-ferienprogramm-das-grosse-schlaemmen@myeven
- thub.de
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=Europe/Berlin:20261030T110000
-DTEND;TZID=Europe/Berlin:20261030T130000
-SUMMARY:Ferienprogramm: Das große Schlämmen
-LOCATION:LWL-Museum für Naturkunde mit Planetarium\, Sentruper Str. 285\, 
- 48161 Münster
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.lwl-naturkundemuseum-muenster.de/de/
 URL:https://www.lwl-naturkundemuseum-muenster.de/de/
 TRANSP:TRANSPARENT
 END:VEVENT

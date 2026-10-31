@@ -10,37 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:ha-theater-hagen-20261030-soultrain-a-journey-to-the-heart@myeventhub.d
- e
-DTSTAMP:20261024T000000Z
-DTSTART;TZID=Europe/Berlin:20261030T193000
-DTEND;TZID=Europe/Berlin:20261030T213000
-SUMMARY:Soultrain - A Journey to the Heart
-LOCATION:Theater Hagen\, Elberfelder Straße 65\, 58095 Hagen
-DESCRIPTION:Musiktheater im Großen Haus.\nEnde: laut Quelle nicht angegebe
- n\nQuelle (bitte vor dem Besuch prüfen): https://www.theaterhagen.de/kale
- nder/alle-termine/
-URL:https://www.theaterhagen.de/kalender/alle-termine/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:ha-stadthalle-hagen-20261106-lisa-eckhart-ich-war-mal-wer@myeventhub.de
 DTSTAMP:20261031T000000Z

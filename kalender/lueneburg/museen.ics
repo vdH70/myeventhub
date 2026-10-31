@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:lg-museum-lueneburg-20261004-abenteuer-hanse-mit-playmobil-ende@myevent
  hub.de
@@ -38,23 +21,6 @@ LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
 DESCRIPTION:Familienausstellung mit Hanse-Dioramen aus PLAYMOBIL-Figuren.\n
  Laufzeit: 4.10.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfen): 
  https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
-URL:https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:lg-museum-lueneburg-20261006-lueneburger-zeitreise-fuehrung-durch-die-d
- auerausstellung-ende@myeventhub.de
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:Letzter Tag: Lüneburger Zeitreise – Führung durch die Dauerauss
- tellung
-LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
-DESCRIPTION:Laufzeit: 6.10.2026 bis 30.10.2026\nTermine laut Veranstalter: 
- dienstags bis freitags 15:00 Uhr (laut Oktoberprogramm\; im Eintritt entha
- lten)\nPreis: im Museumseintritt enthalten\nQuelle (bitte vor dem Besuch p
- rüfen): https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026
- /
 URL:https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -82,20 +48,6 @@ LOCATION:Halle für Kunst Lüneburg\, Reichenbachstraße 2\, 21335 Lünebur
 DESCRIPTION:Laufzeit: 18.10.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
  ch prüfen): https://www.halle-fuer-kunst.de/
 URL:https://www.halle-fuer-kunst.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:lg-museum-lueneburg-20261030-spuk-im-museum@myeventhub.de
-DTSTAMP:20261024T000000Z
-DTSTART;TZID=Europe/Berlin:20261030T170000
-DTEND;TZID=Europe/Berlin:20261030T190000
-SUMMARY:Spuk im Museum
-LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
-DESCRIPTION:Familienveranstaltung für Kinder von 6 bis 12 Jahren\, 17–20
-  Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: 6 € pro Person\nQuelle 
- (bitte vor dem Besuch prüfen): https://museumlueneburg.de/museum_luenebur
- g_programm_oktober_2026/
-URL:https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
