@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Messen in Reinbek · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:od-schloss-reinbek-20271023-reinbeker-schlosspartie-beginn@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
+SUMMARY:Beginn: Reinbeker SchlossPartie
+LOCATION:Schloss Reinbek\, Schloßstraße 5\, 21465 Reinbek
+DESCRIPTION:Verkaufsausstellung mit rund 50 Ständen zu Wohnen\, Mode\, Fre
+ izeit und Garten.\nLaufzeit: 23.10.2027 bis 24.10.2027\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.schloss-reinbek.de/de/messen-und-maerkte/
+ reinbeker-schlosspartie/
+URL:https://www.schloss-reinbek.de/de/messen-und-maerkte/reinbeker-schlossp
+ artie/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-schloss-reinbek-20271023-reinbeker-schlosspartie-ende@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+SUMMARY:Letzter Tag: Reinbeker SchlossPartie
+LOCATION:Schloss Reinbek\, Schloßstraße 5\, 21465 Reinbek
+DESCRIPTION:Verkaufsausstellung mit rund 50 Ständen zu Wohnen\, Mode\, Fre
+ izeit und Garten.\nLaufzeit: 23.10.2027 bis 24.10.2027\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.schloss-reinbek.de/de/messen-und-maerkte/
+ reinbeker-schlosspartie/
+URL:https://www.schloss-reinbek.de/de/messen-und-maerkte/reinbeker-schlossp
+ artie/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
