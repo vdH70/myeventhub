@@ -1,0 +1,76 @@
+// my Event Hub – Kalender-Abo „Erinnert werden“ (Cloudflare Worker, Thomas 31.10.2026)
+// Stellt beim Abruf ein Kalender-Abo (.ics) zusammen: nach Stadt oder PLZ-Bereich, Rubrik, Musikrichtung, Freitext
+// und Erinnerung vorab. Die Termindaten holt der Worker von www.myeventhub.de/kalender/w/ (werden bei jeder
+// Veröffentlichung neu erzeugt), er speichert nichts über die Abrufenden.
+// Aufruf: https://<worker>/abo.ics?ort=bremen | plz=28,27 & r=konzerte & g=musik-techno & q=physik & vor=1d,1w & t=Titel
+const DATA = 'https://www.myeventhub.de/kalender/w/';
+const VOR = { '1h': ['-PT1H', '1 Stunde vorher'], '3h': ['-PT3H', '3 Stunden vorher'], '1d': ['-P1D', '1 Tag vorher'], '3d': ['-P3D', '3 Tage vorher'],
+  '1w': ['-P1W', '1 Woche vorher'], '2w': ['-P2W', '2 Wochen vorher'], '4w': ['-P4W', '4 Wochen vorher'] };
+const SLUG = /^[a-z0-9-]{1,80}$/;
+const norm = t => String(t || '').toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const txt = t => String(t).replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n');
+const enc = new TextEncoder();
+function fold(line) {
+  const out = []; let cur = '', n = 0;
+  for (const ch of line) { const l = enc.encode(ch).length; if (n + l > (out.length ? 74 : 75)) { out.push(cur); cur = ''; n = 0; } cur += ch; n += l; }
+  out.push(cur); return out.join('\r\n ');
+}
+const bad = (msg, status = 400) => new Response(msg + '\n', { status, headers: { 'content-type': 'text/plain; charset=utf-8' } });
+const addDays = (iso, n) => { const d = new Date(iso + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+
+export default {
+  async fetch(request, env, ctx) {
+    if (request.method !== 'GET' && request.method !== 'HEAD') return bad('Nur GET', 405);
+    const url = new URL(request.url);
+    if (!url.pathname.endsWith('.ics')) return bad('my Event Hub – Kalender-Abos. Abos legen Sie auf https://www.myeventhub.de im Reiter „Erinnert werden“ an.', 404);
+    const cache = caches.default, key = new Request(url.toString(), { method: 'GET' });
+    const hit = await cache.match(key); if (hit) return hit;
+    const p = url.searchParams;
+    const ort = p.get('ort') || '', r = p.get('r') || 'alle', g = p.get('g') || '';
+    const plz = (p.get('plz') || '').split(',').map(x => x.trim()).filter(Boolean);
+    const words = norm(p.get('q') || '').split(/\s+/).filter(w => w.length >= 2).slice(0, 8);
+    const vor = [...new Set((p.get('vor') || '').split(',').filter(x => VOR[x]))];
+    if (ort && !SLUG.test(ort)) return bad('Ort ungültig');
+    if (!SLUG.test(r) || (g && !SLUG.test(g))) return bad('Rubrik ungültig');
+    if (plz.length > 5 || plz.some(x => !/^\d{2,5}$/.test(x))) return bad('PLZ-Bereich ungültig: 2 bis 5 Ziffern, höchstens 5 Bereiche');
+    if (!ort && !plz.length) return bad('Bitte Ort oder PLZ-Bereich angeben');
+    const files = ort ? ['s/' + ort] : [...new Set(plz.map(x => 'p/' + x.slice(0, 2)))];
+    const get = f => fetch(DATA + f, { cf: { cacheTtl: 900, cacheEverything: true } }).then(res => res.ok ? res.text() : '');
+    const metas = await Promise.all(files.map(f => get(f + '.txt')));
+    const tz = new Map(), hits = [];  // je Treffer: [Dateinummer, Datum, Anfang, Länge, Hinweis-Stelle, abgesagt]
+    metas.forEach((t, fi) => {
+      for (const line of t.split('\n')) {
+        if (!line) continue;
+        if (line.startsWith('#TZ\t')) { for (const b of line.slice(4).split('\x1fEND:VTIMEZONE')) { const m = b.match(/TZID:([^\x1f]+)/); if (m && !tz.has(m[1])) tz.set(m[1], b.replace(/^\x1f/, '') + '\x1fEND:VTIMEZONE'); } continue; }
+        const f = line.split('\t');  // PLZ, Merker, Rubriken, Musikrichtungen, Datum, Suchtext, Anfang, Länge, Hinweis-Stelle
+        if (plz.length && !plz.some(x => f[0].startsWith(x))) continue;
+        if (r !== 'alle' && !(',' + f[2] + ',').includes(',' + r + ',')) continue;
+        if (g && !(',' + f[3] + ',').includes(',' + g + ',')) continue;
+        if (words.length && !words.every(w => f[5].includes(w))) continue;
+        hits.push([fi, f[4], +f[6], +f[7], +f[8], f[1] === 'c']);
+      }
+    });
+    if (metas.every(t => !t)) return bad('Für diese Auswahl gibt es keine Daten', 404);
+    const blobs = hits.length ? await Promise.all(files.map((f, fi) => hits.some(h => h[0] === fi) ? get(f + '.ics.txt') : '')) : [];
+    const alarm = vor.map(k => 'BEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Erinnerung (' + VOR[k][1] + ')\r\nTRIGGER:' + VOR[k][0] + '\r\nEND:VALARM\r\n').join('');
+    const vevents = hits.map(([fi, d, a, len, tp, canc]) => {
+      const bl = blobs[fi];
+      return [d, alarm && !canc ? bl.slice(a, a + tp) + alarm + bl.slice(a + tp, a + len) : bl.slice(a, a + len), len + (canc ? 0 : alarm.length)];
+    });
+    // sehr große Abos auf die nächsten 180/120/90 Tage begrenzen, damit Kalender-Apps sie sicher laden
+    const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Berlin' }).format(new Date());
+    let list = vevents, size = list.reduce((a, x) => a + x[2], 0);
+    for (const d of [180, 120, 90]) { if (size <= 1e6) break; const lim = addDays(today, d); list = vevents.filter(x => x[0] <= lim); size = list.reduce((a, x) => a + x[2], 0); }
+    const title = (p.get('t') || 'my Event Hub').replace(/[\x00-\x1f\x7f]/g, ' ').slice(0, 120);
+    const usedTz = [...tz.keys()];  // VTIMEZONE der Datei(en), wenige Zeilen
+    const body = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//my Event Hub//Erinnert werden//DE', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+      fold('X-WR-CALNAME:' + txt(title)),
+      fold('X-WR-CALDESC:' + txt('Termine von https://www.myeventhub.de, direkt von den Seiten der Veranstalter und Spielstätten. Angaben ohne Gewähr, bitte vor dem Besuch die verlinkte Quelle prüfen.')),
+      'X-WR-TIMEZONE:Europe/Berlin', 'REFRESH-INTERVAL;VALUE=DURATION:PT12H', 'X-PUBLISHED-TTL:PT12H',
+      ...usedTz.map(z => tz.get(z).replace(/\x1f/g, '\r\n'))].join('\r\n') + '\r\n' + list.map(x => x[1]).join('') + 'END:VCALENDAR\r\n';
+    const res = new Response(body, { headers: { 'content-type': 'text/calendar; charset=utf-8', 'cache-control': 'public, max-age=3600',
+      'content-disposition': 'inline; filename="my-event-hub.ics"' } });
+    ctx.waitUntil(cache.put(key, res.clone()));
+    return res;
+  },
+};
