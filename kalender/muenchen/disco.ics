@@ -10,6 +10,52 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-muffatwerk-20261030-10-jahre-blurred-vision-schlachthofbronx-elementa
+ l-wave@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T220000
+DTEND;TZID=Europe/Berlin:20261031T000000
+SUMMARY:10 Jahre Blurred Vision (Schlachthofbronx & Elemental Wave)
+LOCATION:Ampere
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muffatwerk.de/de/events/view/8214/10-jahre-blurred-
+ vision
+URL:https://www.muffatwerk.de/de/events/view/8214/10-jahre-blurred-vision
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-muffatwerk-20261031-dia-de-los-muertos-fiesta-de-cumbia-infernal-djs-
+ rupen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T220000
+DTEND;TZID=Europe/Berlin:20261101T000000
+SUMMARY:Día de los Muertos – Fiesta de Cumbia Infernal (DJs Rupen & Base
+ ba)
+LOCATION:Ampere
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muffatwerk.de/de/events/view/8254/da-a-de-los-muert
+ os
+URL:https://www.muffatwerk.de/de/events/view/8254/da-a-de-los-muertos
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:m-rote-sonne-20261106-slippy-series-doctor-mucke-energy-tape-hurts-sami
  nski@myeventhub.de
@@ -20,6 +66,20 @@ SUMMARY:slippy series: Doctor Mücke\, Energy Tape\, Hurts\, Saminski
 LOCATION:Rote Sonne\, Maximiliansplatz 5\, 80333 München
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rote-sonne.com/
 URL:https://rote-sonne.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-muffatwerk-20261107-radio-gong-u30-party-dj-flo-sailer-dj-remake-dj-h
+ yni@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T203000
+DTEND;TZID=Europe/Berlin:20261107T223000
+SUMMARY:Radio Gong Ü30 Party (DJ Flo Sailer\, DJ Remake\, DJ Hyni)
+LOCATION:Muffatwerk\, München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muffatwerk.de/de/events/view/8282/radio-gong-aoe30-
+ party
+URL:https://www.muffatwerk.de/de/events/view/8282/radio-gong-aoe30-party
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -55,6 +115,19 @@ SUMMARY:Lucid Glow: Butschi All Night Long
 LOCATION:Rote Sonne\, Maximiliansplatz 5\, 80333 München
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rote-sonne.com/
 URL:https://rote-sonne.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-muffatwerk-20261231-silvesterparty-fancy-footwork-old-but-gold-floor-
+ transg@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T220000
+DTEND;TZID=Europe/Berlin:20270101T000000
+SUMMARY:Silvesterparty (Fancy Footwork\, Old but Gold Floor\, Transglobal)
+LOCATION:Muffatwerk\, München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muffatwerk.de/de/events/view/8311
+URL:https://www.muffatwerk.de/de/events/view/8311
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

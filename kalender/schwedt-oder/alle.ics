@@ -1,0 +1,333 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Schwedt/Oder · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261030-poetry-slam-schwedt@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T193000
+DTEND;TZID=Europe/Berlin:20261030T213000
+SUMMARY:Poetry Slam Schwedt
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Poetry Slam im Hauptfoyer.\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.theater-schwedt.de/ubs/
+ page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261031-zauber-der-operette-wiener-
+ operetten-revue@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T160000
+DTEND;TZID=Europe/Berlin:20261031T180000
+SUMMARY:Zauber der Operette - Wiener Operetten Revue
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Operettenrevue mit Solisten\, Ballett und Orchester im Kleinen 
+ Saal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261101-ultimate-eagles@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Ultimate Eagles (ausverkauft)
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261106-lasst-uns-froh-und-unten-se
+ in@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Lasst uns froh und unten sein!
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Im intimen theater.\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.theater-schwedt.de/ubs/page/11
+ 0/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261107-lasst-uns-froh-und-unten-se
+ in@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T150000
+DTEND;TZID=Europe/Berlin:20261107T170000
+SUMMARY:Lasst uns froh und unten sein!
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Im intimen theater.\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.theater-schwedt.de/ubs/page/11
+ 0/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261108-linedanceparty-mit-dj-peer-
+ und-martina@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Linedanceparty mit DJ Peer und Martina
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Linedance-Party im Hauptfoyer.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-schwedt.de/
+ ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261110-des-kaisers-neue-kleider-no
+ we-szaty-cesarza@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T100000
+DTEND;TZID=Europe/Berlin:20261110T120000
+SUMMARY:Des Kaisers neue Kleider / Nowe szaty cesarza
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Premiere im Kleinen Saal.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.theater-schwedt.de/ubs/p
+ age/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261114-die-schoene-party-von-radio
+ eins-rbb@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T210000
+DTEND;TZID=Europe/Berlin:20261114T230000
+SUMMARY:Die Schöne Party von radioeins (rbb)
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Party im Hauptfoyer.\nEnde: laut Quelle nicht angegeben\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.theater-schwedt.de/ubs/page/1
+ 10/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261121-martinsmarkt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T130000
+DTEND;TZID=Europe/Berlin:20261121T150000
+SUMMARY:Martinsmarkt
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Markt im Hauptfoyer\, Foyer und Kleinen Saal\, 13-17 Uhr.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261122-florian-schroeder-schluss-j
+ etzt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T210000
+SUMMARY:Florian Schroeder - SCHLUSS JETZT!
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261124-operetten-zum-kaffee@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T150000
+DTEND;TZID=Europe/Berlin:20261124T170000
+SUMMARY:Operetten zum Kaffee
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261127-jugend-ohne-gott@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T103000
+DTEND;TZID=Europe/Berlin:20261127T123000
+SUMMARY:Jugend ohne Gott (ausverkauft)
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Premiere im intimen theater.\nEnde: laut Quelle nicht angegeben
+ \nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-
+ schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261127-weihnachtsfeiershow-2026@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:WeihnachtsfeierShow 2026
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261128-weihnachtsfeiershow-2026@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T190000
+DTEND;TZID=Europe/Berlin:20261128T210000
+SUMMARY:WeihnachtsfeierShow 2026
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261203-jugend-ohne-gott@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T193000
+DTEND;TZID=Europe/Berlin:20261203T213000
+SUMMARY:Jugend ohne Gott
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Im intimen theater.\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.theater-schwedt.de/ubs/page/11
+ 0/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261204-weihnachtsfeiershow-2026@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T190000
+DTEND;TZID=Europe/Berlin:20261204T210000
+SUMMARY:WeihnachtsfeierShow 2026
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261205-des-kaisers-neue-kleider-no
+ we-szaty-cesarza@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Des Kaisers neue Kleider / Nowe szaty cesarza
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261206-des-kaisers-neue-kleider-no
+ we-szaty-cesarza@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Des Kaisers neue Kleider / Nowe szaty cesarza
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261211-bunter-weihnachtsteller@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T150000
+DTEND;TZID=Europe/Berlin:20261211T170000
+SUMMARY:Bunter Weihnachtsteller
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261212-bunter-weihnachtsteller@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T150000
+DTEND;TZID=Europe/Berlin:20261212T170000
+SUMMARY:Bunter Weihnachtsteller
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:um-uckermaerkische-buehnen-schwedt-20261212-bunter-weihnachtsteller-193
+ 0@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:Bunter Weihnachtsteller
+LOCATION:Uckermärkische Bühnen Schwedt\, Berliner Straße 46/48\, 16303 S
+ chwedt/Oder
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-schwedt.de/ubs/page/110/all/
+URL:https://www.theater-schwedt.de/ubs/page/110/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
