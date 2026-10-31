@@ -41,7 +41,11 @@ DESCRIPTION:Abgesagt\, weil der Mindestvorverkauf nicht erreicht wurde\; Ti
  -kids-party-alte-fleischerei-muhlhausen-01-11-2026
 URL:https://www.alte-fleischerei.com/events/halloween-kids-party-alte-fleis
  cherei-muhlhausen-01-11-2026
-STATUS:CANCELLED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Halloween Kids Party am 1.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261101T110000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
