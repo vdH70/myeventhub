@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Gera · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:g-flugplatz-gera-leumnitz-20270707-dm-motorkunstflug-2027-beginn@myeven
+ thub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+SUMMARY:Beginn: DM-Motorkunstflug 2027
+LOCATION:Flugplatz Gera-Leumnitz\, Ronneburger Str. 74\, 07546 Gera
+DESCRIPTION:Deutsche Meisterschaft im Motorkunstflug.\nLaufzeit: 7.7.2027 b
+ is 11.7.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.flugplatz
+ -gera.de/veranstaltungen/
+URL:https://www.flugplatz-gera.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:g-flugplatz-gera-leumnitz-20270707-dm-motorkunstflug-2027-ende@myeventh
+ ub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:Letzter Tag: DM-Motorkunstflug 2027
+LOCATION:Flugplatz Gera-Leumnitz\, Ronneburger Str. 74\, 07546 Gera
+DESCRIPTION:Deutsche Meisterschaft im Motorkunstflug.\nLaufzeit: 7.7.2027 b
+ is 11.7.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.flugplatz
+ -gera.de/veranstaltungen/
+URL:https://www.flugplatz-gera.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:g-flugplatz-gera-leumnitz-20270812-vintage-aerobatic-world-championship
+ -2027-beginn@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:Beginn: Vintage Aerobatic World Championship 2027
+LOCATION:Flugplatz Gera-Leumnitz\, Ronneburger Str. 74\, 07546 Gera
+DESCRIPTION:Weltmeisterschaft im Kunstflug mit historischen Flugzeugen.\nLa
+ ufzeit: 12.8.2027 bis 14.8.2027\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.flugplatz-gera.de/veranstaltungen/
+URL:https://www.flugplatz-gera.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:g-flugplatz-gera-leumnitz-20270812-vintage-aerobatic-world-championship
+ -2027-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Letzter Tag: Vintage Aerobatic World Championship 2027
+LOCATION:Flugplatz Gera-Leumnitz\, Ronneburger Str. 74\, 07546 Gera
+DESCRIPTION:Weltmeisterschaft im Kunstflug mit historischen Flugzeugen.\nLa
+ ufzeit: 12.8.2027 bis 14.8.2027\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.flugplatz-gera.de/veranstaltungen/
+URL:https://www.flugplatz-gera.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Husum · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hus-marktplatz-20261116-husumer-weihnachtsmarkt-2026-beginn@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Beginn: Husumer Weihnachtsmarkt 2026
+LOCATION:Marktplatz Husum\, Husum
+DESCRIPTION:Weihnachtsmarkt rund um den Tine-Brunnen.\nLaufzeit: 16.11.2026
+  bis 27.12.2026\nTermine laut Veranstalter: nicht am 22.11. und 25.12.\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.husum-tourismus.de/Vor-Or
+ t/Veranstaltungen-Events/Husumer-Weihnachtsmarkt
+URL:https://www.husum-tourismus.de/Vor-Ort/Veranstaltungen-Events/Husumer-W
+ eihnachtsmarkt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-marktplatz-20261116-husumer-weihnachtsmarkt-2026-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Letzter Tag: Husumer Weihnachtsmarkt 2026
+LOCATION:Marktplatz Husum\, Husum
+DESCRIPTION:Weihnachtsmarkt rund um den Tine-Brunnen.\nLaufzeit: 16.11.2026
+  bis 27.12.2026\nTermine laut Veranstalter: nicht am 22.11. und 25.12.\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.husum-tourismus.de/Vor-Or
+ t/Veranstaltungen-Events/Husumer-Weihnachtsmarkt
+URL:https://www.husum-tourismus.de/Vor-Ort/Veranstaltungen-Events/Husumer-W
+ eihnachtsmarkt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-marktplatz-20270313-husumer-krokusbluetenfest-2027-geplant-beginn@m
+ yeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:Beginn: Husumer Krokusblütenfest 2027 (geplant)
+LOCATION:Marktplatz Husum\, Husum
+DESCRIPTION:Frühlingsfest zur Krokusblüte\, Eröffnung am Alten Rathaus\;
+  Termin laut Seite geplant.\nLaufzeit: 13.3.2027 bis 14.3.2027\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.husum-tourismus.de/Vor-Ort/Verans
+ taltungen-Events/Krokusbluetenfest
+URL:https://www.husum-tourismus.de/Vor-Ort/Veranstaltungen-Events/Krokusblu
+ etenfest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-marktplatz-20270313-husumer-krokusbluetenfest-2027-geplant-ende@mye
+ venthub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Letzter Tag: Husumer Krokusblütenfest 2027 (geplant)
+LOCATION:Marktplatz Husum\, Husum
+DESCRIPTION:Frühlingsfest zur Krokusblüte\, Eröffnung am Alten Rathaus\;
+  Termin laut Seite geplant.\nLaufzeit: 13.3.2027 bis 14.3.2027\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.husum-tourismus.de/Vor-Ort/Verans
+ taltungen-Events/Krokusbluetenfest
+URL:https://www.husum-tourismus.de/Vor-Ort/Veranstaltungen-Events/Krokusblu
+ etenfest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,123 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wave in Oberhausen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ob-kulttempel-20261104-veljanov@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Veljanov
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert zwischen Avantgarde und Dark Wave.\nEinlass 19:30\, Beg
+ inn 19:30 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.kulttempel.com/kkt-kalender/veljanov-2
+URL:https://www.kulttempel.com/kkt-kalender/veljanov-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261121-sitd-30th-anniversary-show@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:[:SITD:] – 30th Anniversary Show
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert mit Dark Electro\, Synthpop\, Futurepop\, Darkwave\, In
+ dustrial und EBM.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulttempe
+ l.com/kkt-kalender/sitd-30th-anniversary-show
+URL:https://www.kulttempel.com/kkt-kalender/sitd-30th-anniversary-show
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261121-resisdance-noir-aftershowparty-nach-sitd@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T230000
+DTEND;TZID=Europe/Berlin:20261122T010000
+SUMMARY:Resisdance Noir – Aftershowparty nach SITD
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Aftershowparty mit Future- und Synth-Pop\, 80s\, Darkwave und E
+ BM.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.kulttempel.com/kkt-kalender/resisdance-noir-aftershowpart
+ y-nach-sitd
+URL:https://www.kulttempel.com/kkt-kalender/resisdance-noir-aftershowparty-
+ nach-sitd
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261122-diary-of-dreams-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T210000
+SUMMARY:Diary of Dreams – Tour 2026
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert zwischen Post-Punk und Darkwave.\nEinlass 18:00\, Begin
+ n 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.kulttempel.com/kkt-kalender/diary-of-dreams-tour-
+ 2026
+URL:https://www.kulttempel.com/kkt-kalender/diary-of-dreams-tour-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261129-dark-day-disco-tanze-am-tag-schlafe-in-der-nacht
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T140000
+DTEND;TZID=Europe/Berlin:20261129T160000
+SUMMARY:Dark Day Disco – Tanze am Tag! Schlafe in der Nacht!
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Tagesparty mit Futurepop\, Gothic\, EBM\, Post-Punk\, Industria
+ l und New Wave.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.kulttempel.com/kkt-kalender/dark-day-disco-ta
+ nze-am-tag-schlafe-in-der-nacht-5
+URL:https://www.kulttempel.com/kkt-kalender/dark-day-disco-tanze-am-tag-sch
+ lafe-in-der-nacht-5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261226-night-shadow@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T220000
+DTEND;TZID=Europe/Berlin:20261227T000000
+SUMMARY:Night & Shadow
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Party mit New Wave\, Gothic\, Post-Punk und Minimal sowie Aggro
+ tech\, Dark Electro und Industrial.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.kulttempel.com/kkt-kalend
+ er/night-shadow-4
+URL:https://www.kulttempel.com/kkt-kalender/night-shadow-4
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

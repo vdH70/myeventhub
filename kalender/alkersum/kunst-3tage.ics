@@ -1,0 +1,105 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Alkersum · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nf-museum-kunst-der-westkueste-20260524-art-science-fiction-ende@myeven
+ thub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Art. Science. Fiction
+LOCATION:Museum Kunst der Westküste\, Hauptstraße 1\, 25938 Alkersum
+DESCRIPTION:Laufzeit: 24.5.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mkdw.de/
+URL:https://www.mkdw.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nf-museum-kunst-der-westkueste-20260621-moderne-trifft-kueste-kuenstler
+ ische-aufbrueche-im-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Moderne trifft Küste. Künstlerische Aufbrüche im No
+ rden
+LOCATION:Museum Kunst der Westküste\, Hauptstraße 1\, 25938 Alkersum
+DESCRIPTION:Laufzeit: 21.6.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mkdw.de/
+URL:https://www.mkdw.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nf-museum-kunst-der-westkueste-20260927-neue-blicke-gegenwartskunst-aus
+ -der-sammlung-kunst-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:Letzter Tag: Neue Blicke. Gegenwartskunst aus der Sammlung Kunst de
+ r Westküste
+LOCATION:Museum Kunst der Westküste\, Hauptstraße 1\, 25938 Alkersum
+DESCRIPTION:Laufzeit: 27.9.2026 bis 12.9.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mkdw.de/
+URL:https://www.mkdw.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nf-museum-kunst-der-westkueste-20261031-experimentelles-malen-und-zeich
+ nen-auf-leinwand@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T110000
+DTEND;TZID=Europe/Berlin:20261031T130000
+SUMMARY:Experimentelles Malen und Zeichnen auf Leinwand
+LOCATION:Museum Kunst der Westküste\, Hauptstraße 1\, 25938 Alkersum
+DESCRIPTION:Workshop zum experimentellen Malen und Zeichnen.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ kdw.de/de/kalender
+URL:https://www.mkdw.de/de/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

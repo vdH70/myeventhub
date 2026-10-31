@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Reinbek · my Event Hub (Erinnerung 3 Tage vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:od-sammlung-italiaander-reinbek-20261122-das-andere-ich-afrikanische-ma
+ sken-zwischen-identi-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Beginn: DAS ANDERE ICH – Afrikanische Masken zwischen Identität\
+ , Form und Transformation
+LOCATION:Sammlung Rolf Italiaander – Reinbeks Forum der Völker (ehem. Mu
+ seum Rade)\, Schloßstraße 5\, 21465 Reinbek
+DESCRIPTION:Ausstellung zu afrikanischen Masken.\nLaufzeit: 22.11.2026 bis 
+ 24.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://sammlung-italiaa
+ nder.de/
+URL:https://sammlung-italiaander.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-sammlung-italiaander-reinbek-20261122-das-andere-ich-afrikanische-ma
+ sken-zwischen-identi-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Letzter Tag: DAS ANDERE ICH – Afrikanische Masken zwischen Identi
+ tät\, Form und Transformation
+LOCATION:Sammlung Rolf Italiaander – Reinbeks Forum der Völker (ehem. Mu
+ seum Rade)\, Schloßstraße 5\, 21465 Reinbek
+DESCRIPTION:Ausstellung zu afrikanischen Masken.\nLaufzeit: 22.11.2026 bis 
+ 24.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://sammlung-italiaa
+ nder.de/
+URL:https://sammlung-italiaander.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

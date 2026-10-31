@@ -1,0 +1,194 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Düsseldorf · my Event Hub (Erinnerung 1 Tag vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d-capitol-theater-20261104-dick-brave-2026-comin-home-for-christmas@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:DICK BRAVE 2026 – comin' home for christmas
+LOCATION:Capitol Theater Düsseldorf\, Erkrather Straße 30\, 40233 Düssel
+ dorf
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.capitol-thea
+ ter.de/
+URL:https://www.capitol-theater.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-capitol-theater-20261105-dick-brave-2026-comin-home-for-christmas@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:DICK BRAVE 2026 – comin' home for christmas
+LOCATION:Capitol Theater Düsseldorf\, Erkrather Straße 30\, 40233 Düssel
+ dorf
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.capitol-thea
+ ter.de/
+URL:https://www.capitol-theater.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261106-fuffifufzich@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Fuffifufzich
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261107-liedfett@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Liedfett
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261114-moneybrother@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Moneybrother
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261118-bosse@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Bosse (ausverkauft)
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-stahlwerk-20261124-boombox-dronotur@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Boombox (Бумбокс) – Dronotur
+LOCATION:Stahlwerk Düsseldorf\, Ronsdorfer Straße 134\, 40233 Düsseldorf
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stahlwerk.de/eve
+ nt/boombox-bumboks-dronotur
+URL:https://stahlwerk.de/event/boombox-bumboks-dronotur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261128-selig@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Selig (ausverkauft)
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-zakk-20261202-triggerfinger@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Triggerfinger
+LOCATION:zakk – Zentrum für Aktion\, Kultur und Kommunikation\, Düsseld
+ orf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zakk.de/programm
+URL:https://www.zakk.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

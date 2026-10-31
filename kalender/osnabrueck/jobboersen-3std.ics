@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jobbörsen in Osnabrück · my Event Hub (Erinnerung 3 Stunden
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:os-hochschule-osnabrueck-westerberg-20261110-chance-beginn@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Beginn: CHANCE – Karrieremesse der Hochschule Osnabrück
+LOCATION:Hochschule Osnabrück (Campus Westerberg)\, Albrechtstraße 30\, 4
+ 9076 Osnabrück
+DESCRIPTION:Firmenkontakt- und Karrieremesse für Studierende\, Absolventen
+  und Young Professionals der Hochschule und Universität Osnabrück\; laut
+  Hochschule sind alle Interessierten willkommen. Im Foyer und Obergeschoss
+ .\nLaufzeit: 10.11.2026 bis 12.11.2026\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.hs-osnabrueck.de/chance/infos-und-anmeldung-fuer-unterneh
+ men/
+URL:https://www.hs-osnabrueck.de/chance/infos-und-anmeldung-fuer-unternehme
+ n/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-hochschule-osnabrueck-westerberg-20261110-chance-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Letzter Tag: CHANCE – Karrieremesse der Hochschule Osnabrück
+LOCATION:Hochschule Osnabrück (Campus Westerberg)\, Albrechtstraße 30\, 4
+ 9076 Osnabrück
+DESCRIPTION:Firmenkontakt- und Karrieremesse für Studierende\, Absolventen
+  und Young Professionals der Hochschule und Universität Osnabrück\; laut
+  Hochschule sind alle Interessierten willkommen. Im Foyer und Obergeschoss
+ .\nLaufzeit: 10.11.2026 bis 12.11.2026\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.hs-osnabrueck.de/chance/infos-und-anmeldung-fuer-unterneh
+ men/
+URL:https://www.hs-osnabrueck.de/chance/infos-und-anmeldung-fuer-unternehme
+ n/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20270224-karriere-kick-osnabrueck@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T090000
+DTEND;TZID=Europe/Berlin:20270224T110000
+SUMMARY:Karriere Kick Osnabrück
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Spielerische Ausbildungsmesse und Berufsorientierung am Kickert
+ isch für Jugendliche und Schulklassen. Zwei Slots: Einlass 8:30/Start 9:0
+ 0–12:00 Uhr und Einlass 12:30/Start 13:00–15:30 Uhr.\nEinlass 08:30\, 
+ Beginn 09:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://karriere-kick.de/in/osnabrueck
+URL:https://karriere-kick.de/in/osnabrueck
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

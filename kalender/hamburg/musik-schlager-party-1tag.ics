@@ -1,0 +1,591 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager/Party in Hamburg · my Event Hub (Erinnerung 1 Tag vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-h1-club-20261031-halloween-2026-enter-the-nightmare@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween 2026 – Enter The Nightmare
+LOCATION:H1 Club & Lounge\, Conventstr. 8-10c\, 22089 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.h1club.com/e
+ vents
+URL:https://www.h1club.com/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261031-pasaporte@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Pasaporte
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtwache-20261106-herz-an-herz-engtanz-party@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T220000
+DTEND;TZID=Europe/Berlin:20261107T000000
+SUMMARY:Herz an Herz – Engtanz Party
+LOCATION:Nochtwache\, 20359 Hamburg
+DESCRIPTION:Engtanz-Party.\nEinlass 21:00\, Beginn 22:00 Uhr\nEnde: laut Qu
+ elle nicht angegeben\nPreis: AK 15 €\nQuelle (bitte vor dem Besuch prüf
+ en): https://nochtspeicher.de/
+URL:https://nochtspeicher.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20261107-sing-along-karneval@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Sing Along / Karneval
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:Mitsing-Abend\, Liedtexte auf der Leinwand\, bis 22 Uhr.\nEinla
+ ss 19:15\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261111-jecke-zeit@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Jecke Zeit
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261114-club40up@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Club40up
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-docks-20261116-filow-zusatzshow@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Filow – Zusatzshow
+LOCATION:Docks\, Spielbudenplatz 19\, 20359 Hamburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://filow.shop/products/tour-2026-16-11-2026-hamburg\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.docks.de/events/filow-16
+ -11-2026
+URL:https://www.docks.de/events/filow-16-11-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-docks-20261117-filow@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Filow
+LOCATION:Docks\, Spielbudenplatz 19\, 20359 Hamburg
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://filow.shop/products/filow-tour-2026-hamburg\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.docks.de/events/filow-17-11-2
+ 026
+URL:https://www.docks.de/events/filow-17-11-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-angies-20261121-ue30-party-hamburg@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T220000
+DTEND;TZID=Europe/Berlin:20261122T000000
+SUMMARY:Ü30 Party Hamburg
+LOCATION:Angie's\, Spielbudenplatz 27\, 20359 Hamburg
+DESCRIPTION:Party mit House\, Pop\, RnB und Klassikern der 80er bis 2000er.
+ \nEnde: laut Quelle nicht angegeben\nPreis: VVK ab 10 €\nTickets: https:
+ //partytickets.ditix.shop/event/a0zau9o7en5wku2p\nQuelle (bitte vor dem Be
+ such prüfen): https://www.ue30-partys.de/event-ue30-party-hamburg-samstag
+ -den-21-11-26-ab-22-uhr/
+URL:https://www.ue30-partys.de/event-ue30-party-hamburg-samstag-den-21-11-2
+ 6-ab-22-uhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261128-80s-night-hamburg@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:80s Night Hamburg
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261128-sing-along@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Sing Along
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-grosse-freiheit-36-20261204-faeaschtbaenkler@myeventhub.de
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Fäaschtbänkler
+LOCATION:Große Freiheit 36\, Große Freiheit 36\, 22767 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://grossefreiheit36
+ .de/events
+URL:https://grossefreiheit36.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-grosse-freiheit-36-20261205-faeaschtbaenkler@myeventhub.de
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Fäaschtbänkler
+LOCATION:Große Freiheit 36\, Große Freiheit 36\, 22767 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://grossefreiheit36
+ .de/events
+URL:https://grossefreiheit36.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261205-disney-party@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Disney Party
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261205-mamma-mia-party@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Mamma Mia Party
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261212-club40up-50plus-xmas-special@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Club40up & 50plus Xmas Special
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261212-sing-along@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Sing Along
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261213-schlagerfeeling-weihnachtstraum@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Schlagerfeeling Weihnachtstraum
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.kentclub.de/
+ programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20261218-sing-along-x-mas@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Sing Along / X-mas
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:Mitsing-Abend\, Liedtexte auf der Leinwand\, bis 22 Uhr.\nEinla
+ ss 19:15\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-fabrik-20261231-ue30-ue40-silvesterparty@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T210000
+DTEND;TZID=Europe/Berlin:20261231T230000
+SUMMARY:Ü30/Ü40 Silvesterparty
+LOCATION:Fabrik\, Barnerstraße 36\, 22765 Hamburg
+DESCRIPTION:Silvesterparty mit Party-Mix aus Klassikern und Charts.\nEinlas
+ s 21:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 
+ 22 €\nTickets: https://fabrik.de/tickets?ver=1442\nQuelle (bitte vor dem
+  Besuch prüfen): https://fabrik.de/veranstaltungsdetail/ue30-ue40-silvest
+ erparty-1442
+URL:https://fabrik.de/veranstaltungsdetail/ue30-ue40-silvesterparty-1442
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261231-silvester-spirit@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Silvester Spirit
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20270128-sing-along-rock-classics@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T200000
+DTEND;TZID=Europe/Berlin:20270128T220000
+SUMMARY:Sing Along / Rock Classics
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:Mitsing-Abend\, Liedtexte auf der Leinwand\, bis 22 Uhr.\nEinla
+ ss 19:15\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20270206-sing-along-karneval@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T200000
+DTEND;TZID=Europe/Berlin:20270206T220000
+SUMMARY:Sing Along / Karneval
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:Mitsing-Abend\, Liedtexte auf der Leinwand\, bis 22 Uhr.\nEinla
+ ss 19:15\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20270304-sing-along-2000er-2010er@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T200000
+DTEND;TZID=Europe/Berlin:20270304T220000
+SUMMARY:Sing Along / 2000er & 2010er
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:Mitsing-Abend\, Liedtexte auf der Leinwand\, bis 22 Uhr.\nEinla
+ ss 19:15\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-barclays-arena-20270311-maite-kelly-unverschaemt-kelly-die-tour-mein
+ es-leb@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T200000
+DTEND;TZID=Europe/Berlin:20270311T220000
+SUMMARY:Maite Kelly – »Unverschämt Kelly – Die Tour meines Lebens«
+LOCATION:Barclays Arena\, Hellgrundweg 44\, 22525 Hamburg
+DESCRIPTION:Einlass 18:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.barclays-arena.de
+ /events/maite-kelly
+URL:https://www.barclays-arena.de/events/maite-kelly
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-grosse-freiheit-36-20270312-anna-maria-zimmermann@myeventhub.de
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Anna-Maria Zimmermann
+LOCATION:Große Freiheit 36\, Große Freiheit 36\, 22767 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://grossefreiheit36
+ .de/events
+URL:https://grossefreiheit36.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20270403-80-s-electric-pop-wave-ndw-italo-disco@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270403T210000
+DTEND;TZID=Europe/Berlin:20270403T230000
+SUMMARY:80's Electric – Pop & Wave / NDW / Italo Disco
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:80er-Party mit Pop\, Wave\, NDW und Italo Disco\, bis 3 Uhr.\nE
+ nde: laut Quelle nicht angegeben\nPreis: AK 10 € (nur Abendkasse)\nQuell
+ e (bitte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-barclays-arena-20270501-roland-kaiser-unser-moment@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270501T193000
+DTEND;TZID=Europe/Berlin:20270501T213000
+SUMMARY:Roland Kaiser – Unser Moment
+LOCATION:Barclays Arena\, Hellgrundweg 44\, 22525 Hamburg
+DESCRIPTION:Einlass 17:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/noapp/event/roland-kaiser-unser-mome
+ nt-arena-tour-2027-barclays-arena-21557975/?affiliate=AHH&utm_campaign=aeg
+ hh&utm_source=ahh&utm_medium=dp&referrer_info=website\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.barclays-arena.de/events/roland-kaiser
+URL:https://www.barclays-arena.de/events/roland-kaiser
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-barclays-arena-20270502-roland-kaiser-unser-moment@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270502T190000
+DTEND;TZID=Europe/Berlin:20270502T210000
+SUMMARY:Roland Kaiser – Unser Moment
+LOCATION:Barclays Arena\, Hellgrundweg 44\, 22525 Hamburg
+DESCRIPTION:Einlass 17:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/noapp/event/roland-kaiser-unser-mome
+ nt-arena-tour-2027-barclays-arena-21557975/?affiliate=AHH&utm_campaign=aeg
+ hh&utm_source=ahh&utm_medium=dp&referrer_info=website\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.barclays-arena.de/events/roland-kaiser
+URL:https://www.barclays-arena.de/events/roland-kaiser
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20270625-80-s-electric-pop-wave-ndw-italo-disco@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270625T210000
+DTEND;TZID=Europe/Berlin:20270625T230000
+SUMMARY:80's Electric – Pop & Wave / NDW / Italo Disco
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:80er-Party mit Pop\, Wave\, NDW und Italo Disco\, bis 3 Uhr.\nE
+ nde: laut Quelle nicht angegeben\nPreis: AK 10 € (nur Abendkasse)\nQuell
+ e (bitte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-heiligengeistfeld-schlagermove-20270703-29-schlagermove@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270703T150000
+DTEND;TZID=Europe/Berlin:20270703T170000
+SUMMARY:29. Schlagermove
+LOCATION:Heiligengeistfeld (Schlagermove)\, Heiligengeistfeld\, 20359 Hambu
+ rg
+DESCRIPTION:Schlager-Parade mit Musik-Trucks durch St. Pauli\, Start und Zi
+ el Heiligengeistfeld.\nEnde: laut Quelle nicht angegeben\nPreis: kostenlos
+ \nQuelle (bitte vor dem Besuch prüfen): https://schlagermove.de/der-move/
+ rueckblicke/
+URL:https://schlagermove.de/der-move/rueckblicke/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

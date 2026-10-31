@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Singer-Songwriter in Leer · my Event Hub (Erinnerung 3 Stunde
+ n vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:leer-zollhaus-20261115-monsters-of-liedermaching-sutsche-tour-2@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:Monsters Of Liedermaching – „Sutsche“-Tour 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Liedermacher-Band mit Live-Album „Sutsche“\; humorvolle und
+  ernste Lieder. Im Café.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Qu
+ elle nicht angegeben\nPreis: ab 30\,00 € (VVK)\nTickets: https://zollhau
+ s-leer.reservix.de/p/reservix/group/385430\nQuelle (bitte vor dem Besuch p
+ rüfen): https://zollhaus-leer.com/veranstaltungen/monsters-of-liedermachi
+ ng/
+URL:https://zollhaus-leer.com/veranstaltungen/monsters-of-liedermaching/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-theater-an-der-blinke-20261227-enno-bunger-solo-am-klavier-special
+ -gues@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T200000
+DTEND;TZID=Europe/Berlin:20261227T220000
+SUMMARY:Enno Bunger – Solo am Klavier + Special Guests (Jahresabschlussga
+ la)
+LOCATION:Theater an der Blinke\, Blinke 39\, 26789 Leer
+DESCRIPTION:Jahresabschlusskonzert mit Liedern\, Witz und zwei Überraschun
+ gsgästen\; Veranstaltung des Zollhauses im Theater an der Blinke.\nEinlas
+ s 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 3
+ 0\,00 €\nTickets: https://shop.ennobunger.de/tickets\nQuelle (bitte vor 
+ dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/enno-bunger
+ /
+URL:https://zollhaus-leer.com/veranstaltungen/enno-bunger/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

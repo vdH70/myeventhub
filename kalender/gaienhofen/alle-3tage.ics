@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Gaienhofen · my Event Hub (Erinnerung 3 Tage 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kn-hesse-museum-gaienhofen-20260724-refugium-exil-angela-becker-fuhr-ma
+ lerei-auf-papie-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Refugium – Exil. Angela Becker-Fuhr – Malerei auf 
+ Papier
+LOCATION:Hesse Museum Gaienhofen\, Kapellenstraße 8\, 78343 Gaienhofen
+DESCRIPTION:Laufzeit: 24.7.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hesse-museum-gaienhofen.de/de/ausstellungen/sondera
+ usstellungen-1
+URL:https://www.hesse-museum-gaienhofen.de/de/ausstellungen/sonderausstellu
+ ngen-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-hesse-museum-gaienhofen-20261114-dem-fluss-der-bilder-folgen-radieru
+ ngen-zu-hermann-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Beginn: Dem Fluss der Bilder folgen. Radierungen zu Hermann Hesse
+LOCATION:Hesse Museum Gaienhofen\, Kapellenstraße 8\, 78343 Gaienhofen
+DESCRIPTION:Laufzeit: 14.11.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hesse-museum-gaienhofen.de/de/ausstellungen/sonder
+ ausstellungen-1
+URL:https://www.hesse-museum-gaienhofen.de/de/ausstellungen/sonderausstellu
+ ngen-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kn-hesse-museum-gaienhofen-20261114-dem-fluss-der-bilder-folgen-radieru
+ ngen-zu-hermann-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Dem Fluss der Bilder folgen. Radierungen zu Hermann He
+ sse
+LOCATION:Hesse Museum Gaienhofen\, Kapellenstraße 8\, 78343 Gaienhofen
+DESCRIPTION:Laufzeit: 14.11.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hesse-museum-gaienhofen.de/de/ausstellungen/sonder
+ ausstellungen-1
+URL:https://www.hesse-museum-gaienhofen.de/de/ausstellungen/sonderausstellu
+ ngen-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

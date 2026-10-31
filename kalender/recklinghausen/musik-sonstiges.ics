@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Recklinghausen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20261223-weihnachtskonzert-musikalische-einstimmun
+ g-auf-die@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T140000
+DTEND;TZID=Europe/Berlin:20261223T160000
+SUMMARY:Weihnachtskonzert – Musikalische Einstimmung auf die Feiertage
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20261223-weihnachtskonzert-musikalische-einstimmun
+ g-auf-die-1800@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T180000
+DTEND;TZID=Europe/Berlin:20261223T200000
+SUMMARY:Weihnachtskonzert – Musikalische Einstimmung auf die Feiertage
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-buergerhaus-sued-20270103-neujahrskonzert-reisefieber@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T110000
+DTEND;TZID=Europe/Berlin:20270103T130000
+SUMMARY:Neujahrskonzert – Reisefieber
+LOCATION:Bürgerhaus Süd\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270107-neujahrskonzert-reisefieber@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T193000
+DTEND;TZID=Europe/Berlin:20270107T213000
+SUMMARY:Neujahrskonzert – Reisefieber
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-rathaus-20270131-3-rathauskonzert-he-a-r-story@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T110000
+DTEND;TZID=Europe/Berlin:20270131T130000
+SUMMARY:3. Rathauskonzert – He(a)r Story
+LOCATION:Rathaus Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270207-erlebniskonzert-magische-melodien-anime-g
+ hibli-liv@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T110000
+DTEND;TZID=Europe/Berlin:20270207T130000
+SUMMARY:Erlebniskonzert: Magische Melodien – Anime & Ghibli live
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-rathaus-20270418-4-rathauskonzert-alte-klaenge-neue-welten@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270418T110000
+DTEND;TZID=Europe/Berlin:20270418T130000
+SUMMARY:4. Rathauskonzert – Alte Klänge – Neue Welten
+LOCATION:Rathaus Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270716-npw-goes-film@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270716T193000
+DTEND;TZID=Europe/Berlin:20270716T213000
+SUMMARY:NPW goes FILM
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

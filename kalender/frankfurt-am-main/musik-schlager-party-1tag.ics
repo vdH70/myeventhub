@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager/Party in Frankfurt am Main · my Event Hub (Erinnerun
+ g 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f-alte-oper-20261102-mireille-mathieu-goodbye-my-love-goodbye-abschieds
+ tourn@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Mireille Mathieu – Goodbye my Love Goodbye (Abschiedstournee)
+LOCATION:Großer Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.alteoper.de/de/programm/
+URL:https://www.alteoper.de/de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20261205-die-schlagernacht-des-jahres-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T180000
+DTEND;TZID=Europe/Berlin:20261205T200000
+SUMMARY:Die Schlagernacht des Jahres 2026
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 16:30\, Beginn 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/event/die-schlagernacht-des-jahres-d
+ as-original-festhalle-frankfurt-21055838/\nQuelle (bitte vor dem Besuch pr
+ üfen): https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/
+ schlagernacht.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/schla
+ gernacht.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20270428-roland-kaiser-unser-moment-arena-tour-2027@myevent
+ hub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270428T193000
+DTEND;TZID=Europe/Berlin:20270428T213000
+SUMMARY:Roland Kaiser – Unser Moment – Arena Tour 2027
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/event/roland-kaiser-unser-moment-are
+ na-tour-2027-festhalle-frankfurt-21566453/\nQuelle (bitte vor dem Besuch p
+ rüfen): https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen
+ /roland-kaiser.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/rolan
+ d-kaiser.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,95 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Limburg an der Lahn · my Event Hub (Erinnerung 1 T
+ ag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261217-der-herr-der-ringe-der-hobbit-das-konzer
+ t@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T160000
+DTEND;TZID=Europe/Berlin:20261217T180000
+SUMMARY:Der Herr der Ringe & Der Hobbit – Das Konzert
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/der-he
+ rr-der-ringe-der-hobbit-das-konzert
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/der-herr-der-r
+ inge-der-hobbit-das-konzert
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20261217-the-music-of-hans-zimmer-others@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:The Music of Hans Zimmer & Others
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-limburg.de/fuer-besucher/programm/the-mu
+ sic-of-hans-zimmer-others-a-celebration-of-film-music
+URL:https://www.stadthalle-limburg.de/fuer-besucher/programm/the-music-of-h
+ ans-zimmer-others-a-celebration-of-film-music
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lm-stadthalle-limburg-20270117-neujahrskonzert-neue-philharmonie-frankf
+ urt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Neujahrskonzert: Neue Philharmonie Frankfurt
+LOCATION:Stadthalle Limburg (Josef-Kohlmaier-Halle)\, Hospitalstraße 4\, 6
+ 5549 Limburg an der Lahn
+DESCRIPTION:Veranstalter: Kulturvereinigung Limburg.\nTickets: https://stad
+ thallelimburg.reservix.de/tickets-neujahrskonzert-neue-philharmonie-frankf
+ urt-in-limburg-an-der-lahn-stadthalle-josef-kohlmaier-halle-am-17-1-2027/e
+ 2558819\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturvereinig
+ ung-limburg.de/
+URL:https://www.kulturvereinigung-limburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

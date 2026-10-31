@@ -1,0 +1,883 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in München · my Event Hub (Erinnerung 1 Tag vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-schauburg-20261101-zu-hause-ist-es-am-schonsten-festival-wunder@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Zu Hause ist es am schönsten (Festival wunder.) (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/zu-hause-ist
+ -es-am-schoensten
+URL:https://www.schauburg.net/de/programm/zu-hause-ist-es-am-schoensten
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-villa-stuck-20261101-atelier-kreativwerkstatt-fuer-kinder@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Atelier: Kreativwerkstatt für Kinder
+LOCATION:Museum Villa Stuck\, Prinzregentenstraße 60\, 81675 München
+DESCRIPTION:Kreativwerkstatt für Kinder ab 6 Jahren.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.villastu
+ ck.de/kalender/detail/atelier-1026
+URL:https://www.villastuck.de/kalender/detail/atelier-1026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261102-zu-hause-ist-es-am-schonsten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T160000
+DTEND;TZID=Europe/Berlin:20261102T180000
+SUMMARY:Zu Hause ist es am schönsten (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/zu-hause-ist
+ -es-am-schoensten
+URL:https://www.schauburg.net/de/programm/zu-hause-ist-es-am-schoensten
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261103-zu-hause-ist-es-am-schonsten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T100000
+DTEND;TZID=Europe/Berlin:20261103T120000
+SUMMARY:Zu Hause ist es am schönsten (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/zu-hause-ist
+ -es-am-schoensten
+URL:https://www.schauburg.net/de/programm/zu-hause-ist-es-am-schoensten
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-museum-aegyptischer-kunst-20261103-es-werde-licht@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T103000
+DTEND;TZID=Europe/Berlin:20261103T123000
+SUMMARY:Es werde Licht
+LOCATION:Staatliches Museum Ägyptischer Kunst\, Arcisstraße 16\, 80333 M
+ ünchen
+DESCRIPTION:Kinderveranstaltung.\nEnde: laut Quelle nicht angegeben\nQuelle
+  (bitte vor dem Besuch prüfen): https://smaek.de/veranstaltungen/
+URL:https://smaek.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261106-zu-hause-ist-es-am-schonsten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T100000
+DTEND;TZID=Europe/Berlin:20261106T120000
+SUMMARY:Zu Hause ist es am schönsten (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/zu-hause-ist
+ -es-am-schoensten
+URL:https://www.schauburg.net/de/programm/zu-hause-ist-es-am-schoensten
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-labor-20261107-die-kuh-rosmarie-ab-5-j@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T160000
+DTEND;TZID=Europe/Berlin:20261107T180000
+SUMMARY:Die Kuh Rosmarie (ab 5 J.) (ausverkauft)
+LOCATION:Schauburg Labor Ramersdorf\, Rosenheimer Straße 192\, 81669 Münc
+ hen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/die-kuh-rosm
+ arie
+URL:https://www.schauburg.net/de/programm/die-kuh-rosmarie
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-museum-aegyptischer-kunst-20261108-entdeckungsreise-ins-alte-aegypten
+ @myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Entdeckungsreise ins alte Ägypten
+LOCATION:Staatliches Museum Ägyptischer Kunst\, Arcisstraße 16\, 80333 M
+ ünchen
+DESCRIPTION:Familienführung.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://smaek.de/veranstaltungen/
+URL:https://smaek.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-villa-stuck-20261108-tiere-feen-fabelwesen-wer-druckt-die-schoenste-p
+ os@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:Tiere\, Feen\, Fabelwesen – wer druckt die schönste Postkarte?
+LOCATION:Museum Villa Stuck\, Prinzregentenstraße 60\, 81675 München
+DESCRIPTION:MVHS-Museumswerkstatt für Familien.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.villastuck.de
+ /kalender/detail/tiere-feen-fabelwesen-wer-druckt-die-schoenste-postkarte-
+ 1392
+URL:https://www.villastuck.de/kalender/detail/tiere-feen-fabelwesen-wer-dru
+ ckt-die-schoenste-postkarte-1392
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261108-zu-hause-ist-es-am-schonsten@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Zu Hause ist es am schönsten (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/zu-hause-ist
+ -es-am-schoensten
+URL:https://www.schauburg.net/de/programm/zu-hause-ist-es-am-schoensten
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-labor-20261110-die-kuh-rosmarie-ab-5-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T100000
+DTEND;TZID=Europe/Berlin:20261110T120000
+SUMMARY:Die Kuh Rosmarie (ab 5 J.) (ausverkauft)
+LOCATION:Schauburg Labor Ramersdorf\, Rosenheimer Straße 192\, 81669 Münc
+ hen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/die-kuh-rosm
+ arie
+URL:https://www.schauburg.net/de/programm/die-kuh-rosmarie
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-labor-20261111-die-kuh-rosmarie-ab-5-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T090000
+DTEND;TZID=Europe/Berlin:20261111T110000
+SUMMARY:Die Kuh Rosmarie (ab 5 J.) (ausverkauft)
+LOCATION:Schauburg Labor Ramersdorf\, Rosenheimer Straße 192\, 81669 Münc
+ hen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/die-kuh-rosm
+ arie
+URL:https://www.schauburg.net/de/programm/die-kuh-rosmarie
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261113-drunter-druber-ab-2-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T160000
+DTEND;TZID=Europe/Berlin:20261113T180000
+SUMMARY:Drunter & Drüber (ab 2 J.) (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/drunter-drue
+ ber
+URL:https://www.schauburg.net/de/programm/drunter-drueber
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-juedisches-museum-20261115-von-tischri-bis-elul-ein-workshop-zum-jued
+ ischen-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Von Tischri bis Elul. Ein Workshop zum jüdischen Jahr (Familien\, 
+ 7–12 Jahre)
+LOCATION:Jüdisches Museum München\, St.-Jakobs-Platz 16\, 80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\, Anmeldung
+  erforderlich\nQuelle (bitte vor dem Besuch prüfen): https://www.juedisch
+ es-museum-muenchen.de/
+URL:https://www.juedisches-museum-muenchen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261115-pulcinella-oder-das-meer-der-wunsche-ab-3
+ -jahren@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Pulcinella oder Das Meer der Wünsche (ab 3 Jahren)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/45895d5c-5b4
+ b-4671-94c3-a47cedd51c75
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/45895d5c-5b4b-4671-9
+ 4c3-a47cedd51c75
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261115-drunter-druber-ab-2-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Drunter & Drüber (ab 2 J.) (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/drunter-drue
+ ber
+URL:https://www.schauburg.net/de/programm/drunter-drueber
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-residenztheater-20261115-pippi-langstrumpf@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:Pippi Langstrumpf
+LOCATION:Residenztheater\, München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.residenztheater.de/spielplan
+URL:https://www.residenztheater.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261117-drunter-druber-ab-2-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T153000
+DTEND;TZID=Europe/Berlin:20261117T173000
+SUMMARY:Drunter & Drüber (ab 2 J.)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauburg.net/de/programm/drunter-drueber
+URL:https://www.schauburg.net/de/programm/drunter-drueber
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261118-drunter-druber-ab-2-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T100000
+DTEND;TZID=Europe/Berlin:20261118T120000
+SUMMARY:Drunter & Drüber (ab 2 J.)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauburg.net/de/programm/drunter-drueber
+URL:https://www.schauburg.net/de/programm/drunter-drueber
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-juedisches-museum-20261118-eliko-und-das-licht-interaktive-lesung-mit
+ -malwork@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T103000
+DTEND;TZID=Europe/Berlin:20261118T123000
+SUMMARY:Eliko und das Licht – interaktive Lesung mit Malworkshop (6–10 
+ Jahre)
+LOCATION:Jüdisches Museum München\, St.-Jakobs-Platz 16\, 80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\, Anmeldung
+  erforderlich\nQuelle (bitte vor dem Besuch prüfen): https://www.juedisch
+ es-museum-muenchen.de/
+URL:https://www.juedisches-museum-muenchen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261119-die-kleine-hexe-ab-7-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T103000
+DTEND;TZID=Europe/Berlin:20261119T123000
+SUMMARY:Die kleine Hexe (ab 7 J.)
+LOCATION:Große Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauburg.net/de/programm/die-kleine-hexe
+URL:https://www.schauburg.net/de/programm/die-kleine-hexe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-theater-fuer-kinder-20261120-vorlesetag-willkommen-bei-den-grauses-sa
+ bine-bohlmann@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T090000
+DTEND;TZID=Europe/Berlin:20261120T110000
+SUMMARY:Vorlesetag: „Willkommen bei den Grauses“ (Sabine Bohlmann)
+LOCATION:Münchner Theater für Kinder\, Dachauer Straße 46\, 80335 Münch
+ en
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mtfk.de/spielplan
+URL:https://www.mtfk.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261120-die-kleine-hexe-ab-7-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T100000
+DTEND;TZID=Europe/Berlin:20261120T120000
+SUMMARY:Die kleine Hexe (ab 7 J.) (ausverkauft)
+LOCATION:Große Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/die-kleine-h
+ exe
+URL:https://www.schauburg.net/de/programm/die-kleine-hexe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-theater-fuer-kinder-20261120-vorlesetag-bitte-nicht-offnen-charlotte-
+ habersack@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T110000
+DTEND;TZID=Europe/Berlin:20261120T130000
+SUMMARY:Vorlesetag: „Bitte nicht öffnen“ (Charlotte Habersack)
+LOCATION:Münchner Theater für Kinder\, Dachauer Straße 46\, 80335 Münch
+ en
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mtfk.de/spielplan
+URL:https://www.mtfk.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-theater-fuer-kinder-20261120-vorlesetag-der-vorlesefriseur-danny-beue
+ rbach@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T143000
+DTEND;TZID=Europe/Berlin:20261120T163000
+SUMMARY:Vorlesetag: Der Vorlesefriseur (Danny Beuerbach)
+LOCATION:Münchner Theater für Kinder\, Dachauer Straße 46\, 80335 Münch
+ en
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mtfk.de/spielplan
+URL:https://www.mtfk.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-theater-fuer-kinder-20261120-vorlesetag-ritter-rost-jorg-hilbert@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T150000
+DTEND;TZID=Europe/Berlin:20261120T170000
+SUMMARY:Vorlesetag: „Ritter Rost“ (Jörg Hilbert)
+LOCATION:Münchner Theater für Kinder\, Dachauer Straße 46\, 80335 Münch
+ en
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mtfk.de/spielplan
+URL:https://www.mtfk.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261120-drunter-druber-ab-2-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T160000
+DTEND;TZID=Europe/Berlin:20261120T180000
+SUMMARY:Drunter & Drüber (ab 2 J.) (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/drunter-drue
+ ber
+URL:https://www.schauburg.net/de/programm/drunter-drueber
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-theater-fuer-kinder-20261120-vorlesetag-frau-honig-sabine-bohlmann@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T170000
+DTEND;TZID=Europe/Berlin:20261120T190000
+SUMMARY:Vorlesetag: „Frau Honig“ (Sabine Bohlmann)
+LOCATION:Münchner Theater für Kinder\, Dachauer Straße 46\, 80335 Münch
+ en
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mtfk.de/spielplan
+URL:https://www.mtfk.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-residenztheater-20261121-jeff-kinney-gregs-tagebuch@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T110000
+DTEND;TZID=Europe/Berlin:20261121T130000
+SUMMARY:Jeff Kinney: Gregs Tagebuch (ausverkauft)
+LOCATION:Residenztheater\, München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.residenztheater.de/spielplan
+URL:https://www.residenztheater.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261122-drunter-druber-ab-2-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T113000
+DTEND;TZID=Europe/Berlin:20261122T133000
+SUMMARY:Drunter & Drüber (ab 2 J.) (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/drunter-drue
+ ber
+URL:https://www.schauburg.net/de/programm/drunter-drueber
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261122-das-krokodil-aus-dem-koffer-ab-4-jahren@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Das Krokodil aus dem Koffer (ab 4 Jahren)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/348c89a4-2da
+ 7-4bec-b4cd-8ca3587dab3a
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/348c89a4-2da7-4bec-b
+ 4cd-8ca3587dab3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261122-die-kleine-hexe-ab-7-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T153000
+DTEND;TZID=Europe/Berlin:20261122T173000
+SUMMARY:Die kleine Hexe (ab 7 J.)
+LOCATION:Große Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauburg.net/de/programm/die-kleine-hexe
+URL:https://www.schauburg.net/de/programm/die-kleine-hexe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261123-die-kleine-hexe-ab-7-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T100000
+DTEND;TZID=Europe/Berlin:20261123T120000
+SUMMARY:Die kleine Hexe (ab 7 J.) (ausverkauft)
+LOCATION:Große Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/die-kleine-h
+ exe
+URL:https://www.schauburg.net/de/programm/die-kleine-hexe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261124-drunter-druber-ab-2-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T100000
+DTEND;TZID=Europe/Berlin:20261124T120000
+SUMMARY:Drunter & Drüber (ab 2 J.)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauburg.net/de/programm/drunter-drueber
+URL:https://www.schauburg.net/de/programm/drunter-drueber
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261124-drunter-druber-ab-2-j-1600@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T160000
+DTEND;TZID=Europe/Berlin:20261124T180000
+SUMMARY:Drunter & Drüber (ab 2 J.)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauburg.net/de/programm/drunter-drueber
+URL:https://www.schauburg.net/de/programm/drunter-drueber
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261127-la-le-luffft-ab-18-monaten@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T150000
+DTEND;TZID=Europe/Berlin:20261127T170000
+SUMMARY:La Le Luffft (ab 18 Monaten)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauburg.net/de/programm/la-le-luffft
+URL:https://www.schauburg.net/de/programm/la-le-luffft
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261128-la-le-luffft-ab-18-monaten@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T100000
+DTEND;TZID=Europe/Berlin:20261128T120000
+SUMMARY:La Le Luffft (ab 18 Monaten) (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/la-le-luffft
+URL:https://www.schauburg.net/de/programm/la-le-luffft
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261128-la-le-luffft-ab-18-monaten-1130@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T113000
+DTEND;TZID=Europe/Berlin:20261128T133000
+SUMMARY:La Le Luffft (ab 18 Monaten) (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/la-le-luffft
+URL:https://www.schauburg.net/de/programm/la-le-luffft
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261128-la-le-luffft-ab-18-monaten-1500@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:La Le Luffft (ab 18 Monaten) (ausverkauft)
+LOCATION:Kleine Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauburg.net/de/programm/la-le-luffft
+URL:https://www.schauburg.net/de/programm/la-le-luffft
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261129-trubel-in-der-weihnachtsbackerei@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Trubel in der Weihnachtsbäckerei
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/84b6b72a-84d
+ 3-46e2-9aca-d9afc9e8d198
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/84b6b72a-84d3-46e2-9
+ aca-d9afc9e8d198
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261129-timm-thaler-ab-8-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T153000
+DTEND;TZID=Europe/Berlin:20261129T173000
+SUMMARY:Timm Thaler (ab 8 J.)
+LOCATION:Große Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauburg.net/de/programm/timm-thaler
+URL:https://www.schauburg.net/de/programm/timm-thaler
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-schauburg-20261130-timm-thaler-ab-8-j@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T103000
+DTEND;TZID=Europe/Berlin:20261130T123000
+SUMMARY:Timm Thaler (ab 8 J.)
+LOCATION:Große Burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauburg.net/de/programm/timm-thaler
+URL:https://www.schauburg.net/de/programm/timm-thaler
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261206-der-wunschkalender-ab-4-jahren@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Der Wunschkalender (ab 4 Jahren)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/b1f34fe4-64e
+ e-4749-aa6a-67b090a3bede
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/b1f34fe4-64ee-4749-a
+ a6a-67b090a3bede
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261213-trubel-in-der-weihnachtsbackerei@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Trubel in der Weihnachtsbäckerei
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/541907f5-08c
+ e-4d90-a3d2-442ee5a91224
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/541907f5-08ce-4d90-a
+ 3d2-442ee5a91224
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261220-die-geschichte-von-den-drei-goldenen-loff
+ eln@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Die Geschichte von den drei goldenen Löffeln
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/48a719fd-5c5
+ 0-41e7-8a02-ee16c632ff40
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/48a719fd-5c50-41e7-8
+ a02-ee16c632ff40
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261225-hasi-pa-auf-ab-4-jahren@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T150000
+DTEND;TZID=Europe/Berlin:20261225T170000
+SUMMARY:Hasi paß' auf! (ab 4 Jahren)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/bb9fa973-de9
+ 0-4542-be20-cb5bd3eeaf11
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/bb9fa973-de90-4542-b
+ e20-cb5bd3eeaf11
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

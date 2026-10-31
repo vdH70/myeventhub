@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Stade · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:std-kunsthaus-20261004-dialogischer-ausstellungsrundgang-ende@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Dialogischer Ausstellungsrundgang
+LOCATION:Kunsthaus Stade\, Wasser West 7\, 21682 Stade
+DESCRIPTION:Laufzeit: 4.10.2026 bis 1.11.2026\nTermine laut Veranstalter: s
+ onntags 15:00 Uhr\nPreis: 4 € zzgl. Eintritt\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.museen-stade.de/kunsthaus
+URL:https://www.museen-stade.de/kunsthaus
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:std-kunsthaus-20261007-after-work-fuehrung-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: After-Work-Führung
+LOCATION:Kunsthaus Stade\, Wasser West 7\, 21682 Stade
+DESCRIPTION:Laufzeit: 7.10.2026 bis 1.11.2026\nTermine laut Veranstalter: m
+ ittwochs 17:30 Uhr\nPreis: 4 € zzgl. Eintritt\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.museen-stade.de/kunsthaus
+URL:https://www.museen-stade.de/kunsthaus
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

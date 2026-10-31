@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Papenburg · my Event Hub (Erinnerung 1 Tag vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pap-besucherzentrum-meyer-werft-20260926-besichtigung-meyer-werft-gefue
+ hrt-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Besichtigung MEYER WERFT – geführt
+LOCATION:Besucherzentrum MEYER WERFT\, Industriegebiet Süd\, Tor 1/2\, 268
+ 71 Papenburg
+DESCRIPTION:Geführter Rundgang durch das Besucherzentrum der Meyer Werft\,
+  ca. 90 Minuten\; Zeiten über die Online-Buchung\, Reservierung empfohlen
+  (Hotline 04961-83960). Die Seite nennt die Saisons mit Platzhalter „202
+ X“\, keine Einzeltermine.\nLaufzeit: 26.9.2026 bis 31.3.2027\nTermine la
+ ut Veranstalter: Jan.–Feb.: Mo.–Sa.\; März–Okt.: täglich\; Nov. bi
+ s 23. Dez.: Mo.–Sa.\; 27.–31.12.\nPreis: Erwachsene 19\,00 €\, ermä
+ ßigt 9\,50 €\, Kinder unter 5 frei\nQuelle (bitte vor dem Besuch prüfe
+ n): https://besucherzentrum-meyerwerft.de/besichtigung-meyer-werft-gefuehr
+ t/
+URL:https://besucherzentrum-meyerwerft.de/besichtigung-meyer-werft-gefuehrt
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

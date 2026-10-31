@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Radebeul · my Event Hub (Erinnerung 3 Stunde
+ n vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mei-hofloessnitz-20260804-silvia-kloede-verweile-doch-figuren-spiegel-m
+ edail-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Silvia Klöde: „Verweile doch …“ – Figuren\, S
+ piegel\, Medaillen & Schmuck
+LOCATION:Hoflößnitz – Sächsisches Weinbaumuseum\, Knohllweg 37\, 01445
+  Radebeul
+DESCRIPTION:Kabinettausstellung in der Hoflößnitz.\nLaufzeit: 4.8.2026 bi
+ s 22.11.2026\nPreis: 3\,50 €\, ermäßigt 2\,50 €\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.hofloessnitz.de/termine/
+URL:https://www.hofloessnitz.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mei-hofloessnitz-20260825-christoph-wetzel-dialoge-kontraste-ende@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Christoph Wetzel – Dialoge & Kontraste
+LOCATION:Hoflößnitz – Sächsisches Weinbaumuseum\, Knohllweg 37\, 01445
+  Radebeul
+DESCRIPTION:Kabinettausstellung im Lust- und Berghaus.\nLaufzeit: 25.8.2026
+  bis 22.11.2026\nPreis: 3\,50 €\, ermäßigt 2\,50 €\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.hofloessnitz.de/termine/
+URL:https://www.hofloessnitz.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

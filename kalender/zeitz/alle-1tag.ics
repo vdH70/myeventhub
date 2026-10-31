@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Zeitz · my Event Hub (Erinnerung 1 Tag vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:blk-museum-moritzburg-zeitz-20261101-iris-band-zeitz-und-andere-schoene
+ -orte-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Beginn: Iris Band – Zeitz und andere schöne Orte
+LOCATION:Museum Schloss Moritzburg Zeitz\, Schlossstraße 6\, 06712 Zeitz
+DESCRIPTION:Laufzeit: 1.11.2026 bis 7.3.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://museum-moritzburg-zeitz.de/
+URL:https://museum-moritzburg-zeitz.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:blk-museum-moritzburg-zeitz-20261101-iris-band-zeitz-und-andere-schoene
+ -orte-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Letzter Tag: Iris Band – Zeitz und andere schöne Orte
+LOCATION:Museum Schloss Moritzburg Zeitz\, Schlossstraße 6\, 06712 Zeitz
+DESCRIPTION:Laufzeit: 1.11.2026 bis 7.3.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://museum-moritzburg-zeitz.de/
+URL:https://museum-moritzburg-zeitz.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

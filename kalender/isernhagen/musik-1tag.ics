@@ -1,0 +1,214 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Isernhagen · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-isernhagenhof-20261031-zucchini-sistaz-falsche-wimpern-echte-musik@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Zucchini Sistaz – Falsche Wimpern\, echte Musik
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 30 € / erm. 18 €\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.isernhagenhof.de/veran
+ staltungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-isernhagenhof-20261114-the-keltics@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:The Keltics
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25 € / erm. 16 €\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.isernhagenhof.de/veran
+ staltungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-isernhagenhof-20261121-sinfonisches-blasorchester-isernhagen-in-80-mi
+ nute@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Sinfonisches Blasorchester Isernhagen – In 80 Minuten um die Welt
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 20 € / 10 €\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.isernhagenhof.de/veranstalt
+ ungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-isernhagenhof-20261129-advent-im-isernhagenhof-maedchenchor-hannover@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Advent im Isernhagenhof – Mädchenchor Hannover
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25 € / erm. 16 €\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.isernhagenhof.de/veran
+ staltungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-isernhagenhof-20261205-marc-masconi-ffb-big-band@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Marc Masconi & FFB Big Band
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25 € / erm. 16 €\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.isernhagenhof.de/veran
+ staltungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-isernhagenhof-20270220-schlagerparty-des-lions-club@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T190000
+DTEND;TZID=Europe/Berlin:20270220T210000
+SUMMARY:Schlagerparty des Lions Club
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.isernhagenhof.de/veranstaltungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-isernhagenhof-20270227-2-rudelsingen-in-isernhagen-mit-simon-broeker-
+ und@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:2. Rudelsingen in Isernhagen mit Simon Bröker und Maximilian Saul
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 18 €\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.isernhagenhof.de/veranstaltungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-isernhagenhof-20270529-one-night-in-sweden-a-tribute-show-to-abba@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270529T200000
+DTEND;TZID=Europe/Berlin:20270529T220000
+SUMMARY:One Night in Sweden – A Tribute Show to ABBA
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 35 € / erm. 21 €\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.isernhagenhof.de/veran
+ staltungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-isernhagenhof-20270605-hot-club-d-allemagne@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270605T200000
+DTEND;TZID=Europe/Berlin:20270605T220000
+SUMMARY:Hot Club d'Allemagne
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25 € / erm. 16 €\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.isernhagenhof.de/veran
+ staltungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-isernhagenhof-20270626-swingorchester-hannover-big-band-at-the-movies
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270626T200000
+DTEND;TZID=Europe/Berlin:20270626T220000
+SUMMARY:Swingorchester Hannover – Big Band at the Movies
+LOCATION:Isernhagenhof Kulturzentrum\, Hauptstraße 68 B\, 30916 Isernhagen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25 € / erm. 16 €\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.isernhagenhof.de/veran
+ staltungen/
+URL:https://www.isernhagenhof.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

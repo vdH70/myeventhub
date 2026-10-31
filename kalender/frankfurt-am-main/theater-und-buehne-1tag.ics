@@ -1,0 +1,833 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Frankfurt am Main · my Event Hub (Erinner
+ ung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f-schauspiel-20261031-sven-regener-frankie-und-freddie@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Sven Regener: Frankie und Freddie (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261031-zirkus-kafka-urauffuhrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Zirkus Kafka (Uraufführung) (ausverkauft)
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261101-das-bildnis-des-dorian-gray-urauffuhrung@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Das Bildnis des Dorian Gray (Uraufführung) (ausverkauft)
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261101-die-abenteuer-des-braven-soldaten-schwejk@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Die Abenteuer des braven Soldaten Schwejk (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261102-einar-schleef-ich-habe-kein-deutschland-gefunden@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T193000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:Einar Schleef – ich habe kein Deutschland gefunden
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261103-unboxing-es-konnte-schlimmer-sein@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Unboxing: Es könnte schlimmer sein (ausverkauft)
+LOCATION:Box
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261104-kleiner-mann-was-nun@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Kleiner Mann – was nun?
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261104-das-deutschlandherz@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Das Deutschlandherz
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261105-die-abenteuer-des-braven-soldaten-schwejk@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:Die Abenteuer des braven Soldaten Schwejk (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261105-das-bildnis-des-dorian-gray@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Das Bildnis des Dorian Gray (ausverkauft)
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261106-viel-larm-um-nichts@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Viel Lärm um nichts
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261106-die-verlorene-ehre-der-katharina-blum@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Die verlorene Ehre der Katharina Blum (ausverkauft)
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261107-der-aufhaltsame-aufstieg-des-arturo-ui@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Der aufhaltsame Aufstieg des Arturo Ui
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261107-zwischen-welten-urauffuhrung-premiere@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Zwischen Welten (Uraufführung\, Premiere) (ausverkauft)
+LOCATION:Schirn Kunsthalle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261108-funf-minuten-stille@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:fünf minuten stille
+LOCATION:Box
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261108-ich-bin-wie-ihr-ich-liebe-apfel@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Ich bin wie ihr\, Ich liebe Äpfel
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261108-robert-habeck-arctic-meltdown@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Robert Habeck: Arctic Meltdown (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261109-eines-langen-tages-reise-in-die-nacht@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T193000
+DTEND;TZID=Europe/Berlin:20261109T213000
+SUMMARY:Eines langen Tages Reise in die Nacht
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261109-zirkus-kafka@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Zirkus Kafka
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261111-zwischen-welten@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Zwischen Welten (ausverkauft)
+LOCATION:Schirn Kunsthalle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261112-das-bildnis-des-dorian-gray@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Das Bildnis des Dorian Gray (ausverkauft)
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261113-viel-larm-um-nichts@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Viel Lärm um nichts
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261113-die-verlorene-ehre-der-katharina-blum@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Die verlorene Ehre der Katharina Blum
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-die-komoedie-20261113-alle-unter-eine-tanne-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Beginn: Alle unter eine Tanne
+LOCATION:Die Komödie Frankfurt\, Frankfurt am Main
+DESCRIPTION:Laufzeit: 13.11.2026 bis 10.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\nQuelle (bitte vor dem Besuch prüfen): https://diekomoe
+ die.de/
+URL:https://diekomoedie.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-die-komoedie-20261113-alle-unter-eine-tanne-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Alle unter eine Tanne
+LOCATION:Die Komödie Frankfurt\, Frankfurt am Main
+DESCRIPTION:Laufzeit: 13.11.2026 bis 10.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\nQuelle (bitte vor dem Besuch prüfen): https://diekomoe
+ die.de/
+URL:https://diekomoedie.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261114-kleiner-mann-was-nun@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Kleiner Mann – was nun?
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261114-der-abend-vor-dem-danach@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Der Abend vor dem Danach
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261114-zwischen-welten@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Zwischen Welten
+LOCATION:Schirn Kunsthalle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261115-das-deutschlandherz@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Das Deutschlandherz
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261115-die-abenteuer-des-braven-soldaten-schwejk@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Die Abenteuer des braven Soldaten Schwejk (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261116-ich-bin-wie-ihr-ich-liebe-apfel@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Ich bin wie ihr\, Ich liebe Äpfel
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261118-die-affare-auf-der-stra-e-nach-monaco-l-affare-di
+ -via-m@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Die Affäre auf der Straße nach Monaco / L'affare di via Monaco (W
+ iederaufnahme)
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261119-der-aufhaltsame-aufstieg-des-arturo-ui@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Der aufhaltsame Aufstieg des Arturo Ui (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261119-nsu-2-0@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:NSU 2.0
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261120-eines-langen-tages-reise-in-die-nacht@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Eines langen Tages Reise in die Nacht
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261120-der-abend-vor-dem-danach@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Der Abend vor dem Danach
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261121-kleiner-mann-was-nun@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Kleiner Mann – was nun?
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261121-das-deutschlandherz@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Das Deutschlandherz
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261122-die-affare-auf-der-stra-e-nach-monaco@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Die Affäre auf der Straße nach Monaco
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261123-antigone@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T193000
+DTEND;TZID=Europe/Berlin:20261123T213000
+SUMMARY:Antigone
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261124-die-letzte-geschichte-der-menschheit@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Die letzte Geschichte der Menschheit
+LOCATION:Box
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261126-kleiner-mann-was-nun@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Kleiner Mann – was nun?
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261127-die-abenteuer-des-braven-soldaten-schwejk@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Die Abenteuer des braven Soldaten Schwejk (ausverkauft)
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261127-der-abend-vor-dem-danach@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Der Abend vor dem Danach
+LOCATION:Kammerspiele
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-schauspiel-20261128-kleiner-mann-was-nun@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Kleiner Mann – was nun?
+LOCATION:Schauspiel Frankfurt\, Neue Mainzer Straße 17\, 60311 Frankfurt a
+ m Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspielfrankfurt.de/spielplan/
+URL:https://www.schauspielfrankfurt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

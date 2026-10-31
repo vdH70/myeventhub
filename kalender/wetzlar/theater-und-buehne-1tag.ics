@@ -1,0 +1,418 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Wetzlar · my Event Hub (Erinnerung 1 Tag 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wz-stadthalle-20261105-moving-shadows-on-fire@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Moving Shadows – On Fire
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Schattentheater.\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://stadthallewetzlar.de/veranstaltungen_
+ tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20261108-herr-schroeder-der-rest-ist-hausaufgabe@myeventh
+ ub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Herr Schröder – Der Rest ist Hausaufgabe
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20261121-achtsam-morden-durch-bewusste-ernaehrung@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Achtsam morden durch bewusste Ernährung
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Krimikomödie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://stadthallewetzlar.de/veranstaltungen_ti
+ ckets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20261129-drei-haselnuesse-fuer-aschenbroedel-das-musical@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T190000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Drei Haselnüsse für Aschenbrödel – Das Musical
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20261205-caveman-du-sammeln-ich-jagen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:CAVEMAN – Du sammeln\, ich jagen!
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270113-der-nussknacker@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T190000
+DTEND;TZID=Europe/Berlin:20270113T210000
+SUMMARY:Der Nussknacker
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270122-heimsuchung@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T200000
+DTEND;TZID=Europe/Berlin:20270122T220000
+SUMMARY:Heimsuchung
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Multimedia-Performance nach dem Roman von Jenny Erpenbeck.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270211-topas-secret-power-tour@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T200000
+DTEND;TZID=Europe/Berlin:20270211T220000
+SUMMARY:TOPAS – Secret-Power-Tour
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Verlegt vom 21.02.2026.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://stadthallewetzlar.de/veranstal
+ tungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270220-der-sohn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T200000
+DTEND;TZID=Europe/Berlin:20270220T220000
+SUMMARY:Der Sohn
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Drama von Florian Zeller.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://stadthallewetzlar.de/veranst
+ altungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270221-musical-starlights-best-of-musicals@myeventhub.d
+ e
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T183000
+DTEND;TZID=Europe/Berlin:20270221T203000
+SUMMARY:Musical Starlights – Best of Musicals
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270301-schwanensee-royal-classical-ballet@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270301T200000
+DTEND;TZID=Europe/Berlin:20270301T220000
+SUMMARY:Schwanensee – Royal Classical Ballet
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270305-cavewoman@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T193000
+DTEND;TZID=Europe/Berlin:20270305T213000
+SUMMARY:Cavewoman
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270319-und-wenn-wir-alle-zusammenziehen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T200000
+DTEND;TZID=Europe/Berlin:20270319T220000
+SUMMARY:Und wenn wir alle zusammenziehen?
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Komödie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets
+ .php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270325-die-nacht-der-musicals@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270325T200000
+DTEND;TZID=Europe/Berlin:20270325T220000
+SUMMARY:Die Nacht der Musicals
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270415-golden-ace-chroniken-der-magie-tour-2027@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270415T190000
+DTEND;TZID=Europe/Berlin:20270415T210000
+SUMMARY:Golden Ace – Chroniken der Magie Tour 2027
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270422-frieda-braun-erst-mal-durchatmen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270422T200000
+DTEND;TZID=Europe/Berlin:20270422T220000
+SUMMARY:Frieda Braun – Erst mal durchatmen!
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270424-daphne-de-luxe@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T200000
+DTEND;TZID=Europe/Berlin:20270424T220000
+SUMMARY:Daphne de Luxe
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270514-tutty-tran-wok-life-balance@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270514T200000
+DTEND;TZID=Europe/Berlin:20270514T220000
+SUMMARY:Tutty Tran – Wok-Life-Balance
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270930-bastian-bielendorfer-gamechanger@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270930T200000
+DTEND;TZID=Europe/Berlin:20270930T220000
+SUMMARY:Bastian Bielendorfer – GameChanger
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20271209-eine-weihnachtsgeschichte-das-musical-nach-charl
+ es@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271209T200000
+DTEND;TZID=Europe/Berlin:20271209T220000
+SUMMARY:Eine Weihnachtsgeschichte – Das Musical nach Charles Dickens
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20280206-das-phantom-der-oper-originalproduktion-von-sass
+ on@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280206T180000
+DTEND;TZID=Europe/Berlin:20280206T200000
+SUMMARY:Das Phantom der Oper – Originalproduktion von Sasson/Sautter
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20280519-lisa-eckhart-ich-war-mal-wer@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280519T200000
+DTEND;TZID=Europe/Berlin:20280519T220000
+SUMMARY:Lisa Eckhart – Ich war mal wer
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

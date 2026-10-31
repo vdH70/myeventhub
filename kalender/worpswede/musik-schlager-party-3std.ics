@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager/Party in Worpswede · my Event Hub (Erinnerung 3 Stun
+ den vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270116-ue-30-party-mit-dj-joerg-gebauer@myev
+ enthub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T210000
+DTEND;TZID=Europe/Berlin:20270116T230000
+SUMMARY:Ü-30 Party mit DJ Jörg Gebauer
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 21:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Tickets zum Preis von 10 Euro gibt es nur an der Abendkasse!!
+ \nQuelle (bitte vor dem Besuch prüfen): https://musichall-worpswede.de/pr
+ odukt/sa-16-01-2027-ue-30-party-mit-dj-joerg-gebauer/
+URL:https://musichall-worpswede.de/produkt/sa-16-01-2027-ue-30-party-mit-dj
+ -joerg-gebauer/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

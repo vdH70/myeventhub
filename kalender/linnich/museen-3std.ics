@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Linnich · my Event Hub (Erinnerung 3 Stunden vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:dn-glasmalerei-museum-20260705-nie-wieder-ist-jetzt-kunstroute-der-tole
+ ranz-zerbr-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Nie wieder ist Jetzt! – Kunstroute der Toleranz: Zer
+ brechlichkeit
+LOCATION:Deutsches Glasmalerei-Museum Linnich\, Rurstraße 9-11\, 52441 Lin
+ nich
+DESCRIPTION:Sonderausstellung im Rahmen der Kunstroute der Toleranz.\nLaufz
+ eit: 5.7.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.glasmalerei-museum.de/
+URL:https://www.glasmalerei-museum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

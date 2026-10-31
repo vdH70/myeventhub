@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Waldenbuch · my Event Hub (Erinnerung 1 Tag 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bb-museum-ritter-20261025-zwischen-ordnung-und-leben-konstruktive-kunst
+ -heut-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Beginn: Zwischen Ordnung und Leben. Konstruktive Kunst heute
+LOCATION:Museum Ritter\, Alfred-Ritter-Straße 27\, 71111 Waldenbuch
+DESCRIPTION:Laufzeit: 25.10.2026 bis 18.4.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.museum-ritter.de/
+URL:https://www.museum-ritter.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-museum-ritter-20261025-zwischen-ordnung-und-leben-konstruktive-kunst
+ -heut-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Letzter Tag: Zwischen Ordnung und Leben. Konstruktive Kunst heute
+LOCATION:Museum Ritter\, Alfred-Ritter-Straße 27\, 71111 Waldenbuch
+DESCRIPTION:Laufzeit: 25.10.2026 bis 18.4.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.museum-ritter.de/
+URL:https://www.museum-ritter.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

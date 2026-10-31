@@ -1,0 +1,2127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Bremen · my Event Hub (Erinnerung 3 Stunden vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:die-glocke-20261031-karat@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:KARAT
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.glocke.de/all-events/page/3/
+URL:https://www.glocke.de/all-events/page/3/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20261031-joe-jackson-band-hope-and-fury-tour@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Joe Jackson & Band – Hope and Fury Tour
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.ticketm
+ aster.de/event/1601745866\nQuelle (bitte vor dem Besuch prüfen): https://
+ metropol-theater-bremen.de/programm/events/joe-jackson/
+URL:https://metropol-theater-bremen.de/programm/events/joe-jackson/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerzentrum-neue-vahr-20261031-nevertoolate-die-original-rentnerb
+ and@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:NeverTooLate – die original Rentnerband
+LOCATION:Bürgerzentrum Neue Vahr\, Berliner Freiheit 10\, 28327 Bremen
+DESCRIPTION:Bremer Rentnerband mit Rock\, Blues und Soul\, mehrstimmigem Ge
+ sang\, Gitarrensoli und Saxophon\; 20 bis 22 Uhr.\nEnde: laut Quelle nicht
+  angegeben\nPreis: VVK 9 €\, AK 13 €\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.bzvahr.de/veranstaltungen/nevertoolate-die-original-re
+ ntnerband/
+URL:https://www.bzvahr.de/veranstaltungen/nevertoolate-die-original-rentner
+ band/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-gustav-heinemann-buergerhaus-20261031-maybebop-a-cappella@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Maybebop (A cappella)
+LOCATION:Gustav-Heinemann-Bürgerhaus (Bürgerhaus Vegesack)\, Kirchheide 4
+ 9\, 28757 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbuerobremennord.de/programm/oktober-2026/
+URL:https://www.kulturbuerobremennord.de/programm/oktober-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20261102-dad-harmony-europe-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:DAD HARMONY – Europe Tour 2026
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:A-cappella-Konzert mit Coversongs.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://metropol-theater-br
+ emen.de/programm/events/dad-harmony/
+URL:https://metropol-theater-bremen.de/programm/events/dad-harmony/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20261103-adele-the-show-from-london-performed-by-homet
+ own-g@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T190000
+DTEND;TZID=Europe/Berlin:20261103T210000
+SUMMARY:ADELE – The Show from London – performed by Hometown Glory Trib
+ ute
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Adele-Tributeshow mit Liveband.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://metropol-theater-breme
+ n.de/programm/events/adele-the-show-from-london/
+URL:https://metropol-theater-bremen.de/programm/events/adele-the-show-from-
+ london/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261103-rosie-the-romeos@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Rosie & The Romeos
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock Cover\, Bremen / Oldenburg\nEnde: laut Quelle nicht angege
+ ben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261104-tattooed-rose@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Tattooed Rose
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rose Tattoo Cover\, Bremen\nEnde: laut Quelle nicht angegeben\n
+ Preis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ eisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20261105-triggerfinger@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Triggerfinger
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 30 € zzgl. Gebühren\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.kulturzentrum-lagerhaus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261105-frollein-motte@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Frollein Motte
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock\, Hamburg\nEnde: laut Quelle nicht angegeben\nPreis: Eintr
+ itt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfrei.de
+ /programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20261105-stefanie-heinzmann-circles-tour-2026@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Stefanie Heinzmann – Circles Tour 2026
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://metropol-theater-bremen.de/programm/events/stefanie-hei
+ nzmann/
+URL:https://metropol-theater-bremen.de/programm/events/stefanie-heinzmann/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261106-barock-world-s-1-ac-dc-tribute@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:BAROCK – World`s #1 AC/DC Tribute
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:AC/DC-Tributeband.\nEinlass 18:30\, Beginn 20:00 Uhr\nEnde: lau
+ t Quelle nicht angegeben\nPreis: VVK 42\,00 € zzgl. Versand\nTickets: ht
+ tps://www.eventim-light.com/de/a/61604593c0d590576346bfa0/e/699c4d922a1b64
+ 40e5b47463?lang=de\nQuelle (bitte vor dem Besuch prüfen): https://www.ala
+ din-bremen.de/veranstaltungen/barock_2026/
+URL:https://www.aladin-bremen.de/veranstaltungen/barock_2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20261106-nights-on-broadway-a-tribute-to-the-bee-gees-
+ perfo@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Nights on Broadway – A Tribute To The BEE GEES performed by NIGHT
+  FEVER
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Bee-Gees-Tributeshow.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://metropol-theater-bremen.de/progr
+ amm/events/nights-on-broadway/
+URL:https://metropol-theater-bremen.de/programm/events/nights-on-broadway/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20261109-svitlana-loboda@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Svitlana Loboda
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.glocke.de/all-events/page/3/
+URL:https://www.glocke.de/all-events/page/3/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261110-new-fancy@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:New Fancy
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Hard Rock & Classic Rock\, Hannover\nEnde: laut Quelle nicht an
+ gegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261111-cinema-stereo@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Cinema Stereo
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock\, USA\nEnde: laut Quelle nicht angegeben\nPreis: AK 20\,-\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfrei.de/programm
+ .htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20261112-rammstein-symphonic-tribute-herzfeuer@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Rammstein Symphonic Tribute »Herzfeuer«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.glocke.de/all-events/page/3/
+URL:https://www.glocke.de/all-events/page/3/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20261113-soffie@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Soffie
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:"Für mich da" Tour.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: l
+ aut Quelle nicht angegeben\nPreis: 28 € zzgl. Gebühren\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.kulturzentrum-lagerhaus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261113-drohn-classix-mit-dj-patta@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T210000
+DTEND;TZID=Europe/Berlin:20261113T230000
+SUMMARY:Dröhn Classix mit DJ Patta
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/classix_1311/
+URL:https://www.aladin-bremen.de/veranstaltungen/classix_1311/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20261114-unheilig@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:Unheilig (ausverkauft)
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://oevb-arena.de/events/
+URL:https://oevb-arena.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20261114-unheilig-liebe-glaube-monster-tour-26-27@myeventhub
+ .de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:Unheilig – Liebe Glaube Monster Tour 26/27 (ausverkauft)
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Mindestalter 6 Jahre.\nEinlass 17:30\, Beginn 19:00 Uhr\nEnde: 
+ laut Quelle nicht angegeben\nAusverkauft\nPreis: ab 16\,40 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://oevb-arena.de/event/unheilig/
+URL:https://oevb-arena.de/event/unheilig/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261114-altmetall@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T210000
+DTEND;TZID=Europe/Berlin:20261114T230000
+SUMMARY:Altmetall
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Hard Rock Cover\, Osnabrück\nEnde: laut Quelle nicht angegeben
+ \nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20261116-k-pop-live-die-hits-die-moves-die-show@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T180000
+DTEND;TZID=Europe/Berlin:20261116T200000
+SUMMARY:K-POP LIVE! – Die Hits. Die Moves. Die Show.
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Live-Show mit 12 Sänger*innen und Tänzer*innen.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://metr
+ opol-theater-bremen.de/programm/events/k-pop/
+URL:https://metropol-theater-bremen.de/programm/events/k-pop/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-theaterschiff-20261119-oxa-michael-jackson-more@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:OXA: Michael Jackson & more
+LOCATION:Theaterschiff Bremen\, Tiefer 104 / Anleger 4\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterschiff-bremen.de/oxa
+URL:https://theaterschiff-bremen.de/oxa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20261119-nights-on-broadway-a-tribute-to-the-bee-gees-
+ perfo@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Nights on Broadway – A Tribute To The BEE GEES performed by NIGHT
+  FEVER
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Bee-Gees-Tributeshow.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://metropol-theater-bremen.de/progr
+ amm/events/nights-on-broadway/
+URL:https://metropol-theater-bremen.de/programm/events/nights-on-broadway/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20261119-mine-killer-tour-2026@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:MINE – KILLER Tour 2026
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Neues Album und Fan-Favoriten\, Support: Epilog\, Kesselhalle.\
+ nEnde: laut Quelle nicht angegeben\nTickets: https://loveyourartist.com/de
+ /events/mine-killer-tour-2026-bremen-6ABY1X\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.schlachthof-bremen.de/programm/mine-2026
+URL:https://www.schlachthof-bremen.de/programm/mine-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-theaterschiff-20261120-oxa-michael-jackson-more@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:OXA: Michael Jackson & more
+LOCATION:Theaterschiff Bremen\, Tiefer 104 / Anleger 4\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterschiff-bremen.de/oxa
+URL:https://theaterschiff-bremen.de/oxa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261120-demon-s-eye@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T210000
+DTEND;TZID=Europe/Berlin:20261120T230000
+SUMMARY:Demon's Eye
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Deep Purple Cover\, Irland/Deutschland\nEnde: laut Quelle nicht
+  angegeben\nPreis: AK 28\,-\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-theaterschiff-20261121-oxa-michael-jackson-more@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:OXA: Michael Jackson & more
+LOCATION:Theaterschiff Bremen\, Tiefer 104 / Anleger 4\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterschiff-bremen.de/oxa
+URL:https://theaterschiff-bremen.de/oxa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261123-number-one-band@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T200000
+DTEND;TZID=Europe/Berlin:20261123T220000
+SUMMARY:Number One Band
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:50's & 80's Cover\, Bremen\nEnde: laut Quelle nicht angegeben\n
+ Preis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ eisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-uni-theatersaal-20261124-at-last-songs-nach-arrangements-von-eva-cas
+ sidy@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T123000
+DTEND;TZID=Europe/Berlin:20261124T143000
+SUMMARY:„At last“ – Songs nach Arrangements von Eva Cassidy
+LOCATION:Theatersaal der Universität Bremen\, Bibliothekstraße 1\, 28359 
+ Bremen
+DESCRIPTION:Kostenloses Mittagskonzert der Uni Bremen\, ca. 25 Minuten.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.uni-bremen.de/konzerte/semesteruebersicht/
+ wintersemester-2026-27/dienstag-24-november-2026-1230-uhr-theatersaal-eint
+ ritt-freiat-last-songs-nach-arrangements-von-eva-cassidy
+URL:https://www.uni-bremen.de/konzerte/semesteruebersicht/wintersemester-20
+ 26-27/dienstag-24-november-2026-1230-uhr-theatersaal-eintritt-freiat-last-
+ songs-nach-arrangements-von-eva-cassidy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20261124-alexander-klaws-a-very-special-musical-christ
+ mas-t@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T193000
+DTEND;TZID=Europe/Berlin:20261124T213000
+SUMMARY:Alexander Klaws – A very special MUSICAL CHRISTMAS Tour 2026
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Weihnachtslieder und Musical-Highlights.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://metropol-thea
+ ter-bremen.de/programm/events/alexander-klaws/
+URL:https://metropol-theater-bremen.de/programm/events/alexander-klaws/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261125-die-stehpisser@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:Die Stehpisser
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Garage Rock & Country\, Bremen\nEnde: laut Quelle nicht angegeb
+ en\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20261125-selig-the-epic-years-tour-2026@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:Selig – The EPIC Years Tour 2026
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Hamburger Rockband mit Rückblick auf ihre frühen Jahre\, Kess
+ elhalle.\nEnde: laut Quelle nicht angegeben\nTickets: https://www.eventim.
+ de/event/selig-the-epic-years-tour-2026-kulturzentrum-schlachthof-21026488
+ /\nQuelle (bitte vor dem Besuch prüfen): https://www.schlachthof-bremen.d
+ e/programm/selig-2026
+URL:https://www.schlachthof-bremen.de/programm/selig-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261126-epitaph@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Epitaph
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Kraut Rock\, Deutschland\nEnde: laut Quelle nicht angegeben\nPr
+ eis: AK 28\,-\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfr
+ ei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261127-extrabreit-weihnachts-blitztournee-2026@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Extrabreit – Weihnachts-Blitztournee 2026
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261128-a-tribute-to-johnny-cash@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T210000
+DTEND;TZID=Europe/Berlin:20261128T230000
+SUMMARY:A Tribute to Johnny Cash
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Johnny Cash Cover\, Hessen\nEnde: laut Quelle nicht angegeben\n
+ Preis: AK 23\,-\nQuelle (bitte vor dem Besuch prüfen): https://www.meisen
+ frei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261201-mojothunder@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T200000
+DTEND;TZID=Europe/Berlin:20261201T220000
+SUMMARY:Mojothunder
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Hard Rock & Rock 'n' Roll\, USA\nEnde: laut Quelle nicht angege
+ ben\nPreis: AK 20\,-\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ eisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261204-torfrock@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Torfrock
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.aladin-bremen.de/ticketshop/\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.aladin-bremen.de/veranstaltungen/torfroc
+ k/
+URL:https://www.aladin-bremen.de/veranstaltungen/torfrock/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20261205-god-save-the-queen@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:God save the Queen – Q-Revival Band
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Queen-Coverband\, zweistündige Show im Großen Saal.\n20:00 Uh
+ r (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nich
+ t angegeben\nTickets: https://www.ticketmaster.de/event/906068254?language
+ =de-de&track=DiscoveryAPI&subchannel_id=10128&camefrom=de_nordwest_shop_mt
+ b&brand=de_nwt_mtb\nQuelle (bitte vor dem Besuch prüfen): https://metropo
+ l-theater-bremen.de/programm/events/god-save-the-queen/
+URL:https://metropol-theater-bremen.de/programm/events/god-save-the-queen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261205-stone@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T210000
+DTEND;TZID=Europe/Berlin:20261205T230000
+SUMMARY:Stone
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rolling Stones Cover\, Hamburg\nEnde: laut Quelle nicht angegeb
+ en\nPreis: AK 23\,-\nQuelle (bitte vor dem Besuch prüfen): https://www.me
+ isenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-gustav-heinemann-buergerhaus-20261206-lalelu-weihnachten-mit-lalelu@
+ myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T190000
+DTEND;TZID=Europe/Berlin:20261206T210000
+SUMMARY:Lalelu: Weihnachten mit Lalelu
+LOCATION:Gustav-Heinemann-Bürgerhaus (Bürgerhaus Vegesack)\, Kirchheide 4
+ 9\, 28757 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbuerobremennord.de/programm/dezember-2026/
+URL:https://www.kulturbuerobremennord.de/programm/dezember-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-uni-theatersaal-20261208-beatlemania-the-fab-4@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T123000
+DTEND;TZID=Europe/Berlin:20261208T143000
+SUMMARY:„Beatlemania“ – The fab 4
+LOCATION:Theatersaal der Universität Bremen\, Bibliothekstraße 1\, 28359 
+ Bremen
+DESCRIPTION:Kostenloses Mittagskonzert der Uni Bremen\, ca. 25 Minuten.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.uni-bremen.de/konzerte/semesteruebersicht/
+ wintersemester-2026-27/dienstag-8-dezember-2026-1230-uhr-theatersaal-eintr
+ itt-freibeatlemania-the-fab-4-musik-der-beatles
+URL:https://www.uni-bremen.de/konzerte/semesteruebersicht/wintersemester-20
+ 26-27/dienstag-8-dezember-2026-1230-uhr-theatersaal-eintritt-freibeatleman
+ ia-the-fab-4-musik-der-beatles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261208-touch-of-funk@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T200000
+DTEND;TZID=Europe/Berlin:20261208T220000
+SUMMARY:Touch Of Funk
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Funk Cover\, Bremen\nEnde: laut Quelle nicht angegeben\nPreis: 
+ Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfr
+ ei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261209-bobbies@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Bobbies
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock 'n' Roll\, Bremen\nEnde: laut Quelle nicht angegeben\nPrei
+ s: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.meise
+ nfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261210-rockthed@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:RockThed
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock Cover\, Thedinghausen\nEnde: laut Quelle nicht angegeben\n
+ Preis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ eisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261211-kapelle-petra-lubbe-tour-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T190000
+DTEND;TZID=Europe/Berlin:20261211T210000
+SUMMARY:Kapelle Petra – LÜBBE.-Tour 2026
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261211-do-it-like-the-king@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T210000
+DTEND;TZID=Europe/Berlin:20261211T230000
+SUMMARY:Do it like The King
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock & Pop Cover\, Bremen\nEnde: laut Quelle nicht angegeben\nP
+ reis: AK 23\,-\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenf
+ rei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261212-fancy-one-last-time-clubtour-in-germany-only@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Fancy – One Last Time Clubtour In Germany Only
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261212-winehouze@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T210000
+DTEND;TZID=Europe/Berlin:20261212T230000
+SUMMARY:Winehouze
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Amy Winehouse Cover\, Bremen\nEnde: laut Quelle nicht angegeben
+ \nPreis: AK 23\,-\nQuelle (bitte vor dem Besuch prüfen): https://www.meis
+ enfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20261213-the-night-of-the-proms@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T180000
+DTEND;TZID=Europe/Berlin:20261213T200000
+SUMMARY:The Night of the Proms
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/events/?subPage=2
+URL:https://oevb-arena.de/events/?subPage=2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261213-everest@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T200000
+DTEND;TZID=Europe/Berlin:20261213T220000
+SUMMARY:Everest
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Progressive Rock\, Bremen\nEnde: laut Quelle nicht angegeben\nP
+ reis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.me
+ isenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261214-fat-jo-s-diary@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T200000
+DTEND;TZID=Europe/Berlin:20261214T220000
+SUMMARY:Fat Jo's Diary
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock\, Bremen\nEnde: laut Quelle nicht angegeben\nPreis: Eintri
+ tt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfrei.de/
+ programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261216-rock-passion@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:Rock Passion
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock Cover\, Bremen\nEnde: laut Quelle nicht angegeben\nPreis: 
+ Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfr
+ ei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261218-le-fly-club-tour-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T190000
+DTEND;TZID=Europe/Berlin:20261218T210000
+SUMMARY:Le Fly – Club Tour 2026
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20261218-gregorian-magical-christmas-tour-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Gregorian »Magical Christmas Tour 2026«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.glocke.de/all-events/page/7/
+URL:https://www.glocke.de/all-events/page/7/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261218-ozzyfied@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T210000
+DTEND;TZID=Europe/Berlin:20261218T230000
+SUMMARY:Ozzyfied
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Ozzy Osbourne Cover\, NRW\nEnde: laut Quelle nicht angegeben\nP
+ reis: AK 23\,-\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenf
+ rei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261219-abi-wallenstein-blues-culture@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T210000
+DTEND;TZID=Europe/Berlin:20261219T230000
+SUMMARY:Abi Wallenstein & Blues Culture
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rocking Roots & Rhythm\, Hamburg\nEnde: laut Quelle nicht angeg
+ eben\nPreis: AK 25\,-\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261225-hard-rock-nacht@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Hard Rock Nacht
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Im Aladin & Tivoli.\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.aladin-bremen.de/unser-programm-2/
+URL:https://www.aladin-bremen.de/unser-programm-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20261227-die-liga-der-gewohnlichen-gentlemen@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T200000
+DTEND;TZID=Europe/Berlin:20261227T220000
+SUMMARY:Die Liga der gewöhnlichen Gentlemen
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturzentrum-lagerhaus.de/kultur/3660/die-liga-der
+ -gewoehnlichen-gentlemen
+URL:https://www.kulturzentrum-lagerhaus.de/kultur/3660/die-liga-der-gewoehn
+ lichen-gentlemen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20261228-the-busters-fette-fierzich@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T200000
+DTEND;TZID=Europe/Berlin:20261228T220000
+SUMMARY:The Busters – "Fette Fierzich"
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Ska-Band auf Jubiläumstour\, Kesselhalle.\nEnde: laut Quelle n
+ icht angegeben\nPreis: VVK: 35\,00 € (zzgl. Gebühren)\nTickets: https:/
+ /headlineconcerts.de/produkt/the-busters-bremen-2026/\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.schlachthof-bremen.de/programm/the-busters
+ -2026
+URL:https://www.schlachthof-bremen.de/programm/the-busters-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270108-unheilig-zusatztermin@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T190000
+DTEND;TZID=Europe/Berlin:20270108T210000
+SUMMARY:Unheilig – Zusatztermin
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Zusatzkonzert der „Liebe Glaube Monster Tour 26/27“ wegen g
+ roßer Nachfrage.\nEinlass 17:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nic
+ ht angegeben\nPreis: ab 70\,06 €\nTickets: https://www.eventim.de/noapp/
+ event/unheilig-special-guests-liebe-glaube-monster-tour-202627-oevb-arena-
+ 21056699/?affiliate=DBR&utm_campaign=oevbarena&utm_source=dbr&utm_medium=d
+ p\nQuelle (bitte vor dem Besuch prüfen): https://oevb-arena.de/event/unhe
+ ilig-zusatztermin/
+URL:https://oevb-arena.de/event/unheilig-zusatztermin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270109-titty-twister@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T220000
+DTEND;TZID=Europe/Berlin:20270110T000000
+SUMMARY:Titty Twister
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/tittytwister-2027/
+URL:https://www.aladin-bremen.de/veranstaltungen/tittytwister-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-packhaustheater-20270114-denis-fischer-singt-achim-reichel@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T200000
+DTEND;TZID=Europe/Berlin:20270114T220000
+SUMMARY:Denis Fischer singt Achim Reichel
+LOCATION:Packhaustheater im Schnoor\, Wüstestätte 11\, 28195 Bremen
+DESCRIPTION:Konzert.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://packhaus.theater/termine/
+URL:https://packhaus.theater/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-packhaustheater-20270121-ann-doka-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T190000
+DTEND;TZID=Europe/Berlin:20270121T210000
+SUMMARY:Ann Doka & Band
+LOCATION:Packhaustheater im Schnoor\, Wüstestätte 11\, 28195 Bremen
+DESCRIPTION:Konzert.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://packhaus.theater/termine/
+URL:https://packhaus.theater/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270121-lafee-zusatzshow@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T200000
+DTEND;TZID=Europe/Berlin:20270121T220000
+SUMMARY:LaFee (Zusatzshow) – 20 Jahre Virus Tour (ausverkauft)
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.mode
+ rnes.de/programm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270122-lafee@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T193000
+DTEND;TZID=Europe/Berlin:20270122T213000
+SUMMARY:LaFee – 20 Jahre Virus Tour (ausverkauft)
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.mode
+ rnes.de/programm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270214-abba-diamonds-the-abba-tribute-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T180000
+DTEND;TZID=Europe/Berlin:20270214T200000
+SUMMARY:»ABBA Diamonds« The ABBA Tribute Show
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n18:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/10/
+URL:https://www.glocke.de/all-events/page/10/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270218-manfred-mann-s-earth-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T200000
+DTEND;TZID=Europe/Berlin:20270218T220000
+SUMMARY:Manfred Mann's Earth Band
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/11/
+URL:https://www.glocke.de/all-events/page/11/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20270218-the-rasmus@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T200000
+DTEND;TZID=Europe/Berlin:20270218T220000
+SUMMARY:The Rasmus – Weirdo Tour
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Finnische Rockband auf Tour zum Album „Weirdo“\, in der Kes
+ selhalle.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://www.eventim.de/event/the-
+ rasmus-weirdo-tour-kulturzentrum-schlachthof-21886502/?affiliate=TUG\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.schlachthof-bremen.de/progr
+ amm/the-rasmus
+URL:https://www.schlachthof-bremen.de/programm/the-rasmus
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270225-tribute-deluxe-chaka-khan-meets-simply-red@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T193000
+DTEND;TZID=Europe/Berlin:20270225T213000
+SUMMARY:Tribute Deluxe Chaka Khan meets Simply Red
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n19:30 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/11/
+URL:https://www.glocke.de/all-events/page/11/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270305-the-magic-of-queen-classic-feat-markus-engelstaedt@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T180000
+DTEND;TZID=Europe/Berlin:20270305T200000
+SUMMARY:The Magic of Queen »Classic« feat. Markus Engelstädter
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n18:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20270305-the-music-of-queen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T203000
+DTEND;TZID=Europe/Berlin:20270305T223000
+SUMMARY:The Music Of Queen – Live – Tour 2027
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Queen-Tribute-Show\, im Großen Saal.\n20:30 Uhr (die Quelle sa
+ gt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nTic
+ kets: https://www.ticketmaster.de/event/421990096?language=de-de&track=Dis
+ coveryAPI&subchannel_id=10128&camefrom=de_nordwest_shop_mtb&brand=de_nwt_m
+ tb\nQuelle (bitte vor dem Besuch prüfen): https://metropol-theater-bremen
+ .de/programm/events/the-music-of-queen/
+URL:https://metropol-theater-bremen.de/programm/events/the-music-of-queen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20270306-bernd-begemann-die-befreiung@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T200000
+DTEND;TZID=Europe/Berlin:20270306T220000
+SUMMARY:Bernd Begemann & Die Befreiung
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Konzert im Saal (Rock/Punk laut Seite).\nEinlass 19:00\, Beginn
+  20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 25 € zzgl. Gebühr
+ en\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturzentrum-lager
+ haus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270306-ina-mueller-und-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T200000
+DTEND;TZID=Europe/Berlin:20270306T220000
+SUMMARY:Ina Müller und Band
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/events/?subPage=3
+URL:https://oevb-arena.de/events/?subPage=3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20270307-udo-lindenberg-tribute-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T140000
+DTEND;TZID=Europe/Berlin:20270307T160000
+SUMMARY:Udo Lindenberg Tribute Show – Odyssee
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Tribute-Band mit den Hits von Udo Lindenberg\, rockig und unplu
+ gged\, im Großen Saal.\n14:00 Uhr (die Quelle sagt nicht\, ob Einlass ode
+ r Beginn)\nEnde: laut Quelle nicht angegeben\nTickets: https://www.ticketm
+ aster.de/event/1248558805?language=de-de&track=DiscoveryAPI&subchannel_id=
+ 10128&camefrom=de_nordwest_shop_mtb&brand=de_nwt_mtb\nQuelle (bitte vor de
+ m Besuch prüfen): https://metropol-theater-bremen.de/programm/events/udo-
+ lindenberg-tribute/
+URL:https://metropol-theater-bremen.de/programm/events/udo-lindenberg-tribu
+ te/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20270307-barry-white-tribute-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T193000
+DTEND;TZID=Europe/Berlin:20270307T213000
+SUMMARY:Barry White Tribute Show – by Tony Davis and Orchestra
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Tribute-Konzert mit 13 Musikerinnen und Musikern\, im Großen S
+ aal.\nEnde: laut Quelle nicht angegeben\nTickets: https://www.ticketmaster
+ .de/event/772660972?language=de-de&track=DiscoveryAPI&subchannel_id=10128&
+ camefrom=de_nordwest_shop_mtb&brand=de_nwt_mtb\nQuelle (bitte vor dem Besu
+ ch prüfen): https://metropol-theater-bremen.de/programm/events/barry-whit
+ e-tribute-show/
+URL:https://metropol-theater-bremen.de/programm/events/barry-white-tribute-
+ show/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20270310-the-rock-orchestra@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270310T200000
+DTEND;TZID=Europe/Berlin:20270310T220000
+SUMMARY:The Rock Orchestra by Candlelight
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Rock- und Metal-Klassiker in orchestraler Besetzung\, im Große
+ n Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde:
+  laut Quelle nicht angegeben\nTickets: https://www.ticketmaster.de/event/1
+ 577167043?language=de-de&track=DiscoveryAPI&subchannel_id=10128&camefrom=d
+ e_nordwest_shop_mtb&brand=de_nwt_mtb\nQuelle (bitte vor dem Besuch prüfen
+ ): https://metropol-theater-bremen.de/programm/events/the-rock-orchestra/
+URL:https://metropol-theater-bremen.de/programm/events/the-rock-orchestra/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20270311-the-simon-garfunkel-story@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T200000
+DTEND;TZID=Europe/Berlin:20270311T220000
+SUMMARY:The Simon & Garfunkel Story
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Tribute-Show aus dem Londoner West End\, im Großen Saal.\nEnde
+ : laut Quelle nicht angegeben\nTickets: https://www.ticketmaster.de/event/
+ 606841280?language=de-de&track=DiscoveryAPI&subchannel_id=10128&camefrom=d
+ e_nordwest_shop_mtb&brand=de_nwt_mtb\nQuelle (bitte vor dem Besuch prüfen
+ ): https://metropol-theater-bremen.de/programm/events/the-simon-garfunkel-
+ story/
+URL:https://metropol-theater-bremen.de/programm/events/the-simon-garfunkel-
+ story/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20270312-mia@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:MIA. – Euphorie & Alltag LIVE 2027
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Tour zum achten Album mit neuen und älteren Songs\, in der Kes
+ selhalle.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://www.eventim.de/event/mia-
+ euphorie-alltag-live-kulturzentrum-schlachthof-21426535/?affiliate=TUG\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.schlachthof-bremen.de/pro
+ gramm/mia
+URL:https://www.schlachthof-bremen.de/programm/mia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270313-one-step-closer@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T190000
+DTEND;TZID=Europe/Berlin:20270313T210000
+SUMMARY:One Step Closer – A Tribute to Linkin Park
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270314-orange-blue@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T180000
+DTEND;TZID=Europe/Berlin:20270314T200000
+SUMMARY:Orange Blue – SHE'S GOT THAT LIGHT TOUR 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 17:00\, Beginn 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270327-the-michael-jackson-tribute-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270327T193000
+DTEND;TZID=Europe/Berlin:20270327T213000
+SUMMARY:The Michael Jackson Tribute Show
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n19:30 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/13/
+URL:https://www.glocke.de/all-events/page/13/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270401-true-collins-die-gro-te-phil-collins-genesis-tribut
+ e-sh@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270401T193000
+DTEND;TZID=Europe/Berlin:20270401T213000
+SUMMARY:»True Collins« Die Größte Phil Collins & Genesis Tribute Show E
+ uropas
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270403-pop-meets-classic-the-symphonic-celebration@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270403T190000
+DTEND;TZID=Europe/Berlin:20270403T210000
+SUMMARY:Pop meets Classic – The Symphonic Celebration
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-boulevardtheater-20270408-gregor-meyle-band@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270408T200000
+DTEND;TZID=Europe/Berlin:20270408T220000
+SUMMARY:Gregor Meyle & Band
+LOCATION:Boulevardtheater Bremen\, Am Tabakquartier 8\, 28197 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://boulevardtheater-bremen.de/termine-tickets
+URL:https://boulevardtheater-bremen.de/termine-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270413-coldplay-music@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270413T190000
+DTEND;TZID=Europe/Berlin:20270413T210000
+SUMMARY:»Coldplay Music«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270413-chris-norman-band@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270413T193000
+DTEND;TZID=Europe/Berlin:20270413T213000
+SUMMARY:Chris Norman & Band
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/events/?subPage=4
+URL:https://oevb-arena.de/events/?subPage=4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270413-nazareth@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270413T200000
+DTEND;TZID=Europe/Berlin:20270413T220000
+SUMMARY:Nazareth – Right\, Left & Centre Tour 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-04-13/nazareth/
+URL:https://modernes.de/events/2027-04-13/nazareth/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-tivoli-20270508-the-story-of-rock-rock-united@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270508T200000
+DTEND;TZID=Europe/Berlin:20270508T220000
+SUMMARY:The Story of Rock (Rock United)
+LOCATION:Tivoli\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/the-story-of-rock/
+URL:https://www.aladin-bremen.de/veranstaltungen/the-story-of-rock/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270520-die-happy@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270520T200000
+DTEND;TZID=Europe/Berlin:20270520T220000
+SUMMARY:Die Happy – Empathy is no Weakness 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-05-20/die-happy/
+URL:https://modernes.de/events/2027-05-20/die-happy/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270523-heaven-can-wait-chor-still-alive-jetzt-erst-recht@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270523T190000
+DTEND;TZID=Europe/Berlin:20270523T210000
+SUMMARY:Heaven can Wait Chor »Still alive – Jetzt erst recht!«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/14/
+URL:https://www.glocke.de/all-events/page/14/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270701-simon-garfunkel-tribute-meets-classic@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Simon & Garfunkel Tribute meets Classic
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270702-dick-brave-summer-nights@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:Dick Brave – Summer Nights
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270703-summer-grooves-the-ultimate-80s-90s-plus-festival
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:SUMMER GROOVES – The Ultimate 80s/90s Plus Festival
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270705-the-beatles-universe-tribute-show@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:THE BEATLES UNIVERSE – Tribute Show
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270706-toto-50th-anniversary-tour-2027@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270707
+SUMMARY:TOTO – 50th Anniversary Tour 2027
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270707-the-hooters-every-ticket-tells-a-story-summer-tou
+ r-2027@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+SUMMARY:The Hooters – Every Ticket Tells A Story Summer Tour 2027
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270713-philharmonic-rock@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:Philharmonic Rock
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270720-italo-pop-night@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Italo Pop Night
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270721-saga@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:SAGA
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270723-nico-santos-pov-summer-tour-2027@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Nico Santos – POV: Summer Tour 2027
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270729-pink-floyd-performed-by-echoes@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:Pink Floyd performed by echoes
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270808-tribute-legends-open-air-eagles-springsteen-fleet
+ wood-m@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+SUMMARY:Tribute Legends Open Air – Eagles\, Springsteen\, Fleetwood Mac
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270811-queen-tribute-show-performed-by-break-free@myeven
+ thub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:Queen Tribute Show performed by Break Free
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270813-abba-gold-the-concert-show@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:ABBA GOLD – The Concert Show
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270818-lieder-unseres-lebens-die-80er@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:Lieder unseres Lebens – Die 80er
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20271007-querbeat@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271007T200000
+DTEND;TZID=Europe/Berlin:20271007T220000
+SUMMARY:Querbeat – TUTTI VIBE CLUBTOUR
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-10-07/querbeat/
+URL:https://modernes.de/events/2027-10-07/querbeat/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-tivoli-20271029-brdigung-letzte-party-vor-dem-weltuntergang-tour-202
+ 7@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271029T200000
+DTEND;TZID=Europe/Berlin:20271029T220000
+SUMMARY:BRDIGUNG – Letzte Party vor dem Weltuntergang Tour 2027
+LOCATION:Tivoli\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/brdigung/
+URL:https://www.aladin-bremen.de/veranstaltungen/brdigung/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20271112-karat-45-jahre-der-blaue-planet@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271112T200000
+DTEND;TZID=Europe/Berlin:20271112T220000
+SUMMARY:KARAT 45 Jahre »Der blaue Planet«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/16/
+URL:https://www.glocke.de/all-events/page/16/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20271114-kim-wilde@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271114T190000
+DTEND;TZID=Europe/Berlin:20271114T210000
+SUMMARY:Kim Wilde – The Singles Tour 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-11-14/kim-wilde/
+URL:https://modernes.de/events/2027-11-14/kim-wilde/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20271117-gregor-haegele@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271117T200000
+DTEND;TZID=Europe/Berlin:20271117T220000
+SUMMARY:Gregor Hägele – hauptsache mit liebe - tour 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-11-17/gregor-haegele/
+URL:https://modernes.de/events/2027-11-17/gregor-haegele/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20271124-wincent-weiss@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271124T200000
+DTEND;TZID=Europe/Berlin:20271124T220000
+SUMMARY:Wincent Weiss
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/wincent-weiss/
+URL:https://oevb-arena.de/event/wincent-weiss/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20280311-the-australian-bee-gees-show@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20280311T193000
+DTEND;TZID=Europe/Berlin:20280311T213000
+SUMMARY:»The Australian Bee Gees Show«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/17/
+URL:https://www.glocke.de/all-events/page/17/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

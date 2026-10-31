@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Cottbus · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cb-stadthalle-20261119-gregorian@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Gregorian
+LOCATION:Stadthalle Cottbus\, Cottbus
+DESCRIPTION:Ausverkauft.\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.cmt-cottbus.de/veranstaltungen/
+URL:https://www.cmt-cottbus.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-stadthalle-20261226-the-original-usa-gospel-singers-band@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:The Original USA Gospel Singers & Band
+LOCATION:Stadthalle Cottbus\, Cottbus
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.cmt-cottbus.
+ de/veranstaltungen/
+URL:https://www.cmt-cottbus.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-stadthalle-20270218-koenig-der-loewen-live-in-concert@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:König der Löwen – Live in Concert
+LOCATION:Stadthalle Cottbus\, Cottbus
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.cmt-cottbus.
+ de/veranstaltungen/
+URL:https://www.cmt-cottbus.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-stadthalle-20270306-musikparade-2027@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:Musikparade 2027
+LOCATION:Stadthalle Cottbus\, Cottbus
+DESCRIPTION:Vorstellungen 13 und 18 Uhr.\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.cmt-cottbus.de/veranstaltungen/
+URL:https://www.cmt-cottbus.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

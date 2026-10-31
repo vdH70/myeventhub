@@ -1,0 +1,715 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Osnabrück · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:os-isp-jump-house-20261016-halloween-challenge-ende@myeventhub.de
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Halloween Challenge
+LOCATION:JUMP House Osnabrück\, Am Schürholz 6\, 49078 Osnabrück
+DESCRIPTION:Rätselsuche nach sechs versteckten Gruselfiguren im Park\, mit
+  Belohnung an der Kasse.\nLaufzeit: 16.10.2026 bis 1.11.2026\nPreis: 3\,50
+  € pro Person zusätzlich zum Eintritt\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.jumphouse.de/halloween/
+URL:https://www.jumphouse.de/halloween/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20261101-der-mumpel@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Der Mumpel
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Kindertheater nach einem Bilderbuch\, compania t\, für Kinder 
+ ab 3 Jahren\, 40 Min.\, Saal.\nEnde: laut Quelle nicht angegeben\nPreis: V
+ VK 8\,00 € / AK 8\,00 €\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.lagerhalle-osnabrueck.de/content/veranstaltungen/der-mumpel/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/der-mumpel
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20261108-tanzen-goes-minis@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:TANZEN! goes Minis
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Kinderdisco mit „Tanzen mit Therese“ – Kinderlieder und a
+ ktuelle Hits zum Mitmachen für Kinder und Begleitung. Spitzboden.\nEnde: 
+ laut Quelle nicht angegeben\nPreis: VVK 4\,00 € / AK 6\,00 €\; Kinder 
+ bis 2 Jahre frei\nQuelle (bitte vor dem Besuch prüfen): https://www.lager
+ halle-osnabrueck.de/content/veranstaltungen/tanzen-goes-minis-2/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/tanzen-goe
+ s-minis-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-emma-theater-20261108-die-prinzessin-die-auszog-den-prinzen-zu-rette
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T160000
+DTEND;TZID=Europe/Berlin:20261108T180000
+SUMMARY:Die Prinzessin\, die auszog\, den Prinzen zu retten
+LOCATION:emma-theater (Theater Osnabrück)\, Lotter Straße 6\, 49078 Osnab
+ rück
+DESCRIPTION:Märchen mit vertauschten Rollen: Die Prinzessin rettet den von
+  einem kurzsichtigen Drachen entführten Prinzen (Junges Theater Oskar)\, 
+ ab 5 Jahren. Letzte Vorstellung.\nEnde: laut Quelle nicht angegeben\nTicke
+ ts: https://theaterosnabrueck-shop.comfortticket.de/\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.theater-osnabrueck.de/veranstaltung/Die+Pri
+ nzessin%2C+die+auszog%2C+den+Prinzen+zu+retten+/815/13091
+URL:https://www.theater-osnabrueck.de/veranstaltung/Die+Prinzessin%2C+die+a
+ uszog%2C+den+Prinzen+zu+retten+/815/13091
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20261113-erde-junges-konzert@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T153000
+DTEND;TZID=Europe/Berlin:20261113T173000
+SUMMARY:Erde (Junges Konzert)
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Kinderkonzert für 1–6 Jahre mit Begleitung: Musiker:innen de
+ s Osnabrücker Symphonieorchesters (Streichquartett)\; Kinder dürfen mitm
+ achen\, danach Instrumente aus der Nähe. Oberes Foyer\, Theater am Domhof
+ .\nEnde: laut Quelle nicht angegeben\nTickets: https://theaterosnabrueck-s
+ hop.comfortticket.de/\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ theater-osnabrueck.de/veranstaltung/Erde/987/13111
+URL:https://www.theater-osnabrueck.de/veranstaltung/Erde/987/13111
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20261115-dieser-hase-gehoert-kathi-braun@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Dieser Hase gehört Kathi Braun
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Figurentheater mit Kirsten Roß\, für Kinder ab 3 Jahren\, ca.
+  50 Min.\, Spitzboden.\nEnde: laut Quelle nicht angegeben\nPreis: VVK 8\,0
+ 0 € / AK 8\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.l
+ agerhalle-osnabrueck.de/content/veranstaltungen/dieser-hase-gehoert-kathi-
+ braun/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/dieser-has
+ e-gehoert-kathi-braun/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-emma-theater-20261115-rico-oskar-und-die-tieferschatten@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:Rico\, Oskar und die Tieferschatten
+LOCATION:emma-theater (Theater Osnabrück)\, Lotter Straße 6\, 49078 Osnab
+ rück
+DESCRIPTION:Nach dem Roman von Andreas Steinhöfel\, Bühnenfassung Felicit
+ as Loewe (Junges Theater Oskar)\, ab 10 Jahren. Kein Nacheinlass.\nEnde: l
+ aut Quelle nicht angegeben\nTickets: https://theaterosnabrueck-shop.comfor
+ tticket.de/\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-os
+ nabrueck.de/veranstaltung/Rico%2C+Oskar+und+die+Tieferschatten/953/12785
+URL:https://www.theater-osnabrueck.de/veranstaltung/Rico%2C+Oskar+und+die+T
+ ieferschatten/953/12785
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-kamp-promenade-20261121-weihnachtsbaeckerei@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T110000
+DTEND;TZID=Europe/Berlin:20261121T130000
+SUMMARY:Weihnachtsbäckerei
+LOCATION:Kamp-Promenade\, Kamp 49\, 49074 Osnabrück
+DESCRIPTION:Weihnachtliche Backaktion im Center\, 11–18 Uhr.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .kamp-promenade.de/events
+URL:https://www.kamp-promenade.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20261122-randale@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Randale
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Rockmusik für Kinder (Rock\, Punk\, Ska\, Reggae u. a.)\, ab 5
+  Jahren\; unbestuhlt\, Saal.\nEnde: laut Quelle nicht angegeben\nPreis: VV
+ K 12\,00 € / AK 15\,00 €\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.lagerhalle-osnabrueck.de/content/veranstaltungen/randale/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/randale/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20261129-die-kleine-hexe-1600@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Die kleine Hexe
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Premiere. Familienstück zur Weihnachtszeit nach Otfried Preuß
+ ler (Junges Theater Oskar)\, ab 6 Jahren. Theater am Domhof.\nEnde: laut Q
+ uelle nicht angegeben\nTickets: https://theaterosnabrueck-shop.comforttick
+ et.de/\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-osnabru
+ eck.de/veranstaltung/Die+Kleine+Hexe/947/12701
+URL:https://www.theater-osnabrueck.de/veranstaltung/Die+Kleine+Hexe/947/127
+ 01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-kamp-promenade-20261205-besuch-vom-weihnachtsmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T110000
+DTEND;TZID=Europe/Berlin:20261205T130000
+SUMMARY:Besuch vom Weihnachtsmann
+LOCATION:Kamp-Promenade\, Kamp 49\, 49074 Osnabrück
+DESCRIPTION:Der Weihnachtsmann kommt in die Kamp-Promenade\, 11–18 Uhr.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.kamp-promenade.de/events
+URL:https://www.kamp-promenade.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20261206-die-kleine-hexe-1430@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T143000
+DTEND;TZID=Europe/Berlin:20261206T163000
+SUMMARY:Die kleine Hexe
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Familienstück zur Weihnachtszeit nach Otfried Preußler (Junge
+ s Theater Oskar)\, ab 6 Jahren. Theater am Domhof.\nEnde: laut Quelle nich
+ t angegeben\nTickets: https://theaterosnabrueck-shop.comfortticket.de/\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theater-osnabrueck.de/ver
+ anstaltung/Die+Kleine+Hexe/947/12701
+URL:https://www.theater-osnabrueck.de/veranstaltung/Die+Kleine+Hexe/947/127
+ 01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20261206-die-kleine-hexe-1630@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T163000
+DTEND;TZID=Europe/Berlin:20261206T183000
+SUMMARY:Die kleine Hexe
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Familienstück zur Weihnachtszeit nach Otfried Preußler (Junge
+ s Theater Oskar)\, ab 6 Jahren. Theater am Domhof.\nEnde: laut Quelle nich
+ t angegeben\nTickets: https://theaterosnabrueck-shop.comfortticket.de/\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theater-osnabrueck.de/ver
+ anstaltung/Die+Kleine+Hexe/947/12701
+URL:https://www.theater-osnabrueck.de/veranstaltung/Die+Kleine+Hexe/947/127
+ 01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20261213-die-kleine-hexe-1430@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T143000
+DTEND;TZID=Europe/Berlin:20261213T163000
+SUMMARY:Die kleine Hexe
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Familienstück zur Weihnachtszeit nach Otfried Preußler (Junge
+ s Theater Oskar)\, ab 6 Jahren. Theater am Domhof.\nEnde: laut Quelle nich
+ t angegeben\nTickets: https://theaterosnabrueck-shop.comfortticket.de/\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theater-osnabrueck.de/ver
+ anstaltung/Die+Kleine+Hexe/947/12701
+URL:https://www.theater-osnabrueck.de/veranstaltung/Die+Kleine+Hexe/947/127
+ 01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20261213-herr-jan-seine-superbaend@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Herr Jan & seine Superbänd
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:„Elternative Kindiemukke“ zwischen Singer-Songwriter-Pop\, 
+ Reggae und Hip-Hop\, ab 4 Jahren.\nEnde: laut Quelle nicht angegeben\nPrei
+ s: VVK 15\,00 € / AK 18\,00 €\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/herr-jan-sein
+ e-superband/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/herr-jan-s
+ eine-superband/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20261220-kinderkonzert-mit-jerome-morris@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Kinderkonzert mit Jerome Morris
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Der irische Musiker singt deutsche Kinderlieder sowie englische
+  und gälische Traditionals\, ab 4 Jahren.\nEnde: laut Quelle nicht angege
+ ben\nPreis: VVK 8\,00 € / AK 8\,00 €\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/kinde
+ rkonzert-mit-jerome-morris/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/kinderkonz
+ ert-mit-jerome-morris/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20261220-familienweihnachtskonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T160000
+DTEND;TZID=Europe/Berlin:20261220T180000
+SUMMARY:Familienweihnachtskonzert
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Weihnachtskonzert des Osnabrücker Symphonieorchesters als Fami
+ lienkonzert für Groß und Klein\, ab 6 Jahren\; Dirigent Benjamin Huth\, 
+ Moderation Joanna Willenbrink\, Solist:innen aus dem Ensemble. Theater am 
+ Domhof.\nEnde: laut Quelle nicht angegeben\nTickets: https://theaterosnabr
+ ueck-shop.comfortticket.de/\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.theater-osnabrueck.de/veranstaltung/Familienweihnachtskonzert+-+2026
+ 2027/978/12874
+URL:https://www.theater-osnabrueck.de/veranstaltung/Familienweihnachtskonze
+ rt+-+20262027/978/12874
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20261226-die-kleine-hexe-1130@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T113000
+DTEND;TZID=Europe/Berlin:20261226T133000
+SUMMARY:Die kleine Hexe
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Familienstück zur Weihnachtszeit nach Otfried Preußler (Junge
+ s Theater Oskar)\, ab 6 Jahren. Theater am Domhof.\nEnde: laut Quelle nich
+ t angegeben\nTickets: https://theaterosnabrueck-shop.comfortticket.de/\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theater-osnabrueck.de/ver
+ anstaltung/Die+Kleine+Hexe/947/12701
+URL:https://www.theater-osnabrueck.de/veranstaltung/Die+Kleine+Hexe/947/127
+ 01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20261226-die-kleine-hexe-1430@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T143000
+DTEND;TZID=Europe/Berlin:20261226T163000
+SUMMARY:Die kleine Hexe
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Familienstück zur Weihnachtszeit nach Otfried Preußler (Junge
+ s Theater Oskar)\, ab 6 Jahren. Theater am Domhof.\nEnde: laut Quelle nich
+ t angegeben\nTickets: https://theaterosnabrueck-shop.comfortticket.de/\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theater-osnabrueck.de/ver
+ anstaltung/Die+Kleine+Hexe/947/12701
+URL:https://www.theater-osnabrueck.de/veranstaltung/Die+Kleine+Hexe/947/127
+ 01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270101-die-kleine-hexe-1430@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T143000
+DTEND;TZID=Europe/Berlin:20270101T163000
+SUMMARY:Die kleine Hexe
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Familienstück zur Weihnachtszeit nach Otfried Preußler (Junge
+ s Theater Oskar)\, ab 6 Jahren. Theater am Domhof.\nEnde: laut Quelle nich
+ t angegeben\nTickets: https://theaterosnabrueck-shop.comfortticket.de/\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theater-osnabrueck.de/ver
+ anstaltung/Die+Kleine+Hexe/947/12701
+URL:https://www.theater-osnabrueck.de/veranstaltung/Die+Kleine+Hexe/947/127
+ 01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270101-die-kleine-hexe-1630@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T163000
+DTEND;TZID=Europe/Berlin:20270101T183000
+SUMMARY:Die kleine Hexe
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Familienstück zur Weihnachtszeit nach Otfried Preußler (Junge
+ s Theater Oskar)\, ab 6 Jahren. Theater am Domhof.\nEnde: laut Quelle nich
+ t angegeben\nTickets: https://theaterosnabrueck-shop.comfortticket.de/\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.theater-osnabrueck.de/ver
+ anstaltung/Die+Kleine+Hexe/947/12701
+URL:https://www.theater-osnabrueck.de/veranstaltung/Die+Kleine+Hexe/947/127
+ 01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270110-tanzen-goes-minis@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T150000
+DTEND;TZID=Europe/Berlin:20270110T170000
+SUMMARY:TANZEN! goes Minis
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Kinderdisco mit Kinderliedern und aktuellen Hits zum Mitmachen.
+  Kneipe & Foyer.\nEnde: laut Quelle nicht angegeben\nPreis: VVK 4\,00 € 
+ / AK 6\,00 €\; Kinder bis 2 Jahre frei\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/tanze
+ n-goes-minis-3/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/tanzen-goe
+ s-minis-3/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270114-luft-junges-konzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T153000
+DTEND;TZID=Europe/Berlin:20270114T173000
+SUMMARY:Luft (Junges Konzert)
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Kinderkonzert für 1–6 Jahre mit Begleitung: Musiker:innen de
+ s Osnabrücker Symphonieorchesters (Klarinette und Fagott)\; Kinder dürfe
+ n mitmachen\, danach Instrumente aus der Nähe. Oberes Foyer\, Theater am 
+ Domhof.\nEnde: laut Quelle nicht angegeben\nTickets: https://theaterosnabr
+ ueck-shop.comfortticket.de/\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.theater-osnabrueck.de/veranstaltung/Luft/990/12902
+URL:https://www.theater-osnabrueck.de/veranstaltung/Luft/990/12902
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270117-ufolino-mitmachkino@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T150000
+DTEND;TZID=Europe/Berlin:20270117T170000
+SUMMARY:UFOlino – Mitmachkino
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Mitmachkino mit Kurzfilmen (ca. 40 Min.) und Bastelaktionen\, a
+ b 4 Jahren\, ca. 1\,5 Std.\; in Kooperation mit dem Filmfest Osnabrück.\n
+ Ende: laut Quelle nicht angegeben\nPreis: 5 € für Kinder und Erwachsene
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.lagerhalle-osnabrueck
+ .de/content/veranstaltungen/ufolino-mitmachkino-2/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/ufolino-mi
+ tmachkino-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270122-luft-junges-konzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T153000
+DTEND;TZID=Europe/Berlin:20270122T173000
+SUMMARY:Luft (Junges Konzert)
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Kinderkonzert für 1–6 Jahre mit Begleitung: Musiker:innen de
+ s Osnabrücker Symphonieorchesters (Klarinette und Fagott)\; Kinder dürfe
+ n mitmachen\, danach Instrumente aus der Nähe. Oberes Foyer\, Theater am 
+ Domhof.\nEnde: laut Quelle nicht angegeben\nTickets: https://theaterosnabr
+ ueck-shop.comfortticket.de/\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.theater-osnabrueck.de/veranstaltung/Luft/990/12902
+URL:https://www.theater-osnabrueck.de/veranstaltung/Luft/990/12902
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270124-schneewittchen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T150000
+DTEND;TZID=Europe/Berlin:20270124T170000
+SUMMARY:Schneewittchen
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Figurentheater nach den Brüdern Grimm mit Jeannette Luft (Spie
+ l) und Gisela Fischer (Akkordeon)\, ab 4 Jahren\, ca. 40 Min.\, Spitzboden
+ . Verlegter Termin\, bereits gekaufte Karten behalten ihre Gültigkeit.\nE
+ nde: laut Quelle nicht angegeben\nPreis: VVK 8\,50 € / AK 8\,50 €\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.lagerhalle-osnabrueck.de/c
+ ontent/veranstaltungen/schneewittchen-2/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/schneewitt
+ chen-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270130-luft-junges-konzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T153000
+DTEND;TZID=Europe/Berlin:20270130T173000
+SUMMARY:Luft (Junges Konzert)
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Kinderkonzert für 1–6 Jahre mit Begleitung: Musiker:innen de
+ s Osnabrücker Symphonieorchesters (Klarinette und Fagott)\; Kinder dürfe
+ n mitmachen\, danach Instrumente aus der Nähe. Oberes Foyer\, Theater am 
+ Domhof.\nEnde: laut Quelle nicht angegeben\nTickets: https://theaterosnabr
+ ueck-shop.comfortticket.de/\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.theater-osnabrueck.de/veranstaltung/Luft/990/12902
+URL:https://www.theater-osnabrueck.de/veranstaltung/Luft/990/12902
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270214-der-dickste-pinguin-vom-pol@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T150000
+DTEND;TZID=Europe/Berlin:20270214T170000
+SUMMARY:Der dickste Pinguin vom Pol
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Kindertheater nach Ulrich Hub\, Theater PATATIPATATA\, für Kin
+ der ab 4 Jahren und Familien\, 45 Min.\, Saal.\nEnde: laut Quelle nicht an
+ gegeben\nPreis: VVK 8\,00 € / AK 8\,00 €\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/de
+ r-dickste-pinguin-vom-pol/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/der-dickst
+ e-pinguin-vom-pol/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270228-vom-fischer-und-seiner-frau-meer-geht-immer@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T150000
+DTEND;TZID=Europe/Berlin:20270228T170000
+SUMMARY:Vom Fischer und seiner Frau – Meer geht immer
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Figurentheater mit Musik nach den Brüdern Grimm\, Mensch\, Pup
+ pe!\, ab 4 Jahren\, ca. 40 Min.\, Spitzboden.\nEnde: laut Quelle nicht ang
+ egeben\nPreis: VVK 8\,00 € / AK 8\,00 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/vom
+ -fischer-und-seiner-frau-meer-geht-immer/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/vom-fische
+ r-und-seiner-frau-meer-geht-immer/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270307-ufolino-mitmachkino@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T150000
+DTEND;TZID=Europe/Berlin:20270307T170000
+SUMMARY:UFOlino – Mitmachkino
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Mitmachkino mit Kurzfilmen (ca. 40 Min.) und Bastelaktionen\, a
+ b 4 Jahren\, ca. 1\,5 Std.\; in Kooperation mit dem Filmfest Osnabrück. S
+ aal.\nEnde: laut Quelle nicht angegeben\nPreis: 5 € für Kinder und Erwa
+ chsene\nQuelle (bitte vor dem Besuch prüfen): https://www.lagerhalle-osna
+ brueck.de/content/veranstaltungen/ufolino-mitmachkino-3/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/ufolino-mi
+ tmachkino-3/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270314-wie-der-elefant-zu-seinem-ruessel-kam@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T150000
+DTEND;TZID=Europe/Berlin:20270314T170000
+SUMMARY:Wie der Elefant zu seinem Rüssel kam
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Kindertheater nach Rudyard Kipling\, Theater Tom Teuer\, ab 4 J
+ ahren\, ca. 50 Min.\, Spitzboden.\nEnde: laut Quelle nicht angegeben\nPrei
+ s: VVK 8\,00 € / AK 8\,00 €\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.lagerhalle-osnabrueck.de/content/veranstaltungen/wie-der-elefant
+ -zu-seinem-ruessel-kam/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/wie-der-el
+ efant-zu-seinem-ruessel-kam/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270321-tanzen-goes-minis@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T150000
+DTEND;TZID=Europe/Berlin:20270321T170000
+SUMMARY:TANZEN! goes Minis
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Kinderdisco mit Kinderliedern und aktuellen Hits zum Mitmachen.
+  Kneipe & Foyer.\nEnde: laut Quelle nicht angegeben\nPreis: VVK 4\,00 € 
+ / AK 6\,00 €\; Kinder bis 2 Jahre frei\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/tanze
+ n-goes-minis-4/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/tanzen-goe
+ s-minis-4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

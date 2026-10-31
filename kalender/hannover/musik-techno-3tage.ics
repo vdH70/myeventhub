@@ -1,0 +1,225 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Techno in Hannover · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-wdm-20261031-ultrasozial-w-tham-per-pleks-tba@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T230000
+DTEND;TZID=Europe/Berlin:20261101T010000
+SUMMARY:ULTRASOZIAL w/ Tham\, Per Pleks\, tba
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:23:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://ticket2go.de/c/5948\nQuel
+ le (bitte vor dem Besuch prüfen): https://wdm167.com/event/ultrasozial-w-
+ tham-per-pleks-tba/
+URL:https://wdm167.com/event/ultrasozial-w-tham-per-pleks-tba/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wdm-20261106-euphoria-w-butschi-dj-sonnenbrand-anl@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T230000
+DTEND;TZID=Europe/Berlin:20261107T010000
+SUMMARY:Butschi & DJ Sonnenbrand presents: Outer Limits ALL NIGHT LONG
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:23:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://ticket2go.de/c/5833\nQuel
+ le (bitte vor dem Besuch prüfen): https://wdm167.com/event/euphoria-4/
+URL:https://wdm167.com/event/euphoria-4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wdm-20261107-klubnacht-w-vladimir-dubyshkin-bauhof-session-restore@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T230000
+DTEND;TZID=Europe/Berlin:20261108T010000
+SUMMARY:Klubnacht w/ Vladimir Dubyshkin\, bauhof\, Session Restore
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:23:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://ticket2go.de/c/5980\nQuel
+ le (bitte vor dem Besuch prüfen): https://wdm167.com/event/klubnacht-w-vl
+ adimir-dubyshkin-bauhof-session-restore/
+URL:https://wdm167.com/event/klubnacht-w-vladimir-dubyshkin-bauhof-session-
+ restore/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wdm-20261113-klubnacht-w-mathilda-gold-teeth-adjustin@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T230000
+DTEND;TZID=Europe/Berlin:20261114T010000
+SUMMARY:Klubnacht w/ Mathilda\, Gold Teeth\, adjustin'
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:23:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://ticket2go.de/c/5981\nQuel
+ le (bitte vor dem Besuch prüfen): https://wdm167.com/event/klubnacht-w-ma
+ thilda-gold-teeth-adjustin/
+URL:https://wdm167.com/event/klubnacht-w-mathilda-gold-teeth-adjustin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wdm-20261114-exit-w-ben-techy-triptykh-noise-not-war-in-furcht-danna@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T230000
+DTEND;TZID=Europe/Berlin:20261115T010000
+SUMMARY:EXIT w/ Ben Techy\, Triptykh\, Noise Not War\, In Furcht\, Dannae\,
+  J-Dek
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:23:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://ticketticker.de/events/ex
+ it-w-ben-techy-noise-not-war-triptykh-in-furcht-d79ad0\nQuelle (bitte vor 
+ dem Besuch prüfen): https://wdm167.com/event/exit-w-ben-techy-triptykh-no
+ ise-not-war-in-furcht-dannae-j-dek/
+URL:https://wdm167.com/event/exit-w-ben-techy-triptykh-noise-not-war-in-fur
+ cht-dannae-j-dek/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wdm-20261120-obscurite-rekursiv@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T230000
+DTEND;TZID=Europe/Berlin:20261121T010000
+SUMMARY:Obscurité × Rekursiv
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:23:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://wdm167.com/event/obscurite-x-rekursiv/
+URL:https://wdm167.com/event/obscurite-x-rekursiv/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wdm-20261121-obsession-w-quelza-co-co-tarkan-worthmann@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T230000
+DTEND;TZID=Europe/Berlin:20261122T010000
+SUMMARY:OBSESSION w/ Quelza\, co:co\, Tarkan\, Worthmann
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:23:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://ticket2go.de/c/5983\nQuel
+ le (bitte vor dem Besuch prüfen): https://wdm167.com/event/obsession-with
+ -quelza-coco-tarkan-worthmann/
+URL:https://wdm167.com/event/obsession-with-quelza-coco-tarkan-worthmann/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wdm-20261127-klubnacht-w-filapa-bauhof-maris-shilton@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T230000
+DTEND;TZID=Europe/Berlin:20261128T010000
+SUMMARY:Klubnacht w/ filapa\, bauhof\, Maris Shilton
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:23:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://ticket2go.de/c/5984\nQuel
+ le (bitte vor dem Besuch prüfen): https://wdm167.com/event/klubnacht-w-fi
+ lapa-bauhof-maris-shilton/
+URL:https://wdm167.com/event/klubnacht-w-filapa-bauhof-maris-shilton/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wdm-20261128-need-more-speed@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T230000
+DTEND;TZID=Europe/Berlin:20261129T010000
+SUMMARY:NEED MORE SPEED
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:23:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://wdm167.com/event/need-more-speed/
+URL:https://wdm167.com/event/need-more-speed/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wdm-20261219-schranz-is-back-hannover-with-felix-kroecher@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T230000
+DTEND;TZID=Europe/Berlin:20261220T010000
+SUMMARY:SCHRANZ is BACK Hannover with Felix Kröcher
+LOCATION:WDM (Weidendamm)\, Weidendamm 8\, 30167 Hannover
+DESCRIPTION:Schranz-Nacht mit Felix Kröcher.\n23:00 Uhr (die Quelle sagt n
+ icht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nTickets
+ : https://schranz-is-back.ticket.io/EJ9EFgdf/\nQuelle (bitte vor dem Besuc
+ h prüfen): https://wdm167.com/event/schranz-is-back-hannover-with-felix-k
+ roecher/
+URL:https://wdm167.com/event/schranz-is-back-hannover-with-felix-kroecher/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

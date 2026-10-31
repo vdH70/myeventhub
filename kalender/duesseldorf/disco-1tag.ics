@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Disco in Düsseldorf · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d-stahlwerk-20261031-halloween-party@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween Party
+LOCATION:Stahlwerk Düsseldorf\, Ronsdorfer Straße 134\, 40233 Düsseldorf
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stahlwerk.de/eve
+ nt/halloween-party
+URL:https://stahlwerk.de/event/halloween-party
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-stahlwerk-20261128-70-jahre-bravo-party@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:70 Jahre Bravo (Party)
+LOCATION:Stahlwerk Düsseldorf\, Ronsdorfer Straße 134\, 40233 Düsseldorf
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stahlwerk.de/eve
+ nt/70-jahre-bravo
+URL:https://stahlwerk.de/event/70-jahre-bravo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-stahlwerk-20261205-old-but-gold-u30-hip-hop-party@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Old but Gold Ü30 Hip Hop Party
+LOCATION:Stahlwerk Düsseldorf\, Ronsdorfer Straße 134\, 40233 Düsseldorf
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stahlwerk.de/eve
+ nt/old-but-gold-ue30-hip-hop-party-8
+URL:https://stahlwerk.de/event/old-but-gold-ue30-hip-hop-party-8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-stahlwerk-20261231-silvester-xxl@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Silvester XXL
+LOCATION:Stahlwerk Düsseldorf\, Ronsdorfer Straße 134\, 40233 Düsseldorf
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stahlwerk.de/eve
+ nt/silvester-xxl-4
+URL:https://stahlwerk.de/event/silvester-xxl-4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

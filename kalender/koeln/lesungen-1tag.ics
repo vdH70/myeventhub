@@ -1,0 +1,293 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Köln · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:k-comedia-20261101-abus-securus-szenische-lesung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T170000
+DTEND;TZID=Europe/Berlin:20261101T190000
+SUMMARY:Abus & Securus (szenische Lesung)
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://comedia-koeln.de/programm/unsere-
+ gaeste/abus-securus/
+URL:https://comedia-koeln.de/programm/unsere-gaeste/abus-securus/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261102-annette-dittert-dear-britain@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Annette Dittert – »Dear Britain«
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261104-aktenzeichen-paranormal-livegeflue
+ ster@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Aktenzeichen Paranormal – Livegeflüster
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-rautenstrauch-joest-museum-20261105-das-haus-ohne-lichter@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T160000
+DTEND;TZID=Europe/Berlin:20261105T180000
+SUMMARY:„Das Haus ohne Lichter“
+LOCATION:Rautenstrauch-Joest-Museum – Kulturen der Welt\, Cäcilienstraß
+ e 29-33\, 50667 Köln
+DESCRIPTION:Lesung für Kinder ab 5 Jahren.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.rautenstrauch-joes
+ t-museum.de/default.aspx?s=4389
+URL:https://www.rautenstrauch-joest-museum.de/default.aspx?s=4389
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-rautenstrauch-joest-museum-20261108-lesung-mit-ruzdija-ru-s-so-sejdov
+ ic@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Lesung mit Ruždija „Ru(s)so“ Sejdović
+LOCATION:Rautenstrauch-Joest-Museum – Kulturen der Welt\, Cäcilienstraß
+ e 29-33\, 50667 Köln
+DESCRIPTION:Zum Tag des Romanes.\nEnde: laut Quelle nicht angegeben\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.rautenstrauch-joest-museum.de
+ /default.aspx?s=4389
+URL:https://www.rautenstrauch-joest-museum.de/default.aspx?s=4389
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261109-john-strelecky-live-die-1-minuten-
+ methode@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:John Strelecky live – Die 1-Minuten-Methode
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261119-hotel-matze-10-jahre-hotel-matze@m
+ yeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Hotel Matze – 10 Jahre Hotel Matze
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261120-11freunde-live-mit-philipp-koester
+ -und-stephan-rei@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:11FREUNDE live – mit Philipp Köster und Stephan Reich
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261222-viertelstunde-fussball-live@myeven
+ thub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T200000
+DTEND;TZID=Europe/Berlin:20261222T220000
+SUMMARY:Viertelstunde Fussball – LIVE!
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270104-jurgen-von-der-lippe-astrid-kohrs-lesen-je-os
+ trogener-t@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270104T200000
+DTEND;TZID=Europe/Berlin:20270104T220000
+SUMMARY:Jürgen von der Lippe & Astrid Kohrs lesen: „Je östrogener\, tes
+ tosteroner“
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/juergen-von-der-lippe--a
+ strid-kohrs-lesen-04-01-2027
+URL:https://theateramdom.de/stuecke/stueck/juergen-von-der-lippe--astrid-ko
+ hrs-lesen-04-01-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270218-copa-ts-tommi-schmitt-christoph-kr
+ amer@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T200000
+DTEND;TZID=Europe/Berlin:20270218T220000
+SUMMARY:COPA TS – Tommi Schmitt & Christoph Kramer
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270307-ralf-bauer-das-lacheln-am-fu-e-der-leiter@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T110000
+DTEND;TZID=Europe/Berlin:20270307T130000
+SUMMARY:Ralf Bauer: „Das Lächeln am Fuße der Leiter“
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/ralf-bauer---das-laechel
+ n-am-fusse-der-leiter-07-03-2027
+URL:https://theateramdom.de/stuecke/stueck/ralf-bauer---das-laecheln-am-fus
+ se-der-leiter-07-03-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270318-benjamin-von-stuckrad-barre-udo-fr
+ oehliche@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270318T200000
+DTEND;TZID=Europe/Berlin:20270318T220000
+SUMMARY:Benjamin von Stuckrad-Barre – Udo Fröhliche
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270606-isabel-varell-die-guten-alten-zeiten-sind-jet
+ zt@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270606T110000
+DTEND;TZID=Europe/Berlin:20270606T130000
+SUMMARY:Isabel Varell: „Die guten alten Zeiten sind jetzt“
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/isabel-varell---die-gute
+ n-alten-zeiten-sind-jetzt-06-06-2027
+URL:https://theateramdom.de/stuecke/stueck/isabel-varell---die-guten-alten-
+ zeiten-sind-jetzt-06-06-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

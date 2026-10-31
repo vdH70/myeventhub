@@ -1,0 +1,439 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Bonn · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bn-rpz-20261031-rpz-blues-festival-the-motelkings-blues-nuggets@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:RPZ Blues Festival: The Motelkings\, Blues Nuggets
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-muenster-20261031-orgelvesper-mit-guenter-schuermann@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Orgelvesper mit Günter Schürmann
+LOCATION:Bonner Münster (Münsterbasilika St. Martin)\, 53111 Bonn
+DESCRIPTION:Orgelvesper in der Münsterbasilika\, 20 bis 22 Uhr.\nEnde: lau
+ t Quelle nicht angegeben\nPreis: Eintritt frei\, Spenden erbeten\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.bonner-muenster.de/aktuell/musi
+ k-veranstaltungen
+URL:https://www.bonner-muenster.de/aktuell/musik-veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261101-mam-bap-acoustic@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T190000
+DTEND;TZID=Europe/Berlin:20261101T210000
+SUMMARY:MAM – BAP acoustic
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261104-olli-schulz-allein-in-deiner-stadt-tour-2026
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Olli Schulz – Allein in deiner Stadt Tour 2026
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/
+URL:https://www.beethovenhalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261104-boppin-b-solid-as-a-rock-tour@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Boppin' B – Solid as a Rock Tour
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rpz-20261106-amplified-bonn-vol-2-chamber-of-elephants-donbass@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Amplified Bonn Vol. 2: Chamber of Elephants\, Donbass\, Raging Mamm
+ als
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261106-achtung-baby-tribute-to-u2@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Achtung Baby – Tribute to U2
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261107-symphoniacs-europe-tour@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:ABGESAGT: Symphoniacs – Europe Tour
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/
+URL:https://www.beethovenhalle.de/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261107-a-tribute-to-amy-amy-winehouse-show@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:A Tribute to Amy – Amy Winehouse Show
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20261108-bujazzo-irgendwo-auf-der-welt@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Bujazzo - Irgendwo auf der Welt ...
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei (Anmeld
+ ung erbeten)\nQuelle (bitte vor dem Besuch prüfen): https://www.hdg.de/ha
+ us-der-geschichte/veranstaltungen
+URL:https://www.hdg.de/haus-der-geschichte/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20261108-bujazzo-irgendwo-auf-der-welt-1800@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Bujazzo - Irgendwo auf der Welt ...
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei (Anmeld
+ ung erbeten)\nQuelle (bitte vor dem Besuch prüfen): https://www.hdg.de/ha
+ us-der-geschichte/veranstaltungen
+URL:https://www.hdg.de/haus-der-geschichte/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261108-ozzyfied-ozzy-black-sabbath-tribute@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Ozzyfied – Ozzy & Black Sabbath Tribute
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261109-cafe-del-mundo-guitarize-the-world-tour-2026
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Café del Mundo – Guitarize The World Tour 2026
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/
+URL:https://www.beethovenhalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261111-emil-brandqvist-trio-poems-for-travellers@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Emil Brandqvist Trio – Poems for Travellers
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261112-die-kunst-der-freiheit@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Die Kunst der Freiheit
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Mit dem Beethoven Orchester Bonn.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.beethovenhalle.d
+ e/
+URL:https://www.beethovenhalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261113-masken-und-freiheit-beethoven-orchester-bonn
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Masken und Freiheit – Beethoven Orchester Bonn
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261118-filmmusik-live-von-hans-zimmer-bis-john-will
+ iams@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T193000
+DTEND;TZID=Europe/Berlin:20261118T213000
+SUMMARY:Filmmusik live – von Hans Zimmer bis John Williams
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261119-concertante-beethoven-orchester-bonn@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Concertante – Beethoven Orchester Bonn
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rpz-20261120-bonn-to-be-wild-system-defense-my-dominion-maehthr@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Bonn to be Wild: System Defense\, My Dominion\, Mähthräsher
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261120-nights-on-broadway-a-tribute-to-the-bee-gees
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Nights on Broadway – A Tribute to The Bee Gees
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rpz-20261121-beatbox-battle-tag-team-crew-official-qualificatio@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T183000
+DTEND;TZID=Europe/Berlin:20261121T203000
+SUMMARY:Beatbox Battle: Tag Team & Crew Official Qualification
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 18:00\, Beginn 18:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20261121-unterm-junimond-schiefner-lacher-songs-von-
+ rio-rei@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Unterm Junimond – Schiefner & Lacher: Songs von Rio Reiser bis Ud
+ o Jürgens
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rpz-20261210-bravopunks-die-aerzte-cover@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Bravopunks – Die Ärzte Cover
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

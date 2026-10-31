@@ -1,0 +1,602 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Hannover · my Event Hub (Erinnerung 1 Tag vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-marktkirche-20260926-turmfuehrung-marktkirche-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: Turmführung Marktkirche
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Aufstieg über mehr als 350 Stufen zur Aussichtsplattform\; Sch
+ windelfreiheit und feste Schuhe erforderlich\, ab 10 Jahren.\nLaufzeit: 26
+ .9.2026 bis 31.10.2026\nTermine laut Veranstalter: samstags 14:00 Uhr (bel
+ egt 26.9. bis 31.10.)\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ marktkirche-hannover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20261004-sonntagsfuehrung-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Letzter Tag: Sonntagsführung
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Öffentliche Sonntagsführung\; findet ab drei Personen statt.\
+ nLaufzeit: 4.10.2026 bis 27.12.2026\nTermine laut Veranstalter: sonntags 1
+ 0:30 Uhr (am 22.11. um 11:30 Uhr\; kein Termin am 29.11.)\nPreis: 5 € zz
+ gl. Museumseintritt (Kinder 6–16: 1\,50 €)\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.karikatur-museum.de/programm/veranstaltungen/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261031-fuehrung-durch-die-marktkirche-hannover@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T120000
+DTEND;TZID=Europe/Berlin:20261031T140000
+SUMMARY:Führung durch die Marktkirche Hannover mit Fokus auf dem Reformati
+ onsfenster
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Offene Führung\, ohne Anmeldung\, ca. eine Stunde.\nEnde: laut
+  Quelle nicht angegeben\nPreis: kostenfrei\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.marktkirche-hannover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261031-fuehrung-reformationsfenster@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T120000
+DTEND;TZID=Europe/Berlin:20261031T140000
+SUMMARY:Führung mit Fokus auf dem Reformationsfenster
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Kirchenführung mit Schwerpunkt Reformationsfenster.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.marktkirche-hannover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261031-turmfuehrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T140000
+DTEND;TZID=Europe/Berlin:20261031T160000
+SUMMARY:Turmführung
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Turmführung\, etwa anderthalb Stunden.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.marktkirch
+ e-hannover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20261102-ruhe-im-busch@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T150000
+DTEND;TZID=Europe/Berlin:20261102T170000
+SUMMARY:Ruhe im BUSCH
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Geführte Meditationsführung im Museum.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.karikatur
+ -museum.de/programm/veranstaltungen/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261104-sonder-schau-huhn-ei-eierbecher@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T150000
+DTEND;TZID=Europe/Berlin:20261104T170000
+SUMMARY:Sonder-Schau: Huhn\, Ei\, Eierbecher
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 12\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261107-orgelfuehrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T120000
+DTEND;TZID=Europe/Berlin:20261107T140000
+SUMMARY:Orgelführung
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Führung zur Orgel der Marktkirche.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.marktkirche-ha
+ nnover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261107-orgelfuehrung-in-der-marktkirche-hannove@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T120000
+DTEND;TZID=Europe/Berlin:20261107T140000
+SUMMARY:Orgelführung in der Marktkirche Hannover
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Offene Führung\, ohne Anmeldung\, ca. eine Stunde.\nEnde: laut
+  Quelle nicht angegeben\nPreis: kostenfrei\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.marktkirche-hannover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-pelikan-tintenturm-20261108-kostenlose-kuratorenfuehrung@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Kostenlose Kuratorenführung
+LOCATION:Pelikan TintenTurm\, Pelikanplatz 21\, 30177 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.pelikan.com/de/unternehmen/pelika
+ n-tintenturm.html
+URL:https://www.pelikan.com/de/unternehmen/pelikan-tintenturm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-pelikan-tintenturm-20261112-fuehrung-im-pelikan-tintenturm@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T150000
+DTEND;TZID=Europe/Berlin:20261112T170000
+SUMMARY:Führung im Pelikan TintenTurm
+LOCATION:Pelikan TintenTurm\, Pelikanplatz 21\, 30177 Hannover
+DESCRIPTION:Anmeldung bis 2 Tage vorher erforderlich.\nEnde: laut Quelle ni
+ cht angegeben\nPreis: 12\,50 € inkl. MwSt. pro Person\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.pelikan.com/de/unternehmen/pelikan-tinte
+ nturm.html
+URL:https://www.pelikan.com/de/unternehmen/pelikan-tintenturm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-kreuzkirche-20261114-fuehrung-kreuzkirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T120000
+DTEND;TZID=Europe/Berlin:20261114T140000
+SUMMARY:Führung durch die Kreuzkirche
+LOCATION:Kreuzkirche Hannover\, Hannover
+DESCRIPTION:Kirchenführung\, Treffpunkt 12:10 Uhr.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.marktkirch
+ e-hannover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20261115-vom-busch-in-die-faust@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Vom BUSCH in die Faust
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Führung an zwei Standorten.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.karikatur-museum.de/p
+ rogramm/veranstaltungen/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261118-sonder-schau-huhn-ei-eierbecher@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T150000
+DTEND;TZID=Europe/Berlin:20261118T170000
+SUMMARY:Sonder-Schau: Huhn\, Ei\, Eierbecher
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 12\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261119-champagnerfuehrung-mit-vortrag-tasting@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T170000
+DTEND;TZID=Europe/Berlin:20261119T190000
+SUMMARY:Champagnerführung mit Vortrag & Tasting
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 36\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261121-fuehrung-durch-die-marktkirche-hannover@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T120000
+DTEND;TZID=Europe/Berlin:20261121T140000
+SUMMARY:Führung durch die Marktkirche Hannover
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Offene Führung\, ohne Anmeldung\, ca. eine Stunde.\nEnde: laut
+  Quelle nicht angegeben\nPreis: kostenfrei\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.marktkirche-hannover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261121-fuehrung-marktkirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T120000
+DTEND;TZID=Europe/Berlin:20261121T140000
+SUMMARY:Führung durch die Marktkirche
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Öffentliche Kirchenführung.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.marktkirche-hannover
+ .de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20261123-ruhe-im-busch@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T150000
+DTEND;TZID=Europe/Berlin:20261123T170000
+SUMMARY:Ruhe im BUSCH
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Geführte Meditationsführung im Museum.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.karikatur
+ -museum.de/programm/veranstaltungen/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261128-fuehrung-durch-die-marktkirche-hannover@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T120000
+DTEND;TZID=Europe/Berlin:20261128T140000
+SUMMARY:Führung durch die Marktkirche Hannover
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Offene Führung\, ohne Anmeldung\, ca. eine Stunde.\nEnde: laut
+  Quelle nicht angegeben\nPreis: kostenfrei\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.marktkirche-hannover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261128-fuehrung-marktkirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T120000
+DTEND;TZID=Europe/Berlin:20261128T140000
+SUMMARY:Führung durch die Marktkirche
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Öffentliche Kirchenführung.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.marktkirche-hannover
+ .de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261202-sonder-schau-huhn-ei-eierbecher@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T150000
+DTEND;TZID=Europe/Berlin:20261202T170000
+SUMMARY:Sonder-Schau: Huhn\, Ei\, Eierbecher
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 12\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-pelikan-tintenturm-20261206-kostenlose-kuratorenfuehrung@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Kostenlose Kuratorenführung
+LOCATION:Pelikan TintenTurm\, Pelikanplatz 21\, 30177 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.pelikan.com/de/unternehmen/pelika
+ n-tintenturm.html
+URL:https://www.pelikan.com/de/unternehmen/pelikan-tintenturm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261210-champagnerfuehrung-mit-vortrag-tasting@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T170000
+DTEND;TZID=Europe/Berlin:20261210T190000
+SUMMARY:Champagnerführung mit Vortrag & Tasting
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 36\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20261213-vom-busch-in-die-faust@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T140000
+DTEND;TZID=Europe/Berlin:20261213T160000
+SUMMARY:Vom BUSCH in die Faust
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Führung an zwei Standorten.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.karikatur-museum.de/p
+ rogramm/veranstaltungen/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20270103-sonntagsfuehrung-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Beginn: Sonntagsführung
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Öffentliche Sonntagsführung\; Fortsetzung der 2026er Termine.
+ \nLaufzeit: 3.1.2027 bis 14.3.2027\nTermine laut Veranstalter: sonntags 10
+ :30 Uhr (am 07.02.2027 um 11:30 Uhr\; gelistet bis 14.03.2027)\nPreis: 5 
+ € zzgl. Museumseintritt (Kinder 6–16: 1\,50 €)\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.karikatur-museum.de/programm/veranstaltunge
+ n/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20270103-sonntagsfuehrung-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Letzter Tag: Sonntagsführung
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Öffentliche Sonntagsführung\; Fortsetzung der 2026er Termine.
+ \nLaufzeit: 3.1.2027 bis 14.3.2027\nTermine laut Veranstalter: sonntags 10
+ :30 Uhr (am 07.02.2027 um 11:30 Uhr\; gelistet bis 14.03.2027)\nPreis: 5 
+ € zzgl. Museumseintritt (Kinder 6–16: 1\,50 €)\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.karikatur-museum.de/programm/veranstaltunge
+ n/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20270110-vom-busch-in-die-faust@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T140000
+DTEND;TZID=Europe/Berlin:20270110T160000
+SUMMARY:Vom BUSCH in die Faust
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Zwei Häuser\, ein Spaziergang\, viele Einblicke.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ karikatur-museum.de/programm/veranstaltungen/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20270207-vom-busch-in-die-faust@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T140000
+DTEND;TZID=Europe/Berlin:20270207T160000
+SUMMARY:Vom BUSCH in die Faust
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Zwei Häuser\, ein Spaziergang\, viele Einblicke.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ karikatur-museum.de/programm/veranstaltungen/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20270307-vom-busch-in-die-faust@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T140000
+DTEND;TZID=Europe/Berlin:20270307T160000
+SUMMARY:Vom BUSCH in die Faust
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Zwei Häuser\, ein Spaziergang\, viele Einblicke.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ karikatur-museum.de/programm/veranstaltungen/
+URL:https://www.karikatur-museum.de/programm/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

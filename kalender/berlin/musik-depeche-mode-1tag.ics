@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Depeche Mode in Berlin · my Event Hub (Erinnerung 1 Tag vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ber-hafen-treptow-20261107-party-mit-den-songs-von-depeche@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T183000
+DTEND;TZID=Europe/Berlin:20261107T203000
+SUMMARY:Party mit den Songs von Depeche Mode
+LOCATION:Anlegestelle Hafen Treptow\, Puschkinallee 15\, 12435 Berlin
+DESCRIPTION:Partyfahrt mit DJ auf dem Schiff ab Hafen Treptow Richtung Müg
+ gelsee\, Rückkehr 22:00 Uhr\; inklusive Welcome Drink.\nEnde: laut Quelle
+  nicht angegeben\nPreis: ab 42\,00 €\nTickets: https://www.sternundkreis
+ .de/cruises/party-mit-den-songs-von-depeche-mode/\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.sternundkreis.de/cruises/party-mit-den-songs-v
+ on-depeche-mode/
+URL:https://www.sternundkreis.de/cruises/party-mit-den-songs-von-depeche-mo
+ de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-huxleys-neue-welt-20261124-strangelove-the-depeche-mode-experience@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Strangelove – The DEPECHE MODE Experience
+LOCATION:Huxleys Neue Welt\, Hasenheide 107–113\, 10967 Berlin
+DESCRIPTION:Depeche-Mode-Tributeshow mit Sänger Leo Luganskiy zum 40. Jubi
+ läum des Albums „Black Celebration“.\nEinlass 19:00\, Beginn 20:00 Uh
+ r\nEnde: laut Quelle nicht angegeben\nTickets: https://www.eventim.de/even
+ t/strangelove-the-depeche-mode-experience-40-years-of-black-celebration-eu
+ ropean-tour-2026-huxleys-neue-welt-21698280/\nQuelle (bitte vor dem Besuch
+  prüfen): https://trinitymusic.de/event/2026-11-24-strangelove-the-depech
+ e-mode-experience
+URL:https://trinitymusic.de/event/2026-11-24-strangelove-the-depeche-mode-e
+ xperience
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261216-101-voices-depeche-mode-special-tribute@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:101 Voices - Depeche Mode Special Tribute
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Tribute-Konzert zu Depeche Mode.\n20:00 Uhr (die Quelle sagt ni
+ cht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-columbia-theater-20261219-ultra-night-depeche-mode-party@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Ultra Night – Depeche Mode Party
+LOCATION:Columbia Theater\, Columbiadamm 9–11\, 10965 Berlin
+DESCRIPTION:Vorweihnachtliche Ausgabe der Berliner Depeche-Mode-Partyreihe 
+ Ultra Night.\nPreis: 19\,60 € zzgl. Gebühren\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.ultranight.de/
+URL:https://www.ultranight.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-bi-nuu-20270306-ultra-night-depeche-mode-party@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:Ultra Night – Depeche Mode Party
+LOCATION:Bi Nuu\, Im Schlesischen Tor\, 10997 Berlin
+DESCRIPTION:Depeche-Mode-Partyreihe Ultra Night im Club Bi Nuu.\nPreis: 19\
+ ,60 € zzgl. Gebühren\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.ultranight.de/
+URL:https://www.ultranight.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fashion Shows in Lübeck · my Event Hub (Erinnerung 1 Tag vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hl-muk-20270109-brautmodenschau-herz-an-herz-luebeck@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Brautmodenschau – Herz an Herz Lübeck
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Braut-\, Abend- und Herrenmode auf dem Catwalk\; mehrmals tägl
+ ich im Bühnenprogramm der Hochzeitsmesse.\nPreis: 12\,50 €\nQuelle (bit
+ te vor dem Besuch prüfen): https://herz-an-herz-messe.de/herz-an-herz-lue
+ beck/
+URL:https://herz-an-herz-messe.de/herz-an-herz-luebeck/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270110-brautmodenschau-herz-an-herz-luebeck@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Brautmodenschau – Herz an Herz Lübeck
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Braut-\, Abend- und Herrenmode auf dem Catwalk\; mehrmals tägl
+ ich im Bühnenprogramm der Hochzeitsmesse.\nPreis: 12\,50 €\nQuelle (bit
+ te vor dem Besuch prüfen): https://herz-an-herz-messe.de/herz-an-herz-lue
+ beck/
+URL:https://herz-an-herz-messe.de/herz-an-herz-luebeck/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

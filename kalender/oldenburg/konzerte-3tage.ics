@@ -1,0 +1,1345 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Oldenburg · my Event Hub (Erinnerung 3 Tage vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ol-schlosshoefe-20261007-spiel-am-goldenen-piano-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Spiel am goldenen Piano
+LOCATION:Schlosshöfe Oldenburg\, Schloßplatz 3\, 26122 Oldenburg
+DESCRIPTION:Signiertes Piano von Klaas Heufer-Umlauf zum freien Spielen im 
+ Center.\nLaufzeit: 7.10.2026 bis 31.3.2027\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.schlosshoefe-oldenburg.de/events/das-goldene-piano-e5
+ 6617/
+URL:https://www.schlosshoefe-oldenburg.de/events/das-goldene-piano-e56617/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-computermuseum-20261031-live-gaming-music-experience@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Live Gaming Music Experience: Halloween Special!
+LOCATION:Oldenburger Computer-Museum\, Bahnhofsplatz 10\, 26122 Oldenburg
+DESCRIPTION:Videospiel- und Anime-Musik unplugged gespielt vom Double Damag
+ e Duo\, mit Halloween-Atmosphäre (19–21 Uhr).\nEinlass 18:00\, Beginn 1
+ 9:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt 15 € (nur A
+ bendkasse)\nQuelle (bitte vor dem Besuch prüfen): https://www.computermus
+ eum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+URL:https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261031-wolfgang-lackerschmid-quartett@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Wolfgang Lackerschmid Quartett
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazzclub Alluvium.\nEnde: laut Quelle nicht angegeben\nPreis: 2
+ 4 € / 20 €\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm
+ 13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261031-il-civetto@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Il Civetto (ausverkauft)
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.kulturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-exhalle-20261101-noies@myeventhub.de
+DTSTAMP:20261003T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:NOIeS
+LOCATION:Exhalle (Oldenburgisches Staatstheater)\, Johannisstraße 6\, 2612
+ 1 Oldenburg
+DESCRIPTION:Konzertreihe von klangpol\, Neue Musik.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://staatstheater.
+ de/kalender
+URL:https://staatstheater.de/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-theater-laboratorium-20261104-emil-brandqvist-trio@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Emil Brandqvist Trio
+LOCATION:Theater Laboratorium\, Kleine Straße 8\, 26121 Oldenburg
+DESCRIPTION:Konzert\; steht auch im Programm der Kulturetage.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ theater-laboratorium.org/index.php?r=site%2Fcalender
+URL:https://www.theater-laboratorium.org/index.php?r=site%2Fcalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261104-christian-rannenberg-duo@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Christian Rannenberg Duo
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazzclub Alluvium.\nEnde: laut Quelle nicht angegeben\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13
+ .de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261105-nordwest-jam-november@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Nordwest Jam November
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261106-hlge-meets-o-k-kuper-rock-meets-prosa@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Hølge meets o.k.kuper – Rock meets Prosa
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Rock/Indie und Prosa\; JMO.\nEnde: laut Quelle nicht angegeben\
+ nPreis: 15 € / 10 €\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-haus-fuer-medienkunst-20261107-si-na-bro@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:시나브로 (Si-na-bro)
+LOCATION:HAUS für Medienkunst Oldenburg\, Katharinenstraße 23\, 26121 Old
+ enburg
+DESCRIPTION:Konzert mit Werken der drei Komponierenden\, bis 20:30 Uhr.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Eintritt frei!\nQuelle (bitte vor 
+ dem Besuch prüfen): https://hausmedienkunst.de/veranstaltungen?type=curre
+ nt
+URL:https://hausmedienkunst.de/veranstaltungen?type=current
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-viertel-20261107-le-shuuk-klassentreffen-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:LE SHUUK – KLASSENTREFFEN TOUR 2026
+LOCATION:VIERTEL – Klub + Bar + Kultur\, Bloherfelder Straße 2-6\, 26129
+  Oldenburg
+DESCRIPTION:Die Quelle nennt keine Uhrzeit.\nQuelle (bitte vor dem Besuch p
+ rüfen): https://kulturviertel.com/events
+URL:https://kulturviertel.com/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261109-goitse-irish-folk@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Goitse – Irish Folk
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Reihe Singers & Players.\nEnde: laut Quelle nicht angegeben\nPr
+ eis: 33 € / 26 €\nQuelle (bitte vor dem Besuch prüfen): https://www.w
+ ilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261112-milow@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Milow (ausverkauft)
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.kulturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261113-stephan-bormann-traveler-on-guitar@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Stephan Bormann – Traveler On Guitar
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Gitarrenmusik\; Reihe Singers & Players.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: 27 € / 20 €\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261114-judith-nijland@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Judith Nijland
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazzclub Alluvium.\nEnde: laut Quelle nicht angegeben\nPreis: 2
+ 0 € / 10 €\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm
+ 13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261114-silje-nergaard-trio@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Silje Nergaard Trio
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261115-hutkonzert-rolling-bones@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Hutkonzert: Rolling Bones
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Hutkonzert\nQuelle (b
+ itte vor dem Besuch prüfen): https://ols-brauerei.de/ols-events-veranstal
+ tungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261118-tristan-brusch@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Tristan Brusch
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261119-jazz-session-im-november@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Jazz Session im November
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazzclub Alluvium.\nEnde: laut Quelle nicht angegeben\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13
+ .de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261120-gehoergaenge-patricia-borges-de-medeiros@myeventh
+ ub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Gehörgänge: Patricia Borges De Medeiros
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazz und Kunst\; JMO.\nEnde: laut Quelle nicht angegeben\nPreis
+ : 20 € / 10 €\nQuelle (bitte vor dem Besuch prüfen): https://www.wilh
+ elm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261120-dire-strats@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:dIRE sTRATS
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261121-duo-stiehler-lucaciu@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Duo Stiehler / Lucaciu
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261122-anda-morts@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Anda Morts
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261127-jazz-heroes-blow-your-horn-the-music-of@myeventhu
+ b.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Jazz Heroes: Blow your Horn! – The Music of Ruud Ouwehand
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 20 € / 10 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261127-manfred-manns-earth-band@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Manfred Mann’s Earth Band (ausverkauft)
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.kulturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-exhalle-20261128-noies@myeventhub.de
+DTSTAMP:20261003T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:NOIeS
+LOCATION:Exhalle (Oldenburgisches Staatstheater)\, Johannisstraße 6\, 2612
+ 1 Oldenburg
+DESCRIPTION:Konzertreihe von klangpol\, Neue Musik.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://staatstheater.
+ de/kalender
+URL:https://staatstheater.de/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261128-blues-session@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:BLUES-SESSION
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazzclub Alluvium.\nEnde: laut Quelle nicht angegeben\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13
+ .de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-st-ansgar-20261129-glitzerstern-und-tannenduft@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Glitzerstern und Tannenduft
+LOCATION:Kirche St. Ansgar (Eversten)\, Oldenburg
+DESCRIPTION:Adventlich-weihnachtliches Chorkonzert der Chöre der Chorschul
+ e Eversten am 1. Advent.\nEnde: laut Quelle nicht angegeben\nPreis: Eintri
+ tt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.eversten.kirch
+ e-oldenburg.de/termine-gottesdienste/konzerte
+URL:https://www.eversten.kirche-oldenburg.de/termine-gottesdienste/konzerte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-bloherfelder-kirche-20261129-lasst-euch-hoeren@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T180000
+DTEND;TZID=Europe/Berlin:20261129T200000
+SUMMARY:lasst euch hören! Barockmusik zwischen Novemberdunkel und Adventsl
+ icht
+LOCATION:Bloherfelder Kirche\, Oldenburg
+DESCRIPTION:Konzertprojekt mit Barockmusik und Liedern Paul Gerhardts\, Pub
+ likum singt mit.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.eversten.kirche-oldenburg.de/termine-gottesd
+ ienste/konzerte
+URL:https://www.eversten.kirche-oldenburg.de/termine-gottesdienste/konzerte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261203-nordwest-jam-dezember@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Nordwest Jam Dezember
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-st-ansgar-20261205-haendel-messiah@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T180000
+DTEND;TZID=Europe/Berlin:20261205T200000
+SUMMARY:Händel: Messiah (Teil I) & Coronation Anthem
+LOCATION:Kirche St. Ansgar (Eversten)\, Oldenburg
+DESCRIPTION:Händels Messiah Teil I mit „Zadok the Priest“ und Corellis
+  Weihnachtskonzert.\nEnde: laut Quelle nicht angegeben\nPreis: 25/15 €\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.eversten.kirche-oldenbu
+ rg.de/fileadmin/kg-eversten/redaktion/bilder/st-ansgar/Allgemein/00251218_
+ stansgar_jahresplaner_digital.pdf
+URL:https://www.eversten.kirche-oldenburg.de/fileadmin/kg-eversten/redaktio
+ n/bilder/st-ansgar/Allgemein/00251218_stansgar_jahresplaner_digital.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-st-ansgar-20261206-haendel-messiah@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T170000
+DTEND;TZID=Europe/Berlin:20261206T190000
+SUMMARY:Händel: Messiah (Teil I) & Coronation Anthem
+LOCATION:Kirche St. Ansgar (Eversten)\, Oldenburg
+DESCRIPTION:Wiederholung: Händels Messiah Teil I mit „Zadok the Priest
+ “ und Corellis Weihnachtskonzert.\nEnde: laut Quelle nicht angegeben\nPr
+ eis: 25/15 €\nQuelle (bitte vor dem Besuch prüfen): https://www.everste
+ n.kirche-oldenburg.de/fileadmin/kg-eversten/redaktion/bilder/st-ansgar/All
+ gemein/00251218_stansgar_jahresplaner_digital.pdf
+URL:https://www.eversten.kirche-oldenburg.de/fileadmin/kg-eversten/redaktio
+ n/bilder/st-ansgar/Allgemein/00251218_stansgar_jahresplaner_digital.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261206-blanca-nunez-christian-kussmann@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T200000
+DTEND;TZID=Europe/Berlin:20261206T220000
+SUMMARY:Blanca Núñez & Christian Kussmann
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Songpoesie\; Reihe Singers & Players.\nEnde: laut Quelle nicht 
+ angegeben\nPreis: 23 € / 17 €\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261209-inga-rumpf-friends@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Inga Rumpf & Friends
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261210-hobbyjazz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:HobbyJazz
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261211-jazz-invaders@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Jazz-Invaders
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Bigband-Jazz\; JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 
+ 15 € / 10 €\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhel
+ m13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261212-soenke-meinen-reentko-tales-of-winter@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Sönke Meinen & Reentko – Tales Of Winter
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Reihe Singers & Players.\nEnde: laut Quelle nicht angegeben\nPr
+ eis: 30 € / 23 €\nQuelle (bitte vor dem Besuch prüfen): https://www.w
+ ilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261213-hutkonzert-olsheimer@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Hutkonzert: Olsheimer
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Hutkonzert\nQuelle (b
+ itte vor dem Besuch prüfen): https://ols-brauerei.de/ols-events-veranstal
+ tungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261216-oldenburger-rudelsingen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Oldenburger Rudelsingen
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Mitsingkonzert.\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.kulturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261217-jazz-session-im-dezember@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:Jazz Session im Dezember
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazzclub Alluvium.\nEnde: laut Quelle nicht angegeben\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13
+ .de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261217-stoppok@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:STOPPOK
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261218-shjazz-christmas-stories-jazz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:shjazz – Christmas stories & Jazz
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazz und Spoken Word\; Jazzclub Alluvium.\nEnde: laut Quelle ni
+ cht angegeben\nPreis: 20 € / 10 €\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261219-live-and-loud-guitar-night@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Live and Loud: Guitar Night
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 20 € / 10 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261219-alte-bekannte@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Alte Bekannte
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-st-ansgar-20261220-nine-lessons-and-carols@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T170000
+DTEND;TZID=Europe/Berlin:20261220T190000
+SUMMARY:Festival of Nine Lessons and Carols
+LOCATION:Kirche St. Ansgar (Eversten)\, Oldenburg
+DESCRIPTION:Adventlich-weihnachtliche Chormusik nach dem Vorbild des King's
+  College Cambridge.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt fr
+ ei\nQuelle (bitte vor dem Besuch prüfen): https://www.eversten.kirche-old
+ enburg.de/termine-gottesdienste/konzerte
+URL:https://www.eversten.kirche-oldenburg.de/termine-gottesdienste/konzerte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20261220-alte-bekannte@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Alte Bekannte
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270107-nordwest-jam-januar@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T200000
+DTEND;TZID=Europe/Berlin:20270107T220000
+SUMMARY:Nordwest Jam Januar
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270114-the-notwist@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:The Notwist
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270116-foreign-affairs-sound-alley-roots@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:Foreign Affairs: Sound Alley – Roots
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 20 € / 10 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270123-contemporary-voices-cnidaria@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T200000
+DTEND;TZID=Europe/Berlin:20270123T220000
+SUMMARY:Contemporary Voices: Cnidaria
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 20 € / 10 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270123-ulrich-tukur-die-rhythmus-boys@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Ulrich Tukur & Die Rhythmus Boys
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270126-jazz-sabbath@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Jazz Sabbath
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270202-pippo-pollina@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Pippo Pollina
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270204-nordwest-jam-februar@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T200000
+DTEND;TZID=Europe/Berlin:20270204T220000
+SUMMARY:Nordwest Jam Februar
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270205-gitte-haenning-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:Gitte Haenning & Band
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20261121-some-sing-special-15-quintessence-friend@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T200000
+DTEND;TZID=Europe/Berlin:20270206T220000
+SUMMARY:Some Sing Special: 15. quintessence & friends
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:A cappella\; JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 20
+  € / 10 €\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm1
+ 3.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270206-alexander-scheer-andreas-dresen-band@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Alexander Scheer\, Andreas Dresen & Band
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270212-dagmar-segbers-michele-fazio-internation@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:Dagmar Segbers & Michele Fazio – International Songbook
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazzclub Alluvium.\nEnde: laut Quelle nicht angegeben\nPreis: 2
+ 0 € / 10 €\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm
+ 13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270213-jazz-heroes-celebrating-the-great-americ@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:Jazz Heroes: Celebrating the Great American Songbook
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 20 € / 10 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270217-the-joni-project@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:The Joni Project
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270219-live-and-loud-equinox-trifft-nakamarra@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Live and Loud: Equinox trifft Nakamarra
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 20 € / 10 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270220-elmar-brass-trio@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T200000
+DTEND;TZID=Europe/Berlin:20270220T220000
+SUMMARY:Elmar Braß Trio
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:Jazzclub Alluvium.\nEnde: laut Quelle nicht angegeben\nPreis: 2
+ 0 € / 10 €\nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm
+ 13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270220-michael-schulte-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Michael Schulte & Band
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270303-dominik-eulberg@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:Dominik Eulberg
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert & Show.\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.kulturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270304-nordwest-jam-maerz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T200000
+DTEND;TZID=Europe/Berlin:20270304T220000
+SUMMARY:Nordwest Jam März
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270304-martin-tingvall@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Martin Tingvall
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270305-contemporary-voices-deconstructing-stand@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:Contemporary Voices: Deconstructing Standards
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 20 € / 10 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270305-tim-fischer@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Tim Fischer
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270312-broeselmaschine@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Bröselmaschine
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270317-william-wahl@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:William Wahl
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-wilhelm13-20270319-some-sing-special-sabine-santjer-plattde@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T200000
+DTEND;TZID=Europe/Berlin:20270319T220000
+SUMMARY:Some Sing Special: Sabine Santjer – Plattdeutscher Indiepop
+LOCATION:Wilhelm13 (Jazzclub Alluvium)\, Leo-Trepp-Straße 13\, 26121 Olden
+ burg
+DESCRIPTION:JMO.\nEnde: laut Quelle nicht angegeben\nPreis: 20 € / 10 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.wilhelm13.de/
+URL:https://www.wilhelm13.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-kulturetage-20270319-kings-of-floyd@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Kings of Floyd
+LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
+DESCRIPTION:Konzert.\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturetage.de/veranstaltungen_12.html
+URL:https://www.kulturetage.de/veranstaltungen_12.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

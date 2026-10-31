@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elektronisch in Charlotte · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:clt-spectrum-center-20261114-john-summit-ctrl-escape-arena-tour@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=America/New_York:20261114T190000
+DTEND;TZID=America/New_York:20261114T210000
+SUMMARY:JOHN SUMMIT: CTRL ESCAPE ARENA TOUR
+LOCATION:Spectrum Center\, 333 East Trade Street\, 28202 Charlotte
+DESCRIPTION:DJ-Set des House-Produzenten John Summit in der Arena.\n19:00 U
+ hr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Char
+ lotte\, US-Ostküste\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.spectrumcentercharlotte.com/events/event
+ s_ajax/18?category=0&venue=0&team=0&exclude=&per_page=9&came_from_page=eve
+ nt-list-page
+URL:https://www.spectrumcentercharlotte.com/events/events_ajax/18?category=
+ 0&venue=0&team=0&exclude=&per_page=9&came_from_page=event-list-page
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

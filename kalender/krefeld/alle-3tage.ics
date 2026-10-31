@@ -1,0 +1,959 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Krefeld · my Event Hub (Erinnerung 3 Tage vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kr-kaiser-wilhelm-museum-20250703-sammlung-in-bewegung-ende@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Sammlung in Bewegung
+LOCATION:Kaiser Wilhelm Museum\, Joseph-Beuys-Platz 1\, 47798 Krefeld
+DESCRIPTION:Laufzeit: 3.7.2025 bis 31.12.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstmuseenkrefeld.de/
+URL:https://kunstmuseenkrefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kaiser-wilhelm-museum-20260517-emma-talbot-psyche-sammlungssatellit-
+ 10-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Letzter Tag: Emma Talbot. PSYCHE (Sammlungssatellit #10)
+LOCATION:Kaiser Wilhelm Museum\, Joseph-Beuys-Platz 1\, 47798 Krefeld
+DESCRIPTION:Laufzeit: 17.5.2026 bis 24.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstmuseenkrefeld.de/
+URL:https://kunstmuseenkrefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kaiser-wilhelm-museum-20260517-schoene-anarchie-johan-thorn-prikker-
+ und-seine-zei-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:Letzter Tag: Schöne Anarchie. Johan Thorn Prikker und seine Zeit
+LOCATION:Kaiser Wilhelm Museum\, Joseph-Beuys-Platz 1\, 47798 Krefeld
+DESCRIPTION:Laufzeit: 17.5.2026 bis 31.8.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://kunstmuseenkrefeld.de/
+URL:https://kunstmuseenkrefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-haus-der-seidenkultur-20260628-annette-poellmann-die-kunst-des-unvor
+ hergesehenen-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Annette Pöllmann – Die Kunst des Unvorhergesehenen 
+ – Retrospektive zum 100. Geburtstag (1926–2026)
+LOCATION:Haus der Seidenkultur\, Luisenstraße 15\, 47799 Krefeld
+DESCRIPTION:Retrospektive zur Textilkünstlerin Annette Pöllmann\; Jahr au
+ s der Monatsüberschrift der Seite.\nLaufzeit: 28.6.2026 bis 15.11.2026\nP
+ reis: 5€\nQuelle (bitte vor dem Besuch prüfen): https://seidenkultur.de
+ /veranstaltungen/
+URL:https://seidenkultur.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-haus-lange-esters-20261004-kunst-hand-werk-bruecke-hlhe-dialog-kunst
+ -x-handwe-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Letzter Tag: Kunst Hand Werk Brücke (HLHE Dialog: Kunst x Handwerk
+ )
+LOCATION:Museen Haus Lange und Haus Esters\, Wilhelmshofallee 91–97\, 478
+ 00 Krefeld
+DESCRIPTION:Ausstellung in Haus Lange.\nLaufzeit: 4.10.2026 bis 7.3.2027\nQ
+ uelle (bitte vor dem Besuch prüfen): https://kunstmuseenkrefeld.de/
+URL:https://kunstmuseenkrefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-haus-lange-esters-20261004-slavs-and-tatars-handdschob-hlhe-dialog-k
+ unst-x-ha-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Letzter Tag: Slavs and Tatars: Handdschob (HLHE Dialog: Kunst x Han
+ dwerk)
+LOCATION:Museen Haus Lange und Haus Esters\, Wilhelmshofallee 91–97\, 478
+ 00 Krefeld
+DESCRIPTION:Ausstellung in Haus Esters.\nLaufzeit: 4.10.2026 bis 7.3.2027\n
+ Quelle (bitte vor dem Besuch prüfen): https://kunstmuseenkrefeld.de/
+URL:https://kunstmuseenkrefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261031-krmg-tanz-4@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:KRMG.tanz 4
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261101-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261101-unter-unseren-fuessen-archaeologie-der-roe
+ mer-und@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Unter unseren Füßen – Archäologie der Römer und Franken
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3 € pro Person\, Er
+ wachsene zzgl. 8 € Eintritt\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.museumburglinn.de/veranstaltungskalender/
+URL:https://www.museumburglinn.de/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261101-titanic-das-musical@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T160000
+DTEND;TZID=Europe/Berlin:20261101T180000
+SUMMARY:Titanic – Das Musical
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261103-cyrano-de-bergerac@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T193000
+DTEND;TZID=Europe/Berlin:20261103T213000
+SUMMARY:Cyrano de Bergerac
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261104-otello@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Otello
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261105-krmg-tanz-4@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:KRMG.tanz 4
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261106-krmg-tanz-4@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:KRMG.tanz 4
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261106-tex-brasket@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Tex Brasket
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261107-otello@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T180000
+DTEND;TZID=Europe/Berlin:20261107T200000
+SUMMARY:Otello
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261107-the-feelgood-mclouds@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:The Feelgood McLouds
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261108-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/
+URL:https://www.museumburglinn.de/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261108-mauern-erzaehlen-gang-durch-die-geschichte
+ -der-bur@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Mauern erzählen – Gang durch die Geschichte der Burg
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3 € pro Person\, Er
+ wachsene zzgl. 8 € Eintritt\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.museumburglinn.de/veranstaltungskalender/
+URL:https://www.museumburglinn.de/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261108-titanic-das-musical@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T193000
+DTEND;TZID=Europe/Berlin:20261108T213000
+SUMMARY:Titanic – Das Musical
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261111-prima-facie@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Prima Facie (ausverkauft)
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater KR – Lesebühne\, Krefeld.\nEnde: laut 
+ Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen)
+ : https://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-jazzkeller-20261112-jazzattack@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T203000
+DTEND;TZID=Europe/Berlin:20261112T223000
+SUMMARY:JAZZATTACK
+LOCATION:Jazzkeller Krefeld\, Lohstraße 92\, 47798 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.jazzklub-krefeld.de/
+URL:https://www.jazzklub-krefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-haus-der-seidenkultur-20261113-workshop-einfuehrung-in-die-meditativ
+ e-kunst-des-s@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T163000
+DTEND;TZID=Europe/Berlin:20261113T183000
+SUMMARY:Workshop: Einführung in die meditative Kunst des Stickens – Male
+ n mit dem Faden
+LOCATION:Haus der Seidenkultur\, Luisenstraße 15\, 47799 Krefeld
+DESCRIPTION:Stick-Workshop in der Alten Stickerei bis 20 Uhr\; Jahr aus der
+  Monatsüberschrift der Seite.\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://seidenkultur.de/veranstaltungen/
+URL:https://seidenkultur.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261113-cyrano-de-bergerac@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Cyrano de Bergerac
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261113-georg-zimmermann-band@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Georg Zimmermann Band
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261114-koza-mostra@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Koza Mostra
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261115-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261115-krmg-tanz-4@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T193000
+DTEND;TZID=Europe/Berlin:20261115T213000
+SUMMARY:KRMG.tanz 4
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261115-handsome-jack@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:Handsome Jack
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261120-skassapunka@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Skassapunka
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261121-indecent-behavior@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Indecent Behavior
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261122-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261122-die-uebernahme@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Die Übernahme
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261124-prima-facie@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Prima Facie (ausverkauft)
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater KR – Lesebühne\, Krefeld.\nEnde: laut 
+ Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen)
+ : https://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261125-frauengold@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:Frauengold
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater KR – Glasfoyer\, Krefeld.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://thea
+ ter-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261126-hanba@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:HANBA!
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-jazzkeller-20261126-jazz-session-opener-funk-up-your-day@myeventhub.
+ de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T203000
+DTEND;TZID=Europe/Berlin:20261126T223000
+SUMMARY:JAZZ-SESSION (Opener: Funk Up Your Day)
+LOCATION:Jazzkeller Krefeld\, Lohstraße 92\, 47798 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.jazzklub-krefeld.de/
+URL:https://www.jazzklub-krefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261128-einhoerner-gibt-es-hier-nicht@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T170000
+DTEND;TZID=Europe/Berlin:20261128T190000
+SUMMARY:Einhörner gibt es hier nicht!
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261128-liar-thief-bandit@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Liar Thief Bandit
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261129-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T140000
+DTEND;TZID=Europe/Berlin:20261129T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261129-kinderfuehrung-in-der-burg-mit-kostuemen@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Kinderführung in der Burg mit Kostümen
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Kinder 3 €\, Erwach
+ sene 11 € inkl. Eintritt\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.museumburglinn.de/veranstaltungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261129-menschen-und-haeuser-rundgang-durch-alt-li
+ nn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Menschen und Häuser – Rundgang durch Alt-Linn
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Erwachsene 5 €\, Ki
+ nder ab 10 Jahren 3 €\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.museumburglinn.de/veranstaltungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-theater-20261129-cyrano-de-bergerac@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T193000
+DTEND;TZID=Europe/Berlin:20261129T213000
+SUMMARY:Cyrano de Bergerac
+LOCATION:Theater Krefeld\, Theaterplatz 3\, 47798 Krefeld
+DESCRIPTION:Spielstätte: Theater Krefeld – Große Bühne\, Krefeld.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://theater-kr-mg.de/kalender/
+URL:https://theater-kr-mg.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturrampe-20261202-mojo-thunder@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Mojo Thunder
+LOCATION:Kulturrampe\, Oppumer Straße 175\, 47799 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturrampe.de/
+URL:https://www.kulturrampe.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-jazzkeller-20261206-session-for-beginners-opener-filofax@myeventhub.
+ de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:SESSION FOR BEGINNERS (Opener: Filofax)
+LOCATION:Jazzkeller Krefeld\, Lohstraße 92\, 47798 Krefeld
+DESCRIPTION:Einlass 14:30\, Beginn 15:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzklub-krefeld.
+ de/
+URL:https://www.jazzklub-krefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261206-unter-unseren-fuessen-archaeologie-der-roe
+ mer-und@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Unter unseren Füßen – Archäologie der Römer und Franken
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3 € pro Person\, Er
+ wachsene zzgl. 8 € Eintritt\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.museumburglinn.de/veranstaltungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-jazzkeller-20261210-jazzattack@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T203000
+DTEND;TZID=Europe/Berlin:20261210T223000
+SUMMARY:JAZZATTACK
+LOCATION:Jazzkeller Krefeld\, Lohstraße 92\, 47798 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.jazzklub-krefeld.de/
+URL:https://www.jazzklub-krefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261213-mauern-erzaehlen-gang-durch-die-geschichte
+ -der-bur@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Mauern erzählen – Gang durch die Geschichte der Burg
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3 € pro Person\, Er
+ wachsene zzgl. 8 € Eintritt\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.museumburglinn.de/veranstaltungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-kulturfabrik-20261215-arstiir-vetrarsol-tour-2026@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:ÁRSTÍÐIR – Vetrarsól Tour 2026
+LOCATION:Kulturfabrik Krefeld\, Dießemer Str. 13\, 47799 Krefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kufa-reloaded.de
+ /
+URL:https://kufa-reloaded.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-jazzkeller-20261217-jazz-session-opener-last-minute-quartett@myevent
+ hub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T203000
+DTEND;TZID=Europe/Berlin:20261217T223000
+SUMMARY:JAZZ-SESSION (Opener: Last Minute Quartett)
+LOCATION:Jazzkeller Krefeld\, Lohstraße 92\, 47798 Krefeld
+DESCRIPTION:Einlass 19:45\, Beginn 20:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzklub-krefeld.
+ de/
+URL:https://www.jazzklub-krefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261227-kinderfuehrung-in-der-burg-mit-kostuemen@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T150000
+DTEND;TZID=Europe/Berlin:20261227T170000
+SUMMARY:Kinderführung in der Burg mit Kostümen
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Kinder 3 €\, Erwach
+ sene 11 € inkl. Eintritt\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.museumburglinn.de/veranstaltungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

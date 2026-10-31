@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Syke · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:syke-syker-vorwerk-20251130-collection-ii-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Collection II
+LOCATION:Syker Vorwerk – Zentrum für zeitgenössische Kunst\, Waldstraß
+ e 76\, 28857 Syke
+DESCRIPTION:Sammlungsbestände und Werke aus dem Nachlass von Louis Niebuhr
+ .\nLaufzeit: 30.11.2025 bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.syker-vorwerk.de/
+URL:https://www.syker-vorwerk.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:syke-syker-vorwerk-20261004-die-kids-sind-nicht-alright-ende@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Die Kids sind nicht alright!
+LOCATION:Syker Vorwerk – Zentrum für zeitgenössische Kunst\, Waldstraß
+ e 76\, 28857 Syke
+DESCRIPTION:Gruppenausstellung mit elf Künstlerinnen und Künstlern.\nLauf
+ zeit: 4.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.syker-vorwerk.de/
+URL:https://www.syker-vorwerk.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

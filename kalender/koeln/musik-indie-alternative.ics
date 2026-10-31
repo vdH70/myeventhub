@@ -1,0 +1,228 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Indie/Alternative in Köln · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261102-placebo@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Placebo
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-live-music-hall-20261105-cave-verlegt-aus-dem-cbe@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:Cave (verlegt aus dem CBE)
+LOCATION:Live Music Hall\, Lichtstraße 30\, 50825 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.livemusichall.de/event-details/cave-verlegt-aus-dem
+ -cbe
+URL:https://www.livemusichall.de/event-details/cave-verlegt-aus-dem-cbe
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20261112-mine-killer-tour-2026@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Mine – Killer Tour 2026
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20261117-bulgarian-cartrader@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Bulgarian Cartrader
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /bulgarian-cartrader-11-26.html
+URL:https://www.gebaeude9.de/bulgarian-cartrader-11-26.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261118-anna-von-hausswolff-iconoclasts-to
+ ur@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Anna von Hausswolff – Iconoclasts Tour
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20261127-endless-wellness@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Endless Wellness (ausverkauft)
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .gebaeude9.de/programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20270123-smile@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Smile
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20270311-marika-hackman@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Marika Hackman
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270315-palace@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270315T200000
+DTEND;TZID=Europe/Berlin:20270315T220000
+SUMMARY:Palace
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20270404-the-academic@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:The Academic
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270416-buntspecht-eingang-ausgang-tour-20
+ 27@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T200000
+DTEND;TZID=Europe/Berlin:20270416T220000
+SUMMARY:Buntspecht – Eingang / Ausgang Tour 2027
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270509-oh-wonder-europe-tour-2027@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270509T200000
+DTEND;TZID=Europe/Berlin:20270509T220000
+SUMMARY:Oh Wonder – Europe Tour 2027
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270523-sombr-you-are-the-reason-tour@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270523T193000
+DTEND;TZID=Europe/Berlin:20270523T213000
+SUMMARY:sombr – You Are The Reason Tour
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/sombr
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/sombr
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270524-sombr-you-are-the-reason-tour@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270524T193000
+DTEND;TZID=Europe/Berlin:20270524T213000
+SUMMARY:sombr – You Are The Reason Tour
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/sombr
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/sombr
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270617-tame-impala@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270617T191500
+DTEND;TZID=Europe/Berlin:20270617T211500
+SUMMARY:Tame Impala
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 19:15 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/tame-impala
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/tame-impala
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270618-tame-impala@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270618T191500
+DTEND;TZID=Europe/Berlin:20270618T211500
+SUMMARY:Tame Impala
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 19:15 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/tame-impala
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/tame-impala
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

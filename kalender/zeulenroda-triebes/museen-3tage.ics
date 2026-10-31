@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Zeulenroda-Triebes · my Event Hub (Erinnerung 3 Tag
+ e vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:grz-museum-zeulenroda-20261030-von-der-glashuette-spezimatic-bis-zur-wa
+ ckelaugenu-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Von der Glashütte Spezimatic bis zur Wackelaugenuhr aus Ru
+ hla – So tickte der Osten
+LOCATION:Städtisches Museum Zeulenroda\, Aumaische Straße 30/32\, 07937 Z
+ eulenroda-Triebes
+DESCRIPTION:Sonderausstellung zu Uhren aus der DDR.\nLaufzeit: 30.10.2026 b
+ is 14.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.museumsfr
+ eundeskreis-zeulenroda.de/seite/722554/aktuelles.html
+URL:https://www.museumsfreundeskreis-zeulenroda.de/seite/722554/aktuelles.h
+ tml
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-museum-zeulenroda-20261030-von-der-glashuette-spezimatic-bis-zur-wa
+ ckelaugenu-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Letzter Tag: Von der Glashütte Spezimatic bis zur Wackelaugenuhr a
+ us Ruhla – So tickte der Osten
+LOCATION:Städtisches Museum Zeulenroda\, Aumaische Straße 30/32\, 07937 Z
+ eulenroda-Triebes
+DESCRIPTION:Sonderausstellung zu Uhren aus der DDR.\nLaufzeit: 30.10.2026 b
+ is 14.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.museumsfr
+ eundeskreis-zeulenroda.de/seite/722554/aktuelles.html
+URL:https://www.museumsfreundeskreis-zeulenroda.de/seite/722554/aktuelles.h
+ tml
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

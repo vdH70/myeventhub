@@ -1,0 +1,419 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Indie/Alternative in Berlin · my Event Hub (Erinnerung 1 Tag 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ber-lido-20261031-de-staat-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:DE STAAT „Tour 2026“ (ausverkauft)
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.lido
+ -berlin.de/
+URL:https://www.lido-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-duncker-20261031-dark-monday-samhain-celebration-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T210000
+DTEND;TZID=Europe/Berlin:20261031T230000
+SUMMARY:Dark Mønday – SAMHAIN Celebration 2026
+LOCATION:Duncker Club\, Dunckerstr. 64\, 10439 Berlin
+DESCRIPTION:Samhain-Party mit Pagan\, Ethereal\, Neofolk\, Goth\, Postpunk\
+ , NewColdDarkSynthWave und DeathRock (22–4 Uhr).\n21:00 Uhr (die Quelle 
+ sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.dunckerclub.de/start.htm
+ l
+URL:https://www.dunckerclub.de/start.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-max-schmeling-halle-20261102-fontaines-d-c-d-c-eu-tour-2026@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Fontaines D.C. – D.C. EU Tour 2026 (ausverkauft)
+LOCATION:Max-Schmeling-Halle\, Falkplatz 1\, 10437 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.max-schmeling-halle.de/events
+URL:https://www.max-schmeling-halle.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-frannz-club-20261103-cardinals@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Cardinals
+LOCATION:Frannz Club\, Schönhauser Allee 36\, 10435 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://frannz.eu/
+URL:https://frannz.eu/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-huxleys-neue-welt-20261103-zimmer90@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Zimmer90 (verlegt ins Hole)
+LOCATION:Hole\, Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://huxleysneuewelt.de/ev
+ ents
+URL:https://huxleysneuewelt.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-huxleys-neue-welt-20261104-haute-freddy-support-cabbage-the-clown@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:HAUTE & FREDDY + Support: Cabbage the Clown
+LOCATION:Huxleys Neue Welt\, Hasenheide 107–113\, 10967 Berlin
+DESCRIPTION:Aus dem Säälchen ins Huxleys verlegt.\nEinlass 19:00\, Beginn
+  20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://huxleysneuewelt.de/events
+URL:https://huxleysneuewelt.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-lido-20261104-death-valley-girls-support@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:DEATH VALLEY GIRLS + Support
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lido-berlin.de/
+URL:https://www.lido-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261104-heisskalt-palebloom@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:HEISSKALT / PALEBLOOM
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/
+URL:https://www.so36.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-frannz-club-20261106-radio-free-alice@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Radio Free Alice
+LOCATION:Frannz Club\, Schönhauser Allee 36\, 10435 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://frannz.eu/
+URL:https://frannz.eu/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-lido-20261106-westside-cowboy-support-wyatt@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:WESTSIDE COWBOY + Support: WYATT
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lido-berlin.de/
+URL:https://www.lido-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261111-bloc-party-interpol@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T191500
+DTEND;TZID=Europe/Berlin:20261111T211500
+SUMMARY:Bloc Party & Interpol
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:19:15 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-lido-20261113-jakuzi@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:JAKUZI
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lido-berlin.de/
+URL:https://www.lido-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261116-placebo@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Placebo
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261119-anna-von-hausswolff@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:ANNA VON HAUSSWOLFF
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.astra-berlin.de/
+URL:https://www.astra-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-lido-20261123-chameleons-special-guest@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T194500
+DTEND;TZID=Europe/Berlin:20261123T214500
+SUMMARY:CHAMELEONS & SPECIAL GUEST
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Die Manchester Post-Punk-Band Chameleons auf „Arctic Moon“-
+ Tour 2026.\nEinlass 19:00\, Beginn 19:45 Uhr\nEnde: laut Quelle nicht ange
+ geben\nPreis: 40\,00 € VVK zzgl. Gebühren\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lido-berlin.de/events/2026-11-23-chameleons
+URL:https://www.lido-berlin.de/events/2026-11-23-chameleons
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261125-wasia-project-lumi@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:WASIA PROJECT + LUMI
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.astra-berlin.de/
+URL:https://www.astra-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261127-muna-gets-so-hot-tour-emmma@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:MUNA „Gets so hot Tour“ + EMMMA
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.astra-berlin.de/
+URL:https://www.astra-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20261209-phoebe-bridgers@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Phoebe Bridgers (ausverkauft)
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-lido-20261226-she-past-away@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T200000
+DTEND;TZID=Europe/Berlin:20261226T220000
+SUMMARY:SHE PAST AWAY
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Weihnachtskonzert des türkischen Dark-Wave-/Post-Punk-Duos.\nE
+ inlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis:
+  40\,00 € VVK zzgl. Gebühren\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.lido-berlin.de/events/2026-12-26-she-past-away
+URL:https://www.lido-berlin.de/events/2026-12-26-she-past-away
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-max-schmeling-halle-20270129-nothing-but-thieves-the-stray-dogs-wor
+ ld-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:Nothing But Thieves – The Stray Dogs World Tour
+LOCATION:Max-Schmeling-Halle\, Falkplatz 1\, 10437 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.max-schmeling-halle.de/events
+URL:https://www.max-schmeling-halle.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20270319-tash-sultana@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T190000
+DTEND;TZID=Europe/Berlin:20270319T210000
+SUMMARY:Tash Sultana
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270518-sombr@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270518T193000
+DTEND;TZID=Europe/Berlin:20270518T213000
+SUMMARY:sombr
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,465 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Indie/Alternative in Hannover · my Event Hub (Erinnerung 1 Ta
+ g vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-lux-20261031-anchors-hearts-und-gaeste@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:ANCHORS & HEARTS UND GÄSTE
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK 22 € zzgl. Gebühren\nTickets: https://www.lux-linden.d
+ e/konzerte/anchors-hearts-und-gaeste/\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261031-halloweenparty@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T220000
+DTEND;TZID=Europe/Berlin:20261101T000000
+SUMMARY:Halloweenparty
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Indie- und Rock-Hits der 90er und 2000er.\nEinlass 22:00\, Begi
+ nn 22:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: Abendkasse verklei
+ det 3 €\, ohne Verkleidung 7 €\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.beichezheinz.de/programm/2026-10-31/6022
+URL:https://www.beichezheinz.de/programm/2026-10-31/6022
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261102-vandalisbin@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:VANDALISBIN
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.lux-linden.de/konzerte/vandalisbin/\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261108-fervents-pretty-average@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T200000
+DTEND;TZID=Europe/Berlin:20261108T220000
+SUMMARY:FERVENTS + PRETTY AVERAGE
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Punk aus Belgien\, Shoegaze/Postpunk aus Berlin.\nEinlass 19:00
+ \, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.beichezheinz.de/programm/2026-11-08/6800
+URL:https://www.beichezheinz.de/programm/2026-11-08/6800
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-kulturpalast-linden-20261109-margarita-the-boys@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:MARGARITA & THE BOYS
+LOCATION:Kulturpalast Linden\, Deisterstraße 24\, 30449 Hannover
+DESCRIPTION:Alternative Rock.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlas
+ s oder Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://kulturpalast-hannover.de/events/
+URL:https://kulturpalast-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-kulturpalast-linden-20261111-andreas-liebert-earn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:ANDREAS LIEBERT & EARN
+LOCATION:Kulturpalast Linden\, Deisterstraße 24\, 30449 Hannover
+DESCRIPTION:Indie-Pop.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://kulturpalast-hannover.de/events/
+URL:https://kulturpalast-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261111-soffie@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:SOFFIE
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Indie-Pop.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.lux-l
+ inden.de/programm/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261112-come-madame-whiskey@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:COME + MADAME WHISKEY
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Alternative Rock aus Griechenland\, Indie Rock aus Costa Rica.\
+ nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.beichezheinz.de/programm/20
+ 26-11-12/7210
+URL:https://www.beichezheinz.de/programm/2026-11-12/7210
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261112-the-cassandra-complex-und-sjoblom@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:THE CASSANDRA COMPLEX UND SJÖBLOM
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Post-Punk und Industrial.\nEinlass 19:00\, Beginn 20:00 Uhr\nEn
+ de: laut Quelle nicht angegeben\nPreis: VVK 28 € zzgl. Geb.\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261115-shaki-tavi-shoegaze-usa@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:SHAKI TAVI (Shoegaze / USA)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Eintritt frei\, der Hut geht rum\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.beichezheinz.de/programm/2026-11-15/6799
+URL:https://www.beichezheinz.de/programm/2026-11-15/6799
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261116-the-jackson-pollok-garage-italien@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:THE JACKSON POLLOK (Garage / Italien)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.beichezheinz.de/programm/2026-11-16/7211
+URL:https://www.beichezheinz.de/programm/2026-11-16/7211
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261118-bruchbude@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:BRUCHBUDE
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Indie-Pop.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle
+  nicht angegeben\nPreis: VVK 25 € zzgl. Geb.\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261125-van-urst-indie-rock-postpunk-berlin@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:VAN URST (Indie Rock / Postpunk / Berlin)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.beichezheinz.de/programm/2026-11-25/7213
+URL:https://www.beichezheinz.de/programm/2026-11-25/7213
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261125-health-vowws-und-doodseskader@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:HEALTH\, VOWWS und DOODSESKADER
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Tickets: https://musikzentrum-hannover.de/veranstaltung/health-
+ vowws-und-doodseskader/\nQuelle (bitte vor dem Besuch prüfen): https://mu
+ sikzentrum-hannover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261126-laura-wos-soenke@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:LAURA WOS + SOENKE
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Indie-Deutschpop aus Hannover und Paderborn.\nEinlass 19:00\, B
+ eginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.beichezheinz.de/programm/2026-11-26/7179
+URL:https://www.beichezheinz.de/programm/2026-11-26/7179
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261126-bird-s-view@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:BIRD'S VIEW
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Roher\, direkter Indie-Rock.\nEinlass 19:00\, Beginn 20:00 Uhr\
+ nEnde: laut Quelle nicht angegeben\nPreis: VVK 20 € zzgl. Geb.\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261204-mpc-lafote-shatten@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:MPC LAFOTE + SHATTEN
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Harter Pop und Postpunk aus Hamburg.\nEinlass 19:00\, Beginn 20
+ :00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.beichezheinz.de/programm/2026-12-04/6828
+URL:https://www.beichezheinz.de/programm/2026-12-04/6828
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261205-ell-der-rocknroll-ist-tot@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:ELL – der rocknroll ist tot
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Krach-Pop aus Chemnitz.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.beichezheinz.de/programm/2026-12-05/6339
+URL:https://www.beichezheinz.de/programm/2026-12-05/6339
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261206-dachshund-manchester@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T200000
+DTEND;TZID=Europe/Berlin:20261206T220000
+SUMMARY:DACHSHUND (Manchester)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.beichezheinz.de/programm/2026-12-06/6803
+URL:https://www.beichezheinz.de/programm/2026-12-06/6803
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261210-marcel-postpunk-belgien@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:MARCEL (Postpunk / Belgien)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.beichezheinz.de/programm/2026-12-10/7216
+URL:https://www.beichezheinz.de/programm/2026-12-10/7216
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-kulturpalast-linden-20261211-the-deadnotes-tba@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:THE DEADNOTES & TBA
+LOCATION:Kulturpalast Linden\, Deisterstraße 24\, 30449 Hannover
+DESCRIPTION:Rock.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Begin
+ n)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://kulturpalast-hannover.de/events/liste/seite/2/
+URL:https://kulturpalast-hannover.de/events/liste/seite/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20270114-then-comes-silence-und-agent-side-grinde@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T200000
+DTEND;TZID=Europe/Berlin:20270114T220000
+SUMMARY:THEN COMES SILENCE UND AGENT SIDE GRINDER
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK 25 € zzgl. Geb.\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20270209-kytes@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:KYTES
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20270317-razz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:RAZZ
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

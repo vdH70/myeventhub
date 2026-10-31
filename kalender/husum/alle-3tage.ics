@@ -1,0 +1,253 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Husum · my Event Hub (Erinnerung 3 Tage vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hus-speicher-20261031-halloween-party@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T210000
+DTEND;TZID=Europe/Berlin:20261031T230000
+SUMMARY:Halloween-Party
+LOCATION:Speicher Husum\, Hafenstraße 17\, 25813 Husum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.speicher-husum.de/
+URL:https://www.speicher-husum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-speicher-20261103-kindertheater-des-monats-maskenball-der-tiere@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T150000
+DTEND;TZID=Europe/Berlin:20261103T170000
+SUMMARY:Kindertheater des Monats: Maskenball der Tiere
+LOCATION:Speicher Husum\, Hafenstraße 17\, 25813 Husum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.speicher-husum.de/
+URL:https://www.speicher-husum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-speicher-20261103-offene-buehne@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Offene Bühne
+LOCATION:Speicher Husum\, Hafenstraße 17\, 25813 Husum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.speicher-husum.de/
+URL:https://www.speicher-husum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-speicher-20261107-mirja-klippel@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T203000
+DTEND;TZID=Europe/Berlin:20261107T223000
+SUMMARY:Mirja Klippel
+LOCATION:Speicher Husum\, Hafenstraße 17\, 25813 Husum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.speicher-husum.de/
+URL:https://www.speicher-husum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-speicher-20261113-colour-haze-support-lightning-mushrooms@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T203000
+DTEND;TZID=Europe/Berlin:20261113T223000
+SUMMARY:Colour Haze\, Support: Lightning Mushrooms
+LOCATION:Speicher Husum\, Hafenstraße 17\, 25813 Husum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.speicher-husum.de/
+URL:https://www.speicher-husum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-speicher-20261115-voodoo-juergens-und-die-ansa-panier-live-2026@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Voodoo Jürgens und die Ansa Panier – Live 2026
+LOCATION:Speicher Husum\, Hafenstraße 17\, 25813 Husum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.speicher-hus
+ um.de/
+URL:https://www.speicher-husum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-marktplatz-20261116-husumer-weihnachtsmarkt-2026-beginn@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Beginn: Husumer Weihnachtsmarkt 2026
+LOCATION:Marktplatz Husum\, Husum
+DESCRIPTION:Weihnachtsmarkt rund um den Tine-Brunnen.\nLaufzeit: 16.11.2026
+  bis 27.12.2026\nTermine laut Veranstalter: nicht am 22.11. und 25.12.\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.husum-tourismus.de/Vor-Or
+ t/Veranstaltungen-Events/Husumer-Weihnachtsmarkt
+URL:https://www.husum-tourismus.de/Vor-Ort/Veranstaltungen-Events/Husumer-W
+ eihnachtsmarkt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-marktplatz-20261116-husumer-weihnachtsmarkt-2026-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Letzter Tag: Husumer Weihnachtsmarkt 2026
+LOCATION:Marktplatz Husum\, Husum
+DESCRIPTION:Weihnachtsmarkt rund um den Tine-Brunnen.\nLaufzeit: 16.11.2026
+  bis 27.12.2026\nTermine laut Veranstalter: nicht am 22.11. und 25.12.\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.husum-tourismus.de/Vor-Or
+ t/Veranstaltungen-Events/Husumer-Weihnachtsmarkt
+URL:https://www.husum-tourismus.de/Vor-Ort/Veranstaltungen-Events/Husumer-W
+ eihnachtsmarkt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-speicher-20261125-stoppok-rund-reise-solo-tour-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Stoppok – RUND-Reise\, Solo-Tour 2026
+LOCATION:Speicher Husum\, Hafenstraße 17\, 25813 Husum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.speicher-hus
+ um.de/
+URL:https://www.speicher-husum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-speicher-20261127-goetz-widmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Götz Widmann
+LOCATION:Speicher Husum\, Hafenstraße 17\, 25813 Husum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.speicher-hus
+ um.de/
+URL:https://www.speicher-husum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-marktplatz-20270313-husumer-krokusbluetenfest-2027-geplant-beginn@m
+ yeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:Beginn: Husumer Krokusblütenfest 2027 (geplant)
+LOCATION:Marktplatz Husum\, Husum
+DESCRIPTION:Frühlingsfest zur Krokusblüte\, Eröffnung am Alten Rathaus\;
+  Termin laut Seite geplant.\nLaufzeit: 13.3.2027 bis 14.3.2027\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.husum-tourismus.de/Vor-Ort/Verans
+ taltungen-Events/Krokusbluetenfest
+URL:https://www.husum-tourismus.de/Vor-Ort/Veranstaltungen-Events/Krokusblu
+ etenfest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hus-marktplatz-20270313-husumer-krokusbluetenfest-2027-geplant-ende@mye
+ venthub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Letzter Tag: Husumer Krokusblütenfest 2027 (geplant)
+LOCATION:Marktplatz Husum\, Husum
+DESCRIPTION:Frühlingsfest zur Krokusblüte\, Eröffnung am Alten Rathaus\;
+  Termin laut Seite geplant.\nLaufzeit: 13.3.2027 bis 14.3.2027\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.husum-tourismus.de/Vor-Ort/Verans
+ taltungen-Events/Krokusbluetenfest
+URL:https://www.husum-tourismus.de/Vor-Ort/Veranstaltungen-Events/Krokusblu
+ etenfest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,129 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Dreieich · my Event Hub (Erinnerung 3 Stunden 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20261103-hands-up-lejo-nl@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T160000
+DTEND;TZID=Europe/Berlin:20261103T180000
+SUMMARY:Hands up! – Lejo (NL)
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /lejo-handsup-16-uhr
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/lejo-ha
+ ndsup-16-uhr
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20261207-schlafe-dornroeschen-im-bett-zu-spiele
+ n-martin-vog@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T160000
+DTEND;TZID=Europe/Berlin:20261207T180000
+SUMMARY:Schlafe! Dornröschen im Bett zu spielen – Martin Vogel
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /dornroeschen
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/dornroe
+ schen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270217-bei-vollmond-spricht-man-nicht-theater
+ -zitadelle@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T160000
+DTEND;TZID=Europe/Berlin:20270217T180000
+SUMMARY:Bei Vollmond spricht man nicht – Theater Zitadelle
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /bei-vollmond-spricht-man-nicht
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/bei-vol
+ lmond-spricht-man-nicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270303-the-baby-tyler-show-compagnie-snafu@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T160000
+DTEND;TZID=Europe/Berlin:20270303T180000
+SUMMARY:The Baby Tyler Show – Compagnie SNAFU
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /the-baby-tyler-show
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/the-bab
+ y-tyler-show
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-buergerhaus-dreieich-20270304-licht-dadodans-nl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T160000
+DTEND;TZID=Europe/Berlin:20270304T180000
+SUMMARY:LiCHT – Dadodans (NL)
+LOCATION:Bürgerhaus Dreieich\, Fichtestraße 50\, 63303 Dreieich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen
+ /licht-2026-16-uhr
+URL:https://www.buergerhaeuser-dreieich.de/programm/veranstaltungen/licht-2
+ 026-16-uhr
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Konstanz · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kn-rosgartenmuseum-20260521-die-mosbruggers-eine-kuenstlerfamilie-am-bo
+ densee-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Die Mosbruggers. Eine Künstlerfamilie am Bodensee
+LOCATION:Rosgartenmuseum\, Rosgartenstraße 3-5\, 78462 Konstanz
+DESCRIPTION:Laufzeit: 21.5.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rosgartenmuseum.de/
+URL:https://www.rosgartenmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

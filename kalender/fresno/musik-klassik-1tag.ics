@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Fresno · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fre-paul-shaghoian-concert-hall-20261121-elgar-enigma-variations@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART:20261121T193000
+DTEND:20261121T213000
+SUMMARY:Elgar Enigma Variations
+LOCATION:Paul Shaghoian Concert Hall\, Fresno
+DESCRIPTION:Konzert der Fresno Philharmonic.\nTermine laut Veranstalter: au
+ ch 22.11.2026\, 15:00\nQuelle (bitte vor dem Besuch prüfen): https://fres
+ nophil.org/
+URL:https://fresnophil.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fre-saroyan-theatre-20261205-home-for-the-holidays@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART:20261205T193000
+DTEND:20261205T213000
+SUMMARY:Home for the Holidays
+LOCATION:William Saroyan Theatre\, Fresno
+DESCRIPTION:Weihnachtskonzert der Fresno Philharmonic.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://fresnophil.
+ org/
+URL:https://fresnophil.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

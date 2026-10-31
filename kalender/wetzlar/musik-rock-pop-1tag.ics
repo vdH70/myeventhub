@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Wetzlar · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wz-buderus-arena-20261031-suzi-quatro-world-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Suzi Quatro – World Tour 2026
+LOCATION:Buderus Arena (ehem. Rittal Arena)\, Wetzlar
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.buderus-arena.de/
+ events-tickets
+URL:https://www.buderus-arena.de/events-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270307-abba-gold-the-concert-show@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T180000
+DTEND;TZID=Europe/Berlin:20270307T200000
+SUMMARY:ABBA Gold – The Concert Show
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270418-true-collins-phil-collins-genesis-tribute-show@m
+ yeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270418T180000
+DTEND;TZID=Europe/Berlin:20270418T200000
+SUMMARY:True Collins – Phil Collins & Genesis Tribute Show
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20271001-tribute-to-the-heroes-the-ultimate-80-s-rockshow
+ @myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271001T200000
+DTEND;TZID=Europe/Berlin:20271001T220000
+SUMMARY:Tribute to The Heroes – The ultimate 80's Rockshow
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20271220-elvis-the-story-of-rock-n-roll@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271220T200000
+DTEND;TZID=Europe/Berlin:20271220T220000
+SUMMARY:Elvis – The Story of Rock'n'Roll
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20280212-simon-garfunkel-tribute-meets-classic@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280212T200000
+DTEND;TZID=Europe/Berlin:20280212T220000
+SUMMARY:Simon & Garfunkel – Tribute meets Classic
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Verlegt vom 09.04.2027.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://stadthallewetzlar.de/veranstal
+ tungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

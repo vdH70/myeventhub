@@ -1,0 +1,222 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Mannheim · my Event Hub (Erinnerung 3 Stunden v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ma-marchivum-20261111-blick-hinter-die-kulissen-fuehrung-durch-das-marc
+ h@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T160000
+DTEND;TZID=Europe/Berlin:20261111T180000
+SUMMARY:Blick hinter die Kulissen: Führung durch das MARCHIVUM
+LOCATION:MARCHIVUM\, Archivplatz 1\, 68169 Mannheim
+DESCRIPTION:Treffpunkt Foyer im EG.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.marchivum.de/de/kalender-z
+URL:https://www.marchivum.de/de/kalender-z
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261119-vortrag-seti-co-auf-der-suche-nach-ausserirdisc
+ hem@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Vortrag: SETI & Co. – Auf der Suche nach außerirdischem Leben
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-barockschloss-20261121-prickelnder-genuss-im-glanz-der-kronleuchter@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T170000
+DTEND;TZID=Europe/Berlin:20261121T190000
+SUMMARY:Prickelnder Genuss im Glanz der Kronleuchter
+LOCATION:Barockschloss Mannheim\, Bismarckstraße\, Schloss Mittelbau\, 681
+ 61 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-v
+ eranstaltungen
+URL:https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-veranstal
+ tungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261124-vortrag-quanten-und-kosmos-wie-das-kleinste-das
+ -gr@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T193000
+DTEND;TZID=Europe/Berlin:20261124T213000
+SUMMARY:Vortrag: Quanten und Kosmos – Wie das Kleinste das Größte erkl
+ ärt
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-barockschloss-20261128-prickelnder-genuss-im-glanz-der-kronleuchter@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T170000
+DTEND;TZID=Europe/Berlin:20261128T190000
+SUMMARY:Prickelnder Genuss im Glanz der Kronleuchter
+LOCATION:Barockschloss Mannheim\, Bismarckstraße\, Schloss Mittelbau\, 681
+ 61 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-v
+ eranstaltungen
+URL:https://www.schloss-mannheim.de/besuchsinformation/fuehrungen-veranstal
+ tungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261204-vortrag-60-jahre-star-trek-zusatzveranstaltung@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T173000
+DTEND;TZID=Europe/Berlin:20261204T193000
+SUMMARY:Vortrag: 60 Jahre Star Trek (Zusatzveranstaltung)
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261204-vortrag-60-jahre-star-trek@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Vortrag: 60 Jahre Star Trek
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-marchivum-20261209-blick-hinter-die-kulissen-fuehrung-durch-das-marc
+ h@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T160000
+DTEND;TZID=Europe/Berlin:20261209T180000
+SUMMARY:Blick hinter die Kulissen: Führung durch das MARCHIVUM
+LOCATION:MARCHIVUM\, Archivplatz 1\, 68169 Mannheim
+DESCRIPTION:Treffpunkt Foyer im EG.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.marchivum.de/de/kalender-z
+URL:https://www.marchivum.de/de/kalender-z
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261210-vortrag-space-lessons@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T193000
+DTEND;TZID=Europe/Berlin:20261210T213000
+SUMMARY:Vortrag: Space Lessons
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-planetarium-20261217-vortrag-der-stern-von-bethlehem-aus-astronomisc
+ her@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:Vortrag: Der Stern von Bethlehem aus astronomischer Sicht
+LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
+ t
+URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

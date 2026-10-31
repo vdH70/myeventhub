@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Meißen · my Event Hub (Erinnerung 3 Tage vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mei-erlebniswelt-meissen-20261205-christmas-4-friends-weihnachtslieder-
+ mit-kaminfeue@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:CHRISTMAS 4 FRIENDS – Weihnachtslieder mit Kaminfeuer-Atmosphäre
+LOCATION:Erlebniswelt Haus MEISSEN (Porzellan-Museum und Schauwerkstatt)\, 
+ Talstraße 9\, 01662 Meißen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.erlebniswelt
+ -meissen.com/en/events
+URL:https://www.erlebniswelt-meissen.com/en/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mei-erlebniswelt-meissen-20261219-festliches-weihnachtskonzert-mit-dem-
+ mozartverein@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Festliches Weihnachtskonzert mit dem Mozartverein zu Dresden e.V.
+LOCATION:Erlebniswelt Haus MEISSEN (Porzellan-Museum und Schauwerkstatt)\, 
+ Talstraße 9\, 01662 Meißen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.erlebniswelt
+ -meissen.com/en/events
+URL:https://www.erlebniswelt-meissen.com/en/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

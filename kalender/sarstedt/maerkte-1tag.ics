@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Sarstedt · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hi-innenstadt-sarstedt-20261217-sarstedter-weihnachtsmarkt-beginn@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Beginn: Sarstedter Weihnachtsmarkt
+LOCATION:Sarstedter Innenstadt (Weihnachtsmarkt)\, 31157 Sarstedt
+DESCRIPTION:Weihnachtsmarkt der Stadt Sarstedt am vierten Adventswochenende
+ .\nLaufzeit: 17.12.2026 bis 20.12.2026\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.sarstedt.de/portal/meldungen/weihnachtliche-musik-gesucht
+ -buehne-frei-fuer-ihren-auftritt-auf-dem-sarstedter-weihnachtsmarkt--90000
+ 0452-33660.html?rubrik=900000009
+URL:https://www.sarstedt.de/portal/meldungen/weihnachtliche-musik-gesucht-b
+ uehne-frei-fuer-ihren-auftritt-auf-dem-sarstedter-weihnachtsmarkt--9000004
+ 52-33660.html?rubrik=900000009
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-innenstadt-sarstedt-20261217-sarstedter-weihnachtsmarkt-ende@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Letzter Tag: Sarstedter Weihnachtsmarkt
+LOCATION:Sarstedter Innenstadt (Weihnachtsmarkt)\, 31157 Sarstedt
+DESCRIPTION:Weihnachtsmarkt der Stadt Sarstedt am vierten Adventswochenende
+ .\nLaufzeit: 17.12.2026 bis 20.12.2026\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.sarstedt.de/portal/meldungen/weihnachtliche-musik-gesucht
+ -buehne-frei-fuer-ihren-auftritt-auf-dem-sarstedter-weihnachtsmarkt--90000
+ 0452-33660.html?rubrik=900000009
+URL:https://www.sarstedt.de/portal/meldungen/weihnachtliche-musik-gesucht-b
+ uehne-frei-fuer-ihren-auftritt-auf-dem-sarstedter-weihnachtsmarkt--9000004
+ 52-33660.html?rubrik=900000009
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

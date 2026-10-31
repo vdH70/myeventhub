@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Emden · my Event Hub (Erinnerung 3 Stunden vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261004-oeffentliche-fuehrung-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Laufzeit: 4.10.2026 bis 31.3.2027\nTermine laut Veranstalter: s
+ onntags 11:30 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.kuns
+ thalle-emden.de/
+URL:https://www.kunsthalle-emden.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,174 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Bamberg · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ba-villa-dessauer-20261002-lichtakkord-andreas-herzau-fotografiert-die-
+ bamber-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Lichtakkord. Andreas Herzau fotografiert die Bamberger
+  Symphoniker
+LOCATION:Villa Dessauer (Stadtgalerie Bamberg)\, Hainstraße 4a\, 96047 Bam
+ berg
+DESCRIPTION:Fotoausstellung über das Orchester.\nLaufzeit: 2.10.2026 bis 2
+ 8.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://museum.bamberg.de
+ /news/lichtakkord-andreas-herzau-fotografiert-die-bamberger-symphoniker/
+URL:https://museum.bamberg.de/news/lichtakkord-andreas-herzau-fotografiert-
+ die-bamberger-symphoniker/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-historisches-museum-20261007-feuer-farbe-licht-emaillewelten-von-nor
+ a-kovats-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Feuer. Farbe. Licht | Emaillewelten von Nora Kovats
+LOCATION:Historisches Museum Bamberg\, Domplatz 7\, 96049 Bamberg
+DESCRIPTION:Laufzeit: 7.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum.bamberg.de/
+URL:https://museum.bamberg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-historisches-museum-20261007-mauern-der-macht-die-alte-hofhaltung-ba
+ mberg-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Mauern der Macht. Die Alte Hofhaltung Bamberg
+LOCATION:Historisches Museum Bamberg\, Domplatz 7\, 96049 Bamberg
+DESCRIPTION:Laufzeit: 7.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum.bamberg.de/news/mauern-der-macht-die-alte-hofhal
+ tung-bamberg/
+URL:https://museum.bamberg.de/news/mauern-der-macht-die-alte-hofhaltung-bam
+ berg/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-villa-dessauer-20261115-bilder-hoeren-musik-sehen-kreativnachmittag-
+ fuer-k@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T143000
+DTEND;TZID=Europe/Berlin:20261115T163000
+SUMMARY:Bilder hören\, Musik sehen – Kreativnachmittag für Kinder und F
+ amilien: Musik malen
+LOCATION:Villa Dessauer (Stadtgalerie Bamberg)\, Hainstraße 4a\, 96047 Bam
+ berg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum.bamberg.de/news/bilder-hoeren-musik-sehen-kreati
+ vnachmittag-fuer-kinder-und-familien-musik-malen/
+URL:https://museum.bamberg.de/news/bilder-hoeren-musik-sehen-kreativnachmit
+ tag-fuer-kinder-und-familien-musik-malen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-historisches-museum-20261122-alte-hofhaltung-entdecken-oeffentliche-
+ fuehrung-du@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:Alte Hofhaltung entdecken – Öffentliche Führung durch die Ausst
+ ellung „Mauern der Macht“
+LOCATION:Historisches Museum Bamberg\, Domplatz 7\, 96049 Bamberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum.bamberg.de/allgemeine-informationen/aktuelle-ter
+ mine/
+URL:https://museum.bamberg.de/allgemeine-informationen/aktuelle-termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-villa-dessauer-20261204-mit-licht-und-klang-auf-spurensuche-oeffentl
+ iche-k@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T150000
+DTEND;TZID=Europe/Berlin:20261204T170000
+SUMMARY:Mit Licht und Klang auf Spurensuche – Öffentliche Kinderführung
+  durch die Ausstellung „Lichtakkord“
+LOCATION:Villa Dessauer (Stadtgalerie Bamberg)\, Hainstraße 4a\, 96047 Bam
+ berg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum.bamberg.de/allgemeine-informationen/aktuelle-ter
+ mine/
+URL:https://museum.bamberg.de/allgemeine-informationen/aktuelle-termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-villa-dessauer-20261210-von-der-idee-zur-ausstellung-oeffentliche-fu
+ ehrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T160000
+DTEND;TZID=Europe/Berlin:20261210T180000
+SUMMARY:Von der Idee zur Ausstellung – Öffentliche Führung mit Kuratori
+ n Dr. Eleonora Cagol („Lichtakkord“)
+LOCATION:Villa Dessauer (Stadtgalerie Bamberg)\, Hainstraße 4a\, 96047 Bam
+ berg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum.bamberg.de/allgemeine-informationen/aktuelle-ter
+ mine/
+URL:https://museum.bamberg.de/allgemeine-informationen/aktuelle-termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,424 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Köln · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261106-aehzezupp-klaaf-fastelovend@myeven
+ thub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T180000
+DTEND;TZID=Europe/Berlin:20261106T200000
+SUMMARY:Ähzezupp\, Klaaf & Fastelovend
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261111-en-unserem-veedel-danze-singe-schu
+ nkele@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T120000
+DTEND;TZID=Europe/Berlin:20261111T140000
+SUMMARY:En unserem Veedel – danze\, singe\, schunkele
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261113-madaemcher-sessionseroeffnung@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T185000
+DTEND;TZID=Europe/Berlin:20261113T205000
+SUMMARY:Madämcher Sessionseröffnung
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-neumarkt-20261116-markt-der-engel-2026-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Beginn: Markt der Engel 2026
+LOCATION:Neumarkt Köln\, Neumarkt\, 50667 Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Neumarkt.\nLaufzeit: 16.11.2026 bis 23.
+ 12.2026\nTermine laut Veranstalter: So–Do 11–21 Uhr\, Fr/Sa 11–22 Uh
+ r (Glühweinstände 1 Stunde länger)\; 22.11. (Totensonntag) geschlossen\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.markt-der-engel.de/
+URL:https://www.markt-der-engel.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-neumarkt-20261116-markt-der-engel-2026-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Markt der Engel 2026
+LOCATION:Neumarkt Köln\, Neumarkt\, 50667 Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Neumarkt.\nLaufzeit: 16.11.2026 bis 23.
+ 12.2026\nTermine laut Veranstalter: So–Do 11–21 Uhr\, Fr/Sa 11–22 Uh
+ r (Glühweinstände 1 Stunde länger)\; 22.11. (Totensonntag) geschlossen\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.markt-der-engel.de/
+URL:https://www.markt-der-engel.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-roncalliplatz-20261116-weihnachtsmarkt-am-koelner-dom-beginn@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Beginn: Weihnachtsmarkt am Kölner Dom
+LOCATION:Roncalliplatz\, Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Roncalliplatz vor dem Kölner Dom.\nLau
+ fzeit: 16.11.2026 bis 23.12.2026\nTermine laut Veranstalter: So–Mi 11–
+ 21 Uhr\, Do/Fr 11–22 Uhr\, Sa 10–22 Uhr\; am 22.11. (Totensonntag) ges
+ chlossen\nQuelle (bitte vor dem Besuch prüfen): https://www.koelnerweihna
+ chtsmarkt.com/
+URL:https://www.koelnerweihnachtsmarkt.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-roncalliplatz-20261116-weihnachtsmarkt-am-koelner-dom-ende@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Weihnachtsmarkt am Kölner Dom
+LOCATION:Roncalliplatz\, Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Roncalliplatz vor dem Kölner Dom.\nLau
+ fzeit: 16.11.2026 bis 23.12.2026\nTermine laut Veranstalter: So–Mi 11–
+ 21 Uhr\, Do/Fr 11–22 Uhr\, Sa 10–22 Uhr\; am 22.11. (Totensonntag) ges
+ chlossen\nQuelle (bitte vor dem Besuch prüfen): https://www.koelnerweihna
+ chtsmarkt.com/
+URL:https://www.koelnerweihnachtsmarkt.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-heumarkt-alter-markt-20261123-heinzels-wintermaerchen-beginn@myeventh
+ ub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Heinzels Wintermärchen
+LOCATION:Heumarkt und Alter Markt\, Köln
+DESCRIPTION:Weihnachtsmarkt auf Heumarkt und Alter Markt in der Kölner Alt
+ stadt.\nLaufzeit: 23.11.2026 bis 10.1.2027\nTermine laut Veranstalter: tä
+ glich 11–22 Uhr\, ab 31.12. bis 21 Uhr\; 24. und 25.12. geschlossen\; Al
+ ter Markt nur bis 23.12.\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.heinzels-wintermaerchen.de/
+URL:https://www.heinzels-wintermaerchen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-heumarkt-alter-markt-20261123-heinzels-wintermaerchen-ende@myeventhub
+ .de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Heinzels Wintermärchen
+LOCATION:Heumarkt und Alter Markt\, Köln
+DESCRIPTION:Weihnachtsmarkt auf Heumarkt und Alter Markt in der Kölner Alt
+ stadt.\nLaufzeit: 23.11.2026 bis 10.1.2027\nTermine laut Veranstalter: tä
+ glich 11–22 Uhr\, ab 31.12. bis 21 Uhr\; 24. und 25.12. geschlossen\; Al
+ ter Markt nur bis 23.12.\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.heinzels-wintermaerchen.de/
+URL:https://www.heinzels-wintermaerchen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270102-petermann-schunkelball@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270102T181500
+DTEND;TZID=Europe/Berlin:20270102T201500
+SUMMARY:Petermann Schunkelball
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270103-maedchensitzung-kg-blau-rot-1969-e
+ -v@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T150000
+DTEND;TZID=Europe/Berlin:20270103T170000
+SUMMARY:Mädchensitzung – KG Blau-Rot 1969 e.V.
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270105-muellemer-mettmahl@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T180000
+DTEND;TZID=Europe/Berlin:20270105T200000
+SUMMARY:Müllemer Mettmahl
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval\, ausverkauft.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltung
+ en/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270106-franzosensitzung-2027@myeventhub.d
+ e
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T173000
+DTEND;TZID=Europe/Berlin:20270106T193000
+SUMMARY:Franzosensitzung 2027
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270107-franzosensitzung-2027@myeventhub.d
+ e
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T180000
+DTEND;TZID=Europe/Berlin:20270107T200000
+SUMMARY:Franzosensitzung 2027
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval\, ausverkauft.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltung
+ en/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270112-eure-lieblingssitzung@myeventhub.d
+ e
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T170000
+DTEND;TZID=Europe/Berlin:20270112T190000
+SUMMARY:Eure Lieblingssitzung
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270119-muellemer-mettmahl@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T200000
+DTEND;TZID=Europe/Berlin:20270119T220000
+SUMMARY:Müllemer Mettmahl
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval\, ausverkauft.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltung
+ en/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270120-maedche-jeck-die-maedchensitzung@m
+ yeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270120T160000
+DTEND;TZID=Europe/Berlin:20270120T180000
+SUMMARY:Mädche Jeck – Die Mädchensitzung
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270126-muellemer-mettmahl@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T190000
+DTEND;TZID=Europe/Berlin:20270126T210000
+SUMMARY:Müllemer Mettmahl
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval\, ausverkauft.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltung
+ en/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270205-duennwalder-mettmahl@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T160000
+DTEND;TZID=Europe/Berlin:20270205T180000
+SUMMARY:Dünnwalder Mettmahl
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270207-fastelovend-famos-die-familiensitz
+ ung@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T150000
+DTEND;TZID=Europe/Berlin:20270207T170000
+SUMMARY:Fastelovend famos – Die Familiensitzung
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Karneval.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-rosenmontagszug-20270208-koelner-rosenmontagszug-2027@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270208T100000
+DTEND;TZID=Europe/Berlin:20270208T120000
+SUMMARY:Kölner Rosenmontagszug 2027
+LOCATION:Kölner Rosenmontagszug (Zugweg Innenstadt)\, Köln
+DESCRIPTION:Rosenmontagszug des Festkomitees Kölner Karneval\, Motto „Mo
+ rje es\, wat do drus mähs!“\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://koelnerkarneval.de/session/veranst
+ altungen/veranstaltung/koelner-rosenmontagszug-2026
+URL:https://koelnerkarneval.de/session/veranstaltungen/veranstaltung/koelne
+ r-rosenmontagszug-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

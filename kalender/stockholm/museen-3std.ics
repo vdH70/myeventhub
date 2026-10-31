@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Stockholm · my Event Hub (Erinnerung 3 Stunden vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sto-nationalmuseum-20260423-wilhelm-kage-shoji-hamada-ende@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Wilhelm Kåge & Shōji Hamada
+LOCATION:Nationalmuseum\, Stockholm
+DESCRIPTION:Laufzeit: 23.4.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationalmuseum.se/utstallningar
+URL:https://www.nationalmuseum.se/utstallningar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sto-nationalmuseum-20260602-kage-skisser-och-teckningar-ur-nationalmuse
+ ums-ark-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Letzter Tag: Kåge – skisser och teckningar ur Nationalmuseums ar
+ kiv
+LOCATION:Nationalmuseum\, Stockholm
+DESCRIPTION:Laufzeit: 2.6.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.nationalmuseum.se/utstallningar
+URL:https://www.nationalmuseum.se/utstallningar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sto-nationalmuseum-20260924-till-havet-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Till havet!
+LOCATION:Nationalmuseum\, Stockholm
+DESCRIPTION:Laufzeit: 24.9.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.nationalmuseum.se/utstallningar
+URL:https://www.nationalmuseum.se/utstallningar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

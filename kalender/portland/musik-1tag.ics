@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Portland · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pdx-moda-center-20261101-the-smashing-pumpkins@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART:20261101T200000
+DTEND:20261101T220000
+SUMMARY:The Smashing Pumpkins
+LOCATION:Moda Center\, Portland
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rosequarter.com/events
+URL:https://www.rosequarter.com/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pdx-moda-center-20261108-teddy-swims@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART:20261108T190000
+DTEND:20261108T210000
+SUMMARY:Teddy Swims
+LOCATION:Moda Center\, Portland
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rosequarter.com/events
+URL:https://www.rosequarter.com/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pdx-moda-center-20261128-trans-siberian-orchestra@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART:20261128T153000
+DTEND:20261128T173000
+SUMMARY:Trans-Siberian Orchestra
+LOCATION:Moda Center\, Portland
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rosequarter.com/events
+URL:https://www.rosequarter.com/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

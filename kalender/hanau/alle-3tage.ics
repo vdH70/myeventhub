@@ -1,0 +1,221 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Hanau · my Event Hub (Erinnerung 3 Tage vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hu-goldschmiedehaus-20250304-aus-dem-depot-eine-bestandsaufnahme-ende@m
+ yeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+SUMMARY:Letzter Tag: Aus dem Depot. Eine Bestandsaufnahme
+LOCATION:Deutsches Goldschmiedehaus Hanau\, Altstädter Markt 6\, 63450 Han
+ au
+DESCRIPTION:Laufzeit: 4.3.2025 bis 31.12.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldschmiedehaus.com/
+URL:https://www.goldschmiedehaus.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-historisches-museum-philippsruhe-20260317-banal-bizarr-brillant-ende
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Banal\, bizarr\, brillant
+LOCATION:Historisches Museum Hanau Schloss Philippsruhe\, Philippsruher All
+ ee 45\, 63454 Hanau
+DESCRIPTION:Laufzeit: 17.3.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-hanau.de/
+URL:https://www.museen-hanau.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-goldschmiedehaus-20260605-paul-derrez-celebrating-life-ende@myeventh
+ ub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Letzter Tag: Paul Derrez. Celebrating life
+LOCATION:Deutsches Goldschmiedehaus Hanau\, Altstädter Markt 6\, 63450 Han
+ au
+DESCRIPTION:Laufzeit: 5.6.2026 bis 20.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldschmiedehaus.com/
+URL:https://www.goldschmiedehaus.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-historisches-museum-philippsruhe-20260904-truemmer-traeume-tatendran
+ g-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Trümmer\, Träume\, Tatendrang
+LOCATION:Historisches Museum Hanau Schloss Philippsruhe\, Philippsruher All
+ ee 45\, 63454 Hanau
+DESCRIPTION:Laufzeit: 4.9.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.museen-hanau.de/
+URL:https://www.museen-hanau.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-museum-grossauheim-20261101-familien-mosaikwerkstatt-mosaike-gestalt
+ en-wie-aug@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Familien-Mosaikwerkstatt: Mosaike gestalten wie August Peukert
+LOCATION:Museum Großauheim\, Pfortenwingert 4\, 63457 Hanau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-hanau.de/besuch/museum-grossauheim
+URL:https://www.museen-hanau.de/besuch/museum-grossauheim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-museum-grossauheim-20261105-dampfwerkstatt-bau-eines-kleinen-dampfbo
+ ots@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T160000
+DTEND;TZID=Europe/Berlin:20261105T180000
+SUMMARY:Dampfwerkstatt: Bau eines kleinen Dampfboots
+LOCATION:Museum Großauheim\, Pfortenwingert 4\, 63457 Hanau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.museen-hanau.de/besuch/museum-gro
+ ssauheim
+URL:https://www.museen-hanau.de/besuch/museum-grossauheim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-museum-grossauheim-20261115-foto-workshop-smartphone-fotografie-fuer
+ -jugendlic@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Foto-Workshop: Smartphone-Fotografie für Jugendliche
+LOCATION:Museum Großauheim\, Pfortenwingert 4\, 63457 Hanau
+DESCRIPTION:Für Jugendliche ab 14 Jahren.\nEnde: laut Quelle nicht angegeb
+ en\nPreis: kostenlos\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ useen-hanau.de/besuch/museum-grossauheim
+URL:https://www.museen-hanau.de/besuch/museum-grossauheim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-museum-grossauheim-20261115-fuehrung-durch-die-neugestaltete-ausstel
+ lung-augus@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Führung durch die neugestaltete Ausstellung August Peukert
+LOCATION:Museum Großauheim\, Pfortenwingert 4\, 63457 Hanau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-hanau.de/besuch/museum-grossauheim
+URL:https://www.museen-hanau.de/besuch/museum-grossauheim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-museum-schloss-steinheim-20261115-licht-aus-im-museum-schloss-steinh
+ eim-familien-tas@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Licht aus im Museum Schloss Steinheim! Familien-Taschenlampen-Führ
+ ung
+LOCATION:Museum Schloss Steinheim\, Schlossstr. 9\, 63456 Hanau
+DESCRIPTION:Anmeldung über das Buchungsformular der Museen.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ useen-hanau.de/besuch/schloss-steinheim
+URL:https://www.museen-hanau.de/besuch/schloss-steinheim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-museum-schloss-steinheim-20261122-licht-aus-im-museum-schloss-steinh
+ eim-familien-tas@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T170000
+DTEND;TZID=Europe/Berlin:20261122T190000
+SUMMARY:Licht aus im Museum Schloss Steinheim! Familien-Taschenlampen-Führ
+ ung
+LOCATION:Museum Schloss Steinheim\, Schlossstr. 9\, 63456 Hanau
+DESCRIPTION:Anmeldung über das Buchungsformular der Museen.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.m
+ useen-hanau.de/besuch/schloss-steinheim
+URL:https://www.museen-hanau.de/besuch/schloss-steinheim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

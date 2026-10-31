@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in St. Ingbert · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:igb-rischbachstollen-20261031-halloween-im-bergwerk@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween im Bergwerk
+LOCATION:Besucherbergwerk Rischbachstollen\, Obere Rischbachstraße\, 66386
+  St. Ingbert
+DESCRIPTION:Halloween-Party\, ohne Begleitung ab 16 Jahren.\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.rischbachstollen.de/
+URL:https://www.rischbachstollen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

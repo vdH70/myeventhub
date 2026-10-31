@@ -1,0 +1,196 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Hoyerswerda · my Event Hub (Erinnerung 1 Tag 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bz-energiefabrik-knappenrode-20250617-waerme-und-abwaerme-ofengeschicht
+ en-aus-100-jahren-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Wärme und Abwärme – Ofengeschichten aus 100 Jahren
+LOCATION:Energiefabrik Knappenrode\, Werminghoffstraße 20\, 02977 Hoyerswe
+ rda
+DESCRIPTION:Verlängerte Sonderausstellung zur Geschichte des Heizens.\nLau
+ fzeit: 17.6.2025 bis 31.12.2026\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.energiefabrik-knappenrode.de/sonderausstellungen
+URL:https://www.energiefabrik-knappenrode.de/sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bz-energiefabrik-knappenrode-20260329-industriegeschichten-reportagen-a
+ us-museen-die-kei-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Industriegeschichten – Reportagen aus Museen\, die k
+ eine waren
+LOCATION:Energiefabrik Knappenrode\, Werminghoffstraße 20\, 02977 Hoyerswe
+ rda
+DESCRIPTION:Laufzeit: 29.3.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.energiefabrik-knappenrode.de/sonderausstellungen
+URL:https://www.energiefabrik-knappenrode.de/sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bz-lausitzhalle-hoyerswerda-20261031-solo-sunny-von-wolfgang-kohlhaase-
+ mit-der-musik-vo@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Solo Sunny von Wolfgang Kohlhaase – mit der Musik von Günther Fi
+ scher
+LOCATION:Lausitzhalle Hoyerswerda\, Lausitzer Platz 4\, 02977 Hoyerswerda
+DESCRIPTION:Bühnenfassung des DEFA-Films mit Livemusik\, Landesbühnen Sac
+ hsen\, Forum Saal.\nEnde: laut Quelle nicht angegeben\nPreis: ab 27\,00 EU
+ R\nQuelle (bitte vor dem Besuch prüfen): https://www.lausitzhalle.de/vera
+ nstaltung/solo-sunny-von-wolfgang-kohlhaase-mit-der-musik-von-guenther-fis
+ cher-5111/
+URL:https://www.lausitzhalle.de/veranstaltung/solo-sunny-von-wolfgang-kohlh
+ aase-mit-der-musik-von-guenther-fischer-5111/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bz-lausitzhalle-hoyerswerda-20261101-die-grosse-johann-strauss-revue@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T153000
+DTEND;TZID=Europe/Berlin:20261101T173000
+SUMMARY:Die große Johann Strauss Revue
+LOCATION:Lausitzhalle Hoyerswerda\, Lausitzer Platz 4\, 02977 Hoyerswerda
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 50\,00 EUR\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.lausitzhalle.de/veranstaltung
+ /die-grosse-johann-strauss-revue-3362/
+URL:https://www.lausitzhalle.de/veranstaltung/die-grosse-johann-strauss-rev
+ ue-3362/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bz-lausitzhalle-hoyerswerda-20261107-one-night-of-mj-the-tribute-to-the
+ -king-of-pop@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:One Night Of MJ – The Tribute To The King Of Pop
+LOCATION:Lausitzhalle Hoyerswerda\, Lausitzer Platz 4\, 02977 Hoyerswerda
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Erw. ab 55\,90 EUR\, 
+ Ki. ab 27\,95 EUR\nQuelle (bitte vor dem Besuch prüfen): https://www.laus
+ itzhalle.de/veranstaltung/one-night-of-mj-the-tribute-to-the-king-of-pop-2
+ 286/
+URL:https://www.lausitzhalle.de/veranstaltung/one-night-of-mj-the-tribute-t
+ o-the-king-of-pop-2286/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bz-lausitzhalle-hoyerswerda-20261111-alfons-jetzt-noch-deutscherer@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T190000
+DTEND;TZID=Europe/Berlin:20261111T210000
+SUMMARY:ALFONS - jetzt noch deutscherer
+LOCATION:Lausitzhalle Hoyerswerda\, Lausitzer Platz 4\, 02977 Hoyerswerda
+DESCRIPTION:Theater und Kabarett.\nEnde: laut Quelle nicht angegeben\nPreis
+ : ab 25\,00 EUR\, Schüler 7\,00 EUR\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.lausitzhalle.de/veranstaltung/alfons-jetzt-noch-deutscherer
+ -3433/
+URL:https://www.lausitzhalle.de/veranstaltung/alfons-jetzt-noch-deutscherer
+ -3433/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bz-lausitzhalle-hoyerswerda-20261114-jahreskonzert-orchester-lausitzer-
+ braunkohle-e-v@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T160000
+DTEND;TZID=Europe/Berlin:20261114T180000
+SUMMARY:Jahreskonzert - Orchester Lausitzer Braunkohle e.V.
+LOCATION:Lausitzhalle Hoyerswerda\, Lausitzer Platz 4\, 02977 Hoyerswerda
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 30\,00 EUR\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.lausitzhalle.de/veranstaltung
+ /jahreskonzert-orchester-lausitzer-braunkohle-e-v-5160/
+URL:https://www.lausitzhalle.de/veranstaltung/jahreskonzert-orchester-lausi
+ tzer-braunkohle-e-v-5160/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bz-lausitzhalle-hoyerswerda-20261120-aladin-das-musical@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T160000
+DTEND;TZID=Europe/Berlin:20261120T180000
+SUMMARY:Aladin - das Musical
+LOCATION:Lausitzhalle Hoyerswerda\, Lausitzer Platz 4\, 02977 Hoyerswerda
+DESCRIPTION:Familienmusical im Großen Saal.\nEnde: laut Quelle nicht angeg
+ eben\nPreis: ab 24\,00 EUR\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.lausitzhalle.de/veranstaltung/aladin-das-musical-das-highlight-fuer-d
+ ie-ganze-familie-4556/
+URL:https://www.lausitzhalle.de/veranstaltung/aladin-das-musical-das-highli
+ ght-fuer-die-ganze-familie-4556/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

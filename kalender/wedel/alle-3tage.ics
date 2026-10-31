@@ -1,0 +1,123 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Wedel · my Event Hub (Erinnerung 3 Tage vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pi-ernst-barlach-museum-wedel-20261025-janosch-die-erfindung-der-freund
+ schaft-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Beginn: JANOSCH: Die Erfindung der Freundschaft
+LOCATION:Ernst Barlach Museum Wedel\, Mühlenstraße 1\, 22880 Wedel
+DESCRIPTION:Laufzeit: 25.10.2026 bis 4.4.2027\nPreis: 12 €\, erm. 10 €\
+ , Kinder unter 1 m frei\, Kinder ab 1 m 5 €\, Familie 30 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.ernst-barlach.de/
+URL:https://www.ernst-barlach.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-ernst-barlach-museum-wedel-20261025-janosch-die-erfindung-der-freund
+ schaft-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Letzter Tag: JANOSCH: Die Erfindung der Freundschaft
+LOCATION:Ernst Barlach Museum Wedel\, Mühlenstraße 1\, 22880 Wedel
+DESCRIPTION:Laufzeit: 25.10.2026 bis 4.4.2027\nPreis: 12 €\, erm. 10 €\
+ , Kinder unter 1 m frei\, Kinder ab 1 m 5 €\, Familie 30 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.ernst-barlach.de/
+URL:https://www.ernst-barlach.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadtbuecherei-wedel-20261103-vorlesestunde@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T160000
+DTEND;TZID=Europe/Berlin:20261103T180000
+SUMMARY:Vorlesestunde
+LOCATION:Stadtbücherei Wedel\, 22880 Wedel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-
+ bildung
+URL:https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-bildung
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadtbuecherei-wedel-20261106-vorlesestunde@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T160000
+DTEND;TZID=Europe/Berlin:20261106T180000
+SUMMARY:Vorlesestunde
+LOCATION:Stadtbücherei Wedel\, 22880 Wedel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-
+ bildung
+URL:https://www.wedel.de/kultur-bildung/veranstaltungen-kultur-und-bildung
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-hof-gut-haidehof-20261205-wintermarkt@myeventhub.de
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Wintermarkt
+LOCATION:Gut Haidehof\, Haidehof 3\, 22880 Wedel
+DESCRIPTION:Wintermarkt auf dem Hof (Hof-Fest)\; Uhrzeit noch nicht angegeb
+ en.\nQuelle (bitte vor dem Besuch prüfen): https://gut-haidehof.de/events
+ /wintermarkt-2/
+URL:https://gut-haidehof.de/events/wintermarkt-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

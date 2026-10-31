@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Jade · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bra-jaderpark-20261017-halloween-im-jaderpark-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Beginn: Halloween im Jaderpark
+LOCATION:Jaderpark\, Tiergartenstr. 69\, 26349 Jade
+DESCRIPTION:Laufzeit: 17.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.jaderpark.de/
+URL:https://www.jaderpark.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bra-jaderpark-20261017-halloween-im-jaderpark-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Halloween im Jaderpark
+LOCATION:Jaderpark\, Tiergartenstr. 69\, 26349 Jade
+DESCRIPTION:Laufzeit: 17.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.jaderpark.de/
+URL:https://www.jaderpark.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

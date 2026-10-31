@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elektronisch in Warschau · my Event Hub (Erinnerung 1 Tag vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:waw-stodola-20261110-venjent-live-band@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:VENJENT LIVE BAND
+LOCATION:Klub Stodoła\, ul. Batorego 10\, 02-591 Warschau
+DESCRIPTION:Drum-and-Bass-Produzent Venjent mit Live-Band.\nZeiten: Ortszei
+ t Warschau\, wie Deutschland\nTickets: https://www.stodola.pl/koncerty/ven
+ jent-live-band-136992.html\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.stodola.pl/koncerty
+URL:https://www.stodola.pl/koncerty
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

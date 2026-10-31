@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Königswinter · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:su-siebengebirgsmuseum-20261104-kostprobe-siegfried-der-drache-und-das-
+ siebengebir@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Kostprobe: Siegfried\, der Drache und das Siebengebirge
+LOCATION:Siebengebirgsmuseum\, Kellerstraße 16\, 53639 Königswinter
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.siebengebirg
+ smuseum.de/termine/
+URL:https://www.siebengebirgsmuseum.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-siebengebirgsmuseum-20261125-kostprobe-unesco-welterbe-oberes-mittel
+ rheintal@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Kostprobe: UNESCO Welterbe Oberes Mittelrheintal
+LOCATION:Siebengebirgsmuseum\, Kellerstraße 16\, 53639 Königswinter
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.siebengebirg
+ smuseum.de/termine/
+URL:https://www.siebengebirgsmuseum.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-siebengebirgsmuseum-20261209-kostprobe-caspar-scheuren-und-der-rhein
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Kostprobe: Caspar Scheuren und der Rhein
+LOCATION:Siebengebirgsmuseum\, Kellerstraße 16\, 53639 Königswinter
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.siebengebirg
+ smuseum.de/termine/
+URL:https://www.siebengebirgsmuseum.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

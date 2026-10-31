@@ -1,0 +1,326 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Worpswede · my Event Hub (Erinnerung 1 Tag vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20261106-ray-wilson-spielt-stiltskin-und-songs
+ -seiner-solok@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Ray Wilson spielt Stiltskin und Songs seiner Solokarriere
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 41\,95 €\, Abendkasse 44\,00 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://musichall-worpswede.de/produkt/fr-06-11-2026-ray-wil
+ son-stiltskin/
+URL:https://musichall-worpswede.de/produkt/fr-06-11-2026-ray-wilson-stiltsk
+ in/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20261107-ray-wilson-genesis-classics@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Ray Wilson – Genesis Classics (ausverkauft)
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Laut Veranstalter ausverkauft.\nEinlass 19:00\, Beginn 20:00 Uh
+ r\nEnde: laut Quelle nicht angegeben\nAusverkauft\nPreis: 41\,95 €\nQuel
+ le (bitte vor dem Besuch prüfen): https://musichall-worpswede.de/produkt/
+ sa-07-11-2026-ray-wilson-genesis-classics/
+URL:https://musichall-worpswede.de/produkt/sa-07-11-2026-ray-wilson-genesis
+ -classics/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20261113-popcamp@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:PopCamp
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Konzert von Acts aus dem Förderprogramm des Deutschen Musikrat
+ s.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nP
+ reis: 24\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://musichall
+ -worpswede.de/produkt/fr-13-11-2026-popcamp/
+URL:https://musichall-worpswede.de/produkt/fr-13-11-2026-popcamp/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20261120-torfrock@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Torfrock
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 35\,35 €\nQuelle (bitte vor dem Besuch prüfen): https://mu
+ sichall-worpswede.de/produkt/fr-20-11-2026-torfrock/
+URL:https://musichall-worpswede.de/produkt/fr-20-11-2026-torfrock/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20261121-torfrock@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Torfrock (ausverkauft)
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nPreis: 35\,35 €\nQuelle (bitte vor dem Besuch prüfen
+ ): https://musichall-worpswede.de/produkt/sa-21-11-2026-torfrock/
+URL:https://musichall-worpswede.de/produkt/sa-21-11-2026-torfrock/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20261126-manfred-mann-s-earthband@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Manfred Mann´s Earthband (ausverkauft)
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nPreis: 47\,45 €\nQuelle (bitte vor dem Besuch prüfen
+ ): https://musichall-worpswede.de/produkt/do-26-11-2026-manfred-manns-eart
+ hband/
+URL:https://musichall-worpswede.de/produkt/do-26-11-2026-manfred-manns-eart
+ hband/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20261205-soehne-mannheims-piano@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:SÖHNE MANNHEIMS PIANO (ausverkauft)
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nPreis: 47\,45 €\nQuelle (bitte vor dem Besuch prüfen
+ ): https://musichall-worpswede.de/produkt/sa-05-12-2026-soehne-mannheims-p
+ iano/
+URL:https://musichall-worpswede.de/produkt/sa-05-12-2026-soehne-mannheims-p
+ iano/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20261206-soehne-mannheims-piano@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T190000
+DTEND;TZID=Europe/Berlin:20261206T210000
+SUMMARY:SÖHNE MANNHEIMS PIANO
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 47\,45 €\nQuelle (bitte vor dem Besuch prüfen): https://mu
+ sichall-worpswede.de/produkt/so-06-12-2026-soehne-mannheims-piano/
+URL:https://musichall-worpswede.de/produkt/so-06-12-2026-soehne-mannheims-p
+ iano/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270122-reverend-hardy-hardon-the-church-of-e
+ lvis@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T200000
+DTEND;TZID=Europe/Berlin:20270122T220000
+SUMMARY:Reverend Hardy Hardon & The Church of Elvis
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 36\,45 €\nQuelle (bitte vor dem Besuch prüfen): https://mu
+ sichall-worpswede.de/produkt/fr-22-01-2027-reverend-hardy-hardon-the-churc
+ h-of-elvis/
+URL:https://musichall-worpswede.de/produkt/fr-22-01-2027-reverend-hardy-har
+ don-the-church-of-elvis/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270129-stefan-gwildis@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:Stefan Gwildis
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 42\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://mu
+ sichall-worpswede.de/produkt/frei-29-01-2027-stefan-gwildis/
+URL:https://musichall-worpswede.de/produkt/frei-29-01-2027-stefan-gwildis/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270130-frontm3n@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T200000
+DTEND;TZID=Europe/Berlin:20270130T220000
+SUMMARY:FRONTM3N
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 45\,55 €\nQuelle (bitte vor dem Besuch prüfen): https://mu
+ sichall-worpswede.de/produkt/sa-30-01-2027-frontm3n/
+URL:https://musichall-worpswede.de/produkt/sa-30-01-2027-frontm3n/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270213-jimmy-cornett-and-the-deadmen@myevent
+ hub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:Jimmy Cornett and the Deadmen
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 31\,50 €\, Abendkasse 32\,00 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://musichall-worpswede.de/produkt/sa-13-02-2027-jimmy-c
+ ornett-and-the-deadmen/
+URL:https://musichall-worpswede.de/produkt/sa-13-02-2027-jimmy-cornett-and-
+ the-deadmen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270219-merqury-a-tribute-to-queen@myeventhub
+ .de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:MerQury – A Tribute to Queen
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 32\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://mu
+ sichall-worpswede.de/produkt/frei-19-02-2027-merqury/
+URL:https://musichall-worpswede.de/produkt/frei-19-02-2027-merqury/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270226-the-convent-tales-from-40-years@myeve
+ nthub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:The Convent – Tales From 40 Years
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Jubiläumskonzert.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: lau
+ t Quelle nicht angegeben\nPreis: 28\,20 €\, Abendkasse 29\,00 Euro\nQuel
+ le (bitte vor dem Besuch prüfen): https://musichall-worpswede.de/produkt/
+ fr-26-02-2027-the-convent/
+URL:https://musichall-worpswede.de/produkt/fr-26-02-2027-the-convent/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270313-carl-carlton-melanie-wiegmann@myevent
+ hub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T200000
+DTEND;TZID=Europe/Berlin:20270313T220000
+SUMMARY:Carl Carlton & Melanie Wiegmann
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 41\,08 €\, Abendkasse 42\,00 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://musichall-worpswede.de/produkt/so-25-10-2026-carl-ca
+ rlton-melanie-wiegmann/
+URL:https://musichall-worpswede.de/produkt/so-25-10-2026-carl-carlton-melan
+ ie-wiegmann/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

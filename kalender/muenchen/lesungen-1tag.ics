@@ -1,0 +1,698 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in München · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-bergson-20261031-jaroslav-rudis-wo-die-toten-sprechen-lesung-und-gesp
+ rac@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Jaroslav Rudiš: „Wo die Toten sprechen“ (Lesung und Gespräch)
+LOCATION:Bergson Kunstkraftwerk\, Am Bergson Kunstkraftwerk 2\, 81245 Münc
+ hen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bergson.com/event/jaroslav-rudis-wo-die-toten-sprechen-
+ 31-oktober-2026
+URL:https://bergson.com/event/jaroslav-rudis-wo-die-toten-sprechen-31-oktob
+ er-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-muffatwerk-20261102-martin-suter-ein-und-alles-premierentournee-2026@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Martin Suter: „Ein und Alles“ – Premierentournee 2026
+LOCATION:Muffathalle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muffatwerk.de/de/events/view/8246/martin-suter
+URL:https://www.muffatwerk.de/de/events/view/8246/martin-suter
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-juedisches-museum-20261104-die-schoenheit-des-judentums-eine-muslimis
+ che-lieb@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T190000
+DTEND;TZID=Europe/Berlin:20261104T210000
+SUMMARY:Die Schönheit des Judentums. Eine muslimische Liebeserklärung –
+  Lesung und Gespräch mit Ahmed Milad Karimi
+LOCATION:Jüdisches Museum München\, St.-Jakobs-Platz 16\, 80331 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\, Anmeldung
+  erforderlich\nQuelle (bitte vor dem Besuch prüfen): https://www.juedisch
+ es-museum-muenchen.de/
+URL:https://www.juedisches-museum-muenchen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261109-ingo-schulze-das-wasser-im-august@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T190000
+DTEND;TZID=Europe/Berlin:20261109T210000
+SUMMARY:Ingo Schulze: Das Wasser im August
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-museum-aegyptischer-kunst-20261110-von-schurz-und-kleid@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T181500
+DTEND;TZID=Europe/Berlin:20261110T201500
+SUMMARY:Von Schurz und Kleid
+LOCATION:Staatliches Museum Ägyptischer Kunst\, Arcisstraße 16\, 80333 M
+ ünchen
+DESCRIPTION:Vortrag.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://smaek.de/veranstaltungen/
+URL:https://smaek.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-deutsches-theatermuseum-20261110-collective-dreamer-wie-traeumt-man-g
+ emeinsam-zukun@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T190000
+DTEND;TZID=Europe/Berlin:20261110T210000
+SUMMARY:Collective Dreamer – Wie träumt man gemeinsam Zukunft?
+LOCATION:Deutsches Theatermuseum\, Galeriestraße 4a\, 80539 München
+DESCRIPTION:Gespräch über kollektives Arbeiten\, KI und eine interaktive 
+ Installation.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.deutschestheatermuseum.de/de/programm/collectiv
+ e-dreamer-wie-traeumt-man-gemeinsam-zukunft
+URL:https://www.deutschestheatermuseum.de/de/programm/collective-dreamer-wi
+ e-traeumt-man-gemeinsam-zukunft
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261110-oskar-maria-graf-anarchist-und-pazifist@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:Oskar Maria Graf – Anarchist und Pazifist
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/86921095-0ef
+ 7-403d-b816-73154f130390
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/86921095-0ef7-403d-b
+ 816-73154f130390
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261110-das-historische-quartett@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:Das Historische Quartett
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261111-revoluzzer-rate-reaktionare-wolfgang-kahl
+ e@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Revoluzzer\, Räte\, Reaktionäre (Wolfgang Kahle)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/90740f26-f78
+ 5-42ee-9655-ed653edae157
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/90740f26-f785-42ee-9
+ 655-ed653edae157
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261112-rote-rate-die-bayrische-revolution-aus-de
+ r-sicht-von-au@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T180000
+DTEND;TZID=Europe/Berlin:20261112T200000
+SUMMARY:Rote Räte – Die bayrische Revolution aus der Sicht von Augenzeug
+ en
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/cd9e091a-a03
+ 3-4457-b3d0-b87eeb84b5c7
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/cd9e091a-a033-4457-b
+ 3d0-b87eeb84b5c7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261112-rebellinnen-gegen-den-krieg@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Rebellinnen gegen den Krieg
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/69d9051a-6ce
+ e-4229-a069-ea42baed2161
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/69d9051a-6cee-4229-a
+ 069-ea42baed2161
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261113-rote-rate-die-bayrische-revolution-aus-de
+ r-sicht-von-au@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T180000
+DTEND;TZID=Europe/Berlin:20261113T200000
+SUMMARY:Rote Räte – Die bayrische Revolution aus der Sicht von Augenzeug
+ en
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/6576887f-819
+ a-4c1b-bf1c-16ff9973b00d
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/6576887f-819a-4c1b-b
+ f1c-16ff9973b00d
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261113-emmanuel-carrere-kolchose@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T190000
+DTEND;TZID=Europe/Berlin:20261113T210000
+SUMMARY:Emmanuel Carrère: Kolchose
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261116-michael-koehlmeier-mein-privates-glueck@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T190000
+DTEND;TZID=Europe/Berlin:20261116T210000
+SUMMARY:Michael Köhlmeier: Mein privates Glück
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261116-hirnforschung-und-nationalsozialistische-verbreche@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T190000
+DTEND;TZID=Europe/Berlin:20261116T210000
+SUMMARY:Hirnforschung und nationalsozialistische Verbrechen (Buchvorstellun
+ g)
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261117-philipp-oehmke-papenburg@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T190000
+DTEND;TZID=Europe/Berlin:20261117T210000
+SUMMARY:Philipp Oehmke: Papenburg
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261118-der-juedische-buchklub-mit-dana-von-suffrin-ph
+ ilip@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Der Jüdische Buchklub mit Dana von Suffrin & Philipp Lenhard
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261119-endstation-kaunas-die-deportation-von-juedinnen-un@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T130000
+DTEND;TZID=Europe/Berlin:20261119T150000
+SUMMARY:Endstation Kaunas. Die Deportation von Jüdinnen und Juden im Herbs
+ t 1941 (Symposium)
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261119-die-erste-deportation-von-juedinnen-und-juden-nach@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T190000
+DTEND;TZID=Europe/Berlin:20261119T210000
+SUMMARY:Die erste Deportation von Jüdinnen und Juden nach Kaunas vor 85 Ja
+ hren (Zeitzeug*innengespräch)
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261121-zivil-flash-fiction-mikroprosa-lyrik@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Zivil. Flash Fiction / Mikroprosa / Lyrik
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/e0e56d6a-9b7
+ 7-4b8c-bae5-39519eabd670
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/e0e56d6a-9b77-4b8c-b
+ ae5-39519eabd670
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-residenztheater-20261122-buch-trifft-buhne-leseclub-zu-bye-bye-lolita
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T163000
+DTEND;TZID=Europe/Berlin:20261122T183000
+SUMMARY:Buch trifft Bühne (Leseclub zu „Bye Bye Lolita“)
+LOCATION:Marstall Salon
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.residenztheater.de/spielplan
+URL:https://www.residenztheater.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261123-andrea-wulf-der-reisende-georg-forster-und-die
+ -ent@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T190000
+DTEND;TZID=Europe/Berlin:20261123T210000
+SUMMARY:Andrea Wulf: Der Reisende. Georg Forster und die Entdeckung der Men
+ schlichkeit
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261124-iran-und-die-kunst-des-widerstands-gespraech@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T190000
+DTEND;TZID=Europe/Berlin:20261124T210000
+SUMMARY:Iran und die Kunst des Widerstands (Gespräch)
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261124-ragazze-di-palermo-abend-fuer-dacia-maraini@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Ragazze di Palermo – Abend für Dacia Maraini
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261126-texte-toene-comic-getraenke@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T190000
+DTEND;TZID=Europe/Berlin:20261126T210000
+SUMMARY:Texte\, Töne\, Comic & Getränke
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261130-tukan-preis-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T190000
+DTEND;TZID=Europe/Berlin:20261130T210000
+SUMMARY:TUKAN-PREIS 2026
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261202-philipp-blom-die-strauchelnde-welt@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T190000
+DTEND;TZID=Europe/Berlin:20261202T210000
+SUMMARY:Philipp Blom: Die strauchelnde Welt
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261203-iris-radisch-du-musst-das-leben-nicht-verstehe
+ n-ri@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T190000
+DTEND;TZID=Europe/Berlin:20261203T210000
+SUMMARY:Iris Radisch: Du musst das Leben nicht verstehen. Rilkes Tage und T
+ räume
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261203-nein-gegen-die-militarisierung-der-gegenwart-gespr@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T190000
+DTEND;TZID=Europe/Berlin:20261203T210000
+SUMMARY:NEIN: Gegen die Militarisierung der Gegenwart (Gespräch)
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261204-true-crime-oberbayern-ulrike-claudia-hofm
+ ann-ludwig-wal@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:»True Crime Oberbayern« (Ulrike Claudia Hofmann & Ludwig Waldinge
+ r)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/59232f06-a05
+ e-480e-bb6f-b6e46b0f1828
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/59232f06-a05e-480e-b
+ b6f-b6e46b0f1828
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261207-klassenfoto-1937-die-geschichte-einer-juedischen-s@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T190000
+DTEND;TZID=Europe/Berlin:20261207T210000
+SUMMARY:Klassenfoto 1937. Die Geschichte einer jüdischen Schulklasse (Buch
+ vorstellung)
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-museum-aegyptischer-kunst-20261208-geld-und-gaben@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T181500
+DTEND;TZID=Europe/Berlin:20261208T201500
+SUMMARY:Geld und Gaben
+LOCATION:Staatliches Museum Ägyptischer Kunst\, Arcisstraße 16\, 80333 M
+ ünchen
+DESCRIPTION:Vortrag.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://smaek.de/veranstaltungen/
+URL:https://smaek.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261208-dana-vowinckel-trifft-ruth-maria-thomas@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T190000
+DTEND;TZID=Europe/Berlin:20261208T210000
+SUMMARY:Dana Vowinckel trifft Ruth-Maria Thomas
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-literaturhaus-20261209-robert-habeck-arctic-meltdown@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T190000
+DTEND;TZID=Europe/Berlin:20261209T210000
+SUMMARY:Robert Habeck: Arctic Meltdown
+LOCATION:Literaturhaus München\, Salvatorplatz 1\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-muenchen.de/programm/
+URL:https://www.literaturhaus-muenchen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-kammerspiele-20270122-suchers-leidenschaften-klaus-mann@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T200000
+DTEND;TZID=Europe/Berlin:20270122T220000
+SUMMARY:Suchers Leidenschaften: Klaus Mann
+LOCATION:Münchner Kammerspiele\, Maximilianstraße 26–28\, 80539 Münche
+ n
+DESCRIPTION:Spielort: Schauspielhaus.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.muenchner-kammerspiele.d
+ e/en/programm/
+URL:https://www.muenchner-kammerspiele.de/en/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

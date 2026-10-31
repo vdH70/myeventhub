@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Ellwangen (Jagst) · my Event Hub (Erinnerung 
+ 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:aa-alamannenmuseum-20260319-leidenschaft-und-forschung-die-archaeologis
+ che-sam-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Leidenschaft und Forschung – Die archäologische Sam
+ mlung Hohenzollern
+LOCATION:Alamannenmuseum Ellwangen\, Haller Straße 9\, 73479 Ellwangen (Ja
+ gst)
+DESCRIPTION:Sonderausstellung mit archäologischen Funden aus der Sammlung 
+ Hohenzollern.\nLaufzeit: 19.3.2026 bis 10.1.2027\nQuelle (bitte vor dem Be
+ such prüfen): https://www.ellwangen-tourismus.de/gaeste/entdecken-erleben
+ /museen/alamannenmuseum/aktuelles
+URL:https://www.ellwangen-tourismus.de/gaeste/entdecken-erleben/museen/alam
+ annenmuseum/aktuelles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa-alamannenmuseum-20261101-oeffentliche-fuehrung-im-alamannenmuseum@my
+ eventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T143000
+DTEND;TZID=Europe/Berlin:20261101T163000
+SUMMARY:Öffentliche Führung im Alamannenmuseum
+LOCATION:Alamannenmuseum Ellwangen\, Haller Straße 9\, 73479 Ellwangen (Ja
+ gst)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.ellwangen-tourismus.de/gaeste/entdecken-erleben/mus
+ een/alamannenmuseum/aktuelles
+URL:https://www.ellwangen-tourismus.de/gaeste/entdecken-erleben/museen/alam
+ annenmuseum/aktuelles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

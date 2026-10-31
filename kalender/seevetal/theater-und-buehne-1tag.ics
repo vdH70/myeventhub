@@ -1,0 +1,216 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Seevetal · my Event Hub (Erinnerung 1 Tag
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261031-shrek-the-musical@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T140000
+DTEND;TZID=Europe/Berlin:20261031T160000
+SUMMARY:Shrek – The Musical
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13681-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 81-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261031-shrek-the-musical-2000@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Shrek – The Musical
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13682-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 82-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261106-wunderwelt-klang-und-tanz-trt-trifft-locavida
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Wunderwelt Klang und Tanz – TRØT trifft LocaVida
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13683-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 83-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261114-zauberhafte-familien-ein-magisches-tanzmaerch
+ en@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Zauberhafte Familien – ein magisches Tanzmärchen
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13687-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 87-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261128-zauberhafte-familien-ein-magisches-tanzmaerch
+ en@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:Zauberhafte Familien – ein magisches Tanzmärchen
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13688-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 88-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261204-gruseldinner-jack-the-ripper@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T190000
+DTEND;TZID=Europe/Berlin:20261204T210000
+SUMMARY:Gruseldinner – Jack the Ripper
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13654-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 54-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261212-zauber-der-travestie-das-original@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Zauber der Travestie – das Original
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13652-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 52-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20270214-hittfelder-speeldeel-matti-for-president@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T160000
+DTEND;TZID=Europe/Berlin:20270214T180000
+SUMMARY:Hittfelder Speeldeel – Matti for President
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13698-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 98-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20270417-gruseldinner-dracula@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T190000
+DTEND;TZID=Europe/Berlin:20270417T210000
+SUMMARY:Gruseldinner – Dracula
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13653-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 53-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

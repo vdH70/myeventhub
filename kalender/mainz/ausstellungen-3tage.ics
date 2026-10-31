@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Mainz · my Event Hub (Erinnerung 3 Tage vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mz-naturhistorisches-museum-20261026-grundwasser-lebt-beginn@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Beginn: Grundwasser lebt!
+LOCATION:Naturhistorisches Museum Mainz\, Reichklarastraße 1\, 55116 Mainz
+DESCRIPTION:Laufzeit: 26.10.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.mainz.de/microsite/naturhistorisches-museum/entdec
+ ken/Sonderausstellung/020_sonderausstellungen
+URL:https://www.mainz.de/microsite/naturhistorisches-museum/entdecken/Sonde
+ rausstellung/020_sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-naturhistorisches-museum-20261026-grundwasser-lebt-ende@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Letzter Tag: Grundwasser lebt!
+LOCATION:Naturhistorisches Museum Mainz\, Reichklarastraße 1\, 55116 Mainz
+DESCRIPTION:Laufzeit: 26.10.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.mainz.de/microsite/naturhistorisches-museum/entdec
+ ken/Sonderausstellung/020_sonderausstellungen
+URL:https://www.mainz.de/microsite/naturhistorisches-museum/entdecken/Sonde
+ rausstellung/020_sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,392 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Neubrandenburg · my Event Hub (Erinnerung 3 S
+ tunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nb-kunstsammlung-20260925-raeume-der-sehnsucht-surrealismus-und-magisch
+ er-re-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Letzter Tag: Räume der Sehnsucht – Surrealismus und magischer Re
+ alismus der Kunst in der DDR
+LOCATION:Kunstsammlung Neubrandenburg\, Große Wollweberstraße 24\, 17033 
+ Neubrandenburg
+DESCRIPTION:Laufzeit: 25.9.2026 bis 3.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.neubrandenburg.de/Quicknavigation/Startseite/R%C3%A4
+ ume-der-Sehnsucht-Surrealismus-und-magischer-Realismus-der-Kunst-in-der-DD
+ R.php?object=tx%2C3330.4&ModID=11&FID=3330.1753.1&NavID=2751.1
+URL:https://www.neubrandenburg.de/Quicknavigation/Startseite/R%C3%A4ume-der
+ -Sehnsucht-Surrealismus-und-magischer-Realismus-der-Kunst-in-der-DDR.php?o
+ bject=tx%2C3330.4&ModID=11&FID=3330.1753.1&NavID=2751.1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-regionalmuseum-20261030-allerlei-magisches-sagen-und-volksglaube-in-
+ meckle-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Allerlei Magisches. Sagen und Volksglaube in Mecklenburg-Vo
+ rpommern
+LOCATION:Regionalmuseum Neubrandenburg (Franziskanerkloster)\, Stargarder S
+ traße 2\, 17033 Neubrandenburg
+DESCRIPTION:Sonderausstellung im Franziskanerkloster.\nLaufzeit: 30.10.2026
+  bis 16.5.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.neubran
+ denburg.de/Quicknavigation/Startseite/Allerlei-Magisches-Sagen-und-Volksgl
+ aube-in-Mecklenburg-Vorpommern.php?object=tx%2C3330.4&ModID=11&FID=3330.17
+ 55.1&NavID=2751.1
+URL:https://www.neubrandenburg.de/Quicknavigation/Startseite/Allerlei-Magis
+ ches-Sagen-und-Volksglaube-in-Mecklenburg-Vorpommern.php?object=tx%2C3330.
+ 4&ModID=11&FID=3330.1755.1&NavID=2751.1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-regionalmuseum-20261030-allerlei-magisches-sagen-und-volksglaube-in-
+ meckle-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Letzter Tag: Allerlei Magisches. Sagen und Volksglaube in Mecklenbu
+ rg-Vorpommern
+LOCATION:Regionalmuseum Neubrandenburg (Franziskanerkloster)\, Stargarder S
+ traße 2\, 17033 Neubrandenburg
+DESCRIPTION:Sonderausstellung im Franziskanerkloster.\nLaufzeit: 30.10.2026
+  bis 16.5.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.neubran
+ denburg.de/Quicknavigation/Startseite/Allerlei-Magisches-Sagen-und-Volksgl
+ aube-in-Mecklenburg-Vorpommern.php?object=tx%2C3330.4&ModID=11&FID=3330.17
+ 55.1&NavID=2751.1
+URL:https://www.neubrandenburg.de/Quicknavigation/Startseite/Allerlei-Magis
+ ches-Sagen-und-Volksglaube-in-Mecklenburg-Vorpommern.php?object=tx%2C3330.
+ 4&ModID=11&FID=3330.1755.1&NavID=2751.1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261031-kasperkrimi-oder-der-beginn-einer-wunderbare
+ n-freu@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Kasperkrimi oder der Beginn einer wunderbaren Freundschaft
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus Probebühne.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://tog.de/spielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261031-sein-oder-nichtsein@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Sein oder Nichtsein
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tog.de/sp
+ ielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-latuecht-20261101-die-wilde-nordsee@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Die wilde Nordsee
+LOCATION:Kino Latücht\, Große Krauthöfer Str. 16\, 17033 Neubrandenburg
+DESCRIPTION:Reihe Latücht auf Reisen\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.latuecht.de/veranstaltun
+ gen/rubrik.php?nummer=4198
+URL:https://www.latuecht.de/veranstaltungen/rubrik.php?nummer=4198
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261101-vor-dem-fest@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T160000
+DTEND;TZID=Europe/Berlin:20261101T180000
+SUMMARY:Vor dem Fest
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tog.de/sp
+ ielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-latuecht-20261103-practical-magic-2@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Practical Magic 2
+LOCATION:Kino Latücht\, Große Krauthöfer Str. 16\, 17033 Neubrandenburg
+DESCRIPTION:Märchenwoche 2026\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.latuecht.de/veranstaltungen/rubrik.php?nummer=4198
+URL:https://www.latuecht.de/veranstaltungen/rubrik.php?nummer=4198
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-latuecht-20261104-practical-magic-2@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Practical Magic 2
+LOCATION:Kino Latücht\, Große Krauthöfer Str. 16\, 17033 Neubrandenburg
+DESCRIPTION:Märchenwoche 2026\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.latuecht.de/veranstaltungen/rubrik.php?nummer=4198
+URL:https://www.latuecht.de/veranstaltungen/rubrik.php?nummer=4198
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-latuecht-20261105-finding-emily@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Finding Emily
+LOCATION:Kino Latücht\, Große Krauthöfer Str. 16\, 17033 Neubrandenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.latuecht.de/veranstaltungen/rubrik.php?nummer=4198
+URL:https://www.latuecht.de/veranstaltungen/rubrik.php?nummer=4198
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261106-ein-sommernachtstraum@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Ein Sommernachtstraum
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus Probebühne.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://tog.de/spielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-latuecht-20261106-finding-emily@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Finding Emily
+LOCATION:Kino Latücht\, Große Krauthöfer Str. 16\, 17033 Neubrandenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.latuecht.de/veranstaltungen/rubrik.php?nummer=4198
+URL:https://www.latuecht.de/veranstaltungen/rubrik.php?nummer=4198
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261107-die-zeitdiebe@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T150000
+DTEND;TZID=Europe/Berlin:20261107T170000
+SUMMARY:Die Zeitdiebe
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus Probebühne.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://tog.de/spielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261107-landuenner-eine-nacht-am-ende-der-welt@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Landünner – Eine Nacht am Ende der Welt
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tog.de/sp
+ ielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261108-landuenner-eine-nacht-am-ende-der-welt@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T160000
+DTEND;TZID=Europe/Berlin:20261108T180000
+SUMMARY:Landünner – Eine Nacht am Ende der Welt
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tog.de/sp
+ ielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261114-eddie-buext-aus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Eddie büxt aus
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus Probebühne.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://tog.de/spielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261114-sein-oder-nichtsein@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Sein oder Nichtsein
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tog.de/sp
+ ielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261115-egal@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:Egal
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tog.de/sp
+ ielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nb-schauspielhaus-20261121-dido-und-aeneas-premiere@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Dido und Aeneas (Premiere)
+LOCATION:Schauspielhaus Neubrandenburg\, Neubrandenburg
+DESCRIPTION:Spielstätte: Neubrandenburg Schauspielhaus.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tog.de/sp
+ ielplan-programm/
+URL:https://tog.de/spielplan-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

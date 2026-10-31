@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Worpswede · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270205-marialy-pacheco-max-mutzke@myeventhub
+ .de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T200000
+DTEND;TZID=Europe/Berlin:20270205T220000
+SUMMARY:Marialy Pacheco & Max Mutzke
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 45\,00 €\, Abendkasse 48\,00 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://musichall-worpswede.de/produkt/fr-05-02-2027-marialy
+ -pacheco-max-mutzke/
+URL:https://musichall-worpswede.de/produkt/fr-05-02-2027-marialy-pacheco-ma
+ x-mutzke/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ohz-music-hall-worpswede-20270305-youn-sun-nah@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:Youn Sun Nah
+LOCATION:Music Hall Worpswede\, Findorffstraße 21\, 27726 Worpswede
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 41\,95 €\, Abendkasse 42\,00 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://musichall-worpswede.de/produkt/fr-05-03-2027-youn-su
+ n-nah/
+URL:https://musichall-worpswede.de/produkt/fr-05-03-2027-youn-sun-nah/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Heldburg · my Event Hub (Erinnerung 1 Tag vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hbn-deutsches-burgenmuseum-20260301-herzogbauherrkuenstler-georg-ii-von
+ -sachsen-meinin-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Letzter Tag: Herzog–Bauherr–Künstler. Georg II. von Sachsen-Me
+ iningen und die Veste Heldburg
+LOCATION:Deutsches Burgenmuseum Veste Heldburg\, Burgstraße 1\, 98663 Held
+ burg
+DESCRIPTION:Laufzeit: 1.3.2026 bis 3.1.2027\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.deutschesburgenmuseum.de/wechselausstellungen
+URL:https://www.deutschesburgenmuseum.de/wechselausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hbn-deutsches-burgenmuseum-20261031-kinder-halloween-auf-der-burg@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Kinder-Halloween auf der Burg
+LOCATION:Deutsches Burgenmuseum Veste Heldburg\, Burgstraße 1\, 98663 Held
+ burg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.deutschesbur
+ genmuseum.de/
+URL:https://www.deutschesburgenmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

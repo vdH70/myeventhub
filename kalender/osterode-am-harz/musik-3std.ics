@@ -1,0 +1,221 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Osterode am Harz · my Event Hub (Erinnerung 3 Stunde
+ n vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261213-der-polarexpress-goettinger-symphonieo
+ rchester@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Der Polarexpress – Göttinger Symphonieorchester
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270106-neujahrskonzert-goettinger-symphonieor
+ chester@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T200000
+DTEND;TZID=Europe/Berlin:20270106T220000
+SUMMARY:Neujahrskonzert – Göttinger Symphonieorchester
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270128-schlager-spass-mit-andy-borg@myeventhu
+ b.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T160000
+DTEND;TZID=Europe/Berlin:20270128T180000
+SUMMARY:Schlager & Spaß mit Andy Borg
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270213-kokubu-the-drums-of-japan-infinity-tou
+ r-2027@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:KOKUBU – The Drums of Japan: Infinity-Tour 2027
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270219-klaus-lage-bo-heart-zu-zweit-live@myev
+ enthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Klaus Lage & Bo Heart – Zu zweit. Live.
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270228-bridgerton-musik-bei-kerzenschein@myev
+ enthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T190000
+DTEND;TZID=Europe/Berlin:20270228T210000
+SUMMARY:Bridgerton Musik bei Kerzenschein
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270305-viva-la-vida-a-tribute-to-coldplay@mye
+ venthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:Viva La Vida – A Tribute to Coldplay
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270316-dschinghis-khan-what-a-wonderful-world
+ @myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270316T200000
+DTEND;TZID=Europe/Berlin:20270316T220000
+SUMMARY:Dschinghis Khan – What a Wonderful World
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270411-an-evening-with-james-bond-goettinger-
+ symphonieorc@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270411T180000
+DTEND;TZID=Europe/Berlin:20270411T200000
+SUMMARY:An Evening with James Bond – Göttinger Symphonieorchester
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270416-super-abba-a-tribute-to-abba@myeventhu
+ b.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T200000
+DTEND;TZID=Europe/Berlin:20270416T220000
+SUMMARY:SUPER ABBA – A Tribute to ABBA
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

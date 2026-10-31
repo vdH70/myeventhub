@@ -1,0 +1,1042 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Berlin · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ber-gedenkstaette-hohenschoenhausen-20260927-oeffentlicher-rundgang-das
+ -stasi-gefaengnis-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Öffentlicher Rundgang „Das Stasi-Gefängnis“
+LOCATION:Gedenkstätte Berlin-Hohenschönhausen\, Genslerstraße 66\, 13055
+  Berlin
+DESCRIPTION:Rundgang durch das ehemalige Stasi-Untersuchungsgefängnis\, ca
+ . 1\,5 Stunden plus Einführungsfilm\; geschlossen 24.–26.12.\, 31.12. u
+ nd 1.1.\nLaufzeit: 27.9.2026 bis 31.3.2027\nTermine laut Veranstalter: Deu
+ tsch: März–Oktober Mo–So stündlich 10–16 Uhr\; November–Februar 
+ Mo–Fr 11\, 13 und 15 Uhr. Englisch: täglich 10.40\, 12.40 und 14.40 Uhr
+ . Russisch: erster Sonntag im Monat 14.15 Uhr\nPreis: 9\,00 € (Normaltar
+ if)\; 5\,00 € (ermäßigt)\; 2\,50 € (Schülerinnen und Schüler)\nTic
+ kets: https://ticket.stiftung-hsh.de/\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.stiftung-hsh.de/ihr-besuch/oeffentliche-rundgaenge
+URL:https://www.stiftung-hsh.de/ihr-besuch/oeffentliche-rundgaenge
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-futurium-20260927-zukunft-entdecken-und-gestalten-oeffentliche-fueh
+ rung-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Zukunft entdecken und gestalten! – Öffentliche Füh
+ rung
+LOCATION:Futurium\, Alexanderufer 2\, 10117 Berlin
+DESCRIPTION:Einstündige Führung durch die drei Denkräume Technik\, Natur
+  und Mensch\; der Ausstellungseintritt ist frei.\nLaufzeit: 27.9.2026 bis 
+ 31.3.2027\nTermine laut Veranstalter: jeden Samstag und Sonntag (samstags 
+ auch auf Englisch)\; Uhrzeiten laut Buchungskalender (laufendes Angebot\, 
+ die Quelle nennt kein Enddatum)\nPreis: 5 € (ermäßigt 2\,50 €)\nTick
+ ets: https://futurium.de/de/fuehrungen\nQuelle (bitte vor dem Besuch prüf
+ en): https://futurium.de/de/fuehrungen
+URL:https://futurium.de/de/fuehrungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-musikinstrumenten-museum-20261031-hoehepunkte-der-sammlung-des-mim@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T110000
+DTEND;TZID=Europe/Berlin:20261031T130000
+SUMMARY:Höhepunkte der Sammlung des MIM
+LOCATION:Musikinstrumenten-Museum\, Ben-Gurion-Straße 1\, 10785 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.simpk.de/
+URL:https://www.simpk.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-medizinhistorisches-museum-charite-20261031-300-jahre-medizingeschich
+ te@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T160000
+DTEND;TZID=Europe/Berlin:20261031T180000
+SUMMARY:300 Jahre Medizingeschichte
+LOCATION:Berliner Medizinhistorisches Museum der Charité\, Charitéplatz 1
+ \, 10117 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bmm-charite.de/ausstellungen
+URL:https://bmm-charite.de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261031-imagine-dragons-dimensional-voyager@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T213000
+DTEND;TZID=Europe/Berlin:20261031T233000
+SUMMARY:Imagine Dragons: Dimensional Voyager
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Musikshow unter der Kuppel.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium.berlin/ver
+ anstaltungen/imagine-dragons-dimensional-voyager
+URL:https://www.planetarium.berlin/veranstaltungen/imagine-dragons-dimensio
+ nal-voyager
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-gedenkort-sa-gefaengnis-papestrasse-20261101-oeffentliche-fuehrung-un
+ d-fuehrung-durch-die-sonde@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T130000
+DTEND;TZID=Europe/Berlin:20261101T150000
+SUMMARY:Öffentliche Führung und Führung durch die Sonderausstellung „D
+ urch ein Fenster gesehen“
+LOCATION:Gedenkort SA-Gefängnis Papestraße\, Werner-Voß-Damm 54 a\, 1210
+ 1 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Kostenfrei und ohne A
+ nmeldung\nQuelle (bitte vor dem Besuch prüfen): https://museen-tempelhof-
+ schoeneberg.de/termine/
+URL:https://museen-tempelhof-schoeneberg.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-gedenkstaette-deutscher-widerstand-20261101-oeffentliche-fuehrung-dur
+ ch-die-dauerausstellung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Öffentliche Führung durch die Dauerausstellung
+LOCATION:Gedenkstätte Deutscher Widerstand\, Stauffenbergstraße 13-14\, 1
+ 0785 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gdw-berlin.de/
+URL:https://www.gdw-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261103-inside-sudan-aerzte-ohne-grenzen-in-3
+ 60@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T090000
+DTEND;TZID=Europe/Berlin:20261103T110000
+SUMMARY:Inside Sudan – Ärzte ohne Grenzen in 360°
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:360°-Film unter der Planetariumskuppel.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.planetari
+ um.berlin/veranstaltungen/inside-sudan-aerzte-ohne-grenzen-360deg-0
+URL:https://www.planetarium.berlin/veranstaltungen/inside-sudan-aerzte-ohne
+ -grenzen-360deg-0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261103-inside-sudan-aerzte-ohne-grenzen-in-3
+ 60-1100@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T110000
+DTEND;TZID=Europe/Berlin:20261103T130000
+SUMMARY:Inside Sudan – Ärzte ohne Grenzen in 360°
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:360°-Film unter der Planetariumskuppel.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.planetari
+ um.berlin/veranstaltungen/inside-sudan-aerzte-ohne-grenzen-360deg-0
+URL:https://www.planetarium.berlin/veranstaltungen/inside-sudan-aerzte-ohne
+ -grenzen-360deg-0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-galerie-im-koernerpark-20261104-ausstellungsrundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T180000
+DTEND;TZID=Europe/Berlin:20261104T200000
+SUMMARY:Ausstellungsrundgang
+LOCATION:Galerie im Körnerpark\, Schierker Straße 8\, 12051 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://galerie-im-koernerpark.de/de/veranstaltungen
+URL:https://galerie-im-koernerpark.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-medizinhistorisches-museum-charite-20261105-wir-waren-nie-nur-mensch@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T130000
+DTEND;TZID=Europe/Berlin:20261105T150000
+SUMMARY:Wir waren nie nur Mensch
+LOCATION:Berliner Medizinhistorisches Museum der Charité\, Charitéplatz 1
+ \, 10117 Berlin
+DESCRIPTION:Führung durch die neue Sonderausstellung.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://bmm-charite
+ .de/ausstellungen
+URL:https://bmm-charite.de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-knoblauchhaus-20261105-daniel-chodowiecki-und-seine-schuelerinnen@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T160000
+DTEND;TZID=Europe/Berlin:20261105T180000
+SUMMARY:Daniel Chodowiecki und seine Schülerinnen
+LOCATION:Knoblauchhaus\, Poststraße 23\, 10178 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.berlin.museum/museum/knoblauchhaus
+URL:https://www.berlin.museum/museum/knoblauchhaus
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-villa-oppenheim-20261105-rundgang-durch-charlottenburg-juedisches-leb
+ en-und@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T180000
+DTEND;TZID=Europe/Berlin:20261105T200000
+SUMMARY:Rundgang durch Charlottenburg: Jüdisches Leben und Antisemitismus 
+ in Vergangenheit und Gegenwart
+LOCATION:Museum Charlottenburg-Wilmersdorf in der Villa Oppenheim\, Schloß
+ straße 55 / Otto-Grüneberg-Weg\, 14059 Berlin
+DESCRIPTION:Stadtrundgang des Museums durch Charlottenburg.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.vi
+ lla-oppenheim-berlin.de/
+URL:https://www.villa-oppenheim-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261106-juwelen-des-kosmos@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T183000
+DTEND;TZID=Europe/Berlin:20261106T203000
+SUMMARY:Juwelen des Kosmos
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosm
+ os
+URL:https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-villa-oppenheim-20261107-rundgang-durch-charlottenburg-juedisches-leb
+ en-und@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T133000
+DTEND;TZID=Europe/Berlin:20261107T153000
+SUMMARY:Rundgang durch Charlottenburg: Jüdisches Leben und Antisemitismus 
+ in Vergangenheit und Gegenwart
+LOCATION:Museum Charlottenburg-Wilmersdorf in der Villa Oppenheim\, Schloß
+ straße 55 / Otto-Grüneberg-Weg\, 14059 Berlin
+DESCRIPTION:Stadtrundgang des Museums durch Charlottenburg.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.vi
+ lla-oppenheim-berlin.de/
+URL:https://www.villa-oppenheim-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261107-juwelen-des-kosmos@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Juwelen des Kosmos
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosm
+ os
+URL:https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261107-imagine-dragons-dimensional-voyager@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T210000
+DTEND;TZID=Europe/Berlin:20261107T230000
+SUMMARY:Imagine Dragons: Dimensional Voyager
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Musikshow unter der Kuppel.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium.berlin/ver
+ anstaltungen/imagine-dragons-dimensional-voyager
+URL:https://www.planetarium.berlin/veranstaltungen/imagine-dragons-dimensio
+ nal-voyager
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-museum-nikolaikirche-20261108-wo-berlin-begann-in-dgs@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Wo Berlin begann (in DGS)
+LOCATION:Museum Nikolaikirche\, Nikolaikirchplatz\, 10178 Berlin
+DESCRIPTION:Führung in Deutscher Gebärdensprache.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.berlin.mus
+ eum/museum/nikolaikirche
+URL:https://www.berlin.museum/museum/nikolaikirche
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-fhxb-museum-20261108-koloniale-spuren-in-kreuzberg-militaer-mission-u
+ nd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:Koloniale Spuren in Kreuzberg: Militär\, Mission und eigene Erzäh
+ lungen
+LOCATION:FHXB Friedrichshain-Kreuzberg Museum\, Adalbertstraße 95A\, 10999
+  Berlin
+DESCRIPTION:Termine laut Veranstalter: weitere Termine bis 22.11.2026 laut 
+ Programmseite\nQuelle (bitte vor dem Besuch prüfen): https://www.fhxb-mus
+ eum.de/
+URL:https://www.fhxb-museum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-anne-frank-zentrum-20261108-fuehrung-zum-100-geburtstag-von-peter-van
+ -pels@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Führung zum 100. Geburtstag von Peter van Pels
+LOCATION:Anne Frank Zentrum (Ausstellung »Alles über Anne«)\, Rosenthale
+ r Straße 39\, 10178 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.annefrank.de
+ /termine
+URL:https://www.annefrank.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261110-inside-sudan-aerzte-ohne-grenzen-in-3
+ 60@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T090000
+DTEND;TZID=Europe/Berlin:20261110T110000
+SUMMARY:Inside Sudan – Ärzte ohne Grenzen in 360°
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:360°-Film unter der Planetariumskuppel.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.planetari
+ um.berlin/veranstaltungen/inside-sudan-aerzte-ohne-grenzen-360deg-0
+URL:https://www.planetarium.berlin/veranstaltungen/inside-sudan-aerzte-ohne
+ -grenzen-360deg-0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-archenhold-sternwarte-20261110-juwelen-des-kosmos@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T123000
+DTEND;TZID=Europe/Berlin:20261110T143000
+SUMMARY:Juwelen des Kosmos
+LOCATION:Archenhold-Sternwarte\, Alt-Treptow 1\, 12435 Berlin
+DESCRIPTION:Planetariumsshow im Planetariumssaal der Archenhold-Sternwarte.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+URL:https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261111-juwelen-des-kosmos@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T170000
+DTEND;TZID=Europe/Berlin:20261111T190000
+SUMMARY:Juwelen des Kosmos
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosm
+ os
+URL:https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zitadelle-spandau-20261111-nachts-im-museum@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T170000
+DTEND;TZID=Europe/Berlin:20261111T190000
+SUMMARY:Nachts im Museum
+LOCATION:Zitadelle Spandau\, Berlin
+DESCRIPTION:Taschenlampenführung durch das Museum.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zitadelle-
+ berlin.de/
+URL:https://www.zitadelle-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-prater-galerie-20261111-kuratorischer-rundgang@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T180000
+DTEND;TZID=Europe/Berlin:20261111T200000
+SUMMARY:Kuratorischer Rundgang
+LOCATION:Prater Galerie\, Kastanienallee 7-9\, 10435 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.berlin.de/kunst-und-kultur-pa
+ nkow/einrichtungen/prater-galerie/
+URL:https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/prater-gale
+ rie/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261112-juwelen-des-kosmos@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T113000
+DTEND;TZID=Europe/Berlin:20261112T133000
+SUMMARY:Juwelen des Kosmos
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosm
+ os
+URL:https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-fhxb-museum-20261113-fuehrung-in-der-historischen-druckwerkstatt@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T170000
+DTEND;TZID=Europe/Berlin:20261113T190000
+SUMMARY:Führung in der Historischen Druckwerkstatt
+LOCATION:FHXB Friedrichshain-Kreuzberg Museum\, Adalbertstraße 95A\, 10999
+  Berlin
+DESCRIPTION:Termine laut Veranstalter: weitere Termine bis 11.12.2026 laut 
+ Programmseite\nQuelle (bitte vor dem Besuch prüfen): https://www.fhxb-mus
+ eum.de/
+URL:https://www.fhxb-museum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261113-juwelen-des-kosmos@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T183000
+DTEND;TZID=Europe/Berlin:20261113T203000
+SUMMARY:Juwelen des Kosmos
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosm
+ os
+URL:https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261113-cosmic-opera@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T213000
+DTEND;TZID=Europe/Berlin:20261113T233000
+SUMMARY:Cosmic Opera
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium.berlin/veranstaltungen/cosmic-opera
+URL:https://www.planetarium.berlin/veranstaltungen/cosmic-opera
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261113-imagine-dragons-dimensional-voyager@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T230000
+DTEND;TZID=Europe/Berlin:20261114T010000
+SUMMARY:Imagine Dragons: Dimensional Voyager
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Musikshow unter der Kuppel.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium.berlin/ver
+ anstaltungen/imagine-dragons-dimensional-voyager
+URL:https://www.planetarium.berlin/veranstaltungen/imagine-dragons-dimensio
+ nal-voyager
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-archenhold-sternwarte-20261114-juwelen-des-kosmos@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T170000
+DTEND;TZID=Europe/Berlin:20261114T190000
+SUMMARY:Juwelen des Kosmos
+LOCATION:Archenhold-Sternwarte\, Alt-Treptow 1\, 12435 Berlin
+DESCRIPTION:Planetariumsshow im Planetariumssaal der Archenhold-Sternwarte.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+URL:https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-ephraim-palais-20261115-im-sauseschritt-durch-die-berlinzeit@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Im Sauseschritt durch die BerlinZEIT
+LOCATION:Ephraim-Palais\, Poststraße 16\, 10178 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.berlin.museum/museum/ephraim-palais
+URL:https://www.berlin.museum/museum/ephraim-palais
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-archenhold-sternwarte-20261117-juwelen-des-kosmos@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T123000
+DTEND;TZID=Europe/Berlin:20261117T143000
+SUMMARY:Juwelen des Kosmos
+LOCATION:Archenhold-Sternwarte\, Alt-Treptow 1\, 12435 Berlin
+DESCRIPTION:Planetariumsshow im Planetariumssaal der Archenhold-Sternwarte.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+URL:https://www.planetarium.berlin/veranstaltungen/juwelen-des-kosmos
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-gedenkstaette-deutscher-widerstand-20261117-kuratorinnenfuehrung-durc
+ h-die-sonderausstellung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T160000
+DTEND;TZID=Europe/Berlin:20261117T180000
+SUMMARY:Kuratorinnenführung durch die Sonderausstellung
+LOCATION:Gedenkstätte Deutscher Widerstand\, Stauffenbergstraße 13-14\, 1
+ 0785 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenfrei\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.gdw-berlin.de/
+URL:https://www.gdw-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-neue-synagoge-centrum-judaicum-20261117-kuratorenfuehrung-durch-forms
+ -of-alignment-mit-dan@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T163000
+DTEND;TZID=Europe/Berlin:20261117T183000
+SUMMARY:Kuratorenführung durch „Forms of Alignment“ mit Daniel Laufer
+LOCATION:Neue Synagoge Berlin – Centrum Judaicum\, Oranienburger Straße 
+ 28-30\, 10117 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://centrumjudaicum.de/veranstaltungens/
+URL:https://centrumjudaicum.de/veranstaltungens/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261117-musical-spheres-ant-enoch-ava-joe-car
+ o-schaeffler@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T210000
+DTEND;TZID=Europe/Berlin:20261117T230000
+SUMMARY:musical spheres: ANT ENOCH\, AVA JOE & Caro Schaeffler
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Konzert unter der Planetariumskuppel.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium.
+ berlin/veranstaltungen/musical-spheres-im-november
+URL:https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-novem
+ ber
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-ephraim-palais-20261119-geteiltes-leben-und-tapetenwechsel@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T163000
+DTEND;TZID=Europe/Berlin:20261119T183000
+SUMMARY:Geteiltes Leben und Tapetenwechsel
+LOCATION:Ephraim-Palais\, Poststraße 16\, 10178 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.berlin.museum/museum/ephraim-palais
+URL:https://www.berlin.museum/museum/ephraim-palais
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-museum-nikolaikirche-20261119-chorus-mit-kuenstlerin-oder-kurator-in@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T163000
+DTEND;TZID=Europe/Berlin:20261119T183000
+SUMMARY:Chorus mit Künstlerin oder Kurator:in
+LOCATION:Museum Nikolaikirche\, Nikolaikirchplatz\, 10178 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.berlin.museum/museum/nikolaikirche
+URL:https://www.berlin.museum/museum/nikolaikirche
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261119-imagine-dragons-dimensional-voyager@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T213000
+DTEND;TZID=Europe/Berlin:20261119T233000
+SUMMARY:Imagine Dragons: Dimensional Voyager
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Musikshow unter der Kuppel.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium.berlin/ver
+ anstaltungen/imagine-dragons-dimensional-voyager
+URL:https://www.planetarium.berlin/veranstaltungen/imagine-dragons-dimensio
+ nal-voyager
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-co-berlin-20261119-after-work-tour-drink@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:After-Work Tour + Drink
+LOCATION:C/O Berlin (Amerika Haus)\, Hardenbergstraße 22–24\, 10623 Berl
+ in
+DESCRIPTION:Führung durch die Ausstellungen Carrie Mae Weems\, Stelios Kal
+ linikou und Susanne Kriemann mit Getränk.\nQuelle (bitte vor dem Besuch p
+ rüfen): https://co-berlin.org/de/programm/ausstellungen/carrie-mae-weems
+URL:https://co-berlin.org/de/programm/ausstellungen/carrie-mae-weems
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-museum-reinickendorf-20261122-reinickendorfs-weg-von-den-anfaengen-am
+ -tegeler-fl@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:Reinickendorfs Weg von den Anfängen am Tegeler Fließ bis zur Gege
+ nwart – Führung mit Lisa Marie Freitag
+LOCATION:Museum Reinickendorf\, Alt-Hermsdorf 35\, 13467 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum-reinickendorf.de/kulturkalender/
+URL:https://museum-reinickendorf.de/kulturkalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-villa-oppenheim-20261122-kurator-innenfuehrung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T143000
+DTEND;TZID=Europe/Berlin:20261122T163000
+SUMMARY:Kurator:innenführung
+LOCATION:Museum Charlottenburg-Wilmersdorf in der Villa Oppenheim\, Schloß
+ straße 55 / Otto-Grüneberg-Weg\, 14059 Berlin
+DESCRIPTION:Führung durch die Ausstellung zu Marlene Poelzig.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .villa-oppenheim-berlin.de/
+URL:https://www.villa-oppenheim-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261125-cosmic-opera@myeventhub.de
+DTSTAMP:20261013T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T170000
+DTEND;TZID=Europe/Berlin:20261125T190000
+SUMMARY:Cosmic Opera
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium.berlin/veranstaltungen/cosmic-opera
+URL:https://www.planetarium.berlin/veranstaltungen/cosmic-opera
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-anne-frank-zentrum-20261129-fuehrung-in-deutscher-gebaerdensprache-du
+ rch-die-a@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Führung in Deutscher Gebärdensprache durch die Ausstellung »Alle
+ s über Anne«
+LOCATION:Anne Frank Zentrum (Ausstellung »Alles über Anne«)\, Rosenthale
+ r Straße 39\, 10178 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.annefrank.de/termine
+URL:https://www.annefrank.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-anne-frank-zentrum-20261129-familienfuehrung-durch-die-ausstellung-al
+ les-ueber@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Familienführung durch die Ausstellung »Alles über Anne«
+LOCATION:Anne Frank Zentrum (Ausstellung »Alles über Anne«)\, Rosenthale
+ r Straße 39\, 10178 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.annefrank.de
+ /termine
+URL:https://www.annefrank.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-ephraim-palais-20261203-kurator-innen-fuehrung-durch-tapetenwechsel@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T163000
+DTEND;TZID=Europe/Berlin:20261203T183000
+SUMMARY:Kurator:innen-Führung durch „Tapetenwechsel“
+LOCATION:Ephraim-Palais\, Poststraße 16\, 10178 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.berlin.museum/museum/ephraim-palais
+URL:https://www.berlin.museum/museum/ephraim-palais
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-gedenkort-sa-gefaengnis-papestrasse-20261206-oeffentliche-fuehrung@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T130000
+DTEND;TZID=Europe/Berlin:20261206T150000
+SUMMARY:Öffentliche Führung
+LOCATION:Gedenkort SA-Gefängnis Papestraße\, Werner-Voß-Damm 54 a\, 1210
+ 1 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Kostenfrei und ohne A
+ nmeldung\nQuelle (bitte vor dem Besuch prüfen): https://museen-tempelhof-
+ schoeneberg.de/termine/
+URL:https://museen-tempelhof-schoeneberg.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-ephraim-palais-20261210-kuratorische-fuehrung-durch-geteiltes-leben@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T163000
+DTEND;TZID=Europe/Berlin:20261210T183000
+SUMMARY:Kuratorische Führung durch „Geteiltes Leben“
+LOCATION:Ephraim-Palais\, Poststraße 16\, 10178 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.berlin.museum/museum/ephraim-palais
+URL:https://www.berlin.museum/museum/ephraim-palais
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261210-cosmic-opera@myeventhub.de
+DTSTAMP:20261013T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T170000
+DTEND;TZID=Europe/Berlin:20261210T190000
+SUMMARY:Cosmic Opera
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium.berlin/veranstaltungen/cosmic-opera
+URL:https://www.planetarium.berlin/veranstaltungen/cosmic-opera
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-tempelhof-museum-20261213-kuratorinnenfuehrung-elfenbein-in-tempelhof
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Kuratorinnenführung: Elfenbein in Tempelhof
+LOCATION:Tempelhof Museum\, Alt-Mariendorf 43\, 12107 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museen-tempelhof-schoeneberg.de/termine/
+URL:https://museen-tempelhof-schoeneberg.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-prater-galerie-20261216-kuratorischer-rundgang@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T180000
+DTEND;TZID=Europe/Berlin:20261216T200000
+SUMMARY:Kuratorischer Rundgang
+LOCATION:Prater Galerie\, Kastanienallee 7-9\, 10435 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.berlin.de/kunst-und-kultur-pa
+ nkow/einrichtungen/prater-galerie/
+URL:https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/prater-gale
+ rie/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-co-berlin-20261217-after-work-tour-drink@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:After-Work Tour + Drink
+LOCATION:C/O Berlin (Amerika Haus)\, Hardenbergstraße 22–24\, 10623 Berl
+ in
+DESCRIPTION:Führung durch die Ausstellungen Carrie Mae Weems\, Stelios Kal
+ linikou und Susanne Kriemann mit Getränk.\nQuelle (bitte vor dem Besuch p
+ rüfen): https://co-berlin.org/de/programm/ausstellungen/carrie-mae-weems
+URL:https://co-berlin.org/de/programm/ausstellungen/carrie-mae-weems
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zeiss-grossplanetarium-20261219-cosmic-opera@myeventhub.de
+DTSTAMP:20261013T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T211500
+DTEND;TZID=Europe/Berlin:20261219T231500
+SUMMARY:Cosmic Opera
+LOCATION:Zeiss-Großplanetarium\, Prenzlauer Allee 80\, 10405 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium.berlin/veranstaltungen/cosmic-opera
+URL:https://www.planetarium.berlin/veranstaltungen/cosmic-opera
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

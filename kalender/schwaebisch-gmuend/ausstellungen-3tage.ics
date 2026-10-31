@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Schwäbisch Gmünd · my Event Hub (Erinnerun
+ g 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gd-prediger-20260730-sonderpraesentation-luca-sonnentag-preisgekroentes
+ -ende@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: Sonderpräsentation: Luca Sonnentag\, preisgekröntes 
+ Gesellenstück
+LOCATION:Museum und Galerie im Prediger\, Johannisplatz 3\, 73525 Schwäbis
+ ch Gmünd
+DESCRIPTION:Laufzeit: 30.7.2026 bis 31.10.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.museum-galerie-fabrik.de/vorschau-ausstellungen.ht
+ ml
+URL:https://www.museum-galerie-fabrik.de/vorschau-ausstellungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gd-prediger-20261017-nadja-schoellhammer-ghosts-at-work-beginn@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Beginn: Nadja Schöllhammer. Ghosts at Work
+LOCATION:Museum und Galerie im Prediger\, Johannisplatz 3\, 73525 Schwäbis
+ ch Gmünd
+DESCRIPTION:Laufzeit: 17.10.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.museum-galerie-fabrik.de/
+URL:https://www.museum-galerie-fabrik.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gd-prediger-20261017-nadja-schoellhammer-ghosts-at-work-ende@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Nadja Schöllhammer. Ghosts at Work
+LOCATION:Museum und Galerie im Prediger\, Johannisplatz 3\, 73525 Schwäbis
+ ch Gmünd
+DESCRIPTION:Laufzeit: 17.10.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.museum-galerie-fabrik.de/
+URL:https://www.museum-galerie-fabrik.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

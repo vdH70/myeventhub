@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Vechta · my Event Hub (Erinnerung 1 Tag v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:vec-gulfhaus-20261211-3-floeten-fuer-ein-hallelujah-die-verrueckte-weih
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:3 Flöten für ein Hallelujah – Die verrückte Weihnachtsshow
+LOCATION:Gulfhaus Vechta – Jugend- und Kulturzentrum\, Zitadelle 13\, 493
+ 77 Vechta
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://jugendkulturvere
+ in-om.de/veranstaltungen/
+URL:https://jugendkulturverein-om.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vec-gulfhaus-20261212-duplex-theorie-live@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Duplex Theorie live
+LOCATION:Gulfhaus Vechta – Jugend- und Kulturzentrum\, Zitadelle 13\, 493
+ 77 Vechta
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://jugendkulturvere
+ in-om.de/veranstaltungen/
+URL:https://jugendkulturverein-om.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

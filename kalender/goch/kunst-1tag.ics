@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Goch · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kle-museum-goch-20260713-hiltruds-crush-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Hiltruds Crush
+LOCATION:Museum Goch\, Kastellstraße 9\, 47574 Goch
+DESCRIPTION:Laufzeit: 13.7.2026 bis 29.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://museum-goch.de/ausstellen/
+URL:https://museum-goch.de/ausstellen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kle-museum-goch-20260906-self-on-stage-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: self on stage
+LOCATION:Museum Goch\, Kastellstraße 9\, 47574 Goch
+DESCRIPTION:Ausstellung mit Arbeiten von 24 internationalen Künstlerinnen.
+ \nLaufzeit: 6.9.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuch prüfen)
+ : https://museum-goch.de/ausstellen/
+URL:https://museum-goch.de/ausstellen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kle-museum-goch-20261213-pavel-schmidt-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Beginn: Pavel Schmidt
+LOCATION:Museum Goch\, Kastellstraße 9\, 47574 Goch
+DESCRIPTION:Ausstellung mit Werken von Pavel Schmidt.\nLaufzeit: 13.12.2026
+  bis 4.4.2027\nQuelle (bitte vor dem Besuch prüfen): https://museum-goch.
+ de/ausstellen/
+URL:https://museum-goch.de/ausstellen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kle-museum-goch-20261213-pavel-schmidt-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Letzter Tag: Pavel Schmidt
+LOCATION:Museum Goch\, Kastellstraße 9\, 47574 Goch
+DESCRIPTION:Ausstellung mit Werken von Pavel Schmidt.\nLaufzeit: 13.12.2026
+  bis 4.4.2027\nQuelle (bitte vor dem Besuch prüfen): https://museum-goch.
+ de/ausstellen/
+URL:https://museum-goch.de/ausstellen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

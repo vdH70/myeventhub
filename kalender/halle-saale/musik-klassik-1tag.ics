@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Halle (Saale) · my Event Hub (Erinnerung 1 Tag vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hal-marktkirche-20261106-musikherbst-2026-orgelkonzert-mit-kilian-nauha
+ us@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Musikherbst 2026: Orgelkonzert mit Kilian Nauhaus
+LOCATION:Marktkirche Unser Lieben Frauen\, An der Marienkirche 2\, 06108 Ha
+ lle (Saale)
+DESCRIPTION:Orgelkonzert mit Kilian Nauhaus (Französischer Dom Berlin).\nE
+ nde: laut Quelle nicht angegeben\nPreis: 15 €\, erm. 10 € (Kinder\, Ju
+ gendliche sowie Empfänger von Grundsicherung/Bürgergeld frei)\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.marktkirche-halle.de/kirchenmusi
+ k-/internationaler-musikherbst/
+URL:https://www.marktkirche-halle.de/kirchenmusik-/internationaler-musikher
+ bst/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hal-marktkirche-20261114-musikherbst-2026-orgelkonzert-mit-wolfgang-zer
+ er@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Musikherbst 2026: Orgelkonzert mit Wolfgang Zerer
+LOCATION:Marktkirche Unser Lieben Frauen\, An der Marienkirche 2\, 06108 Ha
+ lle (Saale)
+DESCRIPTION:Orgelkonzert mit Wolfgang Zerer (Hamburg).\nEnde: laut Quelle n
+ icht angegeben\nPreis: 15 €\, erm. 10 € (Kinder\, Jugendliche sowie Em
+ pfänger von Grundsicherung/Bürgergeld frei)\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.marktkirche-halle.de/kirchenmusik-/internationaler
+ -musikherbst/
+URL:https://www.marktkirche-halle.de/kirchenmusik-/internationaler-musikher
+ bst/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hal-marktkirche-20261122-musikherbst-2026-brahms-ein-deutsches-requiem@
+ myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T170000
+DTEND;TZID=Europe/Berlin:20261122T190000
+SUMMARY:Musikherbst 2026: Brahms – Ein deutsches Requiem
+LOCATION:Marktkirche Unser Lieben Frauen\, An der Marienkirche 2\, 06108 Ha
+ lle (Saale)
+DESCRIPTION:Brahms' Deutsches Requiem mit der Marktkantorei Halle.\nEnde: l
+ aut Quelle nicht angegeben\nPreis: 25 €\, erm. 15 € (Kinder\, Jugendli
+ che sowie Empfänger von Grundsicherung/Bürgergeld frei)\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.marktkirche-halle.de/kirchenmusik-/int
+ ernationaler-musikherbst/
+URL:https://www.marktkirche-halle.de/kirchenmusik-/internationaler-musikher
+ bst/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

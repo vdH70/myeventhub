@@ -1,0 +1,448 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Neustrelitz · my Event Hub (Erinnerung 3 
+ Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261031-drei-ostdeutsche-frauen-betrinke
+ n-sich-und-gruende@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Drei ostdeutsche Frauen betrinken sich und gründen den idealen Sta
+ at
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/drei-ostdeutsche-frauen-betrinken-sich-
+ und-gruenden-den-idealen-staat/
+URL:https://tog.de/projekte/drei-ostdeutsche-frauen-betrinken-sich-und-grue
+ nden-den-idealen-staat/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261101-nur-die-harten-komm-in-garten@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T160000
+DTEND;TZID=Europe/Berlin:20261101T180000
+SUMMARY:Nur die Harten komm' in' Garten!
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://tog.de/projekte/nur-die-harten-komm-in-garte
+ n/
+URL:https://tog.de/projekte/nur-die-harten-komm-in-garten/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261106-vor-dem-fest@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Vor dem Fest
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/vor-dem-fest/
+URL:https://tog.de/projekte/vor-dem-fest/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261107-la-boheme@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:La Bohème
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/la-boheme/
+URL:https://tog.de/projekte/la-boheme/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261108-marilyn-forever@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Marilyn Forever
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Matinee zur Kammeroper\, Eintritt frei.\nEnde: laut Quelle nich
+ t angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): 
+ https://tog.de/projekte/marilyn-forever/
+URL:https://tog.de/projekte/marilyn-forever/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261113-vor-dem-fest@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Vor dem Fest
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/vor-dem-fest/
+URL:https://tog.de/projekte/vor-dem-fest/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261114-drei-ostdeutsche-frauen-betrinke
+ n-sich-und-gruende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Drei ostdeutsche Frauen betrinken sich und gründen den idealen Sta
+ at
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/drei-ostdeutsche-frauen-betrinken-sich-
+ und-gruenden-den-idealen-staat/
+URL:https://tog.de/projekte/drei-ostdeutsche-frauen-betrinken-sich-und-grue
+ nden-den-idealen-staat/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261115-der-hals-der-giraffe@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:Der Hals der Giraffe
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/der-hals-der-giraffe/
+URL:https://tog.de/projekte/der-hals-der-giraffe/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261120-marilyn-forever@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Marilyn Forever
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Kammeroper.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://tog.de/projekte/marilyn-forever/
+URL:https://tog.de/projekte/marilyn-forever/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261121-vor-dem-fest@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Vor dem Fest
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/vor-dem-fest/
+URL:https://tog.de/projekte/vor-dem-fest/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261122-drei-ostdeutsche-frauen-betrinke
+ n-sich-und-gruende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T160000
+DTEND;TZID=Europe/Berlin:20261122T180000
+SUMMARY:Drei ostdeutsche Frauen betrinken sich und gründen den idealen Sta
+ at
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/drei-ostdeutsche-frauen-betrinken-sich-
+ und-gruenden-den-idealen-staat/
+URL:https://tog.de/projekte/drei-ostdeutsche-frauen-betrinken-sich-und-grue
+ nden-den-idealen-staat/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261128-la-boheme@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:La Bohème
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/la-boheme/
+URL:https://tog.de/projekte/la-boheme/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261212-marilyn-forever@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:Marilyn Forever
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/marilyn-forever/
+URL:https://tog.de/projekte/marilyn-forever/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261225-la-boheme@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T180000
+DTEND;TZID=Europe/Berlin:20261225T200000
+SUMMARY:La Bohème
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tog.de/projekte/la-boheme/
+URL:https://tog.de/projekte/la-boheme/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261229-die-fledermaus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T193000
+DTEND;TZID=Europe/Berlin:20261229T213000
+SUMMARY:Die Fledermaus
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Operette.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://tog.de/projekte/die-fledermaus-4/
+URL:https://tog.de/projekte/die-fledermaus-4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20261231-die-fledermaus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T200000
+DTEND;TZID=Europe/Berlin:20261231T220000
+SUMMARY:Die Fledermaus
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Operette.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://tog.de/projekte/die-fledermaus-4/
+URL:https://tog.de/projekte/die-fledermaus-4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20270115-egal-der-block@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T180000
+DTEND;TZID=Europe/Berlin:20270115T200000
+SUMMARY:Egal / Der Block
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Doppelpremiere.\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://tog.de/projekte/doppelpremiere/
+URL:https://tog.de/projekte/doppelpremiere/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20270130-hair@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T193000
+DTEND;TZID=Europe/Berlin:20270130T213000
+SUMMARY:Hair
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Musical.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://tog.de/projekte/hair/
+URL:https://tog.de/projekte/hair/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20270219-dieses-stueck-geht-schief@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T193000
+DTEND;TZID=Europe/Berlin:20270219T213000
+SUMMARY:Dieses Stück geht schief
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Komödie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://tog.de/projekte/dieses-stueck-geht-schief/
+URL:https://tog.de/projekte/dieses-stueck-geht-schief/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20270320-the-shining@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T193000
+DTEND;TZID=Europe/Berlin:20270320T213000
+SUMMARY:The Shining
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Oper.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://tog.de/projekte/the-shining/
+URL:https://tog.de/projekte/the-shining/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20270321-landuenner-eine-nacht-am-ende-de
+ r-welt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T160000
+DTEND;TZID=Europe/Berlin:20270321T180000
+SUMMARY:Landünner – Eine Nacht am Ende der Welt
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Krimikomödie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://tog.de/projekte/landuenner-eine-nacht-a
+ mende-der-welt/
+URL:https://tog.de/projekte/landuenner-eine-nacht-amende-der-welt/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mse-landestheater-neustrelitz-20270409-vom-fischer-und-seiner-frau@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T193000
+DTEND;TZID=Europe/Berlin:20270409T213000
+SUMMARY:Vom Fischer und seiner Frau
+LOCATION:Landestheater Neustrelitz\, Friedrich-Ludwig-Jahn-Straße 14\, 172
+ 35 Neustrelitz
+DESCRIPTION:Ballett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://tog.de/projekte/vom-fischer-und-seiner-frau-2
+ /
+URL:https://tog.de/projekte/vom-fischer-und-seiner-frau-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,133 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Kiel · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ki-ostseehalle-20261031-thw-kiel-tvb-stuttgart@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:THW Kiel – TVB Stuttgart
+LOCATION:Ostseehalle Kiel (Merkur Ostseehalle)\, Europaplatz 1\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://thw-handball.de/service/termine/
+URL:https://thw-handball.de/service/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-ostseehalle-20261122-thw-kiel-hsg-wetzlar@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:THW Kiel – HSG Wetzlar
+LOCATION:Ostseehalle Kiel (Merkur Ostseehalle)\, Europaplatz 1\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://thw-handball.de/service/termine/
+URL:https://thw-handball.de/service/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-holstein-stadion-20261128-holstein-kiel-1-fc-kaiserslautern@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Holstein Kiel – 1. FC Kaiserslautern
+LOCATION:Holstein-Stadion\, Kiel
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.holstein-kie
+ l.de/liga/matchcenter/
+URL:https://www.holstein-kiel.de/liga/matchcenter/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-ostseehalle-20261205-thw-kiel-hbw-balingen-weilstetten@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T180000
+DTEND;TZID=Europe/Berlin:20261205T200000
+SUMMARY:THW Kiel – HBW Balingen-Weilstetten
+LOCATION:Ostseehalle Kiel (Merkur Ostseehalle)\, Europaplatz 1\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://thw-handball.de/service/termine/
+URL:https://thw-handball.de/service/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-ostseehalle-20261219-thw-kiel-mt-melsungen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:THW Kiel – MT Melsungen
+LOCATION:Ostseehalle Kiel (Merkur Ostseehalle)\, Europaplatz 1\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://thw-handball.de/service/termine/
+URL:https://thw-handball.de/service/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-ostseehalle-20261222-thw-kiel-frisch-auf-goeppingen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T200000
+DTEND;TZID=Europe/Berlin:20261222T220000
+SUMMARY:THW Kiel – FRISCH AUF! Göppingen
+LOCATION:Ostseehalle Kiel (Merkur Ostseehalle)\, Europaplatz 1\, 24103 Kiel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://thw-handball.de/service/termine/
+URL:https://thw-handball.de/service/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

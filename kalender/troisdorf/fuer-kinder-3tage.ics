@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Troisdorf · my Event Hub (Erinnerung 3 Tage vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:su-isp-monkey-town-20261101-halloween-finale-bei-monkey-town@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Halloween-Finale bei Monkey Town
+LOCATION:Monkey Town Troisdorf\, Heinkelstraße 3\, 53844 Troisdorf
+DESCRIPTION:Abschlusstag der Halloweenwoche mit Kostümwettbewerb\, Hallowe
+ en-Tattoos\, Zauberschule und Monster-Mission.\nPreis: Tageseintritt: Kind
+ er 1–2 J. 10\,00 €\, ab 3 J. 16\,90 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://monkeytown.eu/de/events
+URL:https://monkeytown.eu/de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

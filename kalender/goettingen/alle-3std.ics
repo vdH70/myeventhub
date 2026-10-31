@@ -1,0 +1,652 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Göttingen · my Event Hub (Erinnerung 3 Stund
+ en vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:goe-forum-wissen-20260702-hoert-hoert-geschichten-klaenge-und-wissen-au
+ s-bur-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Hört\, hört! Geschichten\, Klänge und Wissen aus Bu
+ rkina Faso
+LOCATION:Forum Wissen – Wissensmuseum der Universität Göttingen\, Berli
+ ner Straße 28\, 37073 Göttingen
+DESCRIPTION:Laufzeit: 2.7.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.forum-wissen.de/
+URL:https://www.forum-wissen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-forum-wissen-20260927-grone-entwicklung-eines-stadtteils-ende@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Letzter Tag: Grone – Entwicklung eines Stadtteils
+LOCATION:Forum Wissen – Wissensmuseum der Universität Göttingen\, Berli
+ ner Straße 28\, 37073 Göttingen
+DESCRIPTION:Freiflächenausstellung.\nLaufzeit: 27.9.2026 bis 24.1.2027\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.forum-wissen.de/
+URL:https://www.forum-wissen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-kunsthaus-20261025-drag-queens-and-other-stories-beginn@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Beginn: Drag Queens and other Stories
+LOCATION:Kunsthaus Göttingen\, Düstere Straße 7\, 37073 Göttingen
+DESCRIPTION:Laufzeit: 25.10.2026 bis 15.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://kunsthaus-goettingen.de/ausstellungen
+URL:https://kunsthaus-goettingen.de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-kunsthaus-20261025-drag-queens-and-other-stories-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Drag Queens and other Stories
+LOCATION:Kunsthaus Göttingen\, Düstere Straße 7\, 37073 Göttingen
+DESCRIPTION:Laufzeit: 25.10.2026 bis 15.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://kunsthaus-goettingen.de/ausstellungen
+URL:https://kunsthaus-goettingen.de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-kunsthaus-20261025-handzeichnungen-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Beginn: Handzeichnungen
+LOCATION:Kunsthaus Göttingen\, Düstere Straße 7\, 37073 Göttingen
+DESCRIPTION:Laufzeit: 25.10.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://kunsthaus-goettingen.de/ausstellungen
+URL:https://kunsthaus-goettingen.de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-kunsthaus-20261025-handzeichnungen-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Handzeichnungen
+LOCATION:Kunsthaus Göttingen\, Düstere Straße 7\, 37073 Göttingen
+DESCRIPTION:Laufzeit: 25.10.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://kunsthaus-goettingen.de/ausstellungen
+URL:https://kunsthaus-goettingen.de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-forum-wissen-20261030-halloween-im-forum-wissen-beginn@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Halloween im Forum Wissen
+LOCATION:Forum Wissen – Wissensmuseum der Universität Göttingen\, Berli
+ ner Straße 28\, 37073 Göttingen
+DESCRIPTION:Angebot für Kinder zu Halloween\, bis 01.11. 18 Uhr.\nLaufzeit
+ : 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.forum-wissen.de/kalender/
+URL:https://www.forum-wissen.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-forum-wissen-20261030-halloween-im-forum-wissen-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Halloween im Forum Wissen
+LOCATION:Forum Wissen – Wissensmuseum der Universität Göttingen\, Berli
+ ner Straße 28\, 37073 Göttingen
+DESCRIPTION:Angebot für Kinder zu Halloween\, bis 01.11. 18 Uhr.\nLaufzeit
+ : 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.forum-wissen.de/kalender/
+URL:https://www.forum-wissen.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-kauf-park-20261031-women-second-hand-fashion-markt-am-kauf-park@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T100000
+DTEND;TZID=Europe/Berlin:20261031T120000
+SUMMARY:Women Second Hand Fashion Markt am Kauf Park
+LOCATION:Kauf Park Göttingen\, Am Kauf Park 2\, 37079 Göttingen
+DESCRIPTION:Second-Hand-Modemarkt für Frauen.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://kauf-park.de/event/
+ women-second-hand-fashion-markt-am-kauf-park-oktober/
+URL:https://kauf-park.de/event/women-second-hand-fashion-markt-am-kauf-park
+ -oktober/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-forum-wissen-20261031-basisausstellung-oeffentlicher-rundgang-durch
+ -die@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Basisausstellung | Öffentlicher Rundgang durch die „Räume des W
+ issens“
+LOCATION:Forum Wissen – Wissensmuseum der Universität Göttingen\, Berli
+ ner Straße 28\, 37073 Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.forum-wissen.de/kalender/
+URL:https://www.forum-wissen.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-staedtisches-museum-20261031-halloween-programm-fuer-kinder@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Halloween-Programm für Kinder
+LOCATION:Städtisches Museum Göttingen\, Ritterplan 7/8\, 37073 Göttingen
+DESCRIPTION:Halloween-Nachmittag des Städtischen Museums Göttingen ab 15 
+ Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://museum.goettingen.de/portal/seiten/veranstaltungen-900001124
+ -25480.html
+URL:https://museum.goettingen.de/portal/seiten/veranstaltungen-900001124-25
+ 480.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-deutsches-theater-20261031-the-rocky-horror-show@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T194500
+DTEND;TZID=Europe/Berlin:20261031T214500
+SUMMARY:The Rocky Horror Show
+LOCATION:Deutsches Theater Göttingen\, Theaterplatz 11\, 37073 Göttingen
+DESCRIPTION:Vorstellung im DT-1.\nEnde: laut Quelle nicht angegeben\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.dt-goettingen.de/spielplan
+URL:https://www.dt-goettingen.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-forum-wissen-20261101-basisausstellung-oeffentlicher-rundgang-durch
+ -die@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Basisausstellung | Öffentlicher Rundgang durch die „Räume des W
+ issens“
+LOCATION:Forum Wissen – Wissensmuseum der Universität Göttingen\, Berli
+ ner Straße 28\, 37073 Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.forum-wissen.de/kalender/
+URL:https://www.forum-wissen.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-altes-rathaus-20261105-alice-hasters-anti-opfer@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Alice Hasters – »Anti Opfer«
+LOCATION:Altes Rathaus Göttingen (Rathaushalle)\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literarisches-zentrum-goettingen.de/programm/abendp
+ rogramm/
+URL:https://www.literarisches-zentrum-goettingen.de/programm/abendprogramm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-lokhalle-20261105-olaf-schubert-seine-freunde-jetzt-oder-now@myeven
+ thub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Olaf Schubert & seine Freunde „Jetzt oder Now!“
+LOCATION:Lokhalle Göttingen\, Göttingen
+DESCRIPTION:Halle 1\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.lokhalle.de/
+URL:https://www.lokhalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-forum-wissen-20261107-basisausstellung-oeffentlicher-rundgang-durch
+ -die@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T150000
+DTEND;TZID=Europe/Berlin:20261107T170000
+SUMMARY:Basisausstellung | Öffentlicher Rundgang durch die „Räume des W
+ issens“
+LOCATION:Forum Wissen – Wissensmuseum der Universität Göttingen\, Berli
+ ner Straße 28\, 37073 Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.forum-wissen.de/kalender/
+URL:https://www.forum-wissen.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-lokhalle-20261108-paul-panzer-schoene-neue-welt-welcome-to-hell@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Paul Panzer - Schöne neue Welt - welcome to hell
+LOCATION:Lokhalle Göttingen\, Göttingen
+DESCRIPTION:Halle 1\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.lokhalle.de/
+URL:https://www.lokhalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-stadthalle-20261108-heliosis@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:heliosis
+LOCATION:Stadthalle Göttingen\, Göttingen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gso-online.d
+ e/
+URL:https://www.gso-online.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-literaturhaus-20261111-verena-guentner-und-yade-yasemin-oender-medu
+ lla-me@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Verena Güntner und Yade Yasemin Önder – »Medulla meets Anti M
+ üller«
+LOCATION:Literaturhaus Göttingen (Literarisches Zentrum)\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literarisches-zentrum-goettingen.de/programm/abendp
+ rogramm/
+URL:https://www.literarisches-zentrum-goettingen.de/programm/abendprogramm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-kunstsammlung-universitaet-20261115-schiffe-meer-und-kuesten@myeven
+ thub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T113000
+DTEND;TZID=Europe/Berlin:20261115T133000
+SUMMARY:Schiffe\, Meer und Küsten
+LOCATION:Kunstsammlung der Universität Göttingen\, Nikolausberger Weg 15\
+ , 37073 Göttingen
+DESCRIPTION:Öffentliche Führung durch die Kunstsammlung.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.uni
+ -goettingen.de/de/startseite+der+kunstsammlung/308340.html
+URL:https://www.uni-goettingen.de/de/startseite+der+kunstsammlung/308340.ht
+ ml
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-literaturhaus-20261117-steffen-martus-erzaehlte-welt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Steffen Martus – »Erzählte Welt«
+LOCATION:Literaturhaus Göttingen (Literarisches Zentrum)\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literarisches-zentrum-goettingen.de/programm/abendp
+ rogramm/
+URL:https://www.literarisches-zentrum-goettingen.de/programm/abendprogramm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-stadthalle-20261120-tiefgang@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Tiefgang
+LOCATION:Stadthalle Göttingen\, Göttingen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gso-online.d
+ e/
+URL:https://www.gso-online.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-altes-rathaus-weihnachtsmarkt-20261123-goettinger-weihnachtsmarkt-2
+ 026-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Göttinger Weihnachtsmarkt 2026
+LOCATION:Göttinger Altstadt (Altes Rathaus\, Johanniskirche)\, Göttingen
+DESCRIPTION:Weihnachtsmarkt in der Altstadt.\nLaufzeit: 23.11.2026 bis 29.1
+ 2.2026\nTermine laut Veranstalter: täglich 11–21 Uhr (23.12. bis 21.30 
+ Uhr)\; 24.–26.12. geschlossen\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.goettingen-tourismus.de/weihnachtsmarkt/
+URL:https://www.goettingen-tourismus.de/weihnachtsmarkt/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-altes-rathaus-weihnachtsmarkt-20261123-goettinger-weihnachtsmarkt-2
+ 026-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Letzter Tag: Göttinger Weihnachtsmarkt 2026
+LOCATION:Göttinger Altstadt (Altes Rathaus\, Johanniskirche)\, Göttingen
+DESCRIPTION:Weihnachtsmarkt in der Altstadt.\nLaufzeit: 23.11.2026 bis 29.1
+ 2.2026\nTermine laut Veranstalter: täglich 11–21 Uhr (23.12. bis 21.30 
+ Uhr)\; 24.–26.12. geschlossen\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.goettingen-tourismus.de/weihnachtsmarkt/
+URL:https://www.goettingen-tourismus.de/weihnachtsmarkt/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-literaturhaus-20261125-lukas-rietzschel-sanditz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:Lukas Rietzschel – »Sanditz«
+LOCATION:Literaturhaus Göttingen (Literarisches Zentrum)\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literarisches-zentrum-goettingen.de/programm/abendp
+ rogramm/
+URL:https://www.literarisches-zentrum-goettingen.de/programm/abendprogramm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-literaturhaus-20261130-norbert-gstrein-im-ersten-licht@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T200000
+DTEND;TZID=Europe/Berlin:20261130T220000
+SUMMARY:Norbert Gstrein – »Im ersten Licht«
+LOCATION:Literaturhaus Göttingen (Literarisches Zentrum)\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literarisches-zentrum-goettingen.de/programm/abendp
+ rogramm/
+URL:https://www.literarisches-zentrum-goettingen.de/programm/abendprogramm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-literaturhaus-20261207-konstantin-richter-dreihundert-maenner@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T200000
+DTEND;TZID=Europe/Berlin:20261207T220000
+SUMMARY:Konstantin Richter – »Dreihundert Männer«
+LOCATION:Literaturhaus Göttingen (Literarisches Zentrum)\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literarisches-zentrum-goettingen.de/programm/abendp
+ rogramm/
+URL:https://www.literarisches-zentrum-goettingen.de/programm/abendprogramm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-literaturhaus-20261209-madita-oeming-aufgeklaert-statt-aufgeregt@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Madita Oeming – »Aufgeklärt statt aufgeregt«
+LOCATION:Literaturhaus Göttingen (Literarisches Zentrum)\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literarisches-zentrum-goettingen.de/programm/abendp
+ rogramm/
+URL:https://www.literarisches-zentrum-goettingen.de/programm/abendprogramm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-literaturhaus-20261216-meike-roetzer-anna-karenina-in-100-minuten@m
+ yeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:Meike Rötzer – »Anna Karenina« in 100 Minuten
+LOCATION:Literaturhaus Göttingen (Literarisches Zentrum)\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literarisches-zentrum-goettingen.de/programm/abendp
+ rogramm/
+URL:https://www.literarisches-zentrum-goettingen.de/programm/abendprogramm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-lokhalle-20261218-drei-haselnuesse-fuer-aschenbroedel-der-originalf
+ i@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T193000
+DTEND;TZID=Europe/Berlin:20261218T213000
+SUMMARY:Drei Haselnüsse für Aschenbrödel – Der Originalfilm mit Live-O
+ rchester
+LOCATION:Lokhalle Göttingen\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lokhalle.de/programm
+URL:https://www.lokhalle.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-kunstsammlung-universitaet-20261220-albrecht-duerers-marienleben@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T113000
+DTEND;TZID=Europe/Berlin:20261220T133000
+SUMMARY:Albrecht Dürers „Marienleben“
+LOCATION:Kunstsammlung der Universität Göttingen\, Nikolausberger Weg 15\
+ , 37073 Göttingen
+DESCRIPTION:Öffentliche Führung durch die Kunstsammlung.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.uni
+ -goettingen.de/de/startseite+der+kunstsammlung/308340.html
+URL:https://www.uni-goettingen.de/de/startseite+der+kunstsammlung/308340.ht
+ ml
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-lokhalle-20270129-ina-mueller-und-band-die-6-0-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:Ina Müller und Band – Die 6.0 Tour
+LOCATION:Lokhalle Göttingen\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lokhalle.de/programm
+URL:https://www.lokhalle.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:goe-lokhalle-20270404-the-dark-tenor-rock-meets-klassik-symphonica@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T200000
+DTEND;TZID=Europe/Berlin:20270404T220000
+SUMMARY:The Dark Tenor – Rock meets Klassik – Symphonica
+LOCATION:Lokhalle Göttingen\, Göttingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lokhalle.de/programm
+URL:https://www.lokhalle.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

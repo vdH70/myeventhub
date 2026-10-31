@@ -1,0 +1,193 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Weltmusik/Folk in Nürnberg · my Event Hub (Erinnerung 1 Tag 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:n-hirsch-20261114-red-hot-chilli-pipers@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:Red Hot Chilli Pipers
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20261214-steve-n-seagulls@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T200000
+DTEND;TZID=Europe/Berlin:20261214T220000
+SUMMARY:Steve'n'Seagulls
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20270108-tir-nan-og@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Tir Nan Og
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20270203-dreiviertelblut-neuer-termin@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270203T200000
+DTEND;TZID=Europe/Berlin:20270203T220000
+SUMMARY:Dreiviertelblut (neuer Termin)
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20270214-shantel-bucovina-club-soundsystem@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T200000
+DTEND;TZID=Europe/Berlin:20270214T220000
+SUMMARY:Shantel & Bucovina Club Soundsystem
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20270226-schandmaul@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:Schandmaul
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20270402-haggefugg-vera-lux@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270402T200000
+DTEND;TZID=Europe/Berlin:20270402T220000
+SUMMARY:Haggefugg + Vera Lux
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20270429-skerryvore@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270429T200000
+DTEND;TZID=Europe/Berlin:20270429T220000
+SUMMARY:Skerryvore
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20271024-the-kilkennys@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271024T200000
+DTEND;TZID=Europe/Berlin:20271024T220000
+SUMMARY:The Kilkennys
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

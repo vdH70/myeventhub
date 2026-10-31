@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Merseburg · my Event Hub (Erinnerung 1 Tag vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sk-merseburger-dom-20261205-merseburger-dommusik-vii-weihnachtliches-or
+ gelkonz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Merseburger DomMusik VII: Weihnachtliches Orgelkonzert
+LOCATION:Merseburger Dom\, Domplatz 7\, 06217 Merseburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.merseburger-
+ dom.de/events/merseburger-dommusik-vi/?occurrence=2026-12-05
+URL:https://www.merseburger-dom.de/events/merseburger-dommusik-vi/?occurren
+ ce=2026-12-05
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-merseburger-dom-20261212-motette-mit-dem-stadtsingechor-halle@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Motette mit dem Stadtsingechor Halle
+LOCATION:Merseburger Dom\, Domplatz 7\, 06217 Merseburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.merseburger-
+ dom.de/events/motette-mit-dem-stadtsingechor-halle/?occurrence=2026-12-12&
+ time=1797098400
+URL:https://www.merseburger-dom.de/events/motette-mit-dem-stadtsingechor-ha
+ lle/?occurrence=2026-12-12&time=1797098400
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-merseburger-dom-20261219-orgelklang-12@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T120000
+DTEND;TZID=Europe/Berlin:20261219T140000
+SUMMARY:Orgelklang 12
+LOCATION:Merseburger Dom\, Domplatz 7\, 06217 Merseburg
+DESCRIPTION:Adventlicher Orgelklang an den Ladegast-Orgeln.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.me
+ rseburger-dom.de/events/orgelklang-12-stefan-muecksch-2/?occurrence=2026-1
+ 2-19&time=1797681600
+URL:https://www.merseburger-dom.de/events/orgelklang-12-stefan-muecksch-2/?
+ occurrence=2026-12-19&time=1797681600
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-merseburger-dom-20261225-orgelklang-zum-weihnachtsfest@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T150000
+DTEND;TZID=Europe/Berlin:20261225T170000
+SUMMARY:Orgelklang zum Weihnachtsfest
+LOCATION:Merseburger Dom\, Domplatz 7\, 06217 Merseburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.merseburger-dom.de/events/orgelklang-12-stefan-muec
+ ksch-2/?occurrence=2026-12-19&time=1797681600
+URL:https://www.merseburger-dom.de/events/orgelklang-12-stefan-muecksch-2/?
+ occurrence=2026-12-19&time=1797681600
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-merseburger-dom-20270106-orgelklang-zum-dreikoenigstag@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T150000
+DTEND;TZID=Europe/Berlin:20270106T170000
+SUMMARY:Orgelklang zum Dreikönigstag
+LOCATION:Merseburger Dom\, Domplatz 7\, 06217 Merseburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.merseburger-dom.de/events/orgelklang-12-stefan-muec
+ ksch-2/?occurrence=2026-12-19&time=1797681600
+URL:https://www.merseburger-dom.de/events/orgelklang-12-stefan-muecksch-2/?
+ occurrence=2026-12-19&time=1797681600
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

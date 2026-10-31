@@ -1,0 +1,207 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Werl · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20261031-kings-of-floyd@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Kings of Floyd
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20261107-bridgerton-musik-bei-kerzenschein@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Bridgerton – Musik bei Kerzenschein
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20261125-1-werler-rudelsingen-premiere@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:1. Werler Rudelsingen – Premiere
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stadthalle-werl.
+ de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20261205-megamix-90er-2000er-live@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:MEGAMIX – 90er & 2000er LIVE
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20270108-epische-musik-zu-der-herr-der-ringe@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T170000
+DTEND;TZID=Europe/Berlin:20270108T190000
+SUMMARY:Epische Musik zu „Der Herr der Ringe“
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20270108-the-music-of-hans-zimmer-others-a-celebrati
+ on-of-f@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:The Music of Hans Zimmer & Others – a Celebration of Film Music
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20270115-lieder-unseres-lebens-die-80er@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:Lieder unseres Lebens – die 80er
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20270117-neujahrsgala-mit-claudia-hirschfeld-und-3-t
+ enoeren@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T153000
+DTEND;TZID=Europe/Berlin:20270117T173000
+SUMMARY:Neujahrsgala mit Claudia Hirschfeld und 3 Tenören
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20270410-the-right-thing-the-simply-red-tribute@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T200000
+DTEND;TZID=Europe/Berlin:20270410T220000
+SUMMARY:The Right Thing – The Simply Red Tribute
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:so-stadthalle-werl-20270417-a-night-of-queen-by-the-bohemians@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T200000
+DTEND;TZID=Europe/Berlin:20270417T220000
+SUMMARY:A Night of Queen by The Bohemians
+LOCATION:Stadthalle Werl\, Grafenstraße 27\, 59457 Werl
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-werl.de/veranstaltungen/
+URL:https://stadthalle-werl.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

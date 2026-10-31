@@ -1,0 +1,203 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Kulmbach · my Event Hub (Erinnerung 3 Stunden
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ku-moenchshof-20261024-sonderausstellung-enzo-isaia-der-arbeit-ein-gesi
+ ch-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Sonderausstellung Enzo Isaia – Der Arbeit ein Gesicht
+LOCATION:Museen im Kulmbacher Mönchshof\, Hofer Str. 20\, 95326 Kulmbach
+DESCRIPTION:Sonderausstellung im Bayerischen Brauereimuseum.\nLaufzeit: 24.
+ 10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besuch prüfen): https://kul
+ mbacher-moenchshof.de/termine-im-moenchshof/
+URL:https://kulmbacher-moenchshof.de/termine-im-moenchshof/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ku-moenchshof-20261024-sonderausstellung-enzo-isaia-der-arbeit-ein-gesi
+ ch-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: Sonderausstellung Enzo Isaia – Der Arbeit ein Gesich
+ t
+LOCATION:Museen im Kulmbacher Mönchshof\, Hofer Str. 20\, 95326 Kulmbach
+DESCRIPTION:Sonderausstellung im Bayerischen Brauereimuseum.\nLaufzeit: 24.
+ 10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besuch prüfen): https://kul
+ mbacher-moenchshof.de/termine-im-moenchshof/
+URL:https://kulmbacher-moenchshof.de/termine-im-moenchshof/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ku-moenchshof-20261101-sonntagsfuehrung-bayerisches-brauereimuseum@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T103000
+DTEND;TZID=Europe/Berlin:20261101T123000
+SUMMARY:Sonntagsführung Bayerisches Brauereimuseum
+LOCATION:Museen im Kulmbacher Mönchshof\, Hofer Str. 20\, 95326 Kulmbach
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Erwachsene 13 €\, e
+ rmäßigt 11 €\, Familien 27 €\nQuelle (bitte vor dem Besuch prüfen):
+  https://kulmbacher-moenchshof.de/termine-im-moenchshof/
+URL:https://kulmbacher-moenchshof.de/termine-im-moenchshof/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ku-moenchshof-20261107-erich-olbrich-als-die-bilder-in-kulmbach-laufen-
+ le@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Erich Olbrich – Als die Bilder in Kulmbach laufen lernten (ausver
+ kauft)
+LOCATION:Museen im Kulmbacher Mönchshof\, Hofer Str. 20\, 95326 Kulmbach
+DESCRIPTION:Laut Veranstalter ausverkauft.\nEnde: laut Quelle nicht angegeb
+ en\nAusverkauft\nPreis: 15 €\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://kulmbacher-moenchshof.de/termine-im-moenchshof/
+URL:https://kulmbacher-moenchshof.de/termine-im-moenchshof/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ku-moenchshof-20261108-sonntagsfuehrung-bayerisches-baeckereimuseum@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T103000
+DTEND;TZID=Europe/Berlin:20261108T123000
+SUMMARY:Sonntagsführung Bayerisches Bäckereimuseum
+LOCATION:Museen im Kulmbacher Mönchshof\, Hofer Str. 20\, 95326 Kulmbach
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Erwachsene 11 €\, e
+ rmäßigt 9 €\, Familien 25 € (inkl. Führung)\nQuelle (bitte vor dem 
+ Besuch prüfen): https://kulmbacher-moenchshof.de/termine-im-moenchshof/
+URL:https://kulmbacher-moenchshof.de/termine-im-moenchshof/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ku-moenchshof-20261115-sonntagsfuehrung-deutsches-gewuerzmuseum@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T103000
+DTEND;TZID=Europe/Berlin:20261115T123000
+SUMMARY:Sonntagsführung Deutsches Gewürzmuseum
+LOCATION:Museen im Kulmbacher Mönchshof\, Hofer Str. 20\, 95326 Kulmbach
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Erwachsene 11 €\, e
+ rmäßigt 9 €\, Familien 25 € (inkl. Führung)\nQuelle (bitte vor dem 
+ Besuch prüfen): https://kulmbacher-moenchshof.de/termine-im-moenchshof/2/
+URL:https://kulmbacher-moenchshof.de/termine-im-moenchshof/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ku-moenchshof-20261121-ralf-winkelbeiner-happy@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Ralf Winkelbeiner – Happy
+LOCATION:Museen im Kulmbacher Mönchshof\, Hofer Str. 20\, 95326 Kulmbach
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 23 €\nQuelle (bitte
+  vor dem Besuch prüfen): https://kulmbacher-moenchshof.de/termine-im-moen
+ chshof/2/
+URL:https://kulmbacher-moenchshof.de/termine-im-moenchshof/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ku-moenchshof-20261122-sonntagsfuehrung-bayerisches-brauereimuseum@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T103000
+DTEND;TZID=Europe/Berlin:20261122T123000
+SUMMARY:Sonntagsführung Bayerisches Brauereimuseum
+LOCATION:Museen im Kulmbacher Mönchshof\, Hofer Str. 20\, 95326 Kulmbach
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Erwachsene 13 €\, e
+ rmäßigt 11 €\, Familien 27 €\nQuelle (bitte vor dem Besuch prüfen):
+  https://kulmbacher-moenchshof.de/termine-im-moenchshof/2/
+URL:https://kulmbacher-moenchshof.de/termine-im-moenchshof/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ku-moenchshof-20261129-sonntagsfuehrung-bayerisches-baeckereimuseum@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T103000
+DTEND;TZID=Europe/Berlin:20261129T123000
+SUMMARY:Sonntagsführung Bayerisches Bäckereimuseum
+LOCATION:Museen im Kulmbacher Mönchshof\, Hofer Str. 20\, 95326 Kulmbach
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Erwachsene 11 €\, e
+ rmäßigt 9 €\, Familien 25 € (inkl. Führung)\nQuelle (bitte vor dem 
+ Besuch prüfen): https://kulmbacher-moenchshof.de/termine-im-moenchshof/2/
+URL:https://kulmbacher-moenchshof.de/termine-im-moenchshof/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

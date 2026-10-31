@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wave in Nürnberg · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:n-hirsch-20261101-veljanov@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Veljanov
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.der-hirsch.c
+ om/konzert-details/veljanov-2026-11-01.html
+URL:https://www.der-hirsch.com/konzert-details/veljanov-2026-11-01.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20261113-phillip-boa-and-the-voodooclub@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Phillip Boa and the Voodooclub (ausverkauft)
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:Ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .der-hirsch.com/konzert-details/phillip-boa-and-the-voodooclub-2026-11-13.
+ html
+URL:https://www.der-hirsch.com/konzert-details/phillip-boa-and-the-voodoocl
+ ub-2026-11-13.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20270129-a-life-divided@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:A Life Divided
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20270410-and-one@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T200000
+DTEND;TZID=Europe/Berlin:20270410T220000
+SUMMARY:And One (ausverkauft)
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

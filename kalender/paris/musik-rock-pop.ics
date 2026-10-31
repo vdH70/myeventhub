@@ -1,0 +1,223 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Paris · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:par-la-cigale-20261031-elsa-esnoult@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Paris:20261031T200000
+DTEND;TZID=Europe/Paris:20261031T220000
+SUMMARY:ELSA ESNOULT
+LOCATION:La Cigale\, 120 boulevard Marguerite de Rochechouart\, 75018 Paris
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nZei
+ ten: Ortszeit Paris\, wie Deutschland\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://lacigale.fr/programmation/
+URL:https://lacigale.fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-la-cigale-20261102-camille-yembe@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Paris:20261102T200000
+DTEND;TZID=Europe/Paris:20261102T220000
+SUMMARY:CAMILLE YEMBE (ausverkauft)
+LOCATION:La Cigale\, 120 boulevard Marguerite de Rochechouart\, 75018 Paris
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nZei
+ ten: Ortszeit Paris\, wie Deutschland\nEnde: laut Quelle nicht angegeben\n
+ Ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://lacigale.fr/pr
+ ogrammation/
+URL:https://lacigale.fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-la-cigale-20261103-eagles-of-death-metal@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Paris:20261103T193000
+DTEND;TZID=Europe/Paris:20261103T213000
+SUMMARY:EAGLES OF DEATH METAL
+LOCATION:La Cigale\, 120 boulevard Marguerite de Rochechouart\, 75018 Paris
+DESCRIPTION:US-Rockband Eagles of Death Metal.\n19:30 Uhr (die Quelle sagt 
+ nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschland\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://lacigale.fr/programmation/
+URL:https://lacigale.fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261104-goldie-boutilier@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:GOLDIE BOUTILIER
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.elyseemontmartre.com/fr/programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-trabendo-20261105-ghostly-kisses@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Ghostly Kisses
+LOCATION:Le Trabendo\, 211 avenue Jean Jaurès\, 75019 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.letrabendo.net/programmation
+URL:https://www.letrabendo.net/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-la-cigale-20261107-the-temperance-movement@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Paris:20261107T200000
+DTEND;TZID=Europe/Paris:20261107T220000
+SUMMARY:THE TEMPERANCE MOVEMENT
+LOCATION:La Cigale\, 120 boulevard Marguerite de Rochechouart\, 75018 Paris
+DESCRIPTION:Britische Rockband The Temperance Movement.\n20:00 Uhr (die Que
+ lle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deu
+ tschland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://lacigale.fr/programmation/
+URL:https://lacigale.fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261111-artemas@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:ARTEMAS (ausverkauft)
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nAusverkauft\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.elyseemontmartre.com/fr/program
+ mation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261112-artemas@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Artemas (ausverkauft)
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nAusverkauft\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.bataclan.fr/programmation
+URL:https://www.bataclan.fr/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261117-zimmer90@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:ZIMMER90
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.elyseemontmartre.com/fr/programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-trabendo-20261118-howlin-jaws@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Howlin' Jaws
+LOCATION:Le Trabendo\, 211 avenue Jean Jaurès\, 75019 Paris
+DESCRIPTION:Französische Rock-'n'-Roll-Band.\nZeiten: Ortszeit Paris\, wie
+  Deutschland\nQuelle (bitte vor dem Besuch prüfen): https://www.letrabend
+ o.net/programmation
+URL:https://www.letrabendo.net/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261121-oneus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Oneus
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:K-Pop-Gruppe Oneus.\nZeiten: Ortszeit Paris\, wie Deutschland\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.bataclan.fr/programmati
+ on
+URL:https://www.bataclan.fr/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261122-kodaline@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:KODALINE (ausverkauft)
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Irische Band Kodaline.\nZeiten: Ortszeit Paris\, wie Deutschlan
+ d\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.elyseem
+ ontmartre.com/fr/programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261126-mammoth@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Mammoth
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.bataclan.fr/programmation
+URL:https://www.bataclan.fr/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261128-benny-sings@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Benny Sings
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:Niederländischer Popmusiker Benny Sings.\nZeiten: Ortszeit Par
+ is\, wie Deutschland\nQuelle (bitte vor dem Besuch prüfen): https://www.b
+ ataclan.fr/programmation
+URL:https://www.bataclan.fr/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-olympia-20270312-nessa-barrett@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Nessa Barrett
+LOCATION:L'Olympia\, 28 boulevard des Capucines\, 75009 Paris
+DESCRIPTION:US-Popsängerin Nessa Barrett.\nZeiten: Ortszeit Paris\, wie De
+ utschland\nQuelle (bitte vor dem Besuch prüfen): https://www.olympiahall.
+ com/
+URL:https://www.olympiahall.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

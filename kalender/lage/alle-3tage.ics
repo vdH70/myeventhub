@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Lage · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lip-lwl-museum-ziegelei-lage-20261101-vom-lehm-zum-ziegel@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Vom Lehm zum Ziegel
+LOCATION:LWL-Museum Ziegelei Lage\, Sprikernheide 77\, 32791 Lage
+DESCRIPTION:Öffentliche Führung\, 11 bis 12 Uhr.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ziegelei-lage.l
+ wl.org/de/
+URL:https://ziegelei-lage.lwl.org/de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-lwl-museum-ziegelei-lage-20261106-bunt-gemalt@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T160000
+DTEND;TZID=Europe/Berlin:20261106T180000
+SUMMARY:BUNT gemalt
+LOCATION:LWL-Museum Ziegelei Lage\, Sprikernheide 77\, 32791 Lage
+DESCRIPTION:Öffentlicher Workshop\, 16 bis 18 Uhr.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ziegelei-lage.
+ lwl.org/de/
+URL:https://ziegelei-lage.lwl.org/de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-lwl-museum-ziegelei-lage-20261107-engel@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T140000
+DTEND;TZID=Europe/Berlin:20261107T160000
+SUMMARY:Engel
+LOCATION:LWL-Museum Ziegelei Lage\, Sprikernheide 77\, 32791 Lage
+DESCRIPTION:Öffentlicher Workshop\, 14 bis 17 Uhr.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ziegelei-lage.
+ lwl.org/de/
+URL:https://ziegelei-lage.lwl.org/de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-lwl-museum-ziegelei-lage-20261108-vom-lehm-zum-ziegel@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Vom Lehm zum Ziegel
+LOCATION:LWL-Museum Ziegelei Lage\, Sprikernheide 77\, 32791 Lage
+DESCRIPTION:Öffentliche Führung\, 11 bis 12 Uhr.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ziegelei-lage.l
+ wl.org/de/
+URL:https://ziegelei-lage.lwl.org/de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-lwl-museum-ziegelei-lage-20261114-feuerschalen@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T140000
+DTEND;TZID=Europe/Berlin:20261114T160000
+SUMMARY:Feuerschalen
+LOCATION:LWL-Museum Ziegelei Lage\, Sprikernheide 77\, 32791 Lage
+DESCRIPTION:Öffentlicher Workshop\, 14 bis 17 Uhr.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ziegelei-lage.
+ lwl.org/de/
+URL:https://ziegelei-lage.lwl.org/de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

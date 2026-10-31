@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Unna · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:un-zfil-20260613-light-dialogues-werke-aus-dem-schauwerk-sindelfing-end
+ e@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Light Dialogues – Werke aus dem Schauwerk Sindelfing
+ en
+LOCATION:Zentrum für Internationale Lichtkunst\, Lindenplatz 1\, 59423 Unn
+ a
+DESCRIPTION:Sonderausstellung mit Lichtkunstwerken aus der Sammlung Schauwe
+ rk Sindelfingen.\nLaufzeit: 13.6.2026 bis 10.1.2027\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.zfil.de/en/homepage
+URL:https://www.zfil.de/en/homepage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:un-hellweg-museum-20261108-juedisches-leben-in-unna-museumsgespraech-un
+ d-stad@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T143000
+DTEND;TZID=Europe/Berlin:20261108T163000
+SUMMARY:Jüdisches Leben in Unna – Museumsgespräch und Stadtrundgang
+LOCATION:Hellweg-Museum Unna\, Burgstraße 8\, 59423 Unna
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Offene Führung: Teil
+ nahme kostenlos\nQuelle (bitte vor dem Besuch prüfen): https://www.unna.d
+ e/rathaus/verwaltung/kultur/hellweg-museum
+URL:https://www.unna.de/rathaus/verwaltung/kultur/hellweg-museum
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:un-hellweg-museum-20261119-taschenlampen-fuehrung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T170000
+DTEND;TZID=Europe/Berlin:20261119T190000
+SUMMARY:Taschenlampen-Führung
+LOCATION:Hellweg-Museum Unna\, Burgstraße 8\, 59423 Unna
+DESCRIPTION:Anmeldung erforderlich\, eigene Taschenlampe mitbringen.\nEnde:
+  laut Quelle nicht angegeben\nPreis: Kinder 1 Euro\, Begleitpersonen 2 Eur
+ o\nQuelle (bitte vor dem Besuch prüfen): https://www.unna.de/rathaus/verw
+ altung/kultur/hellweg-museum
+URL:https://www.unna.de/rathaus/verwaltung/kultur/hellweg-museum
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:un-zfil-20261206-familiensonntag-im-zfil@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Familiensonntag im ZFIL
+LOCATION:Zentrum für Internationale Lichtkunst\, Lindenplatz 1\, 59423 Unn
+ a
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zfil.de/en/high-lights
+URL:https://www.zfil.de/en/high-lights
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:un-zfil-20261217-thirsty-thursdays-sonderfuehrung-der-geschmack-der@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T173000
+DTEND;TZID=Europe/Berlin:20261217T193000
+SUMMARY:Thirsty Thursdays – Sonderführung „Der Geschmack der Farbe“
+LOCATION:Zentrum für Internationale Lichtkunst\, Lindenplatz 1\, 59423 Unn
+ a
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 17\,00 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.zfil.de/en/high-lights
+URL:https://www.zfil.de/en/high-lights
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

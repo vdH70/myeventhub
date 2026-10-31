@@ -1,0 +1,347 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Lübeck · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hl-kulturwerft-gollan-20261106-stefanie-heinzmann@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Stefanie Heinzmann
+LOCATION:Kulturwerft Gollan\, Einsiedelstraße 6\, 23554 Lübeck
+DESCRIPTION:Tickets: https://tickets.kulturwerft-gollan.de/stefanie-heinzma
+ nn-tickets-60.html\nQuelle (bitte vor dem Besuch prüfen): https://tickets
+ .kulturwerft-gollan.de/
+URL:https://tickets.kulturwerft-gollan.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kulturwerft-gollan-20261115-max-mutzke@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Max Mutzke
+LOCATION:Kulturwerft Gollan\, Einsiedelstraße 6\, 23554 Lübeck
+DESCRIPTION:Tickets: https://tickets.kulturwerft-gollan.de/max-mutzke-2026.
+ html\nQuelle (bitte vor dem Besuch prüfen): https://tickets.kulturwerft-g
+ ollan.de/
+URL:https://tickets.kulturwerft-gollan.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261117-adele-sympho-show@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Adele Sympho-Show
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=3
+URL:https://www.muk.de/veranstaltungen?page_e89=3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261117-adele-sympho-show-gespielt-von-lord-of-the-sounds@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Adele Sympho-Show gespielt von Lord of the Sounds
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=3
+URL:https://www.muk.de/veranstaltungen?page_e89=3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261202-prime-orchestra-rock-sympho-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Prime Orchestra Rock Sympho Show
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=5
+URL:https://www.muk.de/veranstaltungen?page_e89=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261216-torfrock-35-bagaluten-wiehnacht@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:TORFROCK – 35. Bagaluten Wiehnacht
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=6
+URL:https://www.muk.de/veranstaltungen?page_e89=6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261219-jeden-tag-silvester-jahresabschlusskonzert-2026@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Jeden Tag Silvester – Jahresabschlusskonzert 2026
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=6
+URL:https://www.muk.de/veranstaltungen?page_e89=6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270129-yesterday-a-tribute-to-the-beatles@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:Yesterday – A Tribute to the Beatles
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=9
+URL:https://www.muk.de/veranstaltungen?page_e89=9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270219-alte-bekannte-das-beste-von-frueher-bis-heute@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Alte Bekannte – Das Beste! Von Früher bis Heute
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=10
+URL:https://www.muk.de/veranstaltungen?page_e89=10
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270220-the-music-of-queen-live-mit-valentin-findling-euro@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T203000
+DTEND;TZID=Europe/Berlin:20270220T223000
+SUMMARY:The Music of QUEEN – Live mit Valentin Findling – Europatour 20
+ 27
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=11
+URL:https://www.muk.de/veranstaltungen?page_e89=11
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270305-abba-diamonds-the-abba-tribute-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:Abba Diamonds – The ABBA Tribute Show
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=11
+URL:https://www.muk.de/veranstaltungen?page_e89=11
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270310-the-simon-garfunkel-story-tour-2027@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270310T200000
+DTEND;TZID=Europe/Berlin:20270310T220000
+SUMMARY:The Simon & Garfunkel Story – Tour 2027
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=12
+URL:https://www.muk.de/veranstaltungen?page_e89=12
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270325-rumours-of-fleetwood-mac-live-in-concert-2027@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270325T200000
+DTEND;TZID=Europe/Berlin:20270325T220000
+SUMMARY:Rumours of Fleetwood Mac – Live in Concert 2027
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=13
+URL:https://www.muk.de/veranstaltungen?page_e89=13
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270401-pop-meets-classic-the-symphonic-celebration@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270401T193000
+DTEND;TZID=Europe/Berlin:20270401T213000
+SUMMARY:Pop meets Classic – The Symphonic Celebration
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=13
+URL:https://www.muk.de/veranstaltungen?page_e89=13
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270407-true-collins-phil-collins-genesis-tribute-show@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270407T200000
+DTEND;TZID=Europe/Berlin:20270407T220000
+SUMMARY:True Collins – Phil Collins & Genesis Tribute Show
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=14
+URL:https://www.muk.de/veranstaltungen?page_e89=14
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270418-the-glory-of-queen-queen-tribute-show@myeventhub.de
+DTSTAMP:20261007T000000Z
+DTSTART;TZID=Europe/Berlin:20270418T190000
+DTEND;TZID=Europe/Berlin:20270418T210000
+SUMMARY:The Glory of Queen – Queen Tribute Show
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=15
+URL:https://www.muk.de/veranstaltungen?page_e89=15
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270525-bee-gees-by-maincourse-the-greatest-bee-gees-tribu@myev
+ enthub.de
+DTSTAMP:20261007T000000Z
+DTSTART;TZID=Europe/Berlin:20270525T193000
+DTEND;TZID=Europe/Berlin:20270525T213000
+SUMMARY:Bee Gees by Maincourse – The greatest Bee Gees tribute show 2027
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=16
+URL:https://www.muk.de/veranstaltungen?page_e89=16
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

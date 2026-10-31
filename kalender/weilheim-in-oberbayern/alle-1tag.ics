@@ -1,0 +1,450 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Weilheim in Oberbayern · my Event Hub (Erinne
+ rung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wm-stadttheater-20261031-richard-iii@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Richard III
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Weilheimer Festspiele 2026.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim.de/s
+ pielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261101-richard-iii@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Richard III
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Weilheimer Festspiele 2026.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim.de/s
+ pielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261106-rockballaden-bei-kerzenschein@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Rockballaden bei Kerzenschein
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Rockballaden\, gespielt von einem Streichquartett.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://sta
+ dttheater-weilheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261108-enoch-arden@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T170000
+DTEND;TZID=Europe/Berlin:20261108T190000
+SUMMARY:Enoch Arden
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Melodram von Richard Strauss.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim.de
+ /spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261113-der-gute-mensch-von-sezuan@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Der gute Mensch von Sezuan
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Brecht-Inszenierung der Freien Bühne München.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://stadtt
+ heater-weilheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261114-third-floor-flurgefluester@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Third Floor (Flurgeflüster)
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Theaterstück von Jason Hall.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim.de
+ /spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261115-operngala-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Operngala 2026
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Arien\, Duette und Szenen von Verdi\, Puccini und Donizetti.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://stadttheater-weilheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261120-ammertoene-26-weilheimer-jazztage@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Ammertöne – 26. Weilheimer Jazztage
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadttheater-weilheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261121-ammertoene-26-weilheimer-jazztage@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Ammertöne – 26. Weilheimer Jazztage
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Franco Ambrosetti hat laut Veranstalter abgesagt.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://stad
+ ttheater-weilheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261126-franziska-wanninger-wenn-du-wen-brauchst-ruf-m
+ ich@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Franziska Wanninger – Wenn du wen brauchst\, ruf mich nicht an
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadttheater-weilheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261127-kleine-sterne-grosse-sterne@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T170000
+DTEND;TZID=Europe/Berlin:20261127T190000
+SUMMARY:„Kleine Sterne“ – „Große Sterne“
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Adventskonzert der städtischen Musikschule Weilheim.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ stadttheater-weilheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261127-kleine-sterne-grosse-sterne-1900@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:„Kleine Sterne“ – „Große Sterne“
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Adventskonzert der städtischen Musikschule Weilheim.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ stadttheater-weilheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261204-arnulf-rating-jahrespresseschau@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Arnulf Rating – Jahrespresseschau
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://stadttheater-weilheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261213-josef-und-maria@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T180000
+DTEND;TZID=Europe/Berlin:20261213T200000
+SUMMARY:Josef und Maria
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Theaterstück von Peter Turrini.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim
+ .de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261216-die-sterntaler@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T150000
+DTEND;TZID=Europe/Berlin:20261216T170000
+SUMMARY:Die Sterntaler
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Kinderstück nach den Brüdern Grimm.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://stadttheater-wei
+ lheim.de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261219-josef-und-maria@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Josef und Maria
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Theaterstück von Peter Turrini.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim
+ .de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261220-josef-und-maria@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T180000
+DTEND;TZID=Europe/Berlin:20261220T200000
+SUMMARY:Josef und Maria
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Theaterstück von Peter Turrini.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim
+ .de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261226-josef-und-maria@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T180000
+DTEND;TZID=Europe/Berlin:20261226T200000
+SUMMARY:Josef und Maria
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Theaterstück von Peter Turrini.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim
+ .de/spielplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261229-im-weissen-roessl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T200000
+DTEND;TZID=Europe/Berlin:20261229T220000
+SUMMARY:Im weissen Rössl
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Singspiel in drei Akten.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim.de/spie
+ lplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261230-im-weissen-roessl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T200000
+DTEND;TZID=Europe/Berlin:20261230T220000
+SUMMARY:Im weissen Rössl
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Singspiel in drei Akten.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim.de/spie
+ lplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadttheater-20261231-im-weissen-roessl@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T180000
+DTEND;TZID=Europe/Berlin:20261231T200000
+SUMMARY:Im weissen Rössl
+LOCATION:Stadttheater Weilheim\, Theaterplatz 1\, 82362 Weilheim in Oberbay
+ ern
+DESCRIPTION:Singspiel in drei Akten.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://stadttheater-weilheim.de/spie
+ lplan
+URL:https://stadttheater-weilheim.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wm-stadthalle-weilheim-20270124-modenschau-hochzeits-und-eventmesse-wei
+ lheim@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T113000
+DTEND;TZID=Europe/Berlin:20270124T133000
+SUMMARY:Modenschau – Hochzeits- und Eventmesse Weilheim
+LOCATION:Stadthalle Weilheim\, Weilheim in Oberbayern
+DESCRIPTION:Modenschau mit anschließender Verlosung auf der 33. Hochzeits-
+  und Eventmesse. Shows um 11:30 und 14:30 Uhr.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.hochzeitsmesse
+ -weilheim.de
+URL:https://www.hochzeitsmesse-weilheim.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,103 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Indie/Alternative in Frankfurt am Main · my Event Hub (Erinne
+ rung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f-batschkapp-20261102-heisskalt@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Heisskalt
+LOCATION:Batschkapp\, Gwinnerstraße 5\, 60388 Frankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.batschkapp.net/
+URL:https://www.batschkapp.net/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20261114-berq-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Berq – Tour 2026
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/event/berq-tour-2026-festhalle-frank
+ furt-20642077/\nQuelle (bitte vor dem Besuch prüfen): https://festhalle.m
+ essefrankfurt.com/frankfurt/de/veranstaltungen/berq.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/berq.
+ html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-batschkapp-20261120-psychedelic-porn-crumpets@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Psychedelic Porn Crumpets
+LOCATION:Batschkapp\, Gwinnerstraße 5\, 60388 Frankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.batschkapp.net/
+URL:https://www.batschkapp.net/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-batschkapp-20261130-kodaline@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T200000
+DTEND;TZID=Europe/Berlin:20261130T220000
+SUMMARY:Kodaline
+LOCATION:Batschkapp\, Gwinnerstraße 5\, 60388 Frankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.batschkapp.net/
+URL:https://www.batschkapp.net/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

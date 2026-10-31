@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Hildesheim · my Event Hub (Erinnerung 3 Tage
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hi-rpmuseum-20261009-quartett-plus-1-happy-sorrow-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Letzter Tag: Quartett PLUS 1: happy sorrow
+LOCATION:Roemer- und Pelizaeus-Museum Hildesheim (RPM)\, Am Steine 1-2\, 31
+ 134 Hildesheim
+DESCRIPTION:Performance und Installation\; Vernissage am 9.10. um 17:30 Uhr
+ \, Finissage am 6.11. um 17:30 Uhr.\nLaufzeit: 9.10.2026 bis 6.11.2026\nQu
+ elle (bitte vor dem Besuch prüfen): https://rpmuseum.de/termine/
+URL:https://rpmuseum.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

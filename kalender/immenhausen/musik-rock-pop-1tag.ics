@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Immenhausen · my Event Hub (Erinnerung 1 Tag vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ks-glasmuseum-immenhausen-20261211-glas-klassik-beatles-cover-band@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:GLAS & KLASSIK: Beatles-Cover Band
+LOCATION:Glasmuseum Immenhausen\, Am Bahnhof 3\, 34376 Immenhausen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.immenhausen.
+ de/veranstaltungen/index.php?mandat=164338
+URL:https://www.immenhausen.de/veranstaltungen/index.php?mandat=164338
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

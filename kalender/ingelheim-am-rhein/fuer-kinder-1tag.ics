@@ -1,0 +1,144 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Ingelheim am Rhein · my Event Hub (Erinnerung 
+ 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mz-king-ingelheim-20261129-schneekoenigin-das-musical@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Schneekönigin – Das Musical
+LOCATION:kING Kultur- und Kongresshalle\, Fridtjof-Nansen-Platz 5\, 55218 I
+ ngelheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.king-ingelheim.de/event/schneekoenigin/
+URL:https://www.king-ingelheim.de/event/schneekoenigin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-king-ingelheim-20261201-schneewittchen-kindergarten-schulvorstellung
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T100000
+DTEND;TZID=Europe/Berlin:20261201T120000
+SUMMARY:Schneewittchen (Kindergarten- & Schulvorstellung)
+LOCATION:kING Kultur- und Kongresshalle\, Fridtjof-Nansen-Platz 5\, 55218 I
+ ngelheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.king-ingelheim.de/event/schneewittchen_di/
+URL:https://www.king-ingelheim.de/event/schneewittchen_di/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-king-ingelheim-20261202-schneewittchen-kindergarten-schulvorstellung
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T100000
+DTEND;TZID=Europe/Berlin:20261202T120000
+SUMMARY:Schneewittchen (Kindergarten- & Schulvorstellung)
+LOCATION:kING Kultur- und Kongresshalle\, Fridtjof-Nansen-Platz 5\, 55218 I
+ ngelheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.king-ingelheim.de/event/schneewittchen_mi/
+URL:https://www.king-ingelheim.de/event/schneewittchen_mi/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-king-ingelheim-20261202-schneewittchen-familienvorstellung@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T150000
+DTEND;TZID=Europe/Berlin:20261202T170000
+SUMMARY:Schneewittchen (Familienvorstellung)
+LOCATION:kING Kultur- und Kongresshalle\, Fridtjof-Nansen-Platz 5\, 55218 I
+ ngelheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.king-ingelheim.de/event/schneewittchen_familie/
+URL:https://www.king-ingelheim.de/event/schneewittchen_familie/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-king-ingelheim-20261203-schneewittchen-kindergarten-schulvorstellung
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T100000
+DTEND;TZID=Europe/Berlin:20261203T120000
+SUMMARY:Schneewittchen (Kindergarten- & Schulvorstellung)
+LOCATION:kING Kultur- und Kongresshalle\, Fridtjof-Nansen-Platz 5\, 55218 I
+ ngelheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.king-ingelheim.de/event/schneewittchen_do/
+URL:https://www.king-ingelheim.de/event/schneewittchen_do/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-king-ingelheim-20270217-tabaluga-und-lilli-musical-maerchen@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T163000
+DTEND;TZID=Europe/Berlin:20270217T183000
+SUMMARY:Tabaluga und Lilli – Musical-Märchen
+LOCATION:kING Kultur- und Kongresshalle\, Fridtjof-Nansen-Platz 5\, 55218 I
+ ngelheim am Rhein
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.king-ingelheim.de/event/tabaluga-und-lilli/
+URL:https://www.king-ingelheim.de/event/tabaluga-und-lilli/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

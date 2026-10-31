@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Lutherstadt Wittenberg · my Event Hub (Erinn
+ erung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wb-lutherhaus-20231201-buchstaeblich-luther-facetten-eines-reformators-
+ ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Letzter Tag: Buchstäblich Luther. Facetten eines Reformators
+LOCATION:Lutherhaus Wittenberg mit Augusteum\, Collegienstraße 54\, 06886 
+ Lutherstadt Wittenberg
+DESCRIPTION:Sonderausstellung im Augusteum neben dem sanierungsbedingt gesc
+ hlossenen Lutherhaus.\nLaufzeit: 1.12.2023 bis 30.6.2027\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.luthermuseen.de/besuchen-erleben/sonder
+ ausstellungen
+URL:https://www.luthermuseen.de/besuchen-erleben/sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

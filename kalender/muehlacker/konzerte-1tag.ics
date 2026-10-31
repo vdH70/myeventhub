@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Mühlacker · my Event Hub (Erinnerung 1 Tag vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pf-uhlandbau-muehlacker-20270424-vokalhelden-die-musik-mixed-show@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Vokalhelden – Die Musik Mixed Show
+LOCATION:Uhlandbau\, Uhlandstraße 7\, 75417 Mühlacker
+DESCRIPTION:Tickets: https://volkshochschule-muehlacker.reservix.de/tickets
+ -vokalhelden--die-musik-mixed-show-in-muehlacker-uhlandbau-am-24-4-2027/e2
+ 521044\nQuelle (bitte vor dem Besuch prüfen): https://www.muehlacker-kult
+ ur.de/kultur/kulturprogramm/theaterspielzeit.php
+URL:https://www.muehlacker-kultur.de/kultur/kulturprogramm/theaterspielzeit
+ .php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

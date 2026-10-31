@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Bielefeld · my Event Hub (Erinnerung 3 Tage 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bi-namu-20261004-magie-des-lichts-experimente-und-optische-illusion-end
+ e@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Magie des Lichts. Experimente und optische Illusionen
+LOCATION:Naturkunde-Museum Bielefeld (namu)\, Kreuzstraße 20\, 33602 Biele
+ feld
+DESCRIPTION:Interaktive Mitmach-Ausstellung zu Licht und optischen Täuschu
+ ngen.\nLaufzeit: 4.10.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch pr
+ üfen): https://namu-ev.de/
+URL:https://namu-ev.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kunsthalle-20261017-geteilte-ansichten-kunsthalle-bielefeld-x-sammlu
+ ng-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Beginn: Geteilte Ansichten. Kunsthalle Bielefeld x Sammlung KiCo 
+ – Teil II: Willst du mit mir gehen?
+LOCATION:Kunsthalle Bielefeld\, Artur-Ladebeck-Straße 5\, 33602 Bielefeld
+DESCRIPTION:Zweiter Teil der Ausstellungsreihe mit Werken der Sammlung KiCo
+ \; Eröffnung am 16.10.2026 ab 19 Uhr.\nLaufzeit: 17.10.2026 bis 21.2.2027
+ \nQuelle (bitte vor dem Besuch prüfen): https://kunsthalle-bielefeld.de/
+URL:https://kunsthalle-bielefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-kunsthalle-20261017-geteilte-ansichten-kunsthalle-bielefeld-x-sammlu
+ ng-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Letzter Tag: Geteilte Ansichten. Kunsthalle Bielefeld x Sammlung Ki
+ Co – Teil II: Willst du mit mir gehen?
+LOCATION:Kunsthalle Bielefeld\, Artur-Ladebeck-Straße 5\, 33602 Bielefeld
+DESCRIPTION:Zweiter Teil der Ausstellungsreihe mit Werken der Sammlung KiCo
+ \; Eröffnung am 16.10.2026 ab 19 Uhr.\nLaufzeit: 17.10.2026 bis 21.2.2027
+ \nQuelle (bitte vor dem Besuch prüfen): https://kunsthalle-bielefeld.de/
+URL:https://kunsthalle-bielefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

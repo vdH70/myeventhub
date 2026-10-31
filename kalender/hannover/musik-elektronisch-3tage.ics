@@ -1,0 +1,213 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elektronisch in Hannover · my Event Hub (Erinnerung 3 Tage vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-musikzentrum-20261112-aesthetic-perfection-und-gaeste@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:AESTHETIC PERFECTION und Gäste
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Tickets: https://musikzentrum-hannover.de/veranstaltung/aesthet
+ ic-perfection-und-gaeste/\nQuelle (bitte vor dem Besuch prüfen): https://
+ musikzentrum-hannover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261114-alienare-das-fantreffen@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T170000
+DTEND;TZID=Europe/Berlin:20261114T190000
+SUMMARY:Alienare – Das Fantreffen
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:17:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 30\,00 €\nTickets: https://www.de
+ inetickets.de/shop/skh/de/start/?g=7267\nQuelle (bitte vor dem Besuch prü
+ fen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261120-fix8-sed8-nerogris-u-jihad@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Fix8:Sed8 & Nerogris u. Jihad
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 32\,00 €\nTickets: https://www.de
+ inetickets.de/shop/skh/de/start/?g=6490\nQuelle (bitte vor dem Besuch prü
+ fen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261121-frozen-plasma-mental-exile@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T201500
+DTEND;TZID=Europe/Berlin:20261121T221500
+SUMMARY:Frozen Plasma & Mental Exile
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:20:15 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 35\,50 €\nTickets: https://www.de
+ inetickets.de/shop/skh/de/start/?g=7348\nQuelle (bitte vor dem Besuch prü
+ fen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261130-david-puentez@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:David Puentez
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261213-project-pitchfork@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Project Pitchfork
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261218-chrom-the-weekender-part-2-freitag@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T201500
+DTEND;TZID=Europe/Berlin:20261218T221500
+SUMMARY:Chrom – The Weekender Part 2 (Freitag) (ausverkauft)
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:20:15 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nPreis: 34\,50 €\nTickets: h
+ ttps://www.deinetickets.de/shop/skh/de/start/?g=6451\nQuelle (bitte vor de
+ m Besuch prüfen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261219-chrom-the-weekender-part-2-samstag@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T201500
+DTEND;TZID=Europe/Berlin:20261219T221500
+SUMMARY:Chrom – The Weekender Part 2 (Samstag) (ausverkauft)
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:Zweiter Abend\; Wochenendticket für Freitag und Samstag im Sho
+ p der SubKultur.\n20:15 Uhr (die Quelle sagt nicht\, ob Einlass oder Begin
+ n)\nEnde: laut Quelle nicht angegeben\nAusverkauft\nPreis: 34\,50 €\nTic
+ kets: https://www.deinetickets.de/shop/skh/de/start/?g=6454\nQuelle (bitte
+  vor dem Besuch prüfen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20270212-hgich-t-live-acid-aftershow@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:HGich.T Live + Acid Aftershow
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20270323-and-one@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:And One
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

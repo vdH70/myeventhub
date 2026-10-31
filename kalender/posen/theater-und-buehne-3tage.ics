@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Posen · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:poz-teatr-wielki-20261105-faust@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART:20261105T180000
+DTEND:20261105T200000
+SUMMARY:Faust
+LOCATION:Teatr Wielki im. Stanisława Moniuszki\, Posen
+DESCRIPTION:Oper von Charles Gounod.\nTermine laut Veranstalter: 5.–8.11.
+ \, jeweils 18:00\nQuelle (bitte vor dem Besuch prüfen): https://opera.poz
+ nan.pl/repertuar
+URL:https://opera.poznan.pl/repertuar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:poz-teatr-wielki-20261118-czarodziejski-flet@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART:20261118T190000
+DTEND:20261118T210000
+SUMMARY:Czarodziejski flet
+LOCATION:Teatr Wielki im. Stanisława Moniuszki\, Posen
+DESCRIPTION:Oper von Wolfgang Amadeus Mozart.\nTermine laut Veranstalter: 1
+ 8.\, 19.\, 21.11. 19:00\; 22.11. 18:00\nQuelle (bitte vor dem Besuch prüf
+ en): https://opera.poznan.pl/repertuar
+URL:https://opera.poznan.pl/repertuar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:poz-teatr-wielki-20261120-sztuka-wojny-art-of-war@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART:20261120T190000
+DTEND:20261120T210000
+SUMMARY:Sztuka wojny / Art of War
+LOCATION:Teatr Wielki im. Stanisława Moniuszki\, Posen
+DESCRIPTION:Im Saal Drabowicz.\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://opera.poznan.pl/repertuar
+URL:https://opera.poznan.pl/repertuar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:poz-teatr-wielki-20261127-cyrulik-sewilski@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART:20261127T190000
+DTEND:20261127T210000
+SUMMARY:Cyrulik sewilski
+LOCATION:Teatr Wielki im. Stanisława Moniuszki\, Posen
+DESCRIPTION:Oper von Gioachino Rossini.\nTermine laut Veranstalter: 27.11. 
+ 19:00\, 29.11. 18:00\nQuelle (bitte vor dem Besuch prüfen): https://opera
+ .poznan.pl/repertuar
+URL:https://opera.poznan.pl/repertuar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

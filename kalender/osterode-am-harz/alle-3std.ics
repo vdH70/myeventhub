@@ -1,0 +1,661 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Osterode am Harz · my Event Hub (Erinnerung 3
+  Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:oha-museum-im-ritterhaus-20261025-hexenwahn-glaube-macht-angst-beginn@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Beginn: Hexenwahn. Glaube. Macht. Angst
+LOCATION:Museum im Ritterhaus\, Rollberg 32\, 37520 Osterode am Harz
+DESCRIPTION:Laufzeit: 25.10.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.osterode.de/portal/seiten/museum-sonderausstellung
+ en-912000653-21351.html
+URL:https://www.osterode.de/portal/seiten/museum-sonderausstellungen-912000
+ 653-21351.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-museum-im-ritterhaus-20261025-hexenwahn-glaube-macht-angst-ende@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Hexenwahn. Glaube. Macht. Angst
+LOCATION:Museum im Ritterhaus\, Rollberg 32\, 37520 Osterode am Harz
+DESCRIPTION:Laufzeit: 25.10.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.osterode.de/portal/seiten/museum-sonderausstellung
+ en-912000653-21351.html
+URL:https://www.osterode.de/portal/seiten/museum-sonderausstellungen-912000
+ 653-21351.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadtbibliothek-20261105-erzaehlcafe-lebensgeschichten-weitergeben@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:Erzählcafé – Lebensgeschichten weitergeben
+LOCATION:Stadtbibliothek Osterode am Harz\, Scheffelstr. 14\, 37520 Osterod
+ e am Harz
+DESCRIPTION:Gesprächsabend in der Stadtbibliothek mit einem Osteroder Musi
+ ker.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.osterode.de/regional/veranstaltungen/erzaehlcafe-lebensg
+ eschichten-weitergeben-912014247-21351.html
+URL:https://www.osterode.de/regional/veranstaltungen/erzaehlcafe-lebensgesc
+ hichten-weitergeben-912014247-21351.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261107-der-sohn-drama-von-florian-zeller@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Der Sohn – Drama von Florian Zeller
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261108-steffen-moeller-praesident-von-polschl
+ and@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Steffen Möller – Präsident von Polschland
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadtbibliothek-20261112-bilderbuchkino-froehliche-winternacht@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T153000
+DTEND;TZID=Europe/Berlin:20261112T173000
+SUMMARY:Bilderbuchkino „Fröhliche Winternacht“
+LOCATION:Stadtbibliothek Osterode am Harz\, Scheffelstr. 14\, 37520 Osterod
+ e am Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode.de/regional/veranstaltungen/bilderbuchkino
+ -froehliche-winternacht-912014189-21351.html
+URL:https://www.osterode.de/regional/veranstaltungen/bilderbuchkino-froehli
+ che-winternacht-912014189-21351.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261124-filmpremiere-projekt-6-500-kilometer-f
+ uer-den-gute@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T180000
+DTEND;TZID=Europe/Berlin:20261124T200000
+SUMMARY:Filmpremiere: Projekt 6.500 Kilometer – Für den guten Zweck
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261127-musical-night-in-concert@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Musical Night in Concert
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261128-hallentroedel@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T100000
+DTEND;TZID=Europe/Berlin:20261128T120000
+SUMMARY:Hallentrödel
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261202-in-80-tagen-um-die-welt@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:In 80 Tagen um die Welt
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261205-christoph-maria-herbst-moritz-netenjak
+ ob-das-ernst@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Christoph Maria Herbst & Moritz Netenjakob – Das ernsthafte Bemü
+ hen um Albernheit
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261208-pettersson-kriegt-weihnachtsbesuch@mye
+ venthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T160000
+DTEND;TZID=Europe/Berlin:20261208T180000
+SUMMARY:Pettersson kriegt Weihnachtsbesuch
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20261213-der-polarexpress-goettinger-symphonieo
+ rchester@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Der Polarexpress – Göttinger Symphonieorchester
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270106-neujahrskonzert-goettinger-symphonieor
+ chester@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T200000
+DTEND;TZID=Europe/Berlin:20270106T220000
+SUMMARY:Neujahrskonzert – Göttinger Symphonieorchester
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270121-die-therapie-psychothriller-nach-sebas
+ tian-fitzek@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T200000
+DTEND;TZID=Europe/Berlin:20270121T220000
+SUMMARY:Die Therapie – Psychothriller nach Sebastian Fitzek
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270124-rhythm-of-the-dance-live-2027@myeventh
+ ub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T180000
+DTEND;TZID=Europe/Berlin:20270124T200000
+SUMMARY:Rhythm of the Dance – Live 2027
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270128-schlager-spass-mit-andy-borg@myeventhu
+ b.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T160000
+DTEND;TZID=Europe/Berlin:20270128T180000
+SUMMARY:Schlager & Spaß mit Andy Borg
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270204-hakuna-matata-das-musical-fuer-die-gan
+ ze-familie@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T163000
+DTEND;TZID=Europe/Berlin:20270204T183000
+SUMMARY:Hakuna Matata – Das Musical für die ganze Familie
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270210-das-phantom-der-oper-originalproduktio
+ n-sasson-sau@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270210T200000
+DTEND;TZID=Europe/Berlin:20270210T220000
+SUMMARY:Das Phantom der Oper – Originalproduktion Sasson/Sautter
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270213-kokubu-the-drums-of-japan-infinity-tou
+ r-2027@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:KOKUBU – The Drums of Japan: Infinity-Tour 2027
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270219-klaus-lage-bo-heart-zu-zweit-live@myev
+ enthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Klaus Lage & Bo Heart – Zu zweit. Live.
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270226-eingeschlossene-gesellschaft-komoedie-
+ von-jan-weil@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:Eingeschlossene Gesellschaft – Komödie von Jan Weiler
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270228-bridgerton-musik-bei-kerzenschein@myev
+ enthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T190000
+DTEND;TZID=Europe/Berlin:20270228T210000
+SUMMARY:Bridgerton Musik bei Kerzenschein
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270305-viva-la-vida-a-tribute-to-coldplay@mye
+ venthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:Viva La Vida – A Tribute to Coldplay
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270306-die-feisten-moskito@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T200000
+DTEND;TZID=Europe/Berlin:20270306T220000
+SUMMARY:die feisten – Moskito
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270316-dschinghis-khan-what-a-wonderful-world
+ @myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270316T200000
+DTEND;TZID=Europe/Berlin:20270316T220000
+SUMMARY:Dschinghis Khan – What a Wonderful World
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270320-lisa-eckhart-ich-war-mal-wer@myeventhu
+ b.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T200000
+DTEND;TZID=Europe/Berlin:20270320T220000
+SUMMARY:Lisa Eckhart – Ich war mal wer
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270402-marilyn-biographisches-musik-theater@m
+ yeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270402T200000
+DTEND;TZID=Europe/Berlin:20270402T220000
+SUMMARY:MARILYN – Biographisches Musik-Theater
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270408-1-osteroder-lachnacht@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270408T200000
+DTEND;TZID=Europe/Berlin:20270408T220000
+SUMMARY:1. Osteroder Lachnacht
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270410-schwanensee-jenseits-der-buehne@myeven
+ thub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T200000
+DTEND;TZID=Europe/Berlin:20270410T220000
+SUMMARY:Schwanensee – Jenseits der Bühne
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270411-an-evening-with-james-bond-goettinger-
+ symphonieorc@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270411T180000
+DTEND;TZID=Europe/Berlin:20270411T200000
+SUMMARY:An Evening with James Bond – Göttinger Symphonieorchester
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270416-super-abba-a-tribute-to-abba@myeventhu
+ b.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T200000
+DTEND;TZID=Europe/Berlin:20270416T220000
+SUMMARY:SUPER ABBA – A Tribute to ABBA
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oha-stadthalle-osterode-20270417-tabaluga-und-lilli-das-musical-fuer-di
+ e-ganze-fami@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T170000
+DTEND;TZID=Europe/Berlin:20270417T190000
+SUMMARY:Tabaluga und Lilli – Das Musical für die ganze Familie
+LOCATION:Stadthalle Osterode am Harz\, Dörgestraße 28\, 37520 Osterode am
+  Harz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.osterode-stadthalle.de/
+URL:https://www.osterode-stadthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

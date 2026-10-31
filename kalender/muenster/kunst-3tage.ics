@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Münster · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ms-lwl-museum-kunst-kultur-20260328-reiselustig-unterwegs-mit-dem-hasen
+ -felix-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Letzter Tag: Reiselustig. Unterwegs mit dem Hasen Felix
+LOCATION:LWL-Museum für Kunst und Kultur\, Domplatz 10\, 48143 Münster
+DESCRIPTION:Familienausstellung zum Bilderbuchhasen Felix.\nLaufzeit: 28.3.
+ 2026 bis 3.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.lwl-
+ museum-kunst-kultur.de/de/ausstellungen/reiselustig-unterwegs-mit-dem-hase
+ n-felix/
+URL:https://www.lwl-museum-kunst-kultur.de/de/ausstellungen/reiselustig-unt
+ erwegs-mit-dem-hasen-felix/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ms-lwl-museum-kunst-kultur-20270123-museum-of-broken-relationships-begi
+ nn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Beginn: Museum of Broken Relationships
+LOCATION:LWL-Museum für Kunst und Kultur\, Domplatz 10\, 48143 Münster
+DESCRIPTION:Ausstellung mit Erinnerungsstücken an beendete Beziehungen.\nL
+ aufzeit: 23.1.2027 bis 11.4.2027\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.lwl-museum-kunst-kultur.de/de/ausstellungen/museum-of-broken-re
+ lationships/
+URL:https://www.lwl-museum-kunst-kultur.de/de/ausstellungen/museum-of-broke
+ n-relationships/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ms-lwl-museum-kunst-kultur-20270123-museum-of-broken-relationships-ende
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Letzter Tag: Museum of Broken Relationships
+LOCATION:LWL-Museum für Kunst und Kultur\, Domplatz 10\, 48143 Münster
+DESCRIPTION:Ausstellung mit Erinnerungsstücken an beendete Beziehungen.\nL
+ aufzeit: 23.1.2027 bis 11.4.2027\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.lwl-museum-kunst-kultur.de/de/ausstellungen/museum-of-broken-re
+ lationships/
+URL:https://www.lwl-museum-kunst-kultur.de/de/ausstellungen/museum-of-broke
+ n-relationships/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Neumünster · my Event Hub (Erinnerung 3 Stunden vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:nms-gerisch-stiftung-20260510-25-jahre-herbert-gerisch-stiftung-ende@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: 25 Jahre Herbert Gerisch-Stiftung
+LOCATION:Herbert Gerisch-Stiftung (Skulpturenpark und Villa Wachholtz)\, Ha
+ uptstraße 1\, 24536 Neumünster
+DESCRIPTION:Jubiläumsausstellung zum 25-jährigen Bestehen der Stiftung.\n
+ Laufzeit: 10.5.2026 bis 13.12.2026\nPreis: Eintritt im Jubiläumsjahr frei
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.gerisch-stiftung.de/
+URL:https://www.gerisch-stiftung.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nms-gerisch-stiftung-20260906-kunst-im-koffer-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Kunst im Koffer
+LOCATION:Herbert Gerisch-Stiftung (Skulpturenpark und Villa Wachholtz)\, Ha
+ uptstraße 1\, 24536 Neumünster
+DESCRIPTION:Laufzeit: 6.9.2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gerisch-stiftung.de/
+URL:https://www.gerisch-stiftung.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

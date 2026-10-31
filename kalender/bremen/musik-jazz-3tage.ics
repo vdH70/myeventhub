@@ -1,0 +1,1068 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Bremen · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261031-thabile-read-my-lips@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:THABILÉ "Read my Lips"
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/455\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261101-wolfgang-lackerschmid-quartet@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:WOLFGANG LACKERSCHMID QUARTET
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/456\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20261103-hfk-jazzclub-jihye-kim-trio@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:HfK Jazzclub: Jihye Kim Trio
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Modernes Jazztrio um die Pianistin Jihye Kim.\nEnde: laut Quell
+ e nicht angegeben\nPreis: 5 €\, HfK-Studierende 2 €\; Abendkasse ab 19
+  Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.hfk-bremen.de/de/
+ veranstaltungen/hfk-jazzclub/17935
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17935
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kulturwerkstatt-westend-20261105-lisa-wulff-marie-seferian@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Lisa Wulff & Marie Séférian // in der Reihe "new&used"
+LOCATION:Kulturwerkstatt westend\, Waller Heerstraße 294\, 28219 Bremen
+DESCRIPTION:Duo aus Bass und Gesang mit Eigenkompositionen\, neu interpreti
+ erten Jazzstandards und lyrischen Miniaturen.\n20:00 Uhr (die Quelle sagt 
+ nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nPreis:
+  15 €\, erm. 10 €\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kultur-bremen.de/content/lisa-wulff-marie-s%C3%A9f%C3%A9rian-der-reihe-new
+ used
+URL:https://www.kultur-bremen.de/content/lisa-wulff-marie-s%C3%A9f%C3%A9ria
+ n-der-reihe-newused
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261106-marialy-pacheco-maite-hontele@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:MARIALY PACHECO & MAITE HONTELÉ
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/457\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kunz-20261107-big-band-walle@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Big Band Walle – "straight ahead - … und kein Ende in Sicht"
+LOCATION:KUNZ – Kulturzentrum Buntentor\, Sedanstraße 12-14\, 28201 Brem
+ en
+DESCRIPTION:19-köpfige Bigband mit Swing\, Latin\, Funk und Soul.\n19:00 U
+ hr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Eintritt frei (Hut)\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.kunz-buntentor.de/event.php
+URL:https://www.kunz-buntentor.de/event.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261107-pablo-held-trio-20-jahre-pablo-held-trio@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:PABLO HELD TRIO "20 Jahre Pablo Held Trio"
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/415\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:waldbuehne-buergerpark-20261110-hot-chicago-room@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T193000
+DTEND;TZID=Europe/Berlin:20261110T213000
+SUMMARY:11/26 – Hot Chicago Room aus Hamburg
+LOCATION:Waldbühne im Bürgerpark\, Parkallee 268\, 28209 Bremen
+DESCRIPTION:Traditional Jazz aus Hamburg.\nEnde: laut Quelle nicht angegebe
+ n\nPreis: 8 €\nQuelle (bitte vor dem Besuch prüfen): https://hotjazz-br
+ emen.de/event/11-26-hot-chicago-room-aus-hamburg/
+URL:https://hotjazz-bremen.de/event/11-26-hot-chicago-room-aus-hamburg/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20261110-hfk-jazzclub@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:HfK Jazzclub
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Konzert bzw. Session im HfK Jazzclub\; Programm nicht genannt.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studierende 2 €\;
+  Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17936
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17936
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20261111-betty-s-jazz-night@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Betty's Jazz Night
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Monatliche Jazz Night\; Details laut Veranstalter folgen.\n20:0
+ 0 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bettys
+ blackpearl.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kulturwerkstatt-westend-20261111-melt-trio@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Melt Trio // in der Reihe "JazzWest"
+LOCATION:Kulturwerkstatt westend\, Waller Heerstraße 294\, 28219 Bremen
+DESCRIPTION:Gitarrentrio des zeitgenössischen Jazz\; Album "CONSUMER" erhi
+ elt den Deutschen Jazzpreis.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlas
+ s oder Beginn)\nEnde: laut Quelle nicht angegeben\nPreis: 15 €\, erm. 10
+  € (nur Barzahlung)\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kultur-bremen.de/content/melt-trio-der-reihe-jazzwest
+URL:https://www.kultur-bremen.de/content/melt-trio-der-reihe-jazzwest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schwankhalle-20261113-swing-man-tau-ein-swing-abend@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T190000
+DTEND;TZID=Europe/Berlin:20261113T210000
+SUMMARY:Swing Man Tau! Ein Swing-Abend
+LOCATION:Schwankhalle\, Buntentorsteinweg 112/116\, 28201 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://schwankhalle.de/de/programm/kalender
+URL:https://schwankhalle.de/de/programm/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:altes-pumpwerk-20261113-kujazzo-und-4tel9@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:KUJAZZO und 4tel9: »Von Dixieland über Bebop bis Modern Jazz !«
+LOCATION:Altes Pumpwerk\, Salzburger Straße 12\, 28219 Bremen
+DESCRIPTION:Zwei Amateurbands aus der Neustadt: traditioneller Jazz im Bigb
+ and-Stil und Modern Jazz der 50er.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde
+ : laut Quelle nicht angegeben\nPreis: 16\,00 €\, erm. 12\,00 €\nTicket
+ s: https://altespumpwerk.de/veranstaltungen/kujazzo-und-4tel9-von-dixielan
+ d-ueber-bebop-bis-modern-jazz/\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://altespumpwerk.de/veranstaltungen/kujazzo-und-4tel9-von-dixieland-uebe
+ r-bebop-bis-modern-jazz/
+URL:https://altespumpwerk.de/veranstaltungen/kujazzo-und-4tel9-von-dixielan
+ d-ueber-bebop-bis-modern-jazz/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-uni-theatersaal-20261117-entspannter-jazz-mit-swinging-four@myeventh
+ ub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T123000
+DTEND;TZID=Europe/Berlin:20261117T143000
+SUMMARY:Entspannter Jazz mit „Swinging Four“
+LOCATION:Theatersaal der Universität Bremen\, Bibliothekstraße 1\, 28359 
+ Bremen
+DESCRIPTION:Kostenloses Mittagskonzert der Uni Bremen\, ca. 25 Minuten.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.uni-bremen.de/konzerte/semesteruebersicht/
+ wintersemester-2026-27/dienstag-17-november-2026-1230-uhr-theatersaal-eint
+ ritt-freientspannter-jazz-aus-bremen-mit-swinging-four
+URL:https://www.uni-bremen.de/konzerte/semesteruebersicht/wintersemester-20
+ 26-27/dienstag-17-november-2026-1230-uhr-theatersaal-eintritt-freientspann
+ ter-jazz-aus-bremen-mit-swinging-four
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261123-kathrin-pechlof-trio@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T193000
+DTEND;TZID=Europe/Berlin:20261123T213000
+SUMMARY:KATHRIN PECHLOF TRIO
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/490\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20261124-hfk-jazzclub-jonas-schoen-quartet@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:HfK Jazzclub: Jonas Schön Quartet
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studieren
+ de 2 €\; Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17938
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17938
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261127-shai-maestro-quartet-the-guesthouse@myeventhu
+ b.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:SHAI MAESTRO QUARTET "The Guesthouse"
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/471\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20261128-rebekka-bakken-winter-nights@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Rebekka Bakken »Winter Nights«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.glocke.de/all-events/page/5/
+URL:https://www.glocke.de/all-events/page/5/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kunz-20261204-kujazzo@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T190000
+DTEND;TZID=Europe/Berlin:20261204T210000
+SUMMARY:KUJAZZO – "Swing und Blues Party"
+LOCATION:KUNZ – Kulturzentrum Buntentor\, Sedanstraße 12-14\, 28201 Brem
+ en
+DESCRIPTION:Jazzorchester mit Swing und Blues zum Zuhören und Tanzen.\n19:
+ 00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle
+  nicht angegeben\nPreis: Eintritt frei (Hut)\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunz-buntentor.de/event.php
+URL:https://www.kunz-buntentor.de/event.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pusta-stube-20261204-jazz-zum-zweiten-advent@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T190000
+DTEND;TZID=Europe/Berlin:20261204T210000
+SUMMARY:Jazz zum zweiten Advent
+LOCATION:Pusta-Stube\, Oberblockland 5\, 28357 Bremen
+DESCRIPTION:Weihnachtlicher Jazzabend mit Weihnachtsklassikern und Standard
+ s aus dem Great American Songbook.\n19:00 Uhr (die Quelle sagt nicht\, ob 
+ Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nPreis: Spende\, c
+ a. 10 € oder mehr erbeten\nQuelle (bitte vor dem Besuch prüfen): http:/
+ /www.pusta-stube.de/veranstaltungen/dezember-2026/
+URL:http://www.pusta-stube.de/veranstaltungen/dezember-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theater-bremen-kleines-haus-20261204-club-don-glori@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T210000
+DTEND;TZID=Europe/Berlin:20261204T230000
+SUMMARY:CLUB: Don Glori
+LOCATION:Theater Bremen – Kleines Haus\, Goetheplatz 1-3\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterbremen.de/de_DE/programm/club-don-glori.1403750
+URL:https://theaterbremen.de/de_DE/programm/club-don-glori.1403750
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261205-triosence-i@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:TRIOSENCE I
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/473\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261206-triosence-ii@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+DTEND;TZID=Europe/Berlin:20261206T200000
+SUMMARY:TRIOSENCE II
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/474\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20261208-hfk-jazzclub@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T200000
+DTEND;TZID=Europe/Berlin:20261208T220000
+SUMMARY:HfK Jazzclub
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Konzert bzw. Session im HfK Jazzclub\; Programm nicht genannt.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studierende 2 €\;
+  Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17940
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17940
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20261209-betty-s-jazz-night@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Betty's Jazz Night
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Monatliche Jazz Night\; Details laut Veranstalter folgen.\n20:0
+ 0 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bettys
+ blackpearl.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kulturwerkstatt-westend-20261209-jan-olaf-rodt-michael-bohn@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Jan-Olaf Rodt & Michael Bohn // in der Reihe "JazzWest"
+LOCATION:Kulturwerkstatt westend\, Waller Heerstraße 294\, 28219 Bremen
+DESCRIPTION:Duo aus Gitarre und Kontrabass\, lyrischer moderner Jazz mit Ei
+ genkompositionen.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Begi
+ nn)\nEnde: laut Quelle nicht angegeben\nPreis: 15 €\, erm. 10 € (nur B
+ arzahlung)\nQuelle (bitte vor dem Besuch prüfen): https://www.kultur-brem
+ en.de/content/jan-olaf-rodt-michael-bohn-der-reihe-jazzwest
+URL:https://www.kultur-bremen.de/content/jan-olaf-rodt-michael-bohn-der-rei
+ he-jazzwest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261211-lisa-bassenge-trio@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T193000
+DTEND;TZID=Europe/Berlin:20261211T213000
+SUMMARY:LISA BASSENGE TRIO
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/462\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20261215-hfk-jazzclub@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T200000
+DTEND;TZID=Europe/Berlin:20261215T220000
+SUMMARY:HfK Jazzclub
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Konzert bzw. Session im HfK Jazzclub\; Programm nicht genannt.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studierende 2 €\;
+  Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17941
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17941
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20261216-jazzrausch-bigband-am-weihnachtsabend-album-releas@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T193000
+DTEND;TZID=Europe/Berlin:20261216T213000
+SUMMARY:Jazzrausch Bigband »Am Weihnachtsabend« Album-Releasetour
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.glocke.de/all-events/page/6/
+URL:https://www.glocke.de/all-events/page/6/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261218-fola-dada-joo-kraus-martin-meixner-christmas-
+ seren@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T193000
+DTEND;TZID=Europe/Berlin:20261218T213000
+SUMMARY:FOLA DADA – JOO KRAUS – MARTIN MEIXNER "Christmas Serenade"
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/465\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20261222-hfk-jazzclub@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T200000
+DTEND;TZID=Europe/Berlin:20261222T220000
+SUMMARY:HfK Jazzclub
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Konzert bzw. Session im HfK Jazzclub\; Programm nicht genannt.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studierende 2 €\;
+  Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17942
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17942
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20270112-hfk-jazzclub@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T200000
+DTEND;TZID=Europe/Berlin:20270112T220000
+SUMMARY:HfK Jazzclub
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Wöchentlicher Jazzclub der Hochschule (Konzerte/Sessions mit S
+ tudierenden sowie lokalen und nationalen Musiker:innen)\; kein Einzelprogr
+ amm genannt.\nEnde: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studie
+ rende 2 €\; Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17943
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17943
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20270113-betty-s-jazz-night@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T200000
+DTEND;TZID=Europe/Berlin:20270113T220000
+SUMMARY:Betty's Jazz Night
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Monatliche Jazz-Nacht\, keine Künstler genannt.\n20:00 Uhr (di
+ e Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bettysblackpear
+ l.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20270119-hfk-jazzclub@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T200000
+DTEND;TZID=Europe/Berlin:20270119T220000
+SUMMARY:HfK Jazzclub
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Wöchentlicher Jazzclub der Hochschule (Konzerte/Sessions mit S
+ tudierenden sowie lokalen und nationalen Musiker:innen)\; kein Einzelprogr
+ amm genannt.\nEnde: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studie
+ rende 2 €\; Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17944
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17944
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20270126-hfk-jazzclub@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T200000
+DTEND;TZID=Europe/Berlin:20270126T220000
+SUMMARY:HfK Jazzclub
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Wöchentlicher Jazzclub der Hochschule (Konzerte/Sessions mit S
+ tudierenden sowie lokalen und nationalen Musiker:innen)\; kein Einzelprogr
+ amm genannt.\nEnde: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studie
+ rende 2 €\; Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17945
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17945
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20270202-hfk-jazzclub-abschlussabend-1@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270202T200000
+DTEND;TZID=Europe/Berlin:20270202T220000
+SUMMARY:HfK Jazzclub: Abschlussabend 1
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Wöchentlicher Jazzclub der Hochschule (Konzerte/Sessions mit S
+ tudierenden sowie lokalen und nationalen Musiker:innen)\; kein Einzelprogr
+ amm genannt.\nEnde: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studie
+ rende 2 €\; Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17946
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17946
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-theaterschiff-20270205-frank-sinatra-seine-schonsten-songs-seine-bes
+ ten-geschi@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T193000
+DTEND;TZID=Europe/Berlin:20270205T213000
+SUMMARY:Frank Sinatra – Seine schönsten Songs\, seine besten Geschichten
+LOCATION:Theaterschiff Bremen\, Tiefer 104 / Anleger 4\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterschiff-bremen.de/sinatra
+URL:https://theaterschiff-bremen.de/sinatra
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hfk-jazzclub-20270209-hfk-jazzclub-abschlussabend-2@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270209T200000
+DTEND;TZID=Europe/Berlin:20270209T220000
+SUMMARY:HfK Jazzclub: Abschlussabend 2
+LOCATION:HfK Jazzclub (Hochschule für Künste\, Musikkeller/Mensa 13)\, De
+ chanatstraße 13-15\, 28195 Bremen
+DESCRIPTION:Wöchentlicher Jazzclub der Hochschule (Konzerte/Sessions mit S
+ tudierenden sowie lokalen und nationalen Musiker:innen)\; kein Einzelprogr
+ amm genannt.\nEnde: laut Quelle nicht angegeben\nPreis: 5 €\, HfK-Studie
+ rende 2 €\; Abendkasse ab 19 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17947
+URL:https://www.hfk-bremen.de/de/veranstaltungen/hfk-jazzclub/17947
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20270210-betty-s-jazz-night@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270210T200000
+DTEND;TZID=Europe/Berlin:20270210T220000
+SUMMARY:Betty's Jazz Night
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Monatliche Jazz-Nacht\, keine Künstler genannt.\n20:00 Uhr (di
+ e Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bettysblackpear
+ l.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-theaterschiff-20270212-frank-sinatra-seine-schonsten-songs-seine-bes
+ ten-geschi@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T193000
+DTEND;TZID=Europe/Berlin:20270212T213000
+SUMMARY:Frank Sinatra – Seine schönsten Songs\, seine besten Geschichten
+LOCATION:Theaterschiff Bremen\, Tiefer 104 / Anleger 4\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterschiff-bremen.de/sinatra
+URL:https://theaterschiff-bremen.de/sinatra
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-theaterschiff-20270213-frank-sinatra-seine-schonsten-songs-seine-bes
+ ten-geschi@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T193000
+DTEND;TZID=Europe/Berlin:20270213T213000
+SUMMARY:Frank Sinatra – Seine schönsten Songs\, seine besten Geschichten
+LOCATION:Theaterschiff Bremen\, Tiefer 104 / Anleger 4\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterschiff-bremen.de/sinatra
+URL:https://theaterschiff-bremen.de/sinatra
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-theaterschiff-20270214-frank-sinatra-seine-schonsten-songs-seine-bes
+ ten-geschi@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T153000
+DTEND;TZID=Europe/Berlin:20270214T173000
+SUMMARY:Frank Sinatra – Seine schönsten Songs\, seine besten Geschichten
+LOCATION:Theaterschiff Bremen\, Tiefer 104 / Anleger 4\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterschiff-bremen.de/sinatra
+URL:https://theaterschiff-bremen.de/sinatra
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20270219-jazzrausch-bigband-euphoria@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Jazzrausch Bigband – Euphoria
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Programm „Euphoria“\; Termin nur auf der Band-Website beleg
+ t.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ja
+ zzrauschbigband.de/events
+URL:https://jazzrauschbigband.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270304-the-world-famous-glenn-miller-orchestra-directed-b@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T200000
+DTEND;TZID=Europe/Berlin:20270304T220000
+SUMMARY:The world famous Glenn Miller Orchestra directed by Uli Plettendorf
+  »Swing Forever«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20270305-sound-complete-feat-alison-degbe@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:Sound & Complete feat. Alison Degbe
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Jazz.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Begin
+ n)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.bettysblackpearl.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20270310-betty-s-jazz-night@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270310T200000
+DTEND;TZID=Europe/Berlin:20270310T220000
+SUMMARY:Betty's Jazz Night
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Monatliche Jazz-Nacht\, keine Künstler genannt.\n20:00 Uhr (di
+ e Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bettysblackpear
+ l.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270310-glocke-jazznights-stella-cole-tour-2027@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270310T200000
+DTEND;TZID=Europe/Berlin:20270310T220000
+SUMMARY:GLOCKE JAZZnights: Stella Cole »Tour 2027«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kunz-20270320-piet-gorecki-trio@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T190000
+DTEND;TZID=Europe/Berlin:20270320T210000
+SUMMARY:Piet Gorecki Trio – Funk\, Soul\, Fusion & Jazzrock
+LOCATION:KUNZ – Kulturzentrum Buntentor\, Sedanstraße 12-14\, 28201 Brem
+ en
+DESCRIPTION:Eigene Kompositionen im Stil von Fusion und Jazzrock der 1970er
+ /80er.\n19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: 
+ laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.kunz-buntentor.de/event.php
+URL:https://www.kunz-buntentor.de/event.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261219-leleka@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270327T193000
+DTEND;TZID=Europe/Berlin:20270327T213000
+SUMMARY:VERLEGT: LELÉKA
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Laut Sendesaal verlegt auf den 27.03.2027.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://sendesaal-b
+ remen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270406-glocke-jazznights-simon-oslender-steve-gadd-will-le
+ e-br@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270406T200000
+DTEND;TZID=Europe/Berlin:20270406T220000
+SUMMARY:GLOCKE JAZZnights: Simon Oslender\, Steve Gadd\, Will Lee\, Bruno M
+ üller »True Story Tour 2027«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20270528-stiehler-lucaciu@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270528T200000
+DTEND;TZID=Europe/Berlin:20270528T220000
+SUMMARY:Stiehler/Lucaciu
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturzentrum-lagerhaus.de/kultur/3603/stiehler-luc
+ aciu
+URL:https://www.kulturzentrum-lagerhaus.de/kultur/3603/stiehler-lucaciu
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270618-glocke-jazznights-tribute-to-esbjorn-svensson-trio@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270618T200000
+DTEND;TZID=Europe/Berlin:20270618T220000
+SUMMARY:GLOCKE JAZZnights: »Tribute to Esbjörn Svensson Trio«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/15/
+URL:https://www.glocke.de/all-events/page/15/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20271120-gotz-alsmann-band-kompliment@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271120T200000
+DTEND;TZID=Europe/Berlin:20271120T220000
+SUMMARY:Götz Alsmann & Band »Kompliment …«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/16/
+URL:https://www.glocke.de/all-events/page/16/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20271210-bigband-der-bundeswehr-swinging-christmas@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271210T200000
+DTEND;TZID=Europe/Berlin:20271210T220000
+SUMMARY:Bigband der Bundeswehr »Swinging Christmas«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/16/
+URL:https://www.glocke.de/all-events/page/16/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,531 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Paris · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:par-opera-bastille-20260912-le-barbier-de-seville-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Letzter Tag: Le Barbier de Séville
+LOCATION:Opéra Bastille\, Place de la Bastille\, 75012 Paris
+DESCRIPTION:Rossinis Opera buffa in der Inszenierung von Damiano Michielett
+ o.\nLaufzeit: 12.9.2026 bis 5.11.2026\nTermine laut Veranstalter: Aufführ
+ ungsserie\; einzelne Vorstellungstage siehe Quelle\nZeiten: Ortszeit Paris
+ \, wie Deutschland\nPreis: 55 € – 205 €\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.operadeparis.fr/saison-26-27/opera/le-barbier-de-s
+ eville
+URL:https://www.operadeparis.fr/saison-26-27/opera/le-barbier-de-seville
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261102-manon-lescaut-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Beginn: Manon Lescaut
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Puccinis Oper „Manon Lescaut“.\nLaufzeit: 2.11.2026 bis 15.
+ 11.2026\nTermine laut Veranstalter: Aufführungsserie\; einzelne Vorstellu
+ ngstage siehe Quelle\n19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder B
+ eginn)\nZeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem Be
+ such prüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261102-manon-lescaut-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Manon Lescaut
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Puccinis Oper „Manon Lescaut“.\nLaufzeit: 2.11.2026 bis 15.
+ 11.2026\nTermine laut Veranstalter: Aufführungsserie\; einzelne Vorstellu
+ ngstage siehe Quelle\n19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder B
+ eginn)\nZeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem Be
+ such prüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261103-david-khrikuli-wang-zitong@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Paris:20261103T200000
+DTEND;TZID=Europe/Paris:20261103T220000
+SUMMARY:David Khrikuli\, Wang Zitong
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Klavierabend mit Brahms\, Debussy\, Skrjabin und Chopin.\n20:00
+  Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Pa
+ ris\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261106-utopia-orchestra@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Paris:20261106T200000
+DTEND;TZID=Europe/Paris:20261106T220000
+SUMMARY:Utopia Orchestra
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Strawinsky-Programm unter Teodor Currentzis.\n20:00 Uhr (die Qu
+ elle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie De
+ utschland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261108-quatuor-leonkoro@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261108T110000
+DTEND;TZID=Europe/Paris:20261108T130000
+SUMMARY:Quatuor Leonkoro
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Streichquartett mit Haydn und Brahms.\n11:00 Uhr (die Quelle sa
+ gt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschla
+ nd\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261108-philippe-jaroussky@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261108T170000
+DTEND;TZID=Europe/Paris:20261108T190000
+SUMMARY:Philippe Jaroussky
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Countertenor Philippe Jaroussky: „Il mio Vivaldi“.\n17:00 U
+ hr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Pari
+ s\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261109-freddie-de-tommaso-mihai-damian@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261109T200000
+DTEND;TZID=Europe/Paris:20261109T220000
+SUMMARY:Freddie De Tommaso\, Mihai Damian
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Arien von Verdi\, Cilea und Giordano.\n20:00 Uhr (die Quelle sa
+ gt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschla
+ nd\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261110-agrippina@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261110T193000
+DTEND;TZID=Europe/Paris:20261110T213000
+SUMMARY:Agrippina
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Händels Oper „Agrippina“.\n19:30 Uhr (die Quelle sagt nich
+ t\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschland\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261111-nobuyuki-tsujii@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261111T200000
+DTEND;TZID=Europe/Paris:20261111T220000
+SUMMARY:Nobuyuki Tsujii
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Klavierabend mit Mozart\, Beethoven\, Grieg und Tschaikowsky.\n
+ 20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortsze
+ it Paris\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.theatrechampselysees.fr/saison-202
+ 6-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261113-dmitry-masleev@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261113T200000
+DTEND;TZID=Europe/Paris:20261113T220000
+SUMMARY:Dmitry Masleev
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Rachmaninow-Klavierabend.\n20:00 Uhr (die Quelle sagt nicht\, o
+ b Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschland\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-opera-bastille-20261113-le-crepuscule-des-dieux-ring-beginn@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Beginn: Le Crépuscule des dieux
+LOCATION:Opéra Bastille\, Place de la Bastille\, 75012 Paris
+DESCRIPTION:Wagners Götterdämmerung im Rahmen des Festival RING 2026.\nLa
+ ufzeit: 13.11.2026 bis 22.11.2026\nTermine laut Veranstalter: Aufführungs
+ serie\; einzelne Vorstellungstage siehe Quelle (Festival RING 2026)\nZeite
+ n: Ortszeit Paris\, wie Deutschland\nPreis: 187 € – 225 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.operadeparis.fr/saison-26-27/ope
+ ra/le-crepuscule-des-dieux-1
+URL:https://www.operadeparis.fr/saison-26-27/opera/le-crepuscule-des-dieux-
+ 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-opera-bastille-20261113-le-crepuscule-des-dieux-ring-ende@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Le Crépuscule des dieux
+LOCATION:Opéra Bastille\, Place de la Bastille\, 75012 Paris
+DESCRIPTION:Wagners Götterdämmerung im Rahmen des Festival RING 2026.\nLa
+ ufzeit: 13.11.2026 bis 22.11.2026\nTermine laut Veranstalter: Aufführungs
+ serie\; einzelne Vorstellungstage siehe Quelle (Festival RING 2026)\nZeite
+ n: Ortszeit Paris\, wie Deutschland\nPreis: 187 € – 225 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.operadeparis.fr/saison-26-27/ope
+ ra/le-crepuscule-des-dieux-1
+URL:https://www.operadeparis.fr/saison-26-27/opera/le-crepuscule-des-dieux-
+ 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261114-finale-du-concours-long-thibaud-140
+ 0@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261114T140000
+DTEND;TZID=Europe/Paris:20261114T160000
+SUMMARY:Finale du concours Long-Thibaud
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Finale des Violinwettbewerbs Long-Thibaud.\n14:00 Uhr (die Quel
+ le sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deut
+ schland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261114-finale-du-concours-long-thibaud-200
+ 0@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261114T200000
+DTEND;TZID=Europe/Paris:20261114T220000
+SUMMARY:Finale du concours Long-Thibaud
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Galaabend des Violinwettbewerbs Long-Thibaud.\n20:00 Uhr (die Q
+ uelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie D
+ eutschland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261115-sophia-liu@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261115T110000
+DTEND;TZID=Europe/Paris:20261115T130000
+SUMMARY:Sophia Liu
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Klaviermatinee mit Chopin\, Tschaikowsky und Balakirew.\n11:00 
+ Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Par
+ is\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261117-quatuor-de-jerusalem@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261117T200000
+DTEND;TZID=Europe/Paris:20261117T220000
+SUMMARY:Quatuor de Jérusalem
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Streichquartett mit Mozart\, Bartók und Ravel.\n20:00 Uhr (die
+  Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie
+  Deutschland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261119-la-rondine@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Paris:20261119T193000
+DTEND;TZID=Europe/Paris:20261119T213000
+SUMMARY:La Rondine
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Puccinis Oper „La Rondine“.\n19:30 Uhr (die Quelle sagt nic
+ ht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschland\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261204-benjamin-grosvenor@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Paris:20261204T200000
+DTEND;TZID=Europe/Paris:20261204T220000
+SUMMARY:Benjamin Grosvenor
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Klavierabend mit Mozart\, Beethoven\, Liszt und Chopin.\n20:00 
+ Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Par
+ is\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261206-le-messie@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Paris:20261206T170000
+DTEND;TZID=Europe/Paris:20261206T190000
+SUMMARY:Le Messie
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Händels Oratorium „Der Messias“.\n17:00 Uhr (die Quelle sa
+ gt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschla
+ nd\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261210-orchestre-de-chambre-de-paris@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Paris:20261210T200000
+DTEND;TZID=Europe/Paris:20261210T220000
+SUMMARY:Orchestre de chambre de Paris
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Mendelssohn-Programm.\n20:00 Uhr (die Quelle sagt nicht\, ob Ei
+ nlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschland\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261212-le-grand-concert-de-noel-de-radio-c
+ lassique-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Beginn: Le Grand concert de Noël de Radio Classique
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Weihnachtskonzert mit klassischen Meisterwerken und Weihnachtsl
+ iedern.\nLaufzeit: 12.12.2026 bis 13.12.2026\nTermine laut Veranstalter: A
+ ufführungsserie\; einzelne Vorstellungstage siehe Quelle\n20:00 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie 
+ Deutschland\nQuelle (bitte vor dem Besuch prüfen): https://www.theatrecha
+ mpselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261212-le-grand-concert-de-noel-de-radio-c
+ lassique-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Le Grand concert de Noël de Radio Classique
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Weihnachtskonzert mit klassischen Meisterwerken und Weihnachtsl
+ iedern.\nLaufzeit: 12.12.2026 bis 13.12.2026\nTermine laut Veranstalter: A
+ ufführungsserie\; einzelne Vorstellungstage siehe Quelle\n20:00 Uhr (die 
+ Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie 
+ Deutschland\nQuelle (bitte vor dem Besuch prüfen): https://www.theatrecha
+ mpselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261216-bruno-de-sa-cecilia-molinari-marie-
+ nicole-lemieux@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Paris:20261216T200000
+DTEND;TZID=Europe/Paris:20261216T220000
+SUMMARY:Bruno de Sá\, Cecilia Molinari\, Marie-Nicole Lemieux
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Barockarien von Corelli und Scarlatti.\n20:00 Uhr (die Quelle s
+ agt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschl
+ and\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-theatre-champs-elysees-20261217-orchestre-de-chambre-de-paris@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Paris:20261217T200000
+DTEND;TZID=Europe/Paris:20261217T220000
+SUMMARY:Orchestre de chambre de Paris
+LOCATION:Théâtre des Champs-Élysées\, 15 avenue Montaigne\, 75008 Paris
+DESCRIPTION:Händel-Programm mit Jugendchören.\n20:00 Uhr (die Quelle sagt
+  nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, wie Deutschland
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.theatrechampselysees.fr/saison-2026-27
+URL:https://www.theatrechampselysees.fr/saison-2026-27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

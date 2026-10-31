@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Punk/Metal in Bochum · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bo-zeche-20261106-melones-bad-decision-tribute-to-ramones-bad-religi@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Melones & Bad Decision – Tribute to Ramones & Bad Religion
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-zeche-20261116-soen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Soen
+LOCATION:Zeche Bochum\, Prinz-Regent-Str. 50-60\, 44795 Bochum
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://zeche.net/events
+ /categories/konzerte/
+URL:https://zeche.net/events/categories/konzerte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

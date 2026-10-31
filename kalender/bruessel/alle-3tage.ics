@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Brüssel · my Event Hub (Erinnerung 3 Tage vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bru-halles-saint-gery-20261101-brussels-vintage-market@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART:20261101T100000
+DTEND:20261101T120000
+SUMMARY:Brussels Vintage Market
+LOCATION:Halles Saint-Géry\, Place Saint-Géry 1\, 1000 Brüssel
+DESCRIPTION:Vintage-Markt in den Halles Saint-Géry\, Eintritt frei.\nEnde:
+  laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem 
+ Besuch prüfen): https://brusselsvintagemarket.be/agenda/
+URL:https://brusselsvintagemarket.be/agenda/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bru-halles-saint-gery-20261206-brussels-vintage-market@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART:20261206T100000
+DTEND:20261206T120000
+SUMMARY:Brussels Vintage Market
+LOCATION:Halles Saint-Géry\, Place Saint-Géry 1\, 1000 Brüssel
+DESCRIPTION:Vintage-Markt in den Halles Saint-Géry\, Eintritt frei.\nEnde:
+  laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem 
+ Besuch prüfen): https://brusselsvintagemarket.be/agenda/
+URL:https://brusselsvintagemarket.be/agenda/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

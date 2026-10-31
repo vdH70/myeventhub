@@ -1,0 +1,255 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EBM in Oberhausen · my Event Hub (Erinnerung 3 Stunden vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ob-kulttempel-20261106-ebm-meets-synth-future-pop-aftershowparty-nach-a
+ es@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T230000
+DTEND;TZID=Europe/Berlin:20261107T010000
+SUMMARY:EBM meets Synth & Future Pop – Aftershowparty nach Aesthetic Perf
+ ection
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Aftershowparty mit EBM\, Synth und Future Pop.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kul
+ ttempel.com/
+URL:https://www.kulttempel.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261114-ebm-meets-synth-future-pop-party@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T230000
+DTEND;TZID=Europe/Berlin:20261115T010000
+SUMMARY:EBM meets Synth & Future-Pop-Party
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Party mit EBM\, Synth und Future-Pop.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulttempel.c
+ om/
+URL:https://www.kulttempel.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261121-sitd-30th-anniversary-show@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:[:SITD:] – 30th Anniversary Show
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert mit Dark Electro\, Synthpop\, Futurepop\, Darkwave\, In
+ dustrial und EBM.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulttempe
+ l.com/kkt-kalender/sitd-30th-anniversary-show
+URL:https://www.kulttempel.com/kkt-kalender/sitd-30th-anniversary-show
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261121-resisdance-noir-aftershowparty-nach-sitd@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T230000
+DTEND;TZID=Europe/Berlin:20261122T010000
+SUMMARY:Resisdance Noir – Aftershowparty nach SITD
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Aftershowparty mit Future- und Synth-Pop\, 80s\, Darkwave und E
+ BM.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.kulttempel.com/kkt-kalender/resisdance-noir-aftershowpart
+ y-nach-sitd
+URL:https://www.kulttempel.com/kkt-kalender/resisdance-noir-aftershowparty-
+ nach-sitd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261128-concrete-ebm-night@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T220000
+DTEND;TZID=Europe/Berlin:20261129T000000
+SUMMARY:Concrete EBM Night
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Party mit EBM in der Old Daddy Club Lounge.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kultte
+ mpel.com/
+URL:https://www.kulttempel.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261129-dark-day-disco-tanze-am-tag-schlafe-in-der-nacht
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T140000
+DTEND;TZID=Europe/Berlin:20261129T160000
+SUMMARY:Dark Day Disco – Tanze am Tag! Schlafe in der Nacht!
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Tagesparty mit Futurepop\, Gothic\, EBM\, Post-Punk\, Industria
+ l und New Wave.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.kulttempel.com/kkt-kalender/dark-day-disco-ta
+ nze-am-tag-schlafe-in-der-nacht-5
+URL:https://www.kulttempel.com/kkt-kalender/dark-day-disco-tanze-am-tag-sch
+ lafe-in-der-nacht-5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261204-nachtmahr-imperivm-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T203000
+DTEND;TZID=Europe/Berlin:20261204T223000
+SUMMARY:Nachtmahr – Imperivm Tour
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert mit Industrial und EBM 2.0.\nEinlass 19:30\, Beginn 20:
+ 30 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.kulttempel.com/kkt-kalender/nachtmahr-imperivm-tour
+URL:https://www.kulttempel.com/kkt-kalender/nachtmahr-imperivm-tour
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261212-ebm-meets-synth-future-pop-aftershowparty-nach-s
+ ui@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T230000
+DTEND;TZID=Europe/Berlin:20261213T010000
+SUMMARY:EBM meets Synth & Future Pop – Aftershowparty nach Suicide Comman
+ do
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Aftershowparty mit EBM\, Synth und Future Pop.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kul
+ ttempel.com/
+URL:https://www.kulttempel.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261219-neuroticfish-heimspiel-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T203000
+DTEND;TZID=Europe/Berlin:20261219T223000
+SUMMARY:Neuroticfish – Heimspiel 2026
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Konzert mit Dark Electro und EBM.\nEinlass 19:00\, Beginn 20:30
+  Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.kulttempel.com/kkt-kalender/neuroticfish-haujobb-siie-he
+ imspiel-2026
+URL:https://www.kulttempel.com/kkt-kalender/neuroticfish-haujobb-siie-heims
+ piel-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261219-ebm-meets-synth-future-pop-aftershowparty-nach-n
+ eu@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T230000
+DTEND;TZID=Europe/Berlin:20261220T010000
+SUMMARY:EBM meets Synth & Future Pop – Aftershowparty nach Neuroticfish
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Aftershowparty mit EBM\, Synth und Future Pop.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kul
+ ttempel.com/
+URL:https://www.kulttempel.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-kulttempel-20261223-tanz-in-den-heiligabend-ebm-meets-synth-future-p
+ op@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T210000
+DTEND;TZID=Europe/Berlin:20261223T230000
+SUMMARY:Tanz in den Heiligabend – EBM meets Synth & Future Pop Party
+LOCATION:Kulttempel Oberhausen (mit Old Daddy Club Lounge)\, Mülheimer Str
+ aße 24\, 46049 Oberhausen
+DESCRIPTION:Party mit EBM\, Synth und Future Pop.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulttempel.c
+ om/
+URL:https://www.kulttempel.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

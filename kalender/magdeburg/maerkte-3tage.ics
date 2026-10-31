@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Magdeburg · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:md-alter-markt-20261123-magdeburger-weihnachtsmarkt-2026-beginn@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Magdeburger Weihnachtsmarkt 2026
+LOCATION:Alter Markt Magdeburg\, Alter Markt\, Magdeburg
+DESCRIPTION:Weihnachtsmarkt auf dem Alten Markt.\nLaufzeit: 23.11.2026 bis 
+ 29.12.2026\nTermine laut Veranstalter: So–Do 11–21 Uhr\, Fr/Sa 11–23
+  Uhr\; 24. und 25.12. geschlossen\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.weihnachtsmarkt-magdeburg.de/service/faq
+URL:https://www.weihnachtsmarkt-magdeburg.de/service/faq
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-alter-markt-20261123-magdeburger-weihnachtsmarkt-2026-ende@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Letzter Tag: Magdeburger Weihnachtsmarkt 2026
+LOCATION:Alter Markt Magdeburg\, Alter Markt\, Magdeburg
+DESCRIPTION:Weihnachtsmarkt auf dem Alten Markt.\nLaufzeit: 23.11.2026 bis 
+ 29.12.2026\nTermine laut Veranstalter: So–Do 11–21 Uhr\, Fr/Sa 11–23
+  Uhr\; 24. und 25.12. geschlossen\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.weihnachtsmarkt-magdeburg.de/service/faq
+URL:https://www.weihnachtsmarkt-magdeburg.de/service/faq
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Bernburg (Saale) · my Event Hub (Erinnerung 1 Tag v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:slk-museum-schloss-bernburg-20260918-ich-liebte-ein-maedchen-ingo-inste
+ rburg-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: „Ich liebte ein Mädchen“ – Ingo Insterburg
+LOCATION:Museum Schloss Bernburg\, Schlossstraße 24\, 06406 Bernburg (Saal
+ e)
+DESCRIPTION:Laufzeit: 18.9.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.museumschlossbernburg.de/sonderausstellungen
+URL:https://www.museumschlossbernburg.de/sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

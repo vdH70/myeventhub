@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Coesfeld · my Event Hub (Erinnerung 1 Tag vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:coe-stadtmuseum-das-tor-20261024-kein-geld-kein-problem-notgeld-aus-wes
+ tfalen-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Kein Geld? Kein Problem – Notgeld aus Westfalen
+LOCATION:Stadtmuseum DAS TOR\, Mühlenplatz 3\, 48653 Coesfeld
+DESCRIPTION:Wechselausstellung zum Notgeld in Westfalen.\nLaufzeit: 24.10.2
+ 026 bis 15.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://stadtmu
+ seum.coesfeld.de/programm/fuehrungen-und-veranstaltungen
+URL:https://stadtmuseum.coesfeld.de/programm/fuehrungen-und-veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:coe-stadtmuseum-das-tor-20261024-kein-geld-kein-problem-notgeld-aus-wes
+ tfalen-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Kein Geld? Kein Problem – Notgeld aus Westfalen
+LOCATION:Stadtmuseum DAS TOR\, Mühlenplatz 3\, 48653 Coesfeld
+DESCRIPTION:Wechselausstellung zum Notgeld in Westfalen.\nLaufzeit: 24.10.2
+ 026 bis 15.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://stadtmu
+ seum.coesfeld.de/programm/fuehrungen-und-veranstaltungen
+URL:https://stadtmuseum.coesfeld.de/programm/fuehrungen-und-veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

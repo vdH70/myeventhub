@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Phoenix · my Event Hub (Erinnerung 3 Stun
+ den vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:phx-arizona-opera-center-20261107-el-gato-con-botas@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART:20261107T140000
+DTEND:20261107T160000
+SUMMARY:El Gato con Botas
+LOCATION:Arizona Opera Center (Wittcoff Black Box Theater)\, 1636 N. Centra
+ l Ave\, AZ 85004 Phoenix
+DESCRIPTION:Kinderoper von Xavier Montsalvatge.\nTermine laut Veranstalter:
+  Weitere Termine: 7.11. 19:30\, 8.11. 14:00\nQuelle (bitte vor dem Besuch 
+ prüfen): https://azopera.org/performances/el-gato-con-botas
+URL:https://azopera.org/performances/el-gato-con-botas
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

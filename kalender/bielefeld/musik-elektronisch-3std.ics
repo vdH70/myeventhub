@@ -1,0 +1,140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elektronisch in Bielefeld · my Event Hub (Erinnerung 3 Stunde
+ n vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bi-lokschuppen-20261114-subito-reloaded-22@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Subito Reloaded #22
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.lokschuppen-
+ bielefeld.de/
+URL:https://www.lokschuppen-bielefeld.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261128-back-to-the-roots-pres-afro-bros@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T230000
+DTEND;TZID=Europe/Berlin:20261129T010000
+SUMMARY:Back to the Roots pres. Afro Bros
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261211-cafe-europa-christmas-party-feat-salvatore-manc
+ uso@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T230000
+DTEND;TZID=Europe/Berlin:20261212T010000
+SUMMARY:Cafe Europa Christmas Party feat. Salvatore Mancuso
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cafe-europa-20261225-cafe-europa-pres-tujamo@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T230000
+DTEND;TZID=Europe/Berlin:20261226T010000
+SUMMARY:Cafe Europa pres. Tujamo
+LOCATION:Café Europa\, Jahnplatz 4\, 33602 Bielefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+URL:https://cafeeuropa.de/veranstaltungsort/cafe-europa/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-lokschuppen-20270225-forced-to-mode@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T200000
+DTEND;TZID=Europe/Berlin:20270225T220000
+SUMMARY:FORCED TO MODE
+LOCATION:Lokschuppen Bielefeld\, Stadtheider Straße 11\, 33609 Bielefeld
+DESCRIPTION:Depeche-Mode-Tribute mit dem Album „Ultra“.\nEinlass 19:00\
+ , Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 47\,25 E
+ UR inkl. Gebühren\nTickets: https://www.eventim.de/noapp/event/forced-to-
+ mode-ultra-the-missing-piece-tour-2027-lokschuppen-bielefeld-21716674/?aff
+ iliate=LOK\nQuelle (bitte vor dem Besuch prüfen): https://www.lokschuppen
+ -bielefeld.de/event/forced-to-mode/
+URL:https://www.lokschuppen-bielefeld.de/event/forced-to-mode/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-cantine-20270313-25-jahre-kernkrach-records-kk-festival@myeventhub.d
+ e
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T180000
+DTEND;TZID=Europe/Berlin:20270313T200000
+SUMMARY:25 Jahre Kernkrach Records – KK Festival
+LOCATION:Cantine Bielefeld\, Bleichstr. 77a\, 33607 Bielefeld
+DESCRIPTION:Einlass 17:00\, Beginn 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.cantine-bielefeld
+ .de/projects-6
+URL:https://www.cantine-bielefeld.de/projects-6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,212 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager/Party in Berlin · my Event Hub (Erinnerung 3 Stunden
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ber-spindler-klatt-20261114-ue30-party-berlin@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T220000
+DTEND;TZID=Europe/Berlin:20261115T000000
+SUMMARY:Ü30 Party Berlin
+LOCATION:Spindler & Klatt\, Köpenicker Str. 16-17\, 10997 Berlin
+DESCRIPTION:Party mit House\, Pop\, RnB und Klassikern der 80er bis 2010er.
+ \nEnde: laut Quelle nicht angegeben\nPreis: VVK ab 12 €\nTickets: https:
+ //partytickets.ditix.shop/event/nbfpf8ub2p6qlw1u\nQuelle (bitte vor dem Be
+ such prüfen): https://ue30party-berlin.de/event-ue30-party-berlin-samstag
+ -den-14-11-ab-22-uhr/
+URL:https://ue30party-berlin.de/event-ue30-party-berlin-samstag-den-14-11-a
+ b-22-uhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261121-die-schlagernacht-des-jahres@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T180000
+DTEND;TZID=Europe/Berlin:20261121T200000
+SUMMARY:Die Schlagernacht des Jahres
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:18:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261228-matthias-reim@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T200000
+DTEND;TZID=Europe/Berlin:20261228T220000
+SUMMARY:Matthias Reim
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-haus-ungarn-20261231-die-ue30-silvesterparty-unterm-berliner-fernse
+ htur@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T210000
+DTEND;TZID=Europe/Berlin:20261231T230000
+SUMMARY:Die Ü30 Silvesterparty unterm Berliner Fernsehturm
+LOCATION:Haus Ungarn\, Karl-Liebknecht-Straße 9\, 10178 Berlin
+DESCRIPTION:Ü30-Silvesterparty am Alexanderplatz.\nEnde: laut Quelle nicht
+  angegeben\nPreis: VVK ab 24\,99 €\nTickets: https://partytickets.ditix.
+ shop/event/gk5ovh7goompefda?t=false&tid=\nQuelle (bitte vor dem Besuch pr
+ üfen): https://ue30party-berlin.de/event-die-ue30-silvesterparty-unterm-b
+ erliner-fernsehturm/
+URL:https://ue30party-berlin.de/event-die-ue30-silvesterparty-unterm-berlin
+ er-fernsehturm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20270115-schlagerchampions@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T201500
+DTEND;TZID=Europe/Berlin:20270115T221500
+SUMMARY:Schlagerchampions
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20270116-schlagerchampions@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T201500
+DTEND;TZID=Europe/Berlin:20270116T221500
+SUMMARY:Schlagerchampions
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270318-maite-kelly@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270318T200000
+DTEND;TZID=Europe/Berlin:20270318T220000
+SUMMARY:Maite Kelly
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270506-roland-kaiser@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270506T193000
+DTEND;TZID=Europe/Berlin:20270506T213000
+SUMMARY:Roland Kaiser
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270507-roland-kaiser@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270507T193000
+DTEND;TZID=Europe/Berlin:20270507T213000
+SUMMARY:Roland Kaiser
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20271030-andrea-berg@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271030T193000
+DTEND;TZID=Europe/Berlin:20271030T213000
+SUMMARY:Andrea Berg
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

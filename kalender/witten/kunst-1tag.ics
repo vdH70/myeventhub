@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Witten · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:en-maerkisches-museum-witten-20261017-gehen-bleiben-halten-beginn@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Beginn: gehen | bleiben | halten
+LOCATION:Märkisches Museum Witten\, Husemannstraße 12\, 58452 Witten
+DESCRIPTION:Laufzeit: 17.10.2026 bis 25.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kulturforum-witten.de/
+URL:https://www.kulturforum-witten.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-maerkisches-museum-witten-20261017-gehen-bleiben-halten-ende@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Letzter Tag: gehen | bleiben | halten
+LOCATION:Märkisches Museum Witten\, Husemannstraße 12\, 58452 Witten
+DESCRIPTION:Laufzeit: 17.10.2026 bis 25.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kulturforum-witten.de/
+URL:https://www.kulturforum-witten.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

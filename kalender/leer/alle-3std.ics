@@ -1,0 +1,748 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Leer · my Event Hub (Erinnerung 3 Stunden vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261031-halloween-und-gruselgeschichten-im-heima-173
+ 0@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T173000
+DTEND;TZID=Europe/Berlin:20261031T193000
+SUMMARY:Halloween und Gruselgeschichten im Heimatmuseum (ausverkauft)
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Gruselführung für Kinder von 8 bis 12 Jahren (45 Min.)\, max.
+  20 Personen je Durchgang\; Anmeldung bis 28.10.\nEnde: laut Quelle nicht 
+ angegeben\nAusverkauft\nPreis: Familien (2 Erwachsene\, bis 3 Kinder) 15 
+ €\, Kinder einzeln 3 €\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261031-halloween-und-gruselgeschichten-im-heima-184
+ 5@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T184500
+DTEND;TZID=Europe/Berlin:20261031T204500
+SUMMARY:Halloween und Gruselgeschichten im Heimatmuseum (ausverkauft)
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Gruselführung für Kinder von 8 bis 12 Jahren (45 Min.)\, max.
+  20 Personen je Durchgang\; Anmeldung bis 28.10.\nEnde: laut Quelle nicht 
+ angegeben\nAusverkauft\nPreis: Familien (2 Erwachsene\, bis 3 Kinder) 15 
+ €\, Kinder einzeln 3 €\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261101-jazz-im-zollhaus-open-stage-jam-session@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T153000
+DTEND;TZID=Europe/Berlin:20261101T173000
+SUMMARY:Jazz Im Zollhaus – Open Stage // Jam Session 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Offene Jazz-Session im Café\; Musiker aller Niveaus können mi
+ tspielen (Instrument und Realbook mitbringen).\n15:30 Uhr (die Quelle sagt
+  nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nPreis
+ : Eintritt frei\, Spenden erwünscht\nQuelle (bitte vor dem Besuch prüfen
+ ): https://zollhaus-leer.com/veranstaltungen/jazz-im-zollhaus-4/
+URL:https://zollhaus-leer.com/veranstaltungen/jazz-im-zollhaus-4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ler-buenting-teemuseum-20261103-teestunde@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T150000
+DTEND;TZID=Europe/Berlin:20261103T170000
+SUMMARY:Teestunde
+LOCATION:Bünting Teemuseum\, Brunnenstraße 33\, 26789 Leer
+DESCRIPTION:Vortrag zur ostfriesischen Teekultur mit Tee und Gebäck.\nTerm
+ ine laut Veranstalter: dienstags 15:00\nPreis: 8\,00 €\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.buenting-teemuseum.de/veranstaltungen/v
+ eranstaltungskalender
+URL:https://www.buenting-teemuseum.de/veranstaltungen/veranstaltungskalende
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261106-bruchbude-nichts-zu-verlieren-tour-2026@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Bruchbude - „Nichts zu verlieren“ Tour 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Indie-Pop-Band aus Dortmund. Im Theater des Zollhauses\, Stehpl
+ ätze.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegebe
+ n\nPreis: ab 25\,00 €\nTickets: https://shop.bruchbude-band.de/produkte/
+ 89837-tickets-bruchbude-zollhaus-leer-ostfriesland-am-06-11-2026\nQuelle (
+ bitte vor dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/k
+ onzert-bruchbude-nichts-zu-verlieren-tour-2026/
+URL:https://zollhaus-leer.com/veranstaltungen/konzert-bruchbude-nichts-zu-v
+ erlieren-tour-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261108-oeffentliche-fuehrung-einen-zahn-zulegen-113
+ 0@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T113000
+DTEND;TZID=Europe/Berlin:20261108T133000
+SUMMARY:Öffentliche Führung: „Einen Zahn zulegen“ – Sprichwörtlich
+  durchs Museum!
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Führung durch das Heimatmuseum zu Redewendungen.\nEnde: laut Q
+ uelle nicht angegeben\nPreis: 3\,50 € p. P. zzgl. Eintritt\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261108-oeffentliche-fuehrung-einen-zahn-zulegen-143
+ 0@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T143000
+DTEND;TZID=Europe/Berlin:20261108T163000
+SUMMARY:Öffentliche Führung: „Einen Zahn zulegen“ – Sprichwörtlich
+  durchs Museum!
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Führung durch das Heimatmuseum zu Redewendungen.\nEnde: laut Q
+ uelle nicht angegeben\nPreis: 3\,50 € p. P. zzgl. Eintritt\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ler-buenting-teemuseum-20261110-teestunde@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T150000
+DTEND;TZID=Europe/Berlin:20261110T170000
+SUMMARY:Teestunde
+LOCATION:Bünting Teemuseum\, Brunnenstraße 33\, 26789 Leer
+DESCRIPTION:Vortrag zur ostfriesischen Teekultur mit Tee und Gebäck.\nTerm
+ ine laut Veranstalter: dienstags 15:00\nPreis: 8\,00 €\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.buenting-teemuseum.de/veranstaltungen/v
+ eranstaltungskalender
+URL:https://www.buenting-teemuseum.de/veranstaltungen/veranstaltungskalende
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261111-kochkraft-durch-kma-hardcore-never-dies@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T203000
+DTEND;TZID=Europe/Berlin:20261111T223000
+SUMMARY:Kochkraft Durch KMA – „Hardcore Never Dies Das“ Tour 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Indie-Rave-Punk aus Duisburg. Im Café.\nEinlass 19:00\, Beginn
+  20:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 24\,00 €\nTicke
+ ts: https://zollhaus-leer.reservix.de/p/reservix/group/545065\nQuelle (bit
+ te vor dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/koch
+ kraft-durch-kma/
+URL:https://zollhaus-leer.com/veranstaltungen/kochkraft-durch-kma/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261112-erection-plug-it-in-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Erection // Plug It In Tour 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Band zwischen Pop-Elektronik und Rock mit neuem Album. Im Theat
+ er des Zollhauses.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle ni
+ cht angegeben\nPreis: ab 22\,00 €\nQuelle (bitte vor dem Besuch prüfen)
+ : https://zollhaus-leer.com/veranstaltungen/erection/
+URL:https://zollhaus-leer.com/veranstaltungen/erection/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261115-monsters-of-liedermaching-sutsche-tour-2@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:Monsters Of Liedermaching – „Sutsche“-Tour 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Liedermacher-Band mit Live-Album „Sutsche“\; humorvolle und
+  ernste Lieder. Im Café.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Qu
+ elle nicht angegeben\nPreis: ab 30\,00 € (VVK)\nTickets: https://zollhau
+ s-leer.reservix.de/p/reservix/group/385430\nQuelle (bitte vor dem Besuch p
+ rüfen): https://zollhaus-leer.com/veranstaltungen/monsters-of-liedermachi
+ ng/
+URL:https://zollhaus-leer.com/veranstaltungen/monsters-of-liedermaching/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261116-snake-eyes-schluma@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Snake Eyes + schluma.
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Gitarrenrock aus Brighton\, Support schluma. aus Hamburg. Im Th
+ eater des Zollhauses.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle
+  nicht angegeben\nPreis: ab 18\,00 €\nTickets: https://zollhaus-leer.res
+ ervix.de/p/reservix/group/540547\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://zollhaus-leer.com/veranstaltungen/snake-eyes/
+URL:https://zollhaus-leer.com/veranstaltungen/snake-eyes/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ler-buenting-teemuseum-20261117-teestunde@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T150000
+DTEND;TZID=Europe/Berlin:20261117T170000
+SUMMARY:Teestunde
+LOCATION:Bünting Teemuseum\, Brunnenstraße 33\, 26789 Leer
+DESCRIPTION:Vortrag zur ostfriesischen Teekultur mit Tee und Gebäck.\nTerm
+ ine laut Veranstalter: dienstags 15:00\nPreis: 8\,00 €\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.buenting-teemuseum.de/veranstaltungen/v
+ eranstaltungskalender
+URL:https://www.buenting-teemuseum.de/veranstaltungen/veranstaltungskalende
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261117-bosse-stabile-poesie-clubtour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Bosse – Stabile Poesie Clubtour 2026 (ausverkauft)
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Laut Zollhaus ausverkauft\, keine Abendkasse. Im Großen Saal.\
+ nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nAusv
+ erkauft\nTickets: https://www.eventim.de/event/bosse-stabile-poesie-tour-2
+ 026-zollhaus-kulturverein-21687001/?affiliate=GMD\nQuelle (bitte vor dem B
+ esuch prüfen): https://zollhaus-leer.com/veranstaltungen/bosse/
+URL:https://zollhaus-leer.com/veranstaltungen/bosse/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261114-fuehrung-doer-de-dueraustellung-up-platt@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T143000
+DTEND;TZID=Europe/Berlin:20261121T163000
+SUMMARY:Führung dör de Düraustellung up Plattdüütsch
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Führung durch die Dauerausstellung auf Plattdeutsch\, bis 16:0
+ 0 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: 3\,50 € p. P. zzgl. Ei
+ ntritt\nQuelle (bitte vor dem Besuch prüfen): https://www.heimatmuseum-le
+ er.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261122-bruni-jonny-ubben-plattkonzert-im-doppel@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T200000
+DTEND;TZID=Europe/Berlin:20261122T220000
+SUMMARY:Bruni & Jonny Ubben – „Plattkonzert im Doppelpack“
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Lieder auf Plattdeutsch\; Bruni solo\, Jonny Ubben mit Band. Im
+  Theater des Zollhauses.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Que
+ lle nicht angegeben\nPreis: ab 10\,00 €\nTickets: https://zollhaus-leer.
+ reservix.de/p/reservix/event/2603921\nQuelle (bitte vor dem Besuch prüfen
+ ): https://zollhaus-leer.com/veranstaltungen/bruni-jonny-ubben/
+URL:https://zollhaus-leer.com/veranstaltungen/bruni-jonny-ubben/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ler-buenting-teemuseum-20261124-teestunde@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T150000
+DTEND;TZID=Europe/Berlin:20261124T170000
+SUMMARY:Teestunde
+LOCATION:Bünting Teemuseum\, Brunnenstraße 33\, 26789 Leer
+DESCRIPTION:Vortrag zur ostfriesischen Teekultur mit Tee und Gebäck.\nTerm
+ ine laut Veranstalter: dienstags 15:00\nPreis: 8\,00 €\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.buenting-teemuseum.de/veranstaltungen/v
+ eranstaltungskalender
+URL:https://www.buenting-teemuseum.de/veranstaltungen/veranstaltungskalende
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261124-selig-the-epic-years@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Selig „The Epic Years“
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Die Band spielt Songs ihrer drei frühen Alben. Im Großen Saal
+ .\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPr
+ eis: ab 40\,00 €\nTickets: https://tix.to/the-EPIC-years\nQuelle (bitte 
+ vor dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/konzert
+ -selig-the-epic-years/
+URL:https://zollhaus-leer.com/veranstaltungen/konzert-selig-the-epic-years/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261125-lack-false-lefty@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:LACK + False Lefty
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Post-Hardcore/Indie-Rock aus Kopenhagen\, Support False Lefty. 
+ Im Theater des Zollhauses.\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Q
+ uelle nicht angegeben\nPreis: ab 20\,00 €\nTickets: https://zollhaus-lee
+ r.reservix.de/p/reservix/group/542226\nQuelle (bitte vor dem Besuch prüfe
+ n): https://zollhaus-leer.com/veranstaltungen/lack-false-lefty/
+URL:https://zollhaus-leer.com/veranstaltungen/lack-false-lefty/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261127-vom-neuen-hafen-zur-grossen-fangflotte-a@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T183000
+DTEND;TZID=Europe/Berlin:20261127T203000
+SUMMARY:„Vom neuen Hafen zur großen Fangflotte“ – Abendführung mit 
+ kleiner Überraschung
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Abendführung bis 20:00 Uhr.\nEnde: laut Quelle nicht angegeben
+ \nPreis: 12\,00 € p. P.\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ler-buenting-teemuseum-20261201-teestunde@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T150000
+DTEND;TZID=Europe/Berlin:20261201T170000
+SUMMARY:Teestunde
+LOCATION:Bünting Teemuseum\, Brunnenstraße 33\, 26789 Leer
+DESCRIPTION:Vortrag zur ostfriesischen Teekultur mit Tee und Gebäck.\nTerm
+ ine laut Veranstalter: dienstags 15:00\nPreis: 8\,00 €\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.buenting-teemuseum.de/veranstaltungen/v
+ eranstaltungskalender
+URL:https://www.buenting-teemuseum.de/veranstaltungen/veranstaltungskalende
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261210-vom-neuen-hafen-zur-grossen-fangflotte-a@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T180000
+DTEND;TZID=Europe/Berlin:20261210T200000
+SUMMARY:„Vom neuen Hafen zur großen Fangflotte“ – Abendführung mit 
+ kleiner Überraschung
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Abendführung bis 19:30 Uhr.\nEnde: laut Quelle nicht angegeben
+ \nPreis: 12\,00 € p. P.\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261212-die-kleine-filz-werkstatt-weihnachtliche@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T140000
+DTEND;TZID=Europe/Berlin:20261212T160000
+SUMMARY:Die kleine Filz-Werkstatt – Weihnachtlicher Bastelworkshop
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Bastelworkshop für Kinder von 6 bis 13 Jahren (14–16 Uhr)\, 
+ max. 15 Kinder\; Anmeldung bis 10.12.\, altes Handtuch mitbringen.\nEnde: 
+ laut Quelle nicht angegeben\nPreis: 5 € inkl. Material\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261213-oeffentliche-fuehrung-das-silber-des-mee-113
+ 0@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T113000
+DTEND;TZID=Europe/Berlin:20261213T133000
+SUMMARY:Öffentliche Führung: „Das Silber des Meeres – Die Geschichte 
+ der Leeraner Heringsfischerei“
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Führung durch die Sonderausstellung zur Heringsfischerei.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 3\,50 € p. P. zzgl. Eintritt\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261213-oeffentliche-fuehrung-das-silber-des-mee-143
+ 0@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T143000
+DTEND;TZID=Europe/Berlin:20261213T163000
+SUMMARY:Öffentliche Führung: „Das Silber des Meeres – Die Geschichte 
+ der Leeraner Heringsfischerei“
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Führung durch die Sonderausstellung zur Heringsfischerei.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 3\,50 € p. P. zzgl. Eintritt\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-theater-an-der-blinke-20261218-conni-das-musical@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T160000
+DTEND;TZID=Europe/Berlin:20261218T180000
+SUMMARY:Conni – das Musical
+LOCATION:Theater an der Blinke\, Blinke 39\, 26789 Leer
+DESCRIPTION:Mitmach-Musical für Kinder ab 3 Jahren (ca. 100 Min. mit Pause
+ ): Conni feiert Geburtstag und kommt in die Schule\; Tourproduktion des Co
+ comico Theaters\, präsentiert vom Zollhaus.\nEinlass 15:00\, Beginn 16:00
+  Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 15 €\nQuelle (bitte v
+ or dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/conni-da
+ s-musical/
+URL:https://zollhaus-leer.com/veranstaltungen/conni-das-musical/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261219-cartoon-christmas-party-zollhaus-gastro@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T220000
+DTEND;TZID=Europe/Berlin:20261220T000000
+SUMMARY:Cartoon Christmas Party (Zollhaus Gastro GmbH)
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Weihnachtsparty mit Klassikern aus der ehemaligen Kultdisco Car
+ toon und aktueller Musik. Im Großen Saal.\n22:00 Uhr (die Quelle sagt nic
+ ht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nPreis: VV
+ K 8 €\, AK 10 €\nQuelle (bitte vor dem Besuch prüfen): https://zollha
+ us-leer.com/veranstaltungen/cartoon-christmas-party-zollhaus-gastro-gmbh/
+URL:https://zollhaus-leer.com/veranstaltungen/cartoon-christmas-party-zollh
+ aus-gastro-gmbh/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-heimatmuseum-20261220-familienfuehrung-kinderleben-im-19-jahrh@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T140000
+DTEND;TZID=Europe/Berlin:20261220T160000
+SUMMARY:Familienführung: Kinderleben im 19. Jahrhundert
+LOCATION:Heimatmuseum Leer\, Neue Straße 12-14\, 26789 Leer
+DESCRIPTION:Familienführung bis 15:30 Uhr\; Anmeldung erforderlich.\nEnde:
+  laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.heimatmuseum-leer.de/
+URL:https://www.heimatmuseum-leer.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-theater-an-der-blinke-20261227-enno-bunger-solo-am-klavier-special
+ -gues@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T200000
+DTEND;TZID=Europe/Berlin:20261227T220000
+SUMMARY:Enno Bunger – Solo am Klavier + Special Guests (Jahresabschlussga
+ la)
+LOCATION:Theater an der Blinke\, Blinke 39\, 26789 Leer
+DESCRIPTION:Jahresabschlusskonzert mit Liedern\, Witz und zwei Überraschun
+ gsgästen\; Veranstaltung des Zollhauses im Theater an der Blinke.\nEinlas
+ s 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 3
+ 0\,00 €\nTickets: https://shop.ennobunger.de/tickets\nQuelle (bitte vor 
+ dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/enno-bunger
+ /
+URL:https://zollhaus-leer.com/veranstaltungen/enno-bunger/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20270124-dennis-jesko-band-wumms@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T150000
+DTEND;TZID=Europe/Berlin:20270124T170000
+SUMMARY:Dennis & Jesko Band (WUMMS)
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Fußball-Musik-Show für Kinder und Familien im Großen Saal mi
+ t Dennis Kaupp\, Jesko Friedrich und Markus Baier.\nEinlass 14:00\, Beginn
+  15:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 24 €\nTickets: 
+ https://zollhaus-leer.reservix.de/p/reservix/group/547054\nQuelle (bitte v
+ or dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/dennis-j
+ esko-band-wumms/
+URL:https://zollhaus-leer.com/veranstaltungen/dennis-jesko-band-wumms/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20270130-senta-kultur-fuer-kinder@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T160000
+DTEND;TZID=Europe/Berlin:20270130T180000
+SUMMARY:Senta (Kultur für Kinder)
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Mitmach-Popkonzert der „Ich bin stark“-Tour für Kinder ab 
+ 4 Jahren und Eltern\, Stehplätze.\nEinlass 15:00\, Beginn 16:00 Uhr\nEnde
+ : laut Quelle nicht angegeben\nPreis: ab 20 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://zollhaus-leer.com/veranstaltungen/senta-kultur-fuer-
+ kinder/
+URL:https://zollhaus-leer.com/veranstaltungen/senta-kultur-fuer-kinder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20270216-young-scots-trad-awards-winner-tour-2027@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T200000
+DTEND;TZID=Europe/Berlin:20270216T220000
+SUMMARY:Young Scots Trad Awards Winner Tour 2027
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Junge schottische Folkmusiker mit Solosets und gemeinsamem Fina
+ le. Im Café.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht a
+ ngegeben\nPreis: ab 25\,00 €\nTickets: https://zollhaus-leer.reservix.de
+ /p/reservix/group/505202\nQuelle (bitte vor dem Besuch prüfen): https://z
+ ollhaus-leer.com/veranstaltungen/young-scots-trad-awards-winner-tour-2027/
+URL:https://zollhaus-leer.com/veranstaltungen/young-scots-trad-awards-winne
+ r-tour-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20270303-the-hirsch-effekt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T200000
+DTEND;TZID=Europe/Berlin:20270303T220000
+SUMMARY:The Hirsch Effekt
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:„An Evening with The Hirsch Effekt“: das Album „Der Brauc
+ h“ komplett und ein Best-of-Set\, ohne Vorband. Im Café.\nEinlass 19:00
+ \, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 30\,00 
+ €\nTickets: https://zollhaus-leer.reservix.de/p/reservix/group/543108\nQ
+ uelle (bitte vor dem Besuch prüfen): https://zollhaus-leer.com/veranstalt
+ ungen/the-hirsch-effekt/
+URL:https://zollhaus-leer.com/veranstaltungen/the-hirsch-effekt/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20270306-heavysaurus@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T140000
+DTEND;TZID=Europe/Berlin:20270306T160000
+SUMMARY:Heavysaurus
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Familien-Rockkonzert der Dino-Band („Mission Dino Power Tour 
+ 2027“) im Großen Saal\; Meet & Greet 12 Uhr.\nEinlass 13:00\, Beginn 14
+ :00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://zollhaus-leer.com/veranstaltungen/heavysaurus/
+URL:https://zollhaus-leer.com/veranstaltungen/heavysaurus/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20270125-so-soon@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270407T193000
+DTEND;TZID=Europe/Berlin:20270407T213000
+SUMMARY:So Soon
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Projekt von David Stöbener und Marco Braun zwischen Indie-Pop\
+ , Folk\, Elektronik und Postrock. Im Café.\nEinlass 19:00\, Beginn 19:30 
+ Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 24\,00 €\nTickets: htt
+ ps://zollhaus-leer.reservix.de/p/reservix/group/541424\nQuelle (bitte vor 
+ dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/so-soon/
+URL:https://zollhaus-leer.com/veranstaltungen/so-soon/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

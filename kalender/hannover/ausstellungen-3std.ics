@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Hannover · my Event Hub (Erinnerung 3 Stunde
+ n vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20240717-comic-im-busch-eine-kleine-zeitreise-du
+ r-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20300707
+DTEND;VALUE=DATE:20300708
+SUMMARY:Letzter Tag: Comic im BUSCH – eine kleine Zeitreise durch die Ges
+ chichte des Comics
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Laufzeit: 17.7.2024 bis 7.7.2030\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.karikatur-museum.de/programm/ausstellungen/
+URL:https://www.karikatur-museum.de/programm/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-fuer-textile-kunst-20260228-jeremy-gobe-lace-is-more-die-kunst
+ -mit-spitze-kora-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Jérémy Gobé – Lace is more – Die Kunst mit Spit
+ ze Korallen zu retten
+LOCATION:Museum für textile Kunst\, Borchersstraße 23\, 30559 Hannover
+DESCRIPTION:Laufzeit: 28.2.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum-fuer-textile-kunst.de/ausstellungen/
+URL:https://museum-fuer-textile-kunst.de/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20260702-ach-was-103-jahre-loriot-ende@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Letzter Tag: ACH WAS. 103 Jahre Loriot
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Laufzeit: 2.7.2026 bis 14.3.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.karikatur-museum.de/programm/ausstellungen/
+URL:https://www.karikatur-museum.de/programm/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20260829-wie-geht-es-dir-zeichner-innen-gegen-an
+ t-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Wie geht es dir? Zeichner*innen gegen Antisemitismus\,
+  Hass und Rassismus
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Laufzeit: 29.8.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.karikatur-museum.de/programm/ausstellungen/
+URL:https://www.karikatur-museum.de/programm/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-kubus-20261010-all-natural-2-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: ALL NATURAL #2
+LOCATION:Städtische Galerie KUBUS\, Theodor-Lessing-Platz 2\, 30159 Hannov
+ er
+DESCRIPTION:Ausstellung des Kunstvereins Kunsthalle Hannover e.V. in der St
+ ädtischen Galerie KUBUS.\nLaufzeit: 10.10.2026 bis 22.11.2026\nQuelle (bi
+ tte vor dem Besuch prüfen): https://kunsthalle-hannover.de/en/ausstellung
+ en/
+URL:https://kunsthalle-hannover.de/en/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-exposeeum-20261026-wa-germany-die-expo-zu-gast-in-deutschland-beginn@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Beginn: Wa! Germany – Die Expo zu Gast in Deutschland
+LOCATION:EXPOSEEUM\, Expo Plaza 1\, 30539 Hannover
+DESCRIPTION:Wanderausstellung zur Expo.\nLaufzeit: 26.10.2026 bis 22.11.202
+ 6\nQuelle (bitte vor dem Besuch prüfen): https://www.exposeeum.de/
+URL:https://www.exposeeum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-exposeeum-20261026-wa-germany-die-expo-zu-gast-in-deutschland-ende@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Wa! Germany – Die Expo zu Gast in Deutschland
+LOCATION:EXPOSEEUM\, Expo Plaza 1\, 30539 Hannover
+DESCRIPTION:Wanderausstellung zur Expo.\nLaufzeit: 26.10.2026 bis 22.11.202
+ 6\nQuelle (bitte vor dem Besuch prüfen): https://www.exposeeum.de/
+URL:https://www.exposeeum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20261030-der-junge-zeichenclub-pop-up-ausstellun
+ g-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Der junge ZeichenClub – Pop-Up-Ausstellung
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Laufzeit: 30.10.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.karikatur-museum.de/presse/jahresubersicht-2026/
+URL:https://www.karikatur-museum.de/presse/jahresubersicht-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20261030-der-junge-zeichenclub-pop-up-ausstellun
+ g-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Der junge ZeichenClub – Pop-Up-Ausstellung
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Laufzeit: 30.10.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.karikatur-museum.de/presse/jahresubersicht-2026/
+URL:https://www.karikatur-museum.de/presse/jahresubersicht-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-marktkirche-20261104-kuenstlergespraech-wundervolle-zahlen@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T170000
+DTEND;TZID=Europe/Berlin:20261104T190000
+SUMMARY:Wundervolle Zahlen: Künstlergespräch
+LOCATION:Marktkirche St. Georgii et Jacobi\, Hanns-Lilje-Platz\, 30159 Hann
+ over
+DESCRIPTION:Gespräch zur Ausstellung von Lienhard von Monkiewitsch in der 
+ Marktkirche.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.marktkirche-hannover.de/termine
+URL:https://www.marktkirche-hannover.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landtag-niedersachsen-20261113-kinder-chancen-zukunft-ausstellung-zur
+ -kinderarmut-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Beginn: Kinder. Chancen. Zukunft. – Ausstellung zur Kinderarmut
+LOCATION:Niedersächsischer Landtag\, Hannah-Arendt-Platz 1\, 30159 Hannove
+ r
+DESCRIPTION:Laufzeit: 13.11.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.landtag-niedersachsen.de/veranstaltungskalender/
+URL:https://www.landtag-niedersachsen.de/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landtag-niedersachsen-20261113-kinder-chancen-zukunft-ausstellung-zur
+ -kinderarmut-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Kinder. Chancen. Zukunft. – Ausstellung zur Kinderar
+ mut
+LOCATION:Niedersächsischer Landtag\, Hannah-Arendt-Platz 1\, 30159 Hannove
+ r
+DESCRIPTION:Laufzeit: 13.11.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.landtag-niedersachsen.de/veranstaltungskalender/
+URL:https://www.landtag-niedersachsen.de/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landesmuseum-20261127-unter-schwarzer-flagge-piraten-zwischen-beginn@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Unter schwarzer Flagge. Piraten zwischen Nordsee und Karibi
+ k
+LOCATION:Landesmuseum Hannover\, Willy-Brandt-Allee 5\, 30169 Hannover
+DESCRIPTION:Laufzeit: 27.11.2026 bis 2.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://landesmuseum-hannover.de/ausstellungen/sonderausstellun
+ gen/unter-schwarzer-flagge-piraten-zwischen-nordsee-und-karibik/
+URL:https://landesmuseum-hannover.de/ausstellungen/sonderausstellungen/unte
+ r-schwarzer-flagge-piraten-zwischen-nordsee-und-karibik/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landesmuseum-20261127-unter-schwarzer-flagge-piraten-zwischen-ende@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Letzter Tag: Unter schwarzer Flagge. Piraten zwischen Nordsee und K
+ aribik
+LOCATION:Landesmuseum Hannover\, Willy-Brandt-Allee 5\, 30169 Hannover
+DESCRIPTION:Laufzeit: 27.11.2026 bis 2.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://landesmuseum-hannover.de/ausstellungen/sonderausstellun
+ gen/unter-schwarzer-flagge-piraten-zwischen-nordsee-und-karibik/
+URL:https://landesmuseum-hannover.de/ausstellungen/sonderausstellungen/unte
+ r-schwarzer-flagge-piraten-zwischen-nordsee-und-karibik/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20261127-tatjana-hauptmann-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Tatjana Hauptmann
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Laufzeit: 27.11.2026 bis 24.2.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.karikatur-museum.de/presse/jahresubersicht-2026/
+URL:https://www.karikatur-museum.de/presse/jahresubersicht-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-museum-wilhelm-busch-20261127-tatjana-hauptmann-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:Letzter Tag: Tatjana Hauptmann
+LOCATION:Museum Wilhelm Busch – Deutsches Museum für Karikatur und Zeich
+ enkunst\, Georgengarten\, 30167 Hannover
+DESCRIPTION:Laufzeit: 27.11.2026 bis 24.2.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.karikatur-museum.de/presse/jahresubersicht-2026/
+URL:https://www.karikatur-museum.de/presse/jahresubersicht-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

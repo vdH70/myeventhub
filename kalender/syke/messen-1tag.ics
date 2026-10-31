@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Messen in Syke · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:dh-alte-rotation-syke-20261114-sanierungsmesse-umbau-statt-neubau@myeve
+ nthub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Sanierungsmesse – Umbau statt Neubau
+LOCATION:Alte Rotation Syke\, Am Ristedter Weg 17\, Syke
+DESCRIPTION:Messe der Stadt Syke rund um Sanierung und Umbau.\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.syke.de/regional/veranstaltungen/sa
+ nierungsmesse-umbau-statt-neubau-906012617-21800.html
+URL:https://www.syke.de/regional/veranstaltungen/sanierungsmesse-umbau-stat
+ t-neubau-906012617-21800.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

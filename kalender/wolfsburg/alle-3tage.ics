@@ -1,0 +1,496 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Wolfsburg · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20260905-welcome-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Letzter Tag: Welcome
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Laufzeit: 5.9.2026 bis 31.7.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://staedtische-galerie-wolfsburg.de/ausstellungen/
+URL:https://staedtische-galerie-wolfsburg.de/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-kunstmuseum-20260919-tell-me-where-home-is-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Tell Me Where Home Is
+LOCATION:Kunstmuseum Wolfsburg\, Hollerplatz 1\, 38440 Wolfsburg
+DESCRIPTION:Wechselausstellung des Kunstmuseums.\nLaufzeit: 19.9.2026 bis 1
+ 7.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.kunstmuseum.d
+ e/ausstellung/?filter=current
+URL:https://www.kunstmuseum.de/ausstellung/?filter=current
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-kunstmuseum-20261010-oeffentliche-fuehrungen-tell-me-where-home-end
+ e@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Öffentliche Führungen Tell Me Where Home Is
+LOCATION:Kunstmuseum Wolfsburg\, Hollerplatz 1\, 38440 Wolfsburg
+DESCRIPTION:Öffentliche Führung durch die Ausstellung\; zusätzlich ist e
+ in Tagesticket nötig.\nLaufzeit: 10.10.2026 bis 17.1.2027\nTermine laut V
+ eranstalter: öffentliche Führungen am Wochenende\, 16:00 Uhr\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.kunstmuseum.de/veranstaltungen/
+URL:https://www.kunstmuseum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261023-figure-out-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Beginn: Figure out!
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Laufzeit: 23.10.2026 bis 31.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://staedtische-galerie-wolfsburg.de/ausstellungen/
+URL:https://staedtische-galerie-wolfsburg.de/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261023-figure-out-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Figure out!
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Laufzeit: 23.10.2026 bis 31.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://staedtische-galerie-wolfsburg.de/ausstellungen/
+URL:https://staedtische-galerie-wolfsburg.de/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-porschestrasse-20261030-wolfsburger-streetfood-festival-beginn@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Wolfsburger Streetfood-Festival
+LOCATION:Wolfsburger Innenstadt (Porschestraße\, Hugo-Bork-Platz)\, Porsch
+ estraße\, Wolfsburg
+DESCRIPTION:Streetfood-Fest in der Innenstadt\, am 1.11. mit verkaufsoffene
+ m Sonntag.\nLaufzeit: 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://wmg-wolfsburg.de/news/veranstaltungsprogramm-der-wmg-
+ in-2026/
+URL:https://wmg-wolfsburg.de/news/veranstaltungsprogramm-der-wmg-in-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-porschestrasse-20261030-wolfsburger-streetfood-festival-ende@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Wolfsburger Streetfood-Festival
+LOCATION:Wolfsburger Innenstadt (Porschestraße\, Hugo-Bork-Platz)\, Porsch
+ estraße\, Wolfsburg
+DESCRIPTION:Streetfood-Fest in der Innenstadt\, am 1.11. mit verkaufsoffene
+ m Sonntag.\nLaufzeit: 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://wmg-wolfsburg.de/news/veranstaltungsprogramm-der-wmg-
+ in-2026/
+URL:https://wmg-wolfsburg.de/news/veranstaltungsprogramm-der-wmg-in-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-planetarium-20261031-halloween-gruselspass-unter-der-sternenkuppel@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T160000
+DTEND;TZID=Europe/Berlin:20261031T180000
+SUMMARY:Halloween – Gruselspaß unter der Sternenkuppel
+LOCATION:Planetarium Wolfsburg\, Uhlandweg 2\, 38440 Wolfsburg
+DESCRIPTION:Halloween-Show unter der Kuppel\, ab 6 Jahren\, Kostüme erwün
+ scht.\nEnde: laut Quelle nicht angegeben\nTickets: https://planetarium-wol
+ fsburg.ticketfritz.de/Event/Kalender/14483/51223?Typ=Vorlage\nQuelle (bitt
+ e vor dem Besuch prüfen): https://planetarium-wolfsburg.de/programm/hallo
+ ween-gruselspass-unter-der-sternenkuppel/
+URL:https://planetarium-wolfsburg.de/programm/halloween-gruselspass-unter-d
+ er-sternenkuppel/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261101-familiensonntag@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T113000
+DTEND;TZID=Europe/Berlin:20261101T133000
+SUMMARY:Familiensonntag
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Familienprogramm von 11:30 bis 18 Uhr.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://staedtische-gal
+ erie-wolfsburg.de/veranstaltungen/
+URL:https://staedtische-galerie-wolfsburg.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-kunstmuseum-20261103-stille-stunde@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T163000
+DTEND;TZID=Europe/Berlin:20261103T183000
+SUMMARY:Stille Stunde
+LOCATION:Kunstmuseum Wolfsburg\, Hollerplatz 1\, 38440 Wolfsburg
+DESCRIPTION:Reizarmer Museumsbesuch in ruhiger Atmosphäre.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ nstmuseum.de/veranstaltungen/
+URL:https://www.kunstmuseum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261105-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T170000
+DTEND;TZID=Europe/Berlin:20261105T190000
+SUMMARY:Öffentliche Führung
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://staedtische-galerie-wolfsburg.de/veranstaltungen/
+URL:https://staedtische-galerie-wolfsburg.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261107-workshop-druckgrafik-ab-14-jahren@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T110000
+DTEND;TZID=Europe/Berlin:20261107T130000
+SUMMARY:Workshop Druckgrafik ab 14 Jahren
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Workshop von 11 bis 16 Uhr\, ab 14 Jahren.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://staedtische
+ -galerie-wolfsburg.de/veranstaltungen/
+URL:https://staedtische-galerie-wolfsburg.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-kunstmuseum-20261111-feel-the-art@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T164500
+DTEND;TZID=Europe/Berlin:20261111T184500
+SUMMARY:Feel the Art
+LOCATION:Kunstmuseum Wolfsburg\, Hollerplatz 1\, 38440 Wolfsburg
+DESCRIPTION:Kunsterlebnis-Rundgang mit Gesundheitsbezug.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kunst
+ museum.de/veranstaltungen/
+URL:https://www.kunstmuseum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-congresspark-20261120-semino-rossi-feliz-navidad-tour-2026@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Semino Rossi – Feliz Navidad Tour 2026
+LOCATION:CongressPark Wolfsburg\, Heinrich-Heine-Straße\, 38440 Wolfsburg
+DESCRIPTION:Weihnachtskonzert im Großen Saal.\nEinlass 18:30\, Beginn 19:3
+ 0 Uhr\nEnde: laut Quelle nicht angegeben\nTickets: https://www.eventim.de/
+ event/semino-rossi-congress-park-wolfsburg-21301353/\nQuelle (bitte vor de
+ m Besuch prüfen): https://congresspark-wolfsburg.de/event/feliz-navidad-t
+ our-2026-semino-rossi/
+URL:https://congresspark-wolfsburg.de/event/feliz-navidad-tour-2026-semino-
+ rossi/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261122-workshop-druckgrafik-fuer-erwachsene@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:Workshop Druckgrafik für Erwachsene
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Workshop von 14 bis 17 Uhr.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://staedtische-galerie-wolfsb
+ urg.de/veranstaltungen/
+URL:https://staedtische-galerie-wolfsburg.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-porschestrasse-20261123-wolfsburger-weihnachtsmarkt-2026-beginn@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Wolfsburger Weihnachtsmarkt 2026
+LOCATION:Wolfsburger Innenstadt (Porschestraße\, Hugo-Bork-Platz)\, Porsch
+ estraße\, Wolfsburg
+DESCRIPTION:Mo–Do 11–21\, Fr/Sa 11–22\, So/Feiertag 13–20 Uhr\; 24.
+ /25.12. geschlossen.\nLaufzeit: 23.11.2026 bis 29.12.2026\nQuelle (bitte v
+ or dem Besuch prüfen): https://wmg-wolfsburg.de/projekt/weihnachtsmarkt/
+URL:https://wmg-wolfsburg.de/projekt/weihnachtsmarkt/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-porschestrasse-20261123-wolfsburger-weihnachtsmarkt-2026-ende@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Letzter Tag: Wolfsburger Weihnachtsmarkt 2026
+LOCATION:Wolfsburger Innenstadt (Porschestraße\, Hugo-Bork-Platz)\, Porsch
+ estraße\, Wolfsburg
+DESCRIPTION:Mo–Do 11–21\, Fr/Sa 11–22\, So/Feiertag 13–20 Uhr\; 24.
+ /25.12. geschlossen.\nLaufzeit: 23.11.2026 bis 29.12.2026\nQuelle (bitte v
+ or dem Besuch prüfen): https://wmg-wolfsburg.de/projekt/weihnachtsmarkt/
+URL:https://wmg-wolfsburg.de/projekt/weihnachtsmarkt/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261124-michel-friedman-mensch-liebeserklaerung-e
+ ines-verzweifelten@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T193000
+DTEND;TZID=Europe/Berlin:20261124T213000
+SUMMARY:Michel Friedman: „Mensch – Liebeserklärung eines verzweifelten
+  Demokraten“
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Lesung.\nEnde: laut Quelle nicht angegeben\nTickets: https://sc
+ haroun-theater-wolfsburg-webshop.tkt-datacenter.net/de/tickets\nQuelle (bi
+ tte vor dem Besuch prüfen): https://theater.wolfsburg.de/programm/lesen
+URL:https://theater.wolfsburg.de/programm/lesen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-kunstmuseum-20261201-stille-stunde@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T163000
+DTEND;TZID=Europe/Berlin:20261201T183000
+SUMMARY:Stille Stunde
+LOCATION:Kunstmuseum Wolfsburg\, Hollerplatz 1\, 38440 Wolfsburg
+DESCRIPTION:Reizarmer Museumsbesuch in ruhiger Atmosphäre.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ nstmuseum.de/veranstaltungen/
+URL:https://www.kunstmuseum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261202-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T170000
+DTEND;TZID=Europe/Berlin:20261202T190000
+SUMMARY:Öffentliche Führung
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://staedtische-galerie-wolfsburg.de/veranstaltungen/
+URL:https://staedtische-galerie-wolfsburg.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261210-lukas-rietzschel-liest-aus-seinem-roman@m
+ yeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T193000
+DTEND;TZID=Europe/Berlin:20261210T213000
+SUMMARY:Lukas Rietzschel liest aus seinem Roman „Sanditz“
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Lesung.\nEnde: laut Quelle nicht angegeben\nTickets: https://sc
+ haroun-theater-wolfsburg-webshop.tkt-datacenter.net/de/tickets\nQuelle (bi
+ tte vor dem Besuch prüfen): https://theater.wolfsburg.de/programm/lesen
+URL:https://theater.wolfsburg.de/programm/lesen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20270120-oskar-und-die-dame-in-rosa@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270120T193000
+DTEND;TZID=Europe/Berlin:20270120T213000
+SUMMARY:Oskar und die Dame in Rosa
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Schauspiel.\nEnde: laut Quelle nicht angegeben\nTickets: https:
+ //scharoun-theater-wolfsburg-webshop.tkt-datacenter.net/de/tickets\nQuelle
+  (bitte vor dem Besuch prüfen): https://theater.wolfsburg.de/programm/spi
+ elzeit-2026/2027
+URL:https://theater.wolfsburg.de/programm/spielzeit-2026/2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20270122-edward-gants-bravourstuecke-der-einsamkei
+ t@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T193000
+DTEND;TZID=Europe/Berlin:20270122T213000
+SUMMARY:Edward Gants Bravourstücke der Einsamkeit
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Schauspiel.\nEnde: laut Quelle nicht angegeben\nTickets: https:
+ //scharoun-theater-wolfsburg-webshop.tkt-datacenter.net/de/tickets\nQuelle
+  (bitte vor dem Besuch prüfen): https://theater.wolfsburg.de/programm/spi
+ elzeit-2026/2027
+URL:https://theater.wolfsburg.de/programm/spielzeit-2026/2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20270127-sophie-scholl-die-letzten-tage@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270127T110000
+DTEND;TZID=Europe/Berlin:20270127T130000
+SUMMARY:Sophie Scholl – Die letzten Tage
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Schauspiel des Jungen Theaters.\nEnde: laut Quelle nicht angege
+ ben\nTickets: https://scharoun-theater-wolfsburg-webshop.tkt-datacenter.ne
+ t/de/tickets\nQuelle (bitte vor dem Besuch prüfen): https://theater.wolfs
+ burg.de/junges-theater-1/spielzeit-2026/2027
+URL:https://theater.wolfsburg.de/junges-theater-1/spielzeit-2026/2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

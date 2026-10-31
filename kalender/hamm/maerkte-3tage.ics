@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Hamm · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ham-weihnachtsmarkt-20261123-hammer-weihnachtsmarkt-beginn@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Beginn: Hammer Weihnachtsmarkt
+LOCATION:Hammer Weihnachtsmarkt (an der Pauluskirche)\, Hamm
+DESCRIPTION:Laufzeit: 23.11.2026 bis 30.12.2026\nTermine laut Veranstalter:
+  So–Do 12–20 Uhr\, Fr/Sa 12–21 Uhr\; 24.–26.12. geschlossen\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.hamm.de/weihnachtsmarkt
+URL:https://www.hamm.de/weihnachtsmarkt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ham-weihnachtsmarkt-20261123-hammer-weihnachtsmarkt-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Letzter Tag: Hammer Weihnachtsmarkt
+LOCATION:Hammer Weihnachtsmarkt (an der Pauluskirche)\, Hamm
+DESCRIPTION:Laufzeit: 23.11.2026 bis 30.12.2026\nTermine laut Veranstalter:
+  So–Do 12–20 Uhr\, Fr/Sa 12–21 Uhr\; 24.–26.12. geschlossen\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.hamm.de/weihnachtsmarkt
+URL:https://www.hamm.de/weihnachtsmarkt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamm-maximilianpark-20261127-weihnachtsmarkt-2026-beginn@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Weihnachtsmarkt 2026
+LOCATION:Maximilianpark Hamm\, Alter Grenzweg 2\, 59071 Hamm
+DESCRIPTION:Laufzeit: 27.11.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://maximilianpark.de/veranstaltungen
+URL:https://maximilianpark.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamm-maximilianpark-20261127-weihnachtsmarkt-2026-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Weihnachtsmarkt 2026
+LOCATION:Maximilianpark Hamm\, Alter Grenzweg 2\, 59071 Hamm
+DESCRIPTION:Laufzeit: 27.11.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://maximilianpark.de/veranstaltungen
+URL:https://maximilianpark.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamm-maximilianpark-20270319-fruehjahrsmarkt-beginn@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Beginn: Frühjahrsmarkt
+LOCATION:Maximilianpark Hamm\, Alter Grenzweg 2\, 59071 Hamm
+DESCRIPTION:Laufzeit: 19.3.2027 bis 21.3.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://maximilianpark.de/veranstaltungen
+URL:https://maximilianpark.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamm-maximilianpark-20270319-fruehjahrsmarkt-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Letzter Tag: Frühjahrsmarkt
+LOCATION:Maximilianpark Hamm\, Alter Grenzweg 2\, 59071 Hamm
+DESCRIPTION:Laufzeit: 19.3.2027 bis 21.3.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://maximilianpark.de/veranstaltungen
+URL:https://maximilianpark.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

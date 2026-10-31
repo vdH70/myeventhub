@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Königswinter · my Event Hub (Erinnerung 1 T
+ ag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:su-siebengebirgsmuseum-20261115-finissage-jubeltage-feste-in-koenigswin
+ ter@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Finissage: Jubeltage. Feste in Königswinter
+LOCATION:Siebengebirgsmuseum\, Kellerstraße 16\, 53639 Königswinter
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.siebengebirg
+ smuseum.de/termine/
+URL:https://www.siebengebirgsmuseum.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-siebengebirgsmuseum-20261206-ausstellungseroeffnung-mit-forscherblic
+ k-durchs-rh@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Ausstellungseröffnung: Mit Forscherblick durchs Rheinland
+LOCATION:Siebengebirgsmuseum\, Kellerstraße 16\, 53639 Königswinter
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.siebengebirg
+ smuseum.de/termine/
+URL:https://www.siebengebirgsmuseum.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-siebengebirgsmuseum-20270228-finissage-landschaft-sage-und-geschicht
+ e-caspar-sc@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Finissage: Landschaft\, Sage und Geschichte. Caspar Scheuren und de
+ r Rhein
+LOCATION:Siebengebirgsmuseum\, Kellerstraße 16\, 53639 Königswinter
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.siebengebirg
+ smuseum.de/termine/
+URL:https://www.siebengebirgsmuseum.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festivals in Hamburg · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hh-kampnagel-20261119-ueberjazz-festival-2026-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Beginn: ÜBERJAZZ Festival 2026
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Jazzfestival in kompaktem Format in Halle K6\, mehrere Konzerte
+  pro Abend.\nLaufzeit: 19.11.2026 bis 21.11.2026\nTickets: https://tickets
+ .kj.de/\nQuelle (bitte vor dem Besuch prüfen): https://kampnagel.de/en/pr
+ oductions/grossebühne-ueberjazz-festival-2026-samstag-ueberjazz-festival-
+ 2026
+URL:https://kampnagel.de/en/productions/grossebühne-ueberjazz-festival-202
+ 6-samstag-ueberjazz-festival-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261119-ueberjazz-festival-2026-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Letzter Tag: ÜBERJAZZ Festival 2026
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Jazzfestival in kompaktem Format in Halle K6\, mehrere Konzerte
+  pro Abend.\nLaufzeit: 19.11.2026 bis 21.11.2026\nTickets: https://tickets
+ .kj.de/\nQuelle (bitte vor dem Besuch prüfen): https://kampnagel.de/en/pr
+ oductions/grossebühne-ueberjazz-festival-2026-samstag-ueberjazz-festival-
+ 2026
+URL:https://kampnagel.de/en/productions/grossebühne-ueberjazz-festival-202
+ 6-samstag-ueberjazz-festival-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

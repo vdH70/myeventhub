@@ -1,0 +1,108 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Berlin · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20261107-german-throwdown-2026-beginn@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Beginn: German Throwdown 2026
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Wettkampf im Functional Fitness in Hangar 6.\nLaufzeit: 7.11.20
+ 26 bis 8.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.thf-b
+ erlin.de/aktuelles/veranstaltungen/veranstaltung/german-throwdown-2026
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/germa
+ n-throwdown-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20261107-german-throwdown-2026-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: German Throwdown 2026
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Wettkampf im Functional Fitness in Hangar 6.\nLaufzeit: 7.11.20
+ 26 bis 8.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.thf-b
+ erlin.de/aktuelles/veranstaltungen/veranstaltung/german-throwdown-2026
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/germa
+ n-throwdown-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261212-we-love-mma@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T190000
+DTEND;TZID=Europe/Berlin:20261212T210000
+SUMMARY:We Love MMA
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Kampfsportabend mit Mixed-Martial-Arts-Kämpfen\, Zutritt ab 18
+  Jahren.\nEinlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angege
+ ben\nPreis: ab 20\,95 €\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.uber-arena.de/events/detail/we-love-mma-26/2026-12-12-1900
+URL:https://www.uber-arena.de/events/detail/we-love-mma-26/2026-12-12-1900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-max-schmeling-halle-20261213-fuechse-berlin-handball-club-hamburg@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T163000
+DTEND;TZID=Europe/Berlin:20261213T183000
+SUMMARY:Füchse Berlin – Handball Club Hamburg
+LOCATION:Max-Schmeling-Halle\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://hamburg-handball.de/spielplan/
+URL:https://hamburg-handball.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

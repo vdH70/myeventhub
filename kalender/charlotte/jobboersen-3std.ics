@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jobbörsen in Charlotte · my Event Hub (Erinnerung 3 Stunden 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:clt-embassy-suites-ayrsley-20261105-charlotte-career-fair@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=America/New_York:20261105T110000
+DTEND;TZID=America/New_York:20261105T130000
+SUMMARY:Charlotte Career Fair
+LOCATION:Embassy Suites by Hilton Charlotte Ayrsley\, 1917 Ayrsley Town Blv
+ d\, 28273 Charlotte
+DESCRIPTION:Jobmesse von Choice Career Fairs mit Personalverantwortlichen r
+ egionaler Arbeitgeber für Arbeitsuchende\, 11–14 Uhr.\nZeiten: Ortszeit
+  Charlotte\, US-Ostküste\nEnde: laut Quelle nicht angegeben\nPreis: koste
+ nlos\, Anmeldung nicht erforderlich\nQuelle (bitte vor dem Besuch prüfen)
+ : https://choicecareerfairs.com/e/charlotte-career-fair-november-05-2026
+URL:https://choicecareerfairs.com/e/charlotte-career-fair-november-05-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

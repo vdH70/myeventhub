@@ -1,0 +1,385 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Hannover · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-museum-fuer-textile-kunst-20260228-jeremy-gobe-lace-is-more-die-kunst
+ -mit-spitze-kora-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Jérémy Gobé – Lace is more – Die Kunst mit Spit
+ ze Korallen zu retten
+LOCATION:Museum für textile Kunst\, Borchersstraße 23\, 30559 Hannover
+DESCRIPTION:Laufzeit: 28.2.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://museum-fuer-textile-kunst.de/ausstellungen/
+URL:https://museum-fuer-textile-kunst.de/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-exposeeum-20261026-wa-germany-die-expo-zu-gast-in-deutschland-beginn@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Beginn: Wa! Germany – Die Expo zu Gast in Deutschland
+LOCATION:EXPOSEEUM\, Expo Plaza 1\, 30539 Hannover
+DESCRIPTION:Wanderausstellung zur Expo.\nLaufzeit: 26.10.2026 bis 22.11.202
+ 6\nQuelle (bitte vor dem Besuch prüfen): https://www.exposeeum.de/
+URL:https://www.exposeeum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-exposeeum-20261026-wa-germany-die-expo-zu-gast-in-deutschland-ende@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Wa! Germany – Die Expo zu Gast in Deutschland
+LOCATION:EXPOSEEUM\, Expo Plaza 1\, 30539 Hannover
+DESCRIPTION:Wanderausstellung zur Expo.\nLaufzeit: 26.10.2026 bis 22.11.202
+ 6\nQuelle (bitte vor dem Besuch prüfen): https://www.exposeeum.de/
+URL:https://www.exposeeum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landesmuseum-20261101-japanische-teezeremonie-vorfuehrung@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T113000
+DTEND;TZID=Europe/Berlin:20261101T133000
+SUMMARY:Japanische Teezeremonie (Vorführung)
+LOCATION:Landesmuseum Hannover\, Willy-Brandt-Allee 5\, 30169 Hannover
+DESCRIPTION:Weitere Vorführungen um 13:30 und 14:30 Uhr.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://landesmu
+ seum-hannover.de/angebote/veranstaltungskalender/
+URL:https://landesmuseum-hannover.de/angebote/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261104-sonder-schau-huhn-ei-eierbecher@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T150000
+DTEND;TZID=Europe/Berlin:20261104T170000
+SUMMARY:Sonder-Schau: Huhn\, Ei\, Eierbecher
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 12\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-pelikan-tintenturm-20261108-kostenlose-kuratorenfuehrung@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Kostenlose Kuratorenführung
+LOCATION:Pelikan TintenTurm\, Pelikanplatz 21\, 30177 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.pelikan.com/de/unternehmen/pelika
+ n-tintenturm.html
+URL:https://www.pelikan.com/de/unternehmen/pelikan-tintenturm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-pelikan-tintenturm-20261112-fuehrung-im-pelikan-tintenturm@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T150000
+DTEND;TZID=Europe/Berlin:20261112T170000
+SUMMARY:Führung im Pelikan TintenTurm
+LOCATION:Pelikan TintenTurm\, Pelikanplatz 21\, 30177 Hannover
+DESCRIPTION:Anmeldung bis 2 Tage vorher erforderlich.\nEnde: laut Quelle ni
+ cht angegeben\nPreis: 12\,50 € inkl. MwSt. pro Person\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.pelikan.com/de/unternehmen/pelikan-tinte
+ nturm.html
+URL:https://www.pelikan.com/de/unternehmen/pelikan-tintenturm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261118-sonder-schau-huhn-ei-eierbecher@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T150000
+DTEND;TZID=Europe/Berlin:20261118T170000
+SUMMARY:Sonder-Schau: Huhn\, Ei\, Eierbecher
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 12\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261119-champagnerfuehrung-mit-vortrag-tasting@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T170000
+DTEND;TZID=Europe/Berlin:20261119T190000
+SUMMARY:Champagnerführung mit Vortrag & Tasting
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 36\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landesmuseum-20261127-unter-schwarzer-flagge-piraten-zwischen-beginn@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Unter schwarzer Flagge. Piraten zwischen Nordsee und Karibi
+ k
+LOCATION:Landesmuseum Hannover\, Willy-Brandt-Allee 5\, 30169 Hannover
+DESCRIPTION:Laufzeit: 27.11.2026 bis 2.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://landesmuseum-hannover.de/ausstellungen/sonderausstellun
+ gen/unter-schwarzer-flagge-piraten-zwischen-nordsee-und-karibik/
+URL:https://landesmuseum-hannover.de/ausstellungen/sonderausstellungen/unte
+ r-schwarzer-flagge-piraten-zwischen-nordsee-und-karibik/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landesmuseum-20261127-unter-schwarzer-flagge-piraten-zwischen-ende@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Letzter Tag: Unter schwarzer Flagge. Piraten zwischen Nordsee und K
+ aribik
+LOCATION:Landesmuseum Hannover\, Willy-Brandt-Allee 5\, 30169 Hannover
+DESCRIPTION:Laufzeit: 27.11.2026 bis 2.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://landesmuseum-hannover.de/ausstellungen/sonderausstellun
+ gen/unter-schwarzer-flagge-piraten-zwischen-nordsee-und-karibik/
+URL:https://landesmuseum-hannover.de/ausstellungen/sonderausstellungen/unte
+ r-schwarzer-flagge-piraten-zwischen-nordsee-und-karibik/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landesmuseum-20261128-holzbein-augenklappe-und-papagei-die-welt-der-p
+ ira-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Beginn: Holzbein\, Augenklappe und Papagei? Die Welt der Pirat*inne
+ n
+LOCATION:Landesmuseum Hannover\, Willy-Brandt-Allee 5\, 30169 Hannover
+DESCRIPTION:Familienführung zum Thema Piraten\, ohne Anmeldung.\nLaufzeit:
+  28.11.2026 bis 26.12.2026\nTermine laut Veranstalter: 28.11.\, 29.11.\, 0
+ 5.12.\, 12.12.\, 19.12. und 26.12.2026\, jeweils 15 Uhr\nQuelle (bitte vor
+  dem Besuch prüfen): https://landesmuseum-hannover.de/angebote/veranstalt
+ ungskalender/
+URL:https://landesmuseum-hannover.de/angebote/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landesmuseum-20261128-holzbein-augenklappe-und-papagei-die-welt-der-p
+ ira-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Letzter Tag: Holzbein\, Augenklappe und Papagei? Die Welt der Pirat
+ *innen
+LOCATION:Landesmuseum Hannover\, Willy-Brandt-Allee 5\, 30169 Hannover
+DESCRIPTION:Familienführung zum Thema Piraten\, ohne Anmeldung.\nLaufzeit:
+  28.11.2026 bis 26.12.2026\nTermine laut Veranstalter: 28.11.\, 29.11.\, 0
+ 5.12.\, 12.12.\, 19.12. und 26.12.2026\, jeweils 15 Uhr\nQuelle (bitte vor
+  dem Besuch prüfen): https://landesmuseum-hannover.de/angebote/veranstalt
+ ungskalender/
+URL:https://landesmuseum-hannover.de/angebote/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261202-sonder-schau-huhn-ei-eierbecher@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T150000
+DTEND;TZID=Europe/Berlin:20261202T170000
+SUMMARY:Sonder-Schau: Huhn\, Ei\, Eierbecher
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 12\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-pelikan-tintenturm-20261206-kostenlose-kuratorenfuehrung@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Kostenlose Kuratorenführung
+LOCATION:Pelikan TintenTurm\, Pelikanplatz 21\, 30177 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.pelikan.com/de/unternehmen/pelika
+ n-tintenturm.html
+URL:https://www.pelikan.com/de/unternehmen/pelikan-tintenturm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-wok-world-of-kitchen-20261210-champagnerfuehrung-mit-vortrag-tasting@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T170000
+DTEND;TZID=Europe/Berlin:20261210T190000
+SUMMARY:Champagnerführung mit Vortrag & Tasting
+LOCATION:WOK – World Of Kitchen Museum\, Spichernstraße 22\, 30161 Hanno
+ ver
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: € 36\,00 p.P.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wok-museum.de/feste-termine
+ .html
+URL:https://www.wok-museum.de/feste-termine.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landesmuseum-20261229-piratenspass@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T130000
+DTEND;TZID=Europe/Berlin:20261229T150000
+SUMMARY:Piratenspaß
+LOCATION:Landesmuseum Hannover\, Willy-Brandt-Allee 5\, 30169 Hannover
+DESCRIPTION:„Ein Nachmittag mit vielen Bastelaktionen für kleine Seeräu
+ ber“ (13–17 Uhr).\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://landesmuseum-hannover.de/angebote/veranstal
+ tungskalender/
+URL:https://landesmuseum-hannover.de/angebote/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-landesmuseum-20261229-piratenspass-museum-in-aktion@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T130000
+DTEND;TZID=Europe/Berlin:20261229T150000
+SUMMARY:Piratenspaß – Museum in Aktion
+LOCATION:Landesmuseum Hannover\, Willy-Brandt-Allee 5\, 30169 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://landesmuseum-hannover.de/angebote/veranstaltungskalende
+ r/
+URL:https://landesmuseum-hannover.de/angebote/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

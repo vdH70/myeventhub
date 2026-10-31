@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Rastatt · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ra-badnerhalle-reithalle-20261121-zoeller-konsorten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Zöller & Konsorten
+LOCATION:BadnerHalle und Reithalle Rastatt\, Rastatt
+DESCRIPTION:Spielort: Reithalle Bürgersaal.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.wirtschaftundveranstaltungen.de/
+URL:https://www.wirtschaftundveranstaltungen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ra-badnerhalle-reithalle-20261129-fusion-blasmusik-trifft-rock@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:FUSION – Blasmusik trifft Rock
+LOCATION:BadnerHalle und Reithalle Rastatt\, Rastatt
+DESCRIPTION:Spielort: BadnerHalle.\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.wirtschaftundveranstaltungen.de/
+URL:https://www.wirtschaftundveranstaltungen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ra-badnerhalle-reithalle-20261219-blechschaden@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Blechschaden
+LOCATION:BadnerHalle und Reithalle Rastatt\, Rastatt
+DESCRIPTION:Spielort: BadnerHalle.\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.wirtschaftundveranstaltungen.de/
+URL:https://www.wirtschaftundveranstaltungen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

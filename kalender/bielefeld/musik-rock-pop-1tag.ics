@@ -1,0 +1,191 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Bielefeld · my Event Hub (Erinnerung 1 Tag vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bi-stadthalle-20261129-david-bowie-symphony-the-celebration-concert@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:David Bowie Symphony - The Celebration Concert
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20261205-ina-mueller-und-band-die-6-0-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Ina Müller und Band - Die 6.0 Tour
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20261206-ina-mueller-und-band-die-6-0-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Ina Müller und Band - Die 6.0 Tour
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-forum-20261229-the-busters@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T200000
+DTEND;TZID=Europe/Berlin:20261229T220000
+SUMMARY:The Busters
+LOCATION:Forum Bielefeld\, Meller Str. 2\, 33613 Bielefeld
+DESCRIPTION:Ska-Konzert der „Fette Fierzich“-Tour.\nEinlass 19:00\, Beg
+ inn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK: 35\,- zzgl. 
+ Geb.\nTickets: https://www.eventim.de/event/the-busters-fette-fierzich-for
+ um-bielefeld-21886621/?affiliate=TUG\nQuelle (bitte vor dem Besuch prüfen
+ ): https://forum-bielefeld.com/the-busters-11/
+URL:https://forum-bielefeld.com/the-busters-11/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270107-alte-bekannte-das-beste-von-frueher-bis-heute@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Alte Bekannte - Das Beste! Von Früher bis Heute
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270119-falco-meets-amadeus@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:FALCO MEETS AMADEUS
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270128-abba-diamonds-the-abba-tribute-show@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:ABBA Diamonds - The ABBA Tribute Show
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270307-jethro-tull-the-curiosity-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Jethro Tull - The Curiosity Tour
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bi-stadthalle-20270314-the-australian-pink-floyd-show-2027-greatest-hit
+ s@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:The Australian Pink Floyd Show - 2027 Greatest Hits World Tour
+LOCATION:Stadthalle Bielefeld\, Willy-Brandt-Platz 1\, 33602 Bielefeld
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-b
+ ielefeld.de/fuer-besucher/veranstaltungen
+URL:https://www.stadthalle-bielefeld.de/fuer-besucher/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

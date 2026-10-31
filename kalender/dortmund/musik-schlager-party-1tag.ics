@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager/Party in Dortmund · my Event Hub (Erinnerung 1 Tag v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:do-fritz-henssler-haus-20261106-ue16-club-night-44@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T210000
+DTEND;TZID=Europe/Berlin:20261106T230000
+SUMMARY:Ü16 Club Night 44
+LOCATION:Fritz-Henßler-Haus\, Geschwister-Scholl-Straße 33-37\, 44135 Dor
+ tmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fhh.de/musik.html
+URL:https://www.fhh.de/musik.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-hansa-theater-hoerde-20261220-udo-merci@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T170000
+DTEND;TZID=Europe/Berlin:20261220T190000
+SUMMARY:Udo\, merci
+LOCATION:Hansa Theater Hörde\, Eckardtstr. 4a\, 44263 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hansa-theater-hoerde.de/termine
+URL:https://www.hansa-theater-hoerde.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-hansa-theater-hoerde-20270116-einmal-um-die-schlagerwelt@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T193000
+DTEND;TZID=Europe/Berlin:20270116T213000
+SUMMARY:Einmal um die Schlagerwelt
+LOCATION:Hansa Theater Hörde\, Eckardtstr. 4a\, 44263 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hansa-theater-hoerde.de/termine
+URL:https://www.hansa-theater-hoerde.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-westfalenhallen-20270219-alexander-marcus-presslufthammer-tour-2027@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:Alexander Marcus – Presslufthammer Tour 2027
+LOCATION:Westfalenhallen Dortmund (Westfalenhalle)\, Strobelallee 45\, 4413
+ 9 Dortmund
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.westfalenhal
+ le.de/events-tickets/eventfinder/
+URL:https://www.westfalenhalle.de/events-tickets/eventfinder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-westfalenhallen-20270321-maite-kelly-unverschaemt-kelly-die-tour-mei
+ nes-leb@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Maite Kelly – Unverschämt Kelly – Die Tour meines Lebens
+LOCATION:Westfalenhallen Dortmund (Westfalenhalle)\, Strobelallee 45\, 4413
+ 9 Dortmund
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.westfalenhal
+ le.de/events-tickets/eventfinder/
+URL:https://www.westfalenhalle.de/events-tickets/eventfinder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-westfalenhallen-20270417-die-schlagernacht-des-jahres-2027@myeventhu
+ b.de
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Die Schlagernacht des Jahres 2027
+LOCATION:Westfalenhallen Dortmund (Westfalenhalle)\, Strobelallee 45\, 4413
+ 9 Dortmund
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.westfalenhal
+ le.de/events-tickets/eventfinder/
+URL:https://www.westfalenhalle.de/events-tickets/eventfinder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-westfalenhallen-20270420-roland-kaiser-unser-moment-arena-tour-2027@
+ myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Roland Kaiser – Unser Moment Arena Tour 2027
+LOCATION:Westfalenhallen Dortmund (Westfalenhalle)\, Strobelallee 45\, 4413
+ 9 Dortmund
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.westfalenhal
+ le.de/events-tickets/eventfinder/
+URL:https://www.westfalenhalle.de/events-tickets/eventfinder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

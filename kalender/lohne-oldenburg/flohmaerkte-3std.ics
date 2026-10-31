@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Flohmärkte in Lohne (Oldenburg) · my Event Hub (Erinnerung 3
+  Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lohne-industriemuseum-20261107-grosse-buecherboerse-beginn@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Beginn: Große Bücherbörse
+LOCATION:Industrie Museum Lohne\, Küstermeyerstraße 20\, 49393 Lohne (Old
+ enburg)
+DESCRIPTION:Neuntägiger Bücherflohmarkt im Museum.\nLaufzeit: 7.11.2026 b
+ is 15.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.industri
+ emuseum-lohne.de/
+URL:https://www.industriemuseum-lohne.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lohne-industriemuseum-20261107-grosse-buecherboerse-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Große Bücherbörse
+LOCATION:Industrie Museum Lohne\, Küstermeyerstraße 20\, 49393 Lohne (Old
+ enburg)
+DESCRIPTION:Neuntägiger Bücherflohmarkt im Museum.\nLaufzeit: 7.11.2026 b
+ is 15.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.industri
+ emuseum-lohne.de/
+URL:https://www.industriemuseum-lohne.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

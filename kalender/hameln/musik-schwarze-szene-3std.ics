@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schwarze Szene in Hameln · my Event Hub (Erinnerung 3 Stunden
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hm-sumpfblume-20261120-soulbound-x-hell-boulevard-made-in-syn-eu-tour-2
+ 02@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Soulbound x Hell Boulevard – Made in sYn EU Tour 2026
+LOCATION:Kulturzentrum Sumpfblume\, Am Stockhof 2a\, 31785 Hameln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://sumpfblume.de/ve
+ ranstaltungen/
+URL:https://sumpfblume.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Wolfsburg · my Event Hub (Erinnerung 1 Tag v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20260905-welcome-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Letzter Tag: Welcome
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Laufzeit: 5.9.2026 bis 31.7.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://staedtische-galerie-wolfsburg.de/ausstellungen/
+URL:https://staedtische-galerie-wolfsburg.de/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-kunstmuseum-20260919-tell-me-where-home-is-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Tell Me Where Home Is
+LOCATION:Kunstmuseum Wolfsburg\, Hollerplatz 1\, 38440 Wolfsburg
+DESCRIPTION:Wechselausstellung des Kunstmuseums.\nLaufzeit: 19.9.2026 bis 1
+ 7.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.kunstmuseum.d
+ e/ausstellung/?filter=current
+URL:https://www.kunstmuseum.de/ausstellung/?filter=current
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261023-figure-out-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Beginn: Figure out!
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Laufzeit: 23.10.2026 bis 31.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://staedtische-galerie-wolfsburg.de/ausstellungen/
+URL:https://staedtische-galerie-wolfsburg.de/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261023-figure-out-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Figure out!
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Laufzeit: 23.10.2026 bis 31.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://staedtische-galerie-wolfsburg.de/ausstellungen/
+URL:https://staedtische-galerie-wolfsburg.de/ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

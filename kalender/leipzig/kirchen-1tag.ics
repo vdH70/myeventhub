@@ -1,0 +1,1900 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kirchen in Leipzig · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:l-thomaskirche-20261031-festgottesdienst-zum-reformationstag-mit@myeven
+ thub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T093000
+DTEND;TZID=Europe/Berlin:20261031T113000
+SUMMARY:Festgottesdienst zum Reformationstag mit Bach-Kantate BWV 80
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Festgottesdienst mit „Ein feste Burg ist unser Gott“\, Thom
+ anerchor und Gewandhausorchester.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/ka
+ lender
+URL:https://www.thomaskirche.org/erleben/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261031-motette-orgelvesper@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Motette – Orgelvesper
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Orgelvesper in der Reihe Musik in Bachs Kirche mit Ivo Mrvelj.\
+ nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, 
+ Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.thomaskirche.org/erleben/kalender
+URL:https://www.thomaskirche.org/erleben/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261031-in-neuer-stimme-festkonzert-zur-einweihu@myeven
+ thub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:In neuer Stimme – Festkonzert zur Einweihung der rekonstruierten 
+ Bachvioline
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Bach: Brandenburgisches Konzert Nr. 5 und Suite h-Moll\, Vivald
+ i: Violinkonzert RV 230.\nEnde: laut Quelle nicht angegeben\nPreis: 25 €
+ \, erm. 15 €\nQuelle (bitte vor dem Besuch prüfen): https://www.thomask
+ irche.org/erleben/kalender
+URL:https://www.thomaskirche.org/erleben/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261101-hoer-mein-bitten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T153000
+DTEND;TZID=Europe/Berlin:20261101T173000
+SUMMARY:Hör mein Bitten
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Chor- und Orchesterkonzert mit Werken von Mendelssohn\, Mozart\
+ , Becker und Bach.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt fre
+ i\, Kollekte erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ homaskirche.org/erleben/kalender
+URL:https://www.thomaskirche.org/erleben/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261106-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T180000
+DTEND;TZID=Europe/Berlin:20261106T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender
+URL:https://www.thomaskirche.org/erleben/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261109-gottesdienst-zum-gedenken-an-die-reichsp@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T190000
+DTEND;TZID=Europe/Berlin:20261109T210000
+SUMMARY:Gottesdienst zum Gedenken an die Reichspogromnacht
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Gedenkgottesdienst zum 9. November 1938 mit dem Leipziger Synag
+ ogalchor.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanag
+ ement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87
+ a41ad357b8553
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad357
+ b8553
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261113-motette-mit-vox-convallis@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T180000
+DTEND;TZID=Europe/Berlin:20261113T200000
+SUMMARY:Motette mit Vox Convallis
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette in der Reihe Musik in Bachs Kirche mit dem Ensemble Vox
+  Convallis.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Lei
+ pzig-Pass\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_e
+ vents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad35
+ 7b8553
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad357
+ b8553
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261114-motette-mit-vox-convallis@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Motette mit Vox Convallis
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette in der Reihe Musik in Bachs Kirche mit dem Ensemble Vox
+  Convallis.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Lei
+ pzig-Pass\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_e
+ vents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad35
+ 7b8553
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad357
+ b8553
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261114-exklusive-orgelfuehrung-an-sauer-und-bac@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T183000
+DTEND;TZID=Europe/Berlin:20261114T203000
+SUMMARY:Exklusive Orgelführung an Sauer- und Bach-Orgel
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Führung an beiden Orgeln der Thomaskirche\, begrenzte Platzzah
+ l.\nEnde: laut Quelle nicht angegeben\nPreis: 25 €\, erm. 15 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kale
+ nder?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHa
+ sh=a3f8d28883afeb16b87a41ad357b8553
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad357
+ b8553
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261117-pruefungskonzert-orgel-johannes-guedelho@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T183000
+DTEND;TZID=Europe/Berlin:20261117T203000
+SUMMARY:Prüfungskonzert Orgel: Johannes Güdelhöfer
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Improvisationen an der Bach-Orgel und Regers op. 127 an der Sau
+ er-Orgel.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kale
+ nder?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHa
+ sh=a3f8d28883afeb16b87a41ad357b8553
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad357
+ b8553
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261118-sakramentsgottesdienst-am-buss-und-betta@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T093000
+DTEND;TZID=Europe/Berlin:20261118T113000
+SUMMARY:Sakramentsgottesdienst am Buß- und Bettag
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Gottesdienst zum Buß- und Bettag mit dem Leipziger Vocalensemb
+ le.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_
+ events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb
+ 07ff81f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261120-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T180000
+DTEND;TZID=Europe/Berlin:20261120T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07ff81f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261121-motette-mit-bach-kantate-bwv-131@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T150000
+DTEND;TZID=Europe/Berlin:20261121T170000
+SUMMARY:Motette mit Bach-Kantate BWV 131
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit der Kantate „Aus der Tiefen rufe ich\, Herr\, zu 
+ dir“.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig
+ -Pass\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_event
+ s%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07ff8
+ 1f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261121-alfred-schnittke-requiem-u-a@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T190000
+DTEND;TZID=Europe/Berlin:20261121T210000
+SUMMARY:Alfred Schnittke: Requiem u. a.
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Schnittkes Requiem mit dem Leipziger Universitätschor unter Da
+ vid Timm.\nEnde: laut Quelle nicht angegeben\nPreis: VVK 20 €\, erm. 10 
+ €\; Abendkasse 25 €\, erm. 15 €\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_e
+ vents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb0
+ 7ff81f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261122-nachteulengottesdienst-verheissen-wenn-alle-tra
+ ene@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:NachtEulenGottesdienst: „Verheißen – Wenn alle Tränen abgewis
+ cht werden“
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Abendlicher Themengottesdienst am Ewigkeitssonntag mit der Kape
+ lle Rohzinkes.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabevent
+ management_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f4761661
+ 6b86c5b62cb07ff81f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261127-motette-mit-amici-musicae@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T180000
+DTEND;TZID=Europe/Berlin:20261127T200000
+SUMMARY:Motette mit amici musicae
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Chor und Orchester amici musicae.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schül
+ er frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.
+ org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurr
+ entPage%5D=3&cHash=c27868f47616616b86c5b62cb07ff81f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261128-motette-mit-bach-kantate-bwv-62@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:Motette mit Bach-Kantate BWV 62
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette zum Advent mit „Nun komm\, der Heiden Heiland“.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kin
+ der und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widg
+ et_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261128-seid-getrost-adventspasticcio@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Seid getrost – Adventspasticcio
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Adventliche Werke von Händel\, Telemann\, Graupner und Bach.\n
+ Ende: laut Quelle nicht angegeben\nPreis: 28 €\, erm. 23 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender
+ ?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9
+ bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261129-adventsmusik-der-kinderchoere@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Adventsmusik der Kinderchöre
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Adventsmusik mit Nachwuchschören\, Kurrenden und Blockflötene
+ nsemble der Thomaskirche.\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?t
+ x_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb
+ 055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261204-motette-mit-calens-vocalensemble@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T180000
+DTEND;TZID=Europe/Berlin:20261204T200000
+SUMMARY:Motette mit calens vocalensemble
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette in der Reihe Musik in Bachs Kirche.\nEnde: laut Quelle 
+ nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler
+  frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.or
+ g/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurren
+ tPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261204-bach-weihnachtsoratorium-iiii@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Bach: Weihnachtsoratorium I–III
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Kantaten I bis III mit Leipziger Vocalensemble und Leipziger Ba
+ rockorchester.\nEnde: laut Quelle nicht angegeben\nPreis: ab 21\,30 €\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben
+ /kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=
+ 4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261205-motette-mit-calens-vocalensemble@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Motette mit calens vocalensemble
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette in der Reihe Musik in Bachs Kirche.\nEnde: laut Quelle 
+ nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler
+  frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.or
+ g/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurren
+ tPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261205-bach-weihnachtsoratorium-i-ivvi@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Bach: Weihnachtsoratorium I\, IV–VI
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Kantaten I und IV bis VI mit Leipziger Vocalensemble und Leipzi
+ ger Barockorchester.\nEnde: laut Quelle nicht angegeben\nPreis: ab 21\,30 
+ €\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261206-familiengottesdienst-nikolaus-schenken@myeventh
+ ub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Familiengottesdienst „Nikolaus – Schenken“
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Familiengottesdienst zum Nikolaustag mit Landesbischof Tobias B
+ ilz und Kinderchören.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_i
+ fabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055
+ e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261206-abendgottesdienst-mit-gospelchor@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+DTEND;TZID=Europe/Berlin:20261206T200000
+SUMMARY:Abendgottesdienst mit Gospelchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Abendgottesdienst mit dem Gospelchor „Open up wide“.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%
+ 40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f527d1be
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f52
+ 7d1be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261207-orgelkonzert-im-kerzenschein@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T193000
+DTEND;TZID=Europe/Berlin:20261207T213000
+SUMMARY:Orgelkonzert im Kerzenschein
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Orgelwerke von Bach\, Saint-Saëns\, Elgar und Karg-Elert.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 15 €\, erm. 10 €\, bis 18 Jahre
+  frei\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org
+ /erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurrent
+ Page%5D=5&cHash=6143f951ea4d86e9e34e4cd5f527d1be
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f52
+ 7d1be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261211-bach-weihnachtsoratorium-ivi-mit-dem-tho@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T190000
+DTEND;TZID=Europe/Berlin:20261211T210000
+SUMMARY:Bach: Weihnachtsoratorium I–VI mit dem Thomanerchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Alle sechs Kantaten mit Thomanerchor und Gewandhausorchester.\n
+ Ende: laut Quelle nicht angegeben\nPreis: 80–125 €\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifab
+ eventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951e
+ a4d86e9e34e4cd5f527d1be
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f52
+ 7d1be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261212-bach-weihnachtsoratorium-ivi-mit-dem-tho@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T170000
+DTEND;TZID=Europe/Berlin:20261212T190000
+SUMMARY:Bach: Weihnachtsoratorium I–VI mit dem Thomanerchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Alle sechs Kantaten mit Thomanerchor und Gewandhausorchester.\n
+ Ende: laut Quelle nicht angegeben\nPreis: 85–135 €\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifab
+ eventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951e
+ a4d86e9e34e4cd5f527d1be
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f52
+ 7d1be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261213-bach-weihnachtsoratorium-ivi-mit-dem-tho@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Bach: Weihnachtsoratorium I–VI mit dem Thomanerchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Alle sechs Kantaten mit Thomanerchor und Gewandhausorchester.\n
+ Ende: laut Quelle nicht angegeben\nPreis: 80–125 €\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifab
+ eventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951e
+ a4d86e9e34e4cd5f527d1be
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f52
+ 7d1be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261220-weihnachtsliederabend-des-thomanerchores@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T190000
+DTEND;TZID=Europe/Berlin:20261220T210000
+SUMMARY:Weihnachtsliederabend des Thomanerchores
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Weihnachtliche Chorlieder mit dem Thomanerchor und Thomasorgani
+ st Johannes Lang.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabev
+ entmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e8
+ 1ac352f8e69489e78f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261221-weihnachtsliederabend-des-thomanerchores@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261221T190000
+DTEND;TZID=Europe/Berlin:20261221T210000
+SUMMARY:Weihnachtsliederabend des Thomanerchores
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Weihnachtliche Chorlieder mit dem Thomanerchor und Thomasorgani
+ st Johannes Lang.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabev
+ entmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e8
+ 1ac352f8e69489e78f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261222-weihnachtsliederabend-des-thomanerchores@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T190000
+DTEND;TZID=Europe/Berlin:20261222T210000
+SUMMARY:Weihnachtsliederabend des Thomanerchores
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Weihnachtliche Chorlieder mit dem Thomanerchor und Thomasorgani
+ st Johannes Lang.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabev
+ entmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e8
+ 1ac352f8e69489e78f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261224-weihnachtsmotette@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T133000
+DTEND;TZID=Europe/Berlin:20261224T153000
+SUMMARY:Weihnachtsmotette
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette am Heiligen Abend mit Thomanerchor und Gewandhausmusike
+ rn.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pas
+ s\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B
+ %40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e78f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261224-christvesper-mit-dem-thomanerchor@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T160000
+DTEND;TZID=Europe/Berlin:20261224T180000
+SUMMARY:Christvesper mit dem Thomanerchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Christvesper am Heiligen Abend mit dem Thomanerchor.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40wi
+ dget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e78f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261224-christvesper-18@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T180000
+DTEND;TZID=Europe/Berlin:20261224T200000
+SUMMARY:Christvesper mit dem Leipziger Vocalensemble
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Christvesper am Heiligen Abend mit dem Leipziger Vocalensemble.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_eve
+ nts%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e78
+ f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261224-komplet-in-der-heiligen-nacht@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T235900
+DTEND;TZID=Europe/Berlin:20261225T015900
+SUMMARY:Komplet in der Heiligen Nacht
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Nachtgebet mit den Männerstimmen des Thomanerchores.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40w
+ idget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4923af
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4
+ 923af
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261225-festgottesdienst-zum-1-weihnachtstag-mit@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T093000
+DTEND;TZID=Europe/Berlin:20261225T113000
+SUMMARY:Festgottesdienst zum 1. Weihnachtstag mit Weihnachtsoratorium Kanta
+ te I
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Festgottesdienst mit Thomanerchor und Gewandhausorchester.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5
+ B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4923af
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4
+ 923af
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261226-festgottesdienst-zum-2-weihnachtstag-mit@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T093000
+DTEND;TZID=Europe/Berlin:20261226T113000
+SUMMARY:Festgottesdienst zum 2. Weihnachtstag mit Weihnachtsoratorium Kanta
+ te II
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Festgottesdienst mit amici musicae Chor & Orchester.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40wi
+ dget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4923af
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4
+ 923af
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261226-singgottesdienst@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T180000
+DTEND;TZID=Europe/Berlin:20261226T200000
+SUMMARY:Singgottesdienst
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Singgottesdienst am zweiten Weihnachtstag mit dem Posaunenchor 
+ der Thomaskirche.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabev
+ entmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f911
+ 3cb4b4e116ab72e4923af
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4
+ 923af
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261231-silvestermotette-mit-weihnachtsoratorium@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T133000
+DTEND;TZID=Europe/Berlin:20261231T153000
+SUMMARY:Silvestermotette mit Weihnachtsoratorium Kantate IV
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette zum Jahresschluss mit Thomanerchor und Gewandhausorches
+ ter.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pa
+ ss\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5
+ B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4923af
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4
+ 923af
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261231-sakramentsgottesdienst-am-altjahresabend@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T180000
+DTEND;TZID=Europe/Berlin:20261231T200000
+SUMMARY:Sakramentsgottesdienst am Altjahresabend
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Gottesdienst zum Jahresschluss in der Thomaskirche.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40wid
+ get_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4923af
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4
+ 923af
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261231-silvesterkonzert-feuerwerk-fuer-orgel-un@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T210000
+DTEND;TZID=Europe/Berlin:20261231T230000
+SUMMARY:Silvesterkonzert: Feuerwerk für Orgel und Trompete
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Werke von Bach\, Händel\, Telemann u. a. für Trompete und Org
+ el.\nEnde: laut Quelle nicht angegeben\nPreis: 15 €\, erm. 10 €\, bis 
+ 18 Jahre frei\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaski
+ rche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5
+ BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4923af
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4
+ 923af
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270101-gottesdienst-zum-neujahrstag@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T110000
+DTEND;TZID=Europe/Berlin:20270101T130000
+SUMMARY:Gottesdienst zum Neujahrstag
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Gottesdienst zum Neujahrstag mit Orgel und Trompete.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40wi
+ dget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270101-j-s-bach-weihnachtsoratorium-kantaten-ivvi@myev
+ enthub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T170000
+DTEND;TZID=Europe/Berlin:20270101T190000
+SUMMARY:J.S. Bach: Weihnachtsoratorium (Kantaten IV–VI)
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Bachs Weihnachtsoratorium\, Kantaten IV bis VI\, mit dem Bach C
+ onsort Leipzig.\nEnde: laut Quelle nicht angegeben\nPreis: Vorverkauf 28 
+ €\, erm. 23 €\; Abendkasse 30 €\, erm. 25 €\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabeve
+ ntmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db
+ 89aac76e04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270102-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270102T150000
+DTEND;TZID=Europe/Berlin:20270102T170000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Musik von Bach und anderen.\nEnde: laut Quelle nich
+ t angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fre
+ i)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/er
+ leben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPag
+ e%5D=8&cHash=3bb4a5ddb7db89aac76e04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270106-festgottesdienst-zu-epiphanias-mit-bach-kantate
+ -bw@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T093000
+DTEND;TZID=Europe/Berlin:20270106T113000
+SUMMARY:Festgottesdienst zu Epiphanias mit Bach-Kantate BWV 248 VI
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Festgottesdienst zu Epiphanias mit Kantate VI des Weihnachtsora
+ toriums.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanage
+ ment_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e
+ 04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270108-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T180000
+DTEND;TZID=Europe/Berlin:20270108T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270109-motette-mit-bach-kantate-bwv-154@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T150000
+DTEND;TZID=Europe/Berlin:20270109T170000
+SUMMARY:Motette mit Bach-Kantate BWV 154
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Mein liebster Jesus ist verloren
+ “.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pa
+ ss\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5
+ B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270115-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T180000
+DTEND;TZID=Europe/Berlin:20270115T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270116-motette-mit-bach-kantate-bwv-3@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T150000
+DTEND;TZID=Europe/Berlin:20270116T170000
+SUMMARY:Motette mit Bach-Kantate BWV 3
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Ach Gott\, wie manches Herzeleid
+ “.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pa
+ ss\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5
+ B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270122-motette-mit-dem-stadtsingechor-zu-halle@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T180000
+DTEND;TZID=Europe/Berlin:20270122T200000
+SUMMARY:Motette mit dem Stadtsingechor zu Halle
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Stadtsingechor zu Halle.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270123-motette-mit-dem-stadtsingechor-zu-halle@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T150000
+DTEND;TZID=Europe/Berlin:20270123T170000
+SUMMARY:Motette mit dem Stadtsingechor zu Halle
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Stadtsingechor zu Halle.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270124-familiengottesdienst-mit-dem-thomanernachwuchsc
+ hor@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T110000
+DTEND;TZID=Europe/Berlin:20270124T130000
+SUMMARY:Familiengottesdienst mit dem Thomanernachwuchschor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Familiengottesdienst mit dem Nachwuchschor der Thomaner.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%
+ 40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270125-pruefungskonzert-orgel-sunghoon-kim@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270125T183000
+DTEND;TZID=Europe/Berlin:20270125T203000
+SUMMARY:Prüfungskonzert Orgel: Sunghoon Kim
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Orgel-Prüfungskonzert mit Werken aus Bachs Clavierübung III.\
+ nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19
+ d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270129-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T180000
+DTEND;TZID=Europe/Berlin:20270129T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=10&cHash=2ebd0da87d246ff5d5d8d6aff58140b9
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=10&cHash=2ebd0da87d246ff5d5d8d6aff5
+ 8140b9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270130-motette-mit-bach-kantate-bwv-195@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T150000
+DTEND;TZID=Europe/Berlin:20270130T170000
+SUMMARY:Motette mit Bach-Kantate BWV 195
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Dem Gerechten muss das Licht“.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_event
+ s%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2b89
+ 0dc
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2
+ b890dc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270130-exklusive-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T183000
+DTEND;TZID=Europe/Berlin:20270130T203000
+SUMMARY:Exklusive Orgelführung
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Führung an den Orgeln der Thomaskirche mit Thomasorganist Joha
+ nnes Lang.\nEnde: laut Quelle nicht angegeben\nPreis: 25 €\, erm. 15 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erle
+ ben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%
+ 5D=11&cHash=db6fbd997cce6a4fc505bcdfd2b890dc
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2
+ b890dc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270205-motette-mit-dem-leipziger-vocalensemble@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T180000
+DTEND;TZID=Europe/Berlin:20270205T200000
+SUMMARY:Motette mit dem Leipziger Vocalensemble
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Leipziger Vocalensemble.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2b890dc
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2
+ b890dc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270206-motette-mit-dem-leipziger-vocalensemble@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T150000
+DTEND;TZID=Europe/Berlin:20270206T170000
+SUMMARY:Motette mit dem Leipziger Vocalensemble
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Leipziger Vocalensemble.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2b890dc
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2
+ b890dc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270226-motette-mit-dem-collegium-thomanum@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T180000
+DTEND;TZID=Europe/Berlin:20270226T200000
+SUMMARY:Motette mit dem collegium thomanum
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem collegium thomanum.\nEnde: laut Quelle nicht an
+ gegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler frei)\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erlebe
+ n/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D
+ =14&cHash=75bad48e0db1bee44b0a73d7063efd35
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=14&cHash=75bad48e0db1bee44b0a73d706
+ 3efd35
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270227-motette-mit-dem-collegium-thomanum@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T150000
+DTEND;TZID=Europe/Berlin:20270227T170000
+SUMMARY:Motette mit dem collegium thomanum
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem collegium thomanum.\nEnde: laut Quelle nicht an
+ gegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler frei)\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erlebe
+ n/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D
+ =14&cHash=75bad48e0db1bee44b0a73d7063efd35
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=14&cHash=75bad48e0db1bee44b0a73d706
+ 3efd35
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270305-motette-mit-der-schola-cantorum-leipzig@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T180000
+DTEND;TZID=Europe/Berlin:20270305T200000
+SUMMARY:Motette mit der Schola Cantorum Leipzig
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit der Schola Cantorum Leipzig.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56c5b2cd
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56
+ c5b2cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270306-motette-mit-der-schola-cantorum-leipzig@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T150000
+DTEND;TZID=Europe/Berlin:20270306T170000
+SUMMARY:Motette mit der Schola Cantorum Leipzig
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit der Schola Cantorum Leipzig.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56c5b2cd
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56
+ c5b2cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270306-exklusive-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T183000
+DTEND;TZID=Europe/Berlin:20270306T203000
+SUMMARY:Exklusive Orgelführung
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Führung an den Orgeln der Thomaskirche mit Assistenzorganist I
+ vo Mrvelj.\nEnde: laut Quelle nicht angegeben\nPreis: 25 €\, erm. 15 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erle
+ ben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%
+ 5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56c5b2cd
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56
+ c5b2cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270312-motette-mit-amici-musicae@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T180000
+DTEND;TZID=Europe/Berlin:20270312T200000
+SUMMARY:Motette mit amici musicae
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Chor und Orchester amici musicae.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schül
+ er frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.
+ org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurr
+ entPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56c5b2cd
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56
+ c5b2cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270313-motette-mit-amici-musicae@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T150000
+DTEND;TZID=Europe/Berlin:20270313T170000
+SUMMARY:Motette mit amici musicae
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Chor und Orchester amici musicae.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schül
+ er frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.
+ org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurr
+ entPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56c5b2cd
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56
+ c5b2cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270319-singt-euch-ein@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T110000
+DTEND;TZID=Europe/Berlin:20270319T130000
+SUMMARY:Singt Euch ein!
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Mitsing-Konzert von Schulchören aus Leipzig und Umgebung.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabev
+ entmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab
+ 2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270319-motette-orgelvesper@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T180000
+DTEND;TZID=Europe/Berlin:20270319T200000
+SUMMARY:Motette – Orgelvesper
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette als Orgelvesper mit Daniel Beilschmidt.\nEnde: laut Que
+ lle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Sch
+ üler frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirc
+ he.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bc
+ urrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270320-motette-orgelvesper@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T150000
+DTEND;TZID=Europe/Berlin:20270320T170000
+SUMMARY:Motette – Orgelvesper
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette als Orgelvesper mit Daniel Beilschmidt.\nEnde: laut Que
+ lle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Sch
+ üler frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirc
+ he.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bc
+ urrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270325-j-s-bach-matthaeuspassion-bwv-244-300-jahre-mat
+ tha@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270325T190000
+DTEND;TZID=Europe/Berlin:20270325T210000
+SUMMARY:J.S. Bach: Matthäuspassion BWV 244 (300 Jahre Matthäuspassion)
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Bachs Matthäuspassion zum 300. Jubiläum mit Thomanerchor und 
+ Gewandhausorchester.\nEnde: laut Quelle nicht angegeben\nPreis: 95/75/60/4
+ 5 €\, Flexpreise 105/83/66/50 €\, ermäßigt für Berechtigte\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalen
+ der?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHa
+ sh=7cc02e24ab2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270326-sakramentsgottesdienst-am-karfreitag@myeventhub
+ .de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T093000
+DTEND;TZID=Europe/Berlin:20270326T113000
+SUMMARY:Sakramentsgottesdienst am Karfreitag
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Gottesdienst am Karfreitag mit dem Kammerchor Josquin des Préz
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270326-andacht-zur-sterbestunde@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T150000
+DTEND;TZID=Europe/Berlin:20270326T170000
+SUMMARY:Andacht zur Sterbestunde
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Andacht zur Sterbestunde Jesu am Karfreitag.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thoma
+ skirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5
+ D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270326-j-s-bach-matthaeuspassion-bwv-244-300-jahre-mat
+ tha@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T190000
+DTEND;TZID=Europe/Berlin:20270326T210000
+SUMMARY:J.S. Bach: Matthäuspassion BWV 244 (300 Jahre Matthäuspassion)
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Bachs Matthäuspassion zum 300. Jubiläum mit Thomanerchor und 
+ Gewandhausorchester.\nEnde: laut Quelle nicht angegeben\nPreis: 95/75/60/4
+ 5 €\, Flexpreise 105/83/66/50 €\, ermäßigt für Berechtigte\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalen
+ der?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHa
+ sh=7cc02e24ab2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270328-ostermette-am-ostersonntag@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270328T060000
+DTEND;TZID=Europe/Berlin:20270328T080000
+SUMMARY:Ostermette am Ostersonntag
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Ostermette in der Frühe des Ostersonntags mit dem Thomanerchor
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec
+ 50df02
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec
+ 50df02
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270328-festgottesdienst-am-ostersonntag-mit-bach-kanta
+ te@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270328T093000
+DTEND;TZID=Europe/Berlin:20270328T113000
+SUMMARY:Festgottesdienst am Ostersonntag mit Bach-Kantate BWV 31
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Festgottesdienst zu Ostern mit Bachs Kantate BWV 31.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40wi
+ dget_0%5D%5BcurrentPage%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec50df02
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec
+ 50df02
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270328-singgottesdienst-am-ostersonntag@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270328T180000
+DTEND;TZID=Europe/Berlin:20270328T200000
+SUMMARY:Singgottesdienst am Ostersonntag
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Singgottesdienst zu Ostern mit dem Posaunenchor.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ homaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget
+ _0%5D%5BcurrentPage%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec50df02
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec
+ 50df02
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270329-festgottesdienst-am-ostermontag@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270329T093000
+DTEND;TZID=Europe/Berlin:20270329T113000
+SUMMARY:Festgottesdienst am Ostermontag
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Festgottesdienst am Ostermontag.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/
+ erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentP
+ age%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec50df02
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec
+ 50df02
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270402-motette-mit-dem-leipziger-kammerchor@myeventhub
+ .de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270402T180000
+DTEND;TZID=Europe/Berlin:20270402T200000
+SUMMARY:Motette mit dem Leipziger Kammerchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Leipziger Kammerchor.\nEnde: laut Quelle nicht 
+ angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler frei)
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erle
+ ben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%
+ 5D=16&cHash=bf7ad9293a2e6b11b9ea397cec50df02
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec
+ 50df02
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270410-motette-mit-bach-kantate-bwv-104@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T150000
+DTEND;TZID=Europe/Berlin:20270410T170000
+SUMMARY:Motette mit Bach-Kantate BWV 104
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Du Hirte Israel\, höre“.\nEnde:
+  laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder
+  und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ omaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_
+ 0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270416-motette-mit-dem-kammerchor-des-koelner-maenner-
+ ges@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T180000
+DTEND;TZID=Europe/Berlin:20270416T200000
+SUMMARY:Motette mit dem Kammerchor des Kölner Männer-Gesang-Vereins
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Kammerchor des Kölner Männer-Gesang-Vereins.\
+ nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, 
+ Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40w
+ idget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270417-motette-mit-dem-kammerchor-des-koelner-maenner-
+ ges@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T150000
+DTEND;TZID=Europe/Berlin:20270417T170000
+SUMMARY:Motette mit dem Kammerchor des Kölner Männer-Gesang-Vereins
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Kammerchor des Kölner Männer-Gesang-Vereins.\
+ nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, 
+ Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40w
+ idget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270417-exklusive-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T183000
+DTEND;TZID=Europe/Berlin:20270417T203000
+SUMMARY:Exklusive Orgelführung
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Führung an den Orgeln der Thomaskirche mit Assistenzorganist I
+ vo Mrvelj.\nEnde: laut Quelle nicht angegeben\nPreis: 25 €\, erm. 15 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erle
+ ben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%
+ 5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270423-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270423T180000
+DTEND;TZID=Europe/Berlin:20270423T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270424-motette-mit-bach-kantate-bwv-12@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T150000
+DTEND;TZID=Europe/Berlin:20270424T170000
+SUMMARY:Motette mit Bach-Kantate BWV 12
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Weinen\, Klagen\, Sorgen\, Zagen
+ “.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pa
+ ss\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5
+ B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

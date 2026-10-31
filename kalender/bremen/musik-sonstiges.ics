@@ -1,0 +1,973 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Bremen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lila-eule-20261031-headgear-halloween-hometown-show@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:HEADGEAR Halloween Hometown Show
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lilaeule.com/show
+ s-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stadtbibliothek-bremen-zentralbibliothek-20261101-vokal-lokal@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Vokal-Lokal
+LOCATION:Stadtbibliothek Bremen – Zentralbibliothek\, Am Wall 201\, 28195
+  Bremen
+DESCRIPTION:Chorkonzert im Wall-Saal.\nEnde: laut Quelle nicht angegeben\nP
+ reis: kostenlos\nQuelle (bitte vor dem Besuch prüfen): https://stabi-hb.d
+ e/termine/?f_bibliothek=&f_schlagwoerter%5B%5D=121&f_datum=&f_datum_bis=
+URL:https://stabi-hb.de/termine/?f_bibliothek=&f_schlagwoerter%5B%5D=121&f_
+ datum=&f_datum_bis=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20261101-eze-joschy@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T200000
+DTEND;TZID=Europe/Berlin:20261101T220000
+SUMMARY:Ezé + JoschY
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:"10 Jahre zwischen Welten".\nEinlass 19:00\, Beginn 20:00 Uhr\n
+ Ende: laut Quelle nicht angegeben\nPreis: 20 € zzgl. Gebühren\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.kulturzentrum-lagerhaus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20261102-tango-differente@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T193000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:Tango Differente
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturzentrum-lagerhaus.de/kultur/3653/tango-differ
+ ente
+URL:https://www.kulturzentrum-lagerhaus.de/kultur/3653/tango-differente
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-uni-theatersaal-20261103-cinnamon-moon-songs-aus-dem-theaterstueck-i
+ ch-bins@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T123000
+DTEND;TZID=Europe/Berlin:20261103T143000
+SUMMARY:Cinnamon Moon – Songs aus dem Theaterstück „Ich bin’s Paula
+ “
+LOCATION:Theatersaal der Universität Bremen\, Bibliothekstraße 1\, 28359 
+ Bremen
+DESCRIPTION:Kostenloses Mittagskonzert der Uni Bremen\, ca. 25 Minuten.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.uni-bremen.de/konzerte/semesteruebersicht/
+ wintersemester-2026-27/dienstag-3-november-2026-1230-uhr-theatersaal-eintr
+ itt-freicinnamon-moon-songs-aus-dem-theaterstueck-ich-bins-paula
+URL:https://www.uni-bremen.de/konzerte/semesteruebersicht/wintersemester-20
+ 26-27/dienstag-3-november-2026-1230-uhr-theatersaal-eintritt-freicinnamon-
+ moon-songs-aus-dem-theaterstueck-ich-bins-paula
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261103-rudelsingen-mit-team-broker@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T193000
+DTEND;TZID=Europe/Berlin:20261103T213000
+SUMMARY:Rudelsingen – mit Team Bröker
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Gemeinsames Singen.\nEinlass 18:30\, Beginn 19:30 Uhr\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.modernes.de/programm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-kultur-im-bunker-20261104-emil-saiz-gehirn-implosion@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Emil Saiz – Gehirn.Implosion
+LOCATION:Kultur im Bunker\, Berliner Str. 22C\, 28203 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.kultur-im-bu
+ nker.de/2022/events/
+URL:https://www.kultur-im-bunker.de/2022/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20261106-micha@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:MICHA (ausverkauft)
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Einlass 19:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.lila
+ eule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerzentrum-neue-vahr-20261107-tanztee-mit-den-young-oldies@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T150000
+DTEND;TZID=Europe/Berlin:20261107T170000
+SUMMARY:Tanztee mit den Young Oldies
+LOCATION:Bürgerzentrum Neue Vahr\, Berliner Freiheit 10\, 28327 Bremen
+DESCRIPTION:Tanztee im Saal\, bis 18:00 Uhr.\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VK 11 € / AK 14 €\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.bzvahr.de/veranstaltungen/tanztee-mit-den-young-oldies/
+URL:https://www.bzvahr.de/veranstaltungen/tanztee-mit-den-young-oldies/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20261107-the-magic-mumble-jumble@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:The Magic Mumble Jumble
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 34\,90 € inkl. Gebühren\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.kulturzentrum-lagerhaus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20261107-ana-lucia@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:ANA LUCIA (ausverkauft)
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.lila
+ eule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20261113-kanadia@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:KANADIA
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Einlass 19:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lilaeule.com/show
+ s-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261113-double-o-soul@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T210000
+DTEND;TZID=Europe/Berlin:20261113T230000
+SUMMARY:Double-O-Soul
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Soul & Funk\, Bremen\nEnde: laut Quelle nicht angegeben\nPreis:
+  AK 22\,-\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfrei.d
+ e/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20261114-lina-boe@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:LINA BOÉ (ausverkauft)
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.lila
+ eule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-bus-huchting-20261119-tanz-tee@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T143000
+DTEND;TZID=Europe/Berlin:20261119T163000
+SUMMARY:Tanz-Tee
+LOCATION:Bürger- und Sozialzentrum Huchting (bus)\, Amersfoorter Straße 8
+ \, 28259 Bremen
+DESCRIPTION:Tanznachmittag mit Livemusik\, Kaffee und Kuchen\, bis 17:00 Uh
+ r.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.bus-huchting.de/veranstaltungen/
+URL:https://www.bus-huchting.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerhaus-oslebshausen-20261120-abtanzball@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T173000
+DTEND;TZID=Europe/Berlin:20261120T193000
+SUMMARY:Abtanzball
+LOCATION:Bürgerhaus Oslebshausen\, Am Nonnenberg 40\, 28239 Bremen
+DESCRIPTION:Tanzabend mit Vorführung der Paartanzgruppe und Suppenbuffet.\
+ nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.bghosl.de/veranstaltungen/2983420/2026/
+ 11/20/abtanzball
+URL:https://www.bghosl.de/veranstaltungen/2983420/2026/11/20/abtanzball
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerhaus-obervieland-20261120-obervielklang-im-konzert@myeventhub
+ .de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:OberVielKlang im Konzert
+LOCATION:Bürgerhaus Obervieland\, Alfred-Faust-Straße 4\, 28279 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bgo-bremen.de/angebote-und-programm/weitere-veranst
+ altungen/
+URL:https://www.bgo-bremen.de/angebote-und-programm/weitere-veranstaltungen
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerhaus-mahndorf-20261121-gospelkonzert-chor-ohne-grenzen-precio
+ us@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T160000
+DTEND;TZID=Europe/Berlin:20261121T180000
+SUMMARY:Gospelkonzert – Chor ohne Grenzen & Precious Sounds
+LOCATION:Bürgerhaus Mahndorf\, Mahndorfer Bahnhof 10\, 28307 Bremen
+DESCRIPTION:Gospel\, Spirituals und afrikanische Rhythmen.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bue
+ rgerhaus-mahndorf.de/programm
+URL:https://www.buergerhaus-mahndorf.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schaulust-20261121-chorkonzert-chorprojekt-x-baff@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Chorkonzert von Chorprojekt X und baff!
+LOCATION:Schaulust\, Beim Handelsmuseum 9\, 28195 Bremen
+DESCRIPTION:Doppelkonzert der Bremer Vokalband baff! (Programm „Immer noc
+ h Kinder“) und des gemischten Chors Chorprojekt X mit Arrangements zwisc
+ hen Klassik und Moderne.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Que
+ lle nicht angegeben\nPreis: 24 € / 20 €\; Reservierung per E-Mail\, Ad
+ resse auf der Veranstalterseite\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.bremen-schaulust.de/01_termine/2026/2206_11_21_ChorprojektXbaff.
+ php
+URL:https://www.bremen-schaulust.de/01_termine/2026/2206_11_21_ChorprojektX
+ baff.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261124-smooth-escape@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Smooth Escape
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Soul\, Funk & Lounge\, Bremen\nEnde: laut Quelle nicht angegebe
+ n\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20261125-goldie-mp3-doubtboy-endstation-sehnsucht@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:GOLDIE.MP3 & DOUBTBOY (Endstation Sehnsucht Tour)
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 30 EUR inkl. aller Gebühren\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.lilaeule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-packhaustheater-20261126-lichtermeer-konzert@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Lichtermeer Konzert
+LOCATION:Packhaustheater im Schnoor\, Wüstestätte 11\, 28195 Bremen
+DESCRIPTION:Konzert.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://packhaus.theater/termine/
+URL:https://packhaus.theater/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerhaus-obervieland-20261127-dean-weits-adventsnachmittag@myeven
+ thub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T150000
+DTEND;TZID=Europe/Berlin:20261127T170000
+SUMMARY:Dean Weits Adventsnachmittag
+LOCATION:Bürgerhaus Obervieland\, Alfred-Faust-Straße 4\, 28279 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bgo-bremen.de/angebote-und-programm/weitere-veranst
+ altungen/
+URL:https://www.bgo-bremen.de/angebote-und-programm/weitere-veranstaltungen
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20261127-bitume@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T203000
+DTEND;TZID=Europe/Berlin:20261127T223000
+SUMMARY:BITUME
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Einlass 20:00\, Beginn 20:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lilaeule.com/show
+ s-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20261128-iginio-release-show@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:IGINIO (Release Show)
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lilaeule.com/show
+ s-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-uni-theatersaal-20261201-luna-rossa-roter-mond@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T123000
+DTEND;TZID=Europe/Berlin:20261201T143000
+SUMMARY:„Luna rossa“ – Roter Mond
+LOCATION:Theatersaal der Universität Bremen\, Bibliothekstraße 1\, 28359 
+ Bremen
+DESCRIPTION:Kostenloses Mittagskonzert der Uni Bremen\, ca. 25 Minuten.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.uni-bremen.de/konzerte/semesteruebersicht/
+ wintersemester-2026-27/dienstag-1-dezember-2026-1230-uhr-theatersaal-eintr
+ itt-freiluna-rossa-roter-mond
+URL:https://www.uni-bremen.de/konzerte/semesteruebersicht/wintersemester-20
+ 26-27/dienstag-1-dezember-2026-1230-uhr-theatersaal-eintritt-freiluna-ross
+ a-roter-mond
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerhaus-weserterrassen-20261203-chor-don-bleu-weihnachtskonzert@
+ myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Chor Don Bleu: Weihnachtskonzert
+LOCATION:Bürgerhaus Weserterrassen\, Osterdeich 70b\, 28205 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.blaumeier.de/veranstaltungen/chor-don-bleu-weihnach
+ tskonzerte
+URL:https://www.blaumeier.de/veranstaltungen/chor-don-bleu-weihnachtskonzer
+ te
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerhaus-weserterrassen-20261204-chor-don-bleu-weihnachtskonzert@
+ myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Chor Don Bleu: Weihnachtskonzert
+LOCATION:Bürgerhaus Weserterrassen\, Osterdeich 70b\, 28205 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.blaumeier.de/veranstaltungen/chor-don-bleu-weihnach
+ tskonzerte
+URL:https://www.blaumeier.de/veranstaltungen/chor-don-bleu-weihnachtskonzer
+ te
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerzentrum-neue-vahr-20261205-tanztee-mit-den-young-oldies@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Tanztee mit den Young Oldies
+LOCATION:Bürgerzentrum Neue Vahr\, Berliner Freiheit 10\, 28327 Bremen
+DESCRIPTION:Tanztee im Saal\, bis 18:00 Uhr.\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VK 11 € / AK 14 €\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.bzvahr.de/veranstaltungen/tanztee-mit-den-young-oldies/
+URL:https://www.bzvahr.de/veranstaltungen/tanztee-mit-den-young-oldies/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20261205-bragolin-carrelle@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:BRAGOLIN & CARRELLE
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lilaeule.com/show
+ s-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stadtbibliothek-bremen-zentralbibliothek-20261206-vokal-lokal@myeventhu
+ b.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Vokal-Lokal
+LOCATION:Stadtbibliothek Bremen – Zentralbibliothek\, Am Wall 201\, 28195
+  Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://stabi-hb.de/termine/?f_bibliothek=&f_
+ schlagwoerter%5B%5D=121&f_datum=&f_datum_bis=
+URL:https://stabi-hb.de/termine/?f_bibliothek=&f_schlagwoerter%5B%5D=121&f_
+ datum=&f_datum_bis=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-luer-kropp-hof-20261211-weihnacht-verzaubert-die-welt-weihnachtskonz
+ ert@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T193000
+DTEND;TZID=Europe/Berlin:20261211T213000
+SUMMARY:Weihnacht verzaubert die Welt – Weihnachtskonzert
+LOCATION:Lür-Kropp-Hof\, Rockwinkeler Landstr. 5\, 28355 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.luer-kropp-hof.de
+ /
+URL:https://www.luer-kropp-hof.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-uni-theatersaal-20261215-einaudi-amelie-coldplay-gladiator-linkin-pa
+ rk@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T123000
+DTEND;TZID=Europe/Berlin:20261215T143000
+SUMMARY:Einaudi\, Amélie\, Coldplay\, Gladiator & Linkin Park
+LOCATION:Theatersaal der Universität Bremen\, Bibliothekstraße 1\, 28359 
+ Bremen
+DESCRIPTION:Kostenloses Mittagskonzert der Uni Bremen\, ca. 25 Minuten.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.uni-bremen.de/konzerte/semesteruebersicht/
+ wintersemester-2026-27/dienstag-15-dezember-2026-1230-uhr-theatersaal-eint
+ ritt-freieinaudi-amelie-coldplay-gladiator-linkin-park
+URL:https://www.uni-bremen.de/konzerte/semesteruebersicht/wintersemester-20
+ 26-27/dienstag-15-dezember-2026-1230-uhr-theatersaal-eintritt-freieinaudi-
+ amelie-coldplay-gladiator-linkin-park
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-gustav-heinemann-buergerhaus-20261216-vorweihnachtliches-rudelsingen
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T193000
+DTEND;TZID=Europe/Berlin:20261216T213000
+SUMMARY:Vorweihnachtliches Rudelsingen
+LOCATION:Gustav-Heinemann-Bürgerhaus (Bürgerhaus Vegesack)\, Kirchheide 4
+ 9\, 28757 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbuerobremennord.de/programm/dezember-2026/
+URL:https://www.kulturbuerobremennord.de/programm/dezember-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261221-rudelsingen-mit-team-broker@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261221T193000
+DTEND;TZID=Europe/Berlin:20261221T213000
+SUMMARY:Rudelsingen – mit Team Bröker
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Gemeinsames Singen.\nEinlass 18:30\, Beginn 19:30 Uhr\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.modernes.de/programm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261222-rudelsingen-mit-team-broker@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T193000
+DTEND;TZID=Europe/Berlin:20261222T213000
+SUMMARY:Rudelsingen – mit Team Bröker
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Gemeinsames Singen.\nEinlass 18:30\, Beginn 19:30 Uhr\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.modernes.de/programm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261225-dark-christmas-special@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Dark Christmas Special!
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Im Aladin & Tivoli.\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.aladin-bremen.de/unser-programm-2/
+URL:https://www.aladin-bremen.de/unser-programm-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-ratskeller-20261231-dinner-in-concert-silvester-special@myeventhub.d
+ e
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T190000
+DTEND;TZID=Europe/Berlin:20261231T210000
+SUMMARY:Dinner in Concert – Silvester Special
+LOCATION:Bremer Ratskeller\, Am Markt\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 149\,00 €\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.ratskeller-bremen.de/events/sil
+ vester-2026/details/
+URL:https://www.ratskeller-bremen.de/events/silvester-2026/details/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270123-bremen-tattoo-2027-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Beginn: Bremen Tattoo
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Laufzeit: 23.1.2027 bis 24.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/bremen-tattoo-2027/
+URL:https://oevb-arena.de/event/bremen-tattoo-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270123-bremen-tattoo-2027-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Letzter Tag: Bremen Tattoo
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Laufzeit: 23.1.2027 bis 24.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/bremen-tattoo-2027/
+URL:https://oevb-arena.de/event/bremen-tattoo-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20270206-dizzy-disco@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T150000
+DTEND;TZID=Europe/Berlin:20270206T170000
+SUMMARY:Dizzy Disco
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Kinderkonzert im Saal.\nEinlass 14:00\, Beginn 15:00 Uhr\nEnde:
+  laut Quelle nicht angegeben\nPreis: 20 € (Erwachsene)\, 15 € (Kinder 
+ 3–12) zzgl. Gebühren\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.kulturzentrum-lagerhaus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270206-naturally-7-best-of-naturally-7-meisterkonzert-son@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T200000
+DTEND;TZID=Europe/Berlin:20270206T220000
+SUMMARY:Naturally 7 »Best of Naturally 7« Meisterkonzert – Sonderkonzer
+ t
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/9/
+URL:https://www.glocke.de/all-events/page/9/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270206-naft@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T200000
+DTEND;TZID=Europe/Berlin:20270206T220000
+SUMMARY:NAFT – Tour 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270209-sebastian-knauer-johannes-strate-klassik-meets-pop@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270209T200000
+DTEND;TZID=Europe/Berlin:20270209T220000
+SUMMARY:Sebastian Knauer & Johannes Strate »Klassik meets Pop Tour 2027«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/10/
+URL:https://www.glocke.de/all-events/page/10/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:metropol-theater-20270209-40-fingers@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270209T200000
+DTEND;TZID=Europe/Berlin:20270209T220000
+SUMMARY:40 FINGERS – A global guitar sensation – Back in Germany 2027
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Italienisches Gitarrenquartett mit Rock-/Pop-Klassikern und Fil
+ mthemen\, im Großen Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass 
+ oder Beginn)\nEnde: laut Quelle nicht angegeben\nTickets: https://www.tick
+ etmaster.de/event/258958965?language=de-de&track=DiscoveryAPI&subchannel_i
+ d=10128&camefrom=de_nordwest_shop_mtb&brand=de_nwt_mtb\nQuelle (bitte vor 
+ dem Besuch prüfen): https://metropol-theater-bremen.de/programm/events/40
+ -fingers/
+URL:https://metropol-theater-bremen.de/programm/events/40-fingers/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270211-emanuel-jahreis-friends-drei-jahrzehnte-tastenakro@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T200000
+DTEND;TZID=Europe/Berlin:20270211T220000
+SUMMARY:Emanuel Jahreis & Friends »Drei Jahrzehnte Tastenakrobatik«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Kleiner Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/10/
+URL:https://www.glocke.de/all-events/page/10/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270212-dennis-alexander-volk-storytelling-piano@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T193000
+DTEND;TZID=Europe/Berlin:20270212T213000
+SUMMARY:Dennis Alexander Volk »Storytelling Piano«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n19:30 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/10/
+URL:https://www.glocke.de/all-events/page/10/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20270212-motuz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:Motuz
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Konzert im Saal.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut 
+ Quelle nicht angegeben\nPreis: 22 € zzgl. Gebühren\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.kulturzentrum-lagerhaus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270213-dennis-alexander-volk-storytelling-piano@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T193000
+DTEND;TZID=Europe/Berlin:20270213T213000
+SUMMARY:Dennis Alexander Volk »Storytelling Piano«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n19:30 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/10/
+URL:https://www.glocke.de/all-events/page/10/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270217-heiner-lauterbach-band-like-a-hobo@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T200000
+DTEND;TZID=Europe/Berlin:20270217T220000
+SUMMARY:Heiner Lauterbach & Band »Like a Hobo«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/10/
+URL:https://www.glocke.de/all-events/page/10/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-packhaustheater-20270218-songs-for-bluebird@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T190000
+DTEND;TZID=Europe/Berlin:20270218T210000
+SUMMARY:Songs for Bluebird
+LOCATION:Packhaustheater im Schnoor\, Wüstestätte 11\, 28195 Bremen
+DESCRIPTION:Konzert.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://packhaus.theater/termine/
+URL:https://packhaus.theater/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20270226-beauty-the-beats-enerjoy-clubtour-27@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:BEAUTY & THE BEATS (ENERJOY CLUBTOUR 27)
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Zusatzshow\; laut Seite ist die Show am 6.3.2027 bereits ausver
+ kauft.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.lilaeule.com/shows-t
+ ickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270228-paul-wetz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T200000
+DTEND;TZID=Europe/Berlin:20270228T220000
+SUMMARY:Paul Wetz – Tour 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270305-depeche-mode-on-piano-played-by-thilo@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:DEPECHE MODE on piano played by Thilo
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Kleiner Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20270305-ad-nauseum@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:Ad Nauseum
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lilaeule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20270306-beauty-the-beats-enerjoy-clubtour-27@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:BEAUTY & THE BEATS (ENERJOY CLUBTOUR 27) (ausverkauft)
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Nur als Hinweis bei der Zusatzshow erwähnt („bereits ausverk
+ auft“)\, ohne eigene Zeitangabe.\nAusverkauft\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.lilaeule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270317-joja-wendt-das-biest-und-das-schoene-ein-klavierko@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270317T200000
+DTEND;TZID=Europe/Berlin:20270317T220000
+SUMMARY:Joja Wendt »Das Biest und das Schöne - Ein Klavierkonzert zwische
+ n Power und Präzision«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20270409-rami-a-k-a-rami-hattab@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T200000
+DTEND;TZID=Europe/Berlin:20270409T220000
+SUMMARY:Rami (a.k.a. Rami Hattab)
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lilaeule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20270410-denman-tau@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T200000
+DTEND;TZID=Europe/Berlin:20270410T220000
+SUMMARY:DenMan Tau
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lilaeule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270416-knallblech-brassband-meets-dj@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T200000
+DTEND;TZID=Europe/Berlin:20270416T220000
+SUMMARY:Knallblech – Brassband meets DJ
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/knallblech/
+URL:https://www.aladin-bremen.de/veranstaltungen/knallblech/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lila-eule-20270417-roger-sixkay-und-ditu-l-one@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T200000
+DTEND;TZID=Europe/Berlin:20270417T220000
+SUMMARY:Roger & Sixkay und ditu & L One
+LOCATION:Lila Eule\, Bernhardstr. 10-11\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lilaeule.com/shows-tickets/
+URL:https://www.lilaeule.com/shows-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270421-1986zig-ich-komm-nach-hause-tour@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270421T200000
+DTEND;TZID=Europe/Berlin:20270421T220000
+SUMMARY:1986zig – Ich komm nach Hause Tour
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/1986zig-2/
+URL:https://www.aladin-bremen.de/veranstaltungen/1986zig-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270429-tommy-emmanuel-living-in-the-light-tour-2027@myeven
+ thub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270429T200000
+DTEND;TZID=Europe/Berlin:20270429T220000
+SUMMARY:Tommy Emmanuel »Living in the Light – Tour 2027«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/13/
+URL:https://www.glocke.de/all-events/page/13/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270627-tonight-die-gro-e-nacht-der-musicalstars@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:TONIGHT – Die große Nacht der Musicalstars
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270910-6euroneunzig@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270910T190000
+DTEND;TZID=Europe/Berlin:20270910T210000
+SUMMARY:6euroneunzig – Titten Auf Den Tisch Tour 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-09-10/6euroneunzig/
+URL:https://modernes.de/events/2027-09-10/6euroneunzig/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270911-depeche-mode-on-piano-played-by-thilo@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270911T193000
+DTEND;TZID=Europe/Berlin:20270911T213000
+SUMMARY:DEPECHE MODE on piano played by Thilo
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/15/
+URL:https://www.glocke.de/all-events/page/15/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270924-ana-lucia@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270924T200000
+DTEND;TZID=Europe/Berlin:20270924T220000
+SUMMARY:Ana Lucía
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/15/
+URL:https://www.glocke.de/all-events/page/15/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20271004-louis-philippson@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271004T193000
+DTEND;TZID=Europe/Berlin:20271004T213000
+SUMMARY:Louis Philippson
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/event/louis-philippson/
+URL:https://oevb-arena.de/event/louis-philippson/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20271124-comedian-harmonists-100-jahre-ein-grund-zum-feiern@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271124T193000
+DTEND;TZID=Europe/Berlin:20271124T213000
+SUMMARY:Comedian Harmonists 100 Jahre »Ein Grund zum Feiern«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/16/
+URL:https://www.glocke.de/all-events/page/16/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Osnabrück · my Event Hub (Erinnerung 1 Tag vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:os-rosenhof-20261101-scala-kolacny-brothers-scala-30@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T200000
+DTEND;TZID=Europe/Berlin:20261101T220000
+SUMMARY:Scala & Kolacny Brothers - Scala 30
+LOCATION:Rosenhof Osnabrück\, Rosenplatz 23\, 49074 Osnabrück
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://www.eventim.de/noapp/even
+ t/20762134/\nQuelle (bitte vor dem Besuch prüfen): https://www.rosenhof-o
+ s.de/
+URL:https://www.rosenhof-os.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20261105-tim-fischer@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Tim Fischer
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Chansonabend mit Klavier und Schlagzeug\; Saal.\nEnde: laut Que
+ lle nicht angegeben\nPreis: 37\,50 € VVK\; 40\,00 € / 35\,00 € AK\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.lagerhalle-osnabrueck.de
+ /content/veranstaltungen/tim-fischer2026/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/tim-fische
+ r2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20261106-soulport-funk-soul-night@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Soulport – Funk & Soul Night
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Funk-und-Soul-Revue mit Hausband\; Spitzboden.\nEnde: laut Quel
+ le nicht angegeben\nPreis: 18\,00 € VVK\; 22\,00 € / 18\,00 € AK\nTi
+ ckets: https://lagerhalle-ticketshop.reservix.de/p/reservix/event/2546537\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.lagerhalle-osnabrueck.
+ de/content/veranstaltungen/soulport-funk-soul-night/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/soulport-f
+ unk-soul-night/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-haus-der-jugend-20261204-band-stand-meeting@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Band Stand Meeting
+LOCATION:Haus der Jugend Osnabrück\, Große Gildewart 6-9\, 49074 Osnabrü
+ ck
+DESCRIPTION:Konzertreihe\; Saal Bocksmauer.\n19:30 Uhr (die Quelle sagt nic
+ ht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://hausderjugend-os.de/veranstaltungen/
+URL:https://hausderjugend-os.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20261209-maybebop-schoener-schein@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:MAYBEBOP – Schöner Schein
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:A-cappella-Konzert.\n20:00 Uhr (die Quelle sagt nicht\, ob Einl
+ ass oder Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://osnabrueckhalle.de/besuchen/programm/page/4/
+URL:https://osnabrueckhalle.de/besuchen/programm/page/4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270121-zucchini-sistaz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T193000
+DTEND;TZID=Europe/Berlin:20270121T213000
+SUMMARY:Zucchini Sistaz
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Trio mit Swing\, Retro-Pop und Chanson\; Saal\, nummerierte Pl
+ ätze.\nEnde: laut Quelle nicht angegeben\nPreis: 28\,70 € VVK\; 30\,00 
+ € / 25\,00 € AK\nTickets: https://lagerhalle-ticketshop.reservix.de/p/
+ reservix/event/2515944\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .lagerhalle-osnabrueck.de/content/veranstaltungen/zucchini-sistaz01/
+URL:https://www.lagerhalle-osnabrueck.de/content/veranstaltungen/zucchini-s
+ istaz01/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-lagerhalle-20270122-zucchini-sistaz@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T193000
+DTEND;TZID=Europe/Berlin:20270122T213000
+SUMMARY:Zucchini Sistaz
+LOCATION:Lagerhalle Osnabrück\, Rolandsmauer 26\, 49074 Osnabrück
+DESCRIPTION:Trio mit Swing\, Retro-Pop und Chanson (zweiter Abend)\; Saal.\
+ n19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.l
+ agerhalle-osnabrueck.de/content/termine/kategorie/termine/konzert/
+URL:https://www.lagerhalle-osnabrueck.de/content/termine/kategorie/termine/
+ konzert/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20270330-the-12-tenors@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270330T200000
+DTEND;TZID=Europe/Berlin:20270330T220000
+SUMMARY:The 12 Tenors
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Legacy Tour.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass ode
+ r Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://osnabrueckhalle.de/besuchen/programm/page/8/
+URL:https://osnabrueckhalle.de/besuchen/programm/page/8/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

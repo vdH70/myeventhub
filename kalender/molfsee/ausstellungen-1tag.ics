@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Molfsee · my Event Hub (Erinnerung 1 Tag vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:rd-freilichtmuseum-molfsee-20261025-state-of-nature-beginn@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Beginn: State of Nature
+LOCATION:Freilichtmuseum Molfsee\, Hamburger Landstraße 97\, 24113 Molfsee
+DESCRIPTION:Installationen aus Blumen und Pflanzen von Rebecca Louise Law.\
+ nLaufzeit: 25.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen)
+ : https://freilichtmuseum-sh.de/de/sonderausstellungen
+URL:https://freilichtmuseum-sh.de/de/sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rd-freilichtmuseum-molfsee-20261025-state-of-nature-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: State of Nature
+LOCATION:Freilichtmuseum Molfsee\, Hamburger Landstraße 97\, 24113 Molfsee
+DESCRIPTION:Installationen aus Blumen und Pflanzen von Rebecca Louise Law.\
+ nLaufzeit: 25.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen)
+ : https://freilichtmuseum-sh.de/de/sonderausstellungen
+URL:https://freilichtmuseum-sh.de/de/sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rd-freilichtmuseum-molfsee-20270129-laeuft-die-ausstellung-zur-menstrua
+ tion-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Beginn: Läuft – Die Ausstellung zur Menstruation
+LOCATION:Freilichtmuseum Molfsee\, Hamburger Landstraße 97\, 24113 Molfsee
+DESCRIPTION:Laufzeit: 29.1.2027 bis 4.6.2028\nQuelle (bitte vor dem Besuch 
+ prüfen): https://freilichtmuseum-sh.de/de/sonderausstellungen
+URL:https://freilichtmuseum-sh.de/de/sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rd-freilichtmuseum-molfsee-20270129-laeuft-die-ausstellung-zur-menstrua
+ tion-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20280604
+DTEND;VALUE=DATE:20280605
+SUMMARY:Letzter Tag: Läuft – Die Ausstellung zur Menstruation
+LOCATION:Freilichtmuseum Molfsee\, Hamburger Landstraße 97\, 24113 Molfsee
+DESCRIPTION:Laufzeit: 29.1.2027 bis 4.6.2028\nQuelle (bitte vor dem Besuch 
+ prüfen): https://freilichtmuseum-sh.de/de/sonderausstellungen
+URL:https://freilichtmuseum-sh.de/de/sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,611 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Köln · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261031-nico-santos@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Nico Santos
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/events-tickets/eventkalender
+URL:https://www.lanxess-arena.de/events-tickets/eventkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20261031-madsen-smile-2026-verlegt-aus-dem-palladium@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:MADSEN – Smile 2026 (verlegt aus dem Palladium) (ausverkauft)
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-live-music-hall-20261102-brian-fallon-the-painkillers@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:Brian Fallon & The Painkillers
+LOCATION:Live Music Hall\, Lichtstraße 30\, 50825 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.livemusichall.de/event-details/brian-fallon-the-pai
+ nkillers-1
+URL:https://www.livemusichall.de/event-details/brian-fallon-the-painkillers
+ -1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-luxor-20261105-jack-jack@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Jack & Jack
+LOCATION:Luxor Köln\, Luxemburger Straße 40\, 50674 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.luxor-koeln.de/event/jack-jack-koeln-2026/
+URL:https://www.luxor-koeln.de/event/jack-jack-koeln-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-luxor-20261106-jack-and-the-weatherman@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Jack and the Weatherman
+LOCATION:Luxor Köln\, Luxemburger Straße 40\, 50674 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.luxor-koeln.de/event/jack-and-the-weatherman/
+URL:https://www.luxor-koeln.de/event/jack-and-the-weatherman/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-live-music-hall-20261107-rockgarden@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T230000
+DTEND;TZID=Europe/Berlin:20261108T010000
+SUMMARY:Rockgarden
+LOCATION:Live Music Hall\, Lichtstraße 30\, 50825 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.livemusichall.de/event-details/rockgarden-35
+URL:https://www.livemusichall.de/event-details/rockgarden-35
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-luxor-20261109-hitster-rock-by-radio-bob@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:HITSTER Rock by Radio Bob!
+LOCATION:Luxor Köln\, Luxemburger Straße 40\, 50674 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.luxor-koeln.
+ de/event/hitster-rock-by-radio-bob/
+URL:https://www.luxor-koeln.de/event/hitster-rock-by-radio-bob/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20261111-against-the-current@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Against The Current
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-palladium-20261115-artemas-verlegt-ins-palladium@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:Artemas (verlegt ins Palladium)
+LOCATION:Palladium Köln\, Schanzenstraße 40\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261204-night-of-the-proms-klassik-trifft-pop@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Night of the Proms – Klassik trifft Pop
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/night-of-the-proms-2026
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/night-of-the-proms-202
+ 6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20261205-night-of-the-proms-klassik-trifft-pop@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Night of the Proms – Klassik trifft Pop
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Einlass 18:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lanxess-arena.de/
+ veranstaltungsreihe/night-of-the-proms-2026
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/night-of-the-proms-202
+ 6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270216-taylor-swift-tribute@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:ABGESAGT: Taylor Swift Tribute
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.e-werk-colog
+ ne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270217-stadtgeklimper-konzert@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T200000
+DTEND;TZID=Europe/Berlin:20270217T220000
+SUMMARY:Stadtgeklimper (Konzert)
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/stadtgeklimper-17-02-202
+ 7
+URL:https://theateramdom.de/stuecke/stueck/stadtgeklimper-17-02-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270218-stadtgeklimper-konzert@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T200000
+DTEND;TZID=Europe/Berlin:20270218T220000
+SUMMARY:Stadtgeklimper (Konzert)
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/stadtgeklimper-18-02-202
+ 7
+URL:https://theateramdom.de/stuecke/stueck/stadtgeklimper-18-02-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270223-heather-nova-the-orchard-tour@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270223T200000
+DTEND;TZID=Europe/Berlin:20270223T220000
+SUMMARY:Heather Nova – The Orchard Tour
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270227-emeli-sande@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:Emeli Sandé
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270227-midge-ure-and-band-electronica@mye
+ venthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:Midge Ure and Band Electronica
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270301-royal-blood@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270301T200000
+DTEND;TZID=Europe/Berlin:20270301T220000
+SUMMARY:Royal Blood
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270313-teddy-swims-the-ugly-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T200000
+DTEND;TZID=Europe/Berlin:20270313T220000
+SUMMARY:Teddy Swims – The UGLY Tour
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270314-teddy-swims-the-ugly-tour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T200000
+DTEND;TZID=Europe/Berlin:20270314T220000
+SUMMARY:Teddy Swims – The UGLY Tour
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/teddy-swims
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20270322-slift@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Slift
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270328-duman@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270328T210000
+DTEND;TZID=Europe/Berlin:20270328T230000
+SUMMARY:Duman
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20270403-charlotte-sands-satellite-tour-2027@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Charlotte Sands – Satellite Tour 2027
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270409-sting-meets-gabriel@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T200000
+DTEND;TZID=Europe/Berlin:20270409T220000
+SUMMARY:STING meets GABRIEL
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270411-spider-murphy-gang@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270411T180000
+DTEND;TZID=Europe/Berlin:20270411T200000
+SUMMARY:Spider Murphy Gang
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270415-soehne-mannheims-unkaputt-tour-202
+ 7@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270415T200000
+DTEND;TZID=Europe/Berlin:20270415T220000
+SUMMARY:Söhne Mannheims – Unkaputt Tour 2027
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270420-fuffifufzich-new-era-same-error@my
+ eventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270420T200000
+DTEND;TZID=Europe/Berlin:20270420T220000
+SUMMARY:Fuffifufzich – New Era Same Error
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270605-herbert-groenemeyer-arena-tour-2027@myeventh
+ ub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270605T200000
+DTEND;TZID=Europe/Berlin:20270605T220000
+SUMMARY:Herbert Grönemeyer – Arena Tour 2027
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groene
+ meyer
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groenemeyer
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270621-herbert-groenemeyer-arena-tour-2027@myeventh
+ ub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270621T200000
+DTEND;TZID=Europe/Berlin:20270621T220000
+SUMMARY:Herbert Grönemeyer – Arena Tour 2027
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groene
+ meyer
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groenemeyer
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:koe-lanxess-arena-20270622-herbert-groenemeyer-arena-tour-2027@myeventh
+ ub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270622T200000
+DTEND;TZID=Europe/Berlin:20270622T220000
+SUMMARY:Herbert Grönemeyer – Arena Tour 2027
+LOCATION:LANXESS arena\, Willy-Brandt-Platz 3\, 50679 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groene
+ meyer
+URL:https://www.lanxess-arena.de/veranstaltungsreihe/herbert-groenemeyer
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270629-the-hooters-every-ticket-tells-a-s
+ tory@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270629T200000
+DTEND;TZID=Europe/Berlin:20270629T220000
+SUMMARY:The Hooters – Every Ticket Tells A Story
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20271009-tonbandgerat-20-jahre-tonbandgerat-tour-2027@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:Tonbandgerät – 20 Jahre Tonbandgerät Tour 2027
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20271028-dsl-dire-straits-legacy-world-tour
+ @myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271028T200000
+DTEND;TZID=Europe/Berlin:20271028T220000
+SUMMARY:DSL – Dire Straits Legacy – World Tour
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

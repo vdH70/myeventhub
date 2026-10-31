@@ -1,0 +1,273 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Punk/Metal in Dortmund · my Event Hub (Erinnerung 3 Stunden v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:do-junkyard-20261106-morecore-party@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T230000
+DTEND;TZID=Europe/Berlin:20261107T010000
+SUMMARY:MoreCore Party
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-grossmarktschaenke-20261107-rock-it-no-150@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T230000
+DTEND;TZID=Europe/Berlin:20261108T010000
+SUMMARY:Rock It No. 150
+LOCATION:Großmarktschänke\, Heiliger Weg 60 g\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.grossmarktschaenke.de/
+URL:https://www.grossmarktschaenke.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20261111-die-verlierer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Die Verlierer
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-fzw-20261114-muff-potter-klepto-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Muff Potter – KLEPTO TOUR 2026
+LOCATION:FZW\, Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://fzw.de/events
+URL:https://fzw.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20261118-ersatzkopf@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Ersatzkopf
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20261121-soulbound-x-hell-boulevard@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T190000
+DTEND;TZID=Europe/Berlin:20261121T210000
+SUMMARY:Soulbound x Hell Boulevard
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20261126-black-sabbitch@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Black Sabbitch
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20261201-dyse@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T200000
+DTEND;TZID=Europe/Berlin:20261201T220000
+SUMMARY:DŸSE
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20261205-lion-s-law@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T190000
+DTEND;TZID=Europe/Berlin:20261205T210000
+SUMMARY:Lion's Law
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20261210-evergrey-special-guests@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T193000
+DTEND;TZID=Europe/Berlin:20261210T213000
+SUMMARY:Evergrey + Special Guests
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20261215-greenleaf@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T200000
+DTEND;TZID=Europe/Berlin:20261215T220000
+SUMMARY:Greenleaf
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-junkyard-20270123-shred-fest-europe-2027@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T182000
+DTEND;TZID=Europe/Berlin:20270123T202000
+SUMMARY:Shred Fest Europe 2027
+LOCATION:JunkYard\, Schlägelstr. 57\, 44145 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://junkyard.ruhr/
+URL:https://junkyard.ruhr/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-westfalenhallen-20270227-electric-callboy-tanzneid-world-tour@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Electric Callboy – Tanzneid World Tour
+LOCATION:Westfalenhallen Dortmund (Westfalenhalle)\, Strobelallee 45\, 4413
+ 9 Dortmund
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.westfalenhal
+ le.de/events-tickets/eventfinder/
+URL:https://www.westfalenhalle.de/events-tickets/eventfinder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-westfalenhallen-20270412-die-aerzte-eine-gaensehaut-nach-dem-andern-
+ tour-20@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:die ärzte – Eine Gänsehaut nach dem andern! Tour 2027
+LOCATION:Westfalenhallen Dortmund (Westfalenhalle)\, Strobelallee 45\, 4413
+ 9 Dortmund
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.westfalenhal
+ le.de/events-tickets/eventfinder/
+URL:https://www.westfalenhalle.de/events-tickets/eventfinder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

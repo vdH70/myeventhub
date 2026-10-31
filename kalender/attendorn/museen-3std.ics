@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Attendorn · my Event Hub (Erinnerung 3 Stunden vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oe-suedsauerlandmuseum-20260920-sehnsuchtsorte-das-figurative-spaetwerk
+ -von-emil-s-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Letzter Tag: Sehnsuchtsorte – Das figurative Spätwerk von Emil S
+ chumacher
+LOCATION:Südsauerlandmuseum Attendorn\, Alter Markt 1\, 57439 Attendorn
+DESCRIPTION:Sonderausstellung zum figurativen Spätwerk von Emil Schumacher
+ \nLaufzeit: 20.9.2026 bis 6.12.2026\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.suedsauerlandmuseum.de/events/sonderausstellung-sehnsuchtsor
+ te-das-figurative-spaetwerk-von-emil-schumacher/
+URL:https://www.suedsauerlandmuseum.de/events/sonderausstellung-sehnsuchtso
+ rte-das-figurative-spaetwerk-von-emil-schumacher/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,253 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elektronisch in Bremen · my Event Hub (Erinnerung 3 Tage vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:aladin-music-hall-20261031-ibiza-festival-halloween-edition@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T220000
+DTEND;TZID=Europe/Berlin:20261101T000000
+SUMMARY:IBIZA Festival – Halloween Edition
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/ibiza-festival-hal
+ loween-edition/
+URL:https://www.aladin-bremen.de/veranstaltungen/ibiza-festival-halloween-e
+ dition/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261108-heaven-17-electronically-yours-tour-2026@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Heaven 17 – ELECTRONICALLY YOURS Tour 2026
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261114-klangwelten@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:KLANGWELTEN
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Im Aladin & Tivoli.\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.aladin-bremen.de/unser-programm-2/
+URL:https://www.aladin-bremen.de/unser-programm-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20261128-diary-of-dreams@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Diary of Dreams
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 39 € zzgl. Gebühren\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.kulturzentrum-lagerhaus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261206-dayshift-st-nikolaus-edition@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T123000
+DTEND;TZID=Europe/Berlin:20261206T143000
+SUMMARY:DAYSHIFT – St. Nikolaus Edition
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/dayshift-st-nikola
+ us-edition/
+URL:https://www.aladin-bremen.de/veranstaltungen/dayshift-st-nikolaus-editi
+ on/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270122-brass-meets-club@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T200000
+DTEND;TZID=Europe/Berlin:20270122T220000
+SUMMARY:BRASS MEETS CLUB
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Live-Brassband trifft Clubnacht mit elektronischen Beats.\nEinl
+ ass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 15
+ \,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.aladin-bremen
+ .de/veranstaltungen/brass-meets-club/
+URL:https://www.aladin-bremen.de/veranstaltungen/brass-meets-club/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20270131-solar-fake@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T190000
+DTEND;TZID=Europe/Berlin:20270131T210000
+SUMMARY:SOLAR FAKE – Silenced Live Acoustic
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Akustik-Tour mit sieben Musikern und neu arrangierten Stücken\
+ , in der Kesselhalle.\n19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder 
+ Beginn)\nEnde: laut Quelle nicht angegeben\nTickets: https://www.eventim.d
+ e/event/solar-fake-silenced-acoustic-tour-2027-kulturzentrum-schlachthof-2
+ 1418559/?affiliate=ET3\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .schlachthof-bremen.de/programm/solar-fake-2027
+URL:https://www.schlachthof-bremen.de/programm/solar-fake-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270205-paul-van-dyk@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T200000
+DTEND;TZID=Europe/Berlin:20270205T220000
+SUMMARY:Paul van Dyk – Tour 2027
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:DJ- und Produzenten-Show im Aladin & Tivoli.\nEnde: laut Quelle
+  nicht angegeben\nPreis: ab 40\,00 €\nTickets: https://amillionreasonsto
+ dance.com/produkt/paul-van-dyk-bremen-2027\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.aladin-bremen.de/veranstaltungen/paul-van-dyk/
+URL:https://www.aladin-bremen.de/veranstaltungen/paul-van-dyk/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270321-and-one@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T190000
+DTEND;TZID=Europe/Berlin:20270321T210000
+SUMMARY:AND ONE – BÄGTUSE RUTS-Tour 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270528-greenbeats@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270528T200000
+DTEND;TZID=Europe/Berlin:20270528T220000
+SUMMARY:greenbeats
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/events/?subPage=5
+URL:https://oevb-arena.de/events/?subPage=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-seebuehne-20270820-schiller-sommernacht@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:SCHILLER – Sommernacht
+LOCATION:Seebühne Bremen\, AG-Weser-Straße\, 28237 Bremen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://seebuehne-bremen
+ .de/programm/
+URL:https://seebuehne-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20271028-schiller@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271028T200000
+DTEND;TZID=Europe/Berlin:20271028T220000
+SUMMARY:Schiller – ZENITH - Expect the unexpected.
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-10-28/schiller/
+URL:https://modernes.de/events/2027-10-28/schiller/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

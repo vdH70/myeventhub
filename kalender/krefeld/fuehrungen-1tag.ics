@@ -1,0 +1,221 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Krefeld · my Event Hub (Erinnerung 1 Tag vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261101-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261101-unter-unseren-fuessen-archaeologie-der-roe
+ mer-und@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Unter unseren Füßen – Archäologie der Römer und Franken
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3 € pro Person\, Er
+ wachsene zzgl. 8 € Eintritt\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.museumburglinn.de/veranstaltungskalender/
+URL:https://www.museumburglinn.de/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261108-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/
+URL:https://www.museumburglinn.de/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261108-mauern-erzaehlen-gang-durch-die-geschichte
+ -der-bur@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Mauern erzählen – Gang durch die Geschichte der Burg
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3 € pro Person\, Er
+ wachsene zzgl. 8 € Eintritt\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.museumburglinn.de/veranstaltungskalender/
+URL:https://www.museumburglinn.de/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261115-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261122-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261129-vorfuehrung-der-mechanischen-musikinstrume
+ nte-jagd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T140000
+DTEND;TZID=Europe/Berlin:20261129T160000
+SUMMARY:Vorführung der mechanischen Musikinstrumente (Jagdschloss)
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Museumseintritt\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.museumburglinn.de/veranstal
+ tungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261129-menschen-und-haeuser-rundgang-durch-alt-li
+ nn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Menschen und Häuser – Rundgang durch Alt-Linn
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Erwachsene 5 €\, Ki
+ nder ab 10 Jahren 3 €\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.museumburglinn.de/veranstaltungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261206-unter-unseren-fuessen-archaeologie-der-roe
+ mer-und@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Unter unseren Füßen – Archäologie der Römer und Franken
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3 € pro Person\, Er
+ wachsene zzgl. 8 € Eintritt\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.museumburglinn.de/veranstaltungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kr-museum-burg-linn-20261213-mauern-erzaehlen-gang-durch-die-geschichte
+ -der-bur@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Mauern erzählen – Gang durch die Geschichte der Burg
+LOCATION:Museum Burg Linn\, Rheinbabenstraße 85\, 47809 Krefeld
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3 € pro Person\, Er
+ wachsene zzgl. 8 € Eintritt\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.museumburglinn.de/veranstaltungskalender/page/2/
+URL:https://www.museumburglinn.de/veranstaltungskalender/page/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,622 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Osnabrück · my Event Hub (Erinnerung 1 Tag vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:os-dom-20261031-oekumenische-marktmusik@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Ökumenische Marktmusik
+LOCATION:Dom St. Peter Osnabrück\, Domhof 12\, 49074 Osnabrück
+DESCRIPTION:Rund halbstündige Orgelmusik zur Marktzeit am Samstag.\nPreis:
+  Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://st-marien-o
+ s.de/programm/
+URL:https://st-marien-os.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20261101-2-sinfoniekonzert@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:2. Sinfoniekonzert
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Elgar: Violinkonzert h-Moll op. 61\; Beethoven: Sinfonie Nr. 3 
+ „Eroica“.\nEnde: laut Quelle nicht angegeben\nTickets: https://theater
+ osnabrueck-shop.comfortticket.de/de/veranstaltung/a8dd73d7-09c8-421b-8448-
+ b5dd37a7671f/12816\nQuelle (bitte vor dem Besuch prüfen): https://www.the
+ ater-osnabrueck.de/spielzeit/konzerte/sinfoniekonzerte-26-27/
+URL:https://www.theater-osnabrueck.de/spielzeit/konzerte/sinfoniekonzerte-2
+ 6-27/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20261102-2-sinfoniekonzert@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T193000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:2. Sinfoniekonzert
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Elgar: Violinkonzert h-Moll op. 61\; Beethoven: Sinfonie Nr. 3 
+ „Eroica“.\nEnde: laut Quelle nicht angegeben\nTickets: https://theater
+ osnabrueck-shop.comfortticket.de/de/veranstaltung/a8dd73d7-09c8-421b-8448-
+ b5dd37a7671f/12817\nQuelle (bitte vor dem Besuch prüfen): https://www.the
+ ater-osnabrueck.de/spielzeit/konzerte/sinfoniekonzerte-26-27/
+URL:https://www.theater-osnabrueck.de/spielzeit/konzerte/sinfoniekonzerte-2
+ 6-27/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261107-oekumenische-marktmusik@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Ökumenische Marktmusik
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Rund halbstündige Orgelmusik zur Marktzeit am Samstag.\nPreis:
+  Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://st-marien-o
+ s.de/programm/
+URL:https://st-marien-os.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261108-rheinberger-orgel-violine@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Rheinberger: Orgel & Violine
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Reihe „Josef Gabriel Rheinberger – Erbe und Vermächtnis“
+ : Sechs Stücke für Violine und Orgel op. 150 u. a.\nEnde: laut Quelle ni
+ cht angegeben\nPreis: 15 € (ermäßigt 12 €)\, Abendkasse\nQuelle (bit
+ te vor dem Besuch prüfen): https://st-marien-os.de/veranstaltungen/rheinb
+ erger-orgel-violine
+URL:https://st-marien-os.de/veranstaltungen/rheinberger-orgel-violine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261108-rheinberger-violine-orgel@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Rheinberger: Violine & Orgel
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Werke von Josef Rheinberger für Violine und Orgel.\nPreis: 15\
+ ,00\nQuelle (bitte vor dem Besuch prüfen): https://st-marien-os.de/progra
+ mm/
+URL:https://st-marien-os.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261110-rheinberger-bariton-orgel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T190000
+DTEND;TZID=Europe/Berlin:20261110T210000
+SUMMARY:Rheinberger: Bariton & Orgel
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Reihe „Josef Gabriel Rheinberger – Erbe und Vermächtnis“
+ : Sechs religiöse Gesänge op. 157 u. a.\nEnde: laut Quelle nicht angegeb
+ en\nPreis: 15 € (ermäßigt 12 €)\, Abendkasse\nQuelle (bitte vor dem 
+ Besuch prüfen): https://st-marien-os.de/veranstaltungen/rheinberger-barit
+ on-orgel
+URL:https://st-marien-os.de/veranstaltungen/rheinberger-bariton-orgel
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-dom-20261114-oekumenische-marktmusik@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T121500
+DTEND;TZID=Europe/Berlin:20261114T141500
+SUMMARY:Ökumenische Marktmusik
+LOCATION:Dom St. Peter Osnabrück\, Domhof 12\, 49074 Osnabrück
+DESCRIPTION:Orgelmusik zur Marktzeit (12:15–12:45).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kirchenmusik
+ -im-bistum-osnabrueck.de/veranstaltungen/konzerte/
+URL:https://kirchenmusik-im-bistum-osnabrueck.de/veranstaltungen/konzerte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261114-rheinberger-orgel-solo@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Rheinberger: Orgel solo
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Reihe „Josef Gabriel Rheinberger – Erbe und Vermächtnis“
+ : Orgelsonate Nr. 20 F-Dur op. 196 u. a.\nEnde: laut Quelle nicht angegebe
+ n\nPreis: 15 € (ermäßigt 12 €)\, Abendkasse\nQuelle (bitte vor dem B
+ esuch prüfen): https://st-marien-os.de/veranstaltungen/rheinberger-orgel-
+ solo
+URL:https://st-marien-os.de/veranstaltungen/rheinberger-orgel-solo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-dom-20261115-olivier-messiaen-die-verklaerten-leiber@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Olivier Messiaen: Die verklärten Leiber
+LOCATION:Dom St. Peter Osnabrück\, Domhof 12\, 49074 Osnabrück
+DESCRIPTION:Messiaens Orgelzyklus „Les Corps Glorieux“ an der Kuhn-Orge
+ l.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende erbet
+ en\nQuelle (bitte vor dem Besuch prüfen): https://kirchenmusik-im-bistum-
+ osnabrueck.de/event/olivier-messiaen-die-verklaerten-leiber/?occurrence=20
+ 26-11-15
+URL:https://kirchenmusik-im-bistum-osnabrueck.de/event/olivier-messiaen-die
+ -verklaerten-leiber/?occurrence=2026-11-15
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261121-oekumenische-marktmusik@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Ökumenische Marktmusik
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Rund halbstündige Orgelmusik zur Marktzeit am Samstag.\nPreis:
+  Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://st-marien-o
+ s.de/programm/
+URL:https://st-marien-os.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-dom-20261128-oekumenische-marktmusik@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T121500
+DTEND;TZID=Europe/Berlin:20261128T141500
+SUMMARY:Ökumenische Marktmusik
+LOCATION:Dom St. Peter Osnabrück\, Domhof 12\, 49074 Osnabrück
+DESCRIPTION:Orgelmusik zur Marktzeit (12:15–12:45).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kirchenmusik
+ -im-bistum-osnabrueck.de/veranstaltungen/konzerte/
+URL:https://kirchenmusik-im-bistum-osnabrueck.de/veranstaltungen/konzerte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-st-katharinen-20261128-geistliche-chormusik@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T183000
+DTEND;TZID=Europe/Berlin:20261128T203000
+SUMMARY:Geistliche Chormusik
+LOCATION:St. Katharinen Osnabrück\, An der Katharinenkirche 8\, 49074 Osna
+ brück
+DESCRIPTION:Chor- und Bläsermusik unter Leitung von Arne Hatje.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.friedensorgel.de/Termine
+URL:https://www.friedensorgel.de/Termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261205-oekumenische-marktmusik@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Ökumenische Marktmusik
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Rund halbstündige Orgelmusik zur Marktzeit am Samstag.\nPreis:
+  Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://st-marien-o
+ s.de/programm/
+URL:https://st-marien-os.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20261207-3-sinfoniekonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T193000
+DTEND;TZID=Europe/Berlin:20261207T213000
+SUMMARY:3. Sinfoniekonzert
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Verdi: Ouvertüre zu „La forza del destino“\; Prokofjew: Kl
+ avierkonzert Nr. 2\; Elgar: „Falstaff“.\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://theaterosnabrueck-shop.comfortticket.de/de/veransta
+ ltung/a8dd73d7-09c8-421b-8448-b5dd37a7671f/12818\nQuelle (bitte vor dem Be
+ such prüfen): https://osnabrueckhalle.de/programm/3-sinfoniekonzert/
+URL:https://osnabrueckhalle.de/programm/3-sinfoniekonzert/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-dom-20261212-oekumenische-marktmusik@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T121500
+DTEND;TZID=Europe/Berlin:20261212T141500
+SUMMARY:Ökumenische Marktmusik
+LOCATION:Dom St. Peter Osnabrück\, Domhof 12\, 49074 Osnabrück
+DESCRIPTION:Orgelmusik zur Marktzeit (12:15–12:45).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kirchenmusik
+ -im-bistum-osnabrueck.de/veranstaltungen/konzerte/
+URL:https://kirchenmusik-im-bistum-osnabrueck.de/veranstaltungen/konzerte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261215-bach-weihnachtsoratorium-1-3@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T180000
+DTEND;TZID=Europe/Berlin:20261215T200000
+SUMMARY:Bach: Weihnachtsoratorium I–III
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Konzert I des Doppelkonzerts: Kantaten I bis III\; Konzert II u
+ m 20:30 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: 42–15 € zzgl. 
+ VVK-Gebühr\; Kombi-Ticket für beide Konzerte\nQuelle (bitte vor dem Besu
+ ch prüfen): https://st-marien-os.de/programm/
+URL:https://st-marien-os.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261215-bach-weihnachtsoratorium-i-iii-1800@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T180000
+DTEND;TZID=Europe/Berlin:20261215T200000
+SUMMARY:Bach: Weihnachtsoratorium I-III
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Kantaten I–III mit Marienkantorei\, Kinderchor und Jugendkant
+ orei St. Marien und Bremer Barockorchester\; Leitung KMD Carsten Zündorf.
+ \nEnde: laut Quelle nicht angegeben\nPreis: 15–42 € zzgl. Gebühren\; 
+ Kombikarte für beide Konzerte mit 20 % Rabatt\nQuelle (bitte vor dem Besu
+ ch prüfen): https://st-marien-os.de/veranstaltungen/weihnachtsoratorium-i
+ -iii
+URL:https://st-marien-os.de/veranstaltungen/weihnachtsoratorium-i-iii
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261215-bach-weihnachtsoratorium-4-6@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T203000
+DTEND;TZID=Europe/Berlin:20261215T223000
+SUMMARY:Bach: Weihnachtsoratorium IV–VI
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Konzert II des Doppelkonzerts: Kantaten IV bis VI.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: 42–15 € zzgl. VVK-Gebühr\; Kombi-Ticke
+ t für beide Konzerte\nQuelle (bitte vor dem Besuch prüfen): https://st-m
+ arien-os.de/programm/
+URL:https://st-marien-os.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261215-bach-weihnachtsoratorium-iv-vi-2030@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T203000
+DTEND;TZID=Europe/Berlin:20261215T223000
+SUMMARY:Bach: Weihnachtsoratorium IV-VI
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Kantaten IV–VI mit Marienkantorei\, Kinderchor und Jugendkant
+ orei St. Marien und Bremer Barockorchester\; Leitung KMD Carsten Zündorf.
+ \nEnde: laut Quelle nicht angegeben\nPreis: 15–42 € zzgl. Gebühren\; 
+ Kombikarte für beide Konzerte mit 20 % Rabatt\nQuelle (bitte vor dem Besu
+ ch prüfen): https://st-marien-os.de/veranstaltungen/weihnachtsoratorium-i
+ -iii
+URL:https://st-marien-os.de/veranstaltungen/weihnachtsoratorium-i-iii
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261219-blaesermusik-zur-marktzeit@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Bläsermusik zur Marktzeit (Ökumenische Marktmusik)
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Gastkonzert mit Bläsermusik in der Reihe Ökumenische Marktmus
+ ik.\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://
+ st-marien-os.de/programm/
+URL:https://st-marien-os.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20261220-weihnachtskonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T193000
+DTEND;TZID=Europe/Berlin:20261220T213000
+SUMMARY:Weihnachtskonzert
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Weihnachtskonzert mit Mitgliedern des Musiktheaterensembles\; L
+ eitung Benjamin Huth\, Moderation Alexander Wunderlich.\nEnde: laut Quelle
+  nicht angegeben\nTickets: https://theaterosnabrueck-shop.comfortticket.de
+ /de/veranstaltung/a8dd73d7-09c8-421b-8448-b5dd37a7671f/12875\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.theater-osnabrueck.de/veranstaltung
+ /Weihnachtskonzert+-+20262027/979/12875
+URL:https://www.theater-osnabrueck.de/veranstaltung/Weihnachtskonzert+-+202
+ 62027/979/12875
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-st-katharinen-20261231-silvesterorgelkonzert@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T200000
+DTEND;TZID=Europe/Berlin:20261231T220000
+SUMMARY:SilvesterOrgelKonzert
+LOCATION:St. Katharinen Osnabrück\, An der Katharinenkirche 8\, 49074 Osna
+ brück
+DESCRIPTION:Orgelkonzert an der Friedensorgel zum Jahresende.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ friedensorgel.de/Termine
+URL:https://www.friedensorgel.de/Termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-marienkirche-20261231-silvester-orgelkonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T223000
+DTEND;TZID=Europe/Berlin:20270101T003000
+SUMMARY:Silvester-Orgelkonzert
+LOCATION:St. Marien Osnabrück\, Marienstraße 13/14\, 49074 Osnabrück
+DESCRIPTION:Eine Stunde Orgelmusik an der Flentrop-Orgel\, danach Brot und 
+ Wein und ökumenischer Neujahrssegen.\nEnde: laut Quelle nicht angegeben\n
+ Preis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://st-ma
+ rien-os.de/veranstaltungen/silvester-orgelkonzert
+URL:https://st-marien-os.de/veranstaltungen/silvester-orgelkonzert
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20270101-neujahrskonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T170000
+DTEND;TZID=Europe/Berlin:20270101T190000
+SUMMARY:Neujahrskonzert
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:„Der Sonne hinterher!“ mit Werken u. a. von Tschaikowsky\, 
+ Chabrier\, Paganini\, Ponchielli\, Cole Porter und Rimski-Korsakow. Verans
+ talter: Theater Osnabrück.\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://osnabrueckhalle.de/programm/neujahrsk
+ onzert/
+URL:https://osnabrueckhalle.de/programm/neujahrskonzert/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270110-2-kammerkonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T113000
+DTEND;TZID=Europe/Berlin:20270110T133000
+SUMMARY:2. Kammerkonzert
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Sonaten von Fauré (Nr. 1 A-Dur)\, Elgar (e-Moll) und Prokofjew
+  (Nr. 2 D-Dur)\; Oberes Foyer.\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.theater-osnabrueck.de/spielzei
+ t/konzerte/kammerkonzerte-26-27/
+URL:https://www.theater-osnabrueck.de/spielzeit/konzerte/kammerkonzerte-26-
+ 27/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20270208-4-sinfoniekonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270208T193000
+DTEND;TZID=Europe/Berlin:20270208T213000
+SUMMARY:4. Sinfoniekonzert
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Lisa Streich: „Ishjärta“\; Werk mit Osnabrücker Musikprei
+ sträger:in 2026 (noch nicht bekannt)\; Amy Beach: „Gaelic Symphony“.\
+ nEnde: laut Quelle nicht angegeben\nTickets: https://theaterosnabrueck-sho
+ p.comfortticket.de/de/veranstaltung/a8dd73d7-09c8-421b-8448-b5dd37a7671f/1
+ 2819\nQuelle (bitte vor dem Besuch prüfen): https://osnabrueckhalle.de/pr
+ ogramm/4-sinfoniekonzert/
+URL:https://osnabrueckhalle.de/programm/4-sinfoniekonzert/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270214-3-kammerkonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T113000
+DTEND;TZID=Europe/Berlin:20270214T133000
+SUMMARY:3. Kammerkonzert
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:„Schlagwerk +“\; Orchesterstudio.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-osna
+ brueck.de/spielzeit/konzerte/kammerkonzerte-26-27/
+URL:https://www.theater-osnabrueck.de/spielzeit/konzerte/kammerkonzerte-26-
+ 27/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20270301-5-sinfoniekonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270301T193000
+DTEND;TZID=Europe/Berlin:20270301T213000
+SUMMARY:5. Sinfoniekonzert
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Bizet: Carmen-Suite Nr. 1\; Chaminade: Concertino für Flöte\;
+  Milhaud: Le bœuf sur le toit\; Haydn: Sinfonie Nr. 103.\nEnde: laut Quel
+ le nicht angegeben\nTickets: https://theaterosnabrueck-shop.comfortticket.
+ de/de/veranstaltung/a8dd73d7-09c8-421b-8448-b5dd37a7671f/12820\nQuelle (bi
+ tte vor dem Besuch prüfen): https://osnabrueckhalle.de/programm/5-sinfoni
+ ekonzert/
+URL:https://osnabrueckhalle.de/programm/5-sinfoniekonzert/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270320-1-schlosskonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T180000
+DTEND;TZID=Europe/Berlin:20270320T200000
+SUMMARY:1. Schlosskonzert
+LOCATION:Aula im Schloss\, Osnabrück
+DESCRIPTION:Vaughan Williams: Oboenkonzert a-Moll\; Berg: 3 Stücke aus der
+  Lyrischen Suite\; in Kooperation mit dem Institut für Musikwissenschaft 
+ der Universität.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.theater-osnabrueck.de/spielzeit/konzerte/sc
+ hlosskonzerte-26-27/
+URL:https://www.theater-osnabrueck.de/spielzeit/konzerte/schlosskonzerte-26
+ -27/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

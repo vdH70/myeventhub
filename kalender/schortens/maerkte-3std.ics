@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Schortens · my Event Hub (Erinnerung 3 Stunden vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sch-stadtbuecherei-20261030-buecherflohmarkt-der-stadtbuecherei-schorte
+ ns-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Bücherflohmarkt der Stadtbücherei Schortens
+LOCATION:Stadtbücherei Schortens\, Beethovenstraße 37\, 26419 Schortens
+DESCRIPTION:Laufzeit: 30.10.2026 bis 5.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.schortens.de/kultur-freizeit/kultur-veranstaltunge
+ n/veranstaltungskalender/
+URL:https://www.schortens.de/kultur-freizeit/kultur-veranstaltungen/veranst
+ altungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sch-stadtbuecherei-20261030-buecherflohmarkt-der-stadtbuecherei-schorte
+ ns-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Letzter Tag: Bücherflohmarkt der Stadtbücherei Schortens
+LOCATION:Stadtbücherei Schortens\, Beethovenstraße 37\, 26419 Schortens
+DESCRIPTION:Laufzeit: 30.10.2026 bis 5.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.schortens.de/kultur-freizeit/kultur-veranstaltunge
+ n/veranstaltungskalender/
+URL:https://www.schortens.de/kultur-freizeit/kultur-veranstaltungen/veranst
+ altungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sch-buergerhaus-20261108-frauenkleiderbasar-im-treffpunkt-weichselstras
+ se@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:Frauenkleiderbasar im Treffpunkt Weichselstraße
+LOCATION:Bürgerhaus Schortens\, Weserstraße 1\, 26419 Schortens
+DESCRIPTION:Basar im Treffpunkt Weichselstraße\, Eintritt frei.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.buergerhaus-schortens.de/
+URL:https://www.buergerhaus-schortens.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

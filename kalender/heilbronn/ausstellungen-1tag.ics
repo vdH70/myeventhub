@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Heilbronn · my Event Hub (Erinnerung 1 Tag v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hn-experimenta-20261018-giganten-riesen-der-vergangenheit-beginn@myeven
+ thub.de
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Beginn: Giganten – Riesen der Vergangenheit
+LOCATION:experimenta – Das Science Center\, Experimenta-Platz\, 74072 Hei
+ lbronn
+DESCRIPTION:Sonderausstellung über Riesentiere aus der Zeit nach den Dinos
+ auriern.\nLaufzeit: 18.10.2026 bis 30.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.experimenta.science/
+URL:https://www.experimenta.science/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-experimenta-20261018-giganten-riesen-der-vergangenheit-ende@myeventh
+ ub.de
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Letzter Tag: Giganten – Riesen der Vergangenheit
+LOCATION:experimenta – Das Science Center\, Experimenta-Platz\, 74072 Hei
+ lbronn
+DESCRIPTION:Sonderausstellung über Riesentiere aus der Zeit nach den Dinos
+ auriern.\nLaufzeit: 18.10.2026 bis 30.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.experimenta.science/
+URL:https://www.experimenta.science/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

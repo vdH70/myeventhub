@@ -1,0 +1,362 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Blues in Bremen · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bettys-black-pearl-20261106-tattooed-ladies@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Tattooed Ladies
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Bluesrock.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder 
+ Beginn)\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.bettysblackpearl.de/deutsch/eve
+ nts/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20261107-the-shuffle-casters@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:The Shuffle Casters
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Blues.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Begi
+ nn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.bettysblackpearl.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261112-black-mojo-crew@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Black Mojo Crew
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Blues Rock\, Bremen\nEnde: laut Quelle nicht angegeben\nPreis: 
+ Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfr
+ ei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theater-bremen-kleines-haus-20261113-club-aja-monet@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T210000
+DTEND;TZID=Europe/Berlin:20261113T230000
+SUMMARY:CLUB: aja monet
+LOCATION:Theater Bremen – Kleines Haus\, Goetheplatz 1-3\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterbremen.de/de_DE/programm/club-aja-monet.1403749
+URL:https://theaterbremen.de/de_DE/programm/club-aja-monet.1403749
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261117-handsome-jack@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Handsome Jack
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Boogie\, Blues & Rock 'n' Roll\, USA\nEnde: laut Quelle nicht a
+ ngegeben\nPreis: AK 20\,-\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20261120-mush-n-blues@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Mush'n'Blues
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Blues.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Begi
+ nn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.bettysblackpearl.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261127-hiss@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T210000
+DTEND;TZID=Europe/Berlin:20261127T230000
+SUMMARY:Hiss
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock 'n' Polka Ska Blues\, Stuttgart\nEnde: laut Quelle nicht a
+ ngegeben\nPreis: AK 24\,-\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261202-nevertoolate@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:NeverTooLate
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Rock\, Blues\, Soul & Cover\, Bremen\nEnde: laut Quelle nicht a
+ ngegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261203-local-radio-s-rocking-safari-r-dark-band@myeventhub
+ .de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Local Radio's Rocking Safari (R. Dark Band)
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Blues Rock\, Bremen\nEnde: laut Quelle nicht angegeben\nPreis: 
+ Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfr
+ ei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20261204-black-mojo-crew@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Black Mojo Crew
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Blues & Rock.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.bettysblackpearl.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sendesaal-bremen-20261212-ina-forsman-after-dark-hour@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:INA FORSMAN "After Dark Hour"
+LOCATION:Sendesaal Bremen\, Bürgermeister-Spitta-Allee 45\, 28329 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://tickets.sen
+ desaal-bremen.de/event/475\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /sendesaal-bremen.de/programm/
+URL:https://sendesaal-bremen.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261215-blue-monday-kings@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T200000
+DTEND;TZID=Europe/Berlin:20261215T220000
+SUMMARY:Blue Monday Kings
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Blues Duo\, Bremen\nEnde: laut Quelle nicht angegeben\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.meisenfre
+ i.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20261217-high-octane@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:High Octane
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Blues\, Soul & Funk\, Bremen\nEnde: laut Quelle nicht angegeben
+ \nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bettys-black-pearl-20261218-henning-pertiet@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Henning Pertiet
+LOCATION:Betty's Black Pearl\, Kolpingstraße 14\, 28195 Bremen
+DESCRIPTION:Blues & Boogie Woogie Piano.\n20:00 Uhr (die Quelle sagt nicht\
+ , ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.bettysblackpearl.de/deutsch/events/
+URL:https://www.bettysblackpearl.de/deutsch/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kito-20261218-big-daddy-wilson@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Big Daddy Wilson
+LOCATION:KITO – Altes Packhaus Vegesack\, Alte Hafenstraße 30\, 28757 Br
+ emen
+DESCRIPTION:Konzert im KITO\; im ersten Durchgang (Jazz-Block) als Blues au
+ sgelassen.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEn
+ de: laut Quelle nicht angegeben\nTickets: https://tickets.kbbn.info/ticket
+ s\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturbuerobremennor
+ d.de/programm/dezember-2026/
+URL:https://www.kulturbuerobremennord.de/programm/dezember-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kito-20261219-big-daddy-wilson@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Big Daddy Wilson
+LOCATION:KITO – Altes Packhaus Vegesack\, Alte Hafenstraße 30\, 28757 Br
+ emen
+DESCRIPTION:Konzert im KITO\; im ersten Durchgang (Jazz-Block) als Blues au
+ sgelassen.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEn
+ de: laut Quelle nicht angegeben\nTickets: https://tickets.kbbn.info/ticket
+ s\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturbuerobremennor
+ d.de/programm/dezember-2026/
+URL:https://www.kulturbuerobremennord.de/programm/dezember-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meisenfrei-20270116-b-b-the-blues-shacks@myeventhub.de
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:B.B. & The Blues Shacks
+LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
+DESCRIPTION:Als „Voranzeige“ auf der Programmseite\; Uhrzeit laut Nordw
+ est-Ticket 21:00.\nPreis: VVK € 22\,- (Onlinetickets zzgl. Gebühren)\nT
+ ickets: https://nordwest-ticket.de/thema/meisenfrei-blues-club\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.meisenfrei.de/programm.htm
+URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270423-marc-broussard@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270423T190000
+DTEND;TZID=Europe/Berlin:20270423T210000
+SUMMARY:Marc Broussard – AND HIS BAND - LIVE 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-04-23/marc-broussard/
+URL:https://modernes.de/events/2027-04-23/marc-broussard/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

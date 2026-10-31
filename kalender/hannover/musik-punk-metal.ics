@@ -1,0 +1,623 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Punk/Metal in Hannover · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261031-30666-halloween-party-im-salon@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T210000
+DTEND;TZID=Europe/Berlin:20261031T230000
+SUMMARY:30666 Halloween Party im Salon
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Metal\, Hard Rock\, harte Evergreens und 90er.\nEinlass 21:00\,
+  Beginn 21:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: Abendkasse ko
+ stümiert 3 €\, sonst 7 €\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.beichezheinz.de/programm/2026-10-31/6742
+URL:https://www.beichezheinz.de/programm/2026-10-31/6742
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261104-avalanche-effect-und-gaeste@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T192000
+DTEND;TZID=Europe/Berlin:20261104T212000
+SUMMARY:AVALANCHE EFFECT UND GÄSTE
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 19:20 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK 21 € zzgl. Gebühren\nTickets: https://www.lux-linden.d
+ e/konzerte/avalanche-effect-und-gaeste/\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261105-praise-the-plague-a-secret-revealed@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:PRAISE THE PLAGUE + A SECRET REVEALED
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Post Black Metal aus Berlin und Würzburg.\nEinlass 19:00\, Beg
+ inn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.beichezheinz.de/programm/2026-11-05/6596
+URL:https://www.beichezheinz.de/programm/2026-11-05/6596
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261106-drunken-swallows@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:DRUNKEN SWALLOWS (ausverkauft)
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nPreis: VVK 25 € zzgl. Gebühren\nTickets: https://www
+ .lux-linden.de/konzerte/drunken-swallows/\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-pavillon-20261106-april-art-und-dymytry-paradox@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:APRIL ART und DYMYTRY PARADOX
+LOCATION:Kulturzentrum Pavillon\, Lister Meile 4\, 30161 Hannover
+DESCRIPTION:Tour 2026.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder 
+ Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.pavillon-hannover.de/programm
+URL:https://www.pavillon-hannover.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261106-mr-irish-bastard@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Mr. Irish Bastard
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Tickets: https://musikzentrum-hannover.de/veranstaltung/mr-iris
+ h-bastard/\nQuelle (bitte vor dem Besuch prüfen): https://musikzentrum-ha
+ nnover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261107-crescendium-drac-album-release-show@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:CRESCENDIUM – „Drac“ Album Release Show
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Mystic-Metal aus Hannover\, mit Leaving the Orbit\, Oakheart un
+ d Ecce Bestia.\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.beichezheinz
+ .de/programm/2026-11-07/6850
+URL:https://www.beichezheinz.de/programm/2026-11-07/6850
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261107-fahnenflucht-support-dankeschatz@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:FAHNENFLUCHT – SUPPORT: DANKESCHATZ
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK 21 € zzgl. Geb.\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261108-nasty-beatdown-hardcore-belgien@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:NASTY (Beatdown-Hardcore / Belgien)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Mit Crawlspace\, Pintglass\, Eternal Enemy und Once and for All
+ .\nEinlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.beichezheinz.de/programm/
+ 2026-11-08/6725
+URL:https://www.beichezheinz.de/programm/2026-11-08/6725
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261109-godzilla-in-the-kitchen-alternative-metal-lei
+ pzig@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T190000
+DTEND;TZID=Europe/Berlin:20261109T210000
+SUMMARY:Godzilla in the Kitchen (Alternative-Metal / Leipzig)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Support: Mudfinger.\nEinlass 18:00\, Beginn 19:00 Uhr\nEnde: la
+ ut Quelle nicht angegeben\nPreis: Eintritt frei\, der Hut geht rum\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.beichezheinz.de/programm/2026
+ -11-09/7137
+URL:https://www.beichezheinz.de/programm/2026-11-09/7137
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261112-holy-mother-heavy-metal-new-york-support@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:HOLY MOTHER (Heavy Metal / New York) + Support
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.beichezheinz.de/p
+ rogramm/2026-11-12/6448
+URL:https://www.beichezheinz.de/programm/2026-11-12/6448
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20261113-korn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:koRn
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://www.zag-arena-hannover.de
+ /veranstaltung/korn-2/\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .zag-arena-hannover.de/veranstaltungen/
+URL:https://www.zag-arena-hannover.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261113-the-melmacs-support-the-runnings@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:THE MELMACS – SUPPORT: THE RUNNINGS
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:PowerPopPunk mit Rock'n'Roll.\nEinlass 19:00\, Beginn 20:00 Uhr
+ \nEnde: laut Quelle nicht angegeben\nPreis: AK 20 € / VVK 16 € zzgl. G
+ eb.\nQuelle (bitte vor dem Besuch prüfen): https://www.lux-linden.de/prog
+ ramm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261114-the-feelgood-mclouds@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:THE FEELGOOD McLOUDS
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Celtic-Punk.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quel
+ le nicht angegeben\nPreis: VVK 22 € zzgl. Geb.\nQuelle (bitte vor dem Be
+ such prüfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261114-tanzwut-und-sagenbringer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:TANZWUT und SAGENBRINGER
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Tickets: https://musikzentrum-hannover.de/veranstaltung/tanzwut
+ -und-sagenbringer/\nQuelle (bitte vor dem Besuch prüfen): https://musikze
+ ntrum-hannover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261116-prong@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:PRONG
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Tickets: https://musikzentrum-hannover.de/veranstaltung/prong/\
+ nQuelle (bitte vor dem Besuch prüfen): https://musikzentrum-hannover.de/e
+ vents/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261117-ersatzkopf-bierpunk-darmstadt@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Ersatzkopf (Bierpunk / Darmstadt)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.beichezheinz.de/p
+ rogramm/2026-11-17/6779
+URL:https://www.beichezheinz.de/programm/2026-11-17/6779
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261118-employed-to-serve-cabal@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T193000
+DTEND;TZID=Europe/Berlin:20261118T213000
+SUMMARY:EMPLOYED TO SERVE + CABAL
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Metal aus UK und Death Metal aus Dänemark\, Support: Cold Cult
+ ure.\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.beichezheinz.de/progra
+ mm/2026-11-18/6665
+URL:https://www.beichezheinz.de/programm/2026-11-18/6665
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261119-rising-insane-pentastone@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:RISING INSANE + PENTASTONE
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Deathrace Tour 2026.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.beichezheinz.de/programm/2026-11-19/6359
+URL:https://www.beichezheinz.de/programm/2026-11-19/6359
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261120-massendefekt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:MASSENDEFEKT
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Tickets: https://musikzentrum-hannover.de/veranstaltung/massend
+ efekt/\nQuelle (bitte vor dem Besuch prüfen): https://musikzentrum-hannov
+ er.de/events/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261121-hannover-hardcore-fest-26@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T170000
+DTEND;TZID=Europe/Berlin:20261121T190000
+SUMMARY:Hannover Hardcore Fest '26
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Hardcore-Festival mit acht Bands.\nEinlass 16:00\, Beginn 17:00
+  Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.beichezheinz.de/programm/2026-11-21/6637
+URL:https://www.beichezheinz.de/programm/2026-11-21/6637
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261126-penny-the-pits-punk-surf-rock-kanada@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T220000
+DTEND;TZID=Europe/Berlin:20261127T000000
+SUMMARY:PENNY & THE PITS (Punk Surf Rock / Kanada)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 22:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.beichezheinz.de/programm/2026-11-26/7214
+URL:https://www.beichezheinz.de/programm/2026-11-26/7214
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261127-wisborg-the-fright@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T201500
+DTEND;TZID=Europe/Berlin:20261127T221500
+SUMMARY:Wisborg & The Fright
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:20:15 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 32\,90 €\nTickets: https://www.de
+ inetickets.de/shop/skh/de/start/?g=6384\nQuelle (bitte vor dem Besuch prü
+ fen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261128-allt-avralize-bite-down@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T190000
+DTEND;TZID=Europe/Berlin:20261128T210000
+SUMMARY:ALLT + AVRALIZE + BITE DOWN
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Metalcore aus Schweden und Rottweil.\nEinlass 18:30\, Beginn 19
+ :00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.beichezheinz.de/programm/2026-11-28/6283
+URL:https://www.beichezheinz.de/programm/2026-11-28/6283
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261128-half-me@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Half me
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261202-guana-batz-support@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Guana Batz & Support
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 29\,00 €\nTickets: https://www.de
+ inetickets.de/shop/skh/de/start/?g=6629\nQuelle (bitte vor dem Besuch prü
+ fen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261203-coilguns-park-riot@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:COILGUNS + PARK+RIOT
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Post-Hardcore aus der Schweiz\, Mathcore aus Leipzig.\nEinlass 
+ 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.beichezheinz.de/programm/2026-12-03/
+ 7184
+URL:https://www.beichezheinz.de/programm/2026-12-03/7184
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261204-the-waltons@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:THE WALTONS
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:CowPunk.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle n
+ icht angegeben\nPreis: AK 25 € / VVK 20 € zzgl. Geb.\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-pavillon-20261206-zebrahead@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T200000
+DTEND;TZID=Europe/Berlin:20261206T220000
+SUMMARY:Zebrahead
+LOCATION:Kulturzentrum Pavillon\, Lister Meile 4\, 30161 Hannover
+DESCRIPTION:„DRUNK AND SH*TTY IN EVERY CITY“.\n20:00 Uhr (die Quelle sa
+ gt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nTic
+ kets: https://www.pavillon-hannover.de/event/details/76368/zebrahead\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.pavillon-hannover.de/progra
+ mm
+URL:https://www.pavillon-hannover.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261211-excrementory-grindfuckers-25-jahre@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:EXCREMENTORY GRINDFUCKERS – 25 Jahre
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Party-Grind aus Hannover\, mit Special Guest.\nEinlass 19:00\, 
+ Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.beichezheinz.de/programm/2026-12-11/6592
+URL:https://www.beichezheinz.de/programm/2026-12-11/6592
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261212-unzucht@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:UNZUCHT
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261215-ankor-self-deception-support-lauren-babi@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Ankor & Self Deception | Support: Lauren Babic
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261217-skassapunka@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:SKASSAPUNKA
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Ska-Punk.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle 
+ nicht angegeben\nPreis: VVK 18 € zzgl. Geb.\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261218-peter-and-the-test-tube-babies@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:PETER AND THE TEST TUBE BABIES
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Special Guest: Kann Karate.\nEinlass 19:00\, Beginn 20:00 Uhr\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.beichezheinz.de/programm/2026-12-18/6208
+URL:https://www.beichezheinz.de/programm/2026-12-18/6208
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261219-grailknights@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T180000
+DTEND;TZID=Europe/Berlin:20261219T200000
+SUMMARY:GRAILKNIGHTS (ausverkauft)
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Einlass 17:30\, Beginn 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.lux-
+ linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261219-alex-mofa-gang@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Alex Mofa Gang
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261228-hammerhai-kaak@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T200000
+DTEND;TZID=Europe/Berlin:20261228T220000
+SUMMARY:HAMMERHAI + KAAK
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Ska-Punk und Post-Grunge aus Hannover.\nEinlass 19:00\, Beginn 
+ 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: Abendkasse 22 € / 2
+ 5 € (Soli)\nQuelle (bitte vor dem Besuch prüfen): https://www.beichezhe
+ inz.de/programm/2026-12-28/6388
+URL:https://www.beichezheinz.de/programm/2026-12-28/6388
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261228-lalgr-prasentiert-biertoifel-smart-attit@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T200000
+DTEND;TZID=Europe/Berlin:20261228T220000
+SUMMARY:LALGR PRÄSENTIERT: BIERTOIFEL\, SMART ATTITUDE
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK 18 € zzgl. Geb.\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261229-fat-belly@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T200000
+DTEND;TZID=Europe/Berlin:20261229T220000
+SUMMARY:FAT BELLY
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Melodischer Punkrock.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: 
+ laut Quelle nicht angegeben\nPreis: VVK 20 € zzgl. Geb.\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20270206-grave-digger-special-guest-motorjesus-su@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:GRAVE DIGGER & Special Guest MOTORJESUS + Support WARWOLF
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270218-electric-callboy@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T190000
+DTEND;TZID=Europe/Berlin:20270218T210000
+SUMMARY:Electric Callboy
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 17:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/noapp/event/electric-callboy-tanznei
+ d-world-tour-zag-arena-21718772/?affiliate=AHG&utm_campaign=Arena+Hannover
+ &utm_source=AHG&utm_medium=dp\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.zag-arena-hannover.de/veranstaltung/electric-callboy/
+URL:https://www.zag-arena-hannover.de/veranstaltung/electric-callboy/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20270305-schattenmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:SCHATTENMANN
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270601-die-aerzte@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270601T200000
+DTEND;TZID=Europe/Berlin:20270601T220000
+SUMMARY:die ärzte
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 18:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.ticket-onlineshop.com/ols/arenahannover/de/loge
+ n/channel/shop/areaplan/venue/event/663680\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.zag-arena-hannover.de/veranstaltung/die-aerzte-3/
+URL:https://www.zag-arena-hannover.de/veranstaltung/die-aerzte-3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270602-die-aerzte@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270602T190000
+DTEND;TZID=Europe/Berlin:20270602T210000
+SUMMARY:die ärzte
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 17:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.ticket-onlineshop.com/ols/arenahannover/de/loge
+ n/channel/shop/areaplan/venue/event/663683\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.zag-arena-hannover.de/veranstaltung/die-aerzte/
+URL:https://www.zag-arena-hannover.de/veranstaltung/die-aerzte/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

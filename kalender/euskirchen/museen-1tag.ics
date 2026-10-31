@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Euskirchen · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:eu-tuchfabrik-mueller-20261101-offene-filzwerkstatt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Offene Filzwerkstatt
+LOCATION:LVR-Industriemuseum Tuchfabrik Müller\, Carl-Koenen-Straße 25b\,
+  53881 Euskirchen
+DESCRIPTION:Termine laut Veranstalter: Reihe laut Quelle 01.11.2026 bis 04.
+ 04.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.lvr.de/industr
+ iemuseum/tuchfabrik-mueller/
+URL:https://www.lvr.de/industriemuseum/tuchfabrik-mueller/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-tuchfabrik-mueller-20261101-familienfuehrung-durch-die-tuchfabrik@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T133000
+DTEND;TZID=Europe/Berlin:20261101T153000
+SUMMARY:Familienführung durch die Tuchfabrik
+LOCATION:LVR-Industriemuseum Tuchfabrik Müller\, Carl-Koenen-Straße 25b\,
+  53881 Euskirchen
+DESCRIPTION:Termine laut Veranstalter: Reihe laut Quelle 01.11.2026 bis 04.
+ 04.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.lvr.de/industr
+ iemuseum/tuchfabrik-mueller/
+URL:https://www.lvr.de/industriemuseum/tuchfabrik-mueller/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-tuchfabrik-mueller-20261107-fototag-in-der-tuchfabrik@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T140000
+DTEND;TZID=Europe/Berlin:20261107T160000
+SUMMARY:Fototag in der Tuchfabrik
+LOCATION:LVR-Industriemuseum Tuchfabrik Müller\, Carl-Koenen-Straße 25b\,
+  53881 Euskirchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lvr.de/industriemuseum/tuchfabrik-mueller/
+URL:https://www.lvr.de/industriemuseum/tuchfabrik-mueller/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-tuchfabrik-mueller-20261108-mitmachaktion-mit-volldampf-durch-die-fa
+ brik@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T120000
+DTEND;TZID=Europe/Berlin:20261108T140000
+SUMMARY:Mitmachaktion: Mit Volldampf durch die Fabrik
+LOCATION:LVR-Industriemuseum Tuchfabrik Müller\, Carl-Koenen-Straße 25b\,
+  53881 Euskirchen
+DESCRIPTION:Termine laut Veranstalter: Reihe laut Quelle 08.11.2026 bis 11.
+ 04.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.lvr.de/industr
+ iemuseum/tuchfabrik-mueller/
+URL:https://www.lvr.de/industriemuseum/tuchfabrik-mueller/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

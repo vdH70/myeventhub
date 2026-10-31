@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Iserlohn · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mk-museum-haus-letmathe-20251207-letmathe-einst-und-jetzt-ende@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Letzter Tag: Letmathe einst und jetzt
+LOCATION:Museum Haus Letmathe\, Hagener Straße 62\, 58642 Iserlohn
+DESCRIPTION:Laufzeit: 7.12.2025 bis 30.11.2026\nPreis: Eintritt frei\nQuell
+ e (bitte vor dem Besuch prüfen): https://museen-iserlohn.de/museum-haus-l
+ etmathe/
+URL:https://museen-iserlohn.de/museum-haus-letmathe/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mk-stadtmuseum-iserlohn-20261004-forestrum-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: FORESTRUM
+LOCATION:Stadtmuseum Iserlohn\, Fritz-Kühn-Platz 1\, 58636 Iserlohn
+DESCRIPTION:Laufzeit: 4.10.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://museen-iserlohn.de/
+URL:https://museen-iserlohn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

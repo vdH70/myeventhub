@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Geeste · my Event Hub (Erinnerung 1 Tag vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:el-emsland-moormuseum-20260709-von-hier-aus-wege-durch-feuchtgebiete-en
+ de@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Von hier aus: Wege durch Feuchtgebiete
+LOCATION:Emsland Moormuseum\, Geestmoor 6\, 49744 Geeste
+DESCRIPTION:Fotografien von Sebastian Holt.\nLaufzeit: 9.7.2026 bis 1.11.20
+ 26\nQuelle (bitte vor dem Besuch prüfen): https://moormuseum.de/
+URL:https://moormuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-emsland-moormuseum-20260910-gymnasium-haren-fotografie-ende@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Gymnasium Haren – Fotografie
+LOCATION:Emsland Moormuseum\, Geestmoor 6\, 49744 Geeste
+DESCRIPTION:Laufzeit: 10.9.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://moormuseum.de/
+URL:https://moormuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,502 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Recklinghausen · my Event Hub (Erinnerung 1 Tag vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20261103-3-sinfoniekonzert-lichtblick@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T193000
+DTEND;TZID=Europe/Berlin:20261103T213000
+SUMMARY:3. Sinfoniekonzert – Lichtblick
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-kunsthalle-20261106-jazz-in-der-kunsthalle-die-sparda-lounge-accordi
+ on@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T180000
+DTEND;TZID=Europe/Berlin:20261106T200000
+SUMMARY:Jazz in der Kunsthalle – Die Sparda Lounge: Accordion Affairs
+LOCATION:Kunsthalle Recklinghausen\, Große-Perdekamp-Straße 25–27\, 456
+ 57 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-musikschule-20261107-jazzy-november-lady-d-im-herbstlicht@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T170000
+DTEND;TZID=Europe/Berlin:20261107T190000
+SUMMARY:Jazzy November: Lady "D" im Herbstlicht
+LOCATION:Musikschule Recklinghausen\, Willy-Brandt-Park 3\, 45657 Recklingh
+ ausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-altstadtschmiede-20261113-die-kleine-altstadtparty@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Die kleine Altstadtparty
+LOCATION:Altstadtschmiede\, Kellerstr. 10\, 45657 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: VVK zzgl. Gebühren 6
+ €\nQuelle (bitte vor dem Besuch prüfen): https://www.altstadtschmiede.d
+ e/aktuelle-veranstaltungen
+URL:https://www.altstadtschmiede.de/aktuelle-veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-rathaus-20261115-2-rathauskonzert-zwischen-poesie-und-tiefe@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:2. Rathauskonzert – Zwischen Poesie und Tiefe
+LOCATION:Rathaus Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-kunsthalle-20261120-jazz-in-der-kunsthalle-die-sparda-lounge-jazz-ak
+ es@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T180000
+DTEND;TZID=Europe/Berlin:20261120T200000
+SUMMARY:Jazz in der Kunsthalle – Die Sparda Lounge: Jazz Akestra
+LOCATION:Kunsthalle Recklinghausen\, Große-Perdekamp-Straße 25–27\, 456
+ 57 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20261208-4-sinfoniekonzert-ueberraschendes@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T193000
+DTEND;TZID=Europe/Berlin:20261208T213000
+SUMMARY:4. Sinfoniekonzert – ÜberraschendEs
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20261223-weihnachtskonzert-musikalische-einstimmun
+ g-auf-die@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T140000
+DTEND;TZID=Europe/Berlin:20261223T160000
+SUMMARY:Weihnachtskonzert – Musikalische Einstimmung auf die Feiertage
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20261223-weihnachtskonzert-musikalische-einstimmun
+ g-auf-die-1800@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T180000
+DTEND;TZID=Europe/Berlin:20261223T200000
+SUMMARY:Weihnachtskonzert – Musikalische Einstimmung auf die Feiertage
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-buergerhaus-sued-20270103-neujahrskonzert-reisefieber@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T110000
+DTEND;TZID=Europe/Berlin:20270103T130000
+SUMMARY:Neujahrskonzert – Reisefieber
+LOCATION:Bürgerhaus Süd\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270107-neujahrskonzert-reisefieber@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T193000
+DTEND;TZID=Europe/Berlin:20270107T213000
+SUMMARY:Neujahrskonzert – Reisefieber
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270119-smetana-in-turnschuhen-ma-vlast@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T110000
+DTEND;TZID=Europe/Berlin:20270119T130000
+SUMMARY:Smetana in Turnschuhen: „Má vlast“
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270119-5-sinfoniekonzert-heimat@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T193000
+DTEND;TZID=Europe/Berlin:20270119T213000
+SUMMARY:5. Sinfoniekonzert – Heimat
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-rathaus-20270131-3-rathauskonzert-he-a-r-story@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T110000
+DTEND;TZID=Europe/Berlin:20270131T130000
+SUMMARY:3. Rathauskonzert – He(a)r Story
+LOCATION:Rathaus Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-musikschule-20270206-jazzy-februar-lieder-songs-canciones-musicas@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T193000
+DTEND;TZID=Europe/Berlin:20270206T213000
+SUMMARY:Jazzy Februar: Lieder – Songs – Canciones – Músicas
+LOCATION:Musikschule Recklinghausen\, Willy-Brandt-Park 3\, 45657 Recklingh
+ ausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270207-erlebniskonzert-magische-melodien-anime-g
+ hibli-liv@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T110000
+DTEND;TZID=Europe/Berlin:20270207T130000
+SUMMARY:Erlebniskonzert: Magische Melodien – Anime & Ghibli live
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270216-6-sinfoniekonzert-per-aspera-ad-astra@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T193000
+DTEND;TZID=Europe/Berlin:20270216T213000
+SUMMARY:6. Sinfoniekonzert – Per Aspera ad Astra
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-musikschule-20270306-jazzy-maerz-jamp-saxophonquartett-fruehling@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T193000
+DTEND;TZID=Europe/Berlin:20270306T213000
+SUMMARY:Jazzy März: JAMP-Saxophonquartett – Frühling
+LOCATION:Musikschule Recklinghausen\, Willy-Brandt-Park 3\, 45657 Recklingh
+ ausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270316-7-sinfoniekonzert-kurzgeschichten@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270316T193000
+DTEND;TZID=Europe/Berlin:20270316T213000
+SUMMARY:7. Sinfoniekonzert – Kurzgeschichten
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270413-8-sinfoniekonzert-wunschkonzert@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270413T193000
+DTEND;TZID=Europe/Berlin:20270413T213000
+SUMMARY:8. Sinfoniekonzert – Wunschkonzert
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-rathaus-20270418-4-rathauskonzert-alte-klaenge-neue-welten@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270418T110000
+DTEND;TZID=Europe/Berlin:20270418T130000
+SUMMARY:4. Rathauskonzert – Alte Klänge – Neue Welten
+LOCATION:Rathaus Recklinghausen\, Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270629-9-sinfoniekonzert-auferstehung@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270629T193000
+DTEND;TZID=Europe/Berlin:20270629T213000
+SUMMARY:9. Sinfoniekonzert – Auferstehung
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:re-ruhrfestspielhaus-20270716-npw-goes-film@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270716T193000
+DTEND;TZID=Europe/Berlin:20270716T213000
+SUMMARY:NPW goes FILM
+LOCATION:Ruhrfestspielhaus Recklinghausen\, Otto-Burrmeister-Allee 1\, 4565
+ 7 Recklinghausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele
+ _Kultur/Musik_und_Theater/Kultur_Kommt/index.asp
+URL:https://www.recklinghausen.de/Inhalte/Startseite/Ruhrfestspiele_Kultur/
+ Musik_und_Theater/Kultur_Kommt/index.asp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

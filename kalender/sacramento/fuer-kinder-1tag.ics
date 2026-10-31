@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Sacramento · my Event Hub (Erinnerung 1 Tag vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sac-golden-1-center-20261029-disney-on-ice-presents-find-your-hero-begi
+ nn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Beginn: Disney On Ice presents Find Your Hero
+LOCATION:Golden 1 Center\, Sacramento
+DESCRIPTION:Eisshow mit Disney-Figuren\, mehrere Vorstellungen.\nLaufzeit: 
+ 29.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.golden1center.com/events
+URL:https://www.golden1center.com/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sac-golden-1-center-20261029-disney-on-ice-presents-find-your-hero-ende
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Disney On Ice presents Find Your Hero
+LOCATION:Golden 1 Center\, Sacramento
+DESCRIPTION:Eisshow mit Disney-Figuren\, mehrere Vorstellungen.\nLaufzeit: 
+ 29.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.golden1center.com/events
+URL:https://www.golden1center.com/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

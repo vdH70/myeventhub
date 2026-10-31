@@ -1,0 +1,380 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Bremen · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kunsthalle-bremen-20260225-remix-photographie-fiktion-und-wahrheit-ende
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Remix. Photographie – Fiktion und Wahrheit
+LOCATION:Kunsthalle Bremen\, Am Wall 207\, 28195 Bremen
+DESCRIPTION:Sammlungspräsentation zur Fotografie zwischen Dokument und Ins
+ zenierung\, auch mit Blick auf digitale Bildmanipulation und KI. (Beginn 
+ „Ab 25.02.2026“ laut Ausstellungsvorschau 2026 der Kunsthalle.)\nLaufz
+ eit: 25.2.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.kunsthalle-bremen.de/de/view/exhibitions/exb-page/remix-photographi
+ e
+URL:https://www.kunsthalle-bremen.de/de/view/exhibitions/exb-page/remix-pho
+ tographie
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kunsthalle-bremen-20260722-mehr-frauen-bremer-kuenstlerinnen-auf-papier
+ -ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Mehr Frauen! Bremer Künstlerinnen auf Papier
+LOCATION:Kunsthalle Bremen\, Am Wall 207\, 28195 Bremen
+DESCRIPTION:Rund 60 Zeichnungen und Arbeiten auf Papier von Bremer Künstle
+ rinnen des frühen 20. Jahrhunderts\, darunter Zeitgenossinnen Paula Moder
+ sohn-Beckers.\nLaufzeit: 22.7.2026 bis 8.11.2026\nQuelle (bitte vor dem Be
+ such prüfen): https://www.kunsthalle-bremen.de/de/view/exhibitions/exb-pa
+ ge/mehr-frauen
+URL:https://www.kunsthalle-bremen.de/de/view/exhibitions/exb-page/mehr-frau
+ en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gak-bremen-20260829-gedaechtnisluecken-revisited-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Gedächtnislücken #revisited
+LOCATION:GAK Gesellschaft für Aktuelle Kunst\, Teerhof 21\, 28199 Bremen
+DESCRIPTION:Temporäres Denkmal zu den Lücken der Aufklärung im NSU-Kompl
+ ex\, gezeigt in den Posterrahmen der GAK.\nLaufzeit: 29.8.2026 bis 29.11.2
+ 026\nQuelle (bitte vor dem Besuch prüfen): https://gak-bremen.de/
+URL:https://gak-bremen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gak-bremen-20260829-gedaechtnisluecken-revisited-posterrahmen-ende@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Gedächtnislücken #revisited (Posterrahmen)
+LOCATION:GAK Gesellschaft für Aktuelle Kunst\, Teerhof 21\, 28199 Bremen
+DESCRIPTION:Laufzeit: 29.8.2026 bis 29.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://gak-bremen.de/
+URL:https://gak-bremen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weserburg-20260912-edition-s-press-gedichte-die-man-hoeren-muss-ende@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:Letzter Tag: Edition S Press. Gedichte\, die man hören muss
+LOCATION:Weserburg Museum für moderne Kunst\, Teerhof 20\, 28199 Bremen
+DESCRIPTION:Ausstellung im Zentrum für Künstlerpublikationen über den we
+ stdeutschen Verlag S Press (1970–2005) mit über 80 Editionen experiment
+ eller Literatur und Klangkunst.\nLaufzeit: 12.9.2026 bis 29.8.2027\nQuelle
+  (bitte vor dem Besuch prüfen): https://weserburg.de/ausstellung/edition-
+ s-press/
+URL:https://weserburg.de/ausstellung/edition-s-press/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-kuenstlerinnenhaus-20260913-nina-emge-in-der-wiederholung-beginnen-w
+ ir-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Nina Emge – In der Wiederholung beginnen wir
+LOCATION:KH Künstler:innenhaus Bremen\, Am Deich 68/69\, 28199 Bremen
+DESCRIPTION:Laufzeit: 13.9.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://kh-bremen.de/de/ausstellungen
+URL:https://kh-bremen.de/de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gak-bremen-20261003-if-words-are-to-be-sounded-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: if words are to be sounded
+LOCATION:GAK Gesellschaft für Aktuelle Kunst\, Teerhof 21\, 28199 Bremen
+DESCRIPTION:Gruppenausstellung über Sprache als performatives Medium mit V
+ ideo\, Audio\, Textil und Performance\; Eröffnung am 2. Oktober 2026\, 19
+  Uhr.\nLaufzeit: 3.10.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch pr
+ üfen): https://gak-bremen.de/26a_ifwords_de/
+URL:https://gak-bremen.de/26a_ifwords_de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-raum404-20261016-anne-van-der-linden-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Letzter Tag: Anne Van Der Linden
+LOCATION:Raum404\, Nicolaistraße 34/36\, 28195 Bremen
+DESCRIPTION:Ausstellung\, geöffnet Do und Fr 16–19 Uhr sowie samstags.\n
+ Laufzeit: 16.10.2026 bis 5.12.2026\nQuelle (bitte vor dem Besuch prüfen):
+  https://kulturbuero-bremen.de/en/anne-van-der-linden/
+URL:https://kulturbuero-bremen.de/en/anne-van-der-linden/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kunsthalle-bremen-20261031-der-dackel-eine-ikone-geht-gassi-beginn@myev
+ enthub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Beginn: Der Dackel. Eine Ikone geht Gassi
+LOCATION:Kunsthalle Bremen\, Am Wall 207\, 28195 Bremen
+DESCRIPTION:Erste umfassende Ausstellung zum Dackel in der Kunst mit rund 1
+ 20 historischen und zeitgenössischen Werken\; Hunde haben mit online gebu
+ chtem Zeitfenster freien Eintritt.\nLaufzeit: 31.10.2026 bis 28.3.2027\nTi
+ ckets: https://shop.kunsthalle-bremen.de\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.kunsthalle-bremen.de/de/ausstellungen/der-dackel
+URL:https://www.kunsthalle-bremen.de/de/ausstellungen/der-dackel
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kunsthalle-bremen-20261031-der-dackel-eine-ikone-geht-gassi-ende@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Letzter Tag: Der Dackel. Eine Ikone geht Gassi
+LOCATION:Kunsthalle Bremen\, Am Wall 207\, 28195 Bremen
+DESCRIPTION:Erste umfassende Ausstellung zum Dackel in der Kunst mit rund 1
+ 20 historischen und zeitgenössischen Werken\; Hunde haben mit online gebu
+ chtem Zeitfenster freien Eintritt.\nLaufzeit: 31.10.2026 bis 28.3.2027\nTi
+ ckets: https://shop.kunsthalle-bremen.de\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.kunsthalle-bremen.de/de/ausstellungen/der-dackel
+URL:https://www.kunsthalle-bremen.de/de/ausstellungen/der-dackel
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kunsthalle-bremen-20261101-sonntags-matinee-kuenstlergespraech-mit-hugo
+ -forte@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T113000
+DTEND;TZID=Europe/Berlin:20261101T133000
+SUMMARY:Sonntags-Matinée: Künstlergespräch mit Hugo Fortes
+LOCATION:Kunsthalle Bremen\, Am Wall 207\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunsthalle-bremen.de/de/besuch-planen/kalender
+URL:https://www.kunsthalle-bremen.de/de/besuch-planen/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerhaus-mahndorf-20261111-vernissage-der-gruppe-aquacolor@myeven
+ thub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T173000
+DTEND;TZID=Europe/Berlin:20261111T193000
+SUMMARY:Vernissage der Gruppe AquaColor
+LOCATION:Bürgerhaus Mahndorf\, Mahndorfer Bahnhof 10\, 28307 Bremen
+DESCRIPTION:Eröffnung einer Ausstellung der Malgruppe AquaColor.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.buergerhaus-mahndorf.de/programm
+URL:https://www.buergerhaus-mahndorf.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-wilhelm-wagenfeld-haus-20261114-furoshiki-workshop-mit-linda-gruet@m
+ yeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T140000
+DTEND;TZID=Europe/Berlin:20261114T160000
+SUMMARY:Furoshiki-Workshop mit Linda Gruet
+LOCATION:Wilhelm Wagenfeld Haus\, Am Wall 209\, 28195 Bremen
+DESCRIPTION:Workshop 14–17 Uhr\, Anmeldung erforderlich.\nEnde: laut Quel
+ le nicht angegeben\nPreis: 30 €\nQuelle (bitte vor dem Besuch prüfen): 
+ https://wilhelm-wagenfeld-stiftung.de/
+URL:https://wilhelm-wagenfeld-stiftung.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weserburg-20261114-better-together-poul-aase-gernes-beginn@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Beginn: Better Together! Poul & Aase Gernes
+LOCATION:Weserburg Museum für moderne Kunst\, Teerhof 20\, 28199 Bremen
+DESCRIPTION:Das Werk des dänischen Künstlerpaars erstmals als gemeinsame 
+ Praxis: Wandarbeiten\, Zeichnungen\, Gemälde\, Designobjekte\, Filme und 
+ Rauminstallationen.\nLaufzeit: 14.11.2026 bis 28.3.2027\nQuelle (bitte vor
+  dem Besuch prüfen): https://weserburg.de/ausstellung/better-together-pou
+ l-und-aase-gernes/
+URL:https://weserburg.de/ausstellung/better-together-poul-und-aase-gernes/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weserburg-20261114-better-together-poul-aase-gernes-ende@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Letzter Tag: Better Together! Poul & Aase Gernes
+LOCATION:Weserburg Museum für moderne Kunst\, Teerhof 20\, 28199 Bremen
+DESCRIPTION:Das Werk des dänischen Künstlerpaars erstmals als gemeinsame 
+ Praxis: Wandarbeiten\, Zeichnungen\, Gemälde\, Designobjekte\, Filme und 
+ Rauminstallationen.\nLaufzeit: 14.11.2026 bis 28.3.2027\nQuelle (bitte vor
+  dem Besuch prüfen): https://weserburg.de/ausstellung/better-together-pou
+ l-und-aase-gernes/
+URL:https://weserburg.de/ausstellung/better-together-poul-und-aase-gernes/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:staedtische-galerie-bremen-20261121-eroeffnung-raum-veraenderliche-dich
+ ten@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T190000
+DTEND;TZID=Europe/Berlin:20261121T210000
+SUMMARY:Eröffnung: Raum – veränderliche Dichten
+LOCATION:Städtische Galerie Bremen\, Buntentorsteinweg 112\, 28201 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://staedtischegaleriebremen.de/de/veranstaltungen
+URL:https://staedtischegaleriebremen.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-kuenstlerinnenhaus-20261127-ivan-cheng-scaffolding-3-beginn@myeventh
+ ub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Ivan Cheng – Scaffolding #3
+LOCATION:KH Künstler:innenhaus Bremen\, Am Deich 68/69\, 28199 Bremen
+DESCRIPTION:Laufzeit: 27.11.2026 bis 28.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://kh-bremen.de/de
+URL:https://kh-bremen.de/de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-kuenstlerinnenhaus-20261127-ivan-cheng-scaffolding-3-ende@myeventhub
+ .de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Letzter Tag: Ivan Cheng – Scaffolding #3
+LOCATION:KH Künstler:innenhaus Bremen\, Am Deich 68/69\, 28199 Bremen
+DESCRIPTION:Laufzeit: 27.11.2026 bis 28.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://kh-bremen.de/de
+URL:https://kh-bremen.de/de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,736 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Emden · my Event Hub (Erinnerung 1 Tag vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261105-9-komische-nacht-emden@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:9. Komische Nacht Emden
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 29\,60 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranstalt
+ ungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261107-dr-lueder-warnken@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Dr. Lüder Warnken
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 37\,90 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261120-die-show-by-tanzschule-astrid-loesch
+ en@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:DIE SHOW by Tanzschule Astrid Löschen
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 20\,00 € (erm. 18\,
+ 00 €)\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturevents-e
+ mden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261121-die-show-by-tanzschule-astrid-loesch
+ en@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T190000
+DTEND;TZID=Europe/Berlin:20261121T210000
+SUMMARY:DIE SHOW by Tanzschule Astrid Löschen
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 20\,00 € (erm. 18\,
+ 00 €)\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturevents-e
+ mden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261125-misery@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:Misery
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Schauspiel nach dem Roman von Stephen King in der Fassung von W
+ illiam Goldman.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://landesbuehne-nord.de/event-location/festspielhaus
+ -emden/
+URL:https://landesbuehne-nord.de/event-location/festspielhaus-emden/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261127-a-christmas-carol@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:A Christmas Carol
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 20\,00 € (erm. 14\,
+ 00 €)\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturevents-e
+ mden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261128-let-it-snow-the-christmas-show@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Let It Snow! – The Christmas Show
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 29\,90 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261212-cinderella@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T190000
+DTEND;TZID=Europe/Berlin:20261212T210000
+SUMMARY:Cinderella
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 18\,00 € (erm. 12\,
+ 00 €)\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturevents-e
+ mden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261213-cinderella@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T160000
+DTEND;TZID=Europe/Berlin:20261213T180000
+SUMMARY:Cinderella
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 18\,00 € (erm. 12\,
+ 00 €)\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturevents-e
+ mden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261218-eure-muetter-perlen-vor-die-saeue-da
+ s-best-of-zum@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Eure Mütter – Perlen vor die Säue – Das Best of zum Jubiläum
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 36\,50 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261220-barfuss-im-park@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T160000
+DTEND;TZID=Europe/Berlin:20261220T180000
+SUMMARY:Barfuß im Park
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 19\,00–28\,00 € (
+ erm. 10\,00–19\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20261227-eine-magische-elfenmission@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T160000
+DTEND;TZID=Europe/Berlin:20261227T180000
+SUMMARY:Eine magische Elfenmission
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 18\,00–24\,00 € (
+ erm. 12\,00–18\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270113-die-2-emder-lachnacht-mit-ole-lehman
+ n@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T193000
+DTEND;TZID=Europe/Berlin:20270113T213000
+SUMMARY:Die 2. Emder Lachnacht – mit Ole Lehmann
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 29\,00 € (erm. 24\,
+ 00 €)\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturevents-e
+ mden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270116-conni-das-musical@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T160000
+DTEND;TZID=Europe/Berlin:20270116T180000
+SUMMARY:Conni – Das Musical!
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 29\,00–39\,00 € (
+ erm. 24\,00–34\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270120-atze-schroeder-love-machine@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270120T200000
+DTEND;TZID=Europe/Berlin:20270120T220000
+SUMMARY:Atze Schröder – Love Machine
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 45\,40 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270121-hamburger-hafenvariete@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T193000
+DTEND;TZID=Europe/Berlin:20270121T213000
+SUMMARY:Hamburger Hafenvarieté
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 23\,00–29\,00 € (
+ erm. 15\,00–22\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270207-dance-masters-best-of-irish-dance@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T190000
+DTEND;TZID=Europe/Berlin:20270207T210000
+SUMMARY:DANCE MASTERS! Best Of Irish Dance
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 44\,90 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270209-heimsuchung@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270209T193000
+DTEND;TZID=Europe/Berlin:20270209T213000
+SUMMARY:Heimsuchung
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Schauspiel nach dem Roman von Jenny Erpenbeck.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://landesb
+ uehne-nord.de/event-location/festspielhaus-emden/
+URL:https://landesbuehne-nord.de/event-location/festspielhaus-emden/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270211-das-phantom-der-oper-die-originalpro
+ duktion-von-sa@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T193000
+DTEND;TZID=Europe/Berlin:20270211T213000
+SUMMARY:Das Phantom der Oper – Die Originalproduktion von Sasson/Sautter
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 54\,40 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270216-der-kleine-horrorladen@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T193000
+DTEND;TZID=Europe/Berlin:20270216T213000
+SUMMARY:Der kleine Horrorladen
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25\,00–35\,00 € (
+ erm. 13\,00–18\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270228-kribbeln-in-n-buuk-der-himmel-voller
+ -geigen@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T160000
+DTEND;TZID=Europe/Berlin:20270228T180000
+SUMMARY:Kribbeln in'n buuk – Der Himmel voller Geigen
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 19\,00–28\,00 € (
+ erm. 10\,00–19\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270301-wilhelm-tell@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270301T193000
+DTEND;TZID=Europe/Berlin:20270301T213000
+SUMMARY:Wilhelm Tell
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25\,00–35\,00 € (
+ erm. 13\,00–18\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270303-wer-hat-angst-vor-virginia-woolf@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T193000
+DTEND;TZID=Europe/Berlin:20270303T213000
+SUMMARY:Wer hat Angst vor Virginia Woolf?
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Schauspiel von Edward Albee.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://landesbuehne-nord.de/nord
+ seehalle/
+URL:https://landesbuehne-nord.de/nordseehalle/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270306-das-kind-in-mir-will-achtsam-morden@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T193000
+DTEND;TZID=Europe/Berlin:20270306T213000
+SUMMARY:Das Kind in mir will achtsam morden
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 19\,00–28\,00 € (
+ erm. 10\,00–19\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270318-metropolis@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270318T193000
+DTEND;TZID=Europe/Berlin:20270318T213000
+SUMMARY:Metropolis
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 23\,00–29\,00 € (
+ erm. 19\,00–24\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270321-der-geheimnisvolle-jahrmarkt@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T160000
+DTEND;TZID=Europe/Berlin:20270321T180000
+SUMMARY:Der geheimnisvolle Jahrmarkt
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 18\,00–24\,00 € (
+ erm. 12\,00–18\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270327-crimenight-wahre-verbrechen-emden@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270327T180000
+DTEND;TZID=Europe/Berlin:20270327T200000
+SUMMARY:CrimeNight – Wahre Verbrechen: Emden
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 29\,00 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270327-crimenight-wahre-verbrechen-emden-20
+ 45@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270327T204500
+DTEND;TZID=Europe/Berlin:20270327T224500
+SUMMARY:CrimeNight – Wahre Verbrechen: Emden
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 29\,00 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270404-aladin-das-musical@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T150000
+DTEND;TZID=Europe/Berlin:20270404T170000
+SUMMARY:Aladin – das Musical
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 27\,00 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270409-alibi-the-murder-of-roger-ackroyd@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T193000
+DTEND;TZID=Europe/Berlin:20270409T213000
+SUMMARY:Alibi (The Murder Of Roger Ackroyd)
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 10\,00–17\,00 € (
+ erm. 5\,00–9\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270416-wir-muessen-reden@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T193000
+DTEND;TZID=Europe/Berlin:20270416T213000
+SUMMARY:Wir müssen reden
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 19\,00–28\,00 € (
+ erm. 10\,00–19\,00 €)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270512-biyon-kattilathu-eine-reise-zum-glue
+ ck@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270512T200000
+DTEND;TZID=Europe/Berlin:20270512T220000
+SUMMARY:Biyon Kattilathu – Eine Reise zum Glück
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 39\,90 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranstalt
+ ungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270514-chinesischer-nationalcircus-zensatio
+ n-chinas-gross@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270514T200000
+DTEND;TZID=Europe/Berlin:20270514T220000
+SUMMARY:Chinesischer Nationalcircus – ZENsation – Chinas Großmeister d
+ er Balance
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 44\,50 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270522-assane-badiane@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270522T200000
+DTEND;TZID=Europe/Berlin:20270522T220000
+SUMMARY:Assane Badiane
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 37\,90 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranstalt
+ ungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20270925-christian-ehring-versoehnung@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270925T200000
+DTEND;TZID=Europe/Berlin:20270925T220000
+SUMMARY:Christian Ehring – Versöhnung
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: ab 32\,90 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranst
+ altungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20271015-filiz-tasdan-touchdown@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271015T200000
+DTEND;TZID=Europe/Berlin:20271015T220000
+SUMMARY:Filiz Tasdan – Touchdown
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 49\,90 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranstalt
+ ungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20271016-tarzan-das-musical@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271016T150000
+DTEND;TZID=Europe/Berlin:20271016T170000
+SUMMARY:Tarzan – das Musical
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturevents-emden.de/veranstaltungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-festspielhaus-am-wall-20271106-katrin-iskam-gaertnern-ohne-viel-ges
+ chiss@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271106T190000
+DTEND;TZID=Europe/Berlin:20271106T210000
+SUMMARY:Katrin Iskam – Gärtnern ohne viel Geschiss
+LOCATION:Festspielhaus am Wall\, Theaterstraße 5\, 26721 Emden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 37\,90 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.kulturevents-emden.de/veranstalt
+ ungen
+URL:https://www.kulturevents-emden.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

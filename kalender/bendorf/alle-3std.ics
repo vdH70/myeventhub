@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Bendorf · my Event Hub (Erinnerung 3 Stunden 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:myk-sayner-huette-20260830-werner-bitzigeio-eisendrahtskulpturen-form-i
+ m-dial-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Werner Bitzigeio – Eisendrahtskulpturen. Form im Dia
+ log mit Raum
+LOCATION:Sayner Hütte\, In der Sayner Hütte 4\, 56170 Bendorf
+DESCRIPTION:Laufzeit: 30.8.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.saynerhuette.org/rund-um-die-hütte/sonderausstellu
+ ngen/aktuelle-sonderausstellungen/
+URL:https://www.saynerhuette.org/rund-um-die-hütte/sonderausstellungen/akt
+ uelle-sonderausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

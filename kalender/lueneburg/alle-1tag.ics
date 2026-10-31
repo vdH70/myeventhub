@@ -1,0 +1,1436 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Lüneburg · my Event Hub (Erinnerung 1 Tag vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lg-ostpreussisches-landesmuseum-20260926-der-tod-ist-staendig-unter-uns
+ -ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Der Tod ist ständig unter uns
+LOCATION:Ostpreußisches Landesmuseum\, Heiligengeiststraße 38\, 21335 Lü
+ neburg
+DESCRIPTION:Kabinettausstellung.\nLaufzeit: 26.9.2026 bis 28.2.2027\nQuelle
+  (bitte vor dem Besuch prüfen): https://ostpreussisches-landesmuseum.de/
+URL:https://ostpreussisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261004-abenteuer-hanse-mit-playmobil-ende@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Abenteuer Hanse mit PLAYMOBIL
+LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
+DESCRIPTION:Familienausstellung mit Hanse-Dioramen aus PLAYMOBIL-Figuren.\n
+ Laufzeit: 4.10.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfen): 
+ https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-halle-fuer-kunst-20261018-the-evacuated-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Beginn: THE EVACUATED
+LOCATION:Halle für Kunst Lüneburg\, Reichenbachstraße 2\, 21335 Lünebur
+ g
+DESCRIPTION:Laufzeit: 18.10.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.halle-fuer-kunst.de/
+URL:https://www.halle-fuer-kunst.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-halle-fuer-kunst-20261018-the-evacuated-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: THE EVACUATED
+LOCATION:Halle für Kunst Lüneburg\, Reichenbachstraße 2\, 21335 Lünebur
+ g
+DESCRIPTION:Laufzeit: 18.10.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.halle-fuer-kunst.de/
+URL:https://www.halle-fuer-kunst.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261030-unsere-gefiederten-nachbarn-ein-dialog-mit
+ -beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Unsere gefiederten Nachbarn – Ein Dialog mit der Natur
+LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
+DESCRIPTION:Laufzeit: 30.10.2026 bis 2.12.2026\nPreis: Eintritt frei\nQuell
+ e (bitte vor dem Besuch prüfen): https://museumlueneburg.de/museum_lueneb
+ urg_programm_oktober_2026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261030-unsere-gefiederten-nachbarn-ein-dialog-mit
+ -ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Letzter Tag: Unsere gefiederten Nachbarn – Ein Dialog mit der Nat
+ ur
+LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
+DESCRIPTION:Laufzeit: 30.10.2026 bis 2.12.2026\nPreis: Eintritt frei\nQuell
+ e (bitte vor dem Besuch prüfen): https://museumlueneburg.de/museum_lueneb
+ urg_programm_oktober_2026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261030-was-heisst-schon-leben-wandelwoche-2026-be
+ ginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Was heißt schon Leben? Wandelwoche 2026
+LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
+DESCRIPTION:Laufzeit: 30.10.2026 bis 8.11.2026\nPreis: Eintritt frei\nQuell
+ e (bitte vor dem Besuch prüfen): https://museumlueneburg.de/museum_lueneb
+ urg_programm_oktober_2026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261030-was-heisst-schon-leben-wandelwoche-2026-en
+ de@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Was heißt schon Leben? Wandelwoche 2026
+LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
+DESCRIPTION:Laufzeit: 30.10.2026 bis 8.11.2026\nPreis: Eintritt frei\nQuell
+ e (bitte vor dem Besuch prüfen): https://museumlueneburg.de/museum_lueneb
+ urg_programm_oktober_2026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_oktober_2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261031-nils-holgersson@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T160000
+DTEND;TZID=Europe/Berlin:20261031T180000
+SUMMARY:ABGESAGT: Nils Holgersson
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:16:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-scala-20261031-all-you-need-is-kill-2130@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T213000
+DTEND;TZID=Europe/Berlin:20261031T233000
+SUMMARY:All You Need Is Kill
+LOCATION:SCALA Programmkino\, Apothekenstr. 17\, 21335 Lüneburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.scala-kino.net/filme
+URL:https://www.scala-kino.net/filme
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-scala-20261101-meeting-the-buddha@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T111500
+DTEND;TZID=Europe/Berlin:20261101T131500
+SUMMARY:Meeting the Buddha
+LOCATION:SCALA Programmkino\, Apothekenstr. 17\, 21335 Lüneburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.scala-kino.net/filme
+URL:https://www.scala-kino.net/filme
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-ostpreussisches-landesmuseum-20261101-oeffentliche-sonntagsfuehrung@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Öffentliche Sonntagsführung
+LOCATION:Ostpreußisches Landesmuseum\, Heiligengeiststraße 38\, 21335 Lü
+ neburg
+DESCRIPTION:Führung durch die Kabinettausstellung.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ostpreussische
+ s-landesmuseum.de/besuch/veranstaltungen/
+URL:https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261101-tom-gaebel-and-his-trio@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T190000
+DTEND;TZID=Europe/Berlin:20261101T210000
+SUMMARY:Tom Gaebel and His Trio
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-scala-20261102-klippo-davonlaufen-gilt-nicht@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T163000
+DTEND;TZID=Europe/Berlin:20261102T183000
+SUMMARY:Klippo – Davonlaufen gilt nicht
+LOCATION:SCALA Programmkino\, Apothekenstr. 17\, 21335 Lüneburg
+DESCRIPTION:mit dem Filmteam\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.scala-kino.net/filme
+URL:https://www.scala-kino.net/filme
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261102-lueneburg-singt@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Lüneburg singt (ausverkauft)
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-scala-20261102-sneak-preview-320-2115@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T211500
+DTEND;TZID=Europe/Berlin:20261102T231500
+SUMMARY:Sneak-Preview #320
+LOCATION:SCALA Programmkino\, Apothekenstr. 17\, 21335 Lüneburg
+DESCRIPTION:Preview\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.scala-kino.net/filme
+URL:https://www.scala-kino.net/filme
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261103-18-komische-nacht@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T183000
+DTEND;TZID=Europe/Berlin:20261103T203000
+SUMMARY:18. Komische Nacht
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:18:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261103-18-komische-nacht@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T193000
+DTEND;TZID=Europe/Berlin:20261103T213000
+SUMMARY:18. Komische Nacht
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-scala-20261104-brown-girl-begins@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Brown Girl Begins
+LOCATION:SCALA Programmkino\, Apothekenstr. 17\, 21335 Lüneburg
+DESCRIPTION:LIAS-Filmreihe\, OmeU\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.scala-kino.net/filme
+URL:https://www.scala-kino.net/filme
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261105-frau-lehmann-trost-trotz-tour-2026@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Frau Lehmann – Trost & Trotz Tour 2026
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261107-dominik-plangger-limes@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:ABGESAGT: Dominik Plangger – Limes
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-ostpreussisches-landesmuseum-20261107-museumsmarkt-tradition-trifft-
+ modernes-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Beginn: Museumsmarkt: Tradition trifft Modernes
+LOCATION:Ostpreußisches Landesmuseum\, Heiligengeiststraße 38\, 21335 Lü
+ neburg
+DESCRIPTION:Laufzeit: 7.11.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+URL:https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-ostpreussisches-landesmuseum-20261107-museumsmarkt-tradition-trifft-
+ modernes-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Museumsmarkt: Tradition trifft Modernes
+LOCATION:Ostpreußisches Landesmuseum\, Heiligengeiststraße 38\, 21335 Lü
+ neburg
+DESCRIPTION:Laufzeit: 7.11.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+URL:https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-scala-20261108-albrecht-weinberg-es-ist-immer-in-meinem-kopf-1100@my
+ eventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Albrecht Weinberg – Es ist immer in meinem Kopf
+LOCATION:SCALA Programmkino\, Apothekenstr. 17\, 21335 Lüneburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.scala-kino.net/filme
+URL:https://www.scala-kino.net/filme
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-heinrich-heine-haus-20261111-zaal-andronikashvili-matthias-schwartz-
+ puschkin-und@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T193000
+DTEND;TZID=Europe/Berlin:20261111T213000
+SUMMARY:Zaal Andronikashvili & Matthias Schwartz: „Puschkin und Putin. Zu
+ r Rolle der Kultur im heutigen Russland“
+LOCATION:Heinrich-Heine-Haus\, Am Ochsenmarkt 1a\, 21335 Lüneburg
+DESCRIPTION:Lesung des Literaturbüros Lüneburg im Heinrich-Heine-Haus.\n1
+ 9:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.literaturbuero-lueneburg.de/programm/
+URL:https://www.literaturbuero-lueneburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261112-kochkraft-durch-kma-hardcore-never-dies@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:KOCHKRAFT DURCH KMA – Hardcore Never Dies Das Tour 2026
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kloster-luene-20261113-vesper-singen-nonnenchor@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T173000
+DTEND;TZID=Europe/Berlin:20261113T193000
+SUMMARY:Vesper-Singen auf dem Nonnenchor
+LOCATION:Kloster Lüne\, Am Domänenhof\, 21337 Lüneburg
+DESCRIPTION:Gemeinsames Vesper-Singen auf dem Nonnenchor\; Treffpunkt Brunn
+ enhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kloster-luene.de/veranstaltungen/
+URL:https://www.kloster-luene.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261113-mina-richman-band@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:MINA RICHMAN & Band
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261113-mr-yasin-the-hypnox-show@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:ABGESAGT: Mr. Yasin – The HypnoX Show
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-heinrich-heine-haus-20261116-isabel-schayani-unwahrscheinliche-freun
+ dschaften-sechs-geschichten@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T193000
+DTEND;TZID=Europe/Berlin:20261116T213000
+SUMMARY:Isabel Schayani: „Unwahrscheinliche Freundschaften. Sechs Geschic
+ hten gegen den Hass“
+LOCATION:Heinrich-Heine-Haus\, Am Ochsenmarkt 1a\, 21335 Lüneburg
+DESCRIPTION:Lesung des Literaturbüros Lüneburg im Heinrich-Heine-Haus.\n1
+ 9:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nPreis: 12 € / 8 € ermäßigt / 3 € Studierende\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.literaturbuero-luenebur
+ g.de/programm/
+URL:https://www.literaturbuero-lueneburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-heinrich-heine-haus-20261117-isabel-kreitz-die-letzte-einstellung@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T193000
+DTEND;TZID=Europe/Berlin:20261117T213000
+SUMMARY:Isabel Kreitz: „Die letzte Einstellung“
+LOCATION:Heinrich-Heine-Haus\, Am Ochsenmarkt 1a\, 21335 Lüneburg
+DESCRIPTION:Lesung des Literaturbüros Lüneburg im Heinrich-Heine-Haus.\n1
+ 9:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nPreis: 12 € / 8 € ermäßigt / 3 € Studierende\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.literaturbuero-luenebur
+ g.de/programm/
+URL:https://www.literaturbuero-lueneburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261117-nightwash-live@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:NightWash – Live (ausverkauft)
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261120-marley-s-ghost-live-in-lueneburg@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Marley's Ghost – Live in Lüneburg
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261121-thorsten-havener-alles-kopfsache@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Thorsten Havener – Alles Kopfsache?
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261121-peters-beine@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Peters Beine (ausverkauft)
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261122-lars-reichow-boomerland@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T210000
+SUMMARY:Lars Reichow – Boomerland
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261124-lisa-feller-schoen-fuer-dich@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Lisa Feller – Schön für dich!
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-heinrich-heine-haus-20261125-svenja-leiber-nelka@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:Svenja Leiber: „Nelka“
+LOCATION:Heinrich-Heine-Haus\, Am Ochsenmarkt 1a\, 21335 Lüneburg
+DESCRIPTION:Lesung des Literaturbüros Lüneburg im Heinrich-Heine-Haus.\n1
+ 9:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nPreis: 12 € / 8 € ermäßigt / 3 € Studierende\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.literaturbuero-luenebur
+ g.de/programm/
+URL:https://www.literaturbuero-lueneburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261125-atzur-the-humble-tour-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:Atzur – The Humble Tour 2026
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261126-sascha-lange-die-depeche-mode-trilogie@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Sascha Lange – Die Depeche Mode Trilogie
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kloster-luene-20261127-gespraechsfaeden-luener-vortraege@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T160000
+DTEND;TZID=Europe/Berlin:20261127T180000
+SUMMARY:Gesprächsfäden – Lüner Vorträge
+LOCATION:Kapitelsaal\, Kloster Lüne
+DESCRIPTION:Vortrag der Reihe „Gesprächsfäden“ im Kapitelsaal des Klo
+ sters.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.kloster-luene.de/veranstaltungen/
+URL:https://www.kloster-luene.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kloster-luene-20261127-vesper-singen-nonnenchor@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T173000
+DTEND;TZID=Europe/Berlin:20261127T193000
+SUMMARY:Vesper-Singen auf dem Nonnenchor
+LOCATION:Kloster Lüne\, Am Domänenhof\, 21337 Lüneburg
+DESCRIPTION:Gemeinsames Vesper-Singen auf dem Nonnenchor\; Treffpunkt Brunn
+ enhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kloster-luene.de/veranstaltungen/
+URL:https://www.kloster-luene.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261127-stand-up-salon-im-november@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Stand Up Salon im November
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261127-la-traviata-giuseppe-verdi@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:La Traviata – Giuseppe Verdi
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261128-ansa-sauermann-worauf-haben-wir-gewartet@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T190000
+DTEND;TZID=Europe/Berlin:20261128T210000
+SUMMARY:Ansa Sauermann – Worauf haben wir gewartet 2026
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261128-11freunde-live@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:11FREUNDE LIVE
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kloster-luene-20261129-klosterkirche-luene-lueneburger-bachorchester
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T190000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Klosterkirche Lüne: Lüneburger Bachorchester
+LOCATION:Kloster Lüne\, Am Domänenhof\, 21337 Lüneburg
+DESCRIPTION:Konzert des Lüneburger Bachorchesters in der Klosterkirche.\n1
+ 9:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.klo
+ ster-luene.de/veranstaltungen/
+URL:https://www.kloster-luene.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kloster-luene-20261129-lueneburger-bachorchester-adventskonzert@myev
+ enthub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T190000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Lüneburger Bachorchester – Adventskonzert
+LOCATION:Kloster Lüne\, Am Domänenhof\, 21337 Lüneburg
+DESCRIPTION:Adventskonzert des Lüneburger Bachorchesters in der Klosterkir
+ che Lüne.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kloster-luene.de/veranstaltungen/
+URL:https://www.kloster-luene.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261129-alte-bekannte-mehr-live@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T190000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Alte Bekannte – MEHR! Live
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-theater-lueneburg-20261202-lesung-und-gespraech-mit-sasa-stanisic@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T193000
+DTEND;TZID=Europe/Berlin:20261202T213000
+SUMMARY:Lesung und Gespräch mit Saša Stanišić
+LOCATION:Theater Lüneburg\, An den Reeperbahnen 3\, 21335 Lüneburg
+DESCRIPTION:Lesung und Gespräch mit dem Autor im Großen Haus (Reihe „He
+ rkünfte und Heimaten“).\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.theater-lueneburg.de/heimat-en
+URL:https://www.theater-lueneburg.de/heimat-en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261203-veronica-fusaro-looking-for-connection-tour@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T193000
+DTEND;TZID=Europe/Berlin:20261203T213000
+SUMMARY:VERONICA FUSARO – „Looking For Connection“ Tour 2026
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kloster-luene-20261204-lesung-margarete-von-schwarzkopf@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T160000
+DTEND;TZID=Europe/Berlin:20261204T180000
+SUMMARY:Lesung mit Margarete von Schwarzkopf
+LOCATION:Kapitelsaal\, Kloster Lüne
+DESCRIPTION:Lesung im Kapitelsaal des Klosters Lüne.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kloster-
+ luene.de/veranstaltungen/
+URL:https://www.kloster-luene.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261204-bjoern-von-morgenstern-kreisverkehrfest@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Björn von Morgenstern – Kreisverkehrfest (ausverkauft)
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261204-heimspiel-2026-exat@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Heimspiel 2026: EXAT.
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261205-wladimir-kaminer@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T190000
+DTEND;TZID=Europe/Berlin:20261205T210000
+SUMMARY:Wladimir Kaminer
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-heinrich-heine-haus-20261209-sharon-dodua-otoo-so-in-etwa@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T193000
+DTEND;TZID=Europe/Berlin:20261209T213000
+SUMMARY:Sharon Dodua Otoo: „So\, in etwa\, ist es geschehen“
+LOCATION:Heinrich-Heine-Haus\, Am Ochsenmarkt 1a\, 21335 Lüneburg
+DESCRIPTION:Lesung des Literaturbüros Lüneburg im Heinrich-Heine-Haus.\n1
+ 9:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nPreis: 12 € / 8 € ermäßigt / 3 € Studierende\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.literaturbuero-luenebur
+ g.de/programm/
+URL:https://www.literaturbuero-lueneburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261209-poetry-slam-im-dezember@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T193000
+DTEND;TZID=Europe/Berlin:20261209T213000
+SUMMARY:Poetry Slam im Dezember
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261210-quichotte-guter-dinge@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T190000
+DTEND;TZID=Europe/Berlin:20261210T210000
+SUMMARY:Quichotte – Guter Dinge
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-heinrich-heine-haus-20261210-lutz-seiler-das-tickende-herz@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T193000
+DTEND;TZID=Europe/Berlin:20261210T213000
+SUMMARY:Lutz Seiler: „Das tickende Herz“
+LOCATION:Heinrich-Heine-Haus\, Am Ochsenmarkt 1a\, 21335 Lüneburg
+DESCRIPTION:Lesung des Literaturbüros Lüneburg im Heinrich-Heine-Haus.\n1
+ 9:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nPreis: 13 € / 9 € ermäßigt / 3 € Studierende\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.literaturbuero-luenebur
+ g.de/programm/
+URL:https://www.literaturbuero-lueneburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261210-winterzauber-lueneburger-symphoniker@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Winterzauber – Lüneburger Symphoniker
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kloster-luene-20261211-vesper-singen-nonnenchor@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T173000
+DTEND;TZID=Europe/Berlin:20261211T193000
+SUMMARY:Vesper-Singen auf dem Nonnenchor
+LOCATION:Kloster Lüne\, Am Domänenhof\, 21337 Lüneburg
+DESCRIPTION:Gemeinsames Vesper-Singen auf dem Nonnenchor\; Treffpunkt Brunn
+ enhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kloster-luene.de/veranstaltungen/
+URL:https://www.kloster-luene.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261211-dire-strats-tribute-to-dire-straits@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:dIRE sTRATS – Tribute to Dire Straits
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261211-grabbel-and-the-final-cut@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T203000
+DTEND;TZID=Europe/Berlin:20261211T223000
+SUMMARY:Grabbel and the Final Cut
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:20:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261212-andreas-kuemmert-the-electric-circus@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Andreas Kümmert & The Electric Circus
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20261216-kunst-frevel-die-weihnachtslesung@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T193000
+DTEND;TZID=Europe/Berlin:20261216T213000
+SUMMARY:Kunst & Frevel – Die Weihnachtslesung
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-kulturforum-20261219-anders-mit-new-voices-popchor@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:anders mit New Voices Popchor
+LOCATION:Kulturforum Lüneburg (Gut Wienebüttel)\, Gut Wienebüttel\, 2133
+ 9 Lüneburg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kulturforum-lueneburg.de/
+URL:https://www.kulturforum-lueneburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20270108-knarf-relloem-acid-test@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T190000
+DTEND;TZID=Europe/Berlin:20270108T210000
+SUMMARY:Knarf Rellöm Acid Test
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-heinrich-heine-haus-20270113-elias-hirschl-schleifen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T193000
+DTEND;TZID=Europe/Berlin:20270113T213000
+SUMMARY:Elias Hirschl: „Schleifen“
+LOCATION:Heinrich-Heine-Haus\, Am Ochsenmarkt 1a\, 21335 Lüneburg
+DESCRIPTION:Lesung des Literaturbüros Lüneburg im Heinrich-Heine-Haus.\n1
+ 9:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nPreis: 12 € / 8 € ermäßigt / 3 € Studierende\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.literaturbuero-luenebur
+ g.de/programm/
+URL:https://www.literaturbuero-lueneburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-heinrich-heine-haus-20270127-shida-bazyar-die-luecken@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270127T193000
+DTEND;TZID=Europe/Berlin:20270127T213000
+SUMMARY:Shida Bazyar: „Die Lücken“
+LOCATION:Heinrich-Heine-Haus\, Am Ochsenmarkt 1a\, 21335 Lüneburg
+DESCRIPTION:Lesung des Literaturbüros Lüneburg im Heinrich-Heine-Haus.\n1
+ 9:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nPreis: 12 € / 8 € ermäßigt / 3 € Studierende\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.literaturbuero-luenebur
+ g.de/programm/
+URL:https://www.literaturbuero-lueneburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-heinrich-heine-haus-20270210-kerstin-preiwuss-wir-alle@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270210T193000
+DTEND;TZID=Europe/Berlin:20270210T213000
+SUMMARY:Kerstin Preiwuß: „Wir alle“
+LOCATION:Heinrich-Heine-Haus\, Am Ochsenmarkt 1a\, 21335 Lüneburg
+DESCRIPTION:Lesung des Literaturbüros Lüneburg im Heinrich-Heine-Haus.\n1
+ 9:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quel
+ le nicht angegeben\nPreis: 12 € / 8 € ermäßigt / 3 € Studierende\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.literaturbuero-luenebur
+ g.de/programm/
+URL:https://www.literaturbuero-lueneburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20270304-marvin-hoffmann-lass-los@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T190000
+DTEND;TZID=Europe/Berlin:20270304T210000
+SUMMARY:Marvin Hoffmann – LASS LOS
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20270305-beauty-the-beats-enerjoy-tour-2027@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T190000
+DTEND;TZID=Europe/Berlin:20270305T210000
+SUMMARY:Beauty & the Beats – ENERJOY Tour 2027
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20270311-ana-lucia-gewinner@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T190000
+DTEND;TZID=Europe/Berlin:20270311T210000
+SUMMARY:Ana Lucía – Gewinner (ausverkauft)
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20270319-yorick-thiede-polygon@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T190000
+DTEND;TZID=Europe/Berlin:20270319T210000
+SUMMARY:Yorick Thiede – Polygon
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-salon-hansen-20270326-maria-clara-groppler-ehefrau-tour-2027@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T190000
+DTEND;TZID=Europe/Berlin:20270326T210000
+SUMMARY:Maria Clara Groppler – Ehefrau Tour 2027
+LOCATION:Salon Hansen\, Salzstraße 1\, 21335 Lüneburg
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://salonhansen.com/programm/
+URL:https://salonhansen.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

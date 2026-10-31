@@ -1,0 +1,426 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Stuttgart · my Event Hub (Erinnerung 3 Stunden vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261031-michael-stephenson-feat-alexander-claffy-trio@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T203000
+DTEND;TZID=Europe/Berlin:20261031T223000
+SUMMARY:Michael Stephenson feat. Alexander Claffy Trio
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bix-stuttgart.de/programm/michael-stephenson-feat-a
+ lexander-claffy-trio-n55rpk/
+URL:https://www.bix-stuttgart.de/programm/michael-stephenson-feat-alexander
+ -claffy-trio-n55rpk/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261103-jens-hilke-project-andreas-riester-quartett-hmd
+ k-stuttg@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T203000
+DTEND;TZID=Europe/Berlin:20261103T223000
+SUMMARY:Jens Hilke Project & Andreas Riester Quartett (HMDK Stuttgart)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bix-stuttgart.de/programm/jens-hilke-abschlusskonze
+ rt-presented-by-hmdk-st-v3lgdv/
+URL:https://www.bix-stuttgart.de/programm/jens-hilke-abschlusskonzert-prese
+ nted-by-hmdk-st-v3lgdv/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261104-judith-owen-her-band@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Judith Owen & Her Band
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/judith-owen-her-band-foqcfg/
+URL:https://www.bix-stuttgart.de/programm/judith-owen-her-band-foqcfg/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261107-bix-top-act-kennedy-administration@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:BIX Top Act: Kennedy Administration
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/bix-top-act-kennedy-administration-s0nwz6/
+URL:https://www.bix-stuttgart.de/programm/bix-top-act-kennedy-administratio
+ n-s0nwz6/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261111-haltma-four-wir-machen-musik-ig-jazz@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:HAltma Four – „Wir machen Musik“ (IG Jazz)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/haltma-four-presented-by-ig-jazz-t4vwaq/
+URL:https://www.bix-stuttgart.de/programm/haltma-four-presented-by-ig-jazz-
+ t4vwaq/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261112-bix-top-act-artemis@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:BIX Top Act: ARTEMIS
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/bix-top-act-artemis-vrxqzn/
+URL:https://www.bix-stuttgart.de/programm/bix-top-act-artemis-vrxqzn/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261113-movin-groovin-funk-soul-energy@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:movin' & groovin' – Funk\, Soul & Energy
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/movin-groovin-bqd5z2/
+URL:https://www.bix-stuttgart.de/programm/movin-groovin-bqd5z2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261114-mxdmcn-meixner-mudrack-neuhaus@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:MXDMCN (Meixner\, Mudrack\, Neuhaus)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/mxdmcn-meixner-mudrack-neuhaus-uex4fy/
+URL:https://www.bix-stuttgart.de/programm/mxdmcn-meixner-mudrack-neuhaus-ue
+ x4fy/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261124-johanna-ehlers-las-cinco-estaciones-hmdk@myeven
+ thub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Johanna Ehlers: „Las Cinco Estaciones“ (HMDK)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/johanna-ehlers-las-cinco-estaciones-presented-by-l1vohn/
+URL:https://www.bix-stuttgart.de/programm/johanna-ehlers-las-cinco-estacion
+ es-presented-by-l1vohn/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261201-rafaele-gunthner-quartett-hmdk@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Rafaele Günthner Quartett (HMDK)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/rafaele-gunthner-quartett-presented-by-hmdk-stut-znmnuo/
+URL:https://www.bix-stuttgart.de/programm/rafaele-gunthner-quartett-present
+ ed-by-hmdk-stut-znmnuo/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261203-lukas-wogler-quartett@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Lukas Wögler Quartett
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/lukas-wogler-quartett-zskuzc/
+URL:https://www.bix-stuttgart.de/programm/lukas-wogler-quartett-zskuzc/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261208-eda-erkol-lars-krech-quartett-abschlusskonzert-
+ hmdk@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Eda Erkol & Lars Krech Quartett – Abschlusskonzert (HMDK)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/abschlusskonzert-eda-erkol-lars-krech-quartett-p-pofq7m/
+URL:https://www.bix-stuttgart.de/programm/abschlusskonzert-eda-erkol-lars-k
+ rech-quartett-p-pofq7m/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261215-hmdk-vocal-night-seasons@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:HMDK Vocal Night – Seasons
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/hmdk-vocal-night-seasons-presented-by-hmdk-stutt-lijh6e/
+URL:https://www.bix-stuttgart.de/programm/hmdk-vocal-night-seasons-presente
+ d-by-hmdk-stutt-lijh6e/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261219-soul-explosion@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Soul Explosion
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/soul-explosion-ycyqdl/
+URL:https://www.bix-stuttgart.de/programm/soul-explosion-ycyqdl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261228-nicole-herzog-quartet-feat-tony-lakatos@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Nicole Herzog Quartet feat. Tony Lakatos
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/nicole-herzog-quartet-feat-tony-lakatos-yumolz/
+URL:https://www.bix-stuttgart.de/programm/nicole-herzog-quartet-feat-tony-l
+ akatos-yumolz/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270106-the-sophisticated-orchestra@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:The Sophisticated Orchestra
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/the-sophisticated-orchestra-xe5628/
+URL:https://www.bix-stuttgart.de/programm/the-sophisticated-orchestra-xe562
+ 8/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270211-gee-hye-lee-trio@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Gee Hye Lee Trio
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/gee-hye-lee-trio-fyhk6a/
+URL:https://www.bix-stuttgart.de/programm/gee-hye-lee-trio-fyhk6a/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270325-klaus-graf-jazz-quartett@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Klaus Graf Jazz Quartett
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/klaus-graf-jazz-quartett-7p4n11/
+URL:https://www.bix-stuttgart.de/programm/klaus-graf-jazz-quartett-7p4n11/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270326-band-in-the-bix@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Band in the BIX
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/band-in-the-bix-4kjo6e/
+URL:https://www.bix-stuttgart.de/programm/band-in-the-bix-4kjo6e/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270327-francesca-tandoi@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Francesca Tandoi
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/francesca-tandoi-7160v4/
+URL:https://www.bix-stuttgart.de/programm/francesca-tandoi-7160v4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270408-lisa-wilhelm-quartett-special@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:Lisa Wilhelm Quartett Special
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/lisa-wilhelm-quartett-special-7wsx6e/
+URL:https://www.bix-stuttgart.de/programm/lisa-wilhelm-quartett-special-7ws
+ x6e/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270424-jazzkantine@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Jazzkantine
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/jazzkantine-z4mhgp/
+URL:https://www.bix-stuttgart.de/programm/jazzkantine-z4mhgp/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

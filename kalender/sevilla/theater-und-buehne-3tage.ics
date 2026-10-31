@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Sevilla · my Event Hub (Erinnerung 3 Tage
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:svq-maestranza-20261031-romeo-et-juliette@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T200000
+DTEND:20261031T220000
+SUMMARY:Roméo et Juliette
+LOCATION:Teatro de la Maestranza\, Paseo de Cristóbal Colón\, 22\, 41001 
+ Sevilla
+DESCRIPTION:Oper von Charles Gounod.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.teatrodelamaestranza.es/e
+ s/programacion/
+URL:https://www.teatrodelamaestranza.es/es/programacion/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:svq-maestranza-20261108-de-bejart-a-bejart@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART:20261108T190000
+DTEND:20261108T210000
+SUMMARY:De Béjart a Béjart
+LOCATION:Teatro de la Maestranza\, Paseo de Cristóbal Colón\, 22\, 41001 
+ Sevilla
+DESCRIPTION:Ballettabend.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.teatrodelamaestranza.es/es/programac
+ ion/
+URL:https://www.teatrodelamaestranza.es/es/programacion/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,654 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Hannover · my Event Hub (Erinnerung 3 Stunden vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-subkultur-20261031-hagen-stoll-das-kleine-besteck@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Hagen Stoll – Das kleine Besteck
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:Laut SubKultur nur Abendkasse\; Uhrzeit nicht angegeben.\nPreis
+ : nur Abendkasse\nQuelle (bitte vor dem Besuch prüfen): https://subkultur
+ -hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261104-kaeaerijae@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:KÄÄRIJÄ
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Tickets: https://musikzentrum-hannover.de/veranstaltung/kaeaerj
+ iae/\nQuelle (bitte vor dem Besuch prüfen): https://musikzentrum-hannover
+ .de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-hcc-kuppelsaal-20261106-mireille-mathieu-good-bye-my-love-goodby@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Mireille Mathieu – Good bye my Love Goodbye
+LOCATION:Kuppelsaal / Hannover Congress Centrum\, Theodor-Heuss-Platz 1-3\,
+  30175 Hannover
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.hcc.de/programm/
+URL:https://www.hcc.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-hcc-kuppelsaal-20261107-heinz-rudolf-kunze-verstaerkung@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Heinz Rudolf Kunze & Verstärkung
+LOCATION:Kuppelsaal / Hannover Congress Centrum\, Theodor-Heuss-Platz 1-3\,
+  30175 Hannover
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.hcc.de/programm/
+URL:https://www.hcc.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261107-der-schulz-support@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T201500
+DTEND;TZID=Europe/Berlin:20261107T221500
+SUMMARY:Der Schulz & Support
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:20:15 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 27\,50 €\nTickets: https://www.de
+ inetickets.de/shop/skh/de/start/?g=5867\nQuelle (bitte vor dem Besuch prü
+ fen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261109-yaris@myeventhub.de
+DTSTAMP:20261021T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:YARIS
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Melodischer Deutschrock.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnd
+ e: laut Quelle nicht angegeben\nPreis: VVK 30 € zzgl. Geb.\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261115-randale-rockmusik-fuer-kinder-und-erwachsene@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:RANDALE (Rockmusik für Kinder und Erwachsene)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 15:00\, Beginn 16:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 17 € Abendkasse\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.beichezheinz.de/programm/2026-11-15/6516
+URL:https://www.beichezheinz.de/programm/2026-11-15/6516
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261119-lennart-salomon-ferdy-doernberg@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Lennart Salomon & Ferdy Doernberg
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 25\,00 €\nTickets: https://www.de
+ inetickets.de/shop/skh/de/start/?g=6632\nQuelle (bitte vor dem Besuch prü
+ fen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261123-wet-cactuc-rock-spanien@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T200000
+DTEND;TZID=Europe/Berlin:20261123T220000
+SUMMARY:WET CACTUC (Rock / Spanien)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.beichezheinz.de/programm/2026-11-23/7212
+URL:https://www.beichezheinz.de/programm/2026-11-23/7212
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-kulturpalast-linden-20261123-liar-thief-bandit-killdrive@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T200000
+DTEND;TZID=Europe/Berlin:20261123T220000
+SUMMARY:LIAR THIEF BANDIT & KILLDRIVE
+LOCATION:Kulturpalast Linden\, Deisterstraße 24\, 30449 Hannover
+DESCRIPTION:Rock aus Schweden.\n20:00 Uhr (die Quelle sagt nicht\, ob Einla
+ ss oder Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://kulturpalast-hannover.de/events/
+URL:https://kulturpalast-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-pavillon-20261123-frida-gold@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T200000
+DTEND;TZID=Europe/Berlin:20261123T220000
+SUMMARY:Frida Gold
+LOCATION:Kulturzentrum Pavillon\, Lister Meile 4\, 30161 Hannover
+DESCRIPTION:„TOUR 2026“.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass
+  oder Beginn)\nEnde: laut Quelle nicht angegeben\nTickets: https://www.pav
+ illon-hannover.de/event/details/101749/frida-gold\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.pavillon-hannover.de/programm
+URL:https://www.pavillon-hannover.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20261128-90s-super-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T170000
+DTEND;TZID=Europe/Berlin:20261128T190000
+SUMMARY:90s Super Show
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 15:00\, Beginn 17:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/noapp/event/90s-super-show-zag-arena
+ -20695817/?affiliate=AHG&utm_campaign=Arena+Hannover&utm_source=AHG&utm_me
+ dium=dp\nQuelle (bitte vor dem Besuch prüfen): https://www.zag-arena-hann
+ over.de/veranstaltung/90s-super-show-3/
+URL:https://www.zag-arena-hannover.de/veranstaltung/90s-super-show-3/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-kulturpalast-linden-20261202-popular-music-session@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:POPULAR MUSIC SESSION
+LOCATION:Kulturpalast Linden\, Deisterstraße 24\, 30449 Hannover
+DESCRIPTION:Session mit Pop\, Rock und Funk.\n20:00 Uhr (die Quelle sagt ni
+ cht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://kulturpalast-hannover.de/events/lis
+ te/seite/2/
+URL:https://kulturpalast-hannover.de/events/liste/seite/2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261203-the-spitfires@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:THE SPITFIRES
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Mod\, Punk\, Soul und Ska.\nEinlass 19:00\, Beginn 20:00 Uhr\nE
+ nde: laut Quelle nicht angegeben\nPreis: AK 24 € / VVK 19 € zzgl. Geb.
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.lux-linden.de/program
+ m/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20261203-night-of-the-proms@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Night of the Proms
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zag-arena-hannover.de/veranstaltungen-tickets/konze
+ rte/
+URL:https://www.zag-arena-hannover.de/veranstaltungen-tickets/konzerte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20261205-pur@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:PUR
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zag-arena-hannover.de/veranstaltungen-tickets/konze
+ rte/
+URL:https://www.zag-arena-hannover.de/veranstaltungen-tickets/konzerte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261211-prayers-for-rain-das-zusatzkonzert@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T203000
+DTEND;TZID=Europe/Berlin:20261211T223000
+SUMMARY:Prayers For Rain – Das Zusatzkonzert (ausverkauft)
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:20:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nPreis: 30\,00 €\nTickets: h
+ ttps://www.deinetickets.de/shop/skh/de/start/?g=7220\nQuelle (bitte vor de
+ m Besuch prüfen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20261211-the-new-roses@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:The New Roses
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-subkultur-20261212-prayers-for-rain-finest-cure-cover@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T203000
+DTEND;TZID=Europe/Berlin:20261212T223000
+SUMMARY:Prayers For Rain – Finest Cure Cover (ausverkauft)
+LOCATION:SubKultur\, Engelbosteler Damm 87\, 30167 Hannover
+DESCRIPTION:20:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nPreis: 30\,00 €\nTickets: h
+ ttps://www.deinetickets.de/shop/skh/de/start/?g=6273\nQuelle (bitte vor de
+ m Besuch prüfen): https://subkultur-hannover.de/
+URL:https://subkultur-hannover.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261213-weird-bloom-glamrock-berlin@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T200000
+DTEND;TZID=Europe/Berlin:20261213T220000
+SUMMARY:WEIRD BLOOM (Glamrock / Berlin)
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.beichezheinz.de/programm/2026-12-13/7217
+URL:https://www.beichezheinz.de/programm/2026-12-13/7217
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20261218-unheilig@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T191500
+DTEND;TZID=Europe/Berlin:20261218T211500
+SUMMARY:Unheilig
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zag-arena-hannover.de/veranstaltungen-tickets/konze
+ rte/
+URL:https://www.zag-arena-hannover.de/veranstaltungen-tickets/konzerte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-musikzentrum-20270204-staubkind@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:Staubkind
+LOCATION:MusikZentrum Hannover\, Emil-Meyer-Straße 26-28\, 30165 Hannover
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://musikzentrum-han
+ nover.de/events/
+URL:https://musikzentrum-hannover.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270213-ina-mueller@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:Ina Müller
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/noapp/event/ina-mueller-und-band-die
+ -6-0-tour-zag-arena-19827774/?affiliate=AHG&utm_campaign=Arena+Hannover&ut
+ m_source=AHG&utm_medium=dp\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.zag-arena-hannover.de/veranstaltung/ina-mueller/
+URL:https://www.zag-arena-hannover.de/veranstaltung/ina-mueller/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270224-james-blunt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T200000
+DTEND;TZID=Europe/Berlin:20270224T220000
+SUMMARY:James Blunt
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.eventim
+ .de/noapp/event/james-blunt-airplane-mode-tour-zag-arena-22010755/?affilia
+ te=AHG&utm_campaign=Arena+Hannover&utm_source=AHG&utm_medium=dp\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.zag-arena-hannover.de/veranstalt
+ ung/james-blunt-2/
+URL:https://www.zag-arena-hannover.de/veranstaltung/james-blunt-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-hcc-kuppelsaal-20270302-valery-meladze@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270302T200000
+DTEND;TZID=Europe/Berlin:20270302T220000
+SUMMARY:Valery Meladze
+LOCATION:Kuppelsaal / Hannover Congress Centrum\, Theodor-Heuss-Platz 1-3\,
+  30175 Hannover
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.hcc.de/programm/
+URL:https://www.hcc.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270313-80s-super-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T180000
+DTEND;TZID=Europe/Berlin:20270313T200000
+SUMMARY:80s Super Show
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 16:30\, Beginn 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/event/80s-super-show-live-on-stage-2
+ 027-zag-arena-21095020/?affiliate=AHG\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.zag-arena-hannover.de/veranstaltung/80s-super-show/
+URL:https://www.zag-arena-hannover.de/veranstaltung/80s-super-show/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270410-lea@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T183000
+DTEND;TZID=Europe/Berlin:20270410T203000
+SUMMARY:LEA
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 17:00\, Beginn 18:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.ticketmaster.de/event/lea-sieben-monde-arena-to
+ ur-2027-tickets/1953245267\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.zag-arena-hannover.de/veranstaltung/lea/
+URL:https://www.zag-arena-hannover.de/veranstaltung/lea/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-lux-20261013-michel-von-wussow@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:VERLEGT: MICHÈL VON WUSSOW
+LOCATION:LUX\, Schwarzer Bär 2\, 30449 Hannover
+DESCRIPTION:Verlegt auf 13.04.2027.\nTickets: https://www.lux-linden.de/kon
+ zerte/michel-von-wussow-2/\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.lux-linden.de/programm/
+URL:https://www.lux-linden.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270420-thirty-seconds-to-mars@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270420T200000
+DTEND;TZID=Europe/Berlin:20270420T220000
+SUMMARY:Thirty Seconds to Mars
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.eventim
+ .de/noapp/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is
+ -war-zag-arena-21535469/?affiliate=AHG&utm_campaign=Arena+Hannover&utm_sou
+ rce=AHG&utm_medium=dp\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ zag-arena-hannover.de/veranstaltung/thirty-seconds-to-mars-3/
+URL:https://www.zag-arena-hannover.de/veranstaltung/thirty-seconds-to-mars-
+ 3/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270427-maffay-oerding@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270427T200000
+DTEND;TZID=Europe/Berlin:20270427T220000
+SUMMARY:Maffay + Oerding
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.eventim
+ .de/noapp/event/maffay-oerding-maffay-oerding-nashville-tickets-only-cd-ti
+ ckets-zag-arena-21863336/?affiliate=AHG&utm_campaign=Arena+Hannover&utm_so
+ urce=AHG&utm_medium=dp\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .zag-arena-hannover.de/veranstaltung/maffay-oerding/
+URL:https://www.zag-arena-hannover.de/veranstaltung/maffay-oerding/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270724-rod-stewart@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:Rod Stewart
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Tickets: https://www.eventim.de/noapp/event/rod-stewart-the-fin
+ al-encore-zag-arena-22166485/?affiliate=AHG&utm_campaign=Arena+Hannover&ut
+ m_source=AHG&utm_medium=dp\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.zag-arena-hannover.de/veranstaltung/rod-stewart-2/
+URL:https://www.zag-arena-hannover.de/veranstaltung/rod-stewart-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270925-ronan-keating@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270925T200000
+DTEND;TZID=Europe/Berlin:20270925T220000
+SUMMARY:Ronan Keating
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/noapp/event/ronan-keating-just-getti
+ ng-started-world-tour-zag-arena-22142024/?affiliate=AHG&utm_campaign=Arena
+ +Hannover&utm_source=AHG&utm_medium=dp\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.zag-arena-hannover.de/veranstaltung/ronan-keating/
+URL:https://www.zag-arena-hannover.de/veranstaltung/ronan-keating/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20271007-montez@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271007T190000
+DTEND;TZID=Europe/Berlin:20271007T210000
+SUMMARY:Montez
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 17:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/noapp/event/montez-arena-tour-2027-z
+ ag-arena-21758666/?affiliate=AHG&utm_campaign=Arena+Hannover&utm_source=AH
+ G&utm_medium=dp\nQuelle (bitte vor dem Besuch prüfen): https://www.zag-ar
+ ena-hannover.de/veranstaltung/montez-2/
+URL:https://www.zag-arena-hannover.de/veranstaltung/montez-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

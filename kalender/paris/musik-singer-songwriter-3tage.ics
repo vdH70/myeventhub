@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Singer-Songwriter in Paris · my Event Hub (Erinnerung 3 Tage 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261110-fink@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:FINK
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Britischer Musiker Fink.\nZeiten: Ortszeit Paris\, wie Deutschl
+ and\nQuelle (bitte vor dem Besuch prüfen): https://www.elyseemontmartre.c
+ om/fr/programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261127-paris-paloma@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Paris Paloma (ausverkauft)
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:Britische Singer-Songwriterin Paris Paloma.\nZeiten: Ortszeit P
+ aris\, wie Deutschland\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.bataclan.fr/programmation
+URL:https://www.bataclan.fr/programmation
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-olympia-20270308-lizzy-mcalpine@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Lizzy McAlpine
+LOCATION:L'Olympia\, 28 boulevard des Capucines\, 75009 Paris
+DESCRIPTION:US-Singer-Songwriterin Lizzy McAlpine.\nZeiten: Ortszeit Paris\
+ , wie Deutschland\nQuelle (bitte vor dem Besuch prüfen): https://www.olym
+ piahall.com/
+URL:https://www.olympiahall.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

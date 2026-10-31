@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Indie/Alternative in Charlotte · my Event Hub (Erinnerung 1 T
+ ag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:clt-neighborhood-theatre-20261103-the-army-the-navy-the-fake-brave-tour
+ -20@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=America/New_York:20261103T200000
+DTEND;TZID=America/New_York:20261103T220000
+SUMMARY:THE ARMY\, THE NAVY: THE FAKE BRAVE TOUR 2026
+LOCATION:Neighborhood Theatre\, 511 E 36th Street\, 28205 Charlotte
+DESCRIPTION:Indie-Konzert mit The Army\, The Navy und Ella Woolsey.\nEinlas
+ s 19:00\, Beginn 20:00 Uhr\nZeiten: Ortszeit Charlotte\, US-Ostküste\nEnd
+ e: laut Quelle nicht angegeben\nTickets: https://www.ticketmaster.com/the-
+ army-the-navy-the-fake-brave-charlotte-north-carolina-11-03-2026/event/2D0
+ 064CCB10450E4\nQuelle (bitte vor dem Besuch prüfen): https://neighborhood
+ theatre.com/event/the-army-the-navy-the-fake-brave-tour-2026/
+URL:https://neighborhoodtheatre.com/event/the-army-the-navy-the-fake-brave-
+ tour-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clt-neighborhood-theatre-20261109-deer-tick@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=America/New_York:20261109T200000
+DTEND;TZID=America/New_York:20261109T220000
+SUMMARY:Deer Tick
+LOCATION:Neighborhood Theatre\, 511 E 36th Street\, 28205 Charlotte
+DESCRIPTION:Indie-Konzert mit Deer Tick und DUG.\nEinlass 19:00\, Beginn 20
+ :00 Uhr\nZeiten: Ortszeit Charlotte\, US-Ostküste\nEnde: laut Quelle nich
+ t angegeben\nTickets: https://www.ticketmaster.com/deer-tick-charlotte-nor
+ th-carolina-11-09-2026/event/2D00646624DA4EAA\nQuelle (bitte vor dem Besuc
+ h prüfen): https://neighborhoodtheatre.com/event/deer-tick/
+URL:https://neighborhoodtheatre.com/event/deer-tick/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clt-neighborhood-theatre-20261112-new-constellations-it-comes-in-waves-
+ tou@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=America/New_York:20261112T200000
+DTEND;TZID=America/New_York:20261112T220000
+SUMMARY:New Constellations: It Comes In Waves Tour
+LOCATION:Neighborhood Theatre\, 511 E 36th Street\, 28205 Charlotte
+DESCRIPTION:Indie-Konzert mit New Constellations und Vox Rea.\nEinlass 19:0
+ 0\, Beginn 20:00 Uhr\nZeiten: Ortszeit Charlotte\, US-Ostküste\nEnde: lau
+ t Quelle nicht angegeben\nTickets: https://www.ticketmaster.com/new-conste
+ llations-it-comes-in-waves-charlotte-north-carolina-11-12-2026/event/2D006
+ 4DEC8AFB824\nQuelle (bitte vor dem Besuch prüfen): https://neighborhoodth
+ eatre.com/event/new-constellations-it-comes-in-waves-tour/
+URL:https://neighborhoodtheatre.com/event/new-constellations-it-comes-in-wa
+ ves-tour/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clt-amos-southend-20261118-hovvdy-w-christian-lee-hutson@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=America/New_York:20261118T193000
+DTEND;TZID=America/New_York:20261118T213000
+SUMMARY:Hovvdy w/ Christian Lee Hutson
+LOCATION:Amos' Southend\, 1423 S Tryon St.\, 28203 Charlotte
+DESCRIPTION:Indie-Konzert mit Hovvdy und Christian Lee Hutson.\nEinlass 19:
+ 00\, Beginn 19:30 Uhr\nZeiten: Ortszeit Charlotte\, US-Ostküste\nEnde: la
+ ut Quelle nicht angegeben\nPreis: 25–30 $ zzgl. Gebühren\nQuelle (bitte
+  vor dem Besuch prüfen): https://amossouthend.com/events/
+URL:https://amossouthend.com/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,358 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Punk/Metal in Berlin · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261101-the-bones-murphy-s-law-bad-boys-for-life@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T170000
+DTEND;TZID=Europe/Berlin:20261101T190000
+SUMMARY:THE BONES + MURPHY'S LAW „BAD BOYS FOR LIFE“
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Matinee-Show.\nEinlass 16:00\, Beginn 17:00 Uhr\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.as
+ tra-berlin.de/
+URL:https://www.astra-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-lido-20261101-hi-spencer@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T200000
+DTEND;TZID=Europe/Berlin:20261101T220000
+SUMMARY:HI! SPENCER
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lido-berlin.de/
+URL:https://www.lido-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261105-pro-pain-punishable-act-fuck@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:PRO PAIN / PUNISHABLE ACT / FUCK
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/
+URL:https://www.so36.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261106-die-verlierer-schimmel-uber-berlin@myeven
+ thub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:DIE VERLIERER + SCHIMMEL ÜBER BERLIN (ausverkauft)
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.astr
+ a-berlin.de/
+URL:https://www.astra-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-huxleys-neue-welt-20261106-clawfinger@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Clawfinger
+LOCATION:Huxleys Neue Welt\, Hasenheide 107–113\, 10967 Berlin
+DESCRIPTION:Aus dem Kesselhaus ins Huxleys hochverlegt.\nEinlass 19:00\, Be
+ ginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://huxleysneuewelt.de/events
+URL:https://huxleysneuewelt.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20261107-amon-amarth@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T183000
+DTEND;TZID=Europe/Berlin:20261107T203000
+SUMMARY:Amon Amarth
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-huxleys-neue-welt-20261107-acht-eimer-huhnerherzen@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Acht Eimer Hühnerherzen (ausverkauft)
+LOCATION:Huxleys Neue Welt\, Hasenheide 107–113\, 10967 Berlin
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://huxleysn
+ euewelt.de/events
+URL:https://huxleysneuewelt.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261110-walls-of-jericho@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:WALLS OF JERICHO
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/
+URL:https://www.so36.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-frannz-club-20261112-messa-eu-uk-tour-fall-2026-support-the-n@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Messa – EU / UK Tour Fall 2026 + Support: The Night Eternal (ausv
+ erkauft)
+LOCATION:Frannz Club\, Schönhauser Allee 36\, 10435 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://frannz.e
+ u/
+URL:https://frannz.eu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-lido-20261112-our-promise-fearless-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:OUR PROMISE „Fearless Tour 2026“
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.lido-berlin.de/
+URL:https://www.lido-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261112-nasty@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:NASTY
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/
+URL:https://www.so36.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261114-korn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:koRn
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-admiralspalast-20261114-in-extremo-tranquilo-ii-akustik-tour-2026@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:In Extremo – Tranquilo II – Akustik Tour 2026
+LOCATION:Admiralspalast\, Friedrichstraße 101\, 10117 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.admiralspalast.theater/veranstaltung/in-extremo-tra
+ nquilo-ii-akustik-tour-2026.html
+URL:https://www.admiralspalast.theater/veranstaltung/in-extremo-tranquilo-i
+ i-akustik-tour-2026.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20261118-papa-roach@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T190000
+DTEND;TZID=Europe/Berlin:20261118T210000
+SUMMARY:Papa Roach
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261120-ignite-cancer-bats-outspoken@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:IGNITE + CANCER BATS + OUTSPOKEN
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.astra-berlin.de/
+URL:https://www.astra-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261123-youth-of-today@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:YOUTH OF TODAY
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/
+URL:https://www.so36.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261124-erra-currents-caskets-aviana-the-silence@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T190000
+DTEND;TZID=Europe/Berlin:20261124T210000
+SUMMARY:ERRA + CURRENTS + CASKETS + AVIANA „The Silence Follows Tour“
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.astra-berlin.de/
+URL:https://www.astra-berlin.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261124-shelter@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:SHELTER
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/
+URL:https://www.so36.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261126-uk-subs@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:UK SUBS
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/
+URL:https://www.so36.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261130-kid-kapichi@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:KID KAPICHI
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/
+URL:https://www.so36.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270216-five-finger-death-punch@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T190000
+DTEND;TZID=Europe/Berlin:20270216T210000
+SUMMARY:Five Finger Death Punch
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20270217-bullet-for-my-valentine@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T190000
+DTEND;TZID=Europe/Berlin:20270217T210000
+SUMMARY:Bullet For My Valentine
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-lido-20270219-draconian@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T193000
+DTEND;TZID=Europe/Berlin:20270219T213000
+SUMMARY:DRACONIAN
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Gothic-Doom-Metal-Band Draconian mit neuem Album „In Somnolen
+ t Ruin“ und Sängerin Lisa Johansson\; Support Saturnus und Ann My Guard
+ .\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angegeben\nPr
+ eis: 30\,00 € VVK / 37\,00 € Abendkasse\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.lido-berlin.de/events/2027-02-19-draconian
+URL:https://www.lido-berlin.de/events/2027-02-19-draconian
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-max-schmeling-halle-20270408-die-aerzte-eine-gaensehaut-nach-dem-an
+ dern-tour-20@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270408T200000
+DTEND;TZID=Europe/Berlin:20270408T220000
+SUMMARY:die ärzte – Eine Gänsehaut nach dem andern! Tour 2027 (ausverka
+ uft)
+LOCATION:Max-Schmeling-Halle\, Falkplatz 1\, 10437 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.max-schmeling-halle.de/events
+URL:https://www.max-schmeling-halle.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-max-schmeling-halle-20270409-die-aerzte-eine-gaensehaut-nach-dem-an
+ dern-tour-20@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T200000
+DTEND;TZID=Europe/Berlin:20270409T220000
+SUMMARY:die ärzte – Eine Gänsehaut nach dem andern! Tour 2027 (ausverka
+ uft)
+LOCATION:Max-Schmeling-Halle\, Falkplatz 1\, 10437 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.max-schmeling-halle.de/events
+URL:https://www.max-schmeling-halle.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20270411-in-flames-trivium-european-co-headline-tour-2027@
+ myeventhub.de
+DTSTAMP:20261007T000000Z
+DTSTART;TZID=Europe/Berlin:20270411T180000
+DTEND;TZID=Europe/Berlin:20270411T200000
+SUMMARY:In Flames + Trivium – European Co-Headline Tour 2027
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

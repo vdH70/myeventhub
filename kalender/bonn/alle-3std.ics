@@ -1,0 +1,1779 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Bonn · my Event Hub (Erinnerung 3 Stunden vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bn-arithmeum-20240608-um-drei-ecken-gedacht-rechenschieber-und-vermessu
+ n-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Um drei Ecken gedacht - Rechenschieber und Vermessung
+LOCATION:Arithmeum\, Lennéstraße 2\, 53113 Bonn
+DESCRIPTION:Laufzeit: 8.6.2024 bis 31.12.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausste
+ llungen-auf-einen-blick.html
+URL:https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausstellungen-
+ auf-einen-blick.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20240918-nach-hitler-die-deutsche-auseinanderset
+ zung-mit-de-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Nach Hitler. Die deutsche Auseinandersetzung mit dem N
+ ationalsozialismus
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Laufzeit: 18.9.2024 bis 10.1.2027\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.hdg.de/haus-der-geschichte
+URL:https://www.hdg.de/haus-der-geschichte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-arithmeum-20251011-eine-goldmedaille-fuer-die-multiplikation-leon-bo
+ l-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Eine Goldmedaille für die Multiplikation - Léon Boll
+ ée (1870-1913) und seine Erfindungen
+LOCATION:Arithmeum\, Lennéstraße 2\, 53113 Bonn
+DESCRIPTION:Laufzeit: 11.10.2025 bis 28.2.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausst
+ ellungen-auf-einen-blick.html
+URL:https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausstellungen-
+ auf-einen-blick.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-arithmeum-20251011-hans-joerg-glattfelder-im-arithmeum-aufbruch-zu-n
+ e-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Hans Jörg Glattfelder im Arithmeum - Aufbruch zu neue
+ n Dimensionen
+LOCATION:Arithmeum\, Lennéstraße 2\, 53113 Bonn
+DESCRIPTION:Laufzeit: 11.10.2025 bis 31.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausst
+ ellungen-auf-einen-blick.html
+URL:https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausstellungen-
+ auf-einen-blick.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-bundeskunsthalle-20260501-interactions-2026-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Interactions 2026
+LOCATION:Bundeskunsthalle\, Helmut-Kohl-Allee 4\, 53113 Bonn
+DESCRIPTION:Laufzeit: 1.5.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.bundeskunsthalle.de/
+URL:https://www.bundeskunsthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-arithmeum-20260613-die-kunstkammer-pohl-goldschmidt-wertvolle-mathem
+ a-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Letzter Tag: Die Kunstkammer Pohl-Goldschmidt - Wertvolle mathemati
+ sche und wissenschaftliche Instrumente und Schätze der Renaissance im Ari
+ thmeum
+LOCATION:Arithmeum\, Lennéstraße 2\, 53113 Bonn
+DESCRIPTION:Laufzeit: 13.6.2026 bis 20.6.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausste
+ llungen-auf-einen-blick.html
+URL:https://www.arithmeum.uni-bonn.de/ausstellungen/aktuelle-ausstellungen-
+ auf-einen-blick.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-august-macke-haus-20260910-chunqing-huang-reflections-ende@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Chunqing Huang: Reflections
+LOCATION:Museum August Macke Haus\, Hochstadenring 36\, 53119 Bonn
+DESCRIPTION:Laufzeit: 10.9.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.august-macke-haus.de/
+URL:https://www.august-macke-haus.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-bundeskunsthalle-20260916-touch-ing-transformation-ende@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Letzter Tag: Touch/ing Transformation
+LOCATION:Bundeskunsthalle\, Helmut-Kohl-Allee 4\, 53113 Bonn
+DESCRIPTION:Medienkunst\, Eintritt frei.\nLaufzeit: 16.9.2026 bis 7.1.2027\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.bundeskunsthalle.de/
+URL:https://www.bundeskunsthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-gop-20261001-on-air-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: On Air
+LOCATION:GOP Varieté-Theater Bonn\, Karl-Carstens-Straße 1\, 53113 Bonn
+DESCRIPTION:Varietéshow des GOP Bonn.\nLaufzeit: 1.10.2026 bis 17.1.2027\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.variete.de/bonn/program
+ m/on-air
+URL:https://www.variete.de/bonn/programm/on-air
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-bundeskunsthalle-20261010-nie-wieder-gegen-das-vergessen-der-ns-verb
+ rechen-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Letzter Tag: NIE WIEDER! Gegen das Vergessen der NS-Verbrechen
+LOCATION:Bundeskunsthalle\, Helmut-Kohl-Allee 4\, 53113 Bonn
+DESCRIPTION:Laufzeit: 10.10.2026 bis 2.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bundeskunsthalle.de/
+URL:https://www.bundeskunsthalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-lvr-landesmuseum-20261015-fluchtpunkt-paris-gisele-freund-rogi-andre
+ -madame-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Fluchtpunkt Paris. Gisèle Freund\, Rogi André\, Mada
+ me dʼOra
+LOCATION:LVR-LandesMuseum Bonn\, Colmantstraße 14–16\, 53115 Bonn
+DESCRIPTION:Fotografie-Ausstellung mit Werken dreier Fotografinnen.\nLaufze
+ it: 15.10.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.lvr.de/landesmuseum-bonn/ausstellungen/fluchtpunkt-paris/
+URL:https://www.lvr.de/landesmuseum-bonn/ausstellungen/fluchtpunkt-paris/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261015-glanzlichter-der-naturfotografie-ende@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Glanzlichter der Naturfotografie
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Sonderausstellung mit Naturfotografien.\nLaufzeit: 15.10.2026 b
+ is 17.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://bonn.leibniz-
+ lib.de/de/ausstellungen/sonderausstellungen.html
+URL:https://bonn.leibniz-lib.de/de/ausstellungen/sonderausstellungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261018-family-affairs-welche-familie-hat-keine-geheim
+ niss-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Beginn: FAMILY AFFAIRS – Welche Familie hat keine Geheimnisse?
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Laufzeit: 18.10.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://frauenmuseum.de/aktuelle-ausstellungen/
+URL:https://frauenmuseum.de/aktuelle-ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261018-family-affairs-welche-familie-hat-keine-geheim
+ niss-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: FAMILY AFFAIRS – Welche Familie hat keine Geheimniss
+ e?
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Laufzeit: 18.10.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://frauenmuseum.de/aktuelle-ausstellungen/
+URL:https://frauenmuseum.de/aktuelle-ausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-contra-kreis-theater-20261022-rita-will-s-wissen-beginn@myeventhub.d
+ e
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Beginn: Rita will's wissen
+LOCATION:Contra-Kreis-Theater\, Am Hof 3-5\, 53113 Bonn
+DESCRIPTION:Laufzeit: 22.10.2026 bis 26.11.2026\nTermine laut Veranstalter:
+  dienstags bis samstags 19.30 Uhr\, sonn- und feiertags 18.00 Uhr\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.contra-kreis-theater.de/
+URL:https://www.contra-kreis-theater.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-contra-kreis-theater-20261022-rita-will-s-wissen-ende@myeventhub.de
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Letzter Tag: Rita will's wissen
+LOCATION:Contra-Kreis-Theater\, Am Hof 3-5\, 53113 Bonn
+DESCRIPTION:Laufzeit: 22.10.2026 bis 26.11.2026\nTermine laut Veranstalter:
+  dienstags bis samstags 19.30 Uhr\, sonn- und feiertags 18.00 Uhr\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.contra-kreis-theater.de/
+URL:https://www.contra-kreis-theater.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rpz-20261031-rpz-blues-festival-the-motelkings-blues-nuggets@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:RPZ Blues Festival: The Motelkings\, Blues Nuggets
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-muenster-20261031-orgelvesper-mit-guenter-schuermann@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Orgelvesper mit Günter Schürmann
+LOCATION:Bonner Münster (Münsterbasilika St. Martin)\, 53111 Bonn
+DESCRIPTION:Orgelvesper in der Münsterbasilika\, 20 bis 22 Uhr.\nEnde: lau
+ t Quelle nicht angegeben\nPreis: Eintritt frei\, Spenden erbeten\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.bonner-muenster.de/aktuell/musi
+ k-veranstaltungen
+URL:https://www.bonner-muenster.de/aktuell/musik-veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261031-the-killer@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T221500
+DTEND;TZID=Europe/Berlin:20261101T001500
+SUMMARY:The Killer
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261101-the-royal-ballet-manon@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T104500
+DTEND;TZID=Europe/Berlin:20261101T124500
+SUMMARY:The Royal Ballet: Manon
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:Ballettübertragung\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-neue-filmbuehne-20261101-possible-love@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Possible Love
+LOCATION:Neue Filmbühne\, Friedrich-Breuer-Str. 68-70\, 53225 Bonn
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20261101-offenes-atelier-du-bist-geschickt-webe-
+ dein-eigene@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T123000
+DTEND;TZID=Europe/Berlin:20261101T143000
+SUMMARY:Offenes Atelier "Du bist geschickt! - Webe dein eigenes Wollkunstwe
+ rk"
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Kreativangebot für Kinder und Familien.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hdg.de/haus-der-geschichte/veranstaltungen
+URL:https://www.hdg.de/haus-der-geschichte/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261101-oeffentliche-familienfuehrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Öffentliche Familienführung
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenfrei\nQuelle (b
+ itte vor dem Besuch prüfen): https://bonn.leibniz-lib.de/de/veranstaltung
+ en.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261101-offene-sonntagsfuehrung-simultan-in-deutscher-
+ geba@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Offene Sonntagsführung simultan in Deutscher Gebärdensprache
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://frauenmuseum.de/events/
+URL:https://frauenmuseum.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261101-mam-bap-acoustic@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T190000
+DTEND;TZID=Europe/Berlin:20261101T210000
+SUMMARY:MAM – BAP acoustic
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261101-naza-2045@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T204500
+DTEND;TZID=Europe/Berlin:20261101T224500
+SUMMARY:NAZA
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:OmeU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-gop-20261102-das-wohnzimmerkonzert-songs-stories-mit-axel-naume@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:Das Wohnzimmerkonzert – Songs & Stories mit Axel Naumer & friends
+LOCATION:GOP Varieté-Theater Bonn\, Karl-Carstens-Straße 1\, 53113 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 44 Euro pro Person inkl. Chili\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.variete.de/bonn/programm
+URL:https://www.variete.de/bonn/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20261102-beruehmt-von-markus-barth-urauffuehrung@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T193000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:Berühmt – von Markus Barth (Uraufführung)
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kulturraum-auerberg-20261103-vernissage-ausstellung-52-sigrid-bracha
+ t@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T190000
+DTEND;TZID=Europe/Berlin:20261103T210000
+SUMMARY:Vernissage: Ausstellung #52 – Sigrid Brachat
+LOCATION:Kulturraum Auerberg\, Kölnstraße 367\, 53117 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.skm-aufbruch.de/kulturraum/
+URL:https://www.skm-aufbruch.de/kulturraum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261104-olli-schulz-allein-in-deiner-stadt-tour-2026
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Olli Schulz – Allein in deiner Stadt Tour 2026
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/
+URL:https://www.beethovenhalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261104-boppin-b-solid-as-a-rock-tour@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Boppin' B – Solid as a Rock Tour
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261104-minotaurus-2015@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T201500
+DTEND;TZID=Europe/Berlin:20261104T221500
+SUMMARY:Minotaurus
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:Preview\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-bildung-20261105-shida-bazyar-die-luecken@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:Shida Bazyar: Die Lücken (ausverkauft)
+LOCATION:Haus der Bildung (Saal)\, Mülheimer Platz 1\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://literaturhaus-bonn.de/veranstaltung/shida-
+ bazyardie-luecken/
+URL:https://literaturhaus-bonn.de/veranstaltung/shida-bazyardie-luecken/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rpz-20261106-amplified-bonn-vol-2-chamber-of-elephants-donbass@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Amplified Bonn Vol. 2: Chamber of Elephants\, Donbass\, Raging Mamm
+ als
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261106-achtung-baby-tribute-to-u2@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Achtung Baby – Tribute to U2
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261107-nachts-im-museum-taschenlampenfuehrungen@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T183000
+DTEND;TZID=Europe/Berlin:20261107T203000
+SUMMARY:Nachts im Museum: Taschenlampenführungen
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Abendführung mit Taschenlampe\, zweiter Durchgang um 20:00 Uhr
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://bonn.leibniz-lib.de/de/veranstaltungen.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261107-symphoniacs-europe-tour@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:ABGESAGT: Symphoniacs – Europe Tour
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/
+URL:https://www.beethovenhalle.de/
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261107-a-tribute-to-amy-amy-winehouse-show@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:A Tribute to Amy – Amy Winehouse Show
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kulturraum-auerberg-20261107-hans-hermann-thielke-einer-fuer-alle@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Hans-Hermann Thielke – Einer für Alle!
+LOCATION:Kulturraum Auerberg\, Kölnstraße 367\, 53117 Bonn
+DESCRIPTION:Kabarett.\nQuelle (bitte vor dem Besuch prüfen): https://www.s
+ km-aufbruch.de/kulturraum/
+URL:https://www.skm-aufbruch.de/kulturraum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261108-trau-dich-konzert-fuer-kinder-von-57-jahren@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Trau dich! – Konzert für Kinder von 5–7 Jahren
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Mit dem Beethoven Orchester Bonn.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.beethovenhalle.d
+ e/
+URL:https://www.beethovenhalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261108-wir-lesen-vor-maerchen-und-geschichten-fuer-k
+ ids-a@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Wir lesen vor - Märchen und Geschichten für Kids ab 4 Jahren
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Vorlesestunde für Kinder ab 4 Jahren.\nEnde: laut Quelle nicht
+  angegeben\nPreis: kostenfrei\nQuelle (bitte vor dem Besuch prüfen): http
+ s://bonn.leibniz-lib.de/de/veranstaltungen.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20261108-bujazzo-irgendwo-auf-der-welt@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Bujazzo - Irgendwo auf der Welt ...
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei (Anmeld
+ ung erbeten)\nQuelle (bitte vor dem Besuch prüfen): https://www.hdg.de/ha
+ us-der-geschichte/veranstaltungen
+URL:https://www.hdg.de/haus-der-geschichte/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20261108-bujazzo-irgendwo-auf-der-welt-1800@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Bujazzo - Irgendwo auf der Welt ...
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei (Anmeld
+ ung erbeten)\nQuelle (bitte vor dem Besuch prüfen): https://www.hdg.de/ha
+ us-der-geschichte/veranstaltungen
+URL:https://www.hdg.de/haus-der-geschichte/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261108-ozzyfied-ozzy-black-sabbath-tribute@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Ozzyfied – Ozzy & Black Sabbath Tribute
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rex-20261109-einar-schleef-ich-habe-kein-deutschland-gefunden-1700@m
+ yeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T170000
+DTEND;TZID=Europe/Berlin:20261109T190000
+SUMMARY:Einar Schleef: Ich habe kein Deutschland gefunden
+LOCATION:Rex-Lichtspieltheater\, Frongasse 9\, 53121 Bonn
+DESCRIPTION:mit Regisseurin zu Gast\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.rex-filmbuehne.de/
+URL:https://www.rex-filmbuehne.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261109-cafe-del-mundo-guitarize-the-world-tour-2026
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Café del Mundo – Guitarize The World Tour 2026
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/
+URL:https://www.beethovenhalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-harmonie-20261111-emil-brandqvist-trio-poems-for-travellers@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Emil Brandqvist Trio – Poems for Travellers
+LOCATION:Harmonie Bonn\, Frongasse 28-30\, 53121 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.harmonie-bonn.de/veranstaltungen/
+URL:https://www.harmonie-bonn.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261112-die-kunst-der-freiheit@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Die Kunst der Freiheit
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Mit dem Beethoven Orchester Bonn.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.beethovenhalle.d
+ e/
+URL:https://www.beethovenhalle.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261113-fuehrung-family-affairs-kuenstlerinnengespraec
+ h@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T160000
+DTEND;TZID=Europe/Berlin:20261113T180000
+SUMMARY:Führung Family Affairs & Künstlerinnengespräch
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://frauenmuseum.de/events/
+URL:https://frauenmuseum.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261113-masken-und-freiheit-beethoven-orchester-bonn
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Masken und Freiheit – Beethoven Orchester Bonn
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261114-nussknacker-grand-classic-ballett@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Nussknacker – Grand Classic Ballett
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261114-kuratorinnenfuehrung-damals-heute-morgen-mit-j
+ ulia@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Kuratorinnenführung: Damals\, Heute\, Morgen. mit Julia Heintz
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3–5 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://frauenmuseum.de/events/
+URL:https://frauenmuseum.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261114-schwanensee-grand-classic-ballett@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Schwanensee – Grand Classic Ballett
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261115-nussknacker-grand-classic-ballett@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Nussknacker – Grand Classic Ballett
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261115-schwanensee-grand-classic-ballett@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T190000
+DTEND;TZID=Europe/Berlin:20261115T210000
+SUMMARY:Schwanensee – Grand Classic Ballett
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-bildung-20261116-andrea-obrien-ueber-contrapposto-von-dave-
+ eggers@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T190000
+DTEND;TZID=Europe/Berlin:20261116T210000
+SUMMARY:Andrea O’Brien über »Contrapposto« von Dave Eggers
+LOCATION:Haus der Bildung (Saal)\, Mülheimer Platz 1\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://literaturhaus-bonn.de/veranstaltung/dave-eggers-contrap
+ postoein-abend-mit-der-uebersetzerin-andrea-obrien/
+URL:https://literaturhaus-bonn.de/veranstaltung/dave-eggers-contrappostoein
+ -abend-mit-der-uebersetzerin-andrea-obrien/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261118-filmmusik-live-von-hans-zimmer-bis-john-will
+ iams@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T193000
+DTEND;TZID=Europe/Berlin:20261118T213000
+SUMMARY:Filmmusik live – von Hans Zimmer bis John Williams
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-innenstadt-weihnachtsmarkt-20261118-bonner-weihnachtsmarkt-2026-begi
+ nn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Beginn: Bonner Weihnachtsmarkt 2026
+LOCATION:Bonner Innenstadt (Weihnachtsmarkt)\, Bonn
+DESCRIPTION:Weihnachtsmarkt des Schaustellerverbands Bonn in der Innenstadt
+ .\nLaufzeit: 18.11.2026 bis 23.12.2026\nQuelle (bitte vor dem Besuch prüf
+ en): https://bonnerweihnachtsmarkt.de/termine/
+URL:https://bonnerweihnachtsmarkt.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-innenstadt-weihnachtsmarkt-20261118-bonner-weihnachtsmarkt-2026-ende
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Bonner Weihnachtsmarkt 2026
+LOCATION:Bonner Innenstadt (Weihnachtsmarkt)\, Bonn
+DESCRIPTION:Weihnachtsmarkt des Schaustellerverbands Bonn in der Innenstadt
+ .\nLaufzeit: 18.11.2026 bis 23.12.2026\nQuelle (bitte vor dem Besuch prüf
+ en): https://bonnerweihnachtsmarkt.de/termine/
+URL:https://bonnerweihnachtsmarkt.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261119-zutritt-erlaubt-fuehrung-hinter-die-kulissen-
+ eines@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T163000
+DTEND;TZID=Europe/Berlin:20261119T183000
+SUMMARY:Zutritt erlaubt! Führung hinter die Kulissen eines Forschungsmuseu
+ ms
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bonn.leibniz-lib.de/de/veranstaltungen.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261119-concertante-beethoven-orchester-bonn@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Concertante – Beethoven Orchester Bonn
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rpz-20261120-bonn-to-be-wild-system-defense-my-dominion-maehthr@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Bonn to be Wild: System Defense\, My Dominion\, Mähthräsher
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261120-nights-on-broadway-a-tribute-to-the-bee-gees
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Nights on Broadway – A Tribute to The Bee Gees
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261121-fuehrung-hinter-die-kulissen-blick-in-die-orn
+ ithol@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T150000
+DTEND;TZID=Europe/Berlin:20261121T170000
+SUMMARY:Führung hinter die Kulissen – Blick in die Ornithologische Samml
+ ung
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Familienexkursion in die Ornithologische Sammlung.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://bon
+ n.leibniz-lib.de/de/veranstaltungen.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rpz-20261121-beatbox-battle-tag-team-crew-official-qualificatio@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T183000
+DTEND;TZID=Europe/Berlin:20261121T203000
+SUMMARY:Beatbox Battle: Tag Team & Crew Official Qualification
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 18:00\, Beginn 18:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20261121-unterm-junimond-schiefner-lacher-songs-von-
+ rio-rei@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Unterm Junimond – Schiefner & Lacher: Songs von Rio Reiser bis Ud
+ o Jürgens
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-bpb-medienzentrum-20261124-chris-methmann-bad-food@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T180000
+DTEND;TZID=Europe/Berlin:20261124T200000
+SUMMARY:Chris Methmann: Bad Food
+LOCATION:bpb:medienzentrum\, Bundeskanzlerplatz 2E\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://literaturhaus-bonn.de/veranstaltung/chris-methmannbad-f
+ ood/
+URL:https://literaturhaus-bonn.de/veranstaltung/chris-methmannbad-food/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-beethovenhalle-20261124-diaries-of-note-lesung@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Diaries of Note – Lesung
+LOCATION:Beethovenhalle\, Wachsbleiche 16\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.beethovenhalle.de/events/seite/2
+URL:https://www.beethovenhalle.de/events/seite/2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-contra-kreis-theater-20261127-fuer-heitere-kreise-ein-abend-mit-robe
+ rt-kreis@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Für heitere Kreise! Ein Abend mit Robert Kreis
+LOCATION:Contra-Kreis-Theater\, Am Hof 3-5\, 53113 Bonn
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.contra-kreis
+ -theater.de/
+URL:https://www.contra-kreis-theater.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-bildung-20261128-leh-wei-liao-glaszeit@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T190000
+DTEND;TZID=Europe/Berlin:20261128T210000
+SUMMARY:Leh-Wei Liao: Glaszeit
+LOCATION:Haus der Bildung (Saal)\, Mülheimer Platz 1\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://literaturhaus-bonn.de/veranstaltung/leh-wei-liaoglaszei
+ t/
+URL:https://literaturhaus-bonn.de/veranstaltung/leh-wei-liaoglaszeit/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kulturraum-auerberg-20261128-jens-heinrich-claassen-keine-ursache@my
+ eventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Jens Heinrich Claassen – Keine Ursache
+LOCATION:Kulturraum Auerberg\, Kölnstraße 367\, 53117 Bonn
+DESCRIPTION:Kabarett.\nQuelle (bitte vor dem Besuch prüfen): https://www.s
+ km-aufbruch.de/kulturraum/
+URL:https://www.skm-aufbruch.de/kulturraum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-contra-kreis-theater-20261201-und-taeglich-gruent-der-tannenbaum-beg
+ inn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Beginn: Und täglich grünt der Tannenbaum
+LOCATION:Contra-Kreis-Theater\, Am Hof 3-5\, 53113 Bonn
+DESCRIPTION:Laufzeit: 1.12.2026 bis 10.1.2027\nTermine laut Veranstalter: d
+ ienstags bis samstags 19.30 Uhr\, sonn- und feiertags 18.00 Uhr\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.contra-kreis-theater.de/
+URL:https://www.contra-kreis-theater.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-contra-kreis-theater-20261201-und-taeglich-gruent-der-tannenbaum-end
+ e@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Und täglich grünt der Tannenbaum
+LOCATION:Contra-Kreis-Theater\, Am Hof 3-5\, 53113 Bonn
+DESCRIPTION:Laufzeit: 1.12.2026 bis 10.1.2027\nTermine laut Veranstalter: d
+ ienstags bis samstags 19.30 Uhr\, sonn- und feiertags 18.00 Uhr\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.contra-kreis-theater.de/
+URL:https://www.contra-kreis-theater.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20261202-cole-porter-a-swell-party@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T193000
+DTEND;TZID=Europe/Berlin:20261202T213000
+SUMMARY:Cole Porter – A Swell Party
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20261203-charles-und-wie-er-die-welt-sah-hommage-an-
+ charles@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T193000
+DTEND;TZID=Europe/Berlin:20261203T213000
+SUMMARY:Charles und wie er die Welt sah – Hommage an Charles Aznavour
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-museum-koenig-20261206-wir-lesen-vor-maerchen-und-geschichten-fuer-k
+ ids-a@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Wir lesen vor - Märchen und Geschichten für Kids ab 4 Jahren
+LOCATION:Museum Koenig Bonn – Leibniz-Institut zur Analyse des Biodiversi
+ tätswandels\, Adenauerallee 127\, 53113 Bonn
+DESCRIPTION:Vorlesestunde für Kinder ab 4 Jahren.\nEnde: laut Quelle nicht
+  angegeben\nPreis: kostenfrei\nQuelle (bitte vor dem Besuch prüfen): http
+ s://bonn.leibniz-lib.de/de/veranstaltungen.html
+URL:https://bonn.leibniz-lib.de/de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-geschichte-20261206-offenes-atelier-du-bist-festlich-gestal
+ te-dein-wei@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T123000
+DTEND;TZID=Europe/Berlin:20261206T143000
+SUMMARY:Offenes Atelier "Du bist festlich - Gestalte dein Weihnachtslicht"
+LOCATION:Haus der Geschichte Bonn\, Willy-Brandt-Allee 14\, 53113 Bonn
+DESCRIPTION:Kreativangebot für Kinder und Familien.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hdg.de/haus-der-geschichte/veranstaltungen
+URL:https://www.hdg.de/haus-der-geschichte/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-frauenmuseum-20261206-offene-sonntagsfuehrung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Offene Sonntagsführung
+LOCATION:Frauenmuseum Bonn\, Im Krausfeld 10\, 53111 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://frauenmuseum.de/events/
+URL:https://frauenmuseum.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-haus-der-bildung-20261209-lit-arena@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T190000
+DTEND;TZID=Europe/Berlin:20261209T210000
+SUMMARY:Lit.Arena
+LOCATION:Haus der Bildung (Saal)\, Mülheimer Platz 1\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://literaturhaus-bonn.de/veranstaltung/lit-arena39-ausgabe
+ /
+URL:https://literaturhaus-bonn.de/veranstaltung/lit-arena39-ausgabe/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-rpz-20261210-bravopunks-die-aerzte-cover@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Bravopunks – Die Ärzte Cover
+LOCATION:Rock & Pop Zentrum Bonn (RPZ)\, Moltkestraße 41\, 53173 Bonn
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://rpz-bonn.de/
+URL:https://rpz-bonn.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kulturraum-auerberg-20261212-thilo-seibel-schon-rum@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Thilo Seibel – Schon rum!?
+LOCATION:Kulturraum Auerberg\, Kölnstraße 367\, 53117 Bonn
+DESCRIPTION:Kabarettistischer Jahresrückblick.\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.skm-aufbruch.de/kulturraum/
+URL:https://www.skm-aufbruch.de/kulturraum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20261219-gina-glinda-im-winter-wunderland@myeventhub
+ .de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T193000
+DTEND;TZID=Europe/Berlin:20261219T213000
+SUMMARY:Gina & Glinda im Winter Wunderland
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-gop-20270104-das-wohnzimmerkonzert-songs-stories-mit-axel-naume@myev
+ enthub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270104T190000
+DTEND;TZID=Europe/Berlin:20270104T210000
+SUMMARY:Das Wohnzimmerkonzert – Songs & Stories mit Axel Naumer & friends
+LOCATION:GOP Varieté-Theater Bonn\, Karl-Carstens-Straße 1\, 53113 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 44 Euro pro Person inkl. Chili\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.variete.de/bonn/programm
+URL:https://www.variete.de/bonn/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20270104-revanche-sleuth-krimi-von-anthony-shaffer@m
+ yeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270104T193000
+DTEND;TZID=Europe/Berlin:20270104T213000
+SUMMARY:Revanche – Sleuth: Krimi von Anthony Shaffer
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-gop-20270121-circus-beginn@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Beginn: Circus
+LOCATION:GOP Varieté-Theater Bonn\, Karl-Carstens-Straße 1\, 53113 Bonn
+DESCRIPTION:Varietéshow des GOP Bonn.\nLaufzeit: 21.1.2027 bis 18.4.2027\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.variete.de/bonn/program
+ m/circus
+URL:https://www.variete.de/bonn/programm/circus
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-gop-20270121-circus-ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Letzter Tag: Circus
+LOCATION:GOP Varieté-Theater Bonn\, Karl-Carstens-Straße 1\, 53113 Bonn
+DESCRIPTION:Varietéshow des GOP Bonn.\nLaufzeit: 21.1.2027 bis 18.4.2027\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.variete.de/bonn/program
+ m/circus
+URL:https://www.variete.de/bonn/programm/circus
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20270124-jacques-brel-ein-leben-in-xl@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T193000
+DTEND;TZID=Europe/Berlin:20270124T213000
+SUMMARY:Jacques Brel – ein Leben in XL
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20270202-das-traumpaar-komoedie-von-werner-bauer-ura
+ uffuehr@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270202T193000
+DTEND;TZID=Europe/Berlin:20270202T213000
+SUMMARY:Das Traumpaar – Komödie von Werner Bauer (Uraufführung)
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20270221-stephan-hippe-die-knef-story@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T193000
+DTEND;TZID=Europe/Berlin:20270221T213000
+SUMMARY:Stephan Hippe – Die Knef Story
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-gop-20270301-das-wohnzimmerkonzert-songs-stories-mit-axel-naume@myev
+ enthub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270301T190000
+DTEND;TZID=Europe/Berlin:20270301T210000
+SUMMARY:Das Wohnzimmerkonzert – Songs & Stories mit Axel Naumer & friends
+LOCATION:GOP Varieté-Theater Bonn\, Karl-Carstens-Straße 1\, 53113 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 44 Euro pro Person inkl. Chili\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.variete.de/bonn/programm
+URL:https://www.variete.de/bonn/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20270302-magnolien-aus-stahl-von-robert-harling@myev
+ enthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270302T193000
+DTEND;TZID=Europe/Berlin:20270302T213000
+SUMMARY:Magnolien aus Stahl – von Robert Harling
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-gop-20270308-gop-quizartisten@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270308T193000
+DTEND;TZID=Europe/Berlin:20270308T213000
+SUMMARY:GOP Quizartisten
+LOCATION:GOP Varieté-Theater Bonn\, Karl-Carstens-Straße 1\, 53113 Bonn
+DESCRIPTION:Quizabend für Teams mit Artistik-Einlagen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.variet
+ e.de/bonn/programm
+URL:https://www.variete.de/bonn/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kleines-theater-20270402-prima-facie-schauspiel-von-suzie-miller@mye
+ venthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270402T193000
+DTEND;TZID=Europe/Berlin:20270402T213000
+SUMMARY:Prima Facie – Schauspiel von Suzie Miller
+LOCATION:kleines theater Bad Godesberg\, Koblenzer Str. 78\, Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kleinestheater.eu/events/liste?hide_subsequent_recurren
+ ces=1
+URL:https://kleinestheater.eu/events/liste?hide_subsequent_recurrences=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-gop-20270405-das-wohnzimmerkonzert-songs-stories-mit-axel-naume@myev
+ enthub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270405T190000
+DTEND;TZID=Europe/Berlin:20270405T210000
+SUMMARY:Das Wohnzimmerkonzert – Songs & Stories mit Axel Naumer & friends
+LOCATION:GOP Varieté-Theater Bonn\, Karl-Carstens-Straße 1\, 53113 Bonn
+DESCRIPTION:Einlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 44 Euro pro Person inkl. Chili\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.variete.de/bonn/programm
+URL:https://www.variete.de/bonn/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-kulturraum-auerberg-20270410-fatih-cevikkollu-ki-kritische-intellige
+ nz@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Fatih Çevikkollu – KI – Kritische Intelligenz
+LOCATION:Kulturraum Auerberg\, Kölnstraße 367\, 53117 Bonn
+DESCRIPTION:Kabarett.\nQuelle (bitte vor dem Besuch prüfen): https://www.s
+ km-aufbruch.de/kulturraum/
+URL:https://www.skm-aufbruch.de/kulturraum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

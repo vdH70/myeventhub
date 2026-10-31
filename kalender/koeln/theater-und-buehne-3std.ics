@@ -1,0 +1,1615 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Köln · my Event Hub (Erinnerung 3 Stunde
+ n vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:k-theater-am-dom-20260911-kalter-weisser-mann-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: Kalter weißer Mann
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 11.9.2026 bis 15.11.2026\nTermine laut Veranstalter: 
+ Laufzeit laut Spielplan\, Einzeltermine auf der Website\nQuelle (bitte vor
+  dem Besuch prüfen): https://theateramdom.de/
+URL:https://theateramdom.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-philharmonie-20261031-festival-in-motion-compagnie-barks-the-scale-ei
+ ntritt-f@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T122000
+DTEND;TZID=Europe/Berlin:20261031T142000
+SUMMARY:Festival In Motion: Compagnie Barks – The Scale (Eintritt frei)
+LOCATION:Kurt-Hackenberg-Platz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.koelner-philharmonie.de/de/ko
+ nzerte
+URL:https://www.koelner-philharmonie.de/de/konzerte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261031-der-rosenkavalier@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Der Rosenkavalier
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-philharmonie-20261031-festival-in-motion-compagnie-barks-t-1800@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Festival In Motion: Compagnie Barks – The Scale (Eintritt frei)
+LOCATION:Heinrich-Böll-Platz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.koelner-philharmonie.de/de/ko
+ nzerte
+URL:https://www.koelner-philharmonie.de/de/konzerte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261101-kain-und-abel-premiere@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Kain und Abel (Premiere)
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-comedia-20261101-cuneyt-akan-drama-king-cologne-comedy-festival@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T190000
+DTEND;TZID=Europe/Berlin:20261101T210000
+SUMMARY:Cüneyt Akan: Drama King (Cologne Comedy Festival)
+LOCATION:Roter Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://comedia-koeln.de/programm/unsere-gaeste/cueneyet-akan-d
+ rama-king/
+URL:https://comedia-koeln.de/programm/unsere-gaeste/cueneyet-akan-drama-kin
+ g/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20261101-sketch-history-live@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T200000
+DTEND;TZID=Europe/Berlin:20261101T220000
+SUMMARY:Sketch History Live
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-volksbuehne-rudolfplatz-20261102-millowitsch-endlich-wieder-lachen@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:Millowitsch. Endlich wieder Lachen
+LOCATION:Volksbühne am Rudolfplatz\, Aachener Straße 5\, 50674 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://volksbuehne-rudolfplatz.de/programm/millowitsch-endlich
+ -wieder-lachen-ein-theaterstueck-ueber-das-phaenomen-willy-millowitsch-202
+ 6-11-02/
+URL:https://volksbuehne-rudolfplatz.de/programm/millowitsch-endlich-wieder-
+ lachen-ein-theaterstueck-ueber-das-phaenomen-willy-millowitsch-2026-11-02/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20261102-markus-krebs-tv-aufzeichnung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T193000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:Markus Krebs (TV-Aufzeichnung)
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-comedia-20261102-bohninger-wachmacher-der-live-podcast-mit-moritz-hur
+ tge@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Bohninger Wachmacher – Der Live-Podcast mit Moritz Hürtgen und D
+ ax Werner
+LOCATION:Roter Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://comedia-koeln.de/programm/unsere-gaeste/bohninger-wachm
+ acher-der-live-podcast-mit-moritz-huertgen-und-dax-werner/
+URL:https://comedia-koeln.de/programm/unsere-gaeste/bohninger-wachmacher-de
+ r-live-podcast-mit-moritz-huertgen-und-dax-werner/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-volksbuehne-rudolfplatz-20261103-millowitsch-endlich-wieder-lachen@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T190000
+DTEND;TZID=Europe/Berlin:20261103T210000
+SUMMARY:Millowitsch. Endlich wieder Lachen
+LOCATION:Volksbühne am Rudolfplatz\, Aachener Straße 5\, 50674 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://volksbuehne-rudolfplatz.de/programm/millowitsch-endlich
+ -wieder-lachen-ein-theaterstueck-ueber-das-phaenomen-willy-millowitsch-202
+ 6-11-03/
+URL:https://volksbuehne-rudolfplatz.de/programm/millowitsch-endlich-wieder-
+ lachen-ein-theaterstueck-ueber-das-phaenomen-willy-millowitsch-2026-11-03/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-comedia-20261103-lensi-schmidt-hinnerk-kohn-max-scharff-bin-ich-das-a
+ rsc@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Lensi Schmidt\, Hinnerk Köhn & Max Scharff: Bin ich das Arschloch?
+  (ausverkauft)
+LOCATION:Roter Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://comedia-koeln.de/programm/unsere-gaeste/le
+ nsi-schmidt-hinnerk-koehn-max-scharff-bin-ich-das-arschloch/
+URL:https://comedia-koeln.de/programm/unsere-gaeste/lensi-schmidt-hinnerk-k
+ oehn-max-scharff-bin-ich-das-arschloch/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261103-comedy-for-future-die-show@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Comedy for Future – Die Show
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-volksbuehne-rudolfplatz-20261104-millowitsch-endlich-wieder-lachen-na
+ chmittagsvorstellun@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T150000
+DTEND;TZID=Europe/Berlin:20261104T170000
+SUMMARY:Millowitsch. Endlich wieder Lachen (Nachmittagsvorstellung)
+LOCATION:Volksbühne am Rudolfplatz\, Aachener Straße 5\, 50674 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://volksbuehne-rudolfplatz.de/programm/millowitsch-endlich
+ -wieder-lachen-ein-theaterstueck-ueber-das-phaenomen-willy-millowitsch-nac
+ hmittagsveranstaltung-2026-11-04/
+URL:https://volksbuehne-rudolfplatz.de/programm/millowitsch-endlich-wieder-
+ lachen-ein-theaterstueck-ueber-das-phaenomen-willy-millowitsch-nachmittags
+ veranstaltung-2026-11-04/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-volksbuehne-rudolfplatz-20261104-millowitsch-endlich-wieder-lachen@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T190000
+DTEND;TZID=Europe/Berlin:20261104T210000
+SUMMARY:Millowitsch. Endlich wieder Lachen
+LOCATION:Volksbühne am Rudolfplatz\, Aachener Straße 5\, 50674 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://volksbuehne-rudolfplatz.de/programm/millowitsch-endlich
+ -wieder-lachen-ein-theaterstueck-ueber-das-phaenomen-willy-millowitsch-202
+ 6-11-04/
+URL:https://volksbuehne-rudolfplatz.de/programm/millowitsch-endlich-wieder-
+ lachen-ein-theaterstueck-ueber-das-phaenomen-willy-millowitsch-2026-11-04/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261104-deutsch-griechisches-theater-der-fall-woyzec
+ k@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Deutsch Griechisches Theater: Der Fall Woyzeck
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-comedia-20261104-doppelte-spa-burgerschaft-cologne-comedy-festival@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Doppelte Spaßbürgerschaft (Cologne Comedy Festival)
+LOCATION:Roter Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://comedia-koeln.de/programm/unsere-gaeste/doppelte-spassb
+ uergerschaft-cologne-comedy-festival-comedia/
+URL:https://comedia-koeln.de/programm/unsere-gaeste/doppelte-spassbuergersc
+ haft-cologne-comedy-festival-comedia/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261105-kain-und-abel@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Kain und Abel
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261105-deutsch-griechisches-theater-der-fall-woyzec
+ k@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Deutsch Griechisches Theater: Der Fall Woyzeck
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261105-eure-muetter-perlen-vor-die-saeue-
+ das-jubilaeums-b@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Eure Mütter – Perlen vor die Säue\, das Jubiläums-Best-of
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-volksbuehne-rudolfplatz-20261106-himmel-und-kolle-das-comedy-musical@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Himmel und Kölle – Das Comedy-Musical
+LOCATION:Volksbühne am Rudolfplatz\, Aachener Straße 5\, 50674 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://volksbuehne-rudolfplatz.de/programm/himmel-und-koelle-d
+ as-comedy-musical-2026-11-06/
+URL:https://volksbuehne-rudolfplatz.de/programm/himmel-und-koelle-das-comed
+ y-musical-2026-11-06/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-oper-20261106-rigoletto@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Rigoletto
+LOCATION:Oper Köln\, Offenbachplatz\, Köln
+DESCRIPTION:Spielstätte: Opernhaus.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.oper.koeln/programm
+URL:https://www.oper.koeln/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20261106-nightwash-live@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:NightWash Live
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261106-ludwig-benecke-mach-ich-spaeter@my
+ eventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Ludwig Benecke – Mach ich später
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261107-bjoern-heusers-rievkooche-revue-20
+ 26@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Björn Heusers Rievkooche Revue 2026
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261111-futur3-glotzt-nicht-so-romantisch@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Futur3: Glotzt nicht so romantisch!
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261112-futur3-glotzt-nicht-so-romantisch@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Futur3: Glotzt nicht so romantisch!
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261113-futur3-glotzt-nicht-so-romantisch@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Futur3: Glotzt nicht so romantisch!
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261114-futur3-glotzt-nicht-so-romantisch@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Futur3: Glotzt nicht so romantisch!
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20261114-weird-wrestling-circus@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Weird Wrestling Circus (ausverkauft)
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .gebaeude9.de/programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261115-futur3-glotzt-nicht-so-romantisch@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:Futur3: Glotzt nicht so romantisch!
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261116-fabian-koester-live@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Fabian Köster – LIVE
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261117-fabian-koester-zusatztermin@myeven
+ thub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Fabian Köster – Zusatztermin
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20261121-joerg-knoer-simply-my-best@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Jörg Knör: Simply My Best!
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/
+URL:https://theateramdom.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261126-a-tonal-theater-plaedoyer-fuer-die-unglueckl
+ iche-l@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:A.TONAL.THEATER: Plädoyer für die unglückliche Liebe
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261126-herrengedeck-schoene-bescherung-be
+ ginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Beginn: Herrengedeck – Schöne Bescherung!
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Show mit Essen\, mehrere Termine bis 20.12.2026.\nLaufzeit: 26.
+ 11.2026 bis 20.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://sta
+ dthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261126-herrengedeck-schoene-bescherung-en
+ de@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Letzter Tag: Herrengedeck – Schöne Bescherung!
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Show mit Essen\, mehrere Termine bis 20.12.2026.\nLaufzeit: 26.
+ 11.2026 bis 20.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://sta
+ dthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261127-a-tonal-theater-plaedoyer-fuer-die-unglueckl
+ iche-l@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:A.TONAL.THEATER: Plädoyer für die unglückliche Liebe
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20261127-schlaflos-in-hamm-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Schlaflos in Hamm
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 27.11.2026 bis 6.2.2027\nTermine laut Veranstalter: L
+ aufzeit laut Spielplan\, Einzeltermine auf der Website\nQuelle (bitte vor 
+ dem Besuch prüfen): https://theateramdom.de/
+URL:https://theateramdom.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20261127-schlaflos-in-hamm-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Letzter Tag: Schlaflos in Hamm
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 27.11.2026 bis 6.2.2027\nTermine laut Veranstalter: L
+ aufzeit laut Spielplan\, Einzeltermine auf der Website\nQuelle (bitte vor 
+ dem Besuch prüfen): https://theateramdom.de/
+URL:https://theateramdom.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261128-a-tonal-theater-plaedoyer-fuer-die-unglueckl
+ iche-l@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:A.TONAL.THEATER: Plädoyer für die unglückliche Liebe
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-alte-feuerwache-20261129-a-tonal-theater-plaedoyer-fuer-die-unglueckl
+ iche-l@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T200000
+DTEND;TZID=Europe/Berlin:20261129T220000
+SUMMARY:A.TONAL.THEATER: Plädoyer für die unglückliche Liebe
+LOCATION:Bürgerzentrum Alte Feuerwache Köln\, Melchiorstraße 3\, 50670 K
+ öln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11
+ -01
+URL:https://altefeuerwachekoeln.de/gesamtprogramm/?afk_date=2026-11-01
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20261209-stunksitzung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Stunksitzung
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.e-werk-colog
+ ne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270211-tkkg-live-hoerspiel-2027-das-gehei
+ mnis-der-siegelr@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T183000
+DTEND;TZID=Europe/Berlin:20270211T203000
+SUMMARY:TKKG Live-Hörspiel 2027: Das Geheimnis der Siegelringe
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270212-tkkg-live-hoerspiel-2027-das-gehei
+ mnis-der-siegelr@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T183000
+DTEND;TZID=Europe/Berlin:20270212T203000
+SUMMARY:TKKG Live-Hörspiel 2027: Das Geheimnis der Siegelringe
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270212-fisch-sucht-fahrrad-komodie-beginn@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Beginn: Fisch sucht Fahrrad (Komödie)
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 12.2.2027 bis 18.4.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/fisch-sucht-fahrrad-12-0
+ 2-2027
+URL:https://theateramdom.de/stuecke/stueck/fisch-sucht-fahrrad-12-02-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270212-fisch-sucht-fahrrad-komodie-ende@myeventhub.d
+ e
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Letzter Tag: Fisch sucht Fahrrad (Komödie)
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 12.2.2027 bis 18.4.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/fisch-sucht-fahrrad-12-0
+ 2-2027
+URL:https://theateramdom.de/stuecke/stueck/fisch-sucht-fahrrad-12-02-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270215-moritz-neumeier-pur@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270215T190000
+DTEND;TZID=Europe/Berlin:20270215T210000
+SUMMARY:Moritz Neumeier – Pur
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270216-moritz-neumeier-pur@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T190000
+DTEND;TZID=Europe/Berlin:20270216T210000
+SUMMARY:Moritz Neumeier – Pur
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270219-tahnee-ein-touch-too-much@myeventh
+ ub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Tahnee – Ein Touch too much
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270220-bulent-ceylan@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T190000
+DTEND;TZID=Europe/Berlin:20270220T210000
+SUMMARY:Bülent Ceylan
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270220-tahnee-ein-touch-too-much@myeventh
+ ub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T200000
+DTEND;TZID=Europe/Berlin:20270220T220000
+SUMMARY:Tahnee – Ein Touch too much
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270221-robert-kreis-kabarett@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T110000
+DTEND;TZID=Europe/Berlin:20270221T130000
+SUMMARY:Robert Kreis (Kabarett)
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/robert-kreis-21-02-2027
+URL:https://theateramdom.de/stuecke/stueck/robert-kreis-21-02-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270221-bulent-ceylan@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T190000
+DTEND;TZID=Europe/Berlin:20270221T210000
+SUMMARY:Bülent Ceylan
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270225-lisa-feller-schoen-fuer-dich@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T200000
+DTEND;TZID=Europe/Berlin:20270225T220000
+SUMMARY:Lisa Feller – Schön für dich!
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Verlegt vom 24.09.2026.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltung
+ en/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270226-gamechanger-by-bastian-bielendorfe
+ r@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:GameChanger by Bastian Bielendorfer
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270228-wdr5-kabarettfest-koln-live-aufzeichnung@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T110000
+DTEND;TZID=Europe/Berlin:20270228T130000
+SUMMARY:WDR5 Kabarettfest Köln (Live-Aufzeichnung)
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/wdr5-kabarettfest-koeln-
+ 28-02-2027
+URL:https://theateramdom.de/stuecke/stueck/wdr5-kabarettfest-koeln-28-02-20
+ 27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270311-monika-gruber@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T193000
+DTEND;TZID=Europe/Berlin:20270311T213000
+SUMMARY:Monika Gruber
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-e-werk-20270312-monika-gruber@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T193000
+DTEND;TZID=Europe/Berlin:20270312T213000
+SUMMARY:Monika Gruber
+LOCATION:E-Werk Köln\, Schanzenstraße 37\, 51063 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.e-werk-cologne.com/programm/
+URL:https://www.e-werk-cologne.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270312-lucia-leona-mord-am-mittwoch@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:Lucia Leona – Mord am Mittwoch
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270316-fabian-koester-10-jahre-reporter-f
+ ast-ohne-grenzen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270316T200000
+DTEND;TZID=Europe/Berlin:20270316T220000
+SUMMARY:Fabian Köster – 10 Jahre – Reporter (fast) ohne Grenzen
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270417-paula-lambert-finde-dich-gut-sonst
+ -findet-dich-kei@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T200000
+DTEND;TZID=Europe/Berlin:20270417T220000
+SUMMARY:Paula Lambert – Finde dich gut\, sonst findet dich keiner
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Verschoben vom 19.10.2026.\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://stadthalle.koeln/veranstalt
+ ungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270421-doppelpass-live-auf-tour@myeventhu
+ b.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270421T200000
+DTEND;TZID=Europe/Berlin:20270421T220000
+SUMMARY:Doppelpass – Live auf Tour
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270423-till-reiners-das-ist-alles-teil-de
+ r-show@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270423T190000
+DTEND;TZID=Europe/Berlin:20270423T210000
+SUMMARY:Till Reiners – Das ist alles Teil der Show
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270423-und-das-ist-gut-so-komodie-beginn@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:Beginn: Und das ist gut so (Komödie)
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 23.4.2027 bis 20.6.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/und-das-ist-gut-so-23-04
+ -2027
+URL:https://theateramdom.de/stuecke/stueck/und-das-ist-gut-so-23-04-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-theater-am-dom-20270423-und-das-ist-gut-so-komodie-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Letzter Tag: Und das ist gut so (Komödie)
+LOCATION:Theater am Dom\, Glockengasse 11\, 50667 Köln
+DESCRIPTION:Laufzeit: 23.4.2027 bis 20.6.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://theateramdom.de/stuecke/stueck/und-das-ist-gut-so-23-04
+ -2027
+URL:https://theateramdom.de/stuecke/stueck/und-das-ist-gut-so-23-04-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270424-morgan-jay-la-dolce-vita-tour@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T200000
+DTEND;TZID=Europe/Berlin:20270424T220000
+SUMMARY:Morgan Jay – La Dolce Vita Tour
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270425-morgan-jay-la-dolce-vita-tour@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270425T160000
+DTEND;TZID=Europe/Berlin:20270425T180000
+SUMMARY:Morgan Jay – La Dolce Vita Tour
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270425-morgan-jay-la-dolce-vita-tour-2000
+ @myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270425T200000
+DTEND;TZID=Europe/Berlin:20270425T220000
+SUMMARY:Morgan Jay – La Dolce Vita Tour
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270516-clara-loesel-ich-dachte-sowas-fueh
+ l-nur-ich@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270516T200000
+DTEND;TZID=Europe/Berlin:20270516T220000
+SUMMARY:Clara Lösel – Ich dachte sowas fühl nur ich
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270522-illusionist-farid-if-was-waere-wen
+ n@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270522T200000
+DTEND;TZID=Europe/Berlin:20270522T220000
+SUMMARY:Illusionist Farid – IF – Was wäre\, wenn
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270907-doc-caro-lebe-jetzt-lachen-auf-rez
+ ept@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270907T200000
+DTEND;TZID=Europe/Berlin:20270907T220000
+SUMMARY:Doc Caro – Lebe jetzt! Lachen auf Rezept
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270912-micky-overman-a-brand-new-hour-of-
+ stand-up-comedy@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270912T200000
+DTEND;TZID=Europe/Berlin:20270912T220000
+SUMMARY:Micky Overman – A Brand New Hour of Stand Up Comedy
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270913-patrick-spicer-europa-tour-2027@my
+ eventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270913T200000
+DTEND;TZID=Europe/Berlin:20270913T220000
+SUMMARY:Patrick Spicer – Europa Tour 2027
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270917-parshad-emotional-sein-vadder@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270917T200000
+DTEND;TZID=Europe/Berlin:20270917T220000
+SUMMARY:Parshad – Emotional sein Vadder
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270918-bjoern-heusers-rievkooche-revue-20
+ 27@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270918T193000
+DTEND;TZID=Europe/Berlin:20270918T213000
+SUMMARY:Björn Heusers Rievkooche Revue 2027
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270919-bjoern-heusers-rievkooche-revue-20
+ 27@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270919T120000
+DTEND;TZID=Europe/Berlin:20270919T140000
+SUMMARY:Björn Heusers Rievkooche Revue 2027
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270924-osan-yaran-wollen-wir-beginnen@mye
+ venthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270924T200000
+DTEND;TZID=Europe/Berlin:20270924T220000
+SUMMARY:Osan Yaran – Wollen wir beginnen?
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20270925-rebecca-pap-azizam@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270925T190000
+DTEND;TZID=Europe/Berlin:20270925T210000
+SUMMARY:Rebecca Pap – Azizam
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20271003-mr-yasin-hypnose-was-wenn-es-doch-
+ funktioniert@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271003T200000
+DTEND;TZID=Europe/Berlin:20271003T220000
+SUMMARY:Mr. Yasin – HYPNOSE – Was\, wenn es doch funktioniert?
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20271020-nightwash-das-sing-ding@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271020T200000
+DTEND;TZID=Europe/Berlin:20271020T220000
+SUMMARY:NightWash – Das Sing Ding
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20271022-nico-stank-daddy@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271022T200000
+DTEND;TZID=Europe/Berlin:20271022T220000
+SUMMARY:Nico Stank – Daddy
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20271023-nico-stank-daddy@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271023T200000
+DTEND;TZID=Europe/Berlin:20271023T220000
+SUMMARY:Nico Stank – Daddy
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20271102-dudes-live-tour-27@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271102T200000
+DTEND;TZID=Europe/Berlin:20271102T220000
+SUMMARY:dudes. Live Tour 27
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20280311-filiz-tasdan-filiz-touchdown@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280311T200000
+DTEND;TZID=Europe/Berlin:20280311T220000
+SUMMARY:Filiz Tasdan – Filiz Touchdown
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20280408-serdar-karibik-mein-dschungel@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280408T200000
+DTEND;TZID=Europe/Berlin:20280408T220000
+SUMMARY:Serdar Karibik – Mein Dschungel
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

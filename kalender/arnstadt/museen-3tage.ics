@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Arnstadt · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ik-schlossmuseum-arnstadt-20260913-natur-auf-der-haut-die-kunst-des-bod
+ ypaintings-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Letzter Tag: Natur auf der Haut. Die Kunst des Bodypaintings
+LOCATION:Schlossmuseum Arnstadt\, Arnstadt
+DESCRIPTION:Laufzeit: 13.9.2026 bis 21.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): http://www.bachstadt-arnstadt.de/w/sonderausstellung-schlossmus
+ eum
+URL:http://www.bachstadt-arnstadt.de/w/sonderausstellung-schlossmuseum
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

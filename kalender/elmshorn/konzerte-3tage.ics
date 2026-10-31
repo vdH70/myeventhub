@@ -1,0 +1,371 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Elmshorn · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20261106-anna-haentjens-zwischen-dem-woher-und
+ -wohin@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Anna Haentjens: Zwischen dem Woher und Wohin
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3062
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3062
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20261107-a-tribute-to-joe-cocker@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:A Tribute to Joe Cocker
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3063
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3063
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20261120-the-italian-tenors-band-a-christmas-c
+ elebration@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:The Italian Tenors & Band: A Christmas Celebration
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3070
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3070
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20261128-kings-of-floyd-dark-side-tour@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Kings of Floyd: Dark Side Tour
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3074
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3074
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20261204-weihnachten-mit-den-zucchini-sistaz@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Weihnachten mit den Zucchini Sistaz
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3077
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3077
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20261212-weihnachten-mit-salut-salon@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Weihnachten mit Salut Salon
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3085
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3085
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20261218-alte-bekannte-mehr-live-weihnachtsedi
+ tion@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Alte Bekannte: Mehr! Live – Weihnachtsedition
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3092
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3092
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270110-stefan-gwildis-mein-hamburg@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T190000
+DTEND;TZID=Europe/Berlin:20270110T210000
+SUMMARY:Stefan Gwildis: Mein Hamburg
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3122
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3122
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270115-buddy-in-concert-die-rock-n-roll-show
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:Buddy in Concert – Die Rock'n'Roll-Show
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3102
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3102
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270129-jeremy-days-acoustic-group-beauty-in-
+ broken-tour-2@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:Jeremy Days Acoustic Group: Beauty in Broken – Tour 2027
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3110
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3110
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270206-dire-strats-a-tribute-to-dire-straits
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T200000
+DTEND;TZID=Europe/Berlin:20270206T220000
+SUMMARY:Dire Strats – A Tribute to Dire Straits
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3113
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270214-mischpoke-tsukunft@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T190000
+DTEND;TZID=Europe/Berlin:20270214T210000
+SUMMARY:Mischpoke: Tsukunft
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3118
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3118
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270228-yared-dibaba-und-die-schlickrutscher-
+ der-yared-rue@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T190000
+DTEND;TZID=Europe/Berlin:20270228T210000
+SUMMARY:Yared Dibaba und die Schlickrutscher: Der Yared-Rückblick
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3129
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3129
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270306-the-queen-kings-a-tribute-to-freddie-
+ mercury-and-q@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T200000
+DTEND;TZID=Europe/Berlin:20270306T220000
+SUMMARY:The Queen Kings – A Tribute to Freddie Mercury and Queen
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3133
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3133
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270312-tom-gaebel-and-his-trio-a-swinging-af
+ fair@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:Tom Gaebel and his Trio: A Swinging Affair!
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3137
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3137
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270402-5-elmshorner-opern-abend-internationa
+ les-opernstud@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270402T200000
+DTEND;TZID=Europe/Berlin:20270402T220000
+SUMMARY:5. Elmshorner Opern-Abend – Internationales Opernstudio der Staat
+ soper Hamburg
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3163
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3163
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270404-goetz-alsmann-kompliment@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T190000
+DTEND;TZID=Europe/Berlin:20270404T210000
+SUMMARY:Götz Alsmann: Kompliment...
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3146
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3146
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270409-one-night-in-sweden-a-tribute-show-to
+ -abba@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T200000
+DTEND;TZID=Europe/Berlin:20270409T220000
+SUMMARY:One Night in Sweden – A Tribute-Show to ABBA
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3147
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3147
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadttheater-elmshorn-20270422-salut-salon-heimat@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270422T200000
+DTEND;TZID=Europe/Berlin:20270422T220000
+SUMMARY:Salut Salon: Heimat
+LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3156
+URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3156
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

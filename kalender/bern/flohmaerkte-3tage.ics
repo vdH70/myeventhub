@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Flohmärkte in Bern · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bern-grosse-halle-20261101-flohmarkt-grosse-halle@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART:20261101T090000
+DTEND:20261101T110000
+SUMMARY:Flohmarkt Grosse Halle
+LOCATION:Grosse Halle der Reitschule\, Schützenmattstrasse 7\, 3012 Bern
+DESCRIPTION:Monatlicher Flohmarkt in der Grossen Halle der Reitschule\, 9
+ –16 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.grossehalle.ch/programm/flohmarkt-grosse-halle-4-6
+URL:https://www.grossehalle.ch/programm/flohmarkt-grosse-halle-4-6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bern-grosse-halle-20261206-flohmarkt-grosse-halle@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART:20261206T090000
+DTEND:20261206T110000
+SUMMARY:Flohmarkt Grosse Halle
+LOCATION:Grosse Halle der Reitschule\, Schützenmattstrasse 7\, 3012 Bern
+DESCRIPTION:Monatlicher Flohmarkt in der Grossen Halle der Reitschule\, 9
+ –16 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.grossehalle.ch/programm/flohmarkt-grosse-halle-4
+URL:https://www.grossehalle.ch/programm/flohmarkt-grosse-halle-4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bern-grosse-halle-20270207-flohmarkt-grosse-halle@myeventhub.de
+DTSTAMP:20261010T000000Z
+DTSTART:20270207T090000
+DTEND:20270207T110000
+SUMMARY:Flohmarkt Grosse Halle
+LOCATION:Grosse Halle der Reitschule\, Schützenmattstrasse 7\, 3012 Bern
+DESCRIPTION:Monatlicher Flohmarkt in der Grossen Halle der Reitschule\, 9
+ –16 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.grossehalle.ch/programm/flohmarkt-grosse-halle
+URL:https://www.grossehalle.ch/programm/flohmarkt-grosse-halle
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

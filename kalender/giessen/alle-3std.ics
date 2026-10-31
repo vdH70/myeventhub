@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Gießen · my Event Hub (Erinnerung 3 Stunden 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:gi-muk-20261101-kiwi-comedian-english-stand-up@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T183000
+DTEND;TZID=Europe/Berlin:20261101T203000
+SUMMARY:Kiwi Comedian – English Stand up
+LOCATION:MuK Gießen\, An der Automeile 16\, Gießen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk-giessen.de/events/konzerte/kiwi-comedian-englis
+ h-stand-up-in-giessen/
+URL:https://www.muk-giessen.de/events/konzerte/kiwi-comedian-english-stand-
+ up-in-giessen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-stadtbibliothek-20261112-lokal-regional-marburger-moerderspiel-lesun
+ g-mit-f@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:lokal.regional: Marburger Mörderspiel – Lesung mit Felix Scholz
+LOCATION:Stadtbibliothek Gießen\, Berliner Platz 1\, 35390 Gießen
+DESCRIPTION:Krimilesung in der Reihe lokal.regional der Stadtbibliothek.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.giessen.de/Leben/Bildung/Stadtbibliothek/Unsere-Veranstaltungen
+ /lokal-regional.php?object=tx%2C2874.15926&ModID=11&FID=2874.49969.1&NavID
+ =1894.105
+URL:https://www.giessen.de/Leben/Bildung/Stadtbibliothek/Unsere-Veranstaltu
+ ngen/lokal-regional.php?object=tx%2C2874.15926&ModID=11&FID=2874.49969.1&N
+ avID=1894.105
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-muk-20261113-soulbound-hell-boulevard-live@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Soulbound & Hell Boulevard live
+LOCATION:MuK Gießen\, An der Automeile 16\, Gießen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk-giessen.de/events/konzerte/soulboundhellbouleva
+ rd-live/
+URL:https://www.muk-giessen.de/events/konzerte/soulboundhellboulevard-live/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-liebig-museum-20261121-experimentalvorlesung-mit-manfred-fritsch@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Experimentalvorlesung mit Manfred Fritsch
+LOCATION:Liebig-Museum Gießen\, Liebigstraße 12\, 35390 Gießen
+DESCRIPTION:Experimentalvorlesung im historischen Hörsaal\; Uhrzeit auf de
+ r Seite nicht angegeben.\nPreis: 14 €\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.liebig-museum.de/veranstaltungen/
+URL:https://www.liebig-museum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-stadtbibliothek-20261126-library-s-stage-die-stimme-afrikas@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Library's Stage: Die Stimme Afrikas
+LOCATION:Stadtbibliothek Gießen\, Berliner Platz 1\, 35390 Gießen
+DESCRIPTION:Chorabend in der Reihe Library's Stage\; Reservierung möglich.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.giessen.de/Leben/Bildung/Stadtbibliothek/Unsere-Veranstaltun
+ gen/Library-s-Stage-pr%C3%A4sentiert-Die-Stimme-Afrikas-.php?object=tx%2C2
+ 874.15926.1&ModID=11&FID=2874.49959.1&NavID=1894.105
+URL:https://www.giessen.de/Leben/Bildung/Stadtbibliothek/Unsere-Veranstaltu
+ ngen/Library-s-Stage-pr%C3%A4sentiert-Die-Stimme-Afrikas-.php?object=tx%2C
+ 2874.15926.1&ModID=11&FID=2874.49959.1&NavID=1894.105
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-muk-20261128-electro-evil-riots@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T180000
+DTEND;TZID=Europe/Berlin:20261128T200000
+SUMMARY:Electro Evil Riots
+LOCATION:MuK Gießen\, An der Automeile 16\, Gießen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk-giessen.de/events/konzerte/electro-evil-riots/
+URL:https://www.muk-giessen.de/events/konzerte/electro-evil-riots/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-stadtbibliothek-20261204-freitag-vier-bennos-erste-wichtelweihnacht-
+ kinderl@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T160000
+DTEND;TZID=Europe/Berlin:20261204T180000
+SUMMARY:Freitag.Vier: Bennos erste Wichtelweihnacht – Kinderlesung mit Ka
+ trin Topsch
+LOCATION:Stadtbibliothek Gießen\, Berliner Platz 1\, 35390 Gießen
+DESCRIPTION:Kinderlesung im Kinderbereich der Stadtbibliothek\, für etwa 4
+ - bis 8-Jährige.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.giessen.de/Leben/Bildung/Stadtbibliothek/Un
+ sere-Veranstaltungen/
+URL:https://www.giessen.de/Leben/Bildung/Stadtbibliothek/Unsere-Veranstaltu
+ ngen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-liebig-museum-20261211-experimentalvorlesung-mit-dr-katharina-kemper
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Experimentalvorlesung mit Dr. Katharina Kemper
+LOCATION:Liebig-Museum Gießen\, Liebigstraße 12\, 35390 Gießen
+DESCRIPTION:Experimentalvorlesung im historischen Hörsaal\; Uhrzeit auf de
+ r Seite nicht angegeben.\nPreis: 14 €\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.liebig-museum.de/veranstaltungen/
+URL:https://www.liebig-museum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gi-liebig-museum-20261219-weihnachts-kindervorlesung-der-kleine-justus-
+ und-d@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Weihnachts-Kindervorlesung „Der kleine Justus und die Chemie“
+LOCATION:Liebig-Museum Gießen\, Liebigstraße 12\, 35390 Gießen
+DESCRIPTION:Preis: kostenlos\, Anmeldung erforderlich\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.liebig-museum.de/veranstaltungen/
+URL:https://www.liebig-museum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

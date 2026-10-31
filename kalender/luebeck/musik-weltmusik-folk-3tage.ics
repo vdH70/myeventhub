@@ -1,0 +1,183 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Weltmusik/Folk in Lübeck · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hl-muk-20261107-cafe-del-mundo@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Café del Mundo
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=3
+URL:https://www.muk.de/veranstaltungen?page_e89=3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261107-cafe-del-mundo-guitarize-the-world-tour@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Café del Mundo – Guitarize – The World Tour
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=3
+URL:https://www.muk.de/veranstaltungen?page_e89=3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261108-the-scottish-music-parade@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:The Scottish Music Parade
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=3
+URL:https://www.muk.de/veranstaltungen?page_e89=3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261115-the-irish-folk-festival-2026-gold-dust-in-your-po
+ c@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T190000
+DTEND;TZID=Europe/Berlin:20261115T210000
+SUMMARY:The Irish Folk Festival 2026 – Gold dust in your pocket Tour
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-kolosseum-20261202-the-dublin-legends-abschieds-tour-teil-1@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:The Dublin Legends – Abschieds-Tour - Teil 1
+LOCATION:Kolosseum zu Lübeck\, Kronsforder Allee 25\, 23560 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.kolosseum-luebeck.de/programm/
+URL:https://www.kolosseum-luebeck.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20261209-jimmy-kelly-the-streetorchestra-celebrate-a-kelly@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Jimmy Kelly & The Streetorchestra Celebrate A Kelly-Christmas!
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.muk.de/veranstaltungen?page_e89=5
+URL:https://www.muk.de/veranstaltungen?page_e89=5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270202-kokubu-the-drums-of-japan-infinity-tour-2027@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270202T200000
+DTEND;TZID=Europe/Berlin:20270202T220000
+SUMMARY:Kokubu – The drums of japan: infinity tour 2027
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=9
+URL:https://www.muk.de/veranstaltungen?page_e89=9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hl-muk-20270529-cornamusa-world-of-pipe-rock-and-irish-dance@myeventhub
+ .de
+DTSTAMP:20261007T000000Z
+DTSTART;TZID=Europe/Berlin:20270529T200000
+DTEND;TZID=Europe/Berlin:20270529T220000
+SUMMARY:Cornamusa – World of Pipe Rock and Irish Dance
+LOCATION:MUK – Musik- und Kongresshalle Lübeck\, Willy-Brandt-Allee 10\,
+  23554 Lübeck
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muk.de/veranstaltungen?page_e89=16
+URL:https://www.muk.de/veranstaltungen?page_e89=16
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

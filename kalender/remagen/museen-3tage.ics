@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Remagen · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:aw-arp-museum-20260710-zu-den-sternen-weltraum-und-weltflucht-seit-der-
+ mo-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Zu den Sternen! Weltraum und Weltflucht seit der Moder
+ ne
+LOCATION:Arp Museum Bahnhof Rolandseck\, Hans-Arp-Allee 1\, 53424 Remagen
+DESCRIPTION:Laufzeit: 10.7.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://arpmuseum.org/ausstellungen/wechselausstellungen/aktuel
+ l/zu-den-sternen.html
+URL:https://arpmuseum.org/ausstellungen/wechselausstellungen/aktuell/zu-den
+ -sternen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aw-arp-museum-20260927-sprechende-bilder-meisterwerke-von-1400-bis-1800
+ -a-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Letzter Tag: Sprechende Bilder. Meisterwerke von 1400 bis 1800 aus 
+ dem Nationalmuseum Luxemburg
+LOCATION:Arp Museum Bahnhof Rolandseck\, Hans-Arp-Allee 1\, 53424 Remagen
+DESCRIPTION:Laufzeit: 27.9.2026 bis 4.4.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://arpmuseum.org/ausstellungen/wechselausstellungen/aktuell
+ /sprechende-bilder.html
+URL:https://arpmuseum.org/ausstellungen/wechselausstellungen/aktuell/sprech
+ ende-bilder.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

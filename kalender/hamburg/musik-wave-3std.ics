@@ -1,0 +1,193 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wave in Hamburg · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-hafenklang-20261107-damaged-goods@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T230000
+DTEND;TZID=Europe/Berlin:20261108T010000
+SUMMARY:DAMAGED GOODS
+LOCATION:Hafenklang\, Große Elbstraße 84\, 22767 Hamburg
+DESCRIPTION:Party im Goldenen Salon: Post Punk\, Synth\, Minimal\, NDW\, Ne
+ w Wave.\nEinlass 23:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 8€
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.hafenklang.com/progra
+ mm?cpnr=70070
+URL:https://www.hafenklang.com/programm?cpnr=70070
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-ms-stubnitz-20261115-jakuzi@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T203000
+DTEND;TZID=Europe/Berlin:20261115T223000
+SUMMARY:Jakuzi (tr)\, support: von rohbau
+LOCATION:MS Stubnitz\, Kirchenpauerkai 29\, 20457 Hamburg
+DESCRIPTION:Post Punk\, Synthpop\, Darkwave aus Istanbul\; Support von rohb
+ au (Krautwave).\nEinlass 19:30\, Beginn 20:30 Uhr\nEnde: laut Quelle nicht
+  angegeben\nPreis: 20 € VVK\, 25 € AK\, 10 € ermäßigt\, 30 € Sup
+ porter\nTickets: https://stubnitz.stager.co/shop/default/events/111679196\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.stubnitz.com/events/20
+ 26/nov/15-jakuzi.html
+URL:https://www.stubnitz.com/events/2026/nov/15-jakuzi.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-ms-stubnitz-20261218-stockmann-und-friends-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T203000
+DTEND;TZID=Europe/Berlin:20261218T223000
+SUMMARY:Stockmann & Friends 2026
+LOCATION:MS Stubnitz\, Kirchenpauerkai 29\, 20457 Hamburg
+DESCRIPTION:Hamburger Künstler mit düsteren Elementen aus Post-Punk\, Syn
+ th-Pop\, Dark-Pop und New Wave\; mit wechselnden Gästen.\nEinlass 19:30\,
+  Beginn 20:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 30 € VVK\nT
+ ickets: https://stubnitz.stager.co/shop/default/events/111597952\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.stubnitz.com/events/2026/dec/18
+ -stockmannfri.html
+URL:https://www.stubnitz.com/events/2026/dec/18-stockmannfri.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-ms-stubnitz-20261219-stockmann-und-friends-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T203000
+DTEND;TZID=Europe/Berlin:20261219T223000
+SUMMARY:Stockmann & Friends 2026
+LOCATION:MS Stubnitz\, Kirchenpauerkai 29\, 20457 Hamburg
+DESCRIPTION:Zweiter Abend\; Post Punk\, Synth Pop\, Dark Pop\, New Wave.\nE
+ inlass 19:30\, Beginn 20:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis:
+  30 € VVK\nTickets: https://stubnitz.stager.co/shop/default/events/11159
+ 7953\nQuelle (bitte vor dem Besuch prüfen): https://www.stubnitz.com/even
+ ts/2026/dec/19-stockmannfri.html
+URL:https://www.stubnitz.com/events/2026/dec/19-stockmannfri.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-ms-stubnitz-20261231-timeshift@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T220000
+DTEND;TZID=Europe/Berlin:20270101T000000
+SUMMARY:TIMEshift
+LOCATION:MS Stubnitz\, Kirchenpauerkai 29\, 20457 Hamburg
+DESCRIPTION:Silvesterparty von Living Dead auf drei Floors: Dark Electronix
+ \, SynthiePop\, EBM\, Industrial / Alternative\, Metal\, Industrial-Rock /
+  Goth & Wave\, Postpunk\, Minimal\, 80ies. Keine Abendkasse.\nEinlass 22:0
+ 0 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 24\,00 EUR + VVK-Gebühre
+ n (nur Vorverkauf)\nTickets: https://www.deinetickets.de/shop/ldpshop/de/s
+ tart/?g=31&i=53593\nQuelle (bitte vor dem Besuch prüfen): https://www.stu
+ bnitz.com/events/2026/dec/31-timeshift.html
+URL:https://www.stubnitz.com/events/2026/dec/31-timeshift.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hafenklang-20270205-ductrape-turkey@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T200000
+DTEND;TZID=Europe/Berlin:20270205T220000
+SUMMARY:Ductrape (Turkey)
+LOCATION:Hafenklang\, Große Elbstraße 84\, 22767 Hamburg
+DESCRIPTION:Dark Wave\, Goth\, Post Punk. Im großen Saal (Hafenklang).\n20
+ :00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt 35 €\, VVK 29 €\nTickets: https://w
+ ww.tixforgigs.com/Event/77062\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.hafenklang.com/programm/
+URL:https://www.hafenklang.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-ms-stubnitz-20270216-mercy-girl-mothermary@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T203000
+DTEND;TZID=Europe/Berlin:20270216T223000
+SUMMARY:Mercy Girl (uk)\, Mothermary (us)
+LOCATION:MS Stubnitz\, Kirchenpauerkai 29\, 20457 Hamburg
+DESCRIPTION:Coldwave\, Darkwave\, Electropop.\nEinlass 19:30\, Beginn 20:30
+  Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 20 € VVK\, 25 € AK\, 1
+ 0 € ermäßigt\, 30 € Supporter\nTickets: https://stubnitz.stager.co/s
+ hop/default/events/111665136\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.stubnitz.com/events/2027/feb/16-mercygirl.html
+URL:https://www.stubnitz.com/events/2027/feb/16-mercygirl.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hafenklang-20270304-traitrs-can-ruebi@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T200000
+DTEND;TZID=Europe/Berlin:20270304T220000
+SUMMARY:TRAITRS (CAN) + Ruebi
+LOCATION:Hafenklang\, Große Elbstraße 84\, 22767 Hamburg
+DESCRIPTION:Dark Wave\, Goth\, Post Punk. Im großen Saal (Hafenklang).\n20
+ :00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt 35 €\, VVK 27 €\nTickets: https://w
+ ww.tixforgigs.com/Event/76202\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.hafenklang.com/programm/
+URL:https://www.hafenklang.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

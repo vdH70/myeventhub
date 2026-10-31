@@ -1,0 +1,226 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Bergisch Gladbach · my Event Hub (Erinnerung 1 Tag 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:gl-lvr-papiermuehle-alte-dombach-20260419-papier-handgeschoepftes-von-j
+ ohn-gerard-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: PAPIER! Handgeschöpftes von John Gerard
+LOCATION:LVR-Industriemuseum Papiermühle Alte Dombach\, Alte Dombach\, 514
+ 65 Bergisch Gladbach
+DESCRIPTION:Sonderausstellung mit handgeschöpften Papierarbeiten von John 
+ Gerard.\nLaufzeit: 19.4.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.lvr.de/industriemuseum/papiermuehle-alte-dombach/
+URL:https://www.lvr.de/industriemuseum/papiermuehle-alte-dombach/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gl-kunstmuseum-villa-zanders-20260531-james-ensors-fantastische-welten-
+ ende@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: James Ensors fantastische Welten
+LOCATION:Kunstmuseum Villa Zanders\, Konrad-Adenauer-Platz 8\, 51465 Bergis
+ ch Gladbach
+DESCRIPTION:Laufzeit: 31.5.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://villa-zanders.de/ausstellungen/james-ensors-fantastisc
+ he-welten/
+URL:https://villa-zanders.de/ausstellungen/james-ensors-fantastische-welten
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gl-schulmuseum-20260710-was-sich-angesammelt-hat-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Was sich angesammelt hat…
+LOCATION:Schulmuseum Bergisch Gladbach – Sammlung Cüppers\, Kempener Str
+ aße 187 A\, 51467 Bergisch Gladbach
+DESCRIPTION:Sonderausstellung im Schulmuseum.\nLaufzeit: 10.7.2026 bis 7.2.
+ 2027\nQuelle (bitte vor dem Besuch prüfen): https://www.das-schulmuseum.d
+ e/
+URL:https://www.das-schulmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gl-kunstmuseum-villa-zanders-20260711-am-rande-des-vulkans-ende@myevent
+ hub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: Am Rande des Vulkans
+LOCATION:Kunstmuseum Villa Zanders\, Konrad-Adenauer-Platz 8\, 51465 Bergis
+ ch Gladbach
+DESCRIPTION:Laufzeit: 11.7.2026 bis 31.10.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://villa-zanders.de/ausstellungen/am-rande-des-vulkans/
+URL:https://villa-zanders.de/ausstellungen/am-rande-des-vulkans/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gl-kunstmuseum-villa-zanders-20261031-finissage-am-rande-des-vulkans-mi
+ t-kuratorenfuehru@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T113000
+DTEND;TZID=Europe/Berlin:20261031T133000
+SUMMARY:Finissage „Am Rande des Vulkans“ mit Kuratorenführung
+LOCATION:Kunstmuseum Villa Zanders\, Konrad-Adenauer-Platz 8\, 51465 Bergis
+ ch Gladbach
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://villa-zanders.de/besuch/kalender/oktober-26/
+URL:https://villa-zanders.de/besuch/kalender/oktober-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gl-kunstmuseum-villa-zanders-20261105-ladies-night@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T183000
+DTEND;TZID=Europe/Berlin:20261105T203000
+SUMMARY:Ladies' Night
+LOCATION:Kunstmuseum Villa Zanders\, Konrad-Adenauer-Platz 8\, 51465 Bergis
+ ch Gladbach
+DESCRIPTION:Anmeldung erforderlich.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://villa-zanders.de/besuch/kalend
+ er/november-26/
+URL:https://villa-zanders.de/besuch/kalender/november-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gl-kunstmuseum-villa-zanders-20261111-kunstgenuss-kunst-kaffee-und-kuch
+ en@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T150000
+DTEND;TZID=Europe/Berlin:20261111T170000
+SUMMARY:Kunstgenuss – Kunst\, Kaffee und Kuchen
+LOCATION:Kunstmuseum Villa Zanders\, Konrad-Adenauer-Platz 8\, 51465 Bergis
+ ch Gladbach
+DESCRIPTION:Anmeldung erforderlich.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://villa-zanders.de/besuch/kalend
+ er/november-26/
+URL:https://villa-zanders.de/besuch/kalender/november-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gl-kunstmuseum-villa-zanders-20261112-kuratorinnenfuehrung@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T180000
+DTEND;TZID=Europe/Berlin:20261112T200000
+SUMMARY:Kuratorinnenführung
+LOCATION:Kunstmuseum Villa Zanders\, Konrad-Adenauer-Platz 8\, 51465 Bergis
+ ch Gladbach
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://villa-zanders.de/besuch/kalender/november-26/
+URL:https://villa-zanders.de/besuch/kalender/november-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gl-kunstmuseum-villa-zanders-20261125-kunstgenuss-kunst-kaffee-und-kuch
+ en@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T150000
+DTEND;TZID=Europe/Berlin:20261125T170000
+SUMMARY:Kunstgenuss – Kunst\, Kaffee und Kuchen
+LOCATION:Kunstmuseum Villa Zanders\, Konrad-Adenauer-Platz 8\, 51465 Bergis
+ ch Gladbach
+DESCRIPTION:Anmeldung erforderlich.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://villa-zanders.de/besuch/kalend
+ er/november-26/
+URL:https://villa-zanders.de/besuch/kalender/november-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gl-kunstmuseum-villa-zanders-20261129-eroeffnung-der-ausstellung-lichtg
+ estalten-for-m@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T113000
+DTEND;TZID=Europe/Berlin:20261129T133000
+SUMMARY:Eröffnung der Ausstellung Lichtgestalten – FOR M
+LOCATION:Kunstmuseum Villa Zanders\, Konrad-Adenauer-Platz 8\, 51465 Bergis
+ ch Gladbach
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://villa-zanders.de/besuch/kalender/november-26/
+URL:https://villa-zanders.de/besuch/kalender/november-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

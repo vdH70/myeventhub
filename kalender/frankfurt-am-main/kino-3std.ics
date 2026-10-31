@@ -1,0 +1,357 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Frankfurt am Main · my Event Hub (Erinnerung 3 Stunde
+ n vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f-eldorado-20261031-bibi-blocksberg-die-total-verhexte-zeitreise-1345@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T134500
+DTEND;TZID=Europe/Berlin:20261031T154500
+SUMMARY:Bibi Blocksberg - Die total verhexte Zeitreise
+LOCATION:Eldorado (Arthouse Kinos Frankfurt)\, Schäfergasse 29\, 60313 Fra
+ nkfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-harmonie-20261031-biermann-1830@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T183000
+DTEND;TZID=Europe/Berlin:20261031T203000
+SUMMARY:Biermann
+LOCATION:Harmonie (Arthouse Kinos Frankfurt)\, Dreieichstraße 54\, 60594 F
+ rankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-cinema-20261101-adams-acht-1030@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T103000
+DTEND;TZID=Europe/Berlin:20261101T123000
+SUMMARY:Adams Acht
+LOCATION:Cinéma (Arthouse Kinos Frankfurt)\, Roßmarkt 7\, 60311 Frankfurt
+  am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-harmonie-20261101-bad-apples-1315@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T131500
+DTEND;TZID=Europe/Berlin:20261101T151500
+SUMMARY:Bad Apples
+LOCATION:Harmonie (Arthouse Kinos Frankfurt)\, Dreieichstraße 54\, 60594 F
+ rankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-harmonie-20261101-die-blutgraefin-2045@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T204500
+DTEND;TZID=Europe/Berlin:20261101T224500
+SUMMARY:Die Blutgräfin
+LOCATION:Harmonie (Arthouse Kinos Frankfurt)\, Dreieichstraße 54\, 60594 F
+ rankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-cinema-20261102-chopin-eine-sonate-in-paris-1300@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T130000
+DTEND;TZID=Europe/Berlin:20261102T150000
+SUMMARY:Chopin - Eine Sonate in Paris
+LOCATION:Cinéma (Arthouse Kinos Frankfurt)\, Roßmarkt 7\, 60311 Frankfurt
+  am Main
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-cinema-20261102-alte-liebe-1400@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T140000
+DTEND;TZID=Europe/Berlin:20261102T160000
+SUMMARY:Alte Liebe
+LOCATION:Cinéma (Arthouse Kinos Frankfurt)\, Roßmarkt 7\, 60311 Frankfurt
+  am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-eldorado-20261102-digger-1800@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T180000
+DTEND;TZID=Europe/Berlin:20261102T200000
+SUMMARY:Digger
+LOCATION:Eldorado (Arthouse Kinos Frankfurt)\, Schäfergasse 29\, 60313 Fra
+ nkfurt am Main
+DESCRIPTION:OV\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-cinema-20261103-biermann-1315@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T131500
+DTEND;TZID=Europe/Berlin:20261103T151500
+SUMMARY:Biermann
+LOCATION:Cinéma (Arthouse Kinos Frankfurt)\, Roßmarkt 7\, 60311 Frankfurt
+  am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-harmonie-20261103-die-andere-seite-1400@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T140000
+DTEND;TZID=Europe/Berlin:20261103T160000
+SUMMARY:Die Andere Seite
+LOCATION:Harmonie (Arthouse Kinos Frankfurt)\, Dreieichstraße 54\, 60594 F
+ rankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-cinema-20261103-beat-street@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T180000
+DTEND;TZID=Europe/Berlin:20261103T200000
+SUMMARY:Beat Street
+LOCATION:Cinéma (Arthouse Kinos Frankfurt)\, Roßmarkt 7\, 60311 Frankfurt
+  am Main
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-harmonie-20261104-corpus-delicti-1415@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T141500
+DTEND;TZID=Europe/Berlin:20261104T161500
+SUMMARY:Corpus Delicti
+LOCATION:Harmonie (Arthouse Kinos Frankfurt)\, Dreieichstraße 54\, 60594 F
+ rankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-eldorado-20261104-der-perfekte-urlaub-1530@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T153000
+DTEND;TZID=Europe/Berlin:20261104T173000
+SUMMARY:Der perfekte Urlaub
+LOCATION:Eldorado (Arthouse Kinos Frankfurt)\, Schäfergasse 29\, 60313 Fra
+ nkfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-harmonie-20261104-creepy-classics-sneak-vol-10-2100@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T210000
+DTEND;TZID=Europe/Berlin:20261104T230000
+SUMMARY:Creepy Classics Sneak - Vol.10
+LOCATION:Harmonie (Arthouse Kinos Frankfurt)\, Dreieichstraße 54\, 60594 F
+ rankfurt am Main
+DESCRIPTION:Sneak\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-cinema-20261108-der-mit-dem-wolf-tanzt-1000@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T100000
+DTEND;TZID=Europe/Berlin:20261108T120000
+SUMMARY:Der mit dem Wolf tanzt
+LOCATION:Cinéma (Arthouse Kinos Frankfurt)\, Roßmarkt 7\, 60311 Frankfurt
+  am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-cinema-20261108-die-patriotin-2000@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T200000
+DTEND;TZID=Europe/Berlin:20261108T220000
+SUMMARY:Die Patriotin
+LOCATION:Cinéma (Arthouse Kinos Frankfurt)\, Roßmarkt 7\, 60311 Frankfurt
+  am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-cinema-20261110-diskursion-staatsschutz-1730@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T173000
+DTEND;TZID=Europe/Berlin:20261110T193000
+SUMMARY:Diskursion: Staatsschutz
+LOCATION:Cinéma (Arthouse Kinos Frankfurt)\, Roßmarkt 7\, 60311 Frankfurt
+  am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-harmonie-20261111-11-11-2026-spotlight-die-arthouse-sneak-2100@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T210000
+DTEND;TZID=Europe/Berlin:20261111T230000
+SUMMARY:11.11.2026 Spotlight - Die Arthouse-Sneak
+LOCATION:Harmonie (Arthouse Kinos Frankfurt)\, Dreieichstraße 54\, 60594 F
+ rankfurt am Main
+DESCRIPTION:Sneak\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.arthouse-kinos.de/programm-tickets/
+URL:https://www.arthouse-kinos.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

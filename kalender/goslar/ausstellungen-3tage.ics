@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Goslar · my Event Hub (Erinnerung 3 Tage vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gs-zinnfiguren-museum-20250928-peruecken-pomp-und-pulverdampf-die-baroc
+ k-ausstell-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: „Perücken\, Pomp und Pulverdampf“ – Die Barock-
+ Ausstellung
+LOCATION:Zinnfiguren-Museum Goslar\, Am Museumsufer 1\, 38640 Goslar
+DESCRIPTION:Laufzeit: 28.9.2025 bis 28.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.zinnfigurenmuseum-goslar.de/aktive-ausstellungen
+URL:https://www.zinnfigurenmuseum-goslar.de/aktive-ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

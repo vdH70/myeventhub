@@ -1,0 +1,194 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Gothic in Hamburg · my Event Hub (Erinnerung 3 Stunden vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-logo-20261105-die-kammer@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:DIE KAMMER
+LOCATION:Logo\, Grindelallee 5\, 20146 Hamburg
+DESCRIPTION:Acoustic Gothic\, mit Benni Cellini (Letzte Instanz).\n20:00 Uh
+ r (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.logohambur
+ g.de/programm/
+URL:https://www.logohamburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-logo-20261120-unzucht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:UNZUCHT
+LOCATION:Logo\, Grindelallee 5\, 20146 Hamburg
+DESCRIPTION:Gothic Rock\, mit The Last Decade.\n20:00 Uhr (die Quelle sagt 
+ nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.logohamburg.de/programm/
+URL:https://www.logohamburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-logo-20261214-lord-of-the-lost-lordfest-band-rehearsals-day-1@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T130000
+DTEND;TZID=Europe/Berlin:20261214T150000
+SUMMARY:LORD OF THE LOST – LORDFEST BAND REHEARSALS DAY 1
+LOCATION:Logo\, Grindelallee 5\, 20146 Hamburg
+DESCRIPTION:Öffentliche Bandprobe vor dem Lordfest (Genre laut Club: Gothi
+ c\, Rock)\; Smartphone-Nutzung sowie Foto-\, Film- und Tonaufnahmen verbot
+ en.\nEinlass 12:30\, Beginn 13:00 Uhr\nEnde: laut Quelle nicht angegeben\n
+ Preis: 49.50€ zzgl. Gebühren\nTickets: https://lordofthelost.hamburgrec
+ ords.com/lordfest-band-rehearsals-day-1-14-12-2026-ticket.html\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.logohamburg.de/event/lord-of-the-
+ lost_111585863/
+URL:https://www.logohamburg.de/event/lord-of-the-lost_111585863/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-logo-20261215-lord-of-the-lost-lordfest-band-rehearsals-day-2@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T130000
+DTEND;TZID=Europe/Berlin:20261215T150000
+SUMMARY:LORD OF THE LOST – LORDFEST BAND REHEARSALS DAY 2
+LOCATION:Logo\, Grindelallee 5\, 20146 Hamburg
+DESCRIPTION:Öffentliche Bandprobe vor dem Lordfest (Genre laut Club: Gothi
+ c Rock)\; Smartphone-Nutzung sowie Foto-\, Film- und Tonaufnahmen verboten
+ .\nEinlass 12:30\, Beginn 13:00 Uhr\nEnde: laut Quelle nicht angegeben\nPr
+ eis: 49.50€ zzgl. Gebühren\nTickets: https://lordofthelost.hamburgrecor
+ ds.com/lordfest-band-rehear-als-day-2-15-12-2026-ticket.html\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.logohamburg.de/event/lord-of-the-lo
+ st_111585880/
+URL:https://www.logohamburg.de/event/lord-of-the-lost_111585880/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-ms-stubnitz-20261231-timeshift@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T220000
+DTEND;TZID=Europe/Berlin:20270101T000000
+SUMMARY:TIMEshift
+LOCATION:MS Stubnitz\, Kirchenpauerkai 29\, 20457 Hamburg
+DESCRIPTION:Silvesterparty von Living Dead auf drei Floors: Dark Electronix
+ \, SynthiePop\, EBM\, Industrial / Alternative\, Metal\, Industrial-Rock /
+  Goth & Wave\, Postpunk\, Minimal\, 80ies. Keine Abendkasse.\nEinlass 22:0
+ 0 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 24\,00 EUR + VVK-Gebühre
+ n (nur Vorverkauf)\nTickets: https://www.deinetickets.de/shop/ldpshop/de/s
+ tart/?g=31&i=53593\nQuelle (bitte vor dem Besuch prüfen): https://www.stu
+ bnitz.com/events/2026/dec/31-timeshift.html
+URL:https://www.stubnitz.com/events/2026/dec/31-timeshift.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hafenklang-20270205-ductrape-turkey@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T200000
+DTEND;TZID=Europe/Berlin:20270205T220000
+SUMMARY:Ductrape (Turkey)
+LOCATION:Hafenklang\, Große Elbstraße 84\, 22767 Hamburg
+DESCRIPTION:Dark Wave\, Goth\, Post Punk. Im großen Saal (Hafenklang).\n20
+ :00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt 35 €\, VVK 29 €\nTickets: https://w
+ ww.tixforgigs.com/Event/77062\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.hafenklang.com/programm/
+URL:https://www.hafenklang.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hafenklang-20270304-traitrs-can-ruebi@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T200000
+DTEND;TZID=Europe/Berlin:20270304T220000
+SUMMARY:TRAITRS (CAN) + Ruebi
+LOCATION:Hafenklang\, Große Elbstraße 84\, 22767 Hamburg
+DESCRIPTION:Dark Wave\, Goth\, Post Punk. Im großen Saal (Hafenklang).\n20
+ :00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt 35 €\, VVK 27 €\nTickets: https://w
+ ww.tixforgigs.com/Event/76202\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.hafenklang.com/programm/
+URL:https://www.hafenklang.com/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-logo-20270312-l-ame-immortelle@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:L'ÂME IMMORTELLE
+LOCATION:Logo\, Grindelallee 5\, 20146 Hamburg
+DESCRIPTION:Gothic.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.logohamburg.de/programm/
+URL:https://www.logohamburg.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

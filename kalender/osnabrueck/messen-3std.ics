@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Messen in Osnabrück · my Event Hub (Erinnerung 3 Stunden vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20270116-verliebt-verlobt-verheiratet-beginn@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Beginn: verliebt\, verlobt\, verheiratet – Die Hochzeitsmesse
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Hochzeitsmesse in der OsnabrückHalle\, Sa und So 11–17 Uhr.\
+ nLaufzeit: 16.1.2027 bis 17.1.2027\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hochzeitsmesse-osnabrueck.de/
+URL:https://www.hochzeitsmesse-osnabrueck.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20270116-verliebt-verlobt-verheiratet-ende@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: verliebt\, verlobt\, verheiratet – Die Hochzeitsmess
+ e
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Hochzeitsmesse in der OsnabrückHalle\, Sa und So 11–17 Uhr.\
+ nLaufzeit: 16.1.2027 bis 17.1.2027\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.hochzeitsmesse-osnabrueck.de/
+URL:https://www.hochzeitsmesse-osnabrueck.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-halle-gartlage-20270206-wolle-festival-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Beginn: Wolle Festival Osnabrück
+LOCATION:Halle Gartlage\, Schlachthofstraße 48\, 49074 Osnabrück
+DESCRIPTION:Messe rund um Wolle und Handarbeit\; Sa 10–17 Uhr\, So 10–1
+ 6 Uhr\; Kinder unter 14 frei.\nLaufzeit: 6.2.2027 bis 7.2.2027\nPreis: 1-T
+ ages-Ticket ab 8\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://w
+ olle-festival.de/events
+URL:https://wolle-festival.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-halle-gartlage-20270206-wolle-festival-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Wolle Festival Osnabrück
+LOCATION:Halle Gartlage\, Schlachthofstraße 48\, 49074 Osnabrück
+DESCRIPTION:Messe rund um Wolle und Handarbeit\; Sa 10–17 Uhr\, So 10–1
+ 6 Uhr\; Kinder unter 14 frei.\nLaufzeit: 6.2.2027 bis 7.2.2027\nPreis: 1-T
+ ages-Ticket ab 8\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://w
+ olle-festival.de/events
+URL:https://wolle-festival.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-halle-gartlage-20270228-fahrradmesse@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T100000
+DTEND;TZID=Europe/Berlin:20270228T120000
+SUMMARY:14. Osnabrücker Fahrradmesse
+LOCATION:Halle Gartlage\, Schlachthofstraße 48\, 49074 Osnabrück
+DESCRIPTION:Über 50 Aussteller mit Fahrrädern\, E-Bikes\, Radreisen und B
+ eratung in Halle und Freigelände\, 10–17 Uhr.\nEnde: laut Quelle nicht 
+ angegeben\nPreis: Eintritt kostenlos\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.mevelo.de/osnabruecker-fahrradmesse-allgemein/osnabruecker-
+ fahrradmesse-besucher/
+URL:https://www.mevelo.de/osnabruecker-fahrradmesse-allgemein/osnabruecker-
+ fahrradmesse-besucher/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-halle-gartlage-20270306-osna-oldies-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:Beginn: 13. OSNA-Oldies
+LOCATION:Halle Gartlage\, Schlachthofstraße 48\, 49074 Osnabrück
+DESCRIPTION:Oldtimer-Messe und Teilemarkt\, Motto „Junge Menschen und alt
+ e Karren“\; Sa und So jeweils 10–18 Uhr.\nLaufzeit: 6.3.2027 bis 7.3.2
+ 027\nQuelle (bitte vor dem Besuch prüfen): https://www.osna-oldies.de/con
+ tent/news
+URL:https://www.osna-oldies.de/content/news
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-halle-gartlage-20270306-osna-oldies-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Letzter Tag: 13. OSNA-Oldies
+LOCATION:Halle Gartlage\, Schlachthofstraße 48\, 49074 Osnabrück
+DESCRIPTION:Oldtimer-Messe und Teilemarkt\, Motto „Junge Menschen und alt
+ e Karren“\; Sa und So jeweils 10–18 Uhr.\nLaufzeit: 6.3.2027 bis 7.3.2
+ 027\nQuelle (bitte vor dem Besuch prüfen): https://www.osna-oldies.de/con
+ tent/news
+URL:https://www.osna-oldies.de/content/news
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20270319-arte-kunstmesse-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Beginn: ARTe Kunstmesse Osnabrück
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Kunstmesse mit rund 60 Künstlerinnen und Künstlern\; Fr 17–
+ 21 Uhr (Eröffnung bis 18 Uhr frei)\, Sa und So 10–18 Uhr\; Kinder unter
+  16 frei.\nLaufzeit: 19.3.2027 bis 21.3.2027\nPreis: Tageskarte 15 € (er
+ mäßigt 12 €)\nQuelle (bitte vor dem Besuch prüfen): https://arte-kuns
+ tmessen.de/veranstaltung/arte-kunstmesse-osnabrueck-2027/
+URL:https://arte-kunstmessen.de/veranstaltung/arte-kunstmesse-osnabrueck-20
+ 27/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-osnabrueckhalle-20270319-arte-kunstmesse-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Letzter Tag: ARTe Kunstmesse Osnabrück
+LOCATION:OsnabrückHalle\, Schlosswall 1-9\, 49074 Osnabrück
+DESCRIPTION:Kunstmesse mit rund 60 Künstlerinnen und Künstlern\; Fr 17–
+ 21 Uhr (Eröffnung bis 18 Uhr frei)\, Sa und So 10–18 Uhr\; Kinder unter
+  16 frei.\nLaufzeit: 19.3.2027 bis 21.3.2027\nPreis: Tageskarte 15 € (er
+ mäßigt 12 €)\nQuelle (bitte vor dem Besuch prüfen): https://arte-kuns
+ tmessen.de/veranstaltung/arte-kunstmesse-osnabrueck-2027/
+URL:https://arte-kunstmessen.de/veranstaltung/arte-kunstmesse-osnabrueck-20
+ 27/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Flohmärkte in Hannover · my Event Hub (Erinnerung 3 Stunden 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:h-kaufland-bornum-20261108-flohmarkt-am-kaufland-bornum@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Flohmarkt am Kaufland Bornum
+LOCATION:Kaufland Bornum (Parkplatz)\, Bornumer Straße 141\, 30453 Hannove
+ r
+DESCRIPTION:Flohmarkt von Bassi Flohmärkte\; Platzvergabe für Verkäufer 
+ ab 6 Uhr.\nQuelle (bitte vor dem Besuch prüfen): https://www.bassi-flohma
+ erkte.de/termine/
+URL:https://www.bassi-flohmaerkte.de/termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

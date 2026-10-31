@@ -1,0 +1,370 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Frankfurt (Oder) · my Event Hub (Erinnerung 3
+  Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ff-blmk-rathaushalle-20260927-sprint-gleichschritt-dauerlauf-bilder-vom
+ -sport-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Sprint Gleichschritt Dauerlauf – Bilder vom Sport
+LOCATION:BLMK Rathaushalle Frankfurt (Oder)\, Marktplatz 1\, 15230 Frankfur
+ t (Oder)
+DESCRIPTION:Laufzeit: 27.9.2026 bis 22.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.blmk.de/programm/bilder-vom-sport/
+URL:https://www.blmk.de/programm/bilder-vom-sport/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261101-im-schein-der-kerzen@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Im Schein der Kerzen
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Familienveranstaltung zum Mitmachen\; Anmeldung beim Museum nö
+ tig.\nEnde: laut Quelle nicht angegeben\nPreis: Teilnahmegebühr: 5 € pr
+ o Person\, inkl. Materialien\, Spenden willkommen\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.kleist-museum.de/termine/2026/11/seite-1
+URL:https://www.kleist-museum.de/termine/2026/11/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261103-zum-100-geburtstag-von-guenter-de-bruyn@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T180000
+DTEND;TZID=Europe/Berlin:20261103T200000
+SUMMARY:Zum 100. Geburtstag von Günter de Bruyn
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Lesung und Gespräch zum 100. Geburtstag des Schriftstellers G
+ ünter de Bruyn.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt: 6 
+ €\, erm. 4 €\nQuelle (bitte vor dem Besuch prüfen): https://www.kleis
+ t-museum.de/termine/2026/11/seite-1
+URL:https://www.kleist-museum.de/termine/2026/11/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261108-glueck-im-hinterhaus-ddr-defa-1979@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Glück im Hinterhaus (DDR\, DEFA 1979)
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Vorführung des DEFA-Films von Herrmann Zschoche nach Günter d
+ e Bruyns Roman „Buridans Esel“.\nEnde: laut Quelle nicht angegeben\nPr
+ eis: Eintritt: 12 €\, erm. 9 € (inkl. Kaffee und Croissant)\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.kleist-museum.de/termine/2026/11
+ /seite-1
+URL:https://www.kleist-museum.de/termine/2026/11/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261110-7sachen-des-brandenburgischen-wirtschaftsmini
+ steri@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:7SACHEN des brandenburgischen Wirtschaftsministeriums
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Gastveranstaltung: Kreative aus Brandenburg stellen ihre Arbeit
+  vor\; Uhrzeit auf der Seite 19 bzw. 18 Uhr.\nPreis: Eintritt frei!\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.kleist-museum.de/termine/202
+ 6/11/seite-1
+URL:https://www.kleist-museum.de/termine/2026/11/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261115-oeffentliche-fuehrung-am-museumssonntag@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Öffentliche Führung am Museumssonntag
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Öffentliche Führung durch die Dauerausstellung.\nEnde: laut Q
+ uelle nicht angegeben\nPreis: Führungsgebühr: 2 € (Museumseintritt ent
+ fällt am Museumssonntag)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kleist-museum.de/termine
+URL:https://www.kleist-museum.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261117-nacht-der-poesie-die-oderlandautorinnen@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T180000
+DTEND;TZID=Europe/Berlin:20261117T200000
+SUMMARY:Nacht der Poesie – Die OderlandautorInnen
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Lesung und Gespräch der OderlandautorInnen mit musikalischer B
+ egleitung.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt: 5 €\, er
+ m. 3 €\nQuelle (bitte vor dem Besuch prüfen): https://www.kleist-museum
+ .de/termine/2026/11/seite-1
+URL:https://www.kleist-museum.de/termine/2026/11/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261124-frankfurt-premiere-daniel-chodowiecki@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T170000
+DTEND;TZID=Europe/Berlin:20261124T190000
+SUMMARY:Frankfurt-Premiere: Daniel Chodowiecki
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Buchvorstellung mit Lesung und Gespräch über den Künstler Da
+ niel Chodowiecki.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt: 6 
+ €\, erm. 4 €\nQuelle (bitte vor dem Besuch prüfen): https://www.kleis
+ t-museum.de/termine/2026/11/seite-1
+URL:https://www.kleist-museum.de/termine/2026/11/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261201-tolles-buch-die-buchempfehlungsshow-mit-tina-
+ kemni@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T090000
+DTEND;TZID=Europe/Berlin:20261201T110000
+SUMMARY:Tolles Buch! – Die Buchempfehlungsshow mit Tina Kemnitz
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Buchempfehlungsshow für Familien\, laut Seite um 9 und 10.30 U
+ hr\; bereits ausverkauft.\nEnde: laut Quelle nicht angegeben\nPreis: Eintr
+ itt: 5 €\nQuelle (bitte vor dem Besuch prüfen): https://www.kleist-muse
+ um.de/termine/2026/12/seite-1
+URL:https://www.kleist-museum.de/termine/2026/12/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261205-weihnachtssingen-mit-dem-frauenkammerchor@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T170000
+DTEND;TZID=Europe/Berlin:20261205T190000
+SUMMARY:Weihnachtssingen mit dem Frauenkammerchor
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Weihnachtliches Chorkonzert mit Klavierbegleitung.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: Eintritt: 12 €\, erm 10 € (gilt auch f
+ ür Senior*innen)\nQuelle (bitte vor dem Besuch prüfen): https://www.klei
+ st-museum.de/termine/2026/12/seite-1
+URL:https://www.kleist-museum.de/termine/2026/12/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261206-funkelnder-weihnachtszauber@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T140000
+DTEND;TZID=Europe/Berlin:20261206T160000
+SUMMARY:Funkelnder Weihnachtszauber
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Weihnachtliche Familienveranstaltung zum Mitmachen\; Anmeldung 
+ beim Museum nötig.\nEnde: laut Quelle nicht angegeben\nPreis: Teilnahmege
+ bühr: 5 € pro Person\, inkl. Materialien\, Spenden willkommen\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.kleist-museum.de/termine/2026/1
+ 2/seite-1
+URL:https://www.kleist-museum.de/termine/2026/12/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261206-musik-und-wort-zur-weihnachtszeit@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T160000
+DTEND;TZID=Europe/Berlin:20261206T180000
+SUMMARY:Musik und Wort zur Weihnachtszeit
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Weihnachtskonzert eines Streichquartetts mit Lesung.\nEnde: lau
+ t Quelle nicht angegeben\nPreis: Eintritt: 12 €\, erm. 10 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.kleist-museum.de/termine/2026/12
+ /seite-1
+URL:https://www.kleist-museum.de/termine/2026/12/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261209-lebendiger-adventskalender-historische-spiele
+ -um-1@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T150000
+DTEND;TZID=Europe/Berlin:20261209T170000
+SUMMARY:Lebendiger Adventskalender: Historische Spiele um 1800
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Familienveranstaltung mit historischen Spielen aus der Zeit um 
+ 1800.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei!\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.kleist-museum.de/termine/2026/12
+ /seite-1
+URL:https://www.kleist-museum.de/termine/2026/12/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261211-der-letzte-tag-verabschiedung-der-dauerausste
+ llung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T100000
+DTEND;TZID=Europe/Berlin:20261211T120000
+SUMMARY:Der letzte Tag: Verabschiedung der Dauerausstellung
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Letzte Führungen durch die Dauerausstellung vor ihrer Schließ
+ ung.\nTermine laut Veranstalter: Führungen um 10\, 12 und 14 Uhr\nPreis: 
+ Eintritt frei!\nQuelle (bitte vor dem Besuch prüfen): https://www.kleist-
+ museum.de/termine/2026/12/seite-1
+URL:https://www.kleist-museum.de/termine/2026/12/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261211-dmitrij-kapitelman-russische-spezialitaeten@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T180000
+DTEND;TZID=Europe/Berlin:20261211T200000
+SUMMARY:Dmitrij Kapitelman: „Russische Spezialitäten“
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Gastveranstaltung von Bewegung\, Brandenburg! e. V. mit Lesung 
+ und Gespräch\; Anmeldung erbeten.\nEnde: laut Quelle nicht angegeben\nPre
+ is: Eintritt frei!\nQuelle (bitte vor dem Besuch prüfen): https://www.kle
+ ist-museum.de/termine/2026/12/seite-1
+URL:https://www.kleist-museum.de/termine/2026/12/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261212-abschiedsvorstellung-verabschiedung-der-dauer
+ ausst@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T150000
+DTEND;TZID=Europe/Berlin:20261212T170000
+SUMMARY:Abschiedsvorstellung: Verabschiedung der Dauerausstellung
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Führung mit Aktionen zum Abschied der Dauerausstellung\; Anmel
+ dung bis 15. November\, ggf. Losverfahren.\nEnde: laut Quelle nicht angege
+ ben\nPreis: Eintritt frei!\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.kleist-museum.de/termine/2026/12/seite-1
+URL:https://www.kleist-museum.de/termine/2026/12/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff-kleist-museum-20261213-versteigerung-verabschiedung-der-dauerausstel
+ lung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Versteigerung: Verabschiedung der Dauerausstellung
+LOCATION:Kleist-Museum\, Faberstraße 6–7\, 15230 Frankfurt (Oder)
+DESCRIPTION:Versteigerung zum Abschied der Dauerausstellung\; Gebote laut S
+ eite bis 12. Dezember\, 18 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis:
+  Eintritt frei!\nQuelle (bitte vor dem Besuch prüfen): https://www.kleist
+ -museum.de/termine/2026/12/seite-1
+URL:https://www.kleist-museum.de/termine/2026/12/seite-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

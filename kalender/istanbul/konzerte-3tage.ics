@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Istanbul · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ist-babylon-20261127-burhan-oecal-the-trakya-all-stars@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART:20261127T213000
+DTEND:20261127T233000
+SUMMARY:Burhan Öçal & The Trakya All Stars
+LOCATION:Babylon\, Bomontiada\, Merkez Mah. Silahşör Cad. Birahane Sk. No
+ :1\, 34384 Istanbul
+DESCRIPTION:Einlass 20:30\, Beginn 21:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.babylon.com.tr/tr
+ /etkinlik-detay/27-kasim-2026/burhan-ocal-the-trakya-all-stars
+URL:https://www.babylon.com.tr/tr/etkinlik-detay/27-kasim-2026/burhan-ocal-
+ the-trakya-all-stars
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ist-babylon-20261203-cenk-erdogan-antonio-forcione@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART:20261203T210000
+DTEND:20261203T230000
+SUMMARY:Cenk Erdoğan & Antonio Forcione
+LOCATION:Babylon\, Bomontiada\, Merkez Mah. Silahşör Cad. Birahane Sk. No
+ :1\, 34384 Istanbul
+DESCRIPTION:Einlass 20:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.babylon.com.tr/tr
+ /etkinlik-detay/3-aralik-2026/cenk-erdogan-antonio-forcione
+URL:https://www.babylon.com.tr/tr/etkinlik-detay/3-aralik-2026/cenk-erdogan
+ -antonio-forcione
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,164 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Sindelfingen · my Event Hub (Erinnerung 1 Tag 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bb-stadtbibliothek-sindelfingen-20261104-vorlesen-und-basteln-to-go-ige
+ l-opa-und-ich@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T150000
+DTEND;TZID=Europe/Berlin:20261104T170000
+SUMMARY:Vorlesen und Basteln to go: Igel\, Opa und ich
+LOCATION:Stadtbibliothek Sindelfingen\, Rathausplatz 4\, 71063 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothe
+ k/veranstaltungen/veranstaltungskalender/1237/vorlesen-und-basteln-to-go-i
+ gel-opa-und-ich-martin-klein-und-tobias-krejtschi
+URL:https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothek/verans
+ taltungen/veranstaltungskalender/1237/vorlesen-und-basteln-to-go-igel-opa-
+ und-ich-martin-klein-und-tobias-krejtschi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadtbibliothek-sindelfingen-20261111-onilo-boardstory-die-kleine-he
+ xe-ausflug-mit-abrax@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Onilo-Boardstory: Die kleine Hexe. Ausflug mit Abraxas
+LOCATION:Stadtbibliothek Sindelfingen\, Rathausplatz 4\, 71063 Sindelfingen
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadtbibliot
+ hek-sindelfingen.de/ueber-die-bibliothek/veranstaltungen/veranstaltungskal
+ ender/1238/onilo-boardstory-die-kleine-hexe-ausflug-mit-abraxas-otfried-pr
+ eussler-und-daniel-napp
+URL:https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothek/verans
+ taltungen/veranstaltungskalender/1238/onilo-boardstory-die-kleine-hexe-aus
+ flug-mit-abraxas-otfried-preussler-und-daniel-napp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadtbibliothek-sindelfingen-20261118-bilderbuchkino-hilfe-in-diesem
+ -buch-steckt-ein-loe@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T150000
+DTEND;TZID=Europe/Berlin:20261118T170000
+SUMMARY:Bilderbuchkino: Hilfe\, in diesem Buch steckt ein Löwe!
+LOCATION:Stadtbibliothek Sindelfingen\, Rathausplatz 4\, 71063 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothe
+ k/veranstaltungen/veranstaltungskalender/1239/bilderbuchkino-hilfe-in-dies
+ em-buch-steckt-ein-loewe-brooke-hartman-und-anna-suessbauer
+URL:https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothek/verans
+ taltungen/veranstaltungskalender/1239/bilderbuchkino-hilfe-in-diesem-buch-
+ steckt-ein-loewe-brooke-hartman-und-anna-suessbauer
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadtbibliothek-sindelfingen-20261125-onilo-boardstory-fraeulein-hic
+ ks-und-die-kleine-pu@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T150000
+DTEND;TZID=Europe/Berlin:20261125T170000
+SUMMARY:Onilo-Boardstory: Fräulein Hicks und die kleine Pupswolke
+LOCATION:Stadtbibliothek Sindelfingen\, Rathausplatz 4\, 71063 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothe
+ k/veranstaltungen/veranstaltungskalender/1240/onilo-boardstory-fraeulein-h
+ icks-und-die-kleine-pupswolke-eva-dax-und-sabine-dully
+URL:https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothek/verans
+ taltungen/veranstaltungskalender/1240/onilo-boardstory-fraeulein-hicks-und
+ -die-kleine-pupswolke-eva-dax-und-sabine-dully
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadtbibliothek-sindelfingen-20261202-vorlesen-und-basteln-to-go-leo
+ nard-ein-traktor-ret@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T150000
+DTEND;TZID=Europe/Berlin:20261202T170000
+SUMMARY:Vorlesen und Basteln to go: Leonard – Ein Traktor rettet Weihnach
+ ten
+LOCATION:Stadtbibliothek Sindelfingen\, Rathausplatz 4\, 71063 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothe
+ k/veranstaltungen/veranstaltungskalender/1241/vorlesen-und-basteln-to-go-l
+ eonard-ein-traktor-rettet-weihnachten-suza-kolb-und-christine-faust
+URL:https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothek/verans
+ taltungen/veranstaltungskalender/1241/vorlesen-und-basteln-to-go-leonard-e
+ in-traktor-rettet-weihnachten-suza-kolb-und-christine-faust
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bb-stadtbibliothek-sindelfingen-20261209-onilo-boardstory-die-kleine-he
+ xe-feiert-weihnachte@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T150000
+DTEND;TZID=Europe/Berlin:20261209T170000
+SUMMARY:Onilo-Boardstory: Die kleine Hexe feiert Weihnachten
+LOCATION:Stadtbibliothek Sindelfingen\, Rathausplatz 4\, 71063 Sindelfingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothe
+ k/veranstaltungen/veranstaltungskalender/1242/onilo-boardstory-die-kleine-
+ hexe-feiert-weihnachten-lieve-baeten
+URL:https://www.stadtbibliothek-sindelfingen.de/ueber-die-bibliothek/verans
+ taltungen/veranstaltungskalender/1242/onilo-boardstory-die-kleine-hexe-fei
+ ert-weihnachten-lieve-baeten
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

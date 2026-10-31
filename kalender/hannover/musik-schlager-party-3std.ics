@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager/Party in Hannover · my Event Hub (Erinnerung 3 Stund
+ en vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261113-jugendsuenden@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T223000
+DTEND;TZID=Europe/Berlin:20261114T003000
+SUMMARY:Jugendsünden
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Throwback-Party mit Hits von 1980 bis 2016.\nEinlass 22:30\, Be
+ ginn 22:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: Abendkasse bis 2
+ 3:30 Uhr mit Gutschein 3 €\, sonst 7 €\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.beichezheinz.de/programm/2026-11-13/6097
+URL:https://www.beichezheinz.de/programm/2026-11-13/6097
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261128-baddie-pretty-loud-unbothered@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T230000
+DTEND;TZID=Europe/Berlin:20261129T010000
+SUMMARY:BADDIE – Pretty. Loud. Unbothered.
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Pop\, Hyperpop und Club-Sounds.\nEinlass 23:00\, Beginn 23:00 U
+ hr\nEnde: laut Quelle nicht angegeben\nPreis: Abendkasse 7 €\, im Glitze
+ r- oder Leo-Look 5 €\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .beichezheinz.de/programm/2026-11-28/7044
+URL:https://www.beichezheinz.de/programm/2026-11-28/7044
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-bei-chez-heinz-20261211-jugendsuenden@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T223000
+DTEND;TZID=Europe/Berlin:20261212T003000
+SUMMARY:Jugendsünden
+LOCATION:Béi Chéz Heinz\, Liepmannstraße 7b\, 30453 Hannover
+DESCRIPTION:Throwback-Party mit Hits von 1980 bis 2016.\nEinlass 22:30\, Be
+ ginn 22:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: Abendkasse bis 2
+ 3:30 Uhr mit Gutschein 3 €\, sonst 7 €\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.beichezheinz.de/programm/2026-12-11/6098
+URL:https://www.beichezheinz.de/programm/2026-12-11/6098
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270227-die-schlagernacht-des-jahres-2027@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T180000
+DTEND;TZID=Europe/Berlin:20270227T200000
+SUMMARY:Die Schlagernacht des Jahres 2027
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 16:00\, Beginn 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/noapp/event/die-schlagernacht-des-ja
+ hres-das-original-zag-arena-21369813/?affiliate=AHG&utm_campaign=Arena+Han
+ nover&utm_source=AHG&utm_medium=dp\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.zag-arena-hannover.de/veranstaltung/die-schlagernacht-des-jah
+ res-2027/
+URL:https://www.zag-arena-hannover.de/veranstaltung/die-schlagernacht-des-j
+ ahres-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270403-roland-kaiser-unser-moment-arena-tour-2027@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270403T193000
+DTEND;TZID=Europe/Berlin:20270403T213000
+SUMMARY:Roland Kaiser – Unser Moment Arena Tour 2027
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.eventim
+ .de/noapp/event/roland-kaiser-unser-moment-arena-tour-2027-zag-arena-21558
+ 061/?affiliate=AHG&utm_campaign=Arena+Hannover+GmbH&utm_source=AHG&utm_med
+ ium=dp\nQuelle (bitte vor dem Besuch prüfen): https://www.zag-arena-hanno
+ ver.de/veranstaltung/roland-kaiser-6/
+URL:https://www.zag-arena-hannover.de/veranstaltung/roland-kaiser-6/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270404-roland-kaiser-unser-moment-arena-tour-2027-zusatzs
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T193000
+DTEND;TZID=Europe/Berlin:20270404T213000
+SUMMARY:Roland Kaiser – Unser Moment Arena Tour 2027 – Zusatzshow
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.eventim
+ .de/noapp/event/roland-kaiser-unser-moment-arena-tour-2027-zag-arena-21590
+ 953/?affiliate=AHG&utm_campaign=Arena+Hannover&utm_source=AHG&utm_medium=d
+ p\nQuelle (bitte vor dem Besuch prüfen): https://www.zag-arena-hannover.d
+ e/veranstaltung/roland-kaiser-5/
+URL:https://www.zag-arena-hannover.de/veranstaltung/roland-kaiser-5/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

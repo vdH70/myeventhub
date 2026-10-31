@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Eisenhüttenstadt · my Event Hub (Erinnerung 3 Stun
+ den vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:los-museum-utopie-und-alltag-20261024-spielt-mit-werke-der-spielmittelg
+ estalterin-ursula-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Spielt mit! Werke der Spielmittelgestalterin Ursula Wünsch
+LOCATION:Museum Utopie und Alltag\, Erich-Weinert-Allee 3\, 15890 Eisenhüt
+ tenstadt
+DESCRIPTION:Laufzeit: 24.10.2026 bis 6.6.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.utopieundalltag.de/ausstellungen/sonderausstellunge
+ n/spielt-mit-werke-der-spielmittelgestalterin-ursula-wuensch/
+URL:https://www.utopieundalltag.de/ausstellungen/sonderausstellungen/spielt
+ -mit-werke-der-spielmittelgestalterin-ursula-wuensch/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:los-museum-utopie-und-alltag-20261024-spielt-mit-werke-der-spielmittelg
+ estalterin-ursula-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:Letzter Tag: Spielt mit! Werke der Spielmittelgestalterin Ursula W
+ ünsch
+LOCATION:Museum Utopie und Alltag\, Erich-Weinert-Allee 3\, 15890 Eisenhüt
+ tenstadt
+DESCRIPTION:Laufzeit: 24.10.2026 bis 6.6.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.utopieundalltag.de/ausstellungen/sonderausstellunge
+ n/spielt-mit-werke-der-spielmittelgestalterin-ursula-wuensch/
+URL:https://www.utopieundalltag.de/ausstellungen/sonderausstellungen/spielt
+ -mit-werke-der-spielmittelgestalterin-ursula-wuensch/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

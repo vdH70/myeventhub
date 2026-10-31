@@ -1,0 +1,482 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in München · my Event Hub (Erinnerung 3 Stunden v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-lenbachhaus-20261031-fuehrung-durch-die-ausstellung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T121500
+DTEND;TZID=Europe/Berlin:20261031T141500
+SUMMARY:Führung durch die Ausstellung
+LOCATION:Städtische Galerie im Lenbachhaus und Kunstbau\, Luisenstraße 33
+ \, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lenbachhaus.de/besuchen/kalender
+URL:https://www.lenbachhaus.de/besuchen/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-residenztheater-20261031-theaterfuhrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Theaterführung (ausverkauft)
+LOCATION:Residenztheater\, München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.residenztheater.de/spielplan
+URL:https://www.residenztheater.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261101-rundgang-muenchen-und-der-nationalsozialismus@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Rundgang: München und der Nationalsozialismus
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Termine laut Veranstalter: jeden Sonntag 11 und 14 Uhr\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261101-guided-tour-munich-and-national-socialism-englisch@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T130000
+DTEND;TZID=Europe/Berlin:20261101T150000
+SUMMARY:Guided Tour: Munich and National Socialism (englisch)
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Termine laut Veranstalter: jeden Sonntag 13 Uhr\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-villa-stuck-20261101-die-historischen-raeume-des-museums-villa-stuck@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Die Historischen Räume des Museums Villa Stuck
+LOCATION:Museum Villa Stuck\, Prinzregentenstraße 60\, 81675 München
+DESCRIPTION:Rundgang der MVHS.\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.villastuck.de/kalender/detail/d
+ ie-historischen-raeume-des-museums-villa-stuck-1316
+URL:https://www.villastuck.de/kalender/detail/die-historischen-raeume-des-m
+ useums-villa-stuck-1316
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-deutsches-theatermuseum-20261104-after-work-opening-und-fuehrung@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T170000
+DTEND;TZID=Europe/Berlin:20261104T190000
+SUMMARY:After-Work-Opening und Führung
+LOCATION:Deutsches Theatermuseum\, Galeriestraße 4a\, 80539 München
+DESCRIPTION:Abendöffnung ab 17 Uhr\, Rundgang laut Seite um 17:30 Uhr.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Eintritt + 5€ (Führungsgebühr)
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.deutschestheatermuseu
+ m.de/de/programm/after-work-opening-und-fuehrung-2
+URL:https://www.deutschestheatermuseum.de/de/programm/after-work-opening-un
+ d-fuehrung-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-villa-stuck-20261106-friday-late-historische-raeume-und-sonderausstel
+ lu@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Friday Late: Historische Räume und Sonderausstellung „Zehn Leben
+ “
+LOCATION:Museum Villa Stuck\, Prinzregentenstraße 60\, 81675 München
+DESCRIPTION:Rundgang der MVHS.\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.villastuck.de/kalender/detail/f
+ riday-late-im-museum-villa-stuck-die-historischen-raeume-und-die-sonderaus
+ stellung-zehn-leben-delschad-numan-khorschid-und-jan-hendrik-pelz-1362
+URL:https://www.villastuck.de/kalender/detail/friday-late-im-museum-villa-s
+ tuck-die-historischen-raeume-und-die-sonderausstellung-zehn-leben-delschad
+ -numan-khorschid-und-jan-hendrik-pelz-1362
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-villa-stuck-20261106-friday-late-sonderausstellung-mater-gonzalo-boro
+ nd@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T203000
+DTEND;TZID=Europe/Berlin:20261106T223000
+SUMMARY:Friday Late: Sonderausstellung „Mater. Gonzalo Borondo“
+LOCATION:Museum Villa Stuck\, Prinzregentenstraße 60\, 81675 München
+DESCRIPTION:Rundgang der MVHS.\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.villastuck.de/kalender/detail/f
+ riday-late-im-museum-villa-stuck-die-sonderausstellung-mater-gonzalo-boron
+ do-1363
+URL:https://www.villastuck.de/kalender/detail/friday-late-im-museum-villa-s
+ tuck-die-sonderausstellung-mater-gonzalo-borondo-1363
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-residenztheater-20261107-theaterfuhrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T150000
+DTEND;TZID=Europe/Berlin:20261107T170000
+SUMMARY:Theaterführung (ausverkauft)
+LOCATION:Residenztheater\, München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.residenztheater.de/spielplan
+URL:https://www.residenztheater.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261109-eine-tour-zur-revolution-der-jahre-1918-1
+ 9-max-zeidler@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T160000
+DTEND;TZID=Europe/Berlin:20261109T180000
+SUMMARY:Eine Tour zur Revolution der Jahre 1918/19 (Max Zeidler)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/f2082c0b-e62
+ 1-4572-b491-b4cecaf3e580
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/f2082c0b-e621-4572-b
+ 491-b4cecaf3e580
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261110-rundgang-zu-oskar-maria-grafs-munchner-ze
+ it@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T150000
+DTEND;TZID=Europe/Berlin:20261110T170000
+SUMMARY:Rundgang zu Oskar Maria Grafs Münchner Zeit
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/954e83ce-6da
+ d-45c3-846c-ab248ac10295
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/954e83ce-6dad-45c3-8
+ 46c-ab248ac10295
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-abgussmuseum-20261110-von-blauen-pferden-und-roten-haaren-farbigkeit-
+ in@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T190000
+DTEND;TZID=Europe/Berlin:20261110T210000
+SUMMARY:Von blauen Pferden und roten Haaren – Farbigkeit in der Antike
+LOCATION:Museum für Abgüsse Klassischer Bildwerke\, Katharina-von-Bora-St
+ raße 10\, 80333 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\, keine Anm
+ eldung nötig\nQuelle (bitte vor dem Besuch prüfen): https://www.abgussmu
+ seum.de/veranstaltungen
+URL:https://www.abgussmuseum.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-deutsches-theatermuseum-20261111-after-work-opening-und-fuehrung@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T170000
+DTEND;TZID=Europe/Berlin:20261111T190000
+SUMMARY:After-Work-Opening und Führung
+LOCATION:Deutsches Theatermuseum\, Galeriestraße 4a\, 80539 München
+DESCRIPTION:Abendöffnung mit Führung.\nEnde: laut Quelle nicht angegeben\
+ nPreis: Eintritt + 5€\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.deutschestheatermuseum.de/de/programm/after-work-opening-und-fuehrung-3
+URL:https://www.deutschestheatermuseum.de/de/programm/after-work-opening-un
+ d-fuehrung-3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-fraunhofer-theater-20261113-eine-tour-zur-revolution-der-jahre-1918-1
+ 9-max-zeidler@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T160000
+DTEND;TZID=Europe/Berlin:20261113T180000
+SUMMARY:Eine Tour zur Revolution der Jahre 1918/19 (Max Zeidler)
+LOCATION:Fraunhofer Theater und Wirtshaus\, Fraunhoferstraße 9\, 80469 Mü
+ nchen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fraunhofertheater.de/spielplan/cpevent/03d01502-fe5
+ 9-4739-8649-b657dd7a6be5
+URL:https://www.fraunhofertheater.de/spielplan/cpevent/03d01502-fe59-4739-8
+ 649-b657dd7a6be5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-residenztheater-20261114-theaterfuhrung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Theaterführung
+LOCATION:Residenztheater\, München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.residenztheater.de/spielplan
+URL:https://www.residenztheater.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-museum-aegyptischer-kunst-20261117-holz-und-handwerk@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T181500
+DTEND;TZID=Europe/Berlin:20261117T201500
+SUMMARY:Holz und Handwerk
+LOCATION:Staatliches Museum Ägyptischer Kunst\, Arcisstraße 16\, 80333 M
+ ünchen
+DESCRIPTION:Erwachsenenführung.\nEnde: laut Quelle nicht angegeben\nQuelle
+  (bitte vor dem Besuch prüfen): https://smaek.de/veranstaltungen/
+URL:https://smaek.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-abgussmuseum-20261117-kunst-im-focus-kleine-details-erzaehlen-grosse-
+ ges@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T190000
+DTEND;TZID=Europe/Berlin:20261117T210000
+SUMMARY:Kunst im Focus – Kleine Details erzählen große Geschichten
+LOCATION:Museum für Abgüsse Klassischer Bildwerke\, Katharina-von-Bora-St
+ raße 10\, 80333 München
+DESCRIPTION:Tastführung.\nEnde: laut Quelle nicht angegeben\nPreis: kosten
+ los\, Anmeldung erforderlich\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.abgussmuseum.de/veranstaltungen
+URL:https://www.abgussmuseum.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-residenztheater-20261124-finding-freddie-stadtspaziergang-treffpunkt-
+ sendlinger@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T183000
+DTEND;TZID=Europe/Berlin:20261124T203000
+SUMMARY:Finding Freddie (Stadtspaziergang\, Treffpunkt Sendlinger Tor) (aus
+ verkauft)
+LOCATION:Sendlinger Tor (Treffpunkt)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.residenztheater.de/spielplan
+URL:https://www.residenztheater.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-alte-pinakothek-20261126-eine-stunde-mit-mirjam-neumeister-im-dialog-
+ mit-fr@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T130000
+DTEND;TZID=Europe/Berlin:20261126T150000
+SUMMARY:Eine Stunde mit … Mirjam Neumeister im Dialog mit Franziska Esche
+ nbach
+LOCATION:Alte Pinakothek\, Barer Straße 27\, 80333 München
+DESCRIPTION:Führung zur Ausstellung über Bruegels „Schlaraffenland“.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.pinakothek.de/de/ausstellung/das-schlaraffenland-und-seine-er
+ werbsgeschichte
+URL:https://www.pinakothek.de/de/ausstellung/das-schlaraffenland-und-seine-
+ erwerbsgeschichte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-nsdoku-20261126-muenchen-und-der-nationalsozialismus-ueberblicksru@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T170000
+DTEND;TZID=Europe/Berlin:20261126T190000
+SUMMARY:München und der Nationalsozialismus – Überblicksrundgang in Deu
+ tscher Gebärdensprache
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nsdoku.de/programm/aktuell
+URL:https://www.nsdoku.de/programm/aktuell
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-volkssternwarte-20261212-stonehenge-spannende-funde-und-bleibende-rae
+ tsel@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T190000
+DTEND;TZID=Europe/Berlin:20261212T210000
+SUMMARY:Stonehenge – Spannende Funde und bleibende Rätsel
+LOCATION:Bayerische Volkssternwarte München\, Rosenheimer Str. 145h\, 8167
+ 1 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://sternwarte-muenchen.de/aus-unserem-programm/
+URL:https://sternwarte-muenchen.de/aus-unserem-programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-museum-aegyptischer-kunst-20261215-ein-kind-ist-uns-geboren@myeventhu
+ b.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T181500
+DTEND;TZID=Europe/Berlin:20261215T201500
+SUMMARY:Ein Kind ist uns geboren
+LOCATION:Staatliches Museum Ägyptischer Kunst\, Arcisstraße 16\, 80333 M
+ ünchen
+DESCRIPTION:Erwachsenenführung.\nEnde: laut Quelle nicht angegeben\nQuelle
+  (bitte vor dem Besuch prüfen): https://smaek.de/veranstaltungen/
+URL:https://smaek.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-alte-pinakothek-20261220-30-minuten-1-werk@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T133000
+DTEND;TZID=Europe/Berlin:20261220T153000
+SUMMARY:30 Minuten | 1 Werk
+LOCATION:Alte Pinakothek\, Barer Straße 27\, 80333 München
+DESCRIPTION:Kurzführung zu einem Werk in der Ausstellung.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.pin
+ akothek.de/de/ausstellung/das-schlaraffenland-und-seine-erwerbsgeschichte
+URL:https://www.pinakothek.de/de/ausstellung/das-schlaraffenland-und-seine-
+ erwerbsgeschichte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

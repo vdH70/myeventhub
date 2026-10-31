@@ -1,0 +1,1359 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Darmstadt · my Event Hub (Erinnerung 3 Stunde
+ n vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:da-mathildenhoehe-20260606-a-step-ahead-125-jahre-mathildenhoehe-darmst
+ adt-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: A Step Ahead – 125 Jahre Mathildenhöhe Darmstadt
+LOCATION:Mathildenhöhe Darmstadt (Institut Mathildenhöhe)\, Olbrichweg 15
+ \, 64287 Darmstadt
+DESCRIPTION:Sonderausstellung im Ausstellungsgebäude Mathildenhöhe.\nLauf
+ zeit: 6.6.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.mathildenhoehe.de/en/ausstellungen/a-step-ahead
+URL:https://www.mathildenhoehe.de/en/ausstellungen/a-step-ahead
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-hlmd-20261002-drachen-mythos-und-wirklichkeit-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Drachen. Mythos und Wirklichkeit
+LOCATION:Hessisches Landesmuseum Darmstadt\, Darmstadt
+DESCRIPTION:Laufzeit: 2.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hlmd.de/
+URL:https://www.hlmd.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-schlossmuseum-20261023-rund-um-die-uhr-zeitgeschichte-n-aus-vier-jah
+ rhund-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Beginn: Rund um die Uhr! Zeitgeschichte(n) aus vier Jahrhunderten
+LOCATION:Schlossmuseum Darmstadt (Residenzschloss)\, Darmstadt
+DESCRIPTION:Laufzeit: 23.10.2026 bis 14.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.schlossmuseum-darmstadt.de/aktuell/
+URL:https://www.schlossmuseum-darmstadt.de/aktuell/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-schlossmuseum-20261023-rund-um-die-uhr-zeitgeschichte-n-aus-vier-jah
+ rhund-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Letzter Tag: Rund um die Uhr! Zeitgeschichte(n) aus vier Jahrhunder
+ ten
+LOCATION:Schlossmuseum Darmstadt (Residenzschloss)\, Darmstadt
+DESCRIPTION:Laufzeit: 23.10.2026 bis 14.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.schlossmuseum-darmstadt.de/aktuell/
+URL:https://www.schlossmuseum-darmstadt.de/aktuell/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20261030-weitsicht-festival-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: WEITSICHT Festival
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Laufzeit: 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalend
+ er/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20261030-weitsicht-festival-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: WEITSICHT Festival
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Laufzeit: 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalend
+ er/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-volkssternwarte-20261031-faszination-visuelle-astronomie-einsteigers
+ eminar@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T140000
+DTEND;TZID=Europe/Berlin:20261031T160000
+SUMMARY:Faszination visuelle Astronomie – Einsteigerseminar zur Himmelsbe
+ obachtung (ausverkauft)
+LOCATION:Volkssternwarte Darmstadt\, Auf der Ludwigshöhe 196\, Darmstadt
+DESCRIPTION:Seminar.\nEnde: laut Quelle nicht angegeben\nAusverkauft\nQuell
+ e (bitte vor dem Besuch prüfen): https://vsda.de/veranstaltungen/veransta
+ ltungskalender/
+URL:https://vsda.de/veranstaltungen/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-staatstheater-20261031-a-chorus-line@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:A Chorus Line (ausverkauft)
+LOCATION:Staatstheater Darmstadt\, Darmstadt
+DESCRIPTION:Musical\, Großes Haus\nEnde: laut Quelle nicht angegeben\nAusv
+ erkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.staatstheater-
+ darmstadt.de/spielplan/
+URL:https://www.staatstheater-darmstadt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-oetinger-villa-20261031-halloween-mosh-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween Mosh 2026
+LOCATION:Oetinger Villa\, Kranichsteiner Str. 81\, 64289 Darmstadt
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://oetingervilla.de
+ /
+URL:https://oetingervilla.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261103-eva-menasse-alleinruhelage@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T190000
+DTEND;TZID=Europe/Berlin:20261103T210000
+SUMMARY:Eva Menasse: Alleinruhelage (ausverkauft)
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-bahnwelt-eisenbahnmuseum-20261104-vortragsabend-die-geschichte-der-m
+ eistgebauten-dam@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Vortragsabend: Die Geschichte der meistgebauten Dampflok der Welt 
+ – Teil 2
+LOCATION:Bahnwelt Darmstadt-Kranichstein (Eisenbahnmuseum)\, Steinstraße 7
+ \, 64291 Darmstadt
+DESCRIPTION:Vortrag im Eisenbahnmuseum\, 20–22 Uhr.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://bahnwelt.de/
+ veranstaltungen/
+URL:https://bahnwelt.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261105-juliette-greco-barbara-musikalisch-literarisc
+ he-so@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:Juliette Gréco – Barbara: musikalisch-literarische Soirée mit F
+ lorence Hervé
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-staatstheater-20261106-cavalleria-rusticana-pagliacci@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Cavalleria rusticana / Pagliacci
+LOCATION:Staatstheater Darmstadt\, Darmstadt
+DESCRIPTION:Oper\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.staatstheater-darmstadt.de/spi
+ elplan/
+URL:https://www.staatstheater-darmstadt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-oetinger-villa-20261106-enraged-minority-curb-stomp-risiko-deluxe@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Enraged Minority / Curb Stomp / Risiko Deluxe
+LOCATION:Oetinger Villa\, Kranichsteiner Str. 81\, 64289 Darmstadt
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://oetingervilla.de
+ /
+URL:https://oetingervilla.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261107-literaturfest-textland-ursula-krechel-vom-her
+ zasth@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T150000
+DTEND;TZID=Europe/Berlin:20261107T170000
+SUMMARY:Literaturfest Textland: Ursula Krechel – Vom Herzasthma des Exils
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261107-literaturfest-textland-karosh-taha-gulistan@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T163000
+DTEND;TZID=Europe/Berlin:20261107T183000
+SUMMARY:Literaturfest Textland: Karosh Taha – Gulistan
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261107-literaturfest-textland-ilma-rakusa-und-helmut
+ -boet@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T173000
+DTEND;TZID=Europe/Berlin:20261107T193000
+SUMMARY:Literaturfest Textland: Ilma Rakusa und Helmut Böttiger – Wo ble
+ ibt das Licht
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261107-literaturfest-textland-dana-vowinckel-anton-u
+ nd-al@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T183000
+DTEND;TZID=Europe/Berlin:20261107T203000
+SUMMARY:Literaturfest Textland: Dana Vowinckel – Anton und Alma
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-volkssternwarte-20261107-sterne-ueber-darmstadt@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Sterne über Darmstadt
+LOCATION:Volkssternwarte Darmstadt\, Auf der Ludwigshöhe 196\, Darmstadt
+DESCRIPTION:Beobachtungsabend.\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://vsda.de/veranstaltungen/veranstaltu
+ ngskalender/
+URL:https://vsda.de/veranstaltungen/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261107-literaturfest-textland-daniel-schreiber-liebe
+ -ein@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Literaturfest Textland: Daniel Schreiber – Liebe! Ein Aufruf!
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-staatstheater-20261107-joe-jackson-band-hope-and-fury-tour@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Joe Jackson & Band: Hope And Fury Tour
+LOCATION:Staatstheater Darmstadt\, Darmstadt
+DESCRIPTION:Konzert\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.staatstheater-darmstadt.de/
+ spielplan/
+URL:https://www.staatstheater-darmstadt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261110-julia-franck-ich-ertrinke-in-den-wassern-mein
+ er-ei@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T190000
+DTEND;TZID=Europe/Berlin:20261110T210000
+SUMMARY:Julia Franck: Ich ertrinke in den Wassern meiner eigenen Liebe
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-oetinger-villa-20261113-sotabosc@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Sotabosc
+LOCATION:Oetinger Villa\, Kranichsteiner Str. 81\, 64289 Darmstadt
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://oetingervilla.de
+ /
+URL:https://oetingervilla.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20261114-benefizkonzert-kinderchorkonzert-singen-macht-
+ klas@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T143000
+DTEND;TZID=Europe/Berlin:20261114T163000
+SUMMARY:Benefizkonzert: Kinderchorkonzert „Singen macht Klasse“
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-staatstheater-20261114-rain-maiden@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Rain Maiden
+LOCATION:Staatstheater Darmstadt\, Darmstadt
+DESCRIPTION:Tanz\, Großes Haus\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.staatstheater-darmstadt.de/spi
+ elplan/
+URL:https://www.staatstheater-darmstadt.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-oetinger-villa-20261115-workshopreihe-kollektives-songwriting-fuer-f
+ linta@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Workshopreihe Kollektives Songwriting für FLINTA*
+LOCATION:Oetinger Villa\, Kranichsteiner Str. 81\, 64289 Darmstadt
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://oetingervilla.de
+ /
+URL:https://oetingervilla.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261116-lesung-und-vortrag-zum-25-todestag-von-stefan
+ -heym@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T190000
+DTEND;TZID=Europe/Berlin:20261116T210000
+SUMMARY:Lesung und Vortrag zum 25. Todestag von Stefan Heym
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261117-markus-c-hurek-margot-friedlaender-eine-stimm
+ e-fue@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T190000
+DTEND;TZID=Europe/Berlin:20261117T210000
+SUMMARY:Markus C. Hurek: Margot Friedländer. Eine Stimme für das Leben
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261119-bibliotheksgespraech-nanon-von-george-sand@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T180000
+DTEND;TZID=Europe/Berlin:20261119T200000
+SUMMARY:Bibliotheksgespräch: »Nanon« von George Sand
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261119-tino-eisbrenner-deutschland-ein-winterm
+ aerchen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Tino Eisbrenner – Deutschland ein Wintermärchen
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20261121-darmstadt-spielt-2026-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Beginn: Darmstadt spielt 2026
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Laufzeit: 21.11.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalen
+ der/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20261121-darmstadt-spielt-2026-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Darmstadt spielt 2026
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Laufzeit: 21.11.2026 bis 22.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalen
+ der/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261125-heinrich-ruebeling-lesung-zu-anita-und-kiran-
+ desai@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T190000
+DTEND;TZID=Europe/Berlin:20261125T210000
+SUMMARY:Heinrich Rübeling: Lesung zu Anita und Kiran Desai
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261126-lesung-mit-ella-theiss-das-darmstaedter
+ -moerderlie@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Lesung mit Ella Theiss: Das Darmstädter Mörderliebchen
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261127-orange-day-lesung-mit-barbara-zeizinger-iris-
+ welke@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Orange Day: Lesung mit Barbara Zeizinger\, Iris Welker-Sturm u. a.
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-luisencenter-20261127-late-night-shopping-feuer-eis-black-friday@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Late Night Shopping: Feuer & Eis / Black Friday
+LOCATION:Luisencenter\, Luisenplatz 5\, 64283 Darmstadt
+DESCRIPTION:Längere Öffnung bis etwa 21 Uhr.\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.luisencenter.de/
+URL:https://www.luisencenter.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261128-hirn-flatulenz-comedy-mit-christoph-vis
+ one@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Hirn-Flatulenz – Comedy mit Christoph Visone
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-volkssternwarte-20261128-von-wurmloecher-warpantrieben-und-zeitreise
+ n-kosmo@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Von Wurmlöcher\, Warpantrieben und Zeitreisen. Kosmologie für Sci
+ ence Fiction Freunde
+LOCATION:Volkssternwarte Darmstadt\, Auf der Ludwigshöhe 196\, Darmstadt
+DESCRIPTION:Vortrag.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://vsda.de/veranstaltungen/veranstaltungskalende
+ r/
+URL:https://vsda.de/veranstaltungen/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261129-brecht-zum-70-todestag-mit-gina-pietsch
+ -frauke-pie@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T190000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Brecht zum 70. Todestag – mit Gina Pietsch & Frauke Pietsch
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261102-klaus-staat-der-stein-der-hera@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T190000
+DTEND;TZID=Europe/Berlin:20261130T210000
+SUMMARY:VERLEGT: Klaus Staat: Der Stein der Hera
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261201-i-have-a-dream-lesung-mit-karin-klein-und-san
+ dra-k@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T190000
+DTEND;TZID=Europe/Berlin:20261201T210000
+SUMMARY:I Have a Dream – Lesung mit Karin Klein und Sandra Kegel
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261202-buchvorstellung-kaeferfunde-sofie-morin-und-s
+ ilke@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T193000
+DTEND;TZID=Europe/Berlin:20261202T213000
+SUMMARY:Buchvorstellung: Käferfunde – Sofie Morin und Silke Scheffel
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261204-die-grosse-schlacht-um-laurel-hardy@mye
+ venthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Die große Schlacht um Laurel & Hardy
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-volkssternwarte-20261205-sterne-ueber-darmstadt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:Sterne über Darmstadt
+LOCATION:Volkssternwarte Darmstadt\, Auf der Ludwigshöhe 196\, Darmstadt
+DESCRIPTION:Beobachtungsabend.\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://vsda.de/veranstaltungen/veranstaltu
+ ngskalender/
+URL:https://vsda.de/veranstaltungen/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261208-das-literaturhaus-quartett-die-buecher-des-ja
+ hres@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T190000
+DTEND;TZID=Europe/Berlin:20261208T210000
+SUMMARY:Das Literaturhaus-Quartett: Die Bücher des Jahres
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261210-bibliotheksgespraech-vicki-baums-erster-erfol
+ greic@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T180000
+DTEND;TZID=Europe/Berlin:20261210T200000
+SUMMARY:Bibliotheksgespräch: Vicki Baums erster erfolgreicher Roman
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-oetinger-villa-20261210-ninamarie@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Ninamarie
+LOCATION:Oetinger Villa\, Kranichsteiner Str. 81\, 64289 Darmstadt
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://oetingervilla.de
+ /
+URL:https://oetingervilla.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261212-die-grosse-schlacht-um-laurel-hardy@mye
+ venthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Die große Schlacht um Laurel & Hardy
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-volkssternwarte-20261212-der-stern-von-bethlehem-mythos-oder-himmels
+ koerper@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Der Stern von Bethlehem – Mythos oder Himmelskörper?
+LOCATION:Volkssternwarte Darmstadt\, Auf der Ludwigshöhe 196\, Darmstadt
+DESCRIPTION:Vortrag.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://vsda.de/veranstaltungen/veranstaltungskalende
+ r/
+URL:https://vsda.de/veranstaltungen/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-literaturhaus-20261216-geschichten-und-maerchen-aus-indien@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T190000
+DTEND;TZID=Europe/Berlin:20261216T210000
+SUMMARY:Geschichten und Märchen aus Indien
+LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.literaturhaus-darmstadt.de/programm/
+URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20261219-the-music-of-ludovico-einaudi-klavierkonzert@m
+ yeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:The Music of Ludovico Einaudi – Klavierkonzert
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20261229-das-phantom-der-oper@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T200000
+DTEND;TZID=Europe/Berlin:20261229T220000
+SUMMARY:Das Phantom der Oper
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20261230-der-herr-der-ringe-der-hobbit-das-konzert@myev
+ enthub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T200000
+DTEND;TZID=Europe/Berlin:20261230T220000
+SUMMARY:Der Herr der Ringe & Der Hobbit – Das Konzert
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20261231-silvesterparty@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T200000
+DTEND;TZID=Europe/Berlin:20261231T220000
+SUMMARY:Silvesterparty
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270102-der-nussknacker@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270102T193000
+DTEND;TZID=Europe/Berlin:20270102T213000
+SUMMARY:Der Nussknacker
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ballett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltu
+ ngskalender/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270103-schneekoenigin-das-musical@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T150000
+DTEND;TZID=Europe/Berlin:20270103T170000
+SUMMARY:Schneekönigin – das Musical
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270105-der-koenig-der-loewen-the-music-live-in-concer
+ t@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T200000
+DTEND;TZID=Europe/Berlin:20270105T220000
+SUMMARY:Der König der Löwen – The Music live in Concert
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270107-the-magic-of-hans-zimmer-the-concert@myeventhu
+ b.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T200000
+DTEND;TZID=Europe/Berlin:20270107T220000
+SUMMARY:The Magic of Hans Zimmer – The Concert
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270108-the-music-of-star-wars@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:The Music of Star Wars
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-theater-im-paedagog-20270108-chris-lauffs-releasekonzert-schnelle-be
+ gegnung@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Chris Lauffs – Releasekonzert „Schnelle Begegnung“
+LOCATION:Theater im Pädagog (TIP)\, Pädagogstraße 5\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://paedagogtheater.de/kalender/
+URL:https://paedagogtheater.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270109-cornamusa-world-of-pipe-rock-and-irish-dance@m
+ yeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Cornamusa – World of Pipe Rock and Irish Dance
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270110-schwanensee@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T200000
+DTEND;TZID=Europe/Berlin:20270110T220000
+SUMMARY:Schwanensee
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ballett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltu
+ ngskalender/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270206-emmvee-ich-bitte-um-verzeihung@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T193000
+DTEND;TZID=Europe/Berlin:20270206T213000
+SUMMARY:EMMVEE – Ich bitte um Verzeihung
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270212-abba-mamma-mia-and-much-more@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:ABBA – Mamma Mia and much more
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270214-die-schluempfe-das-musical@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T170000
+DTEND;TZID=Europe/Berlin:20270214T190000
+SUMMARY:Die Schlümpfe – Das Musical
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270319-old-shatterhand-unter-kojoten@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T200000
+DTEND;TZID=Europe/Berlin:20270319T220000
+SUMMARY:Old Shatterhand unter Kojoten
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270320-loriot-die-ente-bleibt-draussen@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T150000
+DTEND;TZID=Europe/Berlin:20270320T170000
+SUMMARY:Loriot: Die Ente bleibt draußen
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270320-the-music-of-queen-live@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T200000
+DTEND;TZID=Europe/Berlin:20270320T220000
+SUMMARY:The Music of Queen – Live
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270321-sixx-paxx@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T200000
+DTEND;TZID=Europe/Berlin:20270321T220000
+SUMMARY:Sixx Paxx
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270322-the-12-tenors@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270322T200000
+DTEND;TZID=Europe/Berlin:20270322T220000
+SUMMARY:The 12 Tenors
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270323-the-michael-jackson-tribute-show-live@myeventh
+ ub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270323T193000
+DTEND;TZID=Europe/Berlin:20270323T213000
+SUMMARY:The Michael Jackson Tribute Show – Live
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270324-schwanensee@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270324T190000
+DTEND;TZID=Europe/Berlin:20270324T210000
+SUMMARY:Schwanensee
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ballett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltu
+ ngskalender/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-darmstadtium-20270416-bodo-wartke-wunderpunkt@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T200000
+DTEND;TZID=Europe/Berlin:20270416T220000
+SUMMARY:Bodo Wartke: Wunderpunkt
+LOCATION:darmstadtium\, Schlossgraben 1\, 64283 Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.darmstadtium.de/fuer-besucher/veranstaltungskalende
+ r/
+URL:https://www.darmstadtium.de/fuer-besucher/veranstaltungskalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

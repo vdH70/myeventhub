@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Mechernich · my Event Hub (Erinnerung 3 Stunden vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:eu-burg-satzvey-20261107-martinsmarkt-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T140000
+DTEND;TZID=Europe/Berlin:20261107T160000
+SUMMARY:Martinsmarkt 2026
+LOCATION:Burg Satzvey\, Mechernich
+DESCRIPTION:Martinsmarkt auf dem Gelände von Burg Satzvey\, 14–19 Uhr.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.burgsatzvey.de/
+URL:https://www.burgsatzvey.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-hof-krewelshof-eifel-20261121-winterhof-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Beginn: Winterhof
+LOCATION:Krewelshof Eifel\, Krewelshof 1\, 53894 Mechernich
+DESCRIPTION:Eisbahn auf dem Hof\; Zeitraum laut Hof voraussichtlich. Mi–F
+ r ab 13 Uhr\, Sa–So ab 12 Uhr.\nLaufzeit: 21.11.2026 bis 10.1.2027\nPrei
+ s: Zuschauer 2\,90 €\; Erwachsene 7\,90–9\,90 €\nQuelle (bitte vor d
+ em Besuch prüfen): https://krewelshof.de/eifel/termine-events/winterhof/
+URL:https://krewelshof.de/eifel/termine-events/winterhof/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-hof-krewelshof-eifel-20261121-winterhof-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Winterhof
+LOCATION:Krewelshof Eifel\, Krewelshof 1\, 53894 Mechernich
+DESCRIPTION:Eisbahn auf dem Hof\; Zeitraum laut Hof voraussichtlich. Mi–F
+ r ab 13 Uhr\, Sa–So ab 12 Uhr.\nLaufzeit: 21.11.2026 bis 10.1.2027\nPrei
+ s: Zuschauer 2\,90 €\; Erwachsene 7\,90–9\,90 €\nQuelle (bitte vor d
+ em Besuch prüfen): https://krewelshof.de/eifel/termine-events/winterhof/
+URL:https://krewelshof.de/eifel/termine-events/winterhof/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

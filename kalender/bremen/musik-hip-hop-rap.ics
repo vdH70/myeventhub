@@ -1,0 +1,168 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hip-Hop/Rap in Bremen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lagerhaus-20261114-wd-42-in-concert@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:WD*42 in Concert
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Konzertabend des WD*42 Festivals mit Faravaz und Queenwho.\nEin
+ lass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 1
+ 7-20 €\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturzentrum
+ -lagerhaus.de/
+URL:https://www.kulturzentrum-lagerhaus.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20261120-oldschool-hip-hop-und-r-n-b-classics@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Oldschool – hip hop und r'n'b classics
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Party mit Hip-Hop- und R'n'B-Klassikern.\nEinlass 19:00 Uhr\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.modernes.de/programm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20261121-old-but-gold-ue30-hip-hop-party@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Old but Gold Ü30 Hip Hop Party
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Hip-Hop-Party für Gäste ab 30 auf zwei Floors.\nTickets: http
+ s://oldbutgold.ticket.io/rp7qF3C0/cw6khh/?hideHolder=1&hideConsentBanner=1
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.oldbutgold.party/even
+ ts/bremen---old-but-gold-u30-hip-hop-party-aladin-music-hall-on-2-floors
+URL:https://www.oldbutgold.party/events/bremen---old-but-gold-u30-hip-hop-p
+ arty-aladin-music-hall-on-2-floors
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20261204-ivo-der-bandit-verbrecherfunk-tour-2026@myeventhub
+ .de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Ivo der Bandit – Verbrecherfunk Tour 2026
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Deutschrap mit Boom-Bap-Beats\, im Magazinkeller.\nEnde: laut Q
+ uelle nicht angegeben\nPreis: VVK: 30\,00 € (zzgl. Gebühren)\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.schlachthof-bremen.de/programm/i
+ vo-der-bandit
+URL:https://www.schlachthof-bremen.de/programm/ivo-der-bandit
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20261211-afrob-ferris-mc@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:AFROB & FERRIS MC – Oldschool trifft heute: Die Reimemonster sind
+  zurück (ausverkauft)
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Die beiden Rapper spielen ihren gemeinsamen Klassiker und neues
+  Material\, in der Kesselhalle.\n20:00 Uhr (die Quelle sagt nicht\, ob Ein
+ lass oder Beginn)\nEnde: laut Quelle nicht angegeben\nAusverkauft\nTickets
+ : https://www.eventim.de/event/afrob-ferris-mc-reimemonster-tour-2026-kult
+ urzentrum-schlachthof-21441752/\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.schlachthof-bremen.de/programm/afrob-ferris-mc
+URL:https://www.schlachthof-bremen.de/programm/afrob-ferris-mc
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oevb-arena-20270110-blok3@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T204500
+DTEND;TZID=Europe/Berlin:20270110T224500
+SUMMARY:Blok3
+LOCATION:ÖVB-Arena\, Findorffstr. 101\, 28215 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://oevb-arena.de/events/?subPage=2
+URL:https://oevb-arena.de/events/?subPage=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270204-monet192@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T200000
+DTEND;TZID=Europe/Berlin:20270204T220000
+SUMMARY:Monet192 – CAN YOU SEE ME
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.modernes.de/progr
+ amm/
+URL:https://www.modernes.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270401-waving-the-guns@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270401T200000
+DTEND;TZID=Europe/Berlin:20270401T220000
+SUMMARY:Waving The Guns – Bockig durch die Polykrise - Tour 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-04-01/waving-the-guns/
+URL:https://modernes.de/events/2027-04-01/waving-the-guns/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aladin-music-hall-20270411-cave-tour-de-porz@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270411T200000
+DTEND;TZID=Europe/Berlin:20270411T220000
+SUMMARY:CAVE – Tour de Porz
+LOCATION:Aladin Music-Hall\, Hannoversche Straße 11\, 28309 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.aladin-bremen.de/veranstaltungen/cave/
+URL:https://www.aladin-bremen.de/veranstaltungen/cave/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:modernes-20270507-mo-torres@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270507T190000
+DTEND;TZID=Europe/Berlin:20270507T210000
+SUMMARY:Mo-Torres – MINDESTENS FÜR IMMER - Tour 2027
+LOCATION:Modernes\, Neustadtswall 28\, 28199 Bremen
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://modernes.de/events/20
+ 27-05-07/mo-torres/
+URL:https://modernes.de/events/2027-05-07/mo-torres/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

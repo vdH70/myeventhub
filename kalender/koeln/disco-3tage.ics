@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Disco in Köln · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:k-live-music-hall-20261031-halloween-white-girl-music-party-mit-trash-i
+ sland@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T000000
+DTEND;TZID=Europe/Berlin:20261031T020000
+SUMMARY:Halloween – White Girl Music Party mit Trash Island
+LOCATION:Live Music Hall\, Lichtstraße 30\, 50825 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.livemusichall.de/event-details/halloween-white-girl
+ -music-party-w-trash-island
+URL:https://www.livemusichall.de/event-details/halloween-white-girl-music-p
+ arty-w-trash-island
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-live-music-hall-20261031-live-music-hall-xxl-halloween-2026-ab-16@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T183000
+DTEND;TZID=Europe/Berlin:20261031T203000
+SUMMARY:Live Music Hall XXL Halloween 2026 (ab 16)
+LOCATION:Live Music Hall\, Lichtstraße 30\, 50825 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.livemusichall.de/event-details/live-music-hall-xxl-
+ halloween-2026-16
+URL:https://www.livemusichall.de/event-details/live-music-hall-xxl-hallowee
+ n-2026-16
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-luxor-20261031-back-to-the-00s-halloween-party@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T220000
+DTEND;TZID=Europe/Berlin:20261101T000000
+SUMMARY:Back to the 00s Halloween Party
+LOCATION:Luxor Köln\, Luxemburger Straße 40\, 50674 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.luxor-koeln.de/event/back-to-the-00s-halloween-part
+ y/
+URL:https://www.luxor-koeln.de/event/back-to-the-00s-halloween-party/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20261031-halloween-bass-drum-n-bass-feat-teddy-killerz@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween Bass – Drum'n'Bass feat. Teddy Killerz
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /halloween-bass-10-26.html
+URL:https://www.gebaeude9.de/halloween-bass-10-26.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-live-music-hall-20261107-rockgarden@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T230000
+DTEND;TZID=Europe/Berlin:20261108T010000
+SUMMARY:Rockgarden
+LOCATION:Live Music Hall\, Lichtstraße 30\, 50825 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.livemusichall.de/event-details/rockgarden-35
+URL:https://www.livemusichall.de/event-details/rockgarden-35
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-luxor-20261109-hitster-rock-by-radio-bob@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:HITSTER Rock by Radio Bob!
+LOCATION:Luxor Köln\, Luxemburger Straße 40\, 50674 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.luxor-koeln.
+ de/event/hitster-rock-by-radio-bob/
+URL:https://www.luxor-koeln.de/event/hitster-rock-by-radio-bob/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20261231-floorshakers-silvester-inferno@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Floorshakers Silvester Inferno
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

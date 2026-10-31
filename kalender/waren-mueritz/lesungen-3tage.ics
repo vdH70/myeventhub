@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Waren (Müritz) · my Event Hub (Erinnerung 3 Tage
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mue-mueritzeum-20261111-einmal-laengs-durch-kuba@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Einmal längs durch Kuba
+LOCATION:Müritzeum\, Zur Steinmole 1\, 17192 Waren (Müritz)
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.mueritzeum.d
+ e/veranstaltung/einmal-laengs-durch-kuba/
+URL:https://www.mueritzeum.de/veranstaltung/einmal-laengs-durch-kuba/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

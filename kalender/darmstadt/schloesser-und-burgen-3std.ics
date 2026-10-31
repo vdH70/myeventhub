@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlösser & Burgen in Darmstadt · my Event Hub (Erinnerung 3
+  Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:da-schlossmuseum-20261023-rund-um-die-uhr-zeitgeschichte-n-aus-vier-jah
+ rhund-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Beginn: Rund um die Uhr! Zeitgeschichte(n) aus vier Jahrhunderten
+LOCATION:Schlossmuseum Darmstadt (Residenzschloss)\, Darmstadt
+DESCRIPTION:Laufzeit: 23.10.2026 bis 14.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.schlossmuseum-darmstadt.de/aktuell/
+URL:https://www.schlossmuseum-darmstadt.de/aktuell/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-schlossmuseum-20261023-rund-um-die-uhr-zeitgeschichte-n-aus-vier-jah
+ rhund-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Letzter Tag: Rund um die Uhr! Zeitgeschichte(n) aus vier Jahrhunder
+ ten
+LOCATION:Schlossmuseum Darmstadt (Residenzschloss)\, Darmstadt
+DESCRIPTION:Laufzeit: 23.10.2026 bis 14.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.schlossmuseum-darmstadt.de/aktuell/
+URL:https://www.schlossmuseum-darmstadt.de/aktuell/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Düsseldorf · my Event Hub (Erinnerung 1 Tag v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d-opernhaus-20261114-die-mitternachtstur-junge-oper-premiere@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T160000
+DTEND;TZID=Europe/Berlin:20261114T180000
+SUMMARY:Die Mitternachtstür (Junge Oper\, Premiere)
+LOCATION:Opernhaus Düsseldorf (Deutsche Oper am Rhein)\, Heinrich-Heine-Al
+ lee 16a\, 40213 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.operamrhein.de/spielplan/
+URL:https://www.operamrhein.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-tanzhaus-nrw-20261118-flip@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T160000
+DTEND;TZID=Europe/Berlin:20261118T180000
+SUMMARY:FLIP
+LOCATION:tanzhaus nrw\, Erkrather Straße 30\, 40233 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tanzhaus-nrw.de/de/buehne/spielplan
+URL:https://tanzhaus-nrw.de/de/buehne/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-tanzhaus-nrw-20261121-bonkers-kidsrave@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T130000
+DTEND;TZID=Europe/Berlin:20261121T150000
+SUMMARY:Bonkers Kidsrave
+LOCATION:tanzhaus nrw\, Erkrather Straße 30\, 40233 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tanzhaus-nrw.de/de/buehne/spielplan
+URL:https://tanzhaus-nrw.de/de/buehne/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-tanzhaus-nrw-20261121-the-round@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T180000
+DTEND;TZID=Europe/Berlin:20261121T200000
+SUMMARY:The Round
+LOCATION:tanzhaus nrw\, Erkrather Straße 30\, 40233 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tanzhaus-nrw.de/de/buehne/spielplan
+URL:https://tanzhaus-nrw.de/de/buehne/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-tanzhaus-nrw-20261122-hit-hip-pop-classic-parade@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:Hit Hip Pop Classic Parade
+LOCATION:tanzhaus nrw\, Erkrather Straße 30\, 40233 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tanzhaus-nrw.de/de/buehne/spielplan
+URL:https://tanzhaus-nrw.de/de/buehne/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-tanzhaus-nrw-20261122-the-round@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T160000
+DTEND;TZID=Europe/Berlin:20261122T180000
+SUMMARY:The Round
+LOCATION:tanzhaus nrw\, Erkrather Straße 30\, 40233 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tanzhaus-nrw.de/de/buehne/spielplan
+URL:https://tanzhaus-nrw.de/de/buehne/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-tanzhaus-nrw-20261205-zickzack@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:ZickZack
+LOCATION:tanzhaus nrw\, Erkrather Straße 30\, 40233 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tanzhaus-nrw.de/de/buehne/spielplan
+URL:https://tanzhaus-nrw.de/de/buehne/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-tanzhaus-nrw-20261206-zickzack@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:ZickZack
+LOCATION:tanzhaus nrw\, Erkrather Straße 30\, 40233 Düsseldorf
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tanzhaus-nrw.de/de/buehne/spielplan
+URL:https://tanzhaus-nrw.de/de/buehne/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

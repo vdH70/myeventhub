@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Düsseldorf · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d-altstadt-weihnachtsmarkt-20261119-duesseldorfer-weihnachtsmarkt-2026-
+ beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Beginn: Düsseldorfer Weihnachtsmarkt 2026
+LOCATION:Düsseldorfer Innenstadt (Weihnachtsmarkt)\, Düsseldorf
+DESCRIPTION:Weihnachtsmarkt in der Innenstadt.\nLaufzeit: 19.11.2026 bis 30
+ .12.2026\nTermine laut Veranstalter: 22.11. und 25.12. geschlossen\; 24.12
+ . 11–15 Uhr\, 26.12. 14–21 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.visitduesseldorf.de/en/calendar-of-events/duesseldorf-christm
+ as-market-c73f17196c
+URL:https://www.visitduesseldorf.de/en/calendar-of-events/duesseldorf-chris
+ tmas-market-c73f17196c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-altstadt-weihnachtsmarkt-20261119-duesseldorfer-weihnachtsmarkt-2026-
+ ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Letzter Tag: Düsseldorfer Weihnachtsmarkt 2026
+LOCATION:Düsseldorfer Innenstadt (Weihnachtsmarkt)\, Düsseldorf
+DESCRIPTION:Weihnachtsmarkt in der Innenstadt.\nLaufzeit: 19.11.2026 bis 30
+ .12.2026\nTermine laut Veranstalter: 22.11. und 25.12. geschlossen\; 24.12
+ . 11–15 Uhr\, 26.12. 14–21 Uhr\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.visitduesseldorf.de/en/calendar-of-events/duesseldorf-christm
+ as-market-c73f17196c
+URL:https://www.visitduesseldorf.de/en/calendar-of-events/duesseldorf-chris
+ tmas-market-c73f17196c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-rosenmontagszug-20270208-rosenmontagszug-2027@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Düsseldorfer Rosenmontagszug 2027
+LOCATION:Düsseldorfer Rosenmontagszug (Herzogstraße bis Elisabethstraße)
+ \, Zugaufstellung Herzogstraße\, Auflösung Elisabethstraße/Bilker Allee
+ \, Düsseldorf
+DESCRIPTION:Rosenmontagszug des Comitee Düsseldorfer Carneval\, Motto „K
+ arneval\, grenzenlos vereint“.\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.comitee-duesseldorfer-carneval.de/de/pages/informationen-rosenm
+ ontagsumzug
+URL:https://www.comitee-duesseldorfer-carneval.de/de/pages/informationen-ro
+ senmontagsumzug
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

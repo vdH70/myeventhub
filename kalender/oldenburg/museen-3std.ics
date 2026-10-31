@@ -1,0 +1,342 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Oldenburg · my Event Hub (Erinnerung 3 Stunden vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ol-computermuseum-20260404-50-jahre-apple-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: 50 Jahre Apple – Vom Garagenprojekt zur globalen Kul
+ tmarke
+LOCATION:Oldenburger Computer-Museum\, Bahnhofsplatz 10\, 26122 Oldenburg
+DESCRIPTION:Sonderausstellung zur Geschichte von Apple\; laut Programmfolde
+ r Q4/2026 verlängert „bis Ende März '27“. Eröffnet am 04.04.2026 (A
+ ngabe von 8bit-museum.de).\nLaufzeit: 4.4.2026 bis 31.3.2027\nPreis: Museu
+ mseintritt 2 € zu den Öffnungszeiten\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+URL:https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-horst-janssen-museum-20260815-andrea-ziegler-horst-janssen-what-is-t
+ he-truth-and-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Andrea Ziegler | Horst Janssen: What Is the Truth and 
+ Where Did It Go?
+LOCATION:Horst-Janssen-Museum\, Am Stadtmuseum 4-8\, 26121 Oldenburg
+DESCRIPTION:Laufzeit: 15.8.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.horst-janssen-museum.de/ausstellungen
+URL:https://www.horst-janssen-museum.de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-haus-fuer-medienkunst-20260905-jane-jin-kaisen-wreckage-ende@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Jane Jin Kaisen: Wreckage
+LOCATION:HAUS für Medienkunst Oldenburg\, Katharinenstraße 23\, 26121 Old
+ enburg
+DESCRIPTION:Ausstellung im Pulverturm.\nLaufzeit: 5.9.2026 bis 1.11.2026\nQ
+ uelle (bitte vor dem Besuch prüfen): https://hausmedienkunst.de/ausstellu
+ ngen?type=current
+URL:https://hausmedienkunst.de/ausstellungen?type=current
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-landesmuseum-kunst-kultur-20261010-weltbilder-im-wandel-landschaften
+ -von-arkadien-bis-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Weltbilder im Wandel. Landschaften von Arkadien bis An
+ thropozän
+LOCATION:Landesmuseum Kunst & Kultur Oldenburg (Schloss)\, Damm 1\, 26135 O
+ ldenburg
+DESCRIPTION:Laufzeit: 10.10.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.landesmuseum-ol.de/ausstellungen.html
+URL:https://www.landesmuseum-ol.de/ausstellungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-landesmuseum-natur-und-mensch-20261010-naturmodus-systeme-in-bewegun
+ g-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Letzter Tag: NATURMODUS – Systeme in Bewegung
+LOCATION:Landesmuseum Natur und Mensch Oldenburg\, Damm 38-46\, 26135 Olden
+ burg
+DESCRIPTION:Laufzeit: 10.10.2026 bis 2.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.naturundmensch.de/ausstellung/naturmodus
+URL:https://www.naturundmensch.de/ausstellung/naturmodus
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-haus-fuer-medienkunst-20261014-kwang-ju-son-yehwan-song-the-square-a
+ nd-the-cross-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Kwang-Ju Son\, Yehwan Song: The Square and the Cross
+LOCATION:HAUS für Medienkunst Oldenburg\, Katharinenstraße 23\, 26121 Old
+ enburg
+DESCRIPTION:Laufzeit: 14.10.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://hausmedienkunst.de/ausstellungen?type=current
+URL:https://hausmedienkunst.de/ausstellungen?type=current
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-computermuseum-20261113-fuehrung-apple@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T170000
+DTEND;TZID=Europe/Berlin:20261113T190000
+SUMMARY:Öffentliche Führung durch die Apple-Sonderausstellung
+LOCATION:Oldenburger Computer-Museum\, Bahnhofsplatz 10\, 26122 Oldenburg
+DESCRIPTION:Öffentliche Führung durch die Sonderausstellung „50 Jahre A
+ pple“ (17–19 Uhr)\, Anmeldung erforderlich.\nEnde: laut Quelle nicht a
+ ngegeben\nPreis: Eintritt 10 €\, Anmeldung erforderlich\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.computermuseum-oldenburg.de/OCM_Folder
+ _Q4_2026.pdf
+URL:https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-haus-fuer-medienkunst-20261119-kultursnack-im-haus-fuer-medienkunst@
+ myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T170000
+DTEND;TZID=Europe/Berlin:20261119T190000
+SUMMARY:Kultursnack im Haus für Medienkunst
+LOCATION:HAUS für Medienkunst Oldenburg\, Katharinenstraße 23\, 26121 Old
+ enburg
+DESCRIPTION:Kurzführung\, bis 17:45 Uhr.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://hausmedienkunst.de/veran
+ staltungen?type=current
+URL:https://hausmedienkunst.de/veranstaltungen?type=current
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-computermuseum-20261120-fuehrung-apple@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T170000
+DTEND;TZID=Europe/Berlin:20261120T190000
+SUMMARY:Öffentliche Führung durch die Apple-Sonderausstellung
+LOCATION:Oldenburger Computer-Museum\, Bahnhofsplatz 10\, 26122 Oldenburg
+DESCRIPTION:Öffentliche Führung durch die Sonderausstellung „50 Jahre A
+ pple“ (17–19 Uhr)\, Anmeldung erforderlich.\nEnde: laut Quelle nicht a
+ ngegeben\nPreis: Eintritt 10 €\, Anmeldung erforderlich\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.computermuseum-oldenburg.de/OCM_Folder
+ _Q4_2026.pdf
+URL:https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-computermuseum-20261121-schlau-schlauer-ki@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T150000
+DTEND;TZID=Europe/Berlin:20261121T170000
+SUMMARY:Schlau\, schlauer\, KI? KIBUM 2026
+LOCATION:Oldenburger Computer-Museum\, Bahnhofsplatz 10\, 26122 Oldenburg
+DESCRIPTION:Interaktive Mitmach-Show über künstliche Intelligenz (15–16
+  Uhr)\, für Kinder ab 10 Jahren.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.computermuseum-oldenburg.de
+ /OCM_Folder_Q4_2026.pdf
+URL:https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-computermuseum-20261122-fuehrung-dauerausstellung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T130000
+DTEND;TZID=Europe/Berlin:20261122T150000
+SUMMARY:Öffentliche Führung durch die Dauerausstellung
+LOCATION:Oldenburger Computer-Museum\, Bahnhofsplatz 10\, 26122 Oldenburg
+DESCRIPTION:Öffentliche Führung durch die Dauerausstellung (13–14 Uhr)\
+ , Anmeldung erforderlich.\nEnde: laut Quelle nicht angegeben\nPreis: Eintr
+ itt 10 €\, Anmeldung erforderlich\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+URL:https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-computermuseum-20261122-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T130000
+DTEND;TZID=Europe/Berlin:20261122T150000
+SUMMARY:Öffentliche Führung
+LOCATION:Oldenburger Computer-Museum\, Bahnhofsplatz 10\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 10 €\, Anmeldung er
+ forderlich\nQuelle (bitte vor dem Besuch prüfen): https://www.computermus
+ eum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+URL:https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-landesmuseum-kunst-kultur-20261128-j-h-w-tischbein-meister-des-anekd
+ otischen-beginn@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Beginn: J. H. W. Tischbein. Meister des Anekdotischen
+LOCATION:Landesmuseum Kunst & Kultur Oldenburg (Schloss)\, Damm 1\, 26135 O
+ ldenburg
+DESCRIPTION:Laufzeit: 28.11.2026 bis 7.3.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.landesmuseum-ol.de/ausstellungen.html
+URL:https://www.landesmuseum-ol.de/ausstellungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-landesmuseum-kunst-kultur-20261128-j-h-w-tischbein-meister-des-anekd
+ otischen-ende@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Letzter Tag: J. H. W. Tischbein. Meister des Anekdotischen
+LOCATION:Landesmuseum Kunst & Kultur Oldenburg (Schloss)\, Damm 1\, 26135 O
+ ldenburg
+DESCRIPTION:Laufzeit: 28.11.2026 bis 7.3.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.landesmuseum-ol.de/ausstellungen.html
+URL:https://www.landesmuseum-ol.de/ausstellungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-computermuseum-20261211-fuehrung-apple@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T170000
+DTEND;TZID=Europe/Berlin:20261211T190000
+SUMMARY:Öffentliche Führung durch die Apple-Sonderausstellung
+LOCATION:Oldenburger Computer-Museum\, Bahnhofsplatz 10\, 26122 Oldenburg
+DESCRIPTION:Öffentliche Führung durch die Sonderausstellung „50 Jahre A
+ pple“ (17–19 Uhr)\, Anmeldung erforderlich.\nEnde: laut Quelle nicht a
+ ngegeben\nPreis: Eintritt 10 €\, Anmeldung erforderlich\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.computermuseum-oldenburg.de/OCM_Folder
+ _Q4_2026.pdf
+URL:https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-computermuseum-20261229-daddeln-mit-gluehwein@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T160000
+DTEND;TZID=Europe/Berlin:20261229T180000
+SUMMARY:Daddeln mit Glühwein
+LOCATION:Oldenburger Computer-Museum\, Bahnhofsplatz 10\, 26122 Oldenburg
+DESCRIPTION:Retro-Konsolen spielen für Familien\, dazu Glühwein (16–20 
+ Uhr).\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt: 5 €\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.computermuseum-oldenburg.de/OCM
+ _Folder_Q4_2026.pdf
+URL:https://www.computermuseum-oldenburg.de/OCM_Folder_Q4_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

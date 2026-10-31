@@ -1,0 +1,384 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Mannheim · my Event Hub (Erinnerung 3 Stu
+ nden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261031-faust@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Faust
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/faust/4779/
+URL:https://www.nationaltheater-mannheim.de/spielplan/faust/4779/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261101-simon-boccanegra@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261101-dreamer@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Dreamer (ausverkauft)
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.nationaltheater-mannheim.de/spielplan/
+ dreamer/4765/
+URL:https://www.nationaltheater-mannheim.de/spielplan/dreamer/4765/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261106-dreamer@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Dreamer (ausverkauft)
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.nationaltheater-mannheim.de/spielplan/
+ dreamer/4765/
+URL:https://www.nationaltheater-mannheim.de/spielplan/dreamer/4765/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261106-simon-boccanegra@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261108-faust@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Faust
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/faust/4779/
+URL:https://www.nationaltheater-mannheim.de/spielplan/faust/4779/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261108-die-zauberfloete@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261112-simon-boccanegra@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261114-reise-zum-mond@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Reise zum Mond
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mon
+ d-ua/4636/
+URL:https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mond-ua/463
+ 6/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261115-die-zauberfloete@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-franklin-20261122-hamlet@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Hamlet
+LOCATION:Altes Kino Franklin (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/hamlet/4800/
+URL:https://www.nationaltheater-mannheim.de/spielplan/hamlet/4800/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261122-simon-boccanegra@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261126-simon-boccanegra@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261206-reise-zum-mond@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Reise zum Mond
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mon
+ d-ua/4636/
+URL:https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mond-ua/463
+ 6/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261211-reise-zum-mond@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T190000
+DTEND;TZID=Europe/Berlin:20261211T210000
+SUMMARY:Reise zum Mond
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mon
+ d-ua/4636/
+URL:https://www.nationaltheater-mannheim.de/spielplan/reise-zum-mond-ua/463
+ 6/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261213-die-zauberfloete@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T180000
+DTEND;TZID=Europe/Berlin:20261213T200000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261219-simon-boccanegra@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:Simon Boccanegra
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/simon-boccane
+ gra/4533/
+URL:https://www.nationaltheater-mannheim.de/spielplan/simon-boccanegra/4533
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261226-die-zauberfloete@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T190000
+DTEND;TZID=Europe/Berlin:20261226T210000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-ntm-opal-20261231-die-zauberfloete@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T190000
+DTEND;TZID=Europe/Berlin:20261231T210000
+SUMMARY:Die Zauberflöte
+LOCATION:OPAL – Oper am Luisenpark (Nationaltheater Mannheim)\, Mannheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nationaltheater-mannheim.de/spielplan/die-zauberflo
+ ete-4552/4657/
+URL:https://www.nationaltheater-mannheim.de/spielplan/die-zauberfloete-4552
+ /4657/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

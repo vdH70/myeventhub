@@ -1,0 +1,488 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Wetzlar · my Event Hub (Erinnerung 3 Stunden vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wz-buderus-arena-20261031-suzi-quatro-world-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Suzi Quatro – World Tour 2026
+LOCATION:Buderus Arena (ehem. Rittal Arena)\, Wetzlar
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.buderus-arena.de/
+ events-tickets
+URL:https://www.buderus-arena.de/events-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20261106-bodo-wartke-wunderpunkt@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Bodo Wartke – Wunderpunkt
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://stadthallewetzlar.de/veranstaltungen_tick
+ ets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20261114-sinfoniekonzert-junges-sinfonie-orchester-wetzla
+ r@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:Sinfoniekonzert – Junges Sinfonie Orchester Wetzlar
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20261209-2-wetzlarer-weihnachts-rudelsingen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T193000
+DTEND;TZID=Europe/Berlin:20261209T213000
+SUMMARY:2. Wetzlarer Weihnachts-Rudelsingen
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20261219-sinfoniekonzert-junges-sinfonie-orchester@myeven
+ thub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T170000
+DTEND;TZID=Europe/Berlin:20261219T190000
+SUMMARY:Sinfoniekonzert – Junges Sinfonie-Orchester
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270102-neujahrskonzert-mit-dem-johann-strauss-orchester
+ -w@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270102T190000
+DTEND;TZID=Europe/Berlin:20270102T210000
+SUMMARY:Neujahrskonzert mit dem Johann-Strauß-Orchester Wiesbaden
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270116-3-meisterkonzert-partnerschaftskonzert-zum-neuen
+ -j@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:3. Meisterkonzert – Partnerschaftskonzert zum neuen Jahr
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270117-ostdeutscher-liederabend@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T170000
+DTEND;TZID=Europe/Berlin:20270117T190000
+SUMMARY:Ostdeutscher Liederabend
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270227-pop-meets-classic-vorsicht-geblaese-xxl@myeventh
+ ub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:Pop Meets Classic – Vorsicht! Gebläse XXL
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270307-abba-gold-the-concert-show@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T180000
+DTEND;TZID=Europe/Berlin:20270307T200000
+SUMMARY:ABBA Gold – The Concert Show
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270312-4-meisterkonzert-brassissimo@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:4. Meisterkonzert – »Brassissimo«
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ensemble Classique\, Bernsteins Blechbläser.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://stadthal
+ lewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270416-tom-gaebel-singt-sinatra@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T200000
+DTEND;TZID=Europe/Berlin:20270416T220000
+SUMMARY:Tom Gaebel singt Sinatra
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270418-true-collins-phil-collins-genesis-tribute-show@m
+ yeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270418T180000
+DTEND;TZID=Europe/Berlin:20270418T200000
+SUMMARY:True Collins – Phil Collins & Genesis Tribute Show
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270426-schlager-spass-mit-andy-borg@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270426T180000
+DTEND;TZID=Europe/Berlin:20270426T200000
+SUMMARY:Schlager & Spaß mit Andy Borg
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270504-fantasy-30-jahre-fantasy@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270504T190000
+DTEND;TZID=Europe/Berlin:20270504T210000
+SUMMARY:Fantasy – 30 Jahre Fantasy
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270507-5-meisterkonzert-from-a-distance@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270507T200000
+DTEND;TZID=Europe/Berlin:20270507T220000
+SUMMARY:5. Meisterkonzert – »From A Distance«
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20270916-bernhard-brink-danke-fuer-die-zeit@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270916T180000
+DTEND;TZID=Europe/Berlin:20270916T200000
+SUMMARY:Bernhard Brink – Danke für die Zeit!
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20271001-tribute-to-the-heroes-the-ultimate-80-s-rockshow
+ @myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271001T200000
+DTEND;TZID=Europe/Berlin:20271001T220000
+SUMMARY:Tribute to The Heroes – The ultimate 80's Rockshow
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20271020-storytelling-piano@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271020T193000
+DTEND;TZID=Europe/Berlin:20271020T213000
+SUMMARY:Storytelling Piano
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Verlegt vom 02.03.2027.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://stadthallewetzlar.de/veranstal
+ tungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20271107-nik-p-echt-30-jahre-jubilaeumstour@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271107T180000
+DTEND;TZID=Europe/Berlin:20271107T200000
+SUMMARY:Nik P. – ECHT. 30 Jahre Jubiläumstour
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20271220-elvis-the-story-of-rock-n-roll@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271220T200000
+DTEND;TZID=Europe/Berlin:20271220T220000
+SUMMARY:Elvis – The Story of Rock'n'Roll
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20280113-swr-big-band-max-mutzke@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280113T200000
+DTEND;TZID=Europe/Berlin:20280113T220000
+SUMMARY:SWR Big Band & Max Mutzke
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20280212-simon-garfunkel-tribute-meets-classic@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280212T200000
+DTEND;TZID=Europe/Berlin:20280212T220000
+SUMMARY:Simon & Garfunkel – Tribute meets Classic
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Verlegt vom 09.04.2027.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://stadthallewetzlar.de/veranstal
+ tungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20280323-der-herr-der-ringe-der-hobbit-das-konzert@myeven
+ thub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280323T150000
+DTEND;TZID=Europe/Berlin:20280323T170000
+SUMMARY:Der Herr der Ringe & Der Hobbit – Das Konzert
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20280323-clair-obscur@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280323T200000
+DTEND;TZID=Europe/Berlin:20280323T220000
+SUMMARY:Clair Obscur
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wz-stadthalle-20280421-alexander-wurz-die-egerlaender-musikanten@myeven
+ thub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280421T200000
+DTEND;TZID=Europe/Berlin:20280421T220000
+SUMMARY:Alexander Wurz & Die Egerländer Musikanten
+LOCATION:Stadthalle Wetzlar\, Brühlsbachstraße 2b\, 35578 Wetzlar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthallewetzlar.de/veranstaltungen_tickets.php
+URL:https://stadthallewetzlar.de/veranstaltungen_tickets.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

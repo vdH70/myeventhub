@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Apolda · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ap-stadthalle-20261202-weihnachts-tanz-cafe-mit-dem-orchester-franz-l@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Weihnachts-Tanz-Café mit dem Orchester Franz L.
+LOCATION:Stadthalle Apolda\, Klause 1\, 99510 Apolda
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-a
+ polda.de/veranstaltungen/
+URL:https://www.stadthalle-apolda.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ap-stadthalle-20261204-creedence-clearwater-review-review-tour-2026@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Creedence Clearwater Review – Review Tour 2026
+LOCATION:Stadthalle Apolda\, Klause 1\, 99510 Apolda
+DESCRIPTION:Tribute-Konzert mit Songs von Creedence Clearwater Revival.\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.stadthalle-apolda.de/vera
+ nstaltungen/
+URL:https://www.stadthalle-apolda.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ap-stadthalle-20261211-weihnachten-mit-michael-hirte@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Weihnachten mit Michael Hirte
+LOCATION:Stadthalle Apolda\, Klause 1\, 99510 Apolda
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-a
+ polda.de/veranstaltungen/
+URL:https://www.stadthalle-apolda.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ap-stadthalle-20270117-neujahrskonzert-mit-der-vogtlandphilharmonie@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Neujahrskonzert mit der „Vogtlandphilharmonie“
+LOCATION:Stadthalle Apolda\, Klause 1\, 99510 Apolda
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-a
+ polda.de/veranstaltungen/
+URL:https://www.stadthalle-apolda.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

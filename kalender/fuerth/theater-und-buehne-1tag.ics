@@ -1,0 +1,259 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Fürth · my Event Hub (Erinnerung 1 Tag v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fue-stadthalle-20261107-richard-cwiertnia-ostblock-live@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Richard Cwiertnia – Ostblock live
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ausverkauft.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.stadthalle-fuerth.de/veranstaltungsue
+ bersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20261115-schwanensee-ballet-classique-solenne@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Schwanensee – Ballet Classique Solenne
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20261119-osan-yaran-wollen-wir-beginnen@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Osan Yaran – Wollen wir beginnen?
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20261121-jubilaeumsgala-30-jahre-chakra-dance-center@mye
+ venthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Jubiläumsgala 30 Jahre Chakra Dance Center
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20261122-michael-hatzius-echsklusiv@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T210000
+SUMMARY:Michael Hatzius – Echsklusiv
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20261213-santa-maria-das-musical@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T183000
+DTEND;TZID=Europe/Berlin:20261213T203000
+SUMMARY:Santa Maria – Das Musical
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20261214-irgendwie-kriegen-wir-es-hin@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T193000
+DTEND;TZID=Europe/Berlin:20261214T213000
+SUMMARY:Irgendwie kriegen wir es hin
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20261216-die-heilige-luege@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T193000
+DTEND;TZID=Europe/Berlin:20261216T213000
+SUMMARY:Die Heilige Lüge
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20261218-der-nussknacker-ballett@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T190000
+DTEND;TZID=Europe/Berlin:20261218T210000
+SUMMARY:Der Nussknacker – Ballett
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20270105-eisprinzessin-klassisches-ukrainisches-etoile-b
+ all@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T193000
+DTEND;TZID=Europe/Berlin:20270105T213000
+SUMMARY:Eisprinzessin – Klassisches Ukrainisches Etoile Ballett
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20270116-crimenight-fuerth@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T180000
+DTEND;TZID=Europe/Berlin:20270116T200000
+SUMMARY:CrimeNight Fürth
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:1. Show.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebers
+ icht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20270116-crimenight-fuerth-2045@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T204500
+DTEND;TZID=Europe/Berlin:20270116T224500
+SUMMARY:CrimeNight Fürth
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:2. Show.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebers
+ icht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fue-stadthalle-20270129-musical-starlights-best-of-musicals-2027@myeven
+ thub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T193000
+DTEND;TZID=Europe/Berlin:20270129T213000
+SUMMARY:Musical Starlights – Best of Musicals 2027
+LOCATION:Stadthalle Fürth\, Rosenstraße 50\, 90762 Fürth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+URL:https://www.stadthalle-fuerth.de/veranstaltungsuebersicht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

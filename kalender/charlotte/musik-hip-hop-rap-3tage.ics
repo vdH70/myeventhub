@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hip-Hop/Rap in Charlotte · my Event Hub (Erinnerung 3 Tage vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:clt-spectrum-center-20261101-young-miko-late-checkout-tour@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=America/New_York:20261101T200000
+DTEND;TZID=America/New_York:20261101T220000
+SUMMARY:Young Miko: Late Checkout Tour
+LOCATION:Spectrum Center\, 333 East Trade Street\, 28202 Charlotte
+DESCRIPTION:Hip-Hop-Konzert.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass
+  oder Beginn)\nZeiten: Ortszeit Charlotte\, US-Ostküste\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.spec
+ trumcentercharlotte.com/events/events_ajax/9?category=0&venue=0&team=0&exc
+ lude=&per_page=9&came_from_page=event-list-page
+URL:https://www.spectrumcentercharlotte.com/events/events_ajax/9?category=0
+ &venue=0&team=0&exclude=&per_page=9&came_from_page=event-list-page
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clt-spectrum-center-20261103-rod-wave-don-t-look-down-tour@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=America/New_York:20261103T200000
+DTEND;TZID=America/New_York:20261103T220000
+SUMMARY:Rod Wave: Don't Look Down Tour
+LOCATION:Spectrum Center\, 333 East Trade Street\, 28202 Charlotte
+DESCRIPTION:Hip-Hop-Konzert.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass
+  oder Beginn)\nZeiten: Ortszeit Charlotte\, US-Ostküste\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.spec
+ trumcentercharlotte.com/events/events_ajax/18?category=0&venue=0&team=0&ex
+ clude=&per_page=9&came_from_page=event-list-page
+URL:https://www.spectrumcentercharlotte.com/events/events_ajax/18?category=
+ 0&venue=0&team=0&exclude=&per_page=9&came_from_page=event-list-page
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clt-neighborhood-theatre-20261104-zauntee-god-remembers-tour@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=America/New_York:20261104T200000
+DTEND;TZID=America/New_York:20261104T220000
+SUMMARY:ZAUNTEE: God Remembers Tour
+LOCATION:Neighborhood Theatre\, 511 E 36th Street\, 28205 Charlotte
+DESCRIPTION:Hip-Hop-Konzert mit Zauntee und Skema Boy.\nEinlass 19:00\, Beg
+ inn 20:00 Uhr\nZeiten: Ortszeit Charlotte\, US-Ostküste\nEnde: laut Quell
+ e nicht angegeben\nTickets: https://www.ticketmaster.com/zauntee-god-remem
+ bers-tour-charlotte-north-carolina-11-04-2026/event/2D0064EAD47E56BE\nQuel
+ le (bitte vor dem Besuch prüfen): https://neighborhoodtheatre.com/event/z
+ auntee-god-remembers-tour/
+URL:https://neighborhoodtheatre.com/event/zauntee-god-remembers-tour/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clt-spectrum-center-20261118-doja-cat-tour-ma-vie-world-tour@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=America/New_York:20261118T193000
+DTEND;TZID=America/New_York:20261118T213000
+SUMMARY:Doja Cat: Tour Ma Vie World Tour
+LOCATION:Spectrum Center\, 333 East Trade Street\, 28202 Charlotte
+DESCRIPTION:Arena-Konzert\, Special Guest: Latto.\n19:30 Uhr (die Quelle sa
+ gt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Charlotte\, US-Ostkü
+ ste\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.spectrumcentercharlotte.com/events/events_ajax/18?categor
+ y=0&venue=0&team=0&exclude=&per_page=9&came_from_page=event-list-page
+URL:https://www.spectrumcentercharlotte.com/events/events_ajax/18?category=
+ 0&venue=0&team=0&exclude=&per_page=9&came_from_page=event-list-page
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

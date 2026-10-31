@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Hildesheim · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261103-james-carter-organ-trio@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:James Carter Organ Trio
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Jazzkonzert mit Hommage an John Coltrane. Nur Abendkasse.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.bischofsmuehle.de/navigatio
+ n/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261202-andreas-schaerer-anoa@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Andreas Schaerer & ANOA
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Jazzkonzert. Nur Abendkasse.\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261211-pink-baxter-the-glen-larsen-jr@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Pink Baxter & The Glen Larsen jr. Orchestra – Too Much Is Not Eno
+ ugh #1
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Soul und Jazz. Nur Abendkasse.\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-bischofsmuehle-20261212-pink-baxter-the-glen-larsen-jr@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Pink Baxter & The Glen Larsen jr. Orchestra – Too Much Is Not Eno
+ ugh #2
+LOCATION:Bischofsmühle\, Dammstraße 32\, 31134 Hildesheim
+DESCRIPTION:Soul und Jazz. Nur Abendkasse.\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.bischofsmuehle.de/navigation/programm.html
+URL:https://www.bischofsmuehle.de/navigation/programm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

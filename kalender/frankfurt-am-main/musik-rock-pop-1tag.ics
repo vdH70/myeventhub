@@ -1,0 +1,334 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Frankfurt am Main · my Event Hub (Erinnerung 1 Ta
+ g vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f-festhalle-20261105-tokio-hotel-arena-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Tokio Hotel – Arena Tour 2026 (ausverkauft)
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://festhall
+ e.messefrankfurt.com/frankfurt/de/veranstaltungen/tokiohotel.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/tokio
+ hotel.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20261106-deep-purple-splat-world-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Deep Purple – SPLAT! World Tour 2026
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/event/deep-purple-festhalle-frankfur
+ t-20971802/?affiliate=GMD\nQuelle (bitte vor dem Besuch prüfen): https://
+ festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/deeppurple.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/deepp
+ urple.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-batschkapp-20261108-kaerbholz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T200000
+DTEND;TZID=Europe/Berlin:20261108T220000
+SUMMARY:Kärbholz
+LOCATION:Batschkapp\, Gwinnerstraße 5\, 60388 Frankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.batschkapp.net/
+URL:https://www.batschkapp.net/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-batschkapp-20261113-heaven-17@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Heaven 17
+LOCATION:Batschkapp\, Gwinnerstraße 5\, 60388 Frankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.batschkapp.net/
+URL:https://www.batschkapp.net/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-batschkapp-20261115-eagles-of-death-metal@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T190000
+DTEND;TZID=Europe/Berlin:20261115T210000
+SUMMARY:Eagles of Death Metal
+LOCATION:Batschkapp\, Gwinnerstraße 5\, 60388 Frankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.batschkapp.net/
+URL:https://www.batschkapp.net/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-batschkapp-20261123-selig@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T200000
+DTEND;TZID=Europe/Berlin:20261123T220000
+SUMMARY:Selig
+LOCATION:Batschkapp\, Gwinnerstraße 5\, 60388 Frankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.batschkapp.net/
+URL:https://www.batschkapp.net/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20261201-night-of-the-proms-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T200000
+DTEND;TZID=Europe/Berlin:20261201T220000
+SUMMARY:Night of the Proms 2026
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/artist/night-of-the-proms/night-of-t
+ he-proms-2026-4023823/\nQuelle (bitte vor dem Besuch prüfen): https://fes
+ thalle.messefrankfurt.com/frankfurt/de/veranstaltungen/notp.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/notp.
+ html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20261202-night-of-the-proms-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Night of the Proms 2026
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/artist/night-of-the-proms/night-of-t
+ he-proms-2026-4023823/\nQuelle (bitte vor dem Besuch prüfen): https://fes
+ thalle.messefrankfurt.com/frankfurt/de/veranstaltungen/notp.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/notp.
+ html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20261230-unheilig-special-guests-liebe-glaube-monster-tour@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T191500
+DTEND;TZID=Europe/Berlin:20261230T211500
+SUMMARY:Unheilig & Special Guests – Liebe\, Glaube\, Monster Tour 2026/27
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 19:15 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/event/unheilig-special-guests-liebe-
+ glaube-monster-tour-202627-festhalle-frankfurt-20623034/\nQuelle (bitte vo
+ r dem Besuch prüfen): https://festhalle.messefrankfurt.com/frankfurt/de/v
+ eranstaltungen/unheilig.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/unhei
+ lig.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20270417-thirty-seconds-to-mars-a-beautiful-lie-vs-this-is@
+ myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T200000
+DTEND;TZID=Europe/Berlin:20270417T220000
+SUMMARY:Thirty Seconds to Mars – A Beautiful Lie vs This Is War
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/artist/thirty-seconds-to-mars/\nQuel
+ le (bitte vor dem Besuch prüfen): https://festhalle.messefrankfurt.com/fr
+ ankfurt/de/veranstaltungen/thirtysecondstomars.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/thirt
+ ysecondstomars.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20270424-maffay-oerding-nashville@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T200000
+DTEND;TZID=Europe/Berlin:20270424T220000
+SUMMARY:MAFFAY + OERDING „Nashville“
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://festhalle.messefrankf
+ urt.com/frankfurt/de/veranstaltungen/maffay.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/maffa
+ y.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20270425-maffay-oerding-nashville@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270425T200000
+DTEND;TZID=Europe/Berlin:20270425T220000
+SUMMARY:MAFFAY + OERDING „Nashville“
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://festhalle.messefrankf
+ urt.com/frankfurt/de/veranstaltungen/maffay.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/maffa
+ y.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20270430-lea-sieben-monde-arena-tour-2027@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T190000
+DTEND;TZID=Europe/Berlin:20270430T210000
+SUMMARY:LEA – Sieben Monde Arena Tour 2027
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/event/lea-sieben-monde-arena-tour-20
+ 27-festhalle-frankfurt-20770427/\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/lea.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/lea.h
+ tml
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20270522-abbamania-the-show-thank-you-for-the-music-tour-20
+ @myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270522T193000
+DTEND;TZID=Europe/Berlin:20270522T213000
+SUMMARY:ABBAMANIA THE SHOW – Thank you for the music – Tour 2027
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/event/abbamania-the-show-thank-you-f
+ or-the-music-tour-2027-festhalle-frankfurt-21369136/\nQuelle (bitte vor de
+ m Besuch prüfen): https://festhalle.messefrankfurt.com/frankfurt/de/veran
+ staltungen/abbamania27.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/abbam
+ ania27.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-festhalle-20270914-ronan-keating-just-getting-started-world-tour@myev
+ enthub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270914T200000
+DTEND;TZID=Europe/Berlin:20270914T220000
+SUMMARY:Ronan Keating – Just Getting Started World Tour
+LOCATION:Festhalle Frankfurt\, Ludwig-Erhard-Anlage 1\, 60327 Frankfurt am 
+ Main
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/event/ronan-keating-just-getting-sta
+ rted-world-tour-festhalle-frankfurt-22141942/\nQuelle (bitte vor dem Besuc
+ h prüfen): https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltun
+ gen/ronankeating.html
+URL:https://festhalle.messefrankfurt.com/frankfurt/de/veranstaltungen/ronan
+ keating.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

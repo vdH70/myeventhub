@@ -1,0 +1,1074 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Berlin · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ber-frannz-club-20261101-mina-richman@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T200000
+DTEND;TZID=Europe/Berlin:20261101T220000
+SUMMARY:Mina Richman
+LOCATION:Frannz Club\, Schönhauser Allee 36\, 10435 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://frannz.eu/
+URL:https://frannz.eu/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-admiralspalast-20261102-joe-jackson-band-hope-and-fury-tour-2026@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T193000
+DTEND;TZID=Europe/Berlin:20261102T213000
+SUMMARY:Joe Jackson & Band – Hope and Fury Tour 2026
+LOCATION:Admiralspalast\, Friedrichstraße 101\, 10117 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.admiralspalast.theater/veranstaltung/joe-jackson-ba
+ nd-hope-and-fury-tour-2026.html
+URL:https://www.admiralspalast.theater/veranstaltung/joe-jackson-band-hope-
+ and-fury-tour-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-frannz-club-20261102-call-me-karizma-i-m-no-american-idol-tou@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:Call Me Karizma – I'm no American Idol Tour
+LOCATION:Frannz Club\, Schönhauser Allee 36\, 10435 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://frannz.eu/
+URL:https://frannz.eu/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261104-deep-purple@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Deep Purple
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261104-brian-fallon-the-painkillers-not-bad-for@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:BRIAN FALLON & THE PAINKILLERS „Not Bad for New Jersey Tour“ + 
+ CHRIS FARREN (ausverkauft)
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.astr
+ a-berlin.de/
+URL:https://www.astra-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261107-tokio-hotel@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Tokio Hotel
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261111-eagles-of-death-metal-death-by-sexy-anni@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:EAGLES OF DEATH METAL „Death by Sexy Anniversary 2026“ + JAMES 
+ AND THE COLD GUN
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.astra-berlin.de/
+URL:https://www.astra-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-admiralspalast-20261115-karat-50-1@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Karat 50+1
+LOCATION:Admiralspalast\, Friedrichstraße 101\, 10117 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.admiralspalast.theater/veranstaltung/karat-50-1.htm
+ l
+URL:https://www.admiralspalast.theater/veranstaltung/karat-50-1.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-lido-20261115-ceren-xoxo-ceren-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T210000
+DTEND;TZID=Europe/Berlin:20261115T230000
+SUMMARY:CEREN „xoxo\, Ceren Tour 2026“ (ausverkauft)
+LOCATION:Lido\, Cuvrystraße 7\, 10997 Berlin
+DESCRIPTION:Einlass 20:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.lido
+ -berlin.de/
+URL:https://www.lido-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261115-mother-s-cake@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:MOTHER'S CAKE
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/
+URL:https://www.so36.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20261117-hatsune-miku@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Hatsune Miku
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261118-muse@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T193000
+DTEND;TZID=Europe/Berlin:20261118T213000
+SUMMARY:Muse
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261121-dancing-with-tears-in-your-eyes-die-80er-party@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T210000
+DTEND;TZID=Europe/Berlin:20261121T230000
+SUMMARY:Dancing With Tears In Your Eyes – Die 80er Party
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:80er-Party mit Pop\, Rock\, Wave\, NDW und Punk.\nEinlass 21:00
+ \, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: AK 12 €\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/produkte/96994
+ -tickets-dancing-with-tears-in-your-eyes-so36-berlin-am-21-11-2026
+URL:https://www.so36.com/produkte/96994-tickets-dancing-with-tears-in-your-
+ eyes-so36-berlin-am-21-11-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-huxleys-neue-welt-20261124-strangelove-the-depeche-mode-experience@
+ myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Strangelove – The DEPECHE MODE Experience
+LOCATION:Huxleys Neue Welt\, Hasenheide 107–113\, 10967 Berlin
+DESCRIPTION:Depeche-Mode-Tributeshow mit Sänger Leo Luganskiy zum 40. Jubi
+ läum des Albums „Black Celebration“.\nEinlass 19:00\, Beginn 20:00 Uh
+ r\nEnde: laut Quelle nicht angegeben\nTickets: https://www.eventim.de/even
+ t/strangelove-the-depeche-mode-experience-40-years-of-black-celebration-eu
+ ropean-tour-2026-huxleys-neue-welt-21698280/\nQuelle (bitte vor dem Besuch
+  prüfen): https://trinitymusic.de/event/2026-11-24-strangelove-the-depech
+ e-mode-experience
+URL:https://trinitymusic.de/event/2026-11-24-strangelove-the-depeche-mode-e
+ xperience
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-quasimodo-20261127-sting-the-police-a-tribute-by-glam-up@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T220000
+DTEND;TZID=Europe/Berlin:20261128T000000
+SUMMARY:STING THE POLICE – A Tribute by GLAM UP!
+LOCATION:Quasimodo\, Kantstraße 12A\, 10623 Berlin
+DESCRIPTION:Tribute-Konzert zu Sting und The Police.\n22:00 Uhr (die Quelle
+  sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\n
+ Tickets: https://quasimodoberlin.ticket.io/4cplWRLV/\nQuelle (bitte vor de
+ m Besuch prüfen): https://quasimodo.club/events
+URL:https://quasimodo.club/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261128-dominik-hartz-verstr-ckt-tour-2026@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:DOMINIK HARTZ „verstr!ckt Tour 2026“
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.astra-berlin.de/
+URL:https://www.astra-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-max-schmeling-halle-20261128-berq-tour-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:berq – Tour 2026 (ausverkauft)
+LOCATION:Max-Schmeling-Halle\, Falkplatz 1\, 10437 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.max-schmeling-halle.de/events
+URL:https://www.max-schmeling-halle.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20261129-kehlani@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T200000
+DTEND;TZID=Europe/Berlin:20261129T220000
+SUMMARY:Kehlani
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261202-selig-the-epic-years-tour-2026@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:SELIG „The Epic Years“ Tour 2026
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.astra-berlin.de/
+URL:https://www.astra-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261202-pur@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:PUR
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261204-sdp-the-capital-dance-orchestra@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:SDP & The Capital Dance Orchestra
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261205-sdp-the-capital-dance-orchestra@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:SDP & The Capital Dance Orchestra
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-astra-kulturhaus-20261207-voila-presents-moonbloom@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T200000
+DTEND;TZID=Europe/Berlin:20261207T220000
+SUMMARY:VOILÀ presents MOONBLOOM
+LOCATION:Astra Kulturhaus\, Revaler Straße 99\, 10245 Berlin
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.astra-berlin.de/
+URL:https://www.astra-berlin.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261208-bap@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T193000
+DTEND;TZID=Europe/Berlin:20261208T213000
+SUMMARY:BAP
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-quasimodo-20261212-always-amy-a-tribute-to-amy-winehouse@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T220000
+DTEND;TZID=Europe/Berlin:20261213T000000
+SUMMARY:Always Amy – A tribute to Amy Winehouse
+LOCATION:Quasimodo\, Kantstraße 12A\, 10623 Berlin
+DESCRIPTION:Tribute-Konzert zu Amy Winehouse.\n22:00 Uhr (die Quelle sagt n
+ icht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nTickets
+ : https://quasimodoberlin.ticket.io/qK64aDVB/\nQuelle (bitte vor dem Besuc
+ h prüfen): https://quasimodo.club/events
+URL:https://quasimodo.club/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20261216-101-voices-depeche-mode-special-tribute@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:101 Voices - Depeche Mode Special Tribute
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Tribute-Konzert zu Depeche Mode.\n20:00 Uhr (die Quelle sagt ni
+ cht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-so36-20261219-dancing-with-tears-in-your-eyes-die-80er-party@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T210000
+DTEND;TZID=Europe/Berlin:20261219T230000
+SUMMARY:Dancing With Tears In Your Eyes – Die 80er Party
+LOCATION:SO36\, Oranienstr. 190\, 10999 Berlin
+DESCRIPTION:80er-Party mit Pop\, Rock\, Wave\, NDW und Punk.\nEinlass 21:00
+ \, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: AK 12 €\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.so36.com/produkte/96995
+ -tickets-dancing-with-tears-in-your-eyes-so36-berlin-am-19-12-2026
+URL:https://www.so36.com/produkte/96995-tickets-dancing-with-tears-in-your-
+ eyes-so36-berlin-am-19-12-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270107-unheilig@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T191500
+DTEND;TZID=Europe/Berlin:20270107T211500
+SUMMARY:Unheilig
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270126-aespa@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T200000
+DTEND;TZID=Europe/Berlin:20270126T220000
+SUMMARY:aespa
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270206-unheilig@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T191500
+DTEND;TZID=Europe/Berlin:20270206T211500
+SUMMARY:Unheilig
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270209-one-vision-of-queen-feat-marc-martel@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270209T193000
+DTEND;TZID=Europe/Berlin:20270209T213000
+SUMMARY:One Vision of Queen feat. Marc Martel
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270220-90s-super-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T170000
+DTEND;TZID=Europe/Berlin:20270220T190000
+SUMMARY:90s Super Show
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270221-rush@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T200000
+DTEND;TZID=Europe/Berlin:20270221T220000
+SUMMARY:RUSH
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270305-enhypen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T193000
+DTEND;TZID=Europe/Berlin:20270305T213000
+SUMMARY:ENHYPEN
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270306-enhypen@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T193000
+DTEND;TZID=Europe/Berlin:20270306T213000
+SUMMARY:ENHYPEN
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270311-teddy-swims@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T200000
+DTEND;TZID=Europe/Berlin:20270311T220000
+SUMMARY:Teddy Swims
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270320-james-blunt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T200000
+DTEND;TZID=Europe/Berlin:20270320T220000
+SUMMARY:James Blunt
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270415-chris-norman@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270415T193000
+DTEND;TZID=Europe/Berlin:20270415T213000
+SUMMARY:Chris Norman
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270417-maffay-oerding@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T200000
+DTEND;TZID=Europe/Berlin:20270417T220000
+SUMMARY:Maffay + Oerding
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20270418-thirty-seconds-to-mars@myeventhub.de
+DTSTAMP:20261007T000000Z
+DTSTART;TZID=Europe/Berlin:20270418T200000
+DTEND;TZID=Europe/Berlin:20270418T220000
+SUMMARY:Thirty Seconds To Mars
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270421-simple-minds@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270421T194500
+DTEND;TZID=Europe/Berlin:20270421T214500
+SUMMARY:Simple Minds
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-max-schmeling-halle-20270430-paula-hartmann-das-traurigste-maedchen
+ -der-welt-to@myeventhub.de
+DTSTAMP:20261007T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T200000
+DTEND;TZID=Europe/Berlin:20270430T220000
+SUMMARY:Paula Hartmann – Das traurigste Mädchen der Welt Tour 2027
+LOCATION:Max-Schmeling-Halle\, Falkplatz 1\, 10437 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.max-schmeling-halle.de/events
+URL:https://www.max-schmeling-halle.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270502-lea@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270502T190000
+DTEND;TZID=Europe/Berlin:20270502T210000
+SUMMARY:LEA
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270512-gracie-abrams@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270512T200000
+DTEND;TZID=Europe/Berlin:20270512T220000
+SUMMARY:Gracie Abrams
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-velodrom-20270512-hilary-duff-the-lucky-me-tour-2027@myeventhub.de
+DTSTAMP:20261007T000000Z
+DTSTART;TZID=Europe/Berlin:20270512T200000
+DTEND;TZID=Europe/Berlin:20270512T220000
+SUMMARY:Hilary Duff – the lucky me tour 2027
+LOCATION:Velodrom\, Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.velodrom.de/events
+URL:https://www.velodrom.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270513-gracie-abrams@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270513T200000
+DTEND;TZID=Europe/Berlin:20270513T220000
+SUMMARY:Gracie Abrams
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270514-abbamania@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270514T193000
+DTEND;TZID=Europe/Berlin:20270514T213000
+SUMMARY:ABBAMANIA
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270521-greta-van-fleet@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270521T200000
+DTEND;TZID=Europe/Berlin:20270521T220000
+SUMMARY:Greta Van Fleet
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270601-rod-stewart@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270601T200000
+DTEND;TZID=Europe/Berlin:20270601T220000
+SUMMARY:Rod Stewart
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20270702-harry-styles-together-together@myeventhu
+ b.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:Harry Styles: Together\, Together
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.thf-berlin.d
+ e/aktuelles/veranstaltungen/veranstaltung/harry-styles-together-together
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/harry
+ -styles-together-together
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20270703-harry-styles-together-together@myeventhu
+ b.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Harry Styles: Together\, Together
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.thf-berlin.d
+ e/aktuelles/veranstaltungen/veranstaltung/harry-styles-together-together
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/harry
+ -styles-together-together
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20270709-harry-styles-together-together-zusatzsho
+ w@myeventhub.de
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:Harry Styles: Together\, Together – Zusatzshow
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.thf-berlin.d
+ e/aktuelles/veranstaltungen/veranstaltung/harry-styles-in-berlin-together-
+ together-zusatzshow
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/harry
+ -styles-in-berlin-together-together-zusatzshow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-flughafen-tempelhof-20270710-harry-styles-together-together@myeventhu
+ b.de
+DTSTAMP:20261012T000000Z
+DTSTART;TZID=Europe/Berlin:20270710T200000
+DTEND;TZID=Europe/Berlin:20270710T220000
+SUMMARY:Harry Styles: Together\, Together
+LOCATION:Flughafen Tempelhof (Besucherzentrum CHECK-IN)\, Platz der Luftbr
+ ücke 5\, 12101 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltu
+ ng/harry-styles-in-berlin-together-together-107
+URL:https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/harry
+ -styles-in-berlin-together-together-107
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270913-ronan-keating@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270913T200000
+DTEND;TZID=Europe/Berlin:20270913T220000
+SUMMARY:Ronan Keating
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20270925-montez@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270925T190000
+DTEND;TZID=Europe/Berlin:20270925T210000
+SUMMARY:Montez
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20271023-nena@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271023T200000
+DTEND;TZID=Europe/Berlin:20271023T220000
+SUMMARY:Nena
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20271028-die-prinzen@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271028T193000
+DTEND;TZID=Europe/Berlin:20271028T213000
+SUMMARY:Die Prinzen
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-uber-arena-20271127-wincent-weiss@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271127T200000
+DTEND;TZID=Europe/Berlin:20271127T220000
+SUMMARY:Wincent Weiss
+LOCATION:Uber Arena\, Uber Platz 1\, 10243 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.uber-arena.de/events
+URL:https://www.uber-arena.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

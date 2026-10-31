@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Detmold · my Event Hub (Erinnerung 3 Stunden vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lip-stadthalle-detmold-20261114-chorios-lippe-jubilaeumskonzert@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Chorios Lippe – Jubiläumskonzert
+LOCATION:Stadthalle Detmold\, Schlossplatz 7\, 32756 Detmold
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-detmold.de/veranstaltungen/kalender/year
+ /2026/month/11/
+URL:https://www.stadthalle-detmold.de/veranstaltungen/kalender/year/2026/mo
+ nth/11/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-stadthalle-detmold-20270109-owls-n-bats-winterfest@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T190000
+DTEND;TZID=Europe/Berlin:20270109T210000
+SUMMARY:Owls'n'Bats Winterfest
+LOCATION:Stadthalle Detmold\, Schlossplatz 7\, 32756 Detmold
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-detmold.de/veranstaltungen/kalender/year
+ /2027/month/1/
+URL:https://www.stadthalle-detmold.de/veranstaltungen/kalender/year/2027/mo
+ nth/1/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-stadthalle-detmold-20270311-das-23-detmolder-rudelsingen@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T193000
+DTEND;TZID=Europe/Berlin:20270311T213000
+SUMMARY:Das 23. Detmolder Rudelsingen
+LOCATION:Stadthalle Detmold\, Schlossplatz 7\, 32756 Detmold
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-detmold.de/veranstaltungen/kalender/year
+ /2027/month/3/
+URL:https://www.stadthalle-detmold.de/veranstaltungen/kalender/year/2027/mo
+ nth/3/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

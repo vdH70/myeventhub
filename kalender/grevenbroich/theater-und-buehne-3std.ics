@@ -1,0 +1,135 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Grevenbroich · my Event Hub (Erinnerung 3
+  Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ne-villa-erckens-20261105-tim-theater-im-museum-und-konnten-es-einfach-
+ nicht@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:TiM – Theater im Museum: „… und konnten es einfach nicht fass
+ en!“
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/tim-theate
+ r-im-museum-und-konnten-es-einfach-nicht-fassen/
+URL:https://www.museum-niederrheinische-seele.de/termine/tim-theater-im-mus
+ eum-und-konnten-es-einfach-nicht-fassen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-pascal-gymnasium-forum-20261121-eva-eiselt-jetzt-oder-sie@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Eva Eiselt – Jetzt oder Sie
+LOCATION:Forum des Pascal-Gymnasiums\, Grevenbroich
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nPreis: 24\,50 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.grevenbroich.de/leben
+ -in-grevenbroich/kultur-freizeit/kultur-programm/kultur-extra
+URL:https://www.grevenbroich.de/leben-in-grevenbroich/kultur-freizeit/kultu
+ r-programm/kultur-extra
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20261126-tim-theater-im-museum-egal-von-marius-von-may
+ enbur@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T190000
+DTEND;TZID=Europe/Berlin:20261126T210000
+SUMMARY:TiM – Theater im Museum: „Egal“ von Marius von Mayenburg
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/tim-theate
+ r-im-museum-egal-von-marius-von-mayenburg/
+URL:https://www.museum-niederrheinische-seele.de/termine/tim-theater-im-mus
+ eum-egal-von-marius-von-mayenburg/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-pascal-gymnasium-forum-20261212-jochen-malmsheimer-dogensuppe-herzog
+ in@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Jochen Malmsheimer – Dogensuppe Herzogin
+LOCATION:Forum des Pascal-Gymnasiums\, Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 27\,50 €\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.grevenbroich.de/leben-in-grevenb
+ roich/kultur-freizeit/kultur-programm/kultur-extra
+URL:https://www.grevenbroich.de/leben-in-grevenbroich/kultur-freizeit/kultu
+ r-programm/kultur-extra
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20270219-stefan-verhasselt-best-of-niederrhein@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T190000
+DTEND;TZID=Europe/Berlin:20270219T210000
+SUMMARY:Stefan Verhasselt – Best of Niederrhein
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/stefan-ver
+ hasselt-best-of-niederrhein/
+URL:https://www.museum-niederrheinische-seele.de/termine/stefan-verhasselt-
+ best-of-niederrhein/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

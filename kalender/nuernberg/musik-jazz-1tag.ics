@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Nürnberg · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:n-kulturwerkstatt-auf-aeg-20261107-soft-entropy-vol-iii-feat-wanja-slav
+ in@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Soft Entropy Vol. III feat. Wanja Slavin
+LOCATION:Kulturwerkstatt Auf AEG\, Fürther Straße 244d\, 90429 Nürnberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 15 € / 10 €\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.nuernberg.de/internet/kuf_k
+ ultur/kulturwerkstatt_10_jahre_10_tage.html
+URL:https://www.nuernberg.de/internet/kuf_kultur/kulturwerkstatt_10_jahre_1
+ 0_tage.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-kulturwerkstatt-auf-aeg-20261108-studio-session-soft-entropy-vol-iii-
+ feat-wanja-sla@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T160000
+DTEND;TZID=Europe/Berlin:20261108T180000
+SUMMARY:Studio Session Soft Entropy Vol. III feat. Wanja Slavin
+LOCATION:Kulturwerkstatt Auf AEG\, Fürther Straße 244d\, 90429 Nürnberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.nuernberg.de/internet/kuf_kultur/kulturwerkstatt_10
+ _jahre_10_tage.html
+URL:https://www.nuernberg.de/internet/kuf_kultur/kulturwerkstatt_10_jahre_1
+ 0_tage.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-hirsch-20270418-jazzkantine@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270418T200000
+DTEND;TZID=Europe/Berlin:20270418T220000
+SUMMARY:Jazzkantine
+LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.der-hirsch.com/events.html
+URL:https://www.der-hirsch.com/events.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

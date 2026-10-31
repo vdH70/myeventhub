@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Krakau · my Event Hub (Erinnerung 1 Tag vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:krk-muzeum-narodowe-20260515-satyra-i-komiks-u-jana-matejki-ende@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Satyra i komiks u Jana Matejki
+LOCATION:Muzeum Narodowe w Krakowie\, Krakau
+DESCRIPTION:Ausstellung in der Filiale Dom Jana Matejki.\nLaufzeit: 15.5.20
+ 26 bis 31.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://mnk.pl/ws
+ zystkie-wystawy/
+URL:https://mnk.pl/wszystkie-wystawy/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:krk-muzeum-narodowe-20260908-pod-zaglami-i-gwiazdami-morza-porty-i-zegl
+ arze-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Pod żaglami i gwiazdami – morza\, porty i żeglarze
+LOCATION:Muzeum Narodowe w Krakowie\, Krakau
+DESCRIPTION:Ausstellung in der Filiale Muzeum im. Czapskich.\nLaufzeit: 8.9
+ .2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://mnk.pl/
+ wszystkie-wystawy/
+URL:https://mnk.pl/wszystkie-wystawy/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:krk-muzeum-narodowe-20260911-picasso-i-pikasiaki-nowoczesna-ceramika-en
+ de@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Picasso i pikasiaki. Nowoczesna ceramika
+LOCATION:Muzeum Narodowe w Krakowie\, Krakau
+DESCRIPTION:Ausstellung in der Filiale Kamienica Szołayskich.\nLaufzeit: 1
+ 1.9.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://mnk.
+ pl/wszystkie-wystawy/
+URL:https://mnk.pl/wszystkie-wystawy/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:krk-muzeum-narodowe-20260918-oblicza-czapskiego-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Oblicza Czapskiego
+LOCATION:Muzeum Narodowe w Krakowie\, Krakau
+DESCRIPTION:Ausstellung in der Filiale Gmach Główny.\nLaufzeit: 18.9.2026
+  bis 31.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://mnk.pl/wszy
+ stkie-wystawy/
+URL:https://mnk.pl/wszystkie-wystawy/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,564 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kirchen in Magdeburg · my Event Hub (Erinnerung 3 Tage vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:md-dom-20261031-festgottesdienst-zum-reformationstag@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T100000
+DTEND;TZID=Europe/Berlin:20261031T120000
+SUMMARY:Festgottesdienst zum Reformationstag
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Festgottesdienst mit Abendmahl und Taufe\, Predigt Christoph Ma
+ rkschies (Berlin).\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.magdeburgerdom.de/
+URL:https://www.magdeburgerdom.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261031-festkonzert-am-reformationstag-magdeburg@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Festkonzert am Reformationstag: Magdeburger Dombläser
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Bläserkonzert der Magdeburger Dombläser zum Reformationstag i
+ m Dom.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (b
+ itte vor dem Besuch prüfen): https://magdeburgerdommusik.de/veranstaltung
+ en/
+URL:https://magdeburgerdommusik.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261101-moerdern-auf-der-spur-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Mördern auf der Spur 2026
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261108-vokal-ensemble-batumi@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Vokal Ensemble Batumi
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Konzert des Staatschors der georgischen Region Adscharien im Do
+ m.\nEnde: laut Quelle nicht angegeben\nPreis: 24\,28 €\, erm. 19\,62 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://magdeburgerdommusik.de/ve
+ ranstaltungen/
+URL:https://magdeburgerdommusik.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261121-candlelight-tribut-an-hans-zimmer@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T183000
+DTEND;TZID=Europe/Berlin:20261121T203000
+SUMMARY:Candlelight – Tribut an Hans Zimmer
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261121-candlelight-vivaldis-vier-jahreszeiten@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T204500
+DTEND;TZID=Europe/Berlin:20261121T224500
+SUMMARY:Candlelight – Vivaldis „Vier Jahreszeiten“
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261127-joachim-witt-lux-aeterna-kirchentour-202@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Joachim Witt – Lux Aeterna – Kirchentour 2026
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261129-festgottesdienst-zum-1-advent-mit-domcho@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T100000
+DTEND;TZID=Europe/Berlin:20261129T120000
+SUMMARY:Festgottesdienst zum 1. Advent mit Domchor und Domsingschule
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Festgottesdienst am ersten Adventssonntag mit dem Magdeburger D
+ omchor.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://magdeburgerdommusik.de/veranstaltungen/
+URL:https://magdeburgerdommusik.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261129-wohnzimmerkonzert-mit-simon-becker-und-m@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T170000
+DTEND;TZID=Europe/Berlin:20261129T190000
+SUMMARY:Wohnzimmerkonzert mit Simon Becker und Manuel Richter
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261201-dresdner-kreuzchor-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T190000
+DTEND;TZID=Europe/Berlin:20261201T210000
+SUMMARY:Dresdner Kreuzchor 2026
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261202-norbertus-musiziert-adventskonzert@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T180000
+DTEND;TZID=Europe/Berlin:20261202T200000
+SUMMARY:Norbertus musiziert – Adventskonzert
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261203-norbertus-musiziert-adventskonzert@myeventhu
+ b.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T180000
+DTEND;TZID=Europe/Berlin:20261203T200000
+SUMMARY:Norbertus musiziert – Adventskonzert
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261204-adventskonzert-des-oekumenischen-domgymn@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T160000
+DTEND;TZID=Europe/Berlin:20261204T180000
+SUMMARY:Adventskonzert des Ökumenischen Domgymnasiums
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Adventskonzert der Musikgruppen des Domgymnasiums mit der Dommu
+ sik\, auch um 19 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt 
+ frei\nQuelle (bitte vor dem Besuch prüfen): https://www.magdeburgerdom.de
+ /content/dommusik/material/MD_Dommusik_2026.pdf
+URL:https://www.magdeburgerdom.de/content/dommusik/material/MD_Dommusik_202
+ 6.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261204-adventskonzert-domgymnasium-19@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T190000
+DTEND;TZID=Europe/Berlin:20261204T210000
+SUMMARY:Adventskonzert des Ökumenischen Domgymnasiums
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Adventskonzert der Musikgruppen des Domgymnasiums mit der Dommu
+ sik.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.magdeburgerdom.de/content/dommusik
+ /material/MD_Dommusik_2026.pdf
+URL:https://www.magdeburgerdom.de/content/dommusik/material/MD_Dommusik_202
+ 6.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261205-weihnachtsoratorium-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T170000
+DTEND;TZID=Europe/Berlin:20261205T190000
+SUMMARY:Weihnachtsoratorium 2026
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261206-gaby-albrecht-weihnachtskonzert-2026@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T160000
+DTEND;TZID=Europe/Berlin:20261206T180000
+SUMMARY:Gaby Albrecht – Weihnachtskonzert 2026
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261208-benefizkonzert-landeskommando-sachsen-an@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T193000
+DTEND;TZID=Europe/Berlin:20261208T213000
+SUMMARY:Benefizkonzert Landeskommando Sachsen-Anhalt
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261209-claudia-michelsen-ein-weihnachtsabend-vo@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T190000
+DTEND;TZID=Europe/Berlin:20261209T210000
+SUMMARY:Claudia Michelsen – Ein Weihnachtsabend voller Erzählungen mit M
+ usik 2026
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261210-wiener-operetten-weihnacht-2026@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T160000
+DTEND;TZID=Europe/Berlin:20261210T180000
+SUMMARY:Wiener Operetten Weihnacht 2026
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261211-felix-raeuber-wie-klingt-weihnachten-202@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Felix Räuber – Wie klingt Weihnachten 2026
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261213-bach-weihnachtsoratorium-iiii@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T160000
+DTEND;TZID=Europe/Berlin:20261213T180000
+SUMMARY:Bach: Weihnachtsoratorium I–III
+LOCATION:Remter am Magdeburger Dom
+DESCRIPTION:Kantaten I bis III des Weihnachtsoratoriums im Remter.\nEnde: l
+ aut Quelle nicht angegeben\nPreis: Kat. I 20 € (erm. 18 €)\, Kat. II 1
+ 6 € (erm. 14 €)\nQuelle (bitte vor dem Besuch prüfen): https://magdeb
+ urgerdommusik.de/veranstaltungen/
+URL:https://magdeburgerdommusik.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261213-bach-weihnachtsoratorium-ivvi@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T193000
+DTEND;TZID=Europe/Berlin:20261213T213000
+SUMMARY:Bach: Weihnachtsoratorium IV–VI
+LOCATION:Remter am Magdeburger Dom
+DESCRIPTION:Kantaten IV bis VI des Weihnachtsoratoriums im Remter.\nEnde: l
+ aut Quelle nicht angegeben\nPreis: Kat. I 20 € (erm. 18 €)\, Kat. II 1
+ 6 € (erm. 14 €)\nQuelle (bitte vor dem Besuch prüfen): https://magdeb
+ urgerdommusik.de/veranstaltungen/
+URL:https://magdeburgerdommusik.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261218-weihnachtssingen-des-magdeburger-domchor@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T190000
+DTEND;TZID=Europe/Berlin:20261218T210000
+SUMMARY:Weihnachtssingen des Magdeburger Domchores
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Weihnachtliches Chorsingen mit Domchor\, Domsingschule und Domb
+ läsern.\nEnde: laut Quelle nicht angegeben\nPreis: Kat. I 12 € (erm. 10
+  €)\, Kat. II 10 € (erm. 8 €)\nQuelle (bitte vor dem Besuch prüfen)
+ : https://magdeburgerdommusik.de/veranstaltungen/
+URL:https://magdeburgerdommusik.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261218-philharmonie-frankfurt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T190000
+DTEND;TZID=Europe/Berlin:20261218T210000
+SUMMARY:Philharmonie Frankfurt
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261219-weihnachtssingen-des-magdeburger-domchor@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T170000
+DTEND;TZID=Europe/Berlin:20261219T190000
+SUMMARY:Weihnachtssingen des Magdeburger Domchores
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Weihnachtliches Chorsingen\, zweite Aufführung um 19 Uhr.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: Kat. I 12 € (erm. 10 €)\, Kat. 
+ II 10 € (erm. 8 €)\nQuelle (bitte vor dem Besuch prüfen): https://mag
+ deburgerdommusik.de/veranstaltungen/
+URL:https://magdeburgerdommusik.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261219-weihnachtssingen-domchor-19@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:Weihnachtssingen des Magdeburger Domchores
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Weihnachtliches Chorsingen mit Domchor\, Domsingschule und Domb
+ läsern.\nEnde: laut Quelle nicht angegeben\nPreis: Kat. I 12 € (erm. 10
+  €)\, Kat. II 10 € (erm. 8 €)\nQuelle (bitte vor dem Besuch prüfen)
+ : https://magdeburgerdommusik.de/veranstaltungen/
+URL:https://magdeburgerdommusik.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-dom-20261225-festgottesdienst-am-1-weihnachtstag-mit@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T100000
+DTEND;TZID=Europe/Berlin:20261225T120000
+SUMMARY:Festgottesdienst am 1. Weihnachtstag mit dem Domchor
+LOCATION:Magdeburger Dom\, Am Dom 1\, 39104 Magdeburg
+DESCRIPTION:Weihnachtlicher Festgottesdienst mit dem Magdeburger Domchor.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.magdeburgerdom.de/content/dommusik/material/MD_Dommusik_2026.p
+ df
+URL:https://www.magdeburgerdom.de/content/dommusik/material/MD_Dommusik_202
+ 6.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20270106-best-of-classic-das-wiener-neujahrskonze@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T170000
+DTEND;TZID=Europe/Berlin:20270106T190000
+SUMMARY:Best of Classic – Das Wiener Neujahrskonzert 2027
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20270113-swing-forever-glenn-miller-orchestra-dir@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T200000
+DTEND;TZID=Europe/Berlin:20270113T220000
+SUMMARY:„Swing Forever“ – Glenn Miller Orchestra directed by Uli Plet
+ tendorff
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

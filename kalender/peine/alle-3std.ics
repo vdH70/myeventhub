@@ -1,0 +1,168 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Peine · my Event Hub (Erinnerung 3 Stunden vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pe-kreismuseum-20260314-alter-verwalter-deine-kohle-deine-entscheidung-
+ mit-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Alter Verwalter! Deine Kohle - Deine Entscheidung! Mit
+ mach-Ausstellung
+LOCATION:Kreismuseum Peine\, Stederdorfer Straße 17\, 31224 Peine
+DESCRIPTION:Mitmach-Ausstellung darüber\, wofür Städte und Gemeinden ihr
+  Geld ausgeben.\nLaufzeit: 14.3.2026 bis 22.11.2026\nPreis: Eintritt koste
+ nfrei\nQuelle (bitte vor dem Besuch prüfen): https://www.kreismuseum-pein
+ e.de/ausstellung/sonderausstellung/
+URL:https://www.kreismuseum-peine.de/ausstellung/sonderausstellung/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pe-festsaele-20261104-herzfaden@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Herzfaden
+LOCATION:Stadttheater Peiner Festsäle\, Peine
+DESCRIPTION:Schauspiel über die Entstehung der Augsburger Puppenkiste.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.kulturring-peine.de/kulturring-peine/terminkalender/index.php
+URL:https://www.kulturring-peine.de/kulturring-peine/terminkalender/index.p
+ hp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pe-festsaele-20261105-lilly-und-die-erbse@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T160000
+DTEND;TZID=Europe/Berlin:20261105T180000
+SUMMARY:Lilly und die Erbse
+LOCATION:Stadttheater Peiner Festsäle\, Peine
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturring-peine.de/kulturring-peine/terminkalender
+ /index.php
+URL:https://www.kulturring-peine.de/kulturring-peine/terminkalender/index.p
+ hp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pe-forum-20261114-from-zero@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:From Zero
+LOCATION:Forum Peine\, Peine
+DESCRIPTION:Linkin-Park-Tributeband\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.kulturring-peine.de/kultur
+ ring-peine/terminkalender/index.php
+URL:https://www.kulturring-peine.de/kulturring-peine/terminkalender/index.p
+ hp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pe-innenstadt-weihnachtsstadt-20261127-weihnachtsstadt-peine-beginn@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Weihnachtsstadt Peine
+LOCATION:Peiner Innenstadt (Weihnachtsstadt)\, 31224 Peine
+DESCRIPTION:Weihnachtsmarkt in der Peiner Innenstadt.\nLaufzeit: 27.11.2026
+  bis 23.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.peine-
+ erleben.de/erleben/events/weihnachtsstadt-peine/
+URL:https://www.peine-erleben.de/erleben/events/weihnachtsstadt-peine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pe-innenstadt-weihnachtsstadt-20261127-weihnachtsstadt-peine-ende@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Weihnachtsstadt Peine
+LOCATION:Peiner Innenstadt (Weihnachtsstadt)\, 31224 Peine
+DESCRIPTION:Weihnachtsmarkt in der Peiner Innenstadt.\nLaufzeit: 27.11.2026
+  bis 23.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.peine-
+ erleben.de/erleben/events/weihnachtsstadt-peine/
+URL:https://www.peine-erleben.de/erleben/events/weihnachtsstadt-peine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pe-stadtbuecherei-20261212-harzer-puppenbuehne-figurentheater-favoletta
+ -zu-ga@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T150000
+DTEND;TZID=Europe/Berlin:20261212T170000
+SUMMARY:Harzer Puppenbühne / Figurentheater Favoletta zu Gast in der Stadt
+ bücherei
+LOCATION:Stadtbücherei Peine\, Winkel 30a\, 31224 Peine
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.peine.de/de/stadtleben/bildun
+ g-und-kultur/stadtbuecherei/veranstaltungen.php
+URL:https://www.peine.de/de/stadtleben/bildung-und-kultur/stadtbuecherei/ve
+ ranstaltungen.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

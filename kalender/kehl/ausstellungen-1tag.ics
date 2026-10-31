@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Kehl · my Event Hub (Erinnerung 1 Tag vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:og-kulturhaus-kehl-20261009-trinationale-urban-sketchers-ausstellung-mi
+ tmachak-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: Trinationale urban sketchers Ausstellung/Mitmachaktion
+ en
+LOCATION:Das Kulturhaus Kehl\, Am Läger 12\, 77694 Kehl
+DESCRIPTION:Laufzeit: 9.10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kehl.de/site/Kehl/node/1125386/zmdetail_109495222/
+ index.html?nodeID=109495222
+URL:https://www.kehl.de/site/Kehl/node/1125386/zmdetail_109495222/index.htm
+ l?nodeID=109495222
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

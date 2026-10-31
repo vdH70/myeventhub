@@ -1,0 +1,282 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Grevenbroich · my Event Hub (Erinnerung 3 Stunden v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ne-villa-erckens-20261004-hanne-horn-provokation-fotoarbeiten-2001-2026
+ -ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Hanne Horn. Provokation – Fotoarbeiten 2001-2026
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Fotografische Arbeiten.\nLaufzeit: 4.10.2026 bis 22.11.2026\nQu
+ elle (bitte vor dem Besuch prüfen): http://www.museum-niederrheinische-se
+ ele.de
+URL:http://www.museum-niederrheinische-seele.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20261107-kulturnacht-fuehrung-durch-die-ausstellung-pr
+ ovoka@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T180000
+DTEND;TZID=Europe/Berlin:20261107T200000
+SUMMARY:Kulturnacht: Führung durch die Ausstellung „Provokation“ (Hann
+ e Horn)
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kulturnach
+ t-fuehrung-hanne-horn-provokation/
+URL:https://www.museum-niederrheinische-seele.de/termine/kulturnacht-fuehru
+ ng-hanne-horn-provokation/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20261112-erckis-babykonzert@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T100000
+DTEND;TZID=Europe/Berlin:20261112T120000
+SUMMARY:Erckis Babykonzert
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Laut Museum ausgebucht.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.museum-niederrheinische-se
+ ele.de/termine/erckis-babykonzert-5/
+URL:https://www.museum-niederrheinische-seele.de/termine/erckis-babykonzert
+ -5/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20261118-kinderkulturbuehne-das-kunterbunte-weihnachts
+ fest@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T150000
+DTEND;TZID=Europe/Berlin:20261118T170000
+SUMMARY:Kinderkulturbühne: Das kunterbunte Weihnachtsfest
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kinderkult
+ urbuehne-das-kunterbunte-weihnachtsfest/
+URL:https://www.museum-niederrheinische-seele.de/termine/kinderkulturbuehne
+ -das-kunterbunte-weihnachtsfest/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20261209-kinderkulturbuehne-der-kleine-baer-im-winterw
+ ald@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T150000
+DTEND;TZID=Europe/Berlin:20261209T170000
+SUMMARY:Kinderkulturbühne: Der kleine Bär im Winterwald
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kinderkult
+ urbuehne-der-kleine-baer-im-winterwald/
+URL:https://www.museum-niederrheinische-seele.de/termine/kinderkulturbuehne
+ -der-kleine-baer-im-winterwald/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20270217-kinderkulturbuehne-das-baerenwunder@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T150000
+DTEND;TZID=Europe/Berlin:20270217T170000
+SUMMARY:Kinderkulturbühne: Das Bärenwunder
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kinderkult
+ urbuehne-das-baerenwunder/
+URL:https://www.museum-niederrheinische-seele.de/termine/kinderkulturbuehne
+ -das-baerenwunder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20270428-kinderkulturbuehne-die-drei-raeuber@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270428T150000
+DTEND;TZID=Europe/Berlin:20270428T170000
+SUMMARY:Kinderkulturbühne: Die drei Räuber
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kinderkult
+ urbuehne-die-drei-raeuber/
+URL:https://www.museum-niederrheinische-seele.de/termine/kinderkulturbuehne
+ -die-drei-raeuber/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20270602-kinderkulturbuehne-ein-koffer-voll-dornroesch
+ en@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270602T150000
+DTEND;TZID=Europe/Berlin:20270602T170000
+SUMMARY:Kinderkulturbühne: Ein Koffer voll Dornröschen
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kinderkult
+ urbuehne-ein-koffer-voll-dornroeschen/
+URL:https://www.museum-niederrheinische-seele.de/termine/kinderkulturbuehne
+ -ein-koffer-voll-dornroeschen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20270630-kinderkulturbuehne-der-kleine-wassermann@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270630T150000
+DTEND;TZID=Europe/Berlin:20270630T170000
+SUMMARY:Kinderkulturbühne: Der kleine Wassermann
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kinderkult
+ urbuehne-der-kleine-wassermann/
+URL:https://www.museum-niederrheinische-seele.de/termine/kinderkulturbuehne
+ -der-kleine-wassermann/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20270929-kinderkulturbuehne-rotkaeppchen-und-der-wolf@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270929T150000
+DTEND;TZID=Europe/Berlin:20270929T170000
+SUMMARY:Kinderkulturbühne: Rotkäppchen und der Wolf
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kinderkult
+ urbuehne-rotkaeppchen-und-der-wolf/
+URL:https://www.museum-niederrheinische-seele.de/termine/kinderkulturbuehne
+ -rotkaeppchen-und-der-wolf/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20271110-kinderkulturbuehne-es-klopft-bei-wanja-in-der
+ -nach@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20271110T150000
+DTEND;TZID=Europe/Berlin:20271110T170000
+SUMMARY:Kinderkulturbühne: Es klopft bei Wanja in der Nacht
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kinderkult
+ urbuehne-es-klopft-bei-wanja-in-der-nacht/
+URL:https://www.museum-niederrheinische-seele.de/termine/kinderkulturbuehne
+ -es-klopft-bei-wanja-in-der-nacht/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-villa-erckens-20271201-kinderkulturbuehne-ein-total-verhextes-weihna
+ chtsf@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20271201T150000
+DTEND;TZID=Europe/Berlin:20271201T170000
+SUMMARY:Kinderkulturbühne: Ein total verhextes Weihnachtsfest
+LOCATION:Villa Erckens – Museum der Niederrheinischen Seele\, Am Stadtpar
+ k\, 41515 Grevenbroich
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-niederrheinische-seele.de/termine/kinderkult
+ urbuehne-ein-total-verhextes-weihnachtsfest/
+URL:https://www.museum-niederrheinische-seele.de/termine/kinderkulturbuehne
+ -ein-total-verhextes-weihnachtsfest/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

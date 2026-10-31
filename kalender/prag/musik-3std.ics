@@ -1,0 +1,598 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Prag · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Prague
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261107-casino-royale-in-concert@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Prague:20261107T190000
+DTEND;TZID=Europe/Prague:20261107T210000
+SUMMARY:Casino Royale in Concert
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Filmkonzert: „Casino Royale“ mit Live-Orchester.\nZeiten: O
+ rtszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets
+ : https://www.fok.cz/en/casino-royale\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.fok.cz/en/program
+URL:https://www.fok.cz/en/program
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261111-west-side-story@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Prague:20261111T193000
+DTEND;TZID=Europe/Prague:20261111T213000
+SUMMARY:West Side Story
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Bernsteins „West Side Story“ mit dem Prager Symphonieorches
+ ter FOK.\nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht
+  angegeben\nTickets: https://www.fok.cz/en/west-side-story\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.fok.cz/en/program
+URL:https://www.fok.cz/en/program
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261112-west-side-story@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Prague:20261112T193000
+DTEND;TZID=Europe/Prague:20261112T213000
+SUMMARY:West Side Story
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Bernsteins „West Side Story“ mit dem Prager Symphonieorches
+ ter FOK.\nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht
+  angegeben\nTickets: https://www.fok.cz/en/west-side-story\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.fok.cz/en/program
+URL:https://www.fok.cz/en/program
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261114-family-concert-music-to-make-you-laugh@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Prague:20261114T110000
+DTEND;TZID=Europe/Prague:20261114T130000
+SUMMARY:Family Concert – Music to Make You Laugh
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Familienkonzert des Prager Symphonieorchesters FOK.\nZeiten: Or
+ tszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets:
+  https://www.fok.cz/en/popukani\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.fok.cz/en/program
+URL:https://www.fok.cz/en/program
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261116-dresden-philharmonic@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Prague:20261116T193000
+DTEND;TZID=Europe/Prague:20261116T213000
+SUMMARY:Dresden Philharmonic
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Gastspiel der Dresdner Philharmonie.\nZeiten: Ortszeit Prag\, w
+ ie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets: https://www.fo
+ k.cz/en/dresden-philharmonic\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.fok.cz/en/program
+URL:https://www.fok.cz/en/program
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261128-miroslav-sekera-piano-recital@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261128T193000
+DTEND;TZID=Europe/Prague:20261128T213000
+SUMMARY:Miroslav Sekera – Piano recital
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Klavierabend von Miroslav Sekera (Veranstalter: FOK).\nZeiten: 
+ Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTicket
+ s: https://www.fok.cz/en/sekera\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261202-czech-philharmonic-herbert-blomstedt@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261202T193000
+DTEND;TZID=Europe/Prague:20261202T213000
+SUMMARY:Czech Philharmonic • Herbert Blomstedt
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Herbert Blomstedt dirigiert Berwald und Dvořák.\nZeiten: Orts
+ zeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets: h
+ ttps://www.ceskafilharmonie.cz/en/event/35476-czech-philharmonic-herbert-b
+ lomstedt/\nQuelle (bitte vor dem Besuch prüfen): https://www.ceskafilharm
+ onie.cz/en/whats-on/symphonic-orchestra/
+URL:https://www.ceskafilharmonie.cz/en/whats-on/symphonic-orchestra/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261203-czech-philharmonic-herbert-blomstedt@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261203T193000
+DTEND;TZID=Europe/Prague:20261203T213000
+SUMMARY:Czech Philharmonic • Herbert Blomstedt
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Herbert Blomstedt dirigiert Berwald und Dvořák.\nZeiten: Orts
+ zeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets: h
+ ttps://www.ceskafilharmonie.cz/en/event/35476-czech-philharmonic-herbert-b
+ lomstedt/\nQuelle (bitte vor dem Besuch prüfen): https://www.ceskafilharm
+ onie.cz/en/whats-on/symphonic-orchestra/
+URL:https://www.ceskafilharmonie.cz/en/whats-on/symphonic-orchestra/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261204-czech-philharmonic-herbert-blomstedt@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261204T193000
+DTEND;TZID=Europe/Prague:20261204T213000
+SUMMARY:Czech Philharmonic • Herbert Blomstedt
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Herbert Blomstedt dirigiert Berwald und Dvořák.\nZeiten: Orts
+ zeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets: h
+ ttps://www.ceskafilharmonie.cz/en/event/35476-czech-philharmonic-herbert-b
+ lomstedt/\nQuelle (bitte vor dem Besuch prüfen): https://www.ceskafilharm
+ onie.cz/en/whats-on/symphonic-orchestra/
+URL:https://www.ceskafilharmonie.cz/en/whats-on/symphonic-orchestra/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261209-nutcracker-for-unicef@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261209T193000
+DTEND;TZID=Europe/Prague:20261209T213000
+SUMMARY:Nutcracker for UNICEF
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Tschaikowskys „Nussknacker“ als Benefizkonzert für UNICEF.
+ \nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeb
+ en\nTickets: https://www.fok.cz/en/louskacek\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261209-czech-philharmonic-yuja-wang@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261209T193000
+DTEND;TZID=Europe/Prague:20261209T213000
+SUMMARY:Czech Philharmonic • Yuja Wang (ausverkauft)
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Barber und Schostakowitsch mit Yuja Wang am Klavier unter Simon
+  Rattle.\nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht
+  angegeben\nAusverkauft\nPreis: 550–1800 CZK\nTickets: https://www.ceska
+ filharmonie.cz/en/event/35504-czech-philharmonic-yuja-wang/\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.ceskafilharmonie.cz/en/event/35504-c
+ zech-philharmonic-yuja-wang/
+URL:https://www.ceskafilharmonie.cz/en/event/35504-czech-philharmonic-yuja-
+ wang/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261210-nutcracker-for-unicef@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261210T193000
+DTEND;TZID=Europe/Prague:20261210T213000
+SUMMARY:Nutcracker for UNICEF
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Tschaikowskys „Nussknacker“ als Benefizkonzert für UNICEF.
+ \nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeb
+ en\nTickets: https://www.fok.cz/en/louskacek\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261210-czech-philharmonic-yuja-wang@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261210T193000
+DTEND;TZID=Europe/Prague:20261210T213000
+SUMMARY:Czech Philharmonic • Yuja Wang (ausverkauft)
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Barber und Schostakowitsch mit Yuja Wang am Klavier unter Simon
+  Rattle.\nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht
+  angegeben\nAusverkauft\nPreis: 550–1800 CZK\nTickets: https://www.ceska
+ filharmonie.cz/en/event/35504-czech-philharmonic-yuja-wang/\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.ceskafilharmonie.cz/en/event/35504-c
+ zech-philharmonic-yuja-wang/
+URL:https://www.ceskafilharmonie.cz/en/event/35504-czech-philharmonic-yuja-
+ wang/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261211-czech-philharmonic-yuja-wang@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261211T193000
+DTEND;TZID=Europe/Prague:20261211T213000
+SUMMARY:Czech Philharmonic • Yuja Wang (ausverkauft)
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Barber und Schostakowitsch mit Yuja Wang am Klavier unter Simon
+  Rattle.\nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht
+  angegeben\nAusverkauft\nPreis: 550–1800 CZK\nTickets: https://www.ceska
+ filharmonie.cz/en/event/35504-czech-philharmonic-yuja-wang/\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.ceskafilharmonie.cz/en/event/35504-c
+ zech-philharmonic-yuja-wang/
+URL:https://www.ceskafilharmonie.cz/en/event/35504-czech-philharmonic-yuja-
+ wang/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261216-tomas-netopil-jean-rondeau@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261216T193000
+DTEND;TZID=Europe/Prague:20261216T213000
+SUMMARY:Tomáš Netopil & Jean Rondeau
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Prager Symphonieorchester FOK unter Tomáš Netopil mit dem Cem
+ balisten Jean Rondeau.\nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: lau
+ t Quelle nicht angegeben\nTickets: https://www.fok.cz/en/netopil-rondeau\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.fok.cz/en/program?page=
+ 1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261216-czech-philharmonic-simon-rattle@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261216T193000
+DTEND;TZID=Europe/Prague:20261216T213000
+SUMMARY:Czech Philharmonic • Simon Rattle
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Dvořák\, Szymanowski\, Adès (tschechische Erstaufführung) u
+ nd Debussy mit Janine Jansen unter Simon Rattle.\nZeiten: Ortszeit Prag\, 
+ wie Deutschland\nEnde: laut Quelle nicht angegeben\nPreis: 550–1800 CZK\
+ nTickets: https://www.ceskafilharmonie.cz/en/event/35524-czech-philharmoni
+ c-simon-rattle/\nQuelle (bitte vor dem Besuch prüfen): https://www.ceskaf
+ ilharmonie.cz/en/event/35524-czech-philharmonic-simon-rattle/
+URL:https://www.ceskafilharmonie.cz/en/event/35524-czech-philharmonic-simon
+ -rattle/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261217-tomas-netopil-jean-rondeau@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261217T193000
+DTEND;TZID=Europe/Prague:20261217T213000
+SUMMARY:Tomáš Netopil & Jean Rondeau
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Prager Symphonieorchester FOK unter Tomáš Netopil mit dem Cem
+ balisten Jean Rondeau.\nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: lau
+ t Quelle nicht angegeben\nTickets: https://www.fok.cz/en/netopil-rondeau\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.fok.cz/en/program?page=
+ 1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261217-czech-philharmonic-simon-rattle@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261217T193000
+DTEND;TZID=Europe/Prague:20261217T213000
+SUMMARY:Czech Philharmonic • Simon Rattle
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Dvořák\, Szymanowski\, Adès (tschechische Erstaufführung) u
+ nd Debussy mit Janine Jansen unter Simon Rattle.\nZeiten: Ortszeit Prag\, 
+ wie Deutschland\nEnde: laut Quelle nicht angegeben\nPreis: 550–1800 CZK\
+ nTickets: https://www.ceskafilharmonie.cz/en/event/35524-czech-philharmoni
+ c-simon-rattle/\nQuelle (bitte vor dem Besuch prüfen): https://www.ceskaf
+ ilharmonie.cz/en/event/35524-czech-philharmonic-simon-rattle/
+URL:https://www.ceskafilharmonie.cz/en/event/35524-czech-philharmonic-simon
+ -rattle/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20261218-czech-philharmonic-simon-rattle@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261218T193000
+DTEND;TZID=Europe/Prague:20261218T213000
+SUMMARY:Czech Philharmonic • Simon Rattle
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Dvořák\, Szymanowski\, Adès (tschechische Erstaufführung) u
+ nd Debussy mit Janine Jansen unter Simon Rattle.\nZeiten: Ortszeit Prag\, 
+ wie Deutschland\nEnde: laut Quelle nicht angegeben\nPreis: 550–1800 CZK\
+ nTickets: https://www.ceskafilharmonie.cz/en/event/35524-czech-philharmoni
+ c-simon-rattle/\nQuelle (bitte vor dem Besuch prüfen): https://www.ceskaf
+ ilharmonie.cz/en/event/35524-czech-philharmonic-simon-rattle/
+URL:https://www.ceskafilharmonie.cz/en/event/35524-czech-philharmonic-simon
+ -rattle/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261222-czech-christmas-mass-1600@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261222T160000
+DTEND;TZID=Europe/Prague:20261222T180000
+SUMMARY:Czech Christmas Mass
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Jakub Jan Rybas Tschechische Weihnachtsmesse.\nZeiten: Ortszeit
+  Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets: https
+ ://www.fok.cz/en/rybovka-2026\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20261222-czech-christmas-mass-1930@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20261222T193000
+DTEND;TZID=Europe/Prague:20261222T213000
+SUMMARY:Czech Christmas Mass
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Jakub Jan Rybas Tschechische Weihnachtsmesse.\nZeiten: Ortszeit
+  Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets: https
+ ://www.fok.cz/en/rybovka-2026\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20270101-new-year-s-concert-1500@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20270101T150000
+DTEND;TZID=Europe/Prague:20270101T170000
+SUMMARY:New Year's Concert
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Neujahrskonzert des Prager Symphonieorchesters FOK.\nZeiten: Or
+ tszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets:
+  https://www.fok.cz/en/novorocni-2027\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20270101-new-year-s-concert-1930@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20270101T193000
+DTEND;TZID=Europe/Prague:20270101T213000
+SUMMARY:New Year's Concert
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Neujahrskonzert des Prager Symphonieorchesters FOK.\nZeiten: Or
+ tszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets:
+  https://www.fok.cz/en/novorocni-2027\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20270102-monika-melcova-buster-keaton-s-film@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20270102T110000
+DTEND;TZID=Europe/Prague:20270102T130000
+SUMMARY:Monika Melcová & Buster Keaton's Film
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Stummfilm von Buster Keaton mit Orgelbegleitung durch Monika Me
+ lcová.\nZeiten: Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht 
+ angegeben\nTickets: https://www.fok.cz/en/melcova\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20270127-tomas-brauner-mahler-7@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20270127T193000
+DTEND;TZID=Europe/Prague:20270127T213000
+SUMMARY:Tomáš Brauner & Mahler 7
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Mahlers 7. Sinfonie unter Tomáš Brauner.\nZeiten: Ortszeit Pr
+ ag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets: https://
+ www.fok.cz/en/Mahler7\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-obecni-dum-20270128-tomas-brauner-mahler-7@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20270128T193000
+DTEND;TZID=Europe/Prague:20270128T213000
+SUMMARY:Tomáš Brauner & Mahler 7
+LOCATION:Obecní dům – Smetanova síň (Municipal House)\, náměstí Re
+ publiky 1090/5\, 111 21 Prag
+DESCRIPTION:Mahlers 7. Sinfonie unter Tomáš Brauner.\nZeiten: Ortszeit Pr
+ ag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTickets: https://
+ www.fok.cz/en/Mahler7\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prg-rudolfinum-20270130-lukas-vondracek-piano-recital@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Prague:20270130T193000
+DTEND;TZID=Europe/Prague:20270130T213000
+SUMMARY:Lukáš Vondráček – Piano recital
+LOCATION:Rudolfinum (Česká filharmonie)\, Alšovo nábřeží 79/12\, 110
+  00 Prag
+DESCRIPTION:Klavierabend von Lukáš Vondráček (Veranstalter: FOK).\nZeit
+ en: Ortszeit Prag\, wie Deutschland\nEnde: laut Quelle nicht angegeben\nTi
+ ckets: https://www.fok.cz/en/vondracek2027\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.fok.cz/en/program?page=1
+URL:https://www.fok.cz/en/program?page=1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

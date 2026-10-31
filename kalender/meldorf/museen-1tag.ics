@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Meldorf · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hei-dithmarscher-landesmuseum-20261025-zinn-und-weg-die-geschichte-eine
+ s-fast-vergessenen-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Beginn: Zinn und weg. Die Geschichte eines fast vergessenen Materia
+ ls
+LOCATION:Dithmarscher Landesmuseum\, Bütjestraße 2-4\, 25704 Meldorf
+DESCRIPTION:Laufzeit: 25.10.2026 bis 9.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.landesmuseum-dithmarschen.de/
+URL:https://www.landesmuseum-dithmarschen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hei-dithmarscher-landesmuseum-20261025-zinn-und-weg-die-geschichte-eine
+ s-fast-vergessenen-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Letzter Tag: Zinn und weg. Die Geschichte eines fast vergessenen Ma
+ terials
+LOCATION:Dithmarscher Landesmuseum\, Bütjestraße 2-4\, 25704 Meldorf
+DESCRIPTION:Laufzeit: 25.10.2026 bis 9.5.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.landesmuseum-dithmarschen.de/
+URL:https://www.landesmuseum-dithmarschen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

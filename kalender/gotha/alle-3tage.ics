@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Gotha · my Event Hub (Erinnerung 3 Tage vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gth-schloss-friedenstein-20260412-im-auftrag-des-herzogs-ernst-i-und-di
+ e-thueringisc-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Letzter Tag: Im Auftrag des Herzogs - Ernst I. und die Thüringisch
+ e Residenzenlandschaft
+LOCATION:Schloss Friedenstein\, Schlossplatz 1\, 99867 Gotha
+DESCRIPTION:Laufzeit: 12.4.2026 bis 3.1.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.stiftung-friedenstein.de/calendar-node-field-tag/day
+URL:https://www.stiftung-friedenstein.de/calendar-node-field-tag/day
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-schloss-friedenstein-20260905-rembrandt-1632-entstehung-einer-marke
+ -ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Letzter Tag: Rembrandt 1632. Entstehung einer Marke
+LOCATION:Schloss Friedenstein\, Schlossplatz 1\, 99867 Gotha
+DESCRIPTION:Im Herzoglichen Museum\, Ausstellungshalle.\nLaufzeit: 5.9.2026
+  bis 6.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.stiftun
+ g-friedenstein.de/ausstellungen-und-veranstaltungen/rembrandt-1632-entsteh
+ ung-einer-marke
+URL:https://www.stiftung-friedenstein.de/ausstellungen-und-veranstaltungen/
+ rembrandt-1632-entstehung-einer-marke
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-schloss-friedenstein-20261110-auf-rubens-auftakt-zum-geburtstagsjah
+ r-2027-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Beginn: AUF RUBENS! Auftakt zum Geburtstagsjahr 2027
+LOCATION:Schloss Friedenstein\, Schlossplatz 1\, 99867 Gotha
+DESCRIPTION:Im Herzoglichen Museum\, Niederländersaal.\nLaufzeit: 10.11.20
+ 26 bis 9.5.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.stiftu
+ ng-friedenstein.de/ausstellungen-und-veranstaltungen/auf-rubens
+URL:https://www.stiftung-friedenstein.de/ausstellungen-und-veranstaltungen/
+ auf-rubens
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-schloss-friedenstein-20261110-auf-rubens-auftakt-zum-geburtstagsjah
+ r-2027-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Letzter Tag: AUF RUBENS! Auftakt zum Geburtstagsjahr 2027
+LOCATION:Schloss Friedenstein\, Schlossplatz 1\, 99867 Gotha
+DESCRIPTION:Im Herzoglichen Museum\, Niederländersaal.\nLaufzeit: 10.11.20
+ 26 bis 9.5.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.stiftu
+ ng-friedenstein.de/ausstellungen-und-veranstaltungen/auf-rubens
+URL:https://www.stiftung-friedenstein.de/ausstellungen-und-veranstaltungen/
+ auf-rubens
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Lüdenscheid · my Event Hub (Erinnerung 3 St
+ unden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mk-museen-luedenscheid-20260710-ernst-geitlinger-18951972-figur-und-zei
+ chen-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Letzter Tag: Ernst Geitlinger (1895–1972) – Figur und Zeichen
+LOCATION:Museen der Stadt Lüdenscheid (Geschichtsmuseum und Städtische Ga
+ lerie)\, Sauerfelder Straße 14\, 58511 Lüdenscheid
+DESCRIPTION:Laufzeit: 10.7.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.luedenscheid.de/freizeit-und-kultur/kultur/museen-d
+ er-stadt-luedenscheid/staedtische-galerie
+URL:https://www.luedenscheid.de/freizeit-und-kultur/kultur/museen-der-stadt
+ -luedenscheid/staedtische-galerie
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

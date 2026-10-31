@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Baden-Baden · my Event Hub (Erinnerung 3 Tag
+ e vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bad-staatliche-kunsthalle-20260613-bloom-up-die-sprache-der-blumen-ende
+ @myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Bloom up! Die Sprache der Blumen
+LOCATION:Staatliche Kunsthalle Baden-Baden\, Lichtentaler Allee 8a\, 76530 
+ Baden-Baden
+DESCRIPTION:Große Sonderausstellung des Landes Baden-Württemberg.\nLaufze
+ it: 13.6.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.kunsthalle-baden-baden.de/programm/bloom-up-die-sprache-der-blumen
+URL:https://www.kunsthalle-baden-baden.de/programm/bloom-up-die-sprache-der
+ -blumen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bad-staatliche-kunsthalle-20260613-ketuta-alexi-meskhishvili-curtain-co
+ mmission-1-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:Letzter Tag: Ketuta Alexi-Meskhishvili. Curtain Commission #1
+LOCATION:Staatliche Kunsthalle Baden-Baden\, Lichtentaler Allee 8a\, 76530 
+ Baden-Baden
+DESCRIPTION:Laufzeit: 13.6.2026 bis 13.6.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunsthalle-baden-baden.de/programm/ketuta-alexi-mes
+ khishvili
+URL:https://www.kunsthalle-baden-baden.de/programm/ketuta-alexi-meskhishvil
+ i
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bad-museum-frieder-burda-20260815-simon-hantai-entfaltung-der-farbe-end
+ e@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Simon Hantaï – Entfaltung der Farbe
+LOCATION:Museum Frieder Burda\, Lichtentaler Allee 8b\, 76530 Baden-Baden
+DESCRIPTION:Laufzeit: 15.8.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-frieder-burda.de/
+URL:https://www.museum-frieder-burda.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

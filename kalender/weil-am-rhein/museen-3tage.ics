@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Weil am Rhein · my Event Hub (Erinnerung 3 Tage vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:loe-vitra-design-museum-20260523-verner-panton-form-farbe-raum-vitra-sc
+ haudepot-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Letzter Tag: Verner Panton. Form\, Farbe\, Raum (Vitra Schaudepot)
+LOCATION:Vitra Design Museum\, Charles-Eames-Str. 2\, 79576 Weil am Rhein
+DESCRIPTION:Ausstellung zum Designer Verner Panton im Vitra Schaudepot.\nLa
+ ufzeit: 23.5.2026 bis 9.5.2027\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.design-museum.de/de/ausstellungen/aktuelle-ausstellungen.html
+URL:https://www.design-museum.de/de/ausstellungen/aktuelle-ausstellungen.ht
+ ml
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:loe-vitra-design-museum-20260926-geoffrey-bawa-architektur-fuer-die-sin
+ ne-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Geoffrey Bawa. Architektur für die Sinne
+LOCATION:Vitra Design Museum\, Charles-Eames-Str. 2\, 79576 Weil am Rhein
+DESCRIPTION:Ausstellung über den sri-lankischen Architekten Geoffrey Bawa.
+ \nLaufzeit: 26.9.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.design-museum.de/de/ausstellungen/detailseiten/geoffrey-bawa
+ .html
+URL:https://www.design-museum.de/de/ausstellungen/detailseiten/geoffrey-baw
+ a.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

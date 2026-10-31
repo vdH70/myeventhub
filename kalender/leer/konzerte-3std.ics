@@ -1,0 +1,302 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Leer · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:leer-zollhaus-20261101-jazz-im-zollhaus-open-stage-jam-session@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T153000
+DTEND;TZID=Europe/Berlin:20261101T173000
+SUMMARY:Jazz Im Zollhaus – Open Stage // Jam Session 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Offene Jazz-Session im Café\; Musiker aller Niveaus können mi
+ tspielen (Instrument und Realbook mitbringen).\n15:30 Uhr (die Quelle sagt
+  nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nPreis
+ : Eintritt frei\, Spenden erwünscht\nQuelle (bitte vor dem Besuch prüfen
+ ): https://zollhaus-leer.com/veranstaltungen/jazz-im-zollhaus-4/
+URL:https://zollhaus-leer.com/veranstaltungen/jazz-im-zollhaus-4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261106-bruchbude-nichts-zu-verlieren-tour-2026@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Bruchbude - „Nichts zu verlieren“ Tour 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Indie-Pop-Band aus Dortmund. Im Theater des Zollhauses\, Stehpl
+ ätze.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegebe
+ n\nPreis: ab 25\,00 €\nTickets: https://shop.bruchbude-band.de/produkte/
+ 89837-tickets-bruchbude-zollhaus-leer-ostfriesland-am-06-11-2026\nQuelle (
+ bitte vor dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/k
+ onzert-bruchbude-nichts-zu-verlieren-tour-2026/
+URL:https://zollhaus-leer.com/veranstaltungen/konzert-bruchbude-nichts-zu-v
+ erlieren-tour-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261112-erection-plug-it-in-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Erection // Plug It In Tour 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Band zwischen Pop-Elektronik und Rock mit neuem Album. Im Theat
+ er des Zollhauses.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle ni
+ cht angegeben\nPreis: ab 22\,00 €\nQuelle (bitte vor dem Besuch prüfen)
+ : https://zollhaus-leer.com/veranstaltungen/erection/
+URL:https://zollhaus-leer.com/veranstaltungen/erection/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261115-monsters-of-liedermaching-sutsche-tour-2@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:Monsters Of Liedermaching – „Sutsche“-Tour 2026
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Liedermacher-Band mit Live-Album „Sutsche“\; humorvolle und
+  ernste Lieder. Im Café.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Qu
+ elle nicht angegeben\nPreis: ab 30\,00 € (VVK)\nTickets: https://zollhau
+ s-leer.reservix.de/p/reservix/group/385430\nQuelle (bitte vor dem Besuch p
+ rüfen): https://zollhaus-leer.com/veranstaltungen/monsters-of-liedermachi
+ ng/
+URL:https://zollhaus-leer.com/veranstaltungen/monsters-of-liedermaching/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261116-snake-eyes-schluma@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Snake Eyes + schluma.
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Gitarrenrock aus Brighton\, Support schluma. aus Hamburg. Im Th
+ eater des Zollhauses.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle
+  nicht angegeben\nPreis: ab 18\,00 €\nTickets: https://zollhaus-leer.res
+ ervix.de/p/reservix/group/540547\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://zollhaus-leer.com/veranstaltungen/snake-eyes/
+URL:https://zollhaus-leer.com/veranstaltungen/snake-eyes/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261117-bosse-stabile-poesie-clubtour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Bosse – Stabile Poesie Clubtour 2026 (ausverkauft)
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Laut Zollhaus ausverkauft\, keine Abendkasse. Im Großen Saal.\
+ nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nAusv
+ erkauft\nTickets: https://www.eventim.de/event/bosse-stabile-poesie-tour-2
+ 026-zollhaus-kulturverein-21687001/?affiliate=GMD\nQuelle (bitte vor dem B
+ esuch prüfen): https://zollhaus-leer.com/veranstaltungen/bosse/
+URL:https://zollhaus-leer.com/veranstaltungen/bosse/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261122-bruni-jonny-ubben-plattkonzert-im-doppel@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T200000
+DTEND;TZID=Europe/Berlin:20261122T220000
+SUMMARY:Bruni & Jonny Ubben – „Plattkonzert im Doppelpack“
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Lieder auf Plattdeutsch\; Bruni solo\, Jonny Ubben mit Band. Im
+  Theater des Zollhauses.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Que
+ lle nicht angegeben\nPreis: ab 10\,00 €\nTickets: https://zollhaus-leer.
+ reservix.de/p/reservix/event/2603921\nQuelle (bitte vor dem Besuch prüfen
+ ): https://zollhaus-leer.com/veranstaltungen/bruni-jonny-ubben/
+URL:https://zollhaus-leer.com/veranstaltungen/bruni-jonny-ubben/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261124-selig-the-epic-years@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Selig „The Epic Years“
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Die Band spielt Songs ihrer drei frühen Alben. Im Großen Saal
+ .\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPr
+ eis: ab 40\,00 €\nTickets: https://tix.to/the-EPIC-years\nQuelle (bitte 
+ vor dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/konzert
+ -selig-the-epic-years/
+URL:https://zollhaus-leer.com/veranstaltungen/konzert-selig-the-epic-years/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20261125-lack-false-lefty@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:LACK + False Lefty
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Post-Hardcore/Indie-Rock aus Kopenhagen\, Support False Lefty. 
+ Im Theater des Zollhauses.\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Q
+ uelle nicht angegeben\nPreis: ab 20\,00 €\nTickets: https://zollhaus-lee
+ r.reservix.de/p/reservix/group/542226\nQuelle (bitte vor dem Besuch prüfe
+ n): https://zollhaus-leer.com/veranstaltungen/lack-false-lefty/
+URL:https://zollhaus-leer.com/veranstaltungen/lack-false-lefty/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-theater-an-der-blinke-20261227-enno-bunger-solo-am-klavier-special
+ -gues@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T200000
+DTEND;TZID=Europe/Berlin:20261227T220000
+SUMMARY:Enno Bunger – Solo am Klavier + Special Guests (Jahresabschlussga
+ la)
+LOCATION:Theater an der Blinke\, Blinke 39\, 26789 Leer
+DESCRIPTION:Jahresabschlusskonzert mit Liedern\, Witz und zwei Überraschun
+ gsgästen\; Veranstaltung des Zollhauses im Theater an der Blinke.\nEinlas
+ s 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 3
+ 0\,00 €\nTickets: https://shop.ennobunger.de/tickets\nQuelle (bitte vor 
+ dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/enno-bunger
+ /
+URL:https://zollhaus-leer.com/veranstaltungen/enno-bunger/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20270216-young-scots-trad-awards-winner-tour-2027@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T200000
+DTEND;TZID=Europe/Berlin:20270216T220000
+SUMMARY:Young Scots Trad Awards Winner Tour 2027
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Junge schottische Folkmusiker mit Solosets und gemeinsamem Fina
+ le. Im Café.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht a
+ ngegeben\nPreis: ab 25\,00 €\nTickets: https://zollhaus-leer.reservix.de
+ /p/reservix/group/505202\nQuelle (bitte vor dem Besuch prüfen): https://z
+ ollhaus-leer.com/veranstaltungen/young-scots-trad-awards-winner-tour-2027/
+URL:https://zollhaus-leer.com/veranstaltungen/young-scots-trad-awards-winne
+ r-tour-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20270303-the-hirsch-effekt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T200000
+DTEND;TZID=Europe/Berlin:20270303T220000
+SUMMARY:The Hirsch Effekt
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:„An Evening with The Hirsch Effekt“: das Album „Der Brauc
+ h“ komplett und ein Best-of-Set\, ohne Vorband. Im Café.\nEinlass 19:00
+ \, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 30\,00 
+ €\nTickets: https://zollhaus-leer.reservix.de/p/reservix/group/543108\nQ
+ uelle (bitte vor dem Besuch prüfen): https://zollhaus-leer.com/veranstalt
+ ungen/the-hirsch-effekt/
+URL:https://zollhaus-leer.com/veranstaltungen/the-hirsch-effekt/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:leer-zollhaus-20270125-so-soon@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270407T193000
+DTEND;TZID=Europe/Berlin:20270407T213000
+SUMMARY:So Soon
+LOCATION:Zollhaus Leer\, Bahnhofsring 4\, 26789 Leer
+DESCRIPTION:Projekt von David Stöbener und Marco Braun zwischen Indie-Pop\
+ , Folk\, Elektronik und Postrock. Im Café.\nEinlass 19:00\, Beginn 19:30 
+ Uhr\nEnde: laut Quelle nicht angegeben\nPreis: ab 24\,00 €\nTickets: htt
+ ps://zollhaus-leer.reservix.de/p/reservix/group/541424\nQuelle (bitte vor 
+ dem Besuch prüfen): https://zollhaus-leer.com/veranstaltungen/so-soon/
+URL:https://zollhaus-leer.com/veranstaltungen/so-soon/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elektronisch in Philadelphia · my Event Hub (Erinnerung 3 Stu
+ nden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:phl-johnny-brendas-20261106-a-black-celebration-philly-s-favorite-depec
+ he-mode@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART:20261106T210000
+DTEND:20261106T230000
+SUMMARY:A Black Celebration – Philly's Favorite Depeche Mode Dance Party
+LOCATION:Johnny Brenda's\, Philadelphia
+DESCRIPTION:Einlass 21:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: $1
+ 2.90 to $18.90\nQuelle (bitte vor dem Besuch prüfen): https://johnnybrend
+ as.com/events/
+URL:https://johnnybrendas.com/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,645 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Hamburg · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-st-nikolai-harvestehude-20261104-aerztekanzel-malerei@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Ärztekanzel: Malerei als universale Handlung
+LOCATION:Hauptkirche St. Nikolai\, Harvestehuder Weg 118\, 20149 Hamburg
+DESCRIPTION:Vortragsabend der Reihe Ärztekanzel.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.hauptkirche-
+ stnikolai.de/termine
+URL:https://www.hauptkirche-stnikolai.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261110-hamburger-krimifestival-kriminelle-eroeffnung-ver
+ r@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Hamburger Krimifestival: Kriminelle Eröffnung – Verriss oder Beg
+ eisterung? (mit Till Raether)
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zentralbibliothek-20261111-buchvorstellung-zeitreise-durch-deutschla
+ nd@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T183000
+DTEND;TZID=Europe/Berlin:20261111T203000
+SUMMARY:Buchvorstellung: Zeitreise durch Deutschland
+LOCATION:Bücherhallen Hamburg – Zentralbibliothek\, Hühnerposten 1\, 20
+ 097 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buecherhallen.de/zentralbibliothek-termin/buchvorst
+ ellung-25400/datum/20261111.html
+URL:https://www.buecherhallen.de/zentralbibliothek-termin/buchvorstellung-2
+ 5400/datum/20261111.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-nikolai-harvestehude-20261111-aerztekanzel-ballett@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Ärztekanzel: Das Leben tanzen – die Magie des Balletts
+LOCATION:Hauptkirche St. Nikolai\, Harvestehuder Weg 118\, 20149 Hamburg
+DESCRIPTION:Vortragsabend der Reihe Ärztekanzel.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.hauptkirche-
+ stnikolai.de/termine
+URL:https://www.hauptkirche-stnikolai.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261111-hamburger-krimifestival-hamburger-newcomerin-vane
+ s@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Hamburger Krimifestival: Hamburger Newcomerin Vanessa Boldt
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261111-hamburger-krimifestival-norddeutscher-abend-mit-a
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Hamburger Krimifestival: Norddeutscher Abend mit Anette Hinrichs\, 
+ Romy Fölck und Nora Luttmer
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261111-hamburger-krimifestival-tim-sohr@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Hamburger Krimifestival: Tim Sohr
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261112-hamburger-krimifestival-emily-rudolf@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Hamburger Krimifestival: Emily Rudolf
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261112-hamburger-krimifestival-hamburger-newcomerin-sand
+ r@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Hamburger Krimifestival: Hamburger Newcomerin Sandra Beckedahl
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261112-hamburger-krimifestival-marc-elsberg@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Hamburger Krimifestival: Marc Elsberg
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-sasel-haus-20261113-mensch-maschine-partnerschaft-ki-zum-wohle-und-f
+ ue@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T190000
+DTEND;TZID=Europe/Berlin:20261113T210000
+SUMMARY:Mensch-Maschine-Partnerschaft: KI zum Wohle und für die Würde des
+  Menschen
+LOCATION:Sasel-Haus\, Saseler Parkweg 3\, 22393 Hamburg
+DESCRIPTION:Vortrag und Gespräch zu künstlicher Intelligenz.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://sas
+ el-haus.de/veranstaltungen/mensch-maschine-partnerschaft/
+URL:https://sasel-haus.de/veranstaltungen/mensch-maschine-partnerschaft/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261113-hamburger-krimifestival-frank-goehre@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Hamburger Krimifestival: Frank Göhre
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261113-hamburger-krimifestival-hamburger-newcomerin-caro
+ l@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Hamburger Krimifestival: Hamburger Newcomerin Carola Christiansen
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261113-hamburger-krimifestival-josi-wismar-und-linda-sch
+ i@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Hamburger Krimifestival: Josi Wismar und Linda Schipp
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261113-hamburger-krimifestival-sven-stricker-und-bjarne-
+ m@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Hamburger Krimifestival: Sven Stricker und Bjarne Mädel
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261114-hamburger-krimifestival-franzoesischer-abend-mit-
+ s@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T173000
+DTEND;TZID=Europe/Berlin:20261114T193000
+SUMMARY:Hamburger Krimifestival: Französischer Abend mit Sophie Bonnet\, A
+ lexander Oetker und Cay Rademacher
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kampnagel.de/reihen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261114-hamburger-krimifestival-italienischer-abend-mit-m
+ a@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Hamburger Krimifestival: Italienischer Abend mit Marcello Simoni
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kampnagel-20261114-hamburger-krimifestival-robert-harris@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Hamburger Krimifestival: Robert Harris
+LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
+ hen/19-hamburger-krimifestival
+URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zentralbibliothek-20261117-naturgespraech-die-zukunft-der-meere@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T183000
+DTEND;TZID=Europe/Berlin:20261117T203000
+SUMMARY:Naturgespräch: Die Zukunft der Meere
+LOCATION:Bücherhallen Hamburg – Zentralbibliothek\, Hühnerposten 1\, 20
+ 097 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buecherhallen.de/zentralbibliothek-termin/die-zukun
+ ft-der-meere-25401/datum/20261117.html
+URL:https://www.buecherhallen.de/zentralbibliothek-termin/die-zukunft-der-m
+ eere-25401/datum/20261117.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zentralbibliothek-20261119-katechon-zur-wiederkehr-der-politischen-t
+ heologie@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T190000
+DTEND;TZID=Europe/Berlin:20261119T210000
+SUMMARY:Katechon – Zur Wiederkehr der politischen Theologie in der Gegenw
+ art
+LOCATION:Bücherhallen Hamburg – Zentralbibliothek\, Hühnerposten 1\, 20
+ 097 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buecherhallen.de/zentralbibliothek-termin/katechon-
+ 25177/datum/20261119.html
+URL:https://www.buecherhallen.de/zentralbibliothek-termin/katechon-25177/da
+ tum/20261119.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kleiner-michel-20261120-lesung-kristine-bilkau-halbinsel@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Benefiz-Lesung: Kristine Bilkau liest „Halbinsel“
+LOCATION:Kleiner Michel (St. Ansgar)\, Michaelisstraße 5\, 20459 Hamburg
+DESCRIPTION:Benefiz-Lesung für das Ledigenheim\, moderiert von Elisabeth v
+ on Thadden\; Anmeldung erwünscht.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.kleiner-michel.de/aktuelle
+ -termine/
+URL:https://www.kleiner-michel.de/aktuelle-termine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zentralbibliothek-20261121-human-library@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T120000
+DTEND;TZID=Europe/Berlin:20261121T140000
+SUMMARY:Human Library
+LOCATION:Bücherhallen Hamburg – Zentralbibliothek\, Hühnerposten 1\, 20
+ 097 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buecherhallen.de/zentralbibliothek-termin/human-lib
+ rary-17868/datum/20261121.html
+URL:https://www.buecherhallen.de/zentralbibliothek-termin/human-library-178
+ 68/datum/20261121.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zentralbibliothek-20261124-comiclesung-und-boxtraining@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T183000
+DTEND;TZID=Europe/Berlin:20261124T203000
+SUMMARY:Comiclesung und Boxtraining
+LOCATION:Bücherhallen Hamburg – Zentralbibliothek\, Hühnerposten 1\, 20
+ 097 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buecherhallen.de/zentralbibliothek-termin/comiclesu
+ ng-und-boxtraining/datum/20261124.html
+URL:https://www.buecherhallen.de/zentralbibliothek-termin/comiclesung-und-b
+ oxtraining/datum/20261124.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtspeicher-20261124-hamburg-ist-slamburg@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Hamburg ist Slamburg!
+LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
+DESCRIPTION:Offener Poetry Slam.\nEinlass 19:30\, Beginn 20:00 Uhr\nEnde: l
+ aut Quelle nicht angegeben\nPreis: AK 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://nochtspeicher.de/?start=20
+URL:https://nochtspeicher.de/?start=20
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-buecherhalle-langenhorn-20261125-das-rollende-sofa-meeresdunkel-till
+ -raether-liest@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T190000
+DTEND;TZID=Europe/Berlin:20261125T210000
+SUMMARY:Das rollende Sofa: Meeresdunkel – Till Raether liest in der Büch
+ erhalle
+LOCATION:Bücherhalle Langenhorn\, Langenhorner Markt 1-18 (LaHoMa Living P
+ laza)\, 22415 Hamburg
+DESCRIPTION:Lesereihe der Bücherhallen mit dem ella Kulturhaus\, ab 16 Jah
+ ren.\nEnde: laut Quelle nicht angegeben\nPreis: 5 Euro\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.buecherhallen.de/langenhorn-termin/das-ro
+ llende-sofa-meeresdunkel-till-raether-liest-in-der-buecherhalle/datum/2026
+ 1125.html
+URL:https://www.buecherhallen.de/langenhorn-termin/das-rollende-sofa-meeres
+ dunkel-till-raether-liest-in-der-buecherhalle/datum/20261125.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zentralbibliothek-20261125-huehnerwik-schwanenposten-neue-literatur-
+ aus-hambu@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T190000
+DTEND;TZID=Europe/Berlin:20261125T210000
+SUMMARY:Hühnerwik + Schwanenposten: Neue Literatur aus Hamburg
+LOCATION:Bücherhallen Hamburg – Zentralbibliothek\, Hühnerposten 1\, 20
+ 097 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buecherhallen.de/zentralbibliothek-termin/huehnerwi
+ k-schwanenposten/datum/20261125.html
+URL:https://www.buecherhallen.de/zentralbibliothek-termin/huehnerwik-schwan
+ enposten/datum/20261125.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-zentralbibliothek-20261202-ki-faktencheck-die-groessten-irrtuemer-ue
+ ber-kuens@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T163000
+DTEND;TZID=Europe/Berlin:20261202T183000
+SUMMARY:KI-Faktencheck: Die größten Irrtümer über Künstliche Intellige
+ nz
+LOCATION:Bücherhallen Hamburg – Zentralbibliothek\, Hühnerposten 1\, 20
+ 097 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.buecherhallen.de/zentralbibliothek-termin/ki-fakten
+ check-25399/datum/20261202.html
+URL:https://www.buecherhallen.de/zentralbibliothek-termin/ki-faktencheck-25
+ 399/datum/20261202.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cap-san-diego-20261203-ringelnatz-zur-weihnacht@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Ringelnatz zur Weihnacht
+LOCATION:Museumsschiff Cap San Diego\, Überseebrücke\, 20459 Hamburg
+DESCRIPTION:Tickets: https://www.capsandiego.de/termine/ringelnatz-zur-weih
+ nacht-6\nQuelle (bitte vor dem Besuch prüfen): https://www.capsandiego.de
+ /das-schiff/termine
+URL:https://www.capsandiego.de/das-schiff/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-nikolai-harvestehude-20261207-buchvorstellung-wuestes-land@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T193000
+DTEND;TZID=Europe/Berlin:20261207T213000
+SUMMARY:Buchvorstellung „Und sie zogen aus in ein wüstes Land…“
+LOCATION:Hauptkirche St. Nikolai\, Harvestehuder Weg 118\, 20149 Hamburg
+DESCRIPTION:Buchvorstellung mit Rolf Kühn und Ulfrid Kleinert.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.hauptkirche-stnikolai.de/termine
+URL:https://www.hauptkirche-stnikolai.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cap-san-diego-20261210-ringelnatz-zur-weihnacht@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T190000
+DTEND;TZID=Europe/Berlin:20261210T210000
+SUMMARY:Ringelnatz zur Weihnacht
+LOCATION:Museumsschiff Cap San Diego\, Überseebrücke\, 20459 Hamburg
+DESCRIPTION:Gedichte von Joachim Ringelnatz mit Kabarett und Akkordeonmusik
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.capsandiego.de/termine/ringelnatz-zur-weihnacht-7
+URL:https://www.capsandiego.de/termine/ringelnatz-zur-weihnacht-7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-buecherhalle-altona-20261218-weihnachtliche-lesung-mit-gaensehautfak
+ tor@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T130000
+DTEND;TZID=Europe/Berlin:20261218T150000
+SUMMARY:Weihnachtliche Lesung mit Gänsehautfaktor
+LOCATION:Bücherhalle Altona\, Ottenser Hauptstraße 10 (Mercado)\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei (kosten
+ loses Ticket nötig)\nQuelle (bitte vor dem Besuch prüfen): https://www.b
+ uecherhallen.de/altona-termin/weihnachtliche-lesung-mit-gaensehautfaktor/d
+ atum/20261218.html
+URL:https://www.buecherhallen.de/altona-termin/weihnachtliche-lesung-mit-ga
+ ensehautfaktor/datum/20261218.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cap-san-diego-20270225-die-neuen-schaetze-vom-ringelnatz@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Die „neuen Schätze“ vom Ringelnatz
+LOCATION:Museumsschiff Cap San Diego\, Überseebrücke\, 20459 Hamburg
+DESCRIPTION:Tickets: https://www.capsandiego.de/termine/die-neuen-schatze-v
+ om-ringelnatz-14\nQuelle (bitte vor dem Besuch prüfen): https://www.capsa
+ ndiego.de/das-schiff/termine
+URL:https://www.capsandiego.de/das-schiff/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

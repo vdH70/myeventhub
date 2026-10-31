@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Engelskirchen · my Event Hub (Erinnerung 1 T
+ ag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gm-lvr-kraftwerk-ermen-engels-20260329-arbeits-t-raeume-ein-zukunftslab
+ or-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Arbeits[T]räume – Ein Zukunftslabor
+LOCATION:LVR-Industriemuseum Kraftwerk Ermen & Engels\, Engels-Platz 2\, 51
+ 766 Engelskirchen
+DESCRIPTION:Sonderausstellung zur Zukunft der Arbeit.\nLaufzeit: 29.3.2026 
+ bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.lvr.de/i
+ ndustriemuseum/kraftwerk-ermen-und-engels/
+URL:https://www.lvr.de/industriemuseum/kraftwerk-ermen-und-engels/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

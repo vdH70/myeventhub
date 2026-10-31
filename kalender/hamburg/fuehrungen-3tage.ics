@@ -1,0 +1,1137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Führungen in Hamburg · my Event Hub (Erinnerung 3 Tage vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-deichtorhallen-20260926-oeffentliche-fuehrung-abdulhamid-kircher-und
+ -akosu-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Öffentliche Führung: Abdulhamid Kircher und Akosua V
+ iktoria Adu-Sanyah
+LOCATION:Deichtorhallen Hamburg (Halle für aktuelle Kunst / PHOXXI)\, Deic
+ htorstraße 1–2\, 20095 Hamburg
+DESCRIPTION:Öffentliche Führung im PHOXXI – Haus der Photographie tempo
+ rär\; endDate = Laufzeitende der Ausstellungen (01.11.2026).\nLaufzeit: 2
+ 6.9.2026 bis 1.11.2026\nTermine laut Veranstalter: Jeden Mittwoch\, Samsta
+ g und Sonntag um 15 Uhr. Am 1. Donnerstag im Monat um 18 Uhr\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.deichtorhallen.de/de/programm/fuehr
+ ungen
+URL:https://www.deichtorhallen.de/de/programm/fuehrungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-speicherstadtmuseum-20260926-speicherstadtrundgang-1500-ende@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: Speicherstadtrundgang
+LOCATION:Speicherstadtmuseum\, Am Sandtorkai 36\, 20457 Hamburg
+DESCRIPTION:Rundgang durch die Speicherstadt\, ca. 90 Minuten\, Treffpunkt 
+ im Museum\; Anmeldung empfohlen.\nLaufzeit: 26.9.2026 bis 31.10.2026\nTerm
+ ine laut Veranstalter: samstags 15 Uhr (01. März bis 31. Oktober 2026)\nP
+ reis: 15\,- Euro / erm. 12\,- Euro / Kinder 8\,50 Euro (6-13 Jahre)\nQuell
+ e (bitte vor dem Besuch prüfen): https://speicherstadtmuseum.de/oeffentli
+ che-fuehrungen/speicherstadtrundgaenge.html
+URL:https://speicherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrun
+ dgaenge.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-speicherstadtmuseum-20260927-speicherstadtrundgang-1100-ende@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Speicherstadtrundgang
+LOCATION:Speicherstadtmuseum\, Am Sandtorkai 36\, 20457 Hamburg
+DESCRIPTION:Rundgang durch die Speicherstadt\, ca. 90 Minuten\, Treffpunkt 
+ im Museum\; Anmeldung empfohlen.\nLaufzeit: 27.9.2026 bis 31.12.2026\nTerm
+ ine laut Veranstalter: sonntags 11 Uhr (ganzjährig)\nPreis: 15\,- Euro / 
+ erm. 12\,- Euro / Kinder 8\,50 Euro (6-13 Jahre)\nQuelle (bitte vor dem Be
+ such prüfen): https://speicherstadtmuseum.de/oeffentliche-fuehrungen/spei
+ cherstadtrundgaenge.html
+URL:https://speicherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrun
+ dgaenge.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-kunsthalle-20260930-werk-der-woche-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Letzter Tag: Werk der Woche
+LOCATION:Hamburger Kunsthalle\, Glockengießerwall 5\, 20095 Hamburg
+DESCRIPTION:30-minütige Kurzführung zu einem ausgewählten Werk\; max. 25
+  Personen.\nLaufzeit: 30.9.2026 bis 18.11.2026\nTermine laut Veranstalter:
+  mittwochs 12–12:30 Uhr\nPreis: 4 € zzgl. Eintritt\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.hamburger-kunsthalle.de/de/werk-der-woche
+URL:https://www.hamburger-kunsthalle.de/de/werk-der-woche
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-sammlung-falckenberg-20261010-oeffentliche-fuehrung-joyce-pensato-ey
+ es-for-you-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Letzter Tag: Öffentliche Führung: Joyce Pensato – Eyes For You
+LOCATION:Sammlung Falckenberg (Deichtorhallen)\, Wilstorfer Straße 71\, To
+ r 2\, 21073 Hamburg
+DESCRIPTION:Öffentliche Führung in der Sammlung Falckenberg\; endDate = l
+ etzter Samstag vor Ausstellungsende (04.04.2027)\, auf der Quelle kein End
+ datum genannt.\nLaufzeit: 10.10.2026 bis 3.4.2027\nTermine laut Veranstalt
+ er: Ab 10. Oktober 2026\, jeweils samstags um 15 Uhr\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.deichtorhallen.de/de/programm/fuehrungen
+URL:https://www.deichtorhallen.de/de/programm/fuehrungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-gedenkstaette-bullenhuser-damm-20261031-die-kinder-vom-bullenhuser-d
+ amm-sonderoeffnung-und@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T100000
+DTEND;TZID=Europe/Berlin:20261031T120000
+SUMMARY:Die Kinder vom Bullenhuser Damm – Sonderöffnung und Führungen
+LOCATION:Gedenkstätte Bullenhuser Damm\, Bullenhuser Damm 92\, 20539 Hambu
+ rg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://bullenhuser-damm.gedenkstaetten-h
+ amburg.de/de/
+URL:https://bullenhuser-damm.gedenkstaetten-hamburg.de/de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-gedenkstaette-fuhlsbuettel-20261031-fuehrung-und-gespraech-in-der-ge
+ denkstaette-fuhlsb@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T100000
+DTEND;TZID=Europe/Berlin:20261031T120000
+SUMMARY:Führung und Gespräch in der Gedenkstätte Fuhlsbüttel – Sonder
+ öffnung
+LOCATION:Gedenkstätte Fuhlsbüttel (KZ und Strafanstalten Fuhlsbüttel)\, 
+ Suhrenkamp 98\, 22335 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://fuhlsbuettel.gedenkstaetten-hambu
+ rg.de/de/veranstaltungen
+URL:https://fuhlsbuettel.gedenkstaetten-hamburg.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-gedenkstaette-poppenbuettel-20261031-die-frauenaussenlager-des-kz-ne
+ uengamme-in-hamburg@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T100000
+DTEND;TZID=Europe/Berlin:20261031T120000
+SUMMARY:Die Frauenaußenlager des KZ Neuengamme in Hamburg – Sonderöffnu
+ ng und Führungen
+LOCATION:Gedenkstätte Poppenbüttel (Plattenhaus)\, Kritenbarg 8\, 22391 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt ist frei\nQu
+ elle (bitte vor dem Besuch prüfen): https://poppenbuettel.gedenkstaetten-
+ hamburg.de/de/
+URL:https://poppenbuettel.gedenkstaetten-hamburg.de/de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-geschichtsort-stadthaus-20261031-rundgang-durch-das-ehemalige-stadth
+ aus-sonderoeffn@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T100000
+DTEND;TZID=Europe/Berlin:20261031T120000
+SUMMARY:Rundgang durch das ehemalige Stadthaus (Sonderöffnung)
+LOCATION:Geschichtsort Stadthaus\, Stadthausbrücke 6\, 20355 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthaus.gedenkstaetten-hamburg.de/de/veranstaltungen
+URL:https://stadthaus.gedenkstaetten-hamburg.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20261031-herrensaalfuehrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T121500
+DTEND;TZID=Europe/Berlin:20261031T141500
+SUMMARY:Herrensaalführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung durch den Herrensaal\, weitere Führung um 13 Uhr\; Tr
+ effpunkt am Kirchenhütertresen.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://jacobus.de/gottesdienste-veranst
+ altungen
+URL:https://jacobus.de/gottesdienste-veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-gedenkstaette-fuhlsbuettel-20261101-fuehrung-und-gespraech-in-der-ge
+ denkstaette-fuhlsb@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Führung und Gespräch in der Gedenkstätte Fuhlsbüttel
+LOCATION:Gedenkstätte Fuhlsbüttel (KZ und Strafanstalten Fuhlsbüttel)\, 
+ Suhrenkamp 98\, 22335 Hamburg
+DESCRIPTION:Termine laut Veranstalter: sonntags 11 Uhr\nPreis: Eintritt fre
+ i\nQuelle (bitte vor dem Besuch prüfen): https://fuhlsbuettel.gedenkstaet
+ ten-hamburg.de/de/veranstaltungen
+URL:https://fuhlsbuettel.gedenkstaetten-hamburg.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-gedenkstaette-bullenhuser-damm-20261101-die-kinder-vom-bullenhuser-d
+ amm-fuehrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:Die Kinder vom Bullenhuser Damm – Führung
+LOCATION:Gedenkstätte Bullenhuser Damm\, Bullenhuser Damm 92\, 20539 Hambu
+ rg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://bullenhuser-damm.gedenkstaetten-h
+ amburg.de/de/
+URL:https://bullenhuser-damm.gedenkstaetten-hamburg.de/de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-ernst-barlach-haus-20261103-kuratorenfuehrung-joachim-ringelnatz-es-
+ hat-sich-s@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T180000
+DTEND;TZID=Europe/Berlin:20261103T200000
+SUMMARY:Kuratorenführung Joachim Ringelnatz »Es hat sich selbst aus mir g
+ emalt«
+LOCATION:Ernst Barlach Haus\, Baron-Voght-Straße 50a (Jenischpark)\, 22609
+  Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Kostenfrei\, lediglic
+ h Museumseintritt\nQuelle (bitte vor dem Besuch prüfen): https://www.barl
+ ach-haus.de/ausstellungen/joachim-ringelnatz/
+URL:https://www.barlach-haus.de/ausstellungen/joachim-ringelnatz/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20261104-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T190000
+DTEND;TZID=Europe/Berlin:20261104T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-gedenkstaette-fuhlsbuettel-20261108-fuehrung-und-gespraech-in-der-ge
+ denkstaette-fuhlsb@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Führung und Gespräch in der Gedenkstätte Fuhlsbüttel
+LOCATION:Gedenkstätte Fuhlsbüttel (KZ und Strafanstalten Fuhlsbüttel)\, 
+ Suhrenkamp 98\, 22335 Hamburg
+DESCRIPTION:Termine laut Veranstalter: sonntags 11 Uhr\nPreis: Eintritt fre
+ i\nQuelle (bitte vor dem Besuch prüfen): https://fuhlsbuettel.gedenkstaet
+ ten-hamburg.de/de/veranstaltungen
+URL:https://fuhlsbuettel.gedenkstaetten-hamburg.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-denkmal-hannoverscher-bahnhof-20261108-fuehrung-wie-lange-werden-wir
+ -hier-sein-deportatio@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:Führung: „Wie lange werden wir hier sein?“ – Deportationen n
+ ach Minsk 1941
+LOCATION:denk.mal Hannoverscher Bahnhof (Info-Pavillon)\, Lohseplatz\, 2045
+ 7 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gedenkstaetten-hamburg.de/de/veranstaltungen
+URL:https://www.gedenkstaetten-hamburg.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kunsthaus-20261108-fuehrung-durch-die-ausstellung-temper@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Führung durch die Ausstellung Temper
+LOCATION:Kunsthaus Hamburg\, Klosterwall 15\, 20095 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunsthaushamburg.de/
+URL:https://www.kunsthaushamburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20261112-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T120000
+DTEND;TZID=Europe/Berlin:20261112T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-gedenkstaette-fuhlsbuettel-20261115-fuehrung-und-gespraech-in-der-ge
+ denkstaette-fuhlsb@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Führung und Gespräch in der Gedenkstätte Fuhlsbüttel
+LOCATION:Gedenkstätte Fuhlsbüttel (KZ und Strafanstalten Fuhlsbüttel)\, 
+ Suhrenkamp 98\, 22335 Hamburg
+DESCRIPTION:Termine laut Veranstalter: sonntags 11 Uhr\nPreis: Eintritt fre
+ i\nQuelle (bitte vor dem Besuch prüfen): https://fuhlsbuettel.gedenkstaet
+ ten-hamburg.de/de/veranstaltungen
+URL:https://fuhlsbuettel.gedenkstaetten-hamburg.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20261118-vortrag-klassische-novae-wei
+ sse-zwerge-mit-thermon@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Vortrag: Klassische Novae – Weiße Zwerge mit thermonuklearen Hau
+ tkrankheiten
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Monatsvortrag des Fördervereins in der Bibliothek der Sternwar
+ te.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20261119-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T120000
+DTEND;TZID=Europe/Berlin:20261119T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-gedenkstaette-fuhlsbuettel-20261122-fuehrung-und-gespraech-in-der-ge
+ denkstaette-fuhlsb@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:Führung und Gespräch in der Gedenkstätte Fuhlsbüttel
+LOCATION:Gedenkstätte Fuhlsbüttel (KZ und Strafanstalten Fuhlsbüttel)\, 
+ Suhrenkamp 98\, 22335 Hamburg
+DESCRIPTION:Termine laut Veranstalter: sonntags 11 Uhr\nPreis: Eintritt fre
+ i\nQuelle (bitte vor dem Besuch prüfen): https://fuhlsbuettel.gedenkstaet
+ ten-hamburg.de/de/veranstaltungen
+URL:https://fuhlsbuettel.gedenkstaetten-hamburg.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20261126-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T120000
+DTEND;TZID=Europe/Berlin:20261126T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hagenbeck-20261127-foto-expedition-fuer-fortgeschrittene@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T140000
+DTEND;TZID=Europe/Berlin:20261127T160000
+SUMMARY:Foto-Expedition für Fortgeschrittene
+LOCATION:Tierpark Hagenbeck\, Lokstedter Grenzstraße 2\, 22527 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hagenbeck.de/de/tierpark/veranstaltungen/event_uebe
+ rsicht.php
+URL:https://www.hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.p
+ hp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hagenbeck-20261127-botanische-fuehrung-gruene-exoten@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T153000
+DTEND;TZID=Europe/Berlin:20261127T173000
+SUMMARY:Botanische Führung „Grüne Exoten“
+LOCATION:Tierpark Hagenbeck\, Lokstedter Grenzstraße 2\, 22527 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hagenbeck.de/de/tierpark/veranstaltungen/event_uebe
+ rsicht.php
+URL:https://www.hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.p
+ hp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-gedenkstaette-fuhlsbuettel-20261129-fuehrung-und-gespraech-in-der-ge
+ denkstaette-fuhlsb@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Führung und Gespräch in der Gedenkstätte Fuhlsbüttel
+LOCATION:Gedenkstätte Fuhlsbüttel (KZ und Strafanstalten Fuhlsbüttel)\, 
+ Suhrenkamp 98\, 22335 Hamburg
+DESCRIPTION:Termine laut Veranstalter: sonntags 11 Uhr\nPreis: Eintritt fre
+ i\nQuelle (bitte vor dem Besuch prüfen): https://fuhlsbuettel.gedenkstaet
+ ten-hamburg.de/de/veranstaltungen
+URL:https://fuhlsbuettel.gedenkstaetten-hamburg.de/de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-ernst-barlach-haus-20261129-kuratorenfuehrung-joachim-ringelnatz-es-
+ hat-sich-s@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T140000
+DTEND;TZID=Europe/Berlin:20261129T160000
+SUMMARY:Kuratorenführung Joachim Ringelnatz »Es hat sich selbst aus mir g
+ emalt« (Expertenrundgang)
+LOCATION:Ernst Barlach Haus\, Baron-Voght-Straße 50a (Jenischpark)\, 22609
+  Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Kostenfrei\, lediglic
+ h Museumseintritt\nQuelle (bitte vor dem Besuch prüfen): https://www.barl
+ ach-haus.de/ausstellungen/joachim-ringelnatz/
+URL:https://www.barlach-haus.de/ausstellungen/joachim-ringelnatz/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20261129-classique-cosmique@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Classique Cosmique
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20261202-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T190000
+DTEND;TZID=Europe/Berlin:20261202T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20261203-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T120000
+DTEND;TZID=Europe/Berlin:20261203T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20261206-der-stern-von-bethlehem@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Der Stern von Bethlehem
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20261210-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T120000
+DTEND;TZID=Europe/Berlin:20261210T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20261216-vortrag-quasare-licht-aus-de
+ m-jungen-universum@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:Vortrag: Quasare – Licht aus dem jungen Universum
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Monatsvortrag des Fördervereins in der Bibliothek der Sternwar
+ te.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-speicherstadtmuseum-20261226-speicherstadtrundgang-1500@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T150000
+DTEND;TZID=Europe/Berlin:20261226T170000
+SUMMARY:Speicherstadtrundgang
+LOCATION:Speicherstadtmuseum\, Am Sandtorkai 36\, 20457 Hamburg
+DESCRIPTION:Rundgang durch die Speicherstadt mit Museumsführung\, ca. 90 M
+ inuten\; Anmeldung empfohlen (Zusatztermin zwischen den Jahren).\nEnde: la
+ ut Quelle nicht angegeben\nPreis: 15\,- Euro / erm. 12\,- Euro / Kinder 8\
+ ,50 Euro (6-13 Jahre)\nQuelle (bitte vor dem Besuch prüfen): https://spei
+ cherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrundgaenge.html
+URL:https://speicherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrun
+ dgaenge.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-speicherstadtmuseum-20261230-speicherstadtrundgang-1500@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T150000
+DTEND;TZID=Europe/Berlin:20261230T170000
+SUMMARY:Speicherstadtrundgang
+LOCATION:Speicherstadtmuseum\, Am Sandtorkai 36\, 20457 Hamburg
+DESCRIPTION:Rundgang durch die Speicherstadt mit Museumsführung\, ca. 90 M
+ inuten\; Anmeldung empfohlen (Zusatztermin zwischen den Jahren).\nEnde: la
+ ut Quelle nicht angegeben\nPreis: 15\,- Euro / erm. 12\,- Euro / Kinder 8\
+ ,50 Euro (6-13 Jahre)\nQuelle (bitte vor dem Besuch prüfen): https://spei
+ cherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrundgaenge.html
+URL:https://speicherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrun
+ dgaenge.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-speicherstadtmuseum-20261231-speicherstadtrundgang-1300@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T130000
+DTEND;TZID=Europe/Berlin:20261231T150000
+SUMMARY:Speicherstadtrundgang
+LOCATION:Speicherstadtmuseum\, Am Sandtorkai 36\, 20457 Hamburg
+DESCRIPTION:Rundgang durch die Speicherstadt mit Museumsführung\, ca. 90 M
+ inuten\; Anmeldung empfohlen (Zusatztermin zwischen den Jahren).\nEnde: la
+ ut Quelle nicht angegeben\nPreis: 15\,- Euro / erm. 12\,- Euro / Kinder 8\
+ ,50 Euro (6-13 Jahre)\nQuelle (bitte vor dem Besuch prüfen): https://spei
+ cherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrundgaenge.html
+URL:https://speicherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrun
+ dgaenge.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-speicherstadtmuseum-20270102-speicherstadtrundgang-1500@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270102T150000
+DTEND;TZID=Europe/Berlin:20270102T170000
+SUMMARY:Speicherstadtrundgang
+LOCATION:Speicherstadtmuseum\, Am Sandtorkai 36\, 20457 Hamburg
+DESCRIPTION:Rundgang durch die Speicherstadt mit Museumsführung\, ca. 90 M
+ inuten\; Anmeldung empfohlen (Zusatztermin zwischen den Jahren).\nEnde: la
+ ut Quelle nicht angegeben\nPreis: 15\,- Euro / erm. 12\,- Euro / Kinder 8\
+ ,50 Euro (6-13 Jahre)\nQuelle (bitte vor dem Besuch prüfen): https://spei
+ cherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrundgaenge.html
+URL:https://speicherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrun
+ dgaenge.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-speicherstadtmuseum-20270103-speicherstadtrundgang-1100-beginn@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Beginn: Speicherstadtrundgang
+LOCATION:Speicherstadtmuseum\, Am Sandtorkai 36\, 20457 Hamburg
+DESCRIPTION:Rundgang durch die Speicherstadt\, ca. 90 Minuten\, Treffpunkt 
+ im Museum\; Anmeldung empfohlen. Fortsetzung für Jan.–März 2027 (endDa
+ te = Ende des Erfassungszeitraums).\nLaufzeit: 3.1.2027 bis 31.3.2027\nTer
+ mine laut Veranstalter: sonntags 11 Uhr (ganzjährig)\nPreis: 15\,- Euro /
+  erm. 12\,- Euro / Kinder 8\,50 Euro (6-13 Jahre)\nQuelle (bitte vor dem B
+ esuch prüfen): https://speicherstadtmuseum.de/oeffentliche-fuehrungen/spe
+ icherstadtrundgaenge.html
+URL:https://speicherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrun
+ dgaenge.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-speicherstadtmuseum-20270103-speicherstadtrundgang-1100-ende@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Speicherstadtrundgang
+LOCATION:Speicherstadtmuseum\, Am Sandtorkai 36\, 20457 Hamburg
+DESCRIPTION:Rundgang durch die Speicherstadt\, ca. 90 Minuten\, Treffpunkt 
+ im Museum\; Anmeldung empfohlen. Fortsetzung für Jan.–März 2027 (endDa
+ te = Ende des Erfassungszeitraums).\nLaufzeit: 3.1.2027 bis 31.3.2027\nTer
+ mine laut Veranstalter: sonntags 11 Uhr (ganzjährig)\nPreis: 15\,- Euro /
+  erm. 12\,- Euro / Kinder 8\,50 Euro (6-13 Jahre)\nQuelle (bitte vor dem B
+ esuch prüfen): https://speicherstadtmuseum.de/oeffentliche-fuehrungen/spe
+ icherstadtrundgaenge.html
+URL:https://speicherstadtmuseum.de/oeffentliche-fuehrungen/speicherstadtrun
+ dgaenge.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20270106-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T190000
+DTEND;TZID=Europe/Berlin:20270106T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270107-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T120000
+DTEND;TZID=Europe/Berlin:20270107T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20270122-360-grad-sylt-insel-im-weltnaturerbe-wa
+ ttenmeer@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:360 Grad Sylt – Insel im Weltnaturerbe Wattenmeer
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20270122-eine-reise-auf-den-grund-des-ozeans@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Eine Reise auf den Grund des Ozeans
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270128-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T120000
+DTEND;TZID=Europe/Berlin:20270128T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20270203-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270203T190000
+DTEND;TZID=Europe/Berlin:20270203T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270204-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T120000
+DTEND;TZID=Europe/Berlin:20270204T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270211-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T120000
+DTEND;TZID=Europe/Berlin:20270211T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270218-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T120000
+DTEND;TZID=Europe/Berlin:20270218T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270225-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T120000
+DTEND;TZID=Europe/Berlin:20270225T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20270303-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T190000
+DTEND;TZID=Europe/Berlin:20270303T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270311-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T120000
+DTEND;TZID=Europe/Berlin:20270311T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270318-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270318T120000
+DTEND;TZID=Europe/Berlin:20270318T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270325-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270325T120000
+DTEND;TZID=Europe/Berlin:20270325T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270401-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270401T120000
+DTEND;TZID=Europe/Berlin:20270401T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270408-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270408T120000
+DTEND;TZID=Europe/Berlin:20270408T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-st-jacobi-20270415-arp-schnitger-orgelfuehrung@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270415T120000
+DTEND;TZID=Europe/Berlin:20270415T140000
+SUMMARY:Arp-Schnitger-Orgelführung
+LOCATION:Hauptkirche St. Jacobi\, Jakobikirchhof 22\, 20095 Hamburg
+DESCRIPTION:Führung an der Arp-Schnitger-Orgel der Hauptkirche St. Jacobi.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://jacobus.de/musik/konzertkalender
+URL:https://jacobus.de/musik/konzertkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

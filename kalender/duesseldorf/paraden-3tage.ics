@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Paraden in Düsseldorf · my Event Hub (Erinnerung 3 Tage vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d-rosenmontagszug-20270208-rosenmontagszug-2027@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Düsseldorfer Rosenmontagszug 2027
+LOCATION:Düsseldorfer Rosenmontagszug (Herzogstraße bis Elisabethstraße)
+ \, Zugaufstellung Herzogstraße\, Auflösung Elisabethstraße/Bilker Allee
+ \, Düsseldorf
+DESCRIPTION:Rosenmontagszug des Comitee Düsseldorfer Carneval\, Motto „K
+ arneval\, grenzenlos vereint“.\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.comitee-duesseldorfer-carneval.de/de/pages/informationen-rosenm
+ ontagsumzug
+URL:https://www.comitee-duesseldorfer-carneval.de/de/pages/informationen-ro
+ senmontagsumzug
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

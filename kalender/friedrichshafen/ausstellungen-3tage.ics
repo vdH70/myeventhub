@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Friedrichshafen · my Event Hub (Erinnerung 3
+  Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fn-zeppelin-museum-20260522-gefuehlte-wahrheiten-zeppeline-und-national
+ soziali-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Letzter Tag: Gefühlte Wahrheiten. Zeppeline und Nationalsozialismu
+ s
+LOCATION:Zeppelin Museum\, Seestraße 22\, 88045 Friedrichshafen
+DESCRIPTION:Laufzeit: 22.5.2026 bis 4.4.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.zeppelin-museum.de/
+URL:https://www.zeppelin-museum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

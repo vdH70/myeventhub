@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Lohr a.Main · my Event Hub (Erinnerung 3 Tage 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:msp-stadthalle-lohr-20261128-die-schneekoenigin@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:Die Schneekönigin
+LOCATION:Stadthalle Lohr\, Jahnstraße 8\, 97816 Lohr a.Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-lohr.de/programm/
+URL:https://www.stadthalle-lohr.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:msp-stadthalle-lohr-20270221-tabaluga-und-lilli@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T160000
+DTEND;TZID=Europe/Berlin:20270221T180000
+SUMMARY:„Tabaluga und Lilli“
+LOCATION:Stadthalle Lohr\, Jahnstraße 8\, 97816 Lohr a.Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-lohr.de/programm/
+URL:https://www.stadthalle-lohr.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:msp-stadthalle-lohr-20270314-hakuna-matata@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T160000
+DTEND;TZID=Europe/Berlin:20270314T180000
+SUMMARY:„Hakuna Matata“
+LOCATION:Stadthalle Lohr\, Jahnstraße 8\, 97816 Lohr a.Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-lohr.de/programm/
+URL:https://www.stadthalle-lohr.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:msp-stadthalle-lohr-20270424-die-schluempfe-das-musical@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T163000
+DTEND;TZID=Europe/Berlin:20270424T183000
+SUMMARY:Die Schlümpfe – Das Musical
+LOCATION:Stadthalle Lohr\, Jahnstraße 8\, 97816 Lohr a.Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-lohr.de/programm/
+URL:https://www.stadthalle-lohr.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:msp-stadthalle-lohr-20270611-conni-das-musical@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270611T170000
+DTEND;TZID=Europe/Berlin:20270611T190000
+SUMMARY:Conni – das Musical
+LOCATION:Stadthalle Lohr\, Jahnstraße 8\, 97816 Lohr a.Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-lohr.de/programm/
+URL:https://www.stadthalle-lohr.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:msp-stadthalle-lohr-20271024-dibedibedab@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20271024T150000
+DTEND;TZID=Europe/Berlin:20271024T170000
+SUMMARY:Dibedibedab!
+LOCATION:Stadthalle Lohr\, Jahnstraße 8\, 97816 Lohr a.Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-lohr.de/programm/
+URL:https://www.stadthalle-lohr.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:msp-stadthalle-lohr-20280702-meister-eder-und-sein-pumuckl@myeventhub.d
+ e
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20280702T160000
+DTEND;TZID=Europe/Berlin:20280702T180000
+SUMMARY:Meister Eder und sein Pumuckl
+LOCATION:Stadthalle Lohr\, Jahnstraße 8\, 97816 Lohr a.Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadthalle-lohr.de/programm/
+URL:https://www.stadthalle-lohr.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

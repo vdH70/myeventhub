@@ -1,0 +1,927 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Dortmund · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:do-konzerthaus-20261031-saechsische-staatskapelle-dresden-mahler-10@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Sächsische Staatskapelle Dresden – Mahler 10
+LOCATION:Konzerthaus Dortmund\, Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.konzerthaus-dortmund.de/de/programm/
+URL:https://www.konzerthaus-dortmund.de/de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-hansa-theater-hoerde-20261101-die-hauptstadt-tenoere@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T170000
+DTEND;TZID=Europe/Berlin:20261101T190000
+SUMMARY:Die Hauptstadt Tenöre
+LOCATION:Hansa Theater Hörde\, Eckardtstr. 4a\, 44263 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hansa-theater-hoerde.de/termine
+URL:https://www.hansa-theater-hoerde.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-konzerthaus-20261103-junge-wilde-lucienne-renaudin-vary@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T190000
+DTEND;TZID=Europe/Berlin:20261103T210000
+SUMMARY:Junge Wilde – Lucienne Renaudin Vary
+LOCATION:Konzerthaus Dortmund\, Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.konzerthaus-dortmund.de/de/programm/
+URL:https://www.konzerthaus-dortmund.de/de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261105-mentees-des-stretton-xmp-violine-der-m
+ asterclass-v@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T183000
+DTEND;TZID=Europe/Berlin:20261105T203000
+SUMMARY:Mentees des Stretton xMP Violine der Masterclass Vilde Frang
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-konzerthaus-20261105-ariel-quartet-auerbach-und-brahms@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Ariel Quartet – Auerbach und Brahms
+LOCATION:Konzerthaus Dortmund\, Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.konzerthaus-dortmund.de/de/programm/
+URL:https://www.konzerthaus-dortmund.de/de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-konzerthaus-20261106-lera-auerbach-arctica-sinfonie@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Lera Auerbach: ARCTICA-Sinfonie
+LOCATION:Konzerthaus Dortmund\, Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.konzerthaus-dortmund.de/de/programm/
+URL:https://www.konzerthaus-dortmund.de/de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-konzerthaus-20261107-lera-auerbach-72-angels-chorwerk-ruhr@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Lera Auerbach: 72 Angels – Chorwerk Ruhr
+LOCATION:Konzerthaus Dortmund\, Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.konzerthaus-dortmund.de/de/programm/
+URL:https://www.konzerthaus-dortmund.de/de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261107-rachmaninow-ganznaechtliche-vigil@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Rachmaninow: Ganznächtliche Vigil
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Rachmaninows Vesper für Chor a cappella.\nEnde: laut Quelle ni
+ cht angegeben\nPreis: 20 €\, erm. 15 €\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_M
+ usik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-konzerthaus-20261108-hilary-hahn-deutsche-kammerphilharmonie-bremen@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Hilary Hahn & Deutsche Kammerphilharmonie Bremen (ausverkauft)
+LOCATION:Konzerthaus Dortmund\, Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.konzerthaus-dortmund.de/de/programm/
+URL:https://www.konzerthaus-dortmund.de/de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-konzerthaus-20261112-klavierabend-yulianna-avdeeva-beethoven-appassi
+ ona@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Klavierabend Yulianna Avdeeva – Beethoven Appassionata
+LOCATION:Konzerthaus Dortmund\, Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.konzerthaus-dortmund.de/de/programm/
+URL:https://www.konzerthaus-dortmund.de/de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-westfalenhallen-20261112-the-world-of-hans-zimmer-2026-a-new-dimensi
+ on@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:The World of Hans Zimmer 2026 – A New Dimension
+LOCATION:Westfalenhallen Dortmund (Westfalenhalle)\, Strobelallee 45\, 4413
+ 9 Dortmund
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.westfalenhal
+ le.de/events-tickets/eventfinder/
+URL:https://www.westfalenhalle.de/events-tickets/eventfinder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261114-mozart-requiem@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:Mozart: Requiem
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Mozarts Requiem mit weiteren Kirchenwerken Mozarts und einem Ch
+ orwerk von Vasks.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.sanktreinoldi.de/fileadmin/Medienablage_Rei
+ noldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-westfalenhallen-20261114-andre-rieu-die-grosse-deutschlandtour-2026@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:André Rieu – Die große Deutschlandtour 2026
+LOCATION:Westfalenhallen Dortmund (Westfalenhalle)\, Strobelallee 45\, 4413
+ 9 Dortmund
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.westfalenhal
+ le.de/events-tickets/eventfinder/
+URL:https://www.westfalenhalle.de/events-tickets/eventfinder/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261119-the-glocal-piano-festival@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T170000
+DTEND;TZID=Europe/Berlin:20261119T190000
+SUMMARY:The Glocal Piano Festival
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261120-the-glocal-piano-festival@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T170000
+DTEND;TZID=Europe/Berlin:20261120T190000
+SUMMARY:The Glocal Piano Festival
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261124-orgelmusik-zum-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T160000
+DTEND;TZID=Europe/Berlin:20261124T180000
+SUMMARY:Orgelmusik zum Weihnachtsmarkt
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Etwa 30 Minuten Orgelmusik von Dortmunder Organistinnen und Org
+ anisten.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende
+ n erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinold
+ i.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261124-listen-america-the-stars-and-stripes-f
+ orever@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T183000
+DTEND;TZID=Europe/Berlin:20261124T203000
+SUMMARY:...listen\, AMERICA!... | The Stars and Stripes forever
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261126-orgelmusik-zum-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T160000
+DTEND;TZID=Europe/Berlin:20261126T180000
+SUMMARY:Orgelmusik zum Weihnachtsmarkt
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Etwa 30 Minuten Orgelmusik von Dortmunder Organistinnen und Org
+ anisten.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende
+ n erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinold
+ i.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261128-sinfoniekonzert@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T180000
+DTEND;TZID=Europe/Berlin:20261128T200000
+SUMMARY:Sinfoniekonzert
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261201-orgelmusik-zum-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T160000
+DTEND;TZID=Europe/Berlin:20261201T180000
+SUMMARY:Orgelmusik zum Weihnachtsmarkt
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Etwa 30 Minuten Orgelmusik von Dortmunder Organistinnen und Org
+ anisten.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende
+ n erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinold
+ i.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261202-stretton-excellence-mentorship-program
+ -abschlussko@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T183000
+DTEND;TZID=Europe/Berlin:20261202T203000
+SUMMARY:Stretton Excellence Mentorship Program: Abschlusskonzert (Leonidas 
+ Kavakos)
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261203-orgelmusik-zum-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T160000
+DTEND;TZID=Europe/Berlin:20261203T180000
+SUMMARY:Orgelmusik zum Weihnachtsmarkt
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Etwa 30 Minuten Orgelmusik von Dortmunder Organistinnen und Org
+ anisten.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende
+ n erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinold
+ i.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261204-schubert-trifft-les-essence-mit-ozm-so
+ loists@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T183000
+DTEND;TZID=Europe/Berlin:20261204T203000
+SUMMARY:Schubert trifft Les essence mit OZM|Soloists
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261205-adventsmusik-von-bach-mozart-und-vivaldi@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T180000
+DTEND;TZID=Europe/Berlin:20261205T200000
+SUMMARY:Adventsmusik von Bach\, Mozart und Vivaldi
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Adventliches Chor- und Orchesterkonzert der Kreiskantorei.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 15 €\, Kinder 8 € (Abendkasse)\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinoldi.de/filea
+ dmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261207-stretton-excellence-mentorship-program
+ -abschlussko@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T183000
+DTEND;TZID=Europe/Berlin:20261207T203000
+SUMMARY:Stretton Excellence Mentorship Program: Abschlusskonzert (Pablo Fer
+ rández)
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261208-orgelmusik-zum-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T160000
+DTEND;TZID=Europe/Berlin:20261208T180000
+SUMMARY:Orgelmusik zum Weihnachtsmarkt
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Etwa 30 Minuten Orgelmusik von Dortmunder Organistinnen und Org
+ anisten.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende
+ n erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinold
+ i.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261209-mco-academy-werkstattkonzert@myeventhu
+ b.de
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:MCO Academy: Werkstattkonzert
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Preis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.orchesterzentrum.de/veranstaltungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261210-orgelmusik-zum-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T160000
+DTEND;TZID=Europe/Berlin:20261210T180000
+SUMMARY:Orgelmusik zum Weihnachtsmarkt
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Etwa 30 Minuten Orgelmusik von Dortmunder Organistinnen und Org
+ anisten.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende
+ n erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinold
+ i.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261212-bach-weihnachtsoratorium-iiii@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T160000
+DTEND;TZID=Europe/Berlin:20261212T180000
+SUMMARY:Bach: Weihnachtsoratorium I–III
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Kantaten I bis III\, zweite Aufführung um 19.30 Uhr.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2H
+ j26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261212-weihnachtsoratorium-i-iii-1930@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:Bach: Weihnachtsoratorium I–III
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Kantaten I bis III mit dem Dortmunder Bachchor.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sa
+ nktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_we
+ b.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261215-orgelmusik-zum-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T160000
+DTEND;TZID=Europe/Berlin:20261215T180000
+SUMMARY:Orgelmusik zum Weihnachtsmarkt
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Etwa 30 Minuten Orgelmusik von Dortmunder Organistinnen und Org
+ anisten.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende
+ n erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinold
+ i.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261215-listen-america-the-people-united-will-
+ never-be-def@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T183000
+DTEND;TZID=Europe/Berlin:20261215T203000
+SUMMARY:...listen\, AMERICA!... | The people united will never be defeated
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261216-beethoven-mozart@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T183000
+DTEND;TZID=Europe/Berlin:20261216T203000
+SUMMARY:Beethoven | Mozart
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261217-orgelmusik-zum-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T160000
+DTEND;TZID=Europe/Berlin:20261217T180000
+SUMMARY:Orgelmusik zum Weihnachtsmarkt
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Etwa 30 Minuten Orgelmusik von Dortmunder Organistinnen und Org
+ anisten.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende
+ n erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinold
+ i.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20261221-weihnachtliche-kammermusik@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261221T183000
+DTEND;TZID=Europe/Berlin:20261221T203000
+SUMMARY:Weihnachtliche Kammermusik
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20261222-orgelmusik-zum-weihnachtsmarkt@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T160000
+DTEND;TZID=Europe/Berlin:20261222T180000
+SUMMARY:Orgelmusik zum Weihnachtsmarkt
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Etwa 30 Minuten Orgelmusik von Dortmunder Organistinnen und Org
+ anisten.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spende
+ n erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.sanktreinold
+ i.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20270110-neujahrskonzert-fuer-trompete-posaune-un@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T180000
+DTEND;TZID=Europe/Berlin:20270110T200000
+SUMMARY:Neujahrskonzert für Trompete\, Posaune und Orgel
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Neujahrskonzert mit Blechbläsern und Orgel.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sankt
+ reinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.p
+ df
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20270115-italienisch-brasilianische-kammermusik
+ @myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T183000
+DTEND;TZID=Europe/Berlin:20270115T203000
+SUMMARY:Italienisch/brasilianische Kammermusik
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20270130-hello-again-intermediale-musik@myevent
+ hub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T183000
+DTEND;TZID=Europe/Berlin:20270130T203000
+SUMMARY:HELLO AGAIN – Intermediale Musik
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20270205-kammerkonzert-open-chamber@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T183000
+DTEND;TZID=Europe/Berlin:20270205T203000
+SUMMARY:Kammerkonzert (open chamber)
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20270207-klang-der-zukunft-benefizkonzert@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T180000
+DTEND;TZID=Europe/Berlin:20270207T200000
+SUMMARY:Klang der Zukunft – Benefizkonzert
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Benefizkonzert mit Orgelwerken von Gerard Bunk und Wilhelm Midd
+ elschulte.\nEnde: laut Quelle nicht angegeben\nPreis: Spenden erbeten\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.sanktreinoldi.de/fileadmin
+ /Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.pdf
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20270211-stretton-xmp-abschlusskonzert-enrico-p
+ ace@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T183000
+DTEND;TZID=Europe/Berlin:20270211T203000
+SUMMARY:Stretton xMP: Abschlusskonzert (Enrico Pace)
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20270224-violinkonzert@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T183000
+DTEND;TZID=Europe/Berlin:20270224T203000
+SUMMARY:Violinkonzert
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20270305-der-junge-beethoven@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T183000
+DTEND;TZID=Europe/Berlin:20270305T203000
+SUMMARY:Der junge Beethoven
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20270306-duo-walachowski-drum-twins@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T170000
+DTEND;TZID=Europe/Berlin:20270306T190000
+SUMMARY:Duo Walachowski & Drum Twins
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-orchesterzentrum-nrw-20270312-die-ruinen-von-athen@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T183000
+DTEND;TZID=Europe/Berlin:20270312T203000
+SUMMARY:Die Ruinen von Athen
+LOCATION:Orchesterzentrum|NRW\, Brückstraße 47\, 44135 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.orchesterzentrum.de/veranstal
+ tungen.html
+URL:https://www.orchesterzentrum.de/veranstaltungen.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-st-reinoldi-20270313-bach-matthaeus-passion@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T190000
+DTEND;TZID=Europe/Berlin:20270313T210000
+SUMMARY:Bach: Matthäus-Passion
+LOCATION:Ev. Stadtkirche St. Reinoldi\, Dortmund
+DESCRIPTION:Bachs Matthäus-Passion mit Barockorchester.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sankt
+ reinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/Programme/2Hj26_web.p
+ df
+URL:https://www.sanktreinoldi.de/fileadmin/Medienablage_Reinoldi/05_Musik/P
+ rogramme/2Hj26_web.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Lübbecke · my Event Hub (Erinnerung 1 Ta
+ g vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mi-p-aula-20261107-liza-kos@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Liza Kos
+LOCATION:P.aula Lübbecke\, Niedertorstr. 42\, 32312 Lübbecke
+DESCRIPTION:Comedy-Soloprogramm.\nEnde: laut Quelle nicht angegeben\nTicket
+ s: https://www.reservix.de/tickets-zeit-fuer-kultur-luebbecke/b88e24740-b6
+ 9b-4280-92a9-f909f9dfd49f\nQuelle (bitte vor dem Besuch prüfen): https://
+ p-aula.jimdofree.com/
+URL:https://p-aula.jimdofree.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-p-aula-20270320-wir-muessen-reden@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T200000
+DTEND;TZID=Europe/Berlin:20270320T220000
+SUMMARY:Wir müssen reden
+LOCATION:P.aula Lübbecke\, Niedertorstr. 42\, 32312 Lübbecke
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.reservi
+ x.de/tickets-zeit-fuer-kultur-luebbecke/b88e24740-b69b-4280-92a9-f909f9dfd
+ 49f\nQuelle (bitte vor dem Besuch prüfen): https://p-aula.jimdofree.com/
+URL:https://p-aula.jimdofree.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-p-aula-20270424-bin-nebenan@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T200000
+DTEND;TZID=Europe/Berlin:20270424T220000
+SUMMARY:Bin nebenan
+LOCATION:P.aula Lübbecke\, Niedertorstr. 42\, 32312 Lübbecke
+DESCRIPTION:Theaterabend mit Monologen.\nEnde: laut Quelle nicht angegeben\
+ nTickets: https://www.reservix.de/tickets-zeit-fuer-kultur-luebbecke/b88e2
+ 4740-b69b-4280-92a9-f909f9dfd49f\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://p-aula.jimdofree.com/
+URL:https://p-aula.jimdofree.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

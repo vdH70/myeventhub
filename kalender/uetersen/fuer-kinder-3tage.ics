@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Uetersen · my Event Hub (Erinnerung 3 Tage vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pi-stadtbuecherei-uetersen-20261110-tandera-wie-das-kaenguru-zu-seinen-
+ langen-beinen-k@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T153000
+DTEND;TZID=Europe/Berlin:20261110T173000
+SUMMARY:Tandera: „Wie das Känguru zu seinen langen Beinen kam“
+LOCATION:Stadtbücherei Uetersen\, Berliner Straße 17\, 25436 Uetersen
+DESCRIPTION:Figurentheater für Kinder von 4 bis 7 Jahren in der Stadtbüch
+ erei.\nEnde: laut Quelle nicht angegeben\nPreis: 3 €\nQuelle (bitte vor 
+ dem Besuch prüfen): https://uetersen.de/events/tandera-theater-mit-puppen
+ -fuer-kinder-im-alter-von-4-7-jahren.html?day=20261110&times=1794321000%2C
+ 1794323700
+URL:https://uetersen.de/events/tandera-theater-mit-puppen-fuer-kinder-im-al
+ ter-von-4-7-jahren.html?day=20261110&times=1794321000%2C1794323700
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-stadtbuecherei-uetersen-20261125-erzaehlen-und-basteln-fuer-kinder-v
+ on-5-bis-8-jahr@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T153000
+DTEND;TZID=Europe/Berlin:20261125T173000
+SUMMARY:Erzählen und Basteln für Kinder von 5 bis 8 Jahren
+LOCATION:Stadtbücherei Uetersen\, Berliner Straße 17\, 25436 Uetersen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://uetersen.de/events-veranstaltungen.html?month=202611
+URL:https://uetersen.de/events-veranstaltungen.html?month=202611
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

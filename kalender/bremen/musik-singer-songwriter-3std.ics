@@ -1,0 +1,390 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Singer-Songwriter in Bremen · my Event Hub (Erinnerung 3 Stun
+ den vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:metropol-theater-20261101-tim-fischer-chansons@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Tim Fischer – Chansons
+LOCATION:Metropol Theater Bremen\, Richtweg 7\, 28195 Bremen
+DESCRIPTION:Chansonabend mit Klavier und Schlagzeug.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://metropol-thea
+ ter-bremen.de/programm/events/tim-fischer/
+URL:https://metropol-theater-bremen.de/programm/events/tim-fischer/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stadtbibliothek-bremen-zentralbibliothek-20261105-singer-songrider-konz
+ ert-mit-celine-lebescond@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T173000
+DTEND;TZID=Europe/Berlin:20261105T193000
+SUMMARY:Singer Songrider: Konzert mit Céline Lebescond
+LOCATION:Stadtbibliothek Bremen – Zentralbibliothek\, Am Wall 201\, 28195
+  Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://stabi-hb.de/termine/?f_bibliothek=&f_
+ schlagwoerter%5B%5D=121&f_datum=&f_datum_bis=
+URL:https://stabi-hb.de/termine/?f_bibliothek=&f_schlagwoerter%5B%5D=121&f_
+ datum=&f_datum_bis=
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-uni-theatersaal-20261110-genna-jesse-americana-singer-songwriter-duo
+ @myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T123000
+DTEND;TZID=Europe/Berlin:20261110T143000
+SUMMARY:Genna & Jesse – Americana Singer/Songwriter Duo
+LOCATION:Theatersaal der Universität Bremen\, Bibliothekstraße 1\, 28359 
+ Bremen
+DESCRIPTION:Kostenloses Mittagskonzert der Uni Bremen\, ca. 25 Minuten.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.uni-bremen.de/konzerte/semesteruebersicht/
+ wintersemester-2026-27/dienstag-10-november-2026-1230-uhr-theatersaal-eint
+ ritt-freigenna-jesse-true-american-roots
+URL:https://www.uni-bremen.de/konzerte/semesteruebersicht/wintersemester-20
+ 26-27/dienstag-10-november-2026-1230-uhr-theatersaal-eintritt-freigenna-je
+ sse-true-american-roots
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kukoon-20261113-alternative-gutmensch-konzerte-mit-gisbe@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Alternative Gutmensch - Konzerte mit Gisbert zu Kniphausen\, Strom 
+ und Wasser und mehr
+LOCATION:Kukoon\, Buntentorsteinweg 29\, 28201 Bremen
+DESCRIPTION:Benefiz-Konzertreihe zugunsten sozialer Einrichtungen\; Bremer 
+ Abschlussabend.\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht
+  angegeben\nPreis: Eintritt Spenden erwünscht\nTickets: https://tickets.k
+ ukoon.de/\nQuelle (bitte vor dem Besuch prüfen): https://kukoon.de/de/eve
+ nts/2026-11-13-alternative-gutmensch
+URL:https://kukoon.de/de/events/2026-11-13-alternative-gutmensch
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20261113-nachtblau-chanson-fur-eine-abwesende-meret-becker@m
+ yeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:»Nachtblau – Chanson für eine Abwesende« Meret Becker & Dietma
+ r Loeffler interpretieren Barbara
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal. Reihe: GLOCKE Spezial.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.glocke.de/all
+ -events/page/4/
+URL:https://www.glocke.de/all-events/page/4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20261117-tina-dico-band-herbsttour-2026@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Tina Dico & Band »Herbsttour 2026«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Großer Saal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.glocke.de/all-events/page/4/
+URL:https://www.glocke.de/all-events/page/4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stadtbibliothek-bremen-zentralbibliothek-20261119-singer-songrider-konz
+ ert-mit-olaf-kock@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T173000
+DTEND;TZID=Europe/Berlin:20261119T193000
+SUMMARY:Singer Songrider: Konzert mit Olaf Kock
+LOCATION:Stadtbibliothek Bremen – Zentralbibliothek\, Am Wall 201\, 28195
+  Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://stabi-hb.de/termine/?f_bibliothek=&f_
+ schlagwoerter%5B%5D=121&f_datum=&f_datum_bis=
+URL:https://stabi-hb.de/termine/?f_bibliothek=&f_schlagwoerter%5B%5D=121&f_
+ datum=&f_datum_bis=
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kito-20261121-lennart-schilgen-macht-nichts@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Lennart Schilgen: …macht nichts!
+LOCATION:KITO – Altes Packhaus Vegesack\, Alte Hafenstraße 30\, 28757 Br
+ emen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbuerobremennord.de/programm/november-2026/
+URL:https://www.kulturbuerobremennord.de/programm/november-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-ms-aventura-20261124-marno-howald@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T190000
+DTEND;TZID=Europe/Berlin:20261124T210000
+SUMMARY:Marno Howald
+LOCATION:MS Aventura\, Schlachte\, Anleger 5\, 28195 Bremen
+DESCRIPTION:Bremer Liedermacher\, humorvoll und kritisch.\n19:00 Uhr (die Q
+ uelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.aventura-online.de
+ /
+URL:https://www.aventura-online.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kito-20261126-mackefisch@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Mackefisch
+LOCATION:KITO – Altes Packhaus Vegesack\, Alte Hafenstraße 30\, 28757 Br
+ emen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbuerobremennord.de/programm/november-2026/
+URL:https://www.kulturbuerobremennord.de/programm/november-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270113-the-cat-stevens-tribute-starring-patrick-snow@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T200000
+DTEND;TZID=Europe/Berlin:20270113T220000
+SUMMARY:The Cat Stevens Tribute Starring Patrick Snow
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Kleiner Saal.\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass od
+ er Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.glocke.de/all-events/page/8/
+URL:https://www.glocke.de/all-events/page/8/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schlachthof-20270115-goetz-widmann@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:Götz Widmann – Live Tour 2027
+LOCATION:Kulturzentrum Schlachthof\, Findorffstr. 51\, 28215 Bremen
+DESCRIPTION:Liedermacher-Konzert in der Kesselhalle.\n20:00 Uhr (die Quelle
+  sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.schlachthof-bremen.de/p
+ rogramm/goetz-widmann-2027
+URL:https://www.schlachthof-bremen.de/programm/goetz-widmann-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:theater-bremen-kleines-haus-20270205-club-carolina-deslandes@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T210000
+DTEND;TZID=Europe/Berlin:20270205T230000
+SUMMARY:CLUB: Carolina Deslandes
+LOCATION:Theater Bremen – Kleines Haus\, Goetheplatz 1-3\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterbremen.de/de_DE/programm/club-carolina-deslandes
+ .1406566
+URL:https://theaterbremen.de/de_DE/programm/club-carolina-deslandes.1406566
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lagerhaus-20270403-ami-warning@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270403T200000
+DTEND;TZID=Europe/Berlin:20270403T220000
+SUMMARY:Ami Warning
+LOCATION:Kulturzentrum Lagerhaus\, Schildstraße 12-19\, 28203 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturzentrum-lagerhaus.de/kultur/3619/ami-warning
+URL:https://www.kulturzentrum-lagerhaus.de/kultur/3619/ami-warning
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270410-chanson-eine-hommage-an-charles-aznavour-edith-piaf
+ -und@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T193000
+DTEND;TZID=Europe/Berlin:20270410T213000
+SUMMARY:»Chanson« Eine Hommage an Charles Aznavour\, Edith Piaf und Jacqu
+ es Brel
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/12/
+URL:https://www.glocke.de/all-events/page/12/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20270425-dota-das-klitzekleine-orchester-unplugged-2027@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270425T190000
+DTEND;TZID=Europe/Berlin:20270425T210000
+SUMMARY:DOTA & das klitzekleine Orchester »Unplugged 2027«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/13/
+URL:https://www.glocke.de/all-events/page/13/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20271217-herman-van-veen-unterwegs@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271217T180000
+DTEND;TZID=Europe/Berlin:20271217T200000
+SUMMARY:Herman van Veen »Unterwegs«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/17/
+URL:https://www.glocke.de/all-events/page/17/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20271218-herman-van-veen-unterwegs@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271218T180000
+DTEND;TZID=Europe/Berlin:20271218T200000
+SUMMARY:Herman van Veen »Unterwegs«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/17/
+URL:https://www.glocke.de/all-events/page/17/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:die-glocke-20271219-herman-van-veen-unterwegs@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20271219T150000
+DTEND;TZID=Europe/Berlin:20271219T170000
+SUMMARY:Herman van Veen »Unterwegs«
+LOCATION:Die Glocke\, Domsheide 4/5\, 28195 Bremen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.glocke.de/all-events/page/17/
+URL:https://www.glocke.de/all-events/page/17/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

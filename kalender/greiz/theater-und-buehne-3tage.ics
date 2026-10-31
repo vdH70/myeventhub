@@ -1,0 +1,380 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Greiz · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261101-gala-der-operette@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Gala der Operette
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261106-der-magier-live@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Der Magier - LIVE
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261107-die-feisten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:die feisten
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261108-theatersonntag-oscar-wilde-s-bunbury@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T170000
+DTEND;TZID=Europe/Berlin:20261108T190000
+SUMMARY:Theatersonntag "Oscar Wilde's Bunbury"
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261114-3-greizer-lachnacht@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:3. Greizer Lachnacht
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261121-roy-reinker-der-puppige-bauchredner@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Roy Reinker - Der puppige Bauchredner
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261129-kabarett-fettnaeppchen-aus-gera@myeventhub.d
+ e
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Kabarett "Fettnäppchen" aus Gera
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261130-katrin-weber@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T193000
+DTEND;TZID=Europe/Berlin:20261130T213000
+SUMMARY:Katrin Weber
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261203-santa-maria-das-musical@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T193000
+DTEND;TZID=Europe/Berlin:20261203T213000
+SUMMARY:Santa Maria – Das Musical
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261205-sandtheater-on-tour-drei-haselnuesse-fuer-as
+ chenbr@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T170000
+DTEND;TZID=Europe/Berlin:20261205T190000
+SUMMARY:Sandtheater On Tour - Drei Haselnüsse für Aschenbrödel
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261216-das-weihnachtsmaerchen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T093000
+DTEND;TZID=Europe/Berlin:20261216T113000
+SUMMARY:Das Weihnachtsmärchen
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Termine laut Veranstalter: weitere Vorstellungen 17.12. (9:30\,
+  14:30)\, 18.12. (9:30)\, 19.12. (17:00)\, 21.12.2026 (9:30)\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261220-herzlaecheln-im-advent-mit-rebecca-immanuel@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T170000
+DTEND;TZID=Europe/Berlin:20261220T190000
+SUMMARY:„HerzLächeln im Advent“ mit Rebecca Immanuel
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20261227-musikkabarett-schwarze-gruetze@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T170000
+DTEND;TZID=Europe/Berlin:20261227T190000
+SUMMARY:Musikkabarett Schwarze Grütze
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20270115-faust-n-roll-rocktheater-nach-goethe@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T193000
+DTEND;TZID=Europe/Berlin:20270115T213000
+SUMMARY:FAUST'n'Roll - Rocktheater nach Goethe
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20270116-tarzan-das-musical@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T150000
+DTEND;TZID=Europe/Berlin:20270116T170000
+SUMMARY:Tarzan - das Musical
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20270117-dance-masters-best-of-irish-dance@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T190000
+DTEND;TZID=Europe/Berlin:20270117T210000
+SUMMARY:Dance Masters! - Best of Irish Dance
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20270219-fischer-jung-maedelsabend@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Fischer & Jung - Mädelsabend
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20270304-herr-doktor-die-kanuele-klemmt@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T200000
+DTEND;TZID=Europe/Berlin:20270304T220000
+SUMMARY:Herr Doktor\, die Kanüle klemmt!
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20270305-rock-the-circus@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:Rock The Circus
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grz-vogtlandhalle-20270314-the-magic-night-of-dance-musicals@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T200000
+DTEND;TZID=Europe/Berlin:20270314T220000
+SUMMARY:The Magic Night Of Dance Musicals
+LOCATION:Vogtlandhalle Greiz\, Carolinenstraße 15\, 07973 Greiz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vogtlandhalle.de/veranstaltungen
+URL:https://www.vogtlandhalle.de/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

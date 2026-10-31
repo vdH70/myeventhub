@@ -1,0 +1,677 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Quedlinburg · my Event Hub (Erinnerung 1 Tag 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261031-das-phantom@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Das Phantom (ausverkauft)
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Ausverkauft.\nEnde: laut Quelle nicht
+  angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://ha
+ rztheater.de/produktion/das-phantom
+URL:https://harztheater.de/produktion/das-phantom
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261106-der-hauptmann-von-koepenick@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Der Hauptmann von Köpenick
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/de
+ r-hauptmann-von-koepenick
+URL:https://harztheater.de/produktion/der-hauptmann-von-koepenick
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261108-der-hauptmann-von-koepenick@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Der Hauptmann von Köpenick
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/de
+ r-hauptmann-von-koepenick
+URL:https://harztheater.de/produktion/der-hauptmann-von-koepenick
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261111-die-leseratte-willkommen-bei-den-gr
+ auses@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T160000
+DTEND;TZID=Europe/Berlin:20261111T180000
+SUMMARY:Die Leseratte: „Willkommen bei den Grauses“
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Neue Bühne Quedlinburg. Eintritt frei.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheater.de
+ /produktion/die-leseratte
+URL:https://harztheater.de/produktion/die-leseratte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261114-schattenfaenger@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Schattenfänger
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Neue Bühne Quedlinburg. Uraufführung.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheater.de
+ /produktion/schattenfaenger
+URL:https://harztheater.de/produktion/schattenfaenger
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261114-sinfoniekonzert-nr-2-schubert-auenm
+ ueller-mendelss@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Sinfoniekonzert Nr. 2: Schubert & Auenmüller & Mendelssohn
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Harzer Sinfoniker.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheat
+ er.de/produktion/sinfoniekonzert-nr-2-schubert-auenmueller-mendelssohn
+URL:https://harztheater.de/produktion/sinfoniekonzert-nr-2-schubert-auenmue
+ ller-mendelssohn
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261121-der-kleine-muck@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T150000
+DTEND;TZID=Europe/Berlin:20261121T170000
+SUMMARY:Der kleine Muck
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Premiere.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheater.de/pro
+ duktion/der-kleine-muck
+URL:https://harztheater.de/produktion/der-kleine-muck
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261128-festliches-weihnachtskonzert@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:Festliches Weihnachtskonzert
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/fe
+ stliches-weihnachtskonzert
+URL:https://harztheater.de/produktion/festliches-weihnachtskonzert
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261128-festliches-weihnachtskonzert-1930@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Festliches Weihnachtskonzert
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/fe
+ stliches-weihnachtskonzert
+URL:https://harztheater.de/produktion/festliches-weihnachtskonzert
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261206-pinocchio-tanz-der-abenteuer@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Pinocchio – Tanz der Abenteuer
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/pi
+ nocchio-tanz-der-abenteuer
+URL:https://harztheater.de/produktion/pinocchio-tanz-der-abenteuer
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261209-die-leseratte-zippel-und-das-wirkli
+ ch-wahre-schlos@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T160000
+DTEND;TZID=Europe/Berlin:20261209T180000
+SUMMARY:Die Leseratte: „Zippel und das wirklich wahre Schlossgespenst“
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Neue Bühne Quedlinburg. Eintritt frei.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheater.de
+ /produktion/die-leseratte
+URL:https://harztheater.de/produktion/die-leseratte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261212-festliches-weihnachtskonzert@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:Festliches Weihnachtskonzert
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/fe
+ stliches-weihnachtskonzert
+URL:https://harztheater.de/produktion/festliches-weihnachtskonzert
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261218-siegfried@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T180000
+DTEND;TZID=Europe/Berlin:20261218T200000
+SUMMARY:Siegfried
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. 17:10 Stückeinführung in der Neuen 
+ Bühne.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://harztheater.de/produktion/siegfried
+URL:https://harztheater.de/produktion/siegfried
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261225-pinocchio-tanz-der-abenteuer@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T150000
+DTEND;TZID=Europe/Berlin:20261225T170000
+SUMMARY:Pinocchio – Tanz der Abenteuer
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Letzte Vorstellung.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harzthea
+ ter.de/produktion/pinocchio-tanz-der-abenteuer
+URL:https://harztheater.de/produktion/pinocchio-tanz-der-abenteuer
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261227-das-phantom@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T180000
+DTEND;TZID=Europe/Berlin:20261227T200000
+SUMMARY:Das Phantom
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Letzte Vorstellung.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harzthea
+ ter.de/produktion/das-phantom
+URL:https://harztheater.de/produktion/das-phantom
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261231-achtsam-morden@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T150000
+DTEND;TZID=Europe/Berlin:20261231T170000
+SUMMARY:Achtsam morden
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Premiere.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheater.de/pro
+ duktion/achtsam-morden
+URL:https://harztheater.de/produktion/achtsam-morden
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20261231-achtsam-morden-1900@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T190000
+DTEND;TZID=Europe/Berlin:20261231T210000
+SUMMARY:Achtsam morden
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Ausverkauft.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheater.de/
+ produktion/achtsam-morden
+URL:https://harztheater.de/produktion/achtsam-morden
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270103-festliches-neujahrskonzert@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T150000
+DTEND;TZID=Europe/Berlin:20270103T170000
+SUMMARY:Festliches Neujahrskonzert
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/fe
+ stliches-neujahrskonzert
+URL:https://harztheater.de/produktion/festliches-neujahrskonzert
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270104-festliches-neujahrskonzert@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270104T193000
+DTEND;TZID=Europe/Berlin:20270104T213000
+SUMMARY:Festliches Neujahrskonzert
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/fe
+ stliches-neujahrskonzert
+URL:https://harztheater.de/produktion/festliches-neujahrskonzert
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270107-das-wirtshaus-im-spessart@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T150000
+DTEND;TZID=Europe/Berlin:20270107T170000
+SUMMARY:Das Wirtshaus im Spessart
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/da
+ s-wirtshaus-im-spessart
+URL:https://harztheater.de/produktion/das-wirtshaus-im-spessart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270108-the-original-jukebox-heroes@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T193000
+DTEND;TZID=Europe/Berlin:20270108T213000
+SUMMARY:The Original Jukebox Heroes
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Gastspiel.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheater.de/pr
+ oduktion/juke-box-heroes
+URL:https://harztheater.de/produktion/juke-box-heroes
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270113-die-leseratte-die-magische-biblioth
+ ek-der-buks@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T160000
+DTEND;TZID=Europe/Berlin:20270113T180000
+SUMMARY:Die Leseratte: „Die magische Bibliothek der Buks“
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Neue Bühne Quedlinburg. Eintritt frei.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheater.de
+ /produktion/die-leseratte
+URL:https://harztheater.de/produktion/die-leseratte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270116-siegfried@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T150000
+DTEND;TZID=Europe/Berlin:20270116T170000
+SUMMARY:Siegfried
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. 14:10 Stückeinführung in der Neuen 
+ Bühne.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://harztheater.de/produktion/siegfried
+URL:https://harztheater.de/produktion/siegfried
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270117-schattenfaenger@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T150000
+DTEND;TZID=Europe/Berlin:20270117T170000
+SUMMARY:Schattenfänger
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Neue Bühne Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/sch
+ attenfaenger
+URL:https://harztheater.de/produktion/schattenfaenger
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270122-die-zirkusprinzessin@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T193000
+DTEND;TZID=Europe/Berlin:20270122T213000
+SUMMARY:Die Zirkusprinzessin
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/di
+ e-zirkusprinzessin
+URL:https://harztheater.de/produktion/die-zirkusprinzessin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270128-draussen-vor-der-tuer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T193000
+DTEND;TZID=Europe/Berlin:20270128T213000
+SUMMARY:Draußen vor der Tür
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Neue Bühne Quedlinburg. Premiere.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheater.de/prod
+ uktion/draussen-vor-der-tuer
+URL:https://harztheater.de/produktion/draussen-vor-der-tuer
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270129-draussen-vor-der-tuer@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T180000
+DTEND;TZID=Europe/Berlin:20270129T200000
+SUMMARY:Draußen vor der Tür
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Neue Bühne Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/dra
+ ussen-vor-der-tuer
+URL:https://harztheater.de/produktion/draussen-vor-der-tuer
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270130-sinfoniekonzert-nr-3-chatschaturjan
+ -rachmaninow-ts@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T193000
+DTEND;TZID=Europe/Berlin:20270130T213000
+SUMMARY:Sinfoniekonzert Nr. 3: Chatschaturjan & Rachmaninow & Tschaikowski
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Harzer Sinfoniker.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harztheat
+ er.de/produktion/sinfoniekonzert-nr-3-chatschaturjan-rachmaninow
+URL:https://harztheater.de/produktion/sinfoniekonzert-nr-3-chatschaturjan-r
+ achmaninow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270131-der-kleine-muck@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T150000
+DTEND;TZID=Europe/Berlin:20270131T170000
+SUMMARY:Der kleine Muck
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Letzte Vorstellung.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harzthea
+ ter.de/produktion/der-kleine-muck
+URL:https://harztheater.de/produktion/der-kleine-muck
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270211-il-barbiere-di-siviglia@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T150000
+DTEND;TZID=Europe/Berlin:20270211T170000
+SUMMARY:Il Barbiere di Siviglia
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/il
+ -barbiere-di-sivglia
+URL:https://harztheater.de/produktion/il-barbiere-di-sivglia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270214-achtsam-morden@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T150000
+DTEND;TZID=Europe/Berlin:20270214T170000
+SUMMARY:Achtsam morden
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/ac
+ htsam-morden
+URL:https://harztheater.de/produktion/achtsam-morden
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270313-achtsam-morden@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T193000
+DTEND;TZID=Europe/Berlin:20270313T213000
+SUMMARY:Achtsam morden
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://harztheater.de/produktion/ac
+ htsam-morden
+URL:https://harztheater.de/produktion/achtsam-morden
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-harztheater-quedlinburg-20270423-achtsam-morden@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270423T193000
+DTEND;TZID=Europe/Berlin:20270423T213000
+SUMMARY:Achtsam morden
+LOCATION:Harztheater Quedlinburg (Großes Haus und Neue Bühne)\, Marschlin
+ ger Hof 17/18\, 06484 Quedlinburg
+DESCRIPTION:Großes Haus Quedlinburg. Letzte Vorstellung.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://harzthea
+ ter.de/produktion/achtsam-morden
+URL:https://harztheater.de/produktion/achtsam-morden
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

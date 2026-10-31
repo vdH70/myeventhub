@@ -1,0 +1,348 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Meppen · my Event Hub (Erinnerung 3 Stunden v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:el-emsland-archaeologie-museum-20260623-auf-den-spuren-der-wahrheit-200
+ 0-jahre-verbrechens-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Letzter Tag: Auf den Spuren der Wahrheit. 2000 Jahre Verbrechensauf
+ klärung
+LOCATION:Emsland Archäologie Museum\, An der Koppelschleuse 19 a\, 49716 M
+ eppen
+DESCRIPTION:Sonderausstellung zur Geschichte der Kriminalistik von der Anti
+ ke bis heute.\nLaufzeit: 23.6.2026 bis 12.1.2027\nQuelle (bitte vor dem Be
+ such prüfen): https://www.archaeologie-emsland.de/
+URL:https://www.archaeologie-emsland.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-kunstzentrum-koppelschleuse-20261030-tack-tack-tack-beginn@myeventhu
+ b.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: TACK TACK TACK
+LOCATION:Kunstzentrum Koppelschleuse (Meppener Kunstkreis)\, An der Koppels
+ chleuse 19\, 49716 Meppen
+DESCRIPTION:Laufzeit: 30.10.2026 bis 18.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.meppener-kunstkreis.de/
+URL:https://www.meppener-kunstkreis.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-kunstzentrum-koppelschleuse-20261030-tack-tack-tack-ende@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Letzter Tag: TACK TACK TACK
+LOCATION:Kunstzentrum Koppelschleuse (Meppener Kunstkreis)\, An der Koppels
+ chleuse 19\, 49716 Meppen
+DESCRIPTION:Laufzeit: 30.10.2026 bis 18.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.meppener-kunstkreis.de/
+URL:https://www.meppener-kunstkreis.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meppen-theater-20261101-der-sohn@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T190000
+DTEND;TZID=Europe/Berlin:20261101T210000
+SUMMARY:Der Sohn
+LOCATION:Theater Meppen\, Markt 43\, 49716 Meppen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.meppen-theater.de/termine
+URL:https://www.meppen-theater.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-emsland-archaeologie-museum-20261105-mord-im-emsland-krimi-lesung@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T180000
+DTEND;TZID=Europe/Berlin:20261105T200000
+SUMMARY:Mord im Emsland – Krimi-Lesung
+LOCATION:Emsland Archäologie Museum\, An der Koppelschleuse 19 a\, 49716 M
+ eppen
+DESCRIPTION:Krimi-Lesung\, anschließend Besuch der Sonderausstellung\; bis
+  20:00 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.archaeologie-emsland.de/veranstaltungen-und-aktue
+ lles
+URL:https://www.archaeologie-emsland.de/veranstaltungen-und-aktuelles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meppen-theater-20261106-die-zauberfloete@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T160000
+DTEND;TZID=Europe/Berlin:20261106T180000
+SUMMARY:Die Zauberflöte
+LOCATION:Theater Meppen\, Markt 43\, 49716 Meppen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.meppen-theater.de/termine
+URL:https://www.meppen-theater.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meppen-theater-20261111-achtsam-morden-durch-bewusste-ernaehrung@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T193000
+DTEND;TZID=Europe/Berlin:20261111T213000
+SUMMARY:Achtsam morden durch bewusste Ernährung
+LOCATION:Theater Meppen\, Markt 43\, 49716 Meppen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.meppen-theater.de/termine
+URL:https://www.meppen-theater.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-emsland-archaeologie-museum-20261112-oeffentliche-fuehrung-durch-die
+ -dauerausstellung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T170000
+DTEND;TZID=Europe/Berlin:20261112T190000
+SUMMARY:Öffentliche Führung durch die Dauerausstellung
+LOCATION:Emsland Archäologie Museum\, An der Koppelschleuse 19 a\, 49716 M
+ eppen
+DESCRIPTION:Führung bis 17:45 Uhr.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.archaeologie-emsland.de/ve
+ ranstaltungen-und-aktuelles
+URL:https://www.archaeologie-emsland.de/veranstaltungen-und-aktuelles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meppen-theater-20261112-nicole-jaeger@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Nicole Jäger
+LOCATION:Theater Meppen\, Markt 43\, 49716 Meppen
+DESCRIPTION:Comedy.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.meppen-theater.de/termine
+URL:https://www.meppen-theater.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meppen-theater-20261115-celissimo@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:CELISSIMO
+LOCATION:Theater Meppen\, Markt 43\, 49716 Meppen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.meppen-theater.de/termine
+URL:https://www.meppen-theater.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-emsland-archaeologie-museum-20261124-boot-un-dood-filmabend-op-platt
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T190000
+DTEND;TZID=Europe/Berlin:20261124T210000
+SUMMARY:Boot un' Dood – Filmabend op Platt
+LOCATION:Emsland Archäologie Museum\, An der Koppelschleuse 19 a\, 49716 M
+ eppen
+DESCRIPTION:Plattdeutscher Filmabend bis 22:00 Uhr.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.archaeolog
+ ie-emsland.de/veranstaltungen-und-aktuelles
+URL:https://www.archaeologie-emsland.de/veranstaltungen-und-aktuelles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meppen-theater-20261126-frieda-braun@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Frieda Braun
+LOCATION:Theater Meppen\, Markt 43\, 49716 Meppen
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.meppen-theater.de/termine
+URL:https://www.meppen-theater.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-emsland-archaeologie-museum-20261127-wer-war-bruno-fabeyer-lesung@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T183000
+DTEND;TZID=Europe/Berlin:20261127T203000
+SUMMARY:Wer war Bruno Fabeyer? – Lesung
+LOCATION:Emsland Archäologie Museum\, An der Koppelschleuse 19 a\, 49716 M
+ eppen
+DESCRIPTION:Lesung bis 20:00 Uhr.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.archaeologie-emsland.de/vera
+ nstaltungen-und-aktuelles
+URL:https://www.archaeologie-emsland.de/veranstaltungen-und-aktuelles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meppen-theater-20261129-7-meppener-weihnachtskonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T190000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:7. Meppener Weihnachtskonzert
+LOCATION:Theater Meppen\, Markt 43\, 49716 Meppen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.meppen-theater.de/termine
+URL:https://www.meppen-theater.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meppen-theater-20261203-mirja-boes-die-honkeydonkeys@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T193000
+DTEND;TZID=Europe/Berlin:20261203T213000
+SUMMARY:Mirja Boes & die HonkeyDonkeys
+LOCATION:Theater Meppen\, Markt 43\, 49716 Meppen
+DESCRIPTION:Comedy mit Musik.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.meppen-theater.de/termine
+URL:https://www.meppen-theater.de/termine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-emsland-archaeologie-museum-20261210-oeffentliche-fuehrung-durch-die
+ -dauerausstellung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T170000
+DTEND;TZID=Europe/Berlin:20261210T190000
+SUMMARY:Öffentliche Führung durch die Dauerausstellung
+LOCATION:Emsland Archäologie Museum\, An der Koppelschleuse 19 a\, 49716 M
+ eppen
+DESCRIPTION:Führung bis 17:45 Uhr.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.archaeologie-emsland.de/ve
+ ranstaltungen-und-aktuelles
+URL:https://www.archaeologie-emsland.de/veranstaltungen-und-aktuelles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-emsland-archaeologie-museum-20261216-mitmach-mittwoch-im-museum@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T150000
+DTEND;TZID=Europe/Berlin:20261216T170000
+SUMMARY:Mitmach-Mittwoch im Museum
+LOCATION:Emsland Archäologie Museum\, An der Koppelschleuse 19 a\, 49716 M
+ eppen
+DESCRIPTION:Kreativ-Workshop für Kinder bis 16:30 Uhr.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.archae
+ ologie-emsland.de/veranstaltungen-und-aktuelles
+URL:https://www.archaeologie-emsland.de/veranstaltungen-und-aktuelles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

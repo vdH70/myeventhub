@@ -1,0 +1,429 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Balingen · my Event Hub (Erinnerung 3 Stu
+ nden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261106-mundstuhl-wir-kommen@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Mundstuhl: Wir kommen!
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523247499326/MUNDSTUHL.html?nodeID=523247499326
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523247499326/MUNDSTUHL.html?nodeID=523247499326
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261113-martina-schwarzmann@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Martina Schwarzmann (ausverkauft)
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://stadthalle-balingen.de/site/Balingen-Stadt
+ halle/node/15653077/zmdetail_523252276600/MartinaSchwarzmann.html?nodeID=5
+ 23252276600
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523252276600/MartinaSchwarzmann.html?nodeID=523252276600
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261121-musicalladies-friends@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:MusicalLadies & Friends
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523254731651/MusicalLadiesFriends.html?nodeID=523254731651
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523254731651/MusicalLadiesFriends.html?nodeID=523254731651
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261125-stefan-verra-du-zum-superdu@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:Stefan Verra: Du zum SuperDu
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523251882952/StefanVerra.html?nodeID=523251882952
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523251882952/StefanVerra.html?nodeID=523251882952
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261126-tauschrausch@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:TauschRausch
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523254392874/TauschRausch.html?nodeID=523254392874
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523254392874/TauschRausch.html?nodeID=523254392874
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261127-achtsam-morden-durch-bewusste-ernaehrun
+ g@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Achtsam morden durch bewusste Ernährung
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523255496306/AchtsammordendurchbewussteErnhrung.html?nodeI
+ D=523255496306
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523255496306/AchtsammordendurchbewussteErnhrung.html?nodeID=523255
+ 496306
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261205-10-wintervariete-balingen-variete-gala@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:10. Wintervarieté Balingen – Varieté-Gala
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523255044501/_10WintervarietBalingenVarietGala.html?nodeID
+ =523255044501
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523255044501/_10WintervarietBalingenVarietGala.html?nodeID=5232550
+ 44501
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261206-dornroeschen-ballett@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+DTEND;TZID=Europe/Berlin:20261206T200000
+SUMMARY:Dornröschen (Ballett)
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523255144350/Dornrschen.html?nodeID=523255144350
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523255144350/Dornrschen.html?nodeID=523255144350
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261211-beats-on-pointe@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T193000
+DTEND;TZID=Europe/Berlin:20261211T213000
+SUMMARY:Beats on Pointe
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523255621601/BeatsonPointe.html?nodeID=523255621601
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523255621601/BeatsonPointe.html?nodeID=523255621601
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261217-alfons-klasse@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:Alfons: Klasse!
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523252448900/Alfons.html?nodeID=523252448900
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523252448900/Alfons.html?nodeID=523252448900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261219-drei-haselnuesse-fuer-aschenbroedel-mus
+ ical@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T180000
+DTEND;TZID=Europe/Berlin:20261219T200000
+SUMMARY:Drei Haselnüsse für Aschenbrödel (Musical)
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523254841450/DreiHaselnssefrAschenbrdel.html?nodeID=523254
+ 841450
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523254841450/DreiHaselnssefrAschenbrdel.html?nodeID=523254841450
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261220-danceperados-of-ireland-spirit-of-irish
+ -christmas@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T180000
+DTEND;TZID=Europe/Berlin:20261220T200000
+SUMMARY:Danceperados of Ireland – Spirit of Irish Christmas Tour
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523255132453/DanceperadosofIrelandSpiritofIrishChristmasTo
+ ur.html?nodeID=523255132453
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523255132453/DanceperadosofIrelandSpiritofIrishChristmasTour.html?
+ nodeID=523255132453
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20261227-die-klingende-bergweihnacht@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T200000
+DTEND;TZID=Europe/Berlin:20261227T220000
+SUMMARY:Die Klingende Bergweihnacht
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523255410657/DieKlingendeBergweihnacht.html?nodeID=5232554
+ 10657
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523255410657/DieKlingendeBergweihnacht.html?nodeID=523255410657
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20270107-liza-kos-intrigation@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T193000
+DTEND;TZID=Europe/Berlin:20270107T213000
+SUMMARY:Liza Kos: Intrigation
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523254196651/LizaKosIntrigation.html?nodeID=523254196651
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523254196651/LizaKosIntrigation.html?nodeID=523254196651
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20270109-eiskoenigin-1-2@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T193000
+DTEND;TZID=Europe/Berlin:20270109T213000
+SUMMARY:Eiskönigin 1 & 2
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523255150600/Eisknigin12.html?nodeID=523255150600
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523255150600/Eisknigin12.html?nodeID=523255150600
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20270113-der-zerbrochne-krug@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T193000
+DTEND;TZID=Europe/Berlin:20270113T213000
+SUMMARY:Der zerbrochne Krug
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523255153250/DerzerbrochneKrug.html?nodeID=523255153250
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523255153250/DerzerbrochneKrug.html?nodeID=523255153250
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20270115-tobias-mann-real-fake@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T193000
+DTEND;TZID=Europe/Berlin:20270115T213000
+SUMMARY:Tobias Mann: Real/Fake
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523254394454/TobiasMannRealFake.html?nodeID=523254394454
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523254394454/TobiasMannRealFake.html?nodeID=523254394454
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20270117-la-boheme@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T180000
+DTEND;TZID=Europe/Berlin:20270117T200000
+SUMMARY:La Bohème
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523254996869/LaBohme.html?nodeID=523254996869
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523254996869/LaBohme.html?nodeID=523254996869
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20270120-kaecheles-nix-saga-isch-au-nix@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270120T193000
+DTEND;TZID=Europe/Berlin:20270120T213000
+SUMMARY:Kächeles: Nix saga\, isch au nix!
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523253173600/Kcheles.html?nodeID=523253173600
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523253173600/Kcheles.html?nodeID=523253173600
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bl-stadthalle-balingen-20270122-best-of-evolution-dance-theater@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T193000
+DTEND;TZID=Europe/Berlin:20270122T213000
+SUMMARY:Best of eVolution Dance Theater
+LOCATION:Stadthalle Balingen\, Hirschbergstraße 38\, 72336 Balingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15
+ 653077/zmdetail_523255154550/BestofeVolutionDanceTheater.html?nodeID=52325
+ 5154550
+URL:https://stadthalle-balingen.de/site/Balingen-Stadthalle/node/15653077/z
+ mdetail_523255154550/BestofeVolutionDanceTheater.html?nodeID=523255154550
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

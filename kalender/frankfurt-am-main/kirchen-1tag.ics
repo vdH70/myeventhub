@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kirchen in Frankfurt am Main · my Event Hub (Erinnerung 1 Tag
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f-kaiserdom-20261106-der-junge-bach-weimarer-kantaten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Der junge Bach – Weimarer Kantaten
+LOCATION:Hochchor des Kaiserdoms
+DESCRIPTION:Hochchorkonzert mit frühen Kantaten Bachs aus der Weimarer Zei
+ t.\nEnde: laut Quelle nicht angegeben\nPreis: 25 € (freie Platzwahl)\nQu
+ elle (bitte vor dem Besuch prüfen): https://domkonzerte.de/download_file/
+ 2fc625c7-c17e-4f99-8829-54dd62352b9e/1
+URL:https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54dd62352b
+ 9e/1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-kaiserdom-20261114-orgelmatinee-mit-andreas-boltz@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T123000
+DTEND;TZID=Europe/Berlin:20261114T143000
+SUMMARY:Orgelmatinée mit Andreas Boltz
+LOCATION:Kaiserdom St. Bartholomäus\, Domplatz\, 60311 Frankfurt am Main
+DESCRIPTION:Halbstündige Orgelmatinée mit Domorganist Andreas Boltz.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 5 €\nQuelle (bitte vor dem Besuch
+  prüfen): https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54
+ dd62352b9e/1
+URL:https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54dd62352b
+ 9e/1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-kaiserdom-20261127-voces8-o-magnum-mysterium@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:VOCES8: O Magnum Mysterium
+LOCATION:Kaiserdom St. Bartholomäus\, Domplatz\, 60311 Frankfurt am Main
+DESCRIPTION:A-cappella-Konzert mit Werken von Posten\, Pearsall\, Lauridsen
+  und Rutter.\nEnde: laut Quelle nicht angegeben\nPreis: 20–40 €\nQuell
+ e (bitte vor dem Besuch prüfen): https://domkonzerte.de/download_file/2fc
+ 625c7-c17e-4f99-8829-54dd62352b9e/1
+URL:https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54dd62352b
+ 9e/1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-kaiserdom-20261204-vorweihnachtliches-konzert@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Vorweihnachtliches Konzert
+LOCATION:Kaiserdom St. Bartholomäus\, Domplatz\, 60311 Frankfurt am Main
+DESCRIPTION:Kantaten von Telemann\, Kühnl und Mendelssohn mit Solisten und
+  Domorchester.\nEnde: laut Quelle nicht angegeben\nPreis: 20–40 €\nQue
+ lle (bitte vor dem Besuch prüfen): https://domkonzerte.de/download_file/2
+ fc625c7-c17e-4f99-8829-54dd62352b9e/1
+URL:https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54dd62352b
+ 9e/1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-kaiserdom-20261205-vorweihnachtliches-konzert@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Vorweihnachtliches Konzert
+LOCATION:Kaiserdom St. Bartholomäus\, Domplatz\, 60311 Frankfurt am Main
+DESCRIPTION:Kantaten von Telemann\, Kühnl (Uraufführung) und Mendelssohn.
+ \nEnde: laut Quelle nicht angegeben\nPreis: 20–40 €\nQuelle (bitte vor
+  dem Besuch prüfen): https://domkonzerte.de/download_file/2fc625c7-c17e-4
+ f99-8829-54dd62352b9e/1
+URL:https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54dd62352b
+ 9e/1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-kaiserdom-20261211-weihnachten-in-europa@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Weihnachten in Europa
+LOCATION:Hochchor des Kaiserdoms
+DESCRIPTION:Weihnachtliche Orgelmusik von Harwood\, Bach\, Surzynski\, Core
+ lli und Dupré\, Einführung 19.15 Uhr.\nEnde: laut Quelle nicht angegeben
+ \nPreis: 13 € (freie Platzwahl)\nQuelle (bitte vor dem Besuch prüfen): 
+ https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54dd62352b9e/
+ 1
+URL:https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54dd62352b
+ 9e/1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-kaiserdom-20261212-orgelmatinee-mit-michael-gilles@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T123000
+DTEND;TZID=Europe/Berlin:20261212T143000
+SUMMARY:Orgelmatinée mit Michael Gilles
+LOCATION:Kaiserdom St. Bartholomäus\, Domplatz\, 60311 Frankfurt am Main
+DESCRIPTION:Halbstündige Orgelmatinée mit Michael Gilles (Gießen).\nEnde
+ : laut Quelle nicht angegeben\nPreis: 5 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54d
+ d62352b9e/1
+URL:https://domkonzerte.de/download_file/2fc625c7-c17e-4f99-8829-54dd62352b
+ 9e/1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Greifswald · my Event Hub (Erinnerung 3 Tage
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hgw-caspar-david-friedrich-zentrum-20261010-hajin-jeong-soft-hours-ende
+ @myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Letzter Tag: Hajin Jeong: „Soft Hours“
+LOCATION:Caspar-David-Friedrich-Zentrum\, Lange Straße 57\, 17489 Greifswa
+ ld
+DESCRIPTION:Ausstellung der Caspar-David-Friedrich-Preisträgerin 2026 in d
+ er Caspar-David-Friedrich-Galerie.\nLaufzeit: 10.10.2026 bis 19.12.2026\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.caspar-david-friedrich-g
+ esellschaft.de/
+URL:https://www.caspar-david-friedrich-gesellschaft.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

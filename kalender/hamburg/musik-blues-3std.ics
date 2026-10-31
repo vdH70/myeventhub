@@ -1,0 +1,416 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Blues in Hamburg · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-nica-jazz-club-20261031-kai-strauss-the-electric-blues-all-stars@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Kai Strauss & The Electric Blues All Stars
+LOCATION:NICA Jazz Club\, Alter Wall 20\, 20457 Hamburg
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim-light.com/de/a/66b0ad2e5f95d22f84dbfd57
+ /e/6a40f0c2c56e7adfb0e5683d\nQuelle (bitte vor dem Besuch prüfen): https:
+ //nica-jazzclub.de/de/events
+URL:https://nica-jazzclub.de/de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-sasel-haus-20261106-12-hamburg-blues-nights-freitag@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:12. Hamburg Blues Nights (Freitag)
+LOCATION:Sasel-Haus\, Saseler Parkweg 3\, 22393 Hamburg
+DESCRIPTION:Erster Abend der zweitägigen Blues Nights\; Kombiticket für b
+ eide Abende erhältlich.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://sasel-haus.de/veranstaltungen/12-hamburg
+ -blues-nights-freitag/
+URL:https://sasel-haus.de/veranstaltungen/12-hamburg-blues-nights-freitag/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-sasel-haus-20261107-12-hamburg-blues-nights-samstag@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:12. Hamburg Blues Nights (Samstag)
+LOCATION:Sasel-Haus\, Saseler Parkweg 3\, 22393 Hamburg
+DESCRIPTION:Zweiter Abend der Blues Nights.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://sasel-haus.de/veransta
+ ltungen/12-hamburg-blues-nights-samstag/
+URL:https://sasel-haus.de/veranstaltungen/12-hamburg-blues-nights-samstag/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nica-jazz-club-20261110-danielle-nicole-band@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:Danielle Nicole Band
+LOCATION:NICA Jazz Club\, Alter Wall 20\, 20457 Hamburg
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim-light.com/de/a/66b0ad2e5f95d22f84dbfd57
+ /e/69aacf9d2a1b6440e5be5ada\nQuelle (bitte vor dem Besuch prüfen): https:
+ //nica-jazzclub.de/de/events
+URL:https://nica-jazzclub.de/de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtwache-20261110-the-cinelli-brothers@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T203000
+DTEND;TZID=Europe/Berlin:20261110T223000
+SUMMARY:The Cinelli Brothers
+LOCATION:Nochtwache\, 20359 Hamburg
+DESCRIPTION:Soul\, Blues und Rock’n’Roll aus UK.\nEinlass 19:30\, Begin
+ n 20:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 24 € zzgl. Ge
+ bühr\nQuelle (bitte vor dem Besuch prüfen): https://nochtspeicher.de/?st
+ art=20
+URL:https://nochtspeicher.de/?start=20
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nica-jazz-club-20261115-eric-bibb-zusatzkonzert@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Eric Bibb - Zusatzkonzert!
+LOCATION:NICA Jazz Club\, Alter Wall 20\, 20457 Hamburg
+DESCRIPTION:Einlass 17:00\, Beginn 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim-light.com/de/a/66b0ad2e5f95d22f84dbfd57
+ /e/6a6d9a8aacd1414618bd7108\nQuelle (bitte vor dem Besuch prüfen): https:
+ //nica-jazzclub.de/de/events/565
+URL:https://nica-jazzclub.de/de/events/565
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nica-jazz-club-20261116-eric-bibb@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Eric Bibb
+LOCATION:NICA Jazz Club\, Alter Wall 20\, 20457 Hamburg
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim-light.com/de/a/66b0ad2e5f95d22f84dbfd57
+ /e/6a5e6d3d2e470ca198b27d8b\nQuelle (bitte vor dem Besuch prüfen): https:
+ //nica-jazzclub.de/de/events
+URL:https://nica-jazzclub.de/de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nica-jazz-club-20261118-eric-johanson@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Eric Johanson
+LOCATION:NICA Jazz Club\, Alter Wall 20\, 20457 Hamburg
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim-light.com/de/a/66b0ad2e5f95d22f84dbfd57
+ /e/6a6cd3c6acd1414618bd6c9d\nQuelle (bitte vor dem Besuch prüfen): https:
+ //nica-jazzclub.de/de/events
+URL:https://nica-jazzclub.de/de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-alma-hoppe-20261202-axel-zwingenberger-blues-boogie-woogie-p@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Axel Zwingenberger – Blues & Boogie Woogie-Piano
+LOCATION:Alma Hoppes Lustspielhaus\, Ludolfstraße 53\, 20249 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.almahoppe.de/Spielplan
+URL:https://www.almahoppe.de/Spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-birdland-20261213-jon-kenzie@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T193000
+DTEND;TZID=Europe/Berlin:20261213T213000
+SUMMARY:Jon Kenzie
+LOCATION:Birdland\, Gärtnerstraße 122\, 20253 Hamburg
+DESCRIPTION:Britischer Gitarrist und Sänger\; Blues/Folk/Soul.\nEinlass 18
+ :00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angegeben\nTickets: https:
+ //www.tixforgigs.com/Event/75893?af=po4qmxb9e7bs&saf=r1c7v8k\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.birdlandhamburg.de/dezember/
+URL:https://www.birdlandhamburg.de/dezember/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtspeicher-20270115-b-b-the-blues-shacks@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:B.B. & The Blues Shacks
+LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
+DESCRIPTION:Rhythm’n’Blues und Soul aus Deutschland.\nEinlass 19:00\, B
+ eginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 27 € zzgl
+ . Gebühr\nTickets: https://nochtspeicher.reservix.de/p/reservix/event/255
+ 4959\nQuelle (bitte vor dem Besuch prüfen): https://nochtspeicher.de/?sta
+ rt=40
+URL:https://nochtspeicher.de/?start=40
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtwache-20270129-jared-james-nichols@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T203000
+DTEND;TZID=Europe/Berlin:20270129T223000
+SUMMARY:Jared James Nichols
+LOCATION:Nochtwache\, 20359 Hamburg
+DESCRIPTION:Bluesrock aus den USA\, „Europe Tour 2027“.\nEinlass 19:30\
+ , Beginn 20:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 28\,50 
+ € zzgl. Gebühr\nTickets: https://nochtspeicher.reservix.de/p/reservix/e
+ vent/2623382\nQuelle (bitte vor dem Besuch prüfen): https://nochtspeicher
+ .de/?start=40
+URL:https://nochtspeicher.de/?start=40
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtspeicher-20270212-the-zac-schulze-gang@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:The Zac Schulze Gang
+LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
+DESCRIPTION:Rock’n’Roll und Blues aus UK.\nEinlass 19:00\, Beginn 20:00
+  Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 25 € zzgl. Gebühr\n
+ Quelle (bitte vor dem Besuch prüfen): https://nochtspeicher.de/?start=60
+URL:https://nochtspeicher.de/?start=60
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-fabrik-20270220-32-hamburger-blues-celebration@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T200000
+DTEND;TZID=Europe/Berlin:20270220T220000
+SUMMARY:32. Hamburger Blues Celebration
+LOCATION:Fabrik\, Barnerstraße 36\, 22765 Hamburg
+DESCRIPTION:Mit Abi Wallenstein & BluesCulture und Muddy What?. Teilbestuhl
+ t\, freie Platzwahl.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle 
+ nicht angegeben\nPreis: 32\,00 € (VVK)\nQuelle (bitte vor dem Besuch pr
+ üfen): https://fabrik.de/veranstaltungsdetail/32-hamburger-blues-celebrat
+ ion-1429
+URL:https://fabrik.de/veranstaltungsdetail/32-hamburger-blues-celebration-1
+ 429
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtwache-20270220-black-river-delta@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T200000
+DTEND;TZID=Europe/Berlin:20270220T220000
+SUMMARY:Black River Delta
+LOCATION:Nochtwache\, 20359 Hamburg
+DESCRIPTION:Bluesrock aus Schweden\; Nachholtermin des Konzerts vom Oktober
+  2026.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegebe
+ n\nPreis: VVK 25 € zzgl. Gebühr\nQuelle (bitte vor dem Besuch prüfen):
+  https://nochtspeicher.de/?start=60
+URL:https://nochtspeicher.de/?start=60
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtwache-20270330-ash-grunwald@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270330T203000
+DTEND;TZID=Europe/Berlin:20270330T223000
+SUMMARY:Ash Grunwald
+LOCATION:Nochtwache\, 20359 Hamburg
+DESCRIPTION:Roots und Blues aus Australien.\nEinlass 19:30\, Beginn 20:30 U
+ hr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 25 € zzgl. Gebühr\nTi
+ ckets: https://nochtspeicher.reservix.de/p/reservix/event/2599689\nQuelle 
+ (bitte vor dem Besuch prüfen): https://nochtspeicher.de/?start=60
+URL:https://nochtspeicher.de/?start=60
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtspeicher-20270402-d-troit@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270402T200000
+DTEND;TZID=Europe/Berlin:20270402T220000
+SUMMARY:D/troit
+LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
+DESCRIPTION:Soul\, Rhythm’n’Blues und Roots aus Dänemark.\nEinlass 19:
+ 00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 27 
+ € zzgl. Gebühr\nTickets: https://nochtspeicher.reservix.de/p/reservix/e
+ vent/2568240\nQuelle (bitte vor dem Besuch prüfen): https://nochtspeicher
+ .de/?start=60
+URL:https://nochtspeicher.de/?start=60
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtspeicher-20270414-dr-feelgood@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270414T200000
+DTEND;TZID=Europe/Berlin:20270414T220000
+SUMMARY:Dr. Feelgood
+LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
+DESCRIPTION:Britische Rhythm’n’Blues-Band\, „Maximum R&B Tour“.\nEi
+ nlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 
+ VVK 30 € zzgl. Gebühr\nTickets: https://nochtspeicher.reservix.de/p/res
+ ervix/event/2582797\nQuelle (bitte vor dem Besuch prüfen): https://nochts
+ peicher.de/?start=80
+URL:https://nochtspeicher.de/?start=80
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtspeicher-20270422-krissy-matthews-guitarmania-tour-2027@myevent
+ hub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270422T200000
+DTEND;TZID=Europe/Berlin:20270422T220000
+SUMMARY:Krissy Matthews – Guitarmania Tour 2027
+LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
+DESCRIPTION:Bluesrock-Gitarrenabend mit mehreren Gästen.\nEinlass 19:00\, 
+ Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 40 € zzg
+ l. Gebühr\nQuelle (bitte vor dem Besuch prüfen): https://nochtspeicher.d
+ e/?start=80
+URL:https://nochtspeicher.de/?start=80
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtspeicher-20270512-nikki-hill-band@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20270512T200000
+DTEND;TZID=Europe/Berlin:20270512T220000
+SUMMARY:Nikki Hill & Band
+LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
+DESCRIPTION:Soul\, Rhythm’n’Blues und Rock’n’Roll aus den USA.\nEin
+ lass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: V
+ VK 26 € zzgl. Gebühr\nTickets: https://nochtspeicher.reservix.de/p/rese
+ rvix/event/2614053\nQuelle (bitte vor dem Besuch prüfen): https://nochtsp
+ eicher.de/?start=80
+URL:https://nochtspeicher.de/?start=80
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

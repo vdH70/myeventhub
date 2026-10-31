@@ -1,0 +1,217 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Ratingen · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:me-oberschlesisches-landesmuseum-20240825-kinderausstellung-jesderkusch
+ -oder-die-verzwickte-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20271219
+DTEND;VALUE=DATE:20271220
+SUMMARY:Letzter Tag: Kinderausstellung: Jesderkusch! Oder die verzwickte Ge
+ schichte Oberschlesiens
+LOCATION:Oberschlesisches Landesmuseum\, Bahnhofstraße 62\, 40883 Ratingen
+DESCRIPTION:Laufzeit: 25.8.2024 bis 19.12.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://oberschlesisches-landesmuseum.de/
+URL:https://oberschlesisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-oberschlesisches-landesmuseum-20260517-ans-licht-objekte-und-geschic
+ hte-n-aus-der-sammlun-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20271219
+DTEND;VALUE=DATE:20271220
+SUMMARY:Letzter Tag: Ans Licht! Objekte und Geschichte(n) aus der Sammlung 
+ des Oberschlesischen Landesmuseums
+LOCATION:Oberschlesisches Landesmuseum\, Bahnhofstraße 62\, 40883 Ratingen
+DESCRIPTION:Laufzeit: 17.5.2026 bis 19.12.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://oberschlesisches-landesmuseum.de/
+URL:https://oberschlesisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-oberschlesisches-landesmuseum-20261004-raum-und-grenzen-liebfrauensc
+ hule-ratingen-x-oslm-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: Raum und Grenzen. Liebfrauenschule Ratingen x OSLM
+LOCATION:Oberschlesisches Landesmuseum\, Bahnhofstraße 62\, 40883 Ratingen
+DESCRIPTION:Laufzeit: 4.10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://oberschlesisches-landesmuseum.de/
+URL:https://oberschlesisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-oberschlesisches-landesmuseum-20261031-samstags-im-museum-aberglaube
+ -und-hokuspokus@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T160000
+DTEND;TZID=Europe/Berlin:20261031T180000
+SUMMARY:Samstags im Museum: Aberglaube und Hokuspokus
+LOCATION:Oberschlesisches Landesmuseum\, Bahnhofstraße 62\, 40883 Ratingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 EUR\nQuelle (bitte 
+ vor dem Besuch prüfen): https://oberschlesisches-landesmuseum.de/
+URL:https://oberschlesisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-oberschlesisches-landesmuseum-20261108-oeffentliche-fuehrung-durch-a
+ ns-licht@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Öffentliche Führung durch „Ans Licht!“
+LOCATION:Oberschlesisches Landesmuseum\, Bahnhofstraße 62\, 40883 Ratingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 2 EUR zzgl. Eintritt\
+ nQuelle (bitte vor dem Besuch prüfen): https://oberschlesisches-landesmus
+ eum.de/
+URL:https://oberschlesisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-oberschlesisches-landesmuseum-20261114-samstags-im-museum-grusskarte
+ n-workshop@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T120000
+DTEND;TZID=Europe/Berlin:20261114T140000
+SUMMARY:Samstags im Museum: Grußkarten-Workshop
+LOCATION:Oberschlesisches Landesmuseum\, Bahnhofstraße 62\, 40883 Ratingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: kostenlos\nQuelle (bi
+ tte vor dem Besuch prüfen): https://oberschlesisches-landesmuseum.de/
+URL:https://oberschlesisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-oberschlesisches-landesmuseum-20261115-da-kommst-du-nicht-drauf-schl
+ esische-persoenlichke-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Beginn: Da kommst Du nicht drauf! Schlesische Persönlichkeiten auf
+  Briefmarken und Ansichtskarten
+LOCATION:Oberschlesisches Landesmuseum\, Bahnhofstraße 62\, 40883 Ratingen
+DESCRIPTION:Laufzeit: 15.11.2026 bis 20.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://oberschlesisches-landesmuseum.de/
+URL:https://oberschlesisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-oberschlesisches-landesmuseum-20261115-da-kommst-du-nicht-drauf-schl
+ esische-persoenlichke-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Letzter Tag: Da kommst Du nicht drauf! Schlesische Persönlichkeite
+ n auf Briefmarken und Ansichtskarten
+LOCATION:Oberschlesisches Landesmuseum\, Bahnhofstraße 62\, 40883 Ratingen
+DESCRIPTION:Laufzeit: 15.11.2026 bis 20.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://oberschlesisches-landesmuseum.de/
+URL:https://oberschlesisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-museum-ratingen-20261122-vortrag-und-rundgang-die-fruehe-neuzeit@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T113000
+DTEND;TZID=Europe/Berlin:20261122T133000
+SUMMARY:Vortrag und Rundgang: Die Frühe Neuzeit
+LOCATION:Museum Ratingen\, Grabenstraße 21\, 40878 Ratingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadt-ratingen.de/fileadmin/user_upload/Bilder/41/D
+ ownloads/Kultur/Ratingen_Live_-_Oktober-Dezember_2026.pdf
+URL:https://www.stadt-ratingen.de/fileadmin/user_upload/Bilder/41/Downloads
+ /Kultur/Ratingen_Live_-_Oktober-Dezember_2026.pdf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-oberschlesisches-landesmuseum-20261128-samstags-im-museum-advents-we
+ rkstatt@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T120000
+DTEND;TZID=Europe/Berlin:20261128T140000
+SUMMARY:Samstags im Museum: Advents-Werkstatt
+LOCATION:Oberschlesisches Landesmuseum\, Bahnhofstraße 62\, 40883 Ratingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 EUR\nQuelle (bitte 
+ vor dem Besuch prüfen): https://oberschlesisches-landesmuseum.de/
+URL:https://oberschlesisches-landesmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

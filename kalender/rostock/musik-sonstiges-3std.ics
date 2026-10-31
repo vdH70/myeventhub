@@ -1,0 +1,399 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Rostock · my Event Hub (Erinnerung 3 Stunden vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hro-peter-weiss-haus-20261031-kleptos-ildiko@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Kleptos & ildikó
+LOCATION:Peter-Weiss-Haus\, Doberaner Straße 21\, 18057 Rostock
+DESCRIPTION:Konzert\n19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://peterweisshaus.de/veranstaltungen/
+URL:https://peterweisshaus.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-ursprung-20261106-the-crazy-boys@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:The Crazy Boys
+LOCATION:Ursprung\, Alter Markt 16\, 18055 Rostock
+DESCRIPTION:Konzert\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.
+ php
+URL:https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-kleine-komoedie-20261107-merci-cherie@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Merci\, Chérie
+LOCATION:Kleine Komödie Warnemünde\, Rostocker Straße 8\, 18119 Rostock
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.volkstheater-rostock.de/spielplan/
+URL:https://www.volkstheater-rostock.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-zwischenbau-20261107-the-golden-era@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:The Golden Era
+LOCATION:Zwischenbau\, Erich-Schlesinger-Straße 19a\, 18059 Rostock
+DESCRIPTION:Throwback-Party mit DJ Switchlanes & Friends: 2016–2022\, Pop
+ \, Hip-Hop\, EDM\nQuelle (bitte vor dem Besuch prüfen): https://www.zwisc
+ henbau.com/events
+URL:https://www.zwischenbau.com/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-kleine-komoedie-20261108-merci-cherie@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Merci\, Chérie
+LOCATION:Kleine Komödie Warnemünde\, Rostocker Straße 8\, 18119 Rostock
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.volkstheater-rostock.de/spielplan/
+URL:https://www.volkstheater-rostock.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-kleine-komoedie-20261109-blue-monday-ein-hauch-von-new-york@myevent
+ hub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Blue Monday – Ein Hauch von New York
+LOCATION:Kleine Komödie Warnemünde\, Rostocker Straße 8\, 18119 Rostock
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.volkstheater-rostock.de/spielplan/
+URL:https://www.volkstheater-rostock.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-ursprung-20261112-nacht-der-vocals@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Nacht der Vocals
+LOCATION:Ursprung\, Alter Markt 16\, 18055 Rostock
+DESCRIPTION:Konzert\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.
+ php
+URL:https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-kleine-komoedie-20261114-so-oder-so-ist-das-leben@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:So oder so ist das Leben
+LOCATION:Kleine Komödie Warnemünde\, Rostocker Straße 8\, 18119 Rostock
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.volkstheater-rostock.de/spielplan/
+URL:https://www.volkstheater-rostock.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-ursprung-20261114-mts@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:MTS
+LOCATION:Ursprung\, Alter Markt 16\, 18055 Rostock
+DESCRIPTION:Bühnenabend\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass ode
+ r Beginn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.ursprung-rostock.de/pages/buehne/veranstaltungskale
+ nder.php
+URL:https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-helgas-stadtpalast-20261204-freddy-fischer-his-cosmic-rocktime-band
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T190000
+DTEND;TZID=Europe/Berlin:20261204T210000
+SUMMARY:Freddy Fischer & His Cosmic Rocktime Band
+LOCATION:Helgas Stadtpalast\, Am Vögenteich 19\, 18057 Rostock
+DESCRIPTION:Soul\n19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn
+ )\nEnde: laut Quelle nicht angegeben\nPreis: 22\,00 €\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.helgas-stadtpalast.de/events/liste/
+URL:https://www.helgas-stadtpalast.de/events/liste/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-peter-weiss-haus-20261205-mainpoint-record-release-party-ocean@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T190000
+DTEND;TZID=Europe/Berlin:20261205T210000
+SUMMARY:MAINPOINT – Record Release Party »OCEAN«
+LOCATION:Peter-Weiss-Haus\, Doberaner Straße 21\, 18057 Rostock
+DESCRIPTION:Konzert\n19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://peterweisshaus.de/veranstaltungen/
+URL:https://peterweisshaus.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-kleine-komoedie-20261209-hollaenders-seemannsgarn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Holländers Seemannsgarn
+LOCATION:Kleine Komödie Warnemünde\, Rostocker Straße 8\, 18119 Rostock
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.volkstheater-rostock.de/spielplan/
+URL:https://www.volkstheater-rostock.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-peter-weiss-haus-20261218-les-bummms-boys-album-release-show@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Les Bummms Boys – Album Release Show
+LOCATION:Peter-Weiss-Haus\, Doberaner Straße 21\, 18057 Rostock
+DESCRIPTION:Konzert\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://peterweisshaus.de/veranstaltungen/
+URL:https://peterweisshaus.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-ursprung-20270116-tobias-altripp@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:Tobias Altripp
+LOCATION:Ursprung\, Alter Markt 16\, 18055 Rostock
+DESCRIPTION:Konzert\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.
+ php
+URL:https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-ursprung-20270122-helmfried-band@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T200000
+DTEND;TZID=Europe/Berlin:20270122T220000
+SUMMARY:Helmfried & Band
+LOCATION:Ursprung\, Alter Markt 16\, 18055 Rostock
+DESCRIPTION:Konzert\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.
+ php
+URL:https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-ursprung-20270129-final-stap@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:FINAL STAP
+LOCATION:Ursprung\, Alter Markt 16\, 18055 Rostock
+DESCRIPTION:Konzert\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.
+ php
+URL:https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-ursprung-20270130-final-stap-reparatour-stehkonzert@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T200000
+DTEND;TZID=Europe/Berlin:20270130T220000
+SUMMARY:FINAL STAP – REPARATOUR STEHKONZERT
+LOCATION:Ursprung\, Alter Markt 16\, 18055 Rostock
+DESCRIPTION:Konzert\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.
+ php
+URL:https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-volkstheater-20270204-comedian-harmonists-today-unveroeffentli@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T193000
+DTEND;TZID=Europe/Berlin:20270204T213000
+SUMMARY:Comedian Harmonists Today: Unveröffentlicht!
+LOCATION:Volkstheater Rostock (Großes Haus)\, Doberaner Straße 134/135\, 
+ 18057 Rostock
+DESCRIPTION:Gastspiel\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.volkstheater-rostock.de/spielplan/
+URL:https://www.volkstheater-rostock.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-peter-weiss-haus-20270222-bac@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270222T190000
+DTEND;TZID=Europe/Berlin:20270222T210000
+SUMMARY:BAC
+LOCATION:Peter-Weiss-Haus\, Doberaner Straße 21\, 18057 Rostock
+DESCRIPTION:Konzert\n19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://peterweisshaus.de/veranstaltungen/
+URL:https://peterweisshaus.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-ursprung-20270319-rami-musik-an-die-macht-tour-2027@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T200000
+DTEND;TZID=Europe/Berlin:20270319T220000
+SUMMARY:RAMI* – „Musik an die Macht“-Tour 2027
+LOCATION:Ursprung\, Alter Markt 16\, 18055 Rostock
+DESCRIPTION:Konzert\n20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beg
+ inn)\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.
+ php
+URL:https://www.ursprung-rostock.de/pages/buehne/veranstaltungskalender.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

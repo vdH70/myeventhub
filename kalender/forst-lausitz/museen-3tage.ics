@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Forst (Lausitz) · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spn-forster-museum-20261108-hoffest-fuehrung-herbst-der-leuchtenden-zeu
+ gen@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Hoffest & Führung: „Herbst der leuchtenden Zeugen“
+LOCATION:Forster Museum für Textil- und Industriegeschichte Lausitz\, Sora
+ uer Straße 37\, 03149 Forst (Lausitz)
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.forst-lausit
+ z.de/besucherinfos.175079.htm
+URL:https://www.forst-lausitz.de/besucherinfos.175079.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:spn-forster-museum-20261217-faszination-modellbahn-im-forster-museum-be
+ ginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Beginn: Faszination Modellbahn im Forster Museum
+LOCATION:Forster Museum für Textil- und Industriegeschichte Lausitz\, Sora
+ uer Straße 37\, 03149 Forst (Lausitz)
+DESCRIPTION:Laufzeit: 17.12.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.forst-lausitz.de/besucherinfos.175079.htm
+URL:https://www.forst-lausitz.de/besucherinfos.175079.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:spn-forster-museum-20261217-faszination-modellbahn-im-forster-museum-en
+ de@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Faszination Modellbahn im Forster Museum
+LOCATION:Forster Museum für Textil- und Industriegeschichte Lausitz\, Sora
+ uer Straße 37\, 03149 Forst (Lausitz)
+DESCRIPTION:Laufzeit: 17.12.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.forst-lausitz.de/besucherinfos.175079.htm
+URL:https://www.forst-lausitz.de/besucherinfos.175079.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

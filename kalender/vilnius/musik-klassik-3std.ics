@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Vilnius · my Event Hub (Erinnerung 3 Stunden vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:vno-filharmonija-20261108-muzika-kaip-kinas@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART:20261108T120000
+DTEND:20261108T140000
+SUMMARY:Muzika kaip kinas
+LOCATION:Lietuvos nacionalinė filharmonija\, Vilnius
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filharmonija.lt/
+URL:https://www.filharmonija.lt/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vno-filharmonija-20261114-lnso-javier-comesana-barrera-ir-samuel-lee@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART:20261114T190000
+DTEND:20261114T210000
+SUMMARY:LNSO\, Javier Comesaña Barrera ir Samuel Lee
+LOCATION:Lietuvos nacionalinė filharmonija\, Vilnius
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filharmonija.lt/
+URL:https://www.filharmonija.lt/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

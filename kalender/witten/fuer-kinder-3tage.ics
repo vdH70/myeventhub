@@ -1,0 +1,686 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Witten · my Event Hub (Erinnerung 3 Tage vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261031-halloween-verkleide-die-beebots@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T110000
+DTEND;TZID=Europe/Berlin:20261031T130000
+SUMMARY:Halloween: Verkleide die BeeBots!
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Für Kinder von 6 bis 8 Jahren.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturforum-witten
+ .de/de/kulturforum/veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-zeche-nachtigall-20261101-familiensonntag@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T113000
+DTEND;TZID=Europe/Berlin:20261101T133000
+SUMMARY:Familiensonntag
+LOCATION:LWL-Museum Zeche Nachtigall\, Nachtigallstraße 35\, 58452 Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://zeche-nachtigall.lwl.org/de/
+URL:https://zeche-nachtigall.lwl.org/de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261103-lesezwerge-die-eule-mit-der-beule@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T160000
+DTEND;TZID=Europe/Berlin:20261103T180000
+SUMMARY:Lesezwerge: „Die Eule mit der Beule“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261104-bilderbuchkino-hase-hibiskus-und-die-herb
+ stsause@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T163000
+DTEND;TZID=Europe/Berlin:20261104T183000
+SUMMARY:Bilderbuchkino: „Hase Hibiskus und die Herbstsause“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Für Kinder von 4 bis 6 Jahren.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturforum-witten
+ .de/de/kulturforum/veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261105-bilderbuchkino-hase-hibiskus-und-die-herb
+ stsause@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T160000
+DTEND;TZID=Europe/Berlin:20261105T180000
+SUMMARY:Bilderbuchkino: „Hase Hibiskus und die Herbstsause“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Für Kinder von 4 bis 6 Jahren.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturforum-witten
+ .de/de/kulturforum/veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261106-filmfreitag-das-kleine-gespenst-tohuwaboh
+ u-auf-bur@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T160000
+DTEND;TZID=Europe/Berlin:20261106T180000
+SUMMARY:FilmFreitag: „Das kleine Gespenst – Tohuwabohu auf Burg Eulenst
+ ein“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ab 6 Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.kulturforum-witten.de/de/kulturforum/
+ veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261107-kreativ-mit-alex-handlettering-winter-wei
+ hnachtska@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T110000
+DTEND;TZID=Europe/Berlin:20261107T130000
+SUMMARY:Kreativ mit Alex: Handlettering – Winter- & Weihnachtskarten
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ab 9 Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.kulturforum-witten.de/de/kulturforum/
+ veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-maerkisches-museum-witten-20261107-familienworkshop@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T143000
+DTEND;TZID=Europe/Berlin:20261107T163000
+SUMMARY:Familienworkshop
+LOCATION:Märkisches Museum Witten\, Husemannstraße 12\, 58452 Witten
+DESCRIPTION:Kostenloser Workshop für Familien mit Kindern ab 6 Jahren.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261110-lauschen-mit-allen-sinnen-blaetter-blaett
+ er-blaett@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T160000
+DTEND;TZID=Europe/Berlin:20261110T180000
+SUMMARY:Lauschen mit allen Sinnen: „Blätter\, Blätter\, Blätter“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Für Kinder von 4 bis 7 Jahren.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturforum-witten
+ .de/de/kulturforum/veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261111-bilderbuchkino-die-grossen-spiele-im-zoo@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T163000
+DTEND;TZID=Europe/Berlin:20261111T183000
+SUMMARY:Bilderbuchkino: „Die großen Spiele im Zoo“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261112-bilderbuchkino-die-grossen-spiele-im-zoo@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T160000
+DTEND;TZID=Europe/Berlin:20261112T180000
+SUMMARY:Bilderbuchkino: „Die großen Spiele im Zoo“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261117-lesezwerge-hallo-kinder@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T160000
+DTEND;TZID=Europe/Berlin:20261117T180000
+SUMMARY:Lesezwerge: „Hallo Kinder“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261118-bilderbuchkino-ein-pokal-fuer-den-schakal
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T163000
+DTEND;TZID=Europe/Berlin:20261118T183000
+SUMMARY:Bilderbuchkino: „Ein Pokal für den Schakal“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261119-bilderbuchkino-ein-pokal-fuer-den-schakal
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T160000
+DTEND;TZID=Europe/Berlin:20261119T180000
+SUMMARY:Bilderbuchkino: „Ein Pokal für den Schakal“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261120-bundesweiter-vorlesetag-zeig-uns-deine-li
+ eblingsse@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T160000
+DTEND;TZID=Europe/Berlin:20261120T180000
+SUMMARY:Bundesweiter Vorlesetag: „Zeig uns deine Lieblingsseite!“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ab 6 Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.kulturforum-witten.de/de/kulturforum/
+ veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261121-mint-workshop-bee-bots-ausflug-in-die-mae
+ rchenwelt@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T110000
+DTEND;TZID=Europe/Berlin:20261121T130000
+SUMMARY:MINT-Workshop: Bee Bots – Ausflug in die Märchenwelt
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ab 7 Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.kulturforum-witten.de/de/kulturforum/
+ veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-maerkisches-museum-witten-20261121-familienworkshop@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T143000
+DTEND;TZID=Europe/Berlin:20261121T163000
+SUMMARY:Familienworkshop
+LOCATION:Märkisches Museum Witten\, Husemannstraße 12\, 58452 Witten
+DESCRIPTION:Workshop für Familien mit Kindern ab 6 Jahren.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturforum-witten.de/de/kulturforum/veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261124-pettersson-und-findus@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T153000
+DTEND;TZID=Europe/Berlin:20261124T173000
+SUMMARY:Pettersson und Findus
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/saalbauhauswitten/veransta
+ ltungen/
+URL:https://www.kulturforum-witten.de/de/saalbauhauswitten/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261125-bilderbuchkino-papafant-angst-im-dunkeln-
+ ich-doch@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T163000
+DTEND;TZID=Europe/Berlin:20261125T183000
+SUMMARY:Bilderbuchkino: „Papafant – Angst im Dunkeln? Ich doch nicht!
+ “
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261126-bilderbuchkino-papafant-angst-im-dunkeln-
+ ich-doch@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T160000
+DTEND;TZID=Europe/Berlin:20261126T180000
+SUMMARY:Bilderbuchkino: „Papafant – Angst im Dunkeln? Ich doch nicht!
+ “
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261128-kindermusical-petrus@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T170000
+DTEND;TZID=Europe/Berlin:20261128T190000
+SUMMARY:Kindermusical „Petrus“
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261202-bilderbuchkino-leonard-ein-traktor-rettet
+ -weihnach@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T163000
+DTEND;TZID=Europe/Berlin:20261202T183000
+SUMMARY:Bilderbuchkino: „Leonard – Ein Traktor rettet Weihnachten“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261203-bilderbuchkino-leonard-ein-traktor-rettet
+ -weihnach@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T160000
+DTEND;TZID=Europe/Berlin:20261203T180000
+SUMMARY:Bilderbuchkino: „Leonard – Ein Traktor rettet Weihnachten“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261204-filmfreitag-weihnachten-im-zaubereulenwal
+ d@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T160000
+DTEND;TZID=Europe/Berlin:20261204T180000
+SUMMARY:FilmFreitag: „Weihnachten im Zaubereulenwald“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ab 7 Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.kulturforum-witten.de/de/kulturforum/
+ veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-maerkisches-museum-witten-20261205-workshop-in-gebaerdensprache@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T143000
+DTEND;TZID=Europe/Berlin:20261205T163000
+SUMMARY:Workshop in Gebärdensprache
+LOCATION:Märkisches Museum Witten\, Husemannstraße 12\, 58452 Witten
+DESCRIPTION:Workshop für Kinder ab 6 Jahren.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturforum-witt
+ en.de/de/kulturforum/veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261209-bilderbuchkino-ein-wunderbares-weihnachts
+ fest@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T163000
+DTEND;TZID=Europe/Berlin:20261209T183000
+SUMMARY:Bilderbuchkino: „Ein wunderbares Weihnachtsfest“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261210-bilderbuchkino-ein-wunderbares-weihnachts
+ fest@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T160000
+DTEND;TZID=Europe/Berlin:20261210T180000
+SUMMARY:Bilderbuchkino: „Ein wunderbares Weihnachtsfest“
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-bibliothek-witten-20261212-mint-workshop-3-d-druck-mit-tinkercad-wei
+ hnachtsba@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T110000
+DTEND;TZID=Europe/Berlin:20261212T130000
+SUMMARY:MINT-Workshop: 3-D-Druck mit TinkerCAD – Weihnachtsbaumschmuck
+LOCATION:Bibliothek Witten\, Witten
+DESCRIPTION:Ab 12 Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.kulturforum-witten.de/de/kulturforum
+ /veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261217-der-satanarchaeoluegenialkohoellische-wunsch
+ punsch@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T160000
+DTEND;TZID=Europe/Berlin:20261217T180000
+SUMMARY:Der satanarchäolügenialkohöllische Wunschpunsch
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20261218-lilly-und-die-erbse@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T153000
+DTEND;TZID=Europe/Berlin:20261218T173000
+SUMMARY:Lilly und die Erbse
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-maerkisches-museum-witten-20261219-familienworkshop@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T143000
+DTEND;TZID=Europe/Berlin:20261219T163000
+SUMMARY:Familienworkshop
+LOCATION:Märkisches Museum Witten\, Husemannstraße 12\, 58452 Witten
+DESCRIPTION:Workshop für Familien mit Kindern ab 6 Jahren.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ lturforum-witten.de/de/kulturforum/veranstaltungen/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20270126-robin-hood@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T160000
+DTEND;TZID=Europe/Berlin:20270126T180000
+SUMMARY:Robin Hood
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20270209-die-unendliche-geschichte@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270209T160000
+DTEND;TZID=Europe/Berlin:20270209T180000
+SUMMARY:Die unendliche Geschichte
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20270223-post-fuer-den-tiger@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270223T153000
+DTEND;TZID=Europe/Berlin:20270223T173000
+SUMMARY:Post für den Tiger
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:en-saalbau-witten-20270421-das-klugscheisserchen@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270421T153000
+DTEND;TZID=Europe/Berlin:20270421T173000
+SUMMARY:Das Klugscheißerchen
+LOCATION:Saalbau Witten\, Witten
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturforum-witten.de/de/kulturforum/veranstaltunge
+ n/
+URL:https://www.kulturforum-witten.de/de/kulturforum/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

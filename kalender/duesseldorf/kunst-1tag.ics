@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Düsseldorf · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d-sammlung-philara-20260627-house-of-balagan-10-jahre-sammlung-philara-
+ ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Letzter Tag: House of Balagan – 10 Jahre Sammlung Philara
+LOCATION:Sammlung Philara\, Birkenstraße 47a\, 40233 Düsseldorf
+DESCRIPTION:Laufzeit: 27.6.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.philara.de/en/current
+URL:https://www.philara.de/en/current
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kunsthalle-20260911-atelierfenster-1-julia-reisinger-iniusta-iustitia
+ -ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Atelierfenster 1: Julia Reisinger – Iniusta iustitia
+  (Ungerechte Gerechtigkeit)
+LOCATION:Kunsthalle Düsseldorf\, Grabbeplatz 4\, 40213 Düsseldorf
+DESCRIPTION:Laufzeit: 11.9.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunsthalle-duesseldorf.de/
+URL:https://www.kunsthalle-duesseldorf.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kunstverein-rheinlande-westfalen-20260919-i-etcetera-ende@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: I\, etcetera
+LOCATION:Kunstverein für die Rheinlande und Westfalen\, Grabbeplatz 4\, 40
+ 213 Düsseldorf
+DESCRIPTION:Laufzeit: 19.9.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunstverein-duesseldorf.de/
+URL:https://www.kunstverein-duesseldorf.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kunsthalle-20261017-gregor-schneider-haus-u-r-2026-beginn@myeventhub.
+ de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Beginn: Gregor Schneider – Haus u r 2026
+LOCATION:Kunsthalle Düsseldorf\, Grabbeplatz 4\, 40213 Düsseldorf
+DESCRIPTION:Laufzeit: 17.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kunsthalle-duesseldorf.de/
+URL:https://www.kunsthalle-duesseldorf.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kunsthalle-20261017-gregor-schneider-haus-u-r-2026-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Gregor Schneider – Haus u r 2026
+LOCATION:Kunsthalle Düsseldorf\, Grabbeplatz 4\, 40213 Düsseldorf
+DESCRIPTION:Laufzeit: 17.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kunsthalle-duesseldorf.de/
+URL:https://www.kunsthalle-duesseldorf.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

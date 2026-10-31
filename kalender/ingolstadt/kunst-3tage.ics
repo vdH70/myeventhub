@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Ingolstadt · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:in-lechner-museum-20260517-pennys-judith-hopf-alf-lechner-ende@myeventh
+ ub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Letzter Tag: Pennys – Judith Hopf / Alf Lechner
+LOCATION:Lechner Museum\, Esplanade 9\, 85049 Ingolstadt
+DESCRIPTION:Laufzeit: 17.5.2026 bis 11.4.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.lechner-museum.de/
+URL:https://www.lechner-museum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

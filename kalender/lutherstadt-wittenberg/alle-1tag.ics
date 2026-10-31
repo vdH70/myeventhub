@@ -1,0 +1,691 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Lutherstadt Wittenberg · my Event Hub (Erinne
+ rung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wb-lutherhaus-20231201-buchstaeblich-luther-facetten-eines-reformators-
+ ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Letzter Tag: Buchstäblich Luther. Facetten eines Reformators
+LOCATION:Lutherhaus Wittenberg mit Augusteum\, Collegienstraße 54\, 06886 
+ Lutherstadt Wittenberg
+DESCRIPTION:Sonderausstellung im Augusteum neben dem sanierungsbedingt gesc
+ hlossenen Lutherhaus.\nLaufzeit: 1.12.2023 bis 30.6.2027\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.luthermuseen.de/besuchen-erleben/sonder
+ ausstellungen
+URL:https://www.luthermuseen.de/besuchen-erleben/sonderausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261101-konzertlesung-ludwig-blochberger-ich-musste-r
+ aus-w@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T170000
+DTEND;TZID=Europe/Berlin:20261101T190000
+SUMMARY:Konzertlesung Ludwig Blochberger: Ich musste raus – Wege aus der 
+ DDR
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261104-dicke-luft-und-kein-verkehr-4-frauentausch@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Dicke Luft und kein Verkehr 4 • Frauentausch (ausverkauft)
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261106-matthias-ludwig-spagat@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Matthias Ludwig: Spagat
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261107-irmgard-knef-noch-da-100-jahr-blondes-haar@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Irmgard Knef: Noch da! 100 Jahr\, blondes Haar
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261108-clackmaerchenschloss-dornroeschen-premiere@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:CLACKmärchenschloss: Dornröschen (Premiere)
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261108-clackmaerchenschloss-dornroeschen-premiere-17
+ 00@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T170000
+DTEND;TZID=Europe/Berlin:20261108T190000
+SUMMARY:CLACKmärchenschloss: Dornröschen (Premiere)
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261111-vogue-travestie-revue@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T193000
+DTEND;TZID=Europe/Berlin:20261111T213000
+SUMMARY:VOGUE – Travestie-Revue
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261115-ingrid-kuehne-ja-aber-ohne-mich@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Ingrid Kühne: Ja\, aber ohne mich!
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261118-timo-wopp-ja-sorry@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T193000
+DTEND;TZID=Europe/Berlin:20261118T213000
+SUMMARY:Timo Wopp: JA SORRY!
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261120-greatest-women-travestie-revue@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Greatest Women – Travestie-Revue
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261122-clackmaerchenschloss-dornroeschen@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:CLACKmärchenschloss: Dornröschen
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261125-showkolade-die-pikante-weihnachtsrevue@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:SHOWkolade – Die pikante WeihnachtsRevue
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261127-schwarze-gruetze-endstation-pfanne@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Schwarze Grütze: Endstation Pfanne
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261128-schwarze-gruetze-endstation-pfanne@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Schwarze Grütze: Endstation Pfanne
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261201-in-der-weihnachtsmeckerei-ralph-richter@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T193000
+DTEND;TZID=Europe/Berlin:20261201T213000
+SUMMARY:In der Weihnachtsmeckerei – Ralph Richter
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261206-clackmaerchenschloss-dornroeschen@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T140000
+DTEND;TZID=Europe/Berlin:20261206T160000
+SUMMARY:CLACKmärchenschloss: Dornröschen
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261222-lars-redlich-lars-christmas-die-weihnachts-co
+ medy@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T193000
+DTEND;TZID=Europe/Berlin:20261222T213000
+SUMMARY:Lars Redlich: Lars´ Christmas – Die Weihnachts-Comedy-Show
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20261227-clackmaerchenschloss-dornroeschen@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T140000
+DTEND;TZID=Europe/Berlin:20261227T160000
+SUMMARY:CLACKmärchenschloss: Dornröschen
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270115-keep-smiling-2025-die-irre-best-of-show@myeve
+ nthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T193000
+DTEND;TZID=Europe/Berlin:20270115T213000
+SUMMARY:Keep Smiling 2025 – Die irre Best-of-Show
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270120-ganz-schoen-schnueckelig-die-grosse-frau-schn
+ uecke@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270120T193000
+DTEND;TZID=Europe/Berlin:20270120T213000
+SUMMARY:"Ganz schön schnückelig" – Die große Frau Schnückel-Show
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270122-christian-schulte-loh-import-export@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T193000
+DTEND;TZID=Europe/Berlin:20270122T213000
+SUMMARY:Christian Schulte-Loh: Import Export
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270123-clou-travestie-revue@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T193000
+DTEND;TZID=Europe/Berlin:20270123T213000
+SUMMARY:CLOU – Travestie-Revue
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270129-divenentspannt-travestie-revue@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T193000
+DTEND;TZID=Europe/Berlin:20270129T213000
+SUMMARY:DIVENentspannt – Travestie-Revue
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270206-jakob-schwerdtfeger-meisterwerk@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T193000
+DTEND;TZID=Europe/Berlin:20270206T213000
+SUMMARY:Jakob Schwerdtfeger: Meisterwerk
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270224-girls-just-wanna-have-fun-die-partyshow-zum-f
+ rauen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T193000
+DTEND;TZID=Europe/Berlin:20270224T213000
+SUMMARY:Girls just wanna have fun! Die PartyShow zum Frauentag
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270308-girls-just-wanna-have-fun-die-partyshow-zum-f
+ rauen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270308T193000
+DTEND;TZID=Europe/Berlin:20270308T213000
+SUMMARY:Girls just wanna have fun! Die PartyShow zum Frauentag
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270328-annemarie-eilfeld-friends-magic-diva@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270328T193000
+DTEND;TZID=Europe/Berlin:20270328T213000
+SUMMARY:Annemarie Eilfeld & Friends: Magic Diva
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270401-die-junge-distel-ruwe-und-valenske-dumm-gelau
+ fen@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270401T193000
+DTEND;TZID=Europe/Berlin:20270401T213000
+SUMMARY:Die junge Distel: Ruwe und Valenske – Dumm gelaufen
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270409-michael-frowin-das-wird-ein-vorspiel-haben@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T193000
+DTEND;TZID=Europe/Berlin:20270409T213000
+SUMMARY:Michael Frowin: Das wird ein Vorspiel haben
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270410-dicke-luft-und-kein-verkehr-5-pa-a-radox-prem
+ iere@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T193000
+DTEND;TZID=Europe/Berlin:20270410T213000
+SUMMARY:Dicke Luft und kein Verkehr 5 • PA(A)RADOX (Premiere)
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270411-dicke-luft-und-kein-verkehr-5-pa-a-radox@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270411T170000
+DTEND;TZID=Europe/Berlin:20270411T190000
+SUMMARY:Dicke Luft und kein Verkehr 5 • PA(A)RADOX
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270415-emmi-willnowsky-frisch-frech-federleicht@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270415T193000
+DTEND;TZID=Europe/Berlin:20270415T213000
+SUMMARY:Emmi & Willnowsky: Frisch\, frech\, federleicht!
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270416-emmi-willnowsky-frisch-frech-federleicht@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T193000
+DTEND;TZID=Europe/Berlin:20270416T213000
+SUMMARY:Emmi & Willnowsky: Frisch\, frech\, federleicht!
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270421-der-tod-ihr-seid-geschichte-wittenberg-premie
+ re@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270421T193000
+DTEND;TZID=Europe/Berlin:20270421T213000
+SUMMARY:Der Tod: Ihr seid Geschichte (Wittenberg-Premiere)
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270423-clou-travestie-revue@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270423T193000
+DTEND;TZID=Europe/Berlin:20270423T213000
+SUMMARY:CLOU – Travestie-Revue
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wb-clack-theater-20270424-clou-travestie-revue@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T193000
+DTEND;TZID=Europe/Berlin:20270424T213000
+SUMMARY:CLOU – Travestie-Revue
+LOCATION:CLACK Theater\, Markt 1\, 06886 Lutherstadt Wittenberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://clack-theater.de/spielplan-buchungen/
+URL:https://clack-theater.de/spielplan-buchungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

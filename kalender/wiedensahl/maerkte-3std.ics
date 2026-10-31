@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Wiedensahl · my Event Hub (Erinnerung 3 Stunden vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:shg-wilhelm-busch-land-20261112-martinimarkt-stoebern-im-museumsladen-u
+ nd-freier-e@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Martinimarkt: Stöbern im Museumsladen und freier Eintritt ins Muse
+ um
+LOCATION:Wilhelm Busch Land Wiedensahl (Geburtshaus)\, Hauptstr. 68a\, 3171
+ 9 Wiedensahl
+DESCRIPTION:Preis: freier Eintritt ins Museum\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.wilhelm-busch-land.de/veranstaltungen/
+URL:https://www.wilhelm-busch-land.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

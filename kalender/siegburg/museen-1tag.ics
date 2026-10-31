@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Siegburg · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:su-stadtmuseum-siegburg-20261024-100-jahre-gedok-jubilaeumsausstellung-
+ beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: 100 Jahre GEDOK – Jubiläumsausstellung
+LOCATION:Stadtmuseum Siegburg\, Markt 46\, 53721 Siegburg
+DESCRIPTION:Laufzeit: 24.10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.stadtmuseum-siegburg.de/
+URL:https://www.stadtmuseum-siegburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-stadtmuseum-siegburg-20261024-100-jahre-gedok-jubilaeumsausstellung-
+ ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Letzter Tag: 100 Jahre GEDOK – Jubiläumsausstellung
+LOCATION:Stadtmuseum Siegburg\, Markt 46\, 53721 Siegburg
+DESCRIPTION:Laufzeit: 24.10.2026 bis 31.10.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.stadtmuseum-siegburg.de/
+URL:https://www.stadtmuseum-siegburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-stadtmuseum-siegburg-20261031-rundgang-durch-die-ausstellung-100-jah
+ re-gedok@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Rundgang durch die Ausstellung 100 Jahre GEDOK
+LOCATION:Stadtmuseum Siegburg\, Markt 46\, 53721 Siegburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtmuseum-siegburg.de/
+URL:https://www.stadtmuseum-siegburg.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

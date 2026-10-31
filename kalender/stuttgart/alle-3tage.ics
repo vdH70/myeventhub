@@ -1,0 +1,2976 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Stuttgart · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:s-porsche-museum-20260701-75-jahre-porsche-motorsport-ende@myeventhub.d
+ e
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: 75 Jahre Porsche Motorsport
+LOCATION:Porsche Museum\, Porscheplatz 1\, 70435 Stuttgart
+DESCRIPTION:Sonderausstellung zur Motorsportgeschichte von Porsche.\nLaufze
+ it: 1.7.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.porsche.com/germany/aboutporsche/porschemuseum/
+URL:https://www.porsche.com/germany/aboutporsche/porschemuseum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-landesmuseum-wuerttemberg-20261017-zier-und-zeichen-was-maenner-schmu
+ eckt-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Beginn: Zier und Zeichen: Was Männer schmückt
+LOCATION:Landesmuseum Württemberg\, Schillerplatz 6\, 70173 Stuttgart
+DESCRIPTION:Große Sonderausstellung im Alten Schloss\, 3. OG.\nLaufzeit: 1
+ 7.10.2026 bis 25.4.2027\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.landesmuseum-stuttgart.de/ausstellungen/zier-zeichen
+URL:https://www.landesmuseum-stuttgart.de/ausstellungen/zier-zeichen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-landesmuseum-wuerttemberg-20261017-zier-und-zeichen-was-maenner-schmu
+ eckt-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Letzter Tag: Zier und Zeichen: Was Männer schmückt
+LOCATION:Landesmuseum Württemberg\, Schillerplatz 6\, 70173 Stuttgart
+DESCRIPTION:Große Sonderausstellung im Alten Schloss\, 3. OG.\nLaufzeit: 1
+ 7.10.2026 bis 25.4.2027\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.landesmuseum-stuttgart.de/ausstellungen/zier-zeichen
+URL:https://www.landesmuseum-stuttgart.de/ausstellungen/zier-zeichen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-linden-museum-20261024-zombies-die-urspruenge-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Beginn: Zombies – die Ursprünge
+LOCATION:Linden-Museum Stuttgart\, Hegelplatz 1\, 70174 Stuttgart
+DESCRIPTION:Sonderausstellung.\nLaufzeit: 24.10.2026 bis 9.5.2027\nQuelle (
+ bitte vor dem Besuch prüfen): https://lindenmuseum.de/
+URL:https://lindenmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-linden-museum-20261024-zombies-die-urspruenge-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Letzter Tag: Zombies – die Ursprünge
+LOCATION:Linden-Museum Stuttgart\, Hegelplatz 1\, 70174 Stuttgart
+DESCRIPTION:Sonderausstellung.\nLaufzeit: 24.10.2026 bis 9.5.2027\nQuelle (
+ bitte vor dem Besuch prüfen): https://lindenmuseum.de/
+URL:https://lindenmuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-porsche-museum-20261030-wochenende-der-offenen-motorhauben-beginn@mye
+ venthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Wochenende der offenen Motorhauben
+LOCATION:Porsche Museum\, Porscheplatz 1\, 70435 Stuttgart
+DESCRIPTION:Laufzeit: 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.porsche.com/germany/aboutporsche/porschemuseum/
+URL:https://www.porsche.com/germany/aboutporsche/porschemuseum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-porsche-museum-20261030-wochenende-der-offenen-motorhauben-ende@myeve
+ nthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Wochenende der offenen Motorhauben
+LOCATION:Porsche Museum\, Porscheplatz 1\, 70435 Stuttgart
+DESCRIPTION:Laufzeit: 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.porsche.com/germany/aboutporsche/porschemuseum/
+URL:https://www.porsche.com/germany/aboutporsche/porschemuseum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261031-die-monstars-punkrock-fur-kinder-eltern@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T140000
+DTEND;TZID=Europe/Berlin:20261031T160000
+SUMMARY:Die MonStars – Punkrock für Kinder & Eltern
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2897-die-monstars-sho
+ w-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2897-die-monstars-show-2026-s
+ tuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261031-dia-de-los-muertos-festival-2026-15-jahre@myeven
+ thub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T173000
+DTEND;TZID=Europe/Berlin:20261031T193000
+SUMMARY:Día de los Muertos Festival 2026 (15 Jahre)
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2864-dia-de-los-muert
+ os-festival-2026-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2864-dia-de-los-muertos-festi
+ val-2026-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-altes-schauspielhaus-20261031-nathan-der-weise@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Nathan der Weise
+LOCATION:Altes Schauspielhaus\, Kleine Königstraße 9\, 70178 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nath
+ an-der-weise/
+URL:https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nathan-der-w
+ eise/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261031-bonaparte-20-jahre-bonaparte-tour@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Bonaparte – 20 Jahre Bonaparte Tour
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2402-bonaparte-2026-s
+ tuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2402-bonaparte-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schleyerhalle-20261031-history-in-stuttgart-gims-lacazette-morad-u-a@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:History in Stuttgart – GIMS\, Lacazette\, Morad u. a.
+LOCATION:Hanns-Martin-Schleyer-Halle\, Mercedesstraße 69\, 70372 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hallenduo.de/de/home/veranstaltungen
+URL:https://www.hallenduo.de/de/home/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261031-michael-stephenson-feat-alexander-claffy-trio@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T203000
+DTEND;TZID=Europe/Berlin:20261031T223000
+SUMMARY:Michael Stephenson feat. Alexander Claffy Trio
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bix-stuttgart.de/programm/michael-stephenson-feat-a
+ lexander-claffy-trio-n55rpk/
+URL:https://www.bix-stuttgart.de/programm/michael-stephenson-feat-alexander
+ -claffy-trio-n55rpk/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261101-tatort-mittelmeer@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T200000
+DTEND;TZID=Europe/Berlin:20261101T220000
+SUMMARY:Tatort Mittelmeer
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261102-cindy-gravity-kulturwinter-eintritt-frei@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T180000
+DTEND;TZID=Europe/Berlin:20261102T200000
+SUMMARY:Cindy Gravity – Kulturwinter (Eintritt frei)
+LOCATION:Vorhof
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.imwizemann.de/veranstaltungen
+ /2929-cindy-gravity-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2929-cindy-gravity-2026-stutt
+ gart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261102-the-notwist-news-from-planet-zombie@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:The Notwist – News from Planet Zombie
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2602-the-notwist-2026
+ -stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2602-the-notwist-2026-stuttga
+ rt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261103-tanzende-idioten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T193000
+DTEND;TZID=Europe/Berlin:20261103T213000
+SUMMARY:Tanzende Idioten
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261103-ignite-cancer-bats-europe-november-26@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Ignite + Cancer Bats – Europe November 26
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2835-ignite-%2B-cance
+ r-bats-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2835-ignite-%2B-cancer-bats-2
+ 026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261103-long-distance-calling-the-phantom-void-tour-2026
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Long Distance Calling – The Phantom Void Tour 2026
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2750-long-distance-ca
+ lling-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2750-long-distance-calling-20
+ 26-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-planetarium-20261103-tunesday-115-cautz-made-from-dust@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Tunesday #115: Cautz & Made From Dust
+LOCATION:Planetarium Stuttgart\, Willy-Brandt-Straße 25\, 70173 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-stuttgart.de
+URL:https://www.planetarium-stuttgart.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-porsche-arena-20261103-milano@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Milano
+LOCATION:Porsche-Arena\, Mercedesstraße 69\, 70372 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hallenduo.de/de/home/veranstaltungen
+URL:https://www.hallenduo.de/de/home/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261103-jens-hilke-project-andreas-riester-quartett-hmd
+ k-stuttg@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T203000
+DTEND;TZID=Europe/Berlin:20261103T223000
+SUMMARY:Jens Hilke Project & Andreas Riester Quartett (HMDK Stuttgart)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bix-stuttgart.de/programm/jens-hilke-abschlusskonze
+ rt-presented-by-hmdk-st-v3lgdv/
+URL:https://www.bix-stuttgart.de/programm/jens-hilke-abschlusskonzert-prese
+ nted-by-hmdk-st-v3lgdv/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261104-ziggy-bonaire-kulturwinter-eintritt-frei@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T180000
+DTEND;TZID=Europe/Berlin:20261104T200000
+SUMMARY:Ziggy Bonaire – Kulturwinter (Eintritt frei)
+LOCATION:Vorhof
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.imwizemann.de/veranstaltungen
+ /2939-ziggy-bonaire-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2939-ziggy-bonaire-2026-stutt
+ gart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-altes-schauspielhaus-20261104-nathan-der-weise@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Nathan der Weise
+LOCATION:Altes Schauspielhaus\, Kleine Königstraße 9\, 70178 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nath
+ an-der-weise/
+URL:https://schauspielbuehnen.de/spielplan/spielzeit-2026-2027/nathan-der-w
+ eise/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-porsche-arena-20261104-wahnsinn-die-show@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:WAHNSINN! – Die Show
+LOCATION:Porsche-Arena\, Mercedesstraße 69\, 70372 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hallenduo.de/de/home/veranstaltungen
+URL:https://www.hallenduo.de/de/home/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261104-die-politiker@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Die Politiker
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Im Kammertheater.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.schauspiel-stuttgart.de/spielpla
+ n/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261104-apsilon-glanz-null-tour@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Apsilon – Glanz Null Tour
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2642-apsilon-2026-stu
+ ttgart
+URL:https://www.imwizemann.de/veranstaltungen/2642-apsilon-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261104-the-temperance-movement-let-it-all-out-tour@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T203000
+DTEND;TZID=Europe/Berlin:20261104T223000
+SUMMARY:The Temperance Movement – Let It All Out Tour
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2740-the-temperance-m
+ ovement-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2740-the-temperance-movement-
+ 2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261104-judith-owen-her-band@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Judith Owen & Her Band
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/judith-owen-her-band-foqcfg/
+URL:https://www.bix-stuttgart.de/programm/judith-owen-her-band-foqcfg/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261105-dj-leo-tiger-kulturwinter-eintritt-frei@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T173000
+DTEND;TZID=Europe/Berlin:20261105T193000
+SUMMARY:DJ Leo Tiger – Kulturwinter (Eintritt frei)
+LOCATION:Vorhof
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.imwizemann.de/veranstaltungen
+ /2930-dj-leo-tiger-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2930-dj-leo-tiger-2026-stuttg
+ art
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261105-jonny-mahoro-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Jonny Mahoro – Tour 2026
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2505-jonny-mahoro-202
+ 6-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2505-jonny-mahoro-2026-stuttg
+ art
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261105-ono-cliq-planet-kumpel-tour-2026-nachholtermin@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:$ONO$ CLIQ – Planet Kumpel Tour 2026 (Nachholtermin)
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2679-dollaronodollar-
+ cliq-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2679-dollaronodollar-cliq-202
+ 6-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261105-the-sisters-of-mercy-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:The Sisters of Mercy – Tour 2026
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/the-sisters-of-mercy-tour-2026/
+URL:https://lka-longhorn.de/events/the-sisters-of-mercy-tour-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261105-bix-top-act-ina-forsman-after-dark-hour@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:BIX Top Act: Ina Forsman – After Dark Hour (ausverkauft)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .bix-stuttgart.de/
+URL:https://www.bix-stuttgart.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtteilbibliothek-weilimdorf-20261106-leseohren-aufgeklappt-eine-ge
+ schichte-nur-fuer-dic@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T160000
+DTEND;TZID=Europe/Berlin:20261106T180000
+SUMMARY:Leseohren aufgeklappt: Eine Geschichte nur für dich!
+LOCATION:Stadtteilbibliothek Weilimdorf\, Löwen-Markt 1\, 70499 Stuttgart
+DESCRIPTION:Vorlesestunde für Kinder von 3 bis 6 Jahren.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/lese
+ ohren-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/leseohr
+ en-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-porsche-arena-20261106-nico-santos@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Nico Santos
+LOCATION:Porsche-Arena\, Mercedesstraße 69\, 70372 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hallenduo.de/de/home/veranstaltungen
+URL:https://www.hallenduo.de/de/home/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261106-stunde-der-kirchenmusik-stuttgarter-hymn@myeven
+ thub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Stunde der Kirchenmusik: Stuttgarter Hymnus-Chorknaben
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Chorkonzert der Stuttgarter Hymnus-Chorknaben in der Reihe Stun
+ de der Kirchenmusik.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.stiftsmusik-stuttgart.de/spielplan/novem
+ ber-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-planetarium-20261106-vortrag-von-der-idee-zum-raketenflug-raumfahrt-a
+ m@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Vortrag: Von der Idee zum Raketenflug – Raumfahrt am Beispiel ein
+ es Höhenforschungsprojekts
+LOCATION:Planetarium Stuttgart\, Willy-Brandt-Straße 25\, 70173 Stuttgart
+DESCRIPTION:Vortrag der Schwäbischen Sternwarte im Keplersaal des Planetar
+ iums.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://sternwarte.de/vortragsabend/
+URL:https://sternwarte.de/vortragsabend/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261106-benni-stark-schon-lustig-wenn-s-witzig-ist@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Benni Stark – Schon lustig\, wenn's witzig ist!
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2483-benni-stark-2026
+ -stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2483-benni-stark-2026-stuttga
+ rt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261106-lugatti-mit-der-concorde-uber-den-atlantik-tour-
+ 2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Lugatti – Mit der Concorde über den Atlantik Tour 2026
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2796-lugatti-2026-stu
+ ttgart
+URL:https://www.imwizemann.de/veranstaltungen/2796-lugatti-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261106-the-new-roses-down-dirty-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:The New Roses – Down & Dirty Tour 2026
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2700-the-new-roses-20
+ 26-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2700-the-new-roses-2026-stutt
+ gart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261106-picture-this@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Picture This
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/picture-this/
+URL:https://lka-longhorn.de/events/picture-this/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261106-bix-top-act-ina-forsman-after-dark-hour@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:BIX Top Act: Ina Forsman – After Dark Hour (ausverkauft)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .bix-stuttgart.de/
+URL:https://www.bix-stuttgart.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261107-hardline-european-album-tour-2026-pt-2@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:ABGESAGT: Hardline – European Album Tour 2026 Pt. 2
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2618-abgesagt-hardlin
+ e-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2618-abgesagt-hardline-2026-s
+ tuttgart
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261107-our-promise-fearless-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Our Promise – Fearless Tour 2026
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2549-our-promise-2026
+ -stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2549-our-promise-2026-stuttga
+ rt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261107-dari-better-love-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Dari – Better Love Tour 2026
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2338-dari-2026-stuttg
+ art
+URL:https://www.imwizemann.de/veranstaltungen/2338-dari-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261107-one-step-closer-tour-2026@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:One Step Closer – Tour 2026
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/one-step-closer-tour-2026/
+URL:https://lka-longhorn.de/events/one-step-closer-tour-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-planetarium-20261107-klangreise-durch-die-galaxien@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Klangreise durch die Galaxien
+LOCATION:Planetarium Stuttgart\, Willy-Brandt-Straße 25\, 70173 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-stuttgart.de
+URL:https://www.planetarium-stuttgart.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-porsche-arena-20261107-marko-perkovic-thompson@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T210000
+DTEND;TZID=Europe/Berlin:20261107T230000
+SUMMARY:Marko Perković Thompson
+LOCATION:Porsche-Arena\, Mercedesstraße 69\, 70372 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hallenduo.de/de/home/veranstaltungen
+URL:https://www.hallenduo.de/de/home/veranstaltungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261107-bix-top-act-kennedy-administration@myeventhub.d
+ e
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:BIX Top Act: Kennedy Administration
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/bix-top-act-kennedy-administration-s0nwz6/
+URL:https://www.bix-stuttgart.de/programm/bix-top-act-kennedy-administratio
+ n-s0nwz6/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261108-lady-macbeth-von-mzensk@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Lady Macbeth von Mzensk
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatsoper-stuttgart.de/spielplan/kalender/lady-mac
+ beth-von-mzensk/9655/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/lady-macbeth-von
+ -mzensk/9655/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261108-kamelot-tour-2026@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Kamelot – Tour 2026
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/kamelot-tour-2026/
+URL:https://lka-longhorn.de/events/kamelot-tour-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261108-micha-live-2026@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T200000
+DTEND;TZID=Europe/Berlin:20261108T220000
+SUMMARY:Micha – Live 2026 (ausverkauft)
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.imwizemann.de/veranstaltungen/2722-mic
+ ha-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2722-micha-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261108-soffie-fur-mich-da-tour-2026@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T200000
+DTEND;TZID=Europe/Berlin:20261108T220000
+SUMMARY:Soffie – „Für mich da“ Tour 2026
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2486-soffie-2026-stut
+ tgart
+URL:https://www.imwizemann.de/veranstaltungen/2486-soffie-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261109-call-me-karizma-i-m-no-american-idol-tour@myeven
+ thub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Call Me Karizma – I'm No American Idol Tour
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2849-call-me-karizma-
+ 2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2849-call-me-karizma-2026-stu
+ ttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261109-richard-cwiertnia-ostblock-live@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Richard Cwiertnia – Ostblock Live
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2695-richard-cwiertni
+ a-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2695-richard-cwiertnia-2026-s
+ tuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261110-stuttgarter-comedy-clash-halbfinale-2@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T190000
+DTEND;TZID=Europe/Berlin:20261110T210000
+SUMMARY:Stuttgarter Comedy Clash – Halbfinale 2
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2591-stuttgarter-come
+ dy-clash-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2591-stuttgarter-comedy-clash
+ -2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261110-kytes-indie-rave-tour-2026@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:Kytes – Indie Rave Tour 2026
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2528-kytes-2026-stutt
+ gart
+URL:https://www.imwizemann.de/veranstaltungen/2528-kytes-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261111-facesoul@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:ABGESAGT: Facesoul
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2820-abgesagt-facesou
+ l-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2820-abgesagt-facesoul-2026-s
+ tuttgart
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261111-heaven-17-electronically-yours-tour-2026@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Heaven 17 – Electronically Yours Tour 2026
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2381-heaven-17-2026-s
+ tuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2381-heaven-17-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261111-the-magic-mumble-jumble-better-days-tour-2026@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:The Magic Mumble Jumble – Better Days Tour 2026
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2653-the-magic-mumble
+ -jumble-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2653-the-magic-mumble-jumble-
+ 2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261111-haltma-four-wir-machen-musik-ig-jazz@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:HAltma Four – „Wir machen Musik“ (IG Jazz)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/haltma-four-presented-by-ig-jazz-t4vwaq/
+URL:https://www.bix-stuttgart.de/programm/haltma-four-presented-by-ig-jazz-
+ t4vwaq/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schleyerhalle-20261111-40-stuttgart-german-masters-internationales-re
+ ittu-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Beginn: 40. Stuttgart German Masters – Internationales Reitturnie
+ r
+LOCATION:Hanns-Martin-Schleyer-Halle\, Mercedesstraße 69\, 70372 Stuttgart
+DESCRIPTION:Internationales Reitturnier in Schleyer-Halle und Porsche-Arena
+ .\nLaufzeit: 11.11.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.stuttgart-german-masters.de/
+URL:https://www.stuttgart-german-masters.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schleyerhalle-20261111-40-stuttgart-german-masters-internationales-re
+ ittu-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: 40. Stuttgart German Masters – Internationales Reitt
+ urnier
+LOCATION:Hanns-Martin-Schleyer-Halle\, Mercedesstraße 69\, 70372 Stuttgart
+DESCRIPTION:Internationales Reitturnier in Schleyer-Halle und Porsche-Arena
+ .\nLaufzeit: 11.11.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.stuttgart-german-masters.de/
+URL:https://www.stuttgart-german-masters.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261112-marius-loy-kulturwinter-eintritt-frei@myeventhub
+ .de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T180000
+DTEND;TZID=Europe/Berlin:20261112T200000
+SUMMARY:Marius Loy – Kulturwinter (Eintritt frei)
+LOCATION:Vorhof
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.imwizemann.de/veranstaltungen
+ /2933-marius-loy-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2933-marius-loy-2026-stuttgar
+ t
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261112-hoffnung-verlangt-nach-handlung-spoken-arts-fest
+ ival-20@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Hoffnung verlangt nach Handlung – Spoken Arts Festival 2026
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2902-hoffnung-verlang
+ t-nach-handlung-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2902-hoffnung-verlangt-nach-h
+ andlung-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261112-rowli-eigentlich-schon-tour-2026@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:ABGESAGT: Rowli – Eigentlich schön Tour 2026
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2495-abgesagt-rowli-2
+ 026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2495-abgesagt-rowli-2026-stut
+ tgart
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261112-walls-of-jericho@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Walls of Jericho
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2859-walls-of-jericho
+ -2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2859-walls-of-jericho-2026-st
+ uttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261112-yaris-kein-plan-b-tour-2026@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Yaris – Kein Plan B Tour 2026
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2765-yaris-2026-stutt
+ gart
+URL:https://www.imwizemann.de/veranstaltungen/2765-yaris-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261112-zimmer90@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Zimmer90
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/zimmer90/
+URL:https://lka-longhorn.de/events/zimmer90/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261112-bix-top-act-artemis@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:BIX Top Act: ARTEMIS
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/bix-top-act-artemis-vrxqzn/
+URL:https://www.bix-stuttgart.de/programm/bix-top-act-artemis-vrxqzn/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtteilbibliothek-weilimdorf-20261113-leseohren-aufgeklappt-eine-ge
+ schichte-nur-fuer-dic@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T160000
+DTEND;TZID=Europe/Berlin:20261113T180000
+SUMMARY:Leseohren aufgeklappt: Eine Geschichte nur für dich!
+LOCATION:Stadtteilbibliothek Weilimdorf\, Löwen-Markt 1\, 70499 Stuttgart
+DESCRIPTION:Vorlesestunde für Kinder von 3 bis 6 Jahren.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/lese
+ ohren-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/leseohr
+ en-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261113-stunde-der-kirchenmusik-madrigalchor-der@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T190000
+DTEND;TZID=Europe/Berlin:20261113T210000
+SUMMARY:Stunde der Kirchenmusik: Madrigalchor der HMT München
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Chorkonzert des Madrigalchors der Münchner Musikhochschule.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261113-allt-ataraxia-european-tour-2026@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Allt – Ataraxia European Tour 2026
+LOCATION:Club
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2664-allt-2026-stuttg
+ art
+URL:https://www.imwizemann.de/veranstaltungen/2664-allt-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261113-aus-der-mitte-entspringt-ein-hit@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Aus der Mitte entspringt ein Hit
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261113-movin-groovin-funk-soul-energy@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:movin' & groovin' – Funk\, Soul & Energy
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/movin-groovin-bqd5z2/
+URL:https://www.bix-stuttgart.de/programm/movin-groovin-bqd5z2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261114-offene-orgelfuehrung-fuer-jung-und-alt@myeventh
+ ub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T111500
+DTEND;TZID=Europe/Berlin:20261114T131500
+SUMMARY:Offene Orgelführung für Jung und Alt
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Offene Führung an den Orgeln der Stiftskirche.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.st
+ iftsmusik-stuttgart.de/spielplan/november-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261114-don-quijote-von-der-mancha@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T160000
+DTEND;TZID=Europe/Berlin:20261114T180000
+SUMMARY:Don Quijote von der Mancha
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schauspiel-stuttgart.de/spielplan/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261114-lady-macbeth-von-mzensk@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:Lady Macbeth von Mzensk
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatsoper-stuttgart.de/spielplan/kalender/lady-mac
+ beth-von-mzensk/9656/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/lady-macbeth-von
+ -mzensk/9656/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261114-dartagnan-helden-hymnen-die-jubilaeumstour-2026
+ @myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:dArtagnan – Helden & Hymnen – Die Jubiläumstour 2026
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/dartagnan-helden-hymnen-die-jubilaeusmtour-2026/
+URL:https://lka-longhorn.de/events/dartagnan-helden-hymnen-die-jubilaeusmto
+ ur-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261114-discotronic-x-club-hybrid@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T220000
+DTEND;TZID=Europe/Berlin:20261115T000000
+SUMMARY:Discotronic x Club Hybrid
+LOCATION:Im Wizemann\, Quellenstraße 7\, 70376 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2754-discotronic-x-cl
+ ub-hybrid-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2754-discotronic-x-club-hybri
+ d-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261114-mxdmcn-meixner-mudrack-neuhaus@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:MXDMCN (Meixner\, Mudrack\, Neuhaus)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/mxdmcn-meixner-mudrack-neuhaus-uex4fy/
+URL:https://www.bix-stuttgart.de/programm/mxdmcn-meixner-mudrack-neuhaus-ue
+ x4fy/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261116-heimkehr@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T193000
+DTEND;TZID=Europe/Berlin:20261116T213000
+SUMMARY:Heimkehr
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Im Kammertheater.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.schauspiel-stuttgart.de/spielpla
+ n/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261116-mine@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Mine
+LOCATION:Im Wizemann\, Quellenstraße 7\, 70376 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2562-mine-2026-stuttg
+ art
+URL:https://www.imwizemann.de/veranstaltungen/2562-mine-2026-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261117-orgelfuehrung-himmlische-klaenge-entdeck@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T150000
+DTEND;TZID=Europe/Berlin:20261117T170000
+SUMMARY:Orgelführung – Himmlische Klänge entdecken
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Orgelführung\, angekündigt im Umfeld des Stuttgarter Musikfes
+ ts für Kinder und Jugendliche.\nEnde: laut Quelle nicht angegeben\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.stiftsmusik-stuttgart.de/spie
+ lplan/november-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-schauspiel-20261117-vier-schwestern-fernes-wien-fremde-welt@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Vier Schwestern\; fernes Wien\, fremde Welt.
+LOCATION:Schauspiel Stuttgart\, Stuttgart
+DESCRIPTION:Im Kammertheater.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.schauspiel-stuttgart.de/spielpla
+ n/
+URL:https://www.schauspiel-stuttgart.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtteilbibliothek-stammheim-20261118-zum-nachtisch-noch-ein-buch@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T140000
+DTEND;TZID=Europe/Berlin:20261118T160000
+SUMMARY:Zum Nachtisch noch ein Buch
+LOCATION:Stadtteilbibliothek Stammheim\, Kornwestheimer Straße 7\, 70439 S
+ tuttgart
+DESCRIPTION:Vorlesestunde in der Stadtteilbibliothek.\nEnde: laut Quelle ni
+ cht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/zum-nach
+ tisch-noch-ein-buch-482656
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/zum-nac
+ htisch-noch-ein-buch-482656
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtbibliothek-mailaender-platz-20261118-dazwischen@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T180000
+DTEND;TZID=Europe/Berlin:20261118T200000
+SUMMARY:Dazwischen
+LOCATION:Stadtbibliothek Stuttgart am Mailänder Platz\, Mailänder Platz 1
+ \, 70173 Stuttgart
+DESCRIPTION:Ausstellungseröffnung mit Filmen von Studierenden der Merz Aka
+ demie in der Galerie b.\nEnde: laut Quelle nicht angegeben\nPreis: Eintrit
+ t frei\nQuelle (bitte vor dem Besuch prüfen): https://www.stuttgart.de/ve
+ ranstaltungskalender/veranstaltungen/dazwischen-536105
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/dazwisc
+ hen-536105
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtteilbibliothek-weilimdorf-20261120-leseohren-aufgeklappt-eine-ge
+ schichte-nur-fuer-dic@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T160000
+DTEND;TZID=Europe/Berlin:20261120T180000
+SUMMARY:Leseohren aufgeklappt: Eine Geschichte nur für dich!
+LOCATION:Stadtteilbibliothek Weilimdorf\, Löwen-Markt 1\, 70499 Stuttgart
+DESCRIPTION:Vorlesestunde für Kinder von 3 bis 6 Jahren.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/lese
+ ohren-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/leseohr
+ en-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261120-haensel-und-gretel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T180000
+DTEND;TZID=Europe/Berlin:20261120T200000
+SUMMARY:Hänsel und Gretel
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatsoper-stuttgart.de/spielplan/kalender/haensel-
+ und-gretel/9611/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/haensel-und-gret
+ el/9611/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtbibliothek-mailaender-platz-20261120-von-fitness-zu-faschismus@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Von Fitness zu Faschismus
+LOCATION:Stadtbibliothek Stuttgart am Mailänder Platz\, Mailänder Platz 1
+ \, 70173 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 2\,50 bis 4 €\, erm
+ äßigt möglich\nQuelle (bitte vor dem Besuch prüfen): https://www.stutt
+ gart.de/veranstaltungskalender/veranstaltungen/von-fitness-zu-faschismus-5
+ 36113
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/von-fit
+ ness-zu-faschismus-536113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261120-mendelssohn-elias-op-70@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Mendelssohn: Elias op. 70
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Abschlusskonzert der Mendelssohn-Reihe mit dem Oratorium Elias.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261120-against-the-current-till-death-back-tour@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Against The Current – Till Death & Back Tour
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/against-the-current-till-death-back-tour/
+URL:https://lka-longhorn.de/events/against-the-current-till-death-back-tour
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtbibliothek-mailaender-platz-20261121-buechermenschen-vincent-kli
+ nk-im-gespraech@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T160000
+DTEND;TZID=Europe/Berlin:20261121T180000
+SUMMARY:Büchermenschen: Vincent Klink im Gespräch
+LOCATION:Stadtbibliothek Stuttgart am Mailänder Platz\, Mailänder Platz 1
+ \, 70173 Stuttgart
+DESCRIPTION:Live-Gespräch mit einem Stuttgarter Autor im Galeriesaal.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.stuttgart.de/veranstaltungskalender/veranst
+ altungen/buechermenschen-536114
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/buecher
+ menschen-536114
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261121-pop-und-wave@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T210000
+DTEND;TZID=Europe/Berlin:20261121T230000
+SUMMARY:Pop und Wave
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Party mit Pop und Wave.\nEnde: laut Quelle nicht angegeben\nPre
+ is: Abendkasse 9 €\nQuelle (bitte vor dem Besuch prüfen): https://lka-l
+ onghorn.de/events/pop-und-wave-890-728-179-609-948-703/
+URL:https://lka-longhorn.de/events/pop-und-wave-890-728-179-609-948-703/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261122-2-sinfoniekonzert@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:2. Sinfoniekonzert
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Staatsorchester Stuttgart im Beethovensaal der Liederhalle.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.staatsoper-stuttgart.de/spielplan/kalender/2-sinfoniekonzert-202
+ 6-27/9522/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/2-sinfoniekonzer
+ t-2026-27/9522/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20261124-gesprachsstoff-amrei-bahr-und-gaste@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T200000
+DTEND;TZID=Europe/Berlin:20261124T220000
+SUMMARY:Gesprächsstoff – Amrei Bahr und Gäste
+LOCATION:Renitenztheater\, Büchsenstraße 26\, 70174 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://renitenztheater.de/programm-tickets/
+URL:https://renitenztheater.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261124-johanna-ehlers-las-cinco-estaciones-hmdk@myeven
+ thub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Johanna Ehlers: „Las Cinco Estaciones“ (HMDK)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/johanna-ehlers-las-cinco-estaciones-presented-by-l1vohn/
+URL:https://www.bix-stuttgart.de/programm/johanna-ehlers-las-cinco-estacion
+ es-presented-by-l1vohn/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-porsche-museum-20261124-forever-young-celebrating-transaxle-pop-up-wi
+ nter-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Beginn: Forever Young. Celebrating Transaxle – Pop-up Winter-Edit
+ ion
+LOCATION:Porsche Museum\, Porscheplatz 1\, 70435 Stuttgart
+DESCRIPTION:Laufzeit: 24.11.2026 bis 18.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.porsche.com/germany/aboutporsche/porschemuseum/
+URL:https://www.porsche.com/germany/aboutporsche/porschemuseum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-porsche-museum-20261124-forever-young-celebrating-transaxle-pop-up-wi
+ nter-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Letzter Tag: Forever Young. Celebrating Transaxle – Pop-up Winter
+ -Edition
+LOCATION:Porsche Museum\, Porscheplatz 1\, 70435 Stuttgart
+DESCRIPTION:Laufzeit: 24.11.2026 bis 18.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.porsche.com/germany/aboutporsche/porschemuseum/
+URL:https://www.porsche.com/germany/aboutporsche/porschemuseum/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261125-guten-morgen-schnee@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T093000
+DTEND;TZID=Europe/Berlin:20261125T113000
+SUMMARY:Guten Morgen\, Schnee!
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatsoper-stuttgart.de/spielplan/kalender/guten-mo
+ rgen-schnee/9841/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/guten-morgen-sch
+ nee/9841/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-weihnachtsmarkt-innenstadt-20261125-stuttgarter-weihnachtsmarkt-2026-
+ beginn@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Beginn: Stuttgarter Weihnachtsmarkt 2026
+LOCATION:Innenstadt und Altes Schloss (Stuttgarter Weihnachtsmarkt)\, Stutt
+ gart
+DESCRIPTION:Großer Weihnachtsmarkt in der Stuttgarter Innenstadt.\nLaufzei
+ t: 25.11.2026 bis 23.12.2026\nTermine laut Veranstalter: So–Do 11–21 U
+ hr\, Fr/Sa 11–22 Uhr\; Eröffnung 25.11. um 18 Uhr im Innenhof des Alten
+  Schlosses\nQuelle (bitte vor dem Besuch prüfen): https://www.stuttgarter
+ -weihnachtsmarkt.de/
+URL:https://www.stuttgarter-weihnachtsmarkt.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-weihnachtsmarkt-innenstadt-20261125-stuttgarter-weihnachtsmarkt-2026-
+ ende@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Stuttgarter Weihnachtsmarkt 2026
+LOCATION:Innenstadt und Altes Schloss (Stuttgarter Weihnachtsmarkt)\, Stutt
+ gart
+DESCRIPTION:Großer Weihnachtsmarkt in der Stuttgarter Innenstadt.\nLaufzei
+ t: 25.11.2026 bis 23.12.2026\nTermine laut Veranstalter: So–Do 11–21 U
+ hr\, Fr/Sa 11–22 Uhr\; Eröffnung 25.11. um 18 Uhr im Innenhof des Alten
+  Schlosses\nQuelle (bitte vor dem Besuch prüfen): https://www.stuttgarter
+ -weihnachtsmarkt.de/
+URL:https://www.stuttgarter-weihnachtsmarkt.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtteilbibliothek-weilimdorf-20261127-leseohren-aufgeklappt-eine-ge
+ schichte-nur-fuer-dic@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T160000
+DTEND;TZID=Europe/Berlin:20261127T180000
+SUMMARY:Leseohren aufgeklappt: Eine Geschichte nur für dich!
+LOCATION:Stadtteilbibliothek Weilimdorf\, Löwen-Markt 1\, 70499 Stuttgart
+DESCRIPTION:Vorlesestunde für Kinder von 3 bis 6 Jahren.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/lese
+ ohren-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/leseohr
+ en-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-polizeimuseum-20261127-sammeltermin-fuehrung-durch-das-polizeimuseum@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T170000
+DTEND;TZID=Europe/Berlin:20261127T190000
+SUMMARY:Sammeltermin: Führung durch das Polizeimuseum
+LOCATION:Polizeimuseum Stuttgart\, Hahnemannstraße 1\, 70191 Stuttgart
+DESCRIPTION:Anmeldung über Online-Formular\, Lichtbildausweis nötig\; fü
+ r unter 16-Jährige nicht empfohlen.\nEnde: laut Quelle nicht angegeben\nP
+ reis: 8\,00 € pro Person\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.polizeimuseum-stuttgart.de/polizeimuseum-1/museumsbesuch/sammeltermin
+ e/
+URL:https://www.polizeimuseum-stuttgart.de/polizeimuseum-1/museumsbesuch/sa
+ mmeltermine/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261127-eluveitie-anv-rising-europe-pt-iii@myeventhub.d
+ e
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Eluveitie – Ànv Rising – Europe Pt III
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/eluveitie-anv-rising-europe-pt-iii/
+URL:https://lka-longhorn.de/events/eluveitie-anv-rising-europe-pt-iii/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261127-stunde-der-kirchenmusik-concert-clemens@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Stunde der Kirchenmusik: Concert Clemens
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Konzert des dänischen Ensembles Concert Clemens.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ stiftsmusik-stuttgart.de/spielplan/november-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-komoedie-im-marquardt-20261127-ziemlich-beste-freunde-beginn@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Ziemlich beste Freunde
+LOCATION:Komödie im Marquardt\, Bolzstraße 4–6\, 70173 Stuttgart
+DESCRIPTION:Laufzeit: 27.11.2026 bis 17.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Bes
+ uch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-komoedie-im-marquardt-20261127-ziemlich-beste-freunde-ende@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: Ziemlich beste Freunde
+LOCATION:Komödie im Marquardt\, Bolzstraße 4–6\, 70173 Stuttgart
+DESCRIPTION:Laufzeit: 27.11.2026 bis 17.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Bes
+ uch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20261128-mighty-oaks@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Mighty Oaks
+LOCATION:Im Wizemann\, Quellenstraße 7\, 70376 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2544-mighty-oaks-2026
+ -stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2544-mighty-oaks-2026-stuttga
+ rt
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261128-elif-live-tour-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:ELIF – Live Tour 2026
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 18:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/elif-live-tour-2026/
+URL:https://lka-longhorn.de/events/elif-live-tour-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-staatsoper-20261129-station-paradiso@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T180000
+DTEND;TZID=Europe/Berlin:20261129T200000
+SUMMARY:Station Paradiso
+LOCATION:Staatsoper Stuttgart\, Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatsoper-stuttgart.de/spielplan/kalender/station-
+ paradiso/9739/
+URL:https://www.staatsoper-stuttgart.de/spielplan/kalender/station-paradiso
+ /9739/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261130-orgelmusik-zum-weihnachtsmarkt-jakub-bor@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T131500
+DTEND;TZID=Europe/Berlin:20261130T151500
+SUMMARY:Orgelmusik zum Weihnachtsmarkt: Jakub Bornikowski
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Orgelmusik am Mittag während des Stuttgarter Weihnachtsmarkts.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/november-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261201-rafaele-gunthner-quartett-hmdk@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Rafaele Günthner Quartett (HMDK)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/rafaele-gunthner-quartett-presented-by-hmdk-stut-znmnuo/
+URL:https://www.bix-stuttgart.de/programm/rafaele-gunthner-quartett-present
+ ed-by-hmdk-stut-znmnuo/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-lka-longhorn-20261202-mammoth-the-end-tour-2026@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Mammoth – The End Tour – 2026
+LOCATION:LKA Longhorn\, Heiligenwiesen 6\, 70327 Stuttgart
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://lka-longhorn.de/event
+ s/mammoth-the-end-tour-2026/
+URL:https://lka-longhorn.de/events/mammoth-the-end-tour-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261203-lukas-wogler-quartett@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Lukas Wögler Quartett
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/lukas-wogler-quartett-zskuzc/
+URL:https://www.bix-stuttgart.de/programm/lukas-wogler-quartett-zskuzc/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-komoedie-im-marquardt-20261203-meister-eder-und-sein-pumuckl-beginn@m
+ yeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Beginn: Meister Eder und sein Pumuckl
+LOCATION:Komödie im Marquardt\, Bolzstraße 4–6\, 70173 Stuttgart
+DESCRIPTION:Laufzeit: 3.12.2026 bis 10.1.2027\nTermine laut Veranstalter: A
+ ufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Besu
+ ch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-komoedie-im-marquardt-20261203-meister-eder-und-sein-pumuckl-ende@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Meister Eder und sein Pumuckl
+LOCATION:Komödie im Marquardt\, Bolzstraße 4–6\, 70173 Stuttgart
+DESCRIPTION:Laufzeit: 3.12.2026 bis 10.1.2027\nTermine laut Veranstalter: A
+ ufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Besu
+ ch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtteilbibliothek-weilimdorf-20261204-leseohren-aufgeklappt-eine-ge
+ schichte-nur-fuer-dic@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T160000
+DTEND;TZID=Europe/Berlin:20261204T180000
+SUMMARY:Leseohren aufgeklappt: Eine Geschichte nur für dich!
+LOCATION:Stadtteilbibliothek Weilimdorf\, Löwen-Markt 1\, 70499 Stuttgart
+DESCRIPTION:Vorlesestunde für Kinder von 3 bis 6 Jahren.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/lese
+ ohren-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/leseohr
+ en-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261204-stunde-der-kirchenmusik-vox-bona@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T190000
+DTEND;TZID=Europe/Berlin:20261204T210000
+SUMMARY:Stunde der Kirchenmusik: Vox Bona
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Adventliches Chorkonzert mit Vox Bona.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.stiftsmusik
+ -stuttgart.de/spielplan/dezember-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/dezember-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-planetarium-20261208-tunesday-116-chris-sonaxx@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T200000
+DTEND;TZID=Europe/Berlin:20261208T220000
+SUMMARY:Tunesday #116: Chris Sonaxx
+LOCATION:Planetarium Stuttgart\, Willy-Brandt-Straße 25\, 70173 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.planetarium-stuttgart.de
+URL:https://www.planetarium-stuttgart.de
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20261208-grl-cmdy-unsere-buhne-unsere-regeln@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T200000
+DTEND;TZID=Europe/Berlin:20261208T220000
+SUMMARY:GRL CMDY – Unsere Bühne. Unsere Regeln.
+LOCATION:Renitenztheater\, Büchsenstraße 26\, 70174 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://renitenztheater.de/programm-tickets/
+URL:https://renitenztheater.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261208-eda-erkol-lars-krech-quartett-abschlusskonzert-
+ hmdk@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Eda Erkol & Lars Krech Quartett – Abschlusskonzert (HMDK)
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/abschlusskonzert-eda-erkol-lars-krech-quartett-p-pofq7m/
+URL:https://www.bix-stuttgart.de/programm/abschlusskonzert-eda-erkol-lars-k
+ rech-quartett-p-pofq7m/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20261210-ich-sehe-deinen-witz-comedy-mit-gebardenspra
+ che@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Ich sehe deinen Witz (Comedy mit Gebärdensprache)
+LOCATION:Renitenztheater\, Büchsenstraße 26\, 70174 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://renitenztheater.de/programm-tickets/
+URL:https://renitenztheater.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtteilbibliothek-weilimdorf-20261211-leseohren-aufgeklappt-eine-ge
+ schichte-nur-fuer-dic@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T160000
+DTEND;TZID=Europe/Berlin:20261211T180000
+SUMMARY:Leseohren aufgeklappt: Eine Geschichte nur für dich!
+LOCATION:Stadtteilbibliothek Weilimdorf\, Löwen-Markt 1\, 70499 Stuttgart
+DESCRIPTION:Vorlesestunde für Kinder von 3 bis 6 Jahren.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/lese
+ ohren-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/leseohr
+ en-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261211-stunde-der-kirchenmusik-muenchener-bach@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T190000
+DTEND;TZID=Europe/Berlin:20261211T210000
+SUMMARY:Stunde der Kirchenmusik: Münchener Bach-Chor
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Chorkonzert des Münchener Bach-Chors unter Howard Arman.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.stiftsmusik-stuttgart.de/spielplan/dezember-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/dezember-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-altes-schauspielhaus-20261211-die-drei-von-der-tankstelle-beginn@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Beginn: Die Drei von der Tankstelle
+LOCATION:Altes Schauspielhaus\, Kleine Königstraße 9\, 70178 Stuttgart
+DESCRIPTION:Laufzeit: 11.12.2026 bis 30.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Bes
+ uch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-altes-schauspielhaus-20261211-die-drei-von-der-tankstelle-ende@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Letzter Tag: Die Drei von der Tankstelle
+LOCATION:Altes Schauspielhaus\, Kleine Königstraße 9\, 70178 Stuttgart
+DESCRIPTION:Laufzeit: 11.12.2026 bis 30.1.2027\nTermine laut Veranstalter: 
+ Aufführungsserie\, Einzeltermine auf der Seite\nQuelle (bitte vor dem Bes
+ uch prüfen): https://schauspielbuehnen.de/spielplan/
+URL:https://schauspielbuehnen.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261215-hmdk-vocal-night-seasons@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:HMDK Vocal Night – Seasons
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/hmdk-vocal-night-seasons-presented-by-hmdk-stutt-lijh6e/
+URL:https://www.bix-stuttgart.de/programm/hmdk-vocal-night-seasons-presente
+ d-by-hmdk-stutt-lijh6e/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtteilbibliothek-stammheim-20261216-zum-nachtisch-noch-ein-buch@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T140000
+DTEND;TZID=Europe/Berlin:20261216T160000
+SUMMARY:Zum Nachtisch noch ein Buch
+LOCATION:Stadtteilbibliothek Stammheim\, Kornwestheimer Straße 7\, 70439 S
+ tuttgart
+DESCRIPTION:Vorlesestunde in der Stadtteilbibliothek.\nEnde: laut Quelle ni
+ cht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/zum-nach
+ tisch-noch-ein-buch-482656
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/zum-nac
+ htisch-noch-ein-buch-482656
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stadtteilbibliothek-weilimdorf-20261218-leseohren-aufgeklappt-eine-ge
+ schichte-nur-fuer-dic@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T160000
+DTEND;TZID=Europe/Berlin:20261218T180000
+SUMMARY:Leseohren aufgeklappt: Eine Geschichte nur für dich!
+LOCATION:Stadtteilbibliothek Weilimdorf\, Löwen-Markt 1\, 70499 Stuttgart
+DESCRIPTION:Vorlesestunde für Kinder von 3 bis 6 Jahren.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/lese
+ ohren-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+URL:https://www.stuttgart.de/veranstaltungskalender/veranstaltungen/leseohr
+ en-aufgeklappt-eine-geschichte-nur-fuer-dich-536060
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261218-stunde-der-kirchenmusik-kammerchor-der-h@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T190000
+DTEND;TZID=Europe/Berlin:20261218T210000
+SUMMARY:Stunde der Kirchenmusik: Kammerchor der HfM Weimar
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Chorkonzert des Weimarer Hochschul-Kammerchors.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.st
+ iftsmusik-stuttgart.de/spielplan/dezember-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/dezember-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261219-soul-explosion@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Soul Explosion
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/soul-explosion-ycyqdl/
+URL:https://www.bix-stuttgart.de/programm/soul-explosion-ycyqdl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261224-christmette@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T220000
+DTEND;TZID=Europe/Berlin:20261225T000000
+SUMMARY:Christmette
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Christmette am Heiligen Abend in der Stiftskirche.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .stiftsmusik-stuttgart.de/spielplan/dezember-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/dezember-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-stiftskirche-20261225-gottesdienst-zum-christfest@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T100000
+DTEND;TZID=Europe/Berlin:20261225T120000
+SUMMARY:Gottesdienst zum Christfest
+LOCATION:Stiftskirche Stuttgart\, Stuttgart
+DESCRIPTION:Festgottesdienst am ersten Weihnachtstag mit Stiftsmusik.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.stiftsmusik-stuttgart.de/spielplan/dezember-2026.html
+URL:https://www.stiftsmusik-stuttgart.de/spielplan/dezember-2026.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20261228-nicole-herzog-quartet-feat-tony-lakatos@myevent
+ hub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Nicole Herzog Quartet feat. Tony Lakatos
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/nicole-herzog-quartet-feat-tony-lakatos-yumolz/
+URL:https://www.bix-stuttgart.de/programm/nicole-herzog-quartet-feat-tony-l
+ akatos-yumolz/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270106-the-sophisticated-orchestra@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:The Sophisticated Orchestra
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/the-sophisticated-orchestra-xe5628/
+URL:https://www.bix-stuttgart.de/programm/the-sophisticated-orchestra-xe562
+ 8/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-liederhalle-20270109-brautmodenschau-traudich-hochzeitsmesse-stuttgar
+ t@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T120000
+DTEND;TZID=Europe/Berlin:20270109T140000
+SUMMARY:Brautmodenschau – TrauDich! Hochzeitsmesse Stuttgart
+LOCATION:Liederhalle Stuttgart\, Stuttgart
+DESCRIPTION:Brautmode von Zaubermomente in der Eventlounge der Hochzeitsmes
+ se. Shows um 12:00 und 14:30 Uhr.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://traudich.de/hochzeitsmesse-stut
+ tgart/highlights/
+URL:https://traudich.de/hochzeitsmesse-stuttgart/highlights/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-liederhalle-20270110-brautmodenschau-traudich-hochzeitsmesse-stuttgar
+ t@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T120000
+DTEND;TZID=Europe/Berlin:20270110T140000
+SUMMARY:Brautmodenschau – TrauDich! Hochzeitsmesse Stuttgart
+LOCATION:Liederhalle Stuttgart\, Stuttgart
+DESCRIPTION:Brautmode von Zaubermomente in der Eventlounge der Hochzeitsmes
+ se. Shows um 12:00 und 14:30 Uhr.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://traudich.de/hochzeitsmesse-stut
+ tgart/highlights/
+URL:https://traudich.de/hochzeitsmesse-stuttgart/highlights/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270211-gee-hye-lee-trio@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Gee Hye Lee Trio
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/gee-hye-lee-trio-fyhk6a/
+URL:https://www.bix-stuttgart.de/programm/gee-hye-lee-trio-fyhk6a/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20270316-stuttgarter-besen-kleinkunstwettbewerb-tv-au
+ fzeichnung@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270316T190000
+DTEND;TZID=Europe/Berlin:20270316T210000
+SUMMARY:Stuttgarter Besen – Kleinkunstwettbewerb (TV-Aufzeichnung)
+LOCATION:Renitenztheater\, Büchsenstraße 26\, 70174 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://renitenztheater.de/programm-tickets/
+URL:https://renitenztheater.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20270324-saka-maka-deutsch-turkisches-kabarettfest-be
+ ginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:Beginn: ŞAKA MAKA – Deutsch-Türkisches Kabarettfest
+LOCATION:Renitenztheater\, Büchsenstraße 26\, 70174 Stuttgart
+DESCRIPTION:Laufzeit: 24.3.2027 bis 28.3.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://renitenztheater.de/programm-tickets/
+URL:https://renitenztheater.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20270324-saka-maka-deutsch-turkisches-kabarettfest-en
+ de@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Letzter Tag: ŞAKA MAKA – Deutsch-Türkisches Kabarettfest
+LOCATION:Renitenztheater\, Büchsenstraße 26\, 70174 Stuttgart
+DESCRIPTION:Laufzeit: 24.3.2027 bis 28.3.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://renitenztheater.de/programm-tickets/
+URL:https://renitenztheater.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270325-klaus-graf-jazz-quartett@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Klaus Graf Jazz Quartett
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/klaus-graf-jazz-quartett-7p4n11/
+URL:https://www.bix-stuttgart.de/programm/klaus-graf-jazz-quartett-7p4n11/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270326-band-in-the-bix@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Band in the BIX
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/band-in-the-bix-4kjo6e/
+URL:https://www.bix-stuttgart.de/programm/band-in-the-bix-4kjo6e/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270327-francesca-tandoi@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Francesca Tandoi
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/francesca-tandoi-7160v4/
+URL:https://www.bix-stuttgart.de/programm/francesca-tandoi-7160v4/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270408-lisa-wilhelm-quartett-special@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:Lisa Wilhelm Quartett Special
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/lisa-wilhelm-quartett-special-7wsx6e/
+URL:https://www.bix-stuttgart.de/programm/lisa-wilhelm-quartett-special-7ws
+ x6e/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-cannstatter-wasen-20270417-87-stuttgarter-fruehlingsfest-beginn@myeve
+ nthub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Beginn: 87. Stuttgarter Frühlingsfest
+LOCATION:Cannstatter Wasen\, Stuttgart
+DESCRIPTION:Frühlingsvolksfest mit Festzelten und Fahrgeschäften auf dem 
+ Cannstatter Wasen.\nLaufzeit: 17.4.2027 bis 9.5.2027\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.stuttgarter-fruehlingsfest.de/
+URL:https://www.stuttgarter-fruehlingsfest.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-cannstatter-wasen-20270417-87-stuttgarter-fruehlingsfest-ende@myevent
+ hub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Letzter Tag: 87. Stuttgarter Frühlingsfest
+LOCATION:Cannstatter Wasen\, Stuttgart
+DESCRIPTION:Frühlingsvolksfest mit Festzelten und Fahrgeschäften auf dem 
+ Cannstatter Wasen.\nLaufzeit: 17.4.2027 bis 9.5.2027\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.stuttgarter-fruehlingsfest.de/
+URL:https://www.stuttgarter-fruehlingsfest.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270421-bix-top-act-greg-howe@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:BIX Top Act: Greg Howe
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/bix-top-act-greg-howe-66lhfo/
+URL:https://www.bix-stuttgart.de/programm/bix-top-act-greg-howe-66lhfo/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-bix-jazzclub-20270424-jazzkantine@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Jazzkantine
+LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bix-stuttgar
+ t.de/programm/jazzkantine-z4mhgp/
+URL:https://www.bix-stuttgart.de/programm/jazzkantine-z4mhgp/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20270426-claus-von-wagner-nachholtermin@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Claus von Wagner (Nachholtermin)
+LOCATION:Renitenztheater\, Büchsenstraße 26\, 70174 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://renitenztheater.
+ de/
+URL:https://renitenztheater.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20270427-claus-von-wagner-nachholtermin@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Claus von Wagner (Nachholtermin)
+LOCATION:Renitenztheater\, Büchsenstraße 26\, 70174 Stuttgart
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://renitenztheater.
+ de/
+URL:https://renitenztheater.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-im-wizemann-20270430-marc-atlas-nothing-to-lose-tour-verschoben-vom-2
+ 8-10-20@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T200000
+DTEND;TZID=Europe/Berlin:20270430T220000
+SUMMARY:VERLEGT: Marc Atlas – Nothing to Lose Tour (verschoben vom 28.10.
+ 2026)
+LOCATION:Studio
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.imwizemann.de/veranstaltungen/2631-verschoben-marc-
+ atlas-2026-stuttgart
+URL:https://www.imwizemann.de/veranstaltungen/2631-verschoben-marc-atlas-20
+ 26-stuttgart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20270626-the-robeat-award-stuttgarter-beatbox-battle@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20270626T180000
+DTEND;TZID=Europe/Berlin:20270626T200000
+SUMMARY:The Robeat Award – Stuttgarter Beatbox Battle
+LOCATION:Renitenztheater\, Büchsenstraße 26\, 70174 Stuttgart
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://renitenztheater.de/programm-tickets/
+URL:https://renitenztheater.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20270728-lachen-lauschen-renitenz-open-air-beginn@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270729
+SUMMARY:Beginn: Lachen + Lauschen – Renitenz Open Air
+LOCATION:Rosengarten
+DESCRIPTION:Laufzeit: 28.7.2027 bis 8.8.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://renitenztheater.de/programm-tickets/
+URL:https://renitenztheater.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-renitenztheater-20270728-lachen-lauschen-renitenz-open-air-ende@myeve
+ nthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+SUMMARY:Letzter Tag: Lachen + Lauschen – Renitenz Open Air
+LOCATION:Rosengarten
+DESCRIPTION:Laufzeit: 28.7.2027 bis 8.8.2027\nQuelle (bitte vor dem Besuch 
+ prüfen): https://renitenztheater.de/programm-tickets/
+URL:https://renitenztheater.de/programm-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

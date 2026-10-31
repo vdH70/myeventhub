@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Alzey · my Event Hub (Erinnerung 3 Tage vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:az-museum-alzey-20261030-giganten-im-garten-alzeyer-entdecken-ihre-anti
+ ke-1-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Giganten im Garten – Alzeyer entdecken ihre Antike (1900 
+ bis 1914)
+LOCATION:Museum der Stadt Alzey\, Antoniterstraße 41\, 55232 Alzey
+DESCRIPTION:Sonderausstellung\; Beginn auf der Seite nur „Fr.\, 02.10.“
+  ohne Jahr\, daher als laufend geführt.\nLaufzeit: 30.10.2026 bis 31.12.2
+ 026\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.museum-alzey.de/
+URL:https://www.museum-alzey.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:az-museum-alzey-20261030-giganten-im-garten-alzeyer-entdecken-ihre-anti
+ ke-1-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Giganten im Garten – Alzeyer entdecken ihre Antike (
+ 1900 bis 1914)
+LOCATION:Museum der Stadt Alzey\, Antoniterstraße 41\, 55232 Alzey
+DESCRIPTION:Sonderausstellung\; Beginn auf der Seite nur „Fr.\, 02.10.“
+  ohne Jahr\, daher als laufend geführt.\nLaufzeit: 30.10.2026 bis 31.12.2
+ 026\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.museum-alzey.de/
+URL:https://www.museum-alzey.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

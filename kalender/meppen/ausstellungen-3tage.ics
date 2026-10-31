@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Meppen · my Event Hub (Erinnerung 3 Tage vor
+ her)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:el-emsland-archaeologie-museum-20260623-auf-den-spuren-der-wahrheit-200
+ 0-jahre-verbrechens-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Letzter Tag: Auf den Spuren der Wahrheit. 2000 Jahre Verbrechensauf
+ klärung
+LOCATION:Emsland Archäologie Museum\, An der Koppelschleuse 19 a\, 49716 M
+ eppen
+DESCRIPTION:Sonderausstellung zur Geschichte der Kriminalistik von der Anti
+ ke bis heute.\nLaufzeit: 23.6.2026 bis 12.1.2027\nQuelle (bitte vor dem Be
+ such prüfen): https://www.archaeologie-emsland.de/
+URL:https://www.archaeologie-emsland.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-kunstzentrum-koppelschleuse-20261030-tack-tack-tack-beginn@myeventhu
+ b.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: TACK TACK TACK
+LOCATION:Kunstzentrum Koppelschleuse (Meppener Kunstkreis)\, An der Koppels
+ chleuse 19\, 49716 Meppen
+DESCRIPTION:Laufzeit: 30.10.2026 bis 18.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.meppener-kunstkreis.de/
+URL:https://www.meppener-kunstkreis.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-kunstzentrum-koppelschleuse-20261030-tack-tack-tack-ende@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Letzter Tag: TACK TACK TACK
+LOCATION:Kunstzentrum Koppelschleuse (Meppener Kunstkreis)\, An der Koppels
+ chleuse 19\, 49716 Meppen
+DESCRIPTION:Laufzeit: 30.10.2026 bis 18.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.meppener-kunstkreis.de/
+URL:https://www.meppener-kunstkreis.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

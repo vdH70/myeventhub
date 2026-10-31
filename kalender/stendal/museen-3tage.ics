@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Stendal · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sdl-winckelmann-museum-20260927-salomon-gessner-17301788-dichter-kuenst
+ ler-verlege-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Salomon Gessner (1730–1788) Dichter\, Künstler\, Ve
+ rleger – ein Multitalent und Freund Winckelmanns
+LOCATION:Winckelmann-Museum\, Winckelmannstraße 36-38\, 39576 Stendal
+DESCRIPTION:Laufzeit: 27.9.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.winckelmann-gesellschaft.com/sonderausstellung/
+URL:https://www.winckelmann-gesellschaft.com/sonderausstellung/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sdl-winckelmann-museum-20261008-xago-apoll-erfindet-sich-ende@myeventhu
+ b.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Letzter Tag: XAGO: Apoll erfindet sich
+LOCATION:Winckelmann-Museum\, Winckelmannstraße 36-38\, 39576 Stendal
+DESCRIPTION:Laufzeit: 8.10.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.winckelmann-gesellschaft.com/sonderausstellung/
+URL:https://www.winckelmann-gesellschaft.com/sonderausstellung/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

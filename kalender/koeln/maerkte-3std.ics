@@ -1,0 +1,164 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Köln · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261108-groesster-koelner-modellspielzeugm
+ arkt@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Größter Kölner Modellspielzeugmarkt
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261115-filmboerse-koeln-das-original@myev
+ enthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T120000
+DTEND;TZID=Europe/Berlin:20261115T140000
+SUMMARY:Filmbörse Köln – Das Original
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-neumarkt-20261116-markt-der-engel-2026-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Beginn: Markt der Engel 2026
+LOCATION:Neumarkt Köln\, Neumarkt\, 50667 Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Neumarkt.\nLaufzeit: 16.11.2026 bis 23.
+ 12.2026\nTermine laut Veranstalter: So–Do 11–21 Uhr\, Fr/Sa 11–22 Uh
+ r (Glühweinstände 1 Stunde länger)\; 22.11. (Totensonntag) geschlossen\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.markt-der-engel.de/
+URL:https://www.markt-der-engel.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-neumarkt-20261116-markt-der-engel-2026-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Markt der Engel 2026
+LOCATION:Neumarkt Köln\, Neumarkt\, 50667 Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Neumarkt.\nLaufzeit: 16.11.2026 bis 23.
+ 12.2026\nTermine laut Veranstalter: So–Do 11–21 Uhr\, Fr/Sa 11–22 Uh
+ r (Glühweinstände 1 Stunde länger)\; 22.11. (Totensonntag) geschlossen\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.markt-der-engel.de/
+URL:https://www.markt-der-engel.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-roncalliplatz-20261116-weihnachtsmarkt-am-koelner-dom-beginn@myeventh
+ ub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Beginn: Weihnachtsmarkt am Kölner Dom
+LOCATION:Roncalliplatz\, Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Roncalliplatz vor dem Kölner Dom.\nLau
+ fzeit: 16.11.2026 bis 23.12.2026\nTermine laut Veranstalter: So–Mi 11–
+ 21 Uhr\, Do/Fr 11–22 Uhr\, Sa 10–22 Uhr\; am 22.11. (Totensonntag) ges
+ chlossen\nQuelle (bitte vor dem Besuch prüfen): https://www.koelnerweihna
+ chtsmarkt.com/
+URL:https://www.koelnerweihnachtsmarkt.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-roncalliplatz-20261116-weihnachtsmarkt-am-koelner-dom-ende@myeventhub
+ .de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Weihnachtsmarkt am Kölner Dom
+LOCATION:Roncalliplatz\, Köln
+DESCRIPTION:Weihnachtsmarkt auf dem Roncalliplatz vor dem Kölner Dom.\nLau
+ fzeit: 16.11.2026 bis 23.12.2026\nTermine laut Veranstalter: So–Mi 11–
+ 21 Uhr\, Do/Fr 11–22 Uhr\, Sa 10–22 Uhr\; am 22.11. (Totensonntag) ges
+ chlossen\nQuelle (bitte vor dem Besuch prüfen): https://www.koelnerweihna
+ chtsmarkt.com/
+URL:https://www.koelnerweihnachtsmarkt.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-stadthalle-koeln-muelheim-20261227-koelner-schallplatten-cd-boerse@my
+ eventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T110000
+DTEND;TZID=Europe/Berlin:20261227T130000
+SUMMARY:Kölner Schallplatten- & CD-Börse
+LOCATION:Stadthalle Köln (Mülheim)\, Jan-Wellem-Straße 2\, 51065 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://stadthalle.koeln/veranstaltungen/
+URL:https://stadthalle.koeln/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

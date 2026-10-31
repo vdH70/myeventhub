@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Kiel · my Event Hub (Erinnerung 3 Stunden vo
+ rher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ki-kunsthalle-20260916-zwischen-sammlung-und-sanierung-die-kunsthalle-z
+ u-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Zwischen Sammlung und Sanierung – Die Kunsthalle zu 
+ Kiel zu Gast im Landeshaus
+LOCATION:Kunsthalle zu Kiel (zu Gast im Landeshaus)\, Kiel
+DESCRIPTION:Ausstellung im Kieler Landeshaus\, die Kunsthalle selbst ist we
+ gen Sanierung geschlossen.\nLaufzeit: 16.9.2026 bis 29.11.2026\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.kunsthalle-kiel.de/
+URL:https://www.kunsthalle-kiel.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ki-offene-kirche-st-nikolai-20261125-aktionstag-gegen-gewalt-an-frauen@
+ myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T100000
+DTEND;TZID=Europe/Berlin:20261125T120000
+SUMMARY:Aktionstag zum Internationalen Tag gegen Gewalt an Frauen und Mädc
+ hen
+LOCATION:Offene Kirche St. Nikolai\, Alter Markt\, 24103 Kiel
+DESCRIPTION:Ausstellung zu Femiziden mit stündlichen Impulsen und Gespräc
+ hsangeboten\, 10 bis 15 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.st-nikolai-kiel.de/ein-ort-fuer-
+ sie/veranstaltungen?page=2
+URL:https://www.st-nikolai-kiel.de/ein-ort-fuer-sie/veranstaltungen?page=2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

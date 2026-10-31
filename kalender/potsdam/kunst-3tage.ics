@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Potsdam · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:p-das-minsk-20260905-annemirl-bauer-bruch-ist-in-der-welt-ende@myeventh
+ ub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Annemirl Bauer. Bruch ist in der Welt
+LOCATION:DAS MINSK Kunsthaus in Potsdam\, Max-Planck-Straße 17\, 14473 Pot
+ sdam
+DESCRIPTION:Laufzeit: 5.9.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch p
+ rüfen): https://dasminsk.de/
+URL:https://dasminsk.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-das-minsk-20260905-die-keramikwerkstatt-von-wilfriede-maass-ende@myev
+ enthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Die Keramikwerkstatt von Wilfriede Maaß
+LOCATION:DAS MINSK Kunsthaus in Potsdam\, Max-Planck-Straße 17\, 14473 Pot
+ sdam
+DESCRIPTION:Ausstellung im Kabinett.\nLaufzeit: 5.9.2026 bis 7.2.2027\nQuel
+ le (bitte vor dem Besuch prüfen): https://dasminsk.de/
+URL:https://dasminsk.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-barberini-20261107-die-impressionisten-monet-morisot-renoir-und-ihr-n
+ -beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Beginn: Die Impressionisten. Monet\, Morisot\, Renoir und ihr Netzw
+ erk
+LOCATION:Museum Barberini\, Humboldtstraße 5–6\, 14467 Potsdam
+DESCRIPTION:Laufzeit: 7.11.2026 bis 21.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-barberini.de/de/ausstellungen
+URL:https://www.museum-barberini.de/de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-barberini-20261107-die-impressionisten-monet-morisot-renoir-und-ihr-n
+ -ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Letzter Tag: Die Impressionisten. Monet\, Morisot\, Renoir und ihr 
+ Netzwerk
+LOCATION:Museum Barberini\, Humboldtstraße 5–6\, 14467 Potsdam
+DESCRIPTION:Laufzeit: 7.11.2026 bis 21.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museum-barberini.de/de/ausstellungen
+URL:https://www.museum-barberini.de/de/ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

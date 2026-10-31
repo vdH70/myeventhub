@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Apolda · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ap-stadthalle-20270131-irland-vortrag-von-robert-neu@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:IRLAND – Vortrag von Robert Neu
+LOCATION:Stadthalle Apolda\, Klause 1\, 99510 Apolda
+DESCRIPTION:Reisevortrag über Irland.\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.stadthalle-apolda.de/veranstaltungen/
+URL:https://www.stadthalle-apolda.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ap-stadthalle-20270403-gregor-gysi-auf-eine-currywurst-mit-gregor-gysi@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Gregor Gysi – Auf eine Currywurst mit Gregor Gysi
+LOCATION:Stadthalle Apolda\, Klause 1\, 99510 Apolda
+DESCRIPTION:Gesprächsabend.\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.stadthalle-apolda.de/veranstaltungen/
+URL:https://www.stadthalle-apolda.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

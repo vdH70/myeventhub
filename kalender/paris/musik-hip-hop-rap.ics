@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hip-Hop/Rap in Paris · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:par-la-cigale-20261101-ptite-soeur@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Paris:20261101T200000
+DTEND;TZID=Europe/Paris:20261101T220000
+SUMMARY:PTITE SOEUR (ausverkauft)
+LOCATION:La Cigale\, 120 boulevard Marguerite de Rochechouart\, 75018 Paris
+DESCRIPTION:20:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nZei
+ ten: Ortszeit Paris\, wie Deutschland\nEnde: laut Quelle nicht angegeben\n
+ Ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://lacigale.fr/pr
+ ogrammation/
+URL:https://lacigale.fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261106-conway-the-machine@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:CONWAY THE MACHINE
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:US-Rapper Conway the Machine.\nZeiten: Ortszeit Paris\, wie Deu
+ tschland\nQuelle (bitte vor dem Besuch prüfen): https://www.elyseemontmar
+ tre.com/fr/programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261107-seth-gueko@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Seth Gueko
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:Französischer Rapper Seth Gueko.\nZeiten: Ortszeit Paris\, wie
+  Deutschland\nQuelle (bitte vor dem Besuch prüfen): https://www.bataclan.
+ fr/programmation
+URL:https://www.bataclan.fr/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261108-the-kid-laroi@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:The Kid Laroi
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.bataclan.fr/programmation
+URL:https://www.bataclan.fr/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261108-d-block-europe-french-montana@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:D-BLOCK EUROPE & FRENCH MONTANA
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Rap-Doppelkonzert.\nZeiten: Ortszeit Paris\, wie Deutschland\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.elyseemontmartre.com/fr/
+ programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261109-the-kid-laroi@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:The Kid Laroi
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.bataclan.fr/programmation
+URL:https://www.bataclan.fr/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261110-swae-lee@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Swae Lee
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:US-Rapper Swae Lee.\nZeiten: Ortszeit Paris\, wie Deutschland\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.bataclan.fr/programmati
+ on
+URL:https://www.bataclan.fr/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261112-kybba@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:KYBBA
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.elyseemontmartre.com/fr/programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261113-kybba@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:KYBBA
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.elyseemontmartre.com/fr/programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261115-yvnnis@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:YVNNIS
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.elyseemontmartre.com/fr/programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-trabendo-20261119-la-plume-et-le-brise-glace@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:La plume et le brise glace
+LOCATION:Le Trabendo\, 211 avenue Jean Jaurès\, 75019 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.letrabendo.net/programmation
+URL:https://www.letrabendo.net/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-bataclan-20261120-a2h@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:A2H
+LOCATION:Le Bataclan\, 50 Boulevard Voltaire\, 75011 Paris
+DESCRIPTION:Zeiten: Ortszeit Paris\, wie Deutschland\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.bataclan.fr/programmation
+URL:https://www.bataclan.fr/programmation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-elysee-montmartre-20261124-lil-peep-30th-birthday-celebration@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:LIL PEEP 30TH BIRTHDAY CELEBRATION (ausverkauft)
+LOCATION:Élysée Montmartre\, 72 Boulevard de Rochechouart\, 75018 Paris
+DESCRIPTION:Abend zum 30. Geburtstag von Lil Peep.\nZeiten: Ortszeit Paris\
+ , wie Deutschland\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.elyseemontmartre.com/fr/programmation/
+URL:https://www.elyseemontmartre.com/fr/programmation/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:par-olympia-20270131-landy@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Paris:20270131T200000
+DTEND;TZID=Europe/Paris:20270131T220000
+SUMMARY:LANDY
+LOCATION:L'Olympia\, 28 boulevard des Capucines\, 75009 Paris
+DESCRIPTION:Französischer Rapper Landy\; Vorverkauf ab 08.10.\n20:00 Uhr (
+ die Quelle sagt nicht\, ob Einlass oder Beginn)\nZeiten: Ortszeit Paris\, 
+ wie Deutschland\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.olympiahall.com/
+URL:https://www.olympiahall.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

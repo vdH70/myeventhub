@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Blues in Rastatt · my Event Hub (Erinnerung 1 Tag vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ra-badnerhalle-reithalle-20270306-cream-of-clapton-a-tribute-to-eric-cl
+ apton@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:Cream of Clapton – A Tribute to Eric Clapton
+LOCATION:BadnerHalle und Reithalle Rastatt\, Rastatt
+DESCRIPTION:Spielort: Reithalle Bürgersaal.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.wirtschaftundveranstaltungen.de/
+URL:https://www.wirtschaftundveranstaltungen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

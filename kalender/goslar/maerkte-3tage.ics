@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Goslar · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gs-marktplatz-20261125-goslarer-weihnachtsmarkt-und-weihnachtswald-2026
+ -beginn@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Beginn: Goslarer Weihnachtsmarkt und Weihnachtswald 2026
+LOCATION:Marktplatz und Altstadt Goslar\, Goslar
+DESCRIPTION:Weihnachtsmarkt am Marktplatz und Weihnachtswald in der Altstad
+ t.\nLaufzeit: 25.11.2026 bis 30.12.2026\nTermine laut Veranstalter: Mo–S
+ o 11–20 Uhr\, Weihnachtswald bis 22 Uhr\; 24.12. 11–14\, 25./26.12. 12
+ –19\, 30.12. 11–18 Uhr\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.meingoslar.de/veranstaltungen/weihnachtsmarkt-und-weihnachtswald
+URL:https://www.meingoslar.de/veranstaltungen/weihnachtsmarkt-und-weihnacht
+ swald
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gs-marktplatz-20261125-goslarer-weihnachtsmarkt-und-weihnachtswald-2026
+ -ende@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Letzter Tag: Goslarer Weihnachtsmarkt und Weihnachtswald 2026
+LOCATION:Marktplatz und Altstadt Goslar\, Goslar
+DESCRIPTION:Weihnachtsmarkt am Marktplatz und Weihnachtswald in der Altstad
+ t.\nLaufzeit: 25.11.2026 bis 30.12.2026\nTermine laut Veranstalter: Mo–S
+ o 11–20 Uhr\, Weihnachtswald bis 22 Uhr\; 24.12. 11–14\, 25./26.12. 12
+ –19\, 30.12. 11–18 Uhr\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.meingoslar.de/veranstaltungen/weihnachtsmarkt-und-weihnachtswald
+URL:https://www.meingoslar.de/veranstaltungen/weihnachtsmarkt-und-weihnacht
+ swald
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

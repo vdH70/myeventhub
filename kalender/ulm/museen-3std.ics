@@ -1,0 +1,402 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Ulm · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ul-museum-brot-und-kunst-20261009-vera-mercer-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Vera Mercer
+LOCATION:Museum Brot und Kunst – Forum Welternährung\, Salzstadelgasse 1
+ 0\, 89073 Ulm
+DESCRIPTION:Sonderausstellung mit Fotografien von Vera Mercer.\nLaufzeit: 9
+ .10.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://mus
+ eumbrotundkunst.de/
+URL:https://museumbrotundkunst.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-hfg-archiv-20261023-vom-logo-zur-identitaet-visuelle-erscheinungsbil
+ de-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Beginn: Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bu
+ ndesrepublik
+LOCATION:HfG-Archiv Ulm\, Am Hochsträß 8\, 89081 Ulm
+DESCRIPTION:Laufzeit: 23.10.2026 bis 29.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://museumulm.de/ausstellungen/aktuell/
+URL:https://museumulm.de/ausstellungen/aktuell/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-hfg-archiv-20261023-vom-logo-zur-identitaet-visuelle-erscheinungsbil
+ de-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Letzter Tag: Vom Logo zur Identität: Visuelle Erscheinungsbilder d
+ er Bundesrepublik
+LOCATION:HfG-Archiv Ulm\, Am Hochsträß 8\, 89081 Ulm
+DESCRIPTION:Laufzeit: 23.10.2026 bis 29.3.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://museumulm.de/ausstellungen/aktuell/
+URL:https://museumulm.de/ausstellungen/aktuell/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20261101-wer-jetzo-zieht-ins-ungarl
+ and-dem-blueht-die-goldn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:„Wer jetzo zieht ins Ungarland\, dem blüht die goldne Zeit!“
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Schauspielführung.\nEnde: laut Quelle nicht angegeben\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.dzm-museum.de/veranstaltungen/
+URL:https://www.dzm-museum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-museum-brot-und-kunst-20261104-kunstschmaus-zur-sonderausstellung-ve
+ ra-mercer@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T120000
+DTEND;TZID=Europe/Berlin:20261104T140000
+SUMMARY:Kunstschmaus zur Sonderausstellung "Vera Mercer"
+LOCATION:Museum Brot und Kunst – Forum Welternährung\, Salzstadelgasse 1
+ 0\, 89073 Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumbrotundkunst.de/programm
+URL:https://museumbrotundkunst.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-museum-brot-und-kunst-20261106-freier-freitag@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T100000
+DTEND;TZID=Europe/Berlin:20261106T120000
+SUMMARY:Freier Freitag!
+LOCATION:Museum Brot und Kunst – Forum Welternährung\, Salzstadelgasse 1
+ 0\, 89073 Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumbrotundkunst.de/programm
+URL:https://museumbrotundkunst.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20261106-freier-freitag@myeventhub.
+ de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T110000
+DTEND;TZID=Europe/Berlin:20261106T130000
+SUMMARY:Freier Freitag!
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt und Führung
+  frei\nQuelle (bitte vor dem Besuch prüfen): https://www.dzm-museum.de/ve
+ ranstaltungen/
+URL:https://www.dzm-museum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-museum-brot-und-kunst-20261108-guided-tour-in-english@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Guided tour in English
+LOCATION:Museum Brot und Kunst – Forum Welternährung\, Salzstadelgasse 1
+ 0\, 89073 Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumbrotundkunst.de/programm
+URL:https://museumbrotundkunst.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20261114-menschen-am-fluss-beginn@m
+ yeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Beginn: Menschen am Fluss
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Kabinett-Ausstellung.\nLaufzeit: 14.11.2026 bis 31.1.2027\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.dzm-museum.de/sonderausstel
+ lungen/
+URL:https://www.dzm-museum.de/sonderausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20261114-menschen-am-fluss-ende@mye
+ venthub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Menschen am Fluss
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Kabinett-Ausstellung.\nLaufzeit: 14.11.2026 bis 31.1.2027\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.dzm-museum.de/sonderausstel
+ lungen/
+URL:https://www.dzm-museum.de/sonderausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-museum-brot-und-kunst-20261115-sonntagsfuehrung-in-der-dauerausstell
+ ung@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Sonntagsführung in der Dauerausstellung
+LOCATION:Museum Brot und Kunst – Forum Welternährung\, Salzstadelgasse 1
+ 0\, 89073 Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumbrotundkunst.de/programm
+URL:https://museumbrotundkunst.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20261126-typisch-donauschwaebisch-a
+ usstellungseroeffnung@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T190000
+DTEND;TZID=Europe/Berlin:20261126T210000
+SUMMARY:Typisch donauschwäbisch – Ausstellungseröffnung
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dzm-museum.de/veranstaltungen/
+URL:https://www.dzm-museum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20261127-typisch-donauschwaebisch-b
+ eginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Typisch donauschwäbisch!?
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Sonderausstellung.\nLaufzeit: 27.11.2026 bis 30.5.2027\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.dzm-museum.de/sonderausstellun
+ gen/
+URL:https://www.dzm-museum.de/sonderausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20261127-typisch-donauschwaebisch-e
+ nde@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Letzter Tag: Typisch donauschwäbisch!?
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Sonderausstellung.\nLaufzeit: 27.11.2026 bis 30.5.2027\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.dzm-museum.de/sonderausstellun
+ gen/
+URL:https://www.dzm-museum.de/sonderausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20261206-typisch-donauschwaebisch-f
+ uehrung-durch-die-sonder@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T140000
+DTEND;TZID=Europe/Berlin:20261206T160000
+SUMMARY:Typisch donauschwäbisch!? – Führung durch die Sonderausstellung
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dzm-museum.de/veranstaltungen/
+URL:https://www.dzm-museum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20261220-frauen-geben-den-ton-an@my
+ eventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T140000
+DTEND;TZID=Europe/Berlin:20261220T160000
+SUMMARY:Frauen geben den Ton an
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Themenführung.\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.dzm-museum.de/veranstaltungen/
+URL:https://www.dzm-museum.de/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-museum-ulm-20270116-loewenmensch-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Beginn: Löwenmensch
+LOCATION:Museum Ulm\, Marktplatz 9\, 89073 Ulm
+DESCRIPTION:Laut Museum ab 16.01.2027 wieder im Museum Ulm zu sehen.\nLaufz
+ eit: 16.1.2027 bis 6.6.2027\nQuelle (bitte vor dem Besuch prüfen): https:
+ //museumulm.de/
+URL:https://museumulm.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-museum-ulm-20270116-loewenmensch-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:Letzter Tag: Löwenmensch
+LOCATION:Museum Ulm\, Marktplatz 9\, 89073 Ulm
+DESCRIPTION:Laut Museum ab 16.01.2027 wieder im Museum Ulm zu sehen.\nLaufz
+ eit: 16.1.2027 bis 6.6.2027\nQuelle (bitte vor dem Besuch prüfen): https:
+ //museumulm.de/
+URL:https://museumulm.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20270212-kriegsenden-beginn@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Beginn: KriegsEnden
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Kabinett-Ausstellung.\nLaufzeit: 12.2.2027 bis 25.4.2027\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.dzm-museum.de/sonderausstell
+ ungen/
+URL:https://www.dzm-museum.de/sonderausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-donauschwaebisches-zentralmuseum-20270212-kriegsenden-ende@myeventhu
+ b.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Letzter Tag: KriegsEnden
+LOCATION:Donauschwäbisches Zentralmuseum\, Schillerstraße 1\, 89077 Ulm
+DESCRIPTION:Kabinett-Ausstellung.\nLaufzeit: 12.2.2027 bis 25.4.2027\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.dzm-museum.de/sonderausstell
+ ungen/
+URL:https://www.dzm-museum.de/sonderausstellungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

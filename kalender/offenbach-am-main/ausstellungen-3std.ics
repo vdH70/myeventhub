@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Offenbach am Main · my Event Hub (Erinnerung
+  3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:of-ledermuseum-20261108-stimmen-der-vielfalt-kulturen-im-dialog-beginn@
+ myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Beginn: Stimmen der Vielfalt: Kulturen im Dialog
+LOCATION:Deutsches Ledermuseum\, Frankfurter Straße 86\, 63067 Offenbach a
+ m Main
+DESCRIPTION:Laufzeit: 8.11.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.ledermuseum.de/
+URL:https://www.ledermuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-ledermuseum-20261108-stimmen-der-vielfalt-kulturen-im-dialog-ende@my
+ eventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Stimmen der Vielfalt: Kulturen im Dialog
+LOCATION:Deutsches Ledermuseum\, Frankfurter Straße 86\, 63067 Offenbach a
+ m Main
+DESCRIPTION:Laufzeit: 8.11.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.ledermuseum.de/
+URL:https://www.ledermuseum.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

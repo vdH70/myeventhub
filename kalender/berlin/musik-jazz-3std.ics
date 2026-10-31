@@ -1,0 +1,530 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Berlin · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ber-b-flat-20261031-karl-seglem-folkjazz-norwegen@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T210000
+DTEND;TZID=Europe/Berlin:20261031T230000
+SUMMARY:Karl Seglem FolkJazz / Norwegen
+LOCATION:b-flat\, Dircksenstraße 40\, 10178 Berlin
+DESCRIPTION:Einlass 20:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.b-flat-berlin.de/
+ programm
+URL:https://www.b-flat-berlin.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-quasimodo-20261031-jazzfest-berlin-ingebrigt-haker-flaten-e@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T223000
+DTEND;TZID=Europe/Berlin:20261101T003000
+SUMMARY:Jazzfest Berlin – Ingebrigt Håker Flaten (Exit) Knarr
+LOCATION:Quasimodo\, Kantstraße 12A\, 10623 Berlin
+DESCRIPTION:Konzert im Rahmen des Jazzfest Berlin.\n22:30 Uhr (die Quelle s
+ agt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://quasimodo.club/events
+URL:https://quasimodo.club/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-tipi-am-kanzleramt-20261101-lutz-krajenski-big-band-feat-atrin-mada
+ ni-remember@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T190000
+DTEND;TZID=Europe/Berlin:20261101T210000
+SUMMARY:Lutz Krajenski Big Band feat. Atrin Madani – Remembering Roger
+LOCATION:TIPI AM KANZLERAMT\, Große Querallee\, 10557 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.tipi-am-kanzleramt.de/de/programm/kalender.html
+URL:https://www.tipi-am-kanzleramt.de/de/programm/kalender.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-quasimodo-20261101-jazzfest-berlin-ches-smith-clone-row@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T223000
+DTEND;TZID=Europe/Berlin:20261102T003000
+SUMMARY:Jazzfest Berlin – Ches Smith: Clone Row
+LOCATION:Quasimodo\, Kantstraße 12A\, 10623 Berlin
+DESCRIPTION:Konzert im Rahmen des Jazzfest Berlin.\n22:30 Uhr (die Quelle s
+ agt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nTi
+ ckets: https://tickets.kbb.eu/kbb.webshop/webticket/bestseatselect?eventId
+ =17288\nQuelle (bitte vor dem Besuch prüfen): https://quasimodo.club/even
+ ts
+URL:https://quasimodo.club/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261103-zig-zag-hall-emmet-cohen-miles-coltrane@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:ZIG ZAG HALL: Emmet Cohen - Miles & Coltrane at 100
+LOCATION:Zig Zag Hall\, EUREF-Campus 26\, 10829 Berlin-Schöneberg
+DESCRIPTION:Konzert in der Zig Zag Hall auf dem EUREF-Campus (größere Bü
+ hne des Clubs).\nQuelle (bitte vor dem Besuch prüfen): https://www.zigzag
+ -jazzclub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261105-zig-zag-hall-hiromi-trio-feat-james-genu
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:ZIG ZAG HALL: Hiromi Trio feat. James Genus & Simon Phillips
+LOCATION:Zig Zag Hall\, EUREF-Campus 26\, 10829 Berlin-Schöneberg
+DESCRIPTION:Konzert in der Zig Zag Hall auf dem EUREF-Campus (größere Bü
+ hne des Clubs).\nQuelle (bitte vor dem Besuch prüfen): https://www.zigzag
+ -jazzclub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-quasimodo-20261106-nighthawks@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T220000
+DTEND;TZID=Europe/Berlin:20261107T000000
+SUMMARY:Nighthawks
+LOCATION:Quasimodo\, Kantstraße 12A\, 10623 Berlin
+DESCRIPTION:Jazz und Rock.\n22:00 Uhr (die Quelle sagt nicht\, ob Einlass o
+ der Beginn)\nEnde: laut Quelle nicht angegeben\nTickets: https://quasimodo
+ berlin.ticket.io/Px2N67qF/\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /quasimodo.club/events
+URL:https://quasimodo.club/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261106-zig-zag-hall-delfeayo-marsalis-quintet-f
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ZIG ZAG HALL: DELFEAYO MARSALIS QUINTET feat. ERIC ALEXANDER
+LOCATION:Zig Zag Hall\, EUREF-Campus 26\, 10829 Berlin-Schöneberg
+DESCRIPTION:Konzert in der Zig Zag Hall auf dem EUREF-Campus (größere Bü
+ hne des Clubs).\nQuelle (bitte vor dem Besuch prüfen): https://www.zigzag
+ -jazzclub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261107-joe-lovano-melissa-aldana-nduduzo-makhat
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Joe Lovano\, Melissa Aldana\, Nduduzo Makhatini\, Linda May Han Oh 
+ & Jeff Tain Watts - Coltrane 100
+LOCATION:Georg-Neumann-Saal der UdK\, Einsteinufer 43\, Berlin
+DESCRIPTION:Konzert im Georg-Neumann-Saal der UdK.\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.zigzag-jazzclub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-schwartzsche-villa-20261108-raphael-gimenes-cacador-de-horizontes@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Raphael Gimenes: Caçador de Horizontes
+LOCATION:Kulturhaus Schwartzsche Villa\, Grunewaldstraße 55\, 12165 Berlin
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 10 €\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.berlin.de/ba-steglitz-zehlendorf/akt
+ uelles/pressemitteilungen/2026/pressemitteilung.1703313.php
+URL:https://www.berlin.de/ba-steglitz-zehlendorf/aktuelles/pressemitteilung
+ en/2026/pressemitteilung.1703313.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261108-zig-zag-hall-theo-croker@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:ZIG ZAG HALL: Theo Croker
+LOCATION:Zig Zag Hall\, EUREF-Campus 26\, 10829 Berlin-Schöneberg
+DESCRIPTION:Konzert in der Zig Zag Hall auf dem EUREF-Campus (größere Bü
+ hne des Clubs).\nQuelle (bitte vor dem Besuch prüfen): https://www.zigzag
+ -jazzclub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261109-zig-zag-hall-nate-smith@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:ZIG ZAG HALL: Nate Smith
+LOCATION:Zig Zag Hall\, EUREF-Campus 26\, 10829 Berlin-Schöneberg
+DESCRIPTION:Konzert in der Zig Zag Hall auf dem EUREF-Campus (größere Bü
+ hne des Clubs).\nQuelle (bitte vor dem Besuch prüfen): https://www.zigzag
+ -jazzclub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261110-the-zig-zag-jazzed-up-jam-session@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:THE ZIG ZAG JAZZED UP JAM SESSION
+LOCATION:Zig Zag Jazz Club\, Hauptstraße 89\, 12159 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.zigzag-jazzc
+ lub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261116-johannes-enders-quartet@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Johannes Enders Quartet
+LOCATION:Zig Zag Jazz Club\, Hauptstraße 89\, 12159 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.zigzag-jazzc
+ lub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261117-zig-zag-hall-ambrose-akinmusire-quintet@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:ZIG ZAG HALL: Ambrose Akinmusire Quintet
+LOCATION:Zig Zag Hall\, EUREF-Campus 26\, 10829 Berlin-Schöneberg
+DESCRIPTION:Konzert in der Zig Zag Hall auf dem EUREF-Campus (größere Bü
+ hne des Clubs).\nQuelle (bitte vor dem Besuch prüfen): https://www.zigzag
+ -jazzclub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261119-zig-zag-hall-samara-joy@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:ZIG ZAG HALL: Samara Joy
+LOCATION:Zig Zag Hall\, EUREF-Campus 26\, 10829 Berlin-Schöneberg
+DESCRIPTION:Konzert in der Zig Zag Hall auf dem EUREF-Campus (größere Bü
+ hne des Clubs).\nQuelle (bitte vor dem Besuch prüfen): https://www.zigzag
+ -jazzclub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-quasimodo-20261120-jazz-night-ft-flow-rea-est@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T220000
+DTEND;TZID=Europe/Berlin:20261121T000000
+SUMMARY:Jazz Night ft. Flow Rea (Est)
+LOCATION:Quasimodo\, Kantstraße 12A\, 10623 Berlin
+DESCRIPTION:Contemporary Jazz\, HipHop und Soul.\n22:00 Uhr (die Quelle sag
+ t nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nTick
+ ets: https://quasimodoberlin.ticket.io/G3j8XD2E/\nQuelle (bitte vor dem Be
+ such prüfen): https://quasimodo.club/events
+URL:https://quasimodo.club/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261122-jeff-lorber-fusion@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Jeff Lorber Fusion
+LOCATION:Zig Zag Jazz Club\, Hauptstraße 89\, 12159 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.zigzag-jazzc
+ lub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261124-the-zig-zag-jazzed-up-jam-session@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:THE ZIG ZAG JAZZED UP JAM SESSION
+LOCATION:Zig Zag Jazz Club\, Hauptstraße 89\, 12159 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.zigzag-jazzc
+ lub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-pierre-boulez-saal-20261125-blues-inspired-program@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:Blues-Inspired Program (ausverkauft)
+LOCATION:Pierre Boulez Saal\, Französische Straße 33 D\, 10117 Berlin
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch 
+ prüfen): https://tickets.boulezsaal.de/list/events?lang=en
+URL:https://tickets.boulezsaal.de/list/events?lang=en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-philharmonie-20261125-jazz-at-berlin-philharmonic-conversation@myev
+ enthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:Jazz at Berlin Philharmonic: Conversations
+LOCATION:Philharmonie Berlin\, Herbert-von-Karajan-Straße 1\, 10785 Berlin
+DESCRIPTION:Kammermusiksaal. Duo Erdenebaatar/Kugelmann und das iiro Rantal
+ a Trio\; Reihe kuratiert von Siggi Loch.\n20:00 Uhr (die Quelle sagt nicht
+ \, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nPreis: 23
+ –54 €\nQuelle (bitte vor dem Besuch prüfen): https://www.berliner-phi
+ lharmoniker.de/en/concert/calendar/57062/
+URL:https://www.berliner-philharmoniker.de/en/concert/calendar/57062/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261127-a-tribute-to-wayne-shorter@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:A Tribute to Wayne Shorter
+LOCATION:Zig Zag Jazz Club\, Hauptstraße 89\, 12159 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.zigzag-jazzc
+ lub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-zig-zag-jazz-club-20261128-peter-ehwald-scubert-four@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Peter Ehwald & Scubert Four
+LOCATION:Zig Zag Jazz Club\, Hauptstraße 89\, 12159 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.zigzag-jazzc
+ lub.berlin/
+URL:https://www.zigzag-jazzclub.berlin/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-pierre-boulez-saal-20270123-jazz-duo-performance@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T190000
+DTEND;TZID=Europe/Berlin:20270123T210000
+SUMMARY:Jazz Duo Performance
+LOCATION:Pierre Boulez Saal\, Französische Straße 33 D\, 10117 Berlin
+DESCRIPTION:19:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://tickets.boulezsaal.de/list/events?lang=en
+URL:https://tickets.boulezsaal.de/list/events?lang=en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-pierre-boulez-saal-20270217-valleys-world-premiere@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T193000
+DTEND;TZID=Europe/Berlin:20270217T213000
+SUMMARY:Valleys World Premiere
+LOCATION:Pierre Boulez Saal\, Französische Straße 33 D\, 10117 Berlin
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://tickets.boulezsaal.de/list/events?lang=en
+URL:https://tickets.boulezsaal.de/list/events?lang=en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-pierre-boulez-saal-20270304-nduduzo-makhathini-omagugu-special-gues
+ t@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T193000
+DTEND;TZID=Europe/Berlin:20270304T213000
+SUMMARY:Nduduzo Makhathini & Omagugu – Special Guest: Ganavya
+LOCATION:Pierre Boulez Saal\, Französische Straße 33 D\, 10117 Berlin
+DESCRIPTION:19:30 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://tickets.boulezsaal.de/list/events?lang=en
+URL:https://tickets.boulezsaal.de/list/events?lang=en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-pierre-boulez-saal-20270326-melissa-aldana-feat-pablo-held@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T180000
+DTEND;TZID=Europe/Berlin:20270326T200000
+SUMMARY:Melissa Aldana feat. Pablo Held
+LOCATION:Pierre Boulez Saal\, Französische Straße 33 D\, 10117 Berlin
+DESCRIPTION:18:00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://tickets.boulezsaal.de/list/events?lang=en
+URL:https://tickets.boulezsaal.de/list/events?lang=en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

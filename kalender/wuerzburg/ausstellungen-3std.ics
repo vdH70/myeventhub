@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Würzburg · my Event Hub (Erinnerung 3 Stund
+ en vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wue-martin-von-wagner-museum-20261003-ursula-juengst-die-rhythmen-der-w
+ elt-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Ursula Jüngst – Die Rhythmen der Welt
+LOCATION:Martin von Wagner Museum\, Residenzplatz 2\, 97070 Würzburg
+DESCRIPTION:Sonderausstellung.\nLaufzeit: 3.10.2026 bis 31.1.2027\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.martinvonwagner-museum.com/
+URL:https://www.martinvonwagner-museum.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

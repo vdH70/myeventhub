@@ -1,0 +1,2551 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Leipzig · my Event Hub (Erinnerung 3 Stunden vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:l-gewandhaus-20261031-motette-gewandhausorchester-thomanerchor-bach-kan
+ tate-b@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T093000
+DTEND;TZID=Europe/Berlin:20261031T113000
+SUMMARY:Motette: Gewandhausorchester\, Thomanerchor – Bach-Kantate BWV 80
+LOCATION:Thomaskirche Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 3 € an der Tageskas
+ se\nQuelle (bitte vor dem Besuch prüfen): https://www.gewandhausorchester
+ .de/veranstaltung/motette-10471/
+URL:https://www.gewandhausorchester.de/veranstaltung/motette-10471/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-gewandhaus-20261031-herbstkonzert-2026-leipziger-lehrerorchester-holm
+ es-bru@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T110000
+DTEND;TZID=Europe/Berlin:20261031T130000
+SUMMARY:Herbstkonzert 2026 – Leipziger Lehrerorchester (Holmès\, Bruch\,
+  Brahms)
+LOCATION:Großer Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gewandhausorchester.de/veranstaltung/herbstkonzert-
+ 2026-10377/
+URL:https://www.gewandhausorchester.de/veranstaltung/herbstkonzert-2026-103
+ 77/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261031-motette-orgelvesper@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T150000
+DTEND;TZID=Europe/Berlin:20261031T170000
+SUMMARY:Motette – Orgelvesper
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Orgelvesper in der Reihe Musik in Bachs Kirche mit Ivo Mrvelj.\
+ nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, 
+ Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.thomaskirche.org/erleben/kalender
+URL:https://www.thomaskirche.org/erleben/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-gewandhaus-20261031-lieblingslied-gewandhauskinderchor@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Lieblingslied – GewandhausKinderchor
+LOCATION:Mendelssohn-Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gewandhausorchester.de/veranstaltung/choere-9983/
+URL:https://www.gewandhausorchester.de/veranstaltung/choere-9983/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-gewandhaus-20261031-orgelkonzert-zum-reformationstag-taras-baginets@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Orgelkonzert zum Reformationstag – Taras Baginets
+LOCATION:Großer Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gewandhausorchester.de/veranstaltung/orgelkonzert-z
+ um-reformationstag-9984/
+URL:https://www.gewandhausorchester.de/veranstaltung/orgelkonzert-zum-refor
+ mationstag-9984/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261031-in-neuer-stimme-festkonzert-zur-einweihu@myeven
+ thub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:In neuer Stimme – Festkonzert zur Einweihung der rekonstruierten 
+ Bachvioline
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Bach: Brandenburgisches Konzert Nr. 5 und Suite h-Moll\, Vivald
+ i: Violinkonzert RV 230.\nEnde: laut Quelle nicht angegeben\nPreis: 25 €
+ \, erm. 15 €\nQuelle (bitte vor dem Besuch prüfen): https://www.thomask
+ irche.org/erleben/kalender
+URL:https://www.thomaskirche.org/erleben/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-werk2-20261031-gothic-pogo-halloween@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T220000
+DTEND;TZID=Europe/Berlin:20261101T000000
+SUMMARY:Gothic Pogo Halloween
+LOCATION:WERK 2 – Kulturfabrik Leipzig\, Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.werk-2.de/programm
+URL:https://www.werk-2.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-gewandhaus-20261101-mendelssohn-festtage-eroffnungskonzert-und-intern
+ ationa@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Mendelssohn-Festtage: Eröffnungskonzert und Internationaler Mendel
+ ssohn-Preis
+LOCATION:Großer Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gewandhausorchester.de/veranstaltung/eroeffnungskon
+ zert-9985/
+URL:https://www.gewandhausorchester.de/veranstaltung/eroeffnungskonzert-998
+ 5/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261101-hoer-mein-bitten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T153000
+DTEND;TZID=Europe/Berlin:20261101T173000
+SUMMARY:Hör mein Bitten
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Chor- und Orchesterkonzert mit Werken von Mendelssohn\, Mozart\
+ , Becker und Bach.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt fre
+ i\, Kollekte erbeten\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ homaskirche.org/erleben/kalender
+URL:https://www.thomaskirche.org/erleben/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-gewandhaus-20261101-orchester-der-barenboim-said-akademie-beethoven-t
+ ripelk@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T170000
+DTEND;TZID=Europe/Berlin:20261101T190000
+SUMMARY:Orchester der Barenboim-Said Akademie – Beethoven Tripelkonzert\,
+  Mendelssohn 3
+LOCATION:Großer Saal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gewandhausorchester.de/veranstaltung/gastkonzert-10
+ 453/
+URL:https://www.gewandhausorchester.de/veranstaltung/gastkonzert-10453/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-werk2-20261102-long-distance-calling@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T200000
+DTEND;TZID=Europe/Berlin:20261102T220000
+SUMMARY:LONG DISTANCE CALLING
+LOCATION:WERK 2 – Kulturfabrik Leipzig\, Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.werk-2.de/programm
+URL:https://www.werk-2.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-werk2-20261103-eli-preiss@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Eli Preiss
+LOCATION:WERK 2 – Kulturfabrik Leipzig\, Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.werk-2.de/programm
+URL:https://www.werk-2.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-werk2-20261103-heisskalt@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:HEISSKALT
+LOCATION:WERK 2 – Kulturfabrik Leipzig\, Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.werk-2.de/programm
+URL:https://www.werk-2.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261106-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T180000
+DTEND;TZID=Europe/Berlin:20261106T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender
+URL:https://www.thomaskirche.org/erleben/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261107-90s-super-show@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T170000
+DTEND;TZID=Europe/Berlin:20261107T190000
+SUMMARY:90s Super Show
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash
+ =451075a11a3333c0ad761b2efcbcf194
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=451075a
+ 11a3333c0ad761b2efcbcf194
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-mendelssohn-haus-20261108-tacheles-im-mendelssohn-haus-sonntagsmatine
+ e-kamme@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Tacheles im Mendelssohn-Haus: Sonntagsmatinée Kammermusik
+LOCATION:Mendelssohn-Haus Leipzig\, Goldschmidtstraße 12\, 04103 Leipzig
+DESCRIPTION:Laut Seite ausverkauft\; Teil der Mendelssohn-Festtage 2026.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.mendelssohn-stiftung.de/de/konzerte
+URL:https://www.mendelssohn-stiftung.de/de/konzerte
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261113-motette-mit-vox-convallis@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T180000
+DTEND;TZID=Europe/Berlin:20261113T200000
+SUMMARY:Motette mit Vox Convallis
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette in der Reihe Musik in Bachs Kirche mit dem Ensemble Vox
+  Convallis.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Lei
+ pzig-Pass\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_e
+ vents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad35
+ 7b8553
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad357
+ b8553
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-hellraiser-20261113-aesthetic-perfection@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Aesthetic Perfection
+LOCATION:Hellraiser\, Leipzig
+DESCRIPTION:Konzert mit Dark Electro\, Industrial und Goth-Pop.\nEinlass 19
+ :00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 38\,50 
+ €\nQuelle (bitte vor dem Besuch prüfen): https://hellraiser-leipzig.de/
+ produkt/ticket-aesthetic-perfection/
+URL:https://hellraiser-leipzig.de/produkt/ticket-aesthetic-perfection/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261113-tokio-hotel@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Tokio Hotel
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash
+ =451075a11a3333c0ad761b2efcbcf194
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=451075a
+ 11a3333c0ad761b2efcbcf194
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261114-motette-mit-vox-convallis@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Motette mit Vox Convallis
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette in der Reihe Musik in Bachs Kirche mit dem Ensemble Vox
+  Convallis.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Lei
+ pzig-Pass\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_e
+ vents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad35
+ 7b8553
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad357
+ b8553
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261114-ina-mueller-und-band@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Ina Müller und Band
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash
+ =451075a11a3333c0ad761b2efcbcf194
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=451075a
+ 11a3333c0ad761b2efcbcf194
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261117-pruefungskonzert-orgel-johannes-guedelho@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T183000
+DTEND;TZID=Europe/Berlin:20261117T203000
+SUMMARY:Prüfungskonzert Orgel: Johannes Güdelhöfer
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Improvisationen an der Bach-Orgel und Regers op. 127 an der Sau
+ er-Orgel.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kale
+ nder?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHa
+ sh=a3f8d28883afeb16b87a41ad357b8553
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=a3f8d28883afeb16b87a41ad357
+ b8553
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261117-berq@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Berq
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash
+ =451075a11a3333c0ad761b2efcbcf194
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=2&cHash=451075a
+ 11a3333c0ad761b2efcbcf194
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261119-unheilig-special-guests@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T191500
+DTEND;TZID=Europe/Berlin:20261119T211500
+SUMMARY:Unheilig & Special Guests
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash
+ =d16e8ab1a355f7797256179ca1b42d00
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=d16e8ab
+ 1a355f7797256179ca1b42d00
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261120-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T180000
+DTEND;TZID=Europe/Berlin:20261120T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07ff81f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261120-unheilig-special-guests@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T191500
+DTEND;TZID=Europe/Berlin:20261120T211500
+SUMMARY:Unheilig & Special Guests
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash
+ =d16e8ab1a355f7797256179ca1b42d00
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=d16e8ab
+ 1a355f7797256179ca1b42d00
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261121-motette-mit-bach-kantate-bwv-131@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T150000
+DTEND;TZID=Europe/Berlin:20261121T170000
+SUMMARY:Motette mit Bach-Kantate BWV 131
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit der Kantate „Aus der Tiefen rufe ich\, Herr\, zu 
+ dir“.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig
+ -Pass\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_event
+ s%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07ff8
+ 1f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261121-alfred-schnittke-requiem-u-a@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T190000
+DTEND;TZID=Europe/Berlin:20261121T210000
+SUMMARY:Alfred Schnittke: Requiem u. a.
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Schnittkes Requiem mit dem Leipziger Universitätschor unter Da
+ vid Timm.\nEnde: laut Quelle nicht angegeben\nPreis: VVK 20 €\, erm. 10 
+ €\; Abendkasse 25 €\, erm. 15 €\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_e
+ vents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb0
+ 7ff81f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-werk2-20261121-massendefekt-25-live@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:MASSENDEFEKT - 25 LIVE
+LOCATION:WERK 2 – Kulturfabrik Leipzig\, Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.werk-2.de/programm
+URL:https://www.werk-2.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261123-papa-roach@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T190000
+DTEND;TZID=Europe/Berlin:20261123T210000
+SUMMARY:Papa Roach
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash
+ =d16e8ab1a355f7797256179ca1b42d00
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=d16e8ab
+ 1a355f7797256179ca1b42d00
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261127-motette-mit-amici-musicae@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T180000
+DTEND;TZID=Europe/Berlin:20261127T200000
+SUMMARY:Motette mit amici musicae
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Chor und Orchester amici musicae.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schül
+ er frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.
+ org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurr
+ entPage%5D=3&cHash=c27868f47616616b86c5b62cb07ff81f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=c27868f47616616b86c5b62cb07
+ ff81f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261127-nights-on-broadway@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Nights on Broadway
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash
+ =d16e8ab1a355f7797256179ca1b42d00
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=d16e8ab
+ 1a355f7797256179ca1b42d00
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261128-motette-mit-bach-kantate-bwv-62@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:Motette mit Bach-Kantate BWV 62
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette zum Advent mit „Nun komm\, der Heiden Heiland“.\nEn
+ de: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kin
+ der und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widg
+ et_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261128-seid-getrost-adventspasticcio@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Seid getrost – Adventspasticcio
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Adventliche Werke von Händel\, Telemann\, Graupner und Bach.\n
+ Ende: laut Quelle nicht angegeben\nPreis: 28 €\, erm. 23 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender
+ ?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9
+ bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261128-rea-garvey-s-christmas-calling@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Rea Garvey's Christmas Calling
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash
+ =d16e8ab1a355f7797256179ca1b42d00
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=d16e8ab
+ 1a355f7797256179ca1b42d00
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261129-adventsmusik-der-kinderchoere@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Adventsmusik der Kinderchöre
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Adventsmusik mit Nachwuchschören\, Kurrenden und Blockflötene
+ nsemble der Thomaskirche.\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?t
+ x_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb
+ 055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261130-sarah-brightman@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T200000
+DTEND;TZID=Europe/Berlin:20261130T220000
+SUMMARY:Sarah Brightman
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash
+ =d16e8ab1a355f7797256179ca1b42d00
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=3&cHash=d16e8ab
+ 1a355f7797256179ca1b42d00
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-werk2-20261203-shantel-bucovina-club-soundsystem@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Shantel & Bucovina Club Soundsystem
+LOCATION:WERK 2 – Kulturfabrik Leipzig\, Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.werk-2.de/programm
+URL:https://www.werk-2.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261204-motette-mit-calens-vocalensemble@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T180000
+DTEND;TZID=Europe/Berlin:20261204T200000
+SUMMARY:Motette mit calens vocalensemble
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette in der Reihe Musik in Bachs Kirche.\nEnde: laut Quelle 
+ nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler
+  frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.or
+ g/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurren
+ tPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261204-pur@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:PUR
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash
+ =7525fa7edc5fc17c3b8afface0d08357
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=7525fa7
+ edc5fc17c3b8afface0d08357
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261204-bach-weihnachtsoratorium-iiii@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Bach: Weihnachtsoratorium I–III
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Kantaten I bis III mit Leipziger Vocalensemble und Leipziger Ba
+ rockorchester.\nEnde: laut Quelle nicht angegeben\nPreis: ab 21\,30 €\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben
+ /kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=
+ 4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261205-motette-mit-calens-vocalensemble@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Motette mit calens vocalensemble
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette in der Reihe Musik in Bachs Kirche.\nEnde: laut Quelle 
+ nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler
+  frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.or
+ g/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurren
+ tPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261205-weimar@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:Weimar
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash
+ =7525fa7edc5fc17c3b8afface0d08357
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=7525fa7
+ edc5fc17c3b8afface0d08357
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261205-bach-weihnachtsoratorium-i-ivvi@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Bach: Weihnachtsoratorium I\, IV–VI
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Kantaten I und IV bis VI mit Leipziger Vocalensemble und Leipzi
+ ger Barockorchester.\nEnde: laut Quelle nicht angegeben\nPreis: ab 21\,30 
+ €\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85b807f
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=9bb055e0f97a8a41013d6aa4b85
+ b807f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261207-bap@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T193000
+DTEND;TZID=Europe/Berlin:20261207T213000
+SUMMARY:BAP
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash
+ =7525fa7edc5fc17c3b8afface0d08357
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=7525fa7
+ edc5fc17c3b8afface0d08357
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261207-orgelkonzert-im-kerzenschein@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T193000
+DTEND;TZID=Europe/Berlin:20261207T213000
+SUMMARY:Orgelkonzert im Kerzenschein
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Orgelwerke von Bach\, Saint-Saëns\, Elgar und Karg-Elert.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 15 €\, erm. 10 €\, bis 18 Jahre
+  frei\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org
+ /erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurrent
+ Page%5D=5&cHash=6143f951ea4d86e9e34e4cd5f527d1be
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f52
+ 7d1be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261211-bach-weihnachtsoratorium-ivi-mit-dem-tho@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T190000
+DTEND;TZID=Europe/Berlin:20261211T210000
+SUMMARY:Bach: Weihnachtsoratorium I–VI mit dem Thomanerchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Alle sechs Kantaten mit Thomanerchor und Gewandhausorchester.\n
+ Ende: laut Quelle nicht angegeben\nPreis: 80–125 €\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifab
+ eventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951e
+ a4d86e9e34e4cd5f527d1be
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f52
+ 7d1be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261212-bach-weihnachtsoratorium-ivi-mit-dem-tho@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T170000
+DTEND;TZID=Europe/Berlin:20261212T190000
+SUMMARY:Bach: Weihnachtsoratorium I–VI mit dem Thomanerchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Alle sechs Kantaten mit Thomanerchor und Gewandhausorchester.\n
+ Ende: laut Quelle nicht angegeben\nPreis: 85–135 €\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifab
+ eventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951e
+ a4d86e9e34e4cd5f527d1be
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f52
+ 7d1be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261213-bach-weihnachtsoratorium-ivi-mit-dem-tho@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Bach: Weihnachtsoratorium I–VI mit dem Thomanerchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Alle sechs Kantaten mit Thomanerchor und Gewandhausorchester.\n
+ Ende: laut Quelle nicht angegeben\nPreis: 80–125 €\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifab
+ eventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951e
+ a4d86e9e34e4cd5f527d1be
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=6143f951ea4d86e9e34e4cd5f52
+ 7d1be
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20261215-bonez-mc-raf-camora@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T190000
+DTEND;TZID=Europe/Berlin:20261215T210000
+SUMMARY:Bonez MC & RAF Camora
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash
+ =7525fa7edc5fc17c3b8afface0d08357
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=4&cHash=7525fa7
+ edc5fc17c3b8afface0d08357
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261220-weihnachtsliederabend-des-thomanerchores@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T190000
+DTEND;TZID=Europe/Berlin:20261220T210000
+SUMMARY:Weihnachtsliederabend des Thomanerchores
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Weihnachtliche Chorlieder mit dem Thomanerchor und Thomasorgani
+ st Johannes Lang.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabev
+ entmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e8
+ 1ac352f8e69489e78f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261221-weihnachtsliederabend-des-thomanerchores@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261221T190000
+DTEND;TZID=Europe/Berlin:20261221T210000
+SUMMARY:Weihnachtsliederabend des Thomanerchores
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Weihnachtliche Chorlieder mit dem Thomanerchor und Thomasorgani
+ st Johannes Lang.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabev
+ entmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e8
+ 1ac352f8e69489e78f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261222-weihnachtsliederabend-des-thomanerchores@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T190000
+DTEND;TZID=Europe/Berlin:20261222T210000
+SUMMARY:Weihnachtsliederabend des Thomanerchores
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Weihnachtliche Chorlieder mit dem Thomanerchor und Thomasorgani
+ st Johannes Lang.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabev
+ entmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e8
+ 1ac352f8e69489e78f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261224-weihnachtsmotette@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T133000
+DTEND;TZID=Europe/Berlin:20261224T153000
+SUMMARY:Weihnachtsmotette
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette am Heiligen Abend mit Thomanerchor und Gewandhausmusike
+ rn.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pas
+ s\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B
+ %40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e78f49a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=c6056f681e81ac352f8e69489e7
+ 8f49a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261231-silvestermotette-mit-weihnachtsoratorium@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T133000
+DTEND;TZID=Europe/Berlin:20261231T153000
+SUMMARY:Silvestermotette mit Weihnachtsoratorium Kantate IV
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette zum Jahresschluss mit Thomanerchor und Gewandhausorches
+ ter.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pa
+ ss\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5
+ B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4923af
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4
+ 923af
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20261231-silvesterkonzert-feuerwerk-fuer-orgel-un@myeven
+ thub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T210000
+DTEND;TZID=Europe/Berlin:20261231T230000
+SUMMARY:Silvesterkonzert: Feuerwerk für Orgel und Trompete
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Werke von Bach\, Händel\, Telemann u. a. für Trompete und Org
+ el.\nEnde: laut Quelle nicht angegeben\nPreis: 15 €\, erm. 10 €\, bis 
+ 18 Jahre frei\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaski
+ rche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5
+ BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4923af
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=d425542f9113cb4b4e116ab72e4
+ 923af
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270101-j-s-bach-weihnachtsoratorium-kantaten-ivvi@myev
+ enthub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T170000
+DTEND;TZID=Europe/Berlin:20270101T190000
+SUMMARY:J.S. Bach: Weihnachtsoratorium (Kantaten IV–VI)
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Bachs Weihnachtsoratorium\, Kantaten IV bis VI\, mit dem Bach C
+ onsort Leipzig.\nEnde: laut Quelle nicht angegeben\nPreis: Vorverkauf 28 
+ €\, erm. 23 €\; Abendkasse 30 €\, erm. 25 €\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabeve
+ ntmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db
+ 89aac76e04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270102-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270102T150000
+DTEND;TZID=Europe/Berlin:20270102T170000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Musik von Bach und anderen.\nEnde: laut Quelle nich
+ t angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fre
+ i)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/er
+ leben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPag
+ e%5D=8&cHash=3bb4a5ddb7db89aac76e04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270108-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T180000
+DTEND;TZID=Europe/Berlin:20270108T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270109-motette-mit-bach-kantate-bwv-154@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T150000
+DTEND;TZID=Europe/Berlin:20270109T170000
+SUMMARY:Motette mit Bach-Kantate BWV 154
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Mein liebster Jesus ist verloren
+ “.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pa
+ ss\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5
+ B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd5741c040
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=3bb4a5ddb7db89aac76e04dd574
+ 1c040
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270115-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T180000
+DTEND;TZID=Europe/Berlin:20270115T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270115-takida@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:tAKiDA
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash
+ =50b8a3127d667f2fdbc0ec11c578d550
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=50b8a31
+ 27d667f2fdbc0ec11c578d550
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270116-motette-mit-bach-kantate-bwv-3@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T150000
+DTEND;TZID=Europe/Berlin:20270116T170000
+SUMMARY:Motette mit Bach-Kantate BWV 3
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Ach Gott\, wie manches Herzeleid
+ “.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pa
+ ss\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5
+ B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270116-die-fantastischen-vier@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T203000
+DTEND;TZID=Europe/Berlin:20270116T223000
+SUMMARY:ABGESAGT: Die Fantastischen Vier
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash
+ =50b8a3127d667f2fdbc0ec11c578d550
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=6&cHash=50b8a31
+ 27d667f2fdbc0ec11c578d550
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270122-motette-mit-dem-stadtsingechor-zu-halle@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T180000
+DTEND;TZID=Europe/Berlin:20270122T200000
+SUMMARY:Motette mit dem Stadtsingechor zu Halle
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Stadtsingechor zu Halle.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270123-motette-mit-dem-stadtsingechor-zu-halle@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T150000
+DTEND;TZID=Europe/Berlin:20270123T170000
+SUMMARY:Motette mit dem Stadtsingechor zu Halle
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Stadtsingechor zu Halle.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270125-pruefungskonzert-orgel-sunghoon-kim@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270125T183000
+DTEND;TZID=Europe/Berlin:20270125T203000
+SUMMARY:Prüfungskonzert Orgel: Sunghoon Kim
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Orgel-Prüfungskonzert mit Werken aus Bachs Clavierübung III.\
+ nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19
+ d9a5823c976f9b9fd2d542bd7
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=fdbec19d9a5823c976f9b9fd2d5
+ 42bd7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270129-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T180000
+DTEND;TZID=Europe/Berlin:20270129T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=10&cHash=2ebd0da87d246ff5d5d8d6aff58140b9
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=10&cHash=2ebd0da87d246ff5d5d8d6aff5
+ 8140b9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270130-motette-mit-bach-kantate-bwv-195@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T150000
+DTEND;TZID=Europe/Berlin:20270130T170000
+SUMMARY:Motette mit Bach-Kantate BWV 195
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Dem Gerechten muss das Licht“.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_event
+ s%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2b89
+ 0dc
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2
+ b890dc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270205-motette-mit-dem-leipziger-vocalensemble@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T180000
+DTEND;TZID=Europe/Berlin:20270205T200000
+SUMMARY:Motette mit dem Leipziger Vocalensemble
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Leipziger Vocalensemble.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2b890dc
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2
+ b890dc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270206-motette-mit-dem-leipziger-vocalensemble@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T150000
+DTEND;TZID=Europe/Berlin:20270206T170000
+SUMMARY:Motette mit dem Leipziger Vocalensemble
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Leipziger Vocalensemble.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2b890dc
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=db6fbd997cce6a4fc505bcdfd2
+ b890dc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270226-motette-mit-dem-collegium-thomanum@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T180000
+DTEND;TZID=Europe/Berlin:20270226T200000
+SUMMARY:Motette mit dem collegium thomanum
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem collegium thomanum.\nEnde: laut Quelle nicht an
+ gegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler frei)\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erlebe
+ n/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D
+ =14&cHash=75bad48e0db1bee44b0a73d7063efd35
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=14&cHash=75bad48e0db1bee44b0a73d706
+ 3efd35
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270227-motette-mit-dem-collegium-thomanum@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T150000
+DTEND;TZID=Europe/Berlin:20270227T170000
+SUMMARY:Motette mit dem collegium thomanum
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem collegium thomanum.\nEnde: laut Quelle nicht an
+ gegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler frei)\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erlebe
+ n/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D
+ =14&cHash=75bad48e0db1bee44b0a73d7063efd35
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=14&cHash=75bad48e0db1bee44b0a73d706
+ 3efd35
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270302-electric-callboy@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270302T194500
+DTEND;TZID=Europe/Berlin:20270302T214500
+SUMMARY:Electric Callboy
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash
+ =0c7f224ea5dfc15d096f2f7c2fc594cf
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=0c7f224
+ ea5dfc15d096f2f7c2fc594cf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270305-motette-mit-der-schola-cantorum-leipzig@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T180000
+DTEND;TZID=Europe/Berlin:20270305T200000
+SUMMARY:Motette mit der Schola Cantorum Leipzig
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit der Schola Cantorum Leipzig.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56c5b2cd
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56
+ c5b2cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270305-musikparade@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T183000
+DTEND;TZID=Europe/Berlin:20270305T203000
+SUMMARY:Musikparade
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash
+ =0c7f224ea5dfc15d096f2f7c2fc594cf
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=0c7f224
+ ea5dfc15d096f2f7c2fc594cf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270306-motette-mit-der-schola-cantorum-leipzig@myevent
+ hub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T150000
+DTEND;TZID=Europe/Berlin:20270306T170000
+SUMMARY:Motette mit der Schola Cantorum Leipzig
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit der Schola Cantorum Leipzig.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler fr
+ ei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/e
+ rleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPa
+ ge%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56c5b2cd
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56
+ c5b2cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270306-80s-super-show@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T180000
+DTEND;TZID=Europe/Berlin:20270306T200000
+SUMMARY:80s Super Show
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash
+ =0c7f224ea5dfc15d096f2f7c2fc594cf
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=0c7f224
+ ea5dfc15d096f2f7c2fc594cf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270312-motette-mit-amici-musicae@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T180000
+DTEND;TZID=Europe/Berlin:20270312T200000
+SUMMARY:Motette mit amici musicae
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Chor und Orchester amici musicae.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schül
+ er frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.
+ org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurr
+ entPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56c5b2cd
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56
+ c5b2cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270312-james-blunt@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:James Blunt
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash
+ =0c7f224ea5dfc15d096f2f7c2fc594cf
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=0c7f224
+ ea5dfc15d096f2f7c2fc594cf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270313-motette-mit-amici-musicae@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T150000
+DTEND;TZID=Europe/Berlin:20270313T170000
+SUMMARY:Motette mit amici musicae
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Chor und Orchester amici musicae.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schül
+ er frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.
+ org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bcurr
+ entPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56c5b2cd
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=10d5e8cdd69ff7bb2e898bcf56
+ c5b2cd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270315-the-australian-pink-floyd-show@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270315T200000
+DTEND;TZID=Europe/Berlin:20270315T220000
+SUMMARY:The Australian Pink Floyd Show
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash
+ =0c7f224ea5dfc15d096f2f7c2fc594cf
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=7&cHash=0c7f224
+ ea5dfc15d096f2f7c2fc594cf
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270319-singt-euch-ein@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T110000
+DTEND;TZID=Europe/Berlin:20270319T130000
+SUMMARY:Singt Euch ein!
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Mitsing-Konzert von Schulchören aus Leipzig und Umgebung.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.thomaskirche.org/erleben/kalender?tx_ifabev
+ entmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab
+ 2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270319-motette-orgelvesper@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T180000
+DTEND;TZID=Europe/Berlin:20270319T200000
+SUMMARY:Motette – Orgelvesper
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette als Orgelvesper mit Daniel Beilschmidt.\nEnde: laut Que
+ lle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Sch
+ üler frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirc
+ he.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bc
+ urrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270320-motette-orgelvesper@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T150000
+DTEND;TZID=Europe/Berlin:20270320T170000
+SUMMARY:Motette – Orgelvesper
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette als Orgelvesper mit Daniel Beilschmidt.\nEnde: laut Que
+ lle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Sch
+ üler frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirc
+ he.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5Bc
+ urrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270320-maite-kelly@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T200000
+DTEND;TZID=Europe/Berlin:20270320T220000
+SUMMARY:Maite Kelly
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash
+ =15dd613b8e072d8d3937700d9d4d7385
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=15dd613
+ b8e072d8d3937700d9d4d7385
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270321-samra-capital-bra@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T200000
+DTEND;TZID=Europe/Berlin:20270321T220000
+SUMMARY:Samra & Capital Bra
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash
+ =15dd613b8e072d8d3937700d9d4d7385
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=15dd613
+ b8e072d8d3937700d9d4d7385
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270325-j-s-bach-matthaeuspassion-bwv-244-300-jahre-mat
+ tha@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270325T190000
+DTEND;TZID=Europe/Berlin:20270325T210000
+SUMMARY:J.S. Bach: Matthäuspassion BWV 244 (300 Jahre Matthäuspassion)
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Bachs Matthäuspassion zum 300. Jubiläum mit Thomanerchor und 
+ Gewandhausorchester.\nEnde: laut Quelle nicht angegeben\nPreis: 95/75/60/4
+ 5 €\, Flexpreise 105/83/66/50 €\, ermäßigt für Berechtigte\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalen
+ der?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHa
+ sh=7cc02e24ab2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270326-j-s-bach-matthaeuspassion-bwv-244-300-jahre-mat
+ tha@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T190000
+DTEND;TZID=Europe/Berlin:20270326T210000
+SUMMARY:J.S. Bach: Matthäuspassion BWV 244 (300 Jahre Matthäuspassion)
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Bachs Matthäuspassion zum 300. Jubiläum mit Thomanerchor und 
+ Gewandhausorchester.\nEnde: laut Quelle nicht angegeben\nPreis: 95/75/60/4
+ 5 €\, Flexpreise 105/83/66/50 €\, ermäßigt für Berechtigte\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erleben/kalen
+ der?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHa
+ sh=7cc02e24ab2d7a2e99ee4f5a60d7ff3a
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=7cc02e24ab2d7a2e99ee4f5a60
+ d7ff3a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270402-motette-mit-dem-leipziger-kammerchor@myeventhub
+ .de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270402T180000
+DTEND;TZID=Europe/Berlin:20270402T200000
+SUMMARY:Motette mit dem Leipziger Kammerchor
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Leipziger Kammerchor.\nEnde: laut Quelle nicht 
+ angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder und Schüler frei)
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.thomaskirche.org/erle
+ ben/kalender?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%
+ 5D=16&cHash=bf7ad9293a2e6b11b9ea397cec50df02
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=16&cHash=bf7ad9293a2e6b11b9ea397cec
+ 50df02
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270410-motette-mit-bach-kantate-bwv-104@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T150000
+DTEND;TZID=Europe/Berlin:20270410T170000
+SUMMARY:Motette mit Bach-Kantate BWV 104
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Du Hirte Israel\, höre“.\nEnde:
+  laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, Kinder
+  und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ omaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40widget_
+ 0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270416-motette-mit-dem-kammerchor-des-koelner-maenner-
+ ges@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T180000
+DTEND;TZID=Europe/Berlin:20270416T200000
+SUMMARY:Motette mit dem Kammerchor des Kölner Männer-Gesang-Vereins
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Kammerchor des Kölner Männer-Gesang-Vereins.\
+ nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, 
+ Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40w
+ idget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270416-roland-kaiser@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T193000
+DTEND;TZID=Europe/Berlin:20270416T213000
+SUMMARY:Roland Kaiser
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash
+ =15dd613b8e072d8d3937700d9d4d7385
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=15dd613
+ b8e072d8d3937700d9d4d7385
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270417-motette-mit-dem-kammerchor-des-koelner-maenner-
+ ges@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T150000
+DTEND;TZID=Europe/Berlin:20270417T170000
+SUMMARY:Motette mit dem Kammerchor des Kölner Männer-Gesang-Vereins
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit dem Kammerchor des Kölner Männer-Gesang-Vereins.\
+ nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\, 
+ Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40w
+ idget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270417-roland-kaiser@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T193000
+DTEND;TZID=Europe/Berlin:20270417T213000
+SUMMARY:Roland Kaiser
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash
+ =15dd613b8e072d8d3937700d9d4d7385
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=15dd613
+ b8e072d8d3937700d9d4d7385
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270420-die-aerzte@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270420T200000
+DTEND;TZID=Europe/Berlin:20270420T220000
+SUMMARY:Die Ärzte
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash
+ =15dd613b8e072d8d3937700d9d4d7385
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=15dd613
+ b8e072d8d3937700d9d4d7385
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270421-die-aerzte@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270421T190000
+DTEND;TZID=Europe/Berlin:20270421T210000
+SUMMARY:Die Ärzte
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash
+ =15dd613b8e072d8d3937700d9d4d7385
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=15dd613
+ b8e072d8d3937700d9d4d7385
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270423-motette-musik-in-bachs-kirche@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270423T180000
+DTEND;TZID=Europe/Berlin:20270423T200000
+SUMMARY:Motette – Musik in Bachs Kirche
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Thomanerchor und Musikern des Gewandhausorchesters.
+ \nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pass\,
+  Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5B%40
+ widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-thomaskirche-20270424-motette-mit-bach-kantate-bwv-12@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T150000
+DTEND;TZID=Europe/Berlin:20270424T170000
+SUMMARY:Motette mit Bach-Kantate BWV 12
+LOCATION:Thomaskirche Leipzig\, Thomaskirchhof 18\, 04109 Leipzig
+DESCRIPTION:Motette mit Bachs Kantate „Weinen\, Klagen\, Sorgen\, Zagen
+ “.\nEnde: laut Quelle nicht angegeben\nPreis: Programm 3 € (Leipzig-Pa
+ ss\, Kinder und Schüler frei)\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_events%5
+ B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9b0c641
+URL:https://www.thomaskirche.org/erleben/kalender?tx_ifabeventmanagement_ev
+ ents%5B%40widget_0%5D%5BcurrentPage%5D=15&cHash=356731eb5b4b9f06c1ba13eef9
+ b0c641
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270424-die-schlagernacht-des-jahres-2027@myeventh
+ ub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T180000
+DTEND;TZID=Europe/Berlin:20270424T200000
+SUMMARY:Die Schlagernacht des Jahres 2027
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash
+ =15dd613b8e072d8d3937700d9d4d7385
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=15dd613
+ b8e072d8d3937700d9d4d7385
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270427-sabaton@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270427T190000
+DTEND;TZID=Europe/Berlin:20270427T210000
+SUMMARY:Sabaton
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash
+ =15dd613b8e072d8d3937700d9d4d7385
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=8&cHash=15dd613
+ b8e072d8d3937700d9d4d7385
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270429-maffay-oerding@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270429T200000
+DTEND;TZID=Europe/Berlin:20270429T220000
+SUMMARY:Maffay + Oerding
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash
+ =9352a79bcba5dc5e8714ecc460c10815
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=9352a79
+ bcba5dc5e8714ecc460c10815
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270430-maffay-oerding@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T200000
+DTEND;TZID=Europe/Berlin:20270430T220000
+SUMMARY:Maffay + Oerding
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash
+ =9352a79bcba5dc5e8714ecc460c10815
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=9352a79
+ bcba5dc5e8714ecc460c10815
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270501-lea@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270501T190000
+DTEND;TZID=Europe/Berlin:20270501T210000
+SUMMARY:LEA
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash
+ =9352a79bcba5dc5e8714ecc460c10815
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=9&cHash=9352a79
+ bcba5dc5e8714ecc460c10815
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270526-andre-rieu@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270526T193000
+DTEND;TZID=Europe/Berlin:20270526T213000
+SUMMARY:André Rieu
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=10&cHas
+ h=6dcd409040bdb82f6dad15b4ae178d18
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=10&cHash=6dcd40
+ 9040bdb82f6dad15b4ae178d18
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20270922-ronan-keating@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20270922T200000
+DTEND;TZID=Europe/Berlin:20270922T220000
+SUMMARY:Ronan Keating
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=11&cHas
+ h=c00b96f9e9cec940e795bf6123092689
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=c00b96
+ f9e9cec940e795bf6123092689
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271006-sido-frieden-tour-2027@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271006T200000
+DTEND;TZID=Europe/Berlin:20271006T220000
+SUMMARY:Sido – Frieden Tour 2027
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=11&cHas
+ h=c00b96f9e9cec940e795bf6123092689
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=11&cHash=c00b96
+ f9e9cec940e795bf6123092689
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271008-montez@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271008T190000
+DTEND;TZID=Europe/Berlin:20271008T210000
+SUMMARY:Montez
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHas
+ h=ac5d83f9f931db1e5b98f396797eb043
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=ac5d83
+ f9f931db1e5b98f396797eb043
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271014-andrea-berg@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271014T193000
+DTEND;TZID=Europe/Berlin:20271014T213000
+SUMMARY:Andrea Berg
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHas
+ h=ac5d83f9f931db1e5b98f396797eb043
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=ac5d83
+ f9f931db1e5b98f396797eb043
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271016-gianna-nannini@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271016T200000
+DTEND;TZID=Europe/Berlin:20271016T220000
+SUMMARY:Gianna Nannini
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHas
+ h=ac5d83f9f931db1e5b98f396797eb043
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=ac5d83
+ f9f931db1e5b98f396797eb043
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271102-nena@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271102T200000
+DTEND;TZID=Europe/Berlin:20271102T220000
+SUMMARY:Nena
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHas
+ h=ac5d83f9f931db1e5b98f396797eb043
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=ac5d83
+ f9f931db1e5b98f396797eb043
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271104-die-prinzen@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271104T193000
+DTEND;TZID=Europe/Berlin:20271104T213000
+SUMMARY:Die Prinzen
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHas
+ h=ac5d83f9f931db1e5b98f396797eb043
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=ac5d83
+ f9f931db1e5b98f396797eb043
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271105-die-prinzen@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271105T193000
+DTEND;TZID=Europe/Berlin:20271105T213000
+SUMMARY:Die Prinzen
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHas
+ h=ac5d83f9f931db1e5b98f396797eb043
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=ac5d83
+ f9f931db1e5b98f396797eb043
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271106-kontra-k@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271106T200000
+DTEND;TZID=Europe/Berlin:20271106T220000
+SUMMARY:Kontra K
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHas
+ h=ac5d83f9f931db1e5b98f396797eb043
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=ac5d83
+ f9f931db1e5b98f396797eb043
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271113-provinz@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271113T200000
+DTEND;TZID=Europe/Berlin:20271113T220000
+SUMMARY:Provinz
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHas
+ h=ac5d83f9f931db1e5b98f396797eb043
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=12&cHash=ac5d83
+ f9f931db1e5b98f396797eb043
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271115-wincent-weiss@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271115T200000
+DTEND;TZID=Europe/Berlin:20271115T220000
+SUMMARY:Wincent Weiss
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHas
+ h=73e9ed05168bba5386d24017c0f84b9c
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=73e9ed
+ 05168bba5386d24017c0f84b9c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20271204-deine-freunde@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20271204T173000
+DTEND;TZID=Europe/Berlin:20271204T193000
+SUMMARY:Deine Freunde
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHas
+ h=73e9ed05168bba5386d24017c0f84b9c
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=73e9ed
+ 05168bba5386d24017c0f84b9c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-quarterback-arena-20280322-kerstin-ott@myeventhub.de
+DTSTAMP:20261006T000000Z
+DTSTART;TZID=Europe/Berlin:20280322T200000
+DTEND;TZID=Europe/Berlin:20280322T220000
+SUMMARY:Kerstin Ott
+LOCATION:QUARTERBACK Immobilien ARENA\, Am Sportforum 2\, 04105 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.quarterback-immobilien-arena.de/events-tickets/even
+ ts?tx_ifabeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHas
+ h=73e9ed05168bba5386d24017c0f84b9c
+URL:https://www.quarterback-immobilien-arena.de/events-tickets/events?tx_if
+ abeventmanagement_events%5B%40widget_0%5D%5BcurrentPage%5D=13&cHash=73e9ed
+ 05168bba5386d24017c0f84b9c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,295 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Papenburg · my Event Hub (Erinnerung 3 Tage v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pap-besucherzentrum-meyer-werft-20260926-besichtigung-meyer-werft-gefue
+ hrt-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Letzter Tag: Besichtigung MEYER WERFT – geführt
+LOCATION:Besucherzentrum MEYER WERFT\, Industriegebiet Süd\, Tor 1/2\, 268
+ 71 Papenburg
+DESCRIPTION:Geführter Rundgang durch das Besucherzentrum der Meyer Werft\,
+  ca. 90 Minuten\; Zeiten über die Online-Buchung\, Reservierung empfohlen
+  (Hotline 04961-83960). Die Seite nennt die Saisons mit Platzhalter „202
+ X“\, keine Einzeltermine.\nLaufzeit: 26.9.2026 bis 31.3.2027\nTermine la
+ ut Veranstalter: Jan.–Feb.: Mo.–Sa.\; März–Okt.: täglich\; Nov. bi
+ s 23. Dez.: Mo.–Sa.\; 27.–31.12.\nPreis: Erwachsene 19\,00 €\, ermä
+ ßigt 9\,50 €\, Kinder unter 5 frei\nQuelle (bitte vor dem Besuch prüfe
+ n): https://besucherzentrum-meyerwerft.de/besichtigung-meyer-werft-gefuehr
+ t/
+URL:https://besucherzentrum-meyerwerft.de/besichtigung-meyer-werft-gefuehrt
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-gueterbahnhof-20261031-crossboarder-benwal-tjade-more-presented@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T130000
+DTEND;TZID=Europe/Berlin:20261031T150000
+SUMMARY:Crossboarder: Benwal\, Tjade & More presented by KopjeK
+LOCATION:Kesselschmiede\, Güterbahnhof Papenburg
+DESCRIPTION:Tagesparty von KopjeK in der Kesselschmiede.\n13:00 Uhr (die Qu
+ elle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeb
+ en\nPreis: VVK ab 27 €\nTickets: https://weeztix.shop/65sqcyfx\nQuelle (
+ bitte vor dem Besuch prüfen): https://gueterbahnhof-papenburg.de/events/c
+ rossboarder-benwal-tjade-more-presented-by-kopjek/
+URL:https://gueterbahnhof-papenburg.de/events/crossboarder-benwal-tjade-mor
+ e-presented-by-kopjek/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-gueterbahnhof-20261106-milow-unplugged@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:MILOW unplugged
+LOCATION:Güterbahnhof Papenburg\, Bahnhofstraße 21\, 26871 Papenburg
+DESCRIPTION:Unplugged-Konzert mit Songs aus „Boy Made Out Of Stars“ und
+  Hits\; einer von zehn Deutschlandterminen.\n20:00 Uhr (die Quelle sagt ni
+ cht\, ob Einlass oder Beginn)\nEnde: laut Quelle nicht angegeben\nPreis: V
+ VK ab 62 €\nTickets: https://www.eventim.de/event/milow-boy-made-out-of-
+ stars-unplugged-2026-gueterbahnhof-22038437/?affiliate=GMD\nQuelle (bitte 
+ vor dem Besuch prüfen): https://gueterbahnhof-papenburg.de/events/milow-u
+ nplugged/
+URL:https://gueterbahnhof-papenburg.de/events/milow-unplugged/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-gueterbahnhof-20261107-depeche-mode-tribute@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T203000
+DTEND;TZID=Europe/Berlin:20261107T223000
+SUMMARY:DEPECHE MODE TRIBUTE
+LOCATION:Güterbahnhof Papenburg\, Bahnhofstraße 21\, 26871 Papenburg
+DESCRIPTION:Europäische Depeche-Mode-Tributeband Mode Machine.\nEinlass 19
+ :30\, Beginn 20:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK ab 1
+ 9\,50 €\nTickets: https://weeztix.shop/qqz3yqq9\nQuelle (bitte vor dem B
+ esuch prüfen): https://gueterbahnhof-papenburg.de/events/depeche-mode-tri
+ bute/
+URL:https://gueterbahnhof-papenburg.de/events/depeche-mode-tribute/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-gueterbahnhof-20261114-ue30-party@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T210000
+DTEND;TZID=Europe/Berlin:20261114T230000
+SUMMARY:Ü30 Party
+LOCATION:Güterbahnhof Papenburg\, Bahnhofstraße 21\, 26871 Papenburg
+DESCRIPTION:Tanzmusik von den 80ern bis 2010er\; Einlass ab 25 Jahren.\n21:
+ 00 Uhr (die Quelle sagt nicht\, ob Einlass oder Beginn)\nEnde: laut Quelle
+  nicht angegeben\nPreis: VVK ab 5 €\nQuelle (bitte vor dem Besuch prüfe
+ n): https://gueterbahnhof-papenburg.de/events/ue30-party-2/
+URL:https://gueterbahnhof-papenburg.de/events/ue30-party-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-heinrich-von-kleist-schule-20261124-chance-azubi-papenburg@myeventh
+ ub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T170000
+DTEND;TZID=Europe/Berlin:20261124T190000
+SUMMARY:Chance: Azubi Ausbildungsmesse Papenburg
+LOCATION:Heinrich-von-Kleist-Schule\, Kleiststraße 12\, 26871 Papenburg
+DESCRIPTION:Ausbildungsmesse für Schulabgängerinnen und Schulabgänger mi
+ t Unternehmen aus der Region\; 17–19 Uhr.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://chance-azubi.de/die-i
+ nfoabende-von-chance-azubi/
+URL:https://chance-azubi.de/die-infoabende-von-chance-azubi/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-gueterbahnhof-20261128-hearts-fear@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Hearts Fear
+LOCATION:Güterbahnhof Papenburg\, Bahnhofstraße 21\, 26871 Papenburg
+DESCRIPTION:„20 Jahre Rumpelrock“ – Jubiläumskonzert.\nEinlass 19:00
+ \, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK ab 12 
+ €\nTickets: https://weeztix.shop/quy8s2jk\nQuelle (bitte vor dem Besuch 
+ prüfen): https://gueterbahnhof-papenburg.de/events/hearts-fear-2/
+URL:https://gueterbahnhof-papenburg.de/events/hearts-fear-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-hundeplatz-aschendorf-20261128-leistungspruefung-klub-fuer-terrier-
+ bh-vt-ibgh-igp@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Leistungsprüfung Klub für Terrier (BH/VT\, IBGH\, IGP\, IFH)
+LOCATION:Hundeplatz Aschendorf (Bülte II)\, Bülte II\, 26871 Papenburg
+DESCRIPTION:Prüfung der KfT-Ortsgruppe Weser-Ems.\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.kft-online.de/mod_appointments/index.php?pos=2
+ 0&rubric=Veranstaltungskalender
+URL:https://www.kft-online.de/mod_appointments/index.php?pos=20&rubric=Vera
+ nstaltungskalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-muehlenplatz-20261204-papenburger-weihnachtsmarkt-2-adventswochenen
+ de-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Beginn: Papenburger Weihnachtsmarkt (2. Adventswochenende)
+LOCATION:Mühlenplatz an Meyers Mühle\, Papenburg
+DESCRIPTION:Vereinsweihnachtsmarkt\; Fr 16–21\, Sa 12–22\, So 12–18:3
+ 0 Uhr.\nLaufzeit: 4.12.2026 bis 6.12.2026\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.papenburger-weihnachtsmarkt.de/
+URL:https://www.papenburger-weihnachtsmarkt.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-muehlenplatz-20261204-papenburger-weihnachtsmarkt-2-adventswochenen
+ de-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Letzter Tag: Papenburger Weihnachtsmarkt (2. Adventswochenende)
+LOCATION:Mühlenplatz an Meyers Mühle\, Papenburg
+DESCRIPTION:Vereinsweihnachtsmarkt\; Fr 16–21\, Sa 12–22\, So 12–18:3
+ 0 Uhr.\nLaufzeit: 4.12.2026 bis 6.12.2026\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.papenburger-weihnachtsmarkt.de/
+URL:https://www.papenburger-weihnachtsmarkt.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-muehlenplatz-20261211-papenburger-weihnachtsmarkt-3-adventswochenen
+ de-beginn@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Beginn: Papenburger Weihnachtsmarkt (3. Adventswochenende)
+LOCATION:Mühlenplatz an Meyers Mühle\, Papenburg
+DESCRIPTION:Vereinsweihnachtsmarkt\; Fr 16–21\, Sa 12–22\, So 12–18:3
+ 0 Uhr.\nLaufzeit: 11.12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.papenburger-weihnachtsmarkt.de/
+URL:https://www.papenburger-weihnachtsmarkt.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-muehlenplatz-20261211-papenburger-weihnachtsmarkt-3-adventswochenen
+ de-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Papenburger Weihnachtsmarkt (3. Adventswochenende)
+LOCATION:Mühlenplatz an Meyers Mühle\, Papenburg
+DESCRIPTION:Vereinsweihnachtsmarkt\; Fr 16–21\, Sa 12–22\, So 12–18:3
+ 0 Uhr.\nLaufzeit: 11.12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.papenburger-weihnachtsmarkt.de/
+URL:https://www.papenburger-weihnachtsmarkt.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pap-gueterbahnhof-20261030-crystal-f-friends@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T203000
+DTEND;TZID=Europe/Berlin:20270213T223000
+SUMMARY:Crystal F & friends
+LOCATION:Güterbahnhof Papenburg\, Bahnhofstraße 21\, 26871 Papenburg
+DESCRIPTION:Rap mit Punk-Attitüde.\nEinlass 19:30\, Beginn 20:30 Uhr\nEnde
+ : laut Quelle nicht angegeben\nPreis: VVK ab 40 €\nTickets: https://weez
+ tix.shop/cgjj2vmq\nQuelle (bitte vor dem Besuch prüfen): https://gueterba
+ hnhof-papenburg.de/events/crystal-f-friends/
+URL:https://gueterbahnhof-papenburg.de/events/crystal-f-friends/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

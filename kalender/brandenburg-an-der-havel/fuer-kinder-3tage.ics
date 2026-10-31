@@ -1,0 +1,191 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Brandenburg an der Havel · my Event Hub (Erinn
+ erung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:brb-fouque-bibliothek-20261107-kolumbus-auf-buecherreise@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T103000
+DTEND;TZID=Europe/Berlin:20261107T123000
+SUMMARY:Kolumbus auf Bücherreise
+LOCATION:Fouqué-Bibliothek (Hauptstelle)\, Altstädtischer Markt 8\, 14770
+  Brandenburg an der Havel
+DESCRIPTION:In der Kinderbibliothek.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://bibliothek.stadt-brandenburg.
+ de/aktuelles/veranstaltungsuebersicht
+URL:https://bibliothek.stadt-brandenburg.de/aktuelles/veranstaltungsuebersi
+ cht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brb-theater-20261108-insel-ahoi-oder-komm-wir-bauen-uns-ein-schiff@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T143000
+DTEND;TZID=Europe/Berlin:20261108T163000
+SUMMARY:Insel Ahoi oder: Komm\, wir bauen uns ein Schiff
+LOCATION:Brandenburger Theater\, Brandenburg an der Havel
+DESCRIPTION:Figurentheater ab 3 Jahren\, Gastspiel Schnuppe-Figurentheater\
+ , Puppenbühne.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.brandenburgertheater.de/eventdetails?event=53
+ 58795
+URL:https://www.brandenburgertheater.de/eventdetails?event=5358795
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brb-theater-20261108-insel-ahoi-oder-komm-wir-bauen-uns-ein-schiff-1600
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T160000
+DTEND;TZID=Europe/Berlin:20261108T180000
+SUMMARY:Insel Ahoi oder: Komm\, wir bauen uns ein Schiff
+LOCATION:Brandenburger Theater\, Brandenburg an der Havel
+DESCRIPTION:Figurentheater ab 3 Jahren\, Gastspiel Schnuppe-Figurentheater\
+ , Puppenbühne.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.brandenburgertheater.de/eventdetails?event=53
+ 58795
+URL:https://www.brandenburgertheater.de/eventdetails?event=5358795
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brb-theater-20261109-insel-ahoi-oder-komm-wir-bauen-uns-ein-schiff@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T090000
+DTEND;TZID=Europe/Berlin:20261109T110000
+SUMMARY:Insel Ahoi oder: Komm\, wir bauen uns ein Schiff
+LOCATION:Brandenburger Theater\, Brandenburg an der Havel
+DESCRIPTION:Figurentheater ab 3 Jahren\, Gastspiel Schnuppe-Figurentheater\
+ , Puppenbühne.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.brandenburgertheater.de/eventdetails?event=53
+ 58795
+URL:https://www.brandenburgertheater.de/eventdetails?event=5358795
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brb-theater-20261109-insel-ahoi-oder-komm-wir-bauen-uns-ein-schiff-1030
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T103000
+DTEND;TZID=Europe/Berlin:20261109T123000
+SUMMARY:Insel Ahoi oder: Komm\, wir bauen uns ein Schiff
+LOCATION:Brandenburger Theater\, Brandenburg an der Havel
+DESCRIPTION:Figurentheater ab 3 Jahren\, Gastspiel Schnuppe-Figurentheater\
+ , Puppenbühne.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.brandenburgertheater.de/eventdetails?event=53
+ 58795
+URL:https://www.brandenburgertheater.de/eventdetails?event=5358795
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brb-theater-20261110-insel-ahoi-oder-komm-wir-bauen-uns-ein-schiff@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T090000
+DTEND;TZID=Europe/Berlin:20261110T110000
+SUMMARY:Insel Ahoi oder: Komm\, wir bauen uns ein Schiff
+LOCATION:Brandenburger Theater\, Brandenburg an der Havel
+DESCRIPTION:Figurentheater ab 3 Jahren\, Gastspiel Schnuppe-Figurentheater\
+ , Puppenbühne.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.brandenburgertheater.de/eventdetails?event=53
+ 58795
+URL:https://www.brandenburgertheater.de/eventdetails?event=5358795
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brb-theater-20261110-insel-ahoi-oder-komm-wir-bauen-uns-ein-schiff-1030
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T103000
+DTEND;TZID=Europe/Berlin:20261110T123000
+SUMMARY:Insel Ahoi oder: Komm\, wir bauen uns ein Schiff
+LOCATION:Brandenburger Theater\, Brandenburg an der Havel
+DESCRIPTION:Figurentheater ab 3 Jahren\, Gastspiel Schnuppe-Figurentheater\
+ , Puppenbühne.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.brandenburgertheater.de/eventdetails?event=53
+ 58795
+URL:https://www.brandenburgertheater.de/eventdetails?event=5358795
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brb-fouque-bibliothek-20261127-pokemon-tauschtag@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T150000
+DTEND;TZID=Europe/Berlin:20261127T170000
+SUMMARY:Pokémon-Tauschtag
+LOCATION:Fouqué-Bibliothek (Hauptstelle)\, Altstädtischer Markt 8\, 14770
+  Brandenburg an der Havel
+DESCRIPTION:In der Kinderbibliothek.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://bibliothek.stadt-brandenburg.
+ de/aktuelles/veranstaltungsuebersicht
+URL:https://bibliothek.stadt-brandenburg.de/aktuelles/veranstaltungsuebersi
+ cht
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Rövershagen · my Event Hub (Erinnerung 1 Tag
+  vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hro-karls-roevershagen-20261014-kuerbiszeit-2026-ende@myeventhub.de
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Kürbiszeit 2026
+LOCATION:Karls Erlebnis-Dorf Rövershagen\, Purkshof 2\, 18182 Rövershagen
+DESCRIPTION:Herbstaktion mit Kürbispyramide und Kürbisdekoration\, noch b
+ is 1. November 2026.\nLaufzeit: 14.10.2026 bis 1.11.2026\nQuelle (bitte vo
+ r dem Besuch prüfen): https://karls.de/erlebniskalender/kuerbiszeit
+URL:https://karls.de/erlebniskalender/kuerbiszeit
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

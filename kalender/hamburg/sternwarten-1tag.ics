@@ -1,0 +1,303 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sternwarten in Hamburg · my Event Hub (Erinnerung 1 Tag vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20261104-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T190000
+DTEND;TZID=Europe/Berlin:20261104T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20261107-die-olchis-aliens-im-anflug@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Die Olchis – Aliens im Anflug!
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20261118-vortrag-klassische-novae-wei
+ sse-zwerge-mit-thermon@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Vortrag: Klassische Novae – Weiße Zwerge mit thermonuklearen Hau
+ tkrankheiten
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Monatsvortrag des Fördervereins in der Bibliothek der Sternwar
+ te.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20261127-die-himmelskinder-weihnacht@myeventhub.
+ de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Die Himmelskinder-Weihnacht
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20261129-classique-cosmique@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Classique Cosmique
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20261202-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T190000
+DTEND;TZID=Europe/Berlin:20261202T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20261206-der-stern-von-bethlehem@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Der Stern von Bethlehem
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20261208-die-sternenfee-und-der-mondritter@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Die Sternenfee und der Mondritter
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20261216-vortrag-quasare-licht-aus-de
+ m-jungen-universum@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:Vortrag: Quasare – Licht aus dem jungen Universum
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Monatsvortrag des Fördervereins in der Bibliothek der Sternwar
+ te.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20270106-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T190000
+DTEND;TZID=Europe/Berlin:20270106T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20270122-360-grad-sylt-insel-im-weltnaturerbe-wa
+ ttenmeer@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:360 Grad Sylt – Insel im Weltnaturerbe Wattenmeer
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-planetarium-hamburg-20270122-eine-reise-auf-den-grund-des-ozeans@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Eine Reise auf den Grund des Ozeans
+LOCATION:Planetarium Hamburg\, Linnering 1\, 22299 Hamburg
+DESCRIPTION:Nächster Termin laut Veranstaltungsübersicht des Planetariums
+ .\nQuelle (bitte vor dem Besuch prüfen): https://www.planetarium-hamburg.
+ de/de/veranstaltungen-tickets
+URL:https://www.planetarium-hamburg.de/de/veranstaltungen-tickets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20270203-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270203T190000
+DTEND;TZID=Europe/Berlin:20270203T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-hamburger-sternwarte-bergedorf-20270303-beobachtungsabend@myeventhub
+ .de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T190000
+DTEND;TZID=Europe/Berlin:20270303T210000
+SUMMARY:Beobachtungsabend
+LOCATION:Hamburger Sternwarte (Bergedorf)\, Gojenbergsweg 112 (Eingang Augu
+ st-Bebel-Str. 196)\, 21029 Hamburg
+DESCRIPTION:Start am Sonnenbau\; bei bewölktem Himmel Führung statt Beoba
+ chtung.\nEnde: laut Quelle nicht angegeben\nPreis: 10 / 7\,50 Euro\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.fhsev.de/fhs-v26.php
+URL:https://www.fhsev.de/fhs-v26.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

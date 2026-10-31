@@ -1,0 +1,145 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Lemgo · my Event Hub (Erinnerung 3 Tage vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lip-phoenix-contact-arena-20261031-tbv-lemgo-lippe-sc-magdeburg@myevent
+ hub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:TBV Lemgo Lippe – SC Magdeburg
+LOCATION:PHOENIX CONTACT arena\, Bunsenstraße 39\, 32657 Lemgo
+DESCRIPTION:Heimspiel des TBV Lemgo Lippe.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://www.tbv-lemgo-lippe.de/
+ spielplan/
+URL:https://www.tbv-lemgo-lippe.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-phoenix-contact-arena-20261111-tbv-lemgo-lippe-thw-kiel@myeventhub.
+ de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T190000
+DTEND;TZID=Europe/Berlin:20261111T210000
+SUMMARY:TBV Lemgo Lippe – THW Kiel
+LOCATION:PHOENIX CONTACT arena\, Bunsenstraße 39\, 32657 Lemgo
+DESCRIPTION:Heimspiel des TBV Lemgo Lippe (Pokal laut DHB-Logo).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.tbv-lemgo-lippe.de/spielplan/
+URL:https://www.tbv-lemgo-lippe.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-phoenix-contact-arena-20261121-tbv-lemgo-lippe-vfl-gummersbach@myev
+ enthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:TBV Lemgo Lippe – VfL Gummersbach
+LOCATION:PHOENIX CONTACT arena\, Bunsenstraße 39\, 32657 Lemgo
+DESCRIPTION:Heimspiel des TBV Lemgo Lippe.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://www.tbv-lemgo-lippe.de/
+ spielplan/
+URL:https://www.tbv-lemgo-lippe.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-phoenix-contact-arena-20261206-tbv-lemgo-lippe-bergischer-hc@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T170000
+DTEND;TZID=Europe/Berlin:20261206T190000
+SUMMARY:TBV Lemgo Lippe – Bergischer HC
+LOCATION:PHOENIX CONTACT arena\, Bunsenstraße 39\, 32657 Lemgo
+DESCRIPTION:Heimspiel des TBV Lemgo Lippe.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://www.tbv-lemgo-lippe.de/
+ spielplan/
+URL:https://www.tbv-lemgo-lippe.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-phoenix-contact-arena-20261220-tbv-lemgo-lippe-thsv-eisenach@myeven
+ thub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T180000
+DTEND;TZID=Europe/Berlin:20261220T200000
+SUMMARY:TBV Lemgo Lippe – ThSV Eisenach
+LOCATION:PHOENIX CONTACT arena\, Bunsenstraße 39\, 32657 Lemgo
+DESCRIPTION:Heimspiel des TBV Lemgo Lippe.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://www.tbv-lemgo-lippe.de/
+ spielplan/
+URL:https://www.tbv-lemgo-lippe.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lip-phoenix-contact-arena-20261223-tbv-lemgo-lippe-sg-bbm-bietigheim@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T190000
+DTEND;TZID=Europe/Berlin:20261223T210000
+SUMMARY:TBV Lemgo Lippe – SG BBM Bietigheim
+LOCATION:PHOENIX CONTACT arena\, Bunsenstraße 39\, 32657 Lemgo
+DESCRIPTION:Heimspiel des TBV Lemgo Lippe.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://www.tbv-lemgo-lippe.de/
+ spielplan/
+URL:https://www.tbv-lemgo-lippe.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

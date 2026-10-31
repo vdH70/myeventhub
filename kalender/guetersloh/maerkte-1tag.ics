@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Gütersloh · my Event Hub (Erinnerung 1 Tag vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gt-stadtmuseum-guetersloh-20261128-adventsmarkt-am-stadtmuseum-beginn@m
+ yeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Beginn: Adventsmarkt am Stadtmuseum
+LOCATION:Stadtmuseum Gütersloh\, Kökerstr. 9-11A\, 33330 Gütersloh
+DESCRIPTION:Laufzeit: 28.11.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.stadtmuseum-guetersloh.de/
+URL:https://www.stadtmuseum-guetersloh.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gt-stadtmuseum-guetersloh-20261128-adventsmarkt-am-stadtmuseum-ende@mye
+ venthub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Adventsmarkt am Stadtmuseum
+LOCATION:Stadtmuseum Gütersloh\, Kökerstr. 9-11A\, 33330 Gütersloh
+DESCRIPTION:Laufzeit: 28.11.2026 bis 29.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.stadtmuseum-guetersloh.de/
+URL:https://www.stadtmuseum-guetersloh.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

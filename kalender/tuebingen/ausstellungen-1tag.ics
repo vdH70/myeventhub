@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Tübingen · my Event Hub (Erinnerung 1 Tag v
+ orher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tue-kunsthalle-20261010-lars-eidinger-present-perfect-im-dialog-mit-der
+ -sa-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: Lars Eidinger: Present Perfect. Im Dialog mit der Samm
+ lung
+LOCATION:Kunsthalle Tübingen\, Philosophenweg 76\, 72076 Tübingen
+DESCRIPTION:Laufzeit: 10.10.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kunsthalle-tuebingen.de/
+URL:https://www.kunsthalle-tuebingen.de/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-sudhaus-20261120-serge-le-goff-1000-m3-licht-beginn@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Beginn: Serge Le Goff – 1000 m³ Licht
+LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
+DESCRIPTION:Laufzeit: 20.11.2026 bis 20.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.sudhaus-tuebingen.de/programm/alle.html
+URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-sudhaus-20261120-serge-le-goff-1000-m3-licht-ende@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Letzter Tag: Serge Le Goff – 1000 m³ Licht
+LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
+DESCRIPTION:Laufzeit: 20.11.2026 bis 20.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.sudhaus-tuebingen.de/programm/alle.html
+URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

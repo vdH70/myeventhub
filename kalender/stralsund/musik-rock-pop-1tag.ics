@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Stralsund · my Event Hub (Erinnerung 1 Tag vorher
+ )
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hst-stoertebeker-brauquartier-20261106-stralsunder-musikernacht-beginn@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Beginn: Stralsunder Musikernacht
+LOCATION:Störtebeker Brauquartier (Alte Brauerei)\, Stralsund
+DESCRIPTION:Laufzeit: 6.11.2026 bis 7.11.2026\nTickets: https://www.reservi
+ x.de/tickets-stralsunder-musikernacht-eine-location-eine-nacht-sieben-stra
+ lsunder-bands-20-jahre-musikernacht-in-stralsund-alte-brauerei-am-7-11-202
+ 6/e2583630\nQuelle (bitte vor dem Besuch prüfen): https://www.stoertebeke
+ r-brauquartier.com/veranstaltungen/eventkalender
+URL:https://www.stoertebeker-brauquartier.com/veranstaltungen/eventkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hst-stoertebeker-brauquartier-20261106-stralsunder-musikernacht-ende@my
+ eventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Letzter Tag: Stralsunder Musikernacht
+LOCATION:Störtebeker Brauquartier (Alte Brauerei)\, Stralsund
+DESCRIPTION:Laufzeit: 6.11.2026 bis 7.11.2026\nTickets: https://www.reservi
+ x.de/tickets-stralsunder-musikernacht-eine-location-eine-nacht-sieben-stra
+ lsunder-bands-20-jahre-musikernacht-in-stralsund-alte-brauerei-am-7-11-202
+ 6/e2583630\nQuelle (bitte vor dem Besuch prüfen): https://www.stoertebeke
+ r-brauquartier.com/veranstaltungen/eventkalender
+URL:https://www.stoertebeker-brauquartier.com/veranstaltungen/eventkalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Oberwesel · my Event Hub (Erinnerung 3 Stunden vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sim-kulturhaus-oberwesel-20261128-weihnachtsmarkt-im-kulturhaus-beginn@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Beginn: Weihnachtsmarkt im Kulturhaus
+LOCATION:Kulturhaus Oberwesel (Stadtmuseum)\, Rathausstraße 23\, 55430 Obe
+ rwesel
+DESCRIPTION:Laufzeit: 28.11.2026 bis 29.11.2026\nPreis: Eintritt frei\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.kulturhaus-oberwesel.de/pro
+ gramm-tickets/kulturveranstaltung
+URL:https://www.kulturhaus-oberwesel.de/programm-tickets/kulturveranstaltun
+ g
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sim-kulturhaus-oberwesel-20261128-weihnachtsmarkt-im-kulturhaus-ende@my
+ eventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Weihnachtsmarkt im Kulturhaus
+LOCATION:Kulturhaus Oberwesel (Stadtmuseum)\, Rathausstraße 23\, 55430 Obe
+ rwesel
+DESCRIPTION:Laufzeit: 28.11.2026 bis 29.11.2026\nPreis: Eintritt frei\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.kulturhaus-oberwesel.de/pro
+ gramm-tickets/kulturveranstaltung
+URL:https://www.kulturhaus-oberwesel.de/programm-tickets/kulturveranstaltun
+ g
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

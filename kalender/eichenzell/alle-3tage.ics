@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Eichenzell · my Event Hub (Erinnerung 3 Tage 
+ vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fd-schloss-fasanerie-20261030-gespenstisches-halloween-wochenende-begin
+ n@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Beginn: Gespenstisches Halloween-Wochenende
+LOCATION:Schloss Fasanerie\, 36124 Eichenzell
+DESCRIPTION:Halloween-Wochenende mit Gespensterführung für Kinder.\nLaufz
+ eit: 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.schloss-fasanerie.de/nc/veranstaltungen/alle-veranstaltungen/
+URL:https://www.schloss-fasanerie.de/nc/veranstaltungen/alle-veranstaltunge
+ n/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fd-schloss-fasanerie-20261030-gespenstisches-halloween-wochenende-ende@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Gespenstisches Halloween-Wochenende
+LOCATION:Schloss Fasanerie\, 36124 Eichenzell
+DESCRIPTION:Halloween-Wochenende mit Gespensterführung für Kinder.\nLaufz
+ eit: 30.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.schloss-fasanerie.de/nc/veranstaltungen/alle-veranstaltungen/
+URL:https://www.schloss-fasanerie.de/nc/veranstaltungen/alle-veranstaltunge
+ n/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fd-schloss-fasanerie-20261107-winteroeffnung-schloss-fasanerie-beginn@m
+ yeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Beginn: Winteröffnung Schloss Fasanerie
+LOCATION:Schloss Fasanerie\, 36124 Eichenzell
+DESCRIPTION:Laufzeit: 7.11.2026 bis 10.1.2027\nPreis: 10\,50 € / erm. 9\,
+ 00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.schloss-fasaner
+ ie.de/nc/veranstaltungen/alle-veranstaltungen/
+URL:https://www.schloss-fasanerie.de/nc/veranstaltungen/alle-veranstaltunge
+ n/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fd-schloss-fasanerie-20261107-winteroeffnung-schloss-fasanerie-ende@mye
+ venthub.de
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Winteröffnung Schloss Fasanerie
+LOCATION:Schloss Fasanerie\, 36124 Eichenzell
+DESCRIPTION:Laufzeit: 7.11.2026 bis 10.1.2027\nPreis: 10\,50 € / erm. 9\,
+ 00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.schloss-fasaner
+ ie.de/nc/veranstaltungen/alle-veranstaltungen/
+URL:https://www.schloss-fasanerie.de/nc/veranstaltungen/alle-veranstaltunge
+ n/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,240 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Düsseldorf · my Event Hub (Erinnerung 3 Stunden vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d-atelier-20261031-ozzy-black-sabbath-back-to-the-beginning@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T133000
+DTEND;TZID=Europe/Berlin:20261031T153000
+SUMMARY:Ozzy & Black Sabbath: Back To The Beginning
+LOCATION:Atelier Düsseldorf\, Graf-Adolf-Str. 47\, 40210 Düsseldorf
+DESCRIPTION:Konzertfilm\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://filmkunstkinos.de/kinos/atelier/
+URL:https://filmkunstkinos.de/kinos/atelier/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-cinema-20261031-niki-de-saint-phalle@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T134500
+DTEND;TZID=Europe/Berlin:20261031T154500
+SUMMARY:Niki de Saint Phalle
+LOCATION:Cinema Düsseldorf\, Schneider-Wibbel-Gasse 5\, 40213 Düsseldorf
+DESCRIPTION:Kunst im Kino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/cinema/
+URL:https://filmkunstkinos.de/kinos/cinema/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261031-shaun-das-schaf-spuk-im-kuerbisfeld@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T143000
+DTEND;TZID=Europe/Berlin:20261031T163000
+SUMMARY:Shaun das Schaf: Spuk im Kürbisfeld
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261031-biermann@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+SUMMARY:Biermann
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Zu Gast in unseren Kinos\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/metro
+ pol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261031-queens-of-the-dead@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T213000
+DTEND;TZID=Europe/Berlin:20261031T233000
+SUMMARY:Queens of the Dead
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Halloween 2026\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261031-dog-of-god@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T213000
+DTEND;TZID=Europe/Berlin:20261031T233000
+SUMMARY:Dog of God
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Halloween Preview\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-metropol-20261101-shaun-das-schaf-spuk-im-kuerbisfeld@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T143000
+DTEND;TZID=Europe/Berlin:20261101T163000
+SUMMARY:Shaun das Schaf: Spuk im Kürbisfeld
+LOCATION:Metropol Düsseldorf\, Brunnenstr. 20\, 40223 Düsseldorf
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://filmkunstkinos.de/kinos/metropol/
+URL:https://filmkunstkinos.de/kinos/metropol/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261101-bibi-blocksberg-2-die-total-verhexte-zeitreise@myevent
+ hub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T144500
+DTEND;TZID=Europe/Berlin:20261101T164500
+SUMMARY:Bibi Blocksberg 2 - Die total verhexte Zeitreise
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Kinderkino\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-cinema-20261101-rbo-manon-ballett@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:RBO: Manon (Ballett)
+LOCATION:Cinema Düsseldorf\, Schneider-Wibbel-Gasse 5\, 40213 Düsseldorf
+DESCRIPTION:Royal Ballet and Opera\, Ballett-Übertragung\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://filmkuns
+ tkinos.de/kinos/cinema/
+URL:https://filmkunstkinos.de/kinos/cinema/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261102-sneak-preview@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:Sneak Preview
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Sneak Preview\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261102-the-killer@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T210000
+SUMMARY:The Killer
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:John Woo Klassiker restauriert\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://filmkunstkinos.de/kinos
+ /bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bambi-20261102-free-at-heart@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T211500
+DTEND;TZID=Europe/Berlin:20261102T231500
+SUMMARY:Free at Heart
+LOCATION:Bambi Düsseldorf\, Klosterstr. 78\, 40211 Düsseldorf
+DESCRIPTION:Queer Monday\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://filmkunstkinos.de/kinos/bambi/
+URL:https://filmkunstkinos.de/kinos/bambi/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

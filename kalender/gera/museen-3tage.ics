@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Gera · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:g-museum-angewandte-kunst-20260331-paul-helmut-becker-gebrauchsgrafik-z
+ wischen-tradit-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Letzter Tag: Paul Helmut Becker – Gebrauchsgrafik zwischen Tradit
+ ion und Wirtschaftspolitik der DDR
+LOCATION:Museum für Angewandte Kunst Gera\, Greizer Straße 37–39\, 0754
+ 5 Gera
+DESCRIPTION:Kabinettausstellung zu DDR-Gebrauchsgrafik.\nLaufzeit: 31.3.202
+ 6 bis 14.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.gera.d
+ e/tourismus-freizeit-kultur/museen/museum-fuer-angewandte-kunst/aktuelle-a
+ usstellungen
+URL:https://www.gera.de/tourismus-freizeit-kultur/museen/museum-fuer-angewa
+ ndte-kunst/aktuelle-ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:g-museum-angewandte-kunst-20260923-15-aenne-biermann-preis-fuer-deutsch
+ e-gegenwartsfo-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Letzter Tag: 15. Aenne-Biermann-Preis für deutsche Gegenwartsfotog
+ rafie
+LOCATION:Museum für Angewandte Kunst Gera\, Greizer Straße 37–39\, 0754
+ 5 Gera
+DESCRIPTION:Laufzeit: 23.9.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gera.de/tourismus-freizeit-kultur/museen/museum-fue
+ r-angewandte-kunst/aktuelle-ausstellungen
+URL:https://www.gera.de/tourismus-freizeit-kultur/museen/museum-fuer-angewa
+ ndte-kunst/aktuelle-ausstellungen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

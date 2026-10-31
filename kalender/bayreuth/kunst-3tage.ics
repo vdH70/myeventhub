@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kunst in Bayreuth · my Event Hub (Erinnerung 3 Tage vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bt-kunstmuseum-20261025-a-d-trantenroth-objekte-und-gedanken-aus-dem-ku
+ ens-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Beginn: A. D. Trantenroth – Objekte und Gedanken aus dem Künstle
+ rnachlass
+LOCATION:Kunstmuseum Bayreuth\, Maximilianstraße 33\, 95444 Bayreuth
+DESCRIPTION:Sonderausstellung.\nLaufzeit: 25.10.2026 bis 28.2.2027\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.kunstmuseum-bayreuth.de/aktuel
+ les/aktuelle-ausstellung
+URL:https://www.kunstmuseum-bayreuth.de/aktuelles/aktuelle-ausstellung
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bt-kunstmuseum-20261025-a-d-trantenroth-objekte-und-gedanken-aus-dem-ku
+ ens-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Letzter Tag: A. D. Trantenroth – Objekte und Gedanken aus dem Kü
+ nstlernachlass
+LOCATION:Kunstmuseum Bayreuth\, Maximilianstraße 33\, 95444 Bayreuth
+DESCRIPTION:Sonderausstellung.\nLaufzeit: 25.10.2026 bis 28.2.2027\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.kunstmuseum-bayreuth.de/aktuel
+ les/aktuelle-ausstellung
+URL:https://www.kunstmuseum-bayreuth.de/aktuelles/aktuelle-ausstellung
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

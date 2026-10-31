@@ -1,0 +1,459 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Duisburg · my Event Hub (Erinnerung 3 Stunden vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:du-filmforum-20261031-albrecht-weinberg-es-ist-immer-in-meinem-kopf@mye
+ venthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T153000
+DTEND;TZID=Europe/Berlin:20261031T173000
+SUMMARY:Albrecht Weinberg - Es ist immer in meinem Kopf
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261031-biermann@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+SUMMARY:Biermann
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261101-glaube@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T174500
+DTEND;TZID=Europe/Berlin:20261101T194500
+SUMMARY:Glaube
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261101-biermann@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+SUMMARY:Biermann
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261102-nathalie-2030@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T203000
+DTEND;TZID=Europe/Berlin:20261102T223000
+SUMMARY:Nathalie
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261103-hinterlegte-nummern@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T100000
+DTEND;TZID=Europe/Berlin:20261103T120000
+SUMMARY:Hinterlegte Nummern
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261103-das-monument-bewegt-sich@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T142000
+DTEND;TZID=Europe/Berlin:20261103T162000
+SUMMARY:Das Monument bewegt sich
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261103-estahbes@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T160000
+DTEND;TZID=Europe/Berlin:20261103T180000
+SUMMARY:Estahbes
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261104-die-schoepfer-der-einkaufswelten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T100000
+DTEND;TZID=Europe/Berlin:20261104T120000
+SUMMARY:Die Schöpfer der Einkaufswelten
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261104-beni-s-noise@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T120000
+DTEND;TZID=Europe/Berlin:20261104T140000
+SUMMARY:Béni`s Noise
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261104-afterlives@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T140000
+DTEND;TZID=Europe/Berlin:20261104T160000
+SUMMARY:Afterlives
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261104-heimsuchung-eine-jahrhundertgeschichte-2015@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T201500
+DTEND;TZID=Europe/Berlin:20261104T221500
+SUMMARY:Heimsuchung - Eine Jahrhundertgeschichte
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261104-i-love-you-i-leave-you@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T203000
+DTEND;TZID=Europe/Berlin:20261104T223000
+SUMMARY:I love you\, I leave you
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261105-an-open-field-1000@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T100000
+DTEND;TZID=Europe/Berlin:20261105T120000
+SUMMARY:An open field
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261105-chronos-fluss-der-zeit-1430@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T143000
+DTEND;TZID=Europe/Berlin:20261105T163000
+SUMMARY:Chronos - Fluss der Zeit
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261105-en-plus-1-2130@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T213000
+DTEND;TZID=Europe/Berlin:20261105T233000
+SUMMARY:EN PLUS 1
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261106-auf-der-rueckseite-der-landschaft-1715@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T171500
+DTEND;TZID=Europe/Berlin:20261106T191500
+SUMMARY:Auf der Rückseite der Landschaft
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261106-mit-aesten-bis-zum-himmel-1900@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Mit Ästen bis zum Himmel
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261107-alte-liebe-1530@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T153000
+DTEND;TZID=Europe/Berlin:20261107T173000
+SUMMARY:Alte Liebe
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261108-duisburgbilder-1-1100@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Duisburgbilder 1
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261108-emil-und-die-detektive-1500@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Emil und die Detektive
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261108-biermann-1730@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T173000
+DTEND;TZID=Europe/Berlin:20261108T193000
+SUMMARY:Biermann
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261109-frau-winkler-verlaesst-das-haus-1530@myeventhub.d
+ e
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T153000
+DTEND;TZID=Europe/Berlin:20261109T173000
+SUMMARY:Frau Winkler verlässt das Haus
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261109-naza-2030@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T203000
+DTEND;TZID=Europe/Berlin:20261109T223000
+SUMMARY:NAZA
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-filmforum-20261110-ein-talent-fuers-morden-1815@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T181500
+DTEND;TZID=Europe/Berlin:20261110T201500
+SUMMARY:Ein Talent fürs Morden
+LOCATION:filmforum Duisburg\, Dellplatz 16\, 47051 Duisburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://filmforum.de/programm/
+URL:https://filmforum.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

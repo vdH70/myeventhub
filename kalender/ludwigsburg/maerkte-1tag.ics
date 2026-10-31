@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Ludwigsburg · my Event Hub (Erinnerung 1 Tag vorhe
+ r)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lb-marktplatz-20261124-ludwigsburger-barock-weihnachtsmarkt-beginn@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Beginn: Ludwigsburger Barock-Weihnachtsmarkt
+LOCATION:Marktplatz Ludwigsburg\, Marktplatz\, Ludwigsburg
+DESCRIPTION:Weihnachtsmarkt von Tourismus & Events Ludwigsburg auf Marktpla
+ tz und Arsenalplatz.\nLaufzeit: 24.11.2026 bis 22.12.2026\nQuelle (bitte v
+ or dem Besuch prüfen): https://visit.ludwigsburg.de/start/events/ludwigsb
+ urger+barock-weihnachtsmarkt.html
+URL:https://visit.ludwigsburg.de/start/events/ludwigsburger+barock-weihnach
+ tsmarkt.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lb-marktplatz-20261124-ludwigsburger-barock-weihnachtsmarkt-ende@myeven
+ thub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Letzter Tag: Ludwigsburger Barock-Weihnachtsmarkt
+LOCATION:Marktplatz Ludwigsburg\, Marktplatz\, Ludwigsburg
+DESCRIPTION:Weihnachtsmarkt von Tourismus & Events Ludwigsburg auf Marktpla
+ tz und Arsenalplatz.\nLaufzeit: 24.11.2026 bis 22.12.2026\nQuelle (bitte v
+ or dem Besuch prüfen): https://visit.ludwigsburg.de/start/events/ludwigsb
+ urger+barock-weihnachtsmarkt.html
+URL:https://visit.ludwigsburg.de/start/events/ludwigsburger+barock-weihnach
+ tsmarkt.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

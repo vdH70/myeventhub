@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Cloppenburg · my Event Hub (Erinnerung 3 Stun
+ den vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:clp-kulturbahnhof-20261105-kabarett-theater-distel-stadt-land-sockensch
+ uss@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T201500
+DTEND;TZID=Europe/Berlin:20261105T221500
+SUMMARY:Kabarett-Theater DISTEL: Stadt – Land – Sockenschuss
+LOCATION:Kulturbahnhof Cloppenburg\, Bahnhofstraße 82\, 49661 Cloppenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbahnhof-cloppenburg.de/service/belegungsliste
+ /kabarett-comedy/distel-theatersaal-theaterforum-2.html
+URL:https://www.kulturbahnhof-cloppenburg.de/service/belegungsliste/kabaret
+ t-comedy/distel-theatersaal-theaterforum-2.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clp-kulturbahnhof-20261114-tucson-westcoast-und-southern-rock@myeventhu
+ b.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:TUCSON – Westcoast und Southern Rock
+LOCATION:Kulturbahnhof Cloppenburg\, Bahnhofstraße 82\, 49661 Cloppenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbahnhof-cloppenburg.de/service/belegungsliste
+ /konzerte-musical/tucson-westcoast-und-southern-rock.html
+URL:https://www.kulturbahnhof-cloppenburg.de/service/belegungsliste/konzert
+ e-musical/tucson-westcoast-und-southern-rock.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clp-museumsdorf-20261128-nikolausmarkt-1-adventswochenende-beginn@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Beginn: Nikolausmarkt (1. Adventswochenende)
+LOCATION:Museumsdorf Cloppenburg\, Bether Straße 6\, 49661 Cloppenburg
+DESCRIPTION:Samstag 11–20 Uhr\, Sonntag 11–18 Uhr.\nLaufzeit: 28.11.202
+ 6 bis 29.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://museumsdo
+ rf.de/event/nikolausmarkt/?event_date=2026-11-28
+URL:https://museumsdorf.de/event/nikolausmarkt/?event_date=2026-11-28
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clp-museumsdorf-20261128-nikolausmarkt-1-adventswochenende-ende@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Nikolausmarkt (1. Adventswochenende)
+LOCATION:Museumsdorf Cloppenburg\, Bether Straße 6\, 49661 Cloppenburg
+DESCRIPTION:Samstag 11–20 Uhr\, Sonntag 11–18 Uhr.\nLaufzeit: 28.11.202
+ 6 bis 29.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://museumsdo
+ rf.de/event/nikolausmarkt/?event_date=2026-11-28
+URL:https://museumsdorf.de/event/nikolausmarkt/?event_date=2026-11-28
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clp-kulturbahnhof-20261129-sebastian-kraemer-ein-licht-geht-uns-auf@mye
+ venthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T170000
+DTEND;TZID=Europe/Berlin:20261129T190000
+SUMMARY:Sebastian Krämer: Ein Licht geht uns auf
+LOCATION:Kulturbahnhof Cloppenburg\, Bahnhofstraße 82\, 49661 Cloppenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturbahnhof-cloppenburg.de/service/belegungsliste
+ /kabarett-comedy/belegt-theatersaal-theaterforum-3.html
+URL:https://www.kulturbahnhof-cloppenburg.de/service/belegungsliste/kabaret
+ t-comedy/belegt-theatersaal-theaterforum-3.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clp-museumsdorf-20261205-nikolausmarkt-2-adventswochenende-beginn@myeve
+ nthub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Beginn: Nikolausmarkt (2. Adventswochenende)
+LOCATION:Museumsdorf Cloppenburg\, Bether Straße 6\, 49661 Cloppenburg
+DESCRIPTION:Samstag 11–20 Uhr\, Sonntag 11–18 Uhr.\nLaufzeit: 5.12.2026
+  bis 6.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://museumsdorf
+ .de/event/nikolausmarkt/?event_date=2026-11-28
+URL:https://museumsdorf.de/event/nikolausmarkt/?event_date=2026-11-28
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:clp-museumsdorf-20261205-nikolausmarkt-2-adventswochenende-ende@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Letzter Tag: Nikolausmarkt (2. Adventswochenende)
+LOCATION:Museumsdorf Cloppenburg\, Bether Straße 6\, 49661 Cloppenburg
+DESCRIPTION:Samstag 11–20 Uhr\, Sonntag 11–18 Uhr.\nLaufzeit: 5.12.2026
+  bis 6.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://museumsdorf
+ .de/event/nikolausmarkt/?event_date=2026-11-28
+URL:https://museumsdorf.de/event/nikolausmarkt/?event_date=2026-11-28
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Stunden vorher)
+TRIGGER:-PT3H
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

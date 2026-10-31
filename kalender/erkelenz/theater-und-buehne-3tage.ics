@@ -1,0 +1,129 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Erkelenz · my Event Hub (Erinnerung 3 Tag
+ e vorher)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hs-stadthalle-erkelenz-20261109-theater-abend-die-weisse-rose-die-letzt
+ en-tage-der@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Theater-Abend: Die weisse Rose – Die letzten Tage der Sophie Scho
+ ll
+LOCATION:Stadthalle Erkelenz\, Franziskanerplatz 11\, 41812 Erkelenz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 13 €\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.stadthalle-erkelenz.de/veranstaltung
+ /theater-abend-die-weisse-rose-die-letzten-tage-der-sophie-scholl/
+URL:https://www.stadthalle-erkelenz.de/veranstaltung/theater-abend-die-weis
+ se-rose-die-letzten-tage-der-sophie-scholl/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hs-stadthalle-erkelenz-20261203-kabarett-abend-x-mas-kabarett-christine
+ -schuetz@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Kabarett-Abend: X-Mas Kabarett Christine Schütz
+LOCATION:Stadthalle Erkelenz\, Franziskanerplatz 11\, 41812 Erkelenz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24 €\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.stadthalle-erkelenz.de/veranstaltung
+ /kabarett-abend-x-mas-kabarett-christine-schuetz/
+URL:https://www.stadthalle-erkelenz.de/veranstaltung/kabarett-abend-x-mas-k
+ abarett-christine-schuetz/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hs-stadthalle-erkelenz-20270218-theater-abend-lola-blau@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T200000
+DTEND;TZID=Europe/Berlin:20270218T220000
+SUMMARY:Theater-Abend: Lola Blau
+LOCATION:Stadthalle Erkelenz\, Franziskanerplatz 11\, 41812 Erkelenz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 13 €\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.stadthalle-erkelenz.de/veranstaltung
+ /theater-abend-lola-blau/
+URL:https://www.stadthalle-erkelenz.de/veranstaltung/theater-abend-lola-bla
+ u/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hs-stadthalle-erkelenz-20270304-aladin-das-musical@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T160000
+DTEND;TZID=Europe/Berlin:20270304T180000
+SUMMARY:Aladin – Das Musical
+LOCATION:Stadthalle Erkelenz\, Franziskanerplatz 11\, 41812 Erkelenz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24–30 € (VVK)\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.stadthalle-erkelenz.de/ve
+ ranstaltung/aladin-das-musical/
+URL:https://www.stadthalle-erkelenz.de/veranstaltung/aladin-das-musical/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hs-stadthalle-erkelenz-20270312-theater-abend-hilfe-mein-mann-wird-mutt
+ er@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:Theater-Abend: Hilfe\, mein Mann wird Mutter
+LOCATION:Stadthalle Erkelenz\, Franziskanerplatz 11\, 41812 Erkelenz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 13 €\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.stadthalle-erkelenz.de/veranstaltung
+ /theater-abend-hilfe-mein-mann-wird-mutter/
+URL:https://www.stadthalle-erkelenz.de/veranstaltung/theater-abend-hilfe-me
+ in-mann-wird-mutter/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (3 Tage vorher)
+TRIGGER:-P3D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

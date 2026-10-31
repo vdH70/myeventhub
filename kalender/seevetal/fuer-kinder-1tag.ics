@@ -1,0 +1,183 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Seevetal · my Event Hub (Erinnerung 1 Tag vorh
+ er)
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261107-volker-rosin-tierische-kinderdisco@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T140000
+DTEND;TZID=Europe/Berlin:20261107T160000
+SUMMARY:Volker Rosin – Tierische Kinderdisco (ausverkauft)
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.burg-seevetal.de/portal/veranstaltunge
+ n/veranstaltungen-13684-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 84-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261107-volker-rosin-tierische-kinderdisco-1630@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T163000
+DTEND;TZID=Europe/Berlin:20261107T183000
+SUMMARY:Volker Rosin – Tierische Kinderdisco
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13685-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 85-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261122-weihnachtsmaerchen-schneewittchen-kinder-spie
+ len-f@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T160000
+DTEND;TZID=Europe/Berlin:20261122T180000
+SUMMARY:Weihnachtsmärchen „Schneewittchen“ – Kinder spielen für Kin
+ der e. V.
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13691-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 91-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261205-weihnachtsmaerchen-schneewittchen-kinder-spie
+ len-f@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T140000
+DTEND;TZID=Europe/Berlin:20261205T160000
+SUMMARY:Weihnachtsmärchen „Schneewittchen“ – Kinder spielen für Kin
+ der e. V.
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13692-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 92-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261205-weihnachtsmaerchen-schneewittchen-kinder-spie
+ len-f-1700@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T170000
+DTEND;TZID=Europe/Berlin:20261205T190000
+SUMMARY:Weihnachtsmärchen „Schneewittchen“ – Kinder spielen für Kin
+ der e. V.
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13693-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 93-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261206-weihnachtsmaerchen-schneewittchen-kinder-spie
+ len-f@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T120000
+DTEND;TZID=Europe/Berlin:20261206T140000
+SUMMARY:Weihnachtsmärchen „Schneewittchen“ – Kinder spielen für Kin
+ der e. V.
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13694-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 94-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wl-burg-seevetal-20261206-weihnachtsmaerchen-schneewittchen-kinder-spie
+ len-f-1500@myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Weihnachtsmärchen „Schneewittchen“ – Kinder spielen für Kin
+ der e. V.
+LOCATION:Burg Seevetal – Veranstaltungszentrum\, Am Göhlenbach 11\, 2121
+ 8 Seevetal
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltu
+ ngen-13695-10.html
+URL:https://www.burg-seevetal.de/portal/veranstaltungen/veranstaltungen-136
+ 95-10.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung (1 Tag vorher)
+TRIGGER:-P1D
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
