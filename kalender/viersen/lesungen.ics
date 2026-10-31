@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Viersen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:vie-staedtische-galerie-im-park-20261113-gregor-maria-hoff-der-schatten
+ -hinter-den-schatten@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Gregor Maria Hoff: Der Schatten hinter den Schatten
+LOCATION:Städtische Galerie im Park\, Rathauspark 1\, 41747 Viersen
+DESCRIPTION:Veranstaltung in der Galerie im Park (laut Link Lesung)\; Uhrze
+ it nicht angegeben.\nQuelle (bitte vor dem Besuch prüfen): https://vierfa
+ lt-viersen.de/locations/galerie-im-park/
+URL:https://vierfalt-viersen.de/locations/galerie-im-park/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
