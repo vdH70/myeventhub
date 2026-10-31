@@ -10,6 +10,66 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bit-haus-beda-20261115-nachwuchskonzert-der-kreismusikschule-bitburg-pr
+ ue@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Nachwuchskonzert der Kreismusikschule Bitburg-Prüm
+LOCATION:Haus Beda – Museum Fritz von Wille und Neue Galerie\, Bedaplatz 
+ 1\, 54634 Bitburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.haus-beda.de/kalender/
+URL:https://www.haus-beda.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bit-haus-beda-20261121-jahr-des-akkordeons-gemeinschaftskonzert@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T190000
+DTEND;TZID=Europe/Berlin:20261121T210000
+SUMMARY:Jahr des Akkordeons – Gemeinschaftskonzert
+LOCATION:Haus Beda – Museum Fritz von Wille und Neue Galerie\, Bedaplatz 
+ 1\, 54634 Bitburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\, Spend
+ en willkommen\nQuelle (bitte vor dem Besuch prüfen): https://www.haus-bed
+ a.de/kalender/
+URL:https://www.haus-beda.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bit-haus-beda-20261123-jazzkonzert-sophia-oster-quartett@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T190000
+DTEND;TZID=Europe/Berlin:20261123T210000
+SUMMARY:Jazzkonzert Sophia Oster Quartett
+LOCATION:Haus Beda – Museum Fritz von Wille und Neue Galerie\, Bedaplatz 
+ 1\, 54634 Bitburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 15 €\, ermäßigt 5
+  €\nQuelle (bitte vor dem Besuch prüfen): https://www.haus-beda.de/kale
+ nder/
+URL:https://www.haus-beda.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:bit-stadthalle-20261126-k-pop-live-die-hits-die-moves-die-show@myeventh
  ub.de
@@ -45,6 +105,21 @@ LOCATION:Bitburger Stadthalle\, Römermauer 4\, 54634 Bitburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bitburger-st
  adthalle.de/events/
 URL:https://www.bitburger-stadthalle.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bit-haus-beda-20261211-joe-wulf-s-wonderful-world-of-christmas@myeventh
+ ub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T190000
+DTEND;TZID=Europe/Berlin:20261211T210000
+SUMMARY:Joe Wulf's Wonderful World of Christmas
+LOCATION:Haus Beda – Museum Fritz von Wille und Neue Galerie\, Bedaplatz 
+ 1\, 54634 Bitburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 15 €\, ermäßigt 5
+  €\nQuelle (bitte vor dem Besuch prüfen): https://www.haus-beda.de/kale
+ nder/
+URL:https://www.haus-beda.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
