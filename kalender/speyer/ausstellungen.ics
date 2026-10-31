@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Speyer · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sp-purrmann-haus-20261017-malerinnen-der-moderne-paula-modersohn-becker
+ -und-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Beginn: Malerinnen der Moderne. Paula Modersohn-Becker und Gabriele
+  Münter zu Gast bei Mathilde Vollmoeller-Purrmann
+LOCATION:Purrmann-Haus\, Kleine Greifengasse 14\, 67346 Speyer
+DESCRIPTION:Laufzeit: 17.10.2026 bis 11.4.2027\nPreis: 10 Euro\, ermäßigt
+  8 Euro\; Kinder bis 12 Jahre frei\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.speyer.de/de/kultur/bildende-kunst/purrmann-haus/
+URL:https://www.speyer.de/de/kultur/bildende-kunst/purrmann-haus/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-purrmann-haus-20261017-malerinnen-der-moderne-paula-modersohn-becker
+ -und-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Letzter Tag: Malerinnen der Moderne. Paula Modersohn-Becker und Gab
+ riele Münter zu Gast bei Mathilde Vollmoeller-Purrmann
+LOCATION:Purrmann-Haus\, Kleine Greifengasse 14\, 67346 Speyer
+DESCRIPTION:Laufzeit: 17.10.2026 bis 11.4.2027\nPreis: 10 Euro\, ermäßigt
+  8 Euro\; Kinder bis 12 Jahre frei\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.speyer.de/de/kultur/bildende-kunst/purrmann-haus/
+URL:https://www.speyer.de/de/kultur/bildende-kunst/purrmann-haus/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
