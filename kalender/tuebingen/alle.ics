@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:tue-kunsthalle-20261010-lars-eidinger-present-perfect-im-dialog-mit-der
  -sa-ende@myeventhub.de
@@ -25,6 +42,34 @@ URL:https://www.kunsthalle-tuebingen.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:tue-stadtmuseum-20261031-animation-mit-schere-und-papier-auf-den-spuren
+ -von@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T140000
+DTEND;TZID=Europe/Berlin:20261031T160000
+SUMMARY:Animation mit Schere und Papier – auf den Spuren von Lotte Reinig
+ er
+LOCATION:Stadtmuseum Tübingen\, Kornhausstraße 10\, 72070 Tübingen
+DESCRIPTION:Workshop im Stadtmuseum\, 14 bis 17 Uhr.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.stadtmuse
+ um-tuebingen.de/veranstaltungen/
+URL:https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-stadtmuseum-20261101-sonntagsfuehrung-sprechen-ueber-hiv@myeventhub
+ .de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T150000
+DTEND;TZID=Europe/Berlin:20261101T170000
+SUMMARY:Sonntagsführung: Sprechen über HIV
+LOCATION:Stadtmuseum Tübingen\, Kornhausstraße 10\, 72070 Tübingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+URL:https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:tue-sudhaus-20261104-black-sea-dahu@myeventhub.de
 DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261104
@@ -34,6 +79,20 @@ LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.sudhaus-tueb
  ingen.de/programm/alle.html
 URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-stadtmuseum-20261107-sprechen-ueber-hiv-austausch-mit-dem-kreations
+ team@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T110000
+DTEND;TZID=Europe/Berlin:20261107T130000
+SUMMARY:Sprechen über HIV: Austausch mit dem Kreationsteam Science and Inn
+ ovation Days
+LOCATION:Stadtmuseum Tübingen\, Kornhausstraße 10\, 72070 Tübingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+URL:https://www.stadtmuseum-tuebingen.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -49,6 +108,20 @@ URL:https://www.sudhaus-tuebingen.de/programm/alle.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:tue-stadtmuseum-20261108-sonntagsfuehrung-der-erste-trickfilm-100-jahre
+ -abe@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Sonntagsführung: Der erste Trickfilm! 100 Jahre Abenteuer des Prin
+ zen Achmed
+LOCATION:Stadtmuseum Tübingen\, Kornhausstraße 10\, 72070 Tübingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+URL:https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:tue-sudhaus-20261110-vince-ebert@myeventhub.de
 DTSTAMP:20261024T000000Z
 DTSTART;VALUE=DATE:20261110
@@ -58,6 +131,19 @@ LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.sudhaus-tueb
  ingen.de/programm/alle.html
 URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-stadtmuseum-20261112-stadtgespraech-zum-schutz-von-metropolis@myeve
+ nthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T180000
+DTEND;TZID=Europe/Berlin:20261112T200000
+SUMMARY:Stadtgespräch: Zum Schutz von Metropolis
+LOCATION:Stadtmuseum Tübingen\, Kornhausstraße 10\, 72070 Tübingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+URL:https://www.stadtmuseum-tuebingen.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -73,6 +159,19 @@ URL:https://www.sudhaus-tuebingen.de/programm/alle.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:tue-stadtmuseum-20261115-sonntagsfuehrung-koloniale-orte-in-tuebingen@m
+ yeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Sonntagsführung: Koloniale Orte in Tübingen
+LOCATION:Stadtmuseum Tübingen\, Kornhausstraße 10\, 72070 Tübingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+URL:https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:tue-sudhaus-20261118-next-to-normal@myeventhub.de
 DTSTAMP:20261024T000000Z
 DTSTART;VALUE=DATE:20261118
@@ -82,6 +181,19 @@ LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.sudhaus-tueb
  ingen.de/programm/alle.html
 URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-stadtmuseum-20261119-orientalismus-orientalistik-orientbegeisterung
+ @myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T180000
+DTEND;TZID=Europe/Berlin:20261119T200000
+SUMMARY:Orientalismus\, Orientalistik\, Orientbegeisterung
+LOCATION:Stadtmuseum Tübingen\, Kornhausstraße 10\, 72070 Tübingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+URL:https://www.stadtmuseum-tuebingen.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -106,6 +218,19 @@ LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
 DESCRIPTION:Laufzeit: 20.11.2026 bis 20.12.2026\nQuelle (bitte vor dem Besu
  ch prüfen): https://www.sudhaus-tuebingen.de/programm/alle.html
 URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-stadtmuseum-20261126-stadtgespraech-sankt-georg-und-der-drache-erza
+ ehle@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T180000
+DTEND;TZID=Europe/Berlin:20261126T200000
+SUMMARY:Stadtgespräch: Sankt Georg und der Drache erzählen
+LOCATION:Stadtmuseum Tübingen\, Kornhausstraße 10\, 72070 Tübingen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stadtmuseum-tuebingen.de/veranstaltungen/
+URL:https://www.stadtmuseum-tuebingen.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
