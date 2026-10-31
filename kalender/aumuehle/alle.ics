@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Aumühle · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rz-bismarck-museum-friedrichsruh-20261105-das-unerwartet-fruehe-erschei
+ nen-von-braten-und-sa@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:„… das unerwartet frühe Erscheinen von Braten und Salat“. Ot
+ to von Bismarck und die Tafelkultur des 19. Jahrhunderts
+LOCATION:Otto-von-Bismarck-Stiftung – Historischer Bahnhof Friedrichsruh\
+ , Am Bahnhof 2\, 21521 Aumühle
+DESCRIPTION:Öffentlicher Abendvortrag im Rahmen der Tagung „ZU TISCH!“
+  im Historischen Bahnhof.\nEnde: laut Quelle nicht angegeben\nPreis: koste
+ nlos\nQuelle (bitte vor dem Besuch prüfen): https://www.bismarck-stiftung
+ .de/veranstaltungen/
+URL:https://www.bismarck-stiftung.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rz-bismarck-museum-friedrichsruh-20261122-otto-von-bismarck-und-seine-z
+ eit@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:Otto von Bismarck und seine Zeit
+LOCATION:Otto-von-Bismarck-Stiftung – Historischer Bahnhof Friedrichsruh\
+ , Am Bahnhof 2\, 21521 Aumühle
+DESCRIPTION:Öffentliche Führung durch die Dauerausstellung.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ bismarck-stiftung.de/veranstaltungen/
+URL:https://www.bismarck-stiftung.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rz-bismarck-museum-friedrichsruh-20261126-der-bankier-des-staates-adolp
+ h-von-hansemann-und-d@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Der Bankier des Staates. Adolph von Hansemann und der politische Ei
+ nfluss der preußisch-deutschen Discontogesellschaft
+LOCATION:Otto-von-Bismarck-Stiftung – Historischer Bahnhof Friedrichsruh\
+ , Am Bahnhof 2\, 21521 Aumühle
+DESCRIPTION:Vortrag.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.bismarck-stiftung.de/veranstaltungen/
+URL:https://www.bismarck-stiftung.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rz-bismarck-museum-friedrichsruh-20261210-150-jahre-lauenburg-in-preuss
+ en-was-ging-was-kam-w@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T193000
+DTEND;TZID=Europe/Berlin:20261210T213000
+SUMMARY:150 Jahre Lauenburg in Preußen. Was ging\, was kam\, was blieb?
+LOCATION:Otto-von-Bismarck-Stiftung – Historischer Bahnhof Friedrichsruh\
+ , Am Bahnhof 2\, 21521 Aumühle
+DESCRIPTION:Vortrag.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.bismarck-stiftung.de/veranstaltungen/
+URL:https://www.bismarck-stiftung.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rz-bismarck-museum-friedrichsruh-20261213-otto-von-bismarck-und-seine-z
+ eit@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T140000
+DTEND;TZID=Europe/Berlin:20261213T160000
+SUMMARY:Otto von Bismarck und seine Zeit
+LOCATION:Otto-von-Bismarck-Stiftung – Historischer Bahnhof Friedrichsruh\
+ , Am Bahnhof 2\, 21521 Aumühle
+DESCRIPTION:Öffentliche Führung durch die Dauerausstellung.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ bismarck-stiftung.de/veranstaltungen/
+URL:https://www.bismarck-stiftung.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

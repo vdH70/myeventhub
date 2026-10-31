@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:vr-vineta-museum-20240221-louis-douzette-18341924-mondlicht-und-wellens
  piel-ende@myeventhub.de
@@ -23,6 +40,34 @@ DESCRIPTION:Sonderausstellung zum Barther Landschaftsmaler Louis Douzette\;
   verlängert.\nLaufzeit: 21.2.2024 bis 31.12.2026\nQuelle (bitte vor dem B
  esuch prüfen): https://www.vineta-museum.de/
 URL:https://www.vineta-museum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vr-bibelzentrum-barth-20261124-erlebnisfuehrung-im-kerzenschein@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T183000
+DTEND;TZID=Europe/Berlin:20261124T203000
+SUMMARY:Erlebnisführung im Kerzenschein
+LOCATION:Niederdeutsches Bibelzentrum St. Jürgen Barth\, Sundische Straße
+  52\, 18356 Barth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bibelzentrum-barth.de/events/event/
+URL:https://www.bibelzentrum-barth.de/events/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vr-bibelzentrum-barth-20261213-erlebnisfuehrung-im-kerzenschein@myevent
+ hub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T160000
+DTEND;TZID=Europe/Berlin:20261213T180000
+SUMMARY:Erlebnisführung im Kerzenschein
+LOCATION:Niederdeutsches Bibelzentrum St. Jürgen Barth\, Sundische Straße
+  52\, 18356 Barth
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bibelzentrum-barth.de/events/event/
+URL:https://www.bibelzentrum-barth.de/events/event/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

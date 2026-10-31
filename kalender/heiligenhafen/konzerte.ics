@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Heiligenhafen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:oh-heimatmuseum-heiligenhafen-20261105-caccini-duo@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T210000
+SUMMARY:Caccini Duo
+LOCATION:Heimatmuseum Heiligenhafen\, Thulboden 11a\, 23774 Heiligenhafen
+DESCRIPTION:Musikalisch-literarisches Programm zu Hans Christian Andersen.\
+ nEinlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nPrei
+ s: 15 Euro für Gäste\, 12 Euro für Mitglieder des Fördervereins\, 5 Eu
+ ro ermäßigt\nQuelle (bitte vor dem Besuch prüfen): https://heimatmuseum
+ heiligenhafen.de/programm/
+URL:https://heimatmuseumheiligenhafen.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
