@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ab-kunsthalle-jesuitenkirche-20260325-plakatschau-zum-jubilaeum-50-jahr
  e-kunsthalle-jesu-ende@myeventhub.de
@@ -36,6 +53,32 @@ LOCATION:Christian Schad Museum\, Aschaffenburg
 DESCRIPTION:Laufzeit: 30.4.2026 bis 10.2.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.museen-aschaffenburg.de/
 URL:https://www.museen-aschaffenburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261127-eroeffnung-christa-naeher-spuren-
+ des-minotaurus@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Eröffnung: Christa Näher. Spuren des Minotaurus
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1499.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1499.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261128-kuenstlergespraech-mit-christa-na
+ eher@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T110000
+DTEND;TZID=Europe/Berlin:20261128T130000
+SUMMARY:Künstlergespräch mit Christa Näher
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1500.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1500.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

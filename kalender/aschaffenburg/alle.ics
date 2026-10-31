@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ab-kunsthalle-jesuitenkirche-20260325-plakatschau-zum-jubilaeum-50-jahr
  e-kunsthalle-jesu-ende@myeventhub.de
@@ -78,6 +95,33 @@ URL:https://colos-saal.de/komplettes-programm/programm-nach-genres/jazz-fus
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261031-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T110000
+DTEND;TZID=Europe/Berlin:20261031T130000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261103-highlights-der-sammlung-khanenko-fue
+ hrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T163000
+DTEND;TZID=Europe/Berlin:20261103T183000
+SUMMARY:Highlights der Sammlung Khanenko – Führung
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 5\,50 € zzgl. Eintr
+ itt\nQuelle (bitte vor dem Besuch prüfen): https://www.museen-aschaffenbu
+ rg.de/DE_index_1003_1470.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1470.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ab-schlossmuseum-20261106-um-reich-und-religion-kurfuerst-johann-schwei
  kard-beginn@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -106,6 +150,153 @@ URL:https://www.museen-aschaffenburg.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261107-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T110000
+DTEND;TZID=Europe/Berlin:20261107T130000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261108-meisterwerke-der-sammlung-khanenko-r
+ undgang-in-ukr@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang in ukrainischer Spr
+ ache
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1474.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1474.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261110-europa-im-gespraech-vortragsreihe@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T190000
+DTEND;TZID=Europe/Berlin:20261110T210000
+SUMMARY:Europa im Gespräch – Vortragsreihe
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1504.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1504.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-schlossmuseum-20261113-bunt-papier-made-in-aschaffenburg-oeffentlich
+ e-fue@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T150000
+DTEND;TZID=Europe/Berlin:20261113T170000
+SUMMARY:BUNT!Papier – Made in Aschaffenburg: Öffentliche Führung
+LOCATION:Schlossmuseum Aschaffenburg\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1477.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1477.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261114-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T110000
+DTEND;TZID=Europe/Berlin:20261114T130000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261117-highlights-der-sammlung-khanenko-fue
+ hrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T163000
+DTEND;TZID=Europe/Berlin:20261117T183000
+SUMMARY:Highlights der Sammlung Khanenko – Führung
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 5\,50 € zzgl. Eintr
+ itt\nQuelle (bitte vor dem Besuch prüfen): https://www.museen-aschaffenbu
+ rg.de/DE_index_1003_1470.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1470.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261122-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-stiftsmuseum-20261122-vom-faustkeil-bis-zum-cranach-altar-kostbarkei
+ ten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Vom Faustkeil bis zum Cranach-Altar – Kostbarkeiten im Stiftsmuse
+ um
+LOCATION:Stiftsmuseum Aschaffenburg\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 6\,50 € zzgl. Eintr
+ itt\nQuelle (bitte vor dem Besuch prüfen): https://www.museen-aschaffenbu
+ rg.de/DE_index_1003_1496.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1496.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261127-eroeffnung-christa-naeher-spuren-
+ des-minotaurus@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Eröffnung: Christa Näher. Spuren des Minotaurus
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1499.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1499.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261128-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T110000
+DTEND;TZID=Europe/Berlin:20261128T130000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261128-kuenstlergespraech-mit-christa-na
+ eher@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T110000
+DTEND;TZID=Europe/Berlin:20261128T130000
+SUMMARY:Künstlergespräch mit Christa Näher
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1500.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1500.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ab-kunsthalle-jesuitenkirche-20261128-christa-naeher-spuren-des-minotau
  rus-beginn@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -129,6 +320,299 @@ LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
 DESCRIPTION:Laufzeit: 28.11.2026 bis 7.3.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.museen-aschaffenburg.de/
 URL:https://www.museen-aschaffenburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261201-kunst-erleben-kuratorenfuehrung-m
+ it-johannes-honec@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T160000
+DTEND;TZID=Europe/Berlin:20261201T180000
+SUMMARY:Kunst erleben – Kuratorenführung mit Johannes Honeck
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1502.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1502.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261201-highlights-der-sammlung-khanenko-fue
+ hrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T163000
+DTEND;TZID=Europe/Berlin:20261201T183000
+SUMMARY:Highlights der Sammlung Khanenko – Führung
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 5\,50 € zzgl. Eintr
+ itt\nQuelle (bitte vor dem Besuch prüfen): https://www.museen-aschaffenbu
+ rg.de/DE_index_1003_1470.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1470.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261201-christa-naeher-bilder-aus-dem-inn
+ ersten-rundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T180000
+DTEND;TZID=Europe/Berlin:20261201T200000
+SUMMARY:Christa Näher. Bilder aus dem Innersten – Rundgang
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261205-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T110000
+DTEND;TZID=Europe/Berlin:20261205T130000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261206-christa-naeher-bilder-aus-dem-inn
+ ersten-rundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Christa Näher. Bilder aus dem Innersten – Rundgang
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261206-meisterwerke-der-sammlung-khanenko-r
+ undgang-in-ukr@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T140000
+DTEND;TZID=Europe/Berlin:20261206T160000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang in ukrainischer Spr
+ ache
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1474.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1474.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261208-christa-naeher-bilder-aus-dem-inn
+ ersten-rundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T180000
+DTEND;TZID=Europe/Berlin:20261208T200000
+SUMMARY:Christa Näher. Bilder aus dem Innersten – Rundgang
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261208-50-jahre-kunsthalle-jesuitenkirch
+ e-vorstellung-der@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:50 Jahre Kunsthalle Jesuitenkirche – Vorstellung der Jubiläumsch
+ ronik
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.museen-ascha
+ ffenburg.de/DE_index_1003_1501.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1501.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261212-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T110000
+DTEND;TZID=Europe/Berlin:20261212T130000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261213-christa-naeher-bilder-aus-dem-inn
+ ersten-rundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Christa Näher. Bilder aus dem Innersten – Rundgang
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261215-highlights-der-sammlung-khanenko-fue
+ hrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T163000
+DTEND;TZID=Europe/Berlin:20261215T183000
+SUMMARY:Highlights der Sammlung Khanenko – Führung
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 5\,50 € zzgl. Eintr
+ itt\nQuelle (bitte vor dem Besuch prüfen): https://www.museen-aschaffenbu
+ rg.de/DE_index_1003_1470.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1470.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261215-christa-naeher-bilder-aus-dem-inn
+ ersten-rundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T180000
+DTEND;TZID=Europe/Berlin:20261215T200000
+SUMMARY:Christa Näher. Bilder aus dem Innersten – Rundgang
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261219-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T110000
+DTEND;TZID=Europe/Berlin:20261219T130000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261220-christa-naeher-bilder-aus-dem-inn
+ ersten-rundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T130000
+SUMMARY:Christa Näher. Bilder aus dem Innersten – Rundgang
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261222-christa-naeher-bilder-aus-dem-inn
+ ersten-rundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T180000
+DTEND;TZID=Europe/Berlin:20261222T200000
+SUMMARY:Christa Näher. Bilder aus dem Innersten – Rundgang
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261226-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T110000
+DTEND;TZID=Europe/Berlin:20261226T130000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261227-christa-naeher-bilder-aus-dem-inn
+ ersten-rundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T110000
+DTEND;TZID=Europe/Berlin:20261227T130000
+SUMMARY:Christa Näher. Bilder aus dem Innersten – Rundgang
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261227-meisterwerke-der-sammlung-khanenko-r
+ undgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T140000
+DTEND;TZID=Europe/Berlin:20261227T160000
+SUMMARY:Meisterwerke der Sammlung Khanenko – Rundgang
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1471.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20261229-highlights-der-sammlung-khanenko-fue
+ hrung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T163000
+DTEND;TZID=Europe/Berlin:20261229T183000
+SUMMARY:Highlights der Sammlung Khanenko – Führung
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 5\,50 € zzgl. Eintr
+ itt\nQuelle (bitte vor dem Besuch prüfen): https://www.museen-aschaffenbu
+ rg.de/DE_index_1003_1470.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1470.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-kunsthalle-jesuitenkirche-20261229-christa-naeher-bilder-aus-dem-inn
+ ersten-rundgang@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T180000
+DTEND;TZID=Europe/Berlin:20261229T200000
+SUMMARY:Christa Näher. Bilder aus dem Innersten – Rundgang
+LOCATION:Kunsthalle Jesuitenkirche\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1506.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-stiftsmuseum-20261230-vom-faustkeil-bis-zum-cranach-altar-kostbarkei
+ ten@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T150000
+DTEND;TZID=Europe/Berlin:20261230T170000
+SUMMARY:Vom Faustkeil bis zum Cranach-Altar – Kostbarkeiten im Stiftsmuse
+ um
+LOCATION:Stiftsmuseum Aschaffenburg\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 6\,50 € zzgl. Eintr
+ itt\nQuelle (bitte vor dem Besuch prüfen): https://www.museen-aschaffenbu
+ rg.de/DE_index_1003_1496.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1496.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab-christian-schad-museum-20270112-europa-im-gespraech-vortragsreihe@my
+ eventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T190000
+DTEND;TZID=Europe/Berlin:20270112T210000
+SUMMARY:Europa im Gespräch – Vortragsreihe
+LOCATION:Christian Schad Museum\, Aschaffenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.museen-aschaffenburg.de/DE_index_1003_1504.html
+URL:https://www.museen-aschaffenburg.de/DE_index_1003_1504.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
