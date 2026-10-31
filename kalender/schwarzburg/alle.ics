@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Schwarzburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:slf-schloss-schwarzburg-20260328-henry-van-de-velde-sommerfrische-im-sc
+ hwarzatal-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Henry van de Velde – Sommerfrische im Schwarzatal
+LOCATION:Fürstliche Erlebniswelten Schloss Schwarzburg\, Schlossstraße 1a
+ \, 07427 Schwarzburg
+DESCRIPTION:Sonderausstellung im Kaisersaalgebäude.\nLaufzeit: 28.3.2026 b
+ is 29.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.schloss-
+ schwarzburg.com/museum_erleben/sonderausstellungen/aktuelle_ausstellungen/
+URL:https://www.schloss-schwarzburg.com/museum_erleben/sonderausstellungen/
+ aktuelle_ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

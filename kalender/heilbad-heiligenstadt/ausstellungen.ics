@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Heilbad Heiligenstadt · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:eic-literaturmuseum-theodor-storm-20261018-thomas-klockmann-theodor-sto
+ rm-ludwig-pietsch-und-beginn@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Beginn: Thomas Klockmann. Theodor Storm\, Ludwig Pietsch und ich
+LOCATION:Literaturmuseum „Theodor Storm“\, Am Berge 2\, 37308 Heilbad H
+ eiligenstadt
+DESCRIPTION:Laufzeit: 18.10.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stormmuseum.de/
+URL:https://www.stormmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eic-literaturmuseum-theodor-storm-20261018-thomas-klockmann-theodor-sto
+ rm-ludwig-pietsch-und-ende@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Thomas Klockmann. Theodor Storm\, Ludwig Pietsch und i
+ ch
+LOCATION:Literaturmuseum „Theodor Storm“\, Am Berge 2\, 37308 Heilbad H
+ eiligenstadt
+DESCRIPTION:Laufzeit: 18.10.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stormmuseum.de/
+URL:https://www.stormmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

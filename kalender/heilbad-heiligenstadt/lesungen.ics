@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Heilbad Heiligenstadt · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:eic-literaturmuseum-theodor-storm-20261103-tee-bei-storm-daniela-scheel
+ e-die-dienst-und-kinde@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T160000
+DTEND;TZID=Europe/Berlin:20261103T180000
+SUMMARY:Tee bei Storm: Daniela Scheele – Die Dienst- und Kindermädchen d
+ er Familie Storm
+LOCATION:Literaturmuseum „Theodor Storm“\, Am Berge 2\, 37308 Heilbad H
+ eiligenstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stormmuseum.de/
+URL:https://www.stormmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eic-literaturmuseum-theodor-storm-20261111-etienne-genedl-la-paloma-das
+ -lieblingslied-des-joa@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T193000
+DTEND;TZID=Europe/Berlin:20261111T213000
+SUMMARY:Etienne Genedl: La Paloma – Das Lieblingslied des Joachim Ringeln
+ atz
+LOCATION:Literaturmuseum „Theodor Storm“\, Am Berge 2\, 37308 Heilbad H
+ eiligenstadt
+DESCRIPTION:Vortrag mit Musik.\nEnde: laut Quelle nicht angegeben\nQuelle (
+ bitte vor dem Besuch prüfen): https://www.stormmuseum.de/
+URL:https://www.stormmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eic-literaturmuseum-theodor-storm-20261117-tee-bei-storm-uta-oesterheld
+ -petry-frauen-in-der-k@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T160000
+DTEND;TZID=Europe/Berlin:20261117T180000
+SUMMARY:Tee bei Storm: Uta Oesterheld-Petry – Frauen in der Kunstgeschich
+ te
+LOCATION:Literaturmuseum „Theodor Storm“\, Am Berge 2\, 37308 Heilbad H
+ eiligenstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stormmuseum.de/
+URL:https://www.stormmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eic-literaturmuseum-theodor-storm-20261205-weihnachten-bei-storm-carmen
+ -barann-und-martin-tsc@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Weihnachten bei Storm: Carmen Barann und Martin Tschöpe – Gedich
+ te zur Weihnachtszeit
+LOCATION:Literaturmuseum „Theodor Storm“\, Am Berge 2\, 37308 Heilbad H
+ eiligenstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.stormmuseum.de/
+URL:https://www.stormmuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
