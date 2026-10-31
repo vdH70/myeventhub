@@ -1,0 +1,208 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Ibbenbüren · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20261107-patrick-nederkoorn-die-orangene-gef
+ ahr@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Patrick Nederkoorn: Die orangene Gefahr
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.ibbenbueren.info/kultur/staedtisches-kul
+ turprogramm/spielzeit-2026-27/patrick-nederkoorn/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/patrick-nederkoorn/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20261113-antigone-figurentheater-mit-der-bue
+ hne-cipolla@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Antigone – Figurentheater mit der Bühne Cipolla
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Sophokles-Drama als Figurentheater.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ibbenbueren.in
+ fo/kultur/staedtisches-kulturprogramm/spielzeit-2026-27/antigone/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/antigone/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270115-onkel-fisch-jahresrueckblick@myeven
+ thub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:Onkel Fisch: Jahresrückblick
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.ibbenbueren.info/kultur/staedtisches-kul
+ turprogramm/spielzeit-2026-27/onkel-fisch-blickt-zurueck/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/onkel-fisch-blickt-zurueck/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270128-der-seelenbrecher@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T200000
+DTEND;TZID=Europe/Berlin:20270128T220000
+SUMMARY:Der Seelenbrecher
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Theaterabo.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.ibbenbueren.info/kultur/staedtisches-k
+ ulturprogramm/spielzeit-2026-27/der-seelenbrecher/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/der-seelenbrecher/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270211-hinter-gottes-fuessen@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T200000
+DTEND;TZID=Europe/Berlin:20270211T220000
+SUMMARY:Hinter Gottes Füßen
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Theaterabo\, Gastspiel Ensemble Tanzgebiet.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ibbenb
+ ueren.info/kultur/staedtisches-kulturprogramm/spielzeit-2026-27/hinter-got
+ tes-fuessen/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/hinter-gottes-fuessen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270219-thomas-freitag-rueckzug-ueber-die-m
+ inen-der-ebene@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Thomas Freitag: Rückzug über die Minen der Ebene
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.ibbenbueren.info/kultur/staedtisches-kul
+ turprogramm/spielzeit-2026-27/thomas-freitag-rueckzug-ueber-die-minen-der-
+ ebene/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/thomas-freitag-rueckzug-ueber-die-minen-der-ebene/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270302-heimsuchung@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270302T200000
+DTEND;TZID=Europe/Berlin:20270302T220000
+SUMMARY:Heimsuchung
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Theaterabo.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.ibbenbueren.info/kultur/staedtisches-k
+ ulturprogramm/spielzeit-2026-27/heimsuchung/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/heimsuchung/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270306-thomas-philipzen-gaeste-mixed-show@
+ myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T200000
+DTEND;TZID=Europe/Berlin:20270306T220000
+SUMMARY:Thomas Philipzen & Gäste: Mixed Show
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Kabarett-Mixshow.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.ibbenbueren.info/kultur/staedtis
+ ches-kulturprogramm/spielzeit-2026-27/thomas-philipzen-mixed-show/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/thomas-philipzen-mixed-show/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270312-duo-mimikry@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:Duo Mimikry
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Kabarett.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.ibbenbueren.info/kultur/staedtisches-kul
+ turprogramm/spielzeit-2026-27/duo-mimikry/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/duo-mimikry/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270318-der-eingebildete-kranke@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270318T200000
+DTEND;TZID=Europe/Berlin:20270318T220000
+SUMMARY:Der eingebildete Kranke
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Theaterabo.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.ibbenbueren.info/kultur/staedtisches-k
+ ulturprogramm/spielzeit-2026-27/der-eingebildete-kranke/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/der-eingebildete-kranke/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270413-zoom@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270413T200000
+DTEND;TZID=Europe/Berlin:20270413T220000
+SUMMARY:ZOOM!
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Theaterabo\, Gastspiel.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.ibbenbueren.info/kultur/st
+ aedtisches-kulturprogramm/spielzeit-2026-27/zoom/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/zoom/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-buergerhaus-ibbenbueren-20270416-murzarella-music-puppet-comedy@myev
+ enthub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T200000
+DTEND;TZID=Europe/Berlin:20270416T220000
+SUMMARY:Murzarella – Music-Puppet-Comedy
+LOCATION:Bürgerhaus Ibbenbüren\, Ibbenbüren
+DESCRIPTION:Bauchgesang\, Puppen und Comedy.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.ibbenbueren.info/
+ kultur/staedtisches-kulturprogramm/spielzeit-2026-27/murzarella-music-pupp
+ et-comedy/
+URL:https://www.ibbenbueren.info/kultur/staedtisches-kulturprogramm/spielze
+ it-2026-27/murzarella-music-puppet-comedy/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
