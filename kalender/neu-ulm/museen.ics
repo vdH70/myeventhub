@@ -1,0 +1,337 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Museen in Neu-Ulm · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20261120-bunt-ist-meine-lieblingsfarbe@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T143000
+DTEND;TZID=Europe/Berlin:20261120T163000
+SUMMARY:Bunt ist meine Lieblingsfarbe
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20261122-kunsthistorischer-rundgang@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T113000
+DTEND;TZID=Europe/Berlin:20261122T133000
+SUMMARY:Kunsthistorischer Rundgang
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20261203-kunst-am-mittag@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T121500
+DTEND;TZID=Europe/Berlin:20261203T141500
+SUMMARY:Kunst am Mittag
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20261213-kunsthistorischer-rundgang-mit-schrift
+ dolmetscheri@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T113000
+DTEND;TZID=Europe/Berlin:20261213T133000
+SUMMARY:Kunsthistorischer Rundgang mit Schriftdolmetscherin
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20261218-bunt-ist-meine-lieblingsfarbe@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T143000
+DTEND;TZID=Europe/Berlin:20261218T163000
+SUMMARY:Bunt ist meine Lieblingsfarbe
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270103-kunsthistorischer-rundgang@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T113000
+DTEND;TZID=Europe/Berlin:20270103T133000
+SUMMARY:Kunsthistorischer Rundgang
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270112-museum-im-tragetuch@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T100000
+DTEND;TZID=Europe/Berlin:20270112T120000
+SUMMARY:Museum im Tragetuch
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 6 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270115-bunt-ist-meine-lieblingsfarbe@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T143000
+DTEND;TZID=Europe/Berlin:20270115T163000
+SUMMARY:Bunt ist meine Lieblingsfarbe
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270124-kunsthistorischer-rundgang@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T113000
+DTEND;TZID=Europe/Berlin:20270124T133000
+SUMMARY:Kunsthistorischer Rundgang
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270130-rundgang-fuer-gross-und-klein@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T143000
+DTEND;TZID=Europe/Berlin:20270130T163000
+SUMMARY:Rundgang für Groß und Klein
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 2\,50 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungsk
+ alender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270204-kunst-zum-feierabend@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T180000
+DTEND;TZID=Europe/Berlin:20270204T200000
+SUMMARY:Kunst zum Feierabend
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 9 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270214-kunsthistorischer-rundgang@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T113000
+DTEND;TZID=Europe/Berlin:20270214T133000
+SUMMARY:Kunsthistorischer Rundgang
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270219-bunt-ist-meine-lieblingsfarbe@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T143000
+DTEND;TZID=Europe/Berlin:20270219T163000
+SUMMARY:Bunt ist meine Lieblingsfarbe
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270223-museum-im-tragetuch@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270223T100000
+DTEND;TZID=Europe/Berlin:20270223T120000
+SUMMARY:Museum im Tragetuch
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 6 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270307-kunsthistorischer-rundgang@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T113000
+DTEND;TZID=Europe/Berlin:20270307T133000
+SUMMARY:Kunsthistorischer Rundgang
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270319-bunt-ist-meine-lieblingsfarbe@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T143000
+DTEND;TZID=Europe/Berlin:20270319T163000
+SUMMARY:Bunt ist meine Lieblingsfarbe
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270321-kunsthistorischer-rundgang-mit-schrift
+ dolmetscheri@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T113000
+DTEND;TZID=Europe/Berlin:20270321T133000
+SUMMARY:Kunsthistorischer Rundgang mit Schriftdolmetscherin
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270330-museum-im-tragetuch@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270330T100000
+DTEND;TZID=Europe/Berlin:20270330T120000
+SUMMARY:Museum im Tragetuch
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 6 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270401-kunst-zum-feierabend@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270401T180000
+DTEND;TZID=Europe/Berlin:20270401T200000
+SUMMARY:Kunst zum Feierabend
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 9 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270404-kunsthistorischer-rundgang@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T113000
+DTEND;TZID=Europe/Berlin:20270404T133000
+SUMMARY:Kunsthistorischer Rundgang
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270416-bunt-ist-meine-lieblingsfarbe@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T143000
+DTEND;TZID=Europe/Berlin:20270416T163000
+SUMMARY:Bunt ist meine Lieblingsfarbe
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270521-bunt-ist-meine-lieblingsfarbe@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270521T143000
+DTEND;TZID=Europe/Berlin:20270521T163000
+SUMMARY:Bunt ist meine Lieblingsfarbe
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-edwin-scharff-museum-20270618-bunt-ist-meine-lieblingsfarbe@myeventh
+ ub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20270618T143000
+DTEND;TZID=Europe/Berlin:20270618T163000
+SUMMARY:Bunt ist meine Lieblingsfarbe
+LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
+ der/
+URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
