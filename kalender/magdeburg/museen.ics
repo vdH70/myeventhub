@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:md-museum-fuer-naturkunde-20260703-bis-ans-ende-der-welt-patagonien-und
  -feuerland-ende@myeventhub.de
@@ -71,6 +88,21 @@ DESCRIPTION:Laufzeit: 12.11.2026 bis 10.1.2027\nPreis: Erwachsene 6 €\, e
  rmäßigt 3 €\nQuelle (bitte vor dem Besuch prüfen): https://www.khm-ma
  gdeburg.de/sonderausstellung/mythos-luise/
 URL:https://www.khm-magdeburg.de/sonderausstellung/mythos-luise/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-kulturhistorisches-museum-20261120-bundesweiter-vorlesetag-fuer-klei
+ n-und-gross@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T100000
+DTEND;TZID=Europe/Berlin:20261120T120000
+SUMMARY:Bundesweiter Vorlesetag für Klein und Groß
+LOCATION:Kulturhistorisches Museum Magdeburg\, Otto-von-Guericke-Straße 68
+ -73\, 39104 Magdeburg
+DESCRIPTION:Buchlesungen und Schattenspiele\; weitere Beginnzeiten 11\, 12 
+ und 13 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.khm-magdeburg.de/
+URL:https://www.khm-magdeburg.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
