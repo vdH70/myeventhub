@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Flughäfen & Flugplätze in Hildesheim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hi-flugplatz-20270522-technorama-hildesheim-2027-beginn@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:Beginn: Technorama Hildesheim 2027
+LOCATION:Flugplatz Hildesheim\, Am Flugplatz 26\, 31137 Hildesheim
+DESCRIPTION:Oldtimermarkt mit Fahrzeugbörse und Teilemarkt auf dem Flugpla
+ tz Hildesheim.\nLaufzeit: 22.5.2027 bis 23.5.2027\nPreis: Tageskarte 15 
+ €\, unter 12 Jahren frei\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.technorama.de/en/hildesheim-2/
+URL:https://www.technorama.de/en/hildesheim-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-flugplatz-20270522-technorama-hildesheim-2027-ende@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Letzter Tag: Technorama Hildesheim 2027
+LOCATION:Flugplatz Hildesheim\, Am Flugplatz 26\, 31137 Hildesheim
+DESCRIPTION:Oldtimermarkt mit Fahrzeugbörse und Teilemarkt auf dem Flugpla
+ tz Hildesheim.\nLaufzeit: 22.5.2027 bis 23.5.2027\nPreis: Tageskarte 15 
+ €\, unter 12 Jahren frei\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.technorama.de/en/hildesheim-2/
+URL:https://www.technorama.de/en/hildesheim-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
