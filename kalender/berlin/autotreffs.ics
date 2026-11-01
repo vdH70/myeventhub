@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Autotreffs in Berlin · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:b-zitadelle-spandau-20270501-oldtimer-open-air-2027-beginn@myeventhub.d
+ e
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Beginn: Oldtimer Open Air 2027
+LOCATION:Zitadelle Spandau\, Berlin
+DESCRIPTION:Oldtimer-Ausstellung von ReBornClassics in der Zitadelle Spanda
+ u\, Sa und So 10–17 Uhr.\nLaufzeit: 1.5.2027 bis 2.5.2027\nPreis: Tagesk
+ arte 12 € (ermäßigt 7 €)\, Kinder unter 8 frei\nQuelle (bitte vor de
+ m Besuch prüfen): https://rebornclassics.de/rbc-events/oldtimer-open-air/
+URL:https://rebornclassics.de/rbc-events/oldtimer-open-air/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-zitadelle-spandau-20270501-oldtimer-open-air-2027-ende@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Letzter Tag: Oldtimer Open Air 2027
+LOCATION:Zitadelle Spandau\, Berlin
+DESCRIPTION:Oldtimer-Ausstellung von ReBornClassics in der Zitadelle Spanda
+ u\, Sa und So 10–17 Uhr.\nLaufzeit: 1.5.2027 bis 2.5.2027\nPreis: Tagesk
+ arte 12 € (ermäßigt 7 €)\, Kinder unter 8 frei\nQuelle (bitte vor de
+ m Besuch prüfen): https://rebornclassics.de/rbc-events/oldtimer-open-air/
+URL:https://rebornclassics.de/rbc-events/oldtimer-open-air/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
