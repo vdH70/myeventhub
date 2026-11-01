@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Messen in Stuttgart · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:s-messe-stuttgart-20270429-retro-classics-stuttgart-2027-beginn@myevent
+ hub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Beginn: Retro Classics Stuttgart 2027
+LOCATION:Messe Stuttgart\, Stuttgart
+DESCRIPTION:Messe für Oldtimer und Fahrkultur\; Do ab 11 Uhr mit Retro Nig
+ ht\, Fr–So 10–18 Uhr.\nLaufzeit: 29.4.2027 bis 2.5.2027\nPreis: Tagesk
+ arte online 21 €\, Kinder unter 6 frei\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.retro-classics.de/en/visitors/tickets-opening-times
+URL:https://www.retro-classics.de/en/visitors/tickets-opening-times
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-messe-stuttgart-20270429-retro-classics-stuttgart-2027-ende@myeventhu
+ b.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Letzter Tag: Retro Classics Stuttgart 2027
+LOCATION:Messe Stuttgart\, Stuttgart
+DESCRIPTION:Messe für Oldtimer und Fahrkultur\; Do ab 11 Uhr mit Retro Nig
+ ht\, Fr–So 10–18 Uhr.\nLaufzeit: 29.4.2027 bis 2.5.2027\nPreis: Tagesk
+ arte online 21 €\, Kinder unter 6 frei\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.retro-classics.de/en/visitors/tickets-opening-times
+URL:https://www.retro-classics.de/en/visitors/tickets-opening-times
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
