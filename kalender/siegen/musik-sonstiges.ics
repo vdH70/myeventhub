@@ -10,6 +10,116 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:si-kroenchen-center-20261114-2000-nacht-der-musik-2026-die-sieg-saxen-t
+ reffen-der-ge@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Nacht der Musik 2026: Die Sieg-Saxen – Treffen der Generationen
+LOCATION:KrönchenCenter (Lesecafé)\, Siegen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kultursiegen.de/termine-tickets/die-sieg-saxen-treffen-
+ der-generationen/
+URL:https://kultursiegen.de/termine-tickets/die-sieg-saxen-treffen-der-gene
+ rationen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:si-oberstadt-20261114-2000-nacht-der-musik-2026-angelito-konzert@myeven
+ thub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Nacht der Musik 2026: angelito – Konzert
+LOCATION:Galerie Haus Seel\, Siegen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kultursiegen.de/termine-tickets/angelito-konzert/
+URL:https://kultursiegen.de/termine-tickets/angelito-konzert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:si-oberstadt-20261114-2000-nacht-der-musik-2026-treue-salchendorf-noten
+ cockta@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Nacht der Musik 2026: Treue Salchendorf & Notencocktail
+LOCATION:St. Marienkirche Siegen\, Siegen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kultursiegen.de/termine-tickets/treue-salchendorf-noten
+ cocktail/
+URL:https://kultursiegen.de/termine-tickets/treue-salchendorf-notencocktail
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:si-oberstadt-20261114-2030-nacht-der-musik-2026-join-in@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T203000
+DTEND;TZID=Europe/Berlin:20261114T223000
+SUMMARY:Nacht der Musik 2026: Join In
+LOCATION:St. Marienkirche Siegen\, Siegen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kultursiegen.de/termine-tickets/join-in/
+URL:https://kultursiegen.de/termine-tickets/join-in/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:si-oberstadt-20261114-2030-nacht-der-musik-2026-singalong@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T203000
+DTEND;TZID=Europe/Berlin:20261114T223000
+SUMMARY:Nacht der Musik 2026: SingAlong
+LOCATION:Nikolaikirche\, Siegen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kultursiegen.de/termine-tickets/singalong/
+URL:https://kultursiegen.de/termine-tickets/singalong/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:si-kroenchen-center-20261114-2130-nacht-der-musik-2026-smooth-talk-plus
+ @myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T213000
+DTEND;TZID=Europe/Berlin:20261114T233000
+SUMMARY:Nacht der Musik 2026: Smooth Talk „plus“
+LOCATION:KrönchenCenter (Lesecafé)\, Siegen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kultursiegen.de/termine-tickets/smooth-talk-plus/
+URL:https://kultursiegen.de/termine-tickets/smooth-talk-plus/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:si-oberstadt-20261114-2200-nacht-der-musik-2026-tonrebellion@myeventhub
+ .de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T220000
+DTEND;TZID=Europe/Berlin:20261115T000000
+SUMMARY:Nacht der Musik 2026: TonRebellion
+LOCATION:St. Marienkirche Siegen\, Siegen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kultursiegen.de/termine-tickets/tonrebellion/
+URL:https://kultursiegen.de/termine-tickets/tonrebellion/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:si-oberstadt-20261114-nacht-der-musik-2026@myeventhub.de
 DTSTAMP:20261025T000000Z

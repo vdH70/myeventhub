@@ -1,0 +1,431 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Erfurt · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ef-theater-20261103-1000-pinocchio-premiere@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T100000
+DTEND;TZID=Europe/Berlin:20261103T120000
+SUMMARY:Pinocchio (Premiere)
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Schauspiel mit Musik für Kinder ab 5 über einen eigenwilligen
+  Holzjungen\, der seinen Platz in der Welt sucht.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-erf
+ urt.de/stuecke/pinocchio
+URL:https://www.theater-erfurt.de/stuecke/pinocchio
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20261105-1500-offenes-foyer@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T150000
+DTEND;TZID=Europe/Berlin:20261105T170000
+SUMMARY:Offenes Foyer
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Jeden ersten Donnerstag im Monat: Basteln\, Musik\, Tischtennis
+  und eine kurze Führung\, Eintritt frei\, ohne Anmeldung.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ eater-erfurt.de/stuecke/offenes-foyer
+URL:https://www.theater-erfurt.de/stuecke/offenes-foyer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20261108-1500-der-traumzauberbaum-das-geburtstagsfest@myev
+ enthub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Der Traumzauberbaum – Das Geburtstagsfest
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/traumzau
+ berbaum-geburtstagsfest.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/traumzauberbaum-
+ geburtstagsfest.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20261121-0930-1-maerchenkonzert-wie-das-feuer-auf-die-erde-k
+ am@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T093000
+DTEND;TZID=Europe/Berlin:20261121T113000
+SUMMARY:1. Märchenkonzert – Wie das Feuer auf die Erde kam
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Konzert für Kinder ab 5 mit Märchen indigener Völker Nordame
+ rikas. Spielort: Studio.Box.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.theater-erfurt.de/stuecke/maerch
+ enkonz01
+URL:https://www.theater-erfurt.de/stuecke/maerchenkonz01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20261121-1100-1-maerchenkonzert-wie-das-feuer-auf-die-erde-k
+ am@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T110000
+DTEND;TZID=Europe/Berlin:20261121T130000
+SUMMARY:1. Märchenkonzert – Wie das Feuer auf die Erde kam
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Konzert für Kinder ab 5 mit Märchen indigener Völker Nordame
+ rikas. Spielort: Studio.Box.\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.theater-erfurt.de/stuecke/maerch
+ enkonz01
+URL:https://www.theater-erfurt.de/stuecke/maerchenkonz01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20261202-0900-pinocchio@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T090000
+DTEND;TZID=Europe/Berlin:20261202T110000
+SUMMARY:Pinocchio
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Schauspiel mit Musik für Kinder ab 5 über einen eigenwilligen
+  Holzjungen\, der seinen Platz in der Welt sucht.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-erf
+ urt.de/stuecke/pinocchio
+URL:https://www.theater-erfurt.de/stuecke/pinocchio
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20261202-1100-pinocchio@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T110000
+DTEND;TZID=Europe/Berlin:20261202T130000
+SUMMARY:Pinocchio (ausverkauft)
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Schauspiel mit Musik für Kinder ab 5 über einen eigenwilligen
+  Holzjungen\, der seinen Platz in der Welt sucht.\nEnde: laut Quelle nicht
+  angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.theater-erfurt.de/stuecke/pinocchio
+URL:https://www.theater-erfurt.de/stuecke/pinocchio
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20261203-0900-pinocchio@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T090000
+DTEND;TZID=Europe/Berlin:20261203T110000
+SUMMARY:Pinocchio
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Schauspiel mit Musik für Kinder ab 5 über einen eigenwilligen
+  Holzjungen\, der seinen Platz in der Welt sucht.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-erf
+ urt.de/stuecke/pinocchio
+URL:https://www.theater-erfurt.de/stuecke/pinocchio
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20261203-1100-pinocchio@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T110000
+DTEND;TZID=Europe/Berlin:20261203T130000
+SUMMARY:Pinocchio
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Schauspiel mit Musik für Kinder ab 5 über einen eigenwilligen
+  Holzjungen\, der seinen Platz in der Welt sucht.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-erf
+ urt.de/stuecke/pinocchio
+URL:https://www.theater-erfurt.de/stuecke/pinocchio
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20261203-1500-offenes-foyer@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T150000
+DTEND;TZID=Europe/Berlin:20261203T170000
+SUMMARY:Offenes Foyer
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Jeden ersten Donnerstag im Monat: Basteln\, Musik\, Tischtennis
+  und eine kurze Führung\, Eintritt frei\, ohne Anmeldung.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ eater-erfurt.de/stuecke/offenes-foyer
+URL:https://www.theater-erfurt.de/stuecke/offenes-foyer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20261206-1100-die-zauberhafte-kommode@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Die zauberhafte Kommode
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Musiktheater für Kinder ab 4: Zwei Geschwister finden auf dem 
+ Dachboden eine Kommode voller Kostüme.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.theater-erfurt.de/stu
+ ecke/die-zauberhafte-kommode
+URL:https://www.theater-erfurt.de/stuecke/die-zauberhafte-kommode
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20261206-1500-drei-haselnuesse-fuer-aschenbroedel@myeventh
+ ub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Drei Haselnüsse für Aschenbrödel
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-has
+ elnuesse-fuer-aschenbroedel.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-haselnuesse
+ -fuer-aschenbroedel.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20261213-1500-drei-haselnuesse-fuer-aschenbroedel@myeventh
+ ub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Drei Haselnüsse für Aschenbrödel
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-has
+ elnuesse-fuer-aschenbroedel.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-haselnuesse
+ -fuer-aschenbroedel.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20261219-1500-drei-haselnuesse-fuer-aschenbroedel@myeventh
+ ub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T150000
+DTEND;TZID=Europe/Berlin:20261219T170000
+SUMMARY:Drei Haselnüsse für Aschenbrödel
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-has
+ elnuesse-fuer-aschenbroedel.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-haselnuesse
+ -fuer-aschenbroedel.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20261227-1500-drei-haselnuesse-fuer-aschenbroedel@myeventh
+ ub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T150000
+DTEND;TZID=Europe/Berlin:20261227T170000
+SUMMARY:Drei Haselnüsse für Aschenbrödel
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-has
+ elnuesse-fuer-aschenbroedel.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-haselnuesse
+ -fuer-aschenbroedel.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20270103-1500-linus-faber-eine-magische-elfenmission@myeve
+ nthub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T150000
+DTEND;TZID=Europe/Berlin:20270103T170000
+SUMMARY:Linus Faber – Eine magische Elfenmission
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/linus-fa
+ ber-eine-magische-elfenmission-erfurt.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/linus-faber-eine
+ -magische-elfenmission-erfurt.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20270106-1600-der-kleine-drache-kokosnuss@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T160000
+DTEND;TZID=Europe/Berlin:20270106T180000
+SUMMARY:Der kleine Drache Kokosnuss
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/der-klei
+ ne-drache-kokosnuss.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/der-kleine-drach
+ e-kokosnuss.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20270107-1500-offenes-foyer@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T150000
+DTEND;TZID=Europe/Berlin:20270107T170000
+SUMMARY:Offenes Foyer
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Jeden ersten Donnerstag im Monat: Basteln\, Musik\, Tischtennis
+  und eine kurze Führung\, Eintritt frei\, ohne Anmeldung.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ eater-erfurt.de/stuecke/offenes-foyer
+URL:https://www.theater-erfurt.de/stuecke/offenes-foyer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20270131-1500-drei-haselnuesse-fuer-aschenbroedel@myeventh
+ ub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T150000
+DTEND;TZID=Europe/Berlin:20270131T170000
+SUMMARY:Drei Haselnüsse für Aschenbrödel
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-has
+ elnuesse-fuer-aschenbroedel.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/drei-haselnuesse
+ -fuer-aschenbroedel.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20270220-1500-clemens-entdeckt-amy-und-die-girl-power@myeven
+ thub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T150000
+DTEND;TZID=Europe/Berlin:20270220T170000
+SUMMARY:Clemens entdeckt … Amy und die Girl Power
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Familienkonzert des Philharmonischen Orchesters mit Clemens Fie
+ guth über die Komponistin Amy Beach\, ab 6 Jahren.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater-e
+ rfurt.de/stuecke/famko-amy-beach
+URL:https://www.theater-erfurt.de/stuecke/famko-amy-beach
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20270227-1500-2-maerchenkonzert-das-maerchen-vom-nordwind@my
+ eventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T150000
+DTEND;TZID=Europe/Berlin:20270227T170000
+SUMMARY:2. Märchenkonzert – Das Märchen vom Nordwind
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Märchenkonzert für Kinder ab 5 Jahren. Spielort: Studio.Box.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.theater-erfurt.de/stuecke/maerchenkonz02
+URL:https://www.theater-erfurt.de/stuecke/maerchenkonz02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20270227-1630-2-maerchenkonzert-das-maerchen-vom-nordwind@my
+ eventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T163000
+DTEND;TZID=Europe/Berlin:20270227T183000
+SUMMARY:2. Märchenkonzert – Das Märchen vom Nordwind
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Märchenkonzert für Kinder ab 5 Jahren. Spielort: Studio.Box.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.theater-erfurt.de/stuecke/maerchenkonz02
+URL:https://www.theater-erfurt.de/stuecke/maerchenkonz02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20270304-1500-offenes-foyer@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T150000
+DTEND;TZID=Europe/Berlin:20270304T170000
+SUMMARY:Offenes Foyer
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Jeden ersten Donnerstag im Monat: Basteln\, Musik\, Tischtennis
+  und eine kurze Führung\, Eintritt frei\, ohne Anmeldung.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ eater-erfurt.de/stuecke/offenes-foyer
+URL:https://www.theater-erfurt.de/stuecke/offenes-foyer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20270509-1400-heavysaurus@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270509T140000
+DTEND;TZID=Europe/Berlin:20270509T160000
+SUMMARY:Heavysaurus
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/heavysau
+ rus.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/heavysaurus.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-alte-oper-20270523-1500-eule-findet-den-beat@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270523T150000
+DTEND;TZID=Europe/Berlin:20270523T170000
+SUMMARY:Eule findet den Beat
+LOCATION:Alte Oper Erfurt\, Theaterstraße 1\, 99084 Erfurt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dasdie.de/veranstaltungen-erfurt-spielplan/eule-fin
+ det-den-beat.html
+URL:https://www.dasdie.de/veranstaltungen-erfurt-spielplan/eule-findet-den-
+ beat.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20270603-1500-offenes-foyer@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270603T150000
+DTEND;TZID=Europe/Berlin:20270603T170000
+SUMMARY:Offenes Foyer
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Jeden ersten Donnerstag im Monat: Basteln\, Musik\, Tischtennis
+  und eine kurze Führung\, Eintritt frei\, ohne Anmeldung.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ eater-erfurt.de/stuecke/offenes-foyer
+URL:https://www.theater-erfurt.de/stuecke/offenes-foyer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20270615-0900-nur-ein-tag@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270615T090000
+DTEND;TZID=Europe/Berlin:20270615T110000
+SUMMARY:Nur ein Tag
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Schauspiel nach Martin Baltscheit für Kinder ab 5 über eine E
+ intagsfliege\, ein Wildschwein und einen Fuchs. Spielort: Studio.Box.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.theater-erfurt.de/stuecke/schotte-nur-ein-tag
+URL:https://www.theater-erfurt.de/stuecke/schotte-nur-ein-tag
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef-theater-20270615-1100-nur-ein-tag@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270615T110000
+DTEND;TZID=Europe/Berlin:20270615T130000
+SUMMARY:Nur ein Tag
+LOCATION:Theater Erfurt\, Theaterplatz 1\, 99084 Erfurt
+DESCRIPTION:Schauspiel nach Martin Baltscheit für Kinder ab 5 über eine E
+ intagsfliege\, ein Wildschwein und einen Fuchs. Spielort: Studio.Box.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.theater-erfurt.de/stuecke/schotte-nur-ein-tag
+URL:https://www.theater-erfurt.de/stuecke/schotte-nur-ein-tag
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
