@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ol-patentkrug-20261031-80-90er-party@myeventhub.de
 DTSTAMP:20261031T000000Z
@@ -34,6 +51,36 @@ LOCATION:VIERTEL – Klub + Bar + Kultur\, Bloherfelder Straße 2-6\, 26129
 DESCRIPTION:Halloween-Party\; die Quelle nennt keine Uhrzeit.\nQuelle (bitt
  e vor dem Besuch prüfen): https://kulturviertel.com/events
 URL:https://kulturviertel.com/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-tanzschule-beyer-20261107-welttanztag-2026-discofox-marathon-mit-pra
+ ctice-ni@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Welttanztag 2026: Discofox-Marathon mit Practice-Night
+LOCATION:ADTV-Tanzschule Ralf Beyer (Tanzhaus Beyer)\, Hansa-Ring 48\, 2613
+ 3 Oldenburg
+DESCRIPTION:Discofox-Marathon 19–23 Uhr\, parallel Practice-Night für an
+ dere Gesellschaftstänze.\nEnde: laut Quelle nicht angegeben\nPreis: 15 
+ € (davon 10 € an die NCL-Stiftung)\nQuelle (bitte vor dem Besuch prüf
+ en): https://ts-beyer.de/events/
+URL:https://ts-beyer.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-tanzschule-beyer-20261205-linedance-party@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Linedance Party
+LOCATION:ADTV-Tanzschule Ralf Beyer (Tanzhaus Beyer)\, Hansa-Ring 48\, 2613
+ 3 Oldenburg
+DESCRIPTION:Line-Dance-Party 15–18 Uhr.\nEnde: laut Quelle nicht angegebe
+ n\nPreis: 10 €\nQuelle (bitte vor dem Besuch prüfen): https://ts-beyer.
+ de/events/
+URL:https://ts-beyer.de/events/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
