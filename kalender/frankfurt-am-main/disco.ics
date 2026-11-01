@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Disco in Frankfurt am Main · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:f-deutsche-bank-park-20270604-world-club-dome-2027-beginn@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:Beginn: World Club Dome 2027
+LOCATION:Deutsche Bank Park\, Mörfelder Landstraße 362\, 60528 Frankfurt 
+ am Main
+DESCRIPTION:Dreitägiges Festival für elektronische Musik im Fußballstadi
+ on.\nLaufzeit: 4.6.2027 bis 6.6.2027\nTickets: https://www.worldclubdome.c
+ om/tickets\nQuelle (bitte vor dem Besuch prüfen): https://www.worldclubdo
+ me.com/
+URL:https://www.worldclubdome.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-deutsche-bank-park-20270604-world-club-dome-2027-ende@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:Letzter Tag: World Club Dome 2027
+LOCATION:Deutsche Bank Park\, Mörfelder Landstraße 362\, 60528 Frankfurt 
+ am Main
+DESCRIPTION:Dreitägiges Festival für elektronische Musik im Fußballstadi
+ on.\nLaufzeit: 4.6.2027 bis 6.6.2027\nTickets: https://www.worldclubdome.c
+ om/tickets\nQuelle (bitte vor dem Besuch prüfen): https://www.worldclubdo
+ me.com/
+URL:https://www.worldclubdome.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
