@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Techno in Braunschweig · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bs-mec-20270227-rave-repeat-x-truedjlegends-braunschweig@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:Rave Repeat x TrueDJLegends – Braunschweig
+LOCATION:Millenium Event Center (MEC)\, Madamenweg 77\, 38120 Braunschweig
+DESCRIPTION:Techno-Classics von Outside World bis 5 Uhr\, u. a. mit Westbam
+ \, Yves Deruyter und Anna Reusch. Ab 18.\nEnde: laut Quelle nicht angegebe
+ n\nPreis: Standard 31 €\, VIP 55 € (zzgl. VVK-Gebühren)\nTickets: htt
+ ps://ticketticker.de/events/rave-repeat-x-truedjlegends-braunschweig-7774a
+ 2/tickets\nQuelle (bitte vor dem Besuch prüfen): https://outside-world.de
+ /events/rave-repeat-x-truedjlegends-braunschweig
+URL:https://outside-world.de/events/rave-repeat-x-truedjlegends-braunschwei
+ g
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
