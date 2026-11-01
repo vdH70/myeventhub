@@ -10,6 +10,37 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ke-tanzschule-fischer-20261107-discofox-marathon-2026@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Discofox-Marathon 2026
+LOCATION:Tanzschule Fischer\, Haslacher Straße 5\, 87435 Kempten (Allgäu)
+DESCRIPTION:Discofox-Marathon zum Welttanztag\, 19–23 Uhr.\nEinlass 18:00
+ \, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 15 € Star
+ tgeld (Spende an die NCL-Stiftung)\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.ichwilltanzen.de/event
+URL:https://www.ichwilltanzen.de/event
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:ke-bigbox-allgaeu-20261113-herbert-pixner-projekt-tour-2026@myeventhub.
  de
@@ -35,6 +66,47 @@ DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.bigboxallgae
  u.de/events/comedy-kabarett/sascha-grammel-28-11-2026
 URL:https://www.bigboxallgaeu.de/events/comedy-kabarett/sascha-grammel-28-1
  1-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ke-tanzschule-fischer-20261205-himmlischer-tanzabend@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T203000
+DTEND;TZID=Europe/Berlin:20261205T223000
+SUMMARY:Himmlischer Tanzabend
+LOCATION:Tanzschule Fischer\, Haslacher Straße 5\, 87435 Kempten (Allgäu)
+DESCRIPTION:Tanzabend in der Tanzschule Fischer bis 23 Uhr.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ic
+ hwilltanzen.de/event
+URL:https://www.ichwilltanzen.de/event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ke-tanzschule-fischer-20261231-silvester-2026-auf-2027-beginn@myeventhu
+ b.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Beginn: Silvester 2026 auf 2027
+LOCATION:Tanzschule Fischer\, Haslacher Straße 5\, 87435 Kempten (Allgäu)
+DESCRIPTION:Silvesterfeier mit Tanz in der Tanzschule Fischer.\nLaufzeit: 3
+ 1.12.2026 bis 1.1.2027\nPreis: 65 € (ab 1.12. 70 €)\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.ichwilltanzen.de/event
+URL:https://www.ichwilltanzen.de/event
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ke-tanzschule-fischer-20261231-silvester-2026-auf-2027-ende@myeventhub.
+ de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Letzter Tag: Silvester 2026 auf 2027
+LOCATION:Tanzschule Fischer\, Haslacher Straße 5\, 87435 Kempten (Allgäu)
+DESCRIPTION:Silvesterfeier mit Tanz in der Tanzschule Fischer.\nLaufzeit: 3
+ 1.12.2026 bis 1.1.2027\nPreis: 65 € (ab 1.12. 70 €)\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.ichwilltanzen.de/event
+URL:https://www.ichwilltanzen.de/event
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
