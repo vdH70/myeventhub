@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Bochum · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261031-vaterland@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T181500
+DTEND;TZID=Europe/Berlin:20261031T201500
+SUMMARY:Vaterland
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261031-jim-queen@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T200000
+DTEND;TZID=Europe/Berlin:20261031T220000
+SUMMARY:Jim Queen
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261103-vaterland@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T181500
+DTEND;TZID=Europe/Berlin:20261103T201500
+SUMMARY:Vaterland
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261103-queerfilmnacht-bearcave@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Queerfilmnacht: Bearcave
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261104-karde-tuerkueler-eine-30-jaehrige-geschicht
+ e@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T190000
+DTEND;TZID=Europe/Berlin:20261104T210000
+SUMMARY:Karde? Türküler – Eine 30-jährige Geschichte
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261107-vaterland@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T181500
+DTEND;TZID=Europe/Berlin:20261107T201500
+SUMMARY:Vaterland
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261107-primetime@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Primetime
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261114-kinderkino-emil-und-die-detektive@myeventhu
+ b.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T160000
+DTEND;TZID=Europe/Berlin:20261114T180000
+SUMMARY:Kinderkino: Emil und die Detektive
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261114-alte-liebe@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Alte Liebe
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bo-endstation-kino-20261114-primetime@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T201500
+DTEND;TZID=Europe/Berlin:20261114T221500
+SUMMARY:Primetime
+LOCATION:Endstation Kino\, Wallbaumweg 108\, 44894 Bochum
+DESCRIPTION:OmU\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://endstation-kino.de/monatsprogramm.html
+URL:https://endstation-kino.de/monatsprogramm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
