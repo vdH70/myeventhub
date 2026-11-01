@@ -507,6 +507,12 @@ body{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env
 /* Thomas 31.10.2026 13:28: Handy: Wann?-Knöpfe als durchgehender Fluss, kein Zeilenumbruch vor „90 Tage“ (PC behält die zweite Zeile) */
 @media (max-width:560px){html body #ranges.chips::before{content:none!important;display:none!important}}
 /* LOGO-ORANGE Thomas 01.11.2026 14:56: Logo wieder orange (#ED631B) mit orangem Schein – Block LOGO-SCHWARZ-TEST vom 31.10. entfernt */
+/* LOGO-SCHWARZ Thomas 01.11.2026 21:39: Logo-Quadrat wieder schwarz (Test zusammen mit schwarzen Knöpfen), Schein dunkel; weißes Megafon und weiße Schallbögen (regelmäßig 1,8 s) bleiben. Zurück zu Orange: diesen Block löschen. */
+svg.ezlogo path:first-child{fill:#000!important}
+svg.ezlogo{animation-name:ezmagie-schwarz!important}
+@keyframes ezmagie-schwarz{0%,100%{transform:scale(1);filter:drop-shadow(0 0 0 rgba(0,0,0,0))}50%{transform:scale(1.06);filter:drop-shadow(0 0 .3em rgba(0,0,0,.45))}}
+@media (prefers-reduced-motion:reduce){svg.ezlogo{animation:none!important}}
+/* /LOGO-SCHWARZ */
 /* Thomas 31.10.2026 14:26: Kopfbild am Handy gleicher Ausschnitt wie am PC (Seitenverhältnis 5,6 : 1, keine Lichterkette oben) */
 @media (max-width:699px){html body .hero#hero-home{height:auto!important;aspect-ratio:1143/204}}
 /* Thomas 31.10.2026 14:31: Merkliste in den Kalender */
