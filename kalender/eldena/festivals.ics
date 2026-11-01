@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festivals in Eldena · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:eld-indian-spirit-20270825-indian-spirit-festival-beginn@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:Beginn: Indian Spirit Festival
+LOCATION:Festivalgelände Indian Spirit\, Eldena
+DESCRIPTION:Goa- und Psytrance-Festival in Eldena. Veranstalter ME Events.\
+ nLaufzeit: 25.8.2027 bis 30.8.2027\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.me-events.de/events/
+URL:https://www.me-events.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eld-indian-spirit-20270825-indian-spirit-festival-ende@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270831
+SUMMARY:Letzter Tag: Indian Spirit Festival
+LOCATION:Festivalgelände Indian Spirit\, Eldena
+DESCRIPTION:Goa- und Psytrance-Festival in Eldena. Veranstalter ME Events.\
+ nLaufzeit: 25.8.2027 bis 30.8.2027\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.me-events.de/events/
+URL:https://www.me-events.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

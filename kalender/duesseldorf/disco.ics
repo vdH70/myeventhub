@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:d-stahlwerk-20261031-halloween-party@myeventhub.de
 DTSTAMP:20261031T000000Z
@@ -56,6 +73,21 @@ LOCATION:Stahlwerk Düsseldorf\, Ronsdorfer Straße 134\, 40233 Düsseldorf
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://stahlwerk.de/eve
  nt/silvester-xxl-4
 URL:https://stahlwerk.de/event/silvester-xxl-4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dus-ampere-20270327-feiern-wie-frueher-nur-frueher@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270327T170000
+DTEND;TZID=Europe/Berlin:20270327T190000
+SUMMARY:Feiern wie früher – nur früher!
+LOCATION:Ampere\, Düsseldorf
+DESCRIPTION:Daytime-Rave mit Techno-Classics von Anna Reusch und Thomas Sch
+ umacher\, bis 23 Uhr.\nEnde: laut Quelle nicht angegeben\nTickets: https:/
+ /stagedates.com/events/feiern-wie-fruher-nur-fruher-ampere-club-20270327-x
+ DKBE\nQuelle (bitte vor dem Besuch prüfen): https://www.feiernwiefrueher.
+ de/
+URL:https://www.feiernwiefrueher.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

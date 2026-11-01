@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Flughäfen & Flugplätze in Stendal · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sdl-flugplatz-stendal-borstel-20270424-bombaland-2027-the-home-of-the-g
+ olden-era@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T173000
+DTEND;TZID=Europe/Berlin:20270424T193000
+SUMMARY:Bombaland 2027 – The Home of the Golden Era
+LOCATION:Flugplatz Stendal-Borstel\, Osterburger Straße 250\, 39576 Stenda
+ l
+DESCRIPTION:Rave-Festival auf dem Flugplatz Stendal-Borstel. Veranstalter M
+ E Events.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.me-events.de/2026/05/26/bombaland-the-home-of-the-g
+ olden-era-in-stendal/
+URL:https://www.me-events.de/2026/05/26/bombaland-the-home-of-the-golden-er
+ a-in-stendal/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
