@@ -10,6 +10,38 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ma-alte-schildkroetfabrik-20270609-karrieretag-mannheim@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20270609T100000
+DTEND;TZID=Europe/Berlin:20270609T120000
+SUMMARY:Karrieretag Mannheim
+LOCATION:Alte Schildkrötfabrik\, Floßwörthstraße 36-38\, 68199 Mannheim
+DESCRIPTION:Jobmesse für Fachkräfte\, Führungskräfte\, Absolvent:innen\
+ , Studierende\, Berufseinsteiger und Quereinsteigende mit Bewerbungs-Check
+ \, Coaching und Vorträgen\; 10–17 Uhr.\nEnde: laut Quelle nicht angegeb
+ en\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.karrieretag.org/mannheim/
+URL:https://www.karrieretag.org/mannheim/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:ma-sap-arena-20270616-vocatium-rhein-neckar-pfalz-beginn@myeventhub.de
 DTSTAMP:20261102T000000Z

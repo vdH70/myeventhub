@@ -10,6 +10,52 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e-grugahalle-20270206-stuzubi-essen@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T100000
+DTEND;TZID=Europe/Berlin:20270206T120000
+SUMMARY:Stuzubi Essen – Messe für Studium und Ausbildung
+LOCATION:Messe Essen – Grugahalle
+DESCRIPTION:Messe zu Ausbildung\, dualem Studium und Studium für Schüleri
+ nnen und Schüler. 10–16 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis:
+  Eintritt frei\, kostenloses Ticket online\nQuelle (bitte vor dem Besuch p
+ rüfen): http://stuzubi.de/messen/essen
+URL:http://stuzubi.de/messen/essen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e-philharmonie-20270303-karrieretag-essen@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T100000
+DTEND;TZID=Europe/Berlin:20270303T120000
+SUMMARY:Karrieretag Essen
+LOCATION:Philharmonie Essen Conference Center
+DESCRIPTION:Jobmesse für Fachkräfte\, Führungskräfte\, Absolvent:innen\
+ , Studierende\, Berufseinsteiger und Quereinsteigende mit Bewerbungs-Check
+ \, Coaching und Vorträgen\; 10–17 Uhr.\nEnde: laut Quelle nicht angegeb
+ en\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.karrieretag.org/essen/
+URL:https://www.karrieretag.org/essen/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:e-zollverein-20270623-vocatium-essen-focus-beginn@myeventhub.de
 DTSTAMP:20261102T000000Z
@@ -40,6 +86,21 @@ DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
  intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
  de/messen/info/vocatium-essen-focus
 URL:https://www.vocatium.de/messen/info/vocatium-essen-focus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e-philharmonie-20270924-karrieretag-essen@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:Karrieretag Essen
+LOCATION:Philharmonie Essen\, Essen
+DESCRIPTION:Jobmesse für Fachkräfte\, Führungskräfte\, Absolvent:innen\
+ , Studierende\, Berufseinsteiger und Quereinsteigende mit Bewerbungs-Check
+ \, Coaching und Vorträgen\; Uhrzeit noch nicht veröffentlicht (bisher 10
+ –17 Uhr).\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.karrieretag.org/essen/
+URL:https://www.karrieretag.org/essen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

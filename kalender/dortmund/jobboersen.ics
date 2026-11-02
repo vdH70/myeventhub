@@ -10,6 +10,69 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:do-messe-dortmund-20261210-karrieretag-dortmund@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T100000
+DTEND;TZID=Europe/Berlin:20261210T120000
+SUMMARY:Karrieretag Dortmund
+LOCATION:Messe Dortmund\, Eingang Nord
+DESCRIPTION:Jobmesse für Fachkräfte\, Führungskräfte\, Absolvent:innen\
+ , Studierende\, Berufseinsteiger und Quereinsteigende mit Bewerbungs-Check
+ \, Coaching und Vorträgen\; 10–17 Uhr.\nEnde: laut Quelle nicht angegeb
+ en\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.karrieretag.org/dortmund/
+URL:https://www.karrieretag.org/dortmund/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-messe-dortmund-20270313-stuzubi-dortmund@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T100000
+DTEND;TZID=Europe/Berlin:20270313T120000
+SUMMARY:Stuzubi Dortmund – Messe für Studium und Ausbildung
+LOCATION:Messe Dortmund / Westfalenhallen\, Rheinlanddamm 200\, 44139 Dortm
+ und
+DESCRIPTION:Messe zu Ausbildung\, dualem Studium und Studium für Schüleri
+ nnen und Schüler. 10–16 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis:
+  Eintritt frei\, kostenloses Ticket online\nQuelle (bitte vor dem Besuch p
+ rüfen): http://stuzubi.de/messen/dortmund
+URL:http://stuzubi.de/messen/dortmund
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-messe-dortmund-20270414-karrieretag-dortmund@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:Karrieretag Dortmund
+LOCATION:Messe Dortmund / Westfalenhallen\, Rheinlanddamm 200\, 44139 Dortm
+ und
+DESCRIPTION:Jobmesse für Fachkräfte\, Führungskräfte\, Absolvent:innen\
+ , Studierende\, Berufseinsteiger und Quereinsteigende mit Bewerbungs-Check
+ \, Coaching und Vorträgen\; Uhrzeit noch nicht veröffentlicht (bisher 10
+ –17 Uhr).\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.karrieretag.org/dortmund/
+URL:https://www.karrieretag.org/dortmund/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:do-messe-dortmund-20270512-vocatium-dortmund-beginn@myeventhub.de
 DTSTAMP:20261102T000000Z
@@ -41,6 +104,22 @@ DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
  intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
  de/messen/info/vocatium-dortmund
 URL:https://www.vocatium.de/messen/info/vocatium-dortmund
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-messe-dortmund-20271214-karrieretag-dortmund@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20271214
+DTEND;VALUE=DATE:20271215
+SUMMARY:Karrieretag Dortmund
+LOCATION:Messe Dortmund / Westfalenhallen\, Rheinlanddamm 200\, 44139 Dortm
+ und
+DESCRIPTION:Jobmesse für Fachkräfte\, Führungskräfte\, Absolvent:innen\
+ , Studierende\, Berufseinsteiger und Quereinsteigende mit Bewerbungs-Check
+ \, Coaching und Vorträgen\; Uhrzeit noch nicht veröffentlicht (bisher 10
+ –17 Uhr).\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.karrieretag.org/dortmund/
+URL:https://www.karrieretag.org/dortmund/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
