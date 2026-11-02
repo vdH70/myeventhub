@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kneipen/Gaststätten in Oldenburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ol-patentkrug-20261031-80-90er-party@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:80/90er Party
+LOCATION:Patentkrug\, Wilhelmshavener Heerstraße 359\, 26125 Oldenburg
+DESCRIPTION:Die Quelle nennt keine Uhrzeit.\nPreis: 20 €\nQuelle (bitte v
+ or dem Besuch prüfen): https://patentkrug.de/veranstaltungen/veranstaltun
+ gskalender/
+URL:https://patentkrug.de/veranstaltungen/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261105-brauereifuehrung-bier-tasting@myeventhub.
+ de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T183000
+DTEND;TZID=Europe/Berlin:20261105T203000
+SUMMARY:Brauereiführung & Bier Tasting
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://ols.reservi
+ x.de/events\nQuelle (bitte vor dem Besuch prüfen): https://ols-brauerei.d
+ e/ols-events-veranstaltungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261109-brauereifuehrung-bier-tasting@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T183000
+DTEND;TZID=Europe/Berlin:20261109T203000
+SUMMARY:Brauereiführung & Bier Tasting
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://ols.reservi
+ x.de/events\nQuelle (bitte vor dem Besuch prüfen): https://ols-brauerei.d
+ e/ols-events-veranstaltungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261115-hutkonzert-rolling-bones@myeventhub.de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Hutkonzert: Rolling Bones
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Hutkonzert\nQuelle (b
+ itte vor dem Besuch prüfen): https://ols-brauerei.de/ols-events-veranstal
+ tungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261116-brauereifuehrung-bier-tasting@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T183000
+DTEND;TZID=Europe/Berlin:20261116T203000
+SUMMARY:Brauereiführung & Bier Tasting
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://ols.reservi
+ x.de/events\nQuelle (bitte vor dem Besuch prüfen): https://ols-brauerei.d
+ e/ols-events-veranstaltungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261123-brauereifuehrung-bier-tasting@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T183000
+DTEND;TZID=Europe/Berlin:20261123T203000
+SUMMARY:Brauereiführung & Bier Tasting
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://ols.reservi
+ x.de/events\nQuelle (bitte vor dem Besuch prüfen): https://ols-brauerei.d
+ e/ols-events-veranstaltungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261130-brauereifuehrung-bier-tasting@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T183000
+DTEND;TZID=Europe/Berlin:20261130T203000
+SUMMARY:Brauereiführung & Bier Tasting
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://ols.reservi
+ x.de/events\nQuelle (bitte vor dem Besuch prüfen): https://ols-brauerei.d
+ e/ols-events-veranstaltungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261207-brauereifuehrung-bier-tasting@myeventhub.
+ de
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T183000
+DTEND;TZID=Europe/Berlin:20261207T203000
+SUMMARY:Brauereiführung & Bier Tasting
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://ols.reservi
+ x.de/events\nQuelle (bitte vor dem Besuch prüfen): https://ols-brauerei.d
+ e/ols-events-veranstaltungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261213-hutkonzert-olsheimer@myeventhub.de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Hutkonzert: Olsheimer
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Hutkonzert\nQuelle (b
+ itte vor dem Besuch prüfen): https://ols-brauerei.de/ols-events-veranstal
+ tungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-ols-brauwerkstatt-20261214-brauereifuehrung-bier-tasting@myeventhub.
+ de
+DTSTAMP:20261019T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T183000
+DTEND;TZID=Europe/Berlin:20261214T203000
+SUMMARY:Brauereiführung & Bier Tasting
+LOCATION:Ols Brauwerkstatt\, Rosenstraße 52\, 26122 Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://ols.reservi
+ x.de/events\nQuelle (bitte vor dem Besuch prüfen): https://ols-brauerei.d
+ e/ols-events-veranstaltungen-in-oldenburg/
+URL:https://ols-brauerei.de/ols-events-veranstaltungen-in-oldenburg/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-patentkrug-20261219-christmas-party@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Christmas Party
+LOCATION:Patentkrug\, Wilhelmshavener Heerstraße 359\, 26125 Oldenburg
+DESCRIPTION:Die Quelle nennt keine Uhrzeit.\nQuelle (bitte vor dem Besuch p
+ rüfen): https://patentkrug.de/veranstaltungen/veranstaltungskalender/
+URL:https://patentkrug.de/veranstaltungen/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
