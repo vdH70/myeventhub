@@ -10,6 +10,38 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tr-handwerkskammer-20261108-chance-handwerk@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Chance Handwerk – Ausbildungsmesse für das Handwerk der Region T
+ rier
+LOCATION:Handwerkskammer Trier\, Loebstraße 18\, 54292 Trier
+DESCRIPTION:Ausbildungsmesse der Handwerkskammer Trier: Handwerksberufe liv
+ e erleben und Ausbildungsbetriebe kennenlernen. 11–16 Uhr.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ chance-handwerk-trier.de/
+URL:https://www.chance-handwerk-trier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:tr-europahalle-20270519-vocatium-trier-grossregion-beginn@myeventhub.de
 DTSTAMP:20261102T000000Z
