@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jobbörsen in Offenbach am Main · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:of-messe-offenbach-20270601-vocatium-rhein-main-beginn@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:Beginn: vocatium Rhein-Main – Fachmesse für Ausbildung und Studi
+ um
+LOCATION:Messe Offenbach\, Kaiserstraße 108-112\, 63065 Offenbach am Main
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 1.6.2027 bis 2.6.2027\nPreis: Ein
+ tritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.de
+ /messen/info/vocatium-rhein-main
+URL:https://www.vocatium.de/messen/info/vocatium-rhein-main
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-messe-offenbach-20270601-vocatium-rhein-main-ende@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:Letzter Tag: vocatium Rhein-Main – Fachmesse für Ausbildung und 
+ Studium
+LOCATION:Messe Offenbach\, Kaiserstraße 108-112\, 63065 Offenbach am Main
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 1.6.2027 bis 2.6.2027\nPreis: Ein
+ tritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.de
+ /messen/info/vocatium-rhein-main
+URL:https://www.vocatium.de/messen/info/vocatium-rhein-main
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

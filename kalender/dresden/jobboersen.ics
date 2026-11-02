@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jobbörsen in Dresden · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:dd-messe-dresden-20270622-vocatium-dresden-beginn@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:Beginn: vocatium Dresden – Fachmesse für Ausbildung und Studium
+LOCATION:Messe Dresden\, Halle 2
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 22.6.2027 bis 23.6.2027\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
+ de/messen/info/vocatium-dresden
+URL:https://www.vocatium.de/messen/info/vocatium-dresden
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-messe-dresden-20270622-vocatium-dresden-ende@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Letzter Tag: vocatium Dresden – Fachmesse für Ausbildung und Stu
+ dium
+LOCATION:Messe Dresden\, Halle 2
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 22.6.2027 bis 23.6.2027\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
+ de/messen/info/vocatium-dresden
+URL:https://www.vocatium.de/messen/info/vocatium-dresden
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

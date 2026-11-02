@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jobbörsen in Saarbrücken · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sb-saarlandhalle-20270413-vocatium-saarbruecken-beginn@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Beginn: vocatium Saarbrücken – Fachmesse für Ausbildung und Stu
+ dium
+LOCATION:Saarlandhalle\, Saarbrücken
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 13.4.2027 bis 14.4.2027\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
+ de/messen/info/vocatium-saarbruecken
+URL:https://www.vocatium.de/messen/info/vocatium-saarbruecken
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sb-saarlandhalle-20270413-vocatium-saarbruecken-ende@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:Letzter Tag: vocatium Saarbrücken – Fachmesse für Ausbildung un
+ d Studium
+LOCATION:Saarlandhalle\, Saarbrücken
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 13.4.2027 bis 14.4.2027\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
+ de/messen/info/vocatium-saarbruecken
+URL:https://www.vocatium.de/messen/info/vocatium-saarbruecken
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

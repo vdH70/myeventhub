@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jobbörsen in Erlangen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:er-heinrich-lades-halle-20270427-vocatium-erlangen-beginn@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Beginn: vocatium Erlangen – Fachmesse für Ausbildung und Studium
+LOCATION:Heinrich-Lades-Halle\, Rathausplatz 1\, 91052 Erlangen
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 27.4.2027 bis 28.4.2027\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
+ de/messen/info/vocatium-erlangen
+URL:https://www.vocatium.de/messen/info/vocatium-erlangen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:er-heinrich-lades-halle-20270427-vocatium-erlangen-ende@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:Letzter Tag: vocatium Erlangen – Fachmesse für Ausbildung und St
+ udium
+LOCATION:Heinrich-Lades-Halle\, Rathausplatz 1\, 91052 Erlangen
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 27.4.2027 bis 28.4.2027\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
+ de/messen/info/vocatium-erlangen
+URL:https://www.vocatium.de/messen/info/vocatium-erlangen
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

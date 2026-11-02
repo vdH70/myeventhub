@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jobbörsen in Rostock · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hro-hansemesse-20270615-vocatium-rostock-beginn@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Beginn: vocatium Rostock – Fachmesse für Ausbildung und Studium
+LOCATION:HanseMesse Rostock\, Zur HanseMesse 1-2\, 18106 Rostock
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 15.6.2027 bis 16.6.2027\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
+ de/messen/info/vocatium-rostock
+URL:https://www.vocatium.de/messen/info/vocatium-rostock
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hro-hansemesse-20270615-vocatium-rostock-ende@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:Letzter Tag: vocatium Rostock – Fachmesse für Ausbildung und Stu
+ dium
+LOCATION:HanseMesse Rostock\, Zur HanseMesse 1-2\, 18106 Rostock
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 15.6.2027 bis 16.6.2027\nPreis: E
+ intritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.
+ de/messen/info/vocatium-rostock
+URL:https://www.vocatium.de/messen/info/vocatium-rostock
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jobbörsen in Sinsheim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hd-dr-sieber-halle-20270701-vocatium-sinsheim-beginn@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Beginn: vocatium Sinsheim – Fachmesse für Ausbildung und Studium
+LOCATION:Dr.-Sieber-Halle\, Friedrichstraße 17\, 74889 Sinsheim
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –12:45 Uhr an beiden Tagen.\nLaufzeit: 1.7.2027 bis 2.7.2027\nPreis: Ein
+ tritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.de
+ /messen/info/vocatium-sinsheim
+URL:https://www.vocatium.de/messen/info/vocatium-sinsheim
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-dr-sieber-halle-20270701-vocatium-sinsheim-ende@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:Letzter Tag: vocatium Sinsheim – Fachmesse für Ausbildung und St
+ udium
+LOCATION:Dr.-Sieber-Halle\, Friedrichstraße 17\, 74889 Sinsheim
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –12:45 Uhr an beiden Tagen.\nLaufzeit: 1.7.2027 bis 2.7.2027\nPreis: Ein
+ tritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.de
+ /messen/info/vocatium-sinsheim
+URL:https://www.vocatium.de/messen/info/vocatium-sinsheim
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

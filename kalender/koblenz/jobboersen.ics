@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jobbörsen in Koblenz · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ko-epg-arena-20270907-vocatium-koblenz-beginn@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270908
+SUMMARY:Beginn: vocatium Koblenz – Fachmesse für Ausbildung und Studium
+LOCATION:EPG ARENA\, Jupp-Gauchel-Straße 10\, 56075 Koblenz
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 7.9.2027 bis 8.9.2027\nPreis: Ein
+ tritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.de
+ /messen/info/vocatium-koblenz
+URL:https://www.vocatium.de/messen/info/vocatium-koblenz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-epg-arena-20270907-vocatium-koblenz-ende@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+SUMMARY:Letzter Tag: vocatium Koblenz – Fachmesse für Ausbildung und Stu
+ dium
+LOCATION:EPG ARENA\, Jupp-Gauchel-Straße 10\, 56075 Koblenz
+DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
+ hüler: Ausbildungsbetriebe\, Hochschulen\, Beratung und Vorträge. 08:30
+ –14:45 Uhr an beiden Tagen.\nLaufzeit: 7.9.2027 bis 8.9.2027\nPreis: Ein
+ tritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.de
+ /messen/info/vocatium-koblenz
+URL:https://www.vocatium.de/messen/info/vocatium-koblenz
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
