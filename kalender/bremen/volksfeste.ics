@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Volksfeste in Bremen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hb-buergerweide-20261016-bremer-freimarkt-2026-ende@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Bremer Freimarkt 2026
+LOCATION:Bürgerweide (Freimarkt-Gelände)\, Bremen
+DESCRIPTION:Volksfest auf der Bürgerweide\; So–Do 13–23 Uhr\, Fr/Sa 13
+ –24 Uhr.\nLaufzeit: 16.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.freimarkt.de/oeffnungszeiten/
+URL:https://www.freimarkt.de/oeffnungszeiten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerweide-20270319-bremer-osterwiese-2027-beginn@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Beginn: Bremer Osterwiese 2027
+LOCATION:Bürgerweide (Freimarkt-Gelände)\, Bremen
+DESCRIPTION:Frühjahrsvolksfest auf der Bürgerweide mit Fahrgeschäften un
+ d Buden.\nLaufzeit: 19.3.2027 bis 4.4.2027\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.osterwiese.com
+URL:https://www.osterwiese.com
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-buergerweide-20270319-bremer-osterwiese-2027-ende@myeventhub.de
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Letzter Tag: Bremer Osterwiese 2027
+LOCATION:Bürgerweide (Freimarkt-Gelände)\, Bremen
+DESCRIPTION:Frühjahrsvolksfest auf der Bürgerweide mit Fahrgeschäften un
+ d Buden.\nLaufzeit: 19.3.2027 bis 4.4.2027\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.osterwiese.com
+URL:https://www.osterwiese.com
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
