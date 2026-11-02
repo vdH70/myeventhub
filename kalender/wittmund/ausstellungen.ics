@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Wittmund · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wtm-deutsches-sielhafenmuseum-20261025-wellen-wind-und-seemannsstolz-sc
+ hiffsdioramen-und-beginn@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Beginn: Wellen\, Wind und Seemannsstolz – Schiffsdioramen und Kap
+ itänsbilder des 19. Jahrhunderts
+LOCATION:Deutsches Sielhafenmuseum\, Pumphusen 3\, 26409 Wittmund
+DESCRIPTION:Laufzeit: 25.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.deutsches-sielhafenmuseum.de/haeuser-und-dauerauss
+ tellungen/sonderausstellungen/
+URL:https://www.deutsches-sielhafenmuseum.de/haeuser-und-dauerausstellungen
+ /sonderausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wtm-deutsches-sielhafenmuseum-20261025-wellen-wind-und-seemannsstolz-sc
+ hiffsdioramen-und-ende@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Wellen\, Wind und Seemannsstolz – Schiffsdioramen un
+ d Kapitänsbilder des 19. Jahrhunderts
+LOCATION:Deutsches Sielhafenmuseum\, Pumphusen 3\, 26409 Wittmund
+DESCRIPTION:Laufzeit: 25.10.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.deutsches-sielhafenmuseum.de/haeuser-und-dauerauss
+ tellungen/sonderausstellungen/
+URL:https://www.deutsches-sielhafenmuseum.de/haeuser-und-dauerausstellungen
+ /sonderausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wtm-deutsches-sielhafenmuseum-20270124-finissage-wellen-wind-und-seeman
+ nsstolz@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T110000
+DTEND;TZID=Europe/Berlin:20270124T130000
+SUMMARY:Finissage „Wellen\, Wind und Seemannsstolz“
+LOCATION:Kapitänshaus\, Am Hafen Ost 3
+DESCRIPTION:Abschluss der Sonderausstellung im Kapitänshaus.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ deutsches-sielhafenmuseum.de/termine/finissage-wellen-wind-und-seemannssto
+ lz/?occurrence=2027-01-24
+URL:https://www.deutsches-sielhafenmuseum.de/termine/finissage-wellen-wind-
+ und-seemannsstolz/?occurrence=2027-01-24
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
