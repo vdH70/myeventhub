@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Bad Zwischenahn · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bz-altes-kurhaus-20261114-klavierkonzert-mit-j-konstantin-frantz@myeven
+ thub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Klavierkonzert mit J. Konstantin Frantz
+LOCATION:Altes Kurhaus Bad Zwischenahn (Spiegelsaal)\, Auf dem Hohen Ufer 2
+ 0\, 26160 Bad Zwischenahn
+DESCRIPTION:Klavierabend im Spiegelsaal des Alten Kurhauses.\nPreis: 29 €
+ \, ermäßigt 24 €\nQuelle (bitte vor dem Besuch prüfen): https://www.b
+ ad-zwischenahn-touristik.de/veranstaltungen/veranstaltungskalender/event/k
+ lavierkonzert-mit-j-konstantin-frantz
+URL:https://www.bad-zwischenahn-touristik.de/veranstaltungen/veranstaltungs
+ kalender/event/klavierkonzert-mit-j-konstantin-frantz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bz-wandelhalle-20261228-gala-oper-operette-musical@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Gala – Oper\, Operette\, Musical
+LOCATION:Wandelhalle Bad Zwischenahn\, Auf dem Hohen Ufer 24\, 26160 Bad Zw
+ ischenahn
+DESCRIPTION:Galakonzert mit Sopran\, Tenor und Klavier in der Wandelhalle.\
+ nPreis: 18 €\, mit Gästekarte 15 €\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.bad-zwischenahn-touristik.de/veranstaltungen/veranstaltu
+ ngskalender/event/gala
+URL:https://www.bad-zwischenahn-touristik.de/veranstaltungen/veranstaltungs
+ kalender/event/gala
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
