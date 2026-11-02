@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Freilichtbühnen in Lennestadt · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:le-elspe-festival-20270626-karl-may-festspiele-2027-der-oelprinz-beginn
+ @myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Beginn: Karl-May-Festspiele 2027: Der Ölprinz
+LOCATION:Elspe Festival (Naturbühne)\, Zur Naturbühne 1\, 57368 Lennestad
+ t
+DESCRIPTION:Karl-May-Festspiele auf der Naturbühne\, Spielzeit bis 12.09.\
+ ; Beginn je nach Spieltag 13:30\, 14:45 oder 20:15 Uhr.\nLaufzeit: 26.6.20
+ 27 bis 12.9.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.elspe
+ .de/events/karl-may-festspiele-2027-der-oelprinz-schwarzes-gold-in-den-nav
+ ajo-mountains
+URL:https://www.elspe.de/events/karl-may-festspiele-2027-der-oelprinz-schwa
+ rzes-gold-in-den-navajo-mountains
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:le-elspe-festival-20270626-karl-may-festspiele-2027-der-oelprinz-ende@m
+ yeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:Letzter Tag: Karl-May-Festspiele 2027: Der Ölprinz
+LOCATION:Elspe Festival (Naturbühne)\, Zur Naturbühne 1\, 57368 Lennestad
+ t
+DESCRIPTION:Karl-May-Festspiele auf der Naturbühne\, Spielzeit bis 12.09.\
+ ; Beginn je nach Spieltag 13:30\, 14:45 oder 20:15 Uhr.\nLaufzeit: 26.6.20
+ 27 bis 12.9.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.elspe
+ .de/events/karl-may-festspiele-2027-der-oelprinz-schwarzes-gold-in-den-nav
+ ajo-mountains
+URL:https://www.elspe.de/events/karl-may-festspiele-2027-der-oelprinz-schwa
+ rzes-gold-in-den-navajo-mountains
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:le-elspe-festival-20270917-bosse-sommer-2027@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20270917T190000
+DTEND;TZID=Europe/Berlin:20270917T210000
+SUMMARY:Bosse – Sommer 2027
+LOCATION:Elspe Festival (Naturbühne)\, Zur Naturbühne 1\, 57368 Lennestad
+ t
+DESCRIPTION:Open-Air-Konzert auf der großen Naturbühne.\nEinlass 17:00\, 
+ Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.elspe.de/events/bosse-sommer-2027-stabile-po
+ esie-open-air-live
+URL:https://www.elspe.de/events/bosse-sommer-2027-stabile-poesie-open-air-l
+ ive
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:le-elspe-festival-20270918-koelsche-sommernacht-kasalla-brings-und-druc
+ kluft@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20270918T163000
+DTEND;TZID=Europe/Berlin:20270918T183000
+SUMMARY:Kölsche Sommernacht: Kasalla\, Brings und Druckluft
+LOCATION:Elspe Festival (Naturbühne)\, Zur Naturbühne 1\, 57368 Lennestad
+ t
+DESCRIPTION:Open-Air-Konzert auf der großen Naturbühne.\nEinlass 15:00\, 
+ Beginn 16:30 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.elspe.de/events/koelsche-sommernacht-kasalla
+ -brings-druckluft-open-air-live-2027
+URL:https://www.elspe.de/events/koelsche-sommernacht-kasalla-brings-drucklu
+ ft-open-air-live-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:le-elspe-festival-20270919-dick-brave-back-for-more@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20270919T190000
+DTEND;TZID=Europe/Berlin:20270919T210000
+SUMMARY:Dick Brave – Back for More
+LOCATION:Elspe Festival (Naturbühne)\, Zur Naturbühne 1\, 57368 Lennestad
+ t
+DESCRIPTION:Open-Air-Konzert auf der großen Naturbühne.\nEinlass 17:00\, 
+ Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.elspe.de/events/dick-brave-back-for-more-ope
+ n-air-2027
+URL:https://www.elspe.de/events/dick-brave-back-for-more-open-air-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
