@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Blues in Berlin · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b-yorckschloesschen-20261104-big-joe-stolle-band@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Big Joe Stolle Band
+LOCATION:Yorckschlösschen\, Yorckstraße 15\, 10965 Berlin
+DESCRIPTION:Blues-Party im Yorckschlösschen.\nEnde: laut Quelle nicht ange
+ geben\nPreis: Hutgeld für die Band (mind. 5 € pro Person erbeten)\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.yorckschloesschen.de/livemu
+ sik/
+URL:https://www.yorckschloesschen.de/livemusik/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-yorckschloesschen-20261105-berlin-blues-jam-session@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Berlin Blues Jam Session
+LOCATION:Yorckschlösschen\, Yorckstraße 15\, 10965 Berlin
+DESCRIPTION:Blues-Session im Yorckschlösschen.\nEnde: laut Quelle nicht an
+ gegeben\nPreis: Hutgeld für die Band (mind. 5 € pro Person erbeten)\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.yorckschloesschen.de/live
+ musik/
+URL:https://www.yorckschloesschen.de/livemusik/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-yorckschloesschen-20261106-donna-brown-band@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Donna Brown Band
+LOCATION:Yorckschlösschen\, Yorckstraße 15\, 10965 Berlin
+DESCRIPTION:Blues und Soul im Yorckschlösschen.\nEnde: laut Quelle nicht a
+ ngegeben\nPreis: Hutgeld für die Band (mind. 5 € pro Person erbeten)\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.yorckschloesschen.de/liv
+ emusik/
+URL:https://www.yorckschloesschen.de/livemusik/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-yorckschloesschen-20261120-mrs-king-her-juwels@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Mrs. King & Her Juwels
+LOCATION:Yorckschlösschen\, Yorckstraße 15\, 10965 Berlin
+DESCRIPTION:Blues\, Boogie und Soul im Yorckschlösschen.\nEnde: laut Quell
+ e nicht angegeben\nPreis: Hutgeld für die Band (mind. 5 € pro Person er
+ beten)\nQuelle (bitte vor dem Besuch prüfen): https://www.yorckschloessch
+ en.de/livemusik/
+URL:https://www.yorckschloesschen.de/livemusik/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-yorckschloesschen-20261121-katarina-holmberg-band@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Katarina Holmberg Band
+LOCATION:Yorckschlösschen\, Yorckstraße 15\, 10965 Berlin
+DESCRIPTION:Blues\, Soul und R&B im Yorckschlösschen.\nEnde: laut Quelle n
+ icht angegeben\nPreis: Hutgeld für die Band (mind. 5 € pro Person erbet
+ en)\nQuelle (bitte vor dem Besuch prüfen): https://www.yorckschloesschen.
+ de/livemusik/
+URL:https://www.yorckschloesschen.de/livemusik/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-orania-bar-20261121-marque-lowenthal@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T210000
+DTEND;TZID=Europe/Berlin:20261121T230000
+SUMMARY:Marque Lowenthal
+LOCATION:Orania-Bar (Hotel Orania.Berlin)\, Oranienstraße 40\, 10999 Berli
+ n
+DESCRIPTION:„Ain't Nothing but the Blues“ in der Orania-Bar.\nEnde: lau
+ t Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besu
+ ch prüfen): https://orania.berlin/concerts
+URL:https://orania.berlin/concerts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-yorckschloesschen-20261203-berlin-blues-jam-session@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Berlin Blues Jam Session
+LOCATION:Yorckschlösschen\, Yorckstraße 15\, 10965 Berlin
+DESCRIPTION:Blues-Session im Yorckschlösschen.\nEnde: laut Quelle nicht an
+ gegeben\nPreis: Hutgeld für die Band (mind. 5 € pro Person erbeten)\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.yorckschloesschen.de/live
+ musik/
+URL:https://www.yorckschloesschen.de/livemusik/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-yorckschloesschen-20261212-katarina-holmberg-band@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Katarina Holmberg Band
+LOCATION:Yorckschlösschen\, Yorckstraße 15\, 10965 Berlin
+DESCRIPTION:Soul\, Funk und Blues im Yorckschlösschen.\nEnde: laut Quelle 
+ nicht angegeben\nPreis: Hutgeld für die Band (mind. 5 € pro Person erbe
+ ten)\nQuelle (bitte vor dem Besuch prüfen): https://www.yorckschloesschen
+ .de/livemusik/
+URL:https://www.yorckschloesschen.de/livemusik/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-yorckschloesschen-20261216-lars-vegas-juke-joint@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:Lars Vegas Juke Joint
+LOCATION:Yorckschlösschen\, Yorckstraße 15\, 10965 Berlin
+DESCRIPTION:Delta-Blues und R&B im Yorckschlösschen.\nEnde: laut Quelle ni
+ cht angegeben\nPreis: Hutgeld für die Band (mind. 5 € pro Person erbete
+ n)\nQuelle (bitte vor dem Besuch prüfen): https://www.yorckschloesschen.d
+ e/livemusik/
+URL:https://www.yorckschloesschen.de/livemusik/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-yorckschloesschen-20261217-boogie-royale@myeventhub.de
+DTSTAMP:20261102T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:Boogie Royale
+LOCATION:Yorckschlösschen\, Yorckstraße 15\, 10965 Berlin
+DESCRIPTION:Blues und Boogie im Yorckschlösschen.\nEnde: laut Quelle nicht
+  angegeben\nPreis: Hutgeld für die Band (mind. 5 € pro Person erbeten)\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.yorckschloesschen.de/l
+ ivemusik/
+URL:https://www.yorckschloesschen.de/livemusik/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
