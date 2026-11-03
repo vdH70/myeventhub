@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Unterföhring · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-buergerhaus-unterfoehring-20261203-2000-the-magnets@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:The Magnets
+LOCATION:Bürgerhaus Unterföhring\, Münchner Straße 65\, 85774 Unterföh
+ ring
+DESCRIPTION:Konzert im Bürgerhaus Unterföhring.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://buergerhaus-unte
+ rfoehring.de/wp-content/uploads/UfgBU_Programm2026_27Winter04web-1.pdf
+URL:https://buergerhaus-unterfoehring.de/wp-content/uploads/UfgBU_Programm2
+ 026_27Winter04web-1.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-buergerhaus-unterfoehring-20261213-1900-merry-jazzmas@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T190000
+DTEND;TZID=Europe/Berlin:20261213T210000
+SUMMARY:Merry Jazzmas
+LOCATION:Bürgerhaus Unterföhring\, Münchner Straße 65\, 85774 Unterföh
+ ring
+DESCRIPTION:Weihnachtliches Jazzkonzert im Bürgerhaus Unterföhring.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://buergerhaus-unterfoehring.de/wp-content/uploads/UfgBU_Programm2026_27W
+ inter04web-1.pdf
+URL:https://buergerhaus-unterfoehring.de/wp-content/uploads/UfgBU_Programm2
+ 026_27Winter04web-1.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-buergerhaus-unterfoehring-20261219-2000-toelzer-knabenchor-familien-w
+ eihnachtskonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Tölzer Knabenchor: Familien-Weihnachtskonzert
+LOCATION:Bürgerhaus Unterföhring\, Münchner Straße 65\, 85774 Unterföh
+ ring
+DESCRIPTION:Weihnachtskonzert eines Knabenchores für Familien im Bürgerha
+ us Unterföhring.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://buergerhaus-unterfoehring.de/wp-content/uploads
+ /UfgBU_Programm2026_27Winter04web-1.pdf
+URL:https://buergerhaus-unterfoehring.de/wp-content/uploads/UfgBU_Programm2
+ 026_27Winter04web-1.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-buergerhaus-unterfoehring-20270117-1900-neujahrskonzert-mit-solisten-
+ der-muenchner-philhar@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T190000
+DTEND;TZID=Europe/Berlin:20270117T210000
+SUMMARY:Neujahrskonzert mit Solisten der Münchner Philharmoniker
+LOCATION:Bürgerhaus Unterföhring\, Münchner Straße 65\, 85774 Unterföh
+ ring
+DESCRIPTION:Neujahrskonzert mit Orchestermusikern im Bürgerhaus Unterföhr
+ ing.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://buergerhaus-unterfoehring.de/wp-content/uploads/UfgBU_Progra
+ mm2026_27Winter04web-1.pdf
+URL:https://buergerhaus-unterfoehring.de/wp-content/uploads/UfgBU_Programm2
+ 026_27Winter04web-1.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-buergerhaus-unterfoehring-20270206-1930-jahreskonzert-der-blaskapelle
+ -unterfoehring@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T193000
+DTEND;TZID=Europe/Berlin:20270206T213000
+SUMMARY:Jahreskonzert der Blaskapelle Unterföhring
+LOCATION:Bürgerhaus Unterföhring\, Münchner Straße 65\, 85774 Unterföh
+ ring
+DESCRIPTION:Jahreskonzert der örtlichen Blaskapelle im Bürgerhaus Unterf
+ öhring.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://buergerhaus-unterfoehring.de/wp-content/uploads/UfgBU_Pr
+ ogramm2026_27Winter04web-1.pdf
+URL:https://buergerhaus-unterfoehring.de/wp-content/uploads/UfgBU_Programm2
+ 026_27Winter04web-1.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

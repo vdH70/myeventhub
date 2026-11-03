@@ -10,6 +10,91 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261105-2200-135-mit-unikat-8-08am@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T220000
+DTEND;TZID=Europe/Berlin:20261106T000000
+SUMMARY:135+ mit Unikat & 8:08AM
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261106-2200-ragazzi-gans-am-wasser@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T220000
+DTEND;TZID=Europe/Berlin:20261107T000000
+SUMMARY:Ragazzi & Gans am Wasser
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261107-2200-klangtherapie-festival-mit-foolik-hyp
+ egirls@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T220000
+DTEND;TZID=Europe/Berlin:20261108T000000
+SUMMARY:Klangtherapie Festival mit Foolik & Hypegirls
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261112-2200-135-mit-xoxo-secret-trance-frequencie
+ s@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T220000
+DTEND;TZID=Europe/Berlin:20261113T000000
+SUMMARY:135+ mit XOXO & Secret Trance Frequencies
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261113-2200-freitag-mit-dirty-doering@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T220000
+DTEND;TZID=Europe/Berlin:20261114T000000
+SUMMARY:Freitag mit Dirty Doering
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:m-rote-sonne-20261114-untreated-octor-perc-starkiller-synta@myeventhub.
  de
@@ -20,6 +105,73 @@ SUMMARY:UNTREATED: Octor\, PERC\, STARKILLER\, Synta
 LOCATION:Rote Sonne\, Maximiliansplatz 5\, 80333 München
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rote-sonne.com/
 URL:https://rote-sonne.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261119-2200-135-mit-klangfarben-halligalli-with-f
+ riends@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T220000
+DTEND;TZID=Europe/Berlin:20261120T000000
+SUMMARY:135+ mit Klangfarben & Halligalli.with.friends
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261120-2200-freitag-mit-urem@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T220000
+DTEND;TZID=Europe/Berlin:20261121T000000
+SUMMARY:Freitag mit Urem
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261126-2200-135-mit-bliss-intensive-emotions@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T220000
+DTEND;TZID=Europe/Berlin:20261127T000000
+SUMMARY:135+ mit Bliss & Intensive Emotions
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261127-2200-freitag-mit-fab-massimo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T220000
+DTEND;TZID=Europe/Berlin:20261128T000000
+SUMMARY:Freitag mit Fab Massimo
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-bahnwaerter-thiel-20261128-2200-samstag-mit-matija@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T220000
+DTEND;TZID=Europe/Berlin:20261129T000000
+SUMMARY:Samstag mit Matija
+LOCATION:Bahnwärter Thiel\, Tumblingerstraße 45\, 80337 München
+DESCRIPTION:Clubnacht mit elektronischer Musik im Bahnwärter Thiel an der 
+ Tumblingerstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.bahnwaerterthiel.de/
+URL:https://www.bahnwaerterthiel.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
