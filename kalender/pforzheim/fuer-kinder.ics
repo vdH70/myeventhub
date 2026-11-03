@@ -1,0 +1,372 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Pforzheim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pf-schloessle-galerie-20261031-meet-greet-k-pop-demon-hunters@myeventhu
+ b.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T140000
+DTEND;TZID=Europe/Berlin:20261031T160000
+SUMMARY:Meet & Greet – K-Pop Demon Hunters
+LOCATION:Schlössle-Galerie\, Westliche Karl-Friedrich-Straße 80\, 75172 P
+ forzheim
+DESCRIPTION:Treffen mit kostümierten Figuren\, 14 bis 17 Uhr.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://sch
+ loessle-galerie.de/meet-greet-k-pop-demon-hunters-zu-gast-in-der-schloessl
+ e-galerie/
+URL:https://schloessle-galerie.de/meet-greet-k-pop-demon-hunters-zu-gast-in
+ -der-schloessle-galerie/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-kulturhaus-osterfeld-20261107-1500-familienkonzert-swdko@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T150000
+DTEND;TZID=Europe/Berlin:20261107T170000
+SUMMARY:Familienkonzert SWDKO
+LOCATION:Kulturhaus Osterfeld\, Osterfeldstraße 12\, 75172 Pforzheim
+DESCRIPTION:Konzert für Kinder und Familien im Kulturhaus Osterfeld in Pfo
+ rzheim.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.kulturhaus-osterfeld.de/events/4602_4938-familienkonz
+ ert-swdko
+URL:https://www.kulturhaus-osterfeld.de/events/4602_4938-familienkonzert-sw
+ dko
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261108-1100-pettersson-und-findus-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Pettersson und Findus (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html
+URL:https://mottenkaefig.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261108-1500-pettersson-und-findus-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Pettersson und Findus (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html
+URL:https://mottenkaefig.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261115-1500-juri-und-das-alpakalamadrama-ab-4@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Juri und das AlpakaLamaDrama (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html
+URL:https://mottenkaefig.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-kulturhaus-osterfeld-20261122-1100-sitzkissenkonzert-nala-und-die-za
+ ubertrommel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:Sitzkissenkonzert – Nala und die Zaubertrommel
+LOCATION:Kulturhaus Osterfeld\, Osterfeldstraße 12\, 75172 Pforzheim
+DESCRIPTION:Konzert für Kinder und Familien im Kulturhaus Osterfeld in Pfo
+ rzheim.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.kulturhaus-osterfeld.de/events/4304_4568-sitzkissenko
+ nzert-nala-und-die-zaubertrommel
+URL:https://www.kulturhaus-osterfeld.de/events/4304_4568-sitzkissenkonzert-
+ nala-und-die-zaubertrommel
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261122-1100-mama-muh-im-schnee-ab-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:Mama Muh im Schnee (ab 3)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html
+URL:https://mottenkaefig.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261122-1500-mama-muh-im-schnee-ab-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Mama Muh im Schnee (ab 3)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html
+URL:https://mottenkaefig.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261128-1500-frau-holle-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:Frau Holle (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html
+URL:https://mottenkaefig.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261129-1100-frau-holle-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Frau Holle (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html
+URL:https://mottenkaefig.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261205-1500-die-weihnachtsgeschichte-ab-5@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Die Weihnachtsgeschichte (ab 5)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202612
+URL:https://mottenkaefig.de/spielplan.html?month=202612
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261206-1500-lotta-feiert-weihnachten-ab-4@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Lotta feiert Weihnachten (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202612
+URL:https://mottenkaefig.de/spielplan.html?month=202612
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261219-1500-der-teufel-mit-den-3-goldenen-haaren-ab-5
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T150000
+DTEND;TZID=Europe/Berlin:20261219T170000
+SUMMARY:Der Teufel mit den 3 goldenen Haaren (ab 5)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202612
+URL:https://mottenkaefig.de/spielplan.html?month=202612
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261220-1100-der-teufel-mit-den-3-goldenen-haaren-ab-5
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T130000
+SUMMARY:Der Teufel mit den 3 goldenen Haaren (ab 5)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202612
+URL:https://mottenkaefig.de/spielplan.html?month=202612
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261227-1500-mama-muh-im-schnee-ab-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T150000
+DTEND;TZID=Europe/Berlin:20261227T170000
+SUMMARY:Mama Muh im Schnee (ab 3)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202612
+URL:https://mottenkaefig.de/spielplan.html?month=202612
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261228-1500-das-kleine-gespenst-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T150000
+DTEND;TZID=Europe/Berlin:20261228T170000
+SUMMARY:Das kleine Gespenst (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202612
+URL:https://mottenkaefig.de/spielplan.html?month=202612
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20261229-1500-der-kleine-wassermann-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T150000
+DTEND;TZID=Europe/Berlin:20261229T170000
+SUMMARY:Der kleine Wassermann (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202612
+URL:https://mottenkaefig.de/spielplan.html?month=202612
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20270103-1500-mama-muh-im-schnee-ab-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T150000
+DTEND;TZID=Europe/Berlin:20270103T170000
+SUMMARY:Mama Muh im Schnee (ab 3)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202701
+URL:https://mottenkaefig.de/spielplan.html?month=202701
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20270106-1100-pumuckl-zieht-das-grosse-los-ab-4@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T110000
+DTEND;TZID=Europe/Berlin:20270106T130000
+SUMMARY:Pumuckl zieht das große Los (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202701
+URL:https://mottenkaefig.de/spielplan.html?month=202701
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20270106-1500-pumuckl-zieht-das-grosse-los-ab-4@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T150000
+DTEND;TZID=Europe/Berlin:20270106T170000
+SUMMARY:Pumuckl zieht das große Los (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202701
+URL:https://mottenkaefig.de/spielplan.html?month=202701
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20270109-1500-frau-holle-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T150000
+DTEND;TZID=Europe/Berlin:20270109T170000
+SUMMARY:Frau Holle (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202701
+URL:https://mottenkaefig.de/spielplan.html?month=202701
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20270110-1100-frau-holle-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T110000
+DTEND;TZID=Europe/Berlin:20270110T130000
+SUMMARY:Frau Holle (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202701
+URL:https://mottenkaefig.de/spielplan.html?month=202701
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20270116-1500-der-kleine-wassermann-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T150000
+DTEND;TZID=Europe/Berlin:20270116T170000
+SUMMARY:Der kleine Wassermann (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202701
+URL:https://mottenkaefig.de/spielplan.html?month=202701
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-kulturhaus-osterfeld-20270117-1400-die-physikanten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T140000
+DTEND;TZID=Europe/Berlin:20270117T160000
+SUMMARY:Die Physikanten
+LOCATION:Kulturhaus Osterfeld\, Osterfeldstraße 12\, 75172 Pforzheim
+DESCRIPTION:Familienprogramm im Kulturhaus Osterfeld in Pforzheim.\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.kulturhaus-osterfeld.de/events/4483_4809-die-physikanten
+URL:https://www.kulturhaus-osterfeld.de/events/4483_4809-die-physikanten
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-mottenkaefig-20270117-1500-tomte-tummetott-ab-4@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T150000
+DTEND;TZID=Europe/Berlin:20270117T170000
+SUMMARY:Tomte Tummetott (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202701
+URL:https://mottenkaefig.de/spielplan.html?month=202701
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

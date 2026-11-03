@@ -1,0 +1,288 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Heilbronn · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hn-kilianskirche-20261107-1800-stunde-der-kirchenmusik-1168-duo-creuz-v
+ ioline-kla@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T180000
+DTEND;TZID=Europe/Berlin:20261107T200000
+SUMMARY:Stunde der Kirchenmusik (1168): Duo Creuz\, Violine & Klavier – M
+ eisterwerke von Bach bis Saint-Saëns
+LOCATION:Kilianskirche Heilbronn\, Heilbronn
+DESCRIPTION:Kammermusik in der Reihe Stunde der Kirchenmusik in der Kilians
+ kirche Heilbronn.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.kirchenmusik-heilbronn.de/veranstaltungen/a
+ lle-veranstaltungen-2026
+URL:https://www.kirchenmusik-heilbronn.de/veranstaltungen/alle-veranstaltun
+ gen-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-kreissparkasse-pyramide-20261110-1900-wko-kammermusik-barocke-trioso
+ naten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T190000
+DTEND;TZID=Europe/Berlin:20261110T210000
+SUMMARY:WKO-Kammermusik: Barocke Triosonaten
+LOCATION:Kreissparkasse Heilbronn – Unter der Pyramide\, Heilbronn
+DESCRIPTION:Kammerkonzert mit Musikern des Württembergischen Kammerorchest
+ ers in der Kreissparkasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-kilianskirche-20261114-1800-stunde-der-kirchenmusik-1169-stummfilm-o
+ rgel-the-b@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Stunde der Kirchenmusik (1169): Stummfilm & Orgel „The Big Parade
+ “ mit Andreas Benz
+LOCATION:Kilianskirche Heilbronn\, Heilbronn
+DESCRIPTION:Stummfilm mit Live-Orgelbegleitung in der Kilianskirche Heilbro
+ nn.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.kirchenmusik-heilbronn.de/veranstaltungen/alle-veranstalt
+ ungen-2026
+URL:https://www.kirchenmusik-heilbronn.de/veranstaltungen/alle-veranstaltun
+ gen-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-harmonie-20261119-1930-justus-eichhorn-klavier-youngstar-wuerttember
+ gisch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Justus Eichhorn\, Klavier: YoungStar (Württembergisches Kammerorch
+ ester)
+LOCATION:Konzert- und Kongresszentrum Harmonie\, Allee 28\, 74072 Heilbronn
+DESCRIPTION:Konzert des Württembergischen Kammerorchesters Heilbronn in de
+ r Harmonie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-experimenta-20261126-1930-sinnenrauschen-immersives-musiktheater-wue
+ rttember@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:SinnenRauschen – Immersives Musiktheater (Württembergisches Kamm
+ erorchester)
+LOCATION:experimenta – Das Science Center\, Experimenta-Platz\, 74072 Hei
+ lbronn
+DESCRIPTION:Immersives Musiktheater des Württembergischen Kammerorchesters
+  im Science Dome der experimenta.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-experimenta-20261128-1930-sinnenrauschen-immersives-musiktheater-wue
+ rttember@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:SinnenRauschen – Immersives Musiktheater (Württembergisches Kamm
+ erorchester)
+LOCATION:experimenta – Das Science Center\, Experimenta-Platz\, 74072 Hei
+ lbronn
+DESCRIPTION:Immersives Musiktheater des Württembergischen Kammerorchesters
+  im Science Dome der experimenta.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-experimenta-20261129-1930-sinnenrauschen-immersives-musiktheater-wue
+ rttember@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T193000
+DTEND;TZID=Europe/Berlin:20261129T213000
+SUMMARY:SinnenRauschen – Immersives Musiktheater (Württembergisches Kamm
+ erorchester)
+LOCATION:experimenta – Das Science Center\, Experimenta-Platz\, 74072 Hei
+ lbronn
+DESCRIPTION:Immersives Musiktheater des Württembergischen Kammerorchesters
+  im Science Dome der experimenta.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-kreissparkasse-pyramide-20261201-1900-wko-kammermusik-die-drei-gross
+ en-b-des-streichquar@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T190000
+DTEND;TZID=Europe/Berlin:20261201T210000
+SUMMARY:WKO-Kammermusik: Die Drei Großen B des Streichquartetts
+LOCATION:Kreissparkasse Heilbronn – Unter der Pyramide\, Heilbronn
+DESCRIPTION:Kammerkonzert mit Musikern des Württembergischen Kammerorchest
+ ers in der Kreissparkasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-harmonie-20261216-1930-selina-ott-gabor-boldoczki-barocke-weihnacht-
+ wuert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T193000
+DTEND;TZID=Europe/Berlin:20261216T213000
+SUMMARY:Selina Ott & Gábor Boldoczki: Barocke Weihnacht (Württembergische
+ s Kammerorchester)
+LOCATION:Konzert- und Kongresszentrum Harmonie\, Allee 28\, 74072 Heilbronn
+DESCRIPTION:Konzert des Württembergischen Kammerorchesters Heilbronn in de
+ r Harmonie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-harmonie-20270105-1930-neujahrskonzert-des-wuerttembergischen-kammer
+ orche@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T193000
+DTEND;TZID=Europe/Berlin:20270105T213000
+SUMMARY:Neujahrskonzert des Württembergischen Kammerorchesters
+LOCATION:Konzert- und Kongresszentrum Harmonie\, Allee 28\, 74072 Heilbronn
+DESCRIPTION:Konzert des Württembergischen Kammerorchesters Heilbronn in de
+ r Harmonie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.wko-heilbronn.de/konzerte/neujahrskonzert-2027
+URL:https://www.wko-heilbronn.de/konzerte/neujahrskonzert-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-kreissparkasse-pyramide-20270119-1900-wko-kammermusik-300mal-unter-d
+ er-pyramide@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T190000
+DTEND;TZID=Europe/Berlin:20270119T210000
+SUMMARY:WKO-Kammermusik: 300mal Unter der Pyramide
+LOCATION:Kreissparkasse Heilbronn – Unter der Pyramide\, Heilbronn
+DESCRIPTION:Kammerkonzert mit Musikern des Württembergischen Kammerorchest
+ ers in der Kreissparkasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-harmonie-20270127-1200-lunch-konzert-brahms-wuerttembergisches-kamme
+ rorch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270127T120000
+DTEND;TZID=Europe/Berlin:20270127T140000
+SUMMARY:Lunch-Konzert: Brahms (Württembergisches Kammerorchester)
+LOCATION:Konzert- und Kongresszentrum Harmonie\, Allee 28\, 74072 Heilbronn
+DESCRIPTION:Konzert des Württembergischen Kammerorchesters Heilbronn in de
+ r Harmonie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-harmonie-20270127-1930-hans-christian-aavik-violine-3b-barber-brahms
+ -beet@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270127T193000
+DTEND;TZID=Europe/Berlin:20270127T213000
+SUMMARY:Hans Christian Aavik\, Violine: 3b – Barber\, Brahms\, Beethoven 
+ (Württembergisches Kammerorchester)
+LOCATION:Konzert- und Kongresszentrum Harmonie\, Allee 28\, 74072 Heilbronn
+DESCRIPTION:Konzert des Württembergischen Kammerorchesters Heilbronn in de
+ r Harmonie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-experimenta-20270130-1930-sinnenrauschen-immersives-musiktheater-wue
+ rttember@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T193000
+DTEND;TZID=Europe/Berlin:20270130T213000
+SUMMARY:SinnenRauschen – Immersives Musiktheater (Württembergisches Kamm
+ erorchester)
+LOCATION:experimenta – Das Science Center\, Experimenta-Platz\, 74072 Hei
+ lbronn
+DESCRIPTION:Immersives Musiktheater des Württembergischen Kammerorchesters
+  im Science Dome der experimenta.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-experimenta-20270131-1930-sinnenrauschen-immersives-musiktheater-wue
+ rttember@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T193000
+DTEND;TZID=Europe/Berlin:20270131T213000
+SUMMARY:SinnenRauschen – Immersives Musiktheater (Württembergisches Kamm
+ erorchester)
+LOCATION:experimenta – Das Science Center\, Experimenta-Platz\, 74072 Hei
+ lbronn
+DESCRIPTION:Immersives Musiktheater des Württembergischen Kammerorchesters
+  im Science Dome der experimenta.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-kreissparkasse-pyramide-20270209-1900-wko-kammermusik-a-la-memoire@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270209T190000
+DTEND;TZID=Europe/Berlin:20270209T210000
+SUMMARY:WKO-Kammermusik: À la Memoire
+LOCATION:Kreissparkasse Heilbronn – Unter der Pyramide\, Heilbronn
+DESCRIPTION:Kammerkonzert mit Musikern des Württembergischen Kammerorchest
+ ers in der Kreissparkasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-harmonie-20270224-1930-veronika-eberle-violine-im-dialog-mit-mendels
+ sohn@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T193000
+DTEND;TZID=Europe/Berlin:20270224T213000
+SUMMARY:Veronika Eberle\, Violine: Im Dialog mit Mendelssohn (Württembergi
+ sches Kammerorchester)
+LOCATION:Konzert- und Kongresszentrum Harmonie\, Allee 28\, 74072 Heilbronn
+DESCRIPTION:Konzert des Württembergischen Kammerorchesters Heilbronn in de
+ r Harmonie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -10,6 +10,40 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261104-2030-jochen-rueckert-new-quartet-fe
+ at-alexandra-ridout@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T203000
+DTEND;TZID=Europe/Berlin:20261104T223000
+SUMMARY:Jochen Rückert New Quartet feat. Alexandra Ridout
+LOCATION:Jazzclub Tübingen im Club Voltaire\, Haaggasse 26b\, 72070 Tübin
+ gen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen im Club Voltaire.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/477-jochen-rueckert-new
+ -quartet-feat-alexandra-ridout
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/477-jochen-r
+ ueckert-new-quartet-feat-alexandra-ridout
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:tue-sudhaus-20261104-black-sea-dahu@myeventhub.de
 DTSTAMP:20261031T000000Z
@@ -20,6 +54,53 @@ LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.sudhaus-tueb
  ingen.de/programm/alle.html
 URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-stiftskirche-20261107-2000-motette-mit-sibylla-rubens-und-collegium
+ -illustre@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Motette mit Sibylla Rubens und collegium illustre
+LOCATION:Stiftskirche Tübingen\, Tübingen
+DESCRIPTION:Barockprogramm in der Reihe Motette samstags in der Stiftskirch
+ e Tübingen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.stiftskirche-tuebingen.de/motette-942022-20-uhr
+URL:https://www.stiftskirche-tuebingen.de/motette-942022-20-uhr
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261111-2030-jam-session-november-2026@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T203000
+DTEND;TZID=Europe/Berlin:20261111T223000
+SUMMARY:Jam Session November 2026
+LOCATION:Jazzclub Tübingen im Club Voltaire\, Haaggasse 26b\, 72070 Tübin
+ gen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen im Club Voltaire.\nEnde: la
+ ut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/4
+ 45-jam-session-november-2026
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/445-jam-sess
+ ion-november-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261113-2000-tarek-yamani-trio-afro-arabic-
+ jazz-conceptions@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Tarek Yamani Trio: Afro-Arabic Jazz Conceptions
+LOCATION:C. Bechstein Centrum Tübingen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-tueb
+ ingen.de/veranstaltungen-jazzclub/478-tarek-yamani-trio-afro-arabic-jazz-c
+ onceptions
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/478-tarek-ya
+ mani-trio-afro-arabic-jazz-conceptions
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -35,6 +116,57 @@ URL:https://www.sudhaus-tuebingen.de/programm/alle.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261118-2030-philipp-schiepek-lorenz-widaue
+ r-bangers-and-ballad@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T203000
+DTEND;TZID=Europe/Berlin:20261118T223000
+SUMMARY:Philipp Schiepek / Lorenz Widauer: Bangers and Ballads
+LOCATION:Jazzclub Tübingen im Club Voltaire\, Haaggasse 26b\, 72070 Tübin
+ gen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen im Club Voltaire.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/479-philipp-schiepek-lo
+ renz-widauer-bangers-and-ballads
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/479-philipp-
+ schiepek-lorenz-widauer-bangers-and-ballads
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261125-2030-jazzclub-vocal-session-sing-si
+ ng-n-scat-open-stage@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T203000
+DTEND;TZID=Europe/Berlin:20261125T223000
+SUMMARY:Jazzclub Vocal Session: Sing\, Sing 'n' Scat! (Open Stage)
+LOCATION:Jazzclub Tübingen im Club Voltaire\, Haaggasse 26b\, 72070 Tübin
+ gen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen im Club Voltaire.\nEnde: la
+ ut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/4
+ 80-jazzclub-vocal-session
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/480-jazzclub
+ -vocal-session
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261202-2030-andreas-reichel-quartett-lost-
+ mail@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T203000
+DTEND;TZID=Europe/Berlin:20261202T223000
+SUMMARY:Andreas Reichel Quartett: Lost Mail
+LOCATION:Jazzclub Tübingen im Club Voltaire\, Haaggasse 26b\, 72070 Tübin
+ gen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen im Club Voltaire.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/481-andreas-reichel-qua
+ rtett-lost-mail
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/481-andreas-
+ reichel-quartett-lost-mail
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:tue-sudhaus-20261203-yasi-hofer-trio@myeventhub.de
 DTSTAMP:20261011T000000Z
 DTSTART;VALUE=DATE:20261203
@@ -44,6 +176,87 @@ LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.sudhaus-tueb
  ingen.de/programm/alle.html
 URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261209-2030-jam-session-dezember-2026@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T203000
+DTEND;TZID=Europe/Berlin:20261209T223000
+SUMMARY:Jam Session Dezember 2026
+LOCATION:Jazzclub Tübingen im Club Voltaire\, Haaggasse 26b\, 72070 Tübin
+ gen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen im Club Voltaire.\nEnde: la
+ ut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/4
+ 82-jam-session-dezember-2026
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/482-jam-sess
+ ion-dezember-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261210-2000-noah-diemer-quintett-feat-dan-
+ roncari-junge-talent@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Noah Diemer Quintett feat. Dan Roncari – Junge Talente im Studio
+LOCATION:SWR Studio Tübingen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-tueb
+ ingen.de/veranstaltungen-jazzclub/483-noah-diemer-quintett-feat-dan-roncar
+ i-junge-talente-im-studio
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/483-noah-die
+ mer-quintett-feat-dan-roncari-junge-talente-im-studio
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261216-2030-jil-pappert-quartett@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T203000
+DTEND;TZID=Europe/Berlin:20261216T223000
+SUMMARY:Jil Pappert Quartett
+LOCATION:Jazzclub Tübingen im Club Voltaire\, Haaggasse 26b\, 72070 Tübin
+ gen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen im Club Voltaire.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/484-jil-pappert-quartet
+ t
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/484-jil-papp
+ ert-quartett
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261218-2000-ania-paz-trio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Ania Paz Trio
+LOCATION:C. Bechstein Centrum Tübingen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzclub-tueb
+ ingen.de/veranstaltungen-jazzclub/485-ania-paz-trio
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/485-ania-paz
+ -trio
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-jazzclub-club-voltaire-20261223-2030-jazzclub-xmas-special@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T203000
+DTEND;TZID=Europe/Berlin:20261223T223000
+SUMMARY:Jazzclub XMAS Special
+LOCATION:Jazzclub Tübingen im Club Voltaire\, Haaggasse 26b\, 72070 Tübin
+ gen
+DESCRIPTION:Jazzkonzert des Jazzclubs Tübingen im Club Voltaire.\nEnde: la
+ ut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/4
+ 86-jazzclub-xmas-special
+URL:https://www.jazzclub-tuebingen.de/veranstaltungen-jazzclub/486-jazzclub
+ -xmas-special
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

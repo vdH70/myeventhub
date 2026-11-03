@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Reutlingen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rt-franzk-20261108-1500-kruemel-club-tanzalarm-fuer-kids@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Krümel Club – Tanzalarm für Kids!
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Kinderdisco für 3- bis 8-Jährige im franz.K in Reutlingen.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.franzk.net/programm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-theater-patati-20261122-1500-fuchs-der-geiger-48-jahre@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Fuchs der Geiger (4–8 Jahre)
+LOCATION:Theater Reutlingen Die Tonne\, Jahnstraße 6\, Reutlingen
+DESCRIPTION:Kindertheater des Reutlinger Ensembles PATATI-PATATA.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ theaterpatati.de/spielplan/
+URL:https://theaterpatati.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261129-1100-bruederchen-und-schwesterchen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Brüderchen und Schwesterchen
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Kindertheater am Sonntagvormittag im franz.K in Reutlingen.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.franzk.net/programm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-theater-patati-20261206-1500-weihnachtsmann-vergiss-mich-nicht-ab-3-
+ jahren@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Weihnachtsmann vergiss mich nicht (ab 3 Jahren)
+LOCATION:Theater Reutlingen Die Tonne\, Jahnstraße 6\, Reutlingen
+DESCRIPTION:Kindertheater des Reutlinger Ensembles PATATI-PATATA.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ theaterpatati.de/spielplan/
+URL:https://theaterpatati.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-theater-patati-20261220-1600-weihnachtsmann-vergiss-mich-nicht-ab-3-
+ jahren@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T160000
+DTEND;TZID=Europe/Berlin:20261220T180000
+SUMMARY:Weihnachtsmann vergiss mich nicht (ab 3 Jahren)
+LOCATION:Sudhaus\, Hechinger Str. 203\, Tübingen
+DESCRIPTION:Kindertheater des Reutlinger Ensembles PATATI-PATATA.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ theaterpatati.de/spielplan/
+URL:https://theaterpatati.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-theater-patati-20270110-1500-alex-und-die-gelbe-maus-37-jahre@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T150000
+DTEND;TZID=Europe/Berlin:20270110T170000
+SUMMARY:Alex und die gelbe Maus (3–7 Jahre)
+LOCATION:Theater Reutlingen Die Tonne\, Jahnstraße 6\, Reutlingen
+DESCRIPTION:Kindertheater des Reutlinger Ensembles PATATI-PATATA.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ theaterpatati.de/spielplan/
+URL:https://theaterpatati.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-theater-patati-20270228-1500-finn-flosse-raeumt-das-meer-auf-ab-4-ja
+ hren@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T150000
+DTEND;TZID=Europe/Berlin:20270228T170000
+SUMMARY:Finn Flosse räumt das Meer auf (ab 4 Jahren)
+LOCATION:Theater Reutlingen Die Tonne
+DESCRIPTION:Kindertheater des Reutlinger Ensembles PATATI-PATATA.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ theaterpatati.de/spielplan/
+URL:https://theaterpatati.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

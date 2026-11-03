@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:hn-experimenta-20261018-giganten-riesen-der-vergangenheit-ende@myeventh
  ub.de
@@ -23,6 +40,21 @@ DESCRIPTION:Sonderausstellung über Riesentiere aus der Zeit nach den Dinos
  auriern.\nLaufzeit: 18.10.2026 bis 30.5.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.experimenta.science/
 URL:https://www.experimenta.science/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hn-bildungscampus-20270228-1600-malte-arkona-kleiner-baum-grosser-traum
+ -familienko@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T160000
+DTEND;TZID=Europe/Berlin:20270228T180000
+SUMMARY:Malte Arkona: Kleiner Baum\, großer Traum – Familienkonzert (Wü
+ rttembergisches Kammerorchester)
+LOCATION:Bildungscampus Heilbronn\, Bildungscampus 6\, 74076 Heilbronn
+DESCRIPTION:Familienkonzert des Württembergischen Kammerorchesters auf dem
+  Bildungscampus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.wko-heilbronn.de/
+URL:https://www.wko-heilbronn.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

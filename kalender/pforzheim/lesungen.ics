@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Pforzheim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pf-kulturhaus-osterfeld-20261109-1900-akte-luftballon@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T190000
+DTEND;TZID=Europe/Berlin:20261109T210000
+SUMMARY:Akte Luftballon
+LOCATION:Kulturhaus Osterfeld\, Osterfeldstraße 12\, 75172 Pforzheim
+DESCRIPTION:Lesung im Kulturhaus Osterfeld in Pforzheim.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kultu
+ rhaus-osterfeld.de/events/4596_4931-akte-luftballon
+URL:https://www.kulturhaus-osterfeld.de/events/4596_4931-akte-luftballon
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-kulturhaus-osterfeld-20261115-1900-christine-urspruch-und-stefan-wei
+ nzierl-alice-im-w@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T190000
+DTEND;TZID=Europe/Berlin:20261115T210000
+SUMMARY:ChrisTine Urspruch und Stefan Weinzierl: Alice im Wunderland (Konze
+ rtlesung)
+LOCATION:Kulturhaus Osterfeld\, Osterfeldstraße 12\, 75172 Pforzheim
+DESCRIPTION:Lesung im Kulturhaus Osterfeld in Pforzheim.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kultu
+ rhaus-osterfeld.de/events/4261_4513-christine-urspruch-und-stefan-weinzier
+ l
+URL:https://www.kulturhaus-osterfeld.de/events/4261_4513-christine-urspruch
+ -und-stefan-weinzierl
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-kulturhaus-osterfeld-20270126-2000-roland-jankowsky-krimilesung-wenn
+ -overbeck-kommt@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T200000
+DTEND;TZID=Europe/Berlin:20270126T220000
+SUMMARY:Roland Jankowsky: Krimilesung „Wenn Overbeck kommt …“
+LOCATION:Kulturhaus Osterfeld\, Osterfeldstraße 12\, 75172 Pforzheim
+DESCRIPTION:Lesung im Kulturhaus Osterfeld in Pforzheim.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kultu
+ rhaus-osterfeld.de/events/4537_4868-roland-jankowsky
+URL:https://www.kulturhaus-osterfeld.de/events/4537_4868-roland-jankowsky
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pf-kulturhaus-osterfeld-20270128-2000-benjamin-von-stuckrad-barre-udo-f
+ roehliche@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T200000
+DTEND;TZID=Europe/Berlin:20270128T220000
+SUMMARY:Benjamin von Stuckrad-Barre: Udo Fröhliche
+LOCATION:Kulturhaus Osterfeld\, Osterfeldstraße 12\, 75172 Pforzheim
+DESCRIPTION:Lesung im Kulturhaus Osterfeld in Pforzheim.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kultu
+ rhaus-osterfeld.de/events/4656_5014-benjamin-von-stuckrad-barre
+URL:https://www.kulturhaus-osterfeld.de/events/4656_5014-benjamin-von-stuck
+ rad-barre
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -10,6 +10,154 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rt-franzk-20261105-2000-lina-maly-songs-poesija@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Lina Maly: Songs & Poesija
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261109-2000-tortoise-us@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Tortoise (US)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261112-2000-kolonel-djafaar@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Kolonel Djafaar
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261115-1900-rebekka-bakken-no@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T190000
+DTEND;TZID=Europe/Berlin:20261115T210000
+SUMMARY:Rebekka Bakken (NO)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261117-2000-die-verlierer@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Die Verlierer
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261118-2000-florian-paul-die-kapelle-der-letzten-hoffnung@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Florian Paul & die Kapelle der letzten Hoffnung
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261120-2000-voodoo-juergens-at@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Voodoo Jürgens (AT)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261121-2000-shanti-powa-it@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Shanti Powa (IT)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261122-1700-easy-sunday-jamsession@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T170000
+DTEND;TZID=Europe/Berlin:20261122T190000
+SUMMARY:Easy Sunday (Jamsession)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Offene Jamsession am Sonntag im franz.K in Reutlingen.\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.franzk.net/programm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261128-2000-she-past-away-tr@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:She Past Away (TR)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:rt-franzk-20261128-she-past-away-mizantrop-tour-2026@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -20,6 +168,268 @@ LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
 DESCRIPTION:Konzert der Band She Past Away.\nQuelle (bitte vor dem Besuch p
  rüfen): https://www.shepastaway.com/
 URL:https://www.shepastaway.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261202-1930-singmit@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T193000
+DTEND;TZID=Europe/Berlin:20261202T213000
+SUMMARY:SINGMIT
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Gemeinsames Singen im franz.K in Reutlingen.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.franz
+ k.net/programm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261203-2000-lady-r-the-paulinettes@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Lady R & The Paulinettes
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261205-2000-botticelli-baby@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Botticelli Baby
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261207-2000-riserva-moac-it@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T200000
+DTEND;TZID=Europe/Berlin:20261207T220000
+SUMMARY:Riserva Moac (IT)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261209-2000-arstidir-is@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:Árstídir (IS)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261213-1900-stoppok@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T190000
+DTEND;TZID=Europe/Berlin:20261213T210000
+SUMMARY:STOPPOK
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20261220-1700-easy-sunday-jamsession@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T170000
+DTEND;TZID=Europe/Berlin:20261220T190000
+SUMMARY:Easy Sunday (Jamsession)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Offene Jamsession am Sonntag im franz.K in Reutlingen.\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.franzk.net/programm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270110-1700-easy-sunday-jamsession@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T170000
+DTEND;TZID=Europe/Berlin:20270110T190000
+SUMMARY:Easy Sunday (Jamsession)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Offene Jamsession am Sonntag im franz.K in Reutlingen.\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.franzk.net/programm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270116-2000-chanson-trottoir@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:Chanson Trottoir
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270121-2000-pippo-pollina-it@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T200000
+DTEND;TZID=Europe/Berlin:20270121T220000
+SUMMARY:Pippo Pollina (IT)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270125-2000-toxic-frogs-fr@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270125T200000
+DTEND;TZID=Europe/Berlin:20270125T220000
+SUMMARY:Toxic Frogs (FR)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270129-2000-hiss@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:Hiss
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270130-2100-the-13th-annual-walter-who-rumble-high-performa
+ nce@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T210000
+DTEND;TZID=Europe/Berlin:20270130T230000
+SUMMARY:The 13th Annual WALTER WHO? Rumble – High Performance Rock'n'Roll
+  Fest
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270205-2000-samora-ch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T200000
+DTEND;TZID=Europe/Berlin:20270205T220000
+SUMMARY:Samora (CH)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270213-2000-naft-be@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:NAFT (BE)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270217-2000-henge-uk@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T200000
+DTEND;TZID=Europe/Berlin:20270217T220000
+SUMMARY:Henge (UK)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270219-1945-fjrt-15-jahre-auf-montage@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T194500
+DTEND;TZID=Europe/Berlin:20270219T214500
+SUMMARY:FJØRT: 15 Jahre auf Montage
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270223-2000-agatha-is-dead@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270223T200000
+DTEND;TZID=Europe/Berlin:20270223T220000
+SUMMARY:Agatha is Dead!
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270224-2000-les-yeux-d-la-tete-fr@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T200000
+DTEND;TZID=Europe/Berlin:20270224T220000
+SUMMARY:Les Yeux d'la Tête (FR)
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rt-franzk-20270226-2000-grim104-dissy@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:Grim104 + DISSY
+LOCATION:franz.K\, Unter den Linden 23\, 72762 Reutlingen
+DESCRIPTION:Konzert im franz.K in Reutlingen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.franzk.net/progr
+ amm-total
+URL:https://www.franzk.net/programm-total
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

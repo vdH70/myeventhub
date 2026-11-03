@@ -10,6 +10,94 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261105-2000-catarina-oder-von-der-schoenheit-faschi
+ sten-zu-toe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Catarina oder Von der Schönheit\, Faschisten zu töten (ausverkauf
+ t)
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.zimmertheater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261106-2000-catarina-oder-von-der-schoenheit-faschi
+ sten-zu-toe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Catarina oder Von der Schönheit\, Faschisten zu töten (ausverkauf
+ t)
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.zimmertheater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261107-2000-mutters-courage@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Mutters Courage
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261108-1800-theatersport-spezial@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Theatersport spezial
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261108-1800-mein-sorgenschreck-gedichte-von-frieder
+ ike-mayroec@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Mein Sorgenschreck – Gedichte von Friederike Mayröcker und Ernst
+  Jandl
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Lyrischer Abend des Zimmertheaters Tübingen.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimm
+ ertheater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:tue-sudhaus-20261110-vince-ebert@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -20,6 +108,73 @@ LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.sudhaus-tueb
  ingen.de/programm/alle.html
 URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261112-1930-theatersport-spezial@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Theatersport spezial
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261112-2000-mutters-courage-zum-letzten-mal@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Mutters Courage (zum letzten Mal)
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261113-2000-catarina-oder-von-der-schoenheit-faschi
+ sten-zu-toe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Catarina oder Von der Schönheit\, Faschisten zu töten
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261114-2000-prima-facie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Prima Facie
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261115-1800-theatersport@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Theatersport
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -35,6 +190,76 @@ URL:https://www.sudhaus-tuebingen.de/programm/alle.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:tue-zimmertheater-20261119-2000-catarina-oder-von-der-schoenheit-faschi
+ sten-zu-toe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Catarina oder Von der Schönheit\, Faschisten zu töten
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261120-2000-catarina-oder-von-der-schoenheit-faschi
+ sten-zu-toe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Catarina oder Von der Schönheit\, Faschisten zu töten
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261121-1930-superscene@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Superscene
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261121-2000-catarina-oder-von-der-schoenheit-faschi
+ sten-zu-toe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Catarina oder Von der Schönheit\, Faschisten zu töten
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261122-1800-mein-sorgenschreck-gedichte-von-frieder
+ ike-mayroec@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Mein Sorgenschreck – Gedichte von Friederike Mayröcker und Ernst
+  Jandl
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Lyrischer Abend des Zimmertheaters Tübingen.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimm
+ ertheater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:tue-sudhaus-20261127-andreas-rebers@myeventhub.de
 DTSTAMP:20261011T000000Z
 DTSTART;VALUE=DATE:20261127
@@ -44,6 +269,422 @@ LOCATION:Sudhaus Tübingen\, Hechinger Straße 203\, 72072 Tübingen
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.sudhaus-tueb
  ingen.de/programm/alle.html
 URL:https://www.sudhaus-tuebingen.de/programm/alle.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261128-1930-theatersport@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Theatersport
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261128-2000-prima-facie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Prima Facie
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261203-2000-heisenberg-kostprobe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Heisenberg (Kostprobe)
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261204-2000-prima-facie-zum-letzten-mal@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Prima Facie (zum letzten Mal) (ausverkauft)
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.zimmertheater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261205-2000-heisenberg-premiere@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Heisenberg (Premiere)
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261209-2000-sneak-impro@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+DTEND;TZID=Europe/Berlin:20261209T220000
+SUMMARY:SNEAK IMPRO
+LOCATION:Kino Museum Tübingen
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261210-1930-theatersport-spezial@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T193000
+DTEND;TZID=Europe/Berlin:20261210T213000
+SUMMARY:Theatersport spezial
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261210-2000-gift-eine-ehegeschichte-kostprobe@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Gift. Eine Ehegeschichte (Kostprobe)
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261211-2000-heisenberg@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Heisenberg
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261212-2000-gift-eine-ehegeschichte-premiere@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Gift. Eine Ehegeschichte (Premiere)
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261213-1800-theatersport@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T180000
+DTEND;TZID=Europe/Berlin:20261213T200000
+SUMMARY:Theatersport
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261213-1800-mein-sorgenschreck-gedichte-von-frieder
+ ike-mayroec@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T180000
+DTEND;TZID=Europe/Berlin:20261213T200000
+SUMMARY:Mein Sorgenschreck – Gedichte von Friederike Mayröcker und Ernst
+  Jandl
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Lyrischer Abend des Zimmertheaters Tübingen.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimm
+ ertheater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261217-2000-catarina-oder-von-der-schoenheit-faschi
+ sten-zu-toe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:Catarina oder Von der Schönheit\, Faschisten zu töten (ausverkauf
+ t)
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.zimmertheater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261218-1930-superscene@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T193000
+DTEND;TZID=Europe/Berlin:20261218T213000
+SUMMARY:Superscene
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261218-2000-heisenberg@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Heisenberg
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261219-2000-gift-eine-ehegeschichte@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Gift. Eine Ehegeschichte
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261220-1800-theatersport@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T180000
+DTEND;TZID=Europe/Berlin:20261220T200000
+SUMMARY:Theatersport
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261225-1930-theatersport@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T193000
+DTEND;TZID=Europe/Berlin:20261225T213000
+SUMMARY:Theatersport
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261226-1930-theatersport@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T193000
+DTEND;TZID=Europe/Berlin:20261226T213000
+SUMMARY:Theatersport
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20261228-1930-theatersport@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T193000
+DTEND;TZID=Europe/Berlin:20261228T213000
+SUMMARY:Theatersport
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261229-2000-gift-eine-ehegeschichte@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T200000
+DTEND;TZID=Europe/Berlin:20261229T220000
+SUMMARY:Gift. Eine Ehegeschichte
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261230-2000-gift-eine-ehegeschichte@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T200000
+DTEND;TZID=Europe/Berlin:20261230T220000
+SUMMARY:Gift. Eine Ehegeschichte
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261231-1800-heisenberg-silvester@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T180000
+DTEND;TZID=Europe/Berlin:20261231T200000
+SUMMARY:Heisenberg (Silvester)
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmerthe
+ ater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20261231-2100-heisenberg-silvester-mit-buffet@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T210000
+DTEND;TZID=Europe/Berlin:20261231T230000
+SUMMARY:Heisenberg (Silvester mit Buffet) (ausverkauft)
+LOCATION:Zimmertheater im Löwen\, Kornhausstraße 5
+DESCRIPTION:Schauspiel des Zimmertheaters Tübingen.\nEnde: laut Quelle nic
+ ht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.zimmertheater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20270109-1930-theatersport-das-musical@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T193000
+DTEND;TZID=Europe/Berlin:20270109T213000
+SUMMARY:Theatersport – Das Musical
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20270116-1930-theatersport@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T193000
+DTEND;TZID=Europe/Berlin:20270116T213000
+SUMMARY:Theatersport
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20270123-1930-theatersport-jubilaeum-37-jahre@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T193000
+DTEND;TZID=Europe/Berlin:20270123T213000
+SUMMARY:Theatersport Jubiläum 37 Jahre
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20270124-1530-theatersport-jubilaeum-37-jahre@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T153000
+DTEND;TZID=Europe/Berlin:20270124T173000
+SUMMARY:Theatersport Jubiläum 37 Jahre
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-zimmertheater-20270124-1800-weil-zwei-singulare-kein-plural-sind-ge
+ dichte-von@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T180000
+DTEND;TZID=Europe/Berlin:20270124T200000
+SUMMARY:Weil zwei Singulare kein Plural sind – Gedichte von Mascha Kalék
+ o (Premiere)
+LOCATION:Zimmertheater Tübingen\, Bursagasse 16\, 72070 Tübingen
+DESCRIPTION:Lyrischer Abend des Zimmertheaters Tübingen.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zimm
+ ertheater-tuebingen.de/vorstellungen
+URL:https://www.zimmertheater-tuebingen.de/vorstellungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20270124-1900-theatersport-jubilaeum-37-jahre@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T190000
+DTEND;TZID=Europe/Berlin:20270124T210000
+SUMMARY:Theatersport Jubiläum 37 Jahre
+LOCATION:Landestheater Tübingen (LTT)
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tue-theatersport-20270203-2000-sneak-impro@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270203T200000
+DTEND;TZID=Europe/Berlin:20270203T220000
+SUMMARY:SNEAK IMPRO
+LOCATION:Kino Museum Tübingen
+DESCRIPTION:Improvisationstheater des Tübinger Theatersport-Ensembles.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theatersport-tuebingen.de/termine/
+URL:https://www.theatersport-tuebingen.de/termine/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
