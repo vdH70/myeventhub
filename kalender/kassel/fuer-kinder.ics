@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ks-museum-fuer-sepulkralkultur-20261108-leben-sterben-erinnern-meine-er
  innerungskiste@myeventhub.de
@@ -23,6 +40,93 @@ DESCRIPTION:Bilderbuchkino mit Bastelangebot\; Uhrzeit auf der Seite nicht
  angegeben.\nQuelle (bitte vor dem Besuch prüfen): https://www.sepulkralmu
  seum.de/veranstaltungen/
 URL:https://www.sepulkralmuseum.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-wehlheider-hoftheater-20261205-1500-momo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Momo
+LOCATION:Wehlheider Hoftheater (Aula der Heinrich-Schütz-Schule)\, Freiher
+ r-vom-Stein-Straße 11\, 34119 Kassel
+DESCRIPTION:Familientheater des Wehlheider Hoftheaters in der Aula der Hein
+ rich-Schütz-Schule.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.wehlheider-hoftheater.de/index/spielplan
+ /
+URL:https://www.wehlheider-hoftheater.de/index/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-wehlheider-hoftheater-20261206-1500-momo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Momo
+LOCATION:Wehlheider Hoftheater (Aula der Heinrich-Schütz-Schule)\, Freiher
+ r-vom-Stein-Straße 11\, 34119 Kassel
+DESCRIPTION:Familientheater des Wehlheider Hoftheaters in der Aula der Hein
+ rich-Schütz-Schule.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.wehlheider-hoftheater.de/index/spielplan
+ /
+URL:https://www.wehlheider-hoftheater.de/index/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-wehlheider-hoftheater-20261212-1500-momo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T150000
+DTEND;TZID=Europe/Berlin:20261212T170000
+SUMMARY:Momo
+LOCATION:Wehlheider Hoftheater (Aula der Heinrich-Schütz-Schule)\, Freiher
+ r-vom-Stein-Straße 11\, 34119 Kassel
+DESCRIPTION:Familientheater des Wehlheider Hoftheaters in der Aula der Hein
+ rich-Schütz-Schule.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.wehlheider-hoftheater.de/index/spielplan
+ /
+URL:https://www.wehlheider-hoftheater.de/index/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-theaterstuebchen-20261213-1100-kunterbaend-in-eis-und-schnee-familie
+ nkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:KUNTERBÄND – In Eis und Schnee (Familienkonzert)
+LOCATION:Theaterstübchen\, Jordanstraße 11\, 34117 Kassel
+DESCRIPTION:Familienkonzert im Theaterstübchen Kassel.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theate
+ rstuebchen.de/events/
+URL:https://www.theaterstuebchen.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-wehlheider-hoftheater-20261213-1100-momo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Momo
+LOCATION:Wehlheider Hoftheater (Aula der Heinrich-Schütz-Schule)\, Freiher
+ r-vom-Stein-Straße 11\, 34119 Kassel
+DESCRIPTION:Familientheater des Wehlheider Hoftheaters in der Aula der Hein
+ rich-Schütz-Schule.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.wehlheider-hoftheater.de/index/spielplan
+ /
+URL:https://www.wehlheider-hoftheater.de/index/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-schlachthof-20270205-1700-dizzy-disco-aquatastisch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T170000
+DTEND;TZID=Europe/Berlin:20270205T190000
+SUMMARY:Dizzy Disco – Aquatastisch
+LOCATION:Kulturzentrum Schlachthof\, Mombachstraße 10-12\, 34127 Kassel
+DESCRIPTION:Familienparty im Kulturzentrum Schlachthof Kassel.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .schlachthof-kassel.de/musik/programm
+URL:https://www.schlachthof-kassel.de/musik/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
