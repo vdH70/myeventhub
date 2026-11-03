@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:cel-cd-kaserne-20261101-sybille-bullatschek@myeventhub.de
 DTSTAMP:20261031T000000Z
@@ -35,6 +52,20 @@ URL:https://cd-kaserne.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20261107-2000-nina-deissler-das-schweigen-der-maenn
+ er@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Nina Deissler „Das Schweigen der Männer“
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Kabarett- und Kleinkunstabend bei Kunst & Bühne in Celle.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 24 €\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cel-cd-kaserne-20261107-hans-gerzlich@myeventhub.de
 DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -55,6 +86,130 @@ SUMMARY:Der Physiopath
 LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
 DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
  or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261112-cueneyt-akan@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Cüneyt Akan
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Bühnenprogramm in der CD-Kaserne Celle.\nQuelle (bitte vor dem
+  Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261119-judith-doeker@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Judith Döker
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Bühnenprogramm in der CD-Kaserne Celle.\nQuelle (bitte vor dem
+  Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20261120-2000-lucy-van-kuhl-geschickt-verpackt@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Lucy van Kuhl „Geschickt verpackt“
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Kabarett- und Kleinkunstabend bei Kunst & Bühne in Celle.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 24 €\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20261205-2000-matthias-reuter-spottwichteln@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Matthias Reuter „Spottwichteln“
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Kabarett- und Kleinkunstabend bei Kunst & Bühne in Celle.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 24 €\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261206-die-feisten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Die Feisten
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Bühnenprogramm in der CD-Kaserne Celle.\nQuelle (bitte vor dem
+  Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261210-guido-cantz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Guido Cantz
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Bühnenprogramm in der CD-Kaserne Celle.\nQuelle (bitte vor dem
+  Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261211-gude-leude@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Gude Leude
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Bühnenprogramm in der CD-Kaserne Celle.\nQuelle (bitte vor dem
+  Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261213-wzl-kremer-warnecke@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:WZL Kremer Warnecke
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Bühnenprogramm in der CD-Kaserne Celle.\nQuelle (bitte vor dem
+  Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261220-poetry-slam@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Poetry Slam
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Bühnenprogramm in der CD-Kaserne Celle.\nQuelle (bitte vor dem
+  Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261221-linus-faber@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Linus Faber
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Bühnenprogramm in der CD-Kaserne Celle.\nQuelle (bitte vor dem
+  Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
 URL:https://cd-kaserne.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:cel-cd-kaserne-20261106-herdensingen-jubilaeumsshow@myeventhub.de
 DTSTAMP:20261031T000000Z
@@ -35,6 +52,33 @@ URL:https://cd-kaserne.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20261113-1930-session-der-njic@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Session der NJIC
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Konzert auf der Kleinkunstbühne Kunst & Bühne in Celle.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20261114-2000-tanja-roll-und-das-hirschparktrio@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Tanja Roll und das Hirschparktrio
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Konzert auf der Kleinkunstbühne Kunst & Bühne in Celle.\nEnde
+ : laut Quelle nicht angegeben\nPreis: 19 €\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cel-congress-union-20261114-suberg-s-ue30-party@myeventhub.de
 DTSTAMP:20261024T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -46,6 +90,59 @@ DESCRIPTION:Ü30-Party mit Charts\, Clubsounds und Discofox\, Einlass ab 27
  .shop/event/7s4h0tcvc6tcstfw?t=true&tid=\nQuelle (bitte vor dem Besuch pr
  üfen): https://www.ue30party.de/ue30-party-in-celle-congress-union/
 URL:https://www.ue30party.de/ue30-party-in-celle-congress-union/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20261121-2000-terry-mono-s-swinger-club@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Terry Mono's Swinger-Club
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Konzert auf der Kleinkunstbühne Kunst & Bühne in Celle.\nEnde
+ : laut Quelle nicht angegeben\nPreis: 19 €\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261121-bora@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Bora
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Konzert in der CD-Kaserne Celle.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20261127-2000-afrika-abend@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Afrika-Abend
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Konzert auf der Kleinkunstbühne Kunst & Bühne in Celle.\nEnde
+ : laut Quelle nicht angegeben\nPreis: 19 €\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20261128-2000-gereon-ep-release-konzert@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Gereon EP-Release-Konzert
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Konzert auf der Kleinkunstbühne Kunst & Bühne in Celle.\nEnde
+ : laut Quelle nicht angegeben\nPreis: 15 €\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -61,6 +158,20 @@ URL:https://cd-kaserne.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20261211-1930-oldtime-session-der-njic@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T193000
+DTEND;TZID=Europe/Berlin:20261211T213000
+SUMMARY:Oldtime-Session der NJIC
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Konzert auf der Kleinkunstbühne Kunst & Bühne in Celle.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cel-cd-kaserne-20261212-herdensingen-weihnachtsspezial@myeventhub.de
 DTSTAMP:20261011T000000Z
 DTSTART;VALUE=DATE:20261212
@@ -69,6 +180,42 @@ SUMMARY:Herdensingen Weihnachtsspezial
 LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
 DESCRIPTION:Tickets: https://cd-kaserne.reservix.de/events\nQuelle (bitte v
  or dem Besuch prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261219-x-mas-punk-rock-fest@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:X-Mas Punk Rock Fest
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Konzert in der CD-Kaserne Celle.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20261229-torfrock@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Torfrock
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Konzert in der CD-Kaserne Celle.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://cd-kaserne.de/veranstaltungen/
+URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cel-cd-kaserne-20270109-keltics@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Keltics
+LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
+DESCRIPTION:Konzert in der CD-Kaserne Celle.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://cd-kaserne.de/veranstaltungen/
 URL:https://cd-kaserne.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT

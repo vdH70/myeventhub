@@ -1,0 +1,269 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Wolfsburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wob-planetarium-20261031-halloween-gruselspass-unter-der-sternenkuppel@
+ myeventhub.de
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T160000
+DTEND;TZID=Europe/Berlin:20261031T180000
+SUMMARY:Halloween – Gruselspaß unter der Sternenkuppel
+LOCATION:Planetarium Wolfsburg\, Uhlandweg 2\, 38440 Wolfsburg
+DESCRIPTION:Halloween-Show unter der Kuppel\, ab 6 Jahren\, Kostüme erwün
+ scht.\nEnde: laut Quelle nicht angegeben\nTickets: https://planetarium-wol
+ fsburg.ticketfritz.de/Event/Kalender/14483/51223?Typ=Vorlage\nQuelle (bitt
+ e vor dem Besuch prüfen): https://planetarium-wolfsburg.de/programm/hallo
+ ween-gruselspass-unter-der-sternenkuppel/
+URL:https://planetarium-wolfsburg.de/programm/halloween-gruselspass-unter-d
+ er-sternenkuppel/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-staedtische-galerie-20261101-familiensonntag@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T113000
+DTEND;TZID=Europe/Berlin:20261101T133000
+SUMMARY:Familiensonntag
+LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
+  8\, 38448 Wolfsburg
+DESCRIPTION:Familienprogramm von 11:30 bis 18 Uhr.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://staedtische-gal
+ erie-wolfsburg.de/veranstaltungen/
+URL:https://staedtische-galerie-wolfsburg.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261108-1000-kinderphilharmonie-die-wilden-saiten
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T100000
+DTEND;TZID=Europe/Berlin:20261108T120000
+SUMMARY:Kinderphilharmonie: „Die wilden Saiten“
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im Scharoun Theater Wolfsburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://the
+ ater.wolfsburg.de/
+URL:https://theater.wolfsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261108-1130-kinderphilharmonie-die-wilden-saiten
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T113000
+DTEND;TZID=Europe/Berlin:20261108T133000
+SUMMARY:Kinderphilharmonie: „Die wilden Saiten“
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im Scharoun Theater Wolfsburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://the
+ ater.wolfsburg.de/
+URL:https://theater.wolfsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261108-1430-kinderphilharmonie-die-wilden-saiten
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T143000
+DTEND;TZID=Europe/Berlin:20261108T163000
+SUMMARY:Kinderphilharmonie: „Die wilden Saiten“
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im Scharoun Theater Wolfsburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://the
+ ater.wolfsburg.de/
+URL:https://theater.wolfsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261114-1500-die-bremer-stadtmusikanten@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Die Bremer Stadtmusikanten
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im Scharoun Theater Wolfsburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://the
+ ater.wolfsburg.de/
+URL:https://theater.wolfsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-congresspark-20261115-1100-bluey-blumen-fuer-mama@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Bluey – „Blumen für Mama“
+LOCATION:CongressPark Wolfsburg\, Heinrich-Heine-Straße\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im CongressPark Wolfsburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://congres
+ spark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+URL:https://congresspark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-congresspark-20261115-1400-bluey-blumen-fuer-mama@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Bluey – „Blumen für Mama“
+LOCATION:CongressPark Wolfsburg\, Heinrich-Heine-Straße\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im CongressPark Wolfsburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://congres
+ spark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+URL:https://congresspark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261115-1500-die-bremer-stadtmusikanten@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Die Bremer Stadtmusikanten
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im Scharoun Theater Wolfsburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://the
+ ater.wolfsburg.de/
+URL:https://theater.wolfsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261121-1500-die-bremer-stadtmusikanten@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T150000
+DTEND;TZID=Europe/Berlin:20261121T170000
+SUMMARY:Die Bremer Stadtmusikanten
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im Scharoun Theater Wolfsburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://the
+ ater.wolfsburg.de/
+URL:https://theater.wolfsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261121-1730-die-bremer-stadtmusikanten@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T173000
+DTEND;TZID=Europe/Berlin:20261121T193000
+SUMMARY:Die Bremer Stadtmusikanten
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im Scharoun Theater Wolfsburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://the
+ ater.wolfsburg.de/
+URL:https://theater.wolfsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-scharoun-theater-20261122-1500-die-bremer-stadtmusikanten@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Die Bremer Stadtmusikanten
+LOCATION:Scharoun Theater Wolfsburg\, Klieverhagen 50\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im Scharoun Theater Wolfsburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://the
+ ater.wolfsburg.de/
+URL:https://theater.wolfsburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-congresspark-20261211-1600-figurentheater-das-neinhorn@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T160000
+DTEND;TZID=Europe/Berlin:20261211T180000
+SUMMARY:Figurentheater – Das NEINhorn
+LOCATION:CongressPark Wolfsburg\, Heinrich-Heine-Straße\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im CongressPark Wolfsburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://congres
+ spark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+URL:https://congresspark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-congresspark-20261212-1600-figurentheater-die-eiskoenigin@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T160000
+DTEND;TZID=Europe/Berlin:20261212T180000
+SUMMARY:Figurentheater – Die Eiskönigin
+LOCATION:CongressPark Wolfsburg\, Heinrich-Heine-Straße\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im CongressPark Wolfsburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://congres
+ spark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+URL:https://congresspark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-congresspark-20261213-1100-figurentheater-die-eiskoenigin@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Figurentheater – Die Eiskönigin
+LOCATION:CongressPark Wolfsburg\, Heinrich-Heine-Straße\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im CongressPark Wolfsburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://congres
+ spark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+URL:https://congresspark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-congresspark-20270129-1830-kinder-hoerspiel-tkkg-live-auf-der-buehn
+ e@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T183000
+DTEND;TZID=Europe/Berlin:20270129T203000
+SUMMARY:Kinder-Hörspiel TKKG live auf der Bühne
+LOCATION:CongressPark Wolfsburg\, Heinrich-Heine-Straße\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im CongressPark Wolfsburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://congres
+ spark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+URL:https://congresspark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-congresspark-20270219-1600-die-eiskoenigin-das-puppentheater@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T160000
+DTEND;TZID=Europe/Berlin:20270219T180000
+SUMMARY:Die Eiskönigin – Das Puppentheater
+LOCATION:CongressPark Wolfsburg\, Heinrich-Heine-Straße\, 38440 Wolfsburg
+DESCRIPTION:Familienvorstellung im CongressPark Wolfsburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://congres
+ spark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+URL:https://congresspark-wolfsburg.de/fur-besucher/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,225 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Lüneburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lg-lkh-arena-20261114-1900-svg-lueneburg-helios-grizzlys-giesen@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:SVG Lüneburg – Helios GRIZZLYS Giesen
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20261201-1900-svg-lueneburg-vfb-friedrichshafen@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T190000
+DTEND;TZID=Europe/Berlin:20261201T210000
+SUMMARY:SVG Lüneburg – VfB Friedrichshafen
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20261209-1900-svg-lueneburg-vk-cez-karlovarsko@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T190000
+DTEND;TZID=Europe/Berlin:20261209T210000
+SUMMARY:SVG Lüneburg – VK ČEZ Karlovarsko
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Champions League 
+ (CEV).\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20261213-1700-svg-lueneburg-barock-volleys-mtv-ludwigsburg
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:SVG Lüneburg – Barock Volleys MTV Ludwigsburg
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20261223-1900-svg-lueneburg-berlin-recycling-volleys@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T190000
+DTEND;TZID=Europe/Berlin:20261223T210000
+SUMMARY:SVG Lüneburg – BERLIN RECYCLING Volleys
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20261228-1900-svg-lueneburg-wwk-volleys-muenchen@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T190000
+DTEND;TZID=Europe/Berlin:20261228T210000
+SUMMARY:SVG Lüneburg – WWK Volleys München
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20261229-1900-svg-lueneburg-vc-olympia-berlin@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T190000
+DTEND;TZID=Europe/Berlin:20261229T210000
+SUMMARY:SVG Lüneburg – VC Olympia Berlin
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20270103-1700-svg-lueneburg-baden-volleys-ssc-karlsruhe@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T170000
+DTEND;TZID=Europe/Berlin:20270103T190000
+SUMMARY:SVG Lüneburg – BADEN VOLLEYS SSC Karlsruhe
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20270113-1900-svg-lueneburg-energiequelle-netzhoppers-kw@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T190000
+DTEND;TZID=Europe/Berlin:20270113T210000
+SUMMARY:SVG Lüneburg – Energiequelle Netzhoppers KW
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20270123-1900-svg-lueneburg-ft-1844-freiburg@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T190000
+DTEND;TZID=Europe/Berlin:20270123T210000
+SUMMARY:SVG Lüneburg – FT 1844 Freiburg
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20270127-1900-svg-lueneburg-guaguas-las-palmas@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270127T190000
+DTEND;TZID=Europe/Berlin:20270127T210000
+SUMMARY:SVG Lüneburg – Guaguas las Palmas
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Champions League 
+ (CEV).\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20270202-1900-svg-lueneburg-cerebricks-volley-goats-mittel
+ deutsc@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270202T190000
+DTEND;TZID=Europe/Berlin:20270202T210000
+SUMMARY:SVG Lüneburg – cerebricks Volley GOATS Mitteldeutschland
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20270217-1900-svg-lueneburg-aluron-cmc-warta-zawiercie@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T190000
+DTEND;TZID=Europe/Berlin:20270217T210000
+SUMMARY:SVG Lüneburg – Aluron CMC Warta Zawiercie
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Champions League 
+ (CEV).\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-lkh-arena-20270221-1700-svg-lueneburg-swd-powervolleys-dueren@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T170000
+DTEND;TZID=Europe/Berlin:20270221T190000
+SUMMARY:SVG Lüneburg – SWD Powervolleys Düren
+LOCATION:LKH Arena\, Lüneburg
+DESCRIPTION:Heimspiel der SVG Lüneburg in der Volleyball-Bundesliga.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://svg-lueneburg.de/spielplan-2026-2027/
+URL:https://svg-lueneburg.de/spielplan-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
