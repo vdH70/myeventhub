@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Suhl · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:shl-ccs-20261106-1900-musik-bei-kerzenschein-bridgerton@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T210000
+SUMMARY:Musik bei Kerzenschein: Bridgerton
+LOCATION:CCS Congress Centrum Suhl\, Friedrich-König-Straße 7\, 98527 Suh
+ l
+DESCRIPTION:Konzert bei Kerzenschein im Congress Centrum Suhl.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .suhl-ccs.de/veranstaltungen/bridgerton-2/
+URL:https://www.suhl-ccs.de/veranstaltungen/bridgerton-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shl-ccs-20261231-1700-mdr-silvesterkonzert-1001-nacht@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T170000
+DTEND;TZID=Europe/Berlin:20261231T190000
+SUMMARY:MDR-Silvesterkonzert: 1001 Nacht
+LOCATION:CCS Congress Centrum Suhl\, Friedrich-König-Straße 7\, 98527 Suh
+ l
+DESCRIPTION:Klassisches Konzert im Congress Centrum Suhl.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.suhl
+ -ccs.de/veranstaltungen/mdr-silvesterkonzert/
+URL:https://www.suhl-ccs.de/veranstaltungen/mdr-silvesterkonzert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shl-ccs-20270107-1900-das-wiener-neujahrskonzert-best-of-classic@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T190000
+DTEND;TZID=Europe/Berlin:20270107T210000
+SUMMARY:Das Wiener Neujahrskonzert: Best of Classic
+LOCATION:CCS Congress Centrum Suhl\, Friedrich-König-Straße 7\, 98527 Suh
+ l
+DESCRIPTION:Klassisches Konzert im Congress Centrum Suhl.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.suhl
+ -ccs.de/veranstaltungen/wiener-neujahrskonzert/
+URL:https://www.suhl-ccs.de/veranstaltungen/wiener-neujahrskonzert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shl-ccs-20270128-2000-the-magic-of-hans-zimmer-the-concert@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T200000
+DTEND;TZID=Europe/Berlin:20270128T220000
+SUMMARY:The Magic of Hans Zimmer – The Concert
+LOCATION:CCS Congress Centrum Suhl\, Friedrich-König-Straße 7\, 98527 Suh
+ l
+DESCRIPTION:Filmmusik-Konzert im Congress Centrum Suhl.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.suhl-c
+ cs.de/veranstaltungen/the-magic-of-hans-zimmer/
+URL:https://www.suhl-ccs.de/veranstaltungen/the-magic-of-hans-zimmer/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

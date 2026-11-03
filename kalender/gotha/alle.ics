@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:gth-schloss-friedenstein-20260412-im-auftrag-des-herzogs-ernst-i-und-di
  e-thueringisc-ende@myeventhub.de
@@ -41,6 +58,36 @@ URL:https://www.stiftung-friedenstein.de/ausstellungen-und-veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:gth-kulturhaus-20261105-1930-brahms-bruckner-mit-herz-und-seele@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Brahms & Bruckner – Mit Herz und Seele
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/20229/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/20229/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261106-2000-daphne-de-luxe-kopf-hoch-brust-raus@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Daphne de Luxe – Kopf hoch\, Brust raus!
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Comedy bzw. Kabarett im Kulturhaus Gotha.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturha
+ us-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/18690/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/18690/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:gth-schloss-friedenstein-20261110-auf-rubens-auftakt-zum-geburtstagsjah
  r-2027-beginn@myeventhub.de
 DTSTAMP:20261030T000000Z
@@ -68,6 +115,321 @@ DESCRIPTION:Im Herzoglichen Museum\, Niederländersaal.\nLaufzeit: 10.11.20
  ng-friedenstein.de/ausstellungen-und-veranstaltungen/auf-rubens
 URL:https://www.stiftung-friedenstein.de/ausstellungen-und-veranstaltungen/
  auf-rubens
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261111-2000-markus-krebs-15-jahre-markus-krebs@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Markus Krebs – 15 Jahre Markus Krebs
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Comedy bzw. Kabarett im Kulturhaus Gotha.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturha
+ us-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/20291/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/20291/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261126-1930-mozart-beethoven-olymp-der-wiener-klassik@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Mozart & Beethoven – Olymp der Wiener Klassik
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/20231/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/20231/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261201-2000-krippenspiel-mit-olaf-schubert-krippenspie
+ l-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T200000
+DTEND;TZID=Europe/Berlin:20261201T220000
+SUMMARY:Krippenspiel mit Olaf Schubert – Krippenspiel 2026
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Comedy bzw. Kabarett im Kulturhaus Gotha.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturha
+ us-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/22172/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/22172/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261204-1930-santa-maria-das-musical@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Santa Maria – Das Musical
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Musical im Kulturhaus Gotha.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus-gotha.de/d
+ ie-veranstaltungen/die-veranstaltungen/performance/23890/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23890/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261206-1500-drei-haselnuesse-fuer-aschenbroedel-famili
+ enkonzer@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Drei Haselnüsse für Aschenbrödel – Familienkonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Filmmusik-Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus-
+ gotha.de/die-veranstaltungen/die-veranstaltungen/performance/23804/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23804/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261206-1830-drei-haselnuesse-fuer-aschenbroedel-famili
+ enkonzer@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T183000
+DTEND;TZID=Europe/Berlin:20261206T203000
+SUMMARY:Drei Haselnüsse für Aschenbrödel – Familienkonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Filmmusik-Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus-
+ gotha.de/die-veranstaltungen/die-veranstaltungen/performance/23808/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23808/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261208-1900-crown-ballet-der-nussknacker@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T190000
+DTEND;TZID=Europe/Berlin:20261208T210000
+SUMMARY:Crown Ballet: Der Nussknacker
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Tanz- bzw. Ballettvorstellung im Kulturhaus Gotha.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/1
+ 9765/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/19765/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261210-1600-dornroeschen-und-die-vier-feen@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T160000
+DTEND;TZID=Europe/Berlin:20261210T180000
+SUMMARY:Dornröschen und die vier Feen
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Vorstellung für Kinder und Familien im Kulturhaus Gotha.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen/perfor
+ mance/23952/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23952/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261215-1800-peter-bause-spielt-peer-gynt@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T180000
+DTEND;TZID=Europe/Berlin:20261215T200000
+SUMMARY:Peter Bause spielt „Peer Gynt“
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Theatervorstellung im Kulturhaus Gotha.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus
+ -gotha.de/die-veranstaltungen/die-veranstaltungen/performance/23855/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23855/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261217-1930-philharmonische-weihnacht-weihnachts-wunsc
+ hkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:Philharmonische Weihnacht – Weihnachts-Wunschkonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/20233/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/20233/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261220-1500-heimatgefuehle-zur-weihnachtszeit@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Heimatgefühle zur Weihnachtszeit
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Schlager- und Volksmusikabend im Kulturhaus Gotha.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/2
+ 0749/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/20749/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261224-1100-weihnachtslesung-des-oberbuergermeisters-i
+ m-kultur@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T110000
+DTEND;TZID=Europe/Berlin:20261224T130000
+SUMMARY:Weihnachtslesung des Oberbürgermeisters im Kulturhaus Gotha
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Lesung im Kulturhaus Gotha.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus-gotha.de/di
+ e-veranstaltungen/die-veranstaltungen/performance/24627/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/24627/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261230-2000-dinner-auf-goth-sch-dinner-fuer-fuenf@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T200000
+DTEND;TZID=Europe/Berlin:20261230T220000
+SUMMARY:„Dinner auf Goth'sch“ & „Dinner für fünf“
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Theatervorstellung im Kulturhaus Gotha.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus
+ -gotha.de/die-veranstaltungen/die-veranstaltungen/performance/23776/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23776/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270101-1930-festliches-neujahrskonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T193000
+DTEND;TZID=Europe/Berlin:20270101T213000
+SUMMARY:Festliches Neujahrskonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/24432/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/24432/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270110-1400-traum-melodien-der-operette@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T140000
+DTEND;TZID=Europe/Berlin:20270110T160000
+SUMMARY:Traum-Melodien der Operette
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Operetten- bzw. Opernkonzert im Kulturhaus Gotha.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/21
+ 909/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/21909/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270117-1900-golden-ace-die-magier-chroniken-der-magie@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T190000
+DTEND;TZID=Europe/Berlin:20270117T210000
+SUMMARY:Golden Ace – Die Magier: Chroniken der Magie
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Zauber- und Magieshow im Kulturhaus Gotha.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturh
+ aus-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/23926/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23926/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270121-1930-schostakowitsch-beethoven-landschaften-der
+ -seele@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T193000
+DTEND;TZID=Europe/Berlin:20270121T213000
+SUMMARY:Schostakowitsch & Beethoven – Landschaften der Seele
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/24435/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/24435/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270128-1930-der-verflixte-beethoven-mit-felix-reuter-f
+ aschings@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T193000
+DTEND;TZID=Europe/Berlin:20270128T213000
+SUMMARY:Der verflixte Beethoven mit Felix Reuter – Faschingskonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/24437/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/24437/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270214-1600-die-9-sinfonie-der-tiere-ein-tierisches-in
+ strument@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T160000
+DTEND;TZID=Europe/Berlin:20270214T180000
+SUMMARY:Die 9. Sinfonie der Tiere – Ein tierisches Instrumenten-Kennenler
+ n-Konzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Konzert für Kinder und Familien im Kulturhaus Gotha.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen/performanc
+ e/24439/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/24439/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270220-1930-uwe-steimle-tribute-komme-selbst@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T193000
+DTEND;TZID=Europe/Berlin:20270220T213000
+SUMMARY:Uwe Steimle Tribute – Komme selbst
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Kabarettabend im Kulturhaus Gotha.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus-goth
+ a.de/die-veranstaltungen/die-veranstaltungen/performance/21583/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/21583/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270226-2000-festival-der-travestie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:Festival der Travestie
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Travestieshow im Kulturhaus Gotha.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus-goth
+ a.de/die-veranstaltungen/die-veranstaltungen/performance/23988/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23988/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

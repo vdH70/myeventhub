@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Weltmusik/Folk in Meißen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mei-theater-meissen-20261204-1930-gran-orquesta-de-tango-carambolage-ta
+ ngo-de-navida@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Gran Orquesta de Tango Carambolage – Tango de Navidad
+LOCATION:Theater Meißen\, Theaterplatz 15\, 01662 Meißen
+DESCRIPTION:Folk- und Weltmusikkonzert im Theater Meißen.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.the
+ ater-meissen.de/spielplan.html
+URL:https://www.theater-meissen.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mei-theater-meissen-20261213-1600-christmas-meets-cuba@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T160000
+DTEND;TZID=Europe/Berlin:20261213T180000
+SUMMARY:Christmas meets Cuba
+LOCATION:Theater Meißen\, Theaterplatz 15\, 01662 Meißen
+DESCRIPTION:Folk- und Weltmusikkonzert im Theater Meißen.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.the
+ ater-meissen.de/spielplan.html
+URL:https://www.theater-meissen.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mei-theater-meissen-20261221-1930-20-jahre-jindrich-staidel-combo-boehm
+ ische-weihnac@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261221T193000
+DTEND;TZID=Europe/Berlin:20261221T213000
+SUMMARY:20 Jahre Jindrich Staidel Combo – Böhmische Weihnachten
+LOCATION:Theater Meißen\, Theaterplatz 15\, 01662 Meißen
+DESCRIPTION:Folk- und Weltmusikkonzert im Theater Meißen.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.the
+ ater-meissen.de/spielplan.html
+URL:https://www.theater-meissen.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

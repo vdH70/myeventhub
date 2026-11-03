@@ -1,0 +1,164 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Gotha · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261105-1930-brahms-bruckner-mit-herz-und-seele@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T193000
+DTEND;TZID=Europe/Berlin:20261105T213000
+SUMMARY:Brahms & Bruckner – Mit Herz und Seele
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/20229/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/20229/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261126-1930-mozart-beethoven-olymp-der-wiener-klassik@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Mozart & Beethoven – Olymp der Wiener Klassik
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/20231/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/20231/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261206-1500-drei-haselnuesse-fuer-aschenbroedel-famili
+ enkonzer@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Drei Haselnüsse für Aschenbrödel – Familienkonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Filmmusik-Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus-
+ gotha.de/die-veranstaltungen/die-veranstaltungen/performance/23804/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23804/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261206-1830-drei-haselnuesse-fuer-aschenbroedel-famili
+ enkonzer@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T183000
+DTEND;TZID=Europe/Berlin:20261206T203000
+SUMMARY:Drei Haselnüsse für Aschenbrödel – Familienkonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Filmmusik-Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhaus-
+ gotha.de/die-veranstaltungen/die-veranstaltungen/performance/23808/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/23808/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20261217-1930-philharmonische-weihnacht-weihnachts-wunsc
+ hkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:Philharmonische Weihnacht – Weihnachts-Wunschkonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/20233/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/20233/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270101-1930-festliches-neujahrskonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T193000
+DTEND;TZID=Europe/Berlin:20270101T213000
+SUMMARY:Festliches Neujahrskonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/24432/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/24432/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270110-1400-traum-melodien-der-operette@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T140000
+DTEND;TZID=Europe/Berlin:20270110T160000
+SUMMARY:Traum-Melodien der Operette
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Operetten- bzw. Opernkonzert im Kulturhaus Gotha.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/21
+ 909/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/21909/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270121-1930-schostakowitsch-beethoven-landschaften-der
+ -seele@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T193000
+DTEND;TZID=Europe/Berlin:20270121T213000
+SUMMARY:Schostakowitsch & Beethoven – Landschaften der Seele
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/24435/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/24435/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gth-kulturhaus-20270128-1930-der-verflixte-beethoven-mit-felix-reuter-f
+ aschings@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T193000
+DTEND;TZID=Europe/Berlin:20270128T213000
+SUMMARY:Der verflixte Beethoven mit Felix Reuter – Faschingskonzert
+LOCATION:Kulturhaus Gotha\, Brühl 4\, 99867 Gotha
+DESCRIPTION:Klassisches Konzert im Kulturhaus Gotha.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturhau
+ s-gotha.de/die-veranstaltungen/die-veranstaltungen/performance/24437/
+URL:https://www.kulturhaus-gotha.de/die-veranstaltungen/die-veranstaltungen
+ /performance/24437/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

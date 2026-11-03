@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:pir-stadtmuseum-pirna-20260809-in-kunstnachlaesse-geschaut-hans-kotte-u
  nd-erich-g-ende@myeventhub.de
@@ -24,6 +41,48 @@ DESCRIPTION:Laufzeit: 9.8.2026 bis 1.11.2026\nQuelle (bitte vor dem Besuch
  na/sonderausstellungen/
 URL:https://www.pirna.de/pirna-erleben/kultur/museen/stadtmuseum-pirna/sond
  erausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20261113-1900-jan-vogler-spielt-bach-aus-den-
+ suiten-fuer-violonc@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T190000
+DTEND;TZID=Europe/Berlin:20261113T210000
+SUMMARY:Jan Vogler spielt Bach: Aus den Suiten für Violoncello solo
+LOCATION:Richard-Wagner-Stätten Graupa\, Tschaikowskiplatz 7\, 01796 Pirna
+DESCRIPTION:Klassisches Konzert in den Richard-Wagner-Stätten Graupa.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.wagnerstaetten.de/veranstaltungen/
+URL:https://www.wagnerstaetten.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20261115-1600-fortissima-kammerkonzert@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:FORTISSIMA! Kammerkonzert
+LOCATION:Richard-Wagner-Stätten Graupa\, Tschaikowskiplatz 7\, 01796 Pirna
+DESCRIPTION:Klassisches Konzert in den Richard-Wagner-Stätten Graupa.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.wagnerstaetten.de/veranstaltungen/
+URL:https://www.wagnerstaetten.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20261129-1500-sky-du-mont-liest-vergnuegliche
+ -weihnachtsgeschich@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Sky du Mont liest vergnügliche Weihnachtsgeschichten (ausverkauft)
+LOCATION:Jagdschloss Graupa
+DESCRIPTION:Lesung\, Spielort Jagdschloss Graupa.\nEnde: laut Quelle nicht 
+ angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .wagnerstaetten.de/veranstaltungen/
+URL:https://www.wagnerstaetten.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -54,6 +113,106 @@ DESCRIPTION:Laufzeit: 1.12.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuch
  rna/sonderausstellungen/
 URL:https://www.pirna.de/pirna-erleben/kultur/museen/stadtmuseum-pirna/sond
  erausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20261205-1400-schlossweihnacht-2026-am-jagdsc
+ hloss-graupa@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T140000
+DTEND;TZID=Europe/Berlin:20261205T160000
+SUMMARY:SchlossWeihnacht 2026 am Jagdschloss Graupa
+LOCATION:Jagdschloss Graupa
+DESCRIPTION:Weihnachtsmarkt am Jagdschloss Graupa.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.wagnerstaet
+ ten.de/veranstaltungen/
+URL:https://www.wagnerstaetten.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20261224-1100-weihnachtliche-matinee-warten-a
+ uf-weihnachten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T110000
+DTEND;TZID=Europe/Berlin:20261224T130000
+SUMMARY:Weihnachtliche Matinee „Warten auf Weihnachten“
+LOCATION:Richard-Wagner-Stätten Graupa\, Tschaikowskiplatz 7\, 01796 Pirna
+DESCRIPTION:Klassisches Konzert in den Richard-Wagner-Stätten Graupa.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.wagnerstaetten.de/veranstaltungen/2/
+URL:https://www.wagnerstaetten.de/veranstaltungen/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20261231-1500-festliches-silvesterkonzert-mit
+ -anton-saris-und-na@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T150000
+DTEND;TZID=Europe/Berlin:20261231T170000
+SUMMARY:Festliches Silvesterkonzert mit Anton Saris und Natalia Posnova
+LOCATION:Richard-Wagner-Stätten Graupa\, Tschaikowskiplatz 7\, 01796 Pirna
+DESCRIPTION:Klassisches Konzert in den Richard-Wagner-Stätten Graupa.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.wagnerstaetten.de/veranstaltungen/2/
+URL:https://www.wagnerstaetten.de/veranstaltungen/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20270110-1600-neujahrskonzert-der-elbland-phi
+ lharmonie-sachsen-2@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T160000
+DTEND;TZID=Europe/Berlin:20270110T180000
+SUMMARY:Neujahrskonzert der Elbland Philharmonie Sachsen 2027
+LOCATION:Richard-Wagner-Stätten Graupa\, Tschaikowskiplatz 7\, 01796 Pirna
+DESCRIPTION:Klassisches Konzert in den Richard-Wagner-Stätten Graupa.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.wagnerstaetten.de/veranstaltungen/2/
+URL:https://www.wagnerstaetten.de/veranstaltungen/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20270124-1500-konzert-der-liedklasse-der-hoch
+ schule-fuer-musik-c@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T150000
+DTEND;TZID=Europe/Berlin:20270124T170000
+SUMMARY:Konzert der Liedklasse der Hochschule für Musik Carl Maria von Web
+ er Dresden
+LOCATION:Richard-Wagner-Stätten Graupa\, Tschaikowskiplatz 7\, 01796 Pirna
+DESCRIPTION:Klassisches Konzert in den Richard-Wagner-Stätten Graupa.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.wagnerstaetten.de/veranstaltungen/2/
+URL:https://www.wagnerstaetten.de/veranstaltungen/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20270207-1500-ginkgo-trio-weimar-melodien-der
+ -liebe-von-barock-b@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T150000
+DTEND;TZID=Europe/Berlin:20270207T170000
+SUMMARY:Ginkgo-Trio Weimar – Melodien der Liebe von Barock bis Pariser Ta
+ ngo
+LOCATION:Richard-Wagner-Stätten Graupa\, Tschaikowskiplatz 7\, 01796 Pirna
+DESCRIPTION:Klassisches Konzert in den Richard-Wagner-Stätten Graupa.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.wagnerstaetten.de/veranstaltungen/2/
+URL:https://www.wagnerstaetten.de/veranstaltungen/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20270221-1500-aeres-guitar-quartet-luftige-un
+ d-bunte-gitarrenkla@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T150000
+DTEND;TZID=Europe/Berlin:20270221T170000
+SUMMARY:Aeres Guitar Quartet: Luftige und bunte Gitarrenklänge
+LOCATION:Richard-Wagner-Stätten Graupa\, Tschaikowskiplatz 7\, 01796 Pirna
+DESCRIPTION:Klassisches Konzert in den Richard-Wagner-Stätten Graupa.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.wagnerstaetten.de/veranstaltungen/3/
+URL:https://www.wagnerstaetten.de/veranstaltungen/3/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

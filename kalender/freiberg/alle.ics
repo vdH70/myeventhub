@@ -10,6 +10,137 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fg-tivoli-20261104-2000-bsg-9-mit-bert-stephan@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:BSG 9 mit Bert Stephan
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Kleinkunstabend im Tivoli Freiberg.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de
+ /veranstaltung/bsg-9-mit-bert-stephan/
+URL:https://tivoli-freiberg.de/veranstaltung/bsg-9-mit-bert-stephan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261112-2000-zauber-der-travestie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Zauber der Travestie
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Travestieshow im Tivoli Freiberg.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de/v
+ eranstaltung/zauber-der-travestie/
+URL:https://tivoli-freiberg.de/veranstaltung/zauber-der-travestie/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261114-2000-abenteuerland-die-pur-coverband@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Abenteuerland – Die PUR Coverband
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Tribute-Konzert im Tivoli Freiberg.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de
+ /veranstaltung/abenteuerland/
+URL:https://tivoli-freiberg.de/veranstaltung/abenteuerland/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-dom-st-marien-20261115-1600-bruecken-des-lichts-klangraeume-juedisch
+ er-kultur@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:Brücken des Lichts: Klangräume jüdischer Kultur
+LOCATION:Dom St. Marien Freiberg\, Freiberg
+DESCRIPTION:Kirchenkonzert im Freiberger Dom.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.freiberger-dom.d
+ e/konzerte/konzerttermine.html
+URL:https://www.freiberger-dom.de/konzerte/konzerttermine.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261120-1600-the-magical-music-of-harry-potter-live-in-conce
+ rt@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T160000
+DTEND;TZID=Europe/Berlin:20261120T180000
+SUMMARY:The Magical Music of Harry Potter – Live in Concert
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Filmmusik-Konzert im Tivoli Freiberg.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.
+ de/veranstaltung/the-magical-music-of-harry-potter/
+URL:https://tivoli-freiberg.de/veranstaltung/the-magical-music-of-harry-pot
+ ter/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261120-2000-the-music-of-hans-zimmer-others@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:The Music of Hans Zimmer & Others
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Filmmusik-Konzert im Tivoli Freiberg.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.
+ de/veranstaltung/the-music-of-hans-zimmer-others/
+URL:https://tivoli-freiberg.de/veranstaltung/the-music-of-hans-zimmer-other
+ s/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-dom-st-marien-20261121-2000-nacht-im-dom@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Nacht im Dom
+LOCATION:Dom St. Marien Freiberg\, Freiberg
+DESCRIPTION:Kirchenkonzert im Freiberger Dom.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.freiberger-dom.d
+ e/konzerte/konzerttermine.html
+URL:https://www.freiberger-dom.de/konzerte/konzerttermine.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261121-2130-remode@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T213000
+DTEND;TZID=Europe/Berlin:20261121T233000
+SUMMARY:REMODE
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Tribute-Konzert im Tivoli Freiberg.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de
+ /veranstaltung/remode/
+URL:https://tivoli-freiberg.de/veranstaltung/remode/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:fg-obermarkt-20261124-freiberger-christmarkt-2026-beginn@myeventhub.de
 DTSTAMP:20261018T000000Z
@@ -43,6 +174,101 @@ URL:https://www.freiberg.de/kultur-und-tourismus/veranstaltungen/freiberger
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fg-tivoli-20261125-2000-brom-beierbach-roder-marien@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:Brom – Beierbach / Roder / Marien
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Kleinkunstabend im Tivoli Freiberg.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de
+ /veranstaltung/brom-beierbach-roder-marien/
+URL:https://tivoli-freiberg.de/veranstaltung/brom-beierbach-roder-marien/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261126-1930-guenther-hindrich-simplyunkloar@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Günther & Hindrich: SIMPLYunkloar
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Comedy bzw. Kabarett im Tivoli Freiberg.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freibe
+ rg.de/veranstaltung/guenther-hindrich/
+URL:https://tivoli-freiberg.de/veranstaltung/guenther-hindrich/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261128-2000-quaster-friends-unplugged@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Quaster & Friends unplugged
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Konzert mit Ostrock bzw. Liedern aus der DDR im Tivoli Freiberg
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://tivoli-freiberg.de/veranstaltung/quaster-friends/
+URL:https://tivoli-freiberg.de/veranstaltung/quaster-friends/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261129-1600-puschel-und-das-weihnachtskugeln@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Puschel ...und das Weihnachtskugeln
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Vorstellung für Kinder und Familien im Tivoli Freiberg.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://tivoli-freiberg.de/veranstaltung/puschel/
+URL:https://tivoli-freiberg.de/veranstaltung/puschel/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-dom-st-marien-20261203-1700-dom-klang-im-kerzenschein@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T170000
+DTEND;TZID=Europe/Berlin:20261203T190000
+SUMMARY:Dom & Klang im Kerzenschein
+LOCATION:Dom St. Marien Freiberg\, Freiberg
+DESCRIPTION:Kirchenkonzert im Freiberger Dom.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.freiberger-dom.d
+ e/konzerte/konzerttermine.html
+URL:https://www.freiberger-dom.de/konzerte/konzerttermine.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-dom-st-marien-20261205-1600-weihnachtsoratorium@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T160000
+DTEND;TZID=Europe/Berlin:20261205T180000
+SUMMARY:Weihnachtsoratorium
+LOCATION:Dom St. Marien Freiberg\, Freiberg
+DESCRIPTION:Kirchenkonzert im Freiberger Dom.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.freiberger-dom.d
+ e/konzerte/konzerttermine.html
+URL:https://www.freiberger-dom.de/konzerte/konzerttermine.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-dom-st-marien-20261205-1930-weihnachtsoratorium@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:Weihnachtsoratorium
+LOCATION:Dom St. Marien Freiberg\, Freiberg
+DESCRIPTION:Kirchenkonzert im Freiberger Dom.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.freiberger-dom.d
+ e/konzerte/konzerttermine.html
+URL:https://www.freiberger-dom.de/konzerte/konzerttermine.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fg-obermarkt-20261205-bergparade-im-fackelschein@myeventhub.de
 DTSTAMP:20261018T000000Z
 DTSTART;VALUE=DATE:20261205
@@ -54,6 +280,225 @@ DESCRIPTION:Bergparade im Fackelschein durch die Freiberger Altstadt am Sam
  w.freiberg.de/kultur-und-tourismus/veranstaltungen/freiberger-christmarkt
 URL:https://www.freiberg.de/kultur-und-tourismus/veranstaltungen/freiberger
  -christmarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-dom-st-marien-20261210-1700-dom-klang-im-kerzenschein@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T170000
+DTEND;TZID=Europe/Berlin:20261210T190000
+SUMMARY:Dom & Klang im Kerzenschein
+LOCATION:Dom St. Marien Freiberg\, Freiberg
+DESCRIPTION:Kirchenkonzert im Freiberger Dom.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.freiberger-dom.d
+ e/konzerte/konzerttermine.html
+URL:https://www.freiberger-dom.de/konzerte/konzerttermine.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-dom-st-marien-20261212-1700-orgelkonzert-im-kerzenschein@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T170000
+DTEND;TZID=Europe/Berlin:20261212T190000
+SUMMARY:Orgelkonzert im Kerzenschein
+LOCATION:Dom St. Marien Freiberg\, Freiberg
+DESCRIPTION:Orgelkonzert im Freiberger Dom.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.freiberger-dom.de/
+ konzerte/konzerttermine.html
+URL:https://www.freiberger-dom.de/konzerte/konzerttermine.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261213-1900-feixen-im-advent-mit-peter-ufer-frank-froehlich
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T190000
+DTEND;TZID=Europe/Berlin:20261213T210000
+SUMMARY:Feixen im Advent mit Peter Ufer + Frank Fröhlich
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Kabarettabend im Tivoli Freiberg.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de/v
+ eranstaltung/feixen-im-advent/
+URL:https://tivoli-freiberg.de/veranstaltung/feixen-im-advent/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-dom-st-marien-20261219-1700-italienische-weihnachten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T170000
+DTEND;TZID=Europe/Berlin:20261219T190000
+SUMMARY:Italienische Weihnachten
+LOCATION:Dom St. Marien Freiberg\, Freiberg
+DESCRIPTION:Kirchenkonzert im Freiberger Dom.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.freiberger-dom.d
+ e/konzerte/konzerttermine.html
+URL:https://www.freiberger-dom.de/konzerte/konzerttermine.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261219-2000-keimzeit-ach-die-menschen-jahresabschlusskonzer
+ t@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Keimzeit: Ach\, die Menschen – Jahresabschlusskonzert
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Rock- und Popkonzert im Tivoli Freiberg.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freibe
+ rg.de/veranstaltung/keimzeit-2/
+URL:https://tivoli-freiberg.de/veranstaltung/keimzeit-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20261226-2000-atonal-40-jahre-punkrock-aus-freiberg@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T200000
+DTEND;TZID=Europe/Berlin:20261226T220000
+SUMMARY:Atonal – 40 Jahre Punkrock aus Freiberg
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Punkrock-Konzert im Tivoli Freiberg.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.d
+ e/veranstaltung/atonal/
+URL:https://tivoli-freiberg.de/veranstaltung/atonal/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-dom-st-marien-20261231-2315-orgelvesper-zum-jahreswechsel@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T231500
+DTEND;TZID=Europe/Berlin:20270101T011500
+SUMMARY:Orgelvesper zum Jahreswechsel
+LOCATION:Dom St. Marien Freiberg\, Freiberg
+DESCRIPTION:Orgelkonzert im Freiberger Dom.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.freiberger-dom.de/
+ konzerte/konzerttermine.html
+URL:https://www.freiberger-dom.de/konzerte/konzerttermine.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20270107-1930-uwe-steimle-nu@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T193000
+DTEND;TZID=Europe/Berlin:20270107T213000
+SUMMARY:Uwe Steimle: Nu!
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Kabarettabend im Tivoli Freiberg.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de/v
+ eranstaltung/uwe-steimle/
+URL:https://tivoli-freiberg.de/veranstaltung/uwe-steimle/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20270116-2000-dirk-zoellner-manuel-schmid-die-schoensten-ball
+ ade@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:Dirk Zöllner & Manuel Schmid: Die schönsten Balladen aus dem Land
+  vor unserer Zeit
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Konzert mit Ostrock bzw. Liedern aus der DDR im Tivoli Freiberg
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://tivoli-freiberg.de/veranstaltung/dirk-zoellner-manuel-schmid/
+URL:https://tivoli-freiberg.de/veranstaltung/dirk-zoellner-manuel-schmid/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20270130-2030-stahlzeit-was-ich-liebe-live@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T203000
+DTEND;TZID=Europe/Berlin:20270130T223000
+SUMMARY:Stahlzeit: Was ich liebe live
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Tribute-Konzert im Tivoli Freiberg.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de
+ /veranstaltung/stahlzeit-2/
+URL:https://tivoli-freiberg.de/veranstaltung/stahlzeit-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20270212-2000-wenzel-band-die-zeit-der-irren-und-idioten@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:Wenzel & Band: Die Zeit der Irren und Idioten
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Liedermacher-Konzert im Tivoli Freiberg.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freibe
+ rg.de/veranstaltung/wenzel-band/
+URL:https://tivoli-freiberg.de/veranstaltung/wenzel-band/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20270213-1900-vorwaerts-immer-rueckwaerts-nimmer-ddr-comedy-t
+ our@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T190000
+DTEND;TZID=Europe/Berlin:20270213T210000
+SUMMARY:Vorwärts immer\, rückwärts nimmer – DDR Comedy Tour
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Comedy bzw. Kabarett im Tivoli Freiberg.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://tivoli-freibe
+ rg.de/veranstaltung/vorwaerts-immer-rueckwaerts-nimmer/
+URL:https://tivoli-freiberg.de/veranstaltung/vorwaerts-immer-rueckwaerts-ni
+ mmer/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20270219-1600-conni-das-musical@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T160000
+DTEND;TZID=Europe/Berlin:20270219T180000
+SUMMARY:Conni – Das Musical
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Vorstellung für Kinder und Familien im Tivoli Freiberg.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://tivoli-freiberg.de/veranstaltung/conni/
+URL:https://tivoli-freiberg.de/veranstaltung/conni/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20270225-2000-jan-hofer-guten-abend-meine-damen-und-herren@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T200000
+DTEND;TZID=Europe/Berlin:20270225T220000
+SUMMARY:Jan Hofer – Guten Abend\, meine Damen und Herren!
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Lesung im Tivoli Freiberg.\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de/veransta
+ ltung/jan-hofer/
+URL:https://tivoli-freiberg.de/veranstaltung/jan-hofer/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-tivoli-20270226-2000-saechsisches-allerlei-kulinarische-lesung-mit-k
+ ris@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:Sächsisches Allerlei – Kulinarische Lesung mit Kristina vom Dorf
+  und Jörg Färber
+LOCATION:Konzert- und Ballhaus Tivoli Freiberg\, Dr.-Külz-Straße 3\, 0959
+ 9 Freiberg
+DESCRIPTION:Lesung im Tivoli Freiberg.\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://tivoli-freiberg.de/veransta
+ ltung/saechsisches-allerlei/
+URL:https://tivoli-freiberg.de/veranstaltung/saechsisches-allerlei/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
