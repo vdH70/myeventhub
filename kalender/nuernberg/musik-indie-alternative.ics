@@ -10,6 +10,51 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:n-loewensaal-20261105-2000-long-distance-calling-tour-2026@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Long Distance Calling: Tour 2026
+LOCATION:Löwensaal\, Schmausenbuckstraße 166\, 90480 Nürnberg
+DESCRIPTION:Konzert von Long Distance Calling im Löwensaal.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.l
+ oewensaal.com/konzerte.html
+URL:https://www.loewensaal.com/konzerte.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-z-bau-20261105-2000-ikan-hyu-ch-swim-with-sharks-tour-2026-gini-brown
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Ikan Hyu (CH) – Swim With Sharks Tour 2026 + Gini Brown
+LOCATION:Z-Bau – Haus für Gegenwartskultur\, Frankenstraße 200\, 90461 
+ Nürnberg
+DESCRIPTION:Veranstaltung im Z-Bau (Roter Salon).\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://z-bau.com/
+URL:https://z-bau.com/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:n-hirsch-20261110-leap@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -34,6 +79,19 @@ DESCRIPTION:Ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www
  html
 URL:https://www.der-hirsch.com/konzert-details/phillip-boa-and-the-voodoocl
  ub-2026-11-13.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-loewensaal-20261212-2000-mighty-oaks-tour-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Mighty Oaks: Tour 2026
+LOCATION:Löwensaal\, Schmausenbuckstraße 166\, 90480 Nürnberg
+DESCRIPTION:Konzert von Mighty Oaks im Löwensaal.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.loewensaal.
+ com/konzerte.html
+URL:https://www.loewensaal.com/konzerte.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

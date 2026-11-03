@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:n-spielzeugmuseum-20260220-games-geschichte-n-ende@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -36,6 +53,87 @@ URL:https://museen.nuernberg.de/duererhaus
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:n-kreisgalerie-20261022-michaela-biet-guenter-derleth-licht-erde-beginn
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Beginn: Michaela Biet & Günter Derleth: Licht + Erde
+LOCATION:KREISGalerie am Germanischen Nationalmuseum\, Kartäusergasse 14\,
+  90402 Nürnberg
+DESCRIPTION:Ausstellung der Künstlergruppe Der KREIS mit Arbeiten von Mich
+ aela Biet und Günter Derleth.\nLaufzeit: 22.10.2026 bis 21.11.2026\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.kreis-nuernberg.de/kreisgale
+ rie/programm/
+URL:https://www.kreis-nuernberg.de/kreisgalerie/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-kreisgalerie-20261022-michaela-biet-guenter-derleth-licht-erde-ende@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Letzter Tag: Michaela Biet & Günter Derleth: Licht + Erde
+LOCATION:KREISGalerie am Germanischen Nationalmuseum\, Kartäusergasse 14\,
+  90402 Nürnberg
+DESCRIPTION:Ausstellung der Künstlergruppe Der KREIS mit Arbeiten von Mich
+ aela Biet und Günter Derleth.\nLaufzeit: 22.10.2026 bis 21.11.2026\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.kreis-nuernberg.de/kreisgale
+ rie/programm/
+URL:https://www.kreis-nuernberg.de/kreisgalerie/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-kreisgalerie-20261202-1900-vernissage-alessia-pennavaria-joseph-lanzi
+ nger-max@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T190000
+DTEND;TZID=Europe/Berlin:20261202T210000
+SUMMARY:Vernissage: Alessia Pennavaria & Joseph Lanzinger (Max-und-Rita-Kö
+ rndl-Preis 2026)
+LOCATION:KREISGalerie am Germanischen Nationalmuseum\, Kartäusergasse 14\,
+  90402 Nürnberg
+DESCRIPTION:Ausstellungseröffnung mit den Preisträgern des Max-und-Rita-K
+ örndl-Preises 2026.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.kreis-nuernberg.de/kreisgalerie/programm
+ /
+URL:https://www.kreis-nuernberg.de/kreisgalerie/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-kreisgalerie-20261203-alessia-pennavaria-joseph-lanzinger-max-und-rit
+ a-k-beginn@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Beginn: Alessia Pennavaria & Joseph Lanzinger – Max-und-Rita-Kör
+ ndl-Preis 2026
+LOCATION:KREISGalerie am Germanischen Nationalmuseum\, Kartäusergasse 14\,
+  90402 Nürnberg
+DESCRIPTION:Ausstellung der Preisträger des Max-und-Rita-Körndl-Preises 2
+ 026.\nLaufzeit: 3.12.2026 bis 2.1.2027\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.kreis-nuernberg.de/kreisgalerie/programm/
+URL:https://www.kreis-nuernberg.de/kreisgalerie/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-kreisgalerie-20261203-alessia-pennavaria-joseph-lanzinger-max-und-rit
+ a-k-ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Letzter Tag: Alessia Pennavaria & Joseph Lanzinger – Max-und-Rita
+ -Körndl-Preis 2026
+LOCATION:KREISGalerie am Germanischen Nationalmuseum\, Kartäusergasse 14\,
+  90402 Nürnberg
+DESCRIPTION:Ausstellung der Preisträger des Max-und-Rita-Körndl-Preises 2
+ 026.\nLaufzeit: 3.12.2026 bis 2.1.2027\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.kreis-nuernberg.de/kreisgalerie/programm/
+URL:https://www.kreis-nuernberg.de/kreisgalerie/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:n-stadtmuseum-fembohaus-20261204-kunst-handwerk-der-markt-fuer-schoene-
  dinge-beginn@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -59,6 +157,49 @@ LOCATION:Stadtmuseum im Fembo-Haus\, Nürnberg
 DESCRIPTION:Laufzeit: 4.12.2026 bis 13.12.2026\nQuelle (bitte vor dem Besuc
  h prüfen): https://museen.nuernberg.de/fembohaus
 URL:https://museen.nuernberg.de/fembohaus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-kreisgalerie-20270113-1900-vernissage-gruppe-mycelia-muenchen@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T190000
+DTEND;TZID=Europe/Berlin:20270113T210000
+SUMMARY:Vernissage: Gruppe Mycelia (München)
+LOCATION:KREISGalerie am Germanischen Nationalmuseum\, Kartäusergasse 14\,
+  90402 Nürnberg
+DESCRIPTION:Ausstellungseröffnung mit der Münchner Künstlergruppe Myceli
+ a.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.kreis-nuernberg.de/kreisgalerie/programm/
+URL:https://www.kreis-nuernberg.de/kreisgalerie/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-kreisgalerie-20270114-gruppe-mycelia-muenchen-beginn@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Beginn: Gruppe Mycelia (München)
+LOCATION:KREISGalerie am Germanischen Nationalmuseum\, Kartäusergasse 14\,
+  90402 Nürnberg
+DESCRIPTION:Gastausstellung der Münchner Künstlergruppe Mycelia.\nLaufzei
+ t: 14.1.2027 bis 6.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kreis-nuernberg.de/kreisgalerie/programm/
+URL:https://www.kreis-nuernberg.de/kreisgalerie/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-kreisgalerie-20270114-gruppe-mycelia-muenchen-ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Letzter Tag: Gruppe Mycelia (München)
+LOCATION:KREISGalerie am Germanischen Nationalmuseum\, Kartäusergasse 14\,
+  90402 Nürnberg
+DESCRIPTION:Gastausstellung der Münchner Künstlergruppe Mycelia.\nLaufzei
+ t: 14.1.2027 bis 6.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kreis-nuernberg.de/kreisgalerie/programm/
+URL:https://www.kreis-nuernberg.de/kreisgalerie/programm/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
