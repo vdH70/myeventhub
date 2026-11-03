@@ -10,6 +10,53 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261108-1800-ue59-silber-rock-party@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Ü59 Silber Rock Party
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Rock-Party für Ältere der Studiobühne Siegburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .theaterseite.de/spielplan/vorstellung/ue59-silberrock-party/
+URL:https://www.theaterseite.de/spielplan/vorstellung/ue59-silberrock-party
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261129-1800-ue59-silber-rock-party@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T180000
+DTEND;TZID=Europe/Berlin:20261129T200000
+SUMMARY:Ü59 Silber Rock Party
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Rock-Party für Ältere der Studiobühne Siegburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .theaterseite.de/spielplan/vorstellung/ue59-silberrock-party/
+URL:https://www.theaterseite.de/spielplan/vorstellung/ue59-silberrock-party
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:su-rhein-sieg-forum-20261206-mo-torres-alle-jahre-wieder-unplugged-2026
  @myeventhub.de
@@ -21,6 +68,51 @@ LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
  .de/de/programm
 URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261231-2000-ue59-silber-rock-party@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T200000
+DTEND;TZID=Europe/Berlin:20261231T220000
+SUMMARY:Ü59 Silber Rock Party
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Rock-Party für Ältere der Studiobühne Siegburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .theaterseite.de/spielplan/vorstellung/ue59-silberrock-party/
+URL:https://www.theaterseite.de/spielplan/vorstellung/ue59-silberrock-party
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20270124-1800-ue59-silber-rock-party@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T180000
+DTEND;TZID=Europe/Berlin:20270124T200000
+SUMMARY:Ü59 Silber Rock Party
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Rock-Party für Ältere der Studiobühne Siegburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .theaterseite.de/spielplan/vorstellung/ue59-silberrock-party/
+URL:https://www.theaterseite.de/spielplan/vorstellung/ue59-silberrock-party
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20270221-1800-ue59-silber-rock-party@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T180000
+DTEND;TZID=Europe/Berlin:20270221T200000
+SUMMARY:Ü59 Silber Rock Party
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Rock-Party für Ältere der Studiobühne Siegburg.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .theaterseite.de/spielplan/vorstellung/ue59-silberrock-party/
+URL:https://www.theaterseite.de/spielplan/vorstellung/ue59-silberrock-party
+ /
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

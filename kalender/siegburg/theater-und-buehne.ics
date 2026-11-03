@@ -10,6 +10,53 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261106-1930-zwischen-lackschuh-lippenstift@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Zwischen Lackschuh & Lippenstift
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/zwischen-lackschuh-und-lippenstift/
+URL:https://www.theaterseite.de/spielplan/vorstellung/zwischen-lackschuh-un
+ d-lippenstift/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261107-1930-zwischen-lackschuh-lippenstift@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Zwischen Lackschuh & Lippenstift
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/zwischen-lackschuh-und-lippenstift/
+URL:https://www.theaterseite.de/spielplan/vorstellung/zwischen-lackschuh-un
+ d-lippenstift/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:su-rhein-sieg-forum-20261109-schwanensee-ballet-classique-solenne@myeve
  nthub.de
@@ -24,6 +71,233 @@ URL:https://rhein-sieg-forum.de/de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261113-1930-der-tatortreiniger-folge-1@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Der Tatortreiniger Folge 1
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/der-tatortreiniger-folge-1/
+URL:https://www.theaterseite.de/spielplan/vorstellung/der-tatortreiniger-fo
+ lge-1/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261114-1930-der-tatortreiniger-folge-1@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Der Tatortreiniger Folge 1
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/der-tatortreiniger-folge-1/
+URL:https://www.theaterseite.de/spielplan/vorstellung/der-tatortreiniger-fo
+ lge-1/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261120-1930-der-tatortreiniger-folge-2@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Der Tatortreiniger Folge 2
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/der-tatortreiniger-folge-2/
+URL:https://www.theaterseite.de/spielplan/vorstellung/der-tatortreiniger-fo
+ lge-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261121-1930-der-tatortreiniger-folge-2@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Der Tatortreiniger Folge 2
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/der-tatortreiniger-folge-2/
+URL:https://www.theaterseite.de/spielplan/vorstellung/der-tatortreiniger-fo
+ lge-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261127-1930-lysistrata@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Lysistrata
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/lysistrata/
+URL:https://www.theaterseite.de/spielplan/vorstellung/lysistrata/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261128-1930-atmen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Atmen
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/atmen/
+URL:https://www.theaterseite.de/spielplan/vorstellung/atmen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261204-1930-der-tatortreiniger-folge-2@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Der Tatortreiniger Folge 2
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/der-tatortreiniger-folge-2/
+URL:https://www.theaterseite.de/spielplan/vorstellung/der-tatortreiniger-fo
+ lge-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261205-1900-dinner-for-one@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T190000
+DTEND;TZID=Europe/Berlin:20261205T210000
+SUMMARY:Dinner for One
+LOCATION:Kranz Parkhotel
+DESCRIPTION:Theaterabend mit Dinner\, Gastspiel der Studiobühne Siegburg.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.theaterseite.de/spielplan/vorstellung/dinner-for-one/
+URL:https://www.theaterseite.de/spielplan/vorstellung/dinner-for-one/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261209-1930-der-tatortreiniger-folge-2@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T193000
+DTEND;TZID=Europe/Berlin:20261209T213000
+SUMMARY:Der Tatortreiniger Folge 2
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/der-tatortreiniger-folge-2/
+URL:https://www.theaterseite.de/spielplan/vorstellung/der-tatortreiniger-fo
+ lge-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261211-1930-stolz-und-vorurteil-oder-so@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T193000
+DTEND;TZID=Europe/Berlin:20261211T213000
+SUMMARY:Stolz und Vorurteil* (*oder so) (ausverkauft)
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.theaterseite.de/spielplan/vorstellung/stolz-und-vorurteil/
+URL:https://www.theaterseite.de/spielplan/vorstellung/stolz-und-vorurteil/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261212-1900-dinner-for-one@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T190000
+DTEND;TZID=Europe/Berlin:20261212T210000
+SUMMARY:Dinner for One
+LOCATION:Kranz Parkhotel
+DESCRIPTION:Theaterabend mit Dinner\, Gastspiel der Studiobühne Siegburg.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.theaterseite.de/spielplan/vorstellung/dinner-for-one/
+URL:https://www.theaterseite.de/spielplan/vorstellung/dinner-for-one/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261212-1930-lysistrata@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:Lysistrata
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/lysistrata/
+URL:https://www.theaterseite.de/spielplan/vorstellung/lysistrata/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261217-1900-das-schoenste-maedchen-der-welt@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T190000
+DTEND;TZID=Europe/Berlin:20261217T210000
+SUMMARY:Das schönste Mädchen der Welt
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/das-schonste-madchen-der-welt/
+URL:https://www.theaterseite.de/spielplan/vorstellung/das-schonste-madchen-
+ der-welt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261218-1900-das-schoenste-maedchen-der-welt@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T190000
+DTEND;TZID=Europe/Berlin:20261218T210000
+SUMMARY:Das schönste Mädchen der Welt
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/das-schonste-madchen-der-welt/
+URL:https://www.theaterseite.de/spielplan/vorstellung/das-schonste-madchen-
+ der-welt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261219-1900-dinner-for-one@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:Dinner for One
+LOCATION:Kranz Parkhotel
+DESCRIPTION:Theaterabend mit Dinner\, Gastspiel der Studiobühne Siegburg.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.theaterseite.de/spielplan/vorstellung/dinner-for-one/
+URL:https://www.theaterseite.de/spielplan/vorstellung/dinner-for-one/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261220-1500-das-schoenste-maedchen-der-welt@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Das schönste Mädchen der Welt
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/das-schonste-madchen-der-welt/
+URL:https://www.theaterseite.de/spielplan/vorstellung/das-schonste-madchen-
+ der-welt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:su-rhein-sieg-forum-20261220-der-nussknacker-classico-ballett-napoli@my
  eventhub.de
 DTSTAMP:20261024T000000Z
@@ -34,6 +308,104 @@ LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
  .de/de/programm
 URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261229-1700-das-schoenste-maedchen-der-welt@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T170000
+DTEND;TZID=Europe/Berlin:20261229T190000
+SUMMARY:Das schönste Mädchen der Welt
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/das-schonste-madchen-der-welt/
+URL:https://www.theaterseite.de/spielplan/vorstellung/das-schonste-madchen-
+ der-welt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261231-1900-dinner-for-one@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T190000
+DTEND;TZID=Europe/Berlin:20261231T210000
+SUMMARY:Dinner for One
+LOCATION:Kranz Parkhotel
+DESCRIPTION:Theaterabend mit Dinner\, Gastspiel der Studiobühne Siegburg.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.theaterseite.de/spielplan/vorstellung/dinner-for-one/
+URL:https://www.theaterseite.de/spielplan/vorstellung/dinner-for-one/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20270115-1930-der-tatortreiniger-folge-2@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T193000
+DTEND;TZID=Europe/Berlin:20270115T213000
+SUMMARY:Der Tatortreiniger Folge 2
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/der-tatortreiniger-folge-2/
+URL:https://www.theaterseite.de/spielplan/vorstellung/der-tatortreiniger-fo
+ lge-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20270116-1930-der-tatortreiniger-folge-2@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T193000
+DTEND;TZID=Europe/Berlin:20270116T213000
+SUMMARY:Der Tatortreiniger Folge 2
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/der-tatortreiniger-folge-2/
+URL:https://www.theaterseite.de/spielplan/vorstellung/der-tatortreiniger-fo
+ lge-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20270117-1500-atmen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T150000
+DTEND;TZID=Europe/Berlin:20270117T170000
+SUMMARY:Atmen
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/atmen/
+URL:https://www.theaterseite.de/spielplan/vorstellung/atmen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20270214-1500-stolz-und-vorurteil-oder-so@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T150000
+DTEND;TZID=Europe/Berlin:20270214T170000
+SUMMARY:Stolz und Vorurteil* (*oder so)
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/stolz-und-vorurteil/
+URL:https://www.theaterseite.de/spielplan/vorstellung/stolz-und-vorurteil/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20270220-1930-lysistrata@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T193000
+DTEND;TZID=Europe/Berlin:20270220T213000
+SUMMARY:Lysistrata
+LOCATION:Studiobühne Siegburg\, Siegburg
+DESCRIPTION:Theatervorstellung der Studiobühne Siegburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thea
+ terseite.de/spielplan/vorstellung/lysistrata/
+URL:https://www.theaterseite.de/spielplan/vorstellung/lysistrata/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

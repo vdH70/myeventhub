@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Kempen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:vie-paterskirche-kempen-20261108-1800-hanna-elisabeth-mueller-sopran-ch
+ ristoph-traxler-k@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:Hanna-Elisabeth Müller (Sopran) & Christoph Traxler (Klavier)
+LOCATION:Paterskirche Kempen\, Kempen
+DESCRIPTION:Liederabend in der Paterskirche Kempen (Kempen Klassik).\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://kempen-klassik.de/programm-details/hanna-elisabeth-mueller-sopran-chris
+ toph-traxler-klavier-20261108.html
+URL:https://kempen-klassik.de/programm-details/hanna-elisabeth-mueller-sopr
+ an-christoph-traxler-klavier-20261108.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vie-paterskirche-kempen-20261129-1800-voces8-in-dulci-jubilo@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T180000
+DTEND;TZID=Europe/Berlin:20261129T200000
+SUMMARY:VOCES8: In Dulci Jubilo (ausverkauft)
+LOCATION:Paterskirche Kempen\, Kempen
+DESCRIPTION:Vokalkonzert der Reihe Musica antica e viva in der Paterskirche
+  Kempen (Kempen Klassik).\nEnde: laut Quelle nicht angegeben\nAusverkauft\
+ nQuelle (bitte vor dem Besuch prüfen): https://kempen-klassik.de/programm
+ -details/voces8-20261129.html
+URL:https://kempen-klassik.de/programm-details/voces8-20261129.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vie-paterskirche-kempen-20261204-2000-amatis-trio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Amatis Trio
+LOCATION:Paterskirche Kempen\, Kempen
+DESCRIPTION:Kammerkonzert in der Paterskirche Kempen (Kempen Klassik).\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://kempen-klassik.de/programm-details/amatis-trio-20261204.html
+URL:https://kempen-klassik.de/programm-details/amatis-trio-20261204.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vie-paterskirche-kempen-20261215-2000-alexej-gadjiew-klavier@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T200000
+DTEND;TZID=Europe/Berlin:20261215T220000
+SUMMARY:Alexej Gadjiew (Klavier)
+LOCATION:Paterskirche Kempen\, Kempen
+DESCRIPTION:Klavierabend der Reihe Klavier extra in der Paterskirche Kempen
+  (Kempen Klassik).\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://kempen-klassik.de/programm-details/alexej-gadj
+ iew-klavier-20261215.html
+URL:https://kempen-klassik.de/programm-details/alexej-gadjiew-klavier-20261
+ 215.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vie-paterskirche-kempen-20270110-1800-monet-quintett-encore@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T180000
+DTEND;TZID=Europe/Berlin:20270110T200000
+SUMMARY:Monet Quintett: Encore
+LOCATION:Paterskirche Kempen\, Kempen
+DESCRIPTION:Kammerkonzert in der Paterskirche Kempen (Kempen Klassik).\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://kempen-klassik.de/programm-details/monet-quintett-20270110.html
+URL:https://kempen-klassik.de/programm-details/monet-quintett-20270110.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vie-paterskirche-kempen-20270126-2000-dorothee-mields-sopran-tobias-koc
+ h-erard-fluegel-c@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T200000
+DTEND;TZID=Europe/Berlin:20270126T220000
+SUMMARY:Dorothee Mields (Sopran) & Tobias Koch (Erard-Flügel): Chopins let
+ zte Tage
+LOCATION:Paterskirche Kempen\, Kempen
+DESCRIPTION:Konzert der Reihe Musica antica e viva in der Paterskirche Kemp
+ en (Kempen Klassik).\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://kempen-klassik.de/programm-details/dorothee-
+ mields-sopran-tobias-koch-erard-fluegel-20270126.html
+URL:https://kempen-klassik.de/programm-details/dorothee-mields-sopran-tobia
+ s-koch-erard-fluegel-20270126.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vie-paterskirche-kempen-20270204-2130-uwaga@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T213000
+DTEND;TZID=Europe/Berlin:20270204T233000
+SUMMARY:Uwaga!
+LOCATION:Paterskirche Kempen\, Kempen
+DESCRIPTION:Konzert der Reihe Nachtmusik in der Paterskirche Kempen (Kempen
+  Klassik).\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://kempen-klassik.de/programm-details/uwaga-20270204.html
+URL:https://kempen-klassik.de/programm-details/uwaga-20270204.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vie-paterskirche-kempen-20270214-1800-nikola-meeuwsen-klavier@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T180000
+DTEND;TZID=Europe/Berlin:20270214T200000
+SUMMARY:Nikola Meeuwsen (Klavier)
+LOCATION:Paterskirche Kempen\, Kempen
+DESCRIPTION:Klavierabend der Reihe Klavier extra in der Paterskirche Kempen
+  (Kempen Klassik).\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://kempen-klassik.de/programm-details/nikola-meeu
+ wsen-klavier-20270214.html
+URL:https://kempen-klassik.de/programm-details/nikola-meeuwsen-klavier-2027
+ 0214.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

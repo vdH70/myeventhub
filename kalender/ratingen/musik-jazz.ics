@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Ratingen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:me-friedenskirche-ratingen-20261120-1930-eastplugged-odesa-philharmonic
+ -orchestra-und-sebas@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:eastPLUGGED: Odesa Philharmonic Orchestra und Sebastian Studnitzky 
+ Trio (ausverkauft)
+LOCATION:Friedenskirche Ratingen\, Hegelstraße 16\, 40882 Ratingen
+DESCRIPTION:Konzert der Reihe eastPLUGGED der USB Stiftung in der Friedensk
+ irche Ratingen.\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht
+  angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.usb-stiftung.de/eastplugged-r-konzerte.html
+URL:https://www.usb-stiftung.de/eastplugged-r-konzerte.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:me-friedenskirche-ratingen-20270129-1930-eastplugged-doppelkonzert-avis
+ hai-cohen-yonathan-a@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T193000
+DTEND;TZID=Europe/Berlin:20270129T213000
+SUMMARY:eastPLUGGED Doppelkonzert: Avishai Cohen & Yonathan Avishai / Aeham
+  Ahmad & Tobias Schulte
+LOCATION:Friedenskirche Ratingen\, Hegelstraße 16\, 40882 Ratingen
+DESCRIPTION:Doppelkonzert der Reihe eastPLUGGED der USB Stiftung in der Fri
+ edenskirche Ratingen.\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.usb-s
+ tiftung.de/eastplugged-r-konzerte.html
+URL:https://www.usb-stiftung.de/eastplugged-r-konzerte.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

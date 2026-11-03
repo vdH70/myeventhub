@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Euskirchen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:eu-altes-casino-20261106-2000-duo-detox-delux@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Duo Detox Delux
+LOCATION:Altes Casino Euskirchen\, Kaplan-Kellermann-Str. 1\, Euskirchen
+DESCRIPTION:Kleinkunstabend im Alten Casino Euskirchen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://casinovere
+ in.eu/veranstaltung/duo-detox-delux/
+URL:https://casinoverein.eu/veranstaltung/duo-detox-delux/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-altes-casino-20261120-2000-wilfried-schmickler-der-tut-s-noch@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Wilfried Schmickler: Der tut's noch
+LOCATION:Altes Casino Euskirchen\, Kaplan-Kellermann-Str. 1\, Euskirchen
+DESCRIPTION:Kabarett im Alten Casino Euskirchen.\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://casinoverein.eu/v
+ eranstaltung/wilfried-schmickler/
+URL:https://casinoverein.eu/veranstaltung/wilfried-schmickler/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

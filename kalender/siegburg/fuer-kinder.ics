@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261108-1100-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Robin Hood
+LOCATION:Studiobühne im Kaufhof
+DESCRIPTION:Familientheater der Studiobühne Siegburg.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater
+ seite.de/spielplan/vorstellung/robin-hood/
+URL:https://www.theaterseite.de/spielplan/vorstellung/robin-hood/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:su-rhein-sieg-forum-20261108-yakari-freunde-fuers-leben@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -23,6 +53,19 @@ URL:https://rhein-sieg-forum.de/de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261129-1100-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Robin Hood
+LOCATION:Studiobühne im Kaufhof
+DESCRIPTION:Familientheater der Studiobühne Siegburg.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater
+ seite.de/spielplan/vorstellung/robin-hood/
+URL:https://www.theaterseite.de/spielplan/vorstellung/robin-hood/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:su-rhein-sieg-forum-20261205-annika-preil-annis-wilde-tierabenteuer@mye
  venthub.de
 DTSTAMP:20261024T000000Z
@@ -33,6 +76,45 @@ LOCATION:Rhein Sieg Forum\, Bachstraße 1\, 53721 Siegburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://rhein-sieg-forum
  .de/de/programm
 URL:https://rhein-sieg-forum.de/de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261206-1500-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Robin Hood
+LOCATION:Studiobühne im Kaufhof
+DESCRIPTION:Familientheater der Studiobühne Siegburg.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater
+ seite.de/spielplan/vorstellung/robin-hood/
+URL:https://www.theaterseite.de/spielplan/vorstellung/robin-hood/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20261213-1500-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Robin Hood
+LOCATION:Studiobühne im Kaufhof
+DESCRIPTION:Familientheater der Studiobühne Siegburg.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater
+ seite.de/spielplan/vorstellung/robin-hood/
+URL:https://www.theaterseite.de/spielplan/vorstellung/robin-hood/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:su-studiobuehne-siegburg-20270221-1100-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T110000
+DTEND;TZID=Europe/Berlin:20270221T130000
+SUMMARY:Robin Hood
+LOCATION:Studiobühne im Kaufhof
+DESCRIPTION:Familientheater der Studiobühne Siegburg.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theater
+ seite.de/spielplan/vorstellung/robin-hood/
+URL:https://www.theaterseite.de/spielplan/vorstellung/robin-hood/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
