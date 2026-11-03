@@ -1,0 +1,129 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Weltmusik/Folk in Essen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e-katakomben-theater-20261112-2000-ali-dogan-goenueltas-europe-tour@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Ali Doğan Gönültaş – Europe Tour
+LOCATION:Katakomben-Theater im Girardet Haus\, Girardetstraße 8\, 45131 Es
+ sen
+DESCRIPTION:Konzert des Sängers Ali Doğan Gönültaş.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://katakombe
+ ntheater.info/
+URL:https://katakombentheater.info/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e-katakomben-theater-20261122-1900-sistera-nava-zwischen-orient-und-okz
+ ident@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T210000
+SUMMARY:Sistera Nava – Zwischen Orient und Okzident
+LOCATION:Katakomben-Theater im Girardet Haus\, Girardetstraße 8\, 45131 Es
+ sen
+DESCRIPTION:Konzert mit Musik zwischen Orient und Okzident.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://katako
+ mbentheater.info/
+URL:https://katakombentheater.info/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e-katakomben-theater-20261210-1900-nour-hajjar@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T190000
+DTEND;TZID=Europe/Berlin:20261210T210000
+SUMMARY:Nour Hajjar
+LOCATION:Katakomben-Theater im Girardet Haus\, Girardetstraße 8\, 45131 Es
+ sen
+DESCRIPTION:Konzert von Nour Hajjar.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://katakombentheater.info/
+URL:https://katakombentheater.info/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e-katakomben-theater-20261211-2000-suevari-oeztuerk-ensemble@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Süvari Öztürk & Ensemble
+LOCATION:Katakomben-Theater im Girardet Haus\, Girardetstraße 8\, 45131 Es
+ sen
+DESCRIPTION:Konzert von Süvari Öztürk mit Ensemble.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://katakombent
+ heater.info/
+URL:https://katakombentheater.info/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e-katakomben-theater-20261219-2000-zelemele-hasan-saglam@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Zelemele & Hasan Sağlam
+LOCATION:Katakomben-Theater im Girardet Haus\, Girardetstraße 8\, 45131 Es
+ sen
+DESCRIPTION:Konzert mit Zelemele und Hasan Sağlam.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://katakombenthea
+ ter.info/
+URL:https://katakombentheater.info/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e-katakomben-theater-20261225-2000-zeynep-baksi-karatag@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T200000
+DTEND;TZID=Europe/Berlin:20261225T220000
+SUMMARY:Zeynep Bakşi Karatağ
+LOCATION:Katakomben-Theater im Girardet Haus\, Girardetstraße 8\, 45131 Es
+ sen
+DESCRIPTION:Konzert der Sängerin Zeynep Bakşi Karatağ.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://katakomb
+ entheater.info/
+URL:https://katakombentheater.info/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e-katakomben-theater-20270124-1830-cem-erdost-ileri@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T183000
+DTEND;TZID=Europe/Berlin:20270124T203000
+SUMMARY:Cem Erdost İleri
+LOCATION:Katakomben-Theater im Girardet Haus\, Girardetstraße 8\, 45131 Es
+ sen
+DESCRIPTION:Konzert von Cem Erdost İleri.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://katakombentheater.info/
+URL:https://katakombentheater.info/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

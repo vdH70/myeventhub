@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:bn-innenstadt-weihnachtsmarkt-20261118-bonner-weihnachtsmarkt-2026-begi
  nn@myeventhub.de
@@ -36,6 +53,19 @@ DESCRIPTION:Weihnachtsmarkt des Schaustellerverbands Bonn in der Innenstadt
  .\nLaufzeit: 18.11.2026 bis 23.12.2026\nQuelle (bitte vor dem Besuch prüf
  en): https://bonnerweihnachtsmarkt.de/termine/
 URL:https://bonnerweihnachtsmarkt.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-brotfabrik-20261213-1100-weihnachtsfest-mitohne-gans@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Weihnachtsfest mitohne Gans
+LOCATION:Brotfabrik Bonn\, Kreuzstr. 16\, 53225 Bonn
+DESCRIPTION:Weihnachtliches Figurentheater vom Theater des Lachens.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.brotfabrik-theater.de/
+URL:https://www.brotfabrik-theater.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
