@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Oyten · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ver-buergersaal-oyten-20261206-1700-trio-ikigai-von-bach-bis-bartok@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T170000
+DTEND;TZID=Europe/Berlin:20261206T190000
+SUMMARY:Trio Ikigai - von Bach bis Bartók
+LOCATION:Bürgersaal Rathaus Oyten\, Hauptstraße 55\, 28876 Oyten
+DESCRIPTION:Konzert des Vereins Kultur in Oyten im Bürgersaal des Rathause
+ s Oyten.\nEnde: laut Quelle nicht angegeben\nPreis: 15 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.kultur-in-oyten.de/events/trio-ikigai
+ -von-bach-bis-bartok/
+URL:https://www.kultur-in-oyten.de/events/trio-ikigai-von-bach-bis-bartok/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ver-buergersaal-oyten-20261211-2000-songland-trio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Songland Trio
+LOCATION:Bürgersaal Rathaus Oyten\, Hauptstraße 55\, 28876 Oyten
+DESCRIPTION:Konzert des Vereins Kultur in Oyten im Bürgersaal des Rathause
+ s Oyten.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angege
+ ben\nPreis: 15 €\nQuelle (bitte vor dem Besuch prüfen): https://www.kul
+ tur-in-oyten.de/events/songland-trio/
+URL:https://www.kultur-in-oyten.de/events/songland-trio/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ver-buergersaal-oyten-20261213-2000-henning-pertiet@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T200000
+DTEND;TZID=Europe/Berlin:20261213T220000
+SUMMARY:Henning Pertiet
+LOCATION:Bürgersaal Rathaus Oyten\, Hauptstraße 55\, 28876 Oyten
+DESCRIPTION:Konzert des Vereins Kultur in Oyten im Bürgersaal des Rathause
+ s Oyten.\nEnde: laut Quelle nicht angegeben\nPreis: 15 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.kultur-in-oyten.de/events/henning-per
+ tiet/
+URL:https://www.kultur-in-oyten.de/events/henning-pertiet/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
