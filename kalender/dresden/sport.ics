@@ -1,0 +1,280 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Dresden · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dd-joynext-arena-20261115-1400-dresdner-eisloewen-crimmitschau@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T140000
+DTEND;TZID=Europe/Berlin:20261115T160000
+SUMMARY:Dresdner Eislöwen – Crimmitschau
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20261120-1930-dresdner-eisloewen-duesseldorf@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Dresdner Eislöwen – Düsseldorf
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20261127-1930-dresdner-eisloewen-weisswasser@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Dresdner Eislöwen – Weißwasser
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20261206-1700-dresdner-eisloewen-freiburg@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T170000
+DTEND;TZID=Europe/Berlin:20261206T190000
+SUMMARY:Dresdner Eislöwen – Freiburg
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20261209-1930-dresdner-eisloewen-rosenheim@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T193000
+DTEND;TZID=Europe/Berlin:20261209T213000
+SUMMARY:Dresdner Eislöwen – Rosenheim
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20261213-1700-dresdner-eisloewen-memmingen@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Dresdner Eislöwen – Memmingen
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20261220-1600-dresdner-eisloewen-bietigheim@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T160000
+DTEND;TZID=Europe/Berlin:20261220T180000
+SUMMARY:Dresdner Eislöwen – Bietigheim
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen (Familienspieltag).\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.eisloewen.de/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20261223-1930-dresdner-eisloewen-ravensburg@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T193000
+DTEND;TZID=Europe/Berlin:20261223T213000
+SUMMARY:Dresdner Eislöwen – Ravensburg
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20261230-1930-dresdner-eisloewen-kassel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T193000
+DTEND;TZID=Europe/Berlin:20261230T213000
+SUMMARY:Dresdner Eislöwen – Kassel
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20270103-1600-dresdner-eisloewen-landshut@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T160000
+DTEND;TZID=Europe/Berlin:20270103T180000
+SUMMARY:Dresdner Eislöwen – Landshut
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen (Familienspieltag).\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.eisloewen.de/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20270108-1930-dresdner-eisloewen-regensburg@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T193000
+DTEND;TZID=Europe/Berlin:20270108T213000
+SUMMARY:Dresdner Eislöwen – Regensburg
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20270126-1930-dresdner-eisloewen-bad-nauheim@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T193000
+DTEND;TZID=Europe/Berlin:20270126T213000
+SUMMARY:Dresdner Eislöwen – Bad Nauheim
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20270129-1930-dresdner-eisloewen-crimmitschau@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T193000
+DTEND;TZID=Europe/Berlin:20270129T213000
+SUMMARY:Dresdner Eislöwen – Crimmitschau
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20270205-1930-dresdner-eisloewen-landshut@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T193000
+DTEND;TZID=Europe/Berlin:20270205T213000
+SUMMARY:Dresdner Eislöwen – Landshut
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20270214-1600-dresdner-eisloewen-duesseldorf@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T160000
+DTEND;TZID=Europe/Berlin:20270214T180000
+SUMMARY:Dresdner Eislöwen – Düsseldorf
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20270216-1930-dresdner-eisloewen-weiden@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T193000
+DTEND;TZID=Europe/Berlin:20270216T213000
+SUMMARY:Dresdner Eislöwen – Weiden
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20270221-1400-dresdner-eisloewen-weisswasser@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T140000
+DTEND;TZID=Europe/Berlin:20270221T160000
+SUMMARY:Dresdner Eislöwen – Weißwasser
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-joynext-arena-20270226-1930-dresdner-eisloewen-freiburg@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T193000
+DTEND;TZID=Europe/Berlin:20270226T213000
+SUMMARY:Dresdner Eislöwen – Freiburg
+LOCATION:JOYNEXT Arena Dresden\, Magdeburger Straße 10\, 01067 Dresden
+DESCRIPTION:DEL2-Heimspiel der Dresdner Eislöwen.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.eisloewen.d
+ e/begegnungen/
+URL:https://www.eisloewen.de/begegnungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

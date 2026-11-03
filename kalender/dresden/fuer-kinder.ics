@@ -1,0 +1,271 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Dresden · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dd-technische-sammlungen-20261031-abschiedsfest-vor-der-sanierung-begin
+ n@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Beginn: Abschiedsfest vor der Sanierung
+LOCATION:Technische Sammlungen Dresden\, Junghansstraße 1–3\, 01277 Dres
+ den
+DESCRIPTION:Familienfest am letzten Wochenende vor der Sanierungsschließun
+ g.\nLaufzeit: 31.10.2026 bis 1.11.2026\nTermine laut Veranstalter: Sa und 
+ So jeweils 10–18 Uhr\nPreis: Museumseintritt\nQuelle (bitte vor dem Besu
+ ch prüfen): https://tsd.de/programm/kalender/familienfest-in-den-technisc
+ hen-sammlungen
+URL:https://tsd.de/programm/kalender/familienfest-in-den-technischen-sammlu
+ ngen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-technische-sammlungen-20261031-abschiedsfest-vor-der-sanierung-ende@
+ myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Letzter Tag: Abschiedsfest vor der Sanierung
+LOCATION:Technische Sammlungen Dresden\, Junghansstraße 1–3\, 01277 Dres
+ den
+DESCRIPTION:Familienfest am letzten Wochenende vor der Sanierungsschließun
+ g.\nLaufzeit: 31.10.2026 bis 1.11.2026\nTermine laut Veranstalter: Sa und 
+ So jeweils 10–18 Uhr\nPreis: Museumseintritt\nQuelle (bitte vor dem Besu
+ ch prüfen): https://tsd.de/programm/kalender/familienfest-in-den-technisc
+ hen-sammlungen
+URL:https://tsd.de/programm/kalender/familienfest-in-den-technischen-sammlu
+ ngen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-boulevardtheater-20261112-1700-maybebop-kinderkram-live-kindertour@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T170000
+DTEND;TZID=Europe/Berlin:20261112T190000
+SUMMARY:MAYBEBOP – Kinderkram (Live-Kindertour)
+LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
+DESCRIPTION:Familienvorstellung im Boulevardtheater Dresden.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://boule
+ vardtheater.de/spielplan/grosser-saal.php
+URL:https://boulevardtheater.de/spielplan/grosser-saal.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-boulevardtheater-20261114-1500-sandtheater-dresden-die-schneekoenigi
+ n-premiere@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Sandtheater Dresden: Die Schneekönigin (Premiere)
+LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
+DESCRIPTION:Familienvorstellung im Boulevardtheater Dresden.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://boule
+ vardtheater.de/spielplan/grosser-saal.php
+URL:https://boulevardtheater.de/spielplan/grosser-saal.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-boulevardtheater-20261122-1230-linus-faber-eine-magische-elfenmissio
+ n@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T123000
+DTEND;TZID=Europe/Berlin:20261122T143000
+SUMMARY:Linus Faber – Eine magische Elfenmission
+LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
+DESCRIPTION:Familienvorstellung im Boulevardtheater Dresden.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://boule
+ vardtheater.de/spielplan/grosser-saal.php
+URL:https://boulevardtheater.de/spielplan/grosser-saal.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-boulevardtheater-20261127-1900-die-weihnachtsgans-auguste@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Die Weihnachtsgans Auguste
+LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
+DESCRIPTION:Familienvorstellung im Boulevardtheater Dresden.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://boule
+ vardtheater.de/spielplan/grosser-saal.php
+URL:https://boulevardtheater.de/spielplan/grosser-saal.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-boulevardtheater-20261128-1500-die-weihnachtsgans-auguste@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:Die Weihnachtsgans Auguste
+LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
+DESCRIPTION:Familienvorstellung im Boulevardtheater Dresden.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://boule
+ vardtheater.de/spielplan/grosser-saal.php
+URL:https://boulevardtheater.de/spielplan/grosser-saal.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-boulevardtheater-20261128-1900-die-weihnachtsgans-auguste@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T190000
+DTEND;TZID=Europe/Berlin:20261128T210000
+SUMMARY:Die Weihnachtsgans Auguste
+LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
+DESCRIPTION:Familienvorstellung im Boulevardtheater Dresden.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://boule
+ vardtheater.de/spielplan/grosser-saal.php
+URL:https://boulevardtheater.de/spielplan/grosser-saal.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-boulevardtheater-20261129-1100-die-weihnachtsgans-auguste@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Die Weihnachtsgans Auguste
+LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
+DESCRIPTION:Familienvorstellung im Boulevardtheater Dresden.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://boule
+ vardtheater.de/spielplan/grosser-saal.php
+URL:https://boulevardtheater.de/spielplan/grosser-saal.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-boulevardtheater-20261129-1500-die-weihnachtsgans-auguste@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Die Weihnachtsgans Auguste
+LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
+DESCRIPTION:Familienvorstellung im Boulevardtheater Dresden.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://boule
+ vardtheater.de/spielplan/grosser-saal.php
+URL:https://boulevardtheater.de/spielplan/grosser-saal.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-theaterhaus-rudi-20261205-1400-aschenputtel-nach-schwarz@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T140000
+DTEND;TZID=Europe/Berlin:20261205T160000
+SUMMARY:Aschenputtel nach Schwarz
+LOCATION:Theaterhaus Rudi\, Fechnerstraße 2a\, 01139 Dresden
+DESCRIPTION:Familienvorstellung von Theatergruppe Spielbrett im Theaterhaus
+  Rudi.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.theaterhaus-rudi.de/spielplan.html
+URL:https://www.theaterhaus-rudi.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-theaterhaus-rudi-20261206-1100-die-goldene-gans@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Die goldene Gans
+LOCATION:Theaterhaus Rudi\, Fechnerstraße 2a\, 01139 Dresden
+DESCRIPTION:Familienvorstellung von Seniorentheater Ohne Verfallsdatum im T
+ heaterhaus Rudi.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.theaterhaus-rudi.de/spielplan.html
+URL:https://www.theaterhaus-rudi.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-theaterhaus-rudi-20261206-1400-hase-und-igel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T140000
+DTEND;TZID=Europe/Berlin:20261206T160000
+SUMMARY:Hase und Igel
+LOCATION:Theaterhaus Rudi\, Fechnerstraße 2a\, 01139 Dresden
+DESCRIPTION:Familienvorstellung von H.O.Theater im Theaterhaus Rudi.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.theaterhaus-rudi.de/spielplan.html
+URL:https://www.theaterhaus-rudi.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-scheune-20261206-1500-glitzerkids-die-kinderdisko@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Glitzerkids – Die Kinderdisko
+LOCATION:scheune\, Alaunstraße 36-40\, 01099 Dresden
+DESCRIPTION:Kinderdisko in der scheune in der Neustadt.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://scheune.or
+ g/
+URL:https://scheune.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-herkuleskeule-20261213-1200-kinder-tanz-revue-die-geschichte-eines-n
+ ussknacker@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T120000
+DTEND;TZID=Europe/Berlin:20261213T140000
+SUMMARY:Kinder-Tanz-Revue: Die Geschichte eines Nussknackers
+LOCATION:Die Herkuleskeule\, Schloßstraße 2\, 01067 Dresden
+DESCRIPTION:Tanz-Revue für Kinder als Gastspiel in der Herkuleskeule.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.herkuleskeule.de/spielplan-und-tickets
+URL:https://www.herkuleskeule.de/spielplan-und-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-theaterhaus-rudi-20261224-1000-das-zaubermaerchen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T100000
+DTEND;TZID=Europe/Berlin:20261224T120000
+SUMMARY:Das Zaubermärchen
+LOCATION:Theaterhaus Rudi\, Fechnerstraße 2a\, 01139 Dresden
+DESCRIPTION:Familienvorstellung von Puppentheater Glöckchen im Theaterhaus
+  Rudi.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.theaterhaus-rudi.de/spielplan.html
+URL:https://www.theaterhaus-rudi.de/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-comoedie-20270110-1100-pittiplatsch-im-zauberwald@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T110000
+DTEND;TZID=Europe/Berlin:20270110T130000
+SUMMARY:Pittiplatsch im Zauberwald
+LOCATION:Comödie Dresden\, Freiberger Straße 39\, 01067 Dresden
+DESCRIPTION:Kindertheater-Gastspiel in der Comödie Dresden.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.c
+ omoedie-dresden.de/spielplan/
+URL:https://www.comoedie-dresden.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
