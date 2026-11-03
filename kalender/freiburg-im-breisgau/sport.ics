@@ -1,0 +1,282 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Freiburg im Breisgau · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20261115-1830-ehc-freiburg-ecdc-memmingen-indians
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T183000
+DTEND;TZID=Europe/Berlin:20261115T203000
+SUMMARY:EHC Freiburg – ECDC Memmingen Indians
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20261122-1830-ehc-freiburg-ravensburg-towerstars@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T183000
+DTEND;TZID=Europe/Berlin:20261122T203000
+SUMMARY:EHC Freiburg – Ravensburg Towerstars
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20261127-1930-ehc-freiburg-duesseldorfer-eg@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:EHC Freiburg – Düsseldorfer EG
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20261204-1930-ehc-freiburg-lausitzer-fuechse@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:EHC Freiburg – Lausitzer Füchse
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20261213-1830-ehc-freiburg-eispiraten-crimmitscha
+ u@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T183000
+DTEND;TZID=Europe/Berlin:20261213T203000
+SUMMARY:EHC Freiburg – Eispiraten Crimmitschau
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20261220-1830-ehc-freiburg-ev-landshut@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T183000
+DTEND;TZID=Europe/Berlin:20261220T203000
+SUMMARY:EHC Freiburg – EV Landshut
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20261223-1930-ehc-freiburg-ec-kassel-huskies@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T193000
+DTEND;TZID=Europe/Berlin:20261223T213000
+SUMMARY:EHC Freiburg – EC Kassel Huskies
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20261230-1930-ehc-freiburg-ec-bad-nauheim@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T193000
+DTEND;TZID=Europe/Berlin:20261230T213000
+SUMMARY:EHC Freiburg – EC Bad Nauheim
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270103-1930-ehc-freiburg-eisbaeren-regensburg@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T193000
+DTEND;TZID=Europe/Berlin:20270103T213000
+SUMMARY:EHC Freiburg – Eisbären Regensburg
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270105-1830-ehc-freiburg-starbulls-rosenheim@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T183000
+DTEND;TZID=Europe/Berlin:20270105T203000
+SUMMARY:EHC Freiburg – Starbulls Rosenheim
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270108-1930-ehc-freiburg-blue-devils-weiden@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T193000
+DTEND;TZID=Europe/Berlin:20270108T213000
+SUMMARY:EHC Freiburg – Blue Devils Weiden
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270115-1930-ehc-freiburg-dresdner-eisloewen@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T193000
+DTEND;TZID=Europe/Berlin:20270115T213000
+SUMMARY:EHC Freiburg – Dresdner Eislöwen
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270124-1830-ehc-freiburg-bietigheim-steelers@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T183000
+DTEND;TZID=Europe/Berlin:20270124T203000
+SUMMARY:EHC Freiburg – Bietigheim Steelers
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270129-1930-ehc-freiburg-ecdc-memmingen-indians
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T193000
+DTEND;TZID=Europe/Berlin:20270129T213000
+SUMMARY:EHC Freiburg – ECDC Memmingen Indians
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270205-1930-ehc-freiburg-eisbaeren-regensburg@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T193000
+DTEND;TZID=Europe/Berlin:20270205T213000
+SUMMARY:EHC Freiburg – Eisbären Regensburg
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270212-1930-ehc-freiburg-ravensburg-towerstars@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T193000
+DTEND;TZID=Europe/Berlin:20270212T213000
+SUMMARY:EHC Freiburg – Ravensburg Towerstars
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270221-1830-ehc-freiburg-duesseldorfer-eg@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T183000
+DTEND;TZID=Europe/Berlin:20270221T203000
+SUMMARY:EHC Freiburg – Düsseldorfer EG
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-echte-helden-arena-20270228-1830-ehc-freiburg-lausitzer-fuechse@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T183000
+DTEND;TZID=Europe/Berlin:20270228T203000
+SUMMARY:EHC Freiburg – Lausitzer Füchse
+LOCATION:Echte Helden Arena\, Freiburg im Breisgau
+DESCRIPTION:DEL2-Heimspiel des EHC Freiburg (Wölfe).\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ehcf.de/spie
+ lplan/
+URL:https://ehcf.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,269 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Freiburg im Breisgau · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261106-1930-jazzhaus-singalong-mit-cecile-verny-christian
+ -gutf@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Jazzhaus Singalong mit Cécile Verny & Christian Gutfleisch
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ .html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261111-2000-nand-es-waere-schoen-tour-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+DTEND;TZID=Europe/Berlin:20261111T220000
+SUMMARY:Nand: Es wäre schön Tour 2026
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ .html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261114-manisonfire@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ManIsOnFire
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Konzert in der Freiburger Kneipe Swamp.\nPreis: 15 €\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.sumpfkultur.org/veranstaltunge
+ n/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-e-werk-20261115-2000-leap-entropy-world-tour@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:LEAP: Entropy World Tour
+LOCATION:E-WERK Freiburg\, Eschholzstraße 77\, 79106 Freiburg im Breisgau
+DESCRIPTION:Konzert im E-WERK Freiburg.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://suedufer-freiburg.de/gesam
+ t-programm
+URL:https://suedufer-freiburg.de/gesamt-programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261116-2000-kontrollverlust-maerchen-schreit-die-zeit-tou
+ r-202@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T200000
+DTEND;TZID=Europe/Berlin:20261116T220000
+SUMMARY:Kontrollverlust: Märchen schreit die Zeit Tour 2026
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ .html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261121-2000-yasi-hofer-best-of-tour-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Yasi Hofer: Best Of Tour 2026
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ .html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261126-2000-dirty-sound-magnet-live-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Dirty Sound Magnet: Live 2026
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ .html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261130-2000-mighty-oaks-tour-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T200000
+DTEND;TZID=Europe/Berlin:20261130T220000
+SUMMARY:Mighty Oaks: Tour 2026 (ausverkauft)
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhau
+ s.de/programm.html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261211-2000-only-the-poets-europe-tour-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Only The Poets: Europe Tour 2026
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-e-werk-20261213-1900-anders-wir-schenken-uns-nix@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T190000
+DTEND;TZID=Europe/Berlin:20261213T210000
+SUMMARY:ANDERS: Wir schenken uns nix!
+LOCATION:E-WERK Freiburg\, Eschholzstraße 77\, 79106 Freiburg im Breisgau
+DESCRIPTION:Konzert im E-WERK Freiburg.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://suedufer-freiburg.de/gesam
+ t-programm
+URL:https://suedufer-freiburg.de/gesamt-programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261225-2000-no-plastic-band-the-beatles-tribute@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T200000
+DTEND;TZID=Europe/Berlin:20261225T220000
+SUMMARY:No Plastic Band: The Beatles Tribute
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261229-2000-the-brothers-rocksongs@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T200000
+DTEND;TZID=Europe/Berlin:20261229T220000
+SUMMARY:The Brothers: Rocksongs
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261230-2000-jamaram-meets-jahcoustix@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T200000
+DTEND;TZID=Europe/Berlin:20261230T220000
+SUMMARY:Jamaram meets Jahcoustix
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20270108-2000-hole-full-of-love-a-tribute-to-70s-ac-dc@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Hole Full Of Love: A Tribute To 70s AC/DC
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2027/1.html
+URL:https://www.jazzhaus.de/programm/2027/1.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20270109-2000-hole-full-of-love-a-tribute-to-70s-ac-dc@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Hole Full Of Love: A Tribute To 70s AC/DC
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2027/1.html
+URL:https://www.jazzhaus.de/programm/2027/1.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20270116-2000-rasgarasga-xx-jubilaeumstour@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:RasgaRasga: XX-Jubiläumstour
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2027/1.html
+URL:https://www.jazzhaus.de/programm/2027/1.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20270121-2000-wishbone-ash-road-warriors-tour@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T200000
+DTEND;TZID=Europe/Berlin:20270121T220000
+SUMMARY:Wishbone Ash: Road Warriors Tour
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2027/1.html
+URL:https://www.jazzhaus.de/programm/2027/1.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20270227-luna-soul@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Luna Soul
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Konzert in der Freiburger Kneipe Swamp.\nPreis: 15 €\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.sumpfkultur.org/veranstaltunge
+ n/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

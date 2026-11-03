@@ -1,0 +1,149 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Freiburg im Breisgau · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261105-2000-fred-wesley-generations@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Fred Wesley: Generations
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ .html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-e-werk-20261122-1800-ins-neuland@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Ins Neuland
+LOCATION:E-WERK Freiburg\, Eschholzstraße 77\, 79106 Freiburg im Breisgau
+DESCRIPTION:Konzert im E-WERK Freiburg.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://suedufer-freiburg.de/gesam
+ t-programm
+URL:https://suedufer-freiburg.de/gesamt-programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261127-2000-maddis-son-brass-band-20-jahre-powerbrass@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Maddis'son Brass Band: 20 Jahre Powerbrass
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ .html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261128-2000-fatcat-forever-tour-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:FATCAT: FOREVER Tour 2026
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ .html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-wallgraben-theater-20261213-1600-weil-wir-menschen-sind-akkordeonkon
+ zert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T160000
+DTEND;TZID=Europe/Berlin:20261213T180000
+SUMMARY:…weil wir Menschen sind… – Akkordeonkonzert
+LOCATION:Wallgraben Theater\, Rathausgasse 5a\, 79098 Freiburg im Breisgau
+DESCRIPTION:Akkordeonkonzert im Wallgraben Theater.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.wallgraben
+ -theater.com/spielplan
+URL:https://www.wallgraben-theater.com/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261226-2000-refrigerators-live-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T200000
+DTEND;TZID=Europe/Berlin:20261226T220000
+SUMMARY:Refrigerators: Live 2026
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-e-werk-20270108-2000-kaiserstuhl-percussion@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Kaiserstuhl Percussion
+LOCATION:E-WERK Freiburg\, Eschholzstraße 77\, 79106 Freiburg im Breisgau
+DESCRIPTION:Konzert im E-WERK Freiburg.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://suedufer-freiburg.de/gesam
+ t-programm
+URL:https://suedufer-freiburg.de/gesamt-programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-e-werk-20270109-2000-kaiserstuhl-percussion@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Kaiserstuhl Percussion
+LOCATION:E-WERK Freiburg\, Eschholzstraße 77\, 79106 Freiburg im Breisgau
+DESCRIPTION:Konzert im E-WERK Freiburg.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://suedufer-freiburg.de/gesam
+ t-programm
+URL:https://suedufer-freiburg.de/gesamt-programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20270227-2000-the-busters-fette-fierzich@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:The Busters: Fette Fierzich
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2027/2.html
+URL:https://www.jazzhaus.de/programm/2027/2.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

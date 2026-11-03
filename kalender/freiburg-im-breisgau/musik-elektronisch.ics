@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elektronisch in Freiburg im Breisgau · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fr-slow-club-20261106-2130-herbstflimmern-flinta-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T213000
+DTEND;TZID=Europe/Berlin:20261106T233000
+SUMMARY:Herbstflimmern – Flinta*-Party
+LOCATION:SLOW CLUB\, Haslacher Straße 25\, 79115 Freiburg im Breisgau
+DESCRIPTION:Konzert oder Clubnacht im Slow Club Freiburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.slow
+ club-freiburg.de/veranstaltungen
+URL:https://www.slowclub-freiburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-slow-club-20261107-2100-nachtflug-w-tasheeno-live-dj-browncat-funken
+ schleu@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T210000
+DTEND;TZID=Europe/Berlin:20261107T230000
+SUMMARY:Nachtflug w/ Tasheeno (live)\, DJ Browncat\, Funkenschleuder
+LOCATION:SLOW CLUB\, Haslacher Straße 25\, 79115 Freiburg im Breisgau
+DESCRIPTION:Konzert oder Clubnacht im Slow Club Freiburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.slow
+ club-freiburg.de/veranstaltungen
+URL:https://www.slowclub-freiburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-slow-club-20261212-2100-nachtflug-w-saraabb-live-lizlou-funkenschleu
+ der@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T210000
+DTEND;TZID=Europe/Berlin:20261212T230000
+SUMMARY:Nachtflug w/ Saraabb (live)\, Lizlou\, Funkenschleuder
+LOCATION:SLOW CLUB\, Haslacher Straße 25\, 79115 Freiburg im Breisgau
+DESCRIPTION:Konzert oder Clubnacht im Slow Club Freiburg.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.slow
+ club-freiburg.de/veranstaltungen
+URL:https://www.slowclub-freiburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261219-2000-hgich-t-live-acid-aftershow@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:HGich.T Live + Acid Aftershow
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
+ /2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,175 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager/Party in Freiburg im Breisgau · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261106-2200-i-love-80s@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T220000
+DTEND;TZID=Europe/Berlin:20261107T000000
+SUMMARY:I Love 80s
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm.html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261113-2300-bratty-party-mit-charli-xcx-brat-coded-artist
+ s@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T230000
+DTEND;TZID=Europe/Berlin:20261114T010000
+SUMMARY:bratty – Party mit Charli XCX & brat-coded artists
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm.html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261114-2300-connected-die-90er-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T230000
+DTEND;TZID=Europe/Berlin:20261115T010000
+SUMMARY:Connected – Die 90er Party
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm.html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261121-2300-y2k-low-rise-high-energy@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T230000
+DTEND;TZID=Europe/Berlin:20261122T010000
+SUMMARY:Y2K – Low Rise. High Energy.
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm.html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261127-2300-wilde-herzen-die-indie-pop-party@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T230000
+DTEND;TZID=Europe/Berlin:20261128T010000
+SUMMARY:Wilde Herzen – Die Indie-Pop Party
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm.html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261128-2300-ok-boomer-die-throwback-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T230000
+DTEND;TZID=Europe/Berlin:20261129T010000
+SUMMARY:OK Boomer – Die Throwback Party
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm.html
+URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261205-1800-puentez-6pm-service@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T180000
+DTEND;TZID=Europe/Berlin:20261205T200000
+SUMMARY:PUENTEZ – 6PM Service (ausverkauft)
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.jazz
+ haus.de/programm/2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261205-2300-connected-die-90er-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T230000
+DTEND;TZID=Europe/Berlin:20261206T010000
+SUMMARY:Connected – Die 90er Party
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm/2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261212-2300-y2k-low-rise-high-energy@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T230000
+DTEND;TZID=Europe/Berlin:20261213T010000
+SUMMARY:Y2K – Low Rise. High Energy.
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm/2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261226-2300-i-love-80s@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T230000
+DTEND;TZID=Europe/Berlin:20261227T010000
+SUMMARY:I Love 80s
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm/2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20261231-2200-silvester-deluxe-welcome-2027@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T220000
+DTEND;TZID=Europe/Berlin:20270101T000000
+SUMMARY:Silvester Deluxe – Welcome 2027
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Partynacht im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/progr
+ amm/2026/12.html
+URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
