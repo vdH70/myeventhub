@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Stuttgart · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:s-gazi-stadion-20261114-1400-stuttgarter-kickers-ksv-hessen-kassel@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T140000
+DTEND;TZID=Europe/Berlin:20261114T160000
+SUMMARY:Stuttgarter Kickers – KSV Hessen Kassel
+LOCATION:GAZi-Stadion auf der Waldau\, Stuttgart
+DESCRIPTION:Heimspiel der Kickers in der Regionalliga Südwest.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.stuttgarter-kickers.de/team/spielplan
+URL:https://www.stuttgarter-kickers.de/team/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-scharrena-20261129-1600-allianz-mtv-stuttgart-rote-raben-vilsbiburg@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Allianz MTV Stuttgart – Rote Raben Vilsbiburg
+LOCATION:SCHARRena Stuttgart\, Fritz-Walter-Weg 5\, Stuttgart
+DESCRIPTION:Heimspiel der Volleyballerinnen von Allianz MTV Stuttgart.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.stuttgarts-schoenster-sport.de/7.php
+URL:https://www.stuttgarts-schoenster-sport.de/7.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-scharrena-20261203-1900-allianz-mtv-stuttgart-kaposvar@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T190000
+DTEND;TZID=Europe/Berlin:20261203T210000
+SUMMARY:Allianz MTV Stuttgart – Kaposvár
+LOCATION:SCHARRena Stuttgart\, Fritz-Walter-Weg 5\, Stuttgart
+DESCRIPTION:Heimspiel der Volleyballerinnen von Allianz MTV Stuttgart.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.stuttgarts-schoenster-sport.de/7.php
+URL:https://www.stuttgarts-schoenster-sport.de/7.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-scharrena-20261219-1745-allianz-mtv-stuttgart-ssc-palmberg-schwerin@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T174500
+DTEND;TZID=Europe/Berlin:20261219T194500
+SUMMARY:Allianz MTV Stuttgart – SSC Palmberg Schwerin
+LOCATION:SCHARRena Stuttgart\, Fritz-Walter-Weg 5\, Stuttgart
+DESCRIPTION:Heimspiel der Volleyballerinnen von Allianz MTV Stuttgart.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.stuttgarts-schoenster-sport.de/7.php
+URL:https://www.stuttgarts-schoenster-sport.de/7.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-scharrena-20261229-1900-allianz-mtv-stuttgart-dresdner-sc@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T190000
+DTEND;TZID=Europe/Berlin:20261229T210000
+SUMMARY:Allianz MTV Stuttgart – Dresdner SC
+LOCATION:SCHARRena Stuttgart\, Fritz-Walter-Weg 5\, Stuttgart
+DESCRIPTION:Heimspiel der Volleyballerinnen von Allianz MTV Stuttgart.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.stuttgarts-schoenster-sport.de/7.php
+URL:https://www.stuttgarts-schoenster-sport.de/7.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-scharrena-20270117-1600-allianz-mtv-stuttgart-schwarz-weiss-erfurt@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T160000
+DTEND;TZID=Europe/Berlin:20270117T180000
+SUMMARY:Allianz MTV Stuttgart – Schwarz-Weiß Erfurt
+LOCATION:SCHARRena Stuttgart\, Fritz-Walter-Weg 5\, Stuttgart
+DESCRIPTION:Heimspiel der Volleyballerinnen von Allianz MTV Stuttgart.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.stuttgarts-schoenster-sport.de/7.php
+URL:https://www.stuttgarts-schoenster-sport.de/7.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-scharrena-20270206-1900-allianz-mtv-stuttgart-skurios-volleys-borken@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T190000
+DTEND;TZID=Europe/Berlin:20270206T210000
+SUMMARY:Allianz MTV Stuttgart – Skurios Volleys Borken
+LOCATION:SCHARRena Stuttgart\, Fritz-Walter-Weg 5\, Stuttgart
+DESCRIPTION:Heimspiel der Volleyballerinnen von Allianz MTV Stuttgart.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.stuttgarts-schoenster-sport.de/7.php
+URL:https://www.stuttgarts-schoenster-sport.de/7.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-scharrena-20270220-1900-allianz-mtv-stuttgart-etv-hamburger-volksbank
+ -voll@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T190000
+DTEND;TZID=Europe/Berlin:20270220T210000
+SUMMARY:Allianz MTV Stuttgart – ETV Hamburger Volksbank Volleys
+LOCATION:SCHARRena Stuttgart\, Fritz-Walter-Weg 5\, Stuttgart
+DESCRIPTION:Heimspiel der Volleyballerinnen von Allianz MTV Stuttgart.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.stuttgarts-schoenster-sport.de/7.php
+URL:https://www.stuttgarts-schoenster-sport.de/7.php
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

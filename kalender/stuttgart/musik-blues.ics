@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:s-bix-jazzclub-20261105-bix-top-act-ina-forsman-after-dark-hour@myevent
  hub.de
@@ -34,6 +51,151 @@ LOCATION:BIX Jazzclub\, Leonhardsplatz 28\, 70182 Stuttgart
 DESCRIPTION:Ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www
  .bix-stuttgart.de/
 URL:https://www.bix-stuttgart.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-kiste-20261107-2100-mad-guz-the-mojos@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T210000
+DTEND;TZID=Europe/Berlin:20261107T230000
+SUMMARY:Mad Guz & The Mojos
+LOCATION:Jazzclub Kiste\, Hauptstätter Straße 35\, 70173 Stuttgart
+DESCRIPTION:Livemusik im Jazzclub Kiste.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.kiste-stuttgart.de/pr
+ ogramm
+URL:https://www.kiste-stuttgart.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-kiste-20261113-2100-the-blues-balls-feat-john-noville@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T210000
+DTEND;TZID=Europe/Berlin:20261113T230000
+SUMMARY:The Blues Balls feat. John Noville
+LOCATION:Jazzclub Kiste\, Hauptstätter Straße 35\, 70173 Stuttgart
+DESCRIPTION:Livemusik im Jazzclub Kiste.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.kiste-stuttgart.de/pr
+ ogramm
+URL:https://www.kiste-stuttgart.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-merlin-20261122-2000-big-daddy-wilson@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T200000
+DTEND;TZID=Europe/Berlin:20261122T220000
+SUMMARY:Big Daddy Wilson
+LOCATION:Kulturzentrum Merlin\, Augustenstraße 72\, 70178 Stuttgart
+DESCRIPTION:Konzert im Kulturzentrum Merlin im Stuttgarter Westen.\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /merlinstuttgart.de/
+URL:https://merlinstuttgart.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-laboratorium-20261203-2030-jabb-advents-jabben-im-lab@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T203000
+DTEND;TZID=Europe/Berlin:20261203T223000
+SUMMARY:JABB: Advents-Jabben im Lab
+LOCATION:Laboratorium\, Wagenburgstraße 147\, 70186 Stuttgart
+DESCRIPTION:Konzert im Laboratorium in Stuttgart-Ost.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://laboratorium
+ -stuttgart.de/programm
+URL:https://laboratorium-stuttgart.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-laboratorium-20261205-2030-the-back-seat-jivers-ray-charles-and-beyon
+ d@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T203000
+DTEND;TZID=Europe/Berlin:20261205T223000
+SUMMARY:The Back Seat Jivers: Ray Charles and Beyond
+LOCATION:Laboratorium\, Wagenburgstraße 147\, 70186 Stuttgart
+DESCRIPTION:Konzert im Laboratorium in Stuttgart-Ost.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://laboratorium
+ -stuttgart.de/programm
+URL:https://laboratorium-stuttgart.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-laboratorium-20261212-2030-black-cat-bone@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T203000
+DTEND;TZID=Europe/Berlin:20261212T223000
+SUMMARY:Black Cat Bone
+LOCATION:Laboratorium\, Wagenburgstraße 147\, 70186 Stuttgart
+DESCRIPTION:Konzert im Laboratorium in Stuttgart-Ost.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://laboratorium
+ -stuttgart.de/programm
+URL:https://laboratorium-stuttgart.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-laboratorium-20261229-2030-albie-donnelly-s-supercharge@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T203000
+DTEND;TZID=Europe/Berlin:20261229T223000
+SUMMARY:Albie Donnelly's Supercharge
+LOCATION:Laboratorium\, Wagenburgstraße 147\, 70186 Stuttgart
+DESCRIPTION:Konzert im Laboratorium in Stuttgart-Ost.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://laboratorium
+ -stuttgart.de/programm
+URL:https://laboratorium-stuttgart.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-laboratorium-20270122-2030-dr-mablues-the-detail-horns@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T203000
+DTEND;TZID=Europe/Berlin:20270122T223000
+SUMMARY:Dr. Mablues & The Detail Horns
+LOCATION:Laboratorium\, Wagenburgstraße 147\, 70186 Stuttgart
+DESCRIPTION:Konzert im Laboratorium in Stuttgart-Ost.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://laboratorium
+ -stuttgart.de/programm
+URL:https://laboratorium-stuttgart.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-laboratorium-20270123-2030-dr-mablues-the-detail-horns@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T203000
+DTEND;TZID=Europe/Berlin:20270123T223000
+SUMMARY:Dr. Mablues & The Detail Horns
+LOCATION:Laboratorium\, Wagenburgstraße 147\, 70186 Stuttgart
+DESCRIPTION:Konzert im Laboratorium in Stuttgart-Ost.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://laboratorium
+ -stuttgart.de/programm
+URL:https://laboratorium-stuttgart.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-laboratorium-20270129-2030-danny-bryant-nothing-left-behind-tour@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T203000
+DTEND;TZID=Europe/Berlin:20270129T223000
+SUMMARY:Danny Bryant: Nothing Left Behind Tour
+LOCATION:Laboratorium\, Wagenburgstraße 147\, 70186 Stuttgart
+DESCRIPTION:Konzert im Laboratorium in Stuttgart-Ost.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://laboratorium
+ -stuttgart.de/programm
+URL:https://laboratorium-stuttgart.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-merlin-20270202-2000-blues-caravan@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270202T200000
+DTEND;TZID=Europe/Berlin:20270202T220000
+SUMMARY:Blues Caravan
+LOCATION:Kulturzentrum Merlin\, Augustenstraße 72\, 70178 Stuttgart
+DESCRIPTION:Konzert im Kulturzentrum Merlin im Stuttgarter Westen.\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /merlinstuttgart.de/
+URL:https://merlinstuttgart.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
