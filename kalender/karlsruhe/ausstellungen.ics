@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ka-zkm-20260704-annette-barcelo-heisse-hunde-und-stumme-schwestern-ende
  @myeventhub.de
@@ -80,6 +97,47 @@ DESCRIPTION:Studioausstellung der Staatlichen Kunsthalle Karlsruhe im ZKM.\
  nLaufzeit: 14.11.2026 bis 14.3.2027\nQuelle (bitte vor dem Besuch prüfen)
  : https://www.kunsthalle-karlsruhe.de/ausstellung/
 URL:https://www.kunsthalle-karlsruhe.de/ausstellung/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-kohi-20261115-1800-ekstase-musik-im-fokus-beginn@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Beginn: Ekstase. Musik im Fokus
+LOCATION:KOHI Kulturraum\, Werderstraße 47\, 76137 Karlsruhe
+DESCRIPTION:Fotoausstellung zur Musik im KOHI\, Vernissage am 15.11.\nLaufz
+ eit: 15.11.2026 bis 31.12.2026\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://kohi.de/index.php?psc=
+URL:https://kohi.de/index.php?psc=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-kohi-20261115-1800-ekstase-musik-im-fokus-ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Letzter Tag: Ekstase. Musik im Fokus
+LOCATION:KOHI Kulturraum\, Werderstraße 47\, 76137 Karlsruhe
+DESCRIPTION:Fotoausstellung zur Musik im KOHI\, Vernissage am 15.11.\nLaufz
+ eit: 15.11.2026 bis 31.12.2026\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://kohi.de/index.php?psc=
+URL:https://kohi.de/index.php?psc=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-tollhaus-20261115-1800-ausstellungseroeffnung-tibeter-im-exil-fotogr
+ afien@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Ausstellungseröffnung: Tibeter im Exil – Fotografien von Paola M
+ arcello
+LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
+DESCRIPTION:Eröffnung einer Fotoausstellung im Kulturzentrum Tollhaus.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://tickets.tollhaus.de/catalog/articles
+URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

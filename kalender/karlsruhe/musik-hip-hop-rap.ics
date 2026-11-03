@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hip-Hop/Rap in Karlsruhe · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ka-kohi-20261120-2000-donna-savage-brenk-sinatra-develo-gusch-tour-2026
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Donna Savage & Brenk Sinatra + Develo – Gusch Tour 2026
+LOCATION:KOHI Kulturraum\, Werderstraße 47\, 76137 Karlsruhe
+DESCRIPTION:Konzert im KOHI Kulturraum in der Südstadt.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kohi.de/i
+ ndex.php?psc=
+URL:https://kohi.de/index.php?psc=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-kohi-20261201-2000-kinderzimmer-productions@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T200000
+DTEND;TZID=Europe/Berlin:20261201T220000
+SUMMARY:Kinderzimmer Productions
+LOCATION:KOHI Kulturraum\, Werderstraße 47\, 76137 Karlsruhe
+DESCRIPTION:Konzert im KOHI Kulturraum in der Südstadt.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kohi.de/i
+ ndex.php?psc=
+URL:https://kohi.de/index.php?psc=
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

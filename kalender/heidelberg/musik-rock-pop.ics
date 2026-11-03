@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Heidelberg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hd-halle02-20261104-lina-bo-die-asphalt-und-sterne-tour-2026@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Lina Bó – Die Asphalt und Sterne Tour 2026
+LOCATION:halle02\, Zollhofgarten 2\, 69115 Heidelberg
+DESCRIPTION:Konzert in der halle02.\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.halle02.de/programm/
+URL:https://www.halle02.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-christuskirche-20261121-1700-25-years-25-songs-jubilaeumskonzert@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T170000
+DTEND;TZID=Europe/Berlin:20261121T190000
+SUMMARY:25 Years – 25 Songs (Jubiläumskonzert)
+LOCATION:Christuskirche Heidelberg\, Heidelberg
+DESCRIPTION:Konzert in der Christuskirche Heidelberg.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ekihd.de/kal
+ ender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20261203-1930-kathy-kelly-weihnachtskonzert@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T193000
+DTEND;TZID=Europe/Berlin:20261203T213000
+SUMMARY:Kathy Kelly – Weihnachtskonzert
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Konzert in der Providenzkirche.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://ekihd.de/kalender/konz
+ ertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20261211-2000-a-tribute-to-simon-garfunkel@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:A Tribute to Simon & Garfunkel
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Konzert in der Providenzkirche.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://ekihd.de/kalender/konz
+ ertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

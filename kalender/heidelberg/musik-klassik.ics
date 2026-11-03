@@ -1,0 +1,142 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Heidelberg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261113-2000-die-register-des-universums-audiovis
+ uelles-orgelko@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Die Register des Universums – audiovisuelles Orgelkonzert
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Orgelkonzert in der Heiliggeistkirche am Marktplatz.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://h
+ eiliggeist-heidelberg.de/veranstaltungen
+URL:https://heiliggeist-heidelberg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261114-1815-stunde-der-kirchenmusik@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T181500
+DTEND;TZID=Europe/Berlin:20261114T201500
+SUMMARY:Stunde der Kirchenmusik
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Kirchenmusik in der Heiliggeistkirche am Marktplatz.\nEnde: lau
+ t Quelle nicht angegeben\nPreis: 10 €\, ermäßigt 8 €/6 €\nQuelle (
+ bitte vor dem Besuch prüfen): https://heiliggeist-heidelberg.de/veranstal
+ tungen
+URL:https://heiliggeist-heidelberg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-johanneskirche-neuenheim-20261115-1700-leben-lieben-sterben-kerzensc
+ heinkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Leben-Lieben-Sterben – Kerzenscheinkonzert
+LOCATION:Johanneskirche Neuenheim\, Heidelberg
+DESCRIPTION:Konzert in der Johanneskirche Neuenheim.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ekihd.de/kale
+ nder/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20261119-1930-providenz-barock-heidelberger-liederme
+ ister@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Providenz:Barock – Heidelberger Liedermeister
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Konzert in der Providenzkirche.\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://ekihd.de/kalender/konz
+ ertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20261120-1900-saraswati-string-quartett@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Saraswati String Quartett
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Konzert im Kulturfenster in Bergheim.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturfenste
+ r.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261121-1815-stunde-der-kirchenmusik@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T181500
+DTEND;TZID=Europe/Berlin:20261121T201500
+SUMMARY:Stunde der Kirchenmusik
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Kirchenmusik in der Heiliggeistkirche am Marktplatz.\nEnde: lau
+ t Quelle nicht angegeben\nPreis: 10 €\, ermäßigt 8 €/6 €\nQuelle (
+ bitte vor dem Besuch prüfen): https://heiliggeist-heidelberg.de/veranstal
+ tungen
+URL:https://heiliggeist-heidelberg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20261121-2000-mozart-und-bach@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Mozart und Bach
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Konzert in der Friedenskirche Handschuhsheim.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ekihd.de
+ /kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261127-2000-amarcord@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:amarcord
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Kirchenmusik in der Heiliggeistkirche am Marktplatz.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://h
+ eiliggeist-heidelberg.de/veranstaltungen
+URL:https://heiliggeist-heidelberg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

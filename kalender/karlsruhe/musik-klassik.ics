@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Karlsruhe · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261108-1100-2-sinfoniekonzert@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:2. Sinfoniekonzert (ausverkauft)
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-karlsruhe.de/spielplan/november/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/november/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261109-1930-2-sinfoniekonzert@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T193000
+DTEND;TZID=Europe/Berlin:20261109T213000
+SUMMARY:2. Sinfoniekonzert
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/november/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/november/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261114-1900-1-sonderkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:1. Sonderkonzert
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/november/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/november/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261115-1800-1-liederabend-winterreise@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:1. Liederabend – Winterreise
+LOCATION:Kleines Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Kleines Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/november/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/november/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261129-1100-2-kammerkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:2. Kammerkonzert
+LOCATION:Kleines Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Kleines Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/november/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/november/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261211-1900-2-liederabend-anastasiya-tarat
+ orkina@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T190000
+DTEND;TZID=Europe/Berlin:20261211T210000
+SUMMARY:2. Liederabend – Anastasiya Taratorkina
+LOCATION:Studio
+DESCRIPTION:Konzert des Badischen Staatstheaters (Studio).\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sta
+ atstheater-karlsruhe.de/spielplan/dezember/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261213-1100-3-sinfoniekonzert@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:3. Sinfoniekonzert
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/dezember/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261214-1930-3-sinfoniekonzert@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T193000
+DTEND;TZID=Europe/Berlin:20261214T213000
+SUMMARY:3. Sinfoniekonzert
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/dezember/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261220-1100-1-kammerkonzert-extra-strahlen
+ des-blech@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T130000
+SUMMARY:1. Kammerkonzert Extra – Strahlendes Blech
+LOCATION:Kleines Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Kleines Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/dezember/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261220-1500-we-wish-you-a-merry-christmas@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:We wish you a merry Christmas
+LOCATION:Großes Haus
+DESCRIPTION:Weihnachtskonzert des Badischen Staatstheaters (Großes Haus).\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261220-1830-we-wish-you-a-merry-christmas@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T183000
+DTEND;TZID=Europe/Berlin:20261220T203000
+SUMMARY:We wish you a merry Christmas
+LOCATION:Großes Haus
+DESCRIPTION:Weihnachtskonzert des Badischen Staatstheaters (Großes Haus).\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261223-1600-we-wish-you-a-merry-christmas@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T160000
+DTEND;TZID=Europe/Berlin:20261223T180000
+SUMMARY:We wish you a merry Christmas
+LOCATION:Großes Haus
+DESCRIPTION:Weihnachtskonzert des Badischen Staatstheaters (Großes Haus).\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20261223-1930-we-wish-you-a-merry-christmas@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T193000
+DTEND;TZID=Europe/Berlin:20261223T213000
+SUMMARY:We wish you a merry Christmas
+LOCATION:Großes Haus
+DESCRIPTION:Weihnachtskonzert des Badischen Staatstheaters (Großes Haus).\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/dezember/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270101-1800-neujahrskonzert-golden-age-of-
+ broadway@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T180000
+DTEND;TZID=Europe/Berlin:20270101T200000
+SUMMARY:Neujahrskonzert – Golden Age of Broadway
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/januar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/januar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270106-1700-50-dreikoenigskonzert-des-sjbo
+ -karlsruhe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T170000
+DTEND;TZID=Europe/Berlin:20270106T190000
+SUMMARY:50. Dreikönigskonzert des SJBO Karlsruhe
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/januar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/januar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270110-1100-4-sinfoniekonzert-mozart-mahle
+ r@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T110000
+DTEND;TZID=Europe/Berlin:20270110T130000
+SUMMARY:4. Sinfoniekonzert – Mozart & Mahler
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/januar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/januar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270111-1930-4-sinfoniekonzert-mozart-mahle
+ r@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270111T193000
+DTEND;TZID=Europe/Berlin:20270111T213000
+SUMMARY:4. Sinfoniekonzert – Mozart & Mahler
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/januar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/januar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270116-1800-3-liederabend-melanie-lang@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T180000
+DTEND;TZID=Europe/Berlin:20270116T200000
+SUMMARY:3. Liederabend – Melanie Lang
+LOCATION:Studio
+DESCRIPTION:Konzert des Badischen Staatstheaters (Studio).\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sta
+ atstheater-karlsruhe.de/spielplan/januar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/januar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270116-1900-fantastische-welt-der-filmmusi
+ k-2027@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T190000
+DTEND;TZID=Europe/Berlin:20270116T210000
+SUMMARY:Fantastische Welt der Filmmusik 2027
+LOCATION:Großes Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Großes Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/januar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/januar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270124-1100-3-kammerkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T110000
+DTEND;TZID=Europe/Berlin:20270124T130000
+SUMMARY:3. Kammerkonzert
+LOCATION:Kleines Haus
+DESCRIPTION:Konzert des Badischen Staatstheaters (Kleines Haus).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.staatstheater-karlsruhe.de/spielplan/januar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/januar/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

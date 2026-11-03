@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:hd-zimmertheater-20261029-happy-birthdays-beginn@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -36,6 +53,258 @@ DESCRIPTION:Laufzeit: 29.10.2026 bis 28.2.2027\nTermine laut Veranstalter:
  ruar 2027\nQuelle (bitte vor dem Besuch prüfen): https://www.zimmertheate
  rhd.de/
 URL:https://www.zimmertheaterhd.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20261107-1900-bloemer-tillack@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Blömer // Tillack
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Bühnenabend im Kulturfenster in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturf
+ enster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261107-2000-kafkas-traeume-eine-seelenwanderung@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Kafkas Träume – eine Seelenwanderung
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261108-2000-im-winde-klirren-die-fahnen-ein-hoelder
+ lin-abend@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T200000
+DTEND;TZID=Europe/Berlin:20261108T220000
+SUMMARY:Im Winde klirren die Fahnen – ein Hölderlin-Abend
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-halle02-20261108-marc-weide-comedy-meets-magic@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Marc Weide – Comedy meets Magic
+LOCATION:halle02\, Zollhofgarten 2\, 69115 Heidelberg
+DESCRIPTION:Comedy und Zauberei mit Marc Weide in der halle02.\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.halle02.de/programm/
+URL:https://www.halle02.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20261113-1900-tante-friedl@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T190000
+DTEND;TZID=Europe/Berlin:20261113T210000
+SUMMARY:Tante Friedl
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Bühnenabend im Kulturfenster in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturf
+ enster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261113-2000-gretchen-89-ff@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:GRETCHEN 89 FF.
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261114-2000-gretchen-89-ff@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:GRETCHEN 89 FF.
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261115-2000-das-urteil@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:Das Urteil
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261120-2000-gastspiel-tangata-tango-zwischen-rausch
+ -und-realit@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Gastspiel: TANGATA – Tango zwischen Rausch und Realität
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Gastspiel im Taeter-Theater in Bergheim.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-th
+ eater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261121-2000-kafkas-traeume-eine-seelenwanderung@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Kafkas Träume – eine Seelenwanderung
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261122-2000-die-zoogeschichte@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T200000
+DTEND;TZID=Europe/Berlin:20261122T220000
+SUMMARY:Die Zoogeschichte
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261127-2000-gretchen-89-ff@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:GRETCHEN 89 FF.
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261128-2000-gretchen-89-ff@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:GRETCHEN 89 FF.
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-taeter-theater-20261129-2000-das-urteil@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T200000
+DTEND;TZID=Europe/Berlin:20261129T220000
+SUMMARY:Das Urteil
+LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
+DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
+ theater.de/spielplan/
+URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20261205-1900-hey-moment-aka-stefan-ebert@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T190000
+DTEND;TZID=Europe/Berlin:20261205T210000
+SUMMARY:Hey Moment aka Stefan Ebert
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Bühnenabend im Kulturfenster in Bergheim.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturf
+ enster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20261211-1900-hg-butzko@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T190000
+DTEND;TZID=Europe/Berlin:20261211T210000
+SUMMARY:HG Butzko
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Kabarett im Kulturfenster in Bergheim.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturfenst
+ er.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20261218-1900-drama-light-die-jahresabschluss-show@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T190000
+DTEND;TZID=Europe/Berlin:20261218T210000
+SUMMARY:DRAMA light – Die Jahresabschluss Show
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Improtheater mit DRAMA light im Kulturfenster.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kul
+ turfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20261219-1900-drama-light-die-x-mas-show@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:DRAMA light – Die X-Mas Show
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Improtheater mit DRAMA light im Kulturfenster.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kul
+ turfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270221-1800-lucy-van-kuhl@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T180000
+DTEND;TZID=Europe/Berlin:20270221T200000
+SUMMARY:Lucy van Kuhl
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Kabarett im Kulturfenster in Bergheim.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturfenst
+ er.de/
+URL:https://www.kulturfenster.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

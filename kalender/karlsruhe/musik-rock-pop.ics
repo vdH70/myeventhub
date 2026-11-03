@@ -10,6 +10,51 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ka-tollhaus-20261105-2000-stoppok-rund-reise-die-band-tour-2026@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Stoppok – RUND-Reise\, die Band-Tour 2026
+LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
+DESCRIPTION:Konzert im Kulturzentrum Tollhaus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://tickets.tollhaus.de
+ /catalog/articles
+URL:https://tickets.tollhaus.de/catalog/articles
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-tollhaus-20261119-2000-voodoo-juergens-die-ansa-panier-live-2026@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Voodoo Jürgens & Die Ansa Panier – Live 2026
+LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
+DESCRIPTION:Konzert im Kulturzentrum Tollhaus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://tickets.tollhaus.de
+ /catalog/articles
+URL:https://tickets.tollhaus.de/catalog/articles
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:ka-substage-20261030-pothead@myeventhub.de
 DTSTAMP:20261021T000000Z

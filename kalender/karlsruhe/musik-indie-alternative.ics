@@ -10,6 +10,63 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ka-kohi-20261112-2000-the-jackson-pollock-schnaps@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:The Jackson Pollock + Schnaps
+LOCATION:KOHI Kulturraum\, Werderstraße 47\, 76137 Karlsruhe
+DESCRIPTION:Konzert im KOHI Kulturraum in der Südstadt.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kohi.de/i
+ ndex.php?psc=
+URL:https://kohi.de/index.php?psc=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-kohi-20261113-2000-sinem-do-the-moon-hatun-release-tour@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Sinem + Do The Moon – Hatun Release Tour
+LOCATION:KOHI Kulturraum\, Werderstraße 47\, 76137 Karlsruhe
+DESCRIPTION:Konzert im KOHI Kulturraum in der Südstadt.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kohi.de/i
+ ndex.php?psc=
+URL:https://kohi.de/index.php?psc=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-kohi-20261114-2000-loewenzahnhonig-tembeh@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Löwenzahnhonig + Tembeh
+LOCATION:KOHI Kulturraum\, Werderstraße 47\, 76137 Karlsruhe
+DESCRIPTION:Konzert im KOHI Kulturraum in der Südstadt.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kohi.de/i
+ ndex.php?psc=
+URL:https://kohi.de/index.php?psc=
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:ka-die-stadtmitte-20261125-diary-of-dreams@myeventhub.de
 DTSTAMP:20261011T000000Z
