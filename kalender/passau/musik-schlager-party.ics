@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager/Party in Passau · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pa-zauberberg-20261106-2200-80s-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T220000
+DTEND;TZID=Europe/Berlin:20261107T000000
+SUMMARY:80s Party
+LOCATION:Zauberberg Passau\, Franz-Stockbauer-Weg 1\, 94032 Passau
+DESCRIPTION:Partynacht im Live-Club Zauberberg Passau.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zauberb
+ erg-passau.com/veranstaltungen
+URL:https://www.zauberberg-passau.com/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-zauberberg-20261107-2300-90-s-2000-s-bad-taste-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T230000
+DTEND;TZID=Europe/Berlin:20261108T010000
+SUMMARY:90's & 2000's Bad Taste Party
+LOCATION:Zauberberg Passau\, Franz-Stockbauer-Weg 1\, 94032 Passau
+DESCRIPTION:Partynacht im Live-Club Zauberberg Passau.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zauberb
+ erg-passau.com/veranstaltungen
+URL:https://www.zauberberg-passau.com/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-zauberberg-20261113-2200-anime-kpop-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T220000
+DTEND;TZID=Europe/Berlin:20261114T000000
+SUMMARY:Anime & KPop Party
+LOCATION:Zauberberg Passau\, Franz-Stockbauer-Weg 1\, 94032 Passau
+DESCRIPTION:Partynacht im Live-Club Zauberberg Passau.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zauberb
+ erg-passau.com/veranstaltungen
+URL:https://www.zauberberg-passau.com/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-zauberberg-20261114-2200-2020-s-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T220000
+DTEND;TZID=Europe/Berlin:20261115T000000
+SUMMARY:2020's Party
+LOCATION:Zauberberg Passau\, Franz-Stockbauer-Weg 1\, 94032 Passau
+DESCRIPTION:Partynacht im Live-Club Zauberberg Passau.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zauberb
+ erg-passau.com/veranstaltungen
+URL:https://www.zauberberg-passau.com/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-zauberberg-20261120-2300-ritmo-in-rio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T230000
+DTEND;TZID=Europe/Berlin:20261121T010000
+SUMMARY:Ritmo in Rio
+LOCATION:Zauberberg Passau\, Franz-Stockbauer-Weg 1\, 94032 Passau
+DESCRIPTION:Partynacht im Live-Club Zauberberg Passau.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zauberb
+ erg-passau.com/veranstaltungen
+URL:https://www.zauberberg-passau.com/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-zauberberg-20261121-2200-single-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T220000
+DTEND;TZID=Europe/Berlin:20261122T000000
+SUMMARY:Single Party
+LOCATION:Zauberberg Passau\, Franz-Stockbauer-Weg 1\, 94032 Passau
+DESCRIPTION:Partynacht im Live-Club Zauberberg Passau.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zauberb
+ erg-passau.com/veranstaltungen
+URL:https://www.zauberberg-passau.com/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-zauberberg-20261128-2200-2010-s-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T220000
+DTEND;TZID=Europe/Berlin:20261129T000000
+SUMMARY:2010's Party
+LOCATION:Zauberberg Passau\, Franz-Stockbauer-Weg 1\, 94032 Passau
+DESCRIPTION:Partynacht im Live-Club Zauberberg Passau.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.zauberb
+ erg-passau.com/veranstaltungen
+URL:https://www.zauberberg-passau.com/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

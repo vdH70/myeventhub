@@ -10,6 +10,76 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ba-live-club-20261112-2030-brueckentag-2@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T203000
+DTEND;TZID=Europe/Berlin:20261112T223000
+SUMMARY:Brückentag #2
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 19:30\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-haas-saele-20261113-2000-20-jahre-1516-rock-pur-kein-verfallsdatum@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:20 Jahre 1516 – Rock pur. Kein Verfallsdatum
+LOCATION:Haas-Säle\, Bamberg
+DESCRIPTION:Konzert in den Haas-Sälen Bamberg.\nEinlass 19:00\, Beginn 20:
+ 00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261114-2030-slacktones-raiden-wins@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T203000
+DTEND;TZID=Europe/Berlin:20261114T223000
+SUMMARY:Slacktones + Raiden Wins
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261121-2030-korte-am-nil@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T203000
+DTEND;TZID=Europe/Berlin:20261121T223000
+SUMMARY:Korte Am Nil
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:ba-brose-arena-20261121-unheilig@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -20,6 +90,228 @@ LOCATION:brose Arena\, Bamberg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.brose-arena.
  de/events/
 URL:https://www.brose-arena.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261128-2030-masters-of-mayhem-red-hot-chili-peppers-trib
+ ute@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T203000
+DTEND;TZID=Europe/Berlin:20261128T223000
+SUMMARY:Masters of Mayhem – Red Hot Chili Peppers Tribute
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261130-2030-hellway-patrol@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T203000
+DTEND;TZID=Europe/Berlin:20261130T223000
+SUMMARY:Hellway Patrol
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261205-2030-wisent@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T203000
+DTEND;TZID=Europe/Berlin:20261205T223000
+SUMMARY:Wisent
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261207-2030-grns@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T203000
+DTEND;TZID=Europe/Berlin:20261207T223000
+SUMMARY:Græns
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261210-2030-brueckentag-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T203000
+DTEND;TZID=Europe/Berlin:20261210T223000
+SUMMARY:Brückentag #3
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 19:30\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261214-2030-kant@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T203000
+DTEND;TZID=Europe/Berlin:20261214T223000
+SUMMARY:KANT
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261219-2030-the-wrapping-papers@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T203000
+DTEND;TZID=Europe/Berlin:20261219T223000
+SUMMARY:The Wrapping Papers
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261221-2030-plattenbau@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261221T203000
+DTEND;TZID=Europe/Berlin:20261221T223000
+SUMMARY:Plattenbau
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261226-2030-tuget-christmas-special@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T203000
+DTEND;TZID=Europe/Berlin:20261226T223000
+SUMMARY:TugeT – Christmas Special
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20270108-2100-boppinb@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T210000
+DTEND;TZID=Europe/Berlin:20270108T230000
+SUMMARY:Boppin’B
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 21:00 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20270111-2030-carson@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270111T203000
+DTEND;TZID=Europe/Berlin:20270111T223000
+SUMMARY:Carson
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20270116-2030-armano-band@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T203000
+DTEND;TZID=Europe/Berlin:20270116T223000
+SUMMARY:Armano & Band
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20270123-2030-coldheart-best-of-classic-rock@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T203000
+DTEND;TZID=Europe/Berlin:20270123T223000
+SUMMARY:Coldheart – Best of Classic Rock
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20270130-2030-seven-days-left@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T203000
+DTEND;TZID=Europe/Berlin:20270130T223000
+SUMMARY:Seven Days Left
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20270201-2030-tony-sghembo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270201T203000
+DTEND;TZID=Europe/Berlin:20270201T223000
+SUMMARY:Tony Sghembo
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20270208-2030-skyjoggers@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270208T203000
+DTEND;TZID=Europe/Berlin:20270208T223000
+SUMMARY:Skyjoggers
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20270215-2030-johnny-dynamite@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270215T203000
+DTEND;TZID=Europe/Berlin:20270215T223000
+SUMMARY:Johnny Dynamite
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Konzert im Live-Club Bamberg.\nEinlass 20:00\, Beginn 20:30 Uhr
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.live-club.de/events
+URL:https://www.live-club.de/events
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

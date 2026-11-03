@@ -1,0 +1,282 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Rosenheim · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ro-spie-arena-20261115-1700-starbulls-rosenheim-ev-landshut@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Starbulls Rosenheim – EV Landshut
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20261120-1930-starbulls-rosenheim-ehc-freiburg@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+DTEND;TZID=Europe/Berlin:20261120T213000
+SUMMARY:Starbulls Rosenheim – EHC Freiburg
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20261127-1930-starbulls-rosenheim-blue-devils-weiden@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Starbulls Rosenheim – Blue Devils Weiden
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20261204-1930-starbulls-rosenheim-dresdner-eisloewen@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Starbulls Rosenheim – Dresdner Eislöwen
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20261213-1700-starbulls-rosenheim-ec-kassel-huskies@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Starbulls Rosenheim – EC Kassel Huskies
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20261220-1700-starbulls-rosenheim-duesseldorfer-eg@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T170000
+DTEND;TZID=Europe/Berlin:20261220T190000
+SUMMARY:Starbulls Rosenheim – Düsseldorfer EG
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20261223-1930-starbulls-rosenheim-bietigheim-steelers@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T193000
+DTEND;TZID=Europe/Berlin:20261223T213000
+SUMMARY:Starbulls Rosenheim – Bietigheim Steelers
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20261230-1930-starbulls-rosenheim-ravensburg-towerstars@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T193000
+DTEND;TZID=Europe/Berlin:20261230T213000
+SUMMARY:Starbulls Rosenheim – Ravensburg Towerstars
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270103-1700-starbulls-rosenheim-ec-bad-nauheim@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T170000
+DTEND;TZID=Europe/Berlin:20270103T190000
+SUMMARY:Starbulls Rosenheim – EC Bad Nauheim
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270108-1930-starbulls-rosenheim-lausitzer-fuechse@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T193000
+DTEND;TZID=Europe/Berlin:20270108T213000
+SUMMARY:Starbulls Rosenheim – Lausitzer Füchse
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270115-1930-starbulls-rosenheim-ecdc-memmingen-indians@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T193000
+DTEND;TZID=Europe/Berlin:20270115T213000
+SUMMARY:Starbulls Rosenheim – ECDC Memmingen Indians
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270124-1700-starbulls-rosenheim-eispiraten-crimmitschau
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T170000
+DTEND;TZID=Europe/Berlin:20270124T190000
+SUMMARY:Starbulls Rosenheim – Eispiraten Crimmitschau
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270129-1930-starbulls-rosenheim-ev-landshut@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T193000
+DTEND;TZID=Europe/Berlin:20270129T213000
+SUMMARY:Starbulls Rosenheim – EV Landshut
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270205-1930-starbulls-rosenheim-ec-bad-nauheim@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T193000
+DTEND;TZID=Europe/Berlin:20270205T213000
+SUMMARY:Starbulls Rosenheim – EC Bad Nauheim
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270214-1700-starbulls-rosenheim-ehc-freiburg@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T170000
+DTEND;TZID=Europe/Berlin:20270214T190000
+SUMMARY:Starbulls Rosenheim – EHC Freiburg
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270216-1930-starbulls-rosenheim-eisbaeren-regensburg@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T193000
+DTEND;TZID=Europe/Berlin:20270216T213000
+SUMMARY:Starbulls Rosenheim – Eisbären Regensburg
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270221-1700-starbulls-rosenheim-blue-devils-weiden@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T170000
+DTEND;TZID=Europe/Berlin:20270221T190000
+SUMMARY:Starbulls Rosenheim – Blue Devils Weiden
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ro-spie-arena-20270228-1700-starbulls-rosenheim-dresdner-eisloewen@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T170000
+DTEND;TZID=Europe/Berlin:20270228T190000
+SUMMARY:Starbulls Rosenheim – Dresdner Eislöwen
+LOCATION:SPIE Arena\, Rosenheim
+DESCRIPTION:Eishockey-Heimspiel der Starbulls Rosenheim in der DEL2-Hauptru
+ nde.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.starbulls.de/de/saison/spielplan
+URL:https://www.starbulls.de/de/saison/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
