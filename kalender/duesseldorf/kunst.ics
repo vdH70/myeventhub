@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d-kunstpalast-20260508-spot-on-100-jahre-gesolei-ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Letzter Tag: Spot on: 100 Jahre GeSoLei
+LOCATION:Kunstpalast\, Ehrenhof 4-5\, 40479 Düsseldorf
+DESCRIPTION:Ausstellung zum 100. Jubiläum der GeSoLei von 1926.\nLaufzeit:
+  8.5.2026 bis 21.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.kunstpalast.de/de/programm/ausstellungen/
+URL:https://www.kunstpalast.de/de/programm/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:d-sammlung-philara-20260627-house-of-balagan-10-jahre-sammlung-philara-
  ende@myeventhub.de
@@ -21,6 +51,20 @@ LOCATION:Sammlung Philara\, Birkenstraße 47a\, 40233 Düsseldorf
 DESCRIPTION:Laufzeit: 27.6.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.philara.de/en/current
 URL:https://www.philara.de/en/current
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kunstpalast-20260910-niki-de-saint-phalle-dream-machine-ende@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Niki de Saint Phalle. Dream Machine
+LOCATION:Kunstpalast\, Ehrenhof 4-5\, 40479 Düsseldorf
+DESCRIPTION:Ausstellung zu Niki de Saint Phalle im Kunstpalast.\nLaufzeit: 
+ 10.9.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .kunstpalast.de/de/programm/ausstellungen/
+URL:https://www.kunstpalast.de/de/programm/ausstellungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -52,6 +96,32 @@ URL:https://www.kunstverein-duesseldorf.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:d-kunstpalast-20260925-immendorff-ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Letzter Tag: Immendorff
+LOCATION:Kunstpalast\, Ehrenhof 4-5\, 40479 Düsseldorf
+DESCRIPTION:Ausstellung zu Jörg Immendorff im Kunstpalast.\nLaufzeit: 25.9
+ .2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.ku
+ nstpalast.de/de/programm/ausstellungen/
+URL:https://www.kunstpalast.de/de/programm/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kunstpalast-20261015-winfred-gaul-ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Winfred Gaul
+LOCATION:Kunstpalast\, Ehrenhof 4-5\, 40479 Düsseldorf
+DESCRIPTION:Ausstellung zum Maler Winfred Gaul im Kunstpalast.\nLaufzeit: 1
+ 5.10.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .kunstpalast.de/de/programm/ausstellungen/
+URL:https://www.kunstpalast.de/de/programm/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d-kunsthalle-20261017-gregor-schneider-haus-u-r-2026-ende@myeventhub.de
 DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20270117
@@ -61,6 +131,74 @@ LOCATION:Kunsthalle Düsseldorf\, Grabbeplatz 4\, 40213 Düsseldorf
 DESCRIPTION:Laufzeit: 17.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuc
  h prüfen): https://www.kunsthalle-duesseldorf.de/
 URL:https://www.kunsthalle-duesseldorf.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kultur-bahnhof-eller-20261101-eckhard-froeschlin-aus-der-zeit-geaetzt
+ -beginn@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Beginn: Eckhard Froeschlin – Aus der Zeit geätzt
+LOCATION:Kultur Bahnhof Eller\, Vennhauser Allee 89\, 40229 Düsseldorf
+DESCRIPTION:Ausstellung mit Radierungen von Eckhard Froeschlin aus den Jahr
+ en 1981–2026.\nLaufzeit: 1.11.2026 bis 13.12.2026\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.kultur-bahnhof-eller.de/
+URL:https://www.kultur-bahnhof-eller.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kultur-bahnhof-eller-20261101-eckhard-froeschlin-aus-der-zeit-geaetzt
+ -ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: Eckhard Froeschlin – Aus der Zeit geätzt
+LOCATION:Kultur Bahnhof Eller\, Vennhauser Allee 89\, 40229 Düsseldorf
+DESCRIPTION:Ausstellung mit Radierungen von Eckhard Froeschlin aus den Jahr
+ en 1981–2026.\nLaufzeit: 1.11.2026 bis 13.12.2026\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.kultur-bahnhof-eller.de/
+URL:https://www.kultur-bahnhof-eller.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kunstpalast-20261105-gym-fit-mit-kunst-beginn@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Beginn: GYM. Fit mit Kunst
+LOCATION:Kunstpalast\, Ehrenhof 4-5\, 40479 Düsseldorf
+DESCRIPTION:Ausstellung zum Thema Sport und Fitness in der Kunst.\nLaufzeit
+ : 5.11.2026 bis 21.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kunstpalast.de/de/programm/ausstellungen/
+URL:https://www.kunstpalast.de/de/programm/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kunstpalast-20261105-gym-fit-mit-kunst-ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Letzter Tag: GYM. Fit mit Kunst
+LOCATION:Kunstpalast\, Ehrenhof 4-5\, 40479 Düsseldorf
+DESCRIPTION:Ausstellung zum Thema Sport und Fitness in der Kunst.\nLaufzeit
+ : 5.11.2026 bis 21.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.kunstpalast.de/de/programm/ausstellungen/
+URL:https://www.kunstpalast.de/de/programm/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-kultur-bahnhof-eller-20261121-1600-kuenstlergespraech-mit-eckhard-fro
+ eschlin@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T160000
+DTEND;TZID=Europe/Berlin:20261121T180000
+SUMMARY:Künstlergespräch mit Eckhard Froeschlin
+LOCATION:Kultur Bahnhof Eller\, Vennhauser Allee 89\, 40229 Düsseldorf
+DESCRIPTION:Künstlergespräch in der laufenden Ausstellung.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.k
+ ultur-bahnhof-eller.de/
+URL:https://www.kultur-bahnhof-eller.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

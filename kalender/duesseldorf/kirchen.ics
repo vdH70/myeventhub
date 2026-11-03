@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kirchen in Düsseldorf · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d-maxkirche-20261107-1130-marktmusik-andres-petersen-orgel@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T113000
+DTEND;TZID=Europe/Berlin:20261107T133000
+SUMMARY:Marktmusik: Andres Petersen\, Orgel
+LOCATION:Maxkirche (St. Maximilian)\, Schulstraße 15\, 40213 Düsseldorf
+DESCRIPTION:Samstägliche Marktmusik in der Maxkirche\, Eintritt frei.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.musik-maxkirche.de/
+URL:https://www.musik-maxkirche.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-maxkirche-20261114-1130-marktmusik-karl-pohlandt-orgel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T113000
+DTEND;TZID=Europe/Berlin:20261114T133000
+SUMMARY:Marktmusik: Karl Pohlandt\, Orgel
+LOCATION:Maxkirche (St. Maximilian)\, Schulstraße 15\, 40213 Düsseldorf
+DESCRIPTION:Samstägliche Marktmusik in der Maxkirche\, Eintritt frei.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.musik-maxkirche.de/
+URL:https://www.musik-maxkirche.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bergerkirche-20261118-2100-nachtgesang-59-minuten-fuer-dich@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T210000
+DTEND;TZID=Europe/Berlin:20261118T230000
+SUMMARY:Nachtgesang – 59 Minuten für Dich!
+LOCATION:Bergerkirche\, Wallstraße 17\, 40213 Düsseldorf
+DESCRIPTION:Spätabendliches Chorkonzert des Bachvereins in der Bergerkirch
+ e.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://bachverein-duesseldorf.de/konzerte/
+URL:https://bachverein-duesseldorf.de/konzerte/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-johanneskirche-20261120-2000-sounds-of-jazz-wolf-doldinger-best-frien
+ ds-mit-jan@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Sounds of Jazz: Wolf Doldinger & Best Friends mit Jan Prax
+LOCATION:Johanneskirche Düsseldorf\, Martin-Luther-Platz 39\, 40212 Düsse
+ ldorf
+DESCRIPTION:Jazzkonzert der Reihe Sounds of Jazz an der Johanneskirche.\nEn
+ de: laut Quelle nicht angegeben\nPreis: 25 €\, unter 18 frei\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.soundsofjazz.info/
+URL:https://www.soundsofjazz.info/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-maxkirche-20261121-1130-marktmusikplus-klosterklaenge-david-und-jonat
+ han@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T113000
+DTEND;TZID=Europe/Berlin:20261121T133000
+SUMMARY:MarktmusikPlus: Klosterklänge „David und Jonathan“
+LOCATION:Maxkirche (St. Maximilian)\, Schulstraße 15\, 40213 Düsseldorf
+DESCRIPTION:Samstägliche Marktmusik in der Maxkirche\, Eintritt frei.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.musik-maxkirche.de/
+URL:https://www.musik-maxkirche.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-maxkirche-20261122-1700-festkonzert-150-jahre-maxchor-puccini-messa-d
+ i-glo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T170000
+DTEND;TZID=Europe/Berlin:20261122T190000
+SUMMARY:Festkonzert 150 Jahre Maxchor: Puccini „Messa di Gloria“\, Verd
+ i „Te Deum“
+LOCATION:Maxkirche (St. Maximilian)\, Schulstraße 15\, 40213 Düsseldorf
+DESCRIPTION:Jubiläumskonzert des Maxchors mit Orchester der Maxkirche.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.musik-maxkirche.de/
+URL:https://www.musik-maxkirche.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d-maxkirche-20261128-1130-marktmusik-philip-klimek-orgel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T113000
+DTEND;TZID=Europe/Berlin:20261128T133000
+SUMMARY:Marktmusik: Philip Klimek\, Orgel
+LOCATION:Maxkirche (St. Maximilian)\, Schulstraße 15\, 40213 Düsseldorf
+DESCRIPTION:Samstägliche Marktmusik in der Maxkirche\, Eintritt frei.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor de
+ m Besuch prüfen): https://www.musik-maxkirche.de/
+URL:https://www.musik-maxkirche.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
