@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:du-steinbruch-20261104-2000-isfort-klare@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Isfort – Klare
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:du-steinhof-20261104-guitar-gig-guitarnight@myeventhub.de
 DTSTAMP:20261031T000000Z
@@ -20,6 +50,19 @@ LOCATION:Steinhof Duisburg\, Düsseldorfer Landstraße 347\, 47259 Duisburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.steinhof-dui
  sburg.de/
 URL:https://www.steinhof-duisburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261105-2000-jam-to-du-open-stage@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:JAM to DU – Open Stage
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -47,6 +90,19 @@ URL:https://www.steinhof-duisburg.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:du-steinbruch-20261114-2000-superstrut-the-new-power-soul@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:SuperStrut – the new power soul
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:du-steinhof-20261125-trionale@myeventhub.de
 DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261125
@@ -56,6 +112,45 @@ LOCATION:Steinhof Duisburg\, Düsseldorfer Landstraße 347\, 47259 Duisburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.steinhof-dui
  sburg.de/
 URL:https://www.steinhof-duisburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261202-2000-dorf-umland-buck-s-bicycle@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Dorf & Umland – Buck's Bicycle
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261203-2000-jam-to-du-open-stage@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:JAM to DU – Open Stage
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261206-1900-daniel-luka-tap-special@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T190000
+DTEND;TZID=Europe/Berlin:20261206T210000
+SUMMARY:Daniel Luka – TAP special
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -80,6 +175,140 @@ LOCATION:Steinhof Duisburg\, Düsseldorfer Landstraße 347\, 47259 Duisburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.steinhof-dui
  sburg.de/
 URL:https://www.steinhof-duisburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261213-1900-fischer-hamers-pilger@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T190000
+DTEND;TZID=Europe/Berlin:20261213T210000
+SUMMARY:FISCHER – HAMERS – PILGER
+LOCATION:Kneipe
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Kneipe).\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261218-2000-kapelle-krebs-live@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:KAPELLE KREBS – live
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261225-2000-strings-beats-a-christmas-concert-mit-ulla-
+ van-dae@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T200000
+DTEND;TZID=Europe/Berlin:20261225T220000
+SUMMARY:Strings & Beats – A Christmas Concert mit Ulla van Daelen
+LOCATION:Steinbruch Duisburg\, Lotharstraße 318–320\, 47057 Duisburg
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.stei
+ nbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270107-1900-jam-to-du-open-stage@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T190000
+DTEND;TZID=Europe/Berlin:20270107T210000
+SUMMARY:JAM to DU – Open Stage
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270108-2000-alexa-wichner-peter-kroll-ploeger@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Alexa Wichner & Peter Kroll-Plöger
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270117-1900-milliner-neumann-frehse-pilger@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T190000
+DTEND;TZID=Europe/Berlin:20270117T210000
+SUMMARY:Milliner | Neumann | Frehse | Pilger
+LOCATION:Kneipe
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Kneipe).\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270124-1900-mirko-van-stiphaut-sandra-hilge@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T190000
+DTEND;TZID=Europe/Berlin:20270124T210000
+SUMMARY:Mirko van Stiphaut & Sandra Hilge
+LOCATION:Kneipe
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Kneipe).\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270131-1900-sugarpops@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T190000
+DTEND;TZID=Europe/Berlin:20270131T210000
+SUMMARY:SUGARPOPS
+LOCATION:Kneipe
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Kneipe).\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270204-1900-jam-to-du-open-stage@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T190000
+DTEND;TZID=Europe/Berlin:20270204T210000
+SUMMARY:JAM to DU – Open Stage
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/3/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270207-1900-rene-puetz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T190000
+DTEND;TZID=Europe/Berlin:20270207T210000
+SUMMARY:René Pütz
+LOCATION:Kneipe
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Kneipe).\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.steinbruch-duisburg.de/veranstaltungen/page/3/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/3/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -119,6 +348,20 @@ URL:https://www.steinhof-duisburg.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:du-steinbruch-20270226-2000-peter-kroll-ploeger-georg-ozzy-goebel-jakob
+ i@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:Peter Kroll-Ploeger & Georg „Ozzy“ Göbel-Jakobi
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/3/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:du-steinhof-20270226-elton-the-joels@myeventhub.de
 DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20270226
@@ -128,6 +371,19 @@ LOCATION:Steinhof Duisburg\, Düsseldorfer Landstraße 347\, 47259 Duisburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.steinhof-dui
  sburg.de/
 URL:https://www.steinhof-duisburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270228-1900-regi-jennings-live@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T190000
+DTEND;TZID=Europe/Berlin:20270228T210000
+SUMMARY:REGI JENNINGS – live
+LOCATION:Kneipe
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Kneipe).\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.steinbruch-duisburg.de/veranstaltungen/page/3/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/3/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

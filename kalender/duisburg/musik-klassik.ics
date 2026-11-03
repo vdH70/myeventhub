@@ -1,0 +1,346 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Duisburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:du-theater-20261122-1100-2-profile-konzert-dialog-unter-spannung@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:2. Profile-Konzert: Dialog unter Spannung
+LOCATION:Opernfoyer
+DESCRIPTION:Konzert der Duisburger Philharmoniker im Opernfoyer des Theater
+ s Duisburg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://duisburger-philharmoniker.de/Konzerte/dialog-unter-sp
+ annung-profile02-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/dialog-unter-spannung-pro
+ file02-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20261125-1930-3-philharmonisches-konzert-mein-vaterlan
+ d@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:3. Philharmonisches Konzert: Mein Vaterland
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Sinfoniekonzert der Duisburger Philharmoniker in der Philharmon
+ ie Mercatorhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://duisburger-philharmoniker.de/Konzerte/mein-vate
+ rland-pk03-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/mein-vaterland-pk03-2026-
+ 2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20261126-1930-3-philharmonisches-konzert-mein-vaterlan
+ d@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:3. Philharmonisches Konzert: Mein Vaterland
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Sinfoniekonzert der Duisburger Philharmoniker in der Philharmon
+ ie Mercatorhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://duisburger-philharmoniker.de/Konzerte/mein-vate
+ rland-pk03-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/mein-vaterland-pk03-2026-
+ 2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-theater-20261128-1930-barockkonzert-im-lichterschein@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Barockkonzert im Lichterschein
+LOCATION:Opernfoyer
+DESCRIPTION:Konzert der Duisburger Philharmoniker im Opernfoyer des Theater
+ s Duisburg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://duisburger-philharmoniker.de/Konzerte/barockkonzert-a
+ dr-winter01-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/barockkonzert-adr-winter0
+ 1-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-theater-20261213-1100-weihnachten-mit-musik-und-wort@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Weihnachten mit Musik und Wort
+LOCATION:Opernfoyer
+DESCRIPTION:Konzert der Duisburger Philharmoniker im Opernfoyer des Theater
+ s Duisburg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://duisburger-philharmoniker.de/Konzerte/weihnachten-adr
+ -winter02-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/weihnachten-adr-winter02-
+ 2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20261216-1930-4-philharmonisches-konzert-ich-fuehle-lu
+ ft-von-and@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T193000
+DTEND;TZID=Europe/Berlin:20261216T213000
+SUMMARY:4. Philharmonisches Konzert: Ich fühle Luft von anderem Planeten
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Sinfoniekonzert der Duisburger Philharmoniker in der Philharmon
+ ie Mercatorhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://duisburger-philharmoniker.de/Konzerte/luft-von-
+ anderem-planeten-pk04-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/luft-von-anderem-planeten
+ -pk04-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20261217-1930-4-philharmonisches-konzert-ich-fuehle-lu
+ ft-von-and@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:4. Philharmonisches Konzert: Ich fühle Luft von anderem Planeten
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Sinfoniekonzert der Duisburger Philharmoniker in der Philharmon
+ ie Mercatorhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://duisburger-philharmoniker.de/Konzerte/luft-von-
+ anderem-planeten-pk04-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/luft-von-anderem-planeten
+ -pk04-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20270101-1800-neujahrskonzert-2027@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T180000
+DTEND;TZID=Europe/Berlin:20270101T200000
+SUMMARY:Neujahrskonzert 2027
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Konzert der Duisburger Philharmoniker in der Philharmonie Merca
+ torhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://duisburger-philharmoniker.de/Konzerte/neujahrskonzert-o
+ hrenkino-soko00-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/neujahrskonzert-ohrenkino
+ -soko00-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-theater-20270110-1100-neujahrskonzert-mit-dem-salonorchester@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T110000
+DTEND;TZID=Europe/Berlin:20270110T130000
+SUMMARY:Neujahrskonzert mit dem Salonorchester
+LOCATION:Opernfoyer
+DESCRIPTION:Konzert der Duisburger Philharmoniker im Opernfoyer des Theater
+ s Duisburg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://duisburger-philharmoniker.de/Konzerte/neujahrskonzert
+ -adr-winter03-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/neujahrskonzert-adr-winte
+ r03-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20270120-1930-5-philharmonisches-konzert-viva-vivaldi@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270120T193000
+DTEND;TZID=Europe/Berlin:20270120T213000
+SUMMARY:5. Philharmonisches Konzert: Viva Vivaldi
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Sinfoniekonzert der Duisburger Philharmoniker in der Philharmon
+ ie Mercatorhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://duisburger-philharmoniker.de/Konzerte/viva-viva
+ ldi-pk05-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/viva-vivaldi-pk05-2026-20
+ 27/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20270121-1930-5-philharmonisches-konzert-viva-vivaldi@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T193000
+DTEND;TZID=Europe/Berlin:20270121T213000
+SUMMARY:5. Philharmonisches Konzert: Viva Vivaldi
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Sinfoniekonzert der Duisburger Philharmoniker in der Philharmon
+ ie Mercatorhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://duisburger-philharmoniker.de/Konzerte/viva-viva
+ ldi-pk05-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/viva-vivaldi-pk05-2026-20
+ 27/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20270124-1900-3-kammerkonzert-hymnen-an-die-nacht@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T190000
+DTEND;TZID=Europe/Berlin:20270124T210000
+SUMMARY:3. Kammerkonzert: Hymnen an die Nacht
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Konzert der Duisburger Philharmoniker in der Philharmonie Merca
+ torhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://duisburger-philharmoniker.de/Konzerte/hymnen-an-die-nac
+ ht-kako03-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/hymnen-an-die-nacht-kako0
+ 3-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mkm-kueppersmuehle-20270127-1830-klang-und-performance-im-dialog-mit
+ -bild-und-raum@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270127T183000
+DTEND;TZID=Europe/Berlin:20270127T203000
+SUMMARY:Klang und Performance im Dialog mit Bild und Raum II
+LOCATION:MKM Museum Küppersmühle für Moderne Kunst\, Philosophenweg 55\,
+  47051 Duisburg
+DESCRIPTION:Konzert der Duisburger Philharmoniker im Museum Küppersmühle.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://duisburger-philharmoniker.de/Konzerte/kueppersmuehle-adr-mkm02-2
+ 026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/kueppersmuehle-adr-mkm02-
+ 2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-lehmbruck-museum-20270128-1930-klarinettenquartette@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T193000
+DTEND;TZID=Europe/Berlin:20270128T213000
+SUMMARY:Klarinettenquartette
+LOCATION:Lehmbruck Museum\, Friedrich-Wilhelm-Straße 40\, 47051 Duisburg
+DESCRIPTION:Konzert der Duisburger Philharmoniker im Lehmbruck Museum.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://duisburger-philharmoniker.de/Konzerte/klarinettenquartette-adr-lehm01
+ -2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/klarinettenquartette-adr-
+ lehm01-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-lehmbruck-museum-20270218-1930-ein-musikalischer-spass@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T193000
+DTEND;TZID=Europe/Berlin:20270218T213000
+SUMMARY:„Ein musikalischer Spaß“
+LOCATION:Lehmbruck Museum\, Friedrich-Wilhelm-Straße 40\, 47051 Duisburg
+DESCRIPTION:Konzert der Duisburger Philharmoniker im Lehmbruck Museum.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://duisburger-philharmoniker.de/Konzerte/ein-musikalischer-spass-adr-leh
+ m02-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/ein-musikalischer-spass-a
+ dr-lehm02-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20270220-1600-2-toccata-einladung-zum-tanz@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T160000
+DTEND;TZID=Europe/Berlin:20270220T180000
+SUMMARY:2. Toccata: Einladung zum Tanz
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Orgelkonzert der Duisburger Philharmoniker in der Philharmonie 
+ Mercatorhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://duisburger-philharmoniker.de/Konzerte/einladung-zu
+ m-tanz-toccata02-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/einladung-zum-tanz-toccat
+ a02-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-theater-20270221-1100-3-profile-konzert-quintett-variationen@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T110000
+DTEND;TZID=Europe/Berlin:20270221T130000
+SUMMARY:3. Profile-Konzert: Quintett-Variationen
+LOCATION:Opernfoyer
+DESCRIPTION:Konzert der Duisburger Philharmoniker im Opernfoyer des Theater
+ s Duisburg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://duisburger-philharmoniker.de/Konzerte/quintett-variat
+ ionen-profile03-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/quintett-variationen-prof
+ ile03-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20270224-1930-6-philharmonisches-konzert-pastoral-und-
+ poetisch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T193000
+DTEND;TZID=Europe/Berlin:20270224T213000
+SUMMARY:6. Philharmonisches Konzert: Pastoral und poetisch
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Sinfoniekonzert der Duisburger Philharmoniker in der Philharmon
+ ie Mercatorhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://duisburger-philharmoniker.de/Konzerte/pastoral-
+ und-poetisch-pk06-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/pastoral-und-poetisch-pk0
+ 6-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20270225-1930-6-philharmonisches-konzert-pastoral-und-
+ poetisch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T193000
+DTEND;TZID=Europe/Berlin:20270225T213000
+SUMMARY:6. Philharmonisches Konzert: Pastoral und poetisch
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Sinfoniekonzert der Duisburger Philharmoniker in der Philharmon
+ ie Mercatorhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://duisburger-philharmoniker.de/Konzerte/pastoral-
+ und-poetisch-pk06-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/pastoral-und-poetisch-pk0
+ 6-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-mercatorhalle-20270228-1900-4-kammerkonzert-genial-durch-und-durch@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T190000
+DTEND;TZID=Europe/Berlin:20270228T210000
+SUMMARY:4. Kammerkonzert: „Genial durch und durch“
+LOCATION:Philharmonie Mercatorhalle\, Duisburg
+DESCRIPTION:Konzert der Duisburger Philharmoniker in der Philharmonie Merca
+ torhalle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://duisburger-philharmoniker.de/Konzerte/genial-durch-und-
+ durch-kako04-2026-2027/
+URL:https://duisburger-philharmoniker.de/Konzerte/genial-durch-und-durch-ka
+ ko04-2026-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

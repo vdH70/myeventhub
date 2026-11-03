@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Blues in Duisburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:du-steinbruch-20261220-1900-brendas-night@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T190000
+DTEND;TZID=Europe/Berlin:20261220T210000
+SUMMARY:BRENDAS NIGHT
+LOCATION:Kneipe
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Kneipe).\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270115-2000-andreas-diehlmann-band@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:Andreas Diehlmann Band
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270212-2000-blues-missiles@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:BLUES MISSILES
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/3/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

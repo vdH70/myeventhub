@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:mh-stadthalle-20261031-muelheimer-boogie-time-vol-6@myeventhub.de
 DTSTAMP:20261031T000000Z
@@ -93,6 +110,24 @@ DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-m
  uelheim.de/veranstaltung-besuchen/veranstaltungskalender
 URL:https://www.stadthalle-muelheim.de/veranstaltung-besuchen/veranstaltung
  skalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mh-freilichtbuehne-20261213-1600-weihnachtssingen-in-der-freilichtbuehn
+ e-muelheim@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T160000
+DTEND;TZID=Europe/Berlin:20261213T180000
+SUMMARY:Weihnachtssingen in der Freilichtbühne Mülheim
+LOCATION:Freilichtbühne Mülheim an der Ruhr\, Dimbeck 2a\, 45470 Mülheim
+  an der Ruhr
+DESCRIPTION:Weihnachtliches Mitsingkonzert für die ganze Familie auf der k
+ leinen Bühne der Freilichtbühne.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.regler-produktion.de/event
+ /weihnachtssingen-in-der-freilichtbuehne-muelheim-mit-tanja-raich-und-chri
+ stoph-eisenburger-5/
+URL:https://www.regler-produktion.de/event/weihnachtssingen-in-der-freilich
+ tbuehne-muelheim-mit-tanja-raich-und-christoph-eisenburger-5/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

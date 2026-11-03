@@ -10,6 +10,89 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:du-steinbruch-20261106-2000-electric-voodooland-jimi-hendrix-tribute@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Electric Voodooland – Jimi-Hendrix-Tribute
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261115-1900-shiela-tan-live@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T190000
+DTEND;TZID=Europe/Berlin:20261115T210000
+SUMMARY:Shiela Tan – live
+LOCATION:Kneipe
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Kneipe).\nEnde: l
+ aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
+ /www.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261120-2000-innen-deutsch-pop-aus-mh@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:INNEN – Deutsch-Pop aus MH
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261121-2000-the-u2s-u2-tribute-show@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:The U2s – U2 Tribute Show
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261128-2000-nearly-serious@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Nearly Serious
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen
+URL:https://www.steinbruch-duisburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:du-steinhof-20261128-stars-of-rock@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -20,6 +103,127 @@ LOCATION:Steinhof Duisburg\, Düsseldorfer Landstraße 347\, 47259 Duisburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.steinhof-dui
  sburg.de/
 URL:https://www.steinhof-duisburg.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261211-2000-fire-woman-hardrock-cover@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:FIRE WOMAN – Hardrock Cover
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261212-2000-tribute-to-nirvana-love-buzz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Tribute to NIRVANA – Love Buzz
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20261219-2000-first-lady-jovanka@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:First Lady Jovanka
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270122-2000-dr-bob-classic-rock-cover@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T200000
+DTEND;TZID=Europe/Berlin:20270122T220000
+SUMMARY:DR. BOB – Classic Rock Cover
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270123-2000-d-w-king-and-tcc-a-tribute-to-elvis@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T200000
+DTEND;TZID=Europe/Berlin:20270123T220000
+SUMMARY:D.W.King and TCC – A Tribute to ELVIS
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270129-2000-cocky-joe-a-tribute-to-joe-cocker@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:COCKY JOE – a tribute to Joe Cocker
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/2/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270219-2000-higgins-dirty-work-timeless-music-flight@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:HIGGINS DIRTY WORK – Timeless Music Flight
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/3/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270220-2000-tuesday7-die-cover-rockband-vom-niederrhein
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T200000
+DTEND;TZID=Europe/Berlin:20270220T220000
+SUMMARY:Tuesday7 – Die Cover-Rockband vom Niederrhein
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/3/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:du-steinbruch-20270227-2000-power-up-a-tribute-to-ac-dc@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:POWER UP – a tribute to AC/DC
+LOCATION:Saal
+DESCRIPTION:Livemusik im Steinbruch in Duisburg-Duissern (Saal).\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.steinbruch-duisburg.de/veranstaltungen/page/3/
+URL:https://www.steinbruch-duisburg.de/veranstaltungen/page/3/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
