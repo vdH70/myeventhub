@@ -10,6 +10,49 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cb-staatstheater-20261113-1900-l-ost-poetry-w-orte-ohne-heimat@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T190000
+DTEND;TZID=Europe/Berlin:20261113T210000
+SUMMARY:L/OST POETRY – W/ORTE OHNE HEIMAT (ausverkauft)
+LOCATION:Theaterkantine
+DESCRIPTION:Literarischer Abend im Staatstheater Cottbus.\nEnde: laut Quell
+ e nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.staatstheater-cottbus.de/de/programm/spielplan.html
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-glad-house-20261125-2030-lesebuehne-cottbus@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T203000
+DTEND;TZID=Europe/Berlin:20261125T223000
+SUMMARY:Lesebühne Cottbus
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Lesung im Glad-House Cottbus.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://glad.house/
+URL:https://glad.house/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:cb-stadthalle-20261207-reinhold-messner@myeventhub.de
 DTSTAMP:20261030T000000Z
@@ -20,6 +63,31 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Ausverkauft.\nQuelle (bitte vor dem Besuch prüfen): https://ww
  w.cmt-cottbus.de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-glad-house-20261211-2000-monchi-lesung-jenseits-der-brandmauer@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:MONCHI – Lesung „Jenseits der Brandmauer“ (ausverkauft)
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Lesung im Glad-House Cottbus.\nEnde: laut Quelle nicht angegebe
+ n\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://glad.house/
+URL:https://glad.house/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-glad-house-20261216-2030-lesebuehne-cottbus@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T203000
+DTEND;TZID=Europe/Berlin:20261216T223000
+SUMMARY:Lesebühne Cottbus
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Lesung im Glad-House Cottbus.\nEnde: laut Quelle nicht angegebe
+ n\nQuelle (bitte vor dem Besuch prüfen): https://glad.house/
+URL:https://glad.house/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

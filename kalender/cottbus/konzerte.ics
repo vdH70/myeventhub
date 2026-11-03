@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:cb-stadthalle-20261101-ina-mueller-und-band@myeventhub.de
 DTSTAMP:20261031T000000Z
@@ -20,6 +37,19 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.cmt-cottbus.
  de/veranstaltungen
 URL:https://www.cmt-cottbus.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261105-1800-1-feierabendkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T180000
+DTEND;TZID=Europe/Berlin:20261105T200000
+SUMMARY:1. Feierabendkonzert
+LOCATION:Altes Stadthaus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -48,6 +78,19 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-glad-house-20261113-2000-letz-zep-led-zeppelin-tribute@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:LETZ ZEP – Led-Zeppelin-Tribute (ausverkauft)
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Konzert im Glad-House Cottbus.\nEnde: laut Quelle nicht angegeb
+ en\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://glad.house
+ /
+URL:https://glad.house/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20261119-gregorian@myeventhub.de
 DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20261119
@@ -57,6 +100,32 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Ausverkauft.\nQuelle (bitte vor dem Besuch prüfen): https://ww
  w.cmt-cottbus.de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261120-2000-3-philharmonisches-konzert-raum-oeffnet-
+ sich@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:3. Philharmonisches Konzert „Raum öffnet sich“
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-glad-house-20261121-2000-lion-s-law-mess-breakout@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Lion's Law\, MESS & Breakout
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Punkkonzert im Glad-House Cottbus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://glad.house/
+URL:https://glad.house/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -72,6 +141,20 @@ URL:https://www.cmt-cottbus.de/veranstaltungen
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-staatstheater-20261122-1900-3-philharmonisches-konzert-raum-oeffnet-
+ sich@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T210000
+SUMMARY:3. Philharmonisches Konzert „Raum öffnet sich“
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20261125-tanzcafe-unterhaltung@myeventhub.de
 DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20261125
@@ -81,6 +164,20 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.cmt-cottbus.
  de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261128-2000-3-kammerkonzert-zu-fuenft-im-rausch@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:3. Kammerkonzert „Zu fünft im Rausch“
+LOCATION:Kammermusiksaal
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -96,6 +193,32 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-glad-house-20261204-2000-alexander-scheer-andreas-dresen-band@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Alexander Scheer / Andreas Dresen & Band
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Konzert im Glad-House Cottbus.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://glad.house/
+URL:https://glad.house/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-glad-house-20261210-2000-hinterlandgang-keine-mitlaeufer-tour@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Hinterlandgang – Keine Mitläufer Tour
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Hip-Hop-Konzert im Glad-House Cottbus.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://glad.house/
+URL:https://glad.house/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20261210-dirk-michaelis-weihnachtstournee-2026@myeventhub
  .de
 DTSTAMP:20261030T000000Z
@@ -106,6 +229,50 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.cmt-cottbus.
  de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-oberkirche-20261212-1600-advents-und-weihnachtsmusik-der-posaunencho
+ ere@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T160000
+DTEND;TZID=Europe/Berlin:20261212T180000
+SUMMARY:Advents- und Weihnachtsmusik der Posaunenchöre
+LOCATION:Oberkirche St. Nikolai Cottbus\, Cottbus
+DESCRIPTION:Adventliche Bläsermusik der Posaunenchöre des Kirchenkreises 
+ in der Oberkirche Cottbus.\nEnde: laut Quelle nicht angegeben\nQuelle (bit
+ te vor dem Besuch prüfen): https://www.evkirchenkreis-cottbus.de/leben/ki
+ rchenmusik/terminteaser/advents-und-weihnachtsmusik-der-posaunenchoere-5
+URL:https://www.evkirchenkreis-cottbus.de/leben/kirchenmusik/terminteaser/a
+ dvents-und-weihnachtsmusik-der-posaunenchoere-5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261212-2000-4-kammerkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:4. Kammerkonzert
+LOCATION:Kammermusiksaal
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-glad-house-20261223-2000-lord-james-feat-dr-john-korn-dj-norm@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T200000
+DTEND;TZID=Europe/Berlin:20261223T220000
+SUMMARY:LORD JAMES feat. Dr. John Korn + DJ Norm
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Punkkonzert im Glad-House Cottbus.\nEnde: laut Quelle nicht ang
+ egeben\nQuelle (bitte vor dem Besuch prüfen): https://glad.house/
+URL:https://glad.house/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -147,6 +314,36 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-staatstheater-20261231-1500-konzert-zum-jahreswechsel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T150000
+DTEND;TZID=Europe/Berlin:20261231T170000
+SUMMARY:Konzert zum Jahreswechsel
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261231-1900-konzert-zum-jahreswechsel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T190000
+DTEND;TZID=Europe/Berlin:20261231T210000
+SUMMARY:Konzert zum Jahreswechsel
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20261231-das-grosse-feuerwerk-der-operette@myeventhub.de
 DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20261231
@@ -159,6 +356,21 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-staatstheater-20270101-1500-konzert-zum-jahreswechsel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T150000
+DTEND;TZID=Europe/Berlin:20270101T170000
+SUMMARY:Konzert zum Jahreswechsel
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2027-01
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20270107-abba-gold-the-concert-show@myeventhub.de
 DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20270107
@@ -168,6 +380,21 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.cmt-cottbus.
  de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20270108-2000-4-philharmonisches-konzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:4. Philharmonisches Konzert
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2027-01
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-01
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -195,6 +422,36 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-staatstheater-20270110-1900-4-philharmonisches-konzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T190000
+DTEND;TZID=Europe/Berlin:20270110T210000
+SUMMARY:4. Philharmonisches Konzert
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2027-01
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20270116-2000-5-kammerkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:5. Kammerkonzert
+LOCATION:Kammermusiksaal
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2027-01
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20270120-k-pop-live-die-hits-die-moves-die-show@myeventhu
  b.de
 DTSTAMP:20261030T000000Z
@@ -205,6 +462,20 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Ausverkauft.\nQuelle (bitte vor dem Besuch prüfen): https://ww
  w.cmt-cottbus.de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-glad-house-20270122-2000-knife-game-over-cathbreath-dark-gospel-over
+ -german@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T200000
+DTEND;TZID=Europe/Berlin:20270122T220000
+SUMMARY:Knife / Game Over / Cathbreath – Dark Gospel Over Germany
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Konzert der dunklen Szene im Glad-House Cottbus.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://glad.
+ house/
+URL:https://glad.house/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -245,6 +516,21 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-staatstheater-20270212-2000-5-philharmonisches-konzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:5. Philharmonisches Konzert
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2027-02
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20270212-the-music-of-queen-live@myeventhub.de
 DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20270212
@@ -269,6 +555,21 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-staatstheater-20270214-1900-5-philharmonisches-konzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T190000
+DTEND;TZID=Europe/Berlin:20270214T210000
+SUMMARY:5. Philharmonisches Konzert
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2027-02
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20270218-koenig-der-loewen-live-in-concert@myeventhub.de
 DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20270218
@@ -281,6 +582,21 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-staatstheater-20270220-1930-videogames-in-concert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T193000
+DTEND;TZID=Europe/Berlin:20270220T213000
+SUMMARY:Videogames in Concert
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2027-02
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20270223-wahnsinn-die-show-2027@myeventhub.de
 DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20270223
@@ -290,6 +606,21 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.cmt-cottbus.
  de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20270227-2000-6-kammerkonzert-anschlag@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:6. Kammerkonzert: Anschlag
+LOCATION:Kammermusiksaal
+DESCRIPTION:Konzert des Philharmonischen Orchesters im Staatstheater Cottbu
+ s.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=
+ 2027-02
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

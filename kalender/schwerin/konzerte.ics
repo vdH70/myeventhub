@@ -10,6 +10,51 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sn-werk3-20261107-2000-otto-lechner-viel-luft-und-ich-dahinter@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Otto Lechner: „Viel Luft und ich dahinter“
+LOCATION:KlangWert / werk3\, Friedrichstraße 11\, 19055 Schwerin
+DESCRIPTION:Jazzkonzert im KlangWert/werk3 in Schwerin.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.klangw
+ ert.net/veranstaltungen-im-klangwert/
+URL:https://www.klangwert.net/veranstaltungen-im-klangwert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sn-werk3-20261114-2000-dirk-audehm-noch-ein-koffer-voller-cover@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Dirk Audehm: „Noch ein Koffer voller Cover“
+LOCATION:KlangWert / werk3\, Friedrichstraße 11\, 19055 Schwerin
+DESCRIPTION:Konzert im KlangWert/werk3 in Schwerin.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.klangwert.
+ net/
+URL:https://www.klangwert.net/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:sn-club-zenit-20261119-diary-of-dreams@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -20,6 +65,49 @@ LOCATION:Club Zenit\, Pappelgrund 15a\, 19055 Schwerin
 DESCRIPTION:Konzert der Band Diary of Dreams.\nQuelle (bitte vor dem Besuch
   prüfen): https://www.diaryofdreams.de/termine/?dod_lang=de
 URL:https://www.diaryofdreams.de/termine/?dod_lang=de
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sn-werk3-20261120-2000-julie-sassoon-solo-piano-julie-sassoon-lothar-oh
+ lm@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Julie Sassoon (Solo Piano) & Julie Sassoon / Lothar Ohlmeier (Duo)
+LOCATION:KlangWert / werk3\, Friedrichstraße 11\, 19055 Schwerin
+DESCRIPTION:Jazzkonzert im KlangWert/werk3 in Schwerin.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.klangw
+ ert.net/veranstaltungen-im-klangwert/
+URL:https://www.klangwert.net/veranstaltungen-im-klangwert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sn-komplex-20261121-1930-live-im-cafe-rosa-lost-notes@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Live im Café Rosa: LOST NOTES
+LOCATION:Komplex\, Pfaffenstraße 4\, 19055 Schwerin
+DESCRIPTION:Konzert im soziokulturellen Zentrum Komplex in Schwerin.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://komplex-schwerin.de/veranstaltung/live-im-cafe-rosa-lost-notes-indie-ro
+ ck-soul-neo-soul/
+URL:https://komplex-schwerin.de/veranstaltung/live-im-cafe-rosa-lost-notes-
+ indie-rock-soul-neo-soul/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sn-werk3-20261121-2000-andrew-mccormack-trio-feat-kyle-eastwood@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Andrew McCormack Trio feat. Kyle Eastwood
+LOCATION:KlangWert / werk3\, Friedrichstraße 11\, 19055 Schwerin
+DESCRIPTION:Jazzkonzert im KlangWert/werk3 in Schwerin.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.klangw
+ ert.net/veranstaltungen-im-klangwert/
+URL:https://www.klangwert.net/veranstaltungen-im-klangwert/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -37,6 +125,48 @@ URL:https://www.stadthalle-schwerin.de/events-und-tickets
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:sn-werk3-20261122-1800-klassik-me-e-hr-mit-thorsten-rosenbusch-und-ecka
+ rt@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:„Klassik & Me(E)Hr“ mit Thorsten Rosenbusch und Eckart Möbius
+LOCATION:KlangWert / werk3\, Friedrichstraße 11\, 19055 Schwerin
+DESCRIPTION:Klassikkonzert im KlangWert/werk3 in Schwerin.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kla
+ ngwert.net/
+URL:https://www.klangwert.net/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sn-werk3-20261126-2000-das-kleine-festival-jazzkollektiv-mv-invites-jaa
+ k@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:Das kleine Festival: Jazzkollektiv MV invites Jaak Sooäär
+LOCATION:KlangWert / werk3\, Friedrichstraße 11\, 19055 Schwerin
+DESCRIPTION:Jazzkonzert im KlangWert/werk3 in Schwerin.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.klangw
+ ert.net/veranstaltungen-im-klangwert/
+URL:https://www.klangwert.net/veranstaltungen-im-klangwert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sn-komplex-20261205-2000-dyse-mau-r-tour-support-the-raccoonz@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:DŸSE – MAU R Tour\, Support: THE RACCOONZ
+LOCATION:Komplex\, Pfaffenstraße 4\, 19055 Schwerin
+DESCRIPTION:Konzert im soziokulturellen Zentrum Komplex in Schwerin.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://komplex-schwerin.de/veranstaltung/dyse-mau-r-tour/
+URL:https://komplex-schwerin.de/veranstaltung/dyse-mau-r-tour/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:sn-sport-kongresshalle-20261206-frank-schoebel-zur-weihnachtszeit@myeve
  nthub.de
 DTSTAMP:20261011T000000Z
@@ -48,6 +178,48 @@ LOCATION:Sport- und Kongresshalle Schwerin (Stadthalle)\, Wittenburger Stra
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-s
  chwerin.de/events-und-tickets
 URL:https://www.stadthalle-schwerin.de/events-und-tickets
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sn-komplex-20261212-2000-budzillus-hat-auch-vorteile-tour-support-gruet
+ ze@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:BUDZILLUS – Hat auch Vorteile Tour\, Support: GRÜTZE
+LOCATION:Komplex\, Pfaffenstraße 4\, 19055 Schwerin
+DESCRIPTION:Punkkonzert im soziokulturellen Zentrum Komplex in Schwerin.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://komplex-schwerin.de/veranstaltung/budzillus-hat-auch-vorteile-tour-
+ support-gruetze/
+URL:https://komplex-schwerin.de/veranstaltung/budzillus-hat-auch-vorteile-t
+ our-support-gruetze/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sn-werk3-20261217-1930-udo-und-udo-werk3-auf-reisen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:„Udo und Udo“ (werk3 auf Reisen)
+LOCATION:Wichernsaal\, Apothekerstraße
+DESCRIPTION:Konzert im KlangWert/werk3 in Schwerin.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.klangwert.
+ net/
+URL:https://www.klangwert.net/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sn-komplex-20261220-2000-live-in-concert-infamis@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T200000
+DTEND;TZID=Europe/Berlin:20261220T220000
+SUMMARY:Live in Concert: INFAMIS
+LOCATION:Komplex\, Pfaffenstraße 4\, 19055 Schwerin
+DESCRIPTION:Konzert im soziokulturellen Zentrum Komplex in Schwerin.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://komplex-schwerin.de/veranstaltung/live-in-concert-infamis-2/
+URL:https://komplex-schwerin.de/veranstaltung/live-in-concert-infamis-2/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

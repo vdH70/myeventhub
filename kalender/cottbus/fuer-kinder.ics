@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cb-staatstheater-20261107-1700-robin-hood-premiere@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T170000
+DTEND;TZID=Europe/Berlin:20261107T190000
+SUMMARY:Robin Hood (Premiere)
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Weihnachtsmärchen für die ganze Familie im Staatstheater Cott
+ bus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:cb-stadthalle-20261108-hakuna-matata@myeventhub.de
 DTSTAMP:20261030T000000Z
@@ -20,6 +50,102 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.cmt-cottbus.
  de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261115-1100-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Robin Hood
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Weihnachtsmärchen für die ganze Familie im Staatstheater Cott
+ bus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261122-1500-mit-pinguin-auf-reisen-ab-3-jahren@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Mit Pinguin auf Reisen (ab 3 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Puppenspiel für Kinder ab 3 Jahren im Piccolo Theater Cottbus.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://piccolo-cottbus.de/spielplan/
+URL:https://piccolo-cottbus.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261129-1100-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Robin Hood
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Weihnachtsmärchen für die ganze Familie im Staatstheater Cott
+ bus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261129-1500-die-schneekoenigin-ab-5-jahren@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Die Schneekönigin (ab 5 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Weihnachtliches Schauspiel mit Puppen für Kinder ab 5 Jahren i
+ m Piccolo Theater.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://piccolo-cottbus.de/spielplan/
+URL:https://piccolo-cottbus.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-kammerbuehne-20261129-1600-die-kuh-rosmarie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Die Kuh Rosmarie
+LOCATION:Kammerbühne des Staatstheaters Cottbus\, Cottbus
+DESCRIPTION:Musiktheater für Kinder im Staatstheater Cottbus.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .staatstheater-cottbus.de/de/programm/spielplan.html
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261203-1700-die-schneekoenigin-ab-5-jahren@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T170000
+DTEND;TZID=Europe/Berlin:20261203T190000
+SUMMARY:Die Schneekönigin (ab 5 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Weihnachtliches Schauspiel mit Puppen für Kinder ab 5 Jahren i
+ m Piccolo Theater.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://piccolo-cottbus.de/wp-content/uploads/2026/09/
+ piccolo_november_dezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-glad-house-20261203-1730-heavysaurus-metal-tour-2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T173000
+DTEND;TZID=Europe/Berlin:20261203T193000
+SUMMARY:HEAVYSAURUS – Metal Tour 2026
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Metal-Konzert für Kinder und Familien im Glad-House Cottbus.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://glad.house/
+URL:https://glad.house/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -35,6 +161,100 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-piccolo-theater-20261206-1000-mit-pinguin-auf-reisen-ab-3-jahren@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T100000
+DTEND;TZID=Europe/Berlin:20261206T120000
+SUMMARY:Mit Pinguin auf Reisen (ab 3 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Puppenspiel für Kinder ab 3 Jahren im Piccolo Theater Cottbus.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_d
+ ezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261206-1100-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Robin Hood
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Weihnachtsmärchen für die ganze Familie im Staatstheater Cott
+ bus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?mona
+ t=2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261206-1500-mit-pinguin-auf-reisen-ab-3-jahren@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Mit Pinguin auf Reisen (ab 3 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Puppenspiel für Kinder ab 3 Jahren im Piccolo Theater Cottbus.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_d
+ ezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261210-1700-mit-pinguin-auf-reisen-ab-3-jahren@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T170000
+DTEND;TZID=Europe/Berlin:20261210T190000
+SUMMARY:Mit Pinguin auf Reisen (ab 3 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Puppenspiel für Kinder ab 3 Jahren im Piccolo Theater Cottbus.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_d
+ ezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261213-1500-die-schneekoenigin-ab-5-jahren@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Die Schneekönigin (ab 5 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Weihnachtliches Schauspiel mit Puppen für Kinder ab 5 Jahren i
+ m Piccolo Theater.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://piccolo-cottbus.de/wp-content/uploads/2026/09/
+ piccolo_november_dezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261213-1600-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T160000
+DTEND;TZID=Europe/Berlin:20261213T180000
+SUMMARY:Robin Hood
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Weihnachtsmärchen für die ganze Familie im Staatstheater Cott
+ bus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?mona
+ t=2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20261213-influenzer-desaster-im-weihnachtsland@myeventhub
  .de
 DTSTAMP:20261030T000000Z
@@ -45,6 +265,175 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Weitere Vorstellungen am 14. und 15.12.2026.\nQuelle (bitte vor
   dem Besuch prüfen): https://www.cmt-cottbus.de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261220-1000-mit-pinguin-auf-reisen-ab-3-jahren@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T100000
+DTEND;TZID=Europe/Berlin:20261220T120000
+SUMMARY:Mit Pinguin auf Reisen (ab 3 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Puppenspiel für Kinder ab 3 Jahren im Piccolo Theater Cottbus.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_d
+ ezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261220-1100-1-familienkonzert-haensel-und-gretel@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T130000
+SUMMARY:1. Familienkonzert: Hänsel und Gretel
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Konzert für Kinder und Familien im Staatstheater Cottbus.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261220-1500-die-schneekoenigin-ab-5-jahren@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Die Schneekönigin (ab 5 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Weihnachtliches Schauspiel mit Puppen für Kinder ab 5 Jahren i
+ m Piccolo Theater.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://piccolo-cottbus.de/wp-content/uploads/2026/09/
+ piccolo_november_dezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261222-1930-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T193000
+DTEND;TZID=Europe/Berlin:20261222T213000
+SUMMARY:Robin Hood
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Weihnachtsmärchen für die ganze Familie im Staatstheater Cott
+ bus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?mona
+ t=2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261223-1000-mit-pinguin-auf-reisen-ab-3-jahren@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T100000
+DTEND;TZID=Europe/Berlin:20261223T120000
+SUMMARY:Mit Pinguin auf Reisen (ab 3 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Puppenspiel für Kinder ab 3 Jahren im Piccolo Theater Cottbus.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_d
+ ezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261225-1100-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T110000
+DTEND;TZID=Europe/Berlin:20261225T130000
+SUMMARY:Robin Hood
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Weihnachtsmärchen für die ganze Familie im Staatstheater Cott
+ bus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?mona
+ t=2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261225-1500-mit-pinguin-auf-reisen-ab-3-jahren@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T150000
+DTEND;TZID=Europe/Berlin:20261225T170000
+SUMMARY:Mit Pinguin auf Reisen (ab 3 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Puppenspiel für Kinder ab 3 Jahren im Piccolo Theater Cottbus.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_d
+ ezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-piccolo-theater-20261226-1500-die-schneekoenigin-ab-5-jahren@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T150000
+DTEND;TZID=Europe/Berlin:20261226T170000
+SUMMARY:Die Schneekönigin (ab 5 Jahren)
+LOCATION:Piccolo Theater Cottbus\, Erich-Kästner-Platz\, 03046 Cottbus
+DESCRIPTION:Weihnachtliches Schauspiel mit Puppen für Kinder ab 5 Jahren i
+ m Piccolo Theater.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://piccolo-cottbus.de/wp-content/uploads/2026/09/
+ piccolo_november_dezember_2026_www.pdf
+URL:https://piccolo-cottbus.de/wp-content/uploads/2026/09/piccolo_november_
+ dezember_2026_www.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-kammerbuehne-20261226-1600-die-kuh-rosmarie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T160000
+DTEND;TZID=Europe/Berlin:20261226T180000
+SUMMARY:Die Kuh Rosmarie
+LOCATION:Kammerbühne des Staatstheaters Cottbus\, Cottbus
+DESCRIPTION:Musiktheater für Kinder im Staatstheater Cottbus.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .staatstheater-cottbus.de/de/programm/spielplan.html?monat=2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261227-1100-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T110000
+DTEND;TZID=Europe/Berlin:20261227T130000
+SUMMARY:Robin Hood
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Weihnachtsmärchen für die ganze Familie im Staatstheater Cott
+ bus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?mona
+ t=2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20261228-1930-robin-hood@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T193000
+DTEND;TZID=Europe/Berlin:20261228T213000
+SUMMARY:Robin Hood
+LOCATION:Staatstheater Cottbus\, Cottbus
+DESCRIPTION:Weihnachtsmärchen für die ganze Familie im Staatstheater Cott
+ bus.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html?mona
+ t=2026-12
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -73,6 +462,34 @@ URL:https://www.cmt-cottbus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb-staatstheater-20270120-1530-mobile-musiqa-03-jahre@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270120T153000
+DTEND;TZID=Europe/Berlin:20270120T173000
+SUMMARY:mobile musiqa! (0–3 Jahre)
+LOCATION:Kammermusiksaal
+DESCRIPTION:Konzert für Kinder und Familien im Staatstheater Cottbus.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2027-01
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-staatstheater-20270120-1645-mobile-musiqa-35-jahre@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270120T164500
+DTEND;TZID=Europe/Berlin:20270120T184500
+SUMMARY:mobile musiqa! (3–5 Jahre)
+LOCATION:Kammermusiksaal
+DESCRIPTION:Konzert für Kinder und Familien im Staatstheater Cottbus.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2027-01
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb-stadthalle-20270124-heut-steppt-der-spatz@myeventhub.de
 DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20270124
@@ -82,6 +499,23 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.cmt-cottbus.
  de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-kammerbuehne-20270220-1700-vom-kleinen-maulwurf-der-wissen-wollte-we
+ r-ihm-auf@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T170000
+DTEND;TZID=Europe/Berlin:20270220T190000
+SUMMARY:Vom kleinen Maulwurf\, der wissen wollte\, wer ihm auf den Kopf gem
+ acht hat (Premiere) (ausverkauft)
+LOCATION:Kammerbühne des Staatstheaters Cottbus\, Cottbus
+DESCRIPTION:Musiktheater für Kinder im Staatstheater Cottbus.\nEnde: laut 
+ Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=20
+ 27-02
+URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html?monat=2
+ 027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

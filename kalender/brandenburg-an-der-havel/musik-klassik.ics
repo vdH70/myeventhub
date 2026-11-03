@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Brandenburg an der Havel · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:brb-gotthardtkirche-20261122-1700-orgelkonzert-zum-ewigkeitssonntag@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T170000
+DTEND;TZID=Europe/Berlin:20261122T190000
+SUMMARY:Orgelkonzert zum Ewigkeitssonntag
+LOCATION:St. Gotthardtkirche Brandenburg\, Brandenburg an der Havel
+DESCRIPTION:Orgelkonzert in der St. Gotthardtkirche Brandenburg an der Have
+ l.\nEnde: laut Quelle nicht angegeben\nPreis: frei\, Spenden erbeten\nQuel
+ le (bitte vor dem Besuch prüfen): https://3klang-brandenburg.de/veranstal
+ tungen/orgelkonzert-ewigkeitssonntag/bf7dgmvcmfgktnki/
+URL:https://3klang-brandenburg.de/veranstaltungen/orgelkonzert-ewigkeitsson
+ ntag/bf7dgmvcmfgktnki/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brb-katharinenkirche-20261224-2200-orgelmusik-zur-heiligen-nacht@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T220000
+DTEND;TZID=Europe/Berlin:20261225T000000
+SUMMARY:Orgelmusik zur Heiligen Nacht
+LOCATION:St. Katharinenkirche Brandenburg\, Katharinenkirchplatz 13\, 14776
+  Brandenburg an der Havel
+DESCRIPTION:Orgelmusik am Heiligabend in der St. Katharinenkirche Brandenbu
+ rg an der Havel.\nEnde: laut Quelle nicht angegeben\nPreis: frei\, Spenden
+  erbeten\nQuelle (bitte vor dem Besuch prüfen): https://tokatha.de/progra
+ mm/orgelmusik-zur-heiligen-nacht/jg9wnxprlpsh3kui/
+URL:https://tokatha.de/programm/orgelmusik-zur-heiligen-nacht/jg9wnxprlpsh3
+ kui/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

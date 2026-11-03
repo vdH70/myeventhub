@@ -10,6 +10,65 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nms-kdw-20261107-2100-vielmehr@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T210000
+DTEND;TZID=Europe/Berlin:20261107T230000
+SUMMARY:VIELMEHR
+LOCATION:KDW – Haus des Kulturvereins DaDa\, Waschpohl 20\, 24534 Neumün
+ ster
+DESCRIPTION:Konzert im nicht-kommerziellen Kulturhaus KDW am Waschpohl in N
+ eumünster.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.kdw-neumuenster.de/events/vielmehr/
+URL:https://www.kdw-neumuenster.de/events/vielmehr/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nms-kdw-20261114-2000-20-for-seven@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:20 FOR SEVEN
+LOCATION:KDW – Haus des Kulturvereins DaDa\, Waschpohl 20\, 24534 Neumün
+ ster
+DESCRIPTION:Konzert im nicht-kommerziellen Kulturhaus KDW am Waschpohl in N
+ eumünster.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.kdw-neumuenster.de/events/20-for-seven/
+URL:https://www.kdw-neumuenster.de/events/20-for-seven/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nms-ajz-20261114-larrikins-hafen-040-nuisance-of-majority@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Larrikins\, Hafen 040 & Nuisance of Majority
+LOCATION:AJZ Neumünster (Aktion Jugendzentrum)\, Anscharstraße 8-10\, Neu
+ münster
+DESCRIPTION:Punkkonzert im Jugendzentrum AJZ in Neumünster.\nEinlass 18:00
+  Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 7–20 €\nQuelle (bitte 
+ vor dem Besuch prüfen): https://www.ajz-neumuenster.de/veranstaltungen/
+URL:https://www.ajz-neumuenster.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:nms-holstenhallen-20261114-kick-me-back-das-mega-techno-revival-festiva
  l@myeventhub.de
@@ -22,6 +81,37 @@ LOCATION:Holstenhallen Neumünster\, Justus-von-Liebig-Straße 2-4\, 24537
 DESCRIPTION:Halle 3 und 4. Veranstalter: Showtraxx.\nQuelle (bitte vor dem 
  Besuch prüfen): https://www.holstenhallen.com/de/termine
 URL:https://www.holstenhallen.com/de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nms-kdw-20261121-1930-just-sing-offenes-chorproben-konzert@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Just Sing – offenes Chorproben-Konzert
+LOCATION:KDW – Haus des Kulturvereins DaDa\, Waschpohl 20\, 24534 Neumün
+ ster
+DESCRIPTION:Offenes Chorkonzert zum Mitsingen im Kulturhaus KDW in Neumüns
+ ter.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.kdw-neumuenster.de/events/just-sing-offenes-chorproben-k
+ onzert/
+URL:https://www.kdw-neumuenster.de/events/just-sing-offenes-chorproben-konz
+ ert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nms-jazzclub-20261127-1930-jazz-in-der-buecherei-maria-baptist-solo@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Jazz in der Bücherei: Maria Baptist Solo
+LOCATION:Musikbücherei Neumünster\, Großflecken 10
+DESCRIPTION:Solo-Jazzpiano in der Reihe Jazz in der Bücherei des Jazz-Club
+ s Neumünster.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.xn--jazzclub-neumnster-y6b.de/programm/
+URL:https://www.xn--jazzclub-neumnster-y6b.de/programm/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -53,6 +143,21 @@ URL:https://www.holstenhallen.com/de/termine
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:nms-ajz-20261219-skassapunka-surfits@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T180000
+DTEND;TZID=Europe/Berlin:20261219T200000
+SUMMARY:Skassapunka & Surfits
+LOCATION:AJZ Neumünster (Aktion Jugendzentrum)\, Anscharstraße 8-10\, Neu
+ münster
+DESCRIPTION:Skapunk-Konzert im Jugendzentrum AJZ in Neumünster.\nEinlass 1
+ 8:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 7–15 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.ajz-neumuenster.de/veranstaltunge
+ n/
+URL:https://www.ajz-neumuenster.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:nms-holstenhallen-20261219-sky-revival@myeventhub.de
 DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20261219
@@ -78,6 +183,19 @@ DESCRIPTION:Halle 1. Veranstalter: Schleswig-Holstein Musik Festival.\nQuel
  le (bitte vor dem Besuch prüfen): https://www.holstenhallen.com/de/termin
  e
 URL:https://www.holstenhallen.com/de/termine
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nms-jazzclub-20261225-1900-weihnachtsjazz-fairy-tale-jazz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T190000
+DTEND;TZID=Europe/Berlin:20261225T210000
+SUMMARY:Weihnachtsjazz: Fairy Tale Jazz!
+LOCATION:Musikschule\, Caspar-von-Saldern-Haus\, Haart 32
+DESCRIPTION:Weihnachtliches Jazzkonzert des Jazz-Clubs Neumünster.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.xn--jazzclub-neumnster-y6b.de/programm/
+URL:https://www.xn--jazzclub-neumnster-y6b.de/programm/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
