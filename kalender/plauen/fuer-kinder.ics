@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Plauen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pl-vogtlandtheater-20261108-1500-kinderkonzert-1-nachts-im-museum@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Kinderkonzert 1 „Nachts im Museum“
+LOCATION:Theater Plauen-Zwickau – Vogtlandtheater Plauen\, Plauen
+DESCRIPTION:Kinderkonzert des Theaters Plauen-Zwickau im Vogtlandtheater Pl
+ auen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.theater-plauen-zwickau.de/spielplan.php
+URL:https://www.theater-plauen-zwickau.de/spielplan.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-vogtlandtheater-20261115-1000-erst-blau-dann-gelb-dann-gruen@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T100000
+DTEND;TZID=Europe/Berlin:20261115T120000
+SUMMARY:Erst blau\, dann gelb\, dann grün
+LOCATION:Kleine Bühne
+DESCRIPTION:Theater für Kinder und Familien auf der Kleinen Bühne des Vog
+ tlandtheaters Plauen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.theater-plauen-zwickau.de/spielplan.php
+URL:https://www.theater-plauen-zwickau.de/spielplan.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-vogtlandtheater-20261122-1500-hinter-verzauberten-fenstern@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Hinter verzauberten Fenstern
+LOCATION:Theater Plauen-Zwickau – Vogtlandtheater Plauen\, Plauen
+DESCRIPTION:Theater für Kinder und Familien im Vogtlandtheater Plauen.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theater-plauen-zwickau.de/spielplan.php
+URL:https://www.theater-plauen-zwickau.de/spielplan.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-alte-kaffeeroesterei-20261122-1530-junge-kaffeeroesterei-opas-geburt
+ stag@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T153000
+DTEND;TZID=Europe/Berlin:20261122T173000
+SUMMARY:Junge Kaffeerösterei: „Opas Geburtstag“
+LOCATION:Alte Kaffeerösterei Plauen\, Hans-Sachs-Straße 49a\, 08525 Plaue
+ n
+DESCRIPTION:Kindertheater ab 4 Jahren im Kulturzentrum Alte Kaffeerösterei
+  Plauen.\nEinlass 15:00\, Beginn 15:30 Uhr\nEnde: laut Quelle nicht angege
+ ben\nQuelle (bitte vor dem Besuch prüfen): https://www.altekaffeeroestere
+ i.de/veranstaltungen/veranstaltungsdetails/junge-kaffeeroesterei-opas-gebu
+ rtstag.html
+URL:https://www.altekaffeeroesterei.de/veranstaltungen/veranstaltungsdetail
+ s/junge-kaffeeroesterei-opas-geburtstag.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-vogtlandtheater-20261129-1500-haensel-und-gretel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Hänsel und Gretel
+LOCATION:Kleine Bühne
+DESCRIPTION:Theater für Kinder und Familien auf der Kleinen Bühne des Vog
+ tlandtheaters Plauen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.theater-plauen-zwickau.de/spielplan.php
+URL:https://www.theater-plauen-zwickau.de/spielplan.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-vogtlandtheater-20261213-1500-hinter-verzauberten-fenstern@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Hinter verzauberten Fenstern
+LOCATION:Theater Plauen-Zwickau – Vogtlandtheater Plauen\, Plauen
+DESCRIPTION:Theater für Kinder und Familien im Vogtlandtheater Plauen.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://www.theater-plauen-zwickau.de/spielplan.php
+URL:https://www.theater-plauen-zwickau.de/spielplan.php
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

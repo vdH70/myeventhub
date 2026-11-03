@@ -10,6 +10,63 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:of-hafen-2-20261106-2100-christian-kjellvander@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T210000
+DTEND;TZID=Europe/Berlin:20261106T230000
+SUMMARY:Christian Kjellvander
+LOCATION:Café
+DESCRIPTION:Konzert im Kulturort Hafen 2 am Offenbacher Nordring.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.hafen2.net/1-0-Programm.html?show=page
+URL:https://www.hafen2.net/1-0-Programm.html?show=page
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-hafen-2-20261107-2000-fuffifufzich@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Fuffifufzich
+LOCATION:Halle
+DESCRIPTION:Konzert im Kulturort Hafen 2 am Offenbacher Nordring.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.hafen2.net/1-0-Programm.html?show=page
+URL:https://www.hafen2.net/1-0-Programm.html?show=page
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-hafen-2-20261107-2230-aftershow-party-nach-fuffifufzich@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T223000
+DTEND;TZID=Europe/Berlin:20261108T003000
+SUMMARY:Aftershow Party (nach Fuffifufzich)
+LOCATION:Hafen 2\, Nordring 129\, 63067 Offenbach am Main
+DESCRIPTION:Party nach dem Konzertabend im Hafen 2 Offenbach.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ hafen2.net/1-0-Programm.html?show=page
+URL:https://www.hafen2.net/1-0-Programm.html?show=page
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:of-ledermuseum-20261108-stimmen-der-vielfalt-kulturen-im-dialog-beginn@
  myeventhub.de
@@ -36,6 +93,113 @@ LOCATION:Deutsches Ledermuseum\, Frankfurter Straße 86\, 63067 Offenbach a
 DESCRIPTION:Laufzeit: 8.11.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.ledermuseum.de/
 URL:https://www.ledermuseum.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-hafen-2-20261113-2000-nand@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:nand
+LOCATION:Hafen 2\, Nordring 129\, 63067 Offenbach am Main
+DESCRIPTION:Konzert im Kulturort Hafen 2 am Offenbacher Nordring.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.hafen2.net/1-0-Programm.html?show=page
+URL:https://www.hafen2.net/1-0-Programm.html?show=page
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-hafen-2-20261113-2230-aftershow-party-nach-nand@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T223000
+DTEND;TZID=Europe/Berlin:20261114T003000
+SUMMARY:Aftershow Party (nach nand)
+LOCATION:Hafen 2\, Nordring 129\, 63067 Offenbach am Main
+DESCRIPTION:Party nach dem Konzertabend im Hafen 2 Offenbach.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ hafen2.net/1-0-Programm.html?show=page
+URL:https://www.hafen2.net/1-0-Programm.html?show=page
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-hafen-2-20261120-2000-grace-cummings-charm-of-finches@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:Grace Cummings\, Charm of Finches
+LOCATION:Hafen 2\, Nordring 129\, 63067 Offenbach am Main
+DESCRIPTION:Konzert im Kulturort Hafen 2 am Offenbacher Nordring.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.hafen2.net/1-0-Programm.html?show=page
+URL:https://www.hafen2.net/1-0-Programm.html?show=page
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-capitol-20261129-1100-die-sterntaler-weihnachtsmaerchen@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Die Sterntaler – Weihnachtsmärchen
+LOCATION:Capitol Offenbach\, Kaiserstraße 106\, 63065 Offenbach am Main
+DESCRIPTION:Weihnachtsmärchen des Amateurtheaters Theaterclub ELMAR im Cap
+ itol Offenbach.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.theaterclub-elmar.de/
+URL:https://www.theaterclub-elmar.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-capitol-20261129-1400-die-sterntaler-weihnachtsmaerchen@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T140000
+DTEND;TZID=Europe/Berlin:20261129T160000
+SUMMARY:Die Sterntaler – Weihnachtsmärchen
+LOCATION:Capitol Offenbach\, Kaiserstraße 106\, 63065 Offenbach am Main
+DESCRIPTION:Weihnachtsmärchen des Amateurtheaters Theaterclub ELMAR im Cap
+ itol Offenbach.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.theaterclub-elmar.de/
+URL:https://www.theaterclub-elmar.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-capitol-20261129-1700-die-sterntaler-weihnachtsmaerchen@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T170000
+DTEND;TZID=Europe/Berlin:20261129T190000
+SUMMARY:Die Sterntaler – Weihnachtsmärchen
+LOCATION:Capitol Offenbach\, Kaiserstraße 106\, 63065 Offenbach am Main
+DESCRIPTION:Weihnachtsmärchen des Amateurtheaters Theaterclub ELMAR im Cap
+ itol Offenbach.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.theaterclub-elmar.de/
+URL:https://www.theaterclub-elmar.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-hafen-2-20261211-2000-conny-liser@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Conny & Liser
+LOCATION:Hafen 2\, Nordring 129\, 63067 Offenbach am Main
+DESCRIPTION:Konzert im Kulturort Hafen 2 am Offenbacher Nordring.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.hafen2.net/1-0-Programm.html?show=page
+URL:https://www.hafen2.net/1-0-Programm.html?show=page
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:of-hafen-2-20261211-2230-aftershow-party-nach-conny-liser@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T223000
+DTEND;TZID=Europe/Berlin:20261212T003000
+SUMMARY:Aftershow Party (nach Conny & Liser)
+LOCATION:Hafen 2\, Nordring 129\, 63067 Offenbach am Main
+DESCRIPTION:Party nach dem Konzertabend im Hafen 2 Offenbach.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ hafen2.net/1-0-Programm.html?show=page
+URL:https://www.hafen2.net/1-0-Programm.html?show=page
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
