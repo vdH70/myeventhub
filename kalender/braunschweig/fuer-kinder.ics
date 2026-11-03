@@ -1,0 +1,528 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Braunschweig · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bs-isp-monkey-town-20261101-halloween-finale-bei-monkey-town@myeventhub
+ .de
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Halloween-Finale bei Monkey Town
+LOCATION:Monkey Town Braunschweig\, Pippelweg 62A\, 38120 Braunschweig
+DESCRIPTION:Abschlusstag der Halloweenwoche mit Kostümwettbewerb\, Hallowe
+ en-Tattoos\, Zauberschule und Monster-Mission.\nPreis: Tageseintritt: Kind
+ er 1–2 J. 10\,00 €\, ab 3 J. 16\,90 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://monkeytown.eu/de/events
+URL:https://monkeytown.eu/de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261114-1500-der-vogel-im-schnee@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Der Vogel im Schnee
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://fadenschein.de/programm/spielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261115-1100-der-vogel-im-schnee@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Der Vogel im Schnee
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://fadenschein.de/programm/spielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-komoedie-am-altstadtmarkt-20261120-pippi-langstrumpf@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Pippi Langstrumpf
+LOCATION:Komödie am Altstadtmarkt\, Gördelingerstraße 7\, 38100 Braunsch
+ weig
+DESCRIPTION:Familientheater nach Astrid Lindgren.\nQuelle (bitte vor dem Be
+ such prüfen): https://www.komoedie-bs.de/spielplan/spielplanvorschau
+URL:https://www.komoedie-bs.de/spielplan/spielplanvorschau
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261127-1600-kinderdisko-38-jahre@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T160000
+DTEND;TZID=Europe/Berlin:20261127T180000
+SUMMARY:Kinderdisko (3–8 Jahre)
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Kinderdisko für Drei- bis Achtjährige im Kulturzentrum Brunsv
+ iga.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.brunsviga-kulturzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261128-1030-kreativkind-welt-im-raum-tanz-alles-kaese@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T103000
+DTEND;TZID=Europe/Berlin:20261128T123000
+SUMMARY:KreativKind: Welt im Raum TANZ! – Alles Käse
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Familienprogramm im Kulturzentrum Brunsviga.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bruns
+ viga-kulturzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261128-1500-die-wichtelmaenner@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+DTEND;TZID=Europe/Berlin:20261128T170000
+SUMMARY:Die Wichtelmänner (ausverkauft)
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 3 Jahren im Theater Fadenschein\,
+  gespielt von Theater Fadenschein.\nEnde: laut Quelle nicht angegeben\nAus
+ verkauft\nQuelle (bitte vor dem Besuch prüfen): https://fadenschein.de/pr
+ ogramm/spielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261129-1100-die-wichtelmaenner@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Die Wichtelmänner (ausverkauft)
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 3 Jahren im Theater Fadenschein\,
+  gespielt von Theater Fadenschein.\nEnde: laut Quelle nicht angegeben\nAus
+ verkauft\nQuelle (bitte vor dem Besuch prüfen): https://fadenschein.de/pr
+ ogramm/spielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261129-1500-die-wichtelmaenner@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Die Wichtelmänner
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 3 Jahren im Theater Fadenschein\,
+  gespielt von Theater Fadenschein.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielp
+ lan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261201-1500-welt-der-puppen-pettersson-kriegt-weihnachts
+ besuch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T150000
+DTEND;TZID=Europe/Berlin:20261201T170000
+SUMMARY:Welt der Puppen: Pettersson kriegt Weihnachtsbesuch
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Familienprogramm im Kulturzentrum Brunsviga.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bruns
+ viga-kulturzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261201-1700-welt-der-puppen-pettersson-kriegt-weihnachts
+ besuch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T170000
+DTEND;TZID=Europe/Berlin:20261201T190000
+SUMMARY:Welt der Puppen: Pettersson kriegt Weihnachtsbesuch
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Familienprogramm im Kulturzentrum Brunsviga.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bruns
+ viga-kulturzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261202-1500-welt-der-puppen-pettersson-kriegt-weihnachts
+ besuch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T150000
+DTEND;TZID=Europe/Berlin:20261202T170000
+SUMMARY:Welt der Puppen: Pettersson kriegt Weihnachtsbesuch
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Familienprogramm im Kulturzentrum Brunsviga.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bruns
+ viga-kulturzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261202-1700-welt-der-puppen-pettersson-kriegt-weihnachts
+ besuch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T170000
+DTEND;TZID=Europe/Berlin:20261202T190000
+SUMMARY:Welt der Puppen: Pettersson kriegt Weihnachtsbesuch
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Familienprogramm im Kulturzentrum Brunsviga.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bruns
+ viga-kulturzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261205-1100-morgen-findus-wird-s-was-geben@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T110000
+DTEND;TZID=Europe/Berlin:20261205T130000
+SUMMARY:Morgen\, Findus\, wird's was geben! (ausverkauft)
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Fingerhut Leipzig.\nEnde: laut Quelle nicht angegebe
+ n\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://fadenschein
+ .de/programm/spielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261205-1500-morgen-findus-wird-s-was-geben@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Morgen\, Findus\, wird's was geben! (ausverkauft)
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Fingerhut Leipzig.\nEnde: laut Quelle nicht angegebe
+ n\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://fadenschein
+ .de/programm/spielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-komoedie-am-altstadtmarkt-20261205-das-dschungelbuch-beginn@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Beginn: Das Dschungelbuch
+LOCATION:Komödie am Altstadtmarkt\, Gördelingerstraße 7\, 38100 Braunsch
+ weig
+DESCRIPTION:Kindertheater in der Komödie am Altstadtmarkt.\nLaufzeit: 5.12
+ .2026 bis 10.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.k
+ omoedie-bs.de/spielplan/spielplanvorschau
+URL:https://www.komoedie-bs.de/spielplan/spielplanvorschau
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-komoedie-am-altstadtmarkt-20261205-das-dschungelbuch-ende@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Letzter Tag: Das Dschungelbuch
+LOCATION:Komödie am Altstadtmarkt\, Gördelingerstraße 7\, 38100 Braunsch
+ weig
+DESCRIPTION:Kindertheater in der Komödie am Altstadtmarkt.\nLaufzeit: 5.12
+ .2026 bis 10.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.k
+ omoedie-bs.de/spielplan/spielplanvorschau
+URL:https://www.komoedie-bs.de/spielplan/spielplanvorschau
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261206-1100-weihnachtsgans-auguste@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Weihnachtsgans Auguste
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Anderland.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielpla
+ n/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261206-1500-weihnachtsgans-auguste@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Weihnachtsgans Auguste
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Anderland.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielpla
+ n/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261206-1630-kinderzauberei-lachen-und-staunen-mit-vossi@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T163000
+DTEND;TZID=Europe/Berlin:20261206T183000
+SUMMARY:Kinderzauberei: Lachen und Staunen mit Voßi
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Familienprogramm im Kulturzentrum Brunsviga.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.bruns
+ viga-kulturzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261212-1100-weihnachten-im-tal-der-trolle@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T110000
+DTEND;TZID=Europe/Berlin:20261212T130000
+SUMMARY:Weihnachten im Tal der Trolle
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 3 Jahren im Theater Fadenschein\,
+  gespielt von Theater Fadenschein.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielp
+ lan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261212-1500-weihnachten-im-tal-der-trolle@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T150000
+DTEND;TZID=Europe/Berlin:20261212T170000
+SUMMARY:Weihnachten im Tal der Trolle
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 3 Jahren im Theater Fadenschein\,
+  gespielt von Theater Fadenschein.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielp
+ lan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261213-1100-weihnachten-im-tal-der-trolle@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Weihnachten im Tal der Trolle
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 3 Jahren im Theater Fadenschein\,
+  gespielt von Theater Fadenschein.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielp
+ lan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261213-1500-weihnachten-im-tal-der-trolle@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Weihnachten im Tal der Trolle
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 3 Jahren im Theater Fadenschein\,
+  gespielt von Theater Fadenschein.\nEnde: laut Quelle nicht angegeben\nQue
+ lle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielp
+ lan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261219-1100-wilmas-weihnachten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T110000
+DTEND;TZID=Europe/Berlin:20261219T130000
+SUMMARY:Wilmas Weihnachten
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Feuer und Flamme.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/s
+ pielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261219-1500-wilmas-weihnachten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T150000
+DTEND;TZID=Europe/Berlin:20261219T170000
+SUMMARY:Wilmas Weihnachten
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Feuer und Flamme.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/s
+ pielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261220-1100-wilmas-weihnachten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T130000
+SUMMARY:Wilmas Weihnachten
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Feuer und Flamme.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/s
+ pielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261220-1500-wilmas-weihnachten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Wilmas Weihnachten
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Feuer und Flamme.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/s
+ pielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20261223-1500-wilmas-weihnachten@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T150000
+DTEND;TZID=Europe/Berlin:20261223T170000
+SUMMARY:Wilmas Weihnachten
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Feuer und Flamme.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/s
+ pielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20270108-1600-kinderdisko-38-jahre@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T160000
+DTEND;TZID=Europe/Berlin:20270108T180000
+SUMMARY:Kinderdisko (3–8 Jahre)
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Kinderdisko für Drei- bis Achtjährige im Kulturzentrum Brunsv
+ iga.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.brunsviga-kulturzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20270109-1500-es-klopft-bei-wanja-in-der-nacht@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T150000
+DTEND;TZID=Europe/Berlin:20270109T170000
+SUMMARY:Es klopft bei Wanja in der Nacht
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Nöck & Hanne Scharnhorst.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://fadenschein.de/p
+ rogramm/spielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20270110-1100-es-klopft-bei-wanja-in-der-nacht@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T110000
+DTEND;TZID=Europe/Berlin:20270110T130000
+SUMMARY:Es klopft bei Wanja in der Nacht
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Nöck & Hanne Scharnhorst.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://fadenschein.de/p
+ rogramm/spielplan/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20270123-1500-tomte-tummetott@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T150000
+DTEND;TZID=Europe/Berlin:20270123T170000
+SUMMARY:Tomte Tummetott
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Rosenstolz.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielpl
+ an/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20270124-1100-tomte-tummetott@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T110000
+DTEND;TZID=Europe/Berlin:20270124T130000
+SUMMARY:Tomte Tummetott
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Rosenstolz.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielpl
+ an/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-theater-fadenschein-20270124-1500-tomte-tummetott@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T150000
+DTEND;TZID=Europe/Berlin:20270124T170000
+SUMMARY:Tomte Tummetott
+LOCATION:Theater Fadenschein\, Bültenweg 95\, 38106 Braunschweig
+DESCRIPTION:Figurentheater für Kinder ab 4 Jahren im Theater Fadenschein\,
+  gespielt von Theater Rosenstolz.\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://fadenschein.de/programm/spielpl
+ an/
+URL:https://fadenschein.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

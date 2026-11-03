@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ausstellungen in Osnabrück · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:os-haus-der-jugend-20261116-1000-tell-their-stories-erinnerung-an-junge
+ -opfer-recht-beginn@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Beginn: Tell Their Stories – Erinnerung an junge Opfer rechter Ge
+ walt
+LOCATION:Café
+DESCRIPTION:Wanderausstellung im Café des Hauses der Jugend.\nLaufzeit: 16
+ .11.2026 bis 22.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://ha
+ usderjugend-os.de/veranstaltungen/
+URL:https://hausderjugend-os.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-haus-der-jugend-20261116-1000-tell-their-stories-erinnerung-an-junge
+ -opfer-recht-ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Letzter Tag: Tell Their Stories – Erinnerung an junge Opfer recht
+ er Gewalt
+LOCATION:Café
+DESCRIPTION:Wanderausstellung im Café des Hauses der Jugend.\nLaufzeit: 16
+ .11.2026 bis 22.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://ha
+ usderjugend-os.de/veranstaltungen/
+URL:https://hausderjugend-os.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

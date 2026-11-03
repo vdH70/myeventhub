@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Braunschweig · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bs-stereowerk-20261031-halloweenparty@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T220000
+DTEND;TZID=Europe/Berlin:20261101T000000
+SUMMARY:Halloweenparty
+LOCATION:Stereowerk\, Böcklerstraße 30\, 38102 Braunschweig
+DESCRIPTION:Elfte Ausgabe: in der Main Area alle Stile von Charts bis Dark 
+ Wave\, in der Side Area Nu Metal\, Metalcore\, Alternative und Crossover\;
+  bis 4 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: 10 € + 10 € Ver
+ zehrgutschein\nQuelle (bitte vor dem Besuch prüfen): https://www.stereowe
+ rk.de/event-details/halloweenparty
+URL:https://www.stereowerk.de/event-details/halloweenparty
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261128-1930-sharp-and-the-soulgang-disco-deluxe@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Sharp and the Soulgang: Disco Deluxe
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Konzert im Kulturzentrum Brunsviga.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.brunsviga-kult
+ urzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261212-2000-fizzy-lizzy-rock-soul-classics-der-70er-und-
+ 80er@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Fizzy Lizzy: Rock & Soul-Classics der 70er und 80er
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Konzert im Kulturzentrum Brunsviga.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.brunsviga-kult
+ urzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261219-2000-the-twang-die-28-grosse-western-weihnacht@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:The Twang: Die 28. große Western Weihnacht
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Konzert im Kulturzentrum Brunsviga.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.brunsviga-kult
+ urzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20270123-1930-soulviertel-willkommen-im-soulviertel@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T193000
+DTEND;TZID=Europe/Berlin:20270123T213000
+SUMMARY:Soulviertel: Willkommen im SOULVIERTEL!
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Konzert im Kulturzentrum Brunsviga.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.brunsviga-kult
+ urzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
