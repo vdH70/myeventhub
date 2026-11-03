@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Koblenz · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ko-christuskirche-20261107-1900-hurry-up-wait-instrumentalkonzert@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Hurry up & Wait – Instrumentalkonzert
+LOCATION:Christuskirche Koblenz\, Koblenz
+DESCRIPTION:Konzert in der evangelischen Christuskirche Koblenz.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://k
+ oblenz-mitte.ekir.de/inhalt/konzerte-veranstaltungen/
+URL:https://koblenz-mitte.ekir.de/inhalt/konzerte-veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261228-jaya-the-cat@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Jaya The Cat
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270225-rudelsingen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Rudelsingen
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

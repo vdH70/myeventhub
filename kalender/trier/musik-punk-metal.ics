@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Punk/Metal in Trier · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tr-mergener-hof-20261105-2000-edging-screaming-mimi@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Edging + Screaming Mimi
+LOCATION:Mergener Hof\, Rindertanzstraße 4\, 54290 Trier
+DESCRIPTION:Konzert im Jugend- und Kulturzentrum Mergener Hof in Trier.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://mjctrier.de/events/
+URL:https://mjctrier.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-mergener-hof-20261125-1930-sunami-desloated-missing-link-extinguish@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T213000
+SUMMARY:Sunami + Desloated\, Missing Link\, Extinguish
+LOCATION:Mergener Hof\, Rindertanzstraße 4\, 54290 Trier
+DESCRIPTION:Konzert im Jugend- und Kulturzentrum Mergener Hof in Trier.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://mjctrier.de/events/
+URL:https://mjctrier.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-mergener-hof-20261127-2000-kontrollverlust@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Kontrollverlust
+LOCATION:Mergener Hof\, Rindertanzstraße 4\, 54290 Trier
+DESCRIPTION:Konzert im Jugend- und Kulturzentrum Mergener Hof in Trier.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://mjctrier.de/events/
+URL:https://mjctrier.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-mergener-hof-20261128-2000-uk-subs@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:UK Subs
+LOCATION:Mergener Hof\, Rindertanzstraße 4\, 54290 Trier
+DESCRIPTION:Konzert im Jugend- und Kulturzentrum Mergener Hof in Trier.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://mjctrier.de/events/
+URL:https://mjctrier.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-mergener-hof-20261208-1930-evergrey@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T193000
+DTEND;TZID=Europe/Berlin:20261208T213000
+SUMMARY:Evergrey
+LOCATION:Mergener Hof\, Rindertanzstraße 4\, 54290 Trier
+DESCRIPTION:Konzert im Jugend- und Kulturzentrum Mergener Hof in Trier.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://mjctrier.de/events/liste/seite/2/
+URL:https://mjctrier.de/events/liste/seite/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

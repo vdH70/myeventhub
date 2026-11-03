@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:sp-purrmann-haus-20261017-malerinnen-der-moderne-paula-modersohn-becker
  -und-ende@myeventhub.de
@@ -23,6 +40,203 @@ DESCRIPTION:Laufzeit: 17.10.2026 bis 11.4.2027\nPreis: 10 Euro\, ermäßigt
   8 Euro\; Kinder bis 12 Jahre frei\nQuelle (bitte vor dem Besuch prüfen):
   https://www.speyer.de/de/kultur/bildende-kunst/purrmann-haus/
 URL:https://www.speyer.de/de/kultur/bildende-kunst/purrmann-haus/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261108-1500-das-traumfresserchen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Das Traumfresserchen
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261109-1900-name-sophie-scholl@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T190000
+DTEND;TZID=Europe/Berlin:20261109T210000
+SUMMARY:Name: Sophie Scholl
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Abendvorstellung des Kinder- und Jugendtheaters Speyer im Alten
+  Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261115-1500-die-reise-einer-wolke@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Die Reise einer Wolke
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261122-1500-rosa-und-celeste@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T150000
+DTEND;TZID=Europe/Berlin:20261122T170000
+SUMMARY:Rosa und Celeste
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261124-carlo-collodi-und-pinocchio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Carlo Collodi und Pinocchio
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Abendvorstellung des Kinder- und Jugendtheaters Speyer im Alten
+  Stadtsaal.\nQuelle (bitte vor dem Besuch prüfen): https://theater-speyer
+ .de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261129-1500-pinocchio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Pinocchio
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261205-1500-die-drei-wuensche@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T170000
+SUMMARY:Die drei Wünsche
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261206-1500-pinocchio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Pinocchio
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261213-1500-pinocchio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Pinocchio
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261219-1700-morgen-rinder-wird-s-was-geben@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T170000
+DTEND;TZID=Europe/Berlin:20261219T190000
+SUMMARY:Morgen\, Rinder\, wird´s was geben
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261219-1900-pinocchio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T190000
+DTEND;TZID=Europe/Berlin:20261219T210000
+SUMMARY:Pinocchio
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261220-1500-theaterweihnacht@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Theaterweihnacht
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261226-1500-morgen-rinder-wird-s-was-geben@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T150000
+DTEND;TZID=Europe/Berlin:20261226T170000
+SUMMARY:Morgen\, Rinder\, wird´s was geben
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261226-1800-der-schweinachtsmann@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T180000
+DTEND;TZID=Europe/Berlin:20261226T200000
+SUMMARY:Der Schweinachtsmann
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sp-alter-stadtsaal-20261227-1500-pinocchio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T150000
+DTEND;TZID=Europe/Berlin:20261227T170000
+SUMMARY:Pinocchio
+LOCATION:Alter Stadtsaal Speyer\, Maximilianstraße 12\, 67346 Speyer
+DESCRIPTION:Familienvorstellung des Kinder- und Jugendtheaters Speyer im Al
+ ten Stadtsaal.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://theater-speyer.de/spielplan/
+URL:https://theater-speyer.de/spielplan/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

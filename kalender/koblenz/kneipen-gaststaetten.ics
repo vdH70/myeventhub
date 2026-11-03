@@ -1,0 +1,456 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kneipen/Gaststätten in Koblenz · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261104-2000-ina-forsman@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T200000
+DTEND;TZID=Europe/Berlin:20261104T220000
+SUMMARY:Ina Forsman
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cafehahn.d
+ e/
+URL:https://www.cafehahn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261105-2000-die-herren-der-erschoepfung-fischer-jung@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Die Herren der Erschöpfung – Fischer & Jung
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Kabarettabend im Café Hahn in Koblenz-Güls.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cafe
+ hahn.de/
+URL:https://www.cafehahn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261106-2000-hole-full-of-love@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Hole Full Of Love
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cafehahn.d
+ e/
+URL:https://www.cafehahn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261107-2000-udopie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Udopie
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cafehahn.d
+ e/
+URL:https://www.cafehahn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261108-1900-maddin-schneider@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T210000
+SUMMARY:Maddin Schneider
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Comedy-Abend im Café Hahn in Koblenz-Güls.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cafeh
+ ahn.de/
+URL:https://www.cafehahn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261109-peter-somuah-group@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Peter Somuah Group
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261110-2000-santrofi@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:Santrofi
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cafehahn.d
+ e/
+URL:https://www.cafehahn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261114-2000-seven-shots-a-tribute-to-volbeat@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Seven Shots – A Tribute to Volbeat
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cafehahn.d
+ e/
+URL:https://www.cafehahn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261115-1900-walter-trout@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T190000
+DTEND;TZID=Europe/Berlin:20261115T210000
+SUMMARY:Walter Trout
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nEnde: laut Quelle nich
+ t angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cafehahn.d
+ e/
+URL:https://www.cafehahn.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261208-vladyslav-sendecki-juergen-spiegel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Vladyslav Sendecki & Jürgen Spiegel
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261228-jaya-the-cat@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Jaya The Cat
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261229-the-queen-kings@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:The Queen Kings
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261230-the-queen-kings@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:The Queen Kings
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20261231-the-queen-kings-feat-opernsaengerin-kerstin-bauer
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:The Queen Kings feat. Opernsängerin Kerstin Bauer
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270102-malaka-hostel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Malaka Hostel
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270103-comedy-club@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Comedy Club
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Comedy-Abend im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverka
+ uf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270107-goetz-widmann@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Götz Widmann
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270108-maedchensitzung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Mädchensitzung
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Karnevalssitzung im Café Hahn in Koblenz-Güls.\nQuelle (bitte
+  vor dem Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorv
+ erkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270109-simply-tina-tribute-to-tina-turner@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Simply Tina – Tribute to Tina Turner
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270211-maxi-gstettenbauer@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Maxi Gstettenbauer
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Comedy-Abend im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverka
+ uf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270212-forgotten-sons-tribute-to-marillion@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Forgotten Sons – Tribute to Marillion
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270213-goldplay-live@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Goldplay.live
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270214-comedy-club@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Comedy Club
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Comedy-Abend im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverka
+ uf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270214-goldplay-live-fruehstuecksshow@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Goldplay.live – Frühstücksshow
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270217-2000-caveman@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T200000
+DTEND;TZID=Europe/Berlin:20270217T220000
+SUMMARY:Caveman
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Comedy-Abend im Café Hahn in Koblenz-Güls.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.cafeh
+ ahn.de/p~caveman~621685
+URL:https://www.cafehahn.de/p~caveman~621685
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270218-lennart-schilgen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:Lennart Schilgen
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Kabarettabend im Café Hahn in Koblenz-Güls.\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverk
+ auf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270219-birth-control@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:Birth Control
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270220-mam-bap-tribute@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:MAM – BAP Tribute
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270221-mam-bap-tribute-fruehstuecksshow@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:MAM – BAP Tribute – Frühstücksshow
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270221-stefan-gwildis@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Stefan Gwildis
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270225-rudelsingen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Rudelsingen
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270226-achtung-baby-tribute-to-u2@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:Achtung Baby – Tribute to U2
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270227-simon-garfunkel-revival-band@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Simon & Garfunkel Revival Band
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-cafe-hahn-20270228-simon-garfunkel-revival-band-fruehstuecksshow@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Simon & Garfunkel Revival Band – Frühstücksshow
+LOCATION:Café Hahn\, Koblenz
+DESCRIPTION:Konzert im Café Hahn in Koblenz-Güls.\nQuelle (bitte vor dem 
+ Besuch prüfen): https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

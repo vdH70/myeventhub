@@ -1,0 +1,257 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Koblenz · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ko-rhein-mosel-halle-20261113-2000-konzert-des-musik-instituts-koblenz@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+DTEND;TZID=Europe/Berlin:20261113T220000
+SUMMARY:Konzert des Musik-Instituts Koblenz
+LOCATION:Rhein-Mosel-Halle\, Julius-Wegeler-Straße 4\, 56068 Koblenz
+DESCRIPTION:Sinfoniekonzert des Musik-Instituts mit der Rheinischen Philhar
+ monie in der Rhein-Mosel-Halle Koblenz.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.rheinische-philharmon
+ ie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-goerreshaus-20261122-1100-stunde-der-philharmonie-kammerkonzert-land
+ scapes@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:Stunde der Philharmonie: Kammerkonzert „Landscapes“
+LOCATION:Görreshaus\, Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie im Görreshaus Koblenz.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-goerreshaus-20261129-1600-orchesterkonzert-im-goerreshaus-voller-seh
+ nsucht@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Orchesterkonzert im Görreshaus „Voller Sehnsucht“
+LOCATION:Görreshaus\, Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie im Görreshaus Koblenz.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-goerreshaus-20261206-1100-stunde-der-philharmonie-kammerkonzert-eine
+ -weihnac@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Stunde der Philharmonie: Kammerkonzert „Eine Weihnacht in den Alp
+ en“
+LOCATION:Görreshaus\, Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie im Görreshaus Koblenz.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-theater-koblenz-20261206-1800-adventskonzert-der-rheinischen-philhar
+ monie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+DTEND;TZID=Europe/Berlin:20261206T200000
+SUMMARY:Adventskonzert der Rheinischen Philharmonie
+LOCATION:Theaterzelt
+DESCRIPTION:Konzert der Rheinischen Philharmonie im Theaterzelt des Theater
+ s Koblenz Koblenz.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.rheinische-philharmonie.de/srp/KONZERTE/in
+ dex.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-goerreshaus-20261213-1600-mehr-musik-barockkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T160000
+DTEND;TZID=Europe/Berlin:20261213T180000
+SUMMARY:Mehr Musik: Barockkonzert
+LOCATION:Görreshaus\, Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie im Görreshaus Koblenz.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-rhein-mosel-halle-20261218-2000-konzert-des-musik-instituts-koblenz@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Konzert des Musik-Instituts Koblenz
+LOCATION:Rhein-Mosel-Halle\, Julius-Wegeler-Straße 4\, 56068 Koblenz
+DESCRIPTION:Sinfoniekonzert des Musik-Instituts mit der Rheinischen Philhar
+ monie in der Rhein-Mosel-Halle Koblenz.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.rheinische-philharmon
+ ie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-herz-jesu-kirche-20261220-1530-benefizkonzert-jauchzet-und-frohlocke
+ t@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T153000
+DTEND;TZID=Europe/Berlin:20261220T173000
+SUMMARY:Benefizkonzert „Jauchzet und frohlocket“
+LOCATION:Herz-Jesu-Kirche Koblenz\, Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie in der Herz-Jesu-Kirche Ko
+ blenz.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-christuskirche-20261231-1930-silvester-orgelkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T193000
+DTEND;TZID=Europe/Berlin:20261231T213000
+SUMMARY:Silvester-Orgelkonzert
+LOCATION:Christuskirche Koblenz\, Koblenz
+DESCRIPTION:Konzert in der evangelischen Christuskirche Koblenz.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://k
+ oblenz-mitte.ekir.de/inhalt/konzerte-veranstaltungen/
+URL:https://koblenz-mitte.ekir.de/inhalt/konzerte-veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-rhein-mosel-halle-20270101-1700-neujahrskonzert-der-rheinischen-phil
+ harmonie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T170000
+DTEND;TZID=Europe/Berlin:20270101T190000
+SUMMARY:Neujahrskonzert der Rheinischen Philharmonie
+LOCATION:Rhein-Mosel-Halle\, Julius-Wegeler-Straße 4\, 56068 Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie in der Rhein-Mosel-Halle K
+ oblenz.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch p
+ rüfen): https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-goerreshaus-20270103-1100-stunde-der-philharmonie-kammerkonzert-viva
+ -lateina@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T110000
+DTEND;TZID=Europe/Berlin:20270103T130000
+SUMMARY:Stunde der Philharmonie: Kammerkonzert „Viva Lateinamerika“
+LOCATION:Görreshaus\, Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie im Görreshaus Koblenz.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-goerreshaus-20270110-1600-mehr-musik-wiener-leben@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T160000
+DTEND;TZID=Europe/Berlin:20270110T180000
+SUMMARY:Mehr Musik: „Wiener Leben“
+LOCATION:Görreshaus\, Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie im Görreshaus Koblenz.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-rhein-mosel-halle-20270122-2000-konzert-des-musik-instituts-koblenz@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T200000
+DTEND;TZID=Europe/Berlin:20270122T220000
+SUMMARY:Konzert des Musik-Instituts Koblenz
+LOCATION:Rhein-Mosel-Halle\, Julius-Wegeler-Straße 4\, 56068 Koblenz
+DESCRIPTION:Sinfoniekonzert des Musik-Instituts mit der Rheinischen Philhar
+ monie in der Rhein-Mosel-Halle Koblenz.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.rheinische-philharmon
+ ie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-goerreshaus-20270131-1600-orchesterkonzert-im-goerreshaus-einfach-kl
+ assisch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T160000
+DTEND;TZID=Europe/Berlin:20270131T180000
+SUMMARY:Orchesterkonzert im Görreshaus „Einfach klassisch“
+LOCATION:Görreshaus\, Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie im Görreshaus Koblenz.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-goerreshaus-20270214-1600-orchesterkonzert-im-goerreshaus-a-la-franc
+ aise@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T160000
+DTEND;TZID=Europe/Berlin:20270214T180000
+SUMMARY:Orchesterkonzert im Görreshaus „À la française“
+LOCATION:Görreshaus\, Koblenz
+DESCRIPTION:Konzert der Rheinischen Philharmonie im Görreshaus Koblenz.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-rhein-mosel-halle-20270219-2000-konzert-des-musik-instituts-koblenz@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Konzert des Musik-Instituts Koblenz
+LOCATION:Rhein-Mosel-Halle\, Julius-Wegeler-Straße 4\, 56068 Koblenz
+DESCRIPTION:Sinfoniekonzert des Musik-Instituts mit der Rheinischen Philhar
+ monie in der Rhein-Mosel-Halle Koblenz.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.rheinische-philharmon
+ ie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
