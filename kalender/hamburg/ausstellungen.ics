@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:hh-markk-20211217-benin-geraubte-geschichte-ende@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -522,6 +539,21 @@ URL:https://www.bergedorfer-museumslandschaft.de/ausstellungen/zwischen-zei
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hh-kunstklinik-20261016-ausstellung-bettina-mosch-was-uns-verbindet-end
+ e@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Letzter Tag: Ausstellung: Bettina Mosch – Was uns verbindet
+LOCATION:Kunstklinik Kulturzentrum Eppendorf\, Martinistraße 44a\, 20251 H
+ amburg
+DESCRIPTION:Kunstausstellung in der Kunstklinik Eppendorf.\nLaufzeit: 16.10
+ .2026 bis 27.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://kunst
+ klinik.hamburg/veranstaltungen/
+URL:https://kunstklinik.hamburg/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hh-archaeologisches-museum-20261021-zeitreise-hamburg-eine-familienauss
  tellung-beginn@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -795,6 +827,20 @@ URL:https://www.buecherhallen.de/zentralbibliothek-termin/dilar-in-allem-ei
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hh-lola-kulturzentrum-20261108-1700-farbwechsel-ausstellung@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T170000
+DTEND;TZID=Europe/Berlin:20261108T190000
+SUMMARY:FARBWECHSEL – Ausstellung
+LOCATION:LOLA Kulturzentrum\, Lohbrügger Landstraße 8\, 21031 Hamburg
+DESCRIPTION:Ausstellung im LOLA Kulturzentrum in Bergedorf.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://lola-h
+ h.de/programm/
+URL:https://lola-hh.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hh-deichtorhallen-20261120-expanded-horizons-neue-fotografische-perspek
  tiven-beginn@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -993,6 +1039,94 @@ DESCRIPTION:Laufzeit: 2.12.2026 bis 4.1.2027\nQuelle (bitte vor dem Besuch
  g-home-street-home-25379/datum/20261202.html
 URL:https://www.buecherhallen.de/zentralbibliothek-termin/ausstellung-home-
  street-home-25379/datum/20261202.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-serrahneins-20261204-1000-kuenstlerausstellung-beginn@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Beginn: Künstlerausstellung
+LOCATION:SerrahnEINS – Zentrum für Kultur und Gesellschaft\, Serrahnstra
+ ße 1\, 21029 Hamburg
+DESCRIPTION:Mehrtägige Künstlerausstellung im Kulturzentrum SerrahnEINS i
+ n Bergedorf.\nLaufzeit: 4.12.2026 bis 6.12.2026\nQuelle (bitte vor dem Bes
+ uch prüfen): https://serrahneins.de/
+URL:https://serrahneins.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-serrahneins-20261204-1000-kuenstlerausstellung-ende@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Letzter Tag: Künstlerausstellung
+LOCATION:SerrahnEINS – Zentrum für Kultur und Gesellschaft\, Serrahnstra
+ ße 1\, 21029 Hamburg
+DESCRIPTION:Mehrtägige Künstlerausstellung im Kulturzentrum SerrahnEINS i
+ n Bergedorf.\nLaufzeit: 4.12.2026 bis 6.12.2026\nQuelle (bitte vor dem Bes
+ uch prüfen): https://serrahneins.de/
+URL:https://serrahneins.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kunstklinik-20261205-1700-ausstellung-nicole-reuther-katayaburi-begi
+ nn@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Beginn: Ausstellung: Nicole Reuther – KATAYABURI
+LOCATION:Kunstklinik Kulturzentrum Eppendorf\, Martinistraße 44a\, 20251 H
+ amburg
+DESCRIPTION:Kunstausstellung in der Kunstklinik Eppendorf\, Eröffnung am 5
+ . Dezember um 17 Uhr.\nLaufzeit: 5.12.2026 bis 15.1.2027\nQuelle (bitte vo
+ r dem Besuch prüfen): https://kunstklinik.hamburg/veranstaltungen/
+URL:https://kunstklinik.hamburg/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kunstklinik-20261205-1700-ausstellung-nicole-reuther-katayaburi-ende
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Letzter Tag: Ausstellung: Nicole Reuther – KATAYABURI
+LOCATION:Kunstklinik Kulturzentrum Eppendorf\, Martinistraße 44a\, 20251 H
+ amburg
+DESCRIPTION:Kunstausstellung in der Kunstklinik Eppendorf\, Eröffnung am 5
+ . Dezember um 17 Uhr.\nLaufzeit: 5.12.2026 bis 15.1.2027\nQuelle (bitte vo
+ r dem Besuch prüfen): https://kunstklinik.hamburg/veranstaltungen/
+URL:https://kunstklinik.hamburg/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kunstklinik-20270122-1900-ausstellung-farbe-flaeche-form-beginn@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Beginn: Ausstellung FARBE.FLÄCHE.FORM.
+LOCATION:Kunstklinik Kulturzentrum Eppendorf\, Martinistraße 44a\, 20251 H
+ amburg
+DESCRIPTION:Kunstausstellung in der Kunstklinik Eppendorf\, Eröffnung am 2
+ 2. Januar um 19 Uhr.\nLaufzeit: 22.1.2027 bis 5.3.2027\nQuelle (bitte vor 
+ dem Besuch prüfen): https://kunstklinik.hamburg/veranstaltungen/
+URL:https://kunstklinik.hamburg/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kunstklinik-20270122-1900-ausstellung-farbe-flaeche-form-ende@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Letzter Tag: Ausstellung FARBE.FLÄCHE.FORM.
+LOCATION:Kunstklinik Kulturzentrum Eppendorf\, Martinistraße 44a\, 20251 H
+ amburg
+DESCRIPTION:Kunstausstellung in der Kunstklinik Eppendorf\, Eröffnung am 2
+ 2. Januar um 19 Uhr.\nLaufzeit: 22.1.2027 bis 5.3.2027\nQuelle (bitte vor 
+ dem Besuch prüfen): https://kunstklinik.hamburg/veranstaltungen/
+URL:https://kunstklinik.hamburg/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
