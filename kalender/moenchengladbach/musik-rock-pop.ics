@@ -1,0 +1,162 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Mönchengladbach · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mg-projekt-42-20261106-ab-cd-die-ac-dc-tribute-show@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:AB/CD – Die AC/DC Tribute Show
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-tig-20261112-1930-living-theorie-linkin-park-tribute@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Living Theorie – Linkin Park Tribute
+LOCATION:TiG – Theater im Gründungshaus\, Eickener Straße 88\, 41061 M
+ önchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im TiG – Theater im Gründungshaus.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //dein-tig.de/tickets-und-programm/
+URL:https://dein-tig.de/tickets-und-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-tig-20261113-1930-queen-may-rock-queen-tribute@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Queen May Rock – Queen Tribute
+LOCATION:TiG – Theater im Gründungshaus\, Eickener Straße 88\, 41061 M
+ önchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im TiG – Theater im Gründungshaus.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //dein-tig.de/tickets-und-programm/
+URL:https://dein-tig.de/tickets-und-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261113-the-doors-in-concert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:The Doors in Concert
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-tig-20261114-1930-demon-s-eye-deep-purple-tribute@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Demon's Eye – Deep Purple Tribute
+LOCATION:TiG – Theater im Gründungshaus\, Eickener Straße 88\, 41061 M
+ önchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im TiG – Theater im Gründungshaus.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //dein-tig.de/tickets-und-programm/
+URL:https://dein-tig.de/tickets-und-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-new-box-20261127-hoehner-weihnacht@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Höhner Weihnacht
+LOCATION:NEW Box\, Am Nordpark 299\, 41069 Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert in der NEW Box am Nordpark.\nQuelle (bitte vo
+ r dem Besuch prüfen): https://new-box.de/termine/
+URL:https://new-box.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261127-udopia-a-tribute-to-udo-lindenberg@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Udopia – A Tribute To Udo Lindenberg
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261128-roxxette-a-tribute-to-roxette@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:ROXXETTE – A Tribute to Roxette
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20270213-1930-slippery-tooth-dem-rock-verfallen@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T193000
+DTEND;TZID=Europe/Berlin:20270213T213000
+SUMMARY:Slippery Tooth – Dem Rock verfallen!
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im BIS-Zentrum für offene Kulturarbeit.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20270219-1930-mike-mcalpine-elvis-tribute-show@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T193000
+DTEND;TZID=Europe/Berlin:20270219T213000
+SUMMARY:Mike McAlpine – Elvis Tribute Show
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im BIS-Zentrum für offene Kulturarbeit.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elektronisch in Mönchengladbach · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mg-projekt-42-20261114-athera-pres-chrissyjeey@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Athera pres. Chrissyjeey
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Clubnacht mit elektronischer Musik im Projekt 42.\nQuelle (bitt
+ e vor dem Besuch prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261225-2300-gourski-all-night-long-meets-kiezklub@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T230000
+DTEND;TZID=Europe/Berlin:20261226T010000
+SUMMARY:GOURSKI ALL NIGHT LONG meets KIEZKLUB
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Clubnacht mit elektronischer Musik im Projekt 42.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://proj
+ ekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

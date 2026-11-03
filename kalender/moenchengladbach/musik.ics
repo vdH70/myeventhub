@@ -1,0 +1,549 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Mönchengladbach · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mg-projekt-42-20261106-ab-cd-die-ac-dc-tribute-show@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:AB/CD – Die AC/DC Tribute Show
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261107-ozzy-rebourne-a-tribute-to-ozzy-osbourne@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Ozzy Rebourne – A Tribute To Ozzy Osbourne
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Punk-/Metal-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuc
+ h prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261112-1930-bis-jam@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:BIS Jam
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Jazz-Session im BIS-Zentrum für offene Kulturarbeit.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-tig-20261112-1930-living-theorie-linkin-park-tribute@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Living Theorie – Linkin Park Tribute
+LOCATION:TiG – Theater im Gründungshaus\, Eickener Straße 88\, 41061 M
+ önchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im TiG – Theater im Gründungshaus.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //dein-tig.de/tickets-und-programm/
+URL:https://dein-tig.de/tickets-und-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261113-1930-steve-klink-international-trio@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Steve Klink International Trio
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Jazzkonzert im BIS-Zentrum für offene Kulturarbeit.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-tig-20261113-1930-queen-may-rock-queen-tribute@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Queen May Rock – Queen Tribute
+LOCATION:TiG – Theater im Gründungshaus\, Eickener Straße 88\, 41061 M
+ önchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im TiG – Theater im Gründungshaus.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //dein-tig.de/tickets-und-programm/
+URL:https://dein-tig.de/tickets-und-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261113-the-doors-in-concert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:The Doors in Concert
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-tig-20261114-1930-demon-s-eye-deep-purple-tribute@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Demon's Eye – Deep Purple Tribute
+LOCATION:TiG – Theater im Gründungshaus\, Eickener Straße 88\, 41061 M
+ önchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im TiG – Theater im Gründungshaus.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //dein-tig.de/tickets-und-programm/
+URL:https://dein-tig.de/tickets-und-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261114-athera-pres-chrissyjeey@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Athera pres. Chrissyjeey
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Clubnacht mit elektronischer Musik im Projekt 42.\nQuelle (bitt
+ e vor dem Besuch prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261118-shanthi-live@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Shanthi Live
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch prüfen): 
+ https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261119-1930-jazzclub-m-gladbach-open-jam-session@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Jazzclub M'Gladbach – Open Jam Session
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Jazz-Session im BIS-Zentrum für offene Kulturarbeit.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-tig-20261119-1930-joja-wendt-axel-zwingenberger-boogie-woogie-legend
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T193000
+DTEND;TZID=Europe/Berlin:20261119T213000
+SUMMARY:Joja Wendt & Axel Zwingenberger: Boogie Woogie Legends Live
+LOCATION:TiG – Theater im Gründungshaus\, Eickener Straße 88\, 41061 M
+ önchengladbach
+DESCRIPTION:Blues- und Boogie-Konzert im TiG – Theater im Gründungshaus.
+ \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
+ : https://dein-tig.de/tickets-und-programm/
+URL:https://dein-tig.de/tickets-und-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261120-mama-geht-tanzen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Mama Geht Tanzen!
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Partyabend im Projekt 42.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261120-rossi-revival-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Rossi Revival Party
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Partyabend im Projekt 42.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261121-1930-groove-bigband-feat-monika-hintsches@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:groove!Bigband feat. Monika Hintsches
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Jazzkonzert im BIS-Zentrum für offene Kulturarbeit.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261121-die-fete-best-of-80s-90s-karaoke-floor@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Die Fete – Best Of 80s & 90s + Karaoke Floor
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Partyabend im Projekt 42.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-new-box-20261127-hoehner-weihnacht@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Höhner Weihnacht
+LOCATION:NEW Box\, Am Nordpark 299\, 41069 Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert in der NEW Box am Nordpark.\nQuelle (bitte vo
+ r dem Besuch prüfen): https://new-box.de/termine/
+URL:https://new-box.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261127-udopia-a-tribute-to-udo-lindenberg@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Udopia – A Tribute To Udo Lindenberg
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261128-1930-los-pipos-latin-fusion@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Los Pipos – Latin-Fusion
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Folk-Konzert im BIS-Zentrum für offene Kulturarbeit.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261128-2200-polska-party-xl@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T220000
+DTEND;TZID=Europe/Berlin:20261129T000000
+SUMMARY:Polska Party XL
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Partyabend im Projekt 42.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261128-roxxette-a-tribute-to-roxette@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:ROXXETTE – A Tribute to Roxette
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch 
+ prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261204-doell-live-support-atzebraun@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Döll Live! Support Atzebraun
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Konzert im Projekt 42.\nQuelle (bitte vor dem Besuch prüfen): 
+ https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261205-2300-konfetti-koma-2000er-2010er-plus-karaoke-fl
+ oor@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T230000
+DTEND;TZID=Europe/Berlin:20261206T010000
+SUMMARY:Konfetti Koma – 2000er & 2010er Plus Karaoke Floor
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Partyabend im Projekt 42.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261207-1900-open-mic@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T190000
+DTEND;TZID=Europe/Berlin:20261207T210000
+SUMMARY:Open Mic
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Offene Session im BIS-Zentrum für offene Kulturarbeit.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261210-1930-bis-jam@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T193000
+DTEND;TZID=Europe/Berlin:20261210T213000
+SUMMARY:BIS Jam
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Jazz-Session im BIS-Zentrum für offene Kulturarbeit.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261211-1930-sabine-kuehlich-und-laia-genc-quintett-chr
+ istmas-w@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T193000
+DTEND;TZID=Europe/Berlin:20261211T213000
+SUMMARY:Sabine Kühlich und Laia Genc Quintett – Christmas with Friends
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Jazzkonzert im BIS-Zentrum für offene Kulturarbeit.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261216-1930-very-hot-stuff-big-band-xmas-jazz@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T193000
+DTEND;TZID=Europe/Berlin:20261216T213000
+SUMMARY:Very Hot Stuff Big Band: Xmas-Jazz
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Jazzkonzert im BIS-Zentrum für offene Kulturarbeit.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261217-goetz-widmann-50-jahre-erster-vollrausch@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Götz Widmann – 50 Jahre erster Vollrausch
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Liederabend im Projekt 42.\nQuelle (bitte vor dem Besuch prüfe
+ n): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261218-cheap-shots-knochenfabrik-more@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:CHEAP SHOTS + KNOCHENFABRIK & MORE
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Punk-/Metal-Konzert im Projekt 42.\nQuelle (bitte vor dem Besuc
+ h prüfen): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261218-die-fete-best-of-80s-90s-karaoke-floor@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Die Fete – Best Of 80s & 90s + Karaoke Floor
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Partyabend im Projekt 42.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261219-klitpop-st-klit-is-coming-to-town@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Klitpop – St. Klit is coming to town
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Partyabend im Projekt 42.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-tig-20261220-2000-alex-behrens-winterzauber@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T200000
+DTEND;TZID=Europe/Berlin:20261220T220000
+SUMMARY:Alex Behrens: Winterzauber
+LOCATION:TiG – Theater im Gründungshaus\, Eickener Straße 88\, 41061 M
+ önchengladbach
+DESCRIPTION:Konzert im TiG – Theater im Gründungshaus.\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://dein-tig
+ .de/tickets-und-programm/
+URL:https://dein-tig.de/tickets-und-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-tig-20261223-1930-das-15-rudelsingen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T193000
+DTEND;TZID=Europe/Berlin:20261223T213000
+SUMMARY:Das 15. Rudelsingen
+LOCATION:TiG – Theater im Gründungshaus\, Eickener Straße 88\, 41061 M
+ önchengladbach
+DESCRIPTION:Offene Session im TiG – Theater im Gründungshaus.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://d
+ ein-tig.de/tickets-und-programm/
+URL:https://dein-tig.de/tickets-und-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261223-marienschule-revival-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Marienschule Revival Party
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Partyabend im Projekt 42.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261225-2300-gourski-all-night-long-meets-kiezklub@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T230000
+DTEND;TZID=Europe/Berlin:20261226T010000
+SUMMARY:GOURSKI ALL NIGHT LONG meets KIEZKLUB
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Clubnacht mit elektronischer Musik im Projekt 42.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://proj
+ ekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-projekt-42-20261231-pure-dynamite-2027@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Pure Dynamite 2027
+LOCATION:Projekt 42\, Waldhausener Straße 42\, Mönchengladbach
+DESCRIPTION:Partyabend im Projekt 42.\nQuelle (bitte vor dem Besuch prüfen
+ ): https://projekt42.info/events/
+URL:https://projekt42.info/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20270123-1930-bad-temper-joe-band@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T193000
+DTEND;TZID=Europe/Berlin:20270123T213000
+SUMMARY:Bad Temper Joe & Band
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Blues- und Boogie-Konzert im BIS-Zentrum für offene Kulturarbe
+ it.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20270213-1930-slippery-tooth-dem-rock-verfallen@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T193000
+DTEND;TZID=Europe/Berlin:20270213T213000
+SUMMARY:Slippery Tooth – Dem Rock verfallen!
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im BIS-Zentrum für offene Kulturarbeit.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20270219-1930-mike-mcalpine-elvis-tribute-show@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T193000
+DTEND;TZID=Europe/Berlin:20270219T213000
+SUMMARY:Mike McAlpine – Elvis Tribute Show
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Rock-/Pop-Konzert im BIS-Zentrum für offene Kulturarbeit.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.bis-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
