@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Punk/Metal in Mainz · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261110-plattenbau@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Plattenbau
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Konzert im Kulturclub schon schön an der Großen Bleiche.\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.schon-schoen.de/programm/k
+ onzerte.html
+URL:https://www.schon-schoen.de/programm/konzerte.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261124-lemongrab@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:LEMONGRAB
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Konzert im Kulturclub schon schön an der Großen Bleiche.\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.schon-schoen.de/programm/k
+ onzerte.html
+URL:https://www.schon-schoen.de/programm/konzerte.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -10,6 +10,90 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:da-knabenschule-20261104-2100-frischzelle-neo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T210000
+DTEND;TZID=Europe/Berlin:20261104T230000
+SUMMARY:Frischzelle: NEO
+LOCATION:Kulturzentrum Bessunger Knabenschule\, Ludwigshöhstraße 42\, 642
+ 85 Darmstadt
+DESCRIPTION:Konzert der Reihe Frischzelle in der Knabenschule.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.knabenschule.de/
+URL:https://www.knabenschule.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-hoffart-20261106-2000-candyjane-support-ryder-salt@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:CandyJane & Support: Ryder Salt
+LOCATION:HoffART Theater\, Lauteschlägerstraße 28a\, Darmstadt
+DESCRIPTION:Konzert im HoffART Theater.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.hoffart-theater.de/ver
+ anstaltungen/
+URL:https://www.hoffart-theater.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-centralstation-20261106-2100-in-der-bar-mit-karma@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T210000
+DTEND;TZID=Europe/Berlin:20261106T230000
+SUMMARY:In der BAR mit KarMa
+LOCATION:Centralstation Darmstadt\, Im Carree\, 64283 Darmstadt
+DESCRIPTION:Party in der Centralstation Darmstadt.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.centralstat
+ ion-darmstadt.de/
+URL:https://www.centralstation-darmstadt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-halbneun-20261114-2030-pariser-flair@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T203000
+DTEND;TZID=Europe/Berlin:20261114T223000
+SUMMARY:Pariser Flair
+LOCATION:halbNeun Theater\, Sandstraße 32\, 64283 Darmstadt
+DESCRIPTION:Konzert im halbNeun Theater Darmstadt.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halbneuntheater
+ .de/programm/
+URL:https://halbneuntheater.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-hoffart-20261115-2015-gute-stube-praesentiert-ida-the-young-morgika@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T201500
+DTEND;TZID=Europe/Berlin:20261115T221500
+SUMMARY:Gute Stube präsentiert: Ida the Young + Morgika
+LOCATION:HoffART Theater\, Lauteschlägerstraße 28a\, Darmstadt
+DESCRIPTION:Konzert der Reihe Gute Stube im HoffART Theater.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.h
+ offart-theater.de/veranstaltungen/
+URL:https://www.hoffart-theater.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:da-oetinger-villa-20261115-workshopreihe-kollektives-songwriting-fuer-f
  linta@myeventhub.de
@@ -21,6 +105,185 @@ LOCATION:Oetinger Villa\, Kranichsteiner Str. 81\, 64289 Darmstadt
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://oetingervilla.de
  /
 URL:https://oetingervilla.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-knabenschule-20261118-2100-frischzelle-fluppe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T210000
+DTEND;TZID=Europe/Berlin:20261118T230000
+SUMMARY:Frischzelle: fluppe
+LOCATION:Kulturzentrum Bessunger Knabenschule\, Ludwigshöhstraße 42\, 642
+ 85 Darmstadt
+DESCRIPTION:Konzert der Reihe Frischzelle in der Knabenschule.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.knabenschule.de/
+URL:https://www.knabenschule.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-hoffart-20261119-2000-die-original-schiffschaukelbremser@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261119T200000
+DTEND;TZID=Europe/Berlin:20261119T220000
+SUMMARY:Die Original Schiffschaukelbremser
+LOCATION:HoffART Theater\, Lauteschlägerstraße 28a\, Darmstadt
+DESCRIPTION:Konzert im HoffART Theater.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.hoffart-theater.de/ver
+ anstaltungen/
+URL:https://www.hoffart-theater.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-halbneun-20261120-2030-richard-martin-peter-wucherpfennig-tales-harp
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T203000
+DTEND;TZID=Europe/Berlin:20261120T223000
+SUMMARY:Richard Martin & Peter Wucherpfennig: Tales & Harp
+LOCATION:halbNeun Theater\, Sandstraße 32\, 64283 Darmstadt
+DESCRIPTION:Konzert im halbNeun Theater Darmstadt.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halbneuntheater
+ .de/programm/
+URL:https://halbneuntheater.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-knabenschule-20261120-2030-munly-the-lupercalians@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T203000
+DTEND;TZID=Europe/Berlin:20261120T223000
+SUMMARY:Munly & the Lupercalians
+LOCATION:Kulturzentrum Bessunger Knabenschule\, Ludwigshöhstraße 42\, 642
+ 85 Darmstadt
+DESCRIPTION:Konzert der Band aus Denver in der Halle der Knabenschule.\nEnd
+ e: laut Quelle nicht angegeben\nPreis: 15 €\, ermäßigt 12 €\nQuelle 
+ (bitte vor dem Besuch prüfen): https://www.knabenschule.de/
+URL:https://www.knabenschule.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-hoffart-20261121-1945-vonliebknecht-support-kellerparty@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T194500
+DTEND;TZID=Europe/Berlin:20261121T214500
+SUMMARY:VonLiebknecht / Support: Kellerparty
+LOCATION:HoffART Theater\, Lauteschlägerstraße 28a\, Darmstadt
+DESCRIPTION:Konzert im HoffART Theater.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.hoffart-theater.de/ver
+ anstaltungen/
+URL:https://www.hoffart-theater.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-hoffart-20261127-2000-die-besondere-platte-82-gast-michael-ruetten-n
+ achh@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Die besondere Platte #82 – Gast: Michael Rütten (Nachholtermin)
+LOCATION:HoffART Theater\, Lauteschlägerstraße 28a\, Darmstadt
+DESCRIPTION:Plattenabend mit Gast im HoffART Theater.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.hoffart-
+ theater.de/veranstaltungen/
+URL:https://www.hoffart-theater.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-halbneun-20261127-2030-little-river-eagles-best-of-eagles-little-riv
+ er-ba@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T203000
+DTEND;TZID=Europe/Berlin:20261127T223000
+SUMMARY:Little River Eagles: BEST OF Eagles & Little River Band
+LOCATION:halbNeun Theater\, Sandstraße 32\, 64283 Darmstadt
+DESCRIPTION:Konzert im halbNeun Theater Darmstadt.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halbneuntheater
+ .de/programm/
+URL:https://halbneuntheater.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-centralstation-20261127-henni-nachtsheim-band@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Henni Nachtsheim & Band
+LOCATION:Centralstation Darmstadt\, Im Carree\, 64283 Darmstadt
+DESCRIPTION:Konzert in der Centralstation Darmstadt.\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.centralstation-darmstadt.de/
+URL:https://www.centralstation-darmstadt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-knabenschule-20261202-2100-frischzelle-perle@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T210000
+DTEND;TZID=Europe/Berlin:20261202T230000
+SUMMARY:Frischzelle: Perle
+LOCATION:Kulturzentrum Bessunger Knabenschule\, Ludwigshöhstraße 42\, 642
+ 85 Darmstadt
+DESCRIPTION:Konzert der Reihe Frischzelle in der Knabenschule.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.knabenschule.de/
+URL:https://www.knabenschule.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-halbneun-20261204-2030-game-of-jones-the-good-old-songs@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T203000
+DTEND;TZID=Europe/Berlin:20261204T223000
+SUMMARY:Game of Jones: The Good Old Songs
+LOCATION:halbNeun Theater\, Sandstraße 32\, 64283 Darmstadt
+DESCRIPTION:Konzert im halbNeun Theater Darmstadt.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halbneuntheater
+ .de/programm/monat/2026-12/
+URL:https://halbneuntheater.de/programm/monat/2026-12/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-halbneun-20261213-1930-brothers-in-arms-a-tribute-to-dire-straits@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T193000
+DTEND;TZID=Europe/Berlin:20261213T213000
+SUMMARY:Brothers In Arms: A tribute to Dire Straits
+LOCATION:halbNeun Theater\, Sandstraße 32\, 64283 Darmstadt
+DESCRIPTION:Konzert im halbNeun Theater Darmstadt.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halbneuntheater
+ .de/programm/monat/2026-12/
+URL:https://halbneuntheater.de/programm/monat/2026-12/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-knabenschule-20261216-2100-frischzelle-whiskydenker@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T210000
+DTEND;TZID=Europe/Berlin:20261216T230000
+SUMMARY:Frischzelle: Whiskydenker
+LOCATION:Kulturzentrum Bessunger Knabenschule\, Ludwigshöhstraße 42\, 642
+ 85 Darmstadt
+DESCRIPTION:Konzert der Reihe Frischzelle in der Knabenschule.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.knabenschule.de/
+URL:https://www.knabenschule.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-halbneun-20261227-2030-pfund-un-plugged@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T203000
+DTEND;TZID=Europe/Berlin:20261227T223000
+SUMMARY:PFUND: (un)plugged
+LOCATION:halbNeun Theater\, Sandstraße 32\, 64283 Darmstadt
+DESCRIPTION:Konzert im halbNeun Theater Darmstadt.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halbneuntheater
+ .de/programm/monat/2026-12/
+URL:https://halbneuntheater.de/programm/monat/2026-12/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

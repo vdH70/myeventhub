@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Wiesbaden · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wi-thalhaus-20261110-1930-literaturpreis-der-landeshauptstadt-wiesbaden
+ -2026@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T193000
+DTEND;TZID=Europe/Berlin:20261110T213000
+SUMMARY:Literaturpreis der Landeshauptstadt Wiesbaden 2026: Judith Kuckart
+LOCATION:thalhaus\, Nerotal 18\, 65193 Wiesbaden
+DESCRIPTION:Literarischer Abend im thalhaus Wiesbaden.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thalhau
+ s.de/programm
+URL:https://www.thalhaus.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wi-staatstheater-20261115-1800-lesung-von-wurzelorten-mit-thomas-perle@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Lesung „von Wurzelorten“ mit Thomas Perle
+LOCATION:Hessisches Staatstheater Wiesbaden\, Christian-Zais-Straße 3\, 65
+ 189 Wiesbaden
+DESCRIPTION:Lesung im Theaterhaus Wartburg des Staatstheaters.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www
+ .staatstheater-wiesbaden.de/spielplan
+URL:https://www.staatstheater-wiesbaden.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wi-thalhaus-20270126-2000-verurteilt-der-gerichtspodcast-live@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T200000
+DTEND;TZID=Europe/Berlin:20270126T220000
+SUMMARY:Verurteilt! Der Gerichtspodcast – LIVE
+LOCATION:thalhaus\, Nerotal 18\, 65193 Wiesbaden
+DESCRIPTION:Literarischer Abend im thalhaus Wiesbaden.\nEnde: laut Quelle n
+ icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.thalhau
+ s.de/programm
+URL:https://www.thalhaus.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

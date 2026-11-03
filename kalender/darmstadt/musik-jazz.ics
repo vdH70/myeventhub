@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Darmstadt · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:da-centralstation-20261103-2000-nils-landgren-funk-unit@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T200000
+DTEND;TZID=Europe/Berlin:20261103T220000
+SUMMARY:Nils Landgren Funk Unit
+LOCATION:Centralstation Darmstadt\, Im Carree\, 64283 Darmstadt
+DESCRIPTION:Konzert in der Centralstation Darmstadt.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.centralst
+ ation-darmstadt.de/
+URL:https://www.centralstation-darmstadt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-knabenschule-20261106-2000-fusion-friday-con-fusion-what-is-tight@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Fusion Friday: Con:fusion & What is Tight
+LOCATION:Kulturzentrum Bessunger Knabenschule\, Ludwigshöhstraße 42\, 642
+ 85 Darmstadt
+DESCRIPTION:Fusion-Konzertabend in der Bessunger Knabenschule.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: 12 €\, ermäßigt 10 €\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.knabenschule.de/
+URL:https://www.knabenschule.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-centralstation-20261108-2000-curtis-stigers-songs-from-my-kitchen-20
+ 26@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T200000
+DTEND;TZID=Europe/Berlin:20261108T220000
+SUMMARY:Curtis Stigers: Songs from my kitchen 2026 (ausverkauft)
+LOCATION:Centralstation Darmstadt\, Im Carree\, 64283 Darmstadt
+DESCRIPTION:Konzert in der Centralstation Darmstadt.\nEnde: laut Quelle nic
+ ht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.centralstation-darmstadt.de/
+URL:https://www.centralstation-darmstadt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-centralstation-20261110-2000-emil-brandqvist-trio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T200000
+DTEND;TZID=Europe/Berlin:20261110T220000
+SUMMARY:Emil Brandqvist Trio
+LOCATION:Centralstation Darmstadt\, Im Carree\, 64283 Darmstadt
+DESCRIPTION:Konzert in der Centralstation Darmstadt.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.centralst
+ ation-darmstadt.de/
+URL:https://www.centralstation-darmstadt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-centralstation-20261115-2000-nils-petter-molvr-trio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T200000
+DTEND;TZID=Europe/Berlin:20261115T220000
+SUMMARY:Nils Petter Molvær Trio
+LOCATION:Centralstation Darmstadt\, Im Carree\, 64283 Darmstadt
+DESCRIPTION:Konzert in der Centralstation Darmstadt.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.centralst
+ ation-darmstadt.de/
+URL:https://www.centralstation-darmstadt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-knabenschule-20261129-2000-darmstaedter-bigband-plays-peter-herbolzh
+ eimer@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T200000
+DTEND;TZID=Europe/Berlin:20261129T220000
+SUMMARY:Darmstädter Bigband plays Peter Herbolzheimer
+LOCATION:Kulturzentrum Bessunger Knabenschule\, Ludwigshöhstraße 42\, 642
+ 85 Darmstadt
+DESCRIPTION:Bigband-Konzert mit Musik von Peter Herbolzheimer.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: 18 €\, ermäßigt 15 €\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.knabenschule.de/
+URL:https://www.knabenschule.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-centralstation-20261218-les-bruenettes-our-little-christmas@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Les Brünettes: Our little Christmas
+LOCATION:Centralstation Darmstadt\, Im Carree\, 64283 Darmstadt
+DESCRIPTION:Konzert in der Centralstation Darmstadt.\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.centralstation-darmstadt.de/
+URL:https://www.centralstation-darmstadt.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

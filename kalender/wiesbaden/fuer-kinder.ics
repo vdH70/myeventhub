@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Wiesbaden · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wi-staatstheater-20261107-1100-herr-bello-und-das-blaue-wunder@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T110000
+DTEND;TZID=Europe/Berlin:20261107T130000
+SUMMARY:Herr Bello und das blaue Wunder
+LOCATION:Hessisches Staatstheater Wiesbaden\, Christian-Zais-Straße 3\, 65
+ 189 Wiesbaden
+DESCRIPTION:Familienstück des Jungen Staatstheaters im Großen Haus\, ab 6
+  Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.staatstheater-wiesbaden.de/spielplan
+URL:https://www.staatstheater-wiesbaden.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wi-staatstheater-20261108-1100-herr-bello-und-das-blaue-wunder@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Herr Bello und das blaue Wunder
+LOCATION:Hessisches Staatstheater Wiesbaden\, Christian-Zais-Straße 3\, 65
+ 189 Wiesbaden
+DESCRIPTION:Familienstück des Jungen Staatstheaters im Großen Haus\, ab 6
+  Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.staatstheater-wiesbaden.de/spielplan
+URL:https://www.staatstheater-wiesbaden.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wi-kreativfabrik-20261108-1500-kinderdisco@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Kinderdisco
+LOCATION:Kreativfabrik Wiesbaden\, Murnaustraße 2\, 65189 Wiesbaden
+DESCRIPTION:Disco-Nachmittag für Kinder in der Kreativfabrik.\nEnde: laut 
+ Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kre
+ ativfabrik-wiesbaden.de/veranstaltungen/
+URL:https://kreativfabrik-wiesbaden.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wi-staatstheater-20261114-1500-wenn-wolken-wachsen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T150000
+DTEND;TZID=Europe/Berlin:20261114T170000
+SUMMARY:Wenn Wolken wachsen
+LOCATION:Hessisches Staatstheater Wiesbaden\, Christian-Zais-Straße 3\, 65
+ 189 Wiesbaden
+DESCRIPTION:Stück für Kinder ab 3 Jahren im Studio des Staatstheaters.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.staatstheater-wiesbaden.de/spielplan
+URL:https://www.staatstheater-wiesbaden.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wi-staatstheater-20261115-1100-herr-bello-und-das-blaue-wunder@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Herr Bello und das blaue Wunder
+LOCATION:Hessisches Staatstheater Wiesbaden\, Christian-Zais-Straße 3\, 65
+ 189 Wiesbaden
+DESCRIPTION:Familienstück des Jungen Staatstheaters im Großen Haus\, ab 6
+  Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.staatstheater-wiesbaden.de/spielplan
+URL:https://www.staatstheater-wiesbaden.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wi-staatstheater-20261115-1600-herr-bello-und-das-blaue-wunder@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:Herr Bello und das blaue Wunder
+LOCATION:Hessisches Staatstheater Wiesbaden\, Christian-Zais-Straße 3\, 65
+ 189 Wiesbaden
+DESCRIPTION:Familienstück des Jungen Staatstheaters im Großen Haus\, ab 6
+  Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.staatstheater-wiesbaden.de/spielplan
+URL:https://www.staatstheater-wiesbaden.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wi-staatstheater-20261121-1100-herr-bello-und-das-blaue-wunder@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T110000
+DTEND;TZID=Europe/Berlin:20261121T130000
+SUMMARY:Herr Bello und das blaue Wunder
+LOCATION:Hessisches Staatstheater Wiesbaden\, Christian-Zais-Straße 3\, 65
+ 189 Wiesbaden
+DESCRIPTION:Familienstück des Jungen Staatstheaters im Großen Haus\, ab 6
+  Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.staatstheater-wiesbaden.de/spielplan
+URL:https://www.staatstheater-wiesbaden.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

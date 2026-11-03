@@ -1,0 +1,253 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Mainz · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261108-1100-kruemel-und-stelze@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Krümel und Stelze (ausverkauft)
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https
+ ://mainzer-kammerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261108-1500-kruemel-und-stelze@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T150000
+DTEND;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Krümel und Stelze (ausverkauft)
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https
+ ://mainzer-kammerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-unterhaus-20261122-1100-familientheater-muck-oh-wie-schoen-ist-panam
+ a@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T110000
+DTEND;TZID=Europe/Berlin:20261122T130000
+SUMMARY:Familientheater Muck: Oh wie schön ist Panama
+LOCATION:unterhaus – Mainzer Forum-Theater\, Münsterstraße 7\, 55116 Ma
+ inz
+DESCRIPTION:Familientheater im unterhaus Mainz.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.unterhaus-main
+ z.de/kalender/
+URL:https://www.unterhaus-mainz.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-unterhaus-20261122-1400-familientheater-muck-oh-wie-schoen-ist-panam
+ a@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:Familientheater Muck: Oh wie schön ist Panama (ausverkauft)
+LOCATION:unterhaus – Mainzer Forum-Theater\, Münsterstraße 7\, 55116 Ma
+ inz
+DESCRIPTION:Familientheater im unterhaus Mainz.\nEnde: laut Quelle nicht an
+ gegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.u
+ nterhaus-mainz.de/kalender/
+URL:https://www.unterhaus-mainz.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261129-1500-hilfe-drache-das-einhorn-singt@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Hilfe\, Drache! Das Einhorn singt!
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261206-1100-hilfe-drache-das-einhorn-singt@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T130000
+SUMMARY:Hilfe\, Drache! Das Einhorn singt!
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261206-1500-hilfe-drache-das-einhorn-singt@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+DTEND;TZID=Europe/Berlin:20261206T170000
+SUMMARY:Hilfe\, Drache! Das Einhorn singt!
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261212-1100-hilfe-drache-das-einhorn-singt@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T110000
+DTEND;TZID=Europe/Berlin:20261212T130000
+SUMMARY:Hilfe\, Drache! Das Einhorn singt!
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261212-1500-hilfe-drache-das-einhorn-singt@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T150000
+DTEND;TZID=Europe/Berlin:20261212T170000
+SUMMARY:Hilfe\, Drache! Das Einhorn singt!
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261213-1100-hilfe-drache-das-einhorn-singt@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Hilfe\, Drache! Das Einhorn singt!
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261213-1500-hilfe-drache-das-einhorn-singt@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T150000
+DTEND;TZID=Europe/Berlin:20261213T170000
+SUMMARY:Hilfe\, Drache! Das Einhorn singt!
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261220-1100-hilfe-drache-das-einhorn-singt@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T130000
+SUMMARY:Hilfe\, Drache! Das Einhorn singt!
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20261220-1500-hilfe-drache-das-einhorn-singt@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Hilfe\, Drache! Das Einhorn singt!
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20270117-1100-kruemel-und-stelze@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T110000
+DTEND;TZID=Europe/Berlin:20270117T130000
+SUMMARY:Krümel und Stelze
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-kammerspiele-20270117-1500-kruemel-und-stelze@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T150000
+DTEND;TZID=Europe/Berlin:20270117T170000
+SUMMARY:Krümel und Stelze
+LOCATION:Mainzer Kammerspiele\, Rheinstraße 4E\, 55116 Mainz
+DESCRIPTION:Kindertheater in den Mainzer Kammerspielen.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mainzer-ka
+ mmerspiele.de/programm/
+URL:https://mainzer-kammerspiele.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-unterhaus-20270131-1400-familientheater-muck-vom-fischer-und-seiner-
+ frau@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T140000
+DTEND;TZID=Europe/Berlin:20270131T160000
+SUMMARY:Familientheater Muck: Vom Fischer und seiner Frau
+LOCATION:unterhaus – Mainzer Forum-Theater\, Münsterstraße 7\, 55116 Ma
+ inz
+DESCRIPTION:Familientheater im unterhaus Mainz.\nEnde: laut Quelle nicht an
+ gegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.unterhaus-main
+ z.de/kalender/
+URL:https://www.unterhaus-mainz.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
