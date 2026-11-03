@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Neuss · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ne-kulturamt-20261112-1930-blue-in-green-inga-luehning-band@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T193000
+DTEND;TZID=Europe/Berlin:20261112T213000
+SUMMARY:Blue in Green: Inga Lühning & Band
+LOCATION:Stefanie-Thywissen-Dorsemagen-Saal (Alter Ratssaal)\, Rathaus Neus
+ s
+DESCRIPTION:Konzert der Jazz- und Crossover-Reihe Blue in Green des Kultura
+ mts Neuss.\nEnde: laut Quelle nicht angegeben\nPreis: 20 €\nQuelle (bitt
+ e vor dem Besuch prüfen): https://kulturamt-neuss.de/blue-in-green/inga-l
+ uehning-band/
+URL:https://kulturamt-neuss.de/blue-in-green/inga-luehning-band/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-kulturamt-20270120-1930-blue-in-green-aki-takase-angelika-niescier@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270120T193000
+DTEND;TZID=Europe/Berlin:20270120T213000
+SUMMARY:Blue in Green: Aki Takase & Angelika Niescier
+LOCATION:RomaNEum
+DESCRIPTION:Konzert der Jazz- und Crossover-Reihe Blue in Green des Kultura
+ mts Neuss.\nEnde: laut Quelle nicht angegeben\nPreis: 20 €\nQuelle (bitt
+ e vor dem Besuch prüfen): https://kulturamt-neuss.de/blue-in-green/aki-ta
+ kase-angelika-niescier/
+URL:https://kulturamt-neuss.de/blue-in-green/aki-takase-angelika-niescier/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-kulturamt-20270218-1930-blue-in-green-cartouche-deutsche-kammerakade
+ mie-ne@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T193000
+DTEND;TZID=Europe/Berlin:20270218T213000
+SUMMARY:Blue in Green: Cartouche & Deutsche Kammerakademie Neuss
+LOCATION:Stefanie-Thywissen-Dorsemagen-Saal (Alter Ratssaal)\, Rathaus Neus
+ s
+DESCRIPTION:Konzert der Jazz- und Crossover-Reihe Blue in Green des Kultura
+ mts Neuss.\nEnde: laut Quelle nicht angegeben\nPreis: 20 €\nQuelle (bitt
+ e vor dem Besuch prüfen): https://kulturamt-neuss.de/blue-in-green/cartou
+ che-streichquintett-der-deutschen-kammerakademie-neuss-am-rhein/
+URL:https://kulturamt-neuss.de/blue-in-green/cartouche-streichquintett-der-
+ deutschen-kammerakademie-neuss-am-rhein/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

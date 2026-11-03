@@ -10,6 +10,52 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lev-scala-club-20261112-2000-teresa-reichl-grober-unfug@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T200000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:Teresa Reichl: Grober Unfug
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/15/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/15/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261117-2000-quatsch-comedy-club-die-live-show-zu-gast-
+ in-lever@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:Quatsch Comedy Club – Die Live Show zu Gast in Leverkusen
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/15/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/15/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:lev-forum-20261119-mm-contemporary-dance-company-it@myeventhub.de
 DTSTAMP:20261024T000000Z
@@ -20,6 +66,359 @@ LOCATION:Forum Leverkusen\, Am Büchelter Hof 9\, 51373 Leverkusen
 DESCRIPTION:Tanz.\nQuelle (bitte vor dem Besuch prüfen): https://www.forum
  leverkusen.de/
 URL:https://www.forumleverkusen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261129-1900-abdel-boudii-hause-geht@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T190000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Abdel Boudii: Hause geht! (ausverkauft)
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nAusverkauft\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.scala-leverkusen.de/ve
+ ranstalgungsort/scala-club/page/10/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/10/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261204-2000-improvisationstheater-springmaus-merry-chr
+ istmaus@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Improvisationstheater Springmaus: Merry Christmaus
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/14/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/14/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261206-1900-ralf-senkel-der-hat-gesessen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T190000
+DTEND;TZID=Europe/Berlin:20261206T210000
+SUMMARY:Ralf Senkel: Der hat gesessen! (ausverkauft)
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nAusverkauft\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.scala-leverkusen.de/ve
+ ranstalgungsort/scala-club/page/12/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/12/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261208-2000-katrin-bauerfeind-halftime-show-jetzt-oder
+ -nie@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T200000
+DTEND;TZID=Europe/Berlin:20261208T220000
+SUMMARY:Katrin Bauerfeind: Halftime Show – Jetzt oder Nie
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/8/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/8/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261215-2000-onkel-fisch-blickt-zurueck-der-satirische-
+ jahresru@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T200000
+DTEND;TZID=Europe/Berlin:20261215T220000
+SUMMARY:Onkel Fisch blickt zurück – der satirische Jahresrückblick
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/8/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/8/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261216-2000-juergen-becker-deine-disco-geschichte-in-s
+ cheiben@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:Jürgen Becker: Deine Disco – Geschichte in Scheiben
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/15/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/15/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261218-2000-ingo-appelt-maenner-nerven-stark@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Ingo Appelt: Männer nerven Stark!
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/15/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/15/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261220-2000-lisa-feller-schoen-fuer-dich@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T200000
+DTEND;TZID=Europe/Berlin:20261220T220000
+SUMMARY:Lisa Feller: Schön für dich!
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/15/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/15/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270106-2000-thilo-seibel-schon-rum-der-politische-jahr
+ esrueckb@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T200000
+DTEND;TZID=Europe/Berlin:20270106T220000
+SUMMARY:Thilo Seibel: Schon rum?! – Der politische Jahresrückblick 2026
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270107-2000-it-s-live-scala@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T200000
+DTEND;TZID=Europe/Berlin:20270107T220000
+SUMMARY:It's Live Scala
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/3/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270108-2000-lennart-schilgen-abwesenheitsnotizen@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Lennart Schilgen: abwesenheitsnotizen
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/12/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/12/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270114-2000-comedy-youngstars-pam-pengco@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T200000
+DTEND;TZID=Europe/Berlin:20270114T220000
+SUMMARY:Comedy Youngstars: Pam Pengco
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/13/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/13/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270116-2000-william-wahl-wahlweise@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:William Wahl: Wahlweise
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/15/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/15/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270123-2000-johannes-floeck-frueher-war-ich-juenger@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T200000
+DTEND;TZID=Europe/Berlin:20270123T220000
+SUMMARY:Johannes Flöck: Früher war ich jünger
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/8/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/8/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270124-2000-caveman-du-sammeln-ich-jagen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T200000
+DTEND;TZID=Europe/Berlin:20270124T220000
+SUMMARY:Caveman: Du sammeln\, ich jagen!
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Komödie als Solostück im Scala Club Leverkusen-Opladen.\nEinl
+ ass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgun
+ gsort/scala-club/page/12/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/12/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270128-2000-barbara-ruscher-romantik-aber-zack-zack@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T200000
+DTEND;TZID=Europe/Berlin:20270128T220000
+SUMMARY:Barbara Ruscher: Romantik – aber zack\, zack!
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/3/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270129-2000-martin-reinl-carsten-haffke-puppen-gucken@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:Martin Reinl & Carsten Haffke: Puppen gucken
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/14/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/14/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270206-2000-serdar-somuncu-hassias@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T200000
+DTEND;TZID=Europe/Berlin:20270206T220000
+SUMMARY:Serdar Somuncu: HASSIAS
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/2/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270211-2000-matilde-keizer-lasagne-im-bett@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T200000
+DTEND;TZID=Europe/Berlin:20270211T220000
+SUMMARY:Matilde Keizer: Lasagne im Bett
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/4/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270213-2000-nicole-nau-luis-pereyra-ocaso-amarillo@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:Nicole Nau & Luis Pereyra: Ocaso Amarillo
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Tango-Tanzshow im Scala Club Leverkusen-Opladen.\nEinlass 19:00
+ \, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungsort/sca
+ la-club/page/10/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/10/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270217-1900-olaf-bossi-generation-xy-die-comedy-show@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T190000
+DTEND;TZID=Europe/Berlin:20270217T210000
+SUMMARY:Olaf Bossi: Generation XY – Die Comedy-Show
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/2/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270218-2000-stefan-danziger-mittel-und-wege@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T200000
+DTEND;TZID=Europe/Berlin:20270218T220000
+SUMMARY:Stefan Danziger: Mittel und Wege
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/14/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/14/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270221-1900-cavewoman-praktische-tipps-zur-haltung-und
+ -pflege@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T190000
+DTEND;TZID=Europe/Berlin:20270221T210000
+SUMMARY:Cavewoman: Praktische Tipps zur Haltung und Pflege eines beziehungs
+ tauglichen Partners!
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Komödie als Solostück im Scala Club Leverkusen-Opladen.\nEinl
+ ass 18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgun
+ gsort/scala-club/page/11/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/11/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270228-1900-der-magier-christopher-koehler-magic-momen
+ ts@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T190000
+DTEND;TZID=Europe/Berlin:20270228T210000
+SUMMARY:Der Magier (Christopher Köhler): Magic Moments
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Comedy bzw. Kabarett im Scala Club Leverkusen-Opladen.\nEinlass
+  18:00\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungso
+ rt/scala-club/page/8/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/8/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

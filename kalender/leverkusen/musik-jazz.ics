@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jazz in Leverkusen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lev-scala-club-20261105-2000-joo-kraus-band-alchemy-47-leverkusener-jaz
+ ztage@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261105T200000
+DTEND;TZID=Europe/Berlin:20261105T220000
+SUMMARY:Joo Kraus & Band: Alchemy (47. Leverkusener Jazztage)
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Jazzkonzert im Scala Club Leverkusen-Opladen.\nEinlass 19:00\, 
+ Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungsort/scala-
+ club/page/6/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/6/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261109-2000-jazzkantine-47-leverkusener-jazztage@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Jazzkantine (47. Leverkusener Jazztage)
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Jazzkonzert im Scala Club Leverkusen-Opladen.\nEinlass 19:00\, 
+ Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungsort/scala-
+ club/page/11/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/11/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261118-2000-triosence-47-leverkusener-jazztage@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+DTEND;TZID=Europe/Berlin:20261118T220000
+SUMMARY:Triosence (47. Leverkusener Jazztage)
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Jazzkonzert im Scala Club Leverkusen-Opladen.\nEinlass 19:00\, 
+ Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungsort/scala-
+ club/page/15/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/15/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261123-2000-joscho-stephan-trio-47-leverkusener-jazzta
+ ge@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T200000
+DTEND;TZID=Europe/Berlin:20261123T220000
+SUMMARY:Joscho Stephan Trio (47. Leverkusener Jazztage)
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Jazzkonzert im Scala Club Leverkusen-Opladen.\nEinlass 19:00\, 
+ Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungsort/scala-
+ club/page/12/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/12/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20261201-2000-carolina-bubbico-vocalia@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T200000
+DTEND;TZID=Europe/Berlin:20261201T220000
+SUMMARY:Carolina Bubbico: Vocàlia
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Jazzkonzert im Scala Club Leverkusen-Opladen.\nEinlass 19:00\, 
+ Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungsort/scala-
+ club/page/4/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lev-scala-club-20270212-2000-jeff-cascaro-broadway-beyond@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:Jeff Cascaro: Broadway & Beyond
+LOCATION:Scala Club Leverkusen\, Uhlandstraße 9\, 51379 Leverkusen
+DESCRIPTION:Jazzkonzert im Scala Club Leverkusen-Opladen.\nEinlass 19:00\, 
+ Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.scala-leverkusen.de/veranstalgungsort/scala-
+ club/page/7/
+URL:https://www.scala-leverkusen.de/veranstalgungsort/scala-club/page/7/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Klassik in Solingen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sg-theater-konzerthaus-20261108-1800-1-kammerkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+SUMMARY:1. Kammerkonzert
+LOCATION:Zentrum für verfolgte Künste\, Wuppertaler Str. 160
+DESCRIPTION:Kammerkonzert der Konzertreihe des Theaters und Konzerthauses S
+ olingen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://theater-solingen.de/programm/?e-page-a5c842a=2
+URL:https://theater-solingen.de/programm/?e-page-a5c842a=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sg-theater-konzerthaus-20261115-1800-1-orgelkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:1. Orgelkonzert
+LOCATION:Großer Konzertsaal
+DESCRIPTION:Orgelkonzert im Theater und Konzerthaus Solingen.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://thea
+ ter-solingen.de/programm/?e-page-a5c842a=2
+URL:https://theater-solingen.de/programm/?e-page-a5c842a=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sg-theater-konzerthaus-20261201-1930-4-philharmonisches-konzert@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T193000
+DTEND;TZID=Europe/Berlin:20261201T213000
+SUMMARY:4. Philharmonisches Konzert
+LOCATION:Großer Konzertsaal
+DESCRIPTION:Philharmonisches Konzert im Theater und Konzerthaus Solingen.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://theater-solingen.de/programm/?e-page-a5c842a=3
+URL:https://theater-solingen.de/programm/?e-page-a5c842a=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sg-theater-konzerthaus-20261215-1930-kirchenkonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T193000
+DTEND;TZID=Europe/Berlin:20261215T213000
+SUMMARY:Kirchenkonzert
+LOCATION:Evangelische Stadtkirche Solingen
+DESCRIPTION:Kirchenkonzert der Konzertreihe des Theaters und Konzerthauses 
+ Solingen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theater-solingen.de/programm/?e-page-a5c842a=4
+URL:https://theater-solingen.de/programm/?e-page-a5c842a=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sg-theater-konzerthaus-20261220-1700-symphonic-christmas-iii@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T170000
+DTEND;TZID=Europe/Berlin:20261220T190000
+SUMMARY:Symphonic Christmas III
+LOCATION:Großer Konzertsaal
+DESCRIPTION:Weihnachtliches Konzert im Theater und Konzerthaus Solingen.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://theater-solingen.de/programm/?e-page-a5c842a=4
+URL:https://theater-solingen.de/programm/?e-page-a5c842a=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sg-theater-konzerthaus-20261226-1100-weihnachtskonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T110000
+DTEND;TZID=Europe/Berlin:20261226T130000
+SUMMARY:Weihnachtskonzert
+LOCATION:Pina-Bausch-Saal
+DESCRIPTION:Weihnachtliches Konzert im Theater und Konzerthaus Solingen.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://theater-solingen.de/programm/?e-page-a5c842a=4
+URL:https://theater-solingen.de/programm/?e-page-a5c842a=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sg-theater-konzerthaus-20270101-1600-neujahrskonzert@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T160000
+DTEND;TZID=Europe/Berlin:20270101T180000
+SUMMARY:Neujahrskonzert
+LOCATION:Pina-Bausch-Saal
+DESCRIPTION:Festliches Konzert zum Jahresbeginn im Theater und Konzerthaus 
+ Solingen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theater-solingen.de/programm/?e-page-a5c842a=4
+URL:https://theater-solingen.de/programm/?e-page-a5c842a=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sg-theater-konzerthaus-20270112-1930-nuvole-bianche-the-einaudi-experie
+ nce@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T193000
+DTEND;TZID=Europe/Berlin:20270112T213000
+SUMMARY:Nuvole Bianche – The Einaudi Experience
+LOCATION:Pina-Bausch-Saal
+DESCRIPTION:Konzertabend mit Klaviermusik von Ludovico Einaudi im Theater u
+ nd Konzerthaus Solingen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
+  vor dem Besuch prüfen): https://theater-solingen.de/programm/?e-page-a5c
+ 842a=5
+URL:https://theater-solingen.de/programm/?e-page-a5c842a=5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sg-theater-konzerthaus-20270216-1930-5-philharmonisches-konzert@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T193000
+DTEND;TZID=Europe/Berlin:20270216T213000
+SUMMARY:5. Philharmonisches Konzert
+LOCATION:Großer Konzertsaal
+DESCRIPTION:Philharmonisches Konzert im Theater und Konzerthaus Solingen.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://theater-solingen.de/programm/?e-page-a5c842a=7
+URL:https://theater-solingen.de/programm/?e-page-a5c842a=7
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

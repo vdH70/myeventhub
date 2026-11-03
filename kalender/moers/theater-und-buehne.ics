@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Moers · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:moe-bollwerk-107-20261107-2000-suchtpotenzial-s-hitstorm@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Suchtpotenzial: (S)HITSTORM
+LOCATION:Bollwerk 107\, Zum Bollwerk 107\, 47441 Moers
+DESCRIPTION:Comedy-Abend im Bollwerk 107 in Moers.\nEinlass 19:00\, Beginn 
+ 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bollwerk107.de/suchtpotenzial-shitstorm/
+URL:https://bollwerk107.de/suchtpotenzial-shitstorm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:moe-bollwerk-107-20261109-2000-sisters-of-comedy-nachgelacht@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Sisters of Comedy – Nachgelacht
+LOCATION:Bollwerk 107\, Zum Bollwerk 107\, 47441 Moers
+DESCRIPTION:Comedy-Abend im Bollwerk 107 in Moers.\nEinlass 19:30\, Beginn 
+ 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bollwerk107.de/sisters-of-comedy-nachgelacht/
+URL:https://bollwerk107.de/sisters-of-comedy-nachgelacht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:moe-bollwerk-107-20261128-1900-moments-of-musical-into-the-unkown@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T190000
+DTEND;TZID=Europe/Berlin:20261128T210000
+SUMMARY:Moments of Musical – Into the Unkown
+LOCATION:Bollwerk 107\, Zum Bollwerk 107\, 47441 Moers
+DESCRIPTION:Musical-Abend im Bollwerk 107 in Moers.\nEinlass 18:30\, Beginn
+  19:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://bollwerk107.de/moments-of-musical-into-the-unkown/
+URL:https://bollwerk107.de/moments-of-musical-into-the-unkown/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:moe-bollwerk-107-20261129-1700-moments-of-musical-into-the-unkown@myeve
+ nthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T170000
+DTEND;TZID=Europe/Berlin:20261129T190000
+SUMMARY:Moments of Musical – Into the Unkown
+LOCATION:Bollwerk 107\, Zum Bollwerk 107\, 47441 Moers
+DESCRIPTION:Musical-Abend im Bollwerk 107 in Moers.\nEinlass 16:30\, Beginn
+  17:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://bollwerk107.de/moments-of-musical-into-the-unkown-2/
+URL:https://bollwerk107.de/moments-of-musical-into-the-unkown-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:moe-bollwerk-107-20261202-2000-enni-comedy-salon@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:enni.Comedy Salon
+LOCATION:Bollwerk 107\, Zum Bollwerk 107\, 47441 Moers
+DESCRIPTION:Comedy-Abend im Bollwerk 107 in Moers.\nEinlass 19:15\, Beginn 
+ 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bollwerk107.de/enni-comedy-salon-12/
+URL:https://bollwerk107.de/enni-comedy-salon-12/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:moe-bollwerk-107-20261203-2000-jan-van-weyde-immer-weyder@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Jan van Weyde: Immer weyder …
+LOCATION:Bollwerk 107\, Zum Bollwerk 107\, 47441 Moers
+DESCRIPTION:Comedy-Abend im Bollwerk 107 in Moers.\nEinlass 19:00\, Beginn 
+ 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bollwerk107.de/jan-van-weyde-immer-weyder/
+URL:https://bollwerk107.de/jan-van-weyde-immer-weyder/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:moe-bollwerk-107-20270219-2000-duo-diagonal-branka-roger-im-glueck@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Duo Diagonal: Branka & Roger im Glück
+LOCATION:Bollwerk 107\, Zum Bollwerk 107\, 47441 Moers
+DESCRIPTION:Comedy-Abend im Bollwerk 107 in Moers.\nEinlass 19:30\, Beginn 
+ 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bollwerk107.de/duo-diagonal-branka-roger-im-glueck/
+URL:https://bollwerk107.de/duo-diagonal-branka-roger-im-glueck/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
