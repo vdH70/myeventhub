@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Ahrensburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20261120-2000-baff-immer-noch-kinder@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:baff!: Immer noch Kinder
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:A-cappella-Popkonzert im Kulturzentrum Marstall Ahrensburg.\nEn
+ de: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://marstall-ahrensburg.de/programm/view/baff-immer-noch-kinder
+URL:https://marstall-ahrensburg.de/programm/view/baff-immer-noch-kinder
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20261127-2000-remise-live-mit-lennon-von-seht@my
+ eventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Remise Live mit Lennon von Seht
+LOCATION:Remise
+DESCRIPTION:Livekonzert der Reihe Remise Live im Kulturzentrum Marstall Ahr
+ ensburg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://marstall-ahrensburg.de/programm/view/remise-live-mit-len
+ non-von-seht
+URL:https://marstall-ahrensburg.de/programm/view/remise-live-mit-lennon-von
+ -seht
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20261211-2000-hanse-jazz-quintett@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Hanse-Jazz-Quintett
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Jazzkonzert im Kulturzentrum Marstall Ahrensburg.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mars
+ tall-ahrensburg.de/programm/view/hanse-jazz-quintett
+URL:https://marstall-ahrensburg.de/programm/view/hanse-jazz-quintett
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20270129-1900-abend-der-choere@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T190000
+DTEND;TZID=Europe/Berlin:20270129T210000
+SUMMARY:Abend der Chöre
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Chorkonzert mehrerer Chöre im Kulturzentrum Marstall Ahrensbur
+ g.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://marstall-ahrensburg.de/programm/view/abend-der-choere-2
+URL:https://marstall-ahrensburg.de/programm/view/abend-der-choere-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20270220-2000-klezmer-meets-jazz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T200000
+DTEND;TZID=Europe/Berlin:20270220T220000
+SUMMARY:Klezmer meets Jazz
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Jazzkonzert im Kulturzentrum Marstall Ahrensburg.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mars
+ tall-ahrensburg.de/programm/view/klezmer-meets-jazz
+URL:https://marstall-ahrensburg.de/programm/view/klezmer-meets-jazz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20270225-2000-bigband-battle@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T200000
+DTEND;TZID=Europe/Berlin:20270225T220000
+SUMMARY:Bigband Battle
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Bigband-Konzert im Kulturzentrum Marstall Ahrensburg.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ marstall-ahrensburg.de/programm/view/bigband-battle-4
+URL:https://marstall-ahrensburg.de/programm/view/bigband-battle-4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20270226-2000-tante-friedl@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T200000
+DTEND;TZID=Europe/Berlin:20270226T220000
+SUMMARY:Tante Friedl
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Folk- und Weltmusikkonzert im Kulturzentrum Marstall Ahrensburg
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://marstall-ahrensburg.de/programm/view/tante-friedl
+URL:https://marstall-ahrensburg.de/programm/view/tante-friedl
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

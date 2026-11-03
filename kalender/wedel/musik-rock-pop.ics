@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rock/Pop in Wedel · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270123-1930-all-you-can-hear-cosmics-best-of
+ -the-eighties@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T193000
+DTEND;TZID=Europe/Berlin:20270123T213000
+SUMMARY:All You Can Hear! – Cosmics: Best of the Eighties
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Rock- und Popkonzert auf dem Theaterschiff Batavia in Wedel.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.batavia-wedel.de/all-you-can-hear-cosmics-best-of-the-eighties/
+URL:https://www.batavia-wedel.de/all-you-can-hear-cosmics-best-of-the-eight
+ ies/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270212-1930-dawadochmawas@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T193000
+DTEND;TZID=Europe/Berlin:20270212T213000
+SUMMARY:DaWaDochMaWas
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Rock- und Popkonzert auf dem Theaterschiff Batavia in Wedel.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.batavia-wedel.de/dawadochmawas/
+URL:https://www.batavia-wedel.de/dawadochmawas/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

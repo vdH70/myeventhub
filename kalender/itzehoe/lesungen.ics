@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lesungen in Itzehoe · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:iz-st-laurentii-20261108-1700-gedenken-an-die-reichspogromnacht@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T170000
+DTEND;TZID=Europe/Berlin:20261108T190000
+SUMMARY:Gedenken an die Reichspogromnacht
+LOCATION:St. Laurentii Itzehoe\, Itzehoe
+DESCRIPTION:Gedenkveranstaltung mit Lesung und Musik in der Kirche St. Laur
+ entii Itzehoe.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+URL:https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270202-1930-old-shatterhand-unter-kojoten-live-hoe
+ rspiel-radio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270202T193000
+DTEND;TZID=Europe/Berlin:20270202T213000
+SUMMARY:Old Shatterhand unter Kojoten – Live-Hörspiel (RadioLiveTheater)
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Szenische Lesung bzw. Live-Hörspiel im theater itzehoe.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://theater-itzehoe.de/programm/?dfxid=3906
+URL:https://theater-itzehoe.de/programm/?dfxid=3906
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270210-1930-heartbreak-hotel-szenische-lesung-mit-
+ der-musik-vo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270210T193000
+DTEND;TZID=Europe/Berlin:20270210T213000
+SUMMARY:Heartbreak Hotel – Szenische Lesung mit der Musik von Elvis Presl
+ ey
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Szenische Lesung bzw. Live-Hörspiel im theater itzehoe.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://theater-itzehoe.de/programm/?dfxid=3925
+URL:https://theater-itzehoe.de/programm/?dfxid=3925
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270228-1100-japan-im-land-der-aufgehenden-sonne-di
+ a-multivisio@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T110000
+DTEND;TZID=Europe/Berlin:20270228T130000
+SUMMARY:Japan – im Land der aufgehenden Sonne (Dia-Multivisions-Show)
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Reisereportage als Dia-Multivisions-Show im theater itzehoe.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://theater-itzehoe.de/programm/?dfxid=3908
+URL:https://theater-itzehoe.de/programm/?dfxid=3908
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270228-1400-suedafrika-vom-kap-zum-krueger-dia-mul
+ tivisions-sh@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T140000
+DTEND;TZID=Europe/Berlin:20270228T160000
+SUMMARY:Südafrika – Vom Kap zum Krüger (Dia-Multivisions-Show)
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Reisereportage als Dia-Multivisions-Show im theater itzehoe.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://theater-itzehoe.de/programm/?dfxid=3909
+URL:https://theater-itzehoe.de/programm/?dfxid=3909
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270228-1700-marokko-magie-des-orients-dia-multivis
+ ions-show@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T170000
+DTEND;TZID=Europe/Berlin:20270228T190000
+SUMMARY:Marokko – Magie des Orients (Dia-Multivisions-Show)
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Reisereportage als Dia-Multivisions-Show im theater itzehoe.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://theater-itzehoe.de/programm/?dfxid=3910
+URL:https://theater-itzehoe.de/programm/?dfxid=3910
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

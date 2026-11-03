@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kirchen in Itzehoe · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:iz-st-laurentii-20261108-1700-gedenken-an-die-reichspogromnacht@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T170000
+DTEND;TZID=Europe/Berlin:20261108T190000
+SUMMARY:Gedenken an die Reichspogromnacht
+LOCATION:St. Laurentii Itzehoe\, Itzehoe
+DESCRIPTION:Gedenkveranstaltung mit Lesung und Musik in der Kirche St. Laur
+ entii Itzehoe.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+URL:https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-st-laurentii-20261109-2000-magic-gregorian-night-klang-der-moenche@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T200000
+DTEND;TZID=Europe/Berlin:20261109T220000
+SUMMARY:Magic Gregorian Night – Klang der Mönche
+LOCATION:St. Laurentii Itzehoe\, Itzehoe
+DESCRIPTION:Konzert mit gregorianisch inspirierten Gesängen in der Kirche 
+ St. Laurentii Itzehoe.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.kirche-itzehoe.de/isg/musik/konzertkal
+ ender/
+URL:https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-st-laurentii-20261122-1800-mozart-grosse-messe-in-c-moll-haendel-mes
+ siah-3-te@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Mozart: Große Messe in c-Moll – Händel: Messiah\, 3. Teil
+LOCATION:St. Laurentii Itzehoe\, Itzehoe
+DESCRIPTION:Oratorienkonzert des Chors St. Laurentii mit der Norddeutschen 
+ Sinfonietta in der Kirche St. Laurentii Itzehoe.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kirche-itzeh
+ oe.de/isg/musik/konzertkalender/
+URL:https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-st-laurentii-20261128-1600-stern-ueber-itzehoe-adventssingen@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T160000
+DTEND;TZID=Europe/Berlin:20261128T180000
+SUMMARY:Stern über Itzehoe – Adventssingen
+LOCATION:St. Laurentii Itzehoe\, Itzehoe
+DESCRIPTION:Adventssingen mit Kinderchor\, Posaunenchor und Flötenkreisen 
+ in der Kirche St. Laurentii Itzehoe.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.kirche-itzehoe.de/isg/mu
+ sik/konzertkalender/
+URL:https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-st-laurentii-20261205-1900-nikolauskonzert-der-chorfreunde-laegerdor
+ f@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T190000
+DTEND;TZID=Europe/Berlin:20261205T210000
+SUMMARY:Nikolauskonzert der Chorfreunde Lägerdorf
+LOCATION:St. Laurentii Itzehoe\, Itzehoe
+DESCRIPTION:Adventliches Chorkonzert in der Kirche St. Laurentii Itzehoe.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+URL:https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-st-laurentii-20261220-1800-haendel-messiah-weihnachtsteil-bach-unser
+ -mund-sei@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T180000
+DTEND;TZID=Europe/Berlin:20261220T200000
+SUMMARY:Händel: Messiah (Weihnachtsteil) – Bach: Unser Mund sei voll Lac
+ hens
+LOCATION:St. Laurentii Itzehoe\, Itzehoe
+DESCRIPTION:Weihnachtliches Oratorienkonzert von Chor und Orchester St. Lau
+ rentii in der Kirche St. Laurentii Itzehoe.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.kirche-itzehoe.de
+ /isg/musik/konzertkalender/
+URL:https://www.kirche-itzehoe.de/isg/musik/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

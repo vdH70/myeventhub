@@ -1,0 +1,146 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Ahrensburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20261106-2000-marstall-theater-top-dogs@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T200000
+DTEND;TZID=Europe/Berlin:20261106T220000
+SUMMARY:Marstall Theater: Top Dogs
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Theateraufführung des Marstall Theaters im Kulturzentrum Marst
+ all Ahrensburg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://marstall-ahrensburg.de/programm/view/marstall-the
+ ater-zeigt-top-dogs-2
+URL:https://marstall-ahrensburg.de/programm/view/marstall-theater-zeigt-top
+ -dogs-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20261107-1900-marstall-theater-top-dogs@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Marstall Theater: Top Dogs
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Theateraufführung des Marstall Theaters im Kulturzentrum Marst
+ all Ahrensburg.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem 
+ Besuch prüfen): https://marstall-ahrensburg.de/programm/view/marstall-the
+ ater-zeigt-top-dogs-3
+URL:https://marstall-ahrensburg.de/programm/view/marstall-theater-zeigt-top
+ -dogs-3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20261204-2000-poetry-slam@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Poetry Slam
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Poetry-Slam im Kulturzentrum Marstall Ahrensburg.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mars
+ tall-ahrensburg.de/programm/view/poetry-slam-5
+URL:https://marstall-ahrensburg.de/programm/view/poetry-slam-5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20270109-1500-kaffeezeit-mit-den-oldies@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T150000
+DTEND;TZID=Europe/Berlin:20270109T170000
+SUMMARY:Kaffeezeit mit den Oldies
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Kabarett im Kulturzentrum Marstall Ahrensburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://marstal
+ l-ahrensburg.de/programm/view/mit-dem-oldie-kabarett-ins-neue-jahr
+URL:https://marstall-ahrensburg.de/programm/view/mit-dem-oldie-kabarett-ins
+ -neue-jahr
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20270124-1900-william-wahl-wahlweise@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T190000
+DTEND;TZID=Europe/Berlin:20270124T210000
+SUMMARY:William Wahl: wahlweise
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Kabarett im Kulturzentrum Marstall Ahrensburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://marstal
+ l-ahrensburg.de/programm/view/william-wahl-wahlweise
+URL:https://marstall-ahrensburg.de/programm/view/william-wahl-wahlweise
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20270205-2000-michael-frowin-das-wird-ein-vorspi
+ el-haben@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T200000
+DTEND;TZID=Europe/Berlin:20270205T220000
+SUMMARY:Michael Frowin: Das wird ein Vorspiel haben
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Kabarett im Kulturzentrum Marstall Ahrensburg.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://marstal
+ l-ahrensburg.de/programm/view/michael-frowin-dad-wird-ein-vorsoiel-haben
+URL:https://marstall-ahrensburg.de/programm/view/michael-frowin-dad-wird-ei
+ n-vorsoiel-haben
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20270206-1800-die-5-dimension-das-magische-showe
+ rlebnis@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T180000
+DTEND;TZID=Europe/Berlin:20270206T200000
+SUMMARY:Die 5. Dimension – Das magische Showerlebnis
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Zaubershow ab 10 Jahren im Kulturzentrum Marstall Ahrensburg.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://marstall-ahrensburg.de/programm/view/die-5-dimension
+URL:https://marstall-ahrensburg.de/programm/view/die-5-dimension
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:od-marstall-ahrensburg-20270219-2000-poetry-slam-special@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Poetry Slam Special
+LOCATION:Kulturzentrum Marstall Ahrensburg\, Ahrensburg
+DESCRIPTION:Poetry-Slam im Kulturzentrum Marstall Ahrensburg.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://mars
+ tall-ahrensburg.de/programm/view/poetry-slam-special-5
+URL:https://marstall-ahrensburg.de/programm/view/poetry-slam-special-5
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

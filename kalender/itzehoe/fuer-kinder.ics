@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Itzehoe · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20261129-1600-pinocchio-familienmusical-theater-fuer
+ -niedersachs@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Pinocchio – Familienmusical (Theater für Niedersachsen)
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Theater für Kinder und Familien im theater itzehoe.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://t
+ heater-itzehoe.de/programm/?dfxid=3932
+URL:https://theater-itzehoe.de/programm/?dfxid=3932
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20261206-1600-der-kleine-wassermann-schleswig-holste
+ inisches-lan@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T160000
+DTEND;TZID=Europe/Berlin:20261206T180000
+SUMMARY:Der kleine Wassermann – Schleswig-Holsteinisches Landestheater
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Theater für Kinder und Familien im theater itzehoe.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://t
+ heater-itzehoe.de/programm/?dfxid=3931
+URL:https://theater-itzehoe.de/programm/?dfxid=3931
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20261215-1800-der-gestiefelte-kater-aus-dem-klinikum
+ -itzehoe@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T180000
+DTEND;TZID=Europe/Berlin:20261215T200000
+SUMMARY:Der gestiefelte Kater aus dem Klinikum Itzehoe (ausverkauft)
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Theater für Kinder und Familien im theater itzehoe.\nEnde: lau
+ t Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfe
+ n): https://theater-itzehoe.de/programm/?dfxid=4030
+URL:https://theater-itzehoe.de/programm/?dfxid=4030
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270117-1100-so-als-ob-kirschkern-compes-co@myevent
+ hub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T110000
+DTEND;TZID=Europe/Berlin:20270117T130000
+SUMMARY:So als ob – kirschkern Compes & Co.
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Theater für Kinder und Familien im theater itzehoe.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://t
+ heater-itzehoe.de/programm/?dfxid=3933
+URL:https://theater-itzehoe.de/programm/?dfxid=3933
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270117-1700-triff-robin-hood-kirschkern-compes-co@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T170000
+DTEND;TZID=Europe/Berlin:20270117T190000
+SUMMARY:Triff Robin Hood! – kirschkern Compes & Co.
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Theater für Kinder und Familien im theater itzehoe.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://t
+ heater-itzehoe.de/programm/?dfxid=3934
+URL:https://theater-itzehoe.de/programm/?dfxid=3934
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270205-1600-aladin-das-musical-theater-liberi@myev
+ enthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T160000
+DTEND;TZID=Europe/Berlin:20270205T180000
+SUMMARY:Aladin – das Musical (Theater Liberi)
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Theater für Kinder und Familien im theater itzehoe.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://t
+ heater-itzehoe.de/programm/?dfxid=3896
+URL:https://theater-itzehoe.de/programm/?dfxid=3896
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270221-1700-die-fuenf-muss-raus-trotz-alledem-thea
+ ter@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T170000
+DTEND;TZID=Europe/Berlin:20270221T190000
+SUMMARY:Die Fünf muss raus! – Trotz-Alledem-Theater
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Theater für Kinder und Familien im theater itzehoe.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://t
+ heater-itzehoe.de/programm/?dfxid=3935
+URL:https://theater-itzehoe.de/programm/?dfxid=3935
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

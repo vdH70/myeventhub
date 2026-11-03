@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Wedel · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261106-1930-mr-blues-tom-shaka@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Mr. Blues Tom Shaka (ausverkauft)
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Blueskonzert auf dem Theaterschiff Batavia in Wedel.\nEnde: lau
+ t Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.batavia-wedel.de/tom-shaka/
+URL:https://www.batavia-wedel.de/tom-shaka/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261212-1930-stew-n-haggis@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:Stew'n Haggis (ausverkauft)
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Folkkonzert auf dem Theaterschiff Batavia in Wedel.\nEnde: laut
+  Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.batavia-wedel.de/irish-folk-mit-stewn-haggis/
+URL:https://www.batavia-wedel.de/irish-folk-mit-stewn-haggis/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270116-1930-time-for-folk@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T193000
+DTEND;TZID=Europe/Berlin:20270116T213000
+SUMMARY:Time for Folk
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Folkkonzert auf dem Theaterschiff Batavia in Wedel.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.batavia-wedel.de/time-for-folk/
+URL:https://www.batavia-wedel.de/time-for-folk/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270123-1930-all-you-can-hear-cosmics-best-of
+ -the-eighties@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T193000
+DTEND;TZID=Europe/Berlin:20270123T213000
+SUMMARY:All You Can Hear! – Cosmics: Best of the Eighties
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Rock- und Popkonzert auf dem Theaterschiff Batavia in Wedel.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.batavia-wedel.de/all-you-can-hear-cosmics-best-of-the-eighties/
+URL:https://www.batavia-wedel.de/all-you-can-hear-cosmics-best-of-the-eight
+ ies/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270129-1930-hannes-wader-reinhard-mey-zur-eh
+ re@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T193000
+DTEND;TZID=Europe/Berlin:20270129T213000
+SUMMARY:Hannes Wader & Reinhard Mey zur Ehre
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Liederabend mit Songs von Hannes Wader und Reinhard Mey auf dem
+  Theaterschiff Batavia in Wedel.\nEnde: laut Quelle nicht angegeben\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.batavia-wedel.de/24-kkf-hann
+ es-wader-reinhard-mey-zur-ehre/
+URL:https://www.batavia-wedel.de/24-kkf-hannes-wader-reinhard-mey-zur-ehre/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270130-1930-gari-fin@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T193000
+DTEND;TZID=Europe/Berlin:20270130T213000
+SUMMARY:Gari & Fin
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Folkkonzert auf dem Theaterschiff Batavia in Wedel.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.batavia-wedel.de/gari-fin/
+URL:https://www.batavia-wedel.de/gari-fin/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270212-1930-dawadochmawas@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T193000
+DTEND;TZID=Europe/Berlin:20270212T213000
+SUMMARY:DaWaDochMaWas
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Rock- und Popkonzert auf dem Theaterschiff Batavia in Wedel.\nE
+ nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
+ ttps://www.batavia-wedel.de/dawadochmawas/
+URL:https://www.batavia-wedel.de/dawadochmawas/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270219-1930-macajun-zydeco-more-from-louisia
+ na@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T193000
+DTEND;TZID=Europe/Berlin:20270219T213000
+SUMMARY:MaCajun – Zydeco & more from Louisiana
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Folkkonzert auf dem Theaterschiff Batavia in Wedel.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.batavia-wedel.de/macajun-zydeco-more-from-louisiana/
+URL:https://www.batavia-wedel.de/macajun-zydeco-more-from-louisiana/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270220-1930-blue-clarinet-stompers@myeventhu
+ b.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T193000
+DTEND;TZID=Europe/Berlin:20270220T213000
+SUMMARY:Blue Clarinet Stompers
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Jazzkonzert auf dem Theaterschiff Batavia in Wedel.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.batavia-wedel.de/blue-clarinet-stompers-2/
+URL:https://www.batavia-wedel.de/blue-clarinet-stompers-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270226-1930-celtic-cowboys@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T193000
+DTEND;TZID=Europe/Berlin:20270226T213000
+SUMMARY:Celtic Cowboys
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Folkkonzert auf dem Theaterschiff Batavia in Wedel.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.batavia-wedel.de/celtic-cowboys-2/
+URL:https://www.batavia-wedel.de/celtic-cowboys-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

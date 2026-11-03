@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Weltmusik/Folk in Itzehoe · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20261118-1930-41-wohltaetigkeitskonzert-mit-dem-mari
+ nemusikkorps@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261118T193000
+DTEND;TZID=Europe/Berlin:20261118T213000
+SUMMARY:41. Wohltätigkeitskonzert mit dem Marinemusikkorps Kiel
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Blasmusik- bzw. Shantykonzert im theater itzehoe.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://thea
+ ter-itzehoe.de/programm/?dfxid=4028
+URL:https://theater-itzehoe.de/programm/?dfxid=4028
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iz-theater-itzehoe-20270206-1500-musik-liegt-in-der-luft-shantychor-itz
+ ehoer-stoers@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T150000
+DTEND;TZID=Europe/Berlin:20270206T170000
+SUMMARY:Musik liegt in der Luft – Shantychor Itzehoer Störschipper und O
+ elixdorfer Musikzug
+LOCATION:theater itzehoe\, Theaterplatz\, 25524 Itzehoe
+DESCRIPTION:Blasmusik- bzw. Shantykonzert im theater itzehoe.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://thea
+ ter-itzehoe.de/programm/?dfxid=4005
+URL:https://theater-itzehoe.de/programm/?dfxid=4005
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

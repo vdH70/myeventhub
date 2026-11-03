@@ -1,0 +1,277 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Wedel · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261113-1930-sebastian-schnoy-mensch-mensch@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Sebastian Schnoy: Mensch\, Mensch!
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Kabarett auf dem Theaterschiff Batavia in Wedel.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.b
+ atavia-wedel.de/sebastian-schnoy-mensch-mensch/
+URL:https://www.batavia-wedel.de/sebastian-schnoy-mensch-mensch/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261114-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+DTEND;TZID=Europe/Berlin:20261114T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261121-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261126-1930-ueber-uns-der-himmel-trio-hafenn
+ acht@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Über uns der Himmel – Trio Hafennacht
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Musikalischer Theaterabend auf dem Theaterschiff Batavia in Wed
+ el.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.batavia-wedel.de/uber-uns-der-himmel-trio-hafennacht/
+URL:https://www.batavia-wedel.de/uber-uns-der-himmel-trio-hafennacht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261127-1930-ueber-uns-der-himmel-trio-hafenn
+ acht@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Über uns der Himmel – Trio Hafennacht (ausverkauft)
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Musikalischer Theaterabend auf dem Theaterschiff Batavia in Wed
+ el.\nEnde: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.batavia-wedel.de/uber-uns-der-himmel-trio-ha
+ fennacht/
+URL:https://www.batavia-wedel.de/uber-uns-der-himmel-trio-hafennacht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261128-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261204-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261205-1930-kuttel-daddeldu-s-weihnachtsfeie
+ r@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:Kuttel Daddeldu's Weihnachtsfeier
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Musikalischer Theaterabend auf dem Theaterschiff Batavia in Wed
+ el.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.batavia-wedel.de/ostern-frisch-gefarbt-und-kunterbunt-ein
+ e-ringelnatzrevue/
+URL:https://www.batavia-wedel.de/ostern-frisch-gefarbt-und-kunterbunt-eine-
+ ringelnatzrevue/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261216-1930-suesser-die-glocken-nie-hingen-v
+ on-und-mit-sonja-g@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T193000
+DTEND;TZID=Europe/Berlin:20261216T213000
+SUMMARY:Süßer die Glocken nie hingen – von und mit Sonja Gründemann
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Kabarett auf dem Theaterschiff Batavia in Wedel.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.b
+ atavia-wedel.de/suesser-die-glocken-nie-hingen-von-und-mit-sonja-gruendema
+ nn/
+URL:https://www.batavia-wedel.de/suesser-die-glocken-nie-hingen-von-und-mit
+ -sonja-gruendemann/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261218-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T193000
+DTEND;TZID=Europe/Berlin:20261218T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20261219-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T193000
+DTEND;TZID=Europe/Berlin:20261219T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270108-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T193000
+DTEND;TZID=Europe/Berlin:20270108T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270109-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T193000
+DTEND;TZID=Europe/Berlin:20270109T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270115-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T193000
+DTEND;TZID=Europe/Berlin:20270115T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270122-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T193000
+DTEND;TZID=Europe/Berlin:20270122T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270205-1930-boeing-boeing@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T193000
+DTEND;TZID=Europe/Berlin:20270205T213000
+SUMMARY:Boeing-Boeing
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Komödie mit dem Batavia-Ensemble auf dem Theaterschiff Batavia
+  in Wedel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.batavia-wedel.de/boeing-boeing/
+URL:https://www.batavia-wedel.de/boeing-boeing/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270206-1930-kerim-pamuk-lachen-wenn-alles-sc
+ hrecklich-ist@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T193000
+DTEND;TZID=Europe/Berlin:20270206T213000
+SUMMARY:Kerim Pamuk: Lachen\, wenn alles schrecklich ist
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Kabarett auf dem Theaterschiff Batavia in Wedel.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.b
+ atavia-wedel.de/kerim-pamuk-lachen-wenn-alles-schrecklich-ist/
+URL:https://www.batavia-wedel.de/kerim-pamuk-lachen-wenn-alles-schrecklich-
+ ist/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-theaterschiff-batavia-20270227-1930-zeit-der-mauser-theatergastspiel
+ @myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T193000
+DTEND;TZID=Europe/Berlin:20270227T213000
+SUMMARY:Zeit der Mauser – Theatergastspiel
+LOCATION:Theaterschiff Batavia\, Wedel
+DESCRIPTION:Theatergastspiel auf dem Theaterschiff Batavia in Wedel.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.batavia-wedel.de/zeit-der-mauser-theatergastspiel/
+URL:https://www.batavia-wedel.de/zeit-der-mauser-theatergastspiel/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

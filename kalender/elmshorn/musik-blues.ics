@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Blues in Elmshorn · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pi-haus-13-elmshorn-20270220-1900-farmersroad-blues-band@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T190000
+DTEND;TZID=Europe/Berlin:20270220T210000
+SUMMARY:Farmersroad Blues Band
+LOCATION:Haus 13 Elmshorn\, Adolfstraße 13\, 25335 Elmshorn
+DESCRIPTION:Blues- bzw. Boogie-Woogie-Konzert im Haus 13 in Elmshorn.\nEnde
+ : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
+ s://www.haus13.de/events/farmersroad-blues-band-im-haus-13-am-samstag-20-f
+ ebruar-2027-beginn-1900-uhr/
+URL:https://www.haus13.de/events/farmersroad-blues-band-im-haus-13-am-samst
+ ag-20-februar-2027-beginn-1900-uhr/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-haus-13-elmshorn-20270227-emanuel-jahreis-boogie-woogie-piano@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Emanuel Jahreis – Boogie-Woogie-Piano
+LOCATION:Haus 13 Elmshorn\, Adolfstraße 13\, 25335 Elmshorn
+DESCRIPTION:Blues- bzw. Boogie-Woogie-Konzert im Haus 13 in Elmshorn.\nQuel
+ le (bitte vor dem Besuch prüfen): https://www.haus13.de/events/emanuel-ja
+ hreis-der-boogie-woogie-pianist-am-samstag-27-februar-2027/
+URL:https://www.haus13.de/events/emanuel-jahreis-der-boogie-woogie-pianist-
+ am-samstag-27-februar-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
