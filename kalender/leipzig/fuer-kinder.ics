@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Leipzig · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:l-bach-museum-20261101-interaktive-familienfuehrung-orgelpfeifen-und-fe
+ de@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20261101T110000
+DTEND;TZID=Europe/Berlin:20261101T130000
+SUMMARY:Interaktive Familienführung „Orgelpfeifen und Federkiele“
+LOCATION:Bach-Museum Leipzig\, Thomaskirchhof 15/16\, 04109 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.bachmuseumleipzig.de/de/bach-museum
+URL:https://www.bachmuseumleipzig.de/de/bach-museum
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-westfluegel-20261107-1600-konzert-der-stillen-dinge@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T160000
+DTEND;TZID=Europe/Berlin:20261107T180000
+SUMMARY:Konzert der stillen Dinge
+LOCATION:Westflügel – Figurentheaterzentrum\, Hähnelstraße 27\, 04177 
+ Leipzig
+DESCRIPTION:Figurentheater für Familien ab 5 Jahren.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.westflue
+ gel.de/programm/spielplan/
+URL:https://www.westfluegel.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-nato-20261108-1100-der-gruene-frosch-knalltheater@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Der Grüne Frosch – Knalltheater
+LOCATION:naTo (Spielort der Cinémathèque Leipzig)\, Karl-Liebknecht-Stra
+ ße 46\, 04275 Leipzig
+DESCRIPTION:Kindertheater mit dem Knalltheater in der naTo.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://nato-l
+ eipzig.de/programm/
+URL:https://nato-leipzig.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-westfluegel-20261108-1100-konzert-der-stillen-dinge@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Konzert der stillen Dinge
+LOCATION:Westflügel – Figurentheaterzentrum\, Hähnelstraße 27\, 04177 
+ Leipzig
+DESCRIPTION:Figurentheater für Familien ab 5 Jahren.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.westflue
+ gel.de/programm/spielplan/
+URL:https://www.westfluegel.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-nato-20261115-1100-der-bummelprinz-knalltheater@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Der Bummelprinz – Knalltheater
+LOCATION:naTo (Spielort der Cinémathèque Leipzig)\, Karl-Liebknecht-Stra
+ ße 46\, 04275 Leipzig
+DESCRIPTION:Kindertheater mit dem Knalltheater in der naTo.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://nato-l
+ eipzig.de/programm/
+URL:https://nato-leipzig.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-westfluegel-20261129-1600-fuchs-und-baer-haben-einen-plan@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T160000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Fuchs und Bär haben einen Plan
+LOCATION:Westflügel – Figurentheaterzentrum\, Hähnelstraße 27\, 04177 
+ Leipzig
+DESCRIPTION:Familienvorstellung ab 4 Jahren.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.westfluegel.de/pr
+ ogramm/spielplan/
+URL:https://www.westfluegel.de/programm/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-haus-auensee-20261206-der-traumzauberbaum-herr-kellerstaub-rettet-wei
+ hna@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Der Traumzauberbaum – Herr Kellerstaub rettet Weihnachten
+LOCATION:Haus Auensee\, Gustav-Esche-Straße 6\, 04159 Leipzig
+DESCRIPTION:Familienkonzert im Haus Auensee in Wahren.\nQuelle (bitte vor d
+ em Besuch prüfen): https://www.haus-auensee-leipzig.de/
+URL:https://www.haus-auensee-leipzig.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-nato-20261220-1100-frau-holle-kaninchenkatze@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T130000
+SUMMARY:Frau Holle – Kaninchenkatze
+LOCATION:naTo (Spielort der Cinémathèque Leipzig)\, Karl-Liebknecht-Stra
+ ße 46\, 04275 Leipzig
+DESCRIPTION:Kindertheater nach dem Märchen in der naTo.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://nato-leip
+ zig.de/programm/
+URL:https://nato-leipzig.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
