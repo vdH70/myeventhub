@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:c-rathaus-weihnachtsmarkt-20261127-chemnitzer-weihnachtsmarkt-2026-begi
  nn@myeventhub.de
@@ -42,6 +59,22 @@ DESCRIPTION:Weihnachtsmarkt rund um das Rathaus.\nLaufzeit: 27.11.2026 bis
  ristmas_market_chemnitz
 URL:https://www.chemnitz.de/en/culture/highlights/christmas_market/christma
  s_market_chemnitz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-opernhaus-20270206-1900-happy-together-23-chemnitzer-opernball@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T190000
+DTEND;TZID=Europe/Berlin:20270206T210000
+SUMMARY:Happy Together – 23. Chemnitzer Opernball
+LOCATION:Opernhaus Chemnitz\, Chemnitz
+DESCRIPTION:Opernball der Theater Chemnitz im Opernhaus.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.theat
+ er-chemnitz.de/spielplan?tx_ccrepertoire_list[month]=2&tx_ccrepertoire_lis
+ t[year]=2027
+URL:https://www.theater-chemnitz.de/spielplan?tx_ccrepertoire_list[month]=2
+ &tx_ccrepertoire_list[year]=2027
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

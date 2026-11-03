@@ -1,0 +1,849 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Potsdam · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261031-im-spiegelsaal@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Im Spiegelsaal
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Spielstätte: Reithalle.\nEnde: laut Quelle nicht angegeben\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.hansottotheater.de/spielp
+ lan/monatsplan/
+URL:https://www.hansottotheater.de/spielplan/monatsplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261031-late-night-hamlet@myeventhub.de
+DTSTAMP:20261031T000000Z
+DTSTART;TZID=Europe/Berlin:20261031T193000
+DTEND;TZID=Europe/Berlin:20261031T213000
+SUMMARY:Late Night Hamlet (ausverkauft)
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Spielstätte: Großes Haus.\nEnde: laut Quelle nicht angegeben\
+ nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.hansottot
+ heater.de/spielplan/monatsplan/
+URL:https://www.hansottotheater.de/spielplan/monatsplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261103-die-comedy-wundertuete@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Die Comedy-Wundertüte
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261104-1930-jugend-ohne-gott@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261104T193000
+DTEND;TZID=Europe/Berlin:20261104T213000
+SUMMARY:Jugend ohne Gott
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nPreis: ausverkauft\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261106-1930-mutter-courage-und-ihre-kinder@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T193000
+DTEND;TZID=Europe/Berlin:20261106T213000
+SUMMARY:Mutter Courage und ihre Kinder
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261106-dichten-bis-ich-dresche-kriege@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Dichten\, bis ich dresche Kriege
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261107-1800-die-nibelungen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T180000
+DTEND;TZID=Europe/Berlin:20261107T200000
+SUMMARY:Die Nibelungen
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261107-1930-unidram-meta@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T193000
+DTEND;TZID=Europe/Berlin:20261107T213000
+SUMMARY:Unidram: Meta
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261108-1600-zur-froehlichen-zwietracht@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T160000
+DTEND;TZID=Europe/Berlin:20261108T180000
+SUMMARY:Zur fröhlichen Zwietracht!
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261113-1930-jugend-ohne-gott@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Jugend ohne Gott
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261113-1930-mutter-courage-und-ihre-kinder@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+DTEND;TZID=Europe/Berlin:20261113T213000
+SUMMARY:Mutter Courage und ihre Kinder
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261113-sie-kennen-mich@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Sie kennen mich
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nPreis: ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://www.ka
+ barett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261114-1700-serotonin@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T170000
+DTEND;TZID=Europe/Berlin:20261114T190000
+SUMMARY:Serotonin
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261114-1800-die-nibelungen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T180000
+DTEND;TZID=Europe/Berlin:20261114T200000
+SUMMARY:Die Nibelungen
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261114-besser-sex-nach-sechs-als-fuenf-vor-zwoelf@
+ myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Besser Sex nach Sechs als Fünf vor Zwölf
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261115-1600-der-gott-des-gemetzels@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:Der Gott des Gemetzels
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261115-1800-farm-der-tiere@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+SUMMARY:Farm der Tiere
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261120-unaufhaltsam-unterhaltsam@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Unaufhaltsam unterhaltsam
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261121-1930-jugend-ohne-gott@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Jugend ohne Gott
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261121-1930-zur-froehlichen-zwietracht@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+DTEND;TZID=Europe/Berlin:20261121T213000
+SUMMARY:Zur fröhlichen Zwietracht!
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261121-sex-suff-u-a-schadensfaelle@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Sex\, Suff u.a. Schadensfälle
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261122-1800-die-physiker@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T180000
+DTEND;TZID=Europe/Berlin:20261122T200000
+SUMMARY:Die Physiker
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261126-1930-mutter-courage-und-ihre-kinder@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Mutter Courage und ihre Kinder
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261127-1930-im-spiegelsaal@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Im Spiegelsaal
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261127-1930-videoschnipselabend@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+DTEND;TZID=Europe/Berlin:20261127T213000
+SUMMARY:Videoschnipselabend
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261128-1930-create-resistance-eine-nacht-fuer-han
+ s-otto@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Create Resistance! Eine Nacht für Hans Otto
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261128-1930-die-zauberfloete-the-opera-but-not-th
+ e-opera@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T213000
+SUMMARY:Die Zauberflöte. The Opera but not the Opera
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261129-1700-serotonin@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T170000
+DTEND;TZID=Europe/Berlin:20261129T190000
+SUMMARY:Serotonin
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-lindenpark-20261129-1900-max-toni-uthoff-einer-zuviel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T190000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Max & Toni Uthoff – „Einer zuviel“
+LOCATION:Lindenpark\, Potsdam
+DESCRIPTION:Kabarettabend im Saal des Lindenparks in Babelsberg.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.lindenpark.de/
+URL:https://www.lindenpark.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261204-1800-also-traeumen-wir-mit-hellwacher-vern
+ unft@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T180000
+DTEND;TZID=Europe/Berlin:20261204T200000
+SUMMARY:Also träumen wir mit hellwacher Vernunft
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261204-1930-faust-1-2-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T193000
+DTEND;TZID=Europe/Berlin:20261204T213000
+SUMMARY:Faust 1+2+3
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-t-werk-20261204-2000-grand-hotel-grimm-die-berliner-stadtmusikanten-t
+ ei@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Grand Hotel Grimm – Die Berliner Stadtmusikanten Teil V
+LOCATION:T-Werk\, Schiffbauergasse 4 E\, 14467 Potsdam
+DESCRIPTION:Abendvorstellung des Theaters Zitadelle im T-Werk an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.t-werk.de/
+URL:https://www.t-werk.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261205-1930-die-physiker@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+SUMMARY:Die Physiker
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-t-werk-20261205-2000-grand-hotel-grimm-die-berliner-stadtmusikanten-t
+ ei@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Grand Hotel Grimm – Die Berliner Stadtmusikanten Teil V
+LOCATION:T-Werk\, Schiffbauergasse 4 E\, 14467 Potsdam
+DESCRIPTION:Abendvorstellung des Theaters Zitadelle im T-Werk an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.t-werk.de/
+URL:https://www.t-werk.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261208-1800-faust-1-2-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T180000
+DTEND;TZID=Europe/Berlin:20261208T200000
+SUMMARY:Faust 1+2+3
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261209-1800-faust-1-2-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T180000
+DTEND;TZID=Europe/Berlin:20261209T200000
+SUMMARY:Faust 1+2+3
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261210-end-spiel-mit-verlaengerung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:End-Spiel mit Verlängerung
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261211-1930-zur-froehlichen-zwietracht@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T193000
+DTEND;TZID=Europe/Berlin:20261211T213000
+SUMMARY:Zur fröhlichen Zwietracht!
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261211-die-butter-steht-wirklich-im-kuehlschrank@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Die Butter steht wirklich im Kühlschrank!
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261212-1930-jugend-ohne-gott@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:Jugend ohne Gott
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261212-1930-mutter-courage-und-ihre-kinder@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:Mutter Courage und ihre Kinder
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261213-1800-die-nibelungen@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T180000
+DTEND;TZID=Europe/Berlin:20261213T200000
+SUMMARY:Die Nibelungen
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261216-1800-faust-1-2-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T180000
+DTEND;TZID=Europe/Berlin:20261216T200000
+SUMMARY:Faust 1+2+3
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261218-1930-jugend-ohne-gott@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T193000
+DTEND;TZID=Europe/Berlin:20261218T213000
+SUMMARY:Jugend ohne Gott
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261218-1930-mutter-courage-und-ihre-kinder@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T193000
+DTEND;TZID=Europe/Berlin:20261218T213000
+SUMMARY:Mutter Courage und ihre Kinder
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261218-schoene-bescherung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Schöne Bescherung
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261219-1930-die-zauberfloete-the-opera-but-not-th
+ e-opera@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T193000
+DTEND;TZID=Europe/Berlin:20261219T213000
+SUMMARY:Die Zauberflöte. The Opera but not the Opera
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261219-1930-im-spiegelsaal@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T193000
+DTEND;TZID=Europe/Berlin:20261219T213000
+SUMMARY:Im Spiegelsaal
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261220-1700-serotonin@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T170000
+DTEND;TZID=Europe/Berlin:20261220T190000
+SUMMARY:Serotonin
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261222-1800-serotonin@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T180000
+DTEND;TZID=Europe/Berlin:20261222T200000
+SUMMARY:Serotonin
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261223-1930-faust-1-2-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T193000
+DTEND;TZID=Europe/Berlin:20261223T213000
+SUMMARY:Faust 1+2+3
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261225-1930-die-zauberfloete-the-opera-but-not-th
+ e-opera@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T193000
+DTEND;TZID=Europe/Berlin:20261225T213000
+SUMMARY:Die Zauberflöte. The Opera but not the Opera
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261226-1930-faust-1-2-3@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T193000
+DTEND;TZID=Europe/Berlin:20261226T213000
+SUMMARY:Faust 1+2+3
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261228-1930-die-physiker@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T193000
+DTEND;TZID=Europe/Berlin:20261228T213000
+SUMMARY:Die Physiker
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261229-1930-im-spiegelsaal@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261229T193000
+DTEND;TZID=Europe/Berlin:20261229T213000
+SUMMARY:Im Spiegelsaal
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261230-1930-der-gott-des-gemetzels@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T193000
+DTEND;TZID=Europe/Berlin:20261230T213000
+SUMMARY:Der Gott des Gemetzels
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261230-1930-farm-der-tiere@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261230T193000
+DTEND;TZID=Europe/Berlin:20261230T213000
+SUMMARY:Farm der Tiere
+LOCATION:Reithalle
+DESCRIPTION:Vorstellung im Hans Otto Theater in der Reithalle an der Schiff
+ bauergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261230-die-jahrespresseschau@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Die Jahrespresseschau
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nQuelle (bitte vor dem Besuch prüfen): https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261231-1500-die-obelisk-silvester-gala-best-of-202
+ 6@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T150000
+DTEND;TZID=Europe/Berlin:20261231T170000
+SUMMARY:Die Obelisk Silvester-Gala Best of 2026
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-hans-otto-theater-20261231-1800-zur-froehlichen-zwietracht@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T180000
+DTEND;TZID=Europe/Berlin:20261231T200000
+SUMMARY:Zur fröhlichen Zwietracht!
+LOCATION:Hans Otto Theater\, Schiffbauergasse 11\, 14467 Potsdam
+DESCRIPTION:Vorstellung im Hans Otto Theater im Großen Haus an der Schiffb
+ auergasse.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.hansottotheater.de/spielplan/
+URL:https://www.hansottotheater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261231-1800-die-obelisk-silvester-gala-best-of-202
+ 6@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T180000
+DTEND;TZID=Europe/Berlin:20261231T200000
+SUMMARY:Die Obelisk Silvester-Gala Best of 2026
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p-kabarett-obelisk-20261231-2100-die-obelisk-silvester-gala-best-of-202
+ 6@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T210000
+DTEND;TZID=Europe/Berlin:20261231T230000
+SUMMARY:Die Obelisk Silvester-Gala Best of 2026
+LOCATION:Kabarett Obelisk\, Charlottenstraße 31\, 14467 Potsdam
+DESCRIPTION:Kabarettabend im Kabarett Obelisk in der Potsdamer Innenstadt.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.kabarett-potsdam.de/
+URL:https://www.kabarett-potsdam.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
