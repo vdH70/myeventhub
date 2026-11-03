@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ul-roxy-20261108-1400-randale-rockmusik-fuer-kinder@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:RANDALE – Rockmusik für Kinder
+LOCATION:Cafébar
+DESCRIPTION:Familienkonzert im ROXY Ulm.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.roxy.ulm.de/programm/
+ programm.php
+URL:https://www.roxy.ulm.de/programm/programm.php
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:ul-theater-ulm-20261126-max-und-moritz-premiere@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -20,6 +50,124 @@ LOCATION:Theater Ulm – Großes Haus\, Ulm
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.theater-ulm.
  de/spielplan/stuecke/max-und-moritz
 URL:https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-theater-ulm-20261129-1100-max-und-moritz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T130000
+SUMMARY:Max und Moritz
+LOCATION:Theater Ulm – Großes Haus\, Ulm
+DESCRIPTION:Familienstück im Großen Haus des Theaters Ulm.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ heater-ulm.de/spielplan
+URL:https://www.theater-ulm.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-theater-ulm-20261129-1300-max-und-moritz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T130000
+DTEND;TZID=Europe/Berlin:20261129T150000
+SUMMARY:Max und Moritz
+LOCATION:Theater Ulm – Großes Haus\, Ulm
+DESCRIPTION:Familienstück im Großen Haus des Theaters Ulm.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ heater-ulm.de/spielplan
+URL:https://www.theater-ulm.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-theater-ulm-20261206-1300-max-und-moritz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T130000
+DTEND;TZID=Europe/Berlin:20261206T150000
+SUMMARY:Max und Moritz
+LOCATION:Theater Ulm – Großes Haus\, Ulm
+DESCRIPTION:Familienstück im Großen Haus des Theaters Ulm.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ heater-ulm.de/spielplan
+URL:https://www.theater-ulm.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-theater-ulm-20261206-1600-max-und-moritz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T160000
+DTEND;TZID=Europe/Berlin:20261206T180000
+SUMMARY:Max und Moritz
+LOCATION:Theater Ulm – Großes Haus\, Ulm
+DESCRIPTION:Familienstück im Großen Haus des Theaters Ulm.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ heater-ulm.de/spielplan
+URL:https://www.theater-ulm.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-theater-ulm-20261220-1100-max-und-moritz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T130000
+SUMMARY:Max und Moritz
+LOCATION:Theater Ulm – Großes Haus\, Ulm
+DESCRIPTION:Familienstück im Großen Haus des Theaters Ulm.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ heater-ulm.de/spielplan
+URL:https://www.theater-ulm.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-roxy-20261220-1400-ich-herr-meyer-das-unfassbare-weihnachtskonzert@m
+ yeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T140000
+DTEND;TZID=Europe/Berlin:20261220T160000
+SUMMARY:Ich & Herr Meyer – Das unfassbare Weihnachtskonzert
+LOCATION:Werkhalle
+DESCRIPTION:Familienkonzert im ROXY Ulm.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.roxy.ulm.de/programm/
+ programm.php?m=12&j=2026
+URL:https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-theater-ulm-20261226-1100-max-und-moritz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T110000
+DTEND;TZID=Europe/Berlin:20261226T130000
+SUMMARY:Max und Moritz
+LOCATION:Theater Ulm – Großes Haus\, Ulm
+DESCRIPTION:Familienstück im Großen Haus des Theaters Ulm.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ heater-ulm.de/spielplan
+URL:https://www.theater-ulm.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-theater-ulm-20261226-1300-max-und-moritz@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T130000
+DTEND;TZID=Europe/Berlin:20261226T150000
+SUMMARY:Max und Moritz
+LOCATION:Theater Ulm – Großes Haus\, Ulm
+DESCRIPTION:Familienstück im Großen Haus des Theaters Ulm.\nEnde: laut Qu
+ elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.t
+ heater-ulm.de/spielplan
+URL:https://www.theater-ulm.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-roxy-20270124-1400-eule-findet-den-beat-mit-gefuehl@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T140000
+DTEND;TZID=Europe/Berlin:20270124T160000
+SUMMARY:Eule findet den Beat – mit Gefühl
+LOCATION:Werkhalle
+DESCRIPTION:Familienkonzert im ROXY Ulm.\nEnde: laut Quelle nicht angegeben
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.roxy.ulm.de/programm/
+ programm.php?m=1&j=2027
+URL:https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
