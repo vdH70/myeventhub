@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:emd-kunsthalle-20261004-oeffentliche-fuehrung-ende@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -21,6 +38,126 @@ DESCRIPTION:Laufzeit: 4.10.2026 bis 31.3.2027\nTermine laut Veranstalter: s
  onntags 11:30 Uhr\nQuelle (bitte vor dem Besuch prüfen): https://www.kuns
  thalle-emden.de/
 URL:https://www.kunsthalle-emden.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261108-1130-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T113000
+DTEND;TZID=Europe/Berlin:20261108T133000
+SUMMARY:Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Öffentliche Führung durch die aktuellen Ausstellungen der Kun
+ sthalle Emden.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdeta
+ ils/ffentliche-f-hrung-2026-11-08-11-30-133867
+URL:https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdetails/ffentlich
+ e-f-hrung-2026-11-08-11-30-133867
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261115-1130-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T113000
+DTEND;TZID=Europe/Berlin:20261115T133000
+SUMMARY:Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Öffentliche Führung durch die aktuellen Ausstellungen der Kun
+ sthalle Emden.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdeta
+ ils/ffentliche-f-hrung-2026-11-15-11-30-133868
+URL:https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdetails/ffentlich
+ e-f-hrung-2026-11-15-11-30-133868
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261122-1130-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T113000
+DTEND;TZID=Europe/Berlin:20261122T133000
+SUMMARY:Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Öffentliche Führung durch die aktuellen Ausstellungen der Kun
+ sthalle Emden.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdeta
+ ils/ffentliche-f-hrung-2026-11-22-11-30-133869
+URL:https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdetails/ffentlich
+ e-f-hrung-2026-11-22-11-30-133869
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261129-1130-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T113000
+DTEND;TZID=Europe/Berlin:20261129T133000
+SUMMARY:Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Öffentliche Führung durch die aktuellen Ausstellungen der Kun
+ sthalle Emden.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdeta
+ ils/ffentliche-f-hrung-2026-11-29-11-30-133870
+URL:https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdetails/ffentlich
+ e-f-hrung-2026-11-29-11-30-133870
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261206-1130-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T113000
+DTEND;TZID=Europe/Berlin:20261206T133000
+SUMMARY:Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Öffentliche Führung durch die aktuellen Ausstellungen der Kun
+ sthalle Emden.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdeta
+ ils/ffentliche-f-hrung-2026-12-06-11-30-133871
+URL:https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdetails/ffentlich
+ e-f-hrung-2026-12-06-11-30-133871
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261213-1130-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T113000
+DTEND;TZID=Europe/Berlin:20261213T133000
+SUMMARY:Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Öffentliche Führung durch die aktuellen Ausstellungen der Kun
+ sthalle Emden.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdeta
+ ils/ffentliche-f-hrung-2026-12-13-11-30-133872
+URL:https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdetails/ffentlich
+ e-f-hrung-2026-12-13-11-30-133872
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261220-1130-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T113000
+DTEND;TZID=Europe/Berlin:20261220T133000
+SUMMARY:Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Öffentliche Führung durch die aktuellen Ausstellungen der Kun
+ sthalle Emden.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdeta
+ ils/ffentliche-f-hrung-2026-12-20-11-30-133873
+URL:https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdetails/ffentlich
+ e-f-hrung-2026-12-20-11-30-133873
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emd-kunsthalle-20261227-1130-oeffentliche-fuehrung@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T113000
+DTEND;TZID=Europe/Berlin:20261227T133000
+SUMMARY:Öffentliche Führung
+LOCATION:Kunsthalle Emden\, Hinter dem Rahmen 13\, 26721 Emden
+DESCRIPTION:Öffentliche Führung durch die aktuellen Ausstellungen der Kun
+ sthalle Emden.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdeta
+ ils/ffentliche-f-hrung-2026-12-27-11-30-133874
+URL:https://kunsthalle-emden.de/kunst-aktiv/veranstaltungsdetails/ffentlich
+ e-f-hrung-2026-12-27-11-30-133874
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
