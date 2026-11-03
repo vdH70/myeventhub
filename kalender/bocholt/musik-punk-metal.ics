@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Punk/Metal in Bocholt · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:boh-vogelhaus-20261107-2000-metal-meets-punk-live-kreftich-lords-of-the
+ -wastel@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Metal meets Punk – live: Kreftich\, Lords of the Wasteland
+LOCATION:Vogelhaus Bocholt\, Zur Eisenhütte 4\, Bocholt
+DESCRIPTION:Metal- und Punkkonzert im Vogelhaus Bocholt.\nEnde: laut Quelle
+  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.vogel
+ haus-bocholt.de/veranstaltungen/
+URL:https://www.vogelhaus-bocholt.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boh-alte-molkerei-20270115-2000-safi-zwischen-punk-poesie-und-laerm@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:SAFI – zwischen Punk\, Poesie und Lärm
+LOCATION:Alte Molkerei\, Werther Straße 16\, 46395 Bocholt
+DESCRIPTION:Konzert zwischen Punk und Poesie im Kulturort Alte Molkerei Boc
+ holt.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://alte-molkerei.info/event/safi-zwischen-punk-poesie-und-lae
+ rm-2/
+URL:https://alte-molkerei.info/event/safi-zwischen-punk-poesie-und-laerm-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:boh-alte-molkerei-20270116-2000-metakilla-the-original-metallica-tribut
+ e@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:METAKILLA – The Original Metallica Tribute
+LOCATION:Alte Molkerei\, Werther Straße 16\, 46395 Bocholt
+DESCRIPTION:Metallica-Tribute-Konzert im Kulturort Alte Molkerei Bocholt.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://alte-molkerei.info/event/metakilla-the-original-metallica-tribute-
+ 3/
+URL:https://alte-molkerei.info/event/metakilla-the-original-metallica-tribu
+ te-3/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

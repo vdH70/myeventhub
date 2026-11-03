@@ -10,6 +10,143 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mi-jazz-club-minden-20261106-2100-bop-twenty-six@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T210000
+DTEND;TZID=Europe/Berlin:20261106T230000
+SUMMARY:Bop Twenty-Six
+LOCATION:Jazz Club Minden\, Minden
+DESCRIPTION:Livekonzert im Jazz Club Minden am Königswall.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ja
+ zz-minden.de/events/bop-twenty-six/
+URL:https://www.jazz-minden.de/events/bop-twenty-six/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-jazz-club-minden-20261107-2100-bobby-sparks-ii@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T210000
+DTEND;TZID=Europe/Berlin:20261107T230000
+SUMMARY:Bobby Sparks II
+LOCATION:Jazz Club Minden\, Minden
+DESCRIPTION:Livekonzert im Jazz Club Minden am Königswall.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ja
+ zz-minden.de/events/bobby-sparks/
+URL:https://www.jazz-minden.de/events/bobby-sparks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-jazz-club-minden-20261114-2100-marius-neset-quartett@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T210000
+DTEND;TZID=Europe/Berlin:20261114T230000
+SUMMARY:Marius Neset Quartett
+LOCATION:Jazz Club Minden\, Minden
+DESCRIPTION:Livekonzert im Jazz Club Minden am Königswall.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ja
+ zz-minden.de/events/marius-neset/
+URL:https://www.jazz-minden.de/events/marius-neset/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-jazz-club-minden-20261121-2100-young-jazz-ahead-doppelkonzert-lylac-
+ sourcrowd@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T210000
+DTEND;TZID=Europe/Berlin:20261121T230000
+SUMMARY:Young Jazz Ahead (Doppelkonzert): Lylac | Sourcrowd
+LOCATION:Jazz Club Minden\, Minden
+DESCRIPTION:Livekonzert im Jazz Club Minden am Königswall.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ja
+ zz-minden.de/events/young-jazz-ahead-doppelkonzert-2/
+URL:https://www.jazz-minden.de/events/young-jazz-ahead-doppelkonzert-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-jazz-club-minden-20261128-2100-philip-lassiter-band@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T210000
+DTEND;TZID=Europe/Berlin:20261128T230000
+SUMMARY:Philip Lassiter Band
+LOCATION:Jazz Club Minden\, Minden
+DESCRIPTION:Livekonzert im Jazz Club Minden am Königswall.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ja
+ zz-minden.de/events/philip-lassiter-2/
+URL:https://www.jazz-minden.de/events/philip-lassiter-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-jazz-club-minden-20261129-2100-jeff-lorber@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T210000
+DTEND;TZID=Europe/Berlin:20261129T230000
+SUMMARY:Jeff Lorber
+LOCATION:Jazz Club Minden\, Minden
+DESCRIPTION:Livekonzert im Jazz Club Minden am Königswall.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ja
+ zz-minden.de/events/jeff-lorber-2/
+URL:https://www.jazz-minden.de/events/jeff-lorber-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-jazz-club-minden-20261205-2100-shalosh@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T210000
+DTEND;TZID=Europe/Berlin:20261205T230000
+SUMMARY:Shalosh
+LOCATION:Jazz Club Minden\, Minden
+DESCRIPTION:Livekonzert im Jazz Club Minden am Königswall.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ja
+ zz-minden.de/events/shalosh-2/
+URL:https://www.jazz-minden.de/events/shalosh-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-jazz-club-minden-20261211-2100-jane-monheit@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T210000
+DTEND;TZID=Europe/Berlin:20261211T230000
+SUMMARY:Jane Monheit
+LOCATION:Jazz Club Minden\, Minden
+DESCRIPTION:Livekonzert im Jazz Club Minden am Königswall.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ja
+ zz-minden.de/events/jane-monheit/
+URL:https://www.jazz-minden.de/events/jane-monheit/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mi-jazz-club-minden-20261219-2100-wolfgang-muthspiel-confluence-feat-li
+ nda-may-han-o@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T210000
+DTEND;TZID=Europe/Berlin:20261219T230000
+SUMMARY:Wolfgang Muthspiel – Confluence feat. Linda May Han Oh & Lionel L
+ oueke
+LOCATION:Jazz Club Minden\, Minden
+DESCRIPTION:Livekonzert im Jazz Club Minden am Königswall.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.ja
+ zz-minden.de/events/wolfgang-muthspiel/
+URL:https://www.jazz-minden.de/events/wolfgang-muthspiel/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:mi-stadttheater-minden-20270412-goetz-alsmann-band-mit-kompliment@myeve
  nthub.de
