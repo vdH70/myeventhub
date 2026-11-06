@@ -1,0 +1,51 @@
+# Thomas 06.11.2026 (PageSpeed, Entscheidung „GitHub erneuert sie nachts“): erste Ansicht der Startseite jeden Tag
+# kurz nach Mitternacht (deutsche Zeit) erneuern. Ohne aktuelle erste Ansicht lädt die Startseite sofort den ganzen
+# Katalog (~2 MB) und PageSpeed fällt von ~98 auf ~47. Ändert nur index.html. Kostet kein Claude-Kontingent.
+name: Vorschau täglich erneuern
+on:
+  schedule:
+    - cron: '7 22,23 * * *'   # 0:07 Uhr deutsche Zeit (Sommer- bzw. Winterzeit); die jeweils andere Ausführung ändert nichts
+    - cron: '37 4 * * *'      # Ersatzlauf, falls der nächtliche Lauf ausfällt
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: vorschau-taeglich
+  cancel-in-progress: false
+jobs:
+  vorschau:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Playwright installieren
+        run: |
+          mkdir -p "$RUNNER_TEMP/pw" && cd "$RUNNER_TEMP/pw" && npm init -y >/dev/null && npm i --no-audit --no-fund playwright@1.48.2 >/dev/null
+          npx playwright install --with-deps chromium
+      - name: Erste Ansicht erneuern und veröffentlichen
+        env:
+          NODE_PATH: ${{ runner.temp }}/pw/node_modules
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            node tools/vorschau-taeglich.js .
+            if git diff --quiet -- index.html; then echo "keine Änderung"; exit 0; fi
+            git add index.html
+            git commit -q -m "Startseite: erste Ansicht für $(TZ=Europe/Berlin date +%d.%m.%Y) erneuert"
+            if git push -q origin HEAD:main; then echo "gepusht"; break; fi
+            echo "Push abgelehnt (gleichzeitige Änderung), neuer Versuch"; sleep 15
+          done
+      - name: GitHub Pages neu bauen
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" >/dev/null && echo "Pages-Build angestoßen"
