@@ -28,56 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:n-hirsch-20261031-happy-halloween-rock-party@myeventhub.de
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Happy Halloween Rock Party
-LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.der-hirsch.c
- om/konzert-details/happy-halloween-rock-party-2026-10-31.html
-URL:https://www.der-hirsch.com/konzert-details/happy-halloween-rock-party-2
- 026-10-31.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:n-hirsch-20261101-veljanov@myeventhub.de
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Veljanov
-LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.der-hirsch.c
- om/konzert-details/veljanov-2026-11-01.html
-URL:https://www.der-hirsch.com/konzert-details/veljanov-2026-11-01.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:n-z-bau-20261103-2000-soffie@myeventhub.de
-DTSTAMP:20261103T000000Z
-DTSTART;TZID=Europe/Berlin:20261103T200000
-DTEND;TZID=Europe/Berlin:20261103T220000
-SUMMARY:Soffie
-LOCATION:Z-Bau – Haus für Gegenwartskultur\, Frankenstraße 200\, 90461 
- Nürnberg
-DESCRIPTION:Veranstaltung im Z-Bau (Galerie).\nEnde: laut Quelle nicht ange
- geben\nQuelle (bitte vor dem Besuch prüfen): https://z-bau.com/
-URL:https://z-bau.com/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:n-hirsch-20261103-letz-zep@myeventhub.de
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:Letz Zep
-LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.der-hirsch.c
- om/konzert-details/letz-zep-2026-11-03.html
-URL:https://www.der-hirsch.com/konzert-details/letz-zep-2026-11-03.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:n-loewensaal-20261107-2000-the-sisters-of-mercy@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20261107T200000
@@ -105,15 +55,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:n-hirsch-20261108-the-music-of-santana@myeventhub.de
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261106T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-SUMMARY:The Music of Santana
+SUMMARY:ABGESAGT: The Music of Santana
 LOCATION:Der Hirsch\, Vogelweiherstr. 66\, 90441 Nürnberg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.der-hirsch.c
  om/konzert-details/the-music-of-santana-2026-11-08.html
 URL:https://www.der-hirsch.com/konzert-details/the-music-of-santana-2026-11
  -08.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: The Music of Santana am 8.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261107T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

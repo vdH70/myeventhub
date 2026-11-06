@@ -28,74 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ol-theater-laboratorium-20261031-monsieur-ibrahim-und-die-blumen-des-ko
- ra@myeventhub.de
-DTSTAMP:20261031T000000Z
-DTSTART;TZID=Europe/Berlin:20261031T200000
-DTEND;TZID=Europe/Berlin:20261031T220000
-SUMMARY:Monsieur Ibrahim und die Blumen des Koran
-LOCATION:Theater Laboratorium\, Kleine Straße 8\, 26121 Oldenburg
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.theater-laboratorium.org/index.php?r=site%2Fcalende
- r
-URL:https://www.theater-laboratorium.org/index.php?r=site%2Fcalender
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ol-theater-laboratorium-20261101-monsieur-ibrahim-und-die-blumen-des-ko
- ra@myeventhub.de
-DTSTAMP:20261026T000000Z
-DTSTART;TZID=Europe/Berlin:20261101T180000
-DTEND;TZID=Europe/Berlin:20261101T200000
-SUMMARY:Monsieur Ibrahim und die Blumen des Koran
-LOCATION:Theater Laboratorium\, Kleine Straße 8\, 26121 Oldenburg
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.theater-laboratorium.org/index.php?r=site%2Fcalende
- r
-URL:https://www.theater-laboratorium.org/index.php?r=site%2Fcalender
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ol-unikum-20261101-girl-interrupted@myeventhub.de
-DTSTAMP:20261031T000000Z
-DTSTART;TZID=Europe/Berlin:20261101T200000
-DTEND;TZID=Europe/Berlin:20261101T220000
-SUMMARY:Girl\, Interrupted
-LOCATION:Unikum (Oldenburger Uni Theater\, OUT)\, Uhlhornsweg 49-55\, 26129
-  Oldenburg
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.theater-unikum.de/spielplan/
-URL:https://www.theater-unikum.de/spielplan/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ol-theater-laboratorium-20261105-wenn-ich-wieder-klein-bin@myeventhub.d
- e
-DTSTAMP:20261026T000000Z
-DTSTART;TZID=Europe/Berlin:20261105T200000
-DTEND;TZID=Europe/Berlin:20261105T220000
-SUMMARY:Wenn ich wieder klein bin
-LOCATION:Theater Laboratorium\, Kleine Straße 8\, 26121 Oldenburg
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.theater-laboratorium.org/index.php?r=site%2Fcalende
- r
-URL:https://www.theater-laboratorium.org/index.php?r=site%2Fcalender
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ol-unikum-20261105-girl-interrupted@myeventhub.de
-DTSTAMP:20261031T000000Z
-DTSTART;TZID=Europe/Berlin:20261105T200000
-DTEND;TZID=Europe/Berlin:20261105T220000
-SUMMARY:Girl\, Interrupted
-LOCATION:Unikum (Oldenburger Uni Theater\, OUT)\, Uhlhornsweg 49-55\, 26129
-  Oldenburg
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.theater-unikum.de/spielplan/
-URL:https://www.theater-unikum.de/spielplan/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ol-theater-k-20261106-1900-im-dunkeln-ist-gut-munkeln@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20261106T190000
@@ -124,7 +56,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ol-theater-laboratorium-20261106-wenn-ich-wieder-klein-bin@myeventhub.d
  e
-DTSTAMP:20261026T000000Z
+DTSTAMP:20261106T000000Z
 DTSTART;TZID=Europe/Berlin:20261106T200000
 DTEND;TZID=Europe/Berlin:20261106T220000
 SUMMARY:Wenn ich wieder klein bin
@@ -176,16 +108,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-exhalle-20261107-wolf@myeventhub.de
-DTSTAMP:20261003T000000Z
+DTSTAMP:20261106T000000Z
 DTSTART;TZID=Europe/Berlin:20261107T200000
 DTEND;TZID=Europe/Berlin:20261107T220000
-SUMMARY:Wolf
+SUMMARY:ABGESAGT: Wolf
 LOCATION:Exhalle (Oldenburgisches Staatstheater)\, Johannisstraße 6\, 2612
  1 Oldenburg
 DESCRIPTION:Junges Staatstheater\; bis 21:25 Uhr.\nEnde: laut Quelle nicht 
  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://staatstheater.de
  /kalender
 URL:https://staatstheater.de/kalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Wolf am 7.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261107T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -232,7 +169,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ol-theater-laboratorium-20261108-wenn-ich-wieder-klein-bin@myeventhub.d
  e
-DTSTAMP:20261026T000000Z
+DTSTAMP:20261106T000000Z
 DTSTART;TZID=Europe/Berlin:20261108T180000
 DTEND;TZID=Europe/Berlin:20261108T200000
 SUMMARY:Wenn ich wieder klein bin
@@ -245,7 +182,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-kulturetage-20261108-true-crime@myeventhub.de
-DTSTAMP:20261026T000000Z
+DTSTAMP:20261106T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:True Crime (ausverkauft)
@@ -271,7 +208,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-theater-laboratorium-20261112-von-zeit-zu-zeit@myeventhub.de
-DTSTAMP:20261026T000000Z
+DTSTAMP:20261106T000000Z
 DTSTART;TZID=Europe/Berlin:20261112T200000
 DTEND;TZID=Europe/Berlin:20261112T220000
 SUMMARY:Von Zeit zu Zeit
@@ -284,7 +221,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-theater-laboratorium-20261113-von-zeit-zu-zeit@myeventhub.de
-DTSTAMP:20261026T000000Z
+DTSTAMP:20261106T000000Z
 DTSTART;TZID=Europe/Berlin:20261113T200000
 DTEND;TZID=Europe/Berlin:20261113T220000
 SUMMARY:Von Zeit zu Zeit
@@ -297,7 +234,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-unikum-20261113-hector-pascal@myeventhub.de
-DTSTAMP:20261026T000000Z
+DTSTAMP:20261106T000000Z
 DTSTART;TZID=Europe/Berlin:20261113T200000
 DTEND;TZID=Europe/Berlin:20261113T220000
 SUMMARY:HECTOR PASCAL
