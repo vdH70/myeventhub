@@ -430,7 +430,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-old-dubliner-20261114-hansen@myeventhub.de
-DTSTAMP:20261102T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261114T213000
 DTEND;TZID=Europe/Berlin:20261114T233000
 SUMMARY:Hansen
@@ -443,15 +443,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-nochtspeicher-20261115-levara@myeventhub.de
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261115T200000
 DTEND;TZID=Europe/Berlin:20261115T220000
-SUMMARY:Levara
+SUMMARY:ABGESAGT: Levara
 LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
 DESCRIPTION:Rockband aus den USA.\nEinlass 19:00\, Beginn 20:00 Uhr\nEnde: 
  laut Quelle nicht angegeben\nPreis: VVK 25 € zzgl. Gebühr\nQuelle (bitt
  e vor dem Besuch prüfen): https://nochtspeicher.de/?start=20
 URL:https://nochtspeicher.de/?start=20
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Levara am 15.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261108T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -510,15 +515,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-nochtspeicher-20261118-saint-stacy@myeventhub.de
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261118T200000
 DTEND;TZID=Europe/Berlin:20261118T220000
-SUMMARY:Saint Stacy
+SUMMARY:Saint Stacy (ausverkauft)
 LOCATION:Nochtspeicher\, Bernhard-Nocht-Straße 69a\, 20359 Hamburg
 DESCRIPTION:Indiepop aus der Schweiz\, „Beginner Again Tour“.\nEinlass 
- 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 23
-  € zzgl. Gebühr\nQuelle (bitte vor dem Besuch prüfen): https://nochtsp
- eicher.de/?start=20
+ 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nAusverkauft\n
+ Preis: VVK 23 € zzgl. Gebühr\nQuelle (bitte vor dem Besuch prüfen): ht
+ tps://nochtspeicher.de/?start=20
 URL:https://nochtspeicher.de/?start=20
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -608,7 +613,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-zwick-st-pauli-20261120-mad-man-mike@myeventhub.de
-DTSTAMP:20261102T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261120T223000
 DTEND;TZID=Europe/Berlin:20261121T003000
 SUMMARY:Mad Man Mike
@@ -685,7 +690,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-fabrik-20261123-anneke-van-giersbergen-band@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261123T190000
 DTEND;TZID=Europe/Berlin:20261123T210000
 SUMMARY:Anneke van Giersbergen & Band
@@ -778,7 +783,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-nochtspeicher-20261128-the-last-internationale@myeventhub.de
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T200000
 DTEND;TZID=Europe/Berlin:20261128T220000
 SUMMARY:The Last Internationale
@@ -858,7 +863,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-nochtwache-20261202-ell@myeventhub.de
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261202T203000
 DTEND;TZID=Europe/Berlin:20261202T223000
 SUMMARY:ELL
@@ -898,7 +903,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hh-lola-kulturzentrum-20261204-2000-skaramanga-24-7-52-train-tour-2026@
  myeventhub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261204T200000
 DTEND;TZID=Europe/Berlin:20261204T220000
 SUMMARY:SKARAMANGA – 24-7-52 Train Tour 2026
@@ -925,14 +930,14 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-fabrik-20261205-a-night-for-george-harrison@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261205T200000
 DTEND;TZID=Europe/Berlin:20261205T220000
-SUMMARY:A NIGHT FOR GEORGE HARRISON
+SUMMARY:A NIGHT FOR GEORGE HARRISON (ausverkauft)
 LOCATION:Fabrik\, Barnerstraße 36\, 22765 Hamburg
 DESCRIPTION:Mit Stefanie Hempel & The Silver Spoons.\nEinlass 19:00\, Begin
- n 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: 37\,00 €\nQuelle 
- (bitte vor dem Besuch prüfen): https://fabrik.de/programm
+ n 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nAusverkauft\nPreis: 37\,00
+  €\nQuelle (bitte vor dem Besuch prüfen): https://fabrik.de/programm
 URL:https://fabrik.de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -952,7 +957,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-nochtspeicher-20261206-maustetytoet@myeventhub.de
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261206T200000
 DTEND;TZID=Europe/Berlin:20261206T220000
 SUMMARY:Maustetytöt
@@ -1093,7 +1098,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-fabrik-20261212-the-new-roses@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261212T200000
 DTEND;TZID=Europe/Berlin:20261212T220000
 SUMMARY:The New Roses
