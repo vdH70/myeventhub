@@ -10,6 +10,74 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dd-scheune-20261220-highnachten-2026-live-neustaedter-harz-cypherkamme@
+ myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T193000
+DTEND;TZID=Europe/Berlin:20261220T213000
+SUMMARY:Highnachten 2026 live: Neustädter Harz & Cypherkammer und Gäste
+LOCATION:scheune\, Alaunstraße 36-40\, 01099 Dresden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://scheune.org/
+URL:https://scheune.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-scheune-20270310-waving-the-guns-bockig-durch-die-polykrise-tour-20@
+ myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270310T200000
+DTEND;TZID=Europe/Berlin:20270310T220000
+SUMMARY:Waving The Guns: Bockig durch die Polykrise – Tour 2027
+LOCATION:scheune\, Alaunstraße 36-40\, 01099 Dresden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://scheune.org/
+URL:https://scheune.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-scheune-20270414-moop-mama@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270414T200000
+DTEND;TZID=Europe/Berlin:20270414T220000
+SUMMARY:Moop Mama
+LOCATION:scheune\, Alaunstraße 36-40\, 01099 Dresden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://scheune.org/
+URL:https://scheune.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-scheune-20270430-tiavo-hotel-tiavo-late-check-out-tour-2027@myeventh
+ ub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T200000
+DTEND;TZID=Europe/Berlin:20270430T220000
+SUMMARY:Tiavo: Hotel Tiavo – Late Check Out Tour 2027
+LOCATION:scheune\, Alaunstraße 36-40\, 01099 Dresden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://scheune.org/
+URL:https://scheune.org/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:dd-messe-dresden-20270919-sido-frieden-tour-2027@myeventhub.de
 DTSTAMP:20261007T000000Z

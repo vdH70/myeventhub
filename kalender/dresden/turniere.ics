@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dd-scheune-20261201-chess-fanatics-schnellschachturnier-fuer-hobbyspie@
+ myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T180000
+DTEND;TZID=Europe/Berlin:20261201T200000
+SUMMARY:Chess Fanatics – Schnellschachturnier für Hobbyspieler*innen
+LOCATION:scheune\, Alaunstraße 36-40\, 01099 Dresden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://scheune.org/
+URL:https://scheune.org/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:dd-ballsportarena-20261212-walter-fritzsch-turnier-2026@myeventhub.de
 DTSTAMP:20261107T000000Z
@@ -21,6 +51,19 @@ DESCRIPTION:Hallenfußball-Legendenturnier\, 15. Auflage.\nPreis: Vollzahle
  r 31\,92 €\, ermäßigt 27\,92 €\, Kinder bis 12 J. 19\,92 €\nQuelle
   (bitte vor dem Besuch prüfen): https://www.walter-fritzsch-turnier.de/
 URL:https://www.walter-fritzsch-turnier.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-scheune-20270105-chess-fanatics-schnellschachturnier-fuer-hobbyspie@
+ myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T180000
+DTEND;TZID=Europe/Berlin:20270105T200000
+SUMMARY:Chess Fanatics – Schnellschachturnier für Hobbyspieler*innen
+LOCATION:scheune\, Alaunstraße 36-40\, 01099 Dresden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://scheune.org/
+URL:https://scheune.org/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

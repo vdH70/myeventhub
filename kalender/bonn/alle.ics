@@ -741,15 +741,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bn-pantheon-20261112-2000-lars-redlich-unaufhaltsam-unterhaltsam@myeven
  thub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261112T200000
 DTEND;TZID=Europe/Berlin:20261112T220000
-SUMMARY:Lars Redlich: Unaufhaltsam unterhaltsam!
+SUMMARY:ABGESAGT: Lars Redlich: Unaufhaltsam unterhaltsam!
 LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
 DESCRIPTION:Kabarett/Comedy im Pantheon an der Siegburger Straße.\nEnde: l
  aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
  /www.pantheon.de/programm/?date=2026-11
 URL:https://www.pantheon.de/programm/?date=2026-11
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Lars Redlich: Unaufhaltsam unterhaltsam! am 12.11.202
+ 6 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261108T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2905,6 +2911,18 @@ URL:https://www.jt-bonn.de/termine-tickets/?tx_theatre_event%5BmonthYear%5D
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:bn-pantheon-20261220-bonnvoice-weihnachtskonzert@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T190000
+DTEND;TZID=Europe/Berlin:20261220T210000
+SUMMARY:BonnVoice: Weihnachtskonzert
+LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.pantheon.de/programm/?date=2026-12
+URL:https://www.pantheon.de/programm/?date=2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bn-junges-theater-20261222-1930-die-welle@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20261222T193000
@@ -3119,6 +3137,20 @@ URL:https://www.jt-bonn.de/termine-tickets/?tx_theatre_event%5BmonthYear%5D
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:bn-pantheon-20261231-pause-alich-fritz-und-hermann-packen-aus-das-silve
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T160000
+DTEND;TZID=Europe/Berlin:20261231T180000
+SUMMARY:Pause & Alich: Fritz und Hermann packen aus – Das Silvester-Spezi
+ al
+LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.pantheon.de/programm/?date=2026-12
+URL:https://www.pantheon.de/programm/?date=2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bn-junges-theater-20261231-1830-percy-jackson-the-lightning-thief@myeve
  nthub.de
 DTSTAMP:20261103T000000Z
@@ -3148,6 +3180,32 @@ DESCRIPTION:Silvesterparty in der Brotfabrik.\nEnde: laut Quelle nicht ange
  geben\nQuelle (bitte vor dem Besuch prüfen): https://www.brotfabrik-theat
  er.de/
 URL:https://www.brotfabrik-theater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-pantheon-20261231-jean-faure-son-orchestre-silvester-soiree@myeventh
+ ub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T213000
+DTEND;TZID=Europe/Berlin:20261231T233000
+SUMMARY:Jean Faure & son orchestre: Silvester Soirée
+LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.pantheon.de/programm/?date=2026-12
+URL:https://www.pantheon.de/programm/?date=2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-pantheon-20261231-silvester-midnight-lounge-mit-dj-conrad-dj-harald@
+ myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T235000
+DTEND;TZID=Europe/Berlin:20270101T015000
+SUMMARY:Silvester Midnight-Lounge mit DJ Conrad & DJ Harald
+LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.pantheon.de/programm/?date=2026-12
+URL:https://www.pantheon.de/programm/?date=2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3272,6 +3330,18 @@ DESCRIPTION:Vorstellung des Kinder- und Jugendtheaters Junges Theater Bonn
 URL:https://www.jt-bonn.de/termine-tickets/?tx_theatre_event%5BmonthYear%5D
  =01-2027&tx_theatre_event%5Baction%5D=eventList&tx_theatre_event%5Bcontrol
  ler%5D=Event&cHash=3fd045f0d5ef35ffccd72af573747a64
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-pantheon-20270112-eva-eiselt-jetzt-oder-sie@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T200000
+DTEND;TZID=Europe/Berlin:20270112T220000
+SUMMARY:Eva Eiselt: Jetzt oder Sie
+LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.pantheon.de/programm/?date=2026-12
+URL:https://www.pantheon.de/programm/?date=2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3413,6 +3483,19 @@ DESCRIPTION:Kabarettistische Karnevalsrevue des Pantheon-Ensembles\, 44. Se
  ssion.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
  üfen): https://www.pantheon.de/programm/?date=2027-01
 URL:https://www.pantheon.de/programm/?date=2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-pantheon-20270118-beethoven-piano-club-vol-33-hauptprogramm-sergey-n
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270118T190000
+DTEND;TZID=Europe/Berlin:20270118T210000
+SUMMARY:Beethoven Piano Club Vol. 33: Hauptprogramm Sergey Neller (Klavier)
+LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.pantheon.de/programm/?date=2026-12
+URL:https://www.pantheon.de/programm/?date=2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3981,6 +4064,18 @@ URL:https://www.pantheon.de/programm/?date=2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:bn-pantheon-20270216-blind-dates-bei-emmvee@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T193000
+DTEND;TZID=Europe/Berlin:20270216T213000
+SUMMARY:Blind Dates bei EMMVEE
+LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.pantheon.de/programm/?date=2026-12
+URL:https://www.pantheon.de/programm/?date=2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bn-junges-theater-20270217-1930-geheime-freunde@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20270217T193000
@@ -3995,6 +4090,30 @@ DESCRIPTION:Vorstellung des Kinder- und Jugendtheaters Junges Theater Bonn
 URL:https://www.jt-bonn.de/termine-tickets/?tx_theatre_event%5BmonthYear%5D
  =02-2027&tx_theatre_event%5Baction%5D=eventList&tx_theatre_event%5Bcontrol
  ler%5D=Event&cHash=1f57ae6433ad1e31129e91398d52c4c0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-pantheon-20270217-blind-dates-bei-emmvee@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T193000
+DTEND;TZID=Europe/Berlin:20270217T213000
+SUMMARY:Blind Dates bei EMMVEE
+LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.pantheon.de/programm/?date=2026-12
+URL:https://www.pantheon.de/programm/?date=2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bn-pantheon-20270218-blind-dates-bei-emmvee@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T193000
+DTEND;TZID=Europe/Berlin:20270218T213000
+SUMMARY:Blind Dates bei EMMVEE
+LOCATION:Pantheon Theater\, Siegburger Straße 42\, 53229 Bonn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.pantheon.de/programm/?date=2026-12
+URL:https://www.pantheon.de/programm/?date=2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:dd-hygiene-museum-20260307-wie-geht-s-die-ausstellung-ueber-mentale-ges
  undhei-ende@myeventhub.de
@@ -343,6 +360,19 @@ DESCRIPTION:Künstlerische Intervention am Japanischen Palais.\nLaufzeit: 1
  8.11.2026 bis 7.12.2026\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuc
  h prüfen): https://japanisches-palais.skd.museum/ausstellungen/
 URL:https://japanisches-palais.skd.museum/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-societaetstheater-20270115-fotos-puppen-archiv-ausstellungseroeffnun
+ g@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T190000
+DTEND;TZID=Europe/Berlin:20270115T210000
+SUMMARY:Fotos – Puppen – Archiv (Ausstellungseröffnung)
+LOCATION:Societaetstheater\, An der Dreikönigskirche 1a\, 01097 Dresden
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.societaetstheater.de/programm/spielplan/
+URL:https://www.societaetstheater.de/programm/spielplan/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
