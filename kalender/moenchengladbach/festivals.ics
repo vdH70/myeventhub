@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festivals in Mönchengladbach · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mg-new-box-20270613-the-plant-festival@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:The Plant festival
+LOCATION:NEW Box\, Am Nordpark 299\, 41069 Mönchengladbach
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://new-box.de/termi
+ ne/
+URL:https://new-box.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

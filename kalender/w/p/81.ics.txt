@@ -451,13 +451,30 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:m-feierwerk-20261112-deluxe@myeventhub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-SUMMARY:Deluxe
+SUMMARY:ABGESAGT: Deluxe
 LOCATION:Feierwerk\, Hansastraße 39–41\, 81373 München
 DESCRIPTION:Konzert im Feierwerk (Hansa 39).\nQuelle (bitte vor dem Besuch 
  prüfen): https://www.feierwerk.de/konzert-kulturprogramm/kkp
+URL:https://www.feierwerk.de/konzert-kulturprogramm/kkp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Deluxe am 12.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261108T170000Z
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-feierwerk-20261112-triple-rit@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Triple Riøt
+LOCATION:Orangehouse
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.feierwerk.de
+ /konzert-kulturprogramm/kkp
 URL:https://www.feierwerk.de/konzert-kulturprogramm/kkp
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -501,6 +518,42 @@ URL:https://www.unterfahrt.de/programm.php
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:m-feierwerk-20261113-chaos-blast-zone@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Chaos Blast Zone
+LOCATION:Sunny Red
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.feierwerk.de
+ /konzert-kulturprogramm/kkp
+URL:https://www.feierwerk.de/konzert-kulturprogramm/kkp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-feierwerk-20261113-most-wanted-rock-punkrock-party@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Most Wanted – Rock Punkrock Party
+LOCATION:Orangehouse
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.feierwerk.de
+ /konzert-kulturprogramm/kkp
+URL:https://www.feierwerk.de/konzert-kulturprogramm/kkp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-feierwerk-20261113-waylon-wyatt@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Waylon Wyatt
+LOCATION:Hansa 39
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.feierwerk.de
+ /konzert-kulturprogramm/kkp
+URL:https://www.feierwerk.de/konzert-kulturprogramm/kkp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:m-undsofort-20261114-2000-livia-ein-generationenstueck@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261114T200000
@@ -523,6 +576,32 @@ LOCATION:Jazzclub Unterfahrt\, Einsteinstraße 42\, 81675 München
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://www.unterfahrt.de/programm.php
 URL:https://www.unterfahrt.de/programm.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-feierwerk-20261114-bass-statt-befehle-konzert-gegen-die-wehrpflicht-m
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Bass statt Befehle – Konzert gegen die Wehrpflicht mit LGoony / M
+ C Smook
+LOCATION:Kranhalle
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.feierwerk.de
+ /konzert-kulturprogramm/kkp
+URL:https://www.feierwerk.de/konzert-kulturprogramm/kkp
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-feierwerk-20261114-imperial-triumphant@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Imperial Triumphant
+LOCATION:Hansa 39
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.feierwerk.de
+ /konzert-kulturprogramm/kkp
+URL:https://www.feierwerk.de/konzert-kulturprogramm/kkp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -586,6 +665,18 @@ LOCATION:Jazzclub Unterfahrt\, Einsteinstraße 42\, 81675 München
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://www.unterfahrt.de/programm.php
 URL:https://www.unterfahrt.de/programm.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-feierwerk-20261116-facesoul@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Facesoul
+LOCATION:Hansa 39
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.feierwerk.de
+ /konzert-kulturprogramm/kkp
+URL:https://www.feierwerk.de/konzert-kulturprogramm/kkp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -850,6 +941,32 @@ URL:https://www.theater-drehleier.de/programm/event/20261203_karsten_kaie__
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:m-undsofort-20261203-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261204-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:m-theater-drehleier-20261205-wild-west-girls@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261205T200000
@@ -861,6 +978,19 @@ DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
  est_girls
 URL:https://www.theater-drehleier.de/programm/event/20261205_wild_west_girl
  s
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261205-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -879,6 +1009,44 @@ URL:https://tierschutzverein-muenchen.de/ueber-uns/aktuelles/veranstaltunge
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:m-undsofort-20261206-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+DTEND;TZID=Europe/Berlin:20261206T200000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261207-magic-monday@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T193000
+DTEND;TZID=Europe/Berlin:20261207T213000
+SUMMARY:Magic Monday
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.undsofort.de/spielplan/2026/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261210-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T200000
+DTEND;TZID=Europe/Berlin:20261210T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:m-viel-laerm-um-nichts-20261210-2000-ein-heisses-herz@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261210T200000
@@ -890,6 +1058,19 @@ DESCRIPTION:Eigenproduktion im theater VIEL LÄRM UM NICHTS in der Pasinger
   Fabrik.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
  prüfen): https://www.theaterviellaermumnichts.de/spielplan
 URL:https://www.theaterviellaermumnichts.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261211-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -931,6 +1112,19 @@ LOCATION:Bayerische Volkssternwarte München\, Rosenheimer Str. 145h\, 8167
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://sternwarte-muenchen.de/aus-unserem-programm/
 URL:https://sternwarte-muenchen.de/aus-unserem-programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261212-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -977,6 +1171,71 @@ URL:https://lachundschiess.de/events/2026-12-01/2026-12-31/all/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:m-undsofort-20261214-die-montagsmoerder@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T200000
+DTEND;TZID=Europe/Berlin:20261214T220000
+SUMMARY:Die Montagsmörder
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261215-unsinn-macht-sinn@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T193000
+DTEND;TZID=Europe/Berlin:20261215T213000
+SUMMARY:Unsinn macht Sinn
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/20 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261216-unsinn-macht-sinn@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261216T193000
+DTEND;TZID=Europe/Berlin:20261216T213000
+SUMMARY:Unsinn macht Sinn
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/20 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261217-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261218-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:m-hochx-20261219-2000-benjamin-truong-ersatzverwandte@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20261219T200000
@@ -987,6 +1246,19 @@ DESCRIPTION:Vorstellung der freien Szene im HochX Theater und Live Art an d
  er Entenbachstraße.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
   dem Besuch prüfen): https://theater-hochx.de/spielplan
 URL:https://theater-hochx.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261219-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1002,6 +1274,19 @@ DESCRIPTION:Bachs Weihnachtsoratorium mit dem Münchener Bach-Chor.\nEnde:
  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
  //www.muenchener-bachchor.de/konzerte-termine/
 URL:https://www.muenchener-bachchor.de/konzerte-termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261220-von-wegen-weihnachten@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Von wegen Weihnachten
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 20 € (erm.)\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/2026/1
+ 2
+URL:https://www.undsofort.de/spielplan/2026/12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1061,6 +1346,58 @@ URL:https://lachundschiess.de/events/2026-12-01/2026-12-31/all/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:m-undsofort-20261224-von-wegen-weihnachten@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T170000
+DTEND;TZID=Europe/Berlin:20261224T190000
+SUMMARY:Von wegen Weihnachten
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 20 € (erm.)\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/2026/1
+ 2
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261225-von-wegen-weihnachten@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T170000
+DTEND;TZID=Europe/Berlin:20261225T190000
+SUMMARY:Von wegen Weihnachten
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 20 € (erm.)\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/2026/1
+ 2
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261226-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T200000
+DTEND;TZID=Europe/Berlin:20261226T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20261227-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T170000
+DTEND;TZID=Europe/Berlin:20261227T190000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/17 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 6/12
+URL:https://www.undsofort.de/spielplan/2026/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:m-theater-drehleier-20261229-2000-satirischer-jahresrueckblick-2026@mye
  venthub.de
 DTSTAMP:20261103T000000Z
@@ -1091,6 +1428,97 @@ URL:https://www.theaterviellaermumnichts.de/spielplan
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:m-undsofort-20270102-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270102T200000
+DTEND;TZID=Europe/Berlin:20270102T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270103-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T170000
+DTEND;TZID=Europe/Berlin:20270103T190000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270104-magic-monday@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270104T193000
+DTEND;TZID=Europe/Berlin:20270104T213000
+SUMMARY:Magic Monday
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/20 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270107-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T200000
+DTEND;TZID=Europe/Berlin:20270107T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270108-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T200000
+DTEND;TZID=Europe/Berlin:20270108T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270109-meine-weste-weiss@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Meine Weste Weiss
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270110-meine-weste-weiss-zum-letzten-mal@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T170000
+DTEND;TZID=Europe/Berlin:20270110T190000
+SUMMARY:Meine Weste Weiss (zum letzten Mal)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:m-theater-drehleier-20270111-2000-satirischer-jahresrueckblick-2026@mye
  venthub.de
 DTSTAMP:20261103T000000Z
@@ -1103,6 +1531,19 @@ DESCRIPTION:Satirischer Jahresrückblick des Ensembles der Münchner Lach-
  lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://lachun
  dschiess.de/events/2027-01-01/2027-01-31/all/
 URL:https://lachundschiess.de/events/2027-01-01/2027-01-31/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270111-die-montagsmoerder@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270111T200000
+DTEND;TZID=Europe/Berlin:20270111T220000
+SUMMARY:Die Montagsmörder
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1121,6 +1562,19 @@ URL:https://lachundschiess.de/events/2027-01-01/2027-01-31/all/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:m-undsofort-20270117-konzert-sercan-oeztuerk@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T190000
+DTEND;TZID=Europe/Berlin:20270117T210000
+SUMMARY:Konzert Sercan Öztürk
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 20/15 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:m-theater-drehleier-20270122-2000-satirischer-jahresrueckblick-2026@mye
  venthub.de
 DTSTAMP:20261103T000000Z
@@ -1133,6 +1587,46 @@ DESCRIPTION:Satirischer Jahresrückblick des Ensembles der Münchner Lach-
  lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://lachun
  dschiess.de/events/2027-01-01/2027-01-31/all/
 URL:https://lachundschiess.de/events/2027-01-01/2027-01-31/all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270129-zeit-der-kannibalen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T200000
+DTEND;TZID=Europe/Berlin:20270129T220000
+SUMMARY:Zeit der Kannibalen
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 18/14 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270130-zeit-der-kannibalen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T200000
+DTEND;TZID=Europe/Berlin:20270130T220000
+SUMMARY:Zeit der Kannibalen
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 18/14 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/1
+URL:https://www.undsofort.de/spielplan/2027/1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270201-magic-monday-magic-muppets-zaubershow@myeventhub.d
+ e
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270201T193000
+DTEND;TZID=Europe/Berlin:20270201T213000
+SUMMARY:Magic Monday – Magic Muppets (Zaubershow)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/20 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1151,6 +1645,179 @@ URL:https://lachundschiess.de/events/2027-02-01/2027-02-28/all/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:m-undsofort-20270203-indien-schnitzel-gbr-premiere@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270203T200000
+DTEND;TZID=Europe/Berlin:20270203T220000
+SUMMARY:Indien (Schnitzel GbR\, Premiere)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270205-indien-schnitzel-gbr@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T200000
+DTEND;TZID=Europe/Berlin:20270205T220000
+SUMMARY:Indien (Schnitzel GbR)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270206-indien-schnitzel-gbr@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T200000
+DTEND;TZID=Europe/Berlin:20270206T220000
+SUMMARY:Indien (Schnitzel GbR)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270207-indien-schnitzel-gbr@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T170000
+DTEND;TZID=Europe/Berlin:20270207T190000
+SUMMARY:Indien (Schnitzel GbR)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270208-die-montagsmoerder-improvisierte-kriminalstuecke@m
+ yeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270208T200000
+DTEND;TZID=Europe/Berlin:20270208T220000
+SUMMARY:Die Montagsmörder – Improvisierte Kriminalstücke
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270211-indien-schnitzel-gbr@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T200000
+DTEND;TZID=Europe/Berlin:20270211T220000
+SUMMARY:Indien (Schnitzel GbR)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270212-indien-schnitzel-gbr@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:Indien (Schnitzel GbR)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270213-indien-schnitzel-gbr@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:Indien (Schnitzel GbR)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270214-indien-schnitzel-gbr@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T170000
+DTEND;TZID=Europe/Berlin:20270214T190000
+SUMMARY:Indien (Schnitzel GbR)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/2
+URL:https://www.undsofort.de/spielplan/2027/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270301-magic-monday-magic-muppets@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270301T193000
+DTEND;TZID=Europe/Berlin:20270301T213000
+SUMMARY:Magic Monday – Magic Muppets
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/20 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/3
+URL:https://www.undsofort.de/spielplan/2027/3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270305-stefan-haeseli-der-facility-manager-trifft-jacquel
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:Stefan Häseli – Der Facility-Manager trifft Jacqueline
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/3
+URL:https://www.undsofort.de/spielplan/2027/3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-gasteig-hp8-20270307-mendelssohn-elias-muenchener-bach-chor@myeventhu
+ b.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T153000
+DTEND;TZID=Europe/Berlin:20270307T173000
+SUMMARY:Mendelssohn: Elias (Münchener Bach-Chor)
+LOCATION:Gasteig HP8 (Isarphilharmonie\, Halle E\, Saal X)\, Hans-Preißing
+ er-Straße 8\, 81379 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchener-bachchor.de/konzerte-termine/
+URL:https://www.muenchener-bachchor.de/konzerte-termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270308-die-montagsmoerder-improvisierte-kriminalstuecke@m
+ yeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270308T200000
+DTEND;TZID=Europe/Berlin:20270308T220000
+SUMMARY:Die Montagsmörder – Improvisierte Kriminalstücke
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/3
+URL:https://www.undsofort.de/spielplan/2027/3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:m-paulaner-nockherberg-20270308-braeurosl-montag-beim-starkbierfest@mye
  venthub.de
 DTSTAMP:20261018T000000Z
@@ -1161,5 +1828,88 @@ LOCATION:Paulaner am Nockherberg\, Am Nockherberg\, 81541 München
 DESCRIPTION:Sondertag beim Starkbierfest am Nockherberg.\nQuelle (bitte vor
   dem Besuch prüfen): https://paulaner-nockherberg.com/starkbierfest/
 URL:https://paulaner-nockherberg.com/starkbierfest/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270321-hitzewelle-wechsel-gbr-urauffuehrung@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T170000
+DTEND;TZID=Europe/Berlin:20270321T190000
+SUMMARY:Hitzewelle (Wechsel GbR\, Uraufführung)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/19 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/3
+URL:https://www.undsofort.de/spielplan/2027/3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-gasteig-hp8-20270326-bach-matthaeus-passion-am-karfreitag-muenchener-
+ ba@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T140000
+DTEND;TZID=Europe/Berlin:20270326T160000
+SUMMARY:Bach: Matthäus-Passion am Karfreitag (Münchener Bach-Chor)
+LOCATION:Gasteig HP8 (Isarphilharmonie\, Halle E\, Saal X)\, Hans-Preißing
+ er-Straße 8\, 81379 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.muenchener-bachchor.de/konzerte-termine/
+URL:https://www.muenchener-bachchor.de/konzerte-termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270405-magic-monday-magic-muppets-zaubershow@myeventhub.d
+ e
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270405T193000
+DTEND;TZID=Europe/Berlin:20270405T213000
+SUMMARY:Magic Monday – Magic Muppets (Zaubershow)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/20 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/4
+URL:https://www.undsofort.de/spielplan/2027/4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270412-die-montagsmoerder-improvisierte-kriminalstuecke@m
+ yeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270412T200000
+DTEND;TZID=Europe/Berlin:20270412T220000
+SUMMARY:Die Montagsmörder – Improvisierte Kriminalstücke
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/4
+URL:https://www.undsofort.de/spielplan/2027/4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270503-magic-monday-magic-muppets-zaubershow@myeventhub.d
+ e
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270503T193000
+DTEND;TZID=Europe/Berlin:20270503T213000
+SUMMARY:Magic Monday – Magic Muppets (Zaubershow)
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 25/20 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/5
+URL:https://www.undsofort.de/spielplan/2027/5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-undsofort-20270510-die-montagsmoerder-improvisierte-kriminalstuecke@m
+ yeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270510T200000
+DTEND;TZID=Europe/Berlin:20270510T220000
+SUMMARY:Die Montagsmörder – Improvisierte Kriminalstücke
+LOCATION:theater ... und so fort\, Hinterbärenbadstr. 2\, 81373 München
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 24/18 € (erm.)\nQue
+ lle (bitte vor dem Besuch prüfen): https://www.undsofort.de/spielplan/202
+ 7/5
+URL:https://www.undsofort.de/spielplan/2027/5
 TRANSP:TRANSPARENT
 END:VEVENT

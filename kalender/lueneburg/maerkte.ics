@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:lg-ostpreussisches-landesmuseum-20261107-museumsmarkt-tradition-trifft-
  modernes-beginn@myeventhub.de
@@ -36,6 +53,112 @@ LOCATION:Ostpreußisches Landesmuseum\, Heiligengeiststraße 38\, 21335 Lü
 DESCRIPTION:Laufzeit: 7.11.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
   prüfen): https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
 URL:https://ostpreussisches-landesmuseum.de/besuch/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261205-weihnachtsmarkt-der-kulturen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T100000
+DTEND;TZID=Europe/Berlin:20261205T120000
+SUMMARY:Weihnachtsmarkt der Kulturen
+LOCATION:Ilmenau-Terrasse
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumlueneburg.de/museum_lueneburg_programm_november_2
+ 026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_november_2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261206-weihnachtsmarkt-der-kulturen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T100000
+DTEND;TZID=Europe/Berlin:20261206T120000
+SUMMARY:Weihnachtsmarkt der Kulturen
+LOCATION:Ilmenau-Terrasse
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumlueneburg.de/museum_lueneburg_programm_november_2
+ 026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_november_2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261212-weihnachtsmarkt-der-kulturen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T100000
+DTEND;TZID=Europe/Berlin:20261212T120000
+SUMMARY:Weihnachtsmarkt der Kulturen
+LOCATION:Ilmenau-Terrasse
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumlueneburg.de/museum_lueneburg_programm_november_2
+ 026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_november_2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261213-weihnachtsmarkt-der-kulturen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T100000
+DTEND;TZID=Europe/Berlin:20261213T120000
+SUMMARY:Weihnachtsmarkt der Kulturen
+LOCATION:Ilmenau-Terrasse
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumlueneburg.de/museum_lueneburg_programm_november_2
+ 026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_november_2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261219-weihnachtsmarkt-der-kulturen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T100000
+DTEND;TZID=Europe/Berlin:20261219T120000
+SUMMARY:Weihnachtsmarkt der Kulturen
+LOCATION:Ilmenau-Terrasse
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumlueneburg.de/museum_lueneburg_programm_november_2
+ 026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_november_2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261219-zu-guter-letzt-kunsthandwerksmarkt@myevent
+ hub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T100000
+DTEND;TZID=Europe/Berlin:20261219T120000
+SUMMARY:ZU GUTER LETZT Kunsthandwerksmarkt
+LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumlueneburg.de/museum_lueneburg_programm_november_2
+ 026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_november_2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261220-weihnachtsmarkt-der-kulturen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T100000
+DTEND;TZID=Europe/Berlin:20261220T120000
+SUMMARY:Weihnachtsmarkt der Kulturen
+LOCATION:Ilmenau-Terrasse
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumlueneburg.de/museum_lueneburg_programm_november_2
+ 026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_november_2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lg-museum-lueneburg-20261220-zu-guter-letzt-kunsthandwerksmarkt@myevent
+ hub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T100000
+DTEND;TZID=Europe/Berlin:20261220T120000
+SUMMARY:ZU GUTER LETZT Kunsthandwerksmarkt
+LOCATION:Museum Lüneburg\, Willy-Brandt-Straße 1\, 21335 Lüneburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://museumlueneburg.de/museum_lueneburg_programm_november_2
+ 026/
+URL:https://museumlueneburg.de/museum_lueneburg_programm_november_2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

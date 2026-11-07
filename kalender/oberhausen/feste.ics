@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Oberhausen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ob-gdanska-20261231-silvester-2026-beginn@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Beginn: Silvester 2026
+LOCATION:Gdanska\, Altmarkt 3\, 46045 Oberhausen
+DESCRIPTION:Laufzeit: 31.12.2026 bis 1.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gdanska.de/events/liste/
+URL:https://www.gdanska.de/events/liste/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-gdanska-20261231-silvester-2026-ende@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Letzter Tag: Silvester 2026
+LOCATION:Gdanska\, Altmarkt 3\, 46045 Oberhausen
+DESCRIPTION:Laufzeit: 31.12.2026 bis 1.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.gdanska.de/events/liste/
+URL:https://www.gdanska.de/events/liste/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

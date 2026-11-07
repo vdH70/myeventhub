@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:hal-marktplatz-weihnachtsmarkt-20261124-hallescher-weihnachtsmarkt-2026
  -beginn@myeventhub.de
@@ -38,6 +55,19 @@ DESCRIPTION:Weihnachtsmarkt der Stadt Halle auf Marktplatz\, Domplatz und H
  ch prüfen): https://halle.de/kultur-tourismus/veranstaltungen/maerkte/son
  dermaerkte
 URL:https://halle.de/kultur-tourismus/veranstaltungen/maerkte/sondermaerkte
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hal-volkspark-20270430-ball-der-staatskapelle@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T183000
+DTEND;TZID=Europe/Berlin:20270430T203000
+SUMMARY:Ball der Staatskapelle
+LOCATION:Volkspark Halle\, Schleifweg 8a\, 06114 Halle (Saale)
+DESCRIPTION:Einlass 18:00\, Beginn 18:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.buehnen-halle.de/
+ de/program
+URL:https://www.buehnen-halle.de/de/program
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:hal-landesmuseum-vorgeschichte-20260327-die-schamanin-ende@myeventhub.d
  e
@@ -67,6 +84,19 @@ LOCATION:Franckesche Stiftungen zu Halle\, Franckeplatz 1\, Haus 37\, 06110
 DESCRIPTION:Jahresausstellung 2026.\nLaufzeit: 4.9.2026 bis 25.4.2027\nQuel
  le (bitte vor dem Besuch prüfen): https://www.francke-halle.de/
 URL:https://www.francke-halle.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hal-haendel-haus-20261223-klingender-museumsrundgang-fuer-familien-haen
+ del-j@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T160000
+DTEND;TZID=Europe/Berlin:20261223T180000
+SUMMARY:Klingender Museumsrundgang für Familien: Händel Junior zu Hause
+LOCATION:Händel-Haus Halle\, Große Nikolaistraße 5\, 06108 Halle (Saale)
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://haendelhaus.de/hh/veranstaltungsliste
+URL:https://haendelhaus.de/hh/veranstaltungsliste
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

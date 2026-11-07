@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:mz-schon-schoen-20261112-thomas-schwebel-band-spielt-fehlfarben-33-tage
  -in@myeventhub.de
@@ -35,6 +52,140 @@ DESCRIPTION:Konzert im Kulturclub schon schön an der Großen Bleiche.\nQue
  lle (bitte vor dem Besuch prüfen): https://www.schon-schoen.de/programm/k
  onzerte.html
 URL:https://www.schon-schoen.de/programm/konzerte.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261201-das-kinn-der-gang-350@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T200000
+DTEND;TZID=Europe/Berlin:20261201T220000
+SUMMARY:Das Kinn + der Gang_350
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261204-the-rhino@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:The Rhino
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261208-oskar-haag-lost-cause-tour@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T200000
+DTEND;TZID=Europe/Berlin:20261208T220000
+SUMMARY:Oskar Haag – Lost Cause Tour
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261211-kant@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:KANT
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261215-silk@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T200000
+DTEND;TZID=Europe/Berlin:20261215T220000
+SUMMARY:SILK
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261217-lonely-spring-part-i@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:Lonely Spring – Part I
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261219-blizz-club-support-wilms@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:BLIZZ CLUB | Support: Wilms
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20261222-noah-vert-kommt-geht-flut-quitter-schlagloch-e
+ p-re@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T200000
+DTEND;TZID=Europe/Berlin:20261222T220000
+SUMMARY:Noah Vert / kommt geht flut / Quitter – Schlagloch EP-Release-Sho
+ w
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20270116-donkey-kid@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:Donkey Kid
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20270119-euroteuro@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T200000
+DTEND;TZID=Europe/Berlin:20270119T220000
+SUMMARY:EUROTEURO
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mz-schon-schoen-20270126-immer-wieder-wirsing@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T200000
+DTEND;TZID=Europe/Berlin:20270126T220000
+SUMMARY:Immer Wieder Wirsing
+LOCATION:Kulturclub schon schön\, Große Bleiche 60-62\, 55116 Mainz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schon-schoen.de/vorschau.html
+URL:https://www.schon-schoen.de/vorschau.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
