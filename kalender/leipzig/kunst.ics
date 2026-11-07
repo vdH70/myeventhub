@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:l-mdbk-20250528-rosa-barba-under-the-canopy-ende@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -92,6 +109,19 @@ URL:https://mdbk.de/ausstellungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:l-schaubuehne-lindenfels-20261107-puentes-de-papel@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Puentes de papel
+LOCATION:Foyer der Schaubühne Lindenfels
+DESCRIPTION:Täglich im Foyer gelistet\, Enddatum auf der Seite nicht genan
+ nt.\nQuelle (bitte vor dem Besuch prüfen): https://www.schaubuehne.com/sp
+ ielplan
+URL:https://www.schaubuehne.com/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:l-mdbk-20261126-grafik-im-fokus-maximilian-speck-von-sternburg-1-beginn
  @myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -117,6 +147,18 @@ LOCATION:Museum der bildenden Künste Leipzig\, Katharinenstraße 10\, 0410
 DESCRIPTION:Laufzeit: 26.11.2026 bis 28.2.2027\nQuelle (bitte vor dem Besuc
  h prüfen): https://mdbk.de/ausstellungen/
 URL:https://mdbk.de/ausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-schaubuehne-lindenfels-20261205-erleuchtet-eure-fenster@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T160000
+DTEND;TZID=Europe/Berlin:20261205T180000
+SUMMARY:Erleuchtet Eure Fenster
+LOCATION:Schaubühne Lindenfels\, Karl-Heine-Straße 50\, 04229 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.schaubuehne.com/spielplan
+URL:https://www.schaubuehne.com/spielplan
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

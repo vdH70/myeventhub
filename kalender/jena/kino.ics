@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Jena · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:j-cafe-wagner-20261111-ufc-kino-scherbenland@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:UFC-Kino SCHERBENLAND
+LOCATION:Café Wagner\, Wagnergasse 26\, 07743 Jena
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.wagnerverein
+ -jena.de/de/programm/
+URL:https://www.wagnerverein-jena.de/de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:j-cafe-wagner-20261118-ufc-kino-transove-in-kooperation-mit-der-heinric
+ h@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:UFC-Kino +TranSoVe in Kooperation mit der Heinrich-Böll-Stiftung: 
+ CHRONICALLY RADICAL – behindert\, taub\, verrückt im Widerstand
+LOCATION:Café Wagner\, Wagnergasse 26\, 07743 Jena
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.wagnerverein
+ -jena.de/de/programm/
+URL:https://www.wagnerverein-jena.de/de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:j-cafe-wagner-20261125-ufc-kino-stummfilm-16mm-stummfilmkino-the-lodger
+ -d@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:UFC-Kino STUMMFILM 16mm StummFilmKino: »THE LODGER« / »DER MIETE
+ R« von Alfred Hitchcock
+LOCATION:Café Wagner\, Wagnergasse 26\, 07743 Jena
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.wagnerverein
+ -jena.de/de/programm/
+URL:https://www.wagnerverein-jena.de/de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

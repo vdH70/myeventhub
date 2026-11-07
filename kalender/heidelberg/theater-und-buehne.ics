@@ -71,10 +71,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hd-taeter-theater-20261107-2000-kafkas-traeume-eine-seelenwanderung@mye
  venthub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261107T200000
 DTEND;TZID=Europe/Berlin:20261107T220000
-SUMMARY:Kafkas Träume – eine Seelenwanderung
+SUMMARY:ABGESAGT: Kafkas Träume – eine Seelenwanderung
 LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
 DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
  icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
@@ -85,15 +85,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hd-taeter-theater-20261108-2000-im-winde-klirren-die-fahnen-ein-hoelder
  lin-abend@myeventhub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261108T200000
 DTEND;TZID=Europe/Berlin:20261108T220000
-SUMMARY:Im Winde klirren die Fahnen – ein Hölderlin-Abend
+SUMMARY:ABGESAGT: Im Winde klirren die Fahnen – ein Hölderlin-Abend
 LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
 DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
  icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
  theater.de/spielplan/
 URL:https://www.taeter-theater.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Im Winde klirren die Fahnen – ein Hölderlin-Abend 
+ am 8.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261108T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -304,6 +310,18 @@ LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
 DESCRIPTION:Kabarett im Kulturfenster in Bergheim.\nEnde: laut Quelle nicht
   angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturfenst
  er.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270430-drama-light-improtheater@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T190000
+DTEND;TZID=Europe/Berlin:20270430T210000
+SUMMARY:DRAMA light (Improtheater)
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
 URL:https://www.kulturfenster.de/
 TRANSP:TRANSPARENT
 END:VEVENT

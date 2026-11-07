@@ -158,10 +158,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hd-taeter-theater-20261107-2000-kafkas-traeume-eine-seelenwanderung@mye
  venthub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261107T200000
 DTEND;TZID=Europe/Berlin:20261107T220000
-SUMMARY:Kafkas Träume – eine Seelenwanderung
+SUMMARY:ABGESAGT: Kafkas Träume – eine Seelenwanderung
 LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
 DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
  icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
@@ -183,6 +183,18 @@ URL:https://www.halle02.de/programm/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hd-halle02-20261107-kinderhallenflohmarkt@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Kinderhallenflohmarkt
+LOCATION:halle02\, Zollhofgarten 2\, 69115 Heidelberg
+DESCRIPTION:Flohmarkt für Kinder.\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.halle02.de/programm/
+URL:https://www.halle02.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hd-halle02-20261107-ue40-party-herbstedition@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -192,6 +204,18 @@ LOCATION:halle02\, Zollhofgarten 2\, 69115 Heidelberg
 DESCRIPTION:Ü40-Party in der halle02.\nQuelle (bitte vor dem Besuch prüfe
  n): https://www.halle02.de/programm/
 URL:https://www.halle02.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20261108-fairer-flohmarkt@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T110000
+DTEND;TZID=Europe/Berlin:20261108T130000
+SUMMARY:Fairer Flohmarkt
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -217,15 +241,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hd-taeter-theater-20261108-2000-im-winde-klirren-die-fahnen-ein-hoelder
  lin-abend@myeventhub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261108T200000
 DTEND;TZID=Europe/Berlin:20261108T220000
-SUMMARY:Im Winde klirren die Fahnen – ein Hölderlin-Abend
+SUMMARY:ABGESAGT: Im Winde klirren die Fahnen – ein Hölderlin-Abend
 LOCATION:Taeter-Theater\, Bergheimer Straße 147\, 69115 Heidelberg
 DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
  icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
  theater.de/spielplan/
 URL:https://www.taeter-theater.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Im Winde klirren die Fahnen – ein Hölderlin-Abend 
+ am 8.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261108T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -305,6 +335,32 @@ DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
  icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
  theater.de/spielplan/
 URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-halle02-20261113-dominik-eulberg-prachtliebe-wunderfakten@myeventhub
+ .de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Dominik Eulberg – Prachtliebe & Wunderfakten
+LOCATION:halle02\, Zollhofgarten 2\, 69115 Heidelberg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.halle02.de/p
+ rogramm/
+URL:https://www.halle02.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-halle02-20261113-electrolegacy-still-ravin-mit-dominik-eulberg@myeve
+ nthub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Electrolegacy – Still Ravin' mit Dominik Eulberg
+LOCATION:halle02\, Zollhofgarten 2\, 69115 Heidelberg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.halle02.de/p
+ rogramm/
+URL:https://www.halle02.de/programm/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -392,6 +448,44 @@ DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
  icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
  theater.de/spielplan/
 URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-halle02-20261114-bad-bunny-party@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Bad Bunny Party
+LOCATION:halle02\, Zollhofgarten 2\, 69115 Heidelberg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.halle02.de/p
+ rogramm/
+URL:https://www.halle02.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-halle02-20261114-phillip-boa-and-the-voodooclub@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Phillip Boa and the Voodooclub
+LOCATION:halle02\, Zollhofgarten 2\, 69115 Heidelberg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.halle02.de/p
+ rogramm/
+URL:https://www.halle02.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261115-der-geist-kennt-keine-mauern-oekumenische
+ r-festgot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Der Geist kennt keine Mauern – Ökumenischer Festgottesdienst 90 
+ Jahre Mauerfall
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -712,6 +806,18 @@ URL:https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen-veranst
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261128-stunde-der-kirchenmusik@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T181500
+DTEND;TZID=Europe/Berlin:20261128T201500
+SUMMARY:Stunde der Kirchenmusik
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hd-peterskirche-20261128-1900-chor-cello-lyrik-an-weiter-kommen-advents
  konzert@myeventhub.de
 DTSTAMP:20261107T000000Z
@@ -736,6 +842,18 @@ DESCRIPTION:Vorstellung im Taeter-Theater in Bergheim.\nEnde: laut Quelle n
  icht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeter-
  theater.de/spielplan/
 URL:https://www.taeter-theater.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-snp-dome-20261128-deutsche-turnliga-finale@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Deutsche Turnliga – Finale
+LOCATION:SNP dome\, Heidelberg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.snp-dome-hei
+ delberg.de/programm/events.html
+URL:https://www.snp-dome-heidelberg.de/programm/events.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -903,6 +1021,18 @@ URL:https://www.schloss-heidelberg.de/besuchsinformation/fuehrungen-veranst
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261205-stunde-der-kirchenmusik@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T181500
+DTEND;TZID=Europe/Berlin:20261205T201500
+SUMMARY:Stunde der Kirchenmusik
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hd-johanneskirche-neuenheim-20261205-1900-weihnachtskonzert-buxtehude-u
  -a@myeventhub.de
 DTSTAMP:20261107T000000Z
@@ -1026,6 +1156,68 @@ URL:https://www.kulturfenster.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261212-stunde-der-kirchenmusik@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T181500
+DTEND;TZID=Europe/Berlin:20261212T201500
+SUMMARY:Stunde der Kirchenmusik
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20261212-bach-weihnachtsoratorium-kant
+ aten-i-iii-und-vi@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T200000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Bach: Weihnachtsoratorium\, Kantaten I-III und VI
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261213-adventsjazz-matinee@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Adventsjazz – Matinee
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-christuskirche-20261213-adventskonzert@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Adventskonzert
+LOCATION:Christuskirche Heidelberg\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20261213-musica-latinoamericana-de-navidad@myeventhub.d
+ e
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Musica latinoamericana de navidad
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hd-karlstorbahnhof-20261216-word-up-poetry-slam-deluxe@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261216T200000
@@ -1061,6 +1253,18 @@ DESCRIPTION:Improtheater mit DRAMA light im Kulturfenster.\nEnde: laut Quel
  le nicht angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): ht
  tps://www.kulturfenster.de/
 URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261219-stunde-der-kirchenmusik@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T181500
+DTEND;TZID=Europe/Berlin:20261219T201500
+SUMMARY:Stunde der Kirchenmusik
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1102,6 +1306,118 @@ URL:https://www.karlstorbahnhof.de/literatur/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20261224-christmas-with-queen-xmas-pop-gottesdiens
+ t@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T180000
+DTEND;TZID=Europe/Berlin:20261224T200000
+SUMMARY:Christmas With Queen – Xmas-Pop-Gottesdienst
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Laut Seite aktuell ausgebucht\, Warteliste.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ekihd.de/k
+ alender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20270101-neujahrskonzert-sag-beim-abschied-leise-ser
+ vus@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270101T160000
+DTEND;TZID=Europe/Berlin:20270101T180000
+SUMMARY:Neujahrskonzert: Sag beim Abschied leise Servus
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20270114-providenz-barock-7@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T193000
+DTEND;TZID=Europe/Berlin:20270114T213000
+SUMMARY:Providenz:Barock 7
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-johanneskirche-neuenheim-20270117-johanneslounge@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270117T180000
+DTEND;TZID=Europe/Berlin:20270117T200000
+SUMMARY:Johanneslounge
+LOCATION:Gemeindehaus an der Johanneskirche
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20270123-lobgesang@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T190000
+DTEND;TZID=Europe/Berlin:20270123T210000
+SUMMARY:Lobgesang
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20270130-musik-zur-marktzeit@myeventhu
+ b.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T110000
+DTEND;TZID=Europe/Berlin:20270130T130000
+SUMMARY:Musik zur Marktzeit
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20270131-dvorak-stabat-mater@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T190000
+DTEND;TZID=Europe/Berlin:20270131T210000
+SUMMARY:Dvořák: Stabat Mater
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20270207-mendelssohn-elias@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T170000
+DTEND;TZID=Europe/Berlin:20270207T190000
+SUMMARY:Mendelssohn: Elias
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-johanneskirche-neuenheim-20270207-johanneslounge@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T180000
+DTEND;TZID=Europe/Berlin:20270207T200000
+SUMMARY:Johanneslounge
+LOCATION:Gemeindehaus an der Johanneskirche
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hd-kulturfenster-20270213-1900-rosa-hoelger-fee-penafiel-ein-abend-zwei
  -konzerte@myeventhub.de
 DTSTAMP:20261103T000000Z
@@ -1116,6 +1432,31 @@ URL:https://www.kulturfenster.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20270214-zwischen-athos-und-notre-dame
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T190000
+DTEND;TZID=Europe/Berlin:20270214T210000
+SUMMARY:Zwischen Athos und Notre Dame
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20270218-providenz-barock-8@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T193000
+DTEND;TZID=Europe/Berlin:20270218T213000
+SUMMARY:Providenz:Barock 8
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hd-kulturfenster-20270219-1900-anders-so-kurz-davor@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20270219T190000
@@ -1126,6 +1467,19 @@ DESCRIPTION:Konzert im Kulturfenster in Bergheim.\nEnde: laut Quelle nicht
  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturfenste
  r.de/
 URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20270221-konzert-mit-dem-windsbacher-k
+ nabenchor@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T170000
+DTEND;TZID=Europe/Berlin:20270221T190000
+SUMMARY:Konzert mit dem Windsbacher Knabenchor
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1152,6 +1506,556 @@ DESCRIPTION:Konzert im Kulturfenster in Bergheim.\nEnde: laut Quelle nicht
  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturfenste
  r.de/
 URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20270227-musik-zur-marktzeit@myeventhu
+ b.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T110000
+DTEND;TZID=Europe/Berlin:20270227T130000
+SUMMARY:Musik zur Marktzeit
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270305-paul-falc@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T190000
+DTEND;TZID=Europe/Berlin:20270305T210000
+SUMMARY:Paul Falc
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20270306-klassik-in-handschuhsheim@mye
+ venthub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T190000
+DTEND;TZID=Europe/Berlin:20270306T210000
+SUMMARY:Klassik in Handschuhsheim
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20270313-musik-zur-marktzeit@myeventhu
+ b.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T110000
+DTEND;TZID=Europe/Berlin:20270313T130000
+SUMMARY:Musik zur Marktzeit
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270319-roger-stein-band@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T190000
+DTEND;TZID=Europe/Berlin:20270319T210000
+SUMMARY:Roger Stein & Band
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270320-jmo@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T190000
+DTEND;TZID=Europe/Berlin:20270320T210000
+SUMMARY:JMO
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20270326-matthaeuspassion-bwv-244@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T150000
+DTEND;TZID=Europe/Berlin:20270326T170000
+SUMMARY:Matthäuspassion BWV 244
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20270327-a-cappella-chormusik@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270327T190000
+DTEND;TZID=Europe/Berlin:20270327T210000
+SUMMARY:A-Cappella-Chormusik
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270410-gizmo-graf-trio-feat-cheyenne@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T190000
+DTEND;TZID=Europe/Berlin:20270410T210000
+SUMMARY:Gizmo Graf Trio feat. Cheyenne
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270411-faber-sanna-friends@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270411T190000
+DTEND;TZID=Europe/Berlin:20270411T210000
+SUMMARY:Faber Sanna & Friends
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270415-deer-anna@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270415T190000
+DTEND;TZID=Europe/Berlin:20270415T210000
+SUMMARY:Deer Anna
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270417-the-bakery-brothers@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T190000
+DTEND;TZID=Europe/Berlin:20270417T210000
+SUMMARY:The Bakery Brothers
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20270417-italienische-nacht-von-italien-in-die-welt@mye
+ venthub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T190000
+DTEND;TZID=Europe/Berlin:20270417T210000
+SUMMARY:Italienische Nacht – Von Italien in die Welt
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270422-dota-das-klitzekleine-orchester-unplugged@mye
+ venthub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270422T200000
+DTEND;TZID=Europe/Berlin:20270422T220000
+SUMMARY:Dota & das klitzekleine Orchester – unplugged
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270423-magdalena-ganter@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270423T190000
+DTEND;TZID=Europe/Berlin:20270423T210000
+SUMMARY:Magdalena Ganter
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20270424-the-armed-man@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T190000
+DTEND;TZID=Europe/Berlin:20270424T210000
+SUMMARY:The Armed Man
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-johanneskirche-neuenheim-20270425-johanneslounge@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270425T180000
+DTEND;TZID=Europe/Berlin:20270425T200000
+SUMMARY:Johanneslounge
+LOCATION:Gemeindehaus an der Johanneskirche
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20270429-providenz-barock-9@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270429T193000
+DTEND;TZID=Europe/Berlin:20270429T213000
+SUMMARY:Providenz:Barock 9
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270430-drama-light-improtheater@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T190000
+DTEND;TZID=Europe/Berlin:20270430T210000
+SUMMARY:DRAMA light (Improtheater)
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20270605-misatango@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270605T190000
+DTEND;TZID=Europe/Berlin:20270605T210000
+SUMMARY:Misatango
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20270617-providenz-barock-10@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270617T193000
+DTEND;TZID=Europe/Berlin:20270617T213000
+SUMMARY:Providenz:Barock 10
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-johanneskirche-neuenheim-20270620-johanneslounge@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270620T180000
+DTEND;TZID=Europe/Berlin:20270620T200000
+SUMMARY:Johanneslounge
+LOCATION:Gemeindehaus an der Johanneskirche
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-kulturfenster-20270626-ron-williams-meets-harry-belafonte@myeventhub
+ .de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270626T200000
+DTEND;TZID=Europe/Berlin:20270626T220000
+SUMMARY:Ron Williams meets Harry Belafonte
+LOCATION:Kulturfenster Heidelberg\, Kirchstraße 16\, 69115 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturfenster.de/
+URL:https://www.kulturfenster.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20270627-dvorak-messe-d-dur-janacek-pater-noster@myeven
+ thub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270627T190000
+DTEND;TZID=Europe/Berlin:20270627T210000
+SUMMARY:Dvořák: Messe D-Dur / Janáček: Pater noster
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20270703-martin-palmeri-misa-tango@mye
+ venthub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270703T200000
+DTEND;TZID=Europe/Berlin:20270703T220000
+SUMMARY:Martin Palmeri: Misa Tango
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20270711-vivaldi-gloria@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270711T200000
+DTEND;TZID=Europe/Berlin:20270711T220000
+SUMMARY:Vivaldi: Gloria
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-heiliggeistkirche-20270924-geistliche-musik-mit-orgel@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270924T190000
+DTEND;TZID=Europe/Berlin:20270924T210000
+SUMMARY:Geistliche Musik mit Orgel
+LOCATION:Heiliggeistkirche Heidelberg\, Marktplatz\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-johanneskirche-neuenheim-20270926-johanneslounge@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270926T180000
+DTEND;TZID=Europe/Berlin:20270926T200000
+SUMMARY:Johanneslounge
+LOCATION:Gemeindehaus an der Johanneskirche
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20271014-providenz-barock-12@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271014T193000
+DTEND;TZID=Europe/Berlin:20271014T213000
+SUMMARY:Providenz:Barock 12
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20271016-bach-h-moll-messe@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271016T200000
+DTEND;TZID=Europe/Berlin:20271016T220000
+SUMMARY:Bach: H-Moll-Messe
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-johanneskirche-neuenheim-20271024-johanneslounge@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271024T180000
+DTEND;TZID=Europe/Berlin:20271024T200000
+SUMMARY:Johanneslounge
+LOCATION:Gemeindehaus an der Johanneskirche
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20271113-a-cappella-chormusik@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271113T190000
+DTEND;TZID=Europe/Berlin:20271113T210000
+SUMMARY:A-Cappella-Chormusik
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-friedenskirche-handschuhsheim-20271120-cherubini-requiem-brahms-schi
+ cksalslied@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271120T200000
+DTEND;TZID=Europe/Berlin:20271120T220000
+SUMMARY:Cherubini: Requiem / Brahms: Schicksalslied
+LOCATION:Friedenskirche Handschuhsheim\, Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-johanneskirche-neuenheim-20271128-johanneslounge@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271128T180000
+DTEND;TZID=Europe/Berlin:20271128T200000
+SUMMARY:Johanneslounge
+LOCATION:Gemeindehaus an der Johanneskirche
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20271204-gang-durch-den-advent@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271204T190000
+DTEND;TZID=Europe/Berlin:20271204T210000
+SUMMARY:Gang durch den Advent
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20271210-musik-zum-advent@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271210T200000
+DTEND;TZID=Europe/Berlin:20271210T220000
+SUMMARY:Musik zum Advent
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20271211-bach-weihnachtsoratorium-i-iii@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271211T200000
+DTEND;TZID=Europe/Berlin:20271211T220000
+SUMMARY:Bach: Weihnachtsoratorium I-III
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20271212-bach-weihnachtsoratorium-iv-vi@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271212T170000
+DTEND;TZID=Europe/Berlin:20271212T190000
+SUMMARY:Bach: Weihnachtsoratorium IV-VI
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-providenzkirche-20271216-providenz-barock-13@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271216T193000
+DTEND;TZID=Europe/Berlin:20271216T213000
+SUMMARY:Providenz:Barock 13
+LOCATION:Providenzkirche Heidelberg\, Hauptstraße 90a\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20280130-brahms-ein-deutsches-requiem@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20280130T170000
+DTEND;TZID=Europe/Berlin:20280130T190000
+SUMMARY:Brahms: Ein deutsches Requiem
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20280408-passionskonzert@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20280408T190000
+DTEND;TZID=Europe/Berlin:20280408T210000
+SUMMARY:Passionskonzert
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20280625-bernstein-chichester-psalms-rutter-magnificat@
+ myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20280625T190000
+DTEND;TZID=Europe/Berlin:20280625T210000
+SUMMARY:Bernstein: Chichester Psalms / Rutter: Magnificat
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20280709-haydn-sieben-worte@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20280709T190000
+DTEND;TZID=Europe/Berlin:20280709T210000
+SUMMARY:Haydn: Sieben Worte
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20281210-saint-saens-weihnachtsoratorium@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20281210T170000
+DTEND;TZID=Europe/Berlin:20281210T190000
+SUMMARY:Saint-Saëns: Weihnachtsoratorium
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hd-peterskirche-20281215-musik-zum-advent@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20281215T200000
+DTEND;TZID=Europe/Berlin:20281215T220000
+SUMMARY:Musik zum Advent
+LOCATION:Peterskirche Heidelberg\, Plöck 70\, 69117 Heidelberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://ekihd.de/kalender/konzertkalender/
+URL:https://ekihd.de/kalender/konzertkalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
