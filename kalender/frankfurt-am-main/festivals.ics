@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:f-deutsche-bank-park-20270604-world-club-dome-2027-beginn@myeventhub.de
 DTSTAMP:20261101T000000Z
@@ -38,6 +55,18 @@ DESCRIPTION:Dreitägiges Festival für elektronische Musik im Fußballstadi
  om/tickets\nQuelle (bitte vor dem Besuch prüfen): https://www.worldclubdo
  me.com/
 URL:https://www.worldclubdome.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f-zoom-20271016-blow-music-festival-vol-5@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271016T170000
+DTEND;TZID=Europe/Berlin:20271016T190000
+SUMMARY:BLOW Music Festival Vol. 5
+LOCATION:ZOOM Frankfurt\, Carl-Benz-Straße 21\, 60386 Frankfurt am Main
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://zoomfrankfurt.com/programm
+URL:https://zoomfrankfurt.com/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
