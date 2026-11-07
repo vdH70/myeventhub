@@ -943,7 +943,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-oetinger-villa-20261115-workshopreihe-kollektives-songwriting-fuer-f
  linta@myeventhub.de
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Workshopreihe Kollektives Songwriting für FLINTA*
@@ -956,7 +956,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261116-lesung-und-vortrag-zum-25-todestag-von-stefan
  -heym@myeventhub.de
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261116T190000
 DTEND;TZID=Europe/Berlin:20261116T210000
 SUMMARY:Lesung und Vortrag zum 25. Todestag von Stefan Heym
@@ -983,7 +983,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261117-markus-c-hurek-margot-friedlaender-eine-stimm
  e-fue@myeventhub.de
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261117T190000
 DTEND;TZID=Europe/Berlin:20261117T210000
 SUMMARY:Markus C. Hurek: Margot Friedländer. Eine Stimme für das Leben
@@ -1038,7 +1038,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261119-bibliotheksgespraech-nanon-von-george-sand@my
  eventhub.de
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261119T180000
 DTEND;TZID=Europe/Berlin:20261119T200000
 SUMMARY:Bibliotheksgespräch: »Nanon« von George Sand
@@ -1314,7 +1314,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261125-heinrich-ruebeling-lesung-zu-anita-und-kiran-
  desai@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261125T190000
 DTEND;TZID=Europe/Berlin:20261125T210000
 SUMMARY:Heinrich Rübeling: Lesung zu Anita und Kiran Desai
@@ -1355,7 +1355,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261127-orange-day-lesung-mit-barbara-zeizinger-iris-
  welke@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261127T190000
 DTEND;TZID=Europe/Berlin:20261127T210000
 SUMMARY:Orange Day: Lesung mit Barbara Zeizinger\, Iris Welker-Sturm u. a.
@@ -1558,7 +1558,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261102-klaus-staat-der-stein-der-hera@myeventhub.de
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261130T190000
 DTEND;TZID=Europe/Berlin:20261130T210000
 SUMMARY:VERLEGT: Klaus Staat: Der Stein der Hera
@@ -1571,7 +1571,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261201-i-have-a-dream-lesung-mit-karin-klein-und-san
  dra-k@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261201T190000
 DTEND;TZID=Europe/Berlin:20261201T210000
 SUMMARY:I Have a Dream – Lesung mit Karin Klein und Sandra Kegel
@@ -1597,7 +1597,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261202-buchvorstellung-kaeferfunde-sofie-morin-und-s
  ilke@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261202T193000
 DTEND;TZID=Europe/Berlin:20261202T213000
 SUMMARY:Buchvorstellung: Käferfunde – Sofie Morin und Silke Scheffel
@@ -1719,20 +1719,26 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261208-das-literaturhaus-quartett-die-buecher-des-ja
  hres@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261208T190000
 DTEND;TZID=Europe/Berlin:20261208T210000
-SUMMARY:Das Literaturhaus-Quartett: Die Bücher des Jahres
+SUMMARY:ABGESAGT: Das Literaturhaus-Quartett: Die Bücher des Jahres
 LOCATION:Literaturhaus Darmstadt\, Kasinostraße 3\, 64293 Darmstadt
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://www.literaturhaus-darmstadt.de/programm/
 URL:https://www.literaturhaus-darmstadt.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Das Literaturhaus-Quartett: Die Bücher des Jahres am
+  8.12.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261108T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261210-bibliotheksgespraech-vicki-baums-erster-erfol
  greic@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261210T180000
 DTEND;TZID=Europe/Berlin:20261210T200000
 SUMMARY:Bibliotheksgespräch: Vicki Baums erster erfolgreicher Roman
@@ -1771,7 +1777,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da-oetinger-villa-20261210-ninamarie@myeventhub.de
-DTSTAMP:20261019T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Ninamarie
@@ -1879,7 +1885,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-literaturhaus-20261216-geschichten-und-maerchen-aus-indien@myeventhu
  b.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261216T190000
 DTEND;TZID=Europe/Berlin:20261216T210000
 SUMMARY:Geschichten und Märchen aus Indien

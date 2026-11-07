@@ -29,14 +29,19 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:bo-bahnhof-langendreer-20261127-kwam-e@myeventhub.de
-DTSTAMP:20261011T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261127T200000
 DTEND;TZID=Europe/Berlin:20261127T220000
-SUMMARY:Kwam.E
+SUMMARY:ABGESAGT: Kwam.E
 LOCATION:Bahnhof Langendreer\, Wallbaumweg 108\, 44894 Bochum
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://bahnhof-langendreer.de/events
 URL:https://bahnhof-langendreer.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Kwam.E am 27.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261108T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
