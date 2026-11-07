@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Singles in Berlin · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b-traumtaenzer-kudamm-20261114-die-nicht-nur-single-tanzparty-am-kudamm
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Die (nicht nur) Single-Tanzparty am Kudamm
+LOCATION:Tanzschule Traumtänzer am Kurfürstendamm\, Westfälische Straße
+  49\, 10711 Berlin
+DESCRIPTION:Tanzparty der Tanzschule für Singles und Paare\, 20–23 Uhr.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 10 € pro Person\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.traumtaenzer.de/tanzveranstaltung/2
+ 026/11/14/Die_nicht_nur_SingleTanzparty_am_KuDamm-9457/
+URL:https://www.traumtaenzer.de/tanzveranstaltung/2026/11/14/Die_nicht_nur_
+ SingleTanzparty_am_KuDamm-9457/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-traumtaenzer-kudamm-20261128-die-nicht-nur-single-tanzparty-am-kudamm
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Die (nicht nur) Single-Tanzparty am Kudamm
+LOCATION:Tanzschule Traumtänzer am Kurfürstendamm\, Westfälische Straße
+  49\, 10711 Berlin
+DESCRIPTION:Tanzparty der Tanzschule für Singles und Paare\, 20–23 Uhr.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 10 € pro Person\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.traumtaenzer.de/tanzveranstaltung/2
+ 026/11/28/Die_nicht_nur_SingleTanzparty_am_KuDamm-9459/
+URL:https://www.traumtaenzer.de/tanzveranstaltung/2026/11/28/Die_nicht_nur_
+ SingleTanzparty_am_KuDamm-9459/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-traumtaenzer-kudamm-20270109-die-nicht-nur-single-tanzparty-am-kudamm
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Die (nicht nur) Single-Tanzparty am Kudamm
+LOCATION:Tanzschule Traumtänzer am Kurfürstendamm\, Westfälische Straße
+  49\, 10711 Berlin
+DESCRIPTION:Tanzparty der Tanzschule für Singles und Paare\, 20–23 Uhr.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 10 € pro Person\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.traumtaenzer.de/tanzveranstaltung/2
+ 027/01/09/Die_nicht_nur_SingleTanzparty_am_KuDamm-9461/
+URL:https://www.traumtaenzer.de/tanzveranstaltung/2027/01/09/Die_nicht_nur_
+ SingleTanzparty_am_KuDamm-9461/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
