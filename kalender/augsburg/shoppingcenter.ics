@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shoppingcenter in Augsburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a-city-galerie-20261114-faschingsauftakt@myeventhub.de
+DTSTAMP:20261108T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T130000
+DTEND;TZID=Europe/Berlin:20261114T150000
+SUMMARY:Faschingsauftakt
+LOCATION:City-Galerie Augsburg\, Willy-Brandt-Platz 1\, 86153 Augsburg
+DESCRIPTION:Auftakt der Faschingszeit mit Tänzerinnen in der City-Galerie\
+ , 13–17 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.city-galerie-augsburg.de/events/faschingsaufta
+ kt-e57041/
+URL:https://www.city-galerie-augsburg.de/events/faschingsauftakt-e57041/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

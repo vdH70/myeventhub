@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shoppingcenter in Stuttgart · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:s-milaneo-20261106-magischer-punschwald-beginn@myeventhub.de
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Beginn: Magischer Punschwald
+LOCATION:Milaneo\, Mailänder Platz 7\, 70173 Stuttgart
+DESCRIPTION:Winterlicher Punschwald im Milaneo.\nLaufzeit: 6.11.2026 bis 16
+ .1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.milaneo.com/ev
+ ents/magischer-punschwald-e57265/
+URL:https://www.milaneo.com/events/magischer-punschwald-e57265/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s-milaneo-20261106-magischer-punschwald-ende@myeventhub.de
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Letzter Tag: Magischer Punschwald
+LOCATION:Milaneo\, Mailänder Platz 7\, 70173 Stuttgart
+DESCRIPTION:Winterlicher Punschwald im Milaneo.\nLaufzeit: 6.11.2026 bis 16
+ .1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.milaneo.com/ev
+ ents/magischer-punschwald-e57265/
+URL:https://www.milaneo.com/events/magischer-punschwald-e57265/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

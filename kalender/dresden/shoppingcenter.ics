@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shoppingcenter in Dresden · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:dd-elbepark-20261114-das-2-grosse-bergteufel-spektakel@myeventhub.de
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Das 2. große Bergteufel-Spektakel
+LOCATION:ELBEPARK Dresden\, Peschelstraße 33\, 01139 Dresden
+DESCRIPTION:Die Thüringer Bergteufel im ELBEPARK Dresden\, für Groß und 
+ Klein.\nQuelle (bitte vor dem Besuch prüfen): https://elbepark.info/event
+ /das-2-grosse-bergteufel-spektakel-im-elbepark-dresden/
+URL:https://elbepark.info/event/das-2-grosse-bergteufel-spektakel-im-elbepa
+ rk-dresden/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
