@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elektronisch in Jena · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:j-cafe-wagner-20261127-depeche-mode-dark-classics@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Depeche Mode & Dark Classics
+LOCATION:Café Wagner\, Wagnergasse 26\, 07743 Jena
+DESCRIPTION:Clubabend im Café Wagner in der Jenaer Wagnergasse.\nQuelle (b
+ itte vor dem Besuch prüfen): https://www.wagnerverein-jena.de/de/programm
+ /
+URL:https://www.wagnerverein-jena.de/de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
