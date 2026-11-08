@@ -30,15 +30,21 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:fr-jazzhaus-20261109-2000-dominik-hartz-verstr-ckt-tour-2026@myeventhub
  .de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261108T000000Z
 DTSTART;TZID=Europe/Berlin:20261109T200000
 DTEND;TZID=Europe/Berlin:20261109T220000
-SUMMARY:Dominik Hartz: verstr!ckt Tour 2026
+SUMMARY:ABGESAGT: Dominik Hartz: verstr!ckt Tour 2026
 LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
 DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
  n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
  .html
 URL:https://www.jazzhaus.de/programm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Dominik Hartz: verstr!ckt Tour 2026 am 9.11.2026 (lau
+ t Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261109T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -66,6 +72,20 @@ DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
  n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
  /2026/12.html
 URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-vorderhaus-20270203-david-mayonga-aka-roger-rekless-wo-kommst-du-wir
+ kl@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270203T200000
+DTEND;TZID=Europe/Berlin:20270203T220000
+SUMMARY:David Mayonga aka Roger Rekless – Wo kommst du wirklich her?
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vorderhaus.de/programm
+URL:https://www.vorderhaus.de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

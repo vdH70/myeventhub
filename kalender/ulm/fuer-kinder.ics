@@ -43,12 +43,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ul-theater-ulm-20261126-max-und-moritz-premiere@myeventhub.de
 DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
+DTSTART;TZID=Europe/Berlin:20261126T110000
+DTEND;TZID=Europe/Berlin:20261126T130000
 SUMMARY:Max und Moritz (Premiere)
 LOCATION:Theater Ulm – Großes Haus\, Ulm
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.theater-ulm.
- de/spielplan/stuecke/max-und-moritz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz
 URL:https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -168,6 +168,18 @@ DESCRIPTION:Familienkonzert im ROXY Ulm.\nEnde: laut Quelle nicht angegeben
  \nQuelle (bitte vor dem Besuch prüfen): https://www.roxy.ulm.de/programm/
  programm.php?m=1&j=2027
 URL:https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ul-roxy-20270314-dizzy-disco@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T140000
+DTEND;TZID=Europe/Berlin:20270314T160000
+SUMMARY:Dizzy Disco
+LOCATION:Cafébar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.roxy.ulm.de/programm/programm.php?m=3&j=2027
+URL:https://www.roxy.ulm.de/programm/programm.php?m=3&j=2027
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

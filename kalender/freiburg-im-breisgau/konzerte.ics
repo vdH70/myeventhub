@@ -124,15 +124,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fr-jazzhaus-20261109-2000-dominik-hartz-verstr-ckt-tour-2026@myeventhub
  .de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261108T000000Z
 DTSTART;TZID=Europe/Berlin:20261109T200000
 DTEND;TZID=Europe/Berlin:20261109T220000
-SUMMARY:Dominik Hartz: verstr!ckt Tour 2026
+SUMMARY:ABGESAGT: Dominik Hartz: verstr!ckt Tour 2026
 LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
 DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
  n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
  .html
 URL:https://www.jazzhaus.de/programm.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Dominik Hartz: verstr!ckt Tour 2026 am 9.11.2026 (lau
+ t Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261109T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -230,6 +236,20 @@ URL:https://www.jazzhaus.de/programm.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fr-vorderhaus-20261114-fee-penafiel-die-wolken-ueber-uns-akustik-tour@m
+ yeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Fee Penafiel – Die Wolken über uns (Akustik Tour)
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vorderhaus.de/programm
+URL:https://www.vorderhaus.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fr-e-werk-20261114-2030-cosmic-mints-near-mint-album-release@myeventhub
  .de
 DTSTAMP:20261107T000000Z
@@ -308,6 +328,20 @@ DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
  n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
  .html
 URL:https://www.jazzhaus.de/programm.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-vorderhaus-20261117-so-soon-tour-2026@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T200000
+DTEND;TZID=Europe/Berlin:20261117T220000
+SUMMARY:So Soon – Tour 2026
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Einlass 19:00\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.vorderhaus.de/pro
+ gramm
+URL:https://www.vorderhaus.de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -404,6 +438,20 @@ URL:https://www.jazzhaus.de/programm.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fr-vorderhaus-20261127-sascha-bendiks-grundrauschen-album-release@myeve
+ nthub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:Sascha Bendiks – GRUNDRAUSCHEN (Album Release)
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vorderhaus.de/programm
+URL:https://www.vorderhaus.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fr-jazzhaus-20261128-2000-fatcat-forever-tour-2026@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T200000
@@ -444,6 +492,19 @@ URL:https://www.jazzhaus.de/programm/2026/12.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fr-slow-club-20261202-sexverbot-speggfalde@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T210000
+DTEND;TZID=Europe/Berlin:20261202T230000
+SUMMARY:SEXVERBOT + SPEGGFALDE
+LOCATION:SLOW CLUB\, Haslacher Straße 25\, 79115 Freiburg im Breisgau
+DESCRIPTION:Einlass 20:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.slowclub-freiburg
+ .de/veranstaltungen
+URL:https://www.slowclub-freiburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fr-jazzhaus-20261203-2000-frytz-tour-2026@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261203T200000
@@ -467,6 +528,19 @@ DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
  n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
  /2026/12.html
 URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-slow-club-20261205-there-s-a-light-umoora@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T220000
+DTEND;TZID=Europe/Berlin:20261206T000000
+SUMMARY:THERE'S A LIGHT + UMOORA
+LOCATION:SLOW CLUB\, Haslacher Straße 25\, 79115 Freiburg im Breisgau
+DESCRIPTION:Einlass 21:00\, Beginn 22:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.slowclub-freiburg
+ .de/veranstaltungen
+URL:https://www.slowclub-freiburg.de/veranstaltungen
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -495,6 +569,19 @@ DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
  n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
  /2026/12.html
 URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-slow-club-20261210-coup-dur@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T210000
+DTEND;TZID=Europe/Berlin:20261210T230000
+SUMMARY:COUP DUR
+LOCATION:SLOW CLUB\, Haslacher Straße 25\, 79115 Freiburg im Breisgau
+DESCRIPTION:Einlass 20:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.slowclub-freiburg
+ .de/veranstaltungen
+URL:https://www.slowclub-freiburg.de/veranstaltungen
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -605,6 +692,20 @@ URL:https://suedufer-freiburg.de/gesamt-programm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fr-vorderhaus-20261217-hiss-fuer-eine-handvoll-cent@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:HISS – Für eine Handvoll Cent
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Einlass 19:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.vorderhaus.de/pro
+ gramm
+URL:https://www.vorderhaus.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fr-jazzhaus-20261219-2000-hgich-t-live-acid-aftershow@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20261219T200000
@@ -696,6 +797,20 @@ DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
  n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
  /2026/12.html
 URL:https://www.jazzhaus.de/programm/2026/12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-vorderhaus-20270106-muttis-kinder-intergalactic-interruption@myevent
+ hub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T200000
+DTEND;TZID=Europe/Berlin:20270106T220000
+SUMMARY:Muttis Kinder – Intergalactic Interruption
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vorderhaus.de/programm
+URL:https://www.vorderhaus.de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -792,6 +907,20 @@ URL:https://www.jazzhaus.de/programm/2027/1.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fr-vorderhaus-20270116-sebastian-kraemer-gesaenge-auf-der-falltuer@myev
+ enthub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:Sebastian Krämer – Gesänge auf der Falltür
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vorderhaus.de/programm
+URL:https://www.vorderhaus.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fr-jazzhaus-20270117-2000-lawrence-fields-supersonic-trio-live-2027@mye
  venthub.de
 DTSTAMP:20261103T000000Z
@@ -832,6 +961,32 @@ URL:https://www.jazzhaus.de/programm/2027/1.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fr-jazzhaus-20270122-jazzhaus-singalong@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T193000
+DTEND;TZID=Europe/Berlin:20270122T213000
+SUMMARY:Jazzhaus Singalong
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:mit Cécile Verny & Christian Gutfleisch\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.
+ de/programm/2027/1.html
+URL:https://www.jazzhaus.de/programm/2027/1.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-jazzhaus-20270128-dance-for-democracy@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T200000
+DTEND;TZID=Europe/Berlin:20270128T220000
+SUMMARY:Dance For Democracy
+LOCATION:Jazzhaus Freiburg\, Freiburg im Breisgau
+DESCRIPTION:Abschlusskonzert der Konferenz 'Business Case Democracy?!'\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.jazzhaus.de/programm/2027/1.html
+URL:https://www.jazzhaus.de/programm/2027/1.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fr-swamp-20270128-ta-ga-da@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20270128
@@ -855,6 +1010,20 @@ DESCRIPTION:Konzert im Jazzhaus Freiburg.\nEnde: laut Quelle nicht angegebe
  n\nQuelle (bitte vor dem Besuch prüfen): https://www.jazzhaus.de/programm
  /2027/1.html
 URL:https://www.jazzhaus.de/programm/2027/1.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-vorderhaus-20270203-david-mayonga-aka-roger-rekless-wo-kommst-du-wir
+ kl@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270203T200000
+DTEND;TZID=Europe/Berlin:20270203T220000
+SUMMARY:David Mayonga aka Roger Rekless – Wo kommst du wirklich her?
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vorderhaus.de/programm
+URL:https://www.vorderhaus.de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -949,6 +1118,100 @@ DESCRIPTION:Konzert in der Freiburger Kneipe Swamp.\nPreis: 15 €\nQuelle
  (bitte vor dem Besuch prüfen): https://www.sumpfkultur.org/veranstaltunge
  n/
 URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-vorderhaus-20270304-jakob-heymann-musik-fuer-optimisten@myeventhub.d
+ e
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T200000
+DTEND;TZID=Europe/Berlin:20270304T220000
+SUMMARY:Jakob Heymann – Musik für Optimisten
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vorderhaus.de/programm
+URL:https://www.vorderhaus.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20270305-we-love-surf@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:WE LOVE SURF
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Preis: 15 €\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.sumpfkultur.org/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-slow-club-20270309-mwita-mataro@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270309T210000
+DTEND;TZID=Europe/Berlin:20270309T230000
+SUMMARY:MWITA MATARO
+LOCATION:SLOW CLUB\, Haslacher Straße 25\, 79115 Freiburg im Breisgau
+DESCRIPTION:Einlass 20:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.slowclub-freiburg
+ .de/veranstaltungen
+URL:https://www.slowclub-freiburg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-vorderhaus-20270311-ansa-sauermann-trio-keine-weiteren-fragen-2027@m
+ yeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T200000
+DTEND;TZID=Europe/Berlin:20270311T220000
+SUMMARY:Ansa Sauermann Trio – Keine weiteren Fragen 2027
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.vorderhaus.de/programm
+URL:https://www.vorderhaus.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20270311-south-sardinian-scum-slackers-bunch@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:SOUTH SARDINIAN SCUM & SLACKERS BUNCH
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Preis: 15 €\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.sumpfkultur.org/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-vorderhaus-20270422-duo-stiehler-lucaciu@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270422T200000
+DTEND;TZID=Europe/Berlin:20270422T220000
+SUMMARY:Duo Stiehler / Lucaciu
+LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
+ g im Breisgau
+DESCRIPTION:Einlass 19:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://www.vorderhaus.de/pro
+ gramm
+URL:https://www.vorderhaus.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-e-werk-20270430-rainald-grebe-ich-erinnere-mich-glaube-ich@myeventhu
+ b.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T200000
+DTEND;TZID=Europe/Berlin:20270430T220000
+SUMMARY:Rainald Grebe – Ich erinnere mich – glaube ich
+LOCATION:E-WERK Freiburg\, Eschholzstraße 77\, 79106 Freiburg im Breisgau
+DESCRIPTION:Veranstalter Vorderhaus\, Ort laut dortiger Seite E-Werk Freibu
+ rg\; dort 'rescheduled from 09.12.26'\nEnde: laut Quelle nicht angegeben\n
+ Quelle (bitte vor dem Besuch prüfen): https://www.vorderhaus.de/programm/
+ ?month=04-2027
+URL:https://www.vorderhaus.de/programm/?month=04-2027
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

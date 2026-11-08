@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pir-wagnerstaetten-graupa-20261115-familienfuehrung-wie-funktioniert-ei
+ n-orchester@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Familienführung: Wie funktioniert ein Orchester?
+LOCATION:Richard-Wagner-Stätten Graupa\, Tschaikowskiplatz 7\, 01796 Pirna
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.wagnerstaetten.de/veranstaltungen/
+URL:https://www.wagnerstaetten.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:pir-stadtmuseum-pirna-20261201-tierisch-gut-spielzeug-und-geschichten-z
  ur-winterz-beginn@myeventhub.de

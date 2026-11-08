@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Märkte in Euskirchen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:eu-altes-casino-20261127-sternenfest-beginn@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Beginn: Sternenfest
+LOCATION:Altes Casino Euskirchen\, Kaplan-Kellermann-Str. 1\, Euskirchen
+DESCRIPTION:Adventsmarkt mit verschiedenen Ausstellern.\nLaufzeit: 27.11.20
+ 26 bis 29.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://casinove
+ rein.eu/veranstaltungen/
+URL:https://casinoverein.eu/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-altes-casino-20261127-sternenfest-ende@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Sternenfest
+LOCATION:Altes Casino Euskirchen\, Kaplan-Kellermann-Str. 1\, Euskirchen
+DESCRIPTION:Adventsmarkt mit verschiedenen Ausstellern.\nLaufzeit: 27.11.20
+ 26 bis 29.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://casinove
+ rein.eu/veranstaltungen/
+URL:https://casinoverein.eu/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

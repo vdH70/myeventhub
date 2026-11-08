@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:se-kulturschuppen-20261213-hanse-jazz-quintett@myeventhub.de
 DTSTAMP:20261107T000000Z
@@ -39,6 +56,18 @@ URL:https://www.kulturschuppen-segeberg.de/veranstaltungen/details/news/joy
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:se-kulturschuppen-20261225-x-mas-night@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:X-Mas Night
+LOCATION:Kulturschuppen Segeberg\, Rosenstraße 2a\, 23795 Bad Segeberg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.kulturschupp
+ en-segeberg.de/veranstaltungen
+URL:https://www.kulturschuppen-segeberg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:se-kulturschuppen-20270129-abi-wallenstein-feelgoodboogie@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20270129
@@ -64,6 +93,30 @@ DESCRIPTION:Konzert zwischen Klassik und Pop im Kulturschuppen Bad Segeberg
  erg.de/veranstaltungen/details/news/the-candlelight-experience
 URL:https://www.kulturschuppen-segeberg.de/veranstaltungen/details/news/the
  -candlelight-experience
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:se-kulturschuppen-20270227-funky-54@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T200000
+DTEND;TZID=Europe/Berlin:20270227T220000
+SUMMARY:Funky 54
+LOCATION:Kulturschuppen Segeberg\, Rosenstraße 2a\, 23795 Bad Segeberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kulturschuppen-segeberg.de/veranstaltungen
+URL:https://www.kulturschuppen-segeberg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:se-kulturschuppen-20270430-tanz-in-den-mai@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Tanz in den Mai
+LOCATION:Kulturschuppen Segeberg\, Rosenstraße 2a\, 23795 Bad Segeberg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.kulturschupp
+ en-segeberg.de/veranstaltungen
+URL:https://www.kulturschuppen-segeberg.de/veranstaltungen
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

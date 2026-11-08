@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:fr-swamp-20261107-the-dad-horse-experience@myeventhub.de
 DTSTAMP:20261103T000000Z
@@ -20,6 +37,19 @@ LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
 DESCRIPTION:Konzert in der Freiburger Kneipe Swamp.\nPreis: 15 €\nQuelle 
  (bitte vor dem Besuch prüfen): https://www.sumpfkultur.org/veranstaltunge
  n/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261108-bundesliga-sc-vs-union@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261108T173000
+DTEND;TZID=Europe/Berlin:20261108T193000
+SUMMARY:Bundesliga: SC vs. Union
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
 URL:https://www.sumpfkultur.org/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -64,6 +94,173 @@ URL:https://www.sumpfkultur.org/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fr-swamp-20261120-ausstellung-mo-von-zaehringen-beginn@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Beginn: Ausstellung – Mo von Zähringen
+LOCATION:Roter Salon
+DESCRIPTION:Laufzeit: 20.11.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.sumpfkultur.org/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261120-ausstellung-mo-von-zaehringen-ende@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Letzter Tag: Ausstellung – Mo von Zähringen
+LOCATION:Roter Salon
+DESCRIPTION:Laufzeit: 20.11.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.sumpfkultur.org/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261121-bundesliga-elversberg-vs-sc@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T153000
+DTEND;TZID=Europe/Berlin:20261121T173000
+SUMMARY:Bundesliga: Elversberg vs. SC
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261126-uecl-sc-vs-enschede@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T210000
+DTEND;TZID=Europe/Berlin:20261126T230000
+SUMMARY:UECL: SC vs. Enschede
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261129-bundesliga-sc-vs-leipzig@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T153000
+DTEND;TZID=Europe/Berlin:20261129T173000
+SUMMARY:Bundesliga: SC vs. Leipzig
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261202-dfb-pokal-kaiserslautern-vs-sc@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T180000
+DTEND;TZID=Europe/Berlin:20261202T200000
+SUMMARY:DFB-Pokal: Kaiserslautern vs. SC
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261205-bundesliga-sc-vs-hoffenheim@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T153000
+DTEND;TZID=Europe/Berlin:20261205T173000
+SUMMARY:Bundesliga: SC vs. Hoffenheim
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261210-uecl-sc-vs-panathinaikos@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T210000
+DTEND;TZID=Europe/Berlin:20261210T230000
+SUMMARY:UECL: SC vs. Panathinaikos
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261213-bundesliga-mainz-vs-sc@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T153000
+DTEND;TZID=Europe/Berlin:20261213T173000
+SUMMARY:Bundesliga: Mainz vs. SC
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261217-uecl-kauno-zagiris-vs-sc@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T210000
+DTEND;TZID=Europe/Berlin:20261217T230000
+SUMMARY:UECL: Kauno Zagiris vs. SC
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20261220-bundesliga-sc-vs-vfb@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T153000
+DTEND;TZID=Europe/Berlin:20261220T173000
+SUMMARY:Bundesliga: SC vs. VfB
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20270109-bundesliga-koeln-vs-sc@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T153000
+DTEND;TZID=Europe/Berlin:20270109T173000
+SUMMARY:Bundesliga: Köln vs. SC
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20270113-bundesliga-sc-vs-hsv@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270113T203000
+DTEND;TZID=Europe/Berlin:20270113T223000
+SUMMARY:Bundesliga: SC vs. HSV
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fr-swamp-20270114-flame-parade@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20270114
@@ -73,6 +270,32 @@ LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
 DESCRIPTION:Konzert in der Freiburger Kneipe Swamp.\nPreis: 15 €\nQuelle 
  (bitte vor dem Besuch prüfen): https://www.sumpfkultur.org/veranstaltunge
  n/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20270116-bundesliga-bvb-vs-sc@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T153000
+DTEND;TZID=Europe/Berlin:20270116T173000
+SUMMARY:Bundesliga: BVB vs. SC
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20270122-bundesliga-bremen-vs-sc@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T203000
+DTEND;TZID=Europe/Berlin:20270122T223000
+SUMMARY:Bundesliga: Bremen vs. SC
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Fussballuebertragung\, Eintritt frei\nEnde: laut Quelle nicht a
+ ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.sumpfkultur.o
+ rg/veranstaltungen/
 URL:https://www.sumpfkultur.org/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -99,6 +322,30 @@ LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
 DESCRIPTION:Konzert in der Freiburger Kneipe Swamp.\nPreis: 15 €\nQuelle 
  (bitte vor dem Besuch prüfen): https://www.sumpfkultur.org/veranstaltunge
  n/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20270305-we-love-surf@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:WE LOVE SURF
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Preis: 15 €\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.sumpfkultur.org/veranstaltungen/
+URL:https://www.sumpfkultur.org/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-swamp-20270311-south-sardinian-scum-slackers-bunch@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:SOUTH SARDINIAN SCUM & SLACKERS BUNCH
+LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
+DESCRIPTION:Preis: 15 €\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.sumpfkultur.org/veranstaltungen/
 URL:https://www.sumpfkultur.org/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:we-kasseturm-20261113-housegemacht@myeventhub.de
 DTSTAMP:20261103T000000Z
@@ -20,6 +37,18 @@ LOCATION:Keller
 DESCRIPTION:Disko im Studentenclub Kasseturm Weimar.\nQuelle (bitte vor dem
   Besuch prüfen): https://kasseturm.de/veranstaltung/
 URL:https://kasseturm.de/veranstaltung/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:we-mon-ami-20270416-dub-spencer-trance-hill@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270416T200000
+DTEND;TZID=Europe/Berlin:20270416T220000
+SUMMARY:DUB SPENCER & TRANCE HILL
+LOCATION:mon ami Weimar (Kommunales Kino)\, Goetheplatz 11\, 99423 Weimar
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.monami-weimar.de/programm
+URL:https://www.monami-weimar.de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
