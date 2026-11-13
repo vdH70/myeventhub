@@ -96,7 +96,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da-halbneun-20261114-2030-pariser-flair@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261113T000000Z
 DTSTART;TZID=Europe/Berlin:20261114T203000
 DTEND;TZID=Europe/Berlin:20261114T223000
 SUMMARY:Pariser Flair
@@ -231,15 +231,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:da-halbneun-20261120-2030-richard-martin-peter-wucherpfennig-tales-harp
  @myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261113T000000Z
 DTSTART;TZID=Europe/Berlin:20261120T203000
 DTEND;TZID=Europe/Berlin:20261120T223000
-SUMMARY:Richard Martin & Peter Wucherpfennig: Tales & Harp
+SUMMARY:ABGESAGT: Richard Martin & Peter Wucherpfennig: Tales & Harp
 LOCATION:halbNeun Theater\, Sandstraße 32\, 64283 Darmstadt
 DESCRIPTION:Konzert im halbNeun Theater Darmstadt.\nEnde: laut Quelle nicht
   angegeben\nQuelle (bitte vor dem Besuch prüfen): https://halbneuntheater
  .de/programm/
 URL:https://halbneuntheater.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Richard Martin & Peter Wucherpfennig: Tales & Harp am
+  20.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261114T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
