@@ -10,67 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:su-siebengebirgsmuseum-20261107-familienfuehrung@myeventhub.de
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Familienführung
-LOCATION:Siebengebirgsmuseum\, Kellerstraße 16\, 53639 Königswinter
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.siebengebirg
- smuseum.de/termine/
-URL:https://www.siebengebirgsmuseum.de/termine/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:wd-koenigswinter-heisterbacher-str-20261108-single-wanderung-kloster-he
- isterbach-petersberg-un@myeventhub.de
-DTSTAMP:20261106T000000Z
-DTSTART;TZID=Europe/Berlin:20261108T110000
-DTEND;TZID=Europe/Berlin:20261108T130000
-SUMMARY:Single-Wanderung: Kloster Heisterbach\, Petersberg und Schlucht am 
- Stenzelberg
-LOCATION:Wanderdate-Treffpunkt Heisterbacher Str.\, Königswinter\, Heister
- bacher Str.\, 53639 Königswinter
-DESCRIPTION:Geführte Single-Wanderung von Wanderdate\, 11:00–17:00 Uhr\,
-  Altersgruppe 25–49\; Anmeldung beim Veranstalter.\nEnde: laut Quelle ni
- cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.wanderda
- te.de/singlewandern/08-11-26-kloster-heisterbach-petersberg-und-schlucht-a
- m-stenzelberg
-URL:https://www.wanderdate.de/singlewandern/08-11-26-kloster-heisterbach-pe
- tersberg-und-schlucht-am-stenzelberg
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:su-siebengebirgsmuseum-20261108-kuratorenfuehrung-landschaft-sage-und-g
- eschichte@myeventhub.de
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Kuratorenführung: Landschaft\, Sage und Geschichte
-LOCATION:Siebengebirgsmuseum\, Kellerstraße 16\, 53639 Königswinter
-DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.siebengebirg
- smuseum.de/termine/
-URL:https://www.siebengebirgsmuseum.de/termine/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:su-siebengebirgsmuseum-20261115-finissage-jubeltage-feste-in-koenigswin
  ter@myeventhub.de

@@ -10,66 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:bs-kunstverein-20261017-nothing-is-ever-really-lost-meisterschueler-inn
- en-ende@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Letzter Tag: Nothing is ever really lost – Meisterschüler*innen 
- der HBK Braunschweig 2026
-LOCATION:Kunstverein Braunschweig (Villa Salve Hospes)\, Lessingplatz 12\, 
- 38100 Braunschweig
-DESCRIPTION:Laufzeit: 17.10.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuc
- h prüfen): https://www.kunstvereinbraunschweig.de/
-URL:https://www.kunstvereinbraunschweig.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bs-kunstverein-20261108-kuenstler-innengespraech@myeventhub.de
-DTSTAMP:20261106T000000Z
-DTSTART;TZID=Europe/Berlin:20261108T130000
-DTEND;TZID=Europe/Berlin:20261108T150000
-SUMMARY:Künstler*innengespräch
-LOCATION:Kunstverein Braunschweig (Villa Salve Hospes)\, Lessingplatz 12\, 
- 38100 Braunschweig
-DESCRIPTION:Gespräch zur Meisterschüler*innen-Ausstellung\, Moderation Ju
- le Hillgärtner.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
-  Besuch prüfen): https://www.kunstvereinbraunschweig.de/
-URL:https://www.kunstvereinbraunschweig.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:bs-kunstverein-20261108-finissage-nothing-is-ever-really-lost@myeventhu
- b.de
-DTSTAMP:20261106T000000Z
-DTSTART;TZID=Europe/Berlin:20261108T160000
-DTEND;TZID=Europe/Berlin:20261108T180000
-SUMMARY:Finissage: Nothing is ever really lost
-LOCATION:Kunstverein Braunschweig (Villa Salve Hospes)\, Lessingplatz 12\, 
- 38100 Braunschweig
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.kunstvereinbraunschweig.de/
-URL:https://www.kunstvereinbraunschweig.de/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:bs-haum-20261204-creepy-crawlies-das-unheimliche-krabbeln-in-kunst@myev
  enthub.de

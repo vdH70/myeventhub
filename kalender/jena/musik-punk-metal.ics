@@ -10,36 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:j-rosenkeller-20261106-aop-skatacombo-unglaublicher-vorfall@myeventhub.
- de
-DTSTAMP:20261030T000000Z
-DTSTART;TZID=Europe/Berlin:20261106T200000
-DTEND;TZID=Europe/Berlin:20261106T220000
-SUMMARY:AOP | Skatacombo | Unglaublicher Vorfall
-LOCATION:Rosenkeller\, Johannisstraße 13\, 07743 Jena
-DESCRIPTION:Einlass 19:30\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angeg
- eben\nQuelle (bitte vor dem Besuch prüfen): https://www.rosenkeller.org/
-URL:https://www.rosenkeller.org/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:j-rosenkeller-20261114-caosonora-ghostones-zerynthia@myeventhub.de
 DTSTAMP:20261106T000000Z

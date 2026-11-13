@@ -10,53 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:k-palladium-20261107-azubi2b-messe@myeventhub.de
-DTSTAMP:20261102T000000Z
-DTSTART;TZID=Europe/Berlin:20261107T100000
-DTEND;TZID=Europe/Berlin:20261107T120000
-SUMMARY:Azubi2B Messe Köln
-LOCATION:Palladium Köln\, Schanzenstraße 40\, 51063 Köln
-DESCRIPTION:Ausbildungsmesse für (Fach-)Abiturient*innen\, Oberstufe und E
- ltern: Unternehmen\, Ausbildungsplätze\, duale Studiengänge\, Berufsbera
- tung\, Vorträge. 10–16 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: 
- Eintritt frei\, kostenlose Anmeldung (eigenes Ticket je Person)\nQuelle (b
- itte vor dem Besuch prüfen): https://www.azubi2b.de/koeln
-URL:https://www.azubi2b.de/koeln
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:k-rheinenergiestadion-20261110-karrieretag-koeln@myeventhub.de
-DTSTAMP:20261102T000000Z
-DTSTART;TZID=Europe/Berlin:20261110T100000
-DTEND;TZID=Europe/Berlin:20261110T120000
-SUMMARY:Karrieretag Köln
-LOCATION:RheinEnergieSTADION\, Aachener Straße 999\, 50933 Köln
-DESCRIPTION:Jobmesse für Fachkräfte\, Führungskräfte\, Absolvent:innen\
- , Studierende\, Berufseinsteiger und Quereinsteigende mit Bewerbungs-Check
- \, Coaching und Vorträgen\; 10–17 Uhr.\nEnde: laut Quelle nicht angegeb
- en\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://w
- ww.karrieretag.org/koeln/
-URL:https://www.karrieretag.org/koeln/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:k-rheinenergiestadion-20270428-karrieretag-koeln@myeventhub.de
 DTSTAMP:20261102T000000Z

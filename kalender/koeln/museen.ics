@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:k-museum-schnuetgen-20250403-licht-in-dunklen-zeiten-ende@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -54,22 +37,6 @@ DESCRIPTION:Laufzeit: 3.12.2025 bis 31.1.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.museum-fuer-ostasiatische-kunst.de/default.aspx?s=3
  131
 URL:https://www.museum-fuer-ostasiatische-kunst.de/default.aspx?s=3131
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:k-museum-ludwig-20260207-hier-und-jetzt-im-museum-ludwig-de-collecting-
- memo-ende@myeventhub.de
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Letzter Tag: HIER UND JETZT im Museum Ludwig. De/Collecting Memorie
- s from Turtle Island
-LOCATION:Museum Ludwig\, Heinrich-Böll-Platz\, 50667 Köln
-DESCRIPTION:Laufzeit: 7.2.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch 
- prüfen): https://www.museum-ludwig.de/de/ausstellungen/hier-und-jetzt-im-
- museum-ludwig-de/collecting-memories-from-turtle-island
-URL:https://www.museum-ludwig.de/de/ausstellungen/hier-und-jetzt-im-museum-
- ludwig-de/collecting-memories-from-turtle-island
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -291,21 +258,6 @@ DESCRIPTION:Laufzeit: 7.11.2026 bis 4.4.2027\nQuelle (bitte vor dem Besuch
  hahn-preis-2026
 URL:https://www.museum-ludwig.de/de/ausstellungen/lee-ufan-wolfgang-hahn-pr
  eis-2026
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:k-strassenbahn-museum-thielenbruch-20261108-oeffnungstag-im-strassenbah
- n-museum-thielenbruch@myeventhub.de
-DTSTAMP:20261106T000000Z
-DTSTART;TZID=Europe/Berlin:20261108T110000
-DTEND;TZID=Europe/Berlin:20261108T130000
-SUMMARY:Öffnungstag im Straßenbahn-Museum Thielenbruch
-LOCATION:Straßenbahn-Museum Thielenbruch\, Köln
-DESCRIPTION:Geöffnet 11–17 Uhr\, stündlich kostenlose Führungen.\nEnde
- : laut Quelle nicht angegeben\nPreis: Kinder (6-14 Jahre): 1\,50 €\, Erw
- achsene: 2\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://hsk.koe
- ln/events/oeffnungstage-im-museum
-URL:https://hsk.koeln/events/oeffnungstage-im-museum
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

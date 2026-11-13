@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:hei-dithmarscher-landesmuseum-20261025-zinn-und-weg-die-geschichte-eine
  s-fast-vergessenen-ende@myeventhub.de
@@ -39,49 +22,6 @@ LOCATION:Dithmarscher Landesmuseum\, Bütjestraße 2-4\, 25704 Meldorf
 DESCRIPTION:Laufzeit: 25.10.2026 bis 9.5.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.landesmuseum-dithmarschen.de/
 URL:https://www.landesmuseum-dithmarschen.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hei-landwirtschaftsmuseum-meldorf-20261107-regionaler-genussmarkt-begin
- n@myeventhub.de
-DTSTAMP:20261030T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Beginn: Regionaler Genussmarkt
-LOCATION:Schleswig-Holsteinisches Landwirtschaftsmuseum\, Jungfernstieg 4\,
-  25704 Meldorf
-DESCRIPTION:Laufzeit: 7.11.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
-  prüfen): https://landwirtschaftsmuseum.sh/
-URL:https://landwirtschaftsmuseum.sh/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hei-landwirtschaftsmuseum-meldorf-20261107-regionaler-genussmarkt-ende@
- myeventhub.de
-DTSTAMP:20261030T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Letzter Tag: Regionaler Genussmarkt
-LOCATION:Schleswig-Holsteinisches Landwirtschaftsmuseum\, Jungfernstieg 4\,
-  25704 Meldorf
-DESCRIPTION:Laufzeit: 7.11.2026 bis 8.11.2026\nQuelle (bitte vor dem Besuch
-  prüfen): https://landwirtschaftsmuseum.sh/
-URL:https://landwirtschaftsmuseum.sh/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hei-stadtbuecherei-meldorf-20261112-kamishibai@myeventhub.de
-DTSTAMP:20261030T000000Z
-DTSTART;TZID=Europe/Berlin:20261112T160000
-DTEND;TZID=Europe/Berlin:20261112T180000
-SUMMARY:Kamishibai
-LOCATION:Stadtbücherei Meldorf\, Rosenstraße 12\, 25704 Meldorf
-DESCRIPTION:Japanisches Erzähltheater in der Stadtbücherei.\nEnde: laut Q
- uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
- stadt-meldorf.de/tourismus-kultur/veranstaltungen/veranstaltungskalender/s
- eite-3
-URL:https://www.stadt-meldorf.de/tourismus-kultur/veranstaltungen/veranstal
- tungskalender/seite-3
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

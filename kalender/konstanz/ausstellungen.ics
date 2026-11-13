@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:kn-rosgartenmuseum-20260521-die-mosbruggers-eine-kuenstlerfamilie-am-bo
  densee-ende@myeventhub.de
@@ -79,22 +62,6 @@ LOCATION:Kunstverein Konstanz\, Wessenbergstraße 39/41\, 78462 Konstanz
 DESCRIPTION:Laufzeit: 7.11.2026 bis 29.11.2026\nQuelle (bitte vor dem Besuc
  h prüfen): https://www.kunstverein-konstanz.de/jahresprogramm.html
 URL:https://www.kunstverein-konstanz.de/jahresprogramm.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:kn-kunstverein-20261108-1130-gespraech-zur-kunst-cornelia-brintzingers@
- myeventhub.de
-DTSTAMP:20261103T000000Z
-DTSTART;TZID=Europe/Berlin:20261108T113000
-DTEND;TZID=Europe/Berlin:20261108T133000
-SUMMARY:Gespräch zur Kunst Cornelia Brintzingers
-LOCATION:Kunstverein Konstanz\, Wessenbergstraße 39/41\, 78462 Konstanz
-DESCRIPTION:Künstlergespräch zur aktuellen Ausstellung im Kunstverein Kon
- stanz.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
- üfen): https://www.kunstverein-konstanz.de/detailansicht/gespraech-zur-ku
- nst-cornelia-brintzingers.html
-URL:https://www.kunstverein-konstanz.de/detailansicht/gespraech-zur-kunst-c
- ornelia-brintzingers.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

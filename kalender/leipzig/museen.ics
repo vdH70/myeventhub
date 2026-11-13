@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:l-zeitgeschichtliches-forum-20250319-uebern-zaun-gaerten-und-menschen-e
  nde@myeventhub.de
@@ -209,20 +192,6 @@ LOCATION:GRASSI Museum für Angewandte Kunst\, Johannisplatz 5–11\, 04103
 DESCRIPTION:Laufzeit: 7.11.2026 bis 3.10.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.grassimak.de/museum/sonderausstellungen/
 URL:https://www.grassimak.de/museum/sonderausstellungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:l-mendelssohn-haus-20261108-tacheles-im-mendelssohn-haus-auf-den-spuren
- -des-me@myeventhub.de
-DTSTAMP:20261030T000000Z
-DTSTART;TZID=Europe/Berlin:20261108T130000
-DTEND;TZID=Europe/Berlin:20261108T150000
-SUMMARY:Tacheles im Mendelssohn-Haus: Auf den Spuren des Mendelssohn-Denkma
- ls
-LOCATION:Mendelssohn-Haus Leipzig\, Goldschmidtstraße 12\, 04103 Leipzig
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.mendelssohn-stiftung.de/de/konzerte
-URL:https://www.mendelssohn-stiftung.de/de/konzerte
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

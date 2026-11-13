@@ -10,51 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:pi-stadttheater-elmshorn-20261106-anna-haentjens-zwischen-dem-woher-und
- -wohin@myeventhub.de
-DTSTAMP:20261031T000000Z
-DTSTART;TZID=Europe/Berlin:20261106T200000
-DTEND;TZID=Europe/Berlin:20261106T220000
-SUMMARY:Anna Haentjens: Zwischen dem Woher und Wohin
-LOCATION:Stadttheater Elmshorn\, Königstraße 56\, 25335 Elmshorn
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.stadttheater-elmshorn.de/index.php?auswahl=3062
-URL:https://www.stadttheater-elmshorn.de/index.php?auswahl=3062
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:pi-haus-13-elmshorn-20261106-anna-haentjens-und-sven-selle-hommage-frie
- drich-ho@myeventhub.de
-DTSTAMP:20261103T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Anna Haentjens und Sven Selle: Hommage Friedrich Hollaender
-LOCATION:Haus 13 Elmshorn\, Adolfstraße 13\, 25335 Elmshorn
-DESCRIPTION:Lieder- bzw. Chansonabend im Haus 13 in Elmshorn.\nQuelle (bitt
- e vor dem Besuch prüfen): https://www.haus13.de/events/anna-haentjens-und
- -sven-selle-hommage-friedrich-hollaender-am-freitag-06-november-2026/
-URL:https://www.haus13.de/events/anna-haentjens-und-sven-selle-hommage-frie
- drich-hollaender-am-freitag-06-november-2026/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:pi-haus-13-elmshorn-20270217-marie-diot-unwahrscheinliche-hits@myeventh
  ub.de
