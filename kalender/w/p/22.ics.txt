@@ -512,20 +512,27 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hh-kampnagel-20261114-hamburger-krimifestival-italienischer-abend-mit-m
  a@myeventhub.de
-DTSTAMP:20261106T000000Z
+DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:Hamburger Krimifestival: Italienischer Abend mit Marcello Simoni
+SUMMARY:ABGESAGT: Hamburger Krimifestival: Italienischer Abend mit Marcello
+  Simoni
 LOCATION:Kampnagel\, Jarrestraße 20\, 22303 Hamburg
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kampnagel.de/rei
  hen/19-hamburger-krimifestival
 URL:https://kampnagel.de/reihen/19-hamburger-krimifestival
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Hamburger Krimifestival: Italienischer Abend mit Marc
+ ello Simoni am 14.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261114T070000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hh-kampnagel-20261114-hamburger-krimifestival-robert-harris@myeventhub.
  de
-DTSTAMP:20261106T000000Z
+DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Hamburger Krimifestival: Robert Harris
