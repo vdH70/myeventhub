@@ -1,0 +1,292 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Köln · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261106-disco-arabesquo@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Disco Arabesquo
+LOCATION:YUCA
+DESCRIPTION:Clubnacht im YUCA am Club Bahnhof Ehrenfeld.\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261106-kpop-khiphop-night@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:KPop & KHipHop Night
+LOCATION:Club Bahnhof Ehrenfeld (CBE) / YUCA\, Bartholomäus-Schink-Straße
+  65/67\, 50825 Köln
+DESCRIPTION:Clubnacht im Club Bahnhof Ehrenfeld.\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261107-one-more-time-hits@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:One More Time Hits
+LOCATION:Club Bahnhof Ehrenfeld (CBE) / YUCA\, Bartholomäus-Schink-Straße
+  65/67\, 50825 Köln
+DESCRIPTION:Clubnacht im Club Bahnhof Ehrenfeld.\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261114-3-year-anniversary-rnb-only@myeventhu
+ b.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:3 Year Anniversary – RNB ONLY!
+LOCATION:Club Bahnhof Ehrenfeld (CBE) / YUCA\, Bartholomäus-Schink-Straße
+  65/67\, 50825 Köln
+DESCRIPTION:Clubnacht im Club Bahnhof Ehrenfeld.\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-buergerhaus-kalk-20261120-2000-downstairsdeluxe-featuring-djs-puffy-u
+ nd-nan-hi-ki@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+DTEND;TZID=Europe/Berlin:20261120T220000
+SUMMARY:downstairsdeluxe featuring… DJs Puffy und Nan-Hi Kim
+LOCATION:Bürgerhaus Kalk\, Kalk-Mülheimer Str. 58\, 51103 Köln
+DESCRIPTION:Party der Reihe downstairsdeluxe im Bürgerhaus Kalk.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ buergerhauskalk.de/veranstaltungen/
+URL:https://buergerhauskalk.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261120-beyonce-club-night@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Beyoncé Club Night
+LOCATION:YUCA
+DESCRIPTION:Clubnacht im YUCA am Club Bahnhof Ehrenfeld.\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261120-mama-geht-tanzen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Mama Geht Tanzen
+LOCATION:Club Bahnhof Ehrenfeld (CBE) / YUCA\, Bartholomäus-Schink-Straße
+  65/67\, 50825 Köln
+DESCRIPTION:Clubnacht im Club Bahnhof Ehrenfeld.\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261122-colour-up-your-sunday@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Colour up your Sunday
+LOCATION:Club Bahnhof Ehrenfeld (CBE) / YUCA\, Bartholomäus-Schink-Straße
+  65/67\, 50825 Köln
+DESCRIPTION:Clubnacht im Club Bahnhof Ehrenfeld.\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261127-bronka-hates-cologne@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Bronka Hates Cologne
+LOCATION:Club Bahnhof Ehrenfeld (CBE) / YUCA\, Bartholomäus-Schink-Straße
+  65/67\, 50825 Köln
+DESCRIPTION:Clubnacht im Club Bahnhof Ehrenfeld.\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261127-one-more-time-trash@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:One More Time – Trash
+LOCATION:YUCA
+DESCRIPTION:Clubnacht im YUCA am Club Bahnhof Ehrenfeld.\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261128-afro-haus@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Afro Haus
+LOCATION:Club Bahnhof Ehrenfeld (CBE) / YUCA\, Bartholomäus-Schink-Straße
+  65/67\, 50825 Köln
+DESCRIPTION:Clubnacht im Club Bahnhof Ehrenfeld.\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261128-gimme-gimme-disco@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Gimme Gimme Disco
+LOCATION:YUCA
+DESCRIPTION:Clubnacht im YUCA am Club Bahnhof Ehrenfeld.\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-buergerzentrum-nippes-20261205-1800-party-nippes-tanzt@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T180000
+DTEND;TZID=Europe/Berlin:20261205T200000
+SUMMARY:Party: Nippes tanzt
+LOCATION:Bürgerzentrum Nippes – Altenberger Hof\, Mauenheimer Str. 92\, 
+ 50733 Köln
+DESCRIPTION:Tanzparty in der Scheune des Bürgerzentrums Nippes.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://b
+ uergerzentrum-nippes.de/wp-content/uploads/2026/10/261007_Folder_BZN_Nov-D
+ ez_2026_web.pdf
+URL:https://buergerzentrum-nippes.de/wp-content/uploads/2026/10/261007_Fold
+ er_BZN_Nov-Dez_2026_web.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261205-the-get-up@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:The GET UP!
+LOCATION:Club Bahnhof Ehrenfeld (CBE) / YUCA\, Bartholomäus-Schink-Straße
+  65/67\, 50825 Köln
+DESCRIPTION:Clubnacht im Club Bahnhof Ehrenfeld.\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-buergerhaus-kalk-20261211-2000-downstairsdeluxe-featuring-5koelnachtz
+ ig@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:downstairsdeluxe featuring… 5KölnAchtzig
+LOCATION:Bürgerhaus Kalk\, Kalk-Mülheimer Str. 58\, 51103 Köln
+DESCRIPTION:Party der Reihe downstairsdeluxe im Bürgerhaus Kalk.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ buergerhauskalk.de/veranstaltungen/
+URL:https://buergerhauskalk.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-club-bahnhof-ehrenfeld-20261218-hit-me-hard-and-soft-after-dark-colog
+ ne-birthday-e@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Hit Me Hard And Soft: After Dark Cologne Birthday Edition
+LOCATION:YUCA
+DESCRIPTION:Clubnacht im YUCA am Club Bahnhof Ehrenfeld.\nQuelle (bitte vor
+  dem Besuch prüfen): https://www.clubbahnhofehrenfeld.de/events
+URL:https://www.clubbahnhofehrenfeld.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-gebaeude-9-20261231-floorshakers-silvester-inferno@myeventhub.de
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Floorshakers Silvester Inferno
+LOCATION:Gebäude 9\, Deutz-Mülheimer Straße 117\, 51063 Köln
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.gebaeude9.de
+ /programmn25.html
+URL:https://www.gebaeude9.de/programmn25.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-sonic-ballroom-20270107-karaoke-till-death@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T210000
+DTEND;TZID=Europe/Berlin:20270107T230000
+SUMMARY:Karaoke till Death
+LOCATION:Sonic Ballroom\, Oskar-Jäger-Straße 190\, 50825 Köln
+DESCRIPTION:Einlass 20:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: 17 €\nQuelle (bitte vor dem Besuch prüfen): https://www.so
+ nic-ballroom.de/index.php/konzerte
+URL:https://www.sonic-ballroom.de/index.php/konzerte
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-sonic-ballroom-20270108-karaoke-till-death@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T213000
+DTEND;TZID=Europe/Berlin:20270108T233000
+SUMMARY:Karaoke till Death
+LOCATION:Sonic Ballroom\, Oskar-Jäger-Straße 190\, 50825 Köln
+DESCRIPTION:Einlass 20:00\, Beginn 21:30 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nPreis: ausverkauft\nQuelle (bitte vor dem Besuch prüfen): https://w
+ ww.sonic-ballroom.de/index.php/konzerte
+URL:https://www.sonic-ballroom.de/index.php/konzerte
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-buergerhaus-kalk-20270115-2000-downstairsdeluxe-featuring-djs-denise-
+ markus-und-v@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T200000
+DTEND;TZID=Europe/Berlin:20270115T220000
+SUMMARY:downstairsdeluxe featuring… DJs Denise\, Markus und Vego
+LOCATION:Bürgerhaus Kalk\, Kalk-Mülheimer Str. 58\, 51103 Köln
+DESCRIPTION:Party der Reihe downstairsdeluxe im Bürgerhaus Kalk.\nEnde: la
+ ut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://
+ buergerhauskalk.de/veranstaltungen/
+URL:https://buergerhauskalk.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

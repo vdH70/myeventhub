@@ -1,0 +1,194 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager in Magdeburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:md-amo-20261126-aber-bitte-mit-helene-die-grosse-konzert@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+DTEND;TZID=Europe/Berlin:20261126T220000
+SUMMARY:ABGESAGT: Aber bitte mit Helene – Die große Konzertshow
+LOCATION:AMO Kulturhaus\, Erich-Weinert-Straße 27\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-johanniskirche-20261206-gaby-albrecht-weihnachtskonzert-2026@myevent
+ hub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T160000
+DTEND;TZID=Europe/Berlin:20261206T180000
+SUMMARY:Gaby Albrecht – Weihnachtskonzert 2026
+LOCATION:Johanniskirche Magdeburg\, Johannisbergstraße 1\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-amo-20261214-weihnachten-in-den-bergen@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T160000
+DTEND;TZID=Europe/Berlin:20261214T180000
+SUMMARY:Weihnachten in den Bergen
+LOCATION:AMO Kulturhaus\, Erich-Weinert-Straße 27\, 39104 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-gruene-zitadelle-20261225-1600-enrico-scheffler-weihnachtskonzert-mi
+ t-freunden@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T160000
+DTEND;TZID=Europe/Berlin:20261225T180000
+SUMMARY:Enrico Scheffler – Weihnachtskonzert mit Freunden
+LOCATION:Theater in der Grünen Zitadelle\, Breiter Weg 16\, 39104 Magdebur
+ g
+DESCRIPTION:Musikabend im Theater in der Grünen Zitadelle.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ eater-zitadelle.com/spielplan-und-karten/
+URL:https://www.theater-zitadelle.com/spielplan-und-karten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-gruene-zitadelle-20270207-1500-die-herr-n-von-der-tankstelle-schlage
+ r-aus-den-alt@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T150000
+DTEND;TZID=Europe/Berlin:20270207T170000
+SUMMARY:Die Herr'n von der Tankstelle – Schlager aus den alten UFA-Filmta
+ gen
+LOCATION:Theater in der Grünen Zitadelle\, Breiter Weg 16\, 39104 Magdebur
+ g
+DESCRIPTION:Musikabend im Theater in der Grünen Zitadelle.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ eater-zitadelle.com/spielplan-und-karten/
+URL:https://www.theater-zitadelle.com/spielplan-und-karten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-gruene-zitadelle-20270221-1500-enrico-scheffler-ensemble-die-groesst
+ en-hits-von-u@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T150000
+DTEND;TZID=Europe/Berlin:20270221T170000
+SUMMARY:Enrico Scheffler & Ensemble – Die größten Hits von Udo Jürgens
+LOCATION:Theater in der Grünen Zitadelle\, Breiter Weg 16\, 39104 Magdebur
+ g
+DESCRIPTION:Musikabend im Theater in der Grünen Zitadelle.\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.th
+ eater-zitadelle.com/spielplan-und-karten/
+URL:https://www.theater-zitadelle.com/spielplan-und-karten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-altes-theater-20270312-dschinghis-khan-what-a-wonderful-world@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:Dschinghis Khan – „What A Wonderful World“
+LOCATION:Altes Theater am Jerichower Platz\, Tessenowstraße 11\, 39114 Mag
+ deburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.altes-theater.info/eventkalender
+URL:https://www.altes-theater.info/eventkalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-getec-arena-20270313-wahnsinn-die-show-2027-die-jubilaeumstou@myeven
+ thub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T193000
+DTEND;TZID=Europe/Berlin:20270313T213000
+SUMMARY:Wahnsinn! Die Show 2027 – Die Jubiläumstournee mit den Hits von 
+ Wolfgang Petry
+LOCATION:GETEC-Arena\, Berliner Chaussee 32\, 39114 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-getec-arena-20270313-wahnsinn-die-show-2027-die-jubilaeumstournee@my
+ eventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T193000
+DTEND;TZID=Europe/Berlin:20270313T213000
+SUMMARY:WAHNSINN! Die Show 2027 – Die Jubiläumstournee
+LOCATION:GETEC-Arena\, Berliner Chaussee 32\, 39114 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/events/?page_e589=4
+URL:https://www.mvgm.de/de/events/?page_e589=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-getec-arena-20270319-maite-kelly@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T200000
+DTEND;TZID=Europe/Berlin:20270319T220000
+SUMMARY:Maite Kelly
+LOCATION:GETEC-Arena\, Berliner Chaussee 32\, 39114 Magdeburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.mvgm.de/de/veranstaltungen/
+URL:https://www.mvgm.de/de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-gruene-zitadelle-20270509-enrico-scheffler-mutti-ist-die-beste-mutte
+ rtags-sp@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270509T150000
+DTEND;TZID=Europe/Berlin:20270509T170000
+SUMMARY:Enrico Scheffler: Mutti ist die Beste – Muttertags-Special 2027
+LOCATION:Theater in der Grünen Zitadelle\, Breiter Weg 16\, 39104 Magdebur
+ g
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-zitadelle.com/spielplan-und-karten/
+URL:https://www.theater-zitadelle.com/spielplan-und-karten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:md-gruene-zitadelle-20270530-maximilian-arland-schlager-swing-standing-
+ ovations@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270530T150000
+DTEND;TZID=Europe/Berlin:20270530T170000
+SUMMARY:Maximilian Arland: Schlager\, Swing & Standing Ovations
+LOCATION:Theater in der Grünen Zitadelle\, Breiter Weg 16\, 39104 Magdebur
+ g
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-zitadelle.com/spielplan-und-karten/
+URL:https://www.theater-zitadelle.com/spielplan-und-karten/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

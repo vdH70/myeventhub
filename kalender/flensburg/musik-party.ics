@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Flensburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fl-volksbad-20261106-friday-night-mit-stereosaurus-und-ballare@myeventh
+ ub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T230000
+DTEND;TZID=Europe/Berlin:20261107T010000
+SUMMARY:Friday Night mit Stereosaurus und Ballare
+LOCATION:Volksbad Flensburg\, Flensburg
+DESCRIPTION:Party im Volksbad Flensburg.\nEinlass 23:00 Uhr\nEnde: laut Que
+ lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://volxba
+ d.de/
+URL:https://volxbad.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-volksbad-20261114-2300-sl-disco-queer-bar-und-party@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T230000
+DTEND;TZID=Europe/Berlin:20261115T010000
+SUMMARY:SL-Disco – Queer Bar und Party
+LOCATION:Volksbad Flensburg\, Flensburg
+DESCRIPTION:Party im Volksbad Flensburg.\nEinlass 20:00\, Beginn 23:00 Uhr\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://volxbad.de/
+URL:https://volxbad.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-volksbad-20261120-2300-die-dynamischen-dauerwellen-80s-party@myevent
+ hub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T230000
+DTEND;TZID=Europe/Berlin:20261121T010000
+SUMMARY:Die Dynamischen Dauerwellen – 80s Party
+LOCATION:Volksbad Flensburg\, Flensburg
+DESCRIPTION:Party im Volksbad Flensburg.\nEinlass 23:00\, Beginn 23:00 Uhr\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://volxbad.de/
+URL:https://volxbad.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-kuehlhaus-20261205-2000-die-einzig-wahre-80-s-pop-party-feat-stereot
+ yp-nie@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Die einzig wahre 80's Pop Party feat. Stereotyp Niels
+LOCATION:Kühlhaus Flensburg\, Mühlendamm 25\, 24937 Flensburg
+DESCRIPTION:Party in der Kulturwerkstatt Kühlhaus Flensburg.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kueh
+ lhaus.net/kuehlhaus-programm.php?eventId=1623
+URL:https://kuehlhaus.net/kuehlhaus-programm.php?eventId=1623
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-volksbad-20261211-sdu-x-ungdomsdisco@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T180000
+DTEND;TZID=Europe/Berlin:20261211T200000
+SUMMARY:SdU X Ungdomsdisco
+LOCATION:Volksbad Flensburg\, Flensburg
+DESCRIPTION:Jugenddisco des Dansk Ungdoms Samvirke im Volksbad Flensburg.\n
+ Einlass 18:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor de
+ m Besuch prüfen): https://volxbad.de/
+URL:https://volxbad.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-kuehlhaus-20270403-die-einzig-wahre-80-s-pop-party-feat-stereotyp-ni
+ e@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270403T210000
+DTEND;TZID=Europe/Berlin:20270403T230000
+SUMMARY:Die einzig wahre 80's Pop Party feat. Stereotyp Niels
+LOCATION:Kühlhaus Flensburg\, Mühlendamm 25\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kuehlhaus.net/kuehlhaus-programm.php?eventId=1640
+URL:https://kuehlhaus.net/kuehlhaus-programm.php?eventId=1640
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-kuehlhaus-20270703-die-einzig-wahre-80-s-pop-party-feat-stereotyp-ni
+ e@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270703T210000
+DTEND;TZID=Europe/Berlin:20270703T230000
+SUMMARY:Die einzig wahre 80's Pop Party feat. Stereotyp Niels
+LOCATION:Kühlhaus Flensburg\, Mühlendamm 25\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kuehlhaus.net/kuehlhaus-programm.php?eventId=1640
+URL:https://kuehlhaus.net/kuehlhaus-programm.php?eventId=1640
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-kuehlhaus-20271023-die-einzig-wahre-80-s-pop-party-feat-stereotyp-ni
+ e@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271023T210000
+DTEND;TZID=Europe/Berlin:20271023T230000
+SUMMARY:Die einzig wahre 80's Pop Party feat. Stereotyp Niels
+LOCATION:Kühlhaus Flensburg\, Mühlendamm 25\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kuehlhaus.net/kuehlhaus-programm.php?eventId=1640
+URL:https://kuehlhaus.net/kuehlhaus-programm.php?eventId=1640
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-kuehlhaus-20271204-die-einzig-wahre-80-s-pop-party-feat-stereotyp-ni
+ e@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271204T210000
+DTEND;TZID=Europe/Berlin:20271204T230000
+SUMMARY:Die einzig wahre 80's Pop Party feat. Stereotyp Niels
+LOCATION:Kühlhaus Flensburg\, Mühlendamm 25\, 24937 Flensburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kuehlhaus.net/kuehlhaus-programm.php?eventId=1640
+URL:https://kuehlhaus.net/kuehlhaus-programm.php?eventId=1640
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

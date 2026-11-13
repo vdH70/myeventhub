@@ -1,0 +1,1117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Hamburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hh-fun-and-dance-20261106-friday-dance@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T203000
+DTEND;TZID=Europe/Berlin:20261106T223000
+SUMMARY:Friday Dance
+LOCATION:ADTV Tanzschule Fun & Dance\, Cuxhavener Straße 344\, 21149 Hambu
+ rg
+DESCRIPTION:Tanzabend am ersten Freitag im Monat\, bis 23 Uhr.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: Gäste 5 €\, Mitglieder frei\nQuelle (bit
+ te vor dem Besuch prüfen): https://fun-and-dance.de/events/
+URL:https://fun-and-dance.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-nochtwache-20261106-herz-an-herz-engtanz-party@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T220000
+DTEND;TZID=Europe/Berlin:20261107T000000
+SUMMARY:Herz an Herz – Engtanz Party
+LOCATION:Nochtwache\, 20359 Hamburg
+DESCRIPTION:Engtanz-Party.\nEinlass 21:00\, Beginn 22:00 Uhr\nEnde: laut Qu
+ elle nicht angegeben\nPreis: AK 15 €\nQuelle (bitte vor dem Besuch prüf
+ en): https://nochtspeicher.de/
+URL:https://nochtspeicher.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261106-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20261107-2000-abtanz-tanzbare-rockmusik-in-stereo@myeventhub.d
+ e
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Abtanz – Tanzbare Rockmusik in Stereo
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Musikabend in der MOTTE Ottensen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.diemotte.de/vera
+ nstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-lola-kulturzentrum-20261107-2100-lola-80er-90er-party@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T210000
+DTEND;TZID=Europe/Berlin:20261107T230000
+SUMMARY:LOLA 80er & 90er Party
+LOCATION:LOLA Kulturzentrum\, Lohbrügger Landstraße 8\, 21031 Hamburg
+DESCRIPTION:Party im LOLA Kulturzentrum in Bergedorf.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://lola-hh.de/p
+ rogramm/
+URL:https://lola-hh.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261107-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261111-jecke-zeit@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Jecke Zeit (ausverkauft)
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.kentclub.de/programm
+URL:https://www.kentclub.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20261112-1900-disco-53@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261112T190000
+DTEND;TZID=Europe/Berlin:20261112T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Musikabend in der MOTTE Ottensen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.diemotte.de/vera
+ nstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261113-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-lola-kulturzentrum-20261114-1900-bergedorfer-ue-30-party@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+SUMMARY:Bergedorfer Ü-30 Party
+LOCATION:LOLA Kulturzentrum\, Lohbrügger Landstraße 8\, 21031 Hamburg
+DESCRIPTION:Party im LOLA Kulturzentrum in Bergedorf.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://lola-hh.de/p
+ rogramm/
+URL:https://lola-hh.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261114-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261114-club40up@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Club40up
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-buergerhaus-wilhelmsburg-20261115-1500-tanzen-moecht-ich-tanztee@mye
+ venthub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T150000
+DTEND;TZID=Europe/Berlin:20261115T170000
+SUMMARY:Tanzen möcht' ich – Tanztee
+LOCATION:Bürgerhaus Wilhelmsburg\, Mengestraße 20\, 21107 Hamburg
+DESCRIPTION:Tanztee mit Live-Musik\, DJ und Line-Dance.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://buewi.de/t
+ ermine/
+URL:https://buewi.de/termine/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20261115-1600-sunday-hop-im-goldbekhaus@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+SUMMARY:Sunday Hop im Goldbekhaus
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Musikabend im Goldbekhaus in Winterhude.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.goldbekha
+ us.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20261120-1900-frauendisco-im-goldbekhaus@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Frauendisco im Goldbekhaus
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Musikabend im Goldbekhaus in Winterhude.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.goldbekha
+ us.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20261120-1900-stompin-at-the-goldbekhaus@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+DTEND;TZID=Europe/Berlin:20261120T210000
+SUMMARY:Stompin' at the Goldbekhaus!
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Musikabend im Goldbekhaus in Winterhude.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.goldbekha
+ us.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261120-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20261121-2000-winterhuder-tanznacht-die-kultparty@myeven
+ thub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T200000
+DTEND;TZID=Europe/Berlin:20261121T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Musikabend im Goldbekhaus in Winterhude.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.goldbekha
+ us.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-angies-20261121-ue30-party-hamburg@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261121T220000
+DTEND;TZID=Europe/Berlin:20261122T000000
+SUMMARY:Ü30 Party Hamburg
+LOCATION:Angie's\, Spielbudenplatz 27\, 20359 Hamburg
+DESCRIPTION:Party mit House\, Pop\, RnB und Klassikern der 80er bis 2000er.
+ \nEnde: laut Quelle nicht angegeben\nPreis: VVK ab 10 €\nTickets: https:
+ //partytickets.ditix.shop/event/a0zau9o7en5wku2p\nQuelle (bitte vor dem Be
+ such prüfen): https://www.ue30-partys.de/event-ue30-party-hamburg-samstag
+ -den-21-11-26-ab-22-uhr/
+URL:https://www.ue30-partys.de/event-ue30-party-hamburg-samstag-den-21-11-2
+ 6-ab-22-uhr/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261121-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20261126-1900-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T190000
+DTEND;TZID=Europe/Berlin:20261126T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Musikabend in der MOTTE Ottensen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.diemotte.de/vera
+ nstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-old-dubliner-20261126-karaoke@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T190000
+DTEND;TZID=Europe/Berlin:20261126T210000
+SUMMARY:Karaoke
+LOCATION:The Old Dubliner – Irish Pub\, Neue Straße 58\, 21073 Hamburg
+DESCRIPTION:Karaoke-Abend im Irish Pub.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://olddubliner.de/events/
+URL:https://olddubliner.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-serrahneins-20261127-1800-tanzrausch@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T180000
+DTEND;TZID=Europe/Berlin:20261127T200000
+SUMMARY:Tanzrausch
+LOCATION:SerrahnEINS – Zentrum für Kultur und Gesellschaft\, Serrahnstra
+ ße 1\, 21029 Hamburg
+DESCRIPTION:Tanzabend im Kulturzentrum SerrahnEINS in Bergedorf.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://s
+ errahneins.de/
+URL:https://serrahneins.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261127-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261128-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261128-80s-night-hamburg@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:80s Night Hamburg
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261128-sing-along@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Sing Along
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kunstklinik-20261202-1830-wir-fuehln-uns-disco-disco-abend-60@myeven
+ thub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T183000
+DTEND;TZID=Europe/Berlin:20261202T203000
+SUMMARY:Wir fühl’n uns DISCO – Disco-Abend 60+
+LOCATION:Kunstklinik Kulturzentrum Eppendorf\, Martinistraße 44a\, 20251 H
+ amburg
+DESCRIPTION:Disco-Abend für Menschen ab 60 in der Kunstklinik Eppendorf.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://kunstklinik.hamburg/veranstaltungen/
+URL:https://kunstklinik.hamburg/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-honigfabrik-20261203-2000-viertelrunde@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+DTEND;TZID=Europe/Berlin:20261203T220000
+SUMMARY:Viertelrunde
+LOCATION:Honigfabrik\, Industriestraße 125–131\, 21107 Hamburg
+DESCRIPTION:Tischtennis-Rundlauf mit DJs in der Honigfabrik\, Eintritt frei
+ .\nEnde: laut Quelle nicht angegeben\nPreis: frei\nQuelle (bitte vor dem B
+ esuch prüfen): https://jim.honigfabrik.de/angebote-1/veranstaltungen-b%C3
+ %BChnenprogramm/
+URL:https://jim.honigfabrik.de/angebote-1/veranstaltungen-b%C3%BChnenprogra
+ mm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-haus-drei-20261204-von-acht-bis-mitternacht-flinta-disco@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Von Acht bis Mitternacht: FLINTA*Disco
+LOCATION:HausDrei\, Hospitalstraße 107\, 22767 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://haus-drei.de/events/
+URL:https://haus-drei.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-fun-and-dance-20261204-friday-dance@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T203000
+DTEND;TZID=Europe/Berlin:20261204T223000
+SUMMARY:Friday Dance
+LOCATION:ADTV Tanzschule Fun & Dance\, Cuxhavener Straße 344\, 21149 Hambu
+ rg
+DESCRIPTION:Tanzabend am ersten Freitag im Monat\, bis 23 Uhr.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: Gäste 5 €\, Mitglieder frei\nQuelle (bit
+ te vor dem Besuch prüfen): https://fun-and-dance.de/events/
+URL:https://fun-and-dance.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261204-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261205-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261205-disney-party@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Disney Party
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261205-mamma-mia-party@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Mamma Mia Party
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261211-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-lola-kulturzentrum-20261212-1900-bergedorfer-ue-30-party@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T190000
+DTEND;TZID=Europe/Berlin:20261212T210000
+SUMMARY:Bergedorfer Ü-30 Party
+LOCATION:LOLA Kulturzentrum\, Lohbrügger Landstraße 8\, 21031 Hamburg
+DESCRIPTION:Party im LOLA Kulturzentrum in Bergedorf.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://lola-hh.de/p
+ rogramm/
+URL:https://lola-hh.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20261212-2200-northern-soul-motte-allnighter@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T220000
+DTEND;TZID=Europe/Berlin:20261213T000000
+SUMMARY:Northern Soul MOTTE Allnighter
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Musikabend in der MOTTE Ottensen.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.diemotte.de/vera
+ nstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261212-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261212-club40up-50plus-xmas-special@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Club40up & 50plus Xmas Special
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261212-sing-along@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Sing Along
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20261213-1600-sunday-hop-im-goldbekhaus@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T160000
+DTEND;TZID=Europe/Berlin:20261213T180000
+SUMMARY:Sunday Hop im Goldbekhaus
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Musikabend im Goldbekhaus in Winterhude.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.goldbekha
+ us.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20261218-sing-along-x-mas@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T200000
+DTEND;TZID=Europe/Berlin:20261218T220000
+SUMMARY:Sing Along / X-mas
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:Mitsing-Abend\, Liedtexte auf der Leinwand\, bis 22 Uhr.\nEinla
+ ss 19:15\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20261218-2100-weihnachts-milonga@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T210000
+DTEND;TZID=Europe/Berlin:20261218T230000
+SUMMARY:Weihnachts-Milonga
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Musikabend im Goldbekhaus in Winterhude.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.goldbekha
+ us.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20261219-2000-winterhuder-tanznacht-die-kultparty@myeven
+ thub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Musikabend im Goldbekhaus in Winterhude.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.goldbekha
+ us.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-betty-20261219-betty-loves-betty-riot@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:BETTY LOVES + BETTY RIOT
+LOCATION:BETTY\, Hamburg
+DESCRIPTION:Clubnacht mit DJs im Liveclub BETTY am Hamburger Berg\, St. Pau
+ li.\nQuelle (bitte vor dem Besuch prüfen): https://betty.hamburg/programm
+ /
+URL:https://betty.hamburg/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-lola-kulturzentrum-20261224-2200-xmas-dance-die-weihnachts-party@mye
+ venthub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T220000
+DTEND;TZID=Europe/Berlin:20261225T000000
+SUMMARY:XMAS DANCE – Die Weihnachts-Party
+LOCATION:LOLA Kulturzentrum\, Lohbrügger Landstraße 8\, 21031 Hamburg
+DESCRIPTION:Party im LOLA Kulturzentrum in Bergedorf.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://lola-hh.de/p
+ rogramm/
+URL:https://lola-hh.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20261225-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T190000
+DTEND;TZID=Europe/Berlin:20261225T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-elbpanorama-atlantic-haus-20261231-silvester-single-party-hamburg-20
+ 26-27@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T193000
+DTEND;TZID=Europe/Berlin:20261231T213000
+SUMMARY:Silvester-Single-Party Hamburg 2026/27
+LOCATION:Elbpanorama Lounge im Atlantic-Haus (20. Etage)\, Bernhard-Nocht-S
+ traße 113\, 20359 Hamburg
+DESCRIPTION:Silvesterparty für Singles ab 30 von Sunwave\, 19:30–2 Uhr\,
+  mit Elbblick.\nEnde: laut Quelle nicht angegeben\nPreis: 225 € online\,
+  245 € Abendkasse\nQuelle (bitte vor dem Besuch prüfen): https://www.su
+ nwave.de/singleevent-details/silvester-2026-27-silvester-single-party-hamb
+ urg.html
+URL:https://www.sunwave.de/singleevent-details/silvester-2026-27-silvester-
+ single-party-hamburg.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20261231-2000-grosse-silvesterparty@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T200000
+DTEND;TZID=Europe/Berlin:20261231T220000
+SUMMARY:Große Silvesterparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Musikabend im Goldbekhaus in Winterhude.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.goldbekha
+ us.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-fabrik-20261231-ue30-ue40-silvesterparty@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T210000
+DTEND;TZID=Europe/Berlin:20261231T230000
+SUMMARY:Ü30/Ü40 Silvesterparty
+LOCATION:Fabrik\, Barnerstraße 36\, 22765 Hamburg
+DESCRIPTION:Silvesterparty mit Party-Mix aus Klassikern und Charts.\nEinlas
+ s 21:00\, Beginn 21:00 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: VVK 
+ 22 €\nTickets: https://fabrik.de/tickets?ver=1442\nQuelle (bitte vor dem
+  Besuch prüfen): https://fabrik.de/veranstaltungsdetail/ue30-ue40-silvest
+ erparty-1442
+URL:https://fabrik.de/veranstaltungsdetail/ue30-ue40-silvesterparty-1442
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-kent-club-20261231-silvester-spirit@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Silvester Spirit
+LOCATION:KENT Club\, Stresemannstraße 163\, 22769 Hamburg
+DESCRIPTION:Club/Party\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ kentclub.de/programm
+URL:https://www.kentclub.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-lola-kulturzentrum-20270109-1900-bergedorfer-ue-30-party@myeventhub.
+ de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T190000
+DTEND;TZID=Europe/Berlin:20270109T210000
+SUMMARY:Bergedorfer Ü-30 Party
+LOCATION:LOLA Kulturzentrum\, Lohbrügger Landstraße 8\, 21031 Hamburg
+DESCRIPTION:Party im LOLA Kulturzentrum in Bergedorf.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://lola-hh.de/p
+ rogramm/
+URL:https://lola-hh.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20270116-winterhuder-tanznacht-die-kultparty@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldbekhaus.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20270128-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T190000
+DTEND;TZID=Europe/Berlin:20270128T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20270128-sing-along-rock-classics@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T200000
+DTEND;TZID=Europe/Berlin:20270128T220000
+SUMMARY:Sing Along / Rock Classics
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:Mitsing-Abend\, Liedtexte auf der Leinwand\, bis 22 Uhr.\nEinla
+ ss 19:15\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-serrahneins-20270129-1800-tanzrausch@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T180000
+DTEND;TZID=Europe/Berlin:20270129T200000
+SUMMARY:Tanzrausch
+LOCATION:SerrahnEINS – Zentrum für Kultur und Gesellschaft\, Serrahnstra
+ ße 1\, 21029 Hamburg
+DESCRIPTION:Tanzabend im Kulturzentrum SerrahnEINS in Bergedorf.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://s
+ errahneins.de/
+URL:https://serrahneins.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-haus-drei-20270212-von-acht-bis-mitternacht-flinta-disco@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:Von Acht bis Mitternacht: FLINTA*Disco
+LOCATION:HausDrei\, Hospitalstraße 107\, 22767 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://haus-drei.de/events/
+URL:https://haus-drei.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-lola-kulturzentrum-20270213-1900-lola-ue-50-revival-party@myeventhub
+ .de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T190000
+DTEND;TZID=Europe/Berlin:20270213T210000
+SUMMARY:LOLA Ü-50 Revival Party
+LOCATION:LOLA Kulturzentrum\, Lohbrügger Landstraße 8\, 21031 Hamburg
+DESCRIPTION:Party im LOLA Kulturzentrum in Bergedorf.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://lola-hh.de/p
+ rogramm/
+URL:https://lola-hh.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20270225-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T190000
+DTEND;TZID=Europe/Berlin:20270225T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-cascadas-20270304-sing-along-2000er-2010er@myeventhub.de
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T200000
+DTEND;TZID=Europe/Berlin:20270304T220000
+SUMMARY:Sing Along / 2000er & 2010er
+LOCATION:Cascadas\, Ferdinandstraße 12\, 20095 Hamburg
+DESCRIPTION:Mitsing-Abend\, Liedtexte auf der Leinwand\, bis 22 Uhr.\nEinla
+ ss 19:15\, Beginn 20:00 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://cascadas.club/programm/
+URL:https://cascadas.club/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20270320-winterhuder-tanznacht-die-kultparty@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T200000
+DTEND;TZID=Europe/Berlin:20270320T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldbekhaus.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20270325-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270325T190000
+DTEND;TZID=Europe/Berlin:20270325T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-serrahneins-20270409-tanzrausch@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T180000
+DTEND;TZID=Europe/Berlin:20270409T200000
+SUMMARY:Tanzrausch
+LOCATION:SerrahnEINS – Zentrum für Kultur und Gesellschaft\, Serrahnstra
+ ße 1\, 21029 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://serrahneins.de/
+URL:https://serrahneins.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20270429-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270429T190000
+DTEND;TZID=Europe/Berlin:20270429T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-haus-drei-20270430-von-acht-bis-mitternacht-flinta-disco@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T200000
+DTEND;TZID=Europe/Berlin:20270430T220000
+SUMMARY:Von Acht bis Mitternacht: FLINTA*Disco
+LOCATION:HausDrei\, Hospitalstraße 107\, 22767 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://haus-drei.de/events/
+URL:https://haus-drei.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20270515-winterhuder-tanznacht-die-kultparty@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270515T200000
+DTEND;TZID=Europe/Berlin:20270515T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldbekhaus.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20270527-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270527T190000
+DTEND;TZID=Europe/Berlin:20270527T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-haus-drei-20270611-von-acht-bis-mitternacht-flinta-disco@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270611T200000
+DTEND;TZID=Europe/Berlin:20270611T220000
+SUMMARY:Von Acht bis Mitternacht: FLINTA*Disco
+LOCATION:HausDrei\, Hospitalstraße 107\, 22767 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://haus-drei.de/events/
+URL:https://haus-drei.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20270619-winterhuder-tanznacht-die-kultparty@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270619T200000
+DTEND;TZID=Europe/Berlin:20270619T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldbekhaus.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20270624-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270624T190000
+DTEND;TZID=Europe/Berlin:20270624T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20270717-winterhuder-tanznacht-die-kultparty@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270717T200000
+DTEND;TZID=Europe/Berlin:20270717T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldbekhaus.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20270729-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270729T190000
+DTEND;TZID=Europe/Berlin:20270729T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20270821-winterhuder-tanznacht-die-kultparty@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270821T200000
+DTEND;TZID=Europe/Berlin:20270821T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldbekhaus.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20270826-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270826T190000
+DTEND;TZID=Europe/Berlin:20270826T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20270918-winterhuder-tanznacht-die-kultparty@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270918T200000
+DTEND;TZID=Europe/Berlin:20270918T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldbekhaus.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20270930-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270930T190000
+DTEND;TZID=Europe/Berlin:20270930T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-haus-drei-20271001-von-acht-bis-mitternacht-flinta-disco@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271001T200000
+DTEND;TZID=Europe/Berlin:20271001T220000
+SUMMARY:Von Acht bis Mitternacht: FLINTA*Disco
+LOCATION:HausDrei\, Hospitalstraße 107\, 22767 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://haus-drei.de/events/
+URL:https://haus-drei.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-goldbekhaus-20271016-winterhuder-tanznacht-die-kultparty@myeventhub.
+ de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271016T200000
+DTEND;TZID=Europe/Berlin:20271016T220000
+SUMMARY:Winterhuder Tanznacht – Die Kultparty
+LOCATION:Goldbekhaus\, Moorfuhrtweg 9\, 22301 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.goldbekhaus.de/programm/veranstaltungen/
+URL:https://www.goldbekhaus.de/programm/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20271028-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271028T190000
+DTEND;TZID=Europe/Berlin:20271028T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20271125-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271125T190000
+DTEND;TZID=Europe/Berlin:20271125T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-motte-20271225-disco-53@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20271225T190000
+DTEND;TZID=Europe/Berlin:20271225T210000
+SUMMARY:Disco 53 +/-
+LOCATION:MOTTE – Stadtteil- und Kulturzentrum\, Eulenstraße 43\, 22765 H
+ amburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.diemotte.de/veranstaltungen/
+URL:https://www.diemotte.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

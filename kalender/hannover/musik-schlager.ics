@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Schlager in Hannover · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:h-zag-arena-20270227-die-schlagernacht-des-jahres-2027@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T180000
+DTEND;TZID=Europe/Berlin:20270227T200000
+SUMMARY:Die Schlagernacht des Jahres 2027
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Einlass 16:00\, Beginn 18:00 Uhr\nEnde: laut Quelle nicht angeg
+ eben\nTickets: https://www.eventim.de/noapp/event/die-schlagernacht-des-ja
+ hres-das-original-zag-arena-21369813/?affiliate=AHG&utm_campaign=Arena+Han
+ nover&utm_source=AHG&utm_medium=dp\nQuelle (bitte vor dem Besuch prüfen):
+  https://www.zag-arena-hannover.de/veranstaltung/die-schlagernacht-des-jah
+ res-2027/
+URL:https://www.zag-arena-hannover.de/veranstaltung/die-schlagernacht-des-j
+ ahres-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270403-roland-kaiser-unser-moment-arena-tour-2027@myevent
+ hub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270403T193000
+DTEND;TZID=Europe/Berlin:20270403T213000
+SUMMARY:Roland Kaiser – Unser Moment Arena Tour 2027
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.eventim
+ .de/noapp/event/roland-kaiser-unser-moment-arena-tour-2027-zag-arena-21558
+ 061/?affiliate=AHG&utm_campaign=Arena+Hannover+GmbH&utm_source=AHG&utm_med
+ ium=dp\nQuelle (bitte vor dem Besuch prüfen): https://www.zag-arena-hanno
+ ver.de/veranstaltung/roland-kaiser-6/
+URL:https://www.zag-arena-hannover.de/veranstaltung/roland-kaiser-6/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-zag-arena-20270404-roland-kaiser-unser-moment-arena-tour-2027-zusatzs
+ @myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T193000
+DTEND;TZID=Europe/Berlin:20270404T213000
+SUMMARY:Roland Kaiser – Unser Moment Arena Tour 2027 – Zusatzshow
+LOCATION:ZAG arena\, EXPO Plaza 7\, 30539 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nTickets: https://www.eventim
+ .de/noapp/event/roland-kaiser-unser-moment-arena-tour-2027-zag-arena-21590
+ 953/?affiliate=AHG&utm_campaign=Arena+Hannover&utm_source=AHG&utm_medium=d
+ p\nQuelle (bitte vor dem Besuch prüfen): https://www.zag-arena-hannover.d
+ e/veranstaltung/roland-kaiser-5/
+URL:https://www.zag-arena-hannover.de/veranstaltung/roland-kaiser-5/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

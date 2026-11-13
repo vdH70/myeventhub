@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Braunschweig · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bs-schoen-froelich-20261107-welttanztag-2026-discofox-marathon-der-tanz
+ schule@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+SUMMARY:Welttanztag 2026 – Discofox-Marathon der Tanzschule Hoffmann
+LOCATION:Schön & Frölich\, Broitzemer Straße 220\, 38118 Braunschweig
+DESCRIPTION:Discofox-Marathon 19:30–22:30 Uhr\, danach Aftershow-Party bi
+ s Mitternacht.\nEinlass 18:30\, Beginn 19:00 Uhr\nEnde: laut Quelle nicht 
+ angegeben\nPreis: 10 € (Eintritt = Spende an die NCL-Stiftung)\nQuelle (
+ bitte vor dem Besuch prüfen): https://tanzschule-hoffmann.de/event/discof
+ ox-marathon/
+URL:https://tanzschule-hoffmann.de/event/discofox-marathon/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-tanzschule-hoffmann-20261231-silvesterparty-white-gold-night-beginn@
+ myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Beginn: Silvesterparty White & Gold Night
+LOCATION:ADTV Tanzschule Hoffmann\, Karrenführerstraße 1\, 38100 Braunsch
+ weig
+DESCRIPTION:Silvesterparty in der Tanzschule bis 3 Uhr.\nLaufzeit: 31.12.20
+ 26 bis 1.1.2027\nPreis: 75 € Frühbucher\, regulär 85 €\nQuelle (bitt
+ e vor dem Besuch prüfen): https://tanzschule-hoffmann.de/event/silvesterp
+ arty-2026/
+URL:https://tanzschule-hoffmann.de/event/silvesterparty-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-tanzschule-hoffmann-20261231-silvesterparty-white-gold-night-ende@my
+ eventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Letzter Tag: Silvesterparty White & Gold Night
+LOCATION:ADTV Tanzschule Hoffmann\, Karrenführerstraße 1\, 38100 Braunsch
+ weig
+DESCRIPTION:Silvesterparty in der Tanzschule bis 3 Uhr.\nLaufzeit: 31.12.20
+ 26 bis 1.1.2027\nPreis: 75 € Frühbucher\, regulär 85 €\nQuelle (bitt
+ e vor dem Besuch prüfen): https://tanzschule-hoffmann.de/event/silvesterp
+ arty-2026/
+URL:https://tanzschule-hoffmann.de/event/silvesterparty-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20261231-2200-silvesterparty-mit-dj-soundschwester-dj-funk
+ soulbr@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T220000
+DTEND;TZID=Europe/Berlin:20270101T000000
+SUMMARY:Silvesterparty mit DJ Soundschwester & DJ Funksoulbrother
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Party im Kulturzentrum Brunsviga.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://www.brunsviga-kultur
+ zentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

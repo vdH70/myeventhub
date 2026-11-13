@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Berlin · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b-traumtaenzer-kudamm-20261114-die-nicht-nur-single-tanzparty-am-kudamm
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T200000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:Die (nicht nur) Single-Tanzparty am Kudamm
+LOCATION:Tanzschule Traumtänzer am Kurfürstendamm\, Westfälische Straße
+  49\, 10711 Berlin
+DESCRIPTION:Tanzparty der Tanzschule für Singles und Paare\, 20–23 Uhr.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 10 € pro Person\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.traumtaenzer.de/tanzveranstaltung/2
+ 026/11/14/Die_nicht_nur_SingleTanzparty_am_KuDamm-9457/
+URL:https://www.traumtaenzer.de/tanzveranstaltung/2026/11/14/Die_nicht_nur_
+ SingleTanzparty_am_KuDamm-9457/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-spindler-klatt-20261114-ue30-party-berlin@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;TZID=Europe/Berlin:20261114T220000
+DTEND;TZID=Europe/Berlin:20261115T000000
+SUMMARY:Ü30 Party Berlin
+LOCATION:Spindler & Klatt\, Köpenicker Str. 16-17\, 10997 Berlin
+DESCRIPTION:Party mit House\, Pop\, RnB und Klassikern der 80er bis 2010er.
+ \nEnde: laut Quelle nicht angegeben\nPreis: VVK ab 12 €\nTickets: https:
+ //partytickets.ditix.shop/event/nbfpf8ub2p6qlw1u\nQuelle (bitte vor dem Be
+ such prüfen): https://ue30party-berlin.de/event-ue30-party-berlin-samstag
+ -den-14-11-ab-22-uhr/
+URL:https://ue30party-berlin.de/event-ue30-party-berlin-samstag-den-14-11-a
+ b-22-uhr/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-traumtaenzer-kudamm-20261128-die-nicht-nur-single-tanzparty-am-kudamm
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:Die (nicht nur) Single-Tanzparty am Kudamm
+LOCATION:Tanzschule Traumtänzer am Kurfürstendamm\, Westfälische Straße
+  49\, 10711 Berlin
+DESCRIPTION:Tanzparty der Tanzschule für Singles und Paare\, 20–23 Uhr.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 10 € pro Person\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.traumtaenzer.de/tanzveranstaltung/2
+ 026/11/28/Die_nicht_nur_SingleTanzparty_am_KuDamm-9459/
+URL:https://www.traumtaenzer.de/tanzveranstaltung/2026/11/28/Die_nicht_nur_
+ SingleTanzparty_am_KuDamm-9459/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-traumtaenzer-tempelhof-20261128-discofox-uebungsabend-mit-mini-worksh
+ op@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:DiscoFox-Übungsabend mit Mini-Workshop
+LOCATION:Tanzschule Traumtänzer im Flughafen Tempelhof\, Columbiadamm 8-10
+ \, Berlin
+DESCRIPTION:Discofox-Tanzparty mit DJ und Mini-Workshop\, 20–23 Uhr.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.traumtaenzer.de/tanzveranstaltung/2026/11/28/DiscoFoxUebungsabend
+ -9514/
+URL:https://www.traumtaenzer.de/tanzveranstaltung/2026/11/28/DiscoFoxUebung
+ sabend-9514/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-danceflair-20261219-weihnachtstanzparty@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+DTEND;TZID=Europe/Berlin:20261219T220000
+SUMMARY:Weihnachtstanzparty
+LOCATION:ADTV Tanzschule DanceFlair\, Märkische Allee 176-178\, 12681 Berl
+ in
+DESCRIPTION:Tanzparty bis 23:30 Uhr.\nEnde: laut Quelle nicht angegeben\nPr
+ eis: 8\,50 €\nQuelle (bitte vor dem Besuch prüfen): https://danceflair.
+ de/tanzabend/
+URL:https://danceflair.de/tanzabend/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-danceflair-20261231-silvesterparty-beginn@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Beginn: Silvesterparty
+LOCATION:ADTV Tanzschule DanceFlair\, Märkische Allee 176-178\, 12681 Berl
+ in
+DESCRIPTION:Silvester-Tanzparty mit Mitbringbuffet bis 1 Uhr.\nLaufzeit: 31
+ .12.2026 bis 1.1.2027\nPreis: 27 €\nQuelle (bitte vor dem Besuch prüfen
+ ): https://danceflair.de/tanzabend/
+URL:https://danceflair.de/tanzabend/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-danceflair-20261231-silvesterparty-ende@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Letzter Tag: Silvesterparty
+LOCATION:ADTV Tanzschule DanceFlair\, Märkische Allee 176-178\, 12681 Berl
+ in
+DESCRIPTION:Silvester-Tanzparty mit Mitbringbuffet bis 1 Uhr.\nLaufzeit: 31
+ .12.2026 bis 1.1.2027\nPreis: 27 €\nQuelle (bitte vor dem Besuch prüfen
+ ): https://danceflair.de/tanzabend/
+URL:https://danceflair.de/tanzabend/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-haus-ungarn-20261231-die-ue30-silvesterparty-unterm-berliner-fernse
+ htur@myeventhub.de
+DTSTAMP:20261011T000000Z
+DTSTART;TZID=Europe/Berlin:20261231T210000
+DTEND;TZID=Europe/Berlin:20261231T230000
+SUMMARY:Die Ü30 Silvesterparty unterm Berliner Fernsehturm
+LOCATION:Haus Ungarn\, Karl-Liebknecht-Straße 9\, 10178 Berlin
+DESCRIPTION:Ü30-Silvesterparty am Alexanderplatz.\nEnde: laut Quelle nicht
+  angegeben\nPreis: VVK ab 24\,99 €\nTickets: https://partytickets.ditix.
+ shop/event/gk5ovh7goompefda?t=false&tid=\nQuelle (bitte vor dem Besuch pr
+ üfen): https://ue30party-berlin.de/event-die-ue30-silvesterparty-unterm-b
+ erliner-fernsehturm/
+URL:https://ue30party-berlin.de/event-die-ue30-silvesterparty-unterm-berlin
+ er-fernsehturm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-traumtaenzer-kudamm-20270109-die-nicht-nur-single-tanzparty-am-kudamm
+ @myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Die (nicht nur) Single-Tanzparty am Kudamm
+LOCATION:Tanzschule Traumtänzer am Kurfürstendamm\, Westfälische Straße
+  49\, 10711 Berlin
+DESCRIPTION:Tanzparty der Tanzschule für Singles und Paare\, 20–23 Uhr.\
+ nEnde: laut Quelle nicht angegeben\nPreis: 10 € pro Person\nQuelle (bitt
+ e vor dem Besuch prüfen): https://www.traumtaenzer.de/tanzveranstaltung/2
+ 027/01/09/Die_nicht_nur_SingleTanzparty_am_KuDamm-9461/
+URL:https://www.traumtaenzer.de/tanzveranstaltung/2027/01/09/Die_nicht_nur_
+ SingleTanzparty_am_KuDamm-9461/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b-traumtaenzer-tempelhof-20270123-discofox-uebungsabend-mit-mini-worksh
+ op@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T200000
+DTEND;TZID=Europe/Berlin:20270123T220000
+SUMMARY:DiscoFox-Übungsabend mit Mini-Workshop
+LOCATION:Tanzschule Traumtänzer im Flughafen Tempelhof\, Columbiadamm 8-10
+ \, Berlin
+DESCRIPTION:Discofox-Tanzparty mit DJ und Mini-Workshop\, 20–23 Uhr.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.traumtaenzer.de/tanzveranstaltung/2027/01/23/DiscoFoxUebungsabend
+ -9635/
+URL:https://www.traumtaenzer.de/tanzveranstaltung/2027/01/23/DiscoFoxUebung
+ sabend-9635/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

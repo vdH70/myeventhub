@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Burgwedel · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:h-tanzhaus-burgwedel-20261128-tanz-in-den-advent@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Tanz in den Advent
+LOCATION:Tanzhaus Burgwedel (Tanzschule Bothe)\, Kokenhorststraße 15\, 309
+ 38 Burgwedel
+DESCRIPTION:Adventlicher Tanzabend im Tanzhaus Burgwedel\; Uhrzeit laut Sei
+ te noch offen.\nQuelle (bitte vor dem Besuch prüfen): https://www.tanzsch
+ ule-bothe.de/event/tanz-in-den-advent-2/
+URL:https://www.tanzschule-bothe.de/event/tanz-in-den-advent-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

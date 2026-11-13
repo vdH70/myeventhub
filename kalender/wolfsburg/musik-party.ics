@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Wolfsburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wob-tanzschule-giebel-20261231-silvester-party-beginn@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Beginn: Silvester-Party
+LOCATION:Tanzschule Giebel\, Röntgenstraße 7\, 38440 Wolfsburg
+DESCRIPTION:Silvesterparty der Tanzschule Giebel.\nLaufzeit: 31.12.2026 bis
+  1.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.tanzschule-g
+ iebel.de/veranstaltungen/
+URL:https://www.tanzschule-giebel.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wob-tanzschule-giebel-20261231-silvester-party-ende@myeventhub.de
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Letzter Tag: Silvester-Party
+LOCATION:Tanzschule Giebel\, Röntgenstraße 7\, 38440 Wolfsburg
+DESCRIPTION:Silvesterparty der Tanzschule Giebel.\nLaufzeit: 31.12.2026 bis
+  1.1.2027\nQuelle (bitte vor dem Besuch prüfen): https://www.tanzschule-g
+ iebel.de/veranstaltungen/
+URL:https://www.tanzschule-giebel.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Wuppertal · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:w-loch-20261106-2200-offen-bar-djane-nadine-lucas@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T220000
+DTEND;TZID=Europe/Berlin:20261107T000000
+SUMMARY:OFFEN:BAR: Djane Nadine + Lucas
+LOCATION:LOCH\, Plateniusstraße 35\, 42105 Wuppertal
+DESCRIPTION:Partyabend im LOCH an der Plateniusstraße.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://loch-wuppe
+ rtal.de/programm
+URL:https://loch-wuppertal.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w-loch-20261107-2000-schwuppertal@myeventhub.de
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Berlin:20261107T200000
+DTEND;TZID=Europe/Berlin:20261107T220000
+SUMMARY:Schwuppertal
+LOCATION:LOCH\, Plateniusstraße 35\, 42105 Wuppertal
+DESCRIPTION:Partyabend im LOCH an der Plateniusstraße.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://loch-wuppe
+ rtal.de/programm
+URL:https://loch-wuppertal.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w-loch-20261120-2200-offen-bar-funk-soul-club-wuppertal@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T220000
+DTEND;TZID=Europe/Berlin:20261121T000000
+SUMMARY:OFFEN:BAR: Funk & Soul Club Wuppertal
+LOCATION:LOCH\, Plateniusstraße 35\, 42105 Wuppertal
+DESCRIPTION:Partyabend im LOCH an der Plateniusstraße.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://loch-wuppe
+ rtal.de/programm
+URL:https://loch-wuppertal.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w-loch-20261127-2130-vinz-3000@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T213000
+DTEND;TZID=Europe/Berlin:20261127T233000
+SUMMARY:VINZ 3000
+LOCATION:LOCH\, Plateniusstraße 35\, 42105 Wuppertal
+DESCRIPTION:Partyabend im LOCH an der Plateniusstraße.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://loch-wuppe
+ rtal.de/programm
+URL:https://loch-wuppertal.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w-loch-20261128-2000-offen-bar-listen-t-here@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:OFFEN:BAR: Listen (t)here!
+LOCATION:LOCH\, Plateniusstraße 35\, 42105 Wuppertal
+DESCRIPTION:Partyabend im LOCH an der Plateniusstraße.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://loch-wuppe
+ rtal.de/programm
+URL:https://loch-wuppertal.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w-loch-20261204-2130-offen-bar-dj-karriere-b2b-mighty-maus@myeventhub.d
+ e
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T213000
+DTEND;TZID=Europe/Berlin:20261204T233000
+SUMMARY:OFFEN:BAR: DJ Karriere b2b mighty maus
+LOCATION:LOCH\, Plateniusstraße 35\, 42105 Wuppertal
+DESCRIPTION:Partyabend im LOCH an der Plateniusstraße.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://loch-wuppe
+ rtal.de/programm
+URL:https://loch-wuppertal.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w-loch-20261205-2000-5h5djs@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:5H5DJs
+LOCATION:LOCH\, Plateniusstraße 35\, 42105 Wuppertal
+DESCRIPTION:Partyabend im LOCH an der Plateniusstraße.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://loch-wuppe
+ rtal.de/programm
+URL:https://loch-wuppertal.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w-loch-20261211-2130-offen-bar-combo-collage@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T213000
+DTEND;TZID=Europe/Berlin:20261211T233000
+SUMMARY:OFFEN:BAR: combo collage
+LOCATION:LOCH\, Plateniusstraße 35\, 42105 Wuppertal
+DESCRIPTION:Partyabend im LOCH an der Plateniusstraße.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://loch-wuppe
+ rtal.de/programm
+URL:https://loch-wuppertal.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w-loch-20261218-2200-offen-bar-mauzmon-unbreakable-daani@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T220000
+DTEND;TZID=Europe/Berlin:20261219T000000
+SUMMARY:OFFEN:BAR: Mauzmon + Unbreakable Daani
+LOCATION:LOCH\, Plateniusstraße 35\, 42105 Wuppertal
+DESCRIPTION:Partyabend im LOCH an der Plateniusstraße.\nEnde: laut Quelle 
+ nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://loch-wuppe
+ rtal.de/programm
+URL:https://loch-wuppertal.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
