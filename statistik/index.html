@@ -1,0 +1,66 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Statistik | my Event Hub</title><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+<link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="stylesheet" href="/fonts/fonts.min.css">
+<script>if(location.protocol==="http:"&&/(^|\.)myeventhub\.de$/i.test(location.hostname))location.replace("https://www.myeventhub.de"+location.pathname);</script>
+<!-- Besucherstatistik (Thomas 13.11.2026). Die Zahlen liefert der Cloudflare Worker nur mit Kennwort; das Kennwort steht NICHT in dieser Datei. -->
+<style>
+:root{--ink:#141413;--muted:#5e5d59;--line:#e3dfd6;--bg:#faf9f5;--card:#fff;--acc:#2F3B52;--or:#ED631B}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Public Sans",system-ui,sans-serif}
+main{max-width:980px;margin:0 auto;padding:22px 16px 60px}h1{font:700 28px/1.2 Montserrat,"Public Sans",sans-serif;color:#4A5568;margin:0 0 4px}
+h2{font:700 19px/1.3 Montserrat,"Public Sans",sans-serif;color:#4A5568;margin:28px 0 10px}.sub{color:var(--muted);margin:0 0 18px}
+form{display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+input,select,button{font:inherit;height:40px;border-radius:20px;border:1px solid #D9D1C4;padding:0 14px;background:#fff}
+input{flex:1 1 220px}button{background:var(--acc);color:#fff;border:0;font-weight:700;cursor:pointer;padding:0 20px}button:hover{background:#232D40}
+#msg{color:#C8102E;font-weight:600;margin:10px 2px}.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:18px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}.tile b{display:block;font:700 30px/1.1 Montserrat,"Public Sans",sans-serif;color:var(--acc)}
+.tile span{color:var(--muted);font-size:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.chart{display:flex;align-items:flex-end;gap:2px;height:180px;padding-top:8px}.chart div{flex:1 1 0;min-width:2px;display:flex;flex-direction:column;justify-content:flex-end;height:100%;position:relative}
+.chart i{display:block;background:#C9D1DE;border-radius:3px 3px 0 0}.chart i.v{background:var(--acc);border-radius:0}
+.axis{display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-top:6px}.legend{font-size:14px;color:var(--muted);margin-top:8px}
+.legend s{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px;margin:0 4px 0 12px;text-decoration:none}
+table{width:100%;border-collapse:collapse;font-size:15px}td{padding:5px 4px;border-top:1px solid var(--line);vertical-align:top}td:last-child{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+td.bar{width:38%}td.bar i{display:block;height:10px;border-radius:5px;background:#C9D1DE;margin-top:6px}tr:first-child td{border-top:0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media (max-width:700px){.grid2{grid-template-columns:1fr}}
+.note{font-size:14px;color:var(--muted);margin-top:26px}a{color:var(--acc)}
+</style></head><body><main>
+<h1>Besucherstatistik</h1><p class="sub">my Event Hub · nur für den Betreiber</p>
+<form id="f" autocomplete="on">
+<input type="text" name="username" value="Statistik" autocomplete="username" hidden>
+<input id="pw" type="password" placeholder="Kennwort" autocomplete="current-password" required>
+<select id="tage"><option value="1">Heute</option><option value="7">Letzte 7 Tage</option><option value="30" selected>Letzte 30 Tage</option><option value="90">Letzte 90 Tage</option><option value="366">Letzte 12 Monate</option></select>
+<button>Anzeigen</button></form>
+<div id="msg" role="alert"></div><div id="out" hidden>
+<div class="tiles"><div class="tile"><b id="t1">–</b><span>Besuche (von außen gekommen)</span></div><div class="tile"><b id="t2">–</b><span>Seitenaufrufe</span></div><div class="tile"><b id="t3">–</b><span>Besuche heute</span></div><div class="tile"><b id="t4">–</b><span>Aufrufe je Besuch</span></div></div>
+<h2>Verlauf je Tag</h2><div class="card"><div class="chart" id="chart"></div><div class="axis"><span id="a1"></span><span id="a2"></span></div>
+<div class="legend"><s style="background:var(--acc);margin-left:0"></s>Besuche<s style="background:#C9D1DE"></s>Seitenaufrufe</div></div>
+<div class="grid2"><div><h2>Beliebteste Seiten</h2><div class="card"><table id="seiten"></table></div></div>
+<div><h2>Woher die Besucher kommen</h2><div class="card"><table id="herkunft"></table></div>
+<h2>Geräte</h2><div class="card"><table id="geraete"></table></div>
+<h2>Länder</h2><div class="card"><table id="laender"></table></div></div></div>
+<h2>Uhrzeit (Seitenaufrufe, deutsche Zeit)</h2><div class="card"><div class="chart" id="hours" style="height:120px"></div><div class="axis"><span>0 Uhr</span><span>6</span><span>12</span><span>18</span><span>23 Uhr</span></div></div>
+<p class="note" id="stand"></p></div>
+<p class="note">Gezählt wird ohne Cookies, ohne Speicher im Browser und ohne IP-Adresse. Ein „Besuch“ ist ein Aufruf, der von außen kam (Google, ein Link, direkt eingegeben); Klicks innerhalb der Seite, Neuladen und die Zurück-Taste zählen nur als Seitenaufruf. Suchmaschinen-Roboter werden nicht mitgezählt. Wer Werbe- oder Skriptblocker nutzt, wird ggf. nicht erfasst – die echten Zahlen liegen also eher etwas höher.</p>
+</main><script>
+var W='https://myeventhub-statistik.patient-disk-2848.workers.dev';
+var $=function(i){return document.getElementById(i)},fmt=function(n){return Number(n).toLocaleString('de-DE')};
+var LAND={DE:'Deutschland',AT:'Österreich',CH:'Schweiz',NL:'Niederlande',BE:'Belgien',DK:'Dänemark',PL:'Polen',FR:'Frankreich',LU:'Luxemburg',CZ:'Tschechien',GB:'Großbritannien',US:'USA',IT:'Italien',ES:'Spanien',SE:'Schweden',NO:'Norwegen',IE:'Irland',FI:'Finnland',T1:'Tor-Netz','??':'unbekannt'};
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function tab(id,rows,lab){var m=Math.max.apply(null,rows.map(function(r){return r[1]}).concat([1]));
+ $(id).innerHTML=rows.length?rows.map(function(r){var k=lab?lab(r[0]):esc(r[0]);return '<tr><td>'+k+'</td><td class="bar"><i style="width:'+(100*r[1]/m).toFixed(1)+'%"></i></td><td>'+fmt(r[1])+'</td></tr>'}).join(''):'<tr><td>noch keine Daten</td><td></td></tr>'}
+function dm(d){return d.slice(8,10)+'.'+d.slice(5,7)+'.'}
+function show(j){$('out').hidden=false;$('t1').textContent=fmt(j.besuche);$('t2').textContent=fmt(j.aufrufe);
+ var last=j.jeTag[j.jeTag.length-1];$('t3').textContent=fmt(last?last[1][1]:0);$('t4').textContent=j.besuche?(j.aufrufe/j.besuche).toLocaleString('de-DE',{maximumFractionDigits:1}):'–';
+ var m=Math.max.apply(null,j.jeTag.map(function(d){return d[1][0]}).concat([1]));
+ $('chart').innerHTML=j.jeTag.map(function(d){var a=d[1][0],b=d[1][1];return '<div title="'+dm(d[0])+': '+fmt(b)+' Besuche, '+fmt(a)+' Aufrufe"><i style="height:'+(100*(a-b)/m)+'%"></i><i class="v" style="height:'+(100*b/m)+'%"></i></div>'}).join('');
+ $('a1').textContent=dm(j.von)+j.von.slice(0,4);$('a2').textContent=dm(j.bis)+j.bis.slice(0,4);
+ var hm=Math.max.apply(null,j.stunden.concat([1]));$('hours').innerHTML=j.stunden.map(function(n,h){return '<div title="'+h+' Uhr: '+fmt(n)+'"><i class="v" style="height:'+(100*n/hm)+'%;border-radius:3px 3px 0 0"></i></div>'}).join('');
+ tab('seiten',j.seiten,function(p){return '<a href="'+esc(p)+'" target="_blank" rel="noopener">'+esc(p==='/'?'Startseite':p)+'</a>'});
+ tab('herkunft',j.herkunft);tab('geraete',j.geraete);tab('laender',j.laender,function(k){return esc(LAND[k]||k)});
+ $('stand').textContent='Stand: '+new Date(j.stand).toLocaleString('de-DE')+' Uhr · Zeitraum '+dm(j.von)+j.von.slice(0,4)+' bis '+dm(j.bis)+j.bis.slice(0,4);}
+$('f').addEventListener('submit',function(e){e.preventDefault();$('msg').textContent='Lade …';
+ fetch(W+'/api',{method:'POST',headers:{'authorization':'Bearer '+$('pw').value,'content-type':'text/plain'},body:JSON.stringify({tage:+$('tage').value})})
+ .then(function(r){return r.json().then(function(j){if(!r.ok)throw new Error(j.fehler||('Fehler '+r.status));return j})})
+ .then(function(j){$('msg').textContent='';show(j)})
+ .catch(function(err){$('msg').textContent=/Failed to fetch|NetworkError|Load failed/i.test(err.message)?'Der Statistik-Dienst ist noch nicht eingerichtet oder nicht erreichbar.':err.message})});
+$('tage').addEventListener('change',function(){if($('pw').value)$('f').requestSubmit()});
+</script></body></html>
