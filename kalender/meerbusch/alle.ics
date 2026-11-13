@@ -30,10 +30,10 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:ne-stadtbibliothek-meerbusch-20261114-manga-zeichnen-mit-anna-galvan@my
  eventhub.de
-DTSTAMP:20261106T000000Z
+DTSTAMP:20261113T000000Z
 DTSTART;TZID=Europe/Berlin:20261114T103000
 DTEND;TZID=Europe/Berlin:20261114T123000
-SUMMARY:Manga zeichnen mit Anna Galvan
+SUMMARY:ABGESAGT: Manga zeichnen mit Anna Galvan
 LOCATION:Stadtbibliothek Meerbusch\, Dr.-Franz-Schütz-Platz 5\, 40667 Meer
  busch
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
@@ -41,6 +41,12 @@ DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
  ibliothek
 URL:https://meerbusch.de/leben-in-meerbusch/kunst-und-kultur/stadtbibliothe
  k
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Manga zeichnen mit Anna Galvan am 14.11.2026 (laut Ve
+ ranstalter)
+TRIGGER;VALUE=DATE-TIME:20261114T073000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
