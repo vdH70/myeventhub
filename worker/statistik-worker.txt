@@ -1,22 +1,19 @@
-// my Event Hub – Besucherstatistik (Cloudflare Worker, Thomas 13.11.2026)
-// Zählt Seitenaufrufe von www.myeventhub.de OHNE Cookies, OHNE Speicher im Browser, OHNE IP-Adresse und OHNE
-// Kennung der Besucher. Gespeichert wird je Aufruf nur: Zeitpunkt, Seite (ohne ?…), Herkunft (nur Name der
-// Website, z. B. „Google“), Gerätetyp (Handy/Tablet/PC aus der Browser-Kennung), Land (von Cloudflare) und ob der
-// Aufruf von außen kam (= Besuch). Einzelne Personen sind damit nicht erkennbar.
+// my Event Hub – Besucherzahl (Cloudflare Worker, Thomas 13.11.2026: „nur für Besucherzahl“)
+// Zählt Seitenaufrufe von www.myeventhub.de OHNE Cookies, OHNE Speicher im Browser, OHNE IP-Adresse, OHNE Kennung.
+// Gespeichert wird je Aufruf NUR der Zeitpunkt und ob es ein neuer Besuch war (von außen gekommen) – sonst nichts.
 // Einrichtung: D1-Datenbank als Bindung „DB“, Geheimnis „STAT_KENNWORT“ (siehe ANLEITUNG-Statistik.md).
-//   POST /h    Zählaufruf der Website (Text-JSON {p: Seite, r: Herkunft, e: 1 = neuer Besuch})
+//   POST /h    Zählaufruf der Website (Text-JSON {e: 1 = neuer Besuch, 0 = weitere Seite})
 //   POST /api  Auswertung für www.myeventhub.de/statistik/ (Kopfzeile Authorization: Bearer <Kennwort>)
 
 const ORIGINS = new Set(['https://www.myeventhub.de', 'https://myeventhub.de']);
-const BOT = /bot|crawl|spider|slurp|headless|lighthouse|pagespeed|preview|monitor|uptime|curl|wget|python|java\/|httpclient|facebookexternalhit|whatsapp|telegram|semrush|ahrefs|bing(preview)?\b/i;
+const BOT = /bot|crawl|spider|slurp|headless|lighthouse|pagespeed|preview|monitor|uptime|curl|wget|python|java\/|httpclient|facebookexternalhit|whatsapp|telegram|semrush|ahrefs/i;
 const KEEP_DAYS = 400;            // ältere Zeilen werden gelöscht
 const TZ = 'Europe/Berlin';
 let ready = false;
 
 const cors = origin => ({
   'access-control-allow-origin': ORIGINS.has(origin) ? origin : 'https://www.myeventhub.de',
-  'access-control-allow-methods': 'POST, OPTIONS',
-  'access-control-allow-headers': 'authorization, content-type',
+  'access-control-allow-methods': 'POST, OPTIONS', 'access-control-allow-headers': 'authorization, content-type',
   'access-control-max-age': '86400', 'vary': 'origin',
 });
 const json = (obj, status, origin) => new Response(JSON.stringify(obj), { status,
@@ -24,45 +21,20 @@ const json = (obj, status, origin) => new Response(JSON.stringify(obj), { status
 
 async function setup(env) {
   if (ready) return;
+  // id = Zeitpunkt in Millisekunden * 1000 + Zufall (0–999); Bereichsabfragen über id brauchen keinen Zusatzindex
   await env.DB.batch([
-    // id = Zeitpunkt in Millisekunden * 1000 + Zufall (0–999); Bereichsabfragen über id brauchen keinen Zusatzindex
-    env.DB.prepare('CREATE TABLE IF NOT EXISTS hits (id INTEGER PRIMARY KEY, path TEXT, ref TEXT, dev TEXT, land TEXT, entry INTEGER)'),
+    env.DB.prepare('CREATE TABLE IF NOT EXISTS zaehler (id INTEGER PRIMARY KEY, besuch INTEGER)'),
     env.DB.prepare('CREATE TABLE IF NOT EXISTS fails (id INTEGER PRIMARY KEY)'),
   ]);
   ready = true;
 }
+const stamp = () => Date.now() * 1000 + Math.floor(Math.random() * 1000);
 
-function refName(r) {
-  if (!r) return 'Direkt / unbekannt';
-  let h; try { h = new URL(r).hostname.toLowerCase().replace(/^www\./, ''); } catch { return 'Direkt / unbekannt'; }
-  if (/(^|\.)myeventhub\.de$/.test(h)) return '';
-  const m = [[/(^|\.)google\./, 'Google'], [/(^|\.)bing\.com$/, 'Bing'], [/(^|\.)duckduckgo\.com$/, 'DuckDuckGo'],
-    [/(^|\.)ecosia\.org$/, 'Ecosia'], [/(^|\.)yahoo\./, 'Yahoo'], [/(^|\.)(facebook\.com|fb\.me)$/, 'Facebook'],
-    [/(^|\.)instagram\.com$/, 'Instagram'], [/(^|\.)(t\.co|x\.com|twitter\.com)$/, 'X / Twitter'],
-    [/(^|\.)(whatsapp\.com|wa\.me)$/, 'WhatsApp'], [/(^|\.)chatgpt\.com$|(^|\.)openai\.com$/, 'ChatGPT'],
-    [/(^|\.)perplexity\.ai$/, 'Perplexity'], [/(^|\.)claude\.ai$/, 'Claude']].find(([rx]) => rx.test(h));
-  return m ? m[1] : h.slice(0, 80);
-}
-function device(ua) {
-  if (/ipad|tablet|(android(?!.*mobile))/i.test(ua)) return 'Tablet';
-  if (/mobile|iphone|ipod|android/i.test(ua)) return 'Handy';
-  return 'PC / Laptop';
-}
-
-async function hit(request, body, env) {
-  const ua = request.headers.get('user-agent') || '';
+async function hit(ua, body, env) {
   if (!ua || BOT.test(ua)) return;
-  let d; try { d = JSON.parse(body.slice(0, 2000)); } catch { return; }
-  let path = String(d.p || '/').split(/[?#]/)[0].slice(0, 200);
-  try { path = decodeURI(path); } catch {}
-  if (!path.startsWith('/') || path.startsWith('/statistik')) return;
-  const ref = refName(String(d.r || ''));
-  const entry = d.e ? (ref === '' ? 0 : 1) : 0;
-  const land = (request.cf && request.cf.country) || '??';
+  let d; try { d = JSON.parse(body.slice(0, 200)); } catch { return; }
   await setup(env);
-  const id = Date.now() * 1000 + Math.floor(Math.random() * 1000);
-  await env.DB.prepare('INSERT OR IGNORE INTO hits (id, path, ref, dev, land, entry) VALUES (?, ?, ?, ?, ?, ?)')
-    .bind(id, path, entry ? ref : '', device(ua), land, entry).run();
+  await env.DB.prepare('INSERT OR IGNORE INTO zaehler (id, besuch) VALUES (?, ?)').bind(stamp(), d.e ? 1 : 0).run();
 }
 
 function sameSecret(a, b) { // Vergleich in gleichbleibender Zeit
@@ -79,43 +51,34 @@ async function api(request, env) {
   // Schutz gegen Ausprobieren: nach 20 falschen Kennwörtern in einer Stunde ist die Anmeldung eine Stunde gesperrt
   const f = await env.DB.prepare('SELECT COUNT(*) AS n FROM fails WHERE id > ?').bind((now - 3600e3) * 1000).first();
   if (f.n >= 20) { await wait(1000); return { status: 429, body: { fehler: 'Zu viele falsche Versuche. Bitte in einer Stunde erneut versuchen.' } }; }
-  const pw = (request.headers.get('authorization') || '').replace(/^Bearer\s+/i, '');
   if (!env.STAT_KENNWORT || env.STAT_KENNWORT.length < 10) return { status: 500, body: { fehler: 'Im Worker ist noch kein Kennwort (STAT_KENNWORT, mindestens 10 Zeichen) hinterlegt.' } };
+  const pw = (request.headers.get('authorization') || '').replace(/^Bearer\s+/i, '');
   if (!pw || !sameSecret(pw, env.STAT_KENNWORT)) {
-    await env.DB.prepare('INSERT OR IGNORE INTO fails (id) VALUES (?)').bind(now * 1000 + Math.floor(Math.random() * 1000)).run();
+    await env.DB.prepare('INSERT OR IGNORE INTO fails (id) VALUES (?)').bind(stamp()).run();
     await wait(1500);
     return { status: 401, body: { fehler: 'Kennwort falsch.' } };
   }
   let q = {}; try { q = JSON.parse(await request.text() || '{}'); } catch {}
   const days = Math.min(Math.max(parseInt(q.tage, 10) || 30, 1), 366);
-  // Beginn: heute 0 Uhr deutscher Zeit minus (days-1) Tage
   const dayOf = new Intl.DateTimeFormat('sv-SE', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' });
-  const hourOf = new Intl.DateTimeFormat('de-DE', { timeZone: TZ, hour: '2-digit', hourCycle: 'h23' });
-  const from = now - days * 86400e3 - 2 * 86400e3; // großzügig, genaue Grenze unten über das Datum
   const today = dayOf.format(new Date(now));
   const first = new Date(Date.parse(today + 'T12:00:00Z') - (days - 1) * 86400e3).toISOString().slice(0, 10);
-  const { results } = await env.DB.prepare('SELECT id, path, ref, dev, land, entry FROM hits WHERE id >= ?').bind(from * 1000).all();
-  const perDay = {}, paths = {}, refs = {}, devs = {}, lands = {}, hours = Array(24).fill(0);
+  const perDay = {};
   for (let i = 0, d = Date.parse(first + 'T12:00:00Z'); i < days; i++, d += 86400e3) perDay[new Date(d).toISOString().slice(0, 10)] = [0, 0];
+  const { results } = await env.DB.prepare('SELECT id, besuch FROM zaehler WHERE id >= ?').bind((now - (days + 2) * 86400e3) * 1000).all();
   let views = 0, visits = 0;
-  const add = (o, k) => { o[k] = (o[k] || 0) + 1; };
   for (const r of results) {
-    const t = new Date(Math.floor(r.id / 1000)), day = dayOf.format(t);
-    if (day < first) continue;
-    views++; perDay[day] = perDay[day] || [0, 0]; perDay[day][0]++;
-    hours[parseInt(hourOf.format(t), 10) % 24]++;
-    add(paths, r.path); add(devs, r.dev); add(lands, r.land);
-    if (r.entry) { visits++; perDay[day][1]++; add(refs, r.ref); }
+    const day = dayOf.format(new Date(Math.floor(r.id / 1000)));
+    if (day < first || !perDay[day]) continue;
+    views++; perDay[day][0]++;
+    if (r.besuch) { visits++; perDay[day][1]++; }
   }
-  const top = (o, n) => Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, n);
-  // ab und zu aufräumen
-  await env.DB.batch([
-    env.DB.prepare('DELETE FROM hits WHERE id < ?').bind((now - KEEP_DAYS * 86400e3) * 1000),
+  await env.DB.batch([ // aufräumen
+    env.DB.prepare('DELETE FROM zaehler WHERE id < ?').bind((now - KEEP_DAYS * 86400e3) * 1000),
     env.DB.prepare('DELETE FROM fails WHERE id < ?').bind((now - 86400e3) * 1000),
   ]);
   return { status: 200, body: { tage: days, von: first, bis: today, aufrufe: views, besuche: visits,
-    jeTag: Object.entries(perDay).sort(), seiten: top(paths, 30), herkunft: top(refs, 20),
-    geraete: top(devs, 5), laender: top(lands, 15), stunden: hours, stand: new Date(now).toISOString() } };
+    jeTag: Object.entries(perDay).sort(), stand: new Date(now).toISOString() } };
 }
 
 export default {
@@ -124,14 +87,14 @@ export default {
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: cors(origin) });
     if (!env.DB) return new Response('Statistik-Worker: D1-Bindung „DB“ fehlt.\n', { status: 500 });
     if (url.pathname === '/h' && request.method === 'POST') {
-      if (ORIGINS.has(origin)) { const body = await request.text(); ctx.waitUntil(hit(request, body, env).catch(() => {})); }
+      if (ORIGINS.has(origin)) { const body = await request.text(); ctx.waitUntil(hit(request.headers.get('user-agent') || '', body, env).catch(() => {})); }
       return new Response(null, { status: 204, headers: cors(origin) });
     }
     if (url.pathname === '/api' && request.method === 'POST') {
       try { const r = await api(request, env); return json(r.body, r.status, origin); }
       catch (e) { return json({ fehler: 'Fehler im Worker: ' + (e && e.message || e) }, 500, origin); }
     }
-    return new Response('my Event Hub – Statistik. Auswertung: https://www.myeventhub.de/statistik/\n',
+    return new Response('my Event Hub – Besucherzahl. Auswertung: https://www.myeventhub.de/statistik/\n',
       { status: 404, headers: { 'content-type': 'text/plain; charset=utf-8' } });
   },
 };

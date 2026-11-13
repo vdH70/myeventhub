@@ -1,5 +1,5 @@
 <!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Statistik | my Event Hub</title><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+<title>Besucherzahl | my Event Hub</title><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
 <link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="stylesheet" href="/fonts/fonts.min.css">
 <script>if(location.protocol==="http:"&&/(^|\.)myeventhub\.de$/i.test(location.hostname))location.replace("https://www.myeventhub.de"+location.pathname);</script>
 <!-- Besucherstatistik (Thomas 13.11.2026). Die Zahlen liefert der Cloudflare Worker nur mit Kennwort; das Kennwort steht NICHT in dieser Datei. -->
@@ -23,40 +23,33 @@ td.bar{width:38%}td.bar i{display:block;height:10px;border-radius:5px;background
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media (max-width:700px){.grid2{grid-template-columns:1fr}}
 .note{font-size:14px;color:var(--muted);margin-top:26px}a{color:var(--acc)}
 </style></head><body><main>
-<h1>Besucherstatistik</h1><p class="sub">my Event Hub · nur für den Betreiber</p>
+<h1>Besucherzahl</h1><p class="sub">my Event Hub · nur für den Betreiber</p>
 <form id="f" autocomplete="on">
 <input type="text" name="username" value="Statistik" autocomplete="username" hidden>
 <input id="pw" type="password" placeholder="Kennwort" autocomplete="current-password" required>
 <select id="tage"><option value="1">Heute</option><option value="7">Letzte 7 Tage</option><option value="30" selected>Letzte 30 Tage</option><option value="90">Letzte 90 Tage</option><option value="366">Letzte 12 Monate</option></select>
 <button>Anzeigen</button></form>
 <div id="msg" role="alert"></div><div id="out" hidden>
-<div class="tiles"><div class="tile"><b id="t1">–</b><span>Besuche (von außen gekommen)</span></div><div class="tile"><b id="t2">–</b><span>Seitenaufrufe</span></div><div class="tile"><b id="t3">–</b><span>Besuche heute</span></div><div class="tile"><b id="t4">–</b><span>Aufrufe je Besuch</span></div></div>
-<h2>Verlauf je Tag</h2><div class="card"><div class="chart" id="chart"></div><div class="axis"><span id="a1"></span><span id="a2"></span></div>
-<div class="legend"><s style="background:var(--acc);margin-left:0"></s>Besuche<s style="background:#C9D1DE"></s>Seitenaufrufe</div></div>
-<div class="grid2"><div><h2>Beliebteste Seiten</h2><div class="card"><table id="seiten"></table></div></div>
-<div><h2>Woher die Besucher kommen</h2><div class="card"><table id="herkunft"></table></div>
-<h2>Geräte</h2><div class="card"><table id="geraete"></table></div>
-<h2>Länder</h2><div class="card"><table id="laender"></table></div></div></div>
-<h2>Uhrzeit (Seitenaufrufe, deutsche Zeit)</h2><div class="card"><div class="chart" id="hours" style="height:120px"></div><div class="axis"><span>0 Uhr</span><span>6</span><span>12</span><span>18</span><span>23 Uhr</span></div></div>
+<div class="tiles"><div class="tile"><b id="t3">–</b><span>Besucher heute</span></div><div class="tile"><b id="t5">–</b><span>Besucher gestern</span></div><div class="tile"><b id="t1">–</b><span id="t1l">Besucher im Zeitraum</span></div><div class="tile"><b id="t2">–</b><span>Seitenaufrufe im Zeitraum</span></div></div>
+<h2>Besucher je Tag</h2><div class="card"><div class="chart" id="chart"></div><div class="axis"><span id="a1"></span><span id="a2"></span></div>
+<div class="legend"><s style="background:var(--acc);margin-left:0"></s>Besucher<s style="background:#C9D1DE"></s>weitere Seitenaufrufe</div></div>
+<div id="mon" hidden><h2>Besucher je Monat</h2><div class="card"><table id="monate"></table></div></div>
 <p class="note" id="stand"></p></div>
-<p class="note">Gezählt wird ohne Cookies, ohne Speicher im Browser und ohne IP-Adresse. Ein „Besuch“ ist ein Aufruf, der von außen kam (Google, ein Link, direkt eingegeben); Klicks innerhalb der Seite, Neuladen und die Zurück-Taste zählen nur als Seitenaufruf. Suchmaschinen-Roboter werden nicht mitgezählt. Wer Werbe- oder Skriptblocker nutzt, wird ggf. nicht erfasst – die echten Zahlen liegen also eher etwas höher.</p>
+<p class="note">Gezählt wird ohne Cookies, ohne Speicher im Browser und ohne IP-Adresse; gespeichert wird nur der Zeitpunkt jedes Aufrufs. Ein „Besucher“ ist ein Aufruf, der von außen kam (Google, ein Link, direkt eingegeben); Klicks innerhalb der Seite, Neuladen und die Zurück-Taste zählen nur als Seitenaufruf. Wer an einem Tag zweimal von außen kommt, zählt zweimal. Suchmaschinen-Roboter werden nicht mitgezählt; wer Skriptblocker nutzt, wird ggf. nicht erfasst – die echten Zahlen liegen also eher etwas höher.</p>
 </main><script>
 var W='https://myeventhub-statistik.patient-disk-2848.workers.dev';
 var $=function(i){return document.getElementById(i)},fmt=function(n){return Number(n).toLocaleString('de-DE')};
-var LAND={DE:'Deutschland',AT:'Österreich',CH:'Schweiz',NL:'Niederlande',BE:'Belgien',DK:'Dänemark',PL:'Polen',FR:'Frankreich',LU:'Luxemburg',CZ:'Tschechien',GB:'Großbritannien',US:'USA',IT:'Italien',ES:'Spanien',SE:'Schweden',NO:'Norwegen',IE:'Irland',FI:'Finnland',T1:'Tor-Netz','??':'unbekannt'};
-function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-function tab(id,rows,lab){var m=Math.max.apply(null,rows.map(function(r){return r[1]}).concat([1]));
- $(id).innerHTML=rows.length?rows.map(function(r){var k=lab?lab(r[0]):esc(r[0]);return '<tr><td>'+k+'</td><td class="bar"><i style="width:'+(100*r[1]/m).toFixed(1)+'%"></i></td><td>'+fmt(r[1])+'</td></tr>'}).join(''):'<tr><td>noch keine Daten</td><td></td></tr>'}
+var MON=['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
 function dm(d){return d.slice(8,10)+'.'+d.slice(5,7)+'.'}
 function show(j){$('out').hidden=false;$('t1').textContent=fmt(j.besuche);$('t2').textContent=fmt(j.aufrufe);
- var last=j.jeTag[j.jeTag.length-1];$('t3').textContent=fmt(last?last[1][1]:0);$('t4').textContent=j.besuche?(j.aufrufe/j.besuche).toLocaleString('de-DE',{maximumFractionDigits:1}):'–';
- var m=Math.max.apply(null,j.jeTag.map(function(d){return d[1][0]}).concat([1]));
- $('chart').innerHTML=j.jeTag.map(function(d){var a=d[1][0],b=d[1][1];return '<div title="'+dm(d[0])+': '+fmt(b)+' Besuche, '+fmt(a)+' Aufrufe"><i style="height:'+(100*(a-b)/m)+'%"></i><i class="v" style="height:'+(100*b/m)+'%"></i></div>'}).join('');
+ var T=j.jeTag,last=T[T.length-1],prev=T[T.length-2];$('t3').textContent=fmt(last?last[1][1]:0);$('t5').textContent=prev?fmt(prev[1][1]):'–';
+ $('t1l').textContent='Besucher '+$('tage').options[$('tage').selectedIndex].text.replace('Letzte','in den letzten').replace('Heute','heute');
+ var m=Math.max.apply(null,T.map(function(d){return d[1][0]}).concat([1]));
+ $('chart').innerHTML=T.map(function(d){var a=d[1][0],b=d[1][1];return '<div title="'+dm(d[0])+': '+fmt(b)+' Besucher, '+fmt(a)+' Seitenaufrufe"><i style="height:'+(100*(a-b)/m)+'%"></i><i class="v" style="height:'+(100*b/m)+'%"></i></div>'}).join('');
  $('a1').textContent=dm(j.von)+j.von.slice(0,4);$('a2').textContent=dm(j.bis)+j.bis.slice(0,4);
- var hm=Math.max.apply(null,j.stunden.concat([1]));$('hours').innerHTML=j.stunden.map(function(n,h){return '<div title="'+h+' Uhr: '+fmt(n)+'"><i class="v" style="height:'+(100*n/hm)+'%;border-radius:3px 3px 0 0"></i></div>'}).join('');
- tab('seiten',j.seiten,function(p){return '<a href="'+esc(p)+'" target="_blank" rel="noopener">'+esc(p==='/'?'Startseite':p)+'</a>'});
- tab('herkunft',j.herkunft);tab('geraete',j.geraete);tab('laender',j.laender,function(k){return esc(LAND[k]||k)});
- $('stand').textContent='Stand: '+new Date(j.stand).toLocaleString('de-DE')+' Uhr · Zeitraum '+dm(j.von)+j.von.slice(0,4)+' bis '+dm(j.bis)+j.bis.slice(0,4);}
+ var mo={};T.forEach(function(d){var k=d[0].slice(0,7);mo[k]=mo[k]||[0,0];mo[k][0]+=d[1][1];mo[k][1]+=d[1][0]});var ks=Object.keys(mo).sort().reverse();
+ $('mon').hidden=ks.length<2;$('monate').innerHTML='<tr><td><b>Monat</b></td><td style="text-align:right"><b>Besucher</b></td><td><b>Seitenaufrufe</b></td></tr>'+ks.map(function(k){return '<tr><td>'+MON[+k.slice(5,7)-1]+' '+k.slice(0,4)+'</td><td style="text-align:right">'+fmt(mo[k][0])+'</td><td>'+fmt(mo[k][1])+'</td></tr>'}).join('');
+ $('stand').textContent='Stand: '+new Date(j.stand).toLocaleString('de-DE')+' Uhr';}
 $('f').addEventListener('submit',function(e){e.preventDefault();$('msg').textContent='Lade …';
  fetch(W+'/api',{method:'POST',headers:{'authorization':'Bearer '+$('pw').value,'content-type':'text/plain'},body:JSON.stringify({tage:+$('tage').value})})
  .then(function(r){return r.json().then(function(j){if(!r.ok)throw new Error(j.fehler||('Fehler '+r.status));return j})})
