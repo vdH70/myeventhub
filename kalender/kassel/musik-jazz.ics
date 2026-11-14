@@ -29,15 +29,20 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ks-theaterstuebchen-20261115-2000-pablo-held-trio@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20261115T200000
 DTEND;TZID=Europe/Berlin:20261115T220000
-SUMMARY:Pablo Held Trio
+SUMMARY:ABGESAGT: Pablo Held Trio
 LOCATION:Theaterstübchen\, Jordanstraße 11\, 34117 Kassel
 DESCRIPTION:Konzert im Kasseler Musikclub Theaterstübchen.\nEnde: laut Que
  lle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.th
  eaterstuebchen.de/events/
 URL:https://www.theaterstuebchen.de/events/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Pablo Held Trio am 15.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261115T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -57,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ks-theaterstuebchen-20261119-2000-julian-roman-wasserfuhr-timelines@mye
  venthub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20261119T200000
 DTEND;TZID=Europe/Berlin:20261119T220000
 SUMMARY:Julian & Roman Wasserfuhr – Timelines

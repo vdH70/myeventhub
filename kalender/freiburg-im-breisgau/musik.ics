@@ -85,15 +85,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fr-vorderhaus-20261114-fee-penafiel-die-wolken-ueber-uns-akustik-tour@m
  yeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20261114T200000
 DTEND;TZID=Europe/Berlin:20261114T220000
-SUMMARY:Fee Penafiel – Die Wolken über uns (Akustik Tour)
+SUMMARY:ABGESAGT: Fee Penafiel – Die Wolken über uns (Akustik Tour)
 LOCATION:Vorderhaus (FABRIK Freiburg)\, Habsburgerstraße 9\, 79104 Freibur
  g im Breisgau
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://www.vorderhaus.de/programm
 URL:https://www.vorderhaus.de/programm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Fee Penafiel – Die Wolken über uns (Akustik Tour) 
+ am 14.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261114T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -192,7 +198,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fr-vorderhaus-20261117-so-soon-tour-2026@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20261117T200000
 DTEND;TZID=Europe/Berlin:20261117T220000
 SUMMARY:So Soon – Tour 2026
