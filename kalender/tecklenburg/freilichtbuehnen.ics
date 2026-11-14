@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:st-freilichtbuehne-tecklenburg-20270515-die-schatzinsel-premiere@myeven
  thub.de
@@ -39,6 +56,54 @@ URL:https://freilichtspiele-tecklenburg.de/produktionen/musicalmeetspop
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270523-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270523T150000
+DTEND;TZID=Europe/Berlin:20270523T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270530-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270530T150000
+DTEND;TZID=Europe/Berlin:20270530T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270606-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270606T150000
+DTEND;TZID=Europe/Berlin:20270606T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270613-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270613T150000
+DTEND;TZID=Europe/Berlin:20270613T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:st-freilichtbuehne-tecklenburg-20270618-kinky-boots-premiere@myeventhub
  .de
 DTSTAMP:20261102T000000Z
@@ -53,6 +118,246 @@ URL:https://freilichtspiele-tecklenburg.de/produktionen/abendstueck1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270619-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270619T200000
+DTEND;TZID=Europe/Berlin:20270619T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270620-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270620T150000
+DTEND;TZID=Europe/Berlin:20270620T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270620-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270620T190000
+DTEND;TZID=Europe/Berlin:20270620T210000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270625-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270625T200000
+DTEND;TZID=Europe/Berlin:20270625T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270626-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270626T200000
+DTEND;TZID=Europe/Berlin:20270626T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270627-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270627T150000
+DTEND;TZID=Europe/Berlin:20270627T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270627-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270627T190000
+DTEND;TZID=Europe/Berlin:20270627T210000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270702-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270702T200000
+DTEND;TZID=Europe/Berlin:20270702T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270703-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270703T200000
+DTEND;TZID=Europe/Berlin:20270703T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270704-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270704T150000
+DTEND;TZID=Europe/Berlin:20270704T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270704-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270704T190000
+DTEND;TZID=Europe/Berlin:20270704T210000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270707-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270707T160000
+DTEND;TZID=Europe/Berlin:20270707T180000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270709-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270709T200000
+DTEND;TZID=Europe/Berlin:20270709T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270710-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270710T200000
+DTEND;TZID=Europe/Berlin:20270710T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270711-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270711T150000
+DTEND;TZID=Europe/Berlin:20270711T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270711-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270711T190000
+DTEND;TZID=Europe/Berlin:20270711T210000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270716-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270716T200000
+DTEND;TZID=Europe/Berlin:20270716T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270717-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270717T200000
+DTEND;TZID=Europe/Berlin:20270717T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270718-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270718T150000
+DTEND;TZID=Europe/Berlin:20270718T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270721-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270721T160000
+DTEND;TZID=Europe/Berlin:20270721T180000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:st-freilichtbuehne-tecklenburg-20270723-die-saeulen-der-erde-premiere@m
  yeventhub.de
 DTSTAMP:20261102T000000Z
@@ -64,6 +369,422 @@ DESCRIPTION:Musical nach Ken Follett\; weitere Termine im Spielplan 2027.\n
  Quelle (bitte vor dem Besuch prüfen): https://freilichtspiele-tecklenburg
  .de/produktionen/abendstueck2
 URL:https://freilichtspiele-tecklenburg.de/produktionen/abendstueck2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270724-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270724T200000
+DTEND;TZID=Europe/Berlin:20270724T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270725-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270725T190000
+DTEND;TZID=Europe/Berlin:20270725T210000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270728-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270728T160000
+DTEND;TZID=Europe/Berlin:20270728T180000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270729-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270729T200000
+DTEND;TZID=Europe/Berlin:20270729T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270730-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270730T200000
+DTEND;TZID=Europe/Berlin:20270730T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270731-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270731T200000
+DTEND;TZID=Europe/Berlin:20270731T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270801-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270801T150000
+DTEND;TZID=Europe/Berlin:20270801T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270801-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270801T190000
+DTEND;TZID=Europe/Berlin:20270801T210000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270804-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270804T160000
+DTEND;TZID=Europe/Berlin:20270804T180000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270804-die-schatzinsel-2000@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270804T200000
+DTEND;TZID=Europe/Berlin:20270804T220000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270805-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270805T200000
+DTEND;TZID=Europe/Berlin:20270805T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270807-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270807T200000
+DTEND;TZID=Europe/Berlin:20270807T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270808-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270808T190000
+DTEND;TZID=Europe/Berlin:20270808T210000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270811-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270811T160000
+DTEND;TZID=Europe/Berlin:20270811T180000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270812-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270812T200000
+DTEND;TZID=Europe/Berlin:20270812T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270813-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270813T200000
+DTEND;TZID=Europe/Berlin:20270813T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270815-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270815T190000
+DTEND;TZID=Europe/Berlin:20270815T210000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270820-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270820T200000
+DTEND;TZID=Europe/Berlin:20270820T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270821-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270821T200000
+DTEND;TZID=Europe/Berlin:20270821T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270822-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270822T150000
+DTEND;TZID=Europe/Berlin:20270822T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270822-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270822T190000
+DTEND;TZID=Europe/Berlin:20270822T210000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270825-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270825T160000
+DTEND;TZID=Europe/Berlin:20270825T180000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270826-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270826T200000
+DTEND;TZID=Europe/Berlin:20270826T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270827-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270827T200000
+DTEND;TZID=Europe/Berlin:20270827T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270828-kinky-boots@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270828T200000
+DTEND;TZID=Europe/Berlin:20270828T220000
+SUMMARY:Kinky Boots
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270829-die-schatzinsel@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270829T150000
+DTEND;TZID=Europe/Berlin:20270829T170000
+SUMMARY:Die Schatzinsel
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270902-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270902T200000
+DTEND;TZID=Europe/Berlin:20270902T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270903-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270903T200000
+DTEND;TZID=Europe/Berlin:20270903T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270904-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270904T200000
+DTEND;TZID=Europe/Berlin:20270904T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270905-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270905T190000
+DTEND;TZID=Europe/Berlin:20270905T210000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270910-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270910T200000
+DTEND;TZID=Europe/Berlin:20270910T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270911-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270911T200000
+DTEND;TZID=Europe/Berlin:20270911T220000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-freilichtbuehne-tecklenburg-20270912-die-saeulen-der-erde@myeventhub
+ .de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270912T190000
+DTEND;TZID=Europe/Berlin:20270912T210000
+SUMMARY:Die Säulen der Erde
+LOCATION:Freilichtbühne Tecklenburg\, Schloßstraße 7\, 49545 Tecklenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://freilichtspiele-tecklenburg.de/spielplan
+URL:https://freilichtspiele-tecklenburg.de/spielplan
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
