@@ -1622,20 +1622,6 @@ URL:https://www.staatsoperette.de/spielplan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dd-boulevardtheater-20261122-1230-linus-faber-eine-magische-elfenmissio
- n@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T123000
-DTEND;TZID=Europe/Berlin:20261122T143000
-SUMMARY:Linus Faber – Eine magische Elfenmission
-LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
-DESCRIPTION:Familienvorstellung im Boulevardtheater Dresden.\nEnde: laut Qu
- elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://boule
- vardtheater.de/spielplan/grosser-saal.php
-URL:https://boulevardtheater.de/spielplan/grosser-saal.php
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:dd-comoedie-20261122-1500-villa-sonnenschein@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261122T150000
@@ -1842,14 +1828,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dd-theaterhaus-rudi-20261125-peter-und-der-wolf@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20261125T093000
 DTEND;TZID=Europe/Berlin:20261125T113000
-SUMMARY:Peter und der Wolf
+SUMMARY:ABGESAGT: Peter und der Wolf
 LOCATION:Theaterhaus Rudi\, Fechnerstraße 2a\, 01139 Dresden
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://www.theaterhaus-rudi.de/spielplan.html
 URL:https://www.theaterhaus-rudi.de/spielplan.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Peter und der Wolf am 25.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261115T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -10402,6 +10393,21 @@ LOCATION:MESSE DRESDEN\, Dresden
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.messe-dresde
  n.de/veranstaltungskalender
 URL:https://www.messe-dresden.de/veranstaltungskalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd-boulevardtheater-20261122-1230-linus-faber-eine-magische-elfenmissio
+ n@myeventhub.de
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Berlin:20270905T200000
+DTEND;TZID=Europe/Berlin:20270905T220000
+SUMMARY:VERLEGT: Linus Faber – Eine magische Elfenmission
+LOCATION:Boulevardtheater Dresden\, Maternistraße 17\, 01067 Dresden
+DESCRIPTION:Laut Boulevardtheater verlegt auf Sonntag\, 5. September 2027\,
+  20:00 Uhr (ursprünglich 22.11.2026).\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://boulevardtheater.de/spielp
+ lan/grosser-saal.php
+URL:https://boulevardtheater.de/spielplan/grosser-saal.php
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
