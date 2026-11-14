@@ -13123,15 +13123,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-im-palais-20270110-1600-thomas-mann-mario-und-der-zauberer@my
  eventhub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20270110T160000
 DTEND;TZID=Europe/Berlin:20270110T180000
-SUMMARY:Thomas Mann: Mario und der Zauberer
+SUMMARY:ABGESAGT: Thomas Mann: Mario und der Zauberer
 LOCATION:Theater im Palais\, Am Festungsgraben 1\, 10117 Berlin
 DESCRIPTION:Vorstellung im Theater im Palais am Festungsgraben.\nEnde: laut
   Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
  w.theater-im-palais.de/monatsuebersicht/Januar
 URL:https://www.theater-im-palais.de/monatsuebersicht/Januar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Thomas Mann: Mario und der Zauberer am 10.1.2027 (lau
+ t Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261115T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
