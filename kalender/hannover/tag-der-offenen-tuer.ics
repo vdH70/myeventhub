@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:h-staatsoper-20260926-das-offene-foyer-ende@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -63,6 +80,19 @@ DESCRIPTION:Das Opernfoyer ist samstags 10–14 Uhr offen\; Programm wechse
   https://staatstheater-hannover.de/de_DE/programm/das-offene-foyer.1397934
 URL:https://staatstheater-hannover.de/de_DE/programm/das-offene-foyer.13979
  34
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:h-campus-knabenchor-20270306-nachmittag-der-offenen-tuer-beim-knabencho
+ r-hannov@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T150000
+DTEND;TZID=Europe/Berlin:20270306T170000
+SUMMARY:Nachmittag der offenen Tür beim Knabenchor Hannover
+LOCATION:Campus Knabenchor Hannover\, Plüschowstr. 4\, 30163 Hannover
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.knabenchor-hannover.de/konzerte
+URL:https://www.knabenchor-hannover.de/konzerte
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

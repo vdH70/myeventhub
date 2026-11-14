@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:k-rheinenergiestadion-20270428-karrieretag-koeln@myeventhub.de
 DTSTAMP:20261102T000000Z
@@ -54,6 +71,19 @@ DESCRIPTION:Fachmesse für Ausbildung und Studium für Schülerinnen und Sc
  ntritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.vocatium.d
  e/messen/info/vocatium-koeln
 URL:https://www.vocatium.de/messen/info/vocatium-koeln
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-palladium-20271204-azubi2b-messe-koeln@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20271204T100000
+DTEND;TZID=Europe/Berlin:20271204T120000
+SUMMARY:Azubi2B Messe Köln
+LOCATION:Palladium Köln\, Schanzenstraße 40\, 51063 Köln
+DESCRIPTION:Ausbildungsmesse\, Einlass laut Seite 10:00 bis 16:00 Uhr.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.azubi2b.de/koeln
+URL:https://www.azubi2b.de/koeln
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
