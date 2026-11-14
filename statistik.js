@@ -1,7 +1,7 @@
 /* my Event Hub – Besucherzahl (Thomas 13.11.2026). Ohne Cookies, ohne Speicher im Browser, ohne IP-Adresse:
    gesendet wird nur, ob es ein neuer Besuch ist (von außen gekommen) oder eine weitere Seite. Details: Datenschutzerklärung. */
 (function () {
-  var W = ''; // Adresse des Statistik-Workers; leer = Zählung aus
+  var W = 'https://myeventhub-statistik.patient-disk-2848.workers.dev'; // Adresse des Statistik-Workers; leer = Zählung aus
   if (!W || !/(^|\.)myeventhub\.de$/i.test(location.hostname) || navigator.webdriver) return;
   try {
     var n = performance.getEntriesByType && performance.getEntriesByType('navigation')[0];
