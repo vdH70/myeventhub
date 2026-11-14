@@ -23,7 +23,7 @@ td.bar{width:38%}td.bar i{display:block;height:10px;border-radius:5px;background
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media (max-width:700px){.grid2{grid-template-columns:1fr}}
 .note{font-size:14px;color:var(--muted);margin-top:26px}a{color:var(--acc)}
 </style></head><body><main>
-<h1>Besucherzahl</h1><p class="sub">my Event Hub · nur für den Betreiber</p>
+<h1>Besucherstatistik</h1><p class="sub">my Event Hub · nur für den Betreiber</p>
 <form id="f" autocomplete="on">
 <input type="text" name="username" value="Statistik" autocomplete="username" hidden>
 <input id="pw" type="password" placeholder="Kennwort" autocomplete="current-password" required>
@@ -33,14 +33,20 @@ td.bar{width:38%}td.bar i{display:block;height:10px;border-radius:5px;background
 <div class="tiles"><div class="tile"><b id="t3">–</b><span>Besucher heute</span></div><div class="tile"><b id="t5">–</b><span>Besucher gestern</span></div><div class="tile"><b id="t1">–</b><span id="t1l">Besucher im Zeitraum</span></div><div class="tile"><b id="t2">–</b><span>Seitenaufrufe im Zeitraum</span></div></div>
 <h2>Besucher je Tag</h2><div class="card"><div class="chart" id="chart"></div><div class="axis"><span id="a1"></span><span id="a2"></span></div>
 <div class="legend"><s style="background:var(--acc);margin-left:0"></s>Besucher<s style="background:#C9D1DE"></s>weitere Seitenaufrufe</div></div>
+<div class="grid2"><div><h2>Besuchte Seiten</h2><div class="card"><table id="seiten"></table></div></div>
+<div><h2>Woher die Besucher kommen</h2><div class="card"><table id="herkunft"></table></div>
+<p class="note" style="margin-top:10px">Suchbegriffe schickt Google nicht mit. Die findest du in der Google Search Console unter „Leistung“ → „Suchanfragen“.</p></div></div>
 <div id="mon" hidden><h2>Besucher je Monat</h2><div class="card"><table id="monate"></table></div></div>
 <p class="note" id="stand"></p></div>
-<p class="note">Gezählt wird ohne Cookies, ohne Speicher im Browser und ohne IP-Adresse; gespeichert wird nur der Zeitpunkt jedes Aufrufs. Ein „Besucher“ ist ein Aufruf, der von außen kam (Google, ein Link, direkt eingegeben); Klicks innerhalb der Seite, Neuladen und die Zurück-Taste zählen nur als Seitenaufruf. Wer an einem Tag zweimal von außen kommt, zählt zweimal. Suchmaschinen-Roboter werden nicht mitgezählt; wer Skriptblocker nutzt, wird ggf. nicht erfasst – die echten Zahlen liegen also eher etwas höher.</p>
+<p class="note">Gezählt wird ohne Cookies, ohne Speicher im Browser und ohne IP-Adresse; gespeichert werden nur Zeitpunkt, aufgerufene Seite und bei neuen Besuchen der Name der Herkunfts-Website. Ein „Besucher“ ist ein Aufruf, der von außen kam (Google, ein Link, direkt eingegeben); Klicks innerhalb der Seite, Neuladen und die Zurück-Taste zählen nur als Seitenaufruf. Wer an einem Tag zweimal von außen kommt, zählt zweimal. Suchmaschinen-Roboter werden nicht mitgezählt; wer Skriptblocker nutzt, wird ggf. nicht erfasst – die echten Zahlen liegen also eher etwas höher.</p>
 </main><script>
 var W='https://myeventhub-statistik.patient-disk-2848.workers.dev';
 var $=function(i){return document.getElementById(i)},fmt=function(n){return Number(n).toLocaleString('de-DE')};
 var MON=['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
 function dm(d){return d.slice(8,10)+'.'+d.slice(5,7)+'.'}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function tab(id,rows,lab){rows=rows||[];var m=Math.max.apply(null,rows.map(function(r){return r[1]}).concat([1]));
+ $(id).innerHTML=rows.length?rows.map(function(r){return '<tr><td>'+(lab?lab(r[0]):esc(r[0]))+'</td><td class="bar"><i style="width:'+(100*r[1]/m).toFixed(1)+'%"></i></td><td>'+fmt(r[1])+'</td></tr>'}).join(''):'<tr><td>noch keine Daten (wird seit 14.11.2026 erfasst)</td><td></td></tr>'}
 function show(j){$('out').hidden=false;$('t1').textContent=fmt(j.besuche);$('t2').textContent=fmt(j.aufrufe);
  var T=j.jeTag,last=T[T.length-1],prev=T[T.length-2];$('t3').textContent=fmt(last?last[1][1]:0);$('t5').textContent=prev?fmt(prev[1][1]):'–';
  $('t1l').textContent='Besucher '+$('tage').options[$('tage').selectedIndex].text.replace('Letzte','in den letzten').replace('Heute','heute');
@@ -49,6 +55,7 @@ function show(j){$('out').hidden=false;$('t1').textContent=fmt(j.besuche);$('t2'
  $('a1').textContent=dm(j.von)+j.von.slice(0,4);$('a2').textContent=dm(j.bis)+j.bis.slice(0,4);
  var mo={};T.forEach(function(d){var k=d[0].slice(0,7);mo[k]=mo[k]||[0,0];mo[k][0]+=d[1][1];mo[k][1]+=d[1][0]});var ks=Object.keys(mo).sort().reverse();
  $('mon').hidden=ks.length<2;$('monate').innerHTML='<tr><td><b>Monat</b></td><td style="text-align:right"><b>Besucher</b></td><td><b>Seitenaufrufe</b></td></tr>'+ks.map(function(k){return '<tr><td>'+MON[+k.slice(5,7)-1]+' '+k.slice(0,4)+'</td><td style="text-align:right">'+fmt(mo[k][0])+'</td><td>'+fmt(mo[k][1])+'</td></tr>'}).join('');
+ tab('seiten',j.seiten,function(p){return '<a href="'+esc(p)+'" target="_blank" rel="noopener">'+esc(p==='/'?'Startseite':p)+'</a>'});tab('herkunft',j.herkunft);
  $('stand').textContent='Stand: '+new Date(j.stand).toLocaleString('de-DE')+' Uhr';}
 $('f').addEventListener('submit',function(e){e.preventDefault();$('msg').textContent='Lade …';
  fetch(W+'/api',{method:'POST',headers:{'authorization':'Bearer '+$('pw').value,'content-type':'text/plain'},body:JSON.stringify({tage:+$('tage').value})})
