@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Geldern · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kle-e-dry-20261128-levels-die-2000er-2010er-party@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T220000
+DTEND;TZID=Europe/Berlin:20261129T000000
+SUMMARY:Levels – Die 2000er & 2010er Party
+LOCATION:E-Dry\, Venloer Straße 10\, 47608 Geldern
+DESCRIPTION:Party mit Hits der 2000er und 2010er.\nEnde: laut Quelle nicht 
+ angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.e-dry.de/eve
+ nts/levels-die-2000er-2010er-party-28-09-e-dry-geldern-28-11-2026
+URL:https://www.e-dry.de/events/levels-die-2000er-2010er-party-28-09-e-dry-
+ geldern-28-11-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kle-e-dry-20261204-gluecksmomente-feat-timbo-thischris@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T220000
+DTEND;TZID=Europe/Berlin:20261205T000000
+SUMMARY:Glücksmomente feat. Timbo & ThisChris
+LOCATION:E-Dry\, Venloer Straße 10\, 47608 Geldern
+DESCRIPTION:Party mit Timbo & ThisChris live\, präsentiert von Abibeatz\, 
+ ab 16 Jahren.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Be
+ such prüfen): https://www.e-dry.de/events/glucksmomente-feat-timbo-thisch
+ ris-pres-by-abibeatz-16-04-12-2026
+URL:https://www.e-dry.de/events/glucksmomente-feat-timbo-thischris-pres-by-
+ abibeatz-16-04-12-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kle-e-dry-20261205-grosse-ue30-party-auf-3-floors@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Große Ü30-Party auf 3 Floors
+LOCATION:E-Dry\, Venloer Straße 10\, 47608 Geldern
+DESCRIPTION:Ü30-Party auf drei Floors.\nQuelle (bitte vor dem Besuch prüf
+ en): https://www.e-dry.de/events/grosse-u30-party-3-floors-05-12-e-dry-gel
+ dern-05-12-2026
+URL:https://www.e-dry.de/events/grosse-u30-party-3-floors-05-12-e-dry-gelde
+ rn-05-12-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kle-e-dry-20261212-single-bells-die-grosse-flirtparty-mit-noisetime-l@m
+ yeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Single Bells – Die große Flirtparty mit Noisetime live
+LOCATION:E-Dry\, Venloer Straße 10\, 47608 Geldern
+DESCRIPTION:Flirtparty mit Noisetime live.\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.e-dry.de/events/single-bells-die-grosse-flirtparty-mit
+ -noisetime-live-12-12-2026-12-12-2026
+URL:https://www.e-dry.de/events/single-bells-die-grosse-flirtparty-mit-nois
+ etime-live-12-12-2026-12-12-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kle-e-dry-20261219-inventurnacht-2026-alles-muss-raus@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Inventurnacht 2026 – Alles muss raus!
+LOCATION:E-Dry\, Venloer Straße 10\, 47608 Geldern
+DESCRIPTION:Partynacht vor Weihnachten im E-Dry.\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.e-dry.de/events/inventurnacht-2026-alles-muss-ra
+ us-19-12-19-12-2026
+URL:https://www.e-dry.de/events/inventurnacht-2026-alles-muss-raus-19-12-19
+ -12-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kle-e-dry-20261225-coming-home-for-christmas-mit-zymba-live@myeventhub.
+ de
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Coming Home for Christmas mit Zymba live
+LOCATION:E-Dry\, Venloer Straße 10\, 47608 Geldern
+DESCRIPTION:Party am 1. Weihnachtstag mit Zymba live\, ab 18 Jahren.\nQuell
+ e (bitte vor dem Besuch prüfen): https://www.e-dry.de/events/coming-home-
+ for-christmas-1-weihnachtstag-mit-obs-live-18-25-12-2026
+URL:https://www.e-dry.de/events/coming-home-for-christmas-1-weihnachtstag-m
+ it-obs-live-18-25-12-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

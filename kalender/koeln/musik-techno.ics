@@ -1,0 +1,95 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Techno in Köln · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:k-live-music-hall-20261113-nto@myeventhub.de
+DTSTAMP:20261106T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T210000
+DTEND;TZID=Europe/Berlin:20261113T230000
+SUMMARY:NTO
+LOCATION:Live Music Hall\, Lichtstraße 30\, 50825 Köln
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.livemusichall.de/event-details/nto
+URL:https://www.livemusichall.de/event-details/nto
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-helios37-20261120-schranz-is-back-koeln-w-felix-kroecher@myeventhub.d
+ e
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T230000
+DTEND;TZID=Europe/Berlin:20261121T010000
+SUMMARY:Schranz is Back Köln w/ Felix Kröcher
+LOCATION:Helios37\, Heliosstraße 37\, 50825 Köln
+DESCRIPTION:Techno-Nacht im Helios37.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.helios37.de/event-detail
+ s/schranz-is-back-koln-w-felix-krocher
+URL:https://www.helios37.de/event-details/schranz-is-back-koln-w-felix-kroc
+ her
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-artheater-20261121-bergwacht-w-victor-ruiz@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:BergWacht w/ Victor Ruiz
+LOCATION:Artheater\, Ehrenfeldgürtel 127\, 50823 Köln
+DESCRIPTION:Techno-Nacht der Reihe BergWacht mit Victor Ruiz.\nQuelle (bitt
+ e vor dem Besuch prüfen): https://artheater.de/
+URL:https://artheater.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-helios37-20261218-krawall-weekender@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T230000
+DTEND;TZID=Europe/Berlin:20261219T010000
+SUMMARY:Krawall Weekender
+LOCATION:Helios37\, Heliosstraße 37\, 50825 Köln
+DESCRIPTION:Techno-Nacht im Helios37.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.helios37.de/event-detail
+ s/krawall-weekender
+URL:https://www.helios37.de/event-details/krawall-weekender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k-helios37-20261225-nurboese@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T230000
+DTEND;TZID=Europe/Berlin:20261226T010000
+SUMMARY:Nurböse
+LOCATION:Helios37\, Heliosstraße 37\, 50825 Köln
+DESCRIPTION:Techno-Nacht im Helios37.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.helios37.de/event-detail
+ s/nurbose-9
+URL:https://www.helios37.de/event-details/nurbose-9
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
