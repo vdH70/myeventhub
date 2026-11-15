@@ -690,15 +690,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hi-theaterhaus-20261121-1900-czapla-zimmermann-haut-haar-huelle@myevent
  hub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261115T000000Z
 DTSTART;TZID=Europe/Berlin:20261121T190000
 DTEND;TZID=Europe/Berlin:20261121T210000
-SUMMARY:Czapla/Zimmermann: Haut\, Haar\, Hülle.
+SUMMARY:ABGESAGT: Czapla/Zimmermann: Haut\, Haar\, Hülle.
 LOCATION:Theaterhaus Hildesheim\, Langer Garten 23c\, 31137 Hildesheim
-DESCRIPTION:Produktion der freien Szene im Theaterhaus Hildesheim.\nEnde: l
- aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
- /theaterhaus-hildesheim.de/spielplan-tickets/
+DESCRIPTION:Wegen Krankheit verschoben\, Ersatztermin laut Theaterhaus: Fr 
+ 15.01.2027\, 19 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://theaterhaus-hildesheim.de/spielplan-tickets/
 URL:https://theaterhaus-hildesheim.de/spielplan-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Czapla/Zimmermann: Haut\, Haar\, Hülle. am 21.11.202
+ 6 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261116T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -864,15 +870,33 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hi-tfn-stadttheater-20261122-1900-wilhelm-tell-guillaume-tell@myeventhu
  b.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261115T000000Z
 DTSTART;TZID=Europe/Berlin:20261122T190000
 DTEND;TZID=Europe/Berlin:20261122T210000
-SUMMARY:Wilhelm Tell (Guillaume Tell)
+SUMMARY:ABGESAGT: Wilhelm Tell (Guillaume Tell)
 LOCATION:Theater für Niedersachsen (TfN) – Stadttheater Hildesheim\, The
  aterstraße 6\, 31141 Hildesheim
 DESCRIPTION:Vorstellung des Theaters für Niedersachsen im Großen Haus Hil
  desheim.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
  prüfen): https://tfn-online.de/spielplan
+URL:https://tfn-online.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Wilhelm Tell (Guillaume Tell) am 22.11.2026 (laut Ver
+ anstalter)
+TRIGGER;VALUE=DATE-TIME:20261116T170000Z
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-tfn-stadttheater-20261122-die-vier-jahreszeiten@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T210000
+SUMMARY:Die vier Jahreszeiten
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tfn-online.de/spielplan
 URL:https://tfn-online.de/spielplan
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1604,6 +1628,30 @@ URL:https://www.bischofsmuehle.de/navigation/programm.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hi-halle39-20261205-orchestra-nationala-lautarii@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Orchestra Nationala Lautarii
+LOCATION:Halle 39\, Schinkelstraße 7\, 31137 Hildesheim
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://halle39.de/event
+ s
+URL:https://halle39.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-kufa-20261205-borderz@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Borderz
+LOCATION:Buffo
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://kufa.info/progra
+ mm/
+URL:https://kufa.info/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hi-sparkassen-arena-20261205-suberg-s-ue30-party@myeventhub.de
 DTSTAMP:20261106T000000Z
 DTSTART;VALUE=DATE:20261205
@@ -2256,6 +2304,30 @@ URL:https://www.bischofsmuehle.de/navigation/programm.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hi-kufa-20261225-house-of-techno-vol-3@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261225T220000
+DTEND;TZID=Europe/Berlin:20261226T000000
+SUMMARY:House of Techno Vol. 3
+LOCATION:Kufa
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kufa.info/programm/
+URL:https://kufa.info/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-kufa-20261226-boyfriend@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261226T230000
+DTEND;TZID=Europe/Berlin:20261227T010000
+SUMMARY:BOYFRIEND
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kufa.info/programm/
+URL:https://kufa.info/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hm-sumpfblume-20261226-das-traditionelle-weihnachtskonzert-2026-out-of-
  or@myeventhub.de
 DTSTAMP:20261103T000000Z
@@ -2381,6 +2453,18 @@ URL:https://sumpfblume.de/aktuelles/veranstaltung/rapalje-celtic-folk-night
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hi-kufa-20270109-bowieboy@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T200000
+DTEND;TZID=Europe/Berlin:20270109T220000
+SUMMARY:Bowieboy
+LOCATION:Loretta
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kufa.info/programm/
+URL:https://kufa.info/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:burgdorf-stadtbuecherei-20270112-baby-buecher-treff-fuer-kinder-von-2-b
  is-3-jahren@myeventhub.de
 DTSTAMP:20261030T000000Z
@@ -2436,6 +2520,20 @@ DESCRIPTION:Produktion der freien Szene im Theaterhaus Hildesheim.\nEnde: l
  aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
  /theaterhaus-hildesheim.de/spielplan-tickets/
 URL:https://theaterhaus-hildesheim.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-theaterhaus-20270115-czapla-zimmermann-haut-haar-huelle@myeventhub.d
+ e
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T190000
+DTEND;TZID=Europe/Berlin:20270115T210000
+SUMMARY:Czapla/Zimmermann: Haut\, Haar\, Hülle.
+LOCATION:Theaterhaus Hildesheim\, Langer Garten 23c\, 31137 Hildesheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterhaus-hildesheim.de/veranstaltungen/monat/2027-01
+ /
+URL:https://theaterhaus-hildesheim.de/veranstaltungen/monat/2027-01/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2749,6 +2847,18 @@ URL:https://halle39.de/events/liste/seite/2/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hi-kufa-20270219-das-prinzip-mord@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:Das Prinzip Mord
+LOCATION:Halle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kufa.info/programm/
+URL:https://kufa.info/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hi-halle39-20270221-2000-the-music-of-queen@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20270221T200000
@@ -2957,6 +3067,18 @@ DTSTART;TZID=Europe/Berlin:20270423T190000
 DTEND;TZID=Europe/Berlin:20270423T210000
 SUMMARY:Comedy Flash
 LOCATION:Kulturfabrik Löseke (KUFA)\, Langer Garten 1\, 31137 Hildesheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://kufa.info/programm/
+URL:https://kufa.info/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-kufa-20270423-ghetto-justice@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270423T200000
+DTEND;TZID=Europe/Berlin:20270423T220000
+SUMMARY:Ghetto Justice
+LOCATION:Halle
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://kufa.info/programm/
 URL:https://kufa.info/programm/

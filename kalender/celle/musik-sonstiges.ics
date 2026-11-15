@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:cel-cd-kaserne-20261121-bora@myeventhub.de
 DTSTAMP:20261107T000000Z
@@ -20,6 +37,32 @@ LOCATION:CD-Kaserne\, Hannoversche Straße 30b\, 29221 Celle
 DESCRIPTION:Konzert in der CD-Kaserne Celle.\nQuelle (bitte vor dem Besuch 
  prüfen): https://cd-kaserne.de/veranstaltungen/
 URL:https://cd-kaserne.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20270110-njic-neujahrsmatinee-chettin-5@myeventhub.
+ de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T110000
+DTEND;TZID=Europe/Berlin:20270110T130000
+SUMMARY:NJIC Neujahrsmatinée: „Chettin' 5“
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce-kunst-und-buehne-20270116-juan-schmidt-martin-hauke-storytellers@mye
+ venthub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:Juan Schmidt & Martin Hauke „Storytellers“
+LOCATION:Kunst & Bühne\, Nordwall 46\, 29221 Celle
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.kunstundbuehne.de/event/
+URL:https://www.kunstundbuehne.de/event/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

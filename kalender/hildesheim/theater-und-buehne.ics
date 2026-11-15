@@ -163,15 +163,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hi-theaterhaus-20261121-1900-czapla-zimmermann-haut-haar-huelle@myevent
  hub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261115T000000Z
 DTSTART;TZID=Europe/Berlin:20261121T190000
 DTEND;TZID=Europe/Berlin:20261121T210000
-SUMMARY:Czapla/Zimmermann: Haut\, Haar\, Hülle.
+SUMMARY:ABGESAGT: Czapla/Zimmermann: Haut\, Haar\, Hülle.
 LOCATION:Theaterhaus Hildesheim\, Langer Garten 23c\, 31137 Hildesheim
-DESCRIPTION:Produktion der freien Szene im Theaterhaus Hildesheim.\nEnde: l
- aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
- /theaterhaus-hildesheim.de/spielplan-tickets/
+DESCRIPTION:Wegen Krankheit verschoben\, Ersatztermin laut Theaterhaus: Fr 
+ 15.01.2027\, 19 Uhr.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
+  dem Besuch prüfen): https://theaterhaus-hildesheim.de/spielplan-tickets/
 URL:https://theaterhaus-hildesheim.de/spielplan-tickets/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Czapla/Zimmermann: Haut\, Haar\, Hülle. am 21.11.202
+ 6 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261116T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -204,15 +210,33 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hi-tfn-stadttheater-20261122-1900-wilhelm-tell-guillaume-tell@myeventhu
  b.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261115T000000Z
 DTSTART;TZID=Europe/Berlin:20261122T190000
 DTEND;TZID=Europe/Berlin:20261122T210000
-SUMMARY:Wilhelm Tell (Guillaume Tell)
+SUMMARY:ABGESAGT: Wilhelm Tell (Guillaume Tell)
 LOCATION:Theater für Niedersachsen (TfN) – Stadttheater Hildesheim\, The
  aterstraße 6\, 31141 Hildesheim
 DESCRIPTION:Vorstellung des Theaters für Niedersachsen im Großen Haus Hil
  desheim.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
  prüfen): https://tfn-online.de/spielplan
+URL:https://tfn-online.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Wilhelm Tell (Guillaume Tell) am 22.11.2026 (laut Ver
+ anstalter)
+TRIGGER;VALUE=DATE-TIME:20261116T170000Z
+END:VALARM
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-tfn-stadttheater-20261122-die-vier-jahreszeiten@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T210000
+SUMMARY:Die vier Jahreszeiten
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://tfn-online.de/spielplan
 URL:https://tfn-online.de/spielplan
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -619,6 +643,20 @@ DESCRIPTION:Produktion der freien Szene im Theaterhaus Hildesheim.\nEnde: l
  aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
  /theaterhaus-hildesheim.de/spielplan-tickets/
 URL:https://theaterhaus-hildesheim.de/spielplan-tickets/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hi-theaterhaus-20270115-czapla-zimmermann-haut-haar-huelle@myeventhub.d
+ e
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T190000
+DTEND;TZID=Europe/Berlin:20270115T210000
+SUMMARY:Czapla/Zimmermann: Haut\, Haar\, Hülle.
+LOCATION:Theaterhaus Hildesheim\, Langer Garten 23c\, 31137 Hildesheim
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://theaterhaus-hildesheim.de/veranstaltungen/monat/2027-01
+ /
+URL:https://theaterhaus-hildesheim.de/veranstaltungen/monat/2027-01/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:n-kulturwerkstatt-auf-aeg-20261106-10-jahre-10-tage-kulturwerkstatt-auf
  -aeg-beginn@myeventhub.de
@@ -38,6 +55,34 @@ DESCRIPTION:Laufzeit: 6.11.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuc
  0_jahre_10_tage.html
 URL:https://www.nuernberg.de/internet/kuf_kultur/kulturwerkstatt_10_jahre_1
  0_tage.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-z-bau-20261205-incantation-rites-w-ahab-thronehammer-sulphur-aeon@mye
+ venthub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T170000
+DTEND;TZID=Europe/Berlin:20261205T190000
+SUMMARY:Incantation Rites w/ Ahab + Thronehammer + Sulphur Aeon + Morast + 
+ Hæresis + Meth'n'Weapons
+LOCATION:Z-Bau – Haus für Gegenwartskultur\, Frankenstraße 200\, 90461 
+ Nürnberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://z-bau.com/
+URL:https://z-bau.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n-z-bau-20261227-monsters-of-psych-festival@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T173000
+DTEND;TZID=Europe/Berlin:20261227T193000
+SUMMARY:Monsters Of Psych Festival
+LOCATION:Z-Bau – Haus für Gegenwartskultur\, Frankenstraße 200\, 90461 
+ Nürnberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://z-bau.com/
+URL:https://z-bau.com/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
