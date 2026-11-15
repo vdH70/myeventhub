@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Punk/Metal in Flensburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fl-roxy-concerts-20261127-sons-of-odin-the-ultimate-manowar-tribute-ban
+ d@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T210000
+DTEND;TZID=Europe/Berlin:20261127T230000
+SUMMARY:Sons of Odin – The Ultimate Manowar Tribute Band
+LOCATION:Roxy Concerts\, Mergenthalerstraße 6\, 24941 Flensburg
+DESCRIPTION:Manowar-Tribute. Einlass 20 Uhr.\nEnde: laut Quelle nicht angeg
+ eben\nPreis: VVK 19 €\, AK 25 €\nQuelle (bitte vor dem Besuch prüfen)
+ : https://www.roxy-concerts.de/concerts/172
+URL:https://www.roxy-concerts.de/concerts/172
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-roxy-concerts-20261205-die-legende-von-nord@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Die Legende von Nord
+LOCATION:Roxy Concerts\, Mergenthalerstraße 6\, 24941 Flensburg
+DESCRIPTION:Deutschsprachiger Metal. Einlass 19 Uhr.\nEnde: laut Quelle nic
+ ht angegeben\nPreis: VVK 24\,99 €\, AK 30 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.roxy-concerts.de/concerts/179
+URL:https://www.roxy-concerts.de/concerts/179
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fl-roxy-concerts-20270206-nu-metal-roach-resort-freaks-off-the-leash@my
+ eventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T210000
+DTEND;TZID=Europe/Berlin:20270206T230000
+SUMMARY:Nu Metal: Roach Resort & Freaks Off The Leash
+LOCATION:Roxy Concerts\, Mergenthalerstraße 6\, 24941 Flensburg
+DESCRIPTION:Nu-Metal-Abend mit zwei Tribute-Bands. Einlass 20 Uhr.\nEnde: l
+ aut Quelle nicht angegeben\nPreis: VVK 22 €\, AK 29 €\nQuelle (bitte v
+ or dem Besuch prüfen): https://www.roxy-concerts.de/concerts/205
+URL:https://www.roxy-concerts.de/concerts/205
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
