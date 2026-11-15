@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:da-kunstforum-tu-darmstadt-20261101-threads-of-life-corina-gertz-hannah
  -maria-schmutte-beginn@myeventhub.de
@@ -35,6 +52,30 @@ LOCATION:Kunstforum der TU Darmstadt\, Hochschulstraße 1\, 64289 Darmstadt
 DESCRIPTION:Laufzeit: 1.11.2026 bis 28.2.2027\nPreis: Eintritt frei\nQuelle
   (bitte vor dem Besuch prüfen): https://www.tu-darmstadt.de/kunstforum/
 URL:https://www.tu-darmstadt.de/kunstforum/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-hoffart-20261227-salonikrom-kunst-mode-musik@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T160000
+DTEND;TZID=Europe/Berlin:20261227T180000
+SUMMARY:Salonikrom – Kunst\, Mode & Musik
+LOCATION:HoffART Theater\, Lauteschlägerstraße 28a\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hoffart-theater.de/veranstaltungen/
+URL:https://www.hoffart-theater.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da-hoffart-20261228-salonikrom-kunst-mode-musik@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T160000
+DTEND;TZID=Europe/Berlin:20261228T180000
+SUMMARY:Salonikrom – Kunst\, Mode & Musik
+LOCATION:HoffART Theater\, Lauteschlägerstraße 28a\, Darmstadt
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.hoffart-theater.de/veranstaltungen/
+URL:https://www.hoffart-theater.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
