@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shoppingcenter in München · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:m-pep-neuperlach-20261126-weihnachtszauber-im-pep-beginn@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Beginn: Weihnachtszauber im pep!
+LOCATION:PEP Einkaufs-Center Neuperlach\, Thomas-Dehler-Straße 10\, 81737 
+ München
+DESCRIPTION:Laufzeit: 26.11.2026 bis 23.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.pep-muenchen.de/events/
+URL:https://www.pep-muenchen.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-pep-neuperlach-20261126-weihnachtszauber-im-pep-ende@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Weihnachtszauber im pep!
+LOCATION:PEP Einkaufs-Center Neuperlach\, Thomas-Dehler-Straße 10\, 81737 
+ München
+DESCRIPTION:Laufzeit: 26.11.2026 bis 23.12.2026\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.pep-muenchen.de/events/
+URL:https://www.pep-muenchen.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
