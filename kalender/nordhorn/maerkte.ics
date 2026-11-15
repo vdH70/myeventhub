@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:noh-alte-weberei-20270220-handgemachte-maerkte-beginn@myeventhub.de
 DTSTAMP:20261107T000000Z
@@ -30,6 +47,30 @@ DTEND;VALUE=DATE:20270222
 SUMMARY:Letzter Tag: Handgemachte Märkte
 LOCATION:Kulturzentrum Alte Weberei Nordhorn\, Nordhorn
 DESCRIPTION:Laufzeit: 20.2.2027 bis 21.2.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://alteweberei.de/programm/
+URL:https://alteweberei.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:noh-alte-weberei-20270221-handgemachte-maerkte@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T100000
+DTEND;TZID=Europe/Berlin:20270221T120000
+SUMMARY:Handgemachte Märkte
+LOCATION:Kulturzentrum Alte Weberei Nordhorn\, Nordhorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://alteweberei.de/programm/
+URL:https://alteweberei.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:noh-alte-weberei-20270409-kleidertauschparty-11@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T170000
+DTEND;TZID=Europe/Berlin:20270409T190000
+SUMMARY:Kleidertauschparty #11
+LOCATION:Kulturzentrum Alte Weberei Nordhorn\, Nordhorn
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://alteweberei.de/programm/
 URL:https://alteweberei.de/programm/
 TRANSP:TRANSPARENT
