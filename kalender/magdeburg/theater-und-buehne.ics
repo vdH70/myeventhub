@@ -265,16 +265,22 @@ END:VEVENT
 BEGIN:VEVENT
 UID:md-gruene-zitadelle-20261118-2000-luisa-charlotte-schulz-stabil-instabi
  l@myeventhub.de
-DTSTAMP:20261114T000000Z
+DTSTAMP:20261115T000000Z
 DTSTART;TZID=Europe/Berlin:20261118T200000
 DTEND;TZID=Europe/Berlin:20261118T220000
-SUMMARY:Luisa Charlotte Schulz: Stabil Instabil
+SUMMARY:ABGESAGT: Luisa Charlotte Schulz: Stabil Instabil
 LOCATION:Theater in der Grünen Zitadelle\, Breiter Weg 16\, 39104 Magdebur
  g
 DESCRIPTION:Comedy- und Kabarettabend im Theater in der Grünen Zitadelle.\
  nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
   https://www.theater-zitadelle.com/spielplan-und-karten/
 URL:https://www.theater-zitadelle.com/spielplan-und-karten/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Luisa Charlotte Schulz: Stabil Instabil am 18.11.2026
+  (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261116T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
