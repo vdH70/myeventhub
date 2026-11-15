@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:lin-alter-schlachthof-20270128-radioactive-slam-2027@myeventhub.de
 DTSTAMP:20261103T000000Z
@@ -21,6 +38,70 @@ LOCATION:Alter Schlachthof Lingen\, Konrad-Adenauer-Ring 40\, 49808 Lingen
 DESCRIPTION:Poetry Slam im Alten Schlachthof Lingen.\nQuelle (bitte vor dem
   Besuch prüfen): https://www.alterschlachthof.de/kultur_1/konzerte_und_ve
  ranstaltungen/radioactive_slam_2027.html
+URL:https://www.alterschlachthof.de/kultur_1/konzerte_und_veranstaltungen/r
+ adioactive_slam_2027.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lin-alter-schlachthof-20270325-radioactive-slam-2027@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270325T193000
+DTEND;TZID=Europe/Berlin:20270325T213000
+SUMMARY:Radioactive Slam 2027
+LOCATION:Alter Schlachthof Lingen\, Konrad-Adenauer-Ring 40\, 49808 Lingen 
+ (Ems)
+DESCRIPTION:Poetry Slam\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.alte
+ rschlachthof.de/kultur_1/konzerte_und_veranstaltungen/radioactive_slam_202
+ 7.html
+URL:https://www.alterschlachthof.de/kultur_1/konzerte_und_veranstaltungen/r
+ adioactive_slam_2027.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lin-alter-schlachthof-20270527-radioactive-slam-2027@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270527T193000
+DTEND;TZID=Europe/Berlin:20270527T213000
+SUMMARY:Radioactive Slam 2027
+LOCATION:Alter Schlachthof Lingen\, Konrad-Adenauer-Ring 40\, 49808 Lingen 
+ (Ems)
+DESCRIPTION:Poetry Slam\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.alte
+ rschlachthof.de/kultur_1/konzerte_und_veranstaltungen/radioactive_slam_202
+ 7.html
+URL:https://www.alterschlachthof.de/kultur_1/konzerte_und_veranstaltungen/r
+ adioactive_slam_2027.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lin-alter-schlachthof-20270930-radioactive-slam-2027@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270930T193000
+DTEND;TZID=Europe/Berlin:20270930T213000
+SUMMARY:Radioactive Slam 2027
+LOCATION:Alter Schlachthof Lingen\, Konrad-Adenauer-Ring 40\, 49808 Lingen 
+ (Ems)
+DESCRIPTION:Poetry Slam\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.alte
+ rschlachthof.de/kultur_1/konzerte_und_veranstaltungen/radioactive_slam_202
+ 7.html
+URL:https://www.alterschlachthof.de/kultur_1/konzerte_und_veranstaltungen/r
+ adioactive_slam_2027.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lin-alter-schlachthof-20271125-radioactive-slam-2027@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20271125T193000
+DTEND;TZID=Europe/Berlin:20271125T213000
+SUMMARY:Radioactive Slam 2027
+LOCATION:Alter Schlachthof Lingen\, Konrad-Adenauer-Ring 40\, 49808 Lingen 
+ (Ems)
+DESCRIPTION:Poetry Slam\nEinlass 19:00\, Beginn 19:30 Uhr\nEnde: laut Quell
+ e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.alte
+ rschlachthof.de/kultur_1/konzerte_und_veranstaltungen/radioactive_slam_202
+ 7.html
 URL:https://www.alterschlachthof.de/kultur_1/konzerte_und_veranstaltungen/r
  adioactive_slam_2027.html
 TRANSP:TRANSPARENT
