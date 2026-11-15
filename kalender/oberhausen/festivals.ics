@@ -10,6 +10,35 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ob-druckluft-20270522-charity-unleashed-festival-2027@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270522T143000
+DTEND;TZID=Europe/Berlin:20270522T163000
+SUMMARY:Charity Unleashed Festival 2027
+LOCATION:Druckluft\, Am Förderturm 27\, 46049 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://drucklufthaus.de/veranstaltungen/
+URL:https://drucklufthaus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:ob-olgapark-20270703-ruhr-in-love@myeventhub.de
 DTSTAMP:20261101T000000Z
@@ -21,6 +50,18 @@ DESCRIPTION:Open-Air-Festival für elektronische Musik im OLGA-Park. Verans
  talter I-Motion.\nQuelle (bitte vor dem Besuch prüfen): https://www.i-mot
  ion.ag/de/projekte/events/ruhr-in-love/
 URL:https://www.i-motion.ag/de/projekte/events/ruhr-in-love/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ob-druckluft-20270828-neue-probleme-open-air-2027@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270828T173000
+DTEND;TZID=Europe/Berlin:20270828T193000
+SUMMARY:Neue Probleme Open Air 2027
+LOCATION:Druckluft\, Am Förderturm 27\, 46049 Oberhausen
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://drucklufthaus.de/veranstaltungen/
+URL:https://drucklufthaus.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

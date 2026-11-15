@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:bs-naturhistorisches-museum-20260626-larven-die-kindische-seite-der-bio
  logie-ende@myeventhub.de
@@ -63,6 +80,18 @@ LOCATION:Kunstverein Braunschweig (Villa Salve Hospes)\, Lessingplatz 12\,
 DESCRIPTION:Laufzeit: 5.12.2026 bis 21.2.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.kunstvereinbraunschweig.de/
 URL:https://www.kunstvereinbraunschweig.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bs-brunsviga-20270205-finissage-wegweisend-jens-koehn@myeventhub.de
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T160000
+DTEND;TZID=Europe/Berlin:20270205T180000
+SUMMARY:Finissage „Wegweisend“ | Jens Köhn
+LOCATION:Kulturzentrum Brunsviga\, Karlstraße 35\, 38106 Braunschweig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.brunsviga-kulturzentrum.de/programm/
+URL:https://www.brunsviga-kulturzentrum.de/programm/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
