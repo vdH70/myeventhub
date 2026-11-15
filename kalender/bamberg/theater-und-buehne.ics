@@ -44,15 +44,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ba-haas-saele-20261210-1930-r-zieher-yves-macak-best-of-r-zieher@myeven
  thub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261115T000000Z
 DTSTART;TZID=Europe/Berlin:20261210T193000
 DTEND;TZID=Europe/Berlin:20261210T213000
-SUMMARY:R-zieher (Yves Macak) – Best of R-zieher
+SUMMARY:ABGESAGT: R-zieher (Yves Macak) – Best of R-zieher
 LOCATION:Haas-Säle\, Bamberg
-DESCRIPTION:Comedy- und Kabarettabend in den Haas-Sälen Bamberg.\nEinlass 
- 18:30\, Beginn 19:30 Uhr\nEnde: laut Quelle nicht angegeben\nQuelle (bitte
-  vor dem Besuch prüfen): https://www.live-club.de/events
+DESCRIPTION:Laut live-club.de abgesagt.\nEinlass 18:30\, Beginn 19:30 Uhr\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.live-club.de/events
 URL:https://www.live-club.de/events
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: R-zieher (Yves Macak) – Best of R-zieher am 10.12.2
+ 026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261116T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

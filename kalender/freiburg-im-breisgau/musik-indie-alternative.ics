@@ -108,15 +108,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fr-swamp-20270128-ta-ga-da@myeventhub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261115T000000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
-SUMMARY:Ta Ga Da
+SUMMARY:ABGESAGT: Ta Ga Da
 LOCATION:Swamp\, Talstraße 90\, 79102 Freiburg im Breisgau
-DESCRIPTION:Konzert in der Freiburger Kneipe Swamp.\nPreis: 15 €\nQuelle 
- (bitte vor dem Besuch prüfen): https://www.sumpfkultur.org/veranstaltunge
- n/
+DESCRIPTION:Laut sumpfkultur.org abgesagt.\nPreis: 15 €\nQuelle (bitte vo
+ r dem Besuch prüfen): https://www.sumpfkultur.org/veranstaltungen/
 URL:https://www.sumpfkultur.org/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Ta Ga Da am 28.1.2027 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261116T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
