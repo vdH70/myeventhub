@@ -37,11 +37,12 @@ td.bar{width:38%}td.bar i{display:block;height:10px;border-radius:5px;background
 <div><h2>Woher die Besucher kommen</h2><div class="card"><table id="herkunft"></table></div>
 </div></div>
 <h2>Angeklickte Links und Reiter</h2><div class="card"><table id="klicks"></table></div>
+<h2>Suchbegriffe auf myeventhub.de</h2><div class="card"><table id="eigen"></table><p class="note" style="margin-top:8px">Was Besucher in die Suchfelder dieser Seite eingeben. Aus Datenschutzgründen nur Begriffe, die mindestens zweimal gesucht wurden; ohne Telefonnummern, E-Mail-Adressen und Links; nach 90 Tagen gelöscht.</p></div>
 <h2>Google-Suchbegriffe</h2><div class="card"><table id="gsc"></table><p class="note" id="gscnote" style="margin-top:8px"></p></div>
 <div id="gscs" hidden><h2>Suchbegriff → Seite (Google)</h2><div class="card"><table id="gscseite"></table></div></div>
 <div id="mon" hidden><h2>Besucher je Monat</h2><div class="card"><table id="monate"></table></div></div>
 <p class="note" id="stand"></p></div>
-<p class="note">Gezählt wird ohne Cookies, ohne Speicher im Browser und ohne IP-Adresse; gespeichert werden nur Zeitpunkt, aufgerufene Seite bei neuen Besuchen der Name der Herkunfts-Website sowie Klicks auf Reiter und Links (nur das Ziel). Ein „Besucher“ ist ein Aufruf, der von außen kam (Google, ein Link, direkt eingegeben); Klicks innerhalb der Seite, Neuladen und die Zurück-Taste zählen nur als Seitenaufruf. Wer an einem Tag zweimal von außen kommt, zählt zweimal. Suchmaschinen-Roboter werden nicht mitgezählt; wer Skriptblocker nutzt, wird ggf. nicht erfasst – die echten Zahlen liegen also eher etwas höher.</p>
+<p class="note">Gezählt wird ohne Cookies, ohne Speicher im Browser und ohne IP-Adresse; gespeichert werden nur Zeitpunkt, aufgerufene Seite bei neuen Besuchen der Name der Herkunfts-Website Klicks auf Reiter und Links (nur das Ziel) sowie Suchbegriffe der eigenen Suchfelder. Ein „Besucher“ ist ein Aufruf, der von außen kam (Google, ein Link, direkt eingegeben); Klicks innerhalb der Seite, Neuladen und die Zurück-Taste zählen nur als Seitenaufruf. Wer an einem Tag zweimal von außen kommt, zählt zweimal. Suchmaschinen-Roboter werden nicht mitgezählt; wer Skriptblocker nutzt, wird ggf. nicht erfasst – die echten Zahlen liegen also eher etwas höher.</p>
 </main><script>
 var W='https://myeventhub-statistik.patient-disk-2848.workers.dev';
 var $=function(i){return document.getElementById(i)},fmt=function(n){return Number(n).toLocaleString('de-DE')};
@@ -60,6 +61,7 @@ function show(j){$('out').hidden=false;$('t1').textContent=fmt(j.besuche);$('t2'
  $('mon').hidden=ks.length<2;$('monate').innerHTML='<tr><td><b>Monat</b></td><td style="text-align:right"><b>Besucher</b></td><td><b>Seitenaufrufe</b></td></tr>'+ks.map(function(k){return '<tr><td>'+MON[+k.slice(5,7)-1]+' '+k.slice(0,4)+'</td><td style="text-align:right">'+fmt(mo[k][0])+'</td><td>'+fmt(mo[k][1])+'</td></tr>'}).join('');
  tab('seiten',j.seiten,function(p){return '<a href="'+esc(p)+'" target="_blank" rel="noopener">'+esc(p==='/'?'Startseite':p)+'</a>'});tab('herkunft',j.herkunft);
  tab('klicks',j.klicks,function(z){return /^[a-z0-9.-]+\.[a-z]{2,}\//i.test(z)?'<a href="https://'+esc(z)+'" target="_blank" rel="noopener">'+esc(z)+'</a>':esc(z)});
+ var e=j.suchbegriffe||[];$('eigen').innerHTML=e.length?'<tr><td><b>Suchbegriff</b></td><td><b>Feld</b></td><td><b>Anzahl</b></td></tr>'+e.map(function(r){return '<tr><td>'+esc(r[1])+'</td><td>'+esc(r[0])+'</td><td>'+fmt(r[2])+'</td></tr>'}).join(''):'<tr><td>noch keine Daten (wird seit 16.11.2026 erfasst)</td></tr>';
  var g=j.google;$('gscs').hidden=true;
  if(!g){$('gsc').innerHTML='';$('gscnote').textContent='Noch nicht mit der Google Search Console verbunden (siehe Anleitung, Schritt „Suchbegriffe“). Google schickt Suchbegriffe nicht an die Website selbst, sie kommen nur aus der Search Console.'}
  else if(g.fehler){$('gsc').innerHTML='';$('gscnote').textContent=g.fehler}

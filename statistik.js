@@ -30,6 +30,18 @@
     if (/(^|\.)outlook\.(live|office)\.com$/.test(host)) return 'Outlook-Kalender';
     return (host + u.pathname).slice(0, 160);
   }
+  // Suchbegriffe der eigenen Suche (Thomas 16.11.2026 „Ja, mit Schutzregeln“): ohne Zahlenfolgen ab 4 Ziffern, E-Mail, Links; je Seitenaufruf jeder Begriff nur einmal
+  var FELD = { kisq: 'Suche mit KI', ortin: 'Ort', q: 'Suche', ftwas: 'Was', ftwo: 'Wo', ftwann: 'Wann', locc: 'Locations', kisgeoin: 'Nähe-Ort', kiq: 'KI' }, schon = {};
+  function such(inp) {
+    if (!inp || !FELD[inp.id]) return;
+    var t = String(inp.value || '').toLowerCase().replace(/\s+/g, ' ').trim();
+    if (t.length < 2 || t.length > 60 || /@|https?:|www\.|\d{4,}|\d[\d\s\/-]{6,}/.test(t) || schon[inp.id + t]) return;
+    schon[inp.id + t] = 1;
+    var d = JSON.stringify({ s: t, f: FELD[inp.id] });
+    if (navigator.sendBeacon) navigator.sendBeacon(W + '/h', d);
+  }
+  document.addEventListener('submit', function (ev) { try { var f = ev.target; for (var k in FELD) { var i = f.querySelector && f.querySelector('#' + k); if (i) such(i); } } catch (x) {} }, true);
+  document.addEventListener('change', function (ev) { try { such(ev.target); } catch (x) {} }, true);
   document.addEventListener('click', function (ev) {
     try {
       var z = ziel(ev.target); if (!z) return;
