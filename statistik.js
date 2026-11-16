@@ -12,4 +12,30 @@
     if (navigator.sendBeacon) navigator.sendBeacon(W + '/h', d);
     else fetch(W + '/h', { method: 'POST', body: d, keepalive: true, mode: 'no-cors' });
   } catch (e) {}
+  // Klicks (Thomas 16.11.2026): Reiter und Links, nur Sammelname bzw. Website + Pfad ohne ?…, keine Personendaten
+  function ziel(el) {
+    var t = el.closest && el.closest('[data-tab],a[href]'); if (!t) return '';
+    if (t.hasAttribute('data-tab')) return 'Reiter: ' + t.getAttribute('data-tab');
+    var h = t.getAttribute('href') || '', u;
+    if (/^webcal:|\.ics(\?|$)/i.test(h)) return 'Kalender-Datei (iPhone/Outlook)';
+    if (/^mailto:/i.test(h)) return 'E-Mail-Link';
+    if (/^tel:/i.test(h)) return 'Telefon-Link';
+    try { u = new URL(h, location.href); } catch (x) { return ''; }
+    if (!/^https?:$/.test(u.protocol)) return '';
+    var host = u.hostname.replace(/^www\./, '');
+    if (/(^|\.)myeventhub\.de$/i.test(host)) return ''; // eigene Seiten zählen als Seitenaufruf
+    if (/google\.[a-z.]+$/.test(host) && /^\/maps/.test(u.pathname)) return 'Google Maps';
+    if (/^calendar\.google\./.test(host) || (/google\.[a-z.]+$/.test(host) && /^\/calendar/.test(u.pathname))) return 'Google Kalender';
+    if (/(^|\.)(wa\.me|whatsapp\.com)$/.test(host)) return 'WhatsApp';
+    if (/(^|\.)outlook\.(live|office)\.com$/.test(host)) return 'Outlook-Kalender';
+    return (host + u.pathname).slice(0, 160);
+  }
+  document.addEventListener('click', function (ev) {
+    try {
+      var z = ziel(ev.target); if (!z) return;
+      var d = JSON.stringify({ k: z, p: location.pathname });
+      if (navigator.sendBeacon) navigator.sendBeacon(W + '/h', d);
+      else fetch(W + '/h', { method: 'POST', body: d, keepalive: true, mode: 'no-cors' });
+    } catch (x) {}
+  }, true);
 })();

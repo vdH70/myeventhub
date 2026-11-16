@@ -35,10 +35,13 @@ td.bar{width:38%}td.bar i{display:block;height:10px;border-radius:5px;background
 <div class="legend"><s style="background:var(--acc);margin-left:0"></s>Besucher<s style="background:#C9D1DE"></s>weitere Seitenaufrufe</div></div>
 <div class="grid2"><div><h2>Besuchte Seiten</h2><div class="card"><table id="seiten"></table></div></div>
 <div><h2>Woher die Besucher kommen</h2><div class="card"><table id="herkunft"></table></div>
-<p class="note" style="margin-top:10px">Suchbegriffe schickt Google nicht mit. Die findest du in der Google Search Console unter „Leistung“ → „Suchanfragen“.</p></div></div>
+</div></div>
+<h2>Angeklickte Links und Reiter</h2><div class="card"><table id="klicks"></table></div>
+<h2>Google-Suchbegriffe</h2><div class="card"><table id="gsc"></table><p class="note" id="gscnote" style="margin-top:8px"></p></div>
+<div id="gscs" hidden><h2>Suchbegriff → Seite (Google)</h2><div class="card"><table id="gscseite"></table></div></div>
 <div id="mon" hidden><h2>Besucher je Monat</h2><div class="card"><table id="monate"></table></div></div>
 <p class="note" id="stand"></p></div>
-<p class="note">Gezählt wird ohne Cookies, ohne Speicher im Browser und ohne IP-Adresse; gespeichert werden nur Zeitpunkt, aufgerufene Seite und bei neuen Besuchen der Name der Herkunfts-Website. Ein „Besucher“ ist ein Aufruf, der von außen kam (Google, ein Link, direkt eingegeben); Klicks innerhalb der Seite, Neuladen und die Zurück-Taste zählen nur als Seitenaufruf. Wer an einem Tag zweimal von außen kommt, zählt zweimal. Suchmaschinen-Roboter werden nicht mitgezählt; wer Skriptblocker nutzt, wird ggf. nicht erfasst – die echten Zahlen liegen also eher etwas höher.</p>
+<p class="note">Gezählt wird ohne Cookies, ohne Speicher im Browser und ohne IP-Adresse; gespeichert werden nur Zeitpunkt, aufgerufene Seite bei neuen Besuchen der Name der Herkunfts-Website sowie Klicks auf Reiter und Links (nur das Ziel). Ein „Besucher“ ist ein Aufruf, der von außen kam (Google, ein Link, direkt eingegeben); Klicks innerhalb der Seite, Neuladen und die Zurück-Taste zählen nur als Seitenaufruf. Wer an einem Tag zweimal von außen kommt, zählt zweimal. Suchmaschinen-Roboter werden nicht mitgezählt; wer Skriptblocker nutzt, wird ggf. nicht erfasst – die echten Zahlen liegen also eher etwas höher.</p>
 </main><script>
 var W='https://myeventhub-statistik.patient-disk-2848.workers.dev';
 var $=function(i){return document.getElementById(i)},fmt=function(n){return Number(n).toLocaleString('de-DE')};
@@ -56,6 +59,13 @@ function show(j){$('out').hidden=false;$('t1').textContent=fmt(j.besuche);$('t2'
  var mo={};T.forEach(function(d){var k=d[0].slice(0,7);mo[k]=mo[k]||[0,0];mo[k][0]+=d[1][1];mo[k][1]+=d[1][0]});var ks=Object.keys(mo).sort().reverse();
  $('mon').hidden=ks.length<2;$('monate').innerHTML='<tr><td><b>Monat</b></td><td style="text-align:right"><b>Besucher</b></td><td><b>Seitenaufrufe</b></td></tr>'+ks.map(function(k){return '<tr><td>'+MON[+k.slice(5,7)-1]+' '+k.slice(0,4)+'</td><td style="text-align:right">'+fmt(mo[k][0])+'</td><td>'+fmt(mo[k][1])+'</td></tr>'}).join('');
  tab('seiten',j.seiten,function(p){return '<a href="'+esc(p)+'" target="_blank" rel="noopener">'+esc(p==='/'?'Startseite':p)+'</a>'});tab('herkunft',j.herkunft);
+ tab('klicks',j.klicks,function(z){return /^[a-z0-9.-]+\.[a-z]{2,}\//i.test(z)?'<a href="https://'+esc(z)+'" target="_blank" rel="noopener">'+esc(z)+'</a>':esc(z)});
+ var g=j.google;$('gscs').hidden=true;
+ if(!g){$('gsc').innerHTML='';$('gscnote').textContent='Noch nicht mit der Google Search Console verbunden (siehe Anleitung, Schritt „Suchbegriffe“). Google schickt Suchbegriffe nicht an die Website selbst, sie kommen nur aus der Search Console.'}
+ else if(g.fehler){$('gsc').innerHTML='';$('gscnote').textContent=g.fehler}
+ else{$('gsc').innerHTML='<tr><td><b>Suchbegriff</b></td><td style="text-align:right"><b>Klicks</b></td><td style="text-align:right"><b>Einblendungen</b></td><td><b>Position</b></td></tr>'+(g.begriffe.length?g.begriffe.map(function(r){return '<tr><td>'+esc(r[0])+'</td><td style="text-align:right">'+fmt(r[1])+'</td><td style="text-align:right">'+fmt(r[2])+'</td><td>'+r[3].toLocaleString('de-DE')+'</td></tr>'}).join(''):'<tr><td>keine Daten im Zeitraum</td></tr>');
+  $('gscnote').textContent='Quelle: Google Search Console (Google-Summen, ca. 2–3 Tage Verzögerung; seltene Suchbegriffe blendet Google aus). Einblendungen = wie oft die Seite in den Google-Treffern stand.';
+  var bs=g.begriffSeite.filter(function(r){return r[2]>0});$('gscs').hidden=!bs.length;$('gscseite').innerHTML='<tr><td><b>Suchbegriff</b></td><td><b>Seite</b></td><td><b>Klicks</b></td></tr>'+bs.map(function(r){return '<tr><td>'+esc(r[0])+'</td><td><a href="'+esc(r[1])+'" target="_blank" rel="noopener">'+esc(r[1]==='/'?'Startseite':r[1])+'</a></td><td>'+fmt(r[2])+'</td></tr>'}).join('')}
  $('stand').textContent='Stand: '+new Date(j.stand).toLocaleString('de-DE')+' Uhr';}
 $('f').addEventListener('submit',function(e){e.preventDefault();$('msg').textContent='Lade …';
  fetch(W+'/api',{method:'POST',headers:{'authorization':'Bearer '+$('pw').value,'content-type':'text/plain'},body:JSON.stringify({tage:+$('tage').value})})

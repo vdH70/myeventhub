@@ -2,6 +2,7 @@
 // Zählt Seitenaufrufe von www.myeventhub.de OHNE Cookies, OHNE Speicher im Browser, OHNE IP-Adresse, OHNE Kennung.
 // Gespeichert wird je Aufruf NUR: Zeitpunkt, ob es ein neuer Besuch war (von außen gekommen), die aufgerufene Seite (ohne ?…)
 // und bei neuen Besuchen der Name der Website, von der man kam (z. B. „Google“) – Thomas 14.11.2026. Keine Suchbegriffe, kein Gerät, kein Land.
+// 16.11.2026: Klicks auf Reiter und Links (Ziel als Sammelname bzw. Website+Pfad ohne ?…) werden gezählt – ebenfalls ohne Bezug zu Personen.
 // Einrichtung: D1-Datenbank als Bindung „DB“, Geheimnis „STAT_KENNWORT“ (siehe ANLEITUNG-Statistik.md).
 //   POST /h    Zählaufruf der Website (Text-JSON {e: 1 = neuer Besuch, 0 = weitere Seite, p: Seite, r: Herkunfts-Hostname})
 //   POST /api  Auswertung für www.myeventhub.de/statistik/ (Kopfzeile Authorization: Bearer <Kennwort>)
@@ -26,6 +27,7 @@ async function setup(env) {
   await env.DB.batch([
     env.DB.prepare('CREATE TABLE IF NOT EXISTS zaehler (id INTEGER PRIMARY KEY, besuch INTEGER)'),
     env.DB.prepare('CREATE TABLE IF NOT EXISTS fails (id INTEGER PRIMARY KEY)'),
+    env.DB.prepare('CREATE TABLE IF NOT EXISTS klicks (id INTEGER PRIMARY KEY, seite TEXT, ziel TEXT)'),
   ]);
   for (const c of ['seite TEXT', 'herkunft TEXT']) { // 14.11.2026: Spalten nachrüsten (ältere Zeilen bleiben leer)
     try { await env.DB.prepare('ALTER TABLE zaehler ADD COLUMN ' + c).run(); } catch (e) {}
@@ -47,6 +49,7 @@ const stamp = () => Date.now() * 1000 + Math.floor(Math.random() * 1000);
 async function hit(ua, body, env) {
   if (!ua || BOT.test(ua)) return;
   let d; try { d = JSON.parse(body.slice(0, 600)); } catch { return; }
+  if (d.k) return klick(d, env);
   let seite = String(d.p || '/').split(/[?#]/)[0].slice(0, 200);
   try { seite = decodeURI(seite); } catch (e) {}
   if (!seite.startsWith('/')) seite = '/';
@@ -55,6 +58,55 @@ async function hit(ua, body, env) {
   await setup(env);
   await env.DB.prepare('INSERT OR IGNORE INTO zaehler (id, besuch, seite, herkunft) VALUES (?, ?, ?, ?)')
     .bind(stamp(), besuch, seite, besuch ? refName(d.r) : null).run();
+}
+
+async function klick(d, env) {
+  const ziel = String(d.k).replace(/[\u0000-\u001f<>]/g, '').slice(0, 160);
+  let seite = String(d.p || '/').split(/[?#]/)[0].slice(0, 200);
+  try { seite = decodeURI(seite); } catch (e) {}
+  if (!ziel || !seite.startsWith('/') || seite.startsWith('/statistik')) return;
+  await setup(env);
+  await env.DB.prepare('INSERT OR IGNORE INTO klicks (id, seite, ziel) VALUES (?, ?, ?)').bind(stamp(), seite, ziel).run();
+}
+
+// Google-Suchbegriffe aus der Search Console (Thomas 16.11.2026). Nur wenn das Geheimnis GSC_KEY (JSON-Schlüssel eines
+// Google-Dienstkontos mit Lesezugriff auf die Property) hinterlegt ist. Es sind Googles Summen – keine Daten unserer Besucher.
+const b64u = b => btoa(String.fromCharCode(...new Uint8Array(b))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+const b64uStr = t => b64u(new TextEncoder().encode(t));
+async function gscToken(key) {
+  const now = Math.floor(Date.now() / 1000);
+  const head = b64uStr(JSON.stringify({ alg: 'RS256', typ: 'JWT' }));
+  const body = b64uStr(JSON.stringify({ iss: key.client_email, scope: 'https://www.googleapis.com/auth/webmasters.readonly',
+    aud: 'https://oauth2.googleapis.com/token', iat: now, exp: now + 3600 }));
+  const der = Uint8Array.from(atob(key.private_key.replace(/-----[^-]+-----|\s/g, '')), c => c.charCodeAt(0));
+  const k = await crypto.subtle.importKey('pkcs8', der, { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' }, false, ['sign']);
+  const sig = await crypto.subtle.sign('RSASSA-PKCS1-v1_5', k, new TextEncoder().encode(head + '.' + body));
+  const r = await fetch('https://oauth2.googleapis.com/token', { method: 'POST', headers: { 'content-type': 'application/x-www-form-urlencoded' },
+    body: 'grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=' + head + '.' + body + '.' + b64u(sig) });
+  const j = await r.json(); if (!j.access_token) throw new Error('Google-Anmeldung fehlgeschlagen: ' + (j.error_description || j.error || r.status));
+  return j.access_token;
+}
+async function gsc(env, von, bis) {
+  if (!env.GSC_KEY) return null;
+  const cache = caches.default, ck = new Request('https://gsc.cache/' + von + '_' + bis);
+  const hit = await cache.match(ck); if (hit) return hit.json();
+  let key; try { key = JSON.parse(env.GSC_KEY); } catch (e) { return { fehler: 'GSC_KEY ist kein gültiger JSON-Schlüssel.' }; }
+  const token = await gscToken(key);
+  const sites = env.GSC_SITE ? [env.GSC_SITE] : ['sc-domain:myeventhub.de', 'https://www.myeventhub.de/'];
+  let last = '';
+  for (const site of sites) {
+    const q = dims => fetch('https://www.googleapis.com/webmasters/v3/sites/' + encodeURIComponent(site) + '/searchAnalytics/query', {
+      method: 'POST', headers: { authorization: 'Bearer ' + token, 'content-type': 'application/json' },
+      body: JSON.stringify({ startDate: von, endDate: bis, dimensions: dims, rowLimit: 100, dataState: 'all' }) });
+    const [a, b] = await Promise.all([q(['query']), q(['query', 'page'])]);
+    if (!a.ok) { last = (await a.text()).slice(0, 300); continue; }
+    const ja = await a.json(), jb = b.ok ? await b.json() : { rows: [] };
+    const res = { site, begriffe: (ja.rows || []).map(r => [r.keys[0], r.clicks, r.impressions, Math.round(r.position * 10) / 10]),
+      begriffSeite: (jb.rows || []).slice(0, 100).map(r => [r.keys[0], r.keys[1].replace(/^https?:\/\/[^/]+/, ''), r.clicks, r.impressions]) };
+    await cache.put(ck, new Response(JSON.stringify(res), { headers: { 'cache-control': 'max-age=21600' } }));
+    return res;
+  }
+  return { fehler: 'Search Console: kein Zugriff (Dienstkonto in der Search Console als Nutzer eingetragen?). ' + last };
 }
 
 function sameSecret(a, b) { // Vergleich in gleichbleibender Zeit
@@ -94,13 +146,18 @@ async function api(request, env) {
     views++; perDay[day][0]++; add(seiten, r.seite);
     if (r.besuch) { visits++; perDay[day][1]++; add(herkunft, r.herkunft); }
   }
+  const kl = (await env.DB.prepare('SELECT id, ziel FROM klicks WHERE id >= ?').bind((now - (days + 2) * 86400e3) * 1000).all()).results;
+  const klicks = {}; let klicksN = 0;
+  for (const r of kl) { const day = dayOf.format(new Date(Math.floor(r.id / 1000))); if (day < first || !perDay[day]) continue; klicksN++; add(klicks, r.ziel); }
+  let google = null; try { google = await gsc(env, first, today); } catch (e) { google = { fehler: String(e && e.message || e) }; }
   const top = (o, n) => Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, n);
   await env.DB.batch([ // aufräumen
     env.DB.prepare('DELETE FROM zaehler WHERE id < ?').bind((now - KEEP_DAYS * 86400e3) * 1000),
+    env.DB.prepare('DELETE FROM klicks WHERE id < ?').bind((now - KEEP_DAYS * 86400e3) * 1000),
     env.DB.prepare('DELETE FROM fails WHERE id < ?').bind((now - 86400e3) * 1000),
   ]);
   return { status: 200, body: { tage: days, von: first, bis: today, aufrufe: views, besuche: visits,
-    jeTag: Object.entries(perDay).sort(), seiten: top(seiten, 50), herkunft: top(herkunft, 20), stand: new Date(now).toISOString() } };
+    jeTag: Object.entries(perDay).sort(), seiten: top(seiten, 50), herkunft: top(herkunft, 20), klicks: top(klicks, 60), klicksN, google, stand: new Date(now).toISOString() } };
 }
 
 export default {
