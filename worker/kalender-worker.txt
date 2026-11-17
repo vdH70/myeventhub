@@ -4,12 +4,12 @@
 // Veröffentlichung neu erzeugt), er speichert nichts über die Abrufenden.
 // Aufruf: https://<worker>/abo.ics?ort=bremen | plz=28,27 | lat=53.08&lon=8.80&km=50 & r=konzerte & g=musik-techno & q=physik & vor=1d,1w & t=Titel
 // Merkliste (31.10.2026): merk=<stadt>:<k>.<k>,<stadt>:<k> – genau diese Termine (k = Kurz-Kennung der Termin-ID, FNV-1a 32 Bit Basis 36), höchstens 10 Städte/80 Termine
-// Umkreis (Thomas 31.10.2026): km = 10, 20, 30, 50 oder 100 um lat/lon; Daten in 1°-Kacheln kalender/w/g/<Breite>_<Länge>.*
+// Umkreis (Thomas 31.10.2026, 80 km seit 17.11.2026): km = 10, 20, 30, 50, 80 oder 100 um lat/lon; Daten in 1°-Kacheln kalender/w/g/<Breite>_<Länge>.*
 const DATA = 'https://www.myeventhub.de/kalender/w/';
 const VOR = { '1h': ['-PT1H', '1 Stunde vorher'], '3h': ['-PT3H', '3 Stunden vorher'], '1d': ['-P1D', '1 Tag vorher'], '3d': ['-P3D', '3 Tage vorher'],
   '1w': ['-P1W', '1 Woche vorher'], '2w': ['-P2W', '2 Wochen vorher'], '4w': ['-P4W', '4 Wochen vorher'] };
 const SLUG = /^[a-z0-9-]{1,80}$/;
-const KM = new Set([10, 20, 30, 50, 100]);
+const KM = new Set([10, 20, 30, 50, 80, 100]); // Thomas 17.11.2026: 80 km dazu
 const dist = (a, b, c, d) => { const R = Math.PI / 180, x = Math.sin((c - a) * R / 2), y = Math.sin((d - b) * R / 2);
   return 12742 * Math.asin(Math.sqrt(x * x + Math.cos(a * R) * Math.cos(c * R) * y * y)); };
 const norm = t => String(t || '').toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -39,7 +39,7 @@ export default {
     if (!SLUG.test(r) || (g && !SLUG.test(g))) return bad('Rubrik ungültig');
     if (plz.length > 5 || plz.some(x => !/^\d{2,5}$/.test(x))) return bad('PLZ-Bereich ungültig: 2 bis 5 Ziffern, höchstens 5 Bereiche');
     const km = p.has('km') ? +p.get('km') : 0, lat = +p.get('lat'), lon = +p.get('lon');
-    if (km && (!KM.has(km) || !(Math.abs(lat) <= 90) || !(Math.abs(lon) <= 180) || !p.get('lat') || !p.get('lon'))) return bad('Umkreis ungültig: km 10, 20, 30, 50 oder 100 mit lat und lon');
+    if (km && (!KM.has(km) || !(Math.abs(lat) <= 90) || !(Math.abs(lon) <= 180) || !p.get('lat') || !p.get('lon'))) return bad('Umkreis ungültig: km 10, 20, 30, 50, 80 oder 100 mit lat und lon');
     const merk = (p.get('merk') || '').split(',').filter(Boolean).map(x => x.split(':'));
     if (merk.length > 10 || merk.some(x => x.length !== 2 || !SLUG.test(x[0]) || !/^[a-z0-9]{1,8}(\.[a-z0-9]{1,8})*$/.test(x[1])) || merk.reduce((a, x) => a + x[1].split('.').length, 0) > 80) return bad('Merkliste ungültig');
     const mset = merk.map(x => new Set(x[1].split('.')));
