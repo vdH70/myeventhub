@@ -10,53 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:b-bundeskanzleramt-20261113-klimastreik-pay-your-climate-debt@myeventhu
- b.de
-DTSTAMP:20261101T000000Z
-DTSTART;TZID=Europe/Berlin:20261113T153000
-DTEND;TZID=Europe/Berlin:20261113T173000
-SUMMARY:Klimastreik „Pay Your Climate Debt“
-LOCATION:Bundeskanzleramt (Vorplatz)\, Willy-Brandt-Straße 1\, 10557 Berli
- n
-DESCRIPTION:Klimademo von Fridays for Future Berlin zur Weltklimakonferenz\
- ; Treffpunkt am Bundeskanzleramt.\nEnde: laut Quelle nicht angegeben\nQuel
- le (bitte vor dem Besuch prüfen): https://fridaysforfuture.berlin/events/
- pay-your-climate-debt/
-URL:https://fridaysforfuture.berlin/events/pay-your-climate-debt/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b-pariser-platz-20261114-pruef-demo-berlin@myeventhub.de
-DTSTAMP:20261113T000000Z
-DTSTART;TZID=Europe/Berlin:20261114T140000
-DTEND;TZID=Europe/Berlin:20261114T160000
-SUMMARY:PRÜF-Demo Berlin
-LOCATION:Pariser Platz (Brandenburger Tor)\, Pariser Platz\, Berlin
-DESCRIPTION:Demonstration der Kampagne PRÜF für die Prüfung eines AfD-Ve
- rbotsverfahrens\; Kundgebung mit Laufdemo\, Route folgt.\nEnde: laut Quell
- e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://pruef-de
- mos.de/berlin
-URL:https://pruef-demos.de/berlin
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:b-pruef-demo-treffpunkt-offen-20261212-pruef-demo-berlin@myeventhub.de
 DTSTAMP:20261107T000000Z

@@ -10,36 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:p-alter-markt-treffpunkt-20261114-pruef-demo-potsdam@myeventhub.de
-DTSTAMP:20261113T000000Z
-DTSTART;TZID=Europe/Berlin:20261114T140000
-DTEND;TZID=Europe/Berlin:20261114T160000
-SUMMARY:PRÜF-Demo Potsdam
-LOCATION:Alter Markt Potsdam (am Landtag)\, Alter Markt\, Potsdam
-DESCRIPTION:Demonstration der Kampagne PRÜF für die Prüfung eines AfD-Ve
- rbotsverfahrens.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem
-  Besuch prüfen): https://pruef-demos.de/brandenburg
-URL:https://pruef-demos.de/brandenburg
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:p-pruef-demo-treffpunkt-offen-20261212-pruef-demo-potsdam@myeventhub.de
 DTSTAMP:20261107T000000Z

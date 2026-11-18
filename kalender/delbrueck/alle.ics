@@ -10,38 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:pb-stadthalle-delbrueck-20261113-ingo-boerchers-zeichen-und-wunder@myev
- enthub.de
-DTSTAMP:20261106T000000Z
-DTSTART;TZID=Europe/Berlin:20261113T200000
-DTEND;TZID=Europe/Berlin:20261113T220000
-SUMMARY:Ingo Börchers: Zeichen und Wunder
-LOCATION:Stadthalle Delbrück\, Boker Straße 6\, 33129 Delbrück
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.stadthalle-delbrueck.de/de/events-erleben/programm/
- termine/ingoboerchers.php
-URL:https://www.stadthalle-delbrueck.de/de/events-erleben/programm/termine/
- ingoboerchers.php
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:pb-stadthalle-delbrueck-20261125-bremer-stadtmusikanten@myeventhub.de
 DTSTAMP:20261107T000000Z

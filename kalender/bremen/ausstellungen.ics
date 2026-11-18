@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:gerhard-marcks-haus-20250101-marcks-meets-buergerschaft-ende@myeventhub
  .de
@@ -124,20 +107,6 @@ DESCRIPTION:Temporäres Denkmal zu den Lücken der Aufklärung im NSU-Kompl
  ex\, gezeigt in den Posterrahmen der GAK.\nLaufzeit: 29.8.2026 bis 29.11.2
  026\nQuelle (bitte vor dem Besuch prüfen): https://gak-bremen.de/
 URL:https://gak-bremen.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:overbeck-museum-20260906-material-girls-v-ende@myeventhub.de
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Letzter Tag: material girls V
-LOCATION:Overbeck-Museum\, Alte Hafenstraße 30\, 28757 Bremen
-DESCRIPTION:Sieben zeitgenössische Künstlerinnen setzen sich mit Material
-  und mit Motiven der Worpsweder Malerei von Fritz und Hermine Overbeck aus
- einander.\nLaufzeit: 6.9.2026 bis 15.11.2026\nQuelle (bitte vor dem Besuch
-  prüfen): https://overbeck-museum.de/aktuelle-ausstellung/
-URL:https://overbeck-museum.de/aktuelle-ausstellung/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -330,21 +299,6 @@ URL:https://www.klimahaus-bremerhaven.de/sicher-oder/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hb-galerie-des-westens-20261016-ghost-ein-projekt-der-hochschule-fuer-k
- uenste-brem-ende@myeventhub.de
-DTSTAMP:20261103T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Letzter Tag: Ghost – Ein Projekt der Hochschule für Künste Brem
- en
-LOCATION:Galerie des Westens (GaDeWe)\, Reuterstraße 9-17\, 28217 Bremen
-DESCRIPTION:Gruppenausstellung von Studierenden und Lehrenden der HfK Breme
- n\; geöffnet Mi und Fr 16–19\, Do 16–21 Uhr.\nLaufzeit: 16.10.2026 bi
- s 13.11.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.gadewe.de
-URL:https://www.gadewe.de
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:hb-raum404-20261016-anne-van-der-linden-ende@myeventhub.de
 DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261205
@@ -412,21 +366,6 @@ DESCRIPTION:Laufzeit: 25.10.2026 bis 3.1.2027\nQuelle (bitte vor dem Besuch
  rueck-kabinettausstellung/
 URL:https://www.uebersee-museum.de/ausstellung/tibati-bremen-und-zurueck-ka
  binettausstellung/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hb-spedition-20261030-ausstellung-90-jahre-spanien-36-eroffnung-mit-dok
- umenta-ende@myeventhub.de
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Letzter Tag: Ausstellung 90 Jahre Spanien '36 – Eröffnung mit Do
- kumentarfilm
-LOCATION:Spedition\, Beim Handelsmuseum 9\, 28195 Bremen
-DESCRIPTION:Laufzeit: 30.10.2026 bis 15.11.2026\nQuelle (bitte vor dem Besu
- ch prüfen): https://spedition-bremen.com/ausstellung-programm-90-jahre-sp
- anien-36/
-URL:https://spedition-bremen.com/ausstellung-programm-90-jahre-spanien-36/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -501,20 +440,6 @@ URL:https://marcks.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:schwankhalle-20261103-jonas-luksch-zwischen-zeit-beginn@myeventhub.de
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:Beginn: Jonas Luksch: Zwischen Zeit
-LOCATION:Schwankhalle\, Buntentorsteinweg 112/116\, 28201 Bremen
-DESCRIPTION:Ausstellung eines Blaumeier-Künstlers in der Schwankhalle.\nLa
- ufzeit: 3.11.2026 bis 31.3.2027\nPreis: Eintritt frei\nQuelle (bitte vor d
- em Besuch prüfen): https://www.blaumeier.de/veranstaltungen/jonas-luksch-
- zwischen-zeit
-URL:https://www.blaumeier.de/veranstaltungen/jonas-luksch-zwischen-zeit
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:schwankhalle-20261103-jonas-luksch-zwischen-zeit-ende@myeventhub.de
 DTSTAMP:20261026T000000Z
 DTSTART;VALUE=DATE:20270331
@@ -584,19 +509,6 @@ LOCATION:Deutsches Schifffahrtsmuseum\, Hans-Scharoun-Platz 1\, 27568 Breme
 DESCRIPTION:Laufzeit: 7.11.2026 bis 17.5.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.dsm.museum/kalender
 URL:https://www.dsm.museum/kalender
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hb-galerie-des-westens-20261113-finissage-ghost-ein-projekt-der-hochsch
- ule-fuer-ku@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261113T180000
-DTEND;TZID=Europe/Berlin:20261113T200000
-SUMMARY:Finissage: Ghost – Ein Projekt der Hochschule für Künste Bremen
-LOCATION:Galerie des Westens (GaDeWe)\, Reuterstraße 9-17\, 28217 Bremen
-DESCRIPTION:Abschluss der Ausstellung Ghost.\nEnde: laut Quelle nicht angeg
- eben\nQuelle (bitte vor dem Besuch prüfen): https://www.gadewe.de
-URL:https://www.gadewe.de
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -701,19 +613,6 @@ URL:https://weserburg.de/ausstellung/better-together-poul-und-aase-gernes/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:overbeck-museum-20261115-material-girls-v-kunstlerinnengesprach@myevent
- hub.de
-DTSTAMP:20261113T000000Z
-DTSTART;TZID=Europe/Berlin:20261115T113000
-DTEND;TZID=Europe/Berlin:20261115T133000
-SUMMARY:Material Girls V – Künstlerinnengespräch
-LOCATION:Overbeck-Museum\, Alte Hafenstraße 30\, 28757 Bremen
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.kulturbuerobremennord.de/programm/november-2026/
-URL:https://www.kulturbuerobremennord.de/programm/november-2026/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:bhv-dsm-20261115-sonderausstellung-grosse-geschichten-kleine-schiff-beg
  inn@myeventhub.de
 DTSTAMP:20261114T000000Z
@@ -799,6 +698,64 @@ SUMMARY:Letzter Tag: Sonderausstellung „Tiere an Bord – Wissen\, Ware\,
 LOCATION:Deutsches Schifffahrtsmuseum\, Hans-Scharoun-Platz 1\, 27568 Breme
  rhaven
 DESCRIPTION:Laufzeit: 15.11.2026 bis 17.5.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.dsm.museum/kalender
+URL:https://www.dsm.museum/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-dsm-20261118-sonderausstellung-grosse-geschichten-kleine-schiff-beg
+ inn@myeventhub.de
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Beginn: Sonderausstellung Große Geschichten – Kleine Schiffe
+LOCATION:Deutsches Schifffahrtsmuseum\, Hans-Scharoun-Platz 1\, 27568 Breme
+ rhaven
+DESCRIPTION:Laufzeit: 18.11.2026 bis 6.9.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dsm.museum/kalender
+URL:https://www.dsm.museum/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-dsm-20261118-sonderausstellung-grosse-geschichten-kleine-schiff-end
+ e@myeventhub.de
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:Letzter Tag: Sonderausstellung Große Geschichten – Kleine Schiff
+ e
+LOCATION:Deutsches Schifffahrtsmuseum\, Hans-Scharoun-Platz 1\, 27568 Breme
+ rhaven
+DESCRIPTION:Laufzeit: 18.11.2026 bis 6.9.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.dsm.museum/kalender
+URL:https://www.dsm.museum/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-dsm-20261118-sonderausstellung-tiere-an-bord-wissen-ware-wunder-beg
+ inn@myeventhub.de
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Beginn: Sonderausstellung Tiere an Bord – Wissen\, Ware\, Wunder
+LOCATION:Deutsches Schifffahrtsmuseum\, Hans-Scharoun-Platz 1\, 27568 Breme
+ rhaven
+DESCRIPTION:Laufzeit: 18.11.2026 bis 17.5.2027\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.dsm.museum/kalender
+URL:https://www.dsm.museum/kalender
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bhv-dsm-20261118-sonderausstellung-tiere-an-bord-wissen-ware-wunder-end
+ e@myeventhub.de
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Letzter Tag: Sonderausstellung Tiere an Bord – Wissen\, Ware\, Wu
+ nder
+LOCATION:Deutsches Schifffahrtsmuseum\, Hans-Scharoun-Platz 1\, 27568 Breme
+ rhaven
+DESCRIPTION:Laufzeit: 18.11.2026 bis 17.5.2027\nQuelle (bitte vor dem Besuc
  h prüfen): https://www.dsm.museum/kalender
 URL:https://www.dsm.museum/kalender
 TRANSP:TRANSPARENT

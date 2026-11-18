@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:hd-kurpfaelzisches-museum-20261017-unschaetzbar-kunst-des-sammelns-ende
  @myeventhub.de
@@ -69,23 +52,6 @@ DESCRIPTION:Laufzeit: 18.10.2026 bis 10.1.2027\nQuelle (bitte vor dem Besuc
  ausstellungen.html
 URL:https://www.museum-heidelberg.de/Museum-Heidelberg/startseite/ausstellu
  ngen.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hd-friedrich-ebert-gedenkstaette-20261114-nachts-im-museum-friedrich-eb
- ert-im-dunkeln-auf-de@myeventhub.de
-DTSTAMP:20261113T000000Z
-DTSTART;TZID=Europe/Berlin:20261114T190000
-DTEND;TZID=Europe/Berlin:20261114T210000
-SUMMARY:Nachts im Museum – Friedrich Ebert im Dunkeln auf der Spur
-LOCATION:Reichspräsident-Friedrich-Ebert-Gedenkstätte\, Pfaffengasse 18\,
-  69117 Heidelberg
-DESCRIPTION:Abendlicher Rundgang im Friedrich-Ebert-Haus\; Taschen- oder Ha
- ndylampe mitbringen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
-  dem Besuch prüfen): https://ebert-gedenkstaette.de/termin/nachts-im-muse
- um-friedrich-ebert-im-dunkeln-auf-der-spur/
-URL:https://ebert-gedenkstaette.de/termin/nachts-im-museum-friedrich-ebert-
- im-dunkeln-auf-der-spur/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

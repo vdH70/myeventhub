@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//my Event Hub//Erinnert werden//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Lesungen in Dormagen · my Event Hub
+X-WR-CALNAME:Festivals in Bremervörde · my Event Hub
 X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
  der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
  esuch die verlinkte Quelle prüfen.
@@ -28,20 +28,16 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ne-kulturhalle-dormagen-20261117-senioren-kulturprogramm-zons-in-alten-
- ansichtskart@myeventhub.de
-DTSTAMP:20261114T000000Z
-DTSTART;TZID=Europe/Berlin:20261117T150000
-DTEND;TZID=Europe/Berlin:20261117T170000
-SUMMARY:Senioren-Kulturprogramm: Zons in alten Ansichtskarten aus dem Nachl
- ass von Jürgen Alef (ausverkauft)
-LOCATION:Kulturhalle Dormagen\, Dormagen
-DESCRIPTION:Vortrag\; laut Veranstalter ausgebucht.\nEnde: laut Quelle nich
- t angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://w
- ww.dormagen.de/kunst-kultur/kulturbuero-stadt-dormagen/aktuelle-terminuebe
- rsicht
-URL:https://www.dormagen.de/kunst-kultur/kulturbuero-stadt-dormagen/aktuell
- e-terminuebersicht
+UID:bre-ta-toeff-eventcenter-20270403-outside-world-festival-ta-toeff-the-n
+ ext-step@myeventhub.de
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Berlin:20270403T210000
+DTEND;TZID=Europe/Berlin:20270403T230000
+SUMMARY:OUTSIDE WORLD FESTIVAL - TA-TÖFF - The next Step
+LOCATION:Ta-Töff Eventcenter\, Bremervörde
+DESCRIPTION:Veranstalter Outside World.\nEnde: laut Quelle nicht angegeben\
+ nQuelle (bitte vor dem Besuch prüfen): https://outside-world.de/events
+URL:https://outside-world.de/events
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
