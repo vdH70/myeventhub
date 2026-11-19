@@ -72,45 +72,6 @@ URL:https://www.dhm.de/bildung/angebote-fuer-kinder-und-familien/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ber-atze-musiktheater-20261118-das-neinhorn@myeventhub.de
-DTSTAMP:20261113T000000Z
-DTSTART;TZID=Europe/Berlin:20261118T100000
-DTEND;TZID=Europe/Berlin:20261118T120000
-SUMMARY:Das NEINhorn (ausverkauft)
-LOCATION:ATZE Musiktheater\, Luxemburger Straße 20\, 13353 Berlin
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
- or dem Besuch prüfen): https://atzeberlin.de/spielplan/
-URL:https://atzeberlin.de/spielplan/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ber-atze-musiktheater-20261118-konferenz-der-tiere@myeventhub.de
-DTSTAMP:20261113T000000Z
-DTSTART;TZID=Europe/Berlin:20261118T103000
-DTEND;TZID=Europe/Berlin:20261118T123000
-SUMMARY:Konferenz der Tiere
-LOCATION:ATZE Musiktheater\, Luxemburger Straße 20\, 13353 Berlin
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://atzeberlin.de/spielplan/
-URL:https://atzeberlin.de/spielplan/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ber-atze-musiktheater-20261118-1630-schoene-verwandtschaft-sheng-mundha
- rmonika-maultro@myeventhub.de
-DTSTAMP:20261113T000000Z
-DTSTART;TZID=Europe/Berlin:20261118T163000
-DTEND;TZID=Europe/Berlin:20261118T183000
-SUMMARY:Schöne Verwandtschaft: Sheng\, Mundharmonika\, Maultrommel und Akk
- ordeon
-LOCATION:ATZE Musiktheater\, Luxemburger Straße 20\, 13353 Berlin
-DESCRIPTION:Familienkonzert (Gastspiel) auf der Studiobühne des ATZE Musik
- theaters.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://atzeberlin.de/spielplan/
-URL:https://atzeberlin.de/spielplan/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:b-kulturhaus-spandau-20261119-oliver-grammel-energie-magic2@myeventhub.
  de
 DTSTAMP:20261113T000000Z
@@ -204,13 +165,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261120-zirkus-schardam@myeventhub.de
-DTSTAMP:20261114T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261120T100000
 DTEND;TZID=Europe/Berlin:20261120T120000
-SUMMARY:Zirkus Schardam
+SUMMARY:Zirkus Schardam (ausverkauft)
 LOCATION:Theater der kleinen Form\, Gubener Straße 45\, 10243 Berlin
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://theater-der-kleinen-form.de/index.php
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://theater-der-kleinen-form.de/index.php
 URL:https://theater-der-kleinen-form.de/index.php
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -327,7 +288,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261121-1100-zirkus-schardam@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261121T110000
 DTEND;TZID=Europe/Berlin:20261121T130000
 SUMMARY:Zirkus Schardam
@@ -410,7 +371,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261121-1600-zirkus-schardam@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261121T160000
 DTEND;TZID=Europe/Berlin:20261121T180000
 SUMMARY:Zirkus Schardam
@@ -495,15 +456,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261122-1100-zirkus-schardam@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261122T110000
 DTEND;TZID=Europe/Berlin:20261122T130000
-SUMMARY:Zirkus Schardam
+SUMMARY:ABGESAGT: Zirkus Schardam
 LOCATION:Theater der kleinen Form\, Gubener Straße 45\, 10243 Berlin
 DESCRIPTION:Puppen- und Kindertheater im Theater der kleinen Form in Friedr
  ichshain.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://theater-der-kleinen-form.de/index.php
 URL:https://theater-der-kleinen-form.de/index.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Zirkus Schardam am 22.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261120T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -634,7 +600,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261122-1600-zirkus-schardam@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261122T160000
 DTEND;TZID=Europe/Berlin:20261122T180000
 SUMMARY:Zirkus Schardam
@@ -688,7 +654,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261123-zirkus-schardam@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261123T100000
 DTEND;TZID=Europe/Berlin:20261123T120000
 SUMMARY:Zirkus Schardam
@@ -864,7 +830,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261126-die-zuckerfee@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261126T100000
 DTEND;TZID=Europe/Berlin:20261126T120000
 SUMMARY:Die Zuckerfee
@@ -927,7 +893,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261127-frau-holle-neueste-nachrichten-aus-
  holledau@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261127T100000
 DTEND;TZID=Europe/Berlin:20261127T120000
 SUMMARY:Frau Holle - Neueste Nachrichten aus Holledau
@@ -1005,7 +971,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261128-1100-frau-holle-neueste-nachrichten
  -aus-holledau@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T110000
 DTEND;TZID=Europe/Berlin:20261128T130000
 SUMMARY:Frau Holle – Neueste Nachrichten aus Holledau
@@ -1124,7 +1090,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261129-1100-weihnachtsgans-auguste@myevent
  hub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261129T110000
 DTEND;TZID=Europe/Berlin:20261129T130000
 SUMMARY:Weihnachtsgans Auguste
@@ -1234,7 +1200,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261129-1600-weihnachtsgans-auguste@myevent
  hub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261129T160000
 DTEND;TZID=Europe/Berlin:20261129T180000
 SUMMARY:Weihnachtsgans Auguste (ausverkauft)
@@ -1326,7 +1292,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261130-weihnachtsgans-auguste@myeventhub.d
  e
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261130T100000
 DTEND;TZID=Europe/Berlin:20261130T120000
 SUMMARY:Weihnachtsgans Auguste
@@ -1389,13 +1355,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261201-die-zuckerfee@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261201T100000
 DTEND;TZID=Europe/Berlin:20261201T120000
-SUMMARY:Die Zuckerfee
+SUMMARY:Die Zuckerfee (ausverkauft)
 LOCATION:Theater der kleinen Form\, Gubener Straße 45\, 10243 Berlin
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://theater-der-kleinen-form.de/index.php
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://theater-der-kleinen-form.de/index.php
 URL:https://theater-der-kleinen-form.de/index.php
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1464,13 +1430,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261202-die-zuckerfee@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261202T100000
 DTEND;TZID=Europe/Berlin:20261202T120000
-SUMMARY:Die Zuckerfee
+SUMMARY:Die Zuckerfee (ausverkauft)
 LOCATION:Theater der kleinen Form\, Gubener Straße 45\, 10243 Berlin
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://theater-der-kleinen-form.de/index.php
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://theater-der-kleinen-form.de/index.php
 URL:https://theater-der-kleinen-form.de/index.php
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1552,13 +1518,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b-theater-der-kleinen-form-20261203-knusper-knupser@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;TZID=Europe/Berlin:20261203T100000
 DTEND;TZID=Europe/Berlin:20261203T120000
-SUMMARY:Knusper Knupser
+SUMMARY:Knusper Knupser (ausverkauft)
 LOCATION:Theater der kleinen Form\, Gubener Straße 45\, 10243 Berlin
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://theater-der-kleinen-form.de/index.php
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://theater-der-kleinen-form.de/index.php
 URL:https://theater-der-kleinen-form.de/index.php
 TRANSP:TRANSPARENT
 END:VEVENT

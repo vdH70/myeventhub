@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kino in Kassel · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ks-filmladen-20261128-morgen-findus-wird-s-was-geben@myeventhub.de
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T133000
+DTEND;TZID=Europe/Berlin:20261128T153000
+SUMMARY:Morgen\, Findus\, wird's was geben
+LOCATION:Filmladen Kassel\, Goethestraße 31\, 34119 Kassel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmladen.de/
+URL:https://www.filmladen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-filmladen-20261128-you-can-see-everything@myeventhub.de
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T140000
+DTEND;TZID=Europe/Berlin:20261128T160000
+SUMMARY:You Can See Everything
+LOCATION:Filmladen Kassel\, Goethestraße 31\, 34119 Kassel
+DESCRIPTION:Vorpremiere BALi\nEnde: laut Quelle nicht angegeben\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.filmladen.de/
+URL:https://www.filmladen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ks-filmladen-20261129-paddington@myeventhub.de
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T133000
+DTEND;TZID=Europe/Berlin:20261129T153000
+SUMMARY:Paddington
+LOCATION:Filmladen Kassel\, Goethestraße 31\, 34119 Kassel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.filmladen.de/
+URL:https://www.filmladen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

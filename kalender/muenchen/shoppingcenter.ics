@@ -10,6 +10,36 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:m-olympia-einkaufszentrum-20261123-weihnachten-in-xxl@myeventhub.de
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Weihnachten in XXL
+LOCATION:Olympia-Einkaufszentrum (OEZ)\, Hanauer Strasse 68\, 80993 Münche
+ n
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.olympia-eink
+ aufszentrum.de/events/
+URL:https://www.olympia-einkaufszentrum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:m-pep-neuperlach-20261126-weihnachtszauber-im-pep-beginn@myeventhub.de
 DTSTAMP:20261114T000000Z
@@ -34,6 +64,78 @@ LOCATION:PEP Einkaufs-Center Neuperlach\, Thomas-Dehler-Straße 10\, 81737
 DESCRIPTION:Laufzeit: 26.11.2026 bis 23.12.2026\nQuelle (bitte vor dem Besu
  ch prüfen): https://www.pep-muenchen.de/events/
 URL:https://www.pep-muenchen.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-olympia-einkaufszentrum-20261204-weihnachtsprogramm-im-oez-beginn@mye
+ venthub.de
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Beginn: Weihnachtsprogramm im OEZ
+LOCATION:Olympia-Einkaufszentrum (OEZ)\, Hanauer Strasse 68\, 80993 Münche
+ n
+DESCRIPTION:Laufzeit: 4.12.2026 bis 24.12.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.olympia-einkaufszentrum.de/events/
+URL:https://www.olympia-einkaufszentrum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-olympia-einkaufszentrum-20261204-weihnachtsprogramm-im-oez-ende@myeve
+ nthub.de
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Letzter Tag: Weihnachtsprogramm im OEZ
+LOCATION:Olympia-Einkaufszentrum (OEZ)\, Hanauer Strasse 68\, 80993 Münche
+ n
+DESCRIPTION:Laufzeit: 4.12.2026 bis 24.12.2026\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.olympia-einkaufszentrum.de/events/
+URL:https://www.olympia-einkaufszentrum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-olympia-einkaufszentrum-20261205-family-day-zum-nikolaus@myeventhub.d
+ e
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T140000
+DTEND;TZID=Europe/Berlin:20261205T160000
+SUMMARY:Family-Day zum Nikolaus
+LOCATION:Olympia-Einkaufszentrum (OEZ)\, Hanauer Strasse 68\, 80993 Münche
+ n
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.olympia-einkaufszentrum.de/events/
+URL:https://www.olympia-einkaufszentrum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-olympia-einkaufszentrum-20261210-wir-packen-alles-ein-beginn@myeventh
+ ub.de
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Beginn: Wir packen alles ein.
+LOCATION:Olympia-Einkaufszentrum (OEZ)\, Hanauer Strasse 68\, 80993 Münche
+ n
+DESCRIPTION:Geschenkverpackung im Center.\nLaufzeit: 10.12.2026 bis 24.12.2
+ 026\nQuelle (bitte vor dem Besuch prüfen): https://www.olympia-einkaufsze
+ ntrum.de/events/
+URL:https://www.olympia-einkaufszentrum.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m-olympia-einkaufszentrum-20261210-wir-packen-alles-ein-ende@myeventhub
+ .de
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Letzter Tag: Wir packen alles ein.
+LOCATION:Olympia-Einkaufszentrum (OEZ)\, Hanauer Strasse 68\, 80993 Münche
+ n
+DESCRIPTION:Geschenkverpackung im Center.\nLaufzeit: 10.12.2026 bis 24.12.2
+ 026\nQuelle (bitte vor dem Besuch prüfen): https://www.olympia-einkaufsze
+ ntrum.de/events/
+URL:https://www.olympia-einkaufszentrum.de/events/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

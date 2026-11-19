@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:hh-hamburg-messe-20261127-spielemesse-beginn@myeventhub.de
 DTSTAMP:20261011T000000Z
@@ -38,6 +55,19 @@ DESCRIPTION:Publikumsmesse für analoge Spiele. Fr 14–21 Uhr\, Sa und So
  staltungsdetails/spielemesse-2026
 URL:https://www.hamburg-messe.de/veranstaltungen/termine/veranstaltungsdeta
  ils/spielemesse-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hh-bim-meiendorf-20261128-erlebnismesse@myeventhub.de
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T110000
+DTEND;TZID=Europe/Berlin:20261128T130000
+SUMMARY:Erlebnismesse
+LOCATION:Kulturzentrum BiM (Bürgerhaus in Meiendorf)\, Saseler Straße 21\
+ , 22145 Hamburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://bim-hamburg.de/calendar/
+URL:https://bim-hamburg.de/calendar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
