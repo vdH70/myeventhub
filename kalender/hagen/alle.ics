@@ -10,40 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:ha-allerwelthaus-20261119-1800-erzaehl-mal-hagen-vielfalt-findet-stadt@
- myeventhub.de
-DTSTAMP:20261114T000000Z
-DTSTART;TZID=Europe/Berlin:20261119T180000
-DTEND;TZID=Europe/Berlin:20261119T200000
-SUMMARY:Erzähl mal\, Hagen! Vielfalt findet Stadt
-LOCATION:AllerWeltHaus Hagen\, Potthofstr. 22\, 58095 Hagen
-DESCRIPTION:Erzählabend mit Hagener Bürgerinnen und Bürgern und Livemusi
- k im AllerWeltHaus.\nEinlass 17:30\, Beginn 18:00 Uhr\nEnde: laut Quelle n
- icht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen
- ): https://www.allerwelthaus.org/erzaehl-mal-hagen-vielfalt-findet-stadt-d
- /
-URL:https://www.allerwelthaus.org/erzaehl-mal-hagen-vielfalt-findet-stadt-d
- /
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:ha-stadthalle-hagen-20261205-one-night-of-dire-straits-tribute-show@mye
  venthub.de

@@ -43,56 +43,6 @@ URL:https://www.stadtmuseum-cottbus.de/Start.html
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:cb-kammerbuehne-20261119-1930-don-pasquale@myeventhub.de
-DTSTAMP:20261114T000000Z
-DTSTART;TZID=Europe/Berlin:20261119T193000
-DTEND;TZID=Europe/Berlin:20261119T213000
-SUMMARY:Don Pasquale
-LOCATION:Kammerbühne des Staatstheaters Cottbus\, Cottbus
-DESCRIPTION:Musiktheater im Staatstheater Cottbus.\nEnde: laut Quelle nicht
-  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.staatstheat
- er-cottbus.de/de/programm/spielplan.html
-URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cb-staatstheater-20261119-1930-der-frieden@myeventhub.de
-DTSTAMP:20261114T000000Z
-DTSTART;TZID=Europe/Berlin:20261119T193000
-DTEND;TZID=Europe/Berlin:20261119T213000
-SUMMARY:Der Frieden
-LOCATION:Staatstheater Cottbus\, Cottbus
-DESCRIPTION:Schauspiel im Staatstheater Cottbus.\nEnde: laut Quelle nicht a
- ngegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.staatstheater
- -cottbus.de/de/programm/spielplan.html
-URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cb-staatstheater-20261119-don-pasquale@myeventhub.de
-DTSTAMP:20261118T000000Z
-DTSTART;TZID=Europe/Berlin:20261119T193000
-DTEND;TZID=Europe/Berlin:20261119T213000
-SUMMARY:Don Pasquale
-LOCATION:Kammerbühne
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.staatstheater-cottbus.de/de/programm/spielplan.html
-URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cb-stadthalle-20261119-gregorian@myeventhub.de
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Gregorian (ausverkauft)
-LOCATION:Stadthalle Cottbus\, Cottbus
-DESCRIPTION:Ausverkauft.\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen
- ): https://www.cmt-cottbus.de/veranstaltungen/
-URL:https://www.cmt-cottbus.de/veranstaltungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:cb-obenkino-20261120-leica-ein-jahrhundert-in-bildern@myeventhub.de
 DTSTAMP:20261106T000000Z
 DTSTART;TZID=Europe/Berlin:20261120T170000
@@ -106,15 +56,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cb-kammerbuehne-20261120-1930-da-vinci-urauffuehrung@myeventhub.de
-DTSTAMP:20261114T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Berlin:20261120T193000
 DTEND;TZID=Europe/Berlin:20261120T213000
-SUMMARY:Da Vinci (Uraufführung) (ausverkauft)
+SUMMARY:ABGESAGT: Da Vinci (Uraufführung)
 LOCATION:Kammerbühne des Staatstheaters Cottbus\, Cottbus
 DESCRIPTION:Ballettabend im Staatstheater Cottbus.\nEnde: laut Quelle nicht
-  angegeben\nAusverkauft\nQuelle (bitte vor dem Besuch prüfen): https://ww
- w.staatstheater-cottbus.de/de/programm/spielplan.html
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.staatstheat
+ er-cottbus.de/de/programm/spielplan.html
 URL:https://www.staatstheater-cottbus.de/de/programm/spielplan.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Da Vinci (Uraufführung) am 20.11.2026 (laut Veransta
+ lter)
+TRIGGER;VALUE=DATE-TIME:20261120T163000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

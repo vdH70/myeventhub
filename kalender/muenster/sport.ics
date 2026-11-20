@@ -59,13 +59,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ms-preussenstadion-20261212-sc-preussen-muenster-sv-meppen@myeventhub.d
  e
-DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T163000
+DTEND;TZID=Europe/Berlin:20261212T183000
 SUMMARY:SC Preußen Münster – SV Meppen
 LOCATION:LVM-Preußenstadion\, Münster
-DESCRIPTION:3. Liga\, 17. Spieltag\nQuelle (bitte vor dem Besuch prüfen): 
- https://scpreussen-muenster.de/profis/saison/spielplan/
+DESCRIPTION:3. Liga\, 17. Spieltag\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://scpreussen-muenster.de/profis/s
+ aison/spielplan/
 URL:https://scpreussen-muenster.de/profis/saison/spielplan/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -142,13 +143,27 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ms-preussenstadion-20270123-sc-preussen-muenster-sv-wehen-wiesbaden@mye
  venthub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-SUMMARY:SC Preußen Münster – SV Wehen Wiesbaden
+SUMMARY:VERLEGT: SC Preußen Münster – SV Wehen Wiesbaden
 LOCATION:LVM-Preußenstadion\, Münster
 DESCRIPTION:3. Liga\, 20. Spieltag\nQuelle (bitte vor dem Besuch prüfen): 
  https://scpreussen-muenster.de/profis/saison/spielplan/
+URL:https://scpreussen-muenster.de/profis/saison/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ms-preussenstadion-20270124-1330-sc-preussen-muenster-sv-wehen-wiesbade
+ n@myeventhub.de
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T133000
+DTEND;TZID=Europe/Berlin:20270124T153000
+SUMMARY:SC Preußen Münster – SV Wehen Wiesbaden
+LOCATION:LVM-Preußenstadion\, Münster
+DESCRIPTION:3. Liga\, 20. Spieltag\nEnde: laut Quelle nicht angegeben\nQuel
+ le (bitte vor dem Besuch prüfen): https://scpreussen-muenster.de/profis/s
+ aison/spielplan/
 URL:https://scpreussen-muenster.de/profis/saison/spielplan/
 TRANSP:TRANSPARENT
 END:VEVENT
