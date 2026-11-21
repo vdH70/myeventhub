@@ -28,20 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ber-zig-zag-jazz-club-20261120-zig-zag-hall-jazzanova-live@myeventhub.d
- e
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:ZIG ZAG HALL: Jazzanova (live)
-LOCATION:Zig Zag Hall\, EUREF-Campus 26\, 10829 Berlin-Schöneberg
-DESCRIPTION:Konzert in der Zig Zag Hall auf dem EUREF-Campus (größere Bü
- hne des Clubs).\nQuelle (bitte vor dem Besuch prüfen): https://www.zigzag
- -jazzclub.berlin/
-URL:https://www.zigzag-jazzclub.berlin/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ber-velodrom-20261121-the-prodigy@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261121T200000
@@ -109,7 +95,7 @@ UID:ber-bi-nuu-20261128-wave-noir-06@myeventhub.de
 DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T200000
 DTEND;TZID=Europe/Berlin:20261128T220000
-SUMMARY:Wave Noir #06
+SUMMARY:VERLEGT: Wave Noir #06
 LOCATION:Bi Nuu\, Im Schlesischen Tor\, 10997 Berlin
 DESCRIPTION:Clubnacht mit Coldwave\, Goth und Minimal Dance\, live UFO Shad
  ow\, Spitplay und Slow Cut.\nEnde: laut Quelle nicht angegeben\nQuelle (bi
@@ -142,6 +128,18 @@ DESCRIPTION:Depeche-Mode-Partyreihe Ultra Night im Club Bi Nuu.\nPreis: 19\
  ,60 € zzgl. Gebühren\nQuelle (bitte vor dem Besuch prüfen): https://ww
  w.ultranight.de/
 URL:https://www.ultranight.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ber-bi-nuu-20270418-lone-assembly@myeventhub.de
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Lone Assembly
+LOCATION:Bi Nuu\, Im Schlesischen Tor\, 10997 Berlin
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://binuu.de/de/even
+ ts
+URL:https://binuu.de/de/events
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

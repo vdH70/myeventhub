@@ -60,19 +60,6 @@ URL:https://www.koblenzer-weihnachtsmarkt.de/oeffnungszeiten
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ko-wilde-heimat-20261120-youssef-invites@myeventhub.de
-DTSTAMP:20261115T000000Z
-DTSTART;TZID=Europe/Berlin:20261120T230000
-DTEND;TZID=Europe/Berlin:20261121T010000
-SUMMARY:Youssef Invites
-LOCATION:Wilde Heimat\, Firmungsstraße 2\, 56068 Koblenz
-DESCRIPTION:Sondernacht mit elektronischer Musik und 360-Grad-DJ-Pult.\nEnd
- e: laut Quelle nicht angegeben\nPreis: VVK 9 € zzgl. Gebühr\nQuelle (bi
- tte vor dem Besuch prüfen): https://wilde-heimat-koblenz.de/
-URL:https://wilde-heimat-koblenz.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ko-wilde-heimat-20261121-frozen-hearts@myeventhub.de
 DTSTAMP:20261115T000000Z
 DTSTART;TZID=Europe/Berlin:20261121T230000
@@ -88,15 +75,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ko-goerreshaus-20261122-1100-stunde-der-philharmonie-kammerkonzert-land
  scapes@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261121T000000Z
 DTSTART;TZID=Europe/Berlin:20261122T110000
 DTEND;TZID=Europe/Berlin:20261122T130000
-SUMMARY:Stunde der Philharmonie: Kammerkonzert „Landscapes“
+SUMMARY:ABGESAGT: Stunde der Philharmonie: Kammerkonzert „Landscapes“
 LOCATION:Görreshaus\, Koblenz
 DESCRIPTION:Konzert der Rheinischen Philharmonie im Görreshaus Koblenz.\nE
  nde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): h
  ttps://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
 URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Stunde der Philharmonie: Kammerkonzert „Landscapes
+ “ am 22.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261122T080000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1296,6 +1289,18 @@ URL:https://www.cafehahn.de/info-service/Neu-im-Vorverkauf
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ko-theater-koblenz-20270424-debussy-pelleas-et-melisande@myeventhub.de
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T190000
+DTEND;TZID=Europe/Berlin:20270424T210000
+SUMMARY:Debussy: Pelléas et Mélisande
+LOCATION:Theater Koblenz\, Clemensstraße 5\, 56068 Koblenz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ko-theater-koblenz-20270424-premiere-musiktheater@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20270424T190000
@@ -1571,6 +1576,18 @@ URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ko-theater-koblenz-20270521-r-strauss-der-rosenkavalier@myeventhub.de
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Berlin:20270521T180000
+DTEND;TZID=Europe/Berlin:20270521T200000
+SUMMARY:R. Strauss: Der Rosenkavalier
+LOCATION:Theater Koblenz\, Clemensstraße 5\, 56068 Koblenz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ko-cafe-hahn-20270521-remode@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20270521
@@ -1719,6 +1736,18 @@ LOCATION:Festung Ehrenbreitstein\, Greiffenklaustraße\, 56077 Koblenz
 DESCRIPTION:Musiktheater-Aufführung auf der Festung Ehrenbreitstein.\nEnde
  : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
  s://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ko-festung-ehrenbreitstein-20270703-verdi-macbeth@myeventhub.de
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Berlin:20270703T200000
+DTEND;TZID=Europe/Berlin:20270703T220000
+SUMMARY:Verdi: Macbeth
+LOCATION:Festung Ehrenbreitstein\, Greiffenklaustraße\, 56077 Koblenz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
 URL:https://www.rheinische-philharmonie.de/srp/KONZERTE/index.php
 TRANSP:TRANSPARENT
 END:VEVENT

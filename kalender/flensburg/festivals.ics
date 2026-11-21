@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festivals in Flensburg · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fl-niederdeutsche-buehne-20270417-theaterfestival-op-platt-2027@myevent
+ hub.de
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Theaterfestival op Platt 2027
+LOCATION:Niederdeutsche Bühne Flensburg (NDB-Studio)\, Augustastraße 5\, 
+ 24937 Flensburg
+DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.niederdeutsc
+ hebuehne.de/programm/
+URL:https://www.niederdeutschebuehne.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

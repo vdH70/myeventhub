@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:ham-allee-center-20261113-gemeinsam-gutes-tun-beginn@myeventhub.de
 DTSTAMP:20261108T000000Z
@@ -81,21 +64,6 @@ DESCRIPTION:Spielzeugspendenaktion im Center\, laut Seite 13.11. bis 21.11.
  2026.\nLaufzeit: 15.11.2026 bis 21.11.2026\nQuelle (bitte vor dem Besuch p
  rüfen): https://www.allee-center-hamm.de/events/
 URL:https://www.allee-center-hamm.de/events/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ham-allee-center-20261120-vorlesen-verbindet-generationen@myeventhub.de
-DTSTAMP:20261114T000000Z
-DTSTART;TZID=Europe/Berlin:20261120T150000
-DTEND;TZID=Europe/Berlin:20261120T170000
-SUMMARY:Vorlesen verbindet Generationen
-LOCATION:Allee-Center Hamm\, Richard-Matthaei-Platz 1\, 59065 Hamm
-DESCRIPTION:Vorlesestunde mit dem Verein Lesewelt Hamm e. V.\, 15–16 Uhr.
- \nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen)
- : https://www.allee-center-hamm.de/events/vorlesen-verbindet-generationen-
- lesewelt-hamm-e-v-zu-gast-im-allee-center-hamm-e57305/
-URL:https://www.allee-center-hamm.de/events/vorlesen-verbindet-generationen
- -lesewelt-hamm-e-v-zu-gast-im-allee-center-hamm-e57305/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
