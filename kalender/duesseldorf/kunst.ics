@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:d-kunstpalast-20260508-spot-on-100-jahre-gesolei-ende@myeventhub.de
 DTSTAMP:20261103T000000Z
@@ -158,20 +141,6 @@ DESCRIPTION:Ausstellung zum Thema Sport und Fitness in der Kunst.\nLaufzeit
  : 5.11.2026 bis 21.2.2027\nQuelle (bitte vor dem Besuch prüfen): https://
  www.kunstpalast.de/de/programm/ausstellungen/
 URL:https://www.kunstpalast.de/de/programm/ausstellungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d-kultur-bahnhof-eller-20261107-eckhard-froeschlin-aus-der-zeit-geaetzt
- -radierunge-beginn@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Beginn: Eckhard Froeschlin – Aus der Zeit geätzt (Radierungen 19
- 81–2026)
-LOCATION:Kultur Bahnhof Eller\, Vennhauser Allee 89\, 40229 Düsseldorf
-DESCRIPTION:Laufzeit: 7.11.2026 bis 13.12.2026\nQuelle (bitte vor dem Besuc
- h prüfen): https://www.kultur-bahnhof-eller.de/
-URL:https://www.kultur-bahnhof-eller.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -338,20 +307,6 @@ LOCATION:Kunstpalast\, Ehrenhof 4-5\, 40479 Düsseldorf
 DESCRIPTION:Laufzeit: 14.11.2026 bis 7.2.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.kunstpalast.de/de/programm/ausstellungen/
 URL:https://www.kunstpalast.de/de/programm/ausstellungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d-kultur-bahnhof-eller-20261121-1600-kuenstlergespraech-mit-eckhard-fro
- eschlin@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261121T160000
-DTEND;TZID=Europe/Berlin:20261121T180000
-SUMMARY:Künstlergespräch mit Eckhard Froeschlin
-LOCATION:Kultur Bahnhof Eller\, Vennhauser Allee 89\, 40229 Düsseldorf
-DESCRIPTION:Künstlergespräch in der laufenden Ausstellung.\nEnde: laut Qu
- elle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.k
- ultur-bahnhof-eller.de/
-URL:https://www.kultur-bahnhof-eller.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

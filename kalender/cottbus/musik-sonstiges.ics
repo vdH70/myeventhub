@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:cb-stadthalle-20261226-the-original-usa-gospel-singers-band@myeventhub.
  de
@@ -45,6 +62,18 @@ LOCATION:Stadthalle Cottbus\, Cottbus
 DESCRIPTION:Vorstellungen 13 und 18 Uhr.\nQuelle (bitte vor dem Besuch prü
  fen): https://www.cmt-cottbus.de/veranstaltungen/
 URL:https://www.cmt-cottbus.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-glad-house-20270911-senta-ich-bin-stark-tour@myeventhub.de
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Berlin:20270911T160000
+DTEND;TZID=Europe/Berlin:20270911T180000
+SUMMARY:SENTA – Ich bin stark – Tour
+LOCATION:Glad-House\, Straße der Jugend 16\, 03046 Cottbus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://glad.house/
+URL:https://glad.house/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

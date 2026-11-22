@@ -28,32 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ka-kohi-20261121-2000-song-slam@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261121T200000
-DTEND;TZID=Europe/Berlin:20261121T220000
-SUMMARY:Song Slam
-LOCATION:KOHI Kulturraum\, Werderstraße 47\, 76137 Karlsruhe
-DESCRIPTION:Konzert im KOHI Kulturraum in der Südstadt.\nEnde: laut Quelle
-  nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kohi.de/i
- ndex.php?psc=
-URL:https://kohi.de/index.php?psc=
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ka-tollhaus-20261121-2000-catt-alive@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261121T200000
-DTEND;TZID=Europe/Berlin:20261121T220000
-SUMMARY:CATT – Alive
-LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
-DESCRIPTION:Konzert im Kulturzentrum Tollhaus.\nEnde: laut Quelle nicht ang
- egeben\nQuelle (bitte vor dem Besuch prüfen): https://tickets.tollhaus.de
- /catalog/articles
-URL:https://tickets.tollhaus.de/catalog/articles
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ka-tollhaus-20261122-jugendorchester-stadt-karlsruhe-let-s-dance-jahres
  @myeventhub.de
 DTSTAMP:20261107T000000Z
@@ -207,11 +181,6 @@ LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://tickets.tollhaus.de/catalog/articles
 URL:https://tickets.tollhaus.de/catalog/articles
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ABGESAGT: Hope Charity Rock am 2.12.2026 (laut Veranstalter)
-TRIGGER;VALUE=DATE-TIME:20261121T170000Z
-END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
