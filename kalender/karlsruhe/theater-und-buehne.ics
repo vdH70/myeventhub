@@ -28,71 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ka-badisches-staatstheater-20261122-1800-familienalbum-karlsruhe@myeven
- thub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T180000
-DTEND;TZID=Europe/Berlin:20261122T200000
-SUMMARY:familienalbum.karlsruhe
-LOCATION:Insel
-DESCRIPTION:Jugendtheater des Badischen Staatstheaters (Insel).\nEnde: laut
-  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
- w.staatstheater-karlsruhe.de/spielplan/november/
-URL:https://www.staatstheater-karlsruhe.de/spielplan/november/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ka-badisches-staatstheater-20261122-1800-her-mit-dem-haifisch-weill@mye
- venthub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T180000
-DTEND;TZID=Europe/Berlin:20261122T200000
-SUMMARY:… her mit dem Haifisch\, Weill!
-LOCATION:Kleines Haus
-DESCRIPTION:Gastspiel des Badischen Staatstheaters (Kleines Haus).\nEnde: l
- aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
- /www.staatstheater-karlsruhe.de/spielplan/november/
-URL:https://www.staatstheater-karlsruhe.de/spielplan/november/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ka-tollhaus-20261122-gunzi-heil-100-100-xl@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T180000
-DTEND;TZID=Europe/Berlin:20261122T200000
-SUMMARY:Gunzi Heil – 100 + 100 XL
-LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://tickets.tollhaus.de/catalog/articles
-URL:https://tickets.tollhaus.de/catalog/articles
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ka-badisches-staatstheater-20261122-1830-sunset-boulevard@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T183000
-DTEND;TZID=Europe/Berlin:20261122T203000
-SUMMARY:Sunset Boulevard
-LOCATION:Großes Haus
-DESCRIPTION:Musiktheater des Badischen Staatstheaters (Großes Haus).\nEnde
- : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
- s://www.staatstheater-karlsruhe.de/spielplan/november/
-URL:https://www.staatstheater-karlsruhe.de/spielplan/november/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ka-sandkorn-20261122-12-tote-huehner@myeventhub.de
-DTSTAMP:20261114T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T183000
-DTEND;TZID=Europe/Berlin:20261122T203000
-SUMMARY:12 tote Hühner
-LOCATION:DAS SANDKORN – Theater & mehr\, Kaiserallee 11\, 76133 Karlsruhe
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.das-sandkorn.de/
-URL:https://www.das-sandkorn.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ka-badisches-staatstheater-20261123-1930-all-das-schoene@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261123T193000
@@ -159,15 +94,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ka-badisches-staatstheater-20261125-1800-bu-soezler-bizim-die-worte-geh
  oeren-uns@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261125T180000
 DTEND;TZID=Europe/Berlin:20261125T200000
-SUMMARY:Bu sözler bizim – Die Worte gehören uns
+SUMMARY:ABGESAGT: Bu sözler bizim – Die Worte gehören uns
 LOCATION:Insel
 DESCRIPTION:Jugendtheater des Badischen Staatstheaters (Insel).\nEnde: laut
   Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
  w.staatstheater-karlsruhe.de/spielplan/november/
 URL:https://www.staatstheater-karlsruhe.de/spielplan/november/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Bu sözler bizim – Die Worte gehören uns am 25.11.
+ 2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261124T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -238,7 +179,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ka-tollhaus-20261126-sarah-kuttner-mama-sam@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261126T200000
 DTEND;TZID=Europe/Berlin:20261126T220000
 SUMMARY:Sarah Kuttner – Mama & Sam
@@ -277,13 +218,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ka-tollhaus-20261127-josef-hader-hader-on-ice@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261127T200000
 DTEND;TZID=Europe/Berlin:20261127T220000
-SUMMARY:Josef Hader – Hader on Ice
+SUMMARY:Josef Hader – Hader on Ice (ausverkauft)
 LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://tickets.tollhaus.de/catalog/articles
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
+ or dem Besuch prüfen): https://tickets.tollhaus.de/catalog/articles
 URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -342,7 +283,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ka-tollhaus-20261128-cavewoman@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T200000
 DTEND;TZID=Europe/Berlin:20261128T220000
 SUMMARY:Cavewoman
@@ -407,7 +348,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ka-tollhaus-20261201-greenpeace-2026-louisa-schneider-gradjetzt@myevent
  hub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261201T190000
 DTEND;TZID=Europe/Berlin:20261201T210000
 SUMMARY:Greenpeace 2026: Louisa Schneider – Grad°Jetzt
@@ -471,7 +412,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ka-tollhaus-20261204-sebastian-23-zusammenhaltestelle@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261204T200000
 DTEND;TZID=Europe/Berlin:20261204T220000
 SUMMARY:Sebastian 23 – Zusammenhaltestelle
@@ -524,7 +465,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ka-tollhaus-20261205-das-vereinsheim@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261205T200000
 DTEND;TZID=Europe/Berlin:20261205T220000
 SUMMARY:Das Vereinsheim
@@ -562,7 +503,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ka-tollhaus-20261206-das-vereinsheim@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261206T190000
 DTEND;TZID=Europe/Berlin:20261206T210000
 SUMMARY:Das Vereinsheim
@@ -2119,6 +2060,30 @@ URL:https://jakobus-theater.de/programm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270204-les-boreades@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T190000
+DTEND;TZID=Europe/Berlin:20270204T210000
+SUMMARY:Les Boréades
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270204-1984-2052@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T193000
+DTEND;TZID=Europe/Berlin:20270204T213000
+SUMMARY:1984 / 2052
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-tollhaus-20270204-david-mayonga-aka-roger-rekless-wo-kommst-du-wirkl
  @myeventhub.de
 DTSTAMP:20261107T000000Z
@@ -2129,6 +2094,30 @@ LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://tickets.tollhaus.de/catalog/articles
 URL:https://tickets.tollhaus.de/catalog/articles
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270205-the-boys-are-kissing@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T190000
+DTEND;TZID=Europe/Berlin:20270205T210000
+SUMMARY:The boys are kissing
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270205-die-tote-stadt@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T193000
+DTEND;TZID=Europe/Berlin:20270205T213000
+SUMMARY:Die tote Stadt
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2168,6 +2157,18 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270206-das-prinzip-hoffnung@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T183000
+DTEND;TZID=Europe/Berlin:20270206T203000
+SUMMARY:Das Prinzip Hoffnung
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-jakobus-theater-20270206-der-rote-faecher@myeventhub.de
 DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20270206T200000
@@ -2189,6 +2190,43 @@ LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://tickets.tollhaus.de/catalog/articles
 URL:https://tickets.tollhaus.de/catalog/articles
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270206-dracula@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T210000
+DTEND;TZID=Europe/Berlin:20270206T230000
+SUMMARY:Dracula
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270207-lohengrin@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T170000
+DTEND;TZID=Europe/Berlin:20270207T190000
+SUMMARY:Lohengrin
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270207-geschichten-aus-dem-wiener-wald@mye
+ venthub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T180000
+DTEND;TZID=Europe/Berlin:20270207T200000
+SUMMARY:Geschichten aus dem Wiener Wald
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2218,6 +2256,18 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270212-faramondo@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T170000
+DTEND;TZID=Europe/Berlin:20270212T190000
+SUMMARY:Faramondo
+LOCATION:Neues Entrée
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-jakobus-theater-20270212-der-rote-faecher@myeventhub.de
 DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20270212T200000
@@ -2227,6 +2277,30 @@ LOCATION:Jakobus-Theater\, Kaiserallee 11\, 76133 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://jakobus-theater.de/programm
 URL:https://jakobus-theater.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270213-dracula@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T190000
+DTEND;TZID=Europe/Berlin:20270213T210000
+SUMMARY:Dracula
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270213-drei-schwestern@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T190000
+DTEND;TZID=Europe/Berlin:20270213T210000
+SUMMARY:Drei Schwestern
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2254,6 +2328,91 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270214-lohengrin@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T170000
+DTEND;TZID=Europe/Berlin:20270214T190000
+SUMMARY:Lohengrin
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270214-poetry-slam-dead-alive@myeventhub.d
+ e
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T180000
+DTEND;TZID=Europe/Berlin:20270214T200000
+SUMMARY:Poetry Slam – Dead & Alive
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270215-der-zerbrochne-krug@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270215T190000
+DTEND;TZID=Europe/Berlin:20270215T210000
+SUMMARY:Der zerbrochne Krug
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270216-der-zerbrochne-krug@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T110000
+DTEND;TZID=Europe/Berlin:20270216T130000
+SUMMARY:Der zerbrochne Krug
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270216-woyzeck@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T193000
+DTEND;TZID=Europe/Berlin:20270216T213000
+SUMMARY:Woyzeck
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270217-die-welle@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T190000
+DTEND;TZID=Europe/Berlin:20270217T210000
+SUMMARY:Die Welle
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270217-die-tote-stadt@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T193000
+DTEND;TZID=Europe/Berlin:20270217T213000
+SUMMARY:Die tote Stadt
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-jakobus-theater-20270217-der-rote-faecher@myeventhub.de
 DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20270217T200000
@@ -2263,6 +2422,42 @@ LOCATION:Jakobus-Theater\, Kaiserallee 11\, 76133 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://jakobus-theater.de/programm
 URL:https://jakobus-theater.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270218-die-welle@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T100000
+DTEND;TZID=Europe/Berlin:20270218T120000
+SUMMARY:Die Welle
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270218-faramondo@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T180000
+DTEND;TZID=Europe/Berlin:20270218T200000
+SUMMARY:Faramondo
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270218-die-physiker@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T190000
+DTEND;TZID=Europe/Berlin:20270218T210000
+SUMMARY:Die Physiker
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2290,6 +2485,30 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270219-die-physiker@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T100000
+DTEND;TZID=Europe/Berlin:20270219T120000
+SUMMARY:Die Physiker
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270219-drei-schwestern@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T190000
+DTEND;TZID=Europe/Berlin:20270219T210000
+SUMMARY:Drei Schwestern
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-jakobus-theater-20270219-der-rote-faecher@myeventhub.de
 DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20270219T200000
@@ -2314,6 +2533,31 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270220-faramondo@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T160000
+DTEND;TZID=Europe/Berlin:20270220T180000
+SUMMARY:Faramondo
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270220-das-maedchen-aus-der-streichholzfab
+ rik@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T183000
+DTEND;TZID=Europe/Berlin:20270220T203000
+SUMMARY:Das Mädchen aus der Streichholzfabrik
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-jakobus-theater-20270220-der-rote-faecher@myeventhub.de
 DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20270220T200000
@@ -2323,6 +2567,42 @@ LOCATION:Jakobus-Theater\, Kaiserallee 11\, 76133 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://jakobus-theater.de/programm
 URL:https://jakobus-theater.de/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270221-macbeth@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T160000
+DTEND;TZID=Europe/Berlin:20270221T180000
+SUMMARY:Macbeth
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270221-faramondo@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T180000
+DTEND;TZID=Europe/Berlin:20270221T200000
+SUMMARY:Faramondo
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270224-souvenir@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270224T193000
+DTEND;TZID=Europe/Berlin:20270224T213000
+SUMMARY:Souvenir
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2338,6 +2618,32 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270226-das-verraeterische-herz@myeventhub.
+ de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T180000
+DTEND;TZID=Europe/Berlin:20270226T200000
+SUMMARY:Das verräterische Herz
+LOCATION:Insel
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270226-der-graf-von-monte-christo@myeventh
+ ub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T193000
+DTEND;TZID=Europe/Berlin:20270226T213000
+SUMMARY:Der Graf von Monte Christo
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-tollhaus-20270226-ralph-ruthe@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20270226T200000
@@ -2347,6 +2653,30 @@ LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://tickets.tollhaus.de/catalog/articles
 URL:https://tickets.tollhaus.de/catalog/articles
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270227-faramondo@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T180000
+DTEND;TZID=Europe/Berlin:20270227T200000
+SUMMARY:Faramondo
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270227-the-boys-are-kissing@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T183000
+DTEND;TZID=Europe/Berlin:20270227T203000
+SUMMARY:The boys are kissing
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2362,6 +2692,78 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270228-floridante@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T170000
+DTEND;TZID=Europe/Berlin:20270228T190000
+SUMMARY:Floridante
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270228-drei-schwestern@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T183000
+DTEND;TZID=Europe/Berlin:20270228T203000
+SUMMARY:Drei Schwestern
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/februar/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/februar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270302-floridante@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270302T180000
+DTEND;TZID=Europe/Berlin:20270302T200000
+SUMMARY:Floridante
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270303-1984-2052@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T193000
+DTEND;TZID=Europe/Berlin:20270303T213000
+SUMMARY:1984 / 2052
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270304-faramondo@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T180000
+DTEND;TZID=Europe/Berlin:20270304T200000
+SUMMARY:Faramondo
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270304-woyzeck@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T193000
+DTEND;TZID=Europe/Berlin:20270304T213000
+SUMMARY:Woyzeck
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-tollhaus-20270304-luca-vasta@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20270304T200000
@@ -2371,6 +2773,30 @@ LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://tickets.tollhaus.de/catalog/articles
 URL:https://tickets.tollhaus.de/catalog/articles
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270305-floridante@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T180000
+DTEND;TZID=Europe/Berlin:20270305T200000
+SUMMARY:Floridante
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270305-drei-schwestern@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T190000
+DTEND;TZID=Europe/Berlin:20270305T210000
+SUMMARY:Drei Schwestern
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2386,6 +2812,18 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270306-liebe-ein-aufruf@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T160000
+DTEND;TZID=Europe/Berlin:20270306T180000
+SUMMARY:Liebe! Ein Aufruf
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-tollhaus-20270306-friedemann-weise@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20270306T200000
@@ -2395,6 +2833,30 @@ LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://tickets.tollhaus.de/catalog/articles
 URL:https://tickets.tollhaus.de/catalog/articles
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270307-macbeth@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T183000
+DTEND;TZID=Europe/Berlin:20270307T203000
+SUMMARY:Macbeth
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270307-floridante@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T190000
+DTEND;TZID=Europe/Berlin:20270307T210000
+SUMMARY:Floridante
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2410,6 +2872,55 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270310-man-kann-auch-in-die-hoehe-fallen@m
+ yeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270310T193000
+DTEND;TZID=Europe/Berlin:20270310T213000
+SUMMARY:Man kann auch in die Höhe fallen
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270311-les-boreades@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270311T190000
+DTEND;TZID=Europe/Berlin:20270311T210000
+SUMMARY:Les Boréades
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270312-das-prinzip-hoffnung@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T190000
+DTEND;TZID=Europe/Berlin:20270312T210000
+SUMMARY:Das Prinzip Hoffnung
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270312-dracula@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T193000
+DTEND;TZID=Europe/Berlin:20270312T213000
+SUMMARY:Dracula
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-tollhaus-20270312-christoph-sieber@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20270312T200000
@@ -2422,6 +2933,43 @@ URL:https://tickets.tollhaus.de/catalog/articles
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270313-drei-schwestern@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T183000
+DTEND;TZID=Europe/Berlin:20270313T203000
+SUMMARY:Drei Schwestern
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270313-la-traviata@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T190000
+DTEND;TZID=Europe/Berlin:20270313T210000
+SUMMARY:La Traviata
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270314-das-maedchen-aus-der-streichholzfab
+ rik@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270314T160000
+DTEND;TZID=Europe/Berlin:20270314T180000
+SUMMARY:Das Mädchen aus der Streichholzfabrik
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ka-tollhaus-20270314-luise-kinseher@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20270314T190000
@@ -2431,6 +2979,212 @@ LOCATION:Kulturzentrum Tollhaus\, Alter Schlachthof 35\, 76131 Karlsruhe
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://tickets.tollhaus.de/catalog/articles
 URL:https://tickets.tollhaus.de/catalog/articles
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270317-the-boys-are-kissing@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270317T193000
+DTEND;TZID=Europe/Berlin:20270317T213000
+SUMMARY:The boys are kissing
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270318-dracula@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270318T193000
+DTEND;TZID=Europe/Berlin:20270318T213000
+SUMMARY:Dracula
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270319-la-traviata@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270319T193000
+DTEND;TZID=Europe/Berlin:20270319T213000
+SUMMARY:La Traviata
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270320-die-tote-stadt@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T160000
+DTEND;TZID=Europe/Berlin:20270320T180000
+SUMMARY:Die tote Stadt
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270320-deutsches-krankes-haus@myeventhub.d
+ e
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T190000
+DTEND;TZID=Europe/Berlin:20270320T210000
+SUMMARY:Deutsches Krankes Haus
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270321-lohengrin@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T160000
+DTEND;TZID=Europe/Berlin:20270321T180000
+SUMMARY:Lohengrin
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270321-1984-2052@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270321T190000
+DTEND;TZID=Europe/Berlin:20270321T210000
+SUMMARY:1984 / 2052
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270323-tanz-a-la-carte@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270323T193000
+DTEND;TZID=Europe/Berlin:20270323T213000
+SUMMARY:Tanz à la carte
+LOCATION:Neues Entrée
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270324-les-boreades@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270324T190000
+DTEND;TZID=Europe/Berlin:20270324T210000
+SUMMARY:Les Boréades
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270325-dracula@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270325T190000
+DTEND;TZID=Europe/Berlin:20270325T210000
+SUMMARY:Dracula
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270325-souvenir@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270325T193000
+DTEND;TZID=Europe/Berlin:20270325T213000
+SUMMARY:Souvenir
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270326-die-tote-stadt@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T180000
+DTEND;TZID=Europe/Berlin:20270326T200000
+SUMMARY:Die tote Stadt
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270326-macbeth@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270326T183000
+DTEND;TZID=Europe/Berlin:20270326T203000
+SUMMARY:Macbeth
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270327-the-boys-are-kissing@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270327T183000
+DTEND;TZID=Europe/Berlin:20270327T203000
+SUMMARY:The boys are kissing
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270327-dracula@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270327T190000
+DTEND;TZID=Europe/Berlin:20270327T210000
+SUMMARY:Dracula
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270328-deutsches-krankes-haus@myeventhub.d
+ e
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270328T160000
+DTEND;TZID=Europe/Berlin:20270328T180000
+SUMMARY:Deutsches Krankes Haus
+LOCATION:Kleines Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ka-badisches-staatstheater-20270328-lohengrin@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270328T170000
+DTEND;TZID=Europe/Berlin:20270328T190000
+SUMMARY:Lohengrin
+LOCATION:Großes Haus
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.staatstheater-karlsruhe.de/spielplan/maerz/
+URL:https://www.staatstheater-karlsruhe.de/spielplan/maerz/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

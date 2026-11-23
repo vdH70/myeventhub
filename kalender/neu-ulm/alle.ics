@@ -28,45 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:nu-edwin-scharff-haus-20261122-komm-spiel-mit@myeventhub.de
-DTSTAMP:20261121T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T110000
-DTEND;TZID=Europe/Berlin:20261122T130000
-SUMMARY:Komm\, spiel mit!
-LOCATION:Großer Saal
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://edwin-scharff-haus.de/events/category/november-26/
-URL:https://edwin-scharff-haus.de/events/category/november-26/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:nu-edwin-scharff-museum-20261122-kunsthistorischer-rundgang@myeventhub.
- de
-DTSTAMP:20261122T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T113000
-DTEND;TZID=Europe/Berlin:20261122T133000
-SUMMARY:Kunsthistorischer Rundgang
-LOCATION:Edwin Scharff Museum\, Petrusplatz 4\, 89231 Neu-Ulm
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://edwinscharffmuseum.de/veranstaltungskalender/
-URL:https://edwinscharffmuseum.de/veranstaltungskalender/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:nu-theater-neu-ulm-20261122-1600-hach-bin-ich-heute-wieder-ein-schelm@m
- yeventhub.de
-DTSTAMP:20261121T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T160000
-DTEND;TZID=Europe/Berlin:20261122T180000
-SUMMARY:Hach\, bin ich heute wieder ein Schelm
-LOCATION:Theater Neu-Ulm\, Hermann-Köhl-Straße 3\, 89231 Neu-Ulm
-DESCRIPTION:Komödie oder Schauspiel im Privattheater Theater Neu-Ulm.\nEnd
- e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
- ps://www.theater-neu-ulm.de/cmsroot/spielplan/
-URL:https://www.theater-neu-ulm.de/cmsroot/spielplan/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:nu-theater-neu-ulm-20261127-1900-hach-bin-ich-heute-wieder-ein-schelm@m
  yeventhub.de
 DTSTAMP:20261121T000000Z
@@ -314,15 +275,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nu-edwin-scharff-haus-20261213-1100-kinderballett-der-nussknacker@myeve
  nthub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261213T110000
 DTEND;TZID=Europe/Berlin:20261213T130000
-SUMMARY:Kinderballett „Der Nussknacker“
+SUMMARY:ABGESAGT: Kinderballett „Der Nussknacker“
 LOCATION:Großer Saal
 DESCRIPTION:Familienvorstellung im Edwin-Scharff-Haus Neu-Ulm.\nEnde: laut 
  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://edw
  in-scharff-haus.de/events/category/dezember-26/
 URL:https://edwin-scharff-haus.de/events/category/dezember-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Kinderballett „Der Nussknacker“ am 13.12.2026 (la
+ ut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261124T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1169,6 +1136,21 @@ URL:https://www.theater-neu-ulm.de/cmsroot/spielplan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:nu-ratiopharm-arena-20270304-ratiopharm-ulm-basketball-loewen-braunschw
+ eig@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T183000
+DTEND;TZID=Europe/Berlin:20270304T203000
+SUMMARY:ratiopharm ulm – Basketball Löwen Braunschweig
+LOCATION:ratiopharm arena\, Europastraße 25\, 89231 Neu-Ulm
+DESCRIPTION:easyCredit BBL\, 23. Spieltag.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://ratiopharmulm.com/spiel
+ plan-ergebnisse-ratiopharm-ulm/spielplan/
+URL:https://ratiopharmulm.com/spielplan-ergebnisse-ratiopharm-ulm/spielplan
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:nu-theater-neu-ulm-20270305-weiber-2-0@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20270305T190000
@@ -1215,6 +1197,20 @@ LOCATION:Theater Neu-Ulm\, Hermann-Köhl-Straße 3\, 89231 Neu-Ulm
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://www.theater-neu-ulm.de/cmsroot/spielplan/
 URL:https://www.theater-neu-ulm.de/cmsroot/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-ratiopharm-arena-20270313-ratiopharm-ulm-alba-berlin@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T183000
+DTEND;TZID=Europe/Berlin:20270313T203000
+SUMMARY:ratiopharm ulm – ALBA BERLIN
+LOCATION:ratiopharm arena\, Europastraße 25\, 89231 Neu-Ulm
+DESCRIPTION:easyCredit BBL\, 25. Spieltag.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://ratiopharmulm.com/spiel
+ plan-ergebnisse-ratiopharm-ulm/spielplan/
+URL:https://ratiopharmulm.com/spielplan-ergebnisse-ratiopharm-ulm/spielplan
+ /
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1307,6 +1303,20 @@ URL:https://edwinscharffmuseum.de/veranstaltungskalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:nu-ratiopharm-arena-20270328-ratiopharm-ulm-phoenix-hagen@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270328T150000
+DTEND;TZID=Europe/Berlin:20270328T170000
+SUMMARY:ratiopharm ulm – Phoenix Hagen
+LOCATION:ratiopharm arena\, Europastraße 25\, 89231 Neu-Ulm
+DESCRIPTION:easyCredit BBL\, 27. Spieltag.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://ratiopharmulm.com/spiel
+ plan-ergebnisse-ratiopharm-ulm/spielplan/
+URL:https://ratiopharmulm.com/spielplan-ergebnisse-ratiopharm-ulm/spielplan
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:nu-edwin-scharff-museum-20270330-museum-im-tragetuch@myeventhub.de
 DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Berlin:20270330T100000
@@ -1346,6 +1356,21 @@ URL:https://edwinscharffmuseum.de/veranstaltungskalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:nu-ratiopharm-arena-20270410-ratiopharm-ulm-skyliners-frankfurt@myevent
+ hub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T183000
+DTEND;TZID=Europe/Berlin:20270410T203000
+SUMMARY:ratiopharm ulm – SKYLINERS Frankfurt
+LOCATION:ratiopharm arena\, Europastraße 25\, 89231 Neu-Ulm
+DESCRIPTION:easyCredit BBL\, 29. Spieltag.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://ratiopharmulm.com/spiel
+ plan-ergebnisse-ratiopharm-ulm/spielplan/
+URL:https://ratiopharmulm.com/spielplan-ergebnisse-ratiopharm-ulm/spielplan
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:nu-edwin-scharff-museum-20270416-bunt-ist-meine-lieblingsfarbe@myeventh
  ub.de
 DTSTAMP:20261031T000000Z
@@ -1357,6 +1382,51 @@ DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 8 €\nQuelle (bitte
  vor dem Besuch prüfen): https://edwinscharffmuseum.de/veranstaltungskalen
  der/
 URL:https://edwinscharffmuseum.de/veranstaltungskalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-ratiopharm-arena-20270424-ratiopharm-ulm-rostock-seawolves@myeventhu
+ b.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270424T183000
+DTEND;TZID=Europe/Berlin:20270424T203000
+SUMMARY:ratiopharm ulm – ROSTOCK SEAWOLVES
+LOCATION:ratiopharm arena\, Europastraße 25\, 89231 Neu-Ulm
+DESCRIPTION:easyCredit BBL\, 31. Spieltag.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://ratiopharmulm.com/spiel
+ plan-ergebnisse-ratiopharm-ulm/spielplan/
+URL:https://ratiopharmulm.com/spielplan-ergebnisse-ratiopharm-ulm/spielplan
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-ratiopharm-arena-20270430-ratiopharm-ulm-fc-bayern-muenchen-basketba
+ ll@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270430T200000
+DTEND;TZID=Europe/Berlin:20270430T220000
+SUMMARY:ratiopharm ulm – FC Bayern München Basketball
+LOCATION:ratiopharm arena\, Europastraße 25\, 89231 Neu-Ulm
+DESCRIPTION:easyCredit BBL\, 32. Spieltag.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://ratiopharmulm.com/spiel
+ plan-ergebnisse-ratiopharm-ulm/spielplan/
+URL:https://ratiopharmulm.com/spielplan-ergebnisse-ratiopharm-ulm/spielplan
+ /
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nu-ratiopharm-arena-20270505-ratiopharm-ulm-syntainics-mbc@myeventhub.d
+ e
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20270505T183000
+DTEND;TZID=Europe/Berlin:20270505T203000
+SUMMARY:ratiopharm ulm – SYNTAINICS MBC
+LOCATION:ratiopharm arena\, Europastraße 25\, 89231 Neu-Ulm
+DESCRIPTION:easyCredit BBL\, 33. Spieltag.\nEnde: laut Quelle nicht angegeb
+ en\nQuelle (bitte vor dem Besuch prüfen): https://ratiopharmulm.com/spiel
+ plan-ergebnisse-ratiopharm-ulm/spielplan/
+URL:https://ratiopharmulm.com/spielplan-ergebnisse-ratiopharm-ulm/spielplan
+ /
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

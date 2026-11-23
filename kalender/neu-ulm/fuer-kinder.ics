@@ -28,18 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:nu-edwin-scharff-haus-20261122-komm-spiel-mit@myeventhub.de
-DTSTAMP:20261121T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T110000
-DTEND;TZID=Europe/Berlin:20261122T130000
-SUMMARY:Komm\, spiel mit!
-LOCATION:Großer Saal
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://edwin-scharff-haus.de/events/category/november-26/
-URL:https://edwin-scharff-haus.de/events/category/november-26/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:nu-edwin-scharff-haus-20261129-1500-die-schoene-und-das-biest@myeventhu
  b.de
 DTSTAMP:20261121T000000Z
@@ -84,15 +72,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nu-edwin-scharff-haus-20261213-1100-kinderballett-der-nussknacker@myeve
  nthub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261213T110000
 DTEND;TZID=Europe/Berlin:20261213T130000
-SUMMARY:Kinderballett „Der Nussknacker“
+SUMMARY:ABGESAGT: Kinderballett „Der Nussknacker“
 LOCATION:Großer Saal
 DESCRIPTION:Familienvorstellung im Edwin-Scharff-Haus Neu-Ulm.\nEnde: laut 
  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://edw
  in-scharff-haus.de/events/category/dezember-26/
 URL:https://edwin-scharff-haus.de/events/category/dezember-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Kinderballett „Der Nussknacker“ am 13.12.2026 (la
+ ut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261124T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

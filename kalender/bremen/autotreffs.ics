@@ -10,37 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:hb-schuppen-eins-20261122-teile-und-zubehoerflohmarkt@myeventhub.de
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T090000
-DTEND;TZID=Europe/Berlin:20261122T110000
-SUMMARY:Teile- und Zubehörflohmarkt
-LOCATION:Schuppen Eins\, Konsul-Smidt-Straße 20-26\, 28217 Bremen
-DESCRIPTION:Flohmarkt für Auto- und Motorradteile\, Zubehör und Werkzeug.
- \nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte v
- or dem Besuch prüfen): https://schuppeneins.de/termine/teile-und-zubehoer
- flohmarkt-2/
-URL:https://schuppeneins.de/termine/teile-und-zubehoerflohmarkt-2/
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:oevb-arena-20270205-bremen-classic-motorshow-beginn@myeventhub.de
 DTSTAMP:20261011T000000Z

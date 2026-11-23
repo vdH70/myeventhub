@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:wob-staedtische-galerie-20260905-welcome-ende@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -64,21 +47,6 @@ LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
 DESCRIPTION:Laufzeit: 23.10.2026 bis 31.12.2026\nQuelle (bitte vor dem Besu
  ch prüfen): https://staedtische-galerie-wolfsburg.de/ausstellungen/
 URL:https://staedtische-galerie-wolfsburg.de/ausstellungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:wob-staedtische-galerie-20261122-workshop-druckgrafik-fuer-erwachsene@m
- yeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261122T140000
-DTEND;TZID=Europe/Berlin:20261122T160000
-SUMMARY:Workshop Druckgrafik für Erwachsene
-LOCATION:Städtische Galerie Wolfsburg (Schloss Wolfsburg)\, Schlossstraße
-  8\, 38448 Wolfsburg
-DESCRIPTION:Workshop von 14 bis 17 Uhr.\nEnde: laut Quelle nicht angegeben\
- nQuelle (bitte vor dem Besuch prüfen): https://staedtische-galerie-wolfsb
- urg.de/veranstaltungen/
-URL:https://staedtische-galerie-wolfsburg.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
