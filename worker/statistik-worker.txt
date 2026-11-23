@@ -5,6 +5,7 @@
 // 16.11.2026 (Thomas „Ja, mit Schutzregeln“): Suchbegriffe der eigenen Suche ohne Personenbezug, ohne Zahlenfolgen ab 4 Ziffern/E-Mail/Links,
 //   höchstens 60 Zeichen, Anzeige nur ab 2 Suchen, Löschung nach 90 Tagen.
 // 16.11.2026: Klicks auf Reiter und Links (Ziel als Sammelname bzw. Website+Pfad ohne ?…) werden gezählt – ebenfalls ohne Bezug zu Personen.
+// 23.11.2026: Verweildauer – je Seitenaufruf nur die Sekunden, die die Seite sichtbar war (ohne Kennung, nicht mit anderen Aufrufen verknüpft).
 // Einrichtung: D1-Datenbank als Bindung „DB“, Geheimnis „STAT_KENNWORT“ (siehe ANLEITUNG-Statistik.md).
 //   POST /h    Zählaufruf der Website (Text-JSON {e: 1 = neuer Besuch, 0 = weitere Seite, p: Seite, r: Herkunfts-Hostname})
 //   POST /api  Auswertung für www.myeventhub.de/statistik/ (Kopfzeile Authorization: Bearer <Kennwort>)
@@ -29,6 +30,7 @@ async function setup(env) {
   await env.DB.batch([
     env.DB.prepare('CREATE TABLE IF NOT EXISTS zaehler (id INTEGER PRIMARY KEY, besuch INTEGER)'),
     env.DB.prepare('CREATE TABLE IF NOT EXISTS fails (id INTEGER PRIMARY KEY)'),
+    env.DB.prepare('CREATE TABLE IF NOT EXISTS dauer (id INTEGER PRIMARY KEY, seite TEXT, sek INTEGER)'),
     env.DB.prepare('CREATE TABLE IF NOT EXISTS suche (id INTEGER PRIMARY KEY, feld TEXT, begriff TEXT)'),
     env.DB.prepare('CREATE TABLE IF NOT EXISTS klicks (id INTEGER PRIMARY KEY, seite TEXT, ziel TEXT)'),
   ]);
@@ -54,6 +56,7 @@ async function hit(ua, body, env) {
   let d; try { d = JSON.parse(body.slice(0, 600)); } catch { return; }
   if (d.k) return klick(d, env);
   if (d.s) return suche(d, env);
+  if (d.v) return dauer(d, env);
   let seite = String(d.p || '/').split(/[?#]/)[0].slice(0, 200);
   try { seite = decodeURI(seite); } catch (e) {}
   if (!seite.startsWith('/')) seite = '/';
@@ -69,6 +72,14 @@ function sauber(t) { // Schutzregeln
   t = String(t || '').toLowerCase().replace(/[\u0000-\u001f<>"]/g, ' ').replace(/\s+/g, ' ').trim();
   if (t.length < 2 || t.length > 60 || /@|https?:|www\.|\d{4,}|\d[\d\s\/-]{6,}/.test(t)) return '';
   return t;
+}
+async function dauer(d, env) {
+  const sek = Math.round(+d.v);
+  let seite = String(d.p || '/').split(/[?#]/)[0].slice(0, 200);
+  try { seite = decodeURI(seite); } catch (e) {}
+  if (!(sek >= 1 && sek <= 1800) || !seite.startsWith('/') || seite.startsWith('/statistik')) return;
+  await setup(env);
+  await env.DB.prepare('INSERT OR IGNORE INTO dauer (id, seite, sek) VALUES (?, ?, ?)').bind(stamp(), seite, sek).run();
 }
 async function suche(d, env) {
   const begriff = sauber(d.s), feld = FELDER.has(d.f) ? d.f : 'Suche';
@@ -170,15 +181,19 @@ async function api(request, env) {
   for (const r of su) { const day = dayOf.format(new Date(Math.floor(r.id / 1000))); if (day < first || !perDay[day]) continue; sucheN++; add(such, r.feld + '\u0001' + r.begriff); }
   const suchbegriffe = Object.entries(such).filter(x => x[1] >= 2).sort((a, b) => b[1] - a[1]).slice(0, 100).map(([k, n]) => [...k.split('\u0001'), n]);
   let google = null; try { google = await gsc(env, first, today); } catch (e) { google = { fehler: String(e && e.message || e) }; }
+  const du = (await env.DB.prepare('SELECT id, seite, sek FROM dauer WHERE id >= ?').bind((now - (days + 2) * 86400e3) * 1000).all()).results;
+  let sekSum = 0; const sekSeite = {};
+  for (const r of du) { const day = dayOf.format(new Date(Math.floor(r.id / 1000))); if (day < first || !perDay[day]) continue; sekSum += r.sek; sekSeite[r.seite] = (sekSeite[r.seite] || 0) + r.sek; }
   const top = (o, n) => Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, n);
   await env.DB.batch([ // aufräumen
     env.DB.prepare('DELETE FROM zaehler WHERE id < ?').bind((now - KEEP_DAYS * 86400e3) * 1000),
+    env.DB.prepare('DELETE FROM dauer WHERE id < ?').bind((now - KEEP_DAYS * 86400e3) * 1000),
     env.DB.prepare('DELETE FROM suche WHERE id < ?').bind((now - 90 * 86400e3) * 1000),
     env.DB.prepare('DELETE FROM klicks WHERE id < ?').bind((now - KEEP_DAYS * 86400e3) * 1000),
     env.DB.prepare('DELETE FROM fails WHERE id < ?').bind((now - 86400e3) * 1000),
   ]);
   return { status: 200, body: { tage: days, von: first, bis: today, aufrufe: views, besuche: visits,
-    jeTag: Object.entries(perDay).sort(), seiten: top(seiten, 50), herkunft: top(herkunft, 20), klicks: top(klicks, 60), klicksN, suchbegriffe, sucheN, google, stand: new Date(now).toISOString() } };
+    jeTag: Object.entries(perDay).sort(), seiten: top(seiten, 50).map(([k, n]) => [k, n, sekSeite[k] ? Math.round(sekSeite[k] / n) : null]), sekSum, sekAufrufe: du.length ? views : 0, herkunft: top(herkunft, 20), klicks: top(klicks, 60), klicksN, suchbegriffe, sucheN, google, stand: new Date(now).toISOString() } };
 }
 
 export default {

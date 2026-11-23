@@ -30,6 +30,16 @@
     if (/(^|\.)outlook\.(live|office)\.com$/.test(host)) return 'Outlook-Kalender';
     return (host + u.pathname).slice(0, 160);
   }
+  // Verweildauer (Thomas 23.11.2026): Sekunden, die diese Seite sichtbar war; beim Verlassen/Wegschalten gesendet, ohne Kennung
+  var sicht = document.visibilityState === 'visible' ? Date.now() : 0, gesamt = 0, gesendet = 0;
+  function dauer() {
+    if (sicht) { gesamt += Date.now() - sicht; sicht = 0; }
+    var sek = Math.round(gesamt / 1000) - gesendet; if (sek < 1) return;
+    gesendet += sek;
+    try { navigator.sendBeacon && navigator.sendBeacon(W + '/h', JSON.stringify({ v: Math.min(sek, 1800), p: location.pathname })); } catch (x) {}
+  }
+  document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') dauer(); else sicht = Date.now(); });
+  window.addEventListener('pagehide', dauer);
   // Suchbegriffe der eigenen Suche (Thomas 16.11.2026 „Ja, mit Schutzregeln“): ohne Zahlenfolgen ab 4 Ziffern, E-Mail, Links; je Seitenaufruf jeder Begriff nur einmal
   var FELD = { kisq: 'Suche mit KI', ortin: 'Ort', q: 'Suche', ftwas: 'Was', ftwo: 'Wo', ftwann: 'Wann', locc: 'Locations', kisgeoin: 'Nähe-Ort', kiq: 'KI' }, schon = {};
   function such(inp) {
