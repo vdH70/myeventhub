@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:el-kunstzentrum-koppelschleuse-20261030-tack-tack-tack-ende@myeventhub.
  de
@@ -22,6 +39,63 @@ LOCATION:Kunstzentrum Koppelschleuse (Meppener Kunstkreis)\, An der Koppels
 DESCRIPTION:Laufzeit: 30.10.2026 bis 18.1.2027\nQuelle (bitte vor dem Besuc
  h prüfen): https://www.meppener-kunstkreis.de/
 URL:https://www.meppener-kunstkreis.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-kunstzentrum-koppelschleuse-20261030-tack-tack-tack-malerei-der-klas
+ se-voelker-der-kuns-ende@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Letzter Tag: TACK TACK TACK - Malerei der Klasse Völker der Kunsta
+ kademie Münster
+LOCATION:Kunstzentrum Koppelschleuse (Meppener Kunstkreis)\, An der Koppels
+ chleuse 19\, 49716 Meppen
+DESCRIPTION:Ausstellung mit Malerei der Klasse Völker der Kunstakademie M
+ ünster.\nLaufzeit: 30.10.2026 bis 17.1.2027\nQuelle (bitte vor dem Besuch
+  prüfen): https://koppelschleuse-meppen.de/
+URL:https://koppelschleuse-meppen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-kunstzentrum-koppelschleuse-20261124-1900-boot-un-dood-filmabend-op-
+ platt@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T190000
+DTEND;TZID=Europe/Berlin:20261124T210000
+SUMMARY:Boot un' Dood - Filmabend op Platt
+LOCATION:Kunstzentrum Koppelschleuse (Meppener Kunstkreis)\, An der Koppels
+ chleuse 19\, 49716 Meppen
+DESCRIPTION:Filmabend op Platt im Kulturnetzwerk Koppelschleuse.\nEnde: lau
+ t Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://k
+ oppelschleuse-meppen.de/
+URL:https://koppelschleuse-meppen.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-jam-meppen-20270216-fotoabend-heimatverein-tag-1@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:Fotoabend Heimatverein (Tag 1)
+LOCATION:JAM Meppen (Jugend- und Kulturzentrum)\, An der Bleiche 3\, 49716 
+ Meppen
+DESCRIPTION:Fotoabend eines Heimatvereins im JAM Meppen.\nQuelle (bitte vor
+  dem Besuch prüfen): https://jam-meppen.de/veranstaltungen/
+URL:https://jam-meppen.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:el-jam-meppen-20270217-fotoabend-heimatverein-tag-2@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Fotoabend Heimatverein (Tag 2)
+LOCATION:JAM Meppen (Jugend- und Kulturzentrum)\, An der Bleiche 3\, 49716 
+ Meppen
+DESCRIPTION:Fotoabend eines Heimatvereins im JAM Meppen.\nQuelle (bitte vor
+  dem Besuch prüfen): https://jam-meppen.de/veranstaltungen/
+URL:https://jam-meppen.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

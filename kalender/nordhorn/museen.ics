@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:noh-stadtmuseum-nordhorn-20260612-75-jahre-waspo-nordhorn-ende@myeventh
  ub.de
@@ -23,6 +40,38 @@ DESCRIPTION:Im Povelturm\, Kokenmühlenstraße 18.\nLaufzeit: 12.6.2026 bis
   18.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://stadtmuseum-no
  rdhorn.de/sonderausstellungen/
 URL:https://stadtmuseum-nordhorn.de/sonderausstellungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:noh-stadtmuseum-nordhorn-20261129-1130-bunter-baustellen-tag-im-stadtmu
+ seum@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T113000
+DTEND;TZID=Europe/Berlin:20261129T133000
+SUMMARY:Bunter Baustellen-Tag im Stadtmuseum
+LOCATION:Stadtmuseum Nordhorn (NINO-Hochbau)\, NINO-Allee 11\, 48529 Nordho
+ rn
+DESCRIPTION:Offener Aktionstag im Stadtmuseum im NINO-Hochbau\, Eintritt fr
+ ei.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitt
+ e vor dem Besuch prüfen): https://stadtmuseum-nordhorn.de/veranstaltungen
+ /
+URL:https://stadtmuseum-nordhorn.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:noh-stadtmuseum-nordhorn-20261218-1700-menschen-mode-und-maschinen-eroe
+ ffnung-der-neuen-d@myeventhub.de
+DTSTAMP:20261123T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T170000
+DTEND;TZID=Europe/Berlin:20261218T190000
+SUMMARY:Menschen\, Mode und Maschinen (Eröffnung der neuen Dauerausstellun
+ g)
+LOCATION:Stadtmuseum Nordhorn (NINO-Hochbau)\, NINO-Allee 11\, 48529 Nordho
+ rn
+DESCRIPTION:Eröffnung der neuen Dauerausstellung im Stadtmuseum Nordhorn.\
+ nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen):
+  https://stadtmuseum-nordhorn.de/veranstaltungen/
+URL:https://stadtmuseum-nordhorn.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
