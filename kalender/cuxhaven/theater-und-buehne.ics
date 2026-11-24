@@ -10,37 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:cux-stadttheater-20261123-lisa-feller@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261123T200000
-DTEND;TZID=Europe/Berlin:20261123T220000
-SUMMARY:Lisa Feller
-LOCATION:Stadttheater Cuxhaven\, Rathausstraße 21\, 27472 Cuxhaven
-DESCRIPTION:Comedy.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
- em Besuch prüfen): https://www.cuxhaven.de/_Resources/Persistent/4/4/5/a/
- 445a1502f5c24b4d6b3cbbfe2314ee8655c455fe/Spielzeit%2026-27.pdf
-URL:https://www.cuxhaven.de/_Resources/Persistent/4/4/5/a/445a1502f5c24b4d6
- b3cbbfe2314ee8655c455fe/Spielzeit%2026-27.pdf
-TRANSP:TRANSPARENT
-END:VEVENT
 BEGIN:VEVENT
 UID:cux-stadttheater-20261127-veronika-advent-ist-da@myeventhub.de
 DTSTAMP:20261107T000000Z

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Ihlow · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:aur-klosterstaette-ihlow-20261128-luechtermarkt-2026-beginn@myeventhub.
+ de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Beginn: Lüchtermarkt 2026
+LOCATION:Klosterstätte Ihlow\, Ihlow
+DESCRIPTION:Adventlicher Markt auf der Klosterstätte\, an beiden Tagen 11:
+ 00 bis 19:00 Uhr.\nLaufzeit: 28.11.2026 bis 29.11.2026\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.kloster-ihlow.de/aktuelles/nachricht/luec
+ htermarkt-2026
+URL:https://www.kloster-ihlow.de/aktuelles/nachricht/luechtermarkt-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aur-klosterstaette-ihlow-20261128-luechtermarkt-2026-ende@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Letzter Tag: Lüchtermarkt 2026
+LOCATION:Klosterstätte Ihlow\, Ihlow
+DESCRIPTION:Adventlicher Markt auf der Klosterstätte\, an beiden Tagen 11:
+ 00 bis 19:00 Uhr.\nLaufzeit: 28.11.2026 bis 29.11.2026\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.kloster-ihlow.de/aktuelles/nachricht/luec
+ htermarkt-2026
+URL:https://www.kloster-ihlow.de/aktuelles/nachricht/luechtermarkt-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

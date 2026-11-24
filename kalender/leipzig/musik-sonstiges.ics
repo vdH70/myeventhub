@@ -28,19 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:l-taeubchenthal-20261123-2000-leap@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261123T200000
-DTEND;TZID=Europe/Berlin:20261123T220000
-SUMMARY:Leap
-LOCATION:Täubchenthal\, Wachsmuthstraße 1\, 04229 Leipzig
-DESCRIPTION:Konzert im Täubchenthal in Plagwitz.\nEnde: laut Quelle nicht 
- angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.taeubchentha
- l.com/programm
-URL:https://www.taeubchenthal.com/programm
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:l-felsenkeller-20261124-yaris@myeventhub.de
 DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Berlin:20261124T200000
@@ -68,7 +55,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:l-kupfersaal-20261126-2000-weihnachten-mit-lalelu@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261126T200000
 DTEND;TZID=Europe/Berlin:20261126T220000
 SUMMARY:Weihnachten mit Lalelu
@@ -77,6 +64,19 @@ DESCRIPTION:Konzert im Kupfersaal in der Innenstadt.\nEnde: laut Quelle nic
  ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://kupfersaal.de
  /
 URL:https://kupfersaal.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-nato-20261127-5raumfenster@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+DTEND;TZID=Europe/Berlin:20261127T220000
+SUMMARY:5raumfenster
+LOCATION:naTo (Spielort der Cinémathèque Leipzig)\, Karl-Liebknecht-Stra
+ ße 46\, 04275 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://nato-leipzig.de/programm/
+URL:https://nato-leipzig.de/programm/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -147,6 +147,18 @@ URL:https://www.felsenkeller-leipzig.com/programm/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:l-horns-erben-20261202-flo-jere-present-binary-boy@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+DTEND;TZID=Europe/Berlin:20261202T220000
+SUMMARY:Flo & Jere present: Binary Boy
+LOCATION:Horns Erben\, Arndtstraße 33\, 04275 Leipzig
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://horns-erben.de/veranstaltungen
+URL:https://horns-erben.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:l-neues-schauspiel-20261206-1800-lydia-melange-demian@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Berlin:20261206T180000
@@ -162,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:l-kupfersaal-20261208-2000-german-gents-the-colours-of-christmas@myeven
  thub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261208T200000
 DTEND;TZID=Europe/Berlin:20261208T220000
 SUMMARY:German Gents – The Colours of Christmas

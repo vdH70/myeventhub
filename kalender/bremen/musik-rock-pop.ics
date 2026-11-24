@@ -28,19 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:meisenfrei-20261123-number-one-band@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261123T200000
-DTEND;TZID=Europe/Berlin:20261123T220000
-SUMMARY:Number One Band
-LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
-DESCRIPTION:50's & 80's Cover\, Bremen\nEnde: laut Quelle nicht angegeben\n
- Preis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.m
- eisenfrei.de/programm.htm
-URL:https://www.meisenfrei.de/programm.htm
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:hb-uni-theatersaal-20261124-at-last-songs-nach-arrangements-von-eva-cas
  sidy@myeventhub.de
 DTSTAMP:20261118T000000Z
@@ -75,15 +62,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261125-die-stehpisser@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261125T200000
 DTEND;TZID=Europe/Berlin:20261125T220000
-SUMMARY:Die Stehpisser
+SUMMARY:ABGESAGT: Die Stehpisser
 LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
 DESCRIPTION:Garage Rock & Country\, Bremen\nEnde: laut Quelle nicht angegeb
  en\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://w
  ww.meisenfrei.de/programm.htm
 URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Die Stehpisser am 25.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261125T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -103,7 +95,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261126-epitaph@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261126T200000
 DTEND;TZID=Europe/Berlin:20261126T220000
 SUMMARY:Epitaph
@@ -142,7 +134,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261128-a-tribute-to-johnny-cash@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T210000
 DTEND;TZID=Europe/Berlin:20261128T230000
 SUMMARY:A Tribute to Johnny Cash
@@ -155,7 +147,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261201-mojothunder@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261201T200000
 DTEND;TZID=Europe/Berlin:20261201T220000
 SUMMARY:Mojothunder
@@ -198,7 +190,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261205-stone@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261205T210000
 DTEND;TZID=Europe/Berlin:20261205T230000
 SUMMARY:Stone
@@ -212,7 +204,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hb-gustav-heinemann-buergerhaus-20261206-lalelu-weihnachten-mit-lalelu@
  myeventhub.de
-DTSTAMP:20261106T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261206T190000
 DTEND;TZID=Europe/Berlin:20261206T210000
 SUMMARY:Lalelu: Weihnachten mit Lalelu
@@ -243,7 +235,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261208-touch-of-funk@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261208T200000
 DTEND;TZID=Europe/Berlin:20261208T220000
 SUMMARY:Touch Of Funk

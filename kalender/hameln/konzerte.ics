@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:hm-sumpfblume-20261125-das-78-hamelner-rudelsingen-mit-simon-broeker-un
  d@myeventhub.de
@@ -56,6 +73,20 @@ URL:https://sumpfblume.de/aktuelles/veranstaltung/musik-fuer-die-seele-ein-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hm-marktkirche-st-nicolai-20261212-1800-johann-sebastian-bach-weihnacht
+ soratorium-kantaten@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T180000
+DTEND;TZID=Europe/Berlin:20261212T200000
+SUMMARY:Johann Sebastian Bach: Weihnachtsoratorium (Kantaten I bis III)
+LOCATION:Marktkirche St. Nicolai Hameln\, 31785 Hameln
+DESCRIPTION:Mitsingkonzert der Hamelner Kantorei in der Marktkirche.\nEnde:
+  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
+ ://www.hamelner-kantorei.de/
+URL:https://www.hamelner-kantorei.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:hm-sumpfblume-20261212-eisfabrik-jahresabschlusskonzert-2026@myeventhub
  .de
 DTSTAMP:20261107T000000Z
@@ -69,6 +100,20 @@ DESCRIPTION:Jahresabschlusskonzert von Eisfabrik mit Orange Sector und Dest
  est-orange-sector-destroy-me-again/
 URL:https://sumpfblume.de/aktuelles/veranstaltung/eisfabrik-jahresabschluss
  konzert-2026-special-guest-orange-sector-destroy-me-again/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-marktkirche-st-nicolai-20261213-1700-johann-sebastian-bach-weihnacht
+ soratorium-kantaten@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+SUMMARY:Johann Sebastian Bach: Weihnachtsoratorium (Kantaten I bis III)
+LOCATION:Marktkirche St. Nicolai Hameln\, 31785 Hameln
+DESCRIPTION:Oratorienkonzert der Hamelner Kantorei in der Marktkirche.\nEnd
+ e: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): htt
+ ps://www.hamelner-kantorei.de/
+URL:https://www.hamelner-kantorei.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -142,6 +187,20 @@ DESCRIPTION:Konzert von A Life Divided in der Sumpfblume Hameln.\nQuelle (b
  g/a-life-divided-the-closing-tournee-2027/
 URL:https://sumpfblume.de/aktuelles/veranstaltung/a-life-divided-the-closin
  g-tournee-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-marktkirche-st-nicolai-20270207-1600-gastkonzert-des-jazz-und-popcho
+ rs-vivid-voices-han@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T160000
+DTEND;TZID=Europe/Berlin:20270207T180000
+SUMMARY:Gastkonzert des Jazz- und Popchors Vivid Voices (Hannover)
+LOCATION:Marktkirche St. Nicolai Hameln\, 31785 Hameln
+DESCRIPTION:Gastkonzert in der Marktkirche\, Eintritt frei\, Spenden erbete
+ n.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
+ n): https://www.hamelner-kantorei.de/
+URL:https://www.hamelner-kantorei.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

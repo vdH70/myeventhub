@@ -28,46 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:meisenfrei-20261123-number-one-band@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261123T200000
-DTEND;TZID=Europe/Berlin:20261123T220000
-SUMMARY:Number One Band
-LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
-DESCRIPTION:50's & 80's Cover\, Bremen\nEnde: laut Quelle nicht angegeben\n
- Preis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://www.m
- eisenfrei.de/programm.htm
-URL:https://www.meisenfrei.de/programm.htm
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hb-hegartys-20261123-monday-quiznight@myeventhub.de
-DTSTAMP:20261119T000000Z
-DTSTART;TZID=Europe/Berlin:20261123T203000
-DTEND;TZID=Europe/Berlin:20261123T223000
-SUMMARY:Monday Quiznight
-LOCATION:Hegarty's Irish Pub\, Ostertorsteinweg 80\, 28203 Bremen
-DESCRIPTION:Pubquiz auf Englisch mit 8 Runden\, laut Pub jeden Montag\; kei
- ne Tischreservierung.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
- r dem Besuch prüfen): https://www.hegartys.de/
-URL:https://www.hegartys.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:hb-karo-20261123-fehlende-worte-aus-dem-mehrfamilienhaus-donka-dimo@mye
- venthub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261123T190000
-DTEND;TZID=Europe/Berlin:20261123T210000
-SUMMARY:Fehlende Worte aus dem Mehrfamilienhaus (Donka Dimova)
-LOCATION:Karo\, Reuter Straße 9\, 28217 Bremen
-DESCRIPTION:Lesung und Film in der Kneipe Karo.\nEinlass 19:00 Uhr\nEnde: l
- aut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:/
- /karo-bremen.de/karo-bremen-veranstaltungen
-URL:https://karo-bremen.de/karo-bremen-veranstaltungen
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:hb-union-brauerei-20261124-heimbrauerstammtisch@myeventhub.de
 DTSTAMP:20261118T000000Z
 DTSTART;TZID=Europe/Berlin:20261124T180000
@@ -82,7 +42,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261124-smooth-escape@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261124T200000
 DTEND;TZID=Europe/Berlin:20261124T220000
 SUMMARY:Smooth Escape
@@ -95,15 +55,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261125-die-stehpisser@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261125T200000
 DTEND;TZID=Europe/Berlin:20261125T220000
-SUMMARY:Die Stehpisser
+SUMMARY:ABGESAGT: Die Stehpisser
 LOCATION:Meisenfrei Blues Club\, Hankenstr. 18\, 28195 Bremen
 DESCRIPTION:Garage Rock & Country\, Bremen\nEnde: laut Quelle nicht angegeb
  en\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch prüfen): https://w
  ww.meisenfrei.de/programm.htm
 URL:https://www.meisenfrei.de/programm.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Die Stehpisser am 25.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261125T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -147,7 +112,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261126-epitaph@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261126T200000
 DTEND;TZID=Europe/Berlin:20261126T220000
 SUMMARY:Epitaph
@@ -174,7 +139,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261127-hiss@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261127T210000
 DTEND;TZID=Europe/Berlin:20261127T230000
 SUMMARY:Hiss
@@ -214,7 +179,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261128-a-tribute-to-johnny-cash@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T210000
 DTEND;TZID=Europe/Berlin:20261128T230000
 SUMMARY:A Tribute to Johnny Cash
@@ -292,7 +257,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261201-mojothunder@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261201T200000
 DTEND;TZID=Europe/Berlin:20261201T220000
 SUMMARY:Mojothunder
@@ -305,7 +270,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261202-nevertoolate@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261202T200000
 DTEND;TZID=Europe/Berlin:20261202T220000
 SUMMARY:NeverTooLate
@@ -331,7 +296,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261203-local-radio-s-rocking-safari-r-dark-band@myeventhub
  .de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261203T200000
 DTEND;TZID=Europe/Berlin:20261203T220000
 SUMMARY:Local Radio's Rocking Safari (R. Dark Band)
@@ -385,7 +350,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261204-roadback@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261204T210000
 DTEND;TZID=Europe/Berlin:20261204T230000
 SUMMARY:Roadback
@@ -424,7 +389,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261205-stone@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261205T210000
 DTEND;TZID=Europe/Berlin:20261205T230000
 SUMMARY:Stone
@@ -501,7 +466,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meisenfrei-20261208-touch-of-funk@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261208T200000
 DTEND;TZID=Europe/Berlin:20261208T220000
 SUMMARY:Touch Of Funk

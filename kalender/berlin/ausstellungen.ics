@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:ber-neue-nationalgalerie-20231118-zerreissprobe-kunst-zwischen-politik-
  und-gesellschaft-ende@myeventhub.de
@@ -1167,24 +1150,6 @@ DESCRIPTION:Zeughaus / Arsenal.\nLaufzeit: 20.11.2026 bis 6.2.2028\nQuelle
  (bitte vor dem Besuch prüfen): https://www.zitadelle-berlin.de/ausstellun
  gen/
 URL:https://www.zitadelle-berlin.de/ausstellungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b-st-matthaeus-kirche-20261123-kuenstlerinnengespraech-mit-a-k-dolven@m
- yeventhub.de
-DTSTAMP:20261106T000000Z
-DTSTART;TZID=Europe/Berlin:20261123T190000
-DTEND;TZID=Europe/Berlin:20261123T210000
-SUMMARY:Künstlerinnengespräch mit A K Dolven
-LOCATION:St. Matthäus-Kirche (Kulturforum)\, Matthäikirchplatz\, 10785 Be
- rlin
-DESCRIPTION:Gespräch zur Installation „four hundred million years of sun
- rise from the dark“.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
- or dem Besuch prüfen): https://stiftung-stmatthaeus.de/veranstaltungen/au
- sstellungsgespraech-a-k-dolven-four-hundred-million-years-of-sunrise-from-
- the-dark/
-URL:https://stiftung-stmatthaeus.de/veranstaltungen/ausstellungsgespraech-a
- -k-dolven-four-hundred-million-years-of-sunrise-from-the-dark/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

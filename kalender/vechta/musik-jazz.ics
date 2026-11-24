@@ -10,6 +10,38 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:vec-museum-im-zeughaus-20261129-1500-musiknachmittag-hands-at-work-solo
+ gitarre-zwischen@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+SUMMARY:Musiknachmittag: Hands at work – Sologitarre zwischen Jazz\, Pop 
+ und mehr
+LOCATION:Museum im Zeughaus\, Zitadelle 15\, 49377 Vechta
+DESCRIPTION:Musiknachmittag mit Sologitarre im Museum im Zeughaus Vechta.\n
+ Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): 
+ https://www.museum-vechta.de/veranstaltungen
+URL:https://www.museum-vechta.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:vec-gulfhaus-20270312-marina-the-kats@myeventhub.de
 DTSTAMP:20261024T000000Z

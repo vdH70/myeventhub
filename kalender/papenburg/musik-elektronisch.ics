@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//my Event Hub//Erinnert werden//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Alle Termine in Melle · my Event Hub
+X-WR-CALNAME:Elektronisch in Papenburg · my Event Hub
 X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
  der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
  esuch die verlinkte Quelle prüfen.
@@ -28,16 +28,17 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:melle-theater-20261123-fisch-sucht-fahrrad@myeventhub.de
-DTSTAMP:20261123T000000Z
-DTSTART;TZID=Europe/Berlin:20261123T200000
-DTEND;TZID=Europe/Berlin:20261123T220000
-SUMMARY:Fisch sucht Fahrrad
-LOCATION:Theater Melle\, Schürenkamp 14\, 49324 Melle
-DESCRIPTION:Komödie.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor
-  dem Besuch prüfen): https://www.kulturring-melle.de/spielplan/theatereve
- nt3.html
-URL:https://www.kulturring-melle.de/spielplan/theaterevent3.html
+UID:pap-gueterbahnhof-20270130-2000-curiosity-the-cure-tribute@myeventhub.d
+ e
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T200000
+DTEND;TZID=Europe/Berlin:20270130T220000
+SUMMARY:CURIOSITY - The Cure Tribute
+LOCATION:Güterbahnhof Papenburg\, Bahnhofstraße 21\, 26871 Papenburg
+DESCRIPTION:Veranstaltung im Güterbahnhof Papenburg.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://gueterbahnho
+ f-papenburg.de/
+URL:https://gueterbahnhof-papenburg.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
