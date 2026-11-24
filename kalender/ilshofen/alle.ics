@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Ilshofen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wlbg-ilshofen-roland-wurmthaler-halle-20261212-1930-linie-1@myeventhub.
+ de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T193000
+DTEND;TZID=Europe/Berlin:20261212T213000
+SUMMARY:Linie 1
+LOCATION:Roland-Wurmthaler-Halle Ilshofen\, Ilshofen
+DESCRIPTION:Gastspiel der Württembergischen Landesbühne Esslingen. Musica
+ l von Volker Ludwig\, Musik: Birger Heymann.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://wlb-esslingen.de/spi
+ elplan/wlb-unterwegs
+URL:https://wlb-esslingen.de/spielplan/wlb-unterwegs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wlbg-ilshofen-roland-wurmthaler-halle-20270220-1930-james-brown-trug-lo
+ ckenwickler@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T193000
+DTEND;TZID=Europe/Berlin:20270220T213000
+SUMMARY:James Brown trug Lockenwickler
+LOCATION:Roland-Wurmthaler-Halle Ilshofen\, Ilshofen
+DESCRIPTION:Gastspiel der Württembergischen Landesbühne Esslingen. Schaus
+ piel von Yasmina Reza.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
+ or dem Besuch prüfen): https://wlb-esslingen.de/spielplan/wlb-unterwegs
+URL:https://wlb-esslingen.de/spielplan/wlb-unterwegs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wlbg-ilshofen-roland-wurmthaler-halle-20270320-1800-die-ganze-welt@myev
+ enthub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20270320T180000
+DTEND;TZID=Europe/Berlin:20270320T200000
+SUMMARY:Die ganze Welt
+LOCATION:Roland-Wurmthaler-Halle Ilshofen\, Ilshofen
+DESCRIPTION:Gastspiel der Württembergischen Landesbühne Esslingen. Schaus
+ piel von Theresia Walser und Karl-Heinz Ott.\nEnde: laut Quelle nicht ange
+ geben\nQuelle (bitte vor dem Besuch prüfen): https://wlb-esslingen.de/spi
+ elplan/wlb-unterwegs
+URL:https://wlb-esslingen.de/spielplan/wlb-unterwegs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wlbg-ilshofen-roland-wurmthaler-halle-20270417-1930-ach-heinrich-von-kl
+ eist-reloaded@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20270417T193000
+DTEND;TZID=Europe/Berlin:20270417T213000
+SUMMARY:Ach Heinrich! Von Kleist Reloaded
+LOCATION:Roland-Wurmthaler-Halle Ilshofen\, Ilshofen
+DESCRIPTION:Gastspiel der Württembergischen Landesbühne Esslingen (Junge 
+ WLB\, ab 15 Jahren). Schauspiel von Marcus Grube.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://wlb-esslingen.d
+ e/spielplan/wlb-unterwegs
+URL:https://wlb-esslingen.de/spielplan/wlb-unterwegs
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

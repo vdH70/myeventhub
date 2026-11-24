@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Theater & Bühne in Schwäbisch Gmünd · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:gd-prediger-20270121-1900-ach-heinrich-von-kleist-reloaded@myeventhub.d
+ e
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20270121T190000
+DTEND;TZID=Europe/Berlin:20270121T210000
+SUMMARY:Ach Heinrich! Von Kleist Reloaded
+LOCATION:Museum und Galerie im Prediger\, Johannisplatz 3\, 73525 Schwäbis
+ ch Gmünd
+DESCRIPTION:Gastspiel der Württembergischen Landesbühne Esslingen (Junge 
+ WLB\, ab 15 Jahren). Schauspiel von Marcus Grube.\nEnde: laut Quelle nicht
+  angegeben\nQuelle (bitte vor dem Besuch prüfen): https://wlb-esslingen.d
+ e/spielplan/wlb-unterwegs
+URL:https://wlb-esslingen.de/spielplan/wlb-unterwegs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wlbg-schwaebisch-gmuend-theaterwerkstatt-20270404-1430-baby-dronte-die-
+ geschichte-vom-geheimnis@myeventhub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20270404T143000
+DTEND;TZID=Europe/Berlin:20270404T163000
+SUMMARY:Baby Dronte – Die Geschichte vom geheimnisvollen Ei
+LOCATION:Theaterwerkstatt Schwäbisch Gmünd\, Schwäbisch Gmünd
+DESCRIPTION:Gastspiel der Jungen WLB Esslingen\, ab 6 Jahren. Kindertheater
+  von Peter Schössow.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
+ r dem Besuch prüfen): https://wlb-esslingen.de/spielplan/junge-wlb-unterw
+ egs
+URL:https://wlb-esslingen.de/spielplan/junge-wlb-unterwegs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wlbg-schwaebisch-gmuend-stadtgarten-20270429-2000-harold-und-maude@myev
+ enthub.de
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Berlin:20270429T200000
+DTEND;TZID=Europe/Berlin:20270429T220000
+SUMMARY:Harold und Maude
+LOCATION:Stadtgarten Schwäbisch Gmünd\, Schwäbisch Gmünd
+DESCRIPTION:Gastspiel der Württembergischen Landesbühne Esslingen. Schaus
+ piel von Colin Higgins.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte 
+ vor dem Besuch prüfen): https://wlb-esslingen.de/spielplan/wlb-unterwegs
+URL:https://wlb-esslingen.de/spielplan/wlb-unterwegs
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
