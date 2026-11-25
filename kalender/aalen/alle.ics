@@ -10,6 +10,155 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:aa-limesmuseum-20261206-1430-highlights-der-dauerausstellung@myeventhub
+ .de
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T143000
+DTEND;TZID=Europe/Berlin:20261206T163000
+SUMMARY:Highlights der Dauerausstellung
+LOCATION:Limesmuseum Aalen\, St.-Johann-Straße 5\, 73430 Aalen
+DESCRIPTION:Öffentliche Führung durch die Dauerausstellung im Limesmuseum
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.limesmuseum.de/veranstaltung/highlights-der-dauerausstellun
+ g-april-2026
+URL:https://www.limesmuseum.de/veranstaltung/highlights-der-dauerausstellun
+ g-april-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa-sternwarte-20261208-der-stern-von-bethlehem@myeventhub.de
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Der Stern von Bethlehem
+LOCATION:Sternwarte Aalen\, Schillerhöhe 21\, 73430 Aalen
+DESCRIPTION:Vortrag von Joachim Kranzen in der Sternwarte Aalen.\nQuelle (b
+ itte vor dem Besuch prüfen): https://sternwarte-aalen.de/programm/
+URL:https://sternwarte-aalen.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa-limesmuseum-20261210-1800-es-begab-sich-aber-zu-der-zeit-lukas-2-1-d
+ ie-weihn@myeventhub.de
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T180000
+DTEND;TZID=Europe/Berlin:20261210T200000
+SUMMARY:„Es begab sich aber zu der Zeit…“ (Lukas 2\,1). Die Weihnacht
+ sgeschichte im historischen Kontext
+LOCATION:Limesmuseum Aalen\, St.-Johann-Straße 5\, 73430 Aalen
+DESCRIPTION:Vortrag von Dr. Martin Kemkes im Limesmuseum Aalen.\nEnde: laut
+  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
+ w.limesmuseum.de/veranstaltung/vortrag-es-begab-sich-aber-zu-der-zeit-luka
+ s-21-die-weihnachtsgeschichte-im-historischen-kontext-mit-dr-martin-kemkes
+ -archaeologisches-landesmuseum-baden-wuerttemberg
+URL:https://www.limesmuseum.de/veranstaltung/vortrag-es-begab-sich-aber-zu-
+ der-zeit-lukas-21-die-weihnachtsgeschichte-im-historischen-kontext-mit-dr-
+ martin-kemkes-archaeologisches-landesmuseum-baden-wuerttemberg
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa-limesmuseum-20261211-1730-maerchenabend-im-limesmuseum-schoener-sche
+ in-maerc@myeventhub.de
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T173000
+DTEND;TZID=Europe/Berlin:20261211T193000
+SUMMARY:Märchenabend im Limesmuseum – Schöner Schein – Märchen vom G
+ old
+LOCATION:Limesmuseum Aalen\, St.-Johann-Straße 5\, 73430 Aalen
+DESCRIPTION:Themenabend mit Märchen im Limesmuseum Aalen.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.lim
+ esmuseum.de/veranstaltung/maerchenabend-im-limesmuseum-schoener-schein-mae
+ rchen-vom-gold
+URL:https://www.limesmuseum.de/veranstaltung/maerchenabend-im-limesmuseum-s
+ choener-schein-maerchen-vom-gold
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa-sternwarte-20261218-1830-familienfuehrung@myeventhub.de
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T183000
+DTEND;TZID=Europe/Berlin:20261218T203000
+SUMMARY:Familienführung
+LOCATION:Sternwarte Aalen\, Schillerhöhe 21\, 73430 Aalen
+DESCRIPTION:Familienführung in der Sternwarte Aalen.\nEnde: laut Quelle ni
+ cht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://sternwarte-a
+ alen.de/programm/
+URL:https://sternwarte-aalen.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa-limesmuseum-20270103-1430-highlights-der-dauerausstellung@myeventhub
+ .de
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T143000
+DTEND;TZID=Europe/Berlin:20270103T163000
+SUMMARY:Highlights der Dauerausstellung
+LOCATION:Limesmuseum Aalen\, St.-Johann-Straße 5\, 73430 Aalen
+DESCRIPTION:Öffentliche Führung durch die Dauerausstellung im Limesmuseum
+ .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
+ ): https://www.limesmuseum.de/veranstaltung/highlights-der-dauerausstellun
+ g-mai-2026
+URL:https://www.limesmuseum.de/veranstaltung/highlights-der-dauerausstellun
+ g-mai-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa-limesmuseum-20270128-1800-der-roemische-pferdefriedhof-von-bad-canns
+ tatt-ein@myeventhub.de
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Berlin:20270128T180000
+DTEND;TZID=Europe/Berlin:20270128T200000
+SUMMARY:Der römische Pferdefriedhof von Bad Cannstatt – Einblicke in die
+  Grabungen 2024/2025
+LOCATION:Limesmuseum Aalen\, St.-Johann-Straße 5\, 73430 Aalen
+DESCRIPTION:Vortrag von Sarah Roth M.A. im Limesmuseum Aalen.\nEnde: laut Q
+ uelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ limesmuseum.de/veranstaltung/vortrag-der-roemische-pferdefriedhof-von-bad-
+ cannstatt-einblicke-in-die-grabungen-2024-2025-mit-sarah-roth-ma-landesamt
+ -fuer-denkmalpflege-bw
+URL:https://www.limesmuseum.de/veranstaltung/vortrag-der-roemische-pferdefr
+ iedhof-von-bad-cannstatt-einblicke-in-die-grabungen-2024-2025-mit-sarah-ro
+ th-ma-landesamt-fuer-denkmalpflege-bw
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa-limesmuseum-20270225-1800-aberglaube-ehrfurcht-kalkuel-zum-umgang-mi
+ t-praehi@myeventhub.de
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T180000
+DTEND;TZID=Europe/Berlin:20270225T200000
+SUMMARY:Aberglaube\, Ehrfurcht\, Kalkül? Zum Umgang mit prähistorischen D
+ enkmälern beim Bau des Limes
+LOCATION:Limesmuseum Aalen\, St.-Johann-Straße 5\, 73430 Aalen
+DESCRIPTION:Vortrag von Dr. Jennifer Schamper im Limesmuseum Aalen.\nEnde: 
+ laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
+ //www.limesmuseum.de/veranstaltung/vortrag-aberglaube-ehrfurcht-kalkuel-zu
+ m-umgang-mit-praehistorischen-denkmaelern-beim-bau-des-ober-germanisch-rae
+ tischen-limes-mit-dr-jennifer-schamper-landschaftsverband-rheinland
+URL:https://www.limesmuseum.de/veranstaltung/vortrag-aberglaube-ehrfurcht-k
+ alkuel-zum-umgang-mit-praehistorischen-denkmaelern-beim-bau-des-ober-germa
+ nisch-raetischen-limes-mit-dr-jennifer-schamper-landschaftsverband-rheinla
+ nd
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:aa-stadthalle-20270427-vocatium-aalen-beginn@myeventhub.de
 DTSTAMP:20261102T000000Z

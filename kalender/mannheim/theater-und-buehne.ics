@@ -44,20 +44,26 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261126-2000-standup-meets-impro-toby-kaep-markus-rohr@
  myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261126T200000
 DTEND;TZID=Europe/Berlin:20261126T220000
-SUMMARY:Standup meets Impro: Toby Käp & Markus Rohr
+SUMMARY:ABGESAGT: Standup meets Impro: Toby Käp & Markus Rohr
 LOCATION:Schatzkistl\, Mannheim
 DESCRIPTION:Comedy im Schatzkistl.\nEnde: laut Quelle nicht angegeben\nQuel
  le (bitte vor dem Besuch prüfen): https://www.schatzkistl.de/spielplan
 URL:https://www.schatzkistl.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Standup meets Impro: Toby Käp & Markus Rohr am 26.11
+ .2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261126T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261127-2000-roberto-capitoni-60-ist-das-neue-40@myeven
  thub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261127T200000
 DTEND;TZID=Europe/Berlin:20261127T220000
 SUMMARY:Roberto Capitoni: 60 ist das neue 40
@@ -111,14 +117,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261129-1700-andre-haedicke-dick-im-geschaeft@myeventhu
  b.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261129T170000
 DTEND;TZID=Europe/Berlin:20261129T190000
-SUMMARY:André Haedicke: Dick im Geschäft
+SUMMARY:ABGESAGT: André Haedicke: Dick im Geschäft
 LOCATION:Schatzkistl\, Mannheim
 DESCRIPTION:Comedy im Schatzkistl.\nEnde: laut Quelle nicht angegeben\nQuel
  le (bitte vor dem Besuch prüfen): https://www.schatzkistl.de/spielplan
 URL:https://www.schatzkistl.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: André Haedicke: Dick im Geschäft am 29.11.2026 (lau
+ t Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261126T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -150,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261204-2000-jan-philipp-zymny-illegale-strassentherapi
  e@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261204T200000
 DTEND;TZID=Europe/Berlin:20261204T220000
 SUMMARY:Jan Philipp Zymny: Illegale Straßentherapie (ausverkauft)
@@ -164,7 +176,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261205-2000-gina-de-l-amore-christmas-comedy-show-2026
  @myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261205T200000
 DTEND;TZID=Europe/Berlin:20261205T220000
 SUMMARY:Gina de l'Amore: Christmas Comedy Show 2026 (ausverkauft)

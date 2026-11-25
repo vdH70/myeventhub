@@ -111,21 +111,6 @@ URL:https://www.rem-mannheim.de/ausstellungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ma-planetarium-20261124-vortrag-quanten-und-kosmos-wie-das-kleinste-das
- -gr@myeventhub.de
-DTSTAMP:20261122T000000Z
-DTSTART;TZID=Europe/Berlin:20261124T193000
-DTEND;TZID=Europe/Berlin:20261124T213000
-SUMMARY:Vortrag: Quanten und Kosmos – Wie das Kleinste das Größte erkl
- ärt
-LOCATION:Planetarium Mannheim\, Wilhelm-Varnholt-Allee 1\, 68165 Mannheim
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.planetarium-mannheim.de/programme/programmuebersich
- t
-URL:https://www.planetarium-mannheim.de/programme/programmuebersicht
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ma-theaterhaus-g7-20261125-als-wir-lasen@myeventhub.de
 DTSTAMP:20261118T000000Z
 DTSTART;TZID=Europe/Berlin:20261125T180000
@@ -154,20 +139,26 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261126-2000-standup-meets-impro-toby-kaep-markus-rohr@
  myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261126T200000
 DTEND;TZID=Europe/Berlin:20261126T220000
-SUMMARY:Standup meets Impro: Toby Käp & Markus Rohr
+SUMMARY:ABGESAGT: Standup meets Impro: Toby Käp & Markus Rohr
 LOCATION:Schatzkistl\, Mannheim
 DESCRIPTION:Comedy im Schatzkistl.\nEnde: laut Quelle nicht angegeben\nQuel
  le (bitte vor dem Besuch prüfen): https://www.schatzkistl.de/spielplan
 URL:https://www.schatzkistl.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Standup meets Impro: Toby Käp & Markus Rohr am 26.11
+ .2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261126T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261127-2000-roberto-capitoni-60-ist-das-neue-40@myeven
  thub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261127T200000
 DTEND;TZID=Europe/Berlin:20261127T220000
 SUMMARY:Roberto Capitoni: 60 ist das neue 40
@@ -194,7 +185,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-barockschloss-20261128-prickelnder-genuss-im-glanz-der-kronleuchter@
  myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T170000
 DTEND;TZID=Europe/Berlin:20261128T190000
 SUMMARY:Prickelnder Genuss im Glanz der Kronleuchter
@@ -252,14 +243,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261129-1700-andre-haedicke-dick-im-geschaeft@myeventhu
  b.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261129T170000
 DTEND;TZID=Europe/Berlin:20261129T190000
-SUMMARY:André Haedicke: Dick im Geschäft
+SUMMARY:ABGESAGT: André Haedicke: Dick im Geschäft
 LOCATION:Schatzkistl\, Mannheim
 DESCRIPTION:Comedy im Schatzkistl.\nEnde: laut Quelle nicht angegeben\nQuel
  le (bitte vor dem Besuch prüfen): https://www.schatzkistl.de/spielplan
 URL:https://www.schatzkistl.de/spielplan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: André Haedicke: Dick im Geschäft am 29.11.2026 (lau
+ t Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261126T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -292,7 +289,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261203-2000-harald-krueger-boogie-woogie@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261203T200000
 DTEND;TZID=Europe/Berlin:20261203T220000
 SUMMARY:Harald Krüger: Boogie Woogie
@@ -345,7 +342,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261204-2000-jan-philipp-zymny-illegale-strassentherapi
  e@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261204T200000
 DTEND;TZID=Europe/Berlin:20261204T220000
 SUMMARY:Jan Philipp Zymny: Illegale Straßentherapie (ausverkauft)
@@ -359,7 +356,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261205-2000-gina-de-l-amore-christmas-comedy-show-2026
  @myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261205T200000
 DTEND;TZID=Europe/Berlin:20261205T220000
 SUMMARY:Gina de l'Amore: Christmas Comedy Show 2026 (ausverkauft)
@@ -399,7 +396,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261206-1400-magischer-zirkel-ma-lu-hei-weihnachtszaube
  r-fuer-k@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261206T140000
 DTEND;TZID=Europe/Berlin:20261206T160000
 SUMMARY:Magischer Zirkel MA-LU-HEI: Weihnachtszauber für Kinder
@@ -427,7 +424,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261206-2000-flamenco-christmas-silke-beck-y-companeros
  @myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261206T200000
 DTEND;TZID=Europe/Berlin:20261206T220000
 SUMMARY:Flamenco Christmas: Silke Beck y Compañeros
@@ -440,7 +437,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ma-schatzkistl-20261208-maren-kaun-vom-dicken-fetten-pfannkuchen@myeven
  thub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Berlin:20261208T163000
 DTEND;TZID=Europe/Berlin:20261208T183000
 SUMMARY:Maren Kaun: Vom dicken\, fetten Pfannkuchen

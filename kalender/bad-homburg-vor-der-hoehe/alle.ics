@@ -10,6 +10,23 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:hg-museum-sinclair-haus-20260913-tierstimmen-kontakt-durch-klang-ende@m
  yeventhub.de
@@ -21,6 +38,18 @@ LOCATION:Museum Sinclair-Haus\, Bad Homburg vor der Höhe
 DESCRIPTION:Laufzeit: 13.9.2026 bis 14.2.2027\nQuelle (bitte vor dem Besuch
   prüfen): https://www.kunst-und-natur.de/museum-sinclair-haus
 URL:https://www.kunst-und-natur.de/museum-sinclair-haus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hg-schlosskirche-20270312-liv-migdal-violine@myeventhub.de
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T193000
+DTEND;TZID=Europe/Berlin:20270312T213000
+SUMMARY:Liv Migdal\, Violine
+LOCATION:Schlosskirche Bad Homburg\, Bad Homburg vor der Höhe
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.wko-heilbronn.de/konzerte
+URL:https://www.wko-heilbronn.de/konzerte
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
