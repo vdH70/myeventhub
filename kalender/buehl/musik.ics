@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Musik in Bühl · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261129-1800-jahreskonzert-der-oberbruch
+ er-dorfmusikanten-blas@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T180000
+DTEND;TZID=Europe/Berlin:20261129T200000
+SUMMARY:Jahreskonzert der Oberbrucher Dorfmusikanten Blas A-Cappella
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Jahreskonzert der Oberbrucher Dorfmusikanten mit der A-cappella
+ -Gruppe Vokal5mal.\nEnde: laut Quelle nicht angegeben\nPreis: VVK 12\,00 
+ €\; AK 14\,00 €\; Kinder bis 14 Jahre frei\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.buergerhaus-buehl.de/veranstaltungen/detail/jahre
+ skonzert-der-oberbrucher-dorfmusikanten-blas-a-capella/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/jahreskonzert-d
+ er-oberbrucher-dorfmusikanten-blas-a-capella/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261217-1930-weihnachtskonzert-philharmo
+ nia-frankfurt@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:Weihnachtskonzert - Philharmonia Frankfurt
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Weihnachtskonzert des Streichquartetts Philharmonia Frankfurt m
+ it Trompeter Vladislav Lavrik.\nEnde: laut Quelle nicht angegeben\nPreis: 
+ 22\,00 bis 26\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ buergerhaus-buehl.de/veranstaltungen/detail/weihnachtskonzert-philharmonia
+ -frankfurt/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/weihnachtskonze
+ rt-philharmonia-frankfurt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270109-1900-neujahrskonzert-der-kappelw
+ indeck-musikanten@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T190000
+DTEND;TZID=Europe/Berlin:20270109T210000
+SUMMARY:Neujahrskonzert der Kappelwindeck-Musikanten
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Neujahrskonzert der Kappelwindeck-Musikanten unter dem Motto 
+ „To a new Dawn“.\nEnde: laut Quelle nicht angegeben\nPreis: 13\,00 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.buergerhaus-buehl.de/
+ veranstaltungen/detail/neujahrskonzert-der-kappelwindeck-musikanten/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/neujahrskonzert
+ -der-kappelwindeck-musikanten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270116-buehler-hexen-ball@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Bühler Hexen Ball
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Party mit Schlagerprogramm im Saal\, 80er/90er im Foyer und Bar
+ -Party\; Einlass ab 19:30 Uhr.\nPreis: 15\,00 €\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.buergerhaus-buehl.de/veranstaltungen/detail/bu
+ ehler-hexen-ball/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/buehler-hexen-b
+ all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270216-1930-graf-von-bothmer-stummfilmk
+ onzert@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T193000
+DTEND;TZID=Europe/Berlin:20270216T213000
+SUMMARY:Graf von Bothmer - Stummfilmkonzert
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Pianist Stephan Graf v. Bothmer begleitet Slapstick-Komödien d
+ er 1920er live am Flügel.\nEnde: laut Quelle nicht angegeben\nPreis: 22\,
+ 00 bis 26\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.buer
+ gerhaus-buehl.de/veranstaltungen/detail/graf-von-bothmer-stummfilmkonzert/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/graf-von-bothme
+ r-stummfilmkonzert/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

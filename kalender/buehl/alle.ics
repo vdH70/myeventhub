@@ -1,0 +1,347 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Bühl · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261126-1930-achtsam-morden-durch-bewuss
+ te-ernaehrung@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T213000
+SUMMARY:Achtsam Morden durch bewusste Ernährung
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Krimikomödie nach Band 5 der Bestseller-Reihe von Karsten Duss
+ e im Großen Saal.\nEnde: laut Quelle nicht angegeben\nPreis: 22\,00 bis 2
+ 6\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.buergerhaus-
+ buehl.de/veranstaltungen/detail/achtsam-morden-durch-bewusste-ernaehrung-k
+ rimikomoedie-nach-band-5-der-bestseller-reihe-von-karsten-dusse/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/achtsam-morden-
+ durch-bewusste-ernaehrung-krimikomoedie-nach-band-5-der-bestseller-reihe-v
+ on-karsten-dusse/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261128-1100-antikmarkt-im-november-2026
+ @myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T110000
+DTEND;TZID=Europe/Berlin:20261128T130000
+SUMMARY:Antikmarkt im November 2026
+LOCATION:Foyer EG und Foyer OG
+DESCRIPTION:Antikmarkt mit bis zu 50 Ausstellern in den Foyers des Bürgerh
+ auses\, 11-17 Uhr.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt fre
+ i\nQuelle (bitte vor dem Besuch prüfen): https://www.buergerhaus-buehl.de
+ /veranstaltungen/detail/antikmarkt-2-im-november-2026/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/antikmarkt-2-im
+ -november-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261129-1800-jahreskonzert-der-oberbruch
+ er-dorfmusikanten-blas@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261129T180000
+DTEND;TZID=Europe/Berlin:20261129T200000
+SUMMARY:Jahreskonzert der Oberbrucher Dorfmusikanten Blas A-Cappella
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Jahreskonzert der Oberbrucher Dorfmusikanten mit der A-cappella
+ -Gruppe Vokal5mal.\nEnde: laut Quelle nicht angegeben\nPreis: VVK 12\,00 
+ €\; AK 14\,00 €\; Kinder bis 14 Jahre frei\nQuelle (bitte vor dem Besu
+ ch prüfen): https://www.buergerhaus-buehl.de/veranstaltungen/detail/jahre
+ skonzert-der-oberbrucher-dorfmusikanten-blas-a-capella/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/jahreskonzert-d
+ er-oberbrucher-dorfmusikanten-blas-a-capella/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261205-1600-fremde-werden-freunde-erzae
+ hlkonzert@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T160000
+DTEND;TZID=Europe/Berlin:20261205T180000
+SUMMARY:Fremde werden Freunde - Erzählkonzert
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Erzählkonzert für Kinder und Familien mit einer winterlichen 
+ Weihnachtsgeschichte.\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt 
+ frei\, Platzzahl begrenzt\nQuelle (bitte vor dem Besuch prüfen): https://
+ www.buergerhaus-buehl.de/veranstaltungen/detail/fremde-werden-freunde-erza
+ ehlkonzert/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/fremde-werden-f
+ reunde-erzaehlkonzert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261206-1700-mongolei-mit-kind-und-kamel
+ -unterwegs-im-nomadenla@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T170000
+DTEND;TZID=Europe/Berlin:20261206T190000
+SUMMARY:Mongolei - Mit Kind und Kamel unterwegs im Nomadenland
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Reisevortrag über eine fünfmonatige Reise durch das mongolisc
+ he Altai-Gebirge.\nEnde: laut Quelle nicht angegeben\nPreis: 9\,00 bis 18\
+ ,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.buergerhaus-bu
+ ehl.de/veranstaltungen/detail/mongolei-mit-kind-und-kamel-unterwegs-im-nom
+ adenland/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/mongolei-mit-ki
+ nd-und-kamel-unterwegs-im-nomadenland/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261209-1930-danceperados-of-ireland-spi
+ rit-of-irish-christmas@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261209T193000
+DTEND;TZID=Europe/Berlin:20261209T213000
+SUMMARY:Danceperados of Ireland - Spirit of Irish Christmas Tour
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Irische Stepptanzshow mit Weihnachtsbräuchen der Grünen Insel
+ .\nEnde: laut Quelle nicht angegeben\nPreis: 49\,90 bis 59\,90 €\nQuelle
+  (bitte vor dem Besuch prüfen): https://www.buergerhaus-buehl.de/veransta
+ ltungen/detail/danceperados-of-ireland-spirit-of-irish-christmas-tour/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/danceperados-of
+ -ireland-spirit-of-irish-christmas-tour/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261210-1600-dschungelbuch-das-musical@m
+ yeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T160000
+DTEND;TZID=Europe/Berlin:20261210T180000
+SUMMARY:Dschungelbuch - Das Musical
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Familienmusical von Theater Liberi nach Kiplings Klassiker\, ab
+  4 Jahren.\nEnde: laut Quelle nicht angegeben\nPreis: 30\,00 bis 42\,00 
+ €\nQuelle (bitte vor dem Besuch prüfen): https://www.buergerhaus-buehl.
+ de/veranstaltungen/detail/dschungelbuch-das-musical/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/dschungelbuch-d
+ as-musical/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261211-1600-dschungelbuch-das-musical@m
+ yeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T160000
+DTEND;TZID=Europe/Berlin:20261211T180000
+SUMMARY:Dschungelbuch - Das Musical
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Familienmusical von Theater Liberi nach Kiplings Klassiker\, ab
+  4 Jahren.\nEnde: laut Quelle nicht angegeben\nPreis: 30\,00 bis 42\,00 
+ €\nQuelle (bitte vor dem Besuch prüfen): https://www.buergerhaus-buehl.
+ de/veranstaltungen/detail/dschungelbuch-das-musical-1/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/dschungelbuch-d
+ as-musical-1/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261215-1630-der-kleine-prinz@myeventhub
+ .de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T163000
+DTEND;TZID=Europe/Berlin:20261215T183000
+SUMMARY:Der kleine Prinz
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Familienstück nach Antoine de Saint-Exupéry\, ab 5 Jahren.\nE
+ nde: laut Quelle nicht angegeben\nPreis: 15\,00 €\nQuelle (bitte vor dem
+  Besuch prüfen): https://www.buergerhaus-buehl.de/veranstaltungen/detail/
+ der-kleine-prinz-familienstueck-nach-antoine-de-saint-exupery-dramatisiert
+ -von-elisabeth-vera-rathenboeck/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/der-kleine-prin
+ z-familienstueck-nach-antoine-de-saint-exupery-dramatisiert-von-elisabeth-
+ vera-rathenboeck/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261217-1930-weihnachtskonzert-philharmo
+ nia-frankfurt@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T193000
+DTEND;TZID=Europe/Berlin:20261217T213000
+SUMMARY:Weihnachtskonzert - Philharmonia Frankfurt
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Weihnachtskonzert des Streichquartetts Philharmonia Frankfurt m
+ it Trompeter Vladislav Lavrik.\nEnde: laut Quelle nicht angegeben\nPreis: 
+ 22\,00 bis 26\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.
+ buergerhaus-buehl.de/veranstaltungen/detail/weihnachtskonzert-philharmonia
+ -frankfurt/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/weihnachtskonze
+ rt-philharmonia-frankfurt/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20261220-1100-antikmarkt-im-dezember-2026
+ @myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T130000
+SUMMARY:Antikmarkt im Dezember 2026
+LOCATION:Foyer EG und Foyer OG
+DESCRIPTION:Antikmarkt in den Foyers des Bürgerhauses\, 11-17 Uhr.\nEnde: 
+ laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.buergerhaus-buehl.de/veranstaltungen/detail/an
+ tikmarkt-2026-im-dezember/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/antikmarkt-2026
+ -im-dezember/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270106-1700-auf-der-suche-nach-italien-
+ highlights-aus-15-jahre@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T170000
+DTEND;TZID=Europe/Berlin:20270106T190000
+SUMMARY:Auf der Suche nach Italien - Highlights aus 15 Jahren Italien-Reise
+ n
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Multivisionsschau von Martin Engelmann über Italien von den Do
+ lomiten bis Sardinien.\nEnde: laut Quelle nicht angegeben\nPreis: 9\,00 bi
+ s 18\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.buergerha
+ us-buehl.de/veranstaltungen/detail/multivisonsschau-auf-der-suche-nach-ita
+ lien/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/multivisonsscha
+ u-auf-der-suche-nach-italien/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270107-1630-tabaluga-und-lilli-das-drac
+ henstarke-musical-fuer@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20270107T163000
+DTEND;TZID=Europe/Berlin:20270107T183000
+SUMMARY:Tabaluga und Lilli - Das Drachenstarke Musical für die ganze Famil
+ ie
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Familienmusical um den kleinen Drachen Tabaluga und das wahre F
+ euer.\nEnde: laut Quelle nicht angegeben\nPreis: 25\,50 bis 38\,50 €\nQu
+ elle (bitte vor dem Besuch prüfen): https://www.buergerhaus-buehl.de/vera
+ nstaltungen/detail/tabaluga-und-lilli-das-drachenstarke-musical-fuer-die-g
+ anze-familie/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/tabaluga-und-li
+ lli-das-drachenstarke-musical-fuer-die-ganze-familie/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270109-1900-neujahrskonzert-der-kappelw
+ indeck-musikanten@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20270109T190000
+DTEND;TZID=Europe/Berlin:20270109T210000
+SUMMARY:Neujahrskonzert der Kappelwindeck-Musikanten
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Neujahrskonzert der Kappelwindeck-Musikanten unter dem Motto 
+ „To a new Dawn“.\nEnde: laut Quelle nicht angegeben\nPreis: 13\,00 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.buergerhaus-buehl.de/
+ veranstaltungen/detail/neujahrskonzert-der-kappelwindeck-musikanten/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/neujahrskonzert
+ -der-kappelwindeck-musikanten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270116-buehler-hexen-ball@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Bühler Hexen Ball
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Party mit Schlagerprogramm im Saal\, 80er/90er im Foyer und Bar
+ -Party\; Einlass ab 19:30 Uhr.\nPreis: 15\,00 €\nQuelle (bitte vor dem B
+ esuch prüfen): https://www.buergerhaus-buehl.de/veranstaltungen/detail/bu
+ ehler-hexen-ball/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/buehler-hexen-b
+ all/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270126-2000-die-nacht-der-musicals-die-
+ erfolgreichste-musicalg@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T200000
+DTEND;TZID=Europe/Berlin:20270126T220000
+SUMMARY:Die Nacht der Musicals - Die erfolgreichste Musicalgala aller Zeite
+ n
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Musicalgala mit Höhepunkten bekannter Musicals wie Aladdin und
+  Moulin Rouge.\nEnde: laut Quelle nicht angegeben\nPreis: 45\,60 bis 78\,6
+ 0 €\nQuelle (bitte vor dem Besuch prüfen): https://www.buergerhaus-bueh
+ l.de/veranstaltungen/detail/die-nacht-der-musicals-die-erfolgreichste-musi
+ calgala-aller-zeiten/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/die-nacht-der-m
+ usicals-die-erfolgreichste-musicalgala-aller-zeiten/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270211-1900-golden-ace-die-magier-chron
+ iken-der-magie-tour-202@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T190000
+DTEND;TZID=Europe/Berlin:20270211T210000
+SUMMARY:Golden Ace - Die Magier „Chroniken der Magie Tour 2027“
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Magie- und Hypnoseshow des Duos Golden Ace.\nEnde: laut Quelle 
+ nicht angegeben\nPreis: 39\,00 bis 69\,00 €\nQuelle (bitte vor dem Besuc
+ h prüfen): https://www.buergerhaus-buehl.de/veranstaltungen/detail/golden
+ -ace-die-magier-chroniken-der-magie-tour-2027/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/golden-ace-die-
+ magier-chroniken-der-magie-tour-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270216-1930-graf-von-bothmer-stummfilmk
+ onzert@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20270216T193000
+DTEND;TZID=Europe/Berlin:20270216T213000
+SUMMARY:Graf von Bothmer - Stummfilmkonzert
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Pianist Stephan Graf v. Bothmer begleitet Slapstick-Komödien d
+ er 1920er live am Flügel.\nEnde: laut Quelle nicht angegeben\nPreis: 22\,
+ 00 bis 26\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.buer
+ gerhaus-buehl.de/veranstaltungen/detail/graf-von-bothmer-stummfilmkonzert/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/graf-von-bothme
+ r-stummfilmkonzert/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:buehl-buergerhaus-neuer-markt-20270217-1930-die-unsichtbaren@myeventhub
+ .de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T193000
+DTEND;TZID=Europe/Berlin:20270217T213000
+SUMMARY:Die Unsichtbaren
+LOCATION:Bürgerhaus Neuer Markt Bühl\, Europaplatz\, 77815 Bühl
+DESCRIPTION:Theaterstück über drei Menschen\, Überforderung\, Anerkennun
+ g und Superkräfte.\nEnde: laut Quelle nicht angegeben\nPreis: 20\,00 bis 
+ 24\,00 €\nQuelle (bitte vor dem Besuch prüfen): https://www.buergerhaus
+ -buehl.de/veranstaltungen/detail/die-unsichtbaren/
+URL:https://www.buergerhaus-buehl.de/veranstaltungen/detail/die-unsichtbare
+ n/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Ettlingen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ettl-altstadt-sternlesmarkt-20261126-ettlinger-sternlesmarkt-beginn@mye
+ venthub.de
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Beginn: Ettlinger Sternlesmarkt
+LOCATION:Marktplatz\, Erwin-Vetter-Platz\, Marktstraße\, Schlossvorplatz
+DESCRIPTION:Weihnachtsmarkt in der Altstadt\, täglich 11-21 Uhr\, 25.12. g
+ eschlossen.\nLaufzeit: 26.11.2026 bis 28.12.2026\nQuelle (bitte vor dem Be
+ such prüfen): https://www.ettlingen.de/maerkte/sternlesmarkt
+URL:https://www.ettlingen.de/maerkte/sternlesmarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ettl-altstadt-sternlesmarkt-20261126-ettlinger-sternlesmarkt-ende@myeve
+ nthub.de
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Letzter Tag: Ettlinger Sternlesmarkt
+LOCATION:Marktplatz\, Erwin-Vetter-Platz\, Marktstraße\, Schlossvorplatz
+DESCRIPTION:Weihnachtsmarkt in der Altstadt\, täglich 11-21 Uhr\, 25.12. g
+ eschlossen.\nLaufzeit: 26.11.2026 bis 28.12.2026\nQuelle (bitte vor dem Be
+ such prüfen): https://www.ettlingen.de/maerkte/sternlesmarkt
+URL:https://www.ettlingen.de/maerkte/sternlesmarkt
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
