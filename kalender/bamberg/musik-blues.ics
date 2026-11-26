@@ -10,9 +10,26 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:ba-jazzclub-20261128-boogiemen-s-friends-feat-albert-koch@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Boogiemen's Friends feat. Albert Koch
@@ -20,6 +37,18 @@ LOCATION:Jazzclub Bamberg\, Obere Sandstraße 18\, 96049 Bamberg
 DESCRIPTION:Konzert im Jazzclub Bamberg in der Oberen Sandstraße.\nQuelle 
  (bitte vor dem Besuch prüfen): https://www.jcbamberg.de/veranstaltungen
 URL:https://www.jcbamberg.de/veranstaltungen
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-live-club-20261227-crossroads@myeventhub.de
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Berlin:20261227T203000
+DTEND;TZID=Europe/Berlin:20261227T223000
+SUMMARY:Crossroads
+LOCATION:Live-Club Bamberg\, Bamberg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.live-club.de/events
+URL:https://www.live-club.de/events
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

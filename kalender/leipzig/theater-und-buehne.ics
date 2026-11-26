@@ -67,32 +67,6 @@ URL:https://www.krystallpalast.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:l-horns-erben-20261125-2000-sebastian-kraemer-wieso-ueberhaupt-alpen-in
- -bielef@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261125T200000
-DTEND;TZID=Europe/Berlin:20261125T220000
-SUMMARY:Sebastian Krämer: Wieso überhaupt Alpen in Bielefeld?
-LOCATION:Horns Erben\, Arndtstraße 33\, 04275 Leipzig
-DESCRIPTION:Bühnenabend in der Kulturkneipe Horns Erben in der Südvorstad
- t.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
- n): https://horns-erben.de/veranstaltungen
-URL:https://horns-erben.de/veranstaltungen
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:l-werk2-20261125-teresa-reichl-grober-unfug@myeventhub.de
-DTSTAMP:20261122T000000Z
-DTSTART;TZID=Europe/Berlin:20261125T200000
-DTEND;TZID=Europe/Berlin:20261125T220000
-SUMMARY:Teresa Reichl: Grober Unfug (ausverkauft)
-LOCATION:WERK 2 – Kulturfabrik Leipzig\, Leipzig
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
- or dem Besuch prüfen): https://www.werk-2.de/programm
-URL:https://www.werk-2.de/programm
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:l-kupfersaal-20261127-niklas-kolorz-evolution@myeventhub.de
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Berlin:20261127T200000
@@ -120,15 +94,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:l-anker-20261127-warm-up-comedy-night@myeventhub.de
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-SUMMARY:WARM UP – Comedy Night
+SUMMARY:ABGESAGT: WARM UP – Comedy Night
 LOCATION:ANKER – Soziokulturelles Zentrum\, Renftstraße 1\, 04159 Leipzi
  g
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://anker-leipzig.de
  /va/veranstaltungen/
 URL:https://anker-leipzig.de/va/veranstaltungen/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: WARM UP – Comedy Night am 27.11.2026 (laut Veransta
+ lter)
+TRIGGER;VALUE=DATE-TIME:20261127T070000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
