@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hip-Hop/Rap in Mönchengladbach · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mg-sparkassenpark-20270619-1900-die-fantastischen-vier-der-letzte-bus-o
+ pen-airs-20@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270619T190000
+DTEND;TZID=Europe/Berlin:20270619T210000
+SUMMARY:Die Fantastischen Vier – Der letzte Bus Open Airs 2027
+LOCATION:SparkassenPark Mönchengladbach\, Am Hockeypark 1\, 41179 Mönchen
+ gladbach
+DESCRIPTION:Open-Air-Konzert der Fantastischen Vier.\nEnde: laut Quelle nic
+ ht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://sparkassenpar
+ k.de/veranstaltung/die-fantastischen-vier-mg-19-06-2027/
+URL:https://sparkassenpark.de/veranstaltung/die-fantastischen-vier-mg-19-06
+ -2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
