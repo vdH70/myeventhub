@@ -97,20 +97,26 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pf-mottenkaefig-20261127-2000-das-gespenst-von-canterville@myeventhub.d
  e
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20261127T200000
 DTEND;TZID=Europe/Berlin:20261127T220000
-SUMMARY:Das Gespenst von Canterville
+SUMMARY:ABGESAGT: Das Gespenst von Canterville
 LOCATION:Figurentheater Mottenkäfig\, Pforzheim
 DESCRIPTION:Figurentheater für Erwachsene im Mottenkäfig in Pforzheim-Br
  ötzingen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
  h prüfen): https://mottenkaefig.de/spielplan.html
 URL:https://mottenkaefig.de/spielplan.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Das Gespenst von Canterville am 27.11.2026 (laut Vera
+ nstalter)
+TRIGGER;VALUE=DATE-TIME:20261127T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pf-mottenkaefig-20261128-1500-frau-holle-ab-4@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T150000
 DTEND;TZID=Europe/Berlin:20261128T170000
 SUMMARY:Frau Holle (ab 4)
@@ -149,7 +155,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pf-mottenkaefig-20261129-1100-frau-holle-ab-4@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20261129T110000
 DTEND;TZID=Europe/Berlin:20261129T130000
 SUMMARY:Frau Holle (ab 4)
@@ -179,7 +185,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pf-mottenkaefig-20261129-1700-cocktails@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20261129T170000
 DTEND;TZID=Europe/Berlin:20261129T190000
 SUMMARY:Cocktails
@@ -262,7 +268,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pf-mottenkaefig-20261204-2000-rock-puppets-part-2@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20261204T200000
 DTEND;TZID=Europe/Berlin:20261204T220000
 SUMMARY:Rock & Puppets (Part 2)
@@ -276,7 +282,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pf-mottenkaefig-20261205-1500-die-weihnachtsgeschichte-ab-5@myeventhub.
  de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20261205T150000
 DTEND;TZID=Europe/Berlin:20261205T170000
 SUMMARY:Die Weihnachtsgeschichte (ab 5)
@@ -301,6 +307,20 @@ URL:https://www.kulturhaus-osterfeld.de/events/3081_3974-helge-thun
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:pf-mottenkaefig-20261206-1500-lotta-feiert-weihnachten-ab-4@myeventhub.
+ de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T103000
+DTEND;TZID=Europe/Berlin:20261206T123000
+SUMMARY:Lotta feiert Weihnachten (ab 4)
+LOCATION:Figurentheater Mottenkäfig\, Pforzheim
+DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
+ ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://mottenkaefig.de/spielplan.html?month=202612
+URL:https://mottenkaefig.de/spielplan.html?month=202612
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:pf-kulturhaus-osterfeld-20261206-1300-random-play-dance@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20261206T130000
@@ -311,20 +331,6 @@ DESCRIPTION:Tanzveranstaltung im Kulturhaus Osterfeld in Pforzheim.\nEnde:
  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https:
  //www.kulturhaus-osterfeld.de/events/4574_4906-random-play-dance
 URL:https://www.kulturhaus-osterfeld.de/events/4574_4906-random-play-dance
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:pf-mottenkaefig-20261206-1500-lotta-feiert-weihnachten-ab-4@myeventhub.
- de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261206T150000
-DTEND;TZID=Europe/Berlin:20261206T170000
-SUMMARY:Lotta feiert Weihnachten (ab 4)
-LOCATION:Figurentheater Mottenkäfig\, Pforzheim
-DESCRIPTION:Figurentheater für Kinder im Mottenkäfig in Pforzheim-Brötzi
- ngen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
- üfen): https://mottenkaefig.de/spielplan.html?month=202612
-URL:https://mottenkaefig.de/spielplan.html?month=202612
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -395,7 +401,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pf-mottenkaefig-20261211-2000-james-blond-goldenpussy@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20261211T200000
 DTEND;TZID=Europe/Berlin:20261211T220000
 SUMMARY:James Blond – Goldenpussy

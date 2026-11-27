@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Ottersberg-Quelkhorn · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ver-bergwerk-quelkhorn-20270206-fasching-s-party-fasching-im-bergwerk-b
+ eginn@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Beginn: Fasching's Party! (Fasching im BergWerk)
+LOCATION:BergWerk Quelkhorn\, Quelkhorner Landstr. 19\, 28870 Ottersberg-Qu
+ elkhorn
+DESCRIPTION:Laufzeit: 6.2.2027 bis 7.2.2027\nQuelle (bitte vor dem Besuch p
+ rüfen): https://bergwerk-quelkhorn.de/events/
+URL:https://bergwerk-quelkhorn.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ver-bergwerk-quelkhorn-20270206-fasching-s-party-fasching-im-bergwerk-e
+ nde@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Letzter Tag: Fasching's Party! (Fasching im BergWerk)
+LOCATION:BergWerk Quelkhorn\, Quelkhorner Landstr. 19\, 28870 Ottersberg-Qu
+ elkhorn
+DESCRIPTION:Laufzeit: 6.2.2027 bis 7.2.2027\nQuelle (bitte vor dem Besuch p
+ rüfen): https://bergwerk-quelkhorn.de/events/
+URL:https://bergwerk-quelkhorn.de/events/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

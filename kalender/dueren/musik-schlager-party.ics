@@ -54,15 +54,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dn-komm-20261211-2000-the-funky-bunch@myeventhub.de
-DTSTAMP:20261103T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20261211T200000
 DTEND;TZID=Europe/Berlin:20261211T220000
-SUMMARY:The Funky Bunch
+SUMMARY:ABGESAGT: The Funky Bunch
 LOCATION:KOMM Kulturzentrum Düren\, Düren
 DESCRIPTION:Party im KOMM Düren.\nEnde: laut Quelle nicht angegeben\nQuell
  e (bitte vor dem Besuch prüfen): https://www.komm-dueren.de/veranstaltung
  /the-funky-bunch
 URL:https://www.komm-dueren.de/veranstaltung/the-funky-bunch
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: The Funky Bunch am 11.12.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261128T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
