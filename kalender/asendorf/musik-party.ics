@@ -1,0 +1,241 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Party in Asendorf · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:as-bo-20261127-kitchen-sessions-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T220000
+DTEND;TZID=Europe/Berlin:20261128T000000
+SUMMARY:KITCHEN SESSIONS – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.kulturhaus-bo.de/produkt/kitchensessions2/
+URL:https://www.kulturhaus-bo.de/produkt/kitchensessions2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20261128-b-o-rocknacht-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T210000
+DTEND;TZID=Europe/Berlin:20261128T230000
+SUMMARY:B.O. ROCKNACHT – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/b-o-rocknacht-2/
+URL:https://www.kulturhaus-bo.de/produkt/b-o-rocknacht-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20261204-the-voice-of-asendorf-karaoke-in-bo@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:THE VOICE OF ASENDORF – Karaoke in BO!
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Karaoke-Abend im Kulturhaus Break Out in Asendorf.\nEnde: laut 
+ Quelle nicht angegeben\nPreis: Eintritt gegen Hutkasse\nQuelle (bitte vor 
+ dem Besuch prüfen): https://www.kulturhaus-bo.de/produkt/the-voice-of-ase
+ ndorf-karaoke-in-bo-3/
+URL:https://www.kulturhaus-bo.de/produkt/the-voice-of-asendorf-karaoke-in-b
+ o-3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20261211-come-as-you-are-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T220000
+DTEND;TZID=Europe/Berlin:20261212T000000
+SUMMARY:COME AS YOU ARE – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/come-as-you-are-2/
+URL:https://www.kulturhaus-bo.de/produkt/come-as-you-are-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20261212-80-s-dance-party-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261212T210000
+DTEND;TZID=Europe/Berlin:20261212T230000
+SUMMARY:80's DANCE PARTY – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://www.kul
+ turhaus-bo.de/produkt/80s-dance-party-tanznacht/
+URL:https://www.kulturhaus-bo.de/produkt/80s-dance-party-tanznacht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20261218-kitchen-sessions-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T220000
+DTEND;TZID=Europe/Berlin:20261219T000000
+SUMMARY:KITCHEN SESSIONS – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Eintritt frei\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.kulturhaus-bo.de/produkt/kitschen-sessions/
+URL:https://www.kulturhaus-bo.de/produkt/kitschen-sessions/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20261219-we-will-rock-you-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261219T210000
+DTEND;TZID=Europe/Berlin:20261219T230000
+SUMMARY:WE WILL ROCK YOU – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/we-will-rock-you-2/
+URL:https://www.kulturhaus-bo.de/produkt/we-will-rock-you-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20261224-christmas-break-out-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261224T220000
+DTEND;TZID=Europe/Berlin:20261225T000000
+SUMMARY:CHRISTMAS @ BREAK OUT – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/christmas/
+URL:https://www.kulturhaus-bo.de/produkt/christmas/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270116-jensi-s-muckecenter-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T210000
+DTEND;TZID=Europe/Berlin:20270116T230000
+SUMMARY:JENSI'S MUCKECENTER – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/jensis-muckecenter-tanznach
+ t/
+URL:https://www.kulturhaus-bo.de/produkt/jensis-muckecenter-tanznacht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270123-davert-tanz-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270123T210000
+DTEND;TZID=Europe/Berlin:20270123T230000
+SUMMARY:Davert-Tanz – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/davert-tanz-tanznacht/
+URL:https://www.kulturhaus-bo.de/produkt/davert-tanz-tanznacht/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270130-b-o-rocknacht-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270130T210000
+DTEND;TZID=Europe/Berlin:20270130T230000
+SUMMARY:B.O. ROCKNACHT – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/b-o-rocknacht-4/
+URL:https://www.kulturhaus-bo.de/produkt/b-o-rocknacht-4/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270212-come-as-you-are-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T210000
+DTEND;TZID=Europe/Berlin:20270212T230000
+SUMMARY:COME AS YOU ARE – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/come-as-you-are/
+URL:https://www.kulturhaus-bo.de/produkt/come-as-you-are/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270213-oldie-night-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T210000
+DTEND;TZID=Europe/Berlin:20270213T230000
+SUMMARY:OLDIE NIGHT – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/oldie-night-1/
+URL:https://www.kulturhaus-bo.de/produkt/oldie-night-1/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270219-eternal-dance-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270219T200000
+DTEND;TZID=Europe/Berlin:20270219T220000
+SUMMARY:ETERNAL DANCE – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/eternal-dance/
+URL:https://www.kulturhaus-bo.de/produkt/eternal-dance/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270220-jensi-s-muckecenter-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T210000
+DTEND;TZID=Europe/Berlin:20270220T230000
+SUMMARY:JENSI'S MUCKECENTER – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/jensis-muckecenter-2/
+URL:https://www.kulturhaus-bo.de/produkt/jensis-muckecenter-2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270227-we-will-rock-you-tanznacht@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T210000
+DTEND;TZID=Europe/Berlin:20270227T230000
+SUMMARY:WE WILL ROCK YOU – Tanznacht
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Tanznacht im Kulturhaus Break Out in Asendorf.\nEnde: laut Quel
+ le nicht angegeben\nPreis: Abendkasse 8 €\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.kulturhaus-bo.de/produkt/we-will-rock-you/
+URL:https://www.kulturhaus-bo.de/produkt/we-will-rock-you/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

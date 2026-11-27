@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sonstiges in Asendorf · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:as-bo-20261205-der-to-konzert@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:DER TO – Konzert
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Konzert im Kulturhaus Break Out in Asendorf.\nEnde: laut Quelle
+  nicht angegeben\nPreis: VVK 12 € (mit Tanznacht DISORDER 16 €)\, AK 1
+ 6 € / 20 €\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturh
+ aus-bo.de/produkt/22-11-25-der-to/
+URL:https://www.kulturhaus-bo.de/produkt/22-11-25-der-to/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20261211-palila-zofft-konzert@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:PALILA + ZOFFT – Konzert
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Konzert im Kulturhaus Break Out in Asendorf.\nEnde: laut Quelle
+  nicht angegeben\nPreis: VVK 14 € zzgl. Gebühr\, AK 18 € (Vereinsmitg
+ lieder 10 €)\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturh
+ aus-bo.de/produkt/palila/
+URL:https://www.kulturhaus-bo.de/produkt/palila/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270205-ducs-d-imperial-tunfisch-be-konzert@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T193000
+DTEND;TZID=Europe/Berlin:20270205T213000
+SUMMARY:DUCS (D) & IMPERIAL TUNFISCH (BE) – Konzert
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Konzert im Kulturhaus Break Out in Asendorf.\nEnde: laut Quelle
+  nicht angegeben\nPreis: VVK 17 €\, AK 22 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.kulturhaus-bo.de/produkt/ducs_imperial_tunfisch/
+URL:https://www.kulturhaus-bo.de/produkt/ducs_imperial_tunfisch/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270226-3-sekunden-safran-red-light-district@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T190000
+DTEND;TZID=Europe/Berlin:20270226T210000
+SUMMARY:3 SEKUNDEN SAFRAN & RED LIGHT DISTRICT
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Konzert im Kulturhaus Break Out in Asendorf.\nEnde: laut Quelle
+  nicht angegeben\nPreis: VVK 12 €\, AK 16 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.kulturhaus-bo.de/produkt/3-sekunden-safran-red-l
+ ight-district/
+URL:https://www.kulturhaus-bo.de/produkt/3-sekunden-safran-red-light-distri
+ ct/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270305-pure-obsessions-red-nights-f-konzert@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T200000
+DTEND;TZID=Europe/Berlin:20270305T220000
+SUMMARY:PURE OBSESSIONS & RED NIGHTS (F) – Konzert
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Konzert im Kulturhaus Break Out in Asendorf.\nEnde: laut Quelle
+  nicht angegeben\nPreis: VVK 18 €\, AK 23 €\nQuelle (bitte vor dem Bes
+ uch prüfen): https://www.kulturhaus-bo.de/produkt/pure-obsessions-red-nig
+ hts-f/
+URL:https://www.kulturhaus-bo.de/produkt/pure-obsessions-red-nights-f/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270312-vomito-negro-be-konzert@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T200000
+DTEND;TZID=Europe/Berlin:20270312T220000
+SUMMARY:VOMITO NEGRO (BE) – Konzert
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Konzert im Kulturhaus Break Out in Asendorf.\nEnde: laut Quelle
+  nicht angegeben\nPreis: VVK 19 € zzgl. Gebühr\, AK 26 € (Vereinsmitg
+ lieder 15 €)\nQuelle (bitte vor dem Besuch prüfen): https://www.kulturh
+ aus-bo.de/produkt/vomito-negro-be/
+URL:https://www.kulturhaus-bo.de/produkt/vomito-negro-be/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:as-bo-20270313-give-me-rain-konzert@myeventhub.de
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T200000
+DTEND;TZID=Europe/Berlin:20270313T220000
+SUMMARY:GIVE ME RAIN – Konzert
+LOCATION:Kulturhaus Break Out (B.O.)\, Alte Heerstraße 35\, 27330 Asendorf
+DESCRIPTION:Konzert im Kulturhaus Break Out in Asendorf.\nEnde: laut Quelle
+  nicht angegeben\nPreis: VVK Early Bird 14 €\, danach 17 €\nQuelle (bi
+ tte vor dem Besuch prüfen): https://www.kulturhaus-bo.de/produkt/givemera
+ in/
+URL:https://www.kulturhaus-bo.de/produkt/givemerain/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
