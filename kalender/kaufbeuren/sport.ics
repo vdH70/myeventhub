@@ -1,0 +1,238 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sport in Kaufbeuren · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20261206-1800-esv-kaufbeuren-hoechstadt-alligators@my
+ eventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+DTEND;TZID=Europe/Berlin:20261206T200000
+SUMMARY:ESV Kaufbeuren – Höchstadt Alligators
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20261211-1930-esv-kaufbeuren-selber-woelfe@myeventhub
+ .de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T193000
+DTEND;TZID=Europe/Berlin:20261211T213000
+SUMMARY:ESV Kaufbeuren – Selber Wölfe
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20261218-1930-esv-kaufbeuren-ev-fuessen@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T193000
+DTEND;TZID=Europe/Berlin:20261218T213000
+SUMMARY:ESV Kaufbeuren – EV Füssen
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20261223-1930-esv-kaufbeuren-deggendorfer-sc@myeventh
+ ub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261223T193000
+DTEND;TZID=Europe/Berlin:20261223T213000
+SUMMARY:ESV Kaufbeuren – Deggendorfer SC
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20261228-1930-esv-kaufbeuren-ev-lindau-islanders@myev
+ enthub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261228T193000
+DTEND;TZID=Europe/Berlin:20261228T213000
+SUMMARY:ESV Kaufbeuren – EV Lindau Islanders
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270103-1800-esv-kaufbeuren-ehf-passau-black-hawks@m
+ yeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270103T180000
+DTEND;TZID=Europe/Berlin:20270103T200000
+SUMMARY:ESV Kaufbeuren – EHF Passau Black Hawks
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270106-1800-esv-kaufbeuren-stuttgart-rebels@myevent
+ hub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270106T180000
+DTEND;TZID=Europe/Berlin:20270106T200000
+SUMMARY:ESV Kaufbeuren – Stuttgart Rebels
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270110-1800-esv-kaufbeuren-toelzer-loewen@myeventhu
+ b.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270110T180000
+DTEND;TZID=Europe/Berlin:20270110T200000
+SUMMARY:ESV Kaufbeuren – Tölzer Löwen
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270115-1930-esv-kaufbeuren-hockey-club-tigers-1985@
+ myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T193000
+DTEND;TZID=Europe/Berlin:20270115T213000
+SUMMARY:ESV Kaufbeuren – Hockey Club Tigers 1985
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270119-1930-esv-kaufbeuren-ev-lindau-islanders@myev
+ enthub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T193000
+DTEND;TZID=Europe/Berlin:20270119T213000
+SUMMARY:ESV Kaufbeuren – EV Lindau Islanders
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270122-1930-esv-kaufbeuren-ec-peiting@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T193000
+DTEND;TZID=Europe/Berlin:20270122T213000
+SUMMARY:ESV Kaufbeuren – EC Peiting
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270131-1800-esv-kaufbeuren-sc-riessersee@myeventhub
+ .de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270131T180000
+DTEND;TZID=Europe/Berlin:20270131T200000
+SUMMARY:ESV Kaufbeuren – SC Riessersee
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270205-1930-esv-kaufbeuren-heilbronner-ec-falken@my
+ eventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T193000
+DTEND;TZID=Europe/Berlin:20270205T213000
+SUMMARY:ESV Kaufbeuren – Heilbronner EC Falken
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270214-1800-esv-kaufbeuren-hoechstadt-alligators@my
+ eventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T180000
+DTEND;TZID=Europe/Berlin:20270214T200000
+SUMMARY:ESV Kaufbeuren – Höchstadt Alligators
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kf-esv-kaufbeuren-20270221-1800-esv-kaufbeuren-selber-woelfe@myeventhub
+ .de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T180000
+DTEND;TZID=Europe/Berlin:20270221T200000
+SUMMARY:ESV Kaufbeuren – Selber Wölfe
+LOCATION:ESV Kaufbeuren (Energie Schwaben Arena)\, 87600 Kaufbeuren
+DESCRIPTION:Eishockey-Heimspiel des ESV Kaufbeuren in der Energie Schwaben 
+ Arena.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch pr
+ üfen): https://www.esvk.de/mannschaft/spielplan.html
+URL:https://www.esvk.de/mannschaft/spielplan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

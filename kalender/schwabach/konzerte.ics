@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Konzerte in Schwabach · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sc-stadtmuseum-20261211-1930-tipping-point-konzert-im-rahmen-von-museom
+ usicale@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T193000
+DTEND;TZID=Europe/Berlin:20261211T213000
+SUMMARY:tipping point – Konzert im Rahmen von museomusicale
+LOCATION:Stadtmuseum Schwabach\, Museumsstraße 1\, 91126 Schwabach
+DESCRIPTION:Konzert der Reihe museomusicale\, laut Stadtmuseum-Seite angek
+ ündigt.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch 
+ prüfen): https://www.schwabach.de/de/infoseiten-kulturportal/13717-tippin
+ g-point-konzert-im-rahmen-von-museomusicale.html
+URL:https://www.schwabach.de/de/infoseiten-kulturportal/13717-tipping-point
+ -konzert-im-rahmen-von-museomusicale.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

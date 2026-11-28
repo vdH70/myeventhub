@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alle Termine in Weiden in der Oberpfalz · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wei-die-suende-20261128-2000-william-s-orbit@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T220000
+SUMMARY:William's Orbit
+LOCATION:Die Sünde – Saal
+DESCRIPTION:Konzert in der Sünde in Weiden.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://das.suendik.at/
+URL:https://das.suendik.at/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wei-die-suende-20261205-2000-ami-warning-die-suende@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Ami Warning | Die Sünde
+LOCATION:Die Sünde – Saal
+DESCRIPTION:Konzert in der Sünde in Weiden.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://das.suendik.at/
+URL:https://das.suendik.at/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wei-die-suende-20261217-2000-klein-kunst-maxi-pongratz@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261217T200000
+DTEND;TZID=Europe/Berlin:20261217T220000
+SUMMARY:Klein & Kunst | Maxi Pongratz
+LOCATION:Die Sünde – Foyer
+DESCRIPTION:Konzert in der Sünde in Weiden.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://das.suendik.at/
+URL:https://das.suendik.at/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wei-die-suende-20270114-2000-klein-kunst-riedel-meister@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270114T200000
+DTEND;TZID=Europe/Berlin:20270114T220000
+SUMMARY:Klein & Kunst | Riedel & Meister
+LOCATION:Die Sünde – Foyer
+DESCRIPTION:Konzert in der Sünde in Weiden.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://das.suendik.at/
+URL:https://das.suendik.at/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wei-die-suende-20270116-2000-sing-along-live-mit-gwasch@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270116T200000
+DTEND;TZID=Europe/Berlin:20270116T220000
+SUMMARY:SING ALONG | LIVE MIT GWASCH
+LOCATION:Die Sünde – Saal
+DESCRIPTION:Konzert in der Sünde in Weiden.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://das.suendik.at/
+URL:https://das.suendik.at/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wei-die-suende-20270218-2000-klein-kunst-the-lettners@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270218T200000
+DTEND;TZID=Europe/Berlin:20270218T220000
+SUMMARY:Klein & Kunst | The Lettners
+LOCATION:Die Sünde – Foyer
+DESCRIPTION:Konzert in der Sünde in Weiden.\nEnde: laut Quelle nicht angeg
+ eben\nQuelle (bitte vor dem Besuch prüfen): https://das.suendik.at/
+URL:https://das.suendik.at/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

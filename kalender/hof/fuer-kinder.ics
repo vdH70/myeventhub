@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Für Kinder in Hof · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ho-freiheitshalle-20261220-1500-prof-magic-s-weihnachtswunder@myeventhu
+ b.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261220T150000
+DTEND;TZID=Europe/Berlin:20261220T170000
+SUMMARY:Prof. Magic's Weihnachtswunder
+LOCATION:Freiheitshalle Hof\, 95028 Hof
+DESCRIPTION:Familien-Zaubershow in der Freiheitshalle Hof.\nEnde: laut Quel
+ le nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://freihei
+ tshalle.de/events/prof-magics-weihnachtswunder/
+URL:https://freiheitshalle.de/events/prof-magics-weihnachtswunder/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ho-hofer-symphoniker-20270221-1100-kinderkonzert-peter-und-der-wolf@mye
+ venthub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T110000
+DTEND;TZID=Europe/Berlin:20270221T130000
+SUMMARY:Kinderkonzert Peter und der Wolf
+LOCATION:Festsaal Freiheitshalle Hof
+DESCRIPTION:Kinderkonzert der Hofer Symphoniker im Festsaal der Freiheitsha
+ lle.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prü
+ fen): https://www.hofer-symphoniker.de/konzerte-tickets/kinderkonzert-2027
+ /
+URL:https://www.hofer-symphoniker.de/konzerte-tickets/kinderkonzert-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
