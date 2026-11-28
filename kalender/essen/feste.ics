@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Essen · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e-kennedyplatz-weihnachtsmarkt-20261113-internationaler-weihnachtsmarkt
+ -essen-ende@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Letzter Tag: Internationaler Weihnachtsmarkt Essen
+LOCATION:Kennedyplatz und Flachsmarkt (Innenstadt)\, Essen
+DESCRIPTION:Weihnachtsmarkt auf dem Kennedyplatz\, Mittelaltermarkt auf dem
+  Flachsmarkt.\nLaufzeit: 13.11.2026 bis 23.12.2026\nTermine laut Veranstal
+ ter: So–Do 12–21 Uhr\, Fr/Sa 12–22 Uhr\; So 15.11. 14–21 Uhr\; am 
+ 22.11. (Totensonntag) geschlossen\nQuelle (bitte vor dem Besuch prüfen): 
+ https://visitessen.de/essentourismus_veranstaltungen/essen__weihnachten_/s
+ tartseite.en.html
+URL:https://visitessen.de/essentourismus_veranstaltungen/essen__weihnachten
+ _/startseite.en.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
