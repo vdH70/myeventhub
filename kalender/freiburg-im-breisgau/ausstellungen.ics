@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:fr-swamp-20261120-ausstellung-mo-von-zaehringen-beginn@myeventhub.de
 DTSTAMP:20261107T000000Z
@@ -49,19 +32,6 @@ LOCATION:Roter Salon
 DESCRIPTION:Laufzeit: 20.11.2026 bis 31.1.2027\nQuelle (bitte vor dem Besuc
  h prüfen): https://www.sumpfkultur.org/veranstaltungen/
 URL:https://www.sumpfkultur.org/veranstaltungen/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fr-e-werk-20261127-1830-vernissage-regionale-27@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T183000
-DTEND;TZID=Europe/Berlin:20261127T203000
-SUMMARY:Vernissage Regionale 27
-LOCATION:E-WERK Freiburg\, Eschholzstraße 77\, 79106 Freiburg im Breisgau
-DESCRIPTION:Eröffnung der Regionale-Ausstellung in den Galerien des E-WERK
- .\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen
- ): https://suedufer-freiburg.de/gesamt-programm
-URL:https://suedufer-freiburg.de/gesamt-programm
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

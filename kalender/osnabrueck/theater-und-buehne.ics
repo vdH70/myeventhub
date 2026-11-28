@@ -28,32 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:os-emma-theater-20261127-orlando@myeventhub.de
-DTSTAMP:20261118T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T193000
-DTEND;TZID=Europe/Berlin:20261127T213000
-SUMMARY:Orlando (ausverkauft)
-LOCATION:emma-theater (Theater Osnabrück)\, Lotter Straße 6\, 49078 Osnab
- rück
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nAusverkauft\nQuelle (bitte v
- or dem Besuch prüfen): https://www.theater-osnabrueck.de/spielplan/
-URL:https://www.theater-osnabrueck.de/spielplan/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:os-theater-20261127-die-csardasfuerstin@myeventhub.de
-DTSTAMP:20261118T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T193000
-DTEND;TZID=Europe/Berlin:20261127T213000
-SUMMARY:Die Csárdásfürstin
-LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
- brück
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.theater-osnabrueck.de/spielplan/
-URL:https://www.theater-osnabrueck.de/spielplan/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:os-emma-theater-20261128-orlando@myeventhub.de
 DTSTAMP:20261118T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T193000
@@ -449,16 +423,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:os-theater-20261215-1930-die-cs-rd-sfuerstin@myeventhub.de
-DTSTAMP:20261127T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261215T193000
 DTEND;TZID=Europe/Berlin:20261215T213000
-SUMMARY:Die Csárdásfürstin
+SUMMARY:ABGESAGT: Die Csárdásfürstin
 LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
  brück
 DESCRIPTION:Theater Osnabrück. Operette von Emmerich Kálmán.\nEnde: laut
   Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
  w.theater-osnabrueck.de/kalender/
 URL:https://www.theater-osnabrueck.de/kalender/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Die Csárdásfürstin am 15.12.2026 (laut Veranstalte
+ r)
+TRIGGER;VALUE=DATE-TIME:20261129T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1127,6 +1107,19 @@ URL:https://www.theater-osnabrueck.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:os-theater-20270118-bevor-ich-es-vergesse@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270118T113000
+DTEND;TZID=Europe/Berlin:20270118T133000
+SUMMARY:Bevor ich es vergesse …
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:os-theater-20270119-1930-frankenstein@myeventhub.de
 DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20270119T193000
@@ -1228,6 +1221,19 @@ URL:https://www.theater-osnabrueck.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:os-theater-20270124-theater-match@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270124T140000
+DTEND;TZID=Europe/Berlin:20270124T160000
+SUMMARY:Theater-Match
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:os-theater-20270124-1500-frankenstein@myeventhub.de
 DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Berlin:20270124T150000
@@ -1252,6 +1258,19 @@ LOCATION:emma-theater (Theater Osnabrück)\, Lotter Straße 6\, 49078 Osnab
 DESCRIPTION:Theater Osnabrück. Stück von Tina Müller (Junge Bühne). Ura
  ufführung. Premiere.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vo
  r dem Besuch prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270125-frankenstein@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270125T103000
+DTEND;TZID=Europe/Berlin:20270125T123000
+SUMMARY:Frankenstein
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
 URL:https://www.theater-osnabrueck.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1402,6 +1421,45 @@ URL:https://www.theater-osnabrueck.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:os-theater-20270204-frankenstein@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270204T193000
+DTEND;TZID=Europe/Berlin:20270204T213000
+SUMMARY:Frankenstein
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270205-andrea-chenier@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270205T193000
+DTEND;TZID=Europe/Berlin:20270205T213000
+SUMMARY:Andrea Chénier
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270207-frankenstein@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270207T193000
+DTEND;TZID=Europe/Berlin:20270207T213000
+SUMMARY:Frankenstein
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:os-botschaft-20270207-azzurro-das-italopop-abenteuer-musical@myeventhub
  .de
 DTSTAMP:20261103T000000Z
@@ -1412,6 +1470,32 @@ LOCATION:BOTSCHAFT Osnabrück\, Frankenstraße 21\, 49082 Osnabrück
 DESCRIPTION:Musical-Gastspiel in der Botschaft am Hauptbahnhof.\nQuelle (bi
  tte vor dem Besuch prüfen): https://botschaft-os.de/events
 URL:https://botschaft-os.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270209-andrea-chenier@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270209T193000
+DTEND;TZID=Europe/Berlin:20270209T213000
+SUMMARY:Andrea Chénier
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270211-wie-im-himmel@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270211T193000
+DTEND;TZID=Europe/Berlin:20270211T213000
+SUMMARY:Wie im Himmel
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1427,6 +1511,19 @@ DESCRIPTION:Musical-Produktion im Großen Saal des Hauses der Jugend.\nEnde
  : laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): http
  s://hausderjugend-os.de/veranstaltungen/
 URL:https://hausderjugend-os.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270212-andrea-chenier@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T193000
+DTEND;TZID=Europe/Berlin:20270212T213000
+SUMMARY:Andrea Chénier
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1460,6 +1557,32 @@ URL:https://hausderjugend-os.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:os-theater-20270213-wie-im-himmel@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T193000
+DTEND;TZID=Europe/Berlin:20270213T213000
+SUMMARY:Wie im Himmel
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270214-die-csardasfuerstin@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270214T150000
+DTEND;TZID=Europe/Berlin:20270214T170000
+SUMMARY:Die Csárdásfürstin
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:os-haus-der-jugend-20270214-1700-come-from-away-die-von-woanders@myeven
  thub.de
 DTSTAMP:20261103T000000Z
@@ -1485,6 +1608,19 @@ LOCATION:BOTSCHAFT Osnabrück\, Frankenstraße 21\, 49082 Osnabrück
 DESCRIPTION:Kabarett in der Botschaft am Hauptbahnhof.\nQuelle (bitte vor d
  em Besuch prüfen): https://botschaft-os.de/events
 URL:https://botschaft-os.de/events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270217-andrea-chenier@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270217T193000
+DTEND;TZID=Europe/Berlin:20270217T213000
+SUMMARY:Andrea Chénier
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1560,6 +1696,32 @@ URL:https://hausderjugend-os.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:os-theater-20270220-people-places-things@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270220T193000
+DTEND;TZID=Europe/Berlin:20270220T213000
+SUMMARY:People\, Places & Things
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270221-andrea-chenier@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270221T150000
+DTEND;TZID=Europe/Berlin:20270221T170000
+SUMMARY:Andrea Chénier
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:os-haus-der-jugend-20270221-1700-come-from-away-die-von-woanders@myeven
  thub.de
 DTSTAMP:20261103T000000Z
@@ -1575,6 +1737,32 @@ URL:https://hausderjugend-os.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:os-theater-20270225-die-csardasfuerstin@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T193000
+DTEND;TZID=Europe/Berlin:20270225T213000
+SUMMARY:Die Csárdásfürstin
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270226-people-places-things@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T193000
+DTEND;TZID=Europe/Berlin:20270226T213000
+SUMMARY:People\, Places & Things
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:os-haus-der-jugend-20270226-2000-robert-alan-aua-das-war-schoen@myevent
  hub.de
 DTSTAMP:20261103T000000Z
@@ -1587,6 +1775,45 @@ DESCRIPTION:Comedy im Großen Saal des Hauses der Jugend.\nEnde: laut Quell
  e nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://hausderj
  ugend-os.de/veranstaltungen/
 URL:https://hausderjugend-os.de/veranstaltungen/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270227-singer-songwriter-slam-finale@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T193000
+DTEND;TZID=Europe/Berlin:20270227T213000
+SUMMARY:Singer-Songwriter Slam – Finale
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270228-people-places-things@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270228T193000
+DTEND;TZID=Europe/Berlin:20270228T213000
+SUMMARY:People\, Places & Things
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270304-people-places-things@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T193000
+DTEND;TZID=Europe/Berlin:20270304T213000
+SUMMARY:People\, Places & Things
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1644,6 +1871,19 @@ URL:https://hausderjugend-os.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:os-theater-20270306-die-csardasfuerstin@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270306T193000
+DTEND;TZID=Europe/Berlin:20270306T213000
+SUMMARY:Die Csárdásfürstin
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:os-haus-der-jugend-20270307-come-from-away-die-von-woanders@myeventhub.
  de
 DTSTAMP:20261107T000000Z
@@ -1672,6 +1912,45 @@ URL:https://hausderjugend-os.de/veranstaltungen/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:os-theater-20270307-people-places-things@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270307T193000
+DTEND;TZID=Europe/Berlin:20270307T213000
+SUMMARY:People\, Places & Things
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270309-people-places-things@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270309T193000
+DTEND;TZID=Europe/Berlin:20270309T213000
+SUMMARY:People\, Places & Things
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270312-people-places-things@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270312T193000
+DTEND;TZID=Europe/Berlin:20270312T213000
+SUMMARY:People\, Places & Things
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:os-figurentheater-20270312-van-den-machandelboom@myeventhub.de
 DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20270312
@@ -1681,6 +1960,19 @@ LOCATION:Figurentheater Osnabrück\, Kleine Gildewart 9\, 49074 Osnabrück
 DESCRIPTION:Nachholtermin laut Seite (verschoben vom 07.11.2026)\nQuelle (b
  itte vor dem Besuch prüfen): https://figurentheater-osnabrueck.de/
 URL:https://figurentheater-osnabrueck.de/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:os-theater-20270313-on-the-town@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270313T193000
+DTEND;TZID=Europe/Berlin:20270313T213000
+SUMMARY:On the Town
+LOCATION:Theater Osnabrück (Theater am Domhof)\, Domhof 10/11\, 49074 Osna
+ brück
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-osnabrueck.de/kalender/
+URL:https://www.theater-osnabrueck.de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

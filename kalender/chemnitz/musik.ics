@@ -28,19 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:c-brauclub-20261127-dorfclub-party@myeventhub.de
-DTSTAMP:20261121T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T220000
-DTEND;TZID=Europe/Berlin:20261128T000000
-SUMMARY:Dorfclub Party
-LOCATION:BrauClub\, Neumarkt 2\, 09111 Chemnitz
-DESCRIPTION:Partynacht im BrauClub.\nEnde: laut Quelle nicht angegeben\nQue
- lle (bitte vor dem Besuch prüfen): https://www.brauclub.de/events/dorfclu
- b-party-27-11-2026
-URL:https://www.brauclub.de/events/dorfclub-party-27-11-2026
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:c-brauclub-20261128-westbam-save-the-rave-2026@myeventhub.de
 DTSTAMP:20261121T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T220000
@@ -436,6 +423,20 @@ DESCRIPTION:Konzert im Opernhaus Chemnitz.\nEnde: laut Quelle nicht angegeb
  /spielplan?tx_ccrepertoire_list[month]=2&tx_ccrepertoire_list[year]=2027
 URL:https://www.theater-chemnitz.de/spielplan?tx_ccrepertoire_list[month]=2
  &tx_ccrepertoire_list[year]=2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c-opernhaus-20270227-sonderkonzert-viva-la-musica@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270227T180000
+DTEND;TZID=Europe/Berlin:20270227T200000
+SUMMARY:Sonderkonzert: Viva la musica!
+LOCATION:Opernhaus Chemnitz\, Chemnitz
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-chemnitz.de/spielplan?tx_ccrepertoire_list[
+ month]=12&tx_ccrepertoire_list[year]=2026
+URL:https://www.theater-chemnitz.de/spielplan?tx_ccrepertoire_list[month]=1
+ 2&tx_ccrepertoire_list[year]=2026
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

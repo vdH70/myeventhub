@@ -30,10 +30,10 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:bz-altes-kurhaus-20261218-adventskonzert-mit-dem-olaika-kammerchor-aus-
  olden@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261218T170000
 DTEND;TZID=Europe/Berlin:20261218T190000
-SUMMARY:Adventskonzert mit dem OLAIKA Kammerchor aus Oldenburg
+SUMMARY:ABGESAGT: Adventskonzert mit dem OLAIKA Kammerchor aus Oldenburg
 LOCATION:Altes Kurhaus Bad Zwischenahn (Spiegelsaal)\, Auf dem Hohen Ufer 2
  0\, 26160 Bad Zwischenahn
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 10 € (ermäßigt 9 
@@ -42,6 +42,12 @@ DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 10 € (ermäßigt 9
  t-dem-olaika-kammerchor-aus-oldenburg
 URL:https://www.bad-zwischenahn-touristik.de/veranstaltungen/veranstaltungs
  kalender/event/adventskonzert-mit-dem-olaika-kammerchor-aus-oldenburg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Adventskonzert mit dem OLAIKA Kammerchor aus Oldenbur
+ g am 18.12.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261129T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

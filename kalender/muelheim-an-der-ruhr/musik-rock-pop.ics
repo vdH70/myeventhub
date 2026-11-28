@@ -12,7 +12,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:mh-stadthalle-20261204-dancing-queen@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Dancing Queen
@@ -26,16 +26,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mh-stadthalle-20261205-all-i-want-for-christmas@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
-SUMMARY:All I want for Christmas
+SUMMARY:ABGESAGT: All I want for Christmas
 LOCATION:Stadthalle Mülheim an der Ruhr\, Theodor-Heuss-Platz 1\, 45479 M
  ülheim an der Ruhr
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.stadthalle-m
  uelheim.de/veranstaltung-besuchen/veranstaltungskalender
 URL:https://www.stadthalle-muelheim.de/veranstaltung-besuchen/veranstaltung
  skalender
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: All I want for Christmas am 5.12.2026 (laut Veranstal
+ ter)
+TRIGGER;VALUE=DATE-TIME:20261129T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -28,47 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ol-theater-hof19-20261127-2000-willkommen-in-der-unsichtbar@myeventhub.
- de
-DTSTAMP:20261121T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T200000
-DTEND;TZID=Europe/Berlin:20261127T220000
-SUMMARY:Willkommen in der UnsichtBar
-LOCATION:theater hof/19\, Bahnhofstraße 19\, 26122 Oldenburg
-DESCRIPTION:Vorstellung des freien ensembles im theater hof/19.\nEnde: laut
-  Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https://ww
- w.theaterhof19.de/spielplan/aktueller-spielplan
-URL:https://www.theaterhof19.de/spielplan/aktueller-spielplan
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ol-theater-laboratorium-20261127-der-grosse-abend-der-kleinen-diktatore
- n@myeventhub.de
-DTSTAMP:20261119T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T200000
-DTEND;TZID=Europe/Berlin:20261127T220000
-SUMMARY:Der große Abend der kleinen Diktatoren
-LOCATION:Theater Laboratorium\, Kleine Straße 8\, 26121 Oldenburg
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.theater-laboratorium.org/index.php?r=site%2Fcalende
- r
-URL:https://www.theater-laboratorium.org/index.php?r=site%2Fcalender
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ol-unikum-20261127-hinnerk-koehn-noir@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T200000
-DTEND;TZID=Europe/Berlin:20261127T220000
-SUMMARY:HINNERK KÖHN – NOIR
-LOCATION:Unikum (Oldenburger Uni Theater\, OUT)\, Uhlhornsweg 49-55\, 26129
-  Oldenburg
-DESCRIPTION:Comedy.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
- em Besuch prüfen): https://www.theater-unikum.de/spielplan/
-URL:https://www.theater-unikum.de/spielplan/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ol-theater-laboratorium-20261128-der-grosse-abend-der-kleinen-diktatore
  n@myeventhub.de
 DTSTAMP:20261119T000000Z
@@ -98,7 +57,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-unikum-20261128-hector-pascal@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T200000
 DTEND;TZID=Europe/Berlin:20261128T220000
 SUMMARY:HECTOR PASCAL
@@ -137,15 +96,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-unikum-20261129-didoorishow@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261129T180000
 DTEND;TZID=Europe/Berlin:20261129T200000
-SUMMARY:didoorishow
+SUMMARY:ABGESAGT: didoorishow
 LOCATION:Unikum (Oldenburger Uni Theater\, OUT)\, Uhlhornsweg 49-55\, 26129
   Oldenburg
 DESCRIPTION:Comedy.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor d
  em Besuch prüfen): https://www.theater-unikum.de/spielplan/
 URL:https://www.theater-unikum.de/spielplan/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: didoorishow am 29.11.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261129T150000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -189,7 +153,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-unikum-20261203-girl-interrupted@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261203T200000
 DTEND;TZID=Europe/Berlin:20261203T220000
 SUMMARY:Girl\, Interrupted
@@ -278,7 +242,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-unikum-20261205-girl-interrupted@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261205T200000
 DTEND;TZID=Europe/Berlin:20261205T220000
 SUMMARY:Girl\, Interrupted
@@ -331,6 +295,19 @@ URL:https://www.theater-laboratorium.org/index.php?r=site%2Fcalender
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ol-unikum-20261206-hector-pascal@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+DTEND;TZID=Europe/Berlin:20261206T200000
+SUMMARY:HECTOR PASCAL
+LOCATION:Unikum (Oldenburger Uni Theater\, OUT)\, Uhlhornsweg 49-55\, 26129
+  Oldenburg
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.theater-unikum.de/spielplan/
+URL:https://www.theater-unikum.de/spielplan/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ol-exhalle-20261206-die-wut-die-bleibt@myeventhub.de
 DTSTAMP:20261003T000000Z
 DTSTART;TZID=Europe/Berlin:20261206T200000
@@ -341,19 +318,6 @@ LOCATION:Exhalle (Oldenburgisches Staatstheater)\, Johannisstraße 6\, 2612
 DESCRIPTION:Schauspiel.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte v
  or dem Besuch prüfen): https://staatstheater.de/kalender
 URL:https://staatstheater.de/kalender
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ol-unikum-20261206-hector-pascal@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261206T200000
-DTEND;TZID=Europe/Berlin:20261206T220000
-SUMMARY:HECTOR PASCAL
-LOCATION:Unikum (Oldenburger Uni Theater\, OUT)\, Uhlhornsweg 49-55\, 26129
-  Oldenburg
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
-  prüfen): https://www.theater-unikum.de/spielplan/
-URL:https://www.theater-unikum.de/spielplan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -410,7 +374,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-unikum-20261210-hector-pascal@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261210T200000
 DTEND;TZID=Europe/Berlin:20261210T220000
 SUMMARY:HECTOR PASCAL
@@ -463,7 +427,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ol-unikum-20261211-ein-weihnachtslied@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261211T200000
 DTEND;TZID=Europe/Berlin:20261211T220000
 SUMMARY:Ein Weihnachtslied
@@ -1615,6 +1579,19 @@ URL:https://www.theater-unikum.de/spielplan/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ol-theater-hof19-20270212-schatz-schatz@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270212T200000
+DTEND;TZID=Europe/Berlin:20270212T220000
+SUMMARY:Schatz&Schatz
+LOCATION:theater hof/19\, Bahnhofstraße 19\, 26122 Oldenburg
+DESCRIPTION:Gastspielreihe TauFrisch.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.theaterhof19.de/spielpla
+ n/aktueller-spielplan
+URL:https://www.theaterhof19.de/spielplan/aktueller-spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ol-kulturetage-20270212-traumschiff-gloria@myeventhub.de
 DTSTAMP:20261011T000000Z
 DTSTART;VALUE=DATE:20270212
@@ -1624,6 +1601,19 @@ LOCATION:Kulturetage\, Bahnhofstraße 11\, 26122 Oldenburg
 DESCRIPTION:Show.\nQuelle (bitte vor dem Besuch prüfen): https://www.kultu
  retage.de/veranstaltungen_12.html
 URL:https://www.kulturetage.de/veranstaltungen_12.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-theater-hof19-20270213-schatz-schatz@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270213T200000
+DTEND;TZID=Europe/Berlin:20270213T220000
+SUMMARY:Schatz&Schatz
+LOCATION:theater hof/19\, Bahnhofstraße 19\, 26122 Oldenburg
+DESCRIPTION:Gastspielreihe TauFrisch.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.theaterhof19.de/spielpla
+ n/aktueller-spielplan
+URL:https://www.theaterhof19.de/spielplan/aktueller-spielplan
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2134,6 +2124,32 @@ SUMMARY:Wein oder nicht Wein
 LOCATION:theater hof/19\, Bahnhofstraße 19\, 26122 Oldenburg
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://www.theaterhof19.de/spielplan/aktueller-spielplan
+URL:https://www.theaterhof19.de/spielplan/aktueller-spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-theater-hof19-20270409-sylt-ueber-unsere-verhaeltnisse@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270409T200000
+DTEND;TZID=Europe/Berlin:20270409T220000
+SUMMARY:Sylt – Über unsere Verhältnisse
+LOCATION:theater hof/19\, Bahnhofstraße 19\, 26122 Oldenburg
+DESCRIPTION:Gastspielreihe TauFrisch.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.theaterhof19.de/spielpla
+ n/aktueller-spielplan
+URL:https://www.theaterhof19.de/spielplan/aktueller-spielplan
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ol-theater-hof19-20270410-sylt-ueber-unsere-verhaeltnisse@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270410T200000
+DTEND;TZID=Europe/Berlin:20270410T220000
+SUMMARY:Sylt – Über unsere Verhältnisse
+LOCATION:theater hof/19\, Bahnhofstraße 19\, 26122 Oldenburg
+DESCRIPTION:Gastspielreihe TauFrisch.\nEnde: laut Quelle nicht angegeben\nQ
+ uelle (bitte vor dem Besuch prüfen): https://www.theaterhof19.de/spielpla
+ n/aktueller-spielplan
 URL:https://www.theaterhof19.de/spielplan/aktueller-spielplan
 TRANSP:TRANSPARENT
 END:VEVENT

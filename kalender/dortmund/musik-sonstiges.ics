@@ -28,19 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:do-dasa-20261127-gitarrenkonzert@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Gitarrenkonzert
-LOCATION:DASA Arbeitswelt Ausstellung\, Friedrich-Henkel-Weg 1-25\, 44149 D
- ortmund
-DESCRIPTION:Konzert von sechs Dortmunder Gitarrenensembles in der Energieha
- lle.\nQuelle (bitte vor dem Besuch prüfen): https://www.dasa-dortmund.de/
-URL:https://www.dasa-dortmund.de/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:do-fritz-henssler-haus-20261203-jamroulette-die-etwas-andere-jamsession
  @myeventhub.de
 DTSTAMP:20261126T000000Z
@@ -92,6 +79,18 @@ LOCATION:Westfalenhallen Dortmund (Westfalenhalle)\, Strobelallee 45\, 4413
 DESCRIPTION:Quelle (bitte vor dem Besuch prüfen): https://www.westfalenhal
  le.de/events-tickets/eventfinder/
 URL:https://www.westfalenhalle.de/events-tickets/eventfinder/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:do-musiktheater-piano-20270206-nightlife-live-2027@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20270206T200000
+DTEND;TZID=Europe/Berlin:20270206T220000
+SUMMARY:Nightlife Live 2027
+LOCATION:Musiktheater Piano\, Lütgendortmunder Straße 43\, 44388 Dortmund
+DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
+  prüfen): https://www.musiktheater-piano.de/
+URL:https://www.musiktheater-piano.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

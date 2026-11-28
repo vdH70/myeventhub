@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//my Event Hub//Erinnert werden//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Feste in Mönchengladbach · my Event Hub
+X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten 
+ der Veranstalter und Spielstätten. Angaben ohne Gewähr\, bitte vor dem B
+ esuch die verlinkte Quelle prüfen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261128-wdr-2-weihnachtswunder-30-stunden-nonstop-offen
+ e-k-beginn@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Beginn: WDR 2 Weihnachtswunder: 30 Stunden nonstop offene Kulturarb
+ eit
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Laufende Aktion laut Seite 20.11.-13.12.2026.\nLaufzeit: 28.11.
+ 2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.bi
+ s-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mg-bis-zentrum-20261128-wdr-2-weihnachtswunder-30-stunden-nonstop-offen
+ e-k-ende@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Letzter Tag: WDR 2 Weihnachtswunder: 30 Stunden nonstop offene Kult
+ urarbeit
+LOCATION:BIS – Zentrum für offene Kulturarbeit\, Bismarckstraße 97–99
+ \, 41061 Mönchengladbach
+DESCRIPTION:Laufende Aktion laut Seite 20.11.-13.12.2026.\nLaufzeit: 28.11.
+ 2026 bis 13.12.2026\nQuelle (bitte vor dem Besuch prüfen): https://www.bi
+ s-zentrum.de/programm/
+URL:https://www.bis-zentrum.de/programm/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

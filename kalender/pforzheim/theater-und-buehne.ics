@@ -28,33 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pf-kulturhaus-osterfeld-20261127-2000-ingo-appelt@myeventhub.de
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T200000
-DTEND;TZID=Europe/Berlin:20261127T220000
-SUMMARY:Ingo Appelt
-LOCATION:Kulturhaus Osterfeld\, Osterfeldstraße 12\, 75172 Pforzheim
-DESCRIPTION:Kabarett- bzw. Comedy-Abend im Kulturhaus Osterfeld in Pforzhei
- m.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfe
- n): https://www.kulturhaus-osterfeld.de/events/3072_3954-ingo-appelt
-URL:https://www.kulturhaus-osterfeld.de/events/3072_3954-ingo-appelt
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:pf-mottenkaefig-20261127-2000-das-gespenst-von-canterville@myeventhub.d
- e
-DTSTAMP:20261127T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T200000
-DTEND;TZID=Europe/Berlin:20261127T220000
-SUMMARY:ABGESAGT: Das Gespenst von Canterville
-LOCATION:Figurentheater Mottenkäfig\, Pforzheim
-DESCRIPTION:Figurentheater für Erwachsene im Mottenkäfig in Pforzheim-Br
- ötzingen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
- h prüfen): https://mottenkaefig.de/spielplan.html
-URL:https://mottenkaefig.de/spielplan.html
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:pf-kulturhaus-osterfeld-20261128-1930-boris-stijelja@myeventhub.de
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T193000
@@ -203,15 +176,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pf-mottenkaefig-20261212-2000-das-gespenst-von-canterville@myeventhub.d
  e
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261212T200000
 DTEND;TZID=Europe/Berlin:20261212T220000
-SUMMARY:Das Gespenst von Canterville
+SUMMARY:ABGESAGT: Das Gespenst von Canterville
 LOCATION:Figurentheater Mottenkäfig\, Pforzheim
 DESCRIPTION:Figurentheater für Erwachsene im Mottenkäfig in Pforzheim-Br
  ötzingen.\nEnde: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuc
  h prüfen): https://mottenkaefig.de/spielplan.html?month=202612
 URL:https://mottenkaefig.de/spielplan.html?month=202612
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Das Gespenst von Canterville am 12.12.2026 (laut Vera
+ nstalter)
+TRIGGER;VALUE=DATE-TIME:20261129T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,23 +10,6 @@ X-WR-CALDESC:Termine von https://www.myeventhub.de\, direkt von den Seiten
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
 UID:f-juedisches-museum-20251218-follow-the-function-ende@myeventhub.de
 DTSTAMP:20261025T000000Z
@@ -375,21 +358,6 @@ LOCATION:Liebieghaus Skulpturensammlung\, Schaumainkai 71\, 60596 Frankfurt
 DESCRIPTION:Laufzeit: 18.11.2026 bis 25.7.2027\nQuelle (bitte vor dem Besuc
  h prüfen): https://www.liebieghaus.de/de/ausstellungen
 URL:https://www.liebieghaus.de/de/ausstellungen
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:f-museum-angewandte-kunst-20261127-ausstellungseroeffnung-how-to-design
- -a-revolution@myeventhub.de
-DTSTAMP:20261123T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T190000
-DTEND;TZID=Europe/Berlin:20261127T210000
-SUMMARY:Ausstellungseröffnung: How to Design a Revolution
-LOCATION:Museum Angewandte Kunst\, Schaumainkai 17\, 60594 Frankfurt am Mai
- n
-DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: Eintritt frei\nQuelle
-  (bitte vor dem Besuch prüfen): https://www.museumangewandtekunst.de/de/k
- alender/
-URL:https://www.museumangewandtekunst.de/de/kalender/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

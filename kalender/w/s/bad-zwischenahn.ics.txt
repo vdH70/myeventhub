@@ -34,15 +34,16 @@ BEGIN:VEVENT
 UID:bz-altes-kurhaus-20261204-comedy-night-praesentiert-von-thiess-neubert@
  myeventhub.de
 DTSTAMP:20261102T000000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
+DTSTART;TZID=Europe/Berlin:20261204T200000
+DTEND;TZID=Europe/Berlin:20261204T220000
 SUMMARY:Comedy Night präsentiert von Thieß Neubert
 LOCATION:Altes Kurhaus Bad Zwischenahn (Spiegelsaal)\, Auf dem Hohen Ufer 2
  0\, 26160 Bad Zwischenahn
 DESCRIPTION:Comedy-Abend mit drei Comedians im Spiegelsaal\, rund zwei Stun
- den.\nPreis: 29 €\, Abendkasse 32 €\nQuelle (bitte vor dem Besuch prü
- fen): https://www.bad-zwischenahn-touristik.de/veranstaltungen/veranstaltu
- ngskalender/event/comedy-night-praesentiert-von-thiess-neubert
+ den.\nEnde: laut Quelle nicht angegeben\nPreis: 29 €\, Abendkasse 32 €
+ \nQuelle (bitte vor dem Besuch prüfen): https://www.bad-zwischenahn-touri
+ stik.de/veranstaltungen/veranstaltungskalender/event/comedy-night-praesent
+ iert-von-thiess-neubert
 URL:https://www.bad-zwischenahn-touristik.de/veranstaltungen/veranstaltungs
  kalender/event/comedy-night-praesentiert-von-thiess-neubert
 TRANSP:TRANSPARENT
@@ -50,10 +51,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bz-altes-kurhaus-20261218-adventskonzert-mit-dem-olaika-kammerchor-aus-
  olden@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261218T170000
 DTEND;TZID=Europe/Berlin:20261218T190000
-SUMMARY:Adventskonzert mit dem OLAIKA Kammerchor aus Oldenburg
+SUMMARY:ABGESAGT: Adventskonzert mit dem OLAIKA Kammerchor aus Oldenburg
 LOCATION:Altes Kurhaus Bad Zwischenahn (Spiegelsaal)\, Auf dem Hohen Ufer 2
  0\, 26160 Bad Zwischenahn
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 10 € (ermäßigt 9 
@@ -62,6 +63,12 @@ DESCRIPTION:Ende: laut Quelle nicht angegeben\nPreis: 10 € (ermäßigt 9
  t-dem-olaika-kammerchor-aus-oldenburg
 URL:https://www.bad-zwischenahn-touristik.de/veranstaltungen/veranstaltungs
  kalender/event/adventskonzert-mit-dem-olaika-kammerchor-aus-oldenburg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Adventskonzert mit dem OLAIKA Kammerchor aus Oldenbur
+ g am 18.12.2026 (laut Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261129T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

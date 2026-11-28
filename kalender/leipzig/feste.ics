@@ -28,34 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:l-felsenkeller-20261126-felsenkeller-weihnachtsmarkt-2026-beginn@myeven
- thub.de
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Beginn: Felsenkeller Weihnachtsmarkt 2026
-LOCATION:Biergarten
-DESCRIPTION:Laufzeit: 26.11.2026 bis 27.11.2026\nPreis: Eintritt frei\nQuel
- le (bitte vor dem Besuch prüfen): https://www.felsenkeller-leipzig.com/pr
- ogramm/
-URL:https://www.felsenkeller-leipzig.com/programm/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:l-felsenkeller-20261126-felsenkeller-weihnachtsmarkt-2026-ende@myeventh
- ub.de
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Letzter Tag: Felsenkeller Weihnachtsmarkt 2026
-LOCATION:Biergarten
-DESCRIPTION:Laufzeit: 26.11.2026 bis 27.11.2026\nPreis: Eintritt frei\nQuel
- le (bitte vor dem Besuch prüfen): https://www.felsenkeller-leipzig.com/pr
- ogramm/
-URL:https://www.felsenkeller-leipzig.com/programm/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:l-felsenkeller-20261128-felsenkeller-weihnachtsmarkt-2026-beginn@myeven
  thub.de
 DTSTAMP:20261114T000000Z
@@ -147,6 +119,19 @@ LOCATION:Täubchenthal\, Wachsmuthstraße 1\, 04229 Leipzig
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://www.taeubchenthal.com/programm
 URL:https://www.taeubchenthal.com/programm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:l-elsterartig-20261210-bingo-wahnsinn-weihnachts-spezial@myeventhub.de
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Berlin:20261210T203000
+DTEND;TZID=Europe/Berlin:20261210T223000
+SUMMARY:Bingo Wahnsinn – Weihnachts-Spezial
+LOCATION:Elsterartig\, Dittrichring 17\, 04109 Leipzig
+DESCRIPTION:Bar & Grill ab 19:30 Uhr\, Anmeldung erforderlich.\nEinlass 19:
+ 30\, Beginn 20:30 Uhr\nEnde: laut Quelle nicht angegeben\nPreis: Eintritt 
+ frei\nQuelle (bitte vor dem Besuch prüfen): https://elsterartig.de/
+URL:https://elsterartig.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

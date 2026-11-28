@@ -28,20 +28,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ac-grenzlandtheater-20261127-2000-amelie-musical@myeventhub.de
-DTSTAMP:20261123T000000Z
-DTSTART;TZID=Europe/Berlin:20261127T200000
-DTEND;TZID=Europe/Berlin:20261127T220000
-SUMMARY:Amélie – Musical
-LOCATION:Grenzlandtheater Aachen\, Friedrich-Wilhelm-Platz 5/6\, 52062 Aach
- en
-DESCRIPTION:Musical nach dem Film über Amélie im Grenzlandtheater.\nEnde:
-  laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch prüfen): https
- ://grenzlandtheater.de/kalender/
-URL:https://grenzlandtheater.de/kalender/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ac-grenzlandtheater-20261128-1600-amelie-musical@myeventhub.de
 DTSTAMP:20261123T000000Z
 DTSTART;TZID=Europe/Berlin:20261128T160000
@@ -193,19 +179,25 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ac-franz-20261206-lars-ruth-die-reise-des-sehers@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261206T190000
 DTEND;TZID=Europe/Berlin:20261206T210000
-SUMMARY:Lars Ruth – Die Reise des Sehers
+SUMMARY:ABGESAGT: Lars Ruth – Die Reise des Sehers
 LOCATION:FRANZ – Die Kultstätte\, Franzstraße 74\, 52064 Aachen
 DESCRIPTION:Ende: laut Quelle nicht angegeben\nQuelle (bitte vor dem Besuch
   prüfen): https://aachen-franz.de/programm/
 URL:https://aachen-franz.de/programm/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ABGESAGT: Lars Ruth – Die Reise des Sehers am 6.12.2026 (laut
+  Veranstalter)
+TRIGGER;VALUE=DATE-TIME:20261129T170000Z
+END:VALARM
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ac-franz-20261209-ralf-senkel-der-hat-gesessen@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261209T200000
 DTEND;TZID=Europe/Berlin:20261209T220000
 SUMMARY:Ralf Senkel – Der hat gesessen! (ausverkauft)
@@ -217,7 +209,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ac-franz-20261210-maddin-schneider-schoene-sonndaach@myeventhub.de
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Berlin:20261210T200000
 DTEND;TZID=Europe/Berlin:20261210T220000
 SUMMARY:Maddin Schneider – Schöne Sonndaach!
